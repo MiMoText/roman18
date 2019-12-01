@@ -87,9 +87,9 @@ END LOOP
 ### 2. Schritt: Die einzelnen RTF-Dateien den Romanen zuordnen und trennen (händisch)
 ### 3. Schritt: Bearbeitung mit TUSTEP, Erzeugung eines XML- Dokuments
 
-1. Lesen die Datei mit dem Befehl sammelrtf.m ein (hier einen Pfad zur Datei eingeben). Immer nur eine Datei darf in dem Ordner liegen. TUSTEP sammelt die Datei ein und erzeugt eine TUSTEP-Datei. Sie wird separat gespeichert unter dem eingegeben Datei-Namen. (Ausführung: x, #makro,'<editor>')
-2. p_vorcod.p bearbeitet die erzeugte TUSTEP-Datei: Sonderzeichen werden ersetzt, eine XML-ähnliche Datei wird generiert (aber nicht wohlgeformt). Dateiname anpassen/eingeben. (Ausführung: x, #t, '<editor>')
-3. export_xml.p -exportiert die erzeugte XML-Datei. Dateiname anpassen/eingeben. (Ausführung: x, #t,'<editor>')
+1. Lesen die Datei mit dem Befehl sammelrtf.m ein (hier einen Pfad zur Datei eingeben). Immer nur eine Datei darf in dem Ordner liegen. TUSTEP sammelt die Datei ein und erzeugt eine TUSTEP-Datei. Sie wird separat gespeichert unter dem eingegeben Datei-Namen. (Ausführung: x, #makro,<editor>)
+2. p_vorcod.p bearbeitet die erzeugte TUSTEP-Datei: Sonderzeichen werden ersetzt, eine XML-ähnliche Datei wird generiert (aber nicht wohlgeformt). Dateiname anpassen/eingeben. (Ausführung: x, #t, <editor>)
+3. export_xml.p -exportiert die erzeugte XML-Datei. Dateiname anpassen/eingeben. (Ausführung: x, #t,<editor>)
    
    
 
