@@ -119,6 +119,15 @@ Die Bearbeitung erfolgt mit dem Python-Script "generating_wellformed_files.py" i
 12. Einige RTF-Dateien  und als Ergebnis auch die TUSTEP-XMLs waren fehlerhaft(nicht geschlossene Tags z.B.) und mussten deswegen manuell korrigiert werden
 13. Der Vorspann (<front>) und der Textkörper (<body>) sind in XMLs manuell markiert. So kann man verschiedene Ausgaben von Texten bekommen: mit Vorspann und ohne.
 
+### 5. Schritt: XML-Dateien für verschiedene Zwecke
+
+Die generierten XML-Dateien werden für OCR-Erkennung mit OCR4all-Software, Plaintext-Extraktion und als Zwischenschritt bei der TEI-Transkription angewendet.
+
+## OCR-Erkennung
+Die XML-Datei wird für Modell-Training mit OCR4all benutzt. Dabei ist wichtig, dass jede Zeile im Text erhalten bleibt und alle Zeilen durchnummeriert sind. Das erfolgt bereits bei der Bearbeitung mit TUSTEP.
+
+## Plaintext-Extraktion
+Für Plaintext-Extraktion müssen die Kopfzeilen (sie sind mit <fw> markiert) gelöscht werden, da sie nicht zum eigentlichen Text gehören. Auch die Abtrennung des Vorspanns und des Textkörpers ist hier wichtig. Der Vorspann und der Textkörper werden manuell in XML-Datei markiert. 
 
 
 
