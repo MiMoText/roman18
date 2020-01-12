@@ -109,12 +109,15 @@ Die Bearbeitung erfolgt mit dem Python-Script "generating_wellformed_files.py" i
 3. Eine Excel-Tabelle, die zur Erläuterung der Kodierung dient, wurde erstellt. Die Tabelle umfasst die Original-Double-keying Kodierungen, die TUSTEP- und die TEI-Kodierungen und deren Erläuterung. Anhand diese Tabelle werden die weiteren Änderungen in XML-Dateien vorgenommen
 3. Die unnötige Elemente werden gelöscht
 4. Die notwendige Elemente werden durch TEI-konforme (bis jetzt noch nicht 100% vollständig) Elemente ersetzt (Quelle "https://tei-c.org/")
-5. Jede TUSTEP-Datei wurde zudem manuell kontroliert, ob sie noch bestimmte Sonderelemente enthält. Diese Elemente wurden dann ensprechend behandelt: entweder gelöscht (wie z.B. merkwürdige Markierung mit kursiven Bezeichnung von einzelnen Punktuation-Zeichen) oder durch korrekte Elemente ersetzt
-6. Alle Änderungen der Datei wurden nur innerhalb des Python-Scripts gemacht. So kann man jede Zeit die Korrektur vornehmen und das Script optimieren
+5. Jede TUSTEP-Datei wird zudem manuell kontroliert, ob sie noch bestimmte Sonderelemente enthält. Diese Elemente werden dann ensprechend behandelt: entweder gelöscht (wie z.B. merkwürdige Markierung mit kursiven Bezeichnung von einzelnen Punktuation-Zeichen) oder durch korrekte Elemente ersetzt
+6. Alle Änderungen der Datei werden nur innerhalb des Python-Scripts gemacht. So kann man jede Zeit die Korrektur vornehmen und das Skript optimieren
 7. Im Romanen-Text wird das Schaft-s durch normales s ersetzt
 8. Nach allen Änderungen (bis jetzt ungefähr 40 Script-Zeilen) werden die leeren Zeile gelöscht
 9. Die Datei wird wieder zusammengefürt
-10. Jede neue Datei wird in neuem Ordner unter dem gleichen Namen gespeichert. 
+10. Jede neue Datei wird in neuem Ordner unter dem gleichen Namen gespeichert
+11. Anschließend wird jede neue Datei überprüft, ob sie wohlgeformt ist
+12. Einige RTF-Dateien  und als Ergebnis auch die TUSTEP-XMLs waren fehlerhaft(nicht geschlossene Tags z.B.) und mussten deswegen manuell korrigiert werden
+13. Der Vorspann (<front>) und der Textkörper (<body>) sind in XMLs manuell markiert. So kann man verschiedene Ausgaben von Texten bekommen: mit Vorspann und ohne.
 
 
 
