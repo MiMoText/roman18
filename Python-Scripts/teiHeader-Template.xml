@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Beaumont_Clarice" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="bgrf:"></title>
+        <author ref="viaf:;wikidata:"></author>
+        <respStmt>
+          <resp>data capture</resp>
+          <name>Julia Dudar</name>
+        </respStmt>
+        <respStmt>
+          <resp>encoding</resp>
+          <name></name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words"></measure>
+      </extent>
+      <publicationStmt>
+        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
+        <distributor ref="https://github.com/mimotext/roman-dixhuit">Github</distributor>
+        <date>2020</date>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en" />
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title></title>
+          <author></author>
+          <ref target="https://gallica.bnf.fr/ark:########"/>
+          <date></date>
+        </bibl>
+        <bibl type="printSource">
+          <title></title>
+          <author></author>
+          <pubPlace></pubPlace>
+          <publisher></publisher>
+          <date></date>
+        </bibl>
+        <bibl type="firstEdition">
+          <title></title>
+          <author></author>
+          <pubPlace></pubPlace>
+          <publisher></publisher>
+          <date></date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="eltec-1">
+      <p />
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra" />
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form"></term>
+          <term type="decade"></term>
+          <term type="subgenre"></term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key=""/>
+        <size xmlns="http://distantreading.net/eltec/ns" key=""/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key=""/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key=""/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when=""></change>
+    </revisionDesc>
+  </teiHeader>
