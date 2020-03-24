@@ -23,28 +23,48 @@ def extraction(document):
     return doc
 
 
+def parameter(document,cmd1,cmd2,cmd3):
+    soup = BeautifulSoup(document, "xml")
+    if cmd1 == 'NO':
+        # gives text without footnotes
+        for tag in soup.find_all('note'):
+            tag.extract()
+    else:
+        pass
+    if cmd2 == 'NO':
+        # gives text without heading
+        for tag in soup.find_all('head'):
+            tag.extract()
+    else:
+        pass
+    if cmd3 == 'body':
+        # gives text without <front> and <back>
+        plain_text = soup.body.get_text()
+    if cmd3 == 'full':
+        plain_text = soup.get_text()
+
+    return plain_text
+
 
 def main():
+    cmd1 = input('please choose footnotes "YES|NO"')
+    cmd2 = input('please choose headings "YES|NO"')
+    cmd3 = input('please choose fullversion or just body "full|body"')
+    #give a path where your data are stored
     for file in glob.glob('C:/Users/yulya/PycharmProjects/TEI-XML/worksxmls/*.xml'):
         roman = file_reader(file)
         roman = extraction(roman)
-        soup = BeautifulSoup(roman, "xml")
-        #gives text without footnotes
-        #for tag in soup.find_all('note'):
-            #tag.extract()
-        plain_text = soup.get_text()
-        #gives text without <front> and <back>
-        #plain_text = soup.body.get_text()
+        plaintext = parameter(roman,cmd1,cmd2,cmd3)
         #delete empty lines
-        plain_text = [line for line in plain_text.split('\n') if line.strip() != '']
-        plain_text = '\n'.join(plain_text)
+        plaintext = [line for line in plaintext.split('\n') if line.strip() != '']
+        plaintext = '\n'.join(plaintext)
         save_path = 'C:/Users/yulya/PycharmProjects/TEI-XML/texts/'
         name = os.path.basename(file)
         name = name.replace('xml','txt')
         fullname = os.path.join(save_path, name)
-        print(plain_text)
+        print(plaintext)
         fa = open(fullname, 'w', encoding="utf8")
-        fa.write(plain_text)
+        fa.write(plaintext)
 
 
 if __name__ == "__main__":
