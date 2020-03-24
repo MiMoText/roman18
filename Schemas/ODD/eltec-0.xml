@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding Guidelines for the ELTeC (level 0) </title>
+            <author>Cost Action CA16204 – WG1</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished draft for discussion</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A born digital document drafted in TEI format by LB</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2018-03-16">Revised post-Prague</change>
+         <change when="2018-01-17">Expanded metadata section a bit; added comments from CO and
+            BN</change>
+         <change when="2017-12-17">First (partial) discussion draft</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+
+      <xi:include href="eltec-body.xml"/>
+
+      <back>
+         <div>
+            <head>Formal specification (level 0)</head>
+            <p>The ELTeC encoding scheme defined by this document is a TEI-conformant customization,
+               from which user documentation, and formal RELAXNG or DTD specifications can be
+               generated automatically. </p>
+
+            <schemaSpec ident="eltec-0" source="eltec-library.xml" start="TEI teiCorpus">
+               <moduleRef key="tei"/>
+               <moduleRef key="header"
+                  include="availability change distributor encodingDesc extent fileDesc idno  keywords langUsage language
+            licence profileDesc publicationStmt revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+               <elementRef key="TEI"/>
+							 <elementRef key="teiCorpus"/>
+
+               <elementRef key="back"/>
+               <elementRef key="body"/>
+               <elementRef key="div"/>
+               <elementRef key="front"/>
+               <elementRef key="head"/>
+               <elementRef key="hi"/>
+               <elementRef key="l"/>
+               <elementRef key="p"/>
+               <elementRef key="pb"/>
+               <elementRef key="text"/>
+               <elementRef key="trailer"/>
+
+
+               <!-- the following are needed in header-->
+
+               <elementRef key="author"/>
+               <elementRef key="bibl"/>
+               <elementRef key="date"/>
+               <elementRef key="idno"/>
+               <elementRef key="measure"/>
+               <elementRef key="name"/>
+               <elementRef key="pubPlace"/>
+               <elementRef key="publisher"/>
+               <elementRef key="ref"/>
+               <!--    <elementRef key="relatedItem"/>
+  -->
+               <elementRef key="resp"/>
+               <elementRef key="respStmt"/>
+               <elementRef key="term"/>
+               <elementRef key="title"/>
+               <elementRef key="textDesc"/>
+               <elementRef key="authorGender"/>
+               <elementRef key="size"/>
+               <elementRef key="reprintCount"/>
+               <elementRef key="canonicity"/>
+
+               <elementRef key="timeSlot"/>
+
+               <!-- change class memberships for title to prevent it appearing outside the header -->
+
+               <elementSpec ident="title" mode="change">
+                  <classes mode="replace">
+                     <memberOf key="att.global"/>
+                     <memberOf key="model.biblPart"/>
+                     <memberOf key="att.canonical"/>
+                  </classes>
+               </elementSpec>
+
+
+
+
+            </schemaSpec>
+
+         </div>
+      </back>
+
+   </text>
+</TEI>

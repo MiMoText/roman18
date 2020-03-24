@@ -1,0 +1,872 @@
+
+<body xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns">
+   <p>This reference document describes the European Literary Text
+      Collection (ELTeC), a major deliverable of COST Action 16204, <title>Distant
+         Reading</title>. The ELTeC is a principled collection of literary text corpora, uniformly
+      encoded in TEI XML, and representing
+      the production of novels in different European languages for the period 1840 to 1920. The
+      present document begins with a description of 
+      the principles and sampling methods used to construct the collection, and is followed by
+      detailed
+      technical documentation of the TEI XML schema used to encode the textual components and the
+      metadata of the
+      collection.  All texts included in the ELTeC conform to the schema
+      described by this document. </p>
+ <div><head>Corpus Design</head> <div>
+         <head>Principles and sampling method</head>
+        <!-- <p>The task for WG1 is to develop guidelines for data and metadata for the creation of the
+            ELTeC. This task can be split up into several distinct tasks: Guidelines for corpus
+            design, basic annotation and metadata schemes and workflow. This discussion paper
+            focuses on corpus design and metadata because both tasks interplay with each other.</p>-->
+         <p>The goal of CA16204 is to create a <!--big--> benchmark corpus of literature from 1840-1920
+            <!--(first period) --> adequate to the needs of many different computational distant reading methods for corpus annotation
+            and analysis. <!--The task of creating annotation guidelines of WG1 needs to be closely
+            communicated and coordinated with WG2 in order to know which methods and tools needs
+            which kind(s) of annotation model and format. The same holds for the development of the
+            metadata scheme.--> <!--</p>
+         <p>For creating such a benchmark corpus, we need a--> The corpus design should support
+            comparison of texts and individual sub-collections selected according to the metadata
+            associated with each text.  
+         It should be possible to sample sub-collections
+            from the ELTeC for specific tasks and research questions. In a first step, we focus on
+            the development of clear, operationalized, transparent and motivated selection criteria
+            for the corpus.</p>
+         <p>It is important to stress that we do not intend to define what a novel is by defining
+            what kind of selection criteria we will use for ELTeC. The category novel may be divided
+            into three groups where at least one of the following core criteria is met: a) textual:
+            length (>10.000 words), prose, fiction, narrative structure b) paratextual (the term
+            ‘novel’ or  equivalent appears in the title or subtitle of the text) and c) contextual:
+            the text is bibliographically listed with the UDC: 82-31 Novels. Full-length
+            stories.</p>
+     
+   <!--      <head>Method</head>
+   -->      <p>We follow a non-normative but metadata-based approach of sampling criteria which will
+            follow a corpus design approach. Corpus sampling criteria are mostly oriented/developed
+            by the research question or/and contexts of the corpus creators group. In CA16204, we
+            have neither only a single research question nor a fixed and previously known corpus
+            creator group. The research context of the Action is more interested in knowledge
+            production in a methodological sense and does not prefer a single method, model or
+            theory. Furthermore, the member group of the Action will fluctuate and consist of
+            researches from different disciplines with different theoretical and cultural contexts.
+            Thus, we need to build the corpus design on a methodical basis. With this method, we
+            will also be able to select canonical texts as well but not exclusively. </p>
+         <p> Representativeness is a kind of ideal which we would like to pursue but which cannot be
+            achieved as whole. We will therefore aim to represent the variety of a population. In
+            line with the MoU, the ELTeC will be designed as a monitor corpus where texts (from
+            different languages and periods) can be added over time. We then need to decide which
+            criterion is balanced in which way and interplays with other criteria.</p>
+      </div>
+      <div>
+         <head>Requirements of sampling criteria</head>
+         <p>According to the MoU, the corpus design should be balanced with respect to language and
+            publication date of the texts. This means that the corpus should not be based solely on
+            chronological criteria, meaning that we need a text from each year of the period in
+            question. The main sampling criterion ‘language’ will require not to include
+            translations at all. We will prefer to take the first edition of a novel or editions of
+            these novels. By a novel, we prefer to take the edition of the book, hence we don't
+            prefer novels only printed in periodicals, unless a particular literary tradition only
+            features novels printed in serial format. If we consider editions of a novel, these
+            editions should be freely available (free licences for reusing them. The first edition
+            is more interesting from a philological point of view. It represents the authentic texts
+            of the authors. Dealing with historical texts might require some cleaning up or
+            normalizations. We will merge all word forms which are separated by line breaks. At the
+            moment, we must assume that there are no (sufficiently good) normalization tools for
+            every language. Later editions of a novel may be already normalized in some way. This
+            might lead to different text representations in ELTeC which should be indicated in the
+            metadata. </p>
+         <p>Considering also later freely available editions of a novel has two advantages: First,
+            members of the Action already can provide machine-readable text documents (html, TEI
+            etc.) of later editions and second, in some languages it might be easier to find later
+            editions which already exist in a machine-readable format (in this way we do not have to
+            put effort in digitizing them).</p>
+         <p> Electronically availability should not be a leading sampling criterion although
+            availability is a limiting factor. A text should not be excluded from ELTeC because it
+            is not digitized, but it should be excluded if the text cannot be made freely available
+            in ELTeC. If we only use availability as a selecting criterion, we are at risk of
+            copying projects such as ‘Gutenberg’ for example. The issue remains of finding
+            additional funds to digitise non-canonical books. Un til that moment, the solution would
+            be to create pilot corpora (that can later be supplemented or substituted by an alterna
+            tive) for literatures that do not have a significant number of digitized texts. </p>
+         <p> We then need additional criteria which can be applied without having to know (read) the
+            texts in question. The criteria should be checked without a deep knowledge about the
+            texts. Otherwise, this will oppose the goal of the whole Action and the methodical
+            approach of distant reading. The criteria should be operationalizable, meaning decidable
+            from text metadata. Here, we define text metadata in a wider scope than only the
+            classical bibliographical metadata. In this way corpus design interacts with metadata.
+            Some of the text’s metadata can be used as sampling criteria. These criteria are
+            text-external and -internal criteria (cf. Hunston 2008) on which we then need to rely.
+            The selection criteria may be assisted by bibliographical overviews (wherever available)
+            for each language in order to avoid possible canon-derived bias. </p>
+         <p>We suggest using an online table as a means of collecting nominations for inclusion in
+            the ELTeC but other methods are feasible. </p>
+      </div>
+      <div>
+         <head> Sampling criteria </head>
+         <p>For creating a language collection two steps have to be done: First step is selection:
+            identifying text candidates. Second step is balancing: proportion within the corpus.
+            Both steps are defined in this document.</p>
+         <p>Principles:</p>
+         <list type="unordered">
+            <item>We will represent the variety of production and aim to maximize the variety within
+               each time period.</item>
+            <item>We will prefer to collect novels published as a book in first as well as later
+               editions over novels published in serial publications (journals).</item>
+            <item>We will not include translations.</item>
+            <item>We will consider only freely available texts and trying to reuse already digitized
+               texts.</item>
+            <item>We will use non-normative sampling criteria which allow for selecting canonical
+               novels and non-canonical novels.</item>
+            <item>Metadata should indicate the type of text representation (normalized or
+               non-normalized, first or later editions etc.). </item>
+            <item>We will strictly follow the selection and balancing criteria and we prefer 80
+               novels meeting these criteria over 100 novels which do not meet the criteria.</item>
+         </list>
+         <p>Organization</p>
+         <list>
+            <item>Please note: Contact the sampling support Team: Carolin, Lou, Pieter and Diana!
+               Task: To control the corpus sampling according to the selection criteria. </item>
+         </list>
+         <p>Criteria: Eligibility. </p>
+         <p> In order to be included (selection), a text must... </p>
+         <list>
+            <item>have been first published as a book (or or in case of need as series publication)
+               between 1840 and 1920, sub-grouped and equally split by decades, </item>
+            <item>have first been published in a European country. [maybe not "first": within that
+               decade],</item>
+            <item>be a novel, i.e. a fictional prose narrative,</item>
+            <item>have originally been written in the language of the given subcollection.</item>
+         </list>
+         <p>Criteria: Composition. </p>
+         <p>Among the novels in each language the subcollection must contain... </p>
+         <list>
+            <item>at least 10%-50% have been written by female authors for the language
+               subcollection.</item>
+            <item>9 to 11 authors are represented with exact three novels.</item>
+            <item>at least 30% are highly canonical novels and at least 30% should be novels of low canonicity;
+ canonicity is assessed by investigating the number of times a title was reprinted during the period 1970-2009.
+               </item>
+            <item>at least 20% are short novels (10-50k word tokens), at least 20% are long novels
+               (>200k word tokens).</item>
+         </list>
+         <list type="gloss">
+
+            <label> Date : 1840 to 1920 (first iteration)</label>
+            <item>
+               <p>We will divide into four groups</p>
+               <list type="unordered">
+                  <item>group A (1840-1859): code T1</item>
+                  <item>group B (1860-1879): code T2</item>
+                  <item>group C (1880-1899): code T3</item>
+                  <item>group D (1900-1920): code T4</item>
+               </list>
+            </item>
+
+            <label>Language of the text</label>
+            <item><p>The MoU defines the languages to be sampled. It does not propose distinguishing
+                  regional variation (e.g. in German), nor geographical variation (e.g. the French
+                  spoken in Belgium, France, or Switzerland). It assumes only European varieties, so
+                  English excludes US English; French excludes Quebecois. </p>
+               <p> We follow a language-based approach (not country-based). This means for example
+                  that we include Swiss German texts in the German language collection. We prefer
+                  standard varieties over dialect varieties if sampling criteria for text candidates
+                  are met. </p>
+            </item>
+            <label>Reprint count</label>
+            <item><p>We propose to use the number of times a work is reprinted as an objective
+                  measure of its reception during the period 1970-2009, using categories like the following: </p><list>
+                  <item>low: few or no reprints found during this period,</item>
+                  <item>high: many reprints found during this period</item>
+                  <item>Note that the reprint count does not include digitizations of texts.</item>
+               </list></item>
+            <label>Author gender</label>
+            <item>
+               <p>We use the following three categories for actual (not claimed) author gender </p><list>
+                  <item>male</item>
+                  <item>female</item>
+                  <item>mixed (more than one author)</item>
+                  <item>undefined</item>
+               </list>
+            </item>
+            <label>Length</label>
+            <item>
+               <p>We include a variety of lengths</p>
+               <list>
+                  <item>short (10k-50k word tokens) </item>
+                  <item>medium (50k-100k word tokens)</item>
+                  <item>long (>100k word tokens)</item>
+               </list></item>
+         </list>
+      </div></div>
+   <div><head>Corpus Encoding</head>
+   <div>
+      <head>Encoding Principles</head>
+      <p>The MoU for the project notes that <q>Distant Reading methods cover a wide range of
+         computational methods for literary text analysis, such as authorship attribution, topic
+         modelling, character network analysis, or stylistic analysis.</q> The focus of the ELTeC
+         encoding scheme is therefore not to represent texts in all their original complexity of
+         structure or appearance, but rather to facilitate a richer and better-informed distant
+         reading than a transcription of lexical content alone would permit. In designing this
+         encoding scheme, we have applied the following principles: <list>
+            <item>There should be a guaranteed minimum level of encoding for all texts in the
+               ELTeC.</item>
+            <item>The encoding should reflect the analytic needs of <soCalled>distant
+               reading</soCalled>, rather than those of the digital editor.</item>
+            <item>At the same time, the encoding should not misrepresent the text as originally
+               created and received.</item>
+            <item>The encoding must be easy to apply in a consistent way, starting from both basic
+               OCR and pre-existing digital versions.</item>
+         </list> The goal is not to duplicate the work of scholarly editors or to produce (yet
+         another) digital edition of a specific source document. Rather it is to ensure that the
+         ELTeC texts can be processed satisfactorily, even by simple minded (but XML-aware) systems
+         primarily concerned with lexis, and to make life easier for the developers of such systems. </p>
+      
+      <p>In selecting features for inclusion in the markup scheme, we have been guided, but not
+         limited, by existing practice as far as possible. Our main goal has been to identify a
+         small core set of textual features which can be readily (preferably automatically)
+         identified in existing digital transcriptions, or easily and consistently provided by new
+         transcriptions. </p>
+      
+      <p>We distinguish three <soCalled>levels</soCalled> of encoding, referred to below as level
+         zero, level one and level two. All ELTeC texts are made available at level zero, the basic
+         encoding format. Some texts may additionally be made available at levels one or two, which
+         provide a richer set of encoded features. For example: a level one text will include
+         semantic information missing from a level zero text; a level two text will include
+         tokenization information missing from a level one text. As far as possible conversion
+         between levels will be automatically scripted, but this is not possible in the general
+         case. </p>
+      <p>This document lists all the textual features which are to be distinguished in an ELTeC
+         conformant transcription at one of these three levels. Whenever a given feature exists in a
+         text, it will be marked up as indicated here. No other features will be captured by the
+         markup: if some textual feature not provided for here is identified by a marked up source
+         text, that markup will be removed (though it may be retained in a version of the text
+         encoded at a different level). </p>
+      
+      <p>All ELTeC documents are TEI conformant, and therefore include a TEI Header, as discussed in
+         section <ptr target="#hdr"/> below.</p>
+   </div>
+   
+   
+   <div>
+      <head>Basic Transcription Guidelines (all levels) </head>
+      <p>The basic unit of the ELTeC collection is a single novel, represented by a single
+            <gi>TEI</gi> element, consisting of a <gi>teiHeader</gi> element containing metadata
+         specific to that novel and a <gi>text</gi> element containing a normalised transcription of
+         the text itself. We propose no mechanism (other than metadata) to encode units larger than
+         a single novel, such as multipart novel series like Proust's <title>A la recherche du temps
+            perdu</title> or Balzac's <title>Les Rougon-Macquart</title>. Each text should be
+         transcribed in full from a specific identifiable edition, typically the first, and the
+         source documented in the TEI Header. The original spelling and punctuation of the source
+         should be retained, but details of typography are not required: hence words hyphenated
+         across line or page breaks should be silently reassembled. </p>
+      <!-- page breaks-->
+      <p>To facilitate checking of a transcription against its source during production, the
+            <gi>pb</gi> element may be used to mark the point in a transcription where a new
+         page begins in the source. An identifier for each <gi>pb</gi> element may be provided in a
+         level 1 text to facilitate linkage to a page image of the corresponding source page. This
+         element is
+         not required in a level 0 text. </p>
+      <p>Running titles, page footers, catchwords and other forms of printed paratext are all
+         omitted from an ELTeC transcription, with the exception of a page number, which may be
+         supplied as value of the <att>n</att> attribute. Note that this attribute supplies the page
+         number as specified by the source. If no page number is given, the value should be enclosed
+         in brackets. </p>
+      <p> If a page begins with the second part of a hyphenated word, the <gi>pb</gi> tag may appear
+         after that word in order to simplify lexical processing. Otherwise its position should be
+         the same in transcription and source. </p>
+      <!-- liminal material -->
+      <p>As well as a titlepage or a table of contents, a published novel often includes material
+         such as forewords or appendixes additional to the text of the novel itself. This
+            <term>liminal</term> matter is included in an ELTeC text only if it is believed to be
+         authorial. Material before the body of the text begins is collected within a <gi>front</gi>
+         element, and material following the body in a <gi>back</gi> element. In either case,
+         distinct sections of the material, if encoded, are represented by a <gi>div</gi> with its
+            <att>type</att> attribute set to <code>liminal</code>.</p>
+      <p>At level zero, titlepages and tables of contents are omitted. At level one, they are
+         replaced by a <gi>gap</gi> element. Non-authorial liminal material is silently omitted at
+         all levels. </p>
+      <!-- body divisions -->
+      <p>Within the body of a text, major structural divisions (parts, sections, chapters etc.) will
+         be captured using the generic <gi>div</gi> element, with attributes <att>type</att>,
+            <att>xml:lang</att>, <att>xml:id</att> and <att>n</att> used as further detailed
+         below.</p>
+      <p>The names used for hierarchic structural divisions of a novel above the chapter are
+         arbitrary, culture-specific, and often inconsistent : in some novels things called
+            <q>part</q> contain things called <q>book</q> and in others the reverse. We propose to
+         follow TEI in using a single element (<gi>div</gi>) for every hierarchical structural
+         division, down to the level of <q>chapter</q>.</p>
+      <p>The <att>type</att> attribute is used to indicate the function of a structural division. It
+         should have one of the following values: <list type="gloss">
+            <label>liminal</label>
+            <item>authorial preface, foreword, back matter, etc.</item>
+            <label>titlepage</label>
+            <item>(within front or back) contains title page text: level 1 only</item>
+            <label>notes</label>
+            <item>(within front or back) contains authorial notes : level 1 only</item>
+            <label>part</label>
+            <item>any structural subdivision of a text larger than a chapter e.g. part, volume
+               etc.</item>
+            <label>chapter</label>
+            <item>smallest structural subdivision of the body of a text</item>
+         </list></p>
+      <p>A short novel may have no subdivision at all, in which case the <gi>div</gi> element should
+         not be used. No further subdivisions within a <tag>div type='chapter'</tag> are permitted.
+         If the text of a chapter is subdivided in some way, for example by means of a number, a row
+         of stars, a horizontal rule, or similar device, this should be indicated in the markup by
+         means of a <gi>milestone</gi> element. If a chapter contains an embedded text of some kind,
+         for example a quoted letter or other narrative, this should be marked using the
+            <gi>quote</gi> element. </p>
+      <!--  <valList type="semi">
+                     <valItem ident="liminal">
+                    <desc>authorial preface, foreword, back matter etc.</desc>
+                 </valItem>
+                 <valItem ident="chapter">
+                    <desc>chapter not further divided</desc>
+                 </valItem>
+                 <valItem ident="group">
+                    <desc>any grouping of chapters or groups, e.g. part, volume,
+                       etc.</desc>
+                 </valItem><valItem ident="titlepage">
+                    <desc>title page transcription (level 1 only)</desc>
+                 </valItem>
+        <valItem ident="notes">
+                    <desc>authorial notes, collected within back  (level 1 only)</desc>
+                 </valItem>
+        
+              </valList>-->
+      <p>The (human) language in which a text is expressed is indicated explicitly by the
+            <att>xml:lang</att> attribute which supplies the ISO 641-2 letter code for the language
+         concerned. This attribute will always be supplied on the <gi>text</gi> element to specify a
+         default, and may also appear on other elements to indicate passages where the language
+         changes. The various different languages used in a given text will be itemized in its
+         metadata (see <gi>langUsage</gi> element in the header). </p>
+      <p>A single reference scheme will be defined for the whole corpus, with the following
+         components: <list>
+            <item>text identifier : every text will have an identifier consisting of its three
+               letter language code in upper case and a five digit serial number, for example
+                  <code>FRA00042</code></item>
+            <item>chapter identifier: each chapter or equivalent will have an identifier
+               concatenating the text identifier and a three digit serial number, for example
+                  <code>FR042012</code> is the twelfth chapter of the 42nd French novel. </item>
+            <item>If sub-chapter segmentation is implemented, then the segments will append a
+               further four digit serial number.</item>
+            <item>liminal divisions are not identified; the front element has an identifier
+               concatenating the text identifier and the value 000; the back element has an
+               identifier concatenating the text identifier and the value 999.</item>
+         </list>The identifier will be supplied as the value of an <att>xml:id</att> attribute on
+         each <gi>text</gi>, <gi>div</gi>, front, back, or <gi>s</gi> element as appropriate. Adding
+         this identifier is an easily automated task built into the workflow for accession to the
+         ELTeC.</p>
+      <p>Note that these identifiers will not necessarily correspond with the numbering used in a
+         particular source text. In a work where the first twelve chapters are considered to form
+         part one, and the next twelve constitute part two, the first chapter of the second part
+         will have an identifier ending <code>013</code>, even though it may be numbered
+            <code>1</code> in a source text.</p>
+      <p>We do not preserve the lineation of running prose in our source texts, since this is always
+         purely an artefact of the source edition. For the same reason we reassemble words broken
+         across a line break, silently removing any hyphen present. (This will make it impossible to
+         use our texts for hyphenation studies. So be it.) </p>
+      <p>The title of a chapter, or of any other subdivision, as given in the source should be
+         encoded using the TEI <gi>head</gi> element. There may be more than one such element at the
+         start of a <gi>div</gi> element. Novels occasionally include other initial matter, such as
+         a quotation, or a summary of the content of the chapter; these are not specially treated in
+         ELTeC texts. </p>
+      <p>The chapters of a novel mostly consist of prose, arranged in paragraphs. It is not unusual
+         to find other structures however, specifically verse, or passages of dialogue presented as
+         if in a play, with speaker labels and even stage directions. Less frequently, novels may
+         contain material presented in list or tabular formats. Graphics with their own associated
+         heading or other text are also frequent. </p>
+      <p>Novels are also full of direct speech, represented using various different conventions, but
+         almost always distinguished from the narrative voice. The first person narrative is also
+         common, but may be regarded as a special case. How exactly different narrative strands are
+         articulated in a novel, and the extent to which they may be characterised by their lexis
+         has been a preoccupation of many <q>distant reading</q> style analyses. Although it might
+         be helpful to distinguish material purporting to be direct speech from material purporting
+         to be narrative in our basic encoding, doing so consistently and accurately would be
+         problematic. ELTeC texts therefore do no more than preserve existing punctuation. The
+            <gi>p</gi> element is used for everything which is typeset as a separate block on the
+         page, including both paragraphs and list items; the <gi>l </gi>element is used for verse
+         lines or similar, typically set off from the rest of the text. Illustrations and any
+         associated text such as a title or heading are excluded. Passages set as if in drama are
+         not specially treated. </p>
+      <p>Printed texts typically deploy a number of conventions which can cause problems for
+         linguistic analyses of even the most basic kind. Changes of font or style (italicization or
+         use of superscript, for example) usually signal something, which an analysis should take
+         into account. However, determining the function of such typographic variation is not always
+         straightforward. ELTeC texts (at level 0) therefore simply indicate the presence of
+         typographic salience, using the <gi>hi</gi> element.</p>
+   </div>
+   <div>
+      <head>Transcription Guidelines (level 1)</head>
+      <p>ELTeC encoding at level zero aims above all for consistency and transparency in what is
+         reliably achievable, leaving most problematic issues to be addressed by linguistic
+         annotation. </p>
+      <p>If however a text has been derived from a digital version in which a more ambitious range
+         of textual features has already been captured, whether by means of TEI-style markup or
+         styling information such as that provided by Word, or if there are sufficient resources
+         available to provide a slightly reacher encoded version, a novel may be encoded at ELTeC
+         level 1, using additional elements discussed in this section. Note that a level one text
+         can always automatically be converted to a level zero text, if this is necessary for
+         compatibility or for some other reason. (A script to do this is available <ref
+            target="https://distantreading.github.io/Scripts/detagger.xsl">on the project
+            website</ref>) The reverse conversion, from level zero to level one, requires human
+         intervention. </p>
+      <p>At level 1, the element <gi>gap</gi> should be used to indicate when something has been
+         omitted from the encoding. For example, a suppressed graphic, or foreword, which at level
+         zero are silently omitted, should be represented at level 1 by an explicit <gi>gap</gi>
+         element, with attributes indicating what has been omitted from the encoding.</p>
+      <p>At level 1, the following additional elements can be used to mark up the significance of
+         some stretch of text which would otherwise simply be marked as typographically salient
+         using <gi>hi</gi>: <list>
+            <label><gi>foreign</gi></label>
+            <item>a word or phrase in a foreign language</item>
+            <label>
+               <gi>title</gi></label>
+            <item>the title of a book, piece of music, etc.</item>
+            <label>
+               <gi>label</gi></label>
+            <item>any form of heading or label found within a paragraph of text</item>
+            <label><gi>emph</gi></label>
+            <item>a word or phrase being linguistically emphasized e.g. by being shouted</item>
+         </list> The <gi>hi</gi> is also sometimes used for indications of superscript characters
+         (such as French <soCalled>14&#x1d49;</soCalled>); these should simply be removed.
+         <!--Instead, the TEI element
+                        <gi>abbr</gi> should be used to indicate the presence of an abbreviated
+                     word: <code><gi>abbr</gi>14e&lt;/abbr></code>-->
+      </p>
+      <p>When a sequence of verse lines, or a passage from some other narrative level such as a
+         letter is quoted within a text, the <gi>l</gi> or <gi>p</gi> elements representing it
+         should be wrapped in the <gi>quote</gi> element made available by the ELTeC level one
+         schema.</p>
+      <p>It is not unusual to find special devices such as a row of stars or a rule in the middle of
+         a chapter, usually indicating a discontinuity in the narrative timeline, or structural
+         shift. Such indications may be simply ignored in an ELTeC level zero text; at level 1, the special
+         purpose <gi>milestone</gi> element may be used to mark their presence.</p>
+      <p>Level 1 texts may also represent authorial notes, if these are present, using the element
+            <gi>note</gi> to contain the body of the note, and the element <gi>ref</gi> to represent
+         the point of attachment for the note. Wherever they appear in the text, notes are always
+         separated from it and encoded in a separate <gi>div</gi> element within the <gi>back</gi>
+         element. See examples. </p>
+      <p>Occasionally, the text being transcribed contains self-evident errors. Where these are
+         caused by the encoding process (e.g. an OCR error), these are always silently corrected in
+         the transcription. Where however the original itself is faulty, however, and the
+         transcriber (or a textual editor) has corrected it, the correction should be signalled by
+         using the <gi>corr</gi> element available at level one. </p>
+   </div><div><head>Transcription Guidelines (level 2)</head>
+      <p>At ELTeC level2, all existing elements are retained and two new elements <gi>s</gi>
+         and <gi>w</gi> are introduced to support segmentation of running text into sentence-like
+         and word-like sequences respectively. Individual
+         tokens are marked using the <gi>w</gi> element, and decorated with one or more of the
+         TEI-defined linguistic attributes <att>pos</att>, <att>lemma</att>, and
+         <att>join</att>. Both words and punctuation marks are considered to be
+         <soCalled>tokens</soCalled> in this sense, although the TEI suggests
+         distinguishing the two cases using <gi>w</gi> and <gi>pc</gi> respectively.
+         The
+         <gi>s</gi> (segment) element is used to provide an end-to-end tessellating
+         segmentation of the whole sequence of <gi>w</gi> elements, based on orthographic
+         form. This provides a convenient extension of the existing text-body-div hierarchy
+         within which tokens are located. The elements <gi>p</gi>, <gi>head</gi>, and
+         <gi>l</gi> (which contain just text at levels 0 and 1) at level 2 can contain a
+         sequence of <gi>s</gi> elements. Empty elements <gi>gap</gi>, <gi>milestone</gi>,
+         <gi>pb</gi> or <gi>ref</gi> are also permitted within text content at any point,
+         but these are disregarded when segmentation is carried out. Each <gi>s</gi> element
+         can contain a sequence of <gi>w</gi> elements, either directly, or wrapped in one of
+         the sub-paragraph elements <gi>corr</gi>, <gi>emph</gi>, <gi>foreign</gi>,
+         <gi>hi</gi>, <gi>label</gi>, or <gi>title</gi>. To this list we  add the element
+         <gi>rs</gi> (referring string), provided by the TEI for the encoding of any form
+         of entity name, such as a Named Entity Recognition procedure might produce. </p>
+      <p> This approach implies that <gi>w</gi> elements may appear at two levels in the
+         hierarchy which may upset some software; it also implies that <gi>w</gi> elements
+         must be properly contained within one of these elements, without overlap. <!--If either
+         issue proves to be a major stumbling block, an alternative would be to remove the
+         tags demarcating these sub-paragraph elements, indicating their semantics instead by
+         additional attribute values on the <gi>w</gi> elements they contain.--> </p>
+      <p>This TEI XML format is equally applicable to the production of training data for
+         applications using machine learning techniques and to the outputs of such systems.
+         However, since such machine learning applications typically operate on text content
+         in a tabular format only, XSLT filters which transform (or generate) the XML markup
+         discussed here from such tabular formats without loss of information are envisaged.
+         At the time of writing, however, Working Group 2 has yet to put this proposed
+         architecture to the test. </p></div>
+   <div>
+
+      <head>TEI Elements and textual features</head>
+      <p>The following summary table lists the textual features which every ELTeC text must capture,
+         together with an indication of how that feature should be represented. <table>
+            <row role="label">
+               <cell>Textual Feature</cell>
+               <cell>Encoding</cell>
+               <cell>Note</cell>
+            </row>
+            <row>
+               <cell>Page break</cell>
+               <cell><tag>pb/</tag></cell>
+               <cell><att>n</att> attribute gives attested number of page; optional at level
+                  0</cell>
+            </row>
+            <row>
+               <cell>Title page</cell>
+               <cell><tag>div type="titlepage"</tag> within <gi>front</gi></cell>
+               <cell>Optional at level 0</cell>
+            </row>
+            <row>
+               <cell>Authorial preface, foreword, appendix, etc</cell>
+               <cell><tag>div type="liminal"</tag> within <gi>front</gi> or <gi>back</gi> as
+                  appropriate</cell>
+               <cell>Non-authorial matter is silently omitted</cell>
+            </row>
+            <row>
+               <cell>volume, chapter etc.</cell>
+               <cell><gi>div</gi> nested as necessary within <gi>body</gi></cell>
+               <cell><att>type</att> may be chapter, or group (for anything else); <att>n</att> may
+                  indicate original numbering</cell>
+            </row>
+            <row>
+               <cell>Heading or title</cell>
+               <cell><gi>head</gi> at start of <gi>div</gi>; <gi>trailer</gi> at end</cell>
+               <cell/>
+            </row>
+            <row>
+               <cell>Running title/page footer </cell>
+               <cell>Omitted</cell>
+               <cell>Page number only may be included in <gi>pb</gi></cell>
+            </row>
+           
+            <row>
+               <cell>Prose paragraph or list item</cell>
+               <cell><gi>p</gi></cell>
+               <cell>Discard any formatting information</cell>
+            </row>
+            <row>
+               <cell>Verse line</cell>
+               <cell><gi>l</gi></cell>
+               <cell>Use only for verse lines in display blocks</cell>
+            </row>
+
+
+         </table></p>
+      <p>Other textual features are treated differently at different encoding levels. They are
+         listed in the following table: <table>
+            <row role="label">
+               <cell>Textual Feature</cell>
+               <cell>Level 0 Encoding</cell>
+               <cell>Level 1 Encoding</cell>
+               <cell>Note</cell>
+            </row>
+            <!--    <row>
+                        <cell>Title page</cell>
+                        <cell>omitted</cell>
+                        <cell><tag>div type="titlePage"</tag> within <gi>front</gi></cell>
+                        <cell>omitted</cell>
+                    </row>
+           -->
+            <row>
+               <cell>Table of contents, errata list, other liminal matter</cell>
+               <cell>omitted</cell>
+               <cell><gi>gap</gi></cell>
+               <cell>use <att>unit</att> and <att>quantity</att> to specify what has been
+                  omitted</cell>
+            </row>
+
+            <row>
+               <cell>Mid-chapter structural marker</cell>
+               <cell>omitted</cell>
+               <cell><tag>milestone/</tag></cell>
+               <cell>use <att>unit</att>  and <att>type</att> to supply further detail</cell>
+            </row>
+            
+            <row>
+               <cell>Authorial footnote</cell>
+               <cell>omitted</cell>
+               <cell>transcribe text of note text within a <gi>note</gi> within <tag>div
+                     type="notes"</tag> inside <gi>back</gi>; mark point of attachment with a
+                     <gi>ref</gi></cell>
+               <cell>use <att>target</att> on <gi>ref</gi> to point to <gi>note</gi></cell>
+            </row>
+            <row>
+               <cell>Font change</cell>
+               <cell>Mark with <gi>hi</gi> (no attributes)</cell>
+               <cell>Replace with <gi>foreign</gi>, <gi>title</gi>, <gi>label</gi>, <gi>emph</gi> as
+                  appropriate</cell>
+
+               <cell><!--Level 1 may use <att>rend</att> attribute with values ul ro sc it ?--> </cell>
+            </row>
+
+            <row>
+               <cell>Graphic or illustration</cell>
+               <cell>omitted</cell>
+               <cell><tag>gap unit="graphic"</tag></cell>
+               <cell><!--May use <att>desc</att> to describe the content of the graphic--></cell>
+            </row>
+            <row>
+               <cell>Quotation or display block</cell>
+               <cell><gi>p</gi> (or series of <gi>l</gi>)</cell>
+               <cell><gi>quote</gi> containing one or more <gi>p</gi> or <gi>l</gi></cell>
+               <cell>?</cell>
+            </row>
+            <row>
+               <cell>Editorial correction</cell>
+               <cell>unmarked</cell>
+               <cell><gi>corr</gi></cell>
+               <cell>Use when encoded text differs from printed original</cell>
+            </row>
+         </table>
+      </p>
+
+
+   </div>
+
+</div><div><head>Corpus Metadata</head>
+
+   <div xml:id="hdr">
+      <head>Metadata in the TEI Header</head>
+
+      <p>This section describes the metadata associated with each text (title, authorship, date
+         etc.) and with the collection as a whole. The intention is to provide this in a
+         standardised way to facilitate subsetting of the collection, using (for example) coded
+         values for the descriptive selection criteria associated with the text. As far as possible,
+         our text should represent the first complete printed edition of each novel selected. </p>
+      <p>The TEI Header provides a very large number of possibilities for encoding such metadata. We
+         will provide a checklist of the TEI Header elements which are always to be provided for
+         each text, possibly in the form of a template. As in the body of the text, the intention is
+         to provide a guaranteed minimal level of information, consistent across all parts of the
+         ELTeC. </p>
+      <p>Note that metadata may be supplied at (at least) two levels: the level of the ELTeC as a
+         whole, and that of individual texts within it. Information which applies uniformly to all
+         parts of the collection should be supplied in the ELTeC header; information specific to a
+         particular document in the text header. </p>
+
+      <p>Every ELTeC text includes a TEI Header supplying metadata to describe it. There is also a
+         TEI Header for the whole collection, which has additional information common to all the
+         texts. This section lists the header components which should be supplied for every text,
+         indicating briefly specific usage rules. </p>
+
+      <p>Here is the basic template for an individual ELTeC header: <egXML
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <teiHeader type="novelHeader">
+               <fileDesc>
+                  <titleStmt>
+                     <title><!-- title of work --></title>
+                     <author><!-- information about the author --></author>
+                     <respStmt><!-- information about the encoder --></respStmt>
+                  </titleStmt>
+                  <extent>
+                     <!-- size of the text, in pages and words -->
+                  </extent>
+                  <publicationStmt>
+                     <!-- standard text about status as part of ELTeC -->
+                  </publicationStmt>
+                  <sourceDesc>
+                     <bibl>
+                        <!-- bibliographic description of the printed source -->
+                     </bibl>
+                  </sourceDesc>
+               </fileDesc>
+               <profileDesc>
+                  <!-- additional descriptive information, selection criteria, etc. -->
+               </profileDesc>
+               <revisionDesc>
+                  <!-- revision information -->
+               </revisionDesc>
+            </teiHeader></egXML></p>
+      <p> Each of the TEI elements shown above must be provided and used as described below. The
+         ELTeC schemas will reject as invalid a document in which these conventions are not
+         followed. </p>
+      <p> The natural language used for text in the Header should be that of the language collection
+         to which the text belongs, e.g. French if the text is in French. The attribute @xml:lang
+         may be supplied on any element to indicate its content is in some other language where
+         necessary. </p>
+      <div>
+         <head>The file description (<gi>fileDesc</gi>) </head>
+         <div>
+            <head>The title statement (<gi>titleStmt</gi>)</head>
+
+            <p>This must supply : <list>
+                  <item>at least one <gi>title</gi> element containing the standard title of the
+                     work, followed by the phrase "ELTeC edition" (or its equivalent in the
+                     appropriate language). Multiple title elements should be supplied only if the
+                     title has been translated into some other language. </item>
+                  <item>at least one <gi>author</gi> element containing the standard name of the
+                     author, in the form SURNAME, FORENAMES (BIRTHYEAR - DEATHYEAR). If either date
+                     is unknown, it should be replaced by a question-mark. The author name should be
+                     that under which the author is conventionally catalogued, not necessarily that
+                     found on the title page. </item>
+                  <item>at least one <gi>respStmt</gi> element containing one or more <gi>name</gi>
+                     elements and one or more <gi>resp</gi> elements indicating the person/s
+                     responsible for producing the ELTeC edition, and the nature of their
+                     responsibility respectively.</item>
+               </list>
+            </p>
+            <p>Here is a simple example, for a German text : <egXML
+                  xmlns="http://www.tei-c.org/ns/Examples"><titleStmt>
+                     <title>Auf zwei Planeten : edizion ELTeC</title>
+                     <title xml:lang="en">Two planets</title>
+                     <author>Laßwitz, Kurd(1848-1910)</author>
+                     <respStmt>
+                        <resp>editor</resp>
+                        <name>Alexander Geyken</name>
+                     </respStmt>
+                  </titleStmt></egXML>
+            </p>
+         </div>
+         <div>
+            <head>The extent statement (<gi>extent</gi>)</head>
+
+            <p>This must supply : <list>
+                  <item>one or more <gi>measure</gi> elements, indicating the size of the text. The
+                     size must be given as numeric content, and the type of measurement must be
+                     either words or pages, as indicated by the @unit attribute. </item>
+               </list> Here is a simple example, for a French text : </p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples"><extent>
+                  <measure unit="words">12000</measure>
+                  <measure unit="pages">256</measure>
+               </extent></egXML>
+            <p>The page count may be derived from an external bibliographic source, and may not
+               therefore correspond with the actual number of <gi>pb</gi> elements in the
+               transcription. If no page count is available, no <tag>measure unit="pages"</tag>
+               should be supplied. </p>
+         </div>
+         <div>
+            <head>The publication statement (<gi>publicationStmt</gi>)</head>
+            <p>This must contain  a <gi>distributor</gi> element naming the project itself, a
+               <gi>date</gi> element showing the text was added to the Collection, and an <gi>availability</gi>
+               element containing a standardised statement concerning its licence.
+               One or more <gi>ref</gi> elements may also follow specifying a URL from
+               which the text may be downloaded. These elements must be given in the order
+               specified, as shown in this example:
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <publicationStmt>
+                     <distributor>COST Action ELTeC</distributor>
+                     <date when="2018-11-23"/>
+                     <availability>                                       
+                        <licence
+                           target="https://creativecommons.org/licenses/by/4.0/">
+                           Licenced under CC-BY 4.0 </licence>
+                     </availability>
+                     <ref type="doi" target="10.5281/zenodo.8468"/>                                  
+                      </publicationStmt>
+               </egXML>
+               
+                  
+            
+            </p>
+
+            <!--<p>This must contain a single <gi>p</gi> element containing a fixed phrase such as
+                  <q>Incorporated into the ELTeC release 1.0</q> (or its equivalent in the
+               appropriate language), followed by a date, tagged with the <gi>date</gi> element. </p>
+            <p> Here is a simple example, for an English text : <egXML
+                  xmlns="http://www.tei-c.org/ns/Examples"><publicationStmt>
+                     <p>Incorporated into the ELTeC release 1.0 <date>2018-02-12</date></p>
+                  </publicationStmt></egXML>
+            </p>-->
+         </div>
+         <div>
+            <head>The source description (<gi>sourceDesc</gi>)</head>
+
+            <p>This must contain at least one <gi>bibl</gi> element containing a bibliographic
+               description of the source text from which the ELTeC version has been derived. This
+               description might include any or all of the following standard TEI bibliographic
+               elements: <list>
+                  <item><gi>author</gi>, <gi>title</gi>, <gi>pubPlace</gi>, <gi>publisher</gi>,
+                        <gi>date</gi></item>
+                  <item>
+                     <gi>idno</gi> may be used if the source text has a standard identifier such as
+                     an ISBN or a library shelf mark</item>
+                 <!-- <item>
+                     <gi>relatedItem</gi> may be used to provide a description of a
+                     different but related bibliographic item 
+                    </item>-->
+                  <item>
+                     <gi>ref</gi> may be used to supply a URI if the source used is online </item>
+               </list></p>
+            <p>Here is a French example: <egXML xmlns="http://www.tei-c.org/ns/Examples"><sourceDesc>
+                     <bibl type="digitalSource">
+                        <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k931128v"> Tatiana Leïlof
+                           roman parisien (édition numerisée) </ref>
+                        <publisher> gallica.bnf.fr / Bibliothèque nationale de France </publisher>
+                        <idno type="ARK">12148/bpt6k931128v</idno>
+                   </bibl>
+               <bibl type="firstEdition"><title>Tatiana Leïlof , roman parisien, par Édouard Rod</title>
+                              <publisher>E. Plon, Nourrit et Cie</publisher>
+                              <pubPlace>Paris</pubPlace>
+                              <date>1886</date>                          
+                     </bibl>
+                  </sourceDesc></egXML>
+            </p>
+            <p>This encoding shows that the source of the ELTeC text is the digital facsimile
+               provided under the title and ARK identifier indicated, and that the first edition of
+               this work was published in Paris in 1886. </p>
+            <p/>
+         </div>
+      </div>
+      <div>
+         <head>The profile description (<gi>profileDesc</gi>)</head>
+
+         <p>This must contain a <gi>langUsage</gi> element detailing the language or languages used
+            in the text, followed optionally by a <gi>textClass</gi> element providing descriptive
+            keywords, and by a mandatory <gi>textDesc</gi> element providing the sampling criteria
+            applicable to this text. </p>
+         <p>The <gi>textDesc</gi> element contains one of each of the following elements from the
+               <ident>model.textDescPart</ident> class in the order indicated: <specList>
+               <specDesc key="model.textDescPart"/>
+            </specList> These elements are used to represent the sampling criteria applicable to
+            the current text. They are specific to the ELTeC project, and are therefore taken from
+            the ELTeC namespace (<ident>http://distantreading.net/eltec/ns</ident>) rather than the
+            TEI namespace. </p>
+     <p> The optional <gi>textClass</gi> element may
+            contain one or more <gi>keywords</gi> elements. <!--The <gi>catRef</gi> element must have a
+               <att>target</att> attribute specifying a series of classificatory codes. These codes
+            are derived from the ELTeC selection criteria, and are listed here.--> Each
+               <gi>keywords</gi> element may contain one or more <gi>term</gi> element describing
+            some aspect of the text. At present the descriptive keywords may be freely chosen. All
+            the terms in a given <gi>keywords</gi> list should use the same language, which should
+            be that of the text itself, unless otherwise specified by means of an @xml:lang
+            attribute. </p>
+         <p> The <gi>langUsage</gi> element should contain one or more <gi>language</gi> element,
+            one for each of the human languages used in the text. The @ident attribute of this
+            element identifies the language using the ISO 639-2 code in the same way as the
+            @xml:lang attribute. The @usage attribute may be used to indicate approximately what
+            percentage of the text uses this language, or otherwise qualify it by means of a brief
+            description. </p>
+        
+         <p> Here is an imaginary Italian example: <egXML xmlns="http://www.tei-c.org/ns/Examples"><profileDesc>
+                  <langUsage>
+                     <language ident="it" usage="80"/>
+                     <language ident="en" usage="10">citazioni inglesi</language>
+                     <language ident="de" usage="10">citazioni tedeschi</language>
+                  </langUsage>
+                  <textDesc>
+                     <e:authorGender key="M"/>
+                     <e:canonicity key="low"/>
+                     <e:size key="large"/>
+                     <e:timeSlot key="T3"/>
+                  </textDesc>
+               </profileDesc></egXML> This text is mostly in Italian, but approximately a tenth of
+            it is taken up with quotations in English, and another tenth with quotations in German.
+            Its description indicates that it has a male author, is of low canonicity (i.e. few reprints have 
+    been found during the period 1970-2009), contains more than 100,000
+            words, and was first published between 1880 and 1899. </p>
+      </div>
+      <div>
+
+         <head>The revision description (<gi>revisionDesc</gi>) </head>
+         <p>This contains at least one <gi>change</gi> element, documenting significant revisions or
+            versions of the asspociated text. Each change element has a @when attribute which gives
+            the date of the change in W3C format (YYYY-MM-DD) and the change elements are given in
+            chronological order, most recent first. The content of the element should be a brief
+            sentence indicating what was done and who was responsible for doing it, using the
+            language of the text. </p>
+         <p> Here is an example from a Spanish text: <egXML xmlns="http://www.tei-c.org/ns/Examples"><revisionDesc>
+                  <change when="20180427">Revisión en formato ELTeC: Lou Burnard</change>
+                  <change when="20011004">Supervisión del texto : Marisa Payá (Supervisora)</change>
+                  <change when="20011004">Revisión del formato : Josefina Carrión
+                     (Supervisora)</change>
+                  <change when="20011127">Etiquetado del texto en XML-TEI : Ana López Díaz
+                     (Correctora)</change><change when="20040630">Revisión del etiquetado : Mari
+                     Carmen Jerez Gaona (Correctora)</change>
+               </revisionDesc>
+            </egXML></p>
+      </div>
+   </div>
+</div>
+
+</body>

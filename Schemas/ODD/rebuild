@@ -1,0 +1,11 @@
+teitoodd --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec.xml eltec-library.xml
+teitorelaxng  --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-0.xml ../eltec-0.rng
+teitorelaxng  --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-1.xml ../eltec-1.rng
+teitorelaxng  --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-x.xml ../eltec-x.rng
+trang ../eltec-1.rng ../eltec-1.rnc
+teitorelaxng  --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-2.xml ../eltec-2.rng
+teitohtml --odd --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-0.xml ../Doc/eltec-0.html
+teitohtml --odd --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-1.xml ../Doc/eltec-1.html
+teitohtml --odd --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-2.xml ../Doc/eltec-2.html
+teitohtml --odd --localsource=/home/lou/Public/TEI/P5/p5subset.xml eltec-x.xml ../Doc/eltec-x.html
+
