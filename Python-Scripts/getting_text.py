@@ -2,6 +2,15 @@ from bs4 import BeautifulSoup
 import os.path
 import glob
 
+#type a path where your data are stored
+data_path = 'C:/Users/yulya/PycharmProjects/TEI-XML/worksxmls/*.xml'
+
+# type a path where you want to save the text-data
+save_path = 'C:/Users/yulya/PycharmProjects/TEI-XML/texts/'
+if not os.path.exists(save_path):
+    os.makedirs(save_path)
+
+
 
 #read document
 def file_reader(document):
@@ -32,7 +41,7 @@ def parameter(document,cmd1,cmd2,cmd3):
     else:
         pass
     if cmd2 == 'NO':
-        # gives text without heading
+        # gives text without headings
         for tag in soup.find_all('head'):
             tag.extract()
     else:
@@ -50,15 +59,13 @@ def main():
     cmd1 = input('please choose footnotes "YES|NO"')
     cmd2 = input('please choose headings "YES|NO"')
     cmd3 = input('please choose fullversion or just body "full|body"')
-    #give a path where your data are stored
-    for file in glob.glob('C:/Users/yulya/PycharmProjects/TEI-XML/worksxmls/*.xml'):
+    for file in glob.glob(data_path):
         roman = file_reader(file)
         roman = extraction(roman)
         plaintext = parameter(roman,cmd1,cmd2,cmd3)
         #delete empty lines
         plaintext = [line for line in plaintext.split('\n') if line.strip() != '']
         plaintext = '\n'.join(plaintext)
-        save_path = 'C:/Users/yulya/PycharmProjects/TEI-XML/texts/'
         name = os.path.basename(file)
         name = name.replace('xml','txt')
         fullname = os.path.join(save_path, name)
