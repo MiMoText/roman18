@@ -14,17 +14,17 @@ from os.path import join
 wdir = ""
 teipath = join(wdir, "..", "XML-TEI", "*.xml")
 txtpath = join(wdir, "..", "plain", "files", "")
-modpath = join(wdir, "modernization.csv")
+modsfile = join(wdir, "tei2txt_mods.csv")
 
 
 #=======================
 # Parameters
 #=======================
 
-heads = True # Include chapter headings?
+head = True # Include chapter headings?
 foreign = True # Include words marked as foreign?
-notes = False # Include text from footnotes?
-pagebreaks = False # Include page breaks?
+note = False # Include text from footnotes?
+pb = False # Include page breaks?
 trailer = False # Include words marked as trailer?
 quote = True # Include words marked as quote?
 front = False # Include front matter?
@@ -37,8 +37,8 @@ modernize = True # Modernize historical spelling?
 # Packaging 
 # ======================
 
-paths = {"teipath":teipath, "txtpath":txtpath, "modpath":modpath}
-params = {"notes":notes, "modernize":modernize, "heads":heads, "pagebreaks":pagebreaks, "foreign":foreign, "trailer":trailer, "front":front, "back":back, "quote":quote}
+paths = {"teipath":teipath, "txtpath":txtpath, "modsfile":modsfile}
+params = {"note":note, "head":head, "pb":pb, "foreign":foreign, "trailer":trailer, "front":front, "back":back, "quote":quote, "modernize":modernize}
 
 
 #=======================

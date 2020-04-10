@@ -53,23 +53,9 @@ def remove_tags(tei, params):
 
 def remove_elements(tei, params): 
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-    if params["notes"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}note", with_tail=False)
-    if params["foreign"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}foreign", with_tail=False)
-    if params["pagebreaks"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}pb", with_tail=False)
-    if params["heads"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}head", with_tail=False)
-    if params["trailer"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}trailer", with_tail=False)
-    if params["quote"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}quote", with_tail=False)
-    if params["front"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}front", with_tail=False)
-    if params["back"] == False: 
-        etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}back", with_tail=False)
-    # other candidates: foreign, quote
+    for param in params.items(): 
+        if params[param[0]] == False: 
+            etree.strip_elements(tei, "{http://www.tei-c.org/ns/1.0}"+param[0], with_tail=False)
     return tei
     
 
@@ -101,7 +87,7 @@ def extract_text(tei, params):
 # === Modernize the text
 
 def get_mods(paths):
-    with open(paths["modpath"], "r", encoding="utf8", newline="\n") as infile: 
+    with open(paths["modsfile"], "r", encoding="utf8", newline="\n") as infile: 
         mods = csv.reader(infile, delimiter="=")
         mods = {rows[0]:rows[1] for rows in mods}
         return mods
@@ -143,7 +129,6 @@ def main(paths, params):
         tei = read_tei(teifile)
         text = extract_text(tei, params)
         if params["modernize"] == True: 
-            print("modernizing...")
             text = modernize_text(text, paths)
         else: 
             pass
