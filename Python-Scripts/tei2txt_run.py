@@ -12,7 +12,7 @@ from os.path import join
 #=======================
 
 wdir = ""
-teipath = join(wdir, "..", "XML-TEI", "*.xml")
+teipath = join(wdir, "..", "XML-TEI", "header_test", "*.xml")
 txtpath = join(wdir, "..", "plain", "files", "")
 modsfile = join(wdir, "tei2txt_mods.csv")
 
