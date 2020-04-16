@@ -21,7 +21,7 @@ modsfile = join(wdir, "tei2txt_mods.csv")
 # Parameters
 #=======================
 
-head = True # Include chapter headings?
+head = False # Include chapter headings?
 foreign = True # Include words marked as foreign?
 note = False # Include text from footnotes?
 pb = False # Include page breaks?
