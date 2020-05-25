@@ -1,6 +1,6 @@
 # Work in progess: Topic Modeling pipeline for 18th century French novels
 
-This repository contains scripts and test data used for the development of a topic modeling pipeline in the context of the project MiMoText.
+This repository contains scripts and test data used for the development of a topic modeling pipeline in the context of the MiMoText project.
 
 The pipeline is based on the following set of scripts by Christof Schöch: https://github.com/dh-trier/topicmodeling/. It is constantly being revised and developed.
 
