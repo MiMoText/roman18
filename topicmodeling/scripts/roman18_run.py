@@ -38,7 +38,7 @@ stoplistfile = "fr.txt"
 
 # == Parameters ==
 
-chunksize = 1000
+chunksize = 1000  
 lang = "presto"   # possible values: "fr" (standard French); "presto" (French of the 16th and 17th century)
 
 # == Coordinating function ==
@@ -47,7 +47,7 @@ def main(workdir, dataset, identifier, lang, metadatafile_full, metadatafile_spl
     print("==", "starting", "==", "\n==", helpers.get_time(), "==")
     helpers.make_dirs(workdir, identifier)
     roman18_split.main(workdir, dataset, metadatafile_full, metadatafile_split, chunksize)
-    roman18_preprocessing.main(workdir, dataset, identifier, lang, stoplistfile)
+    #roman18_preprocessing.main(workdir, dataset, identifier, lang, stoplistfile)
     print("\n==", helpers.get_time(), "done", "==")
 
     

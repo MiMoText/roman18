@@ -2,6 +2,8 @@
 
 """
 Topic Modeling with gensim: Split text in segments.
+The Size of chunks is controlled by the parameter chunksize (modify in roman18_run.py).
+Last chunks that are smaller than 500 words are eliminated.
 
 """
 
@@ -43,6 +45,8 @@ def split_text(text, chunksize):
     text = re.split("\W+", text)
     num_chunks = len(text) // chunksize
     chunks = [text[i:i + chunksize] for i in range(0, len(text), chunksize)]
+    if len(chunks[-1]) < 500:   # last chunk is kept if >= 500 words
+        chunks.pop()
     return chunks
     
     
