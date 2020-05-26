@@ -70,7 +70,7 @@ def prepare_text(text, lang, stoplist):
         text = tagger.tag_text(text)
         text = ttw.make_tags(text)
         #pprint.pprint(text)
-        poslist = ["NOM", "ADJ", "ADV", "VER:cond", "VER:futu", "VER:impe", "VER:impf","VER:infi", "VER:pper", "VER:ppre", "VER:pres", "VER:simp", "VER:subi","VER:subp"]
+        poslist = ["NOM", "ADJ", "VER:cond", "VER:futu", "VER:impe", "VER:impf","VER:infi", "VER:pper", "VER:ppre", "VER:pres", "VER:simp", "VER:subi","VER:subp"] # ADV entfernt
         prepared = [item.lemma.lower() for item in text if item.pos in poslist] 
         prepared = [item for item in prepared if len(item) > 1 and item not in stoplist]
         return prepared
