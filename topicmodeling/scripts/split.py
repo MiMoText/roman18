@@ -20,6 +20,7 @@ import pandas as pd
 
 # == Functions ==
 
+
 def load_text(textfile):
     """
     Loads a single plain text file. 
@@ -56,7 +57,10 @@ def save_chunks(workdir, dataset, chunks, textid):
     filenames = []
     for chunk in chunks: 
         filename = textid + "_" + "{:03d}".format(counter) + ".txt"
-        filepath = join(workdir, "datasets", dataset, "txt", filename)
+        filepath = filepath = join(workdir, "datasets", dataset, "txt")
+        if not os.path.exists(filepath):
+            os.makedirs(filepath)
+        filepath = join(filepath, filename)
         chunk = " ".join(chunk)
         with open(filepath, "w", encoding="utf8") as outfile:
             outfile.write(chunk) 
@@ -92,5 +96,6 @@ def main(workdir, dataset, metadatafile_full, metadatafile_split, chunksize):
         
     print("== done splitting texts ==")
                        
+
 
 
