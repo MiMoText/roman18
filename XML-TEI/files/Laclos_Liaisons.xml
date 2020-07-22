@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Laclos_Liaisons" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -11,6 +11,10 @@
           <resp>encoding</resp>
           <name>Pia Geißel</name>
         </respStmt>
+        <respStmt>
+        <resp>editor</resp>
+        <name>Julia Röttgermann</name>
+      </respStmt>
       </titleStmt>
       <extent>
         <measure unit="words">135186</measure>
@@ -53,6 +57,7 @@
     </profileDesc>
     <revisionDesc>
       <change when="2020-05-25">Initial ELTeC level-1</change>
+      <change when="2020-07-22">Moved AVERTISSEMENT DE L'ÉDITEUR and PRÉFACE DU RÉDACTEUR in text body, because it is fictional</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -66,7 +71,9 @@
         <p>LIBRAIRIE UNIVERSELLE DE J. ROZEZ, 87, rue de la Madeleine.</p>
         <p>1869</p>
       </div>
-      <div type="liminal">
+     </front>
+     <body>
+      <div>
         <head>AVERTISSEMENT DE L'ÉDITEUR.</head>
         <p>
           <hi rend="italic">Nous croyons devoir prévenir le Public que, malgré le titre de cet ouvrage et ce qu'en dit le rédacteur dans sa préface, nous ne garantissons pas l'authenticité de ce recueil, et que nous avons même de fortes raisons de penser que
@@ -87,7 +94,7 @@
             et jolie, mourir de chagrin.</hi>
         </p>
       </div>
-      <div type="liminal">
+      <div>
         <head>PRÉFACE DU RÉDACTEUR</head>
         <p>Cet ouvrage, ou plutôt ce recueil, que le public trouvera peut-être encore trop volumineux, ne contient pourtant que le plus petit nombre des lettres qui composaient la totalité de la correspondance dont il est extrait. Chargé de la mettre en
           ordre par les personnes à qui elle était parvenue, et que je savais dans l'intention de la publier, je n'ai demandé, pour prix de mes soins, que la permission d'élaguer tout ce qui me paraîtrait inutile ; &amp; j'ai tâché de ne conserver en effet que
@@ -132,8 +139,7 @@
         <p>J'avoue avec sincérité que tous ces reproches peuvent être fondés : je crois aussi qu'il me serait possible d'y répondre, &amp; même sans excéder la longueur d'une préface ; mais on doit sentir que pour qu'il fût nécessaire de répondre à tout, il
           faudrait que l'ouvrage ne pût répondre à rien, &amp; que si j'en avais jugé ainsi, j'aurais supprimé à la fois la préface &amp; le livre.</p>
       </div>
-    </front>
-    <body>
+
       <div type="letter">
         <head>PREMIÈRE LETTRE.</head>
         <head>Cécile Volanges à Sophie Carnay, aux Ursulines de.....</head>
