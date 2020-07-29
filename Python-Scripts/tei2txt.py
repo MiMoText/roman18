@@ -107,7 +107,14 @@ def modernize_text(text, paths):
     text = modernize(text, mods)
     return text
 
+# === Normalize text ===
 
+def normalize_text(text):
+    text = re.sub("ſ", "s", text)
+    text = re.sub("\.\ss", ". S", text)
+    text = re.sub("\ns", "\nS", text)
+    text = re.sub("\&", "et", text)
+    return text
 
 # === Save results to disk
 
@@ -132,6 +139,8 @@ def main(paths, params):
             text = modernize_text(text, paths)
         else: 
             pass
+        if params["normalize"] == True:
+            text = normalize_text(text)
         save_text(text, paths, filename)
     
     
