@@ -107,6 +107,15 @@ def modernize_text(text, paths):
     text = modernize(text, mods)
     return text
 
+
+def correct_wordforms(text):
+    '''
+    Correction of vuid* -> vid*; phisio* -> physio*
+    '''
+    text = re.sub(r'(\s)(vuid)', r'\1vid', text) 
+    text = re.sub(r'(\s)(phisio)', r'\1physio', text)
+    return text
+
 # === Normalize text ===
 
 def normalize_text(text):
@@ -137,6 +146,7 @@ def main(paths, params):
         text = extract_text(tei, params)
         if params["modernize"] == True: 
             text = modernize_text(text, paths)
+            text = correct_wordforms(text)
         else: 
             pass
         if params["normalize"] == True:
