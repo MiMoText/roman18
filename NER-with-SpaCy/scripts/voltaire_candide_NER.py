@@ -5,7 +5,7 @@ import fr_core_news_md
 
 # ACHTUNG! Es ist wichtig spacy 2.3.0 installiert zu haben. Spacy 2.3.1 hat einen Bug im französischen Sprachmodell.
 # Vorab einmal Download der Sprachmodelle notwendig, dazu untenstehende Befehle in Terminal ausführen. Danach können diese mit "load" geladen werden
-# python -m spacy download fr_core_news_sm
+# python -m spacy download fr_core_news_md
 
 # Sprachmodell wird geladen
 nlp = fr_core_news_md.load()
