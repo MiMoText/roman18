@@ -12,7 +12,7 @@ nlp = fr_core_news_md.load()
 
 # Hier Dateinamen ersetzen
 
-with open("../data_in/voltaire_candide.txt", encoding="utf-8") as file:
+with open("../../plain/files/voltaire_candide.txt", encoding="utf-8") as file:
     text = file.read()
 print(text)
 
