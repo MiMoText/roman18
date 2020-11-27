@@ -1,0 +1,753 @@
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Tiphaigne_Amilec" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:1">Amilec, ou la Graine d'Hommes qui sert à peupler les planetes: MiMoText edition</title>
+                <author ref="viaf:2477613;wikidata:Q2958069">Tiphaigne de La Roche(1722-1774)</author>
+                <respStmt>
+                    <resp>data capture</resp>
+                    <name>googlebooks</name>
+                </respStmt>
+                <respStmt>
+                    <resp>encoding</resp>
+                    <name>Amelie Probst</name>
+                </respStmt>
+                <respStmt>
+                    <resp>editor</resp>
+                    <name>Julia Röttgermann</name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words">13080</measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
+                <distributor ref="https://github.com/MiMoText/roman18">Github</distributor>
+                <date>2020</date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <ref target="https://books.google.de/books?id=UPzimShNcy4C"/>
+                </bibl>
+                <bibl type="printSource">
+                    <date>1753</date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date>unknown</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form">autodiegetic</term>
+                    <term type="spelling">modern</term>
+                    <term type="data-capture">semi-automatic transcription</term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-11-27">Initial ELTeC level-1</change>
+        </revisionDesc>
+    </teiHeader>
+<text>
+<front>
+<div  type="titlepage">
+<head>Amilec, ou la Graine d'Hommes qui sert à peupler les planetes, par L'A. D. P*** [i.e. C. F. Tiphaine de la Roche]. Troisième édition, augmentée très considerablement</head>
+<p>L'A. D. P***</p>
+</div>
+</front>
+<body>
+<div  type="chapter">    
+<head>OU LA GRAINE D'HOM MES.</head>    
+<p>y avoit sept heures que j'etois enfermé dans mon Cabinet. Je m'y</p>
+<p>tenois opiniâtrement colé sur un Volume assez ample, où il est parlé de la génération. Je le parcourus avec toute l'avidiré dont est capable un homine qui ne sçait rien, &amp; qui brule d'apprendre.</p>
+<p>Que me resta-t-il de cette étude ? Ce qui reste de toutes celles de ce genre: des doutes. Rebuté de ce pénibleexercice, aussi</p>
+<p>ignora : "que je l'étois auparavant, je jett. là le volume , &amp; me voilà à invectiver contre tout ce qui s'appelle Physicien, Naturaliste, Médecin, Philosophe, &amp;c<hi rend="italic">. </hi></p>
+<p>O homme, in'écriai-je , que ta raison est défectueuse, que ta pénétration est peu active, que ta science est bornée! Tu entres par une voie obscure dans la vie, &amp; tu n'en sors que pour te plon</p>
+<p>dans une nuit encore plus profonde. Tu te trouves sur la terre, fans sçavoir comment on t'y 2 placé, tu y restes sans sçavoir quand tu la quitteras; tu la quittes, sans sçavoir où tu vas. Dans toi tu ne connois rien, hors de toi tu ne connois pas davantage. Tu te léves pourtant quelquefois au milieu de nous, comme un</p>
+<p>ger</p>
+<p>a</p>
+<p>Pédant au milieu d'une troupe d'enfans: »</p>
+<p>Qu'on se taise, dis» tu, &amp; qu'on m'écoute; je vais</p>
+<p>prendre la chaîne des Etres &amp;</p>
+<p>la parcourir d'un bout à l'au" tre; je vais dévoiler la Nature,</p>
+<p>&amp; vous faire voir quelle est la</p>
+<p>fabrique des plantes, des ani» maux, des hommes, du monde</p>
+<p>.</p>
+<p>Hé - bien! parle, nous t'écoutons<hi rend="italic">. </hi></p>
+<p>Mais à peine as tu fait un pas, que tu te trouves environné de ténébres; tu te donnes pour guide , &amp; tu t'égares à chaque instant; tu prétends nous faire voir la vérité, &amp; tu ne nous montres que des chiméres.</p>
+<p>La barriére étoit ouverte , le champ étoit valte, j'aurois sansdoute porté fort loin ces réfle.</p>
+<p>xions. Mais au milieu de ma boutade philosophique, un sentiment de lallitude se répandit subitement sur toutes les parties de mon corps, mes paupiéres affoiblics se fermerent, ma têre. appesantie tomba sur un tas de volumes in <hi rend="italic">folio </hi>qui étoit à côté de moi : je m'endormis ; je fis plus, je rêvai.</p>
+<p>Je crus voir venir à moi un jeune homme d'une taille extrêmément avantageuse, &amp; qui avoit dans la phisionomie quelque chose au-dessus de l'humanité.</p>
+<p>Je m'appelle AMILEC, me dit-il: je suis le Génie qui préside à la multiplication de l'espéce humaine. J'ai remarqué les embarras où tu viens de te trouver au sujet de la génération ; j'ai eu pitié de ta peine, &amp; j'offre de te donner sur</p>
+<p>ce point tous les éclaircissemens que tu peux souhaiter.</p>
+<p>Je voulus lui marquer toute la reconnoissance que je devois à tant de bonté. Soit étonnement ou mal-adreffe , je m'embarquai dans un assez mauvais compliment, qu'heureusement il ne me donna pas le tems d'achever. Tréve de cérémonie, reprit-il : puisque tu veux t'instruire, prête feulement con attention.</p>
+<p>Il est dans la Nature des Phénomènes uniques, continua Amilec, &amp; il en est d'autres qui so ressemblent en beaucoup de cho ses. Les premiers ont des ressorts particuliers; les feconds ont des causes communes , &amp; s'opèrent à peu près de la même manière.</p>
+<p>De tous les Etres qui t'environnent l'homme seul réfléchit, raisonne, agit conséquemment. Il y a donc dans lui un ressort, un principe particulier, qui pour être aprofondi, doit être examiné dans lui-même, sans qu'on en puisse trouver aucun exemple ailleurs.</p>
+<p>Mais, ainsi que l'homme, l'animal a du mouvement; il voit, il entend, il est sain &amp; malade: Voilà autant de phénomènes qui se ressemblent dans l'homme &amp; dans la brute. La cause est donc générale, le reffort commun ; qui le connoitra dans l'un, le connoîtra dans l'autre.</p>
+<p>De plus, comme les hommes &amp; les animaux, les plantes naissent, vivent, meurent; comme eux,</p>
+<p>elles croisfent &amp; multiplient; tout cela est commun aux uns &amp; aux autres, tout cela doit donc suivre certaines régles générales, dont les variations ne sont pas un objet. Ainsi, quand on sçaura comment s'exécute la génération des plantes, on sçaura à peu de choses près, comment s'opére celle des hommes &amp; des animaux. En général les plantes viennent de graine : les hommes &amp; les animaux doivent en venir aufli.</p>
+<p>Les graines des végétaux se font principalement remarquer dans deux sortes d'endroits. Dans les fleurs ou les parties de la fructification, qui en sont comme le réservoir ; &amp; dans de petites cavités, de petits vuides, qui se rencontrent entre le corps de la</p>
+<p>ou</p>
+<p>plante &amp; son écorce: Celles qui se trouvent dans les fleurs y sont fécondées, , y croissent, y mûrifsent, <hi rend="italic">&amp; </hi>tombent ensuite , sont cueillies par les hommes. Celles qui se trouvent dans les petites cavités à la surface de la plante, font plus de progrès, elles s'y développent, &amp; donnent bientôt naissance à d'autres petites plantes écussonnées en quelque forte sur la première, &amp; qu'on appelle rejettons. Autour de ces rejettons, &amp; par la même méchanique, il en naîtra plusieurs autres: &amp; ainsi succellivement.</p>
+<p>On voit par-là que ce qu'on nomme un arbre, un chêne par exemple, n'est pas un chêne unique, mais un amas de plusieurs Chênes entassés les uns sur les au</p>
+<p>tres. Tel est le progrès de la végération , telle est dans les plantes la destination des graines.</p>
+<p>Si les animaux étoient faits pour rester immobiles,</p>
+<p>comme les plantes, l'accroissement &amp; la multiplication des uns &amp; des autres s'exécuteroient précisément de la même manière. Mais les animaux doivent se mouvoir, doivent agir. Il ne faut donc pas que sur un animal il s'implante plusieurs Hutres animaux, comme sur une branche il s'implante plusieurs autres branches : cela ne pourroit se concilier avec le mouvement que chacun d'eux doit avoir.</p>
+<p>Cependant par une juste conféquence de la régle générale, il se trouve des germes dans les ani</p>
+<p>maux, comme il s'en trouve dans les végétaux. Ces germes se font principalement remarquer , ou dans des réservoirs particuliers, qui sont aux animaux ce que les fleurs sont aux plantes : ou vers la pear, qui pareillement est aux animaux ce que l'écorce est aux arbres. Les premiers se développent lorsqu'ils sont fécondés par l'approche des deux genres ; il s'en forme d'autres ani</p>
+<p>lieu</p>
+<p>que ceux qui se rencontrent à l'habitude du corps, bien loin de s'y développer, y prennent fi peu de volume, que l'ail humain aidé du meilleur microscope peut à peine les appercevoir. Ils y restent quelque tems, tombent ensuite, ou se répandent dans l'air.</p>
+<p>maux :</p>
+<p>au</p>
+<p>Ce qne nous disons en général des animaux, doit s'entendre en particulier de l'espéce humaine. Il se trouve dans le corps humain</p>
+<p>germes, des graines, des rudimens d'hommes. Il y en a dans le réservoir qui leur est destiné dans les deux sexes: il y en a d'autres qui s'échapent par les</p>
+<p>pores</p>
+<p>des</p>
+<p>de la peau.</p>
+<p>Mais ces germes, ces graines, ces rudimens échapés aux hommes &amp; aux femmes, auroientils pareillement échappé à leur destination? Deviendroient-ils absolument inutiles, dès l'inftant qu'ils se seroient portés à l'extérieur du corps ? La Nature est trop æconome pour souffrir une perte de cette conséquence.</p>
+<p>As</p>
+<p>Nous sommes une troupe de Génies, dont l'einploi est de sauver la plus grande partie de ces sortes de graines</p>
+<p>. On m'a confié en particulier celle des honmes &amp; des femmes, &amp; l'on m'a subordonné nombre de Génies, qui, sous mes ordres, travaillent à la récueillir.</p>
+<p>Nous sommes à vôtre égard ce que vous êtes à l'égard des plan</p>
+<p>Vous autres hommes, vous femez, vous cultivez<hi rend="italic">, </hi>vous recueillez des fruits ; nous autres Génies, nous semons, nous cultivons, nous recueillons les graines d'hommes. Et comme un Jardinier ne réserve en graine que les meilleures &amp; les plus belles plantes de son Jardin; de même nous ne récueillons de graines hu</p>
+<p>tes.</p>
+<p>mairies que celles qui nous sont fournies par les hommes &amp; les femmes du mérite le plus distingué.</p>
+<p>Au reste ne t'informe point de la nature de ces germes, non plus que</p>
+<p>de l'usage que nous en faisons: je ne tarderai pas à t'en instruire. --Sortons seulement de ce Cabinet; j'ai eu soin d'aiguifer ta vüe, tu vas voir travailler à la moisson des germes humains.</p>
+<p>A ces mots Amilec fortit, &amp; je le suivis. A peine avions-nous fait deux pas, que je vis à peu de distance de nous, cinq ou fix Génies occupés à recueillir la graine d'hommes.</p>
+<p>Imaginezvous un Physicien, qui avec toute l'attention &amp; la sagacité pollible, s'occupe à fonder le duvet</p>
+<p>peu près</p>
+<p>qu'il apperçoit sur l'aile d'une mouche ; telle étoit à l'attitude de chacun de cesGénies moissonneurs. Il n'y avoit pas moyen de s'empêcher de rire; j'allois éclater : j'en fus détourné par Amilec.</p>
+<p>A ta gauche, me dit-il, tu vois unGénie qui recueille la graine d'un Officier qui , après un imûr examen ,</p>
+<p>a cru enfin qu'il n'étoit pas indigne d'un Militaire de penser; &amp; qui en conséquence employe à l'étude ces tems de repos que les autres donnent à la diffipation, souvent à la débauche.</p>
+<p>Plus loin on recueille précieusement la graine d'un homme qui ne va prendre part à la joie de ses amis, que quand il y eft in</p>
+<p>vité, &amp; qui court de lui-même partager leur tristesse<hi rend="italic">, </hi>&amp; leur donner, sans les offrir, les fecours dont ils ont besoin.</p>
+<p><hi rend="italic">A </hi>ra droite on recueille la graine du Gouverneur d'un Grand Seigneur. Il s'applaudit de ses soins &amp; des heureuses dispositions de son Eleve ; il n'a employé que dix ans à lui apprendre à se taire.</p>
+<p>Vois<hi rend="italic">-</hi>tu ces trois Génies occupés autour de cette jeune personne? Devinerois-tu bien pourquoi j'en fais cueillir si soigneusement la graine ? Cela me paroît fimple, répondis-je; voilà une des plus belles femmes qu'on puisse voir , ce seroit dommage d'en perdre un seul germe. Si la beauté est un trésor , 'repliqua</p>
+<p>me.</p>
+<p>Amilec, c'en est un que la vettu seule apprétie. Ne t'imagine pas que ce soit précisément pour deux beaux yeux que j'occupe trois Génies autour de cette fem</p>
+<p>Mais elle est mariée depuis cinq ans, elle a de l'esprit, de la beauté, de la jeunesse,enfin elle eft deParis,&amp; elle a toujours été fidele à un Mari qu'elle n'aime pas.</p>
+<p>En portant la vûe de côté &amp; d'autre, j'apperças un Génie moissonneur qui s'employoit à cueillir de la graine de Petit-Maître. Eh, quoi ! Seigneur Amilec, dis - je avec étonnement, quel est votre but ? quelle provision faites-vous là ? où voulezvous transplanter cette engeance ? Nulle part, répondit Amilec: ce n'est point dans cette vûe que je</p>
+<p>fais ramasser les graines de PetitMaître. Mais quoique je me garde bien d'en réserver aucune , elles ne laiffent pas de m'être utiles à quelque chose. J'ai trouvé un secret pour épurer la graine de femme. Je fais jetter dans une boëte pleine de graines féminines huit ou dix de Petit-Mai</p>
+<p>germes tre: il s'excite aulli-rôt un mouvement inteftin des plus violens. Quand il s'est appaisé, &amp; que tout est en repos, on trouve dans la boëte, autant de gros pelotons, qu'on y avoit jetté de germes de Pecit - Maître. Chaque peloton s'est formé par une multitude de graines de femmes qui se sont jettées autour d'un de Petit - Maître, &amp; qui s'y sont accrochées les unes aux autres. Je</p>
+<p>germe</p>
+<p>fais ôter ces pelotons; &amp; je mets en reserve le peu de graine qui reste dans la boite.</p>
+<p>Les graines humaines, continua Amilec, ont chacune suivant leur espéce, des propriétés singuliéres, dont toi-même tu auras bien-tôt lieu d'être surpris. Par exemple, la graine de gens de Robe est pourvue d'une qualité corrosive extraordinaire. Si je n'avois le soin de faire jetter dans la boëte où elle est renfermée quelques germes de Plaideurs, pour amuser cette vertu famélique, je n'en pourrois conserver aucune; elles se rongeroient plutôt les unes les autres, que de ne pas ronger.</p>
+<p>Entre autres la graine d'Avocat a encore cela de particulier, qu'étant une fois mise en mouvement,</p>
+<p>au lieu de se porter comme tous les autres corps naturels, a décrire une ligne droite, elle tend fans cesse à décrire des lignes courbes &amp; paraboliques.</p>
+    <p>Depuis long-tems j'avois observé que la graine de Chirurgien présentée à celle de Médecin prenoir un mouvement d'effervescence des plus violens. Aussi a-t-il resulté de ce choc (suivant les régles de l'art) une graine amphibie, <ref target="#N1"/> qui, comme tu sçais, tient &amp; de celle de Médecin &amp; de celle de Chirurgien, mais qui est pire que l'une &amp; l'autre.</p>
+<p>Si j'entrois dans le détail de toutes les propriétés des germes humains, je ne finirois jaunais. Je veux te faire voir mon magasin;</p>
+<p>partons : chemin faisant je t'in</p>
+<p>ruirai de ma million, de mes travaux, de l'usage que je fais de la graine d'hommes. En achevant ces mots, Amilec s'élança avec légéreté dans l'air ; je me sentis, non sans étonnement, transporté à ses côtés; nous ne marchầmes pas, nous volâmes vers le magasin. Le croiras - tii, reprit Amilec,</p>
+<p>multitude innombrable de Tourbillons, de Soleils, de Terres habitables, qui composent ce vaste Univers, tout cela, (non tu ne le croiras jamais) tout cela a été autrefois contenu dans un grain dont la grosseur égaloit à peine celle d'un pois. Le développement s'en et fait</p>
+<p>peu à peu, mais il n'est pas encore terminé.</p>
+<p>cette</p>
+<p>Il est bien des Mondes que l'on peut comparer à de jeunes plantes qui ne commencent, pour ainsi dire, qu'à germer.</p>
+<p>Ces amas d'Eroiles, ces taches blanchâtres</p>
+<p>que vous autres habitans de la Terre appercevez dans la yoûte des Cieux, &amp; que vous appellez voies de Lait, ne sont autre chose que des paquets de petits Mondes, qui ne sont sortis de leur coque, que depuis soixante ou quatre vingt siécles. Ils vous paroissent fort rapprochés les uns des autres, &amp; ils le sont en effet, parce qu'ils n'ont pas encore pris beaucoup d'accroissement, &amp; qu'en conséquenceils occupent assez peu d'espace.</p>
+<p>Bien plus, notre Monde en particulier, notre Tourbillon,</p>
+<p>quoiqu'entiérement développé, n'a pas encore atteint à la dernière perfection. Les Planeres sont, comme personne ne l'ignore, autant de terres habitables; mais il leur faut un certain degré de maturité, pour qu'elles puissent être peuplées, &amp; toutes ne sont pas encore parvenues à ce degré. Ces différentes Terres sont comme autant de grosses pommes, qui quoiqu'attachées au même arbre, ne mürissent pas toures à la fois.</p>
+<p>Mercure étant le plus proche du Soleil, a mûri le premier ; ensuite Venus, puis la Terre. Dès que Mercure fut mûr, j'y fus député avec les germes primordiaux des hommes. Parvenu</p>
+<p>a</p>
+<p>à</p>
+<p>cette Planete, je semai, je cultivai, je recueillis de nouvelles graines d'hommes. Ensuite je passai dans Venus, quand j'eus appris par le moyen de quelques Couriers, que j'y avois envoyé pour reconnoître le Pays, que fa maturité étoit parfaite. Je sémai de nouveau, je peuplai cette Planette, je fis une nouvelle provision de graines. Enfin je partis de Venus il y a environ sept à huit mille ans, &amp; j'arrivai sur la Terre où j'ai continué de femer. &amp; de moillonner. Maintenant je suis sur le point de partir pour Mars , dont la maturité s'avance fort; de-là j'irai m'établir dans Jupiter ; enfin je finirai ma carriére par Saturne, qui, d'ici à plus de dou</p>
+<p>ze mille ans, ne sera en état d'être habité.</p>
+<p>ouije compte que pour le moins il lui faudra encore ce tems pour mûrir, car comme tu sçais, il est extrêmement éloigné du Soleil.</p>
+<p>- Pour ces petites Terres qui tournent autour des autres<hi rend="italic">, </hi>&amp; que vous appellez Lunes ou Satellites, je ne me donne point la peine de m'y transporter moimême pour les peupler ;, jy envoie mes Lieutenants. Il y a quelques cinq cens ans que j'envoyai le Génie Zâmar à votre Lune avec bonne provision de graine d'hommes. Je ne doute pas qu'aujourd'hui la multiplication de l'Espece n'y soit sur un bon pied ; je suis surpris de n'en</p>
+<p>re ,</p>
+<p>pas recevoir des nouvelles , j'en attends de jour en jour.</p>
+<p>Tandis qu'Amilec parloit , nous traversións les airs avec une extrême rapidité. Notre voitu</p>
+<p>de quelque nature qu'elle fût, étoit très-douce; point de cahot, point de secousles: mais la volubilité d'un pareil Equipage porte toujours un peu à la tête. Enfin nous arrivâmes au magasin.</p>
+<p>Représentez-vous un appartement fort vaste; les murs revêtus de tablertes &amp; de boëres étiquetées; le milieu occupé par une grande table chargée de petits sacs, de paquets, de cornets de papier; de tous côtés , des Ouvriers actifs qui s'empressent à vanner, cribler, ramiser,</p>
+<p>embaler ; c'est l'intérieur du ma</p>
+<p>gasin d'Amilec.</p>
+<p>Vous autres hommes, me ditil, vous croyez que les Génies ne pensent qu'à se réjouir, &amp; que leur vie doit être un tissu de dēlices. Juges des autres par mes Officiers &amp; par moi, &amp; rends plus de justice aux Puissances céleftes. Tu viens de voir combien de discernement, d'attention, de parience il faut pour recueillir la graine d'hommes ; tu vois</p>
+<p>par</p>
+<p>les inouvemens que se donnent les Génies ouvriers qui travaillent dans ce magasin, quel loin il faut apporter à séparer le bon grain, des inauvais germes qui ne manquent jamais de l'offusquer, malgré toute l'at</p>
+<p>tention &amp; la sagacité des Génies moissonneurs.</p>
+<p>Mais fi Pon a beaucoup de peine à recueillir &amp; à purifier ces graines, on n'en a pas moins les conserver. La trop grande humidité les corrompr, la trop grande sécheresse les extenue, une chaleur trop violente dislipe l'esprit qui doit un jour les vivifier, un froid trop considérable les gêle &amp; détruit leur organisation, le grand air les altere le défaut d'air les suffoque : il faut donc les tenir dans un certain milieu, &amp; ce milieu est difficile à failir. Elles sont encore sujettes à un autre inconvénient, les cirons les attaquent. L'autre jour, je ne sçais par quel hazard, j'ouvris cette boete qui</p>
+<p>porte pour ériqaette, graine de Conquérans; quelle fut ma furprise, quand au lieu de trouver des graines en bon état, je ne trouvai presque que de la pousfière ! Les cirons avoient attaqué la source de la grandeur d'ame. Plus des deux tiers de mes Héros, ou étoient réduits en poudre ou avoient servi de pâture à ces petits insectes : c'étoit une désosation. Tel qui devoit un jour faire la terreur des Rois, n'avoir pu résister à la dent meurtrière d'un ciron. Que de lauriers moissonnés avant le teins, que de triomphes manqués, que de révolutions étouffées, quelle perte pour l'Histoire universelle de Mars ! Les plus grands événemens qui devoient se succéder</p>
+<p>dans, <hi rend="italic">cette </hi>Planète, croient enchaînés l'un à l'autre</p>
+<p>par</p>
+<p>des liens dont une graine de Conquerant étoit le noud, &amp; dans le même moment tour l'appareil s'est écroulé</p>
+<p>tout a disparu. Lequel aimes - tu mieux de rire ou</p>
+<p>de pleurer de l'énorme petiteffe , où se réduisent fes plus grandes choses, quand on les rapproche de leur origine : Quoiqu'il en soits dans cette affaire entre les Cirons &amp; les Conquérans , presque cous pres Alexandres, mes Célars, mes Charles XII. &amp; beaucoup d'autres ont été détruits. Er en cela je ne sçais si j'ai perdu ou gagné, li je dois me plaindre ou m'applaudir. De quoi me plaindrois-je en effet ? de ce</p>
+<p>qu'il' ne me refte peut-être pas de quoi détruire dix Villes par an'? de ce qu'il n'y aura peutêtre dans Mars, que de ces hommes peu Héros , qui vivent en paix avec leurs voisins de ce qu'il ne s'en trouvera peut-être pas un seul capable d'affembler les uns pour aller égorger les autres? En vérité, je pense que quand on n'a à s'affliger que</p>
+<p>de páreilles choses, on ne doit pas être inconsolable.</p>
+<p>Je te veux, repris-je, mais il est toûjours fâcheux que des Puisfances' célestes prennent tant de peine à amasser une nourriture délicate' a de misérables cirons, &amp; qu'uin aniinal si vil &amp; fi mince puiffe fe flatter de détruire en moins d'une femaine</p>
+<p>vingt Alexandres &amp; autant de Césars, sans en être plus gras. Au sür-plus, Seigneur Amilec il me paroît que vous pourriez vous épargner bien des travaux. Prenez sur la terre deux ou trois graines d'homme seulement, choisissez-en de rrolifiques &amp; de bon rapport", vous aurez avec le tems de quoi peupler Mars tout entier. Tu es admirable, repartit vivement Ainilec ; va dire au Laboureur qui seme :</p>
+<p>Pourquoi vous mettre tant en dépense ?</p>
+<p>remportez chez » vous cette multitude de grai» nes que vous prodiguez à la w terre. Une seule vous suffira;</p>
+<p>avec le tems yous en couvrirez », toutes vos terres<hi rend="italic">.</hi>" Combien de fiécles ne me faudroit-il pas..</p>
+<p>BS</p>
+<p>2</p>
+<p>AMILEC fut interrompu par un Génie moissonneur qui entra brusquement en disant: S'en</p>
+<p>mêle qui voudra, pour moi</p>
+<p>jyrenonce. J'aimerois tout au,, tant chercher la vérité parmi ", les Philosophes. Parce que</p>
+<p>vous me connoissez un peu de talent, vous m'accablez de tout ce qu'il y a de plus diffi</p>
+<p>cile. Quelle peine n'ai -- je » pas eue à vous pourvoir de</p>
+<p>graines de Juges irréprochab" les ? Ne méritois-je pas bien de prendre un peu</p>
+<p>de</p>
+<p>repos, » après avoir rempli une aufli</p>
+<p>pénible million ? Au contrai" re, il faut maintenant vous » trouver de la graine d'Eccle</p>
+<p>frastiques, qui soit de bon aloi.</p>
+<p>Où voulez-vous que</p>
+<p>me</p>
+<p>j'en prenne? Il n'en eft plus : » ou s'il en est , elle se trouve</p>
+<p>confondue avec une nialtitude prodigieuse de faux germes, dont on ne peut la démêler. Vous croyez cueillir une bon</p>
+<p>ne graine d'Ecclésiastique , &amp; » vous vous trouvez les mains</p>
+<p>pleines de graines de Moines.</p>
+<p>Il falloit donner certe »</p>
+<p>commiflion il y a dix ou dou" ze fiécles ; je vous aurois » pouryu abondamment. Mais</p>
+<p>alors vous ne vous imaginiez » pas pouvoir en manques y</p>
+<p>&amp; , vous vous amusiez à faire pro</p>
+<p>vifion de graines de quelques filles modestes, de quelques</p>
+<p>femmes vertueuses, de quelw ques chaftes veuves : vous ne</p>
+<p>pensiez pas pouvoir jamais en</p>
+<p><hi rend="italic">pour </hi>donner de ces Pasteurs</p>
+<p>avoir affez. Cependant le » tems de la inoisson des ger- mes Ecclésiastiques s'est passé ; ». Vous y avez pensé dépuis',</p>
+<p>mais il n'etoit plus tems." Après avoir ainsi harangué, le Moissonneur Ecclésiastique préfentá à Amilec une très-petite boëte, qui n'étoit remplie qu'à moitié, c'étoir tout le fruit de sa moisson. Amilec la reçut, &amp; lui dit : Allez, faites diligence &amp; ne perdez pas courage.</p>
+<p>Si vous cherchez bien, vous trouverez encore de ces hommes pleins de Dieu , de ces Savans qui fe font toujours défiés de leur propre raison de ces riches Prélats qui ne reçoivent qưe</p>
+<p>zélés que la-molesse n'endort</p>
+<p>as</p>
+<p>Ayant ainsi</p>
+<p>point au milieu de leur troupeau.   </p>
+<p>Les germes des Apôtres ne sont   </p>
+<p>pas encore épuisés : vous en   </p>
+<p>trouverez encore.   </p>
+<p>congédié le Génie grondeur   </p>
+<p>Amilec jetta les graines eccléfia-   </p>
+<p>stiques qu'il venoit de recevoir,   </p>
+<p>dans un tamis qui gardoit le bon   </p>
+<p>&amp; rejettoit le mauvais. Il agite   </p>
+<p>le tamis, &amp; en même tems je   </p>
+<p>vis tomber plus de la moitié des   </p>
+<p>germes qui y érojent contenus.   </p>
+<p>Ceux là étoient de différentes   </p>
+<p>couleurs, il y en avoit de noirs,   </p>
+<p>de blancs, de gris, de bigarés.   </p>
+<p>Amilec continua de tamiler , juf-   </p>
+<p>qu'à ce qu'enfin il tombất com-   </p>
+<p>me une grêle de molécules fe&amp;tai-   </p>
+<p>res, qui fe reponssant l'une l'au-   </p>
+<p>tre, Tembloieft fe marquer l'a-   </p>
+<p>version mutuelle &amp; le dédain qui   </p>
+<p>devoit un jour les animer. Amilec fir jetter au vent tout ce que le tamis avoit rejetté, &amp; mit le reste en réserye.</p>
+<p>A peine la graine d'Ecclésiastiques fut-elle empaquetée qu'il entra un autre Gênie mois-. sonneur. Celui-ci avoit l'air extrêmement las ; il plioit sous le poids d'un sac énorme &amp; rempli exactement. Quel est le genre d'homme qui pullule fi extraordinairement, demandaije à Amilec.</p>
+<p>Ce fac, mc répondit-il, est rempli de graines d'Auteurs. Que leur quantité prodigieuse ne t'étonne pas; il y a peu de bons germes, beaucoup de mauvais ; féparer les uns des autres, est un de nos plus pénibles emplois: tu vas en être témoin.</p>
+<p>Il fit d'abord ouvrir une fenêtre qui donnoit du côté du Midi, &amp; une autre qui repondoit au Nord. Cependant quatre des plus vigoureux Génies qui se trouverent là, se saisirent du fond du sac, comme s'ils eufsent voulu le vuider, &amp; l'éleverent le plus haut qu'il leur fut poflible. Alors Amilec s'approcha &amp; lâcha le cordon qui tenoit le fac fermé. La graine en tomba tumultueusement; &amp; je vis fe former dans l'instant, com me un torrent de poullière, que le vent, qui entroit par la fenêtre ouverte du côté du Midi, emportoit au Nord. Ce nuage qu'entraîne le vent,</p>
+<p>me dit Amilec est composé pour la plus grande partie de graines d'Auteurs de</p>
+<p>Romans, de Poëtes manqués de Dillertateurs frivoles, de faiseurs de ces petits morceaux qu'on écrit sans y penser, qu'on publie avec confiance, &amp; qui prennent on ne sçait pourquoi</p>
+<p>. Le vent, comme tu vois, a emporté presque tout ce qui étoit contenu dans le fac ; à peine en est-il resté une milliéme partie , qui par son poids a résisté à l'impression de l'air. Mais de <hi rend="italic">ce </hi>petit reste même, il y en a encore beaucoup à retrancher. En achevant ces mots, il reçut des mains d'un Génie qui étoit à côté de lui , une petite boule , qui me parut d'or. Il plaça cette boule au milieu des graines qui étoient restées sur l'aire, &amp; j'en vis environ la moitié s'ap</p>
+<p>procher fort rapidement du petit globe', &amp; Pautre moitié s'en écarter avec autant de rapidité. J'appris qu'au centre de ce globe il y avoit un germe de Sage, qui par des raisons de simpathie &amp; d'antipathie avoit la vertu d'attirer à lui la graine d'Autenrs sensés, &amp; d'écarter celle de ces Ecrivains téméraires ; inquiets ; séduisans, dont le dangereux talent 'est de rendre le vice aimable aux yeux des foibles, d'ob scurcir ce qui paroissoit clair, &amp; de porter les semences du trouble au sein même du repos. Après que les graines fe furent ainsi partagées, un Génie ramafla celles qui s'étoient approchées du globe, un autre balaya celles qui s'en étoient écartées, un troilie</p>
+<p>me apporta une boëre quarrée, dont le couvercle étoit une lame de métal très - mince. Voici, dit Amilec, la dernière épreuve où nous mettons la graine d'Auteur. Lorsque la boite fut placée sur une table, on répandit sur le couvercle le</p>
+<p>peu de graine qui avoir résisté aux épreuves précédentes. Quelle fut ma suprise, quand j'en vis tout-àcoup disparoître plus des trois quarts ! Il ne vous en restera pas, dis-je d'un ton ému. Il en restera peu, reprit froidement Amilec, mais elle sera bien conditionnée. Cette boëre contient un germe de chaque Auteur original qui a paru depuis qu'on se mêle d'écrire. Celles des graines répandues sur le couvercle</p>
+<p>qui</p>
+<p>s'évanouiffent. &amp; disparoissent, ont été tirées des Auteurs Plagiaires, Compilateuts, Commentateurs &amp; autres Ecrivains de ce genre.</p>
+<p>Leur substance ne leur appartient pas en propre, mais aux germes originaux contenus dans la boëte; chacun attire la sienne, il n'en reste plus aux germes Plagiaires, ils s'anéantiffent.</p>
+<p>Qu'il seroit à souhaiter, ajouta Amilec, que les hommes eussent le secret de refasser les Ouvrages des différens Auteurs, comme nous avons celui d'éplucher leurs graines. Que de peines épargnées aux studieux ! Que ces vastes Bibliothéques dont l'étendue vous effraye, se trouveroient retrécies! Que les Sciences humai</p>
+<p>nes se réduiroient à peu de cho ses! La mémoire la plus médiocre n'en seroit pas surchargée.</p>
+<p>Pendant qu'on empaquetoit la graine d'Auteurs qui avoit réfifté à toutes les épreuves dont je viens de parler, il entra un Génie qui fixa toute mon attention. Je ne crus pas d'abord que ce fûr un moissonneur, je ne le voyois pourvû d'aucun sac, ni d'aucune boite. Il s'approcha d'Amilec, &amp; lui présenta un très-petit cornet de papier.</p>
+<p>Nous sommes fort heureux " dit-il, d'être à peu près » pourvus de ce qu'il nous faut</p>
+<p>de graines d'Amans ; je vous avoue qu'il ne s'en trouve presque plus sur la terre. " Rien ne me surprit tant que</p>
+<p>d'entendre parler ainsi ce moissonneur. Je l'interrompis, hé! d'où venez-vous, mon bon Génie, où avez-vous - vendangé lui dis-je d'un air un peu moqueur , (car je commençois à me familiariser avec les Puissances célestes.) J'ai vendangé</p>
+<p>dans ton Pays, me repliqua" t-il d'un ton brusque, je t'y</p>
+<p>ai vu, &amp; je ne me suis pas " aviséde recueillir de ta graine." A ces paroles, Amilec fit un éclat de rire, ses Officiers l'imiterent, je perdis contenance. Cela ne m'empêcha pourtant pas d'approcher le plus près que je pus d'Amilec, &amp; de lui dire tout bas; vous avez là un mauvais Ouvrier, il vient du</p>
+<p>pays</p>
+<p>du monde où l'Amour régne le plus</p>
+<p>souverainement. Autant d'hommes que vous y rencontrez, c'est autant d'Amans.</p>
+<p>Qu'un Génie tende la main, la graine d'Amans va y tomber par milliers. Je ne scais à quoi s'amusent vos moissonneurs quand ils perdent leur tems , mais je suis très für que celui-ci s'est amusé. Encore une fois vous avez là un très-mauvais Ouvrier. Pas tant que tu l'imagines, repartit Amilec. Il n'a pas trouvé dans ton pays un ausli grand nombre d'amans, que tu le penses. C'est l'endroit du monde où l'on parle le mieux d'amour &amp; où l'on aime le moins. Connois-tu l'amour ? Il en est de deux fortes, comprends bien cela. Il en est un empreffé, pétillant, impétueux,</p>
+<p>qui parle beaucoup, &amp; dit toujours au-delà de ce qu'il sent. C'est un feu qui tient de l'étincelle, il en a la vivacité, l'éclat &amp; lę peu de durée. Il en est un autre rendre, timide, réservé, moins brillant, mais plus solide, moins parleur , mais plus sincère, moins vif, mais plus durable. Il naît de la nature &amp; non du caprice, croît avec mesure , s'engage avec choix ; &amp; une fois uni à son objet , rien ne peut l'en détacher. Le premier ne mérite guère le nom d'amour, c'est celui de ton pays; le second n'y est presque point connu.</p>
+<p>Ce Génie que tu accuses de paresse, n'a poine entré ici depuis plus de cinquante ans. Il a employé ce tems autour de</p>
+<p>tout ce qu'il y a d'Ainans les plus tendres. Tu vois combien la graine en est rare; à peine at-il pû remplir ce cornet. Mais de ce petit nombre même, je ne doute pas que je ne fois encore obligé d'en mettre beaucoup</p>
+<p>à l'écart. Tandis qu'Amilec parloit, on lui présenta un vase de cristal, rempli d'une liqueur très-limpide &amp; qui répandoit une odeur des plus suaves. Il ouvrit le corner qu'il avoit entre les mains, &amp; répandit dans le vase les graines d'Amans: qui d'abord surnage</p>
+<p>Cette liqueur , reprit-il, est l'Eau probatique des Amans. Quoiqu'extrêmement volatile, elle conserve la vertu</p>
+<p>fort</p>
+<p>rent toutes.</p>
+<p>fort long-iems ; &amp; je-ne la renouvelle</p>
+<p>que</p>
+<p>de trois inmille ans; en trois mille ans.</p>
+<p>Pour composer celle-ci, j'ai pris de la Matière éthérée, quatre onces ; de l'influence de la planete appellée Venus, quatre gros;.de la Matière fympathique ou tran\{pirante de Léandre &amp; de celle de Héro, de chacune une demilivre. J'ai rapproché les principes de ces trois fluides, &amp; il en a résulté cette Eau probatique. Vois tu ces germes" : qui tombent les uns après les autres au fond du vase? Ce sont les graines des vrais Amans. Elles ont beaucoup de rapport avec l'Eau probatique, elles s'en imbibent &amp; ensuite se précipitent ; semblables à des feuilles de Thé,</p>
+<p>qui le portent au fond de la théyere, quand elles ont été imbibées de l'eau dans laquelle on les infuse. Pour les autres , elles resteroient éternellement sur la surface de l'Eau probatique , fans s'en impregner, sans se précipiter. Dans un quart d'heure on ôtera &amp; on mettra au rebut celles qui furnageront, il y en aura plus de la moitié; on fera sécher les autres, &amp; on les mettra en réserve.</p>
+<p>J'érois tout étonné de ce que j'entendois &amp; de ce que je voyois. J'aurois juré que mon pays auroit fourni, en graine-d'Amans, vingt magasins tels que celui d'Amilec. J'étois bien dans l'er</p>
+<p>Ce qui se passoit sous mes yeux m'engagea à faire une</p>
+<p>reur.</p>
+<p>petite fupputation, &amp; tout bien combiné je trouvai que fur mille Soupirans de ma chere Patrie, il y en auroit à-peu-près cinq ou fix, dont la graine pourroit se précipiter dans l'Eau probatique; le reste surnageroit.</p>
+<p>TANDIS que je faisois mon calcul, j'apperçus un Génie qui agitoit &amp; secouoit avec violence des graines renfermées dans un bocal de verre. Je m'approchai, &amp; lui demandai à quel deffein il les ballotoit ainsi I1 nous vient quelquefois, me répondit-il, des germes pourvus d'une qualité qui les distingue des autres, mais qui font fi exténués, que nous craignons avec raison qu'ils ne puissent pas le conserver.</p>
+<p>Pour obvier à cer</p>
+<p>inconyénient, nous les amalgamons, comme tu vois, avec de la graine de Financier. Celle-ci à la vérité manque de qualité distinctive, mais elle est bien nourrie &amp; regorge de suc. Dans l'amalgame, les germes s'entrecommuniquent ce qui leur manque. Le malheur est</p>
+<p>que</p>
+<p>la graine distinguće perd de fa qualité en prenant de la consistancé<hi rend="italic">, </hi>&amp;</p>
+<p>que la graine de Financier perd de la consistance en prenant de la qualité.</p>
+<p>Des meilleures souches, interrompit Amilec, il sort souvent de mauvais rejettons. Tu ne peux croire, par exemple, combien la graine de femmes est sujette à dégénérer &amp; à faire dégénérer celle d'hommes. Je fis cette remarque</p>
+<p>dans Vénus. Dèsfors jedonnai les ordres les plus exprès à ce qu'il ne me fût apporté de graine féminine, que celle qui auroit été recueillie sur les femmes les plus vertueuses. Pour plus grande sûreté, je recommandai à ceux de mes Officiers que je destinois à cette partie de ma moisson d'en recueillit peu dans les grandes Villes, &amp; de s'occuper 12rement autour des femmes de Qualité ; mais de se répandre dans les campagnes, &amp; de moifsonnet parmi les femmes d'un état médiocre. Mes ordres furent exécutés de point en point; de maniére que quand je pallai sur la Terre , j'étois pourvu de la meilleure graine de fenımes qui fut au monde. Tu vois le</p>
+<p>peu de succès qu'ont eu mes. soins. J'ai femé de la tendresse, di il m'est venu de la galanterie; j'ai femé de la constance, &amp; il m'eft venu de l'opiniâtreté; j'ai femé de l'économie, &amp; il m'est venu de l'avarice; j'ai semé du bon sens, &amp; il m'est venu de l'esprit, souvent quelque chose de pire. Il ne faut compter sur rien, encore moins fur la graine humaine, toute autre chose. Actuellement que je te parle, j'ai du Philosophe parfait , du Métaphisicien admirable', du Théologien à l'épreuve, de l'Orateur affez pour peupler des régions entiéres; je femerai tout cela, &amp; il ne me viendra peut</p>
+<p>que fur</p>
+<p>être que</p>
+<p><hi rend="italic">codre </hi></p>
+<p>des   </p>
+<p>gens   </p>
+<p>à fiftêmes, des Esprits forts, des Sectaires &amp; de beaux Discoureurs. On diroit que la Naturc s'épuise : s'il sort encore quelque grand homme de fe's mains, c'est une fleur</p>
+<p>que</p>
+<p>le hazard fait naître malgré la sigueur des hivers.</p>
+<p>Il en fera des habitans de Mars, coinme de ceux de la Terre; il s'y trouvera du mailvais en abondance, du passable en assez perire quantité, du bon, presque point. D'ailleurs ne te perfuade pas que les graines que nous y devons porter , soient d'une telle nature qa'on n'ait rien à y déliret. Les personnes fur lesquelles on les a cueillies, pouvoient , pour une bonne</p>
+<p>qualité, en avoir trois ou quatre mauvaifes. Je vais t'en donner une preuve fenfible.</p>
+<p>Un Génie, qui par le discours d'Amilec prévoyoit ce qu'il avoit intention de faire ,' ouvrit une caisle qui étoit sous la grande table du magasin, 'en tira ane baf se de viole, la mit d'accord, &amp; la présenta an Grand - Maitre. Enluite il plaça sur la table plufieurs bočtes remplies de germes, &amp; dont il avoit öté le couvercle. . - Cet instrument, reprit Amilecis est monté sur le ton des paflions : chaque ton répond á chaque paffion; de manière que fi quelque principe de paflion met un germe à l'uniffon d'un de ces tons ; će germe , par une</p>
+<p>nécessité phisique, "trémoussera quand ce ton se fera entendre.</p>
+<p>Voici, continua-t'il, en pinçant une corde, le ton de l'avarice.</p>
+<p>A peine un son obscur eut-il frappé mes oreilles, que je vis trémousser des graines que je n'aurois jamais crų à cer unisson ; c'étoient les</p>
+<p>germes</p>
+<p>de gens qui par leur état lembloient avoir rénoncé à toutes les choses de la Terre.</p>
+<p>Voici, continua encore Amilec, le con de la jalousie.</p>
+<p>Le son en étoit encore plus bas &amp; plus obfcur que le précédent; &amp; en même-rems, le dirai-je , je vis tremouffer la plus grande parție des graines de gens de Lettres.</p>
+<p>Un troisiéme con fe fit entendre: c'étoit celui de l'orgueil.</p>
+<p>Beaucoup de graines du nombre de celles qui étoient dans les boëtes se trémousserent ; mais ce qui m'amusa le plus, ce fut les fauts merveilleux que je vis faire à quelques autres mises au rebut, &amp; qui se trouverent dans les balayures au coin du magafin: je reconnus en même - temns que c'étoient de ces germes blancs, noirs &amp; bigarrés, dont j'ai déja parlé.</p>
+<p>Enfin, Amilec parcourur deux octaves &amp; demie, tant en vices qu'en vertus; il n'y eut pas une graine qui n'entrâc au jeu.; &amp; fi chacune fautoit, une fois pour quelque vertu, elle fautoit trois fois pour</p>
+<p>certains vices. Je joue un peu de la baffe de viole, dis-je à Amilec, voulez</p>
+<p>El 레</p>
+<p>Je</p>
+<p>vous bien me permettre de faire trémouffer en mesure tous ces petits fauteurs 2 Amilec y consencic; je pris l'instrament, je jouai une concredanse. La bafse éroit toujours montée sur le con des paffions ; de maniére que suivant que je parcourois les différens tons de l'air. -que je jouois, différentes graines entroient en danfe &amp; bondissoient, chaque claffe à fon tour, le tout en mesure &amp; sans confusion. Ainfi je donnai le bal aux habitans futurs de Mars. Rois &amp; Bergers , Philosophes &amp; Igno rans, Grands &amp; Petits, tout dansoit, tout voltigcoit, c'étoit une merveille.</p>
+<p>Ce spectacle me réjouissoit de</p>
+<p>infiniment 3. &amp; je ne puis yous</p>
+<p>214</p>
+<p>dire avec quel plaisir je voyois que d'un coup d'archet, je mettois en branle des Nations entiéres. Cependant Amilec qui, voyoit tout cela comme moi voyoit encore quelque chose de plus.: --Tu as sous les yeux, me dit-il, une image de la fociété humaine. L'harmonie de l'air que tu joues, se soutient par les rapports des tons qui le composent : de même la société, qui eft repréfénzée par la danse mé thodique des graines, fe foutient par les différentes passions qui agitent les hommes.</p>
+<p>Las de faire danser les germes humains, je remis la balle de viole entre les mains d'un Génie qui étoit à côté de moi; on ferma les boëtes, on les remità leur place.</p>
+<p>Dyois</p>
+<p>je Jons <hi rend="italic">qui </hi>01,</p>
+<p>de me</p>
+<p>se me levai, je fis un tour dans le magasin, &amp; jettant les yeux de côté &amp; d'autre , considérois les provisions du Grand-Maître de la Manufacture des hommes. Voilà donc, difois-je en moi-même, le téfulcat de toutes les générations qui nous ont précédé, voilà- le principe de tous les peuples destinés à habiter les nouveaux Mondes. Précieux dépôt de la Nature, j'ai l'avantage de vous contempler. Le voile est déchiré, j'ai remonté à la source des Etres, &amp; je les vois dans leur ellence. - Générations passées, que vous vous êtes terminées à peu de chofe ! Races futures, que vous tirerez votre origine d'un principe léger ! Microscó</p>
+<p>me, abrégé des merveilles de l'Univers, ô homme, que tu es petit à mes yeux ! Un germe échappé du néant entre des millions d'autres qui y retombent , se développe,</p>
+<p>&amp; tu prens naissance. Qu'il s'en est peu fallu que tu n'aics jamais existé ! Mais à peine as-tu paru fur la surface de la Terre, que tu en es effacé. Naître par hazard, souffrir pár état, mourir par néceflité, voilà la carriére brillante que le plus superbe des Etres doit parcourir</p>
+<p>. Amilec interrompie mes réAlexions. Sortons, me dit-il, allons-nous asseoir sur ce nuage qui semble former un canapé du côté du Nord; là nous prendrons le frais, &amp; je te ferai part</p>
+<p>des éclaircissemens qui me ceftent à te donner sur la nature des germes humains &amp; sur la manićre dont ils se multiplient Amilec fortit, je le suivis. Nous allames du côté du Nord, nous nous aflunes sur le nuage; jamais je ne fus plus à mon aise. Je gardois un profond fileirce : Amilec après s'être un peu rec cueilli, jetta les yeux fur moi :</p>
+<p>Qani va assez souvents me dic» il, chercher fort loin, ce qui</p>
+<p>eft fort près ; &amp; , plus que personne, le Philosophe com be dans cet inconvénient.</p>
+<p>Pour l'ordinaire la vérité est jis fous ses yeux: il n'auroit qu'à</p>
+<p>se bailler &amp; la failir. Mais l'imagineroit -il là 2: Non, fans doute, il la croit bien</p>
+<p>s plus éloignée,"fon génie is actif s'éleve &amp; la Philosophie s'égare.</p>
+<p>Combien d'écarts de cette espéce n'a-ton pas fait au sujet » du filtême de la propagation? » Quie d'opinions, que d'écrits<hi rend="italic">, </hi>s que d'erreurs entassées les unes</p>
+<p>fur les autres ! Rien n'est</p>
+<p>pourtant plus simple que la ; marche de la Nature dans la » régénération des êtres vivans : je! je vais en un moment d'en</p>
+<p>donner l'idée la plus claire.   </p>
+<p>» Figure-toi d'abord une ef-   </p>
+<p>péce de cilindre creux, un   </p>
+<p>très-petit tuyau dont la partie - ferpérieure lieft. Hatéralement 5 percée en quelques endroits. s, Imagine que ce cilindre left » un moule dans lequel il s'en</p>
+<p>forme successivement plusieurs .» autres de la même figure <hi rend="italic">&amp; </hi></p>
+<p>perces de la même maniére. Imagine de plus que chacun de ceux-ci enfile chaque ou</p>
+<p>verture latérale du moule, &amp; » y demeure attaché på fon</p>
+<p>extrêmité inférieure. Imagine enfin qu'ils deviennent euxmêmes autant de moules, où il se forme de nouveaux cilin</p>
+<p>dres qui se glissent à l'ordinai» re par les ouvertüres latérales, &amp; s'y fixent.</p>
+<p>Tu vois déja , que le premier cilindre doit</p>
+<p>être en quelque force aux feconds, comme le tronc d'un arbre est aux-branches<hi rend="italic">,</hi>&amp; que les seconds sont aux troifiémes, comme les branches sont aux rameaux.</p>
+<p>Supposons encore que de » nouveaux cilindres continuent</p>
+<p>de fe mouler, de s'engrainer</p>
+<p>les uns dans les autres, &amp; de so se fixer au moyen d'une petite » Carinence, qui se trouvant à la</p>
+<p>partie inférieure de chaque</p>
+<p>cilindre , s'engage dans une » échancrure pratiquée à certain point de la circonférence de chaque ouverture latérale. Suîs aufli loin qu'il te fera pof</p>
+<p>sible, la formation, développe» ment, l'arrangement succeflif » &amp; continuel de ces cilindres : » que penses-tu qu'il doive arri» ver dans le progrès? ...</p>
+<p>» De deux choses l'une, repondis-je, ou les cilindres en Tortant les uns des autres, s'ajusteront catre eux de maniére</p>
+<p>» que dans la progreffion ils ne</p>
+<p>se forment jamais d'obstacles, &amp; pour lors l'accroiffement continuera toujours de se faire &amp; n'aura point de bornes; ou</p>
+<p>bien ces mêmes cilindres se » rencontreront &amp; se formeront</p>
+<p>des obstacles mutuels. Pour</p>
+<p>lors leur jeu &amp; l'accroissement » finiront, quand la résistance » sera égale à la force qui les » pousse &amp; les emboète les uns</p>
+<p>dans les autres; &amp; de ces cilindres ainsi embarassés &amp; ar</p>
+<p>rêtés dans leur progreffon, il » résultera des masses de diffe » rentes formes, suivant les » différentes maniéres dont ils » se feront rencontrés. Mais</p>
+<p>de grace, Seigneur Amilec, où en voulçz - VOUS</p>
+<p>venir avec ces moules cilindriques?</p>
+<p>Le voici, reprit-il; les gerjs mes des plantes, des arbres , is des animaux ; des hommes</p>
+<p>même, ne font ou n'ont d'asy bord été chacun 'autre chose " qu'un petit cilindre, tel que</p>
+<p>ceux dont je viens de te par</p>
+<p>ler. Les Philosophes les ont » vus ; mais ils n'ont reconnu » ni - Fear configuration, ni la</p>
+<p>maniére dont ils se dévelop» pent quand le principe de la » fécondation vient à s'y appli» quer. Tu as déja une idée y de l'une &amp; de l'attre. 316</p>
+<p>» Tantôt on a pris ces cilíndres pour des rudimens de plantes &amp; d'animaux , tantôt pour des vers ; tout récen</p>
+<p>» ment on les, a pris pour</p>
+<p>des » molécules organiques. Mais » au vrai ce ne sont que des</p>
+<p>tubules végerables , &amp; c'est » le seul nom que je leur don</p>
+<p>nerai dans la suite, foir que nous les considérions dans les plantes, soit que nous les</p>
+<p>considérions dans les ani» maux.</p>
+<p>Les tubules végétables différent principalement par leur figure; par le nombre des ouvertures latérales, par distances proportionelles qui se trouvent entre ces ouvertu</p>
+<p>Cette figure, ces ousj vertures , ces distances pro</p>
+<p>portionnelles sont tellement disposées dans les tubules des plantes, qu'il ne s'offre nulle</p>
+<p>les</p>
+<p>res.</p>
+<p>» part aucun obstacle capable » d'empêcher le développement</p>
+<p>&amp; l'accroissement continuel. S'il ne furvenoit point de corruption interne, un germe placé sur un point quelconque de votre globe, pourroit se développer, s'elever, s'éten</p>
+<p>dre, &amp; enfin former un arbre » capable de mettre à l'ombre is la moitié de la terre. Mais is cela n'arrive point, parce</p>
+<p>que</p>
+<p>de nouveaux tubules se forment &amp; s'arran» gent, les tubules primitifs - vieillissent, se gâtent, se cor» rompent ; le transport des</p>
+<p>liqueurs est intercepté, l'arbre » périt? à peine a-t'il eu le tems</p>
+<p>de pousser languisfanment » quelques rameaux.</p>
+<p>3, que tandis</p>
+<p>» Si l'on séparoit les nouve» aux produits de la végétation,</p>
+<p>des anciens, &amp; qu'on fournît à ceux-là un suc convenable, l'accroislenient continueroit &amp;</p>
+<p>fourniroit de nouveaux arbres, ,, qui eux-mêmes &amp; de la même , maniére, pourroient en pro, duire une multitude d'autres,</p>
+<p>&amp; ainsi à l'infini. C'est ce » qui arrive dans les greffes ,</p>
+<p>les entes, les boutures, &amp;c. » Il n'en est pas ainsi des tubules végétables des animaux. Leur figure les ouvertures latérales, les distances pro</p>
+<p>portionelles sont rellement » disposées, que dans le pro</p>
+<p>gres du développement, les produits se forment des obstacles mutuels, qui auginentant</p>
+<p>» de plus en plus', mettent en</p>
+<p>fin des bornes à l'accroisse» ment. Une preuve de cela, » c'est que si ces obstacles cela » sent dans quelque partie , <hi rend="italic">» </hi>(comme il arrive dans les</p>
+<p>plaics<hi rend="italic">) </hi>le jeu des tubules se</p>
+<p>rétablit, l'accroissement fe " renouvelle , les chairs se ré</p>
+<p>générent; &amp; tout cela se ter» mine, quand la plaie se def</p>
+<p>féche, c'est-à-dire, quand les tubules se rapprochent, &amp; s'opposent à leurs progrès réciproques.</p>
+<p>Maisti l'on coupe un membre entier, une main 1. par exemple, à un homme, il renaitra de nouvelles chairs; mais il ne renaîtra pas une</p>
+<p>nou</p>
+<p>» nouvelle main. Cela vient</p>
+<p>de ce que les tubules végétables, sans foutien, tombent</p>
+<p>les uns sur les autres, &amp; par» là se formant des obstacles ir</p>
+<p>réguliers, donneront lieu à l'a</p>
+<p>génération d'une masse char» nue pareillement irréguliére &amp;</p>
+<p>informe. Si, au contraire, s ces tubules se foutenoient</p>
+<p>par quelque cause que ce füt, &amp; gardoient dans leur progreffion un ordre régulier, la par</p>
+<p>tie se régénéreroit en entier , » par</p>
+<p>par les mêmes causes &amp; de la » même maniére qu'elle s'étoit</p>
+<p>engendrée dans la premiére conformation : c'est ce qui</p>
+<p>arrive dans beaucoup d'ani,,, maux. Qu'on prive, par ex</p>
+<p>emple, une Ecreviffe de l'une</p>
+<p>» de ses pattes, il ne tardera » pas à en reparoître une autre. <hi rend="italic">» </hi>La coquille dont cet animal » est revetu, maintient l'ordre » dans les tubules végétables, » &amp; empêche leur affaiffement.</p>
+<p>» Bien plus, si dans pareille i circonstance la partie tronquée » (la patte d'Ecrevisse, par » exemple) conservoit le prin</p>
+<p>cipe de vie, elle se fourniroit à elle-même, &amp; par la même raison, tout ce qui lui manque roit pour faire un aniinal complet.</p>
+<p>La régénération des polipes découpés, est une », preuve manifeste de ce que</p>
+<p>» j'avance.</p>
+<p>Je vous entene, repris - je; " on m'assuroit il y a quelques</p>
+<p>jours, que dans le polipe, le</p>
+<p>eerveau &amp; le cæur s'étendent » tout le long du corps de cet ,, animal. Si l'on coupe</p>
+<p>le</p>
+<p>polipe en deux, chaque portion » ayant partie du cæur &amp; du » cerveau, conserve le principe</p>
+<p>de vie.. L'eau soutient les » tubules végétables dans un</p>
+<p>ordre régulier ; chacune de », ces portions doit donc se com» pletter; le polipe se régénére, » au lieu d'un on en a deux.</p>
+<p>» Quoique les tubules végétables des plantes, poursuivit Amilec, ne se fassent jamais</p>
+<p>d'obstacles capables d'arrêter », le progrès de la végétation</p>
+<p>&amp; de l'accroissement, ils s'en forment pourtant d'assez con</p>
+<p>sidérables pour s'obliger les " uns les autres à s'étendre al</p>
+<p>droite ou à gauche, à s'a</p>
+<p>vancer en haut ou en bas, en » un mot à s'arranger de telle » façon qu'il en résulte certaine</p>
+<p>forme, dans la plante &amp; cha» cune de ses parties. La ine" mne chose arrive dans les tu" bules végétables des animaux ;</p>
+<p>mais les obstacles vont plus loin, ils vont jusqu'à mettre des bornes à l'accroissement. » La figure des tubules végétables, le nombre &amp; la situation de leurs ouvertures latérales font varier les obstacles; les obstacles font varier les formes quelle source de va</p>
+<p>riétés! Suivons-les de dégré ", en dégré: commençons par les principales</p>
+<p>&amp; de duisons nos idées avec le</p>
+<p>plus de méthode qu'il sera   </p>
+<p>poftible.   </p>
+<p>Premiérement, les tubules   </p>
+<p>végétables fe rellemblent <hi rend="italic">assez </hi>  </p>
+<p>» pour produire, chacun un être   </p>
+<p>» vivant; mais ils différent affez   </p>
+<p>» pour produire, les uns des   </p>
+<p>plantes, les altres des ani» maux.</p>
+<p>Secondement, les tubules, dont chacun doit donner l'etre à un végétal, fe reliemblent assez pour produits tous des plantes; mais ils différent</p>
+<p>aflez pour produire, les uns » des plantes de telle famille ,</p>
+<p>les autres des plantes de telle   </p>
+<p>» autre.   </p>
+<p>» Troifiémement, les tubu-   </p>
+<p>les, dont chacun doit donner   </p>
+<p>l'être à un animal, se reflem-   </p>
+<p>pour produire, les</p>
+<p>" blent assez pour produire tous</p>
+<p>des animaux; mais ils différent</p>
+<p>aflez » uns des animaux de telle espé», ce, les autres des animaux de</p>
+<p>telle autre.   </p>
+<p>» Enfin , parmi les tabules   </p>
+<p>des animaux, ceux qui four-   </p>
+<p>nissent la même espécc, pour» ront encore différer assez pour</p>
+<p>causer de légéres variations dans leurs produits. De là dans les hommes, par exemple, la diverfité des tailles, des traits, des phisionomies ,</p>
+<p>des temperamens, des incli» nations, <hi rend="italic">&amp;</hi>c<hi rend="italic">. </hi></p>
+<p>C'est apparenment, repris» je, de quelqu'autre légére dif</p>
+<p>férence qui se trouve encore » entre les tubules végérables de</p>
+<p>chaque espéce d'animal , que , vient la différence des genres &amp; des sexes:</p>
+<p>Sans doure, repartit Amilec;, &amp; tu remarqueras à cet égard, que l'individu mâle</p>
+<p>fournit réul des tubules ou des » germes måles, &amp; que l'indi» vidu femelle fournit seul les</p>
+<p>tubules femelles. Mais ni les " uns ni les autres de ces germies » ne se développeront jamais, » que la communication des deux</p>
+<p>genres, de quelque nature qu'elle soit, n'ait précédé.</p>
+<p>La raison en est claiEn</p>
+<p>mots, <hi rend="italic">les </hi>Cilindres <hi rend="italic">ou </hi>Tubules, sont des tuyaux creux , ajustés coinme des tuyaux à lunettes d'approche: ils le moulent, s'emboëtent, s'insinuent, gliffent les uns dans les autres; ils fe développent</p>
+<p>peu de</p>
+<p>re; mais pour te l'offrir dans » un plus grand jour, je re</p>
+<p>prendrai les choses de plus foin.....</p>
+<p>Amilec fur interrompu par trois ou quatre Génies qui étoient venus vers lui avec beaucoup d'empressement. Seigneur, dit l'un d'entre eux, Ismel le MoisConneur Royal vient d'arriver au magafin ; il est pourvu de tout ce qui est nécessaire pour l'Election des Rois, &amp; il nous a envoyé vers vous pour apprendre quel jour il vous plaira qu'on fasse l'épreuve de la graine de Souverain. Dès aujourd'hui s'étendent à peu près comme les corncs de l'escargot: ils s'échappent par des fentes latérales , ramifient en différens sens, luivant les plans tra. cés par la nature.</p>
+<p>répondit Amilec : voyez-vous ces nuages qui s'avancent du côté de l'Orient ? qu'on fixe leur mouvement , &amp; qu'on les prépare à l'ordinaire, je m'y rendrai dans un moment : partez. Je suis charmé, continua-t'il , en-m'adressant la parole, qu'il fe présente une occasion aulli favorable de te faire voir ce qui se passe de plus curieux &amp; de plus intéressant, mais en même tems de plus long &amp; de plus pénible dans la recolte des graines d'hommes; c'est l'Election des Rois &amp; l'épreuve où nous mettons la graine de Souverain.</p>
+<p>Les Génies qu'Amilec venoit de congédier , ne tarderent pas à porter les ordres. Bientôt tous ceux qui se trouverent dans le</p>
+<p>DS</p>
+<p>magafin, se rendirent aux nuages, arrêterent leur cours &amp; mirent la main à l'æuyre. La diftance étoit grande , je ne pouvois discerner ce qui se passoit ; mais je n'ai jamais vu travailler avec tant d'activité.</p>
+<p>Les uns rouloient à force de bras des amas de nuages qui me paroissoient</p>
+<p>gros que de petites collines. Les autres paroissoient s'employer á les applanir. J'en voyois sortir tout-à-coup du sein d'une nuée entr'ouverte, &amp; s'y replonger auffi-côt. Quelques-uns alloient &amp; venoient de côté &amp; d'autre, avec une célérité que je ne puis vous exprimer ;i tout étoit en mouvenient.</p>
+<p>Et comme la nouvelle s'étoit répandue qu'on alloit procéder</p>
+<p>aufli</p>
+<p>à l'Election des Rois, il arrivoit par pelotons, de toutes les parties du monde, une quantité prodigieusode Génies que leurs fon&amp;tions y appelloient, ou que la curiosité attiroit.</p>
+<p>Les abeilles ne viennent pas en fi</p>
+<p>' grand nombre se refugier dans leurs ruches, quand le soleil obscurci leur annonce une pluie prochaine.</p>
+<p>Cependant Amilec avoir repris le fil de fon discours, Dans le progrès de la végétation, disoit-il, il se trouve des tubules, qui se détachent</p>
+<p>des autres , &amp; font entraînés » par le courant 'des' humeurs</p>
+<p>qui circulent dans tous les corps organisés. Là, par des prellions réitérées, par des frottemcns fuccellifs, par des</p>
+<p>lavages continuels , ils sont " anincis, assouplis, perfection" nés, &amp; ensuite déposés dans</p>
+<p>des réservoirs particuliers, pour</p>
+<p>donner l'être à de nouveaux » germes, &amp; pour servir un » jour à de nouvelles végétations.</p>
+<p>Il ne faut donc pas t'éton" ner fi les Observateurs ont » apperçu des corpuscules mou» vans, dans un grand nombre</p>
+<p>de matiéres différentes. Ils » en ont remarqué dans des in</p>
+<p>fusions de plantes, de feuilles, de fleurs, de semences, auflibien que dans celles des matiéres animales; c'est que ces différens corps sont composés de cubules dont une partie a passé dans la liqueur de l'in</p>
+<p>fufion<hi rend="italic">. </hi>Ils en ont vu dans</p>
+<p>l'humeur féminale des femel» les, auffi-bien que dans celle</p>
+<p>des mâles, la femelle fournit</p>
+<p>des tubules de son genre , » comme le mâle en fournit du " fien. Ils en ont trouvé dans</p>
+<p>le chile, aussi bien que dans</p>
+<p>la femence; le chile n'est au» tre chose qu'un débris de vé» gétaux &amp; d'animaux. Ils en » ont découvert qui ressembloi, ent à des filamens arrangés en</p>
+<p>forme de ramifications ; il</p>
+<p>s'étoit détaché du végétal ou » de l'animal, des branches en</p>
+<p>tiéres de tubules encore emboërés les uns dans les autres. Ils ont observé</p>
+<p>que ces raine» aux fournissoient dans la suite " une multitude de petits corps</p>
+<p>رد</p>
+<p>» mouvans; ces branches se dé</p>
+<p>composoient, &amp; les tabules</p>
+<p>se séparoient &amp; s'éparpilloient » sous leurs yeux. Peut-on</p>
+<p>avoir vu tout cela, &amp; n'avoir » pas reconnu les tubules végétables ?</p>
+<p>Mais il ne suffit pas d'un tubule</p>
+<p>pour opérer une végétation, il faut une matiére. » propre à se jetter en moule &amp;</p>
+<p>en former de nouveaux. Les plantes reçoivent cette matiére » de la terre, &amp; les sucs qu'elle</p>
+<p>leur fournit étant par eux, mêmes trop grofliers, il faut</p>
+<p>qu'ils soient préparés par une</p>
+<p>espéce de fermentation qu'il s ne faut pas confondre avec</p>
+<p>celles des Chimifc: Ils la subissent à l'approche d'un</p>
+<p>certain levain prolífique con» tenu dans les tubules végé</p>
+<p>» tables.</p>
+<p>» Beaucoup de raisons</p>
+<p>prou» vent l'exiftence de ces levains: » une seule peut en convaincre. » Les saveurs, les odeurs, les</p>
+<p>émanations les principes qu'on retire des plantes qui ont été</p>
+<p>cultivées dans le même terroir, » annoncent par leurs différenis ces, qu'il s'est fait dans cha» que espéce de végétal, une</p>
+<p>élaboration particuliére, qui a » diversifié les sucs qui ont été » pompés; &amp; l'on ne conçoit » pas que cette élaboration ait " pu se faire autrement qu'au » moyen d'un principe, d'un</p>
+<p>ferment, d'un levain particulier à chaque plante , &amp;</p>
+<p>is qui varie comme les plantes</p>
+<p>» même<hi rend="italic">. </hi></p>
+<p>mesure que</p>
+<p>» Considérons ce ferment dans » une Plante quelconque. Le » germe en a bien d'abord été » pourvu; mais dans le progrès</p>
+<p>de la végétation, à force de   </p>
+<p>s'étendre dans la séve &amp; dans   </p>
+<p>la plante, il change de natu-   </p>
+<p>re &amp; varie   </p>
+<p>par nuances,   </p>
+<p>d la quantité des fucs</p>
+<p>augmente, &amp; que les tubules se multiplient. De là vient que</p>
+<p>l'élaboration varie » aulli dans les différentes par</p>
+<p>ties de la plante qui fournis» fent chacune des saveurs, des » odcurs, des principes parti</p>
+<p>culiers.</p>
+<p>> Par-là il est aisé de conce» voir que le levain prolifique</p>
+<p>du</p>
+<p>germe s'altérant de tubule , en cubule, n'eft plus recon» noissable dans ceux qui à la</p>
+<p>suite d'une longue progression &amp; d'une végétation complette, se détachent des autres, pour former de nouveaux germes. Cependant il est nécesfaire</p>
+<p>qu'il s'y en trouve un précisé" ment de la même nature; fans</p>
+<p>quoi leurs futures productions ne pourroient être exactement semblables à la plante mere. » Ainsi, tandis que d'un côté la Nature prépare les tubules qui doivent devenir gèrmes, il faut</p>
+<p>que</p>
+<p>d'un autre côté elle prépare un levain prolifique » nouveau. C'est ce qu'elle fait</p>
+<p>moyen de la chaleur, du mouvement inteftin, de</p>
+<p>» par</p>
+<p>le</p>
+<p>y la filtration de certaines fi» queạrs, de leurs séjours dans , certains organes.</p>
+<p>organes. C'est ainsi », que dans le rudiment de cha», que bourgeon, il se trouve</p>
+<p>toujours un couloir particulier qui fournit le principe végétatif au germe qui s'y dévelop</p>
+<p>pe, &amp; donne naillance à la » nouvelle plante ou au rejetaj ton. Mais il n'est ici question i que du levain, dont les graines doivent être pourvues.</p>
+<p>Les tubulcs végétables étant » suffisanment travaillés, le fer» ment étant tout préparé, il ne » refte plus qu'à unir l'un à l'au,, tre, &amp; c'est ce qui se passe</p>
+<p>dans la fécondation : mais il faut un lieu favorable, &amp; ce lieu, de quelque nature qu'il</p>
+<p>;; soit, nous le nommerons en général matrice.</p>
+<p>Tubule, Levain, Matrice, trois choses nécessaires au grand æðvre de la propagation. » La Nature se joue , à son ordinaire, dans leur distribu</p>
+<p>tion. Tantôt elle les rappross che comme dans la tulipe.</p>
+<p>La colonne qui s'éléve au milieu de cette fleur, contient,</p>
+<p>&amp; les tubules, &amp; les matri, čes; les filets dont cette co</p>
+<p>lonne est entourée, sont les</p>
+<p>fileres qui ont préparé te lew; vain prolifique. Quand le</p>
+<p>'est venu, les filets dispersent leur levain sous la " forme d'une poussiére, le</p>
+<p>principe végétatif s'insére dans la colonne, les tubules en</p>
+<p>tems</p>
+<p>font pénétrés, la fécondation se consomme. Quelquefois la Nature a placé sur le même individu, mais sur différentes fleurs, les instrumens de la</p>
+<p>fructification, comme daas » le melon &amp; sa famille ; d'au</p>
+<p>trefois elle les a placés fur différens individus, comme dans le chanyre; pour lors il y a plante mâle &amp; plante femelle.</p>
+<p>Tout ce que nous venons de dire des végétaux, doit » pareillement s'engendre des » animaux. Pour que leur gé» nération s'opére, il faut des</p>
+<p>Tubules, des Levains, des Matrices ; &amp; toutes ces choses</p>
+<p>sont distribuées dans le regne » animal, avec autant de varieté</p>
+<p>que dans le végétal. Tan</p>
+<p>tôt cet appareil se trouve dans " le même individu, &amp; l'arran» gement cst tel que le jeu de » la fécondation peut avoir lieu : » pour lors cet animal a l'avan» tage de se reproduire lui seul; » tel est le polipe, peut-être le » puceron &amp; sa famille. Tan</p>
+<p>tôt ces instrumens se trouvent</p>
+<p>sur le même individu , mais " hors de portée d'agir les uns</p>
+<p>sur les autres; il faut à cet anis mal une communication avec » un autre tout semblable à lui; " chacun d'eux donne &amp; reçoit, i féconde &amp; eft fécondé; tel</p>
+<p>est le limaçon. Ces fortes</p>
+<p>d'animaux &amp; les précédens » n'ont point de sexe ; ils ne » Comt ni mâles oi femelles, ou</p>
+<p>plutôt ils sont l'un &amp; l'autre.</p>
+<p>ne</p>
+<p>se trouve que</p>
+<p>Pour l'ordinaire la Nature » a transposé les matériaux de la " génération , <hi rend="italic">&amp; </hi>cela arrive</p>
+<p>dans toutes les espéces qui ont</p>
+<p>deux sexes. Le mâle fournit " des tubules mâles ; mais le levain qui doit les féconder,</p>
+<p>dans la femelle. Réciproquement la fernelle fournit les tubules, femelles; inais le levain qui doit les vivifier; est contenu dans</p>
+<p>Pour la matrice, de quelque nature qu'elle soit, elle ne se trouve jamais que</p>
+<p>dans la femelle. Delà viento " que la fécondation ne peut</p>
+<p>avoir lieu, que par l'approche des deux sexes, &amp; que la femelle reste toujours déposi</p>
+<p>» le mâle.</p>
+<p>taire des germes.</p>
+<p>» Tu vois par-là qu'un hom» me n'est pere de la fille » qu'en tant qu'il lui a commu</p>
+<p>niqué le principe du mouve» ment végétatif. Une femme » n'est mere de son fils, qu'en</p>
+<p>tant qu'elle lui a transféré le · inême principe. Mais un fils » est une vraie production de</p>
+<p>une fille est une vraie production de la mere, » coinme une branche d'arbre » est une vraie production du », tronc.</p>
+<p>son pere,</p>
+<p>رو</p>
+<p>, Tes yeux sont-ils ouverts, continua Amilec reconnoistu la Nature Admires-tu certe noble simplicité, cette variété sans bornes, ces richesses iininenses</p>
+<p>» Ext-il un appareil plus sim</p>
+<p>ple &amp; qui annonce moins que " celui des tubules végétables ? » En est-il un dont il résulte de</p>
+<p>plus grandes choses ? Ils-se » moulent, s'avancent, se ren» contrent, s'arrêtent; la main » de la Nature les guide, &amp; il » en procéde ces vaisseaux dis</p>
+<p>tribués avec une si belle éco» nomie, ces viscéres fabriqués » avec tant d'intelligence , ces » inuscles dont le jeu étonne le · Médecin, &amp; échappe à sa pé), nétration..</p>
+<p>Ce sont eux qui » s'arrangéant sur un plan for, tement defliné, donnent la » inajelté à l'homme, &amp; qui le » prêcant &amp; se pliant avec douw ceur, forment les graces &amp; la</p>
+<p>» beauté</p>
+<p>, beauté de la femme. Le Lion » leur doit sa force, le Cerf fa</p>
+<p>légéreté, &amp; ils composent</p>
+<p>également les anneaux de l'in" lecte qui rampe sur la terre ,</p>
+<p>&amp; l'aile du moucheron qui   </p>
+<p>s'éléve dans l'air.   </p>
+<p>» Qui pourroit suivre leurs   </p>
+<p>différences nuancées presque   </p>
+<p>imperceptiblement, &amp; les va» riations qu'elles opérent dans</p>
+<p>les êtres vivans, a les prendre depuis le Ciron jusqu'à l'Eléphant, depuis la mousse la plus humble jusqu'au chêne le plus élevé ?</p>
+<p>» Qui ofera nombrer ces inw strumens de la propagation ,</p>
+<p>&amp; porter le calcul sur les tré</p>
+<p>Cors de la Nature ? Une plan,, te, un arbre, un animal, un</p>
+<p>E</p>
+<p>homme n'est autre chose qu'un amas immenfe de tubules,</p>
+<p>dont chacun peut reproduire » un végétal ou un animal complet.</p>
+<p>O fimplicité ! Ô va" riété ! ô richesses de la Natu"'re! Ô sagesse éternelle du » Créateur !</p>
+<p>Je finis; ce petit éclaircisse-ment doit te suffire. J'ai tiré la vérité du nuage qui l'enveloppoit, je l'ai exposée à tes yeux , . tu peux la contempler à ton aise. Médite, examine, approfondis; s'il te survient quelque doute tu m'en feras part, &amp; je l'éclaircirai. Allons; tout doit être prêt pour l'Election des Rois , sans doute on ne fait que nous attendre.</p>
+<p>Nous partimes, &amp; nous arriVames bientôt. Les Génies avoient construit avec les nuages qui leur avoient été aflignés, une efpéce d'amphitheatre. L'aire en étoic fort unie, fort valte &amp; de figure circulaire. Tout autour elle se terminoit par de grosses nues qui formoient comme une chaîne de collines. Sur ces collines on avoit diftribue par groupes de côté &amp; d'autre, une multitude innombrable de Génies de coure espéce. Jamais coup d'oeil ne fut plus beau ; je crus voir les Cieux ouverts &amp; tous les Dieux de l'Antiquité raffenblés.</p>
+<p>Sur le panchant de l'une des collines, j'apperçus quinze ou vingt grands sacs qu'on me dit</p>
+<p>être pleins de graine de peuple.. Auprès de chacun des sacs étoit une Génie, &amp; le Moissonneur Royal paroissoit au milieu d'eux, tenant en main une boëte d'or enrichie de diamans, &amp; qui étoit de la grandeur d'une assez petite tabatiére.</p>
+<p>A quelques pas delà on avoit préparé pour Amilec un fauteuil élevé sur trois gradins ; auprès duquel étoit un tabouret. Le tout étoit composé de vapeurs fines rapprochées &amp; condensées avec beaucoup d'art. Le GrandMaître de la Manufacture des hommes prit séance, &amp; me fit figne de me placer à côté de lui sur le tabouret.</p>
+<p>En même tems Ilimel vint à Amilec, &amp; lui présenta la boëte</p>
+<p>qu'il avoit entre les mains. Amilec la prit &amp; l'ouvrit : je vis Icuts Altelics, leurs Hauteffes, leurs Majestés, toutes les Grandcurs du Monde réunies &amp; rétrécies au point de ne pouvoir remplir tout-à-fait une très-petite tabariérc. Cependant (il faut que je sois bien foible, qu que le caractére de Souverainoré Toit bien inposant) je me suis senti frappé de respect à la vue de cette pincée de corpuscules presque imperceptibles. . Je vous félicite , dit Amilec, en remettant la boite au Moilonneur Royal, vous avez fait là une très - abondante recolte, elle suffira, sans doute, pour completter notre provilon de graines de Souverains.</p>
+<p>da. Le peuple est toujours peut</p>
+<p>Satisfait de cet éloge, Ilmel se retira, &amp; fit place à un autre Génie qui vint présenter à Amilec environ un demi boisseau de graine de peuple. Amilec la rcgarple, dit-il: il change quelquefois en pire, inais jamais en mieux. Jette un coup d'æil fur ce tas de graines, continua-t'il, en m'adreffant la parole, tu jouiras d'un spectacle aufli varié que si tu voyois d'un</p>
+<p>coup</p>
+<p>d'eil une Nation encére. Discernesa tu la graîne d'incrédule, qui n'a ni couleur marquée ; ni figure distincte , : ni poids fixe? Elle n'est susceptible que d'un genre de mouvcment , c'est celui de vacillation. Elle ne vise à rien, ne tient à rien, ne porte sur rien.</p>
+<p>As-tu remarque la fecousse qui   </p>
+<p>vient de se faire sentir dans l'in-   </p>
+<p>térieur &amp; à la surface de ces mo-   </p>
+<p>lécules: Elle a été causée par un   </p>
+<p>germe de Fanatique. Cette for-   </p>
+<p>te de graine est toujours dans un   </p>
+<p>état violent, elle a sans cesse un   </p>
+<p>mouvement" fucceflif' &amp; rapide   </p>
+<p>de contraction &amp; de dilatation.   </p>
+<p>Cela và quelquefois au point   </p>
+<p>qu'elle s'électrise, &amp;   </p>
+<p>&amp; pour lors   </p>
+<p>la commotion se communique à   </p>
+<p>la ronde à toute la menue grai-   </p>
+<p>ne qui se trouve à la portée.   </p>
+<p>Apperçois tu la graine de Reli-   </p>
+<p>gieuse, dont l'enveloppe ch lisse,   </p>
+<p>douce &amp; polie ? L'extérieur en   </p>
+<p>paroit pailīble, mais intérieure-   </p>
+<p>ment elle renferme un principe   </p>
+<p>de feu qui la mine fourdement ;   </p>
+<p>en sorte qu'après un certain tems   </p>
+<p>on la trouve consumée en dcdans, &amp; hors d'état de se reproduire. Et cette graine de couleur changeante, devineroistu quelle elle eft : Ce sont des germes de Coquettes : ceux-ci ont des couleurs vives , &amp; paroiffent scintiller; ils nous viennent des spectacles : CELLY - là ont des couleurs plus douces &amp; l'air moins anime; ils ont été cucillis sur les Coquettes qui se réservent à jouer les beaux fentimens : les uns &amp; les autres prennent de l'embonpoint à proportion que les graines de Dupes que tu vois à côté, perdent du</p>
+<p>Tu peux encore voir la graine d'Ambitieux qui s'éléve avec lenteur , &amp; retombe avec précipitation ; la graine d'Or</p>
+<p>Leur.</p>
+<p>gueilleux, qui placée sous le récipient de la machine pneumatique, a la vertu d'einpêcher le vuide; la graine d'Hipocrites, qui jette de l'éclat en plein jour; celle d'Hommes pieux, qui ne brille que dans les ténébres ; celle de Médilans, qui est aiguë &amp; tranchante; celle d'Envieux, qui fe créve d'elle-même. Voilà aulli de la graine pesante d'Importans, de la graine légére de Courtisans, de la grainc prćcicule de petits Abbés; enfin , voilà des graines de toute cípćce. Mais ne. perdons pas de tems, ajouță Amilec ; nous devrions avoir déja commencé l'épreuve des germes de Souverains.</p>
+<p>Le signal donné, le Moissonneur: Royal plongez la main</p>
+<p>ES</p>
+<p>dans un sac qui étoit à côté de lui , &amp; en retira une poignée de graine populaire , au milieu de laquelle il plaça un germe de Souverain.</p>
+<p>Ensuite il s'avança vers le centre de l'Amphithéâtre, suivi de plusieurs autres Génies, qui tous portoient dans leurs mains de la graine de peuple ; mais dans laquelle il n'y avoit aucun germe Royal.</p>
+<p>Parvenu au milieu de l'Amphithéâtre , Ilmel jetta en l'air de toute la force la poignée de graine qu'il portoit." I se forma d'abord comme un jet de poussiére, les germes les plus pesans-s'étant portés fort haut, &amp; les plus légers ne s'étant élevés que très-peu. Mais bientôiaprès les deux extrêmités du jet</p>
+<p>se rapprocherent , &amp; je vis avec surprise que les graines formoient un petit tourbillon, circuloient autour d'un centre commun, &amp; restoient ainsi suspendues dans l'air. Tels on voit quelquefois voltiger dans un assez petit espace, une multitude innombrable d'ațômes, lorsque les rayons du soleil les éclairent affez pour les rendre sensibles.</p>
+<p>Toute graine de Souverain qui n'a pas dégénéré, me dit Amilec , attire &amp; fait circuler autour d'elle la graine de peuple. Mais les ģermes Royaux ont plus ou moins de cette vertu, Ceux qui en font le mieux pourvus, forment des tourbillons plus étendus.. Il s'en trouve cel</p>
+<p>qui emporte autour de lui plus de cinquante poignées de graine populaire. Nous les éprouvons de la façon que tu vois : quand tous les tourbillons sont forinés, on les laisse circuler les uns avec les autres.</p>
+<p>Il s'en trouve quelquefois qui se détruisent &amp; disparoiffent, &amp; d'autres qui s'aggrandissent &amp; prennent de l'é tendue, suivant que la graine dont l'influence les foutient, augmente ou diminue en vertu. Quelque tems après, quand l'équilibre est bien établi, cueillons au centre de chaque sphére les germes de Souverains qui ont soutenu ces épreuves, <hi rend="italic">&amp; </hi>nous, les conservons avec soin</p>
+<p>Tandis qu'Amilec parloit, on continuoit de jetter de la graine</p>
+<p>nous</p>
+<p>de peuple au germe Royal dont la vertu travailloit dans l'air. Il en retint huit poignées ; la moitié de la neuviéme retomba, le principe dominant éroit épuisé. On palla à un second germe de Souverain, qu'on lança en l'air comme le premier. Mais celuici ne forma point de tourbillon; la force attractive lui manquoit, il retomba sur l'aire de l'Amphithéâtre. Le troisiéme se foutint micux; à peine vingt-cinq poignées de graine de peuple suffirent pour le porter au point de faturation.</p>
+<p>On continua ainsi de jetter en l'air des germes de Souverains. Le nombre des tourbillons devint bientôt considérable. <hi rend="italic">A </hi>peine l'étendue de l'Amphi</p>
+<p>théatre suffisoit-elle pour les contenir.</p>
+<p>Vois-tu, me dit Amilec, <hi rend="italic">ces </hi>graines qui se détachent, quittent les autres &amp; combent comme une pluïe menue? Ce sont des ger-mes Républicains. On diroit qu'ils voudroient s'affranchir de la néceflité de circuler ; mais il n'y a pas moyen: ils s'arrangent bientôt entre eux &amp; forment des sphéres qui ne paroissent pas différer des autres, &amp; qui, en effet, n'en différent qu'en ce que les autres n'ont à leur centre qu'un germe unique ; celles-ci en ont plusieurs. Reconnois-tu le tourbillon d'Espagne, à la marche graye &amp; ferme des germes Espagnols ? celui d'Angleterre, à la marche oblique &amp;</p>
+<p>inquiéte des Anglois ? celui de Francé, à la marche légére mais affurée des François ?</p>
+<p>fúrice</p>
+<p>tu</p>
+<p>ceux de</p>
+<p>Fixons un peu nos yeux dernier. Les germes des Princes se sont arrangés , comme vois, à la file les uns des autres, sur l'axe du tourbillon; les germes de Ministres fe font réunis vers l'un des poles ; Sénateurs se font réunis vers l'autre pole ;' ceux de Guerriers se sont portés à la surface de la sphére; la graine de peuple circule intérieurement au milieu. Heureufe diftribution qui enchaine les graines entre elles,timpére leur in Huence réciproque, maintient l'ordre dans la circulation, &amp; affermit inébranlablement le</p>
+<p>F</p>
+<p>germe Royal au centre du tourbillon.</p>
+<p>Voici un genre de mouvement tout différent.</p>
+<p>Vois-tu cette multitude de petites sphéres qui tournent toutes avec lenteur sur un centre commun ; C'est le sourbillon de l'Empire. Les graines qui le composent, ont comme tu le remarques, deux mouvemens ; un particulier qui les cmporte autour du centre de chaque petit: sphérc; l'autre, général; qui emporte les petites \[phéres autour d'un centre commun.</p>
+<p>Ces deux mouvemens s'affoibliffent réciproquement ; de là viene la lentcur de la circulation générale. · Sans cela , ce vaste tourbillon scroit à craindre ; mais loin de rien enva</p>
+<p>vahit sur les autres ; à peine se soutient-il lui-même.</p>
+<p>Mais quelle eft, repris-je , cette lumiere qui perce</p>
+<p>perce au Nord de toutes ces fphéres mouvantes , &amp; qui a l'éclar &amp; la douceur des rayons qui précédent le lever du Soleil dans les plus beaux jours du Printems ? Cette lumiére, répondit Amilec, vient du tourbillon de Prusse<hi rend="italic">. </hi></p>
+<p>Tu la compares avec justesso à l'Aurore elle croit de moment en moment ;</p>
+<p>bientôr tu la verras jaillir au loin, &amp; se communiquer aux tourbillons ks plus reculés.</p>
+<p>Considére maintenant, pourfuivit Amilec) les</p>
+<p>mouvemens respectifs de ces différens</p>
+<p>?</p>
+<p>corps. Remarques-tu à droite le tourbillon des Perses qui se delabre ? Il tombe en lambeaux sur la surface du tourbillon Ottoman ; &amp; ce qu'il y</p>
+<p>de fingulier, celui-ci n'en absorbe aucune portion. Regarde plus haut &amp; à gauche</p>
+<p>tourbillon de l'ancienne République de Hollande, qui maintenant a pour centre, une graine unique. Il semble chanceler, on diroit qu'il va fe plongèr dans le tourbillon voisin &amp; prendre un nouveau mouvernent qui</p>
+<p>qui l'emportera autour d'un germe étranger. Vois-tu un peu plus loin la spherë Apostolique ?</p>
+<p>Admire un peu comment , toute petiqu'elle est , elle donne le</p>
+<p>branle aux vastus tourbillons qui l'environnent ...</p>
+<p>J'écoutois, je regardois, je donnois toute mori atçëntion à ce qui se passoit , lorsque rout-d-coup je fus pris d'un éternûment auffi violent</p>
+<p>que j'avois respiré le plus fort Ellebore , &amp; qui ne cella qu'lprès m'avoir" agité fans interruprion, l'espace de cinq à fix minutes. Cela s'accordoit peu avec le respect que je devois à la majestueuse affeinblée où je me trouvois alors. Mais ce qui me fâchoit le plus, c'est que la commotion que j'occasionnois dans l'air , alloit porter le trouble dans le mouvement des tourbillons. Tantôt un Duché heurtoit con</p>
+<p>tre in Electorat, &amp; tantôt une République contre um Royaume. Peu s'en fallut même que mon dernier éternûment ne culbutât totalement l'Empire de la Sublime Porte , qui par lui-même avoit déja un mouvement très - ralenti &amp; trèsirrégulier.</p>
+<p>Que l'accident qui t'est suryenu ne t'étonne pas, me dit Amilec en souriant : l'impétuofité du cours des tourbillons a lancé hors leurs sphéres d'activiré, différentes Tortes de ger mes qui crrent de toute parts autour de nous : vinc graine de Flatteur voltigcoit à peu de distance de toi ;</p>
+<p>tu l'as attirée avec l'air que tu respires , &amp; elle t'a causé l'agita</p>
+<p>tion que tu viens d'éprouver. He, quoi! repliquai - je , la graine de Flatteur est, elle pourvue d'une qualité li irritante? Cela dépend des circonstances, répondit Amilec : sur un organe peu délicat, elle ne produirá qu'un sentiment voluptueux. de titillation ; mais sur un organe fenfible, elle produira une irritation des plus fortes. Les gernes humains peuvent faire &amp; du bien &amp; du mal suivant le naturel des personnes dont ils sont échappés; &amp; la disposition de celles sur lesquelles ils se trouvent à portée d'agir. D'où vient, par exemple, la plupart de ces maladies fingulié</p>
+<p>dont les gens de l'Art</p>
+<p>rés,</p>
+<p>1</p>
+<p>sentent tous les jours (lans toutefois en convenir) qu'ils ignorent la cause? De graines d'hommes</p>
+<p>. D'où vient la plupart de ces guérisons inattendues dont le Médecin a loin de se faire honneur, fans y avoir en rien contribué? De graines d'hommes. Que ne s'applique-t'on à faire des microscopes assez bons pour les appercevoir à la surface des</p>
+<p>corps, &amp; des outils allez déliés pour les y recueillir. On y trouveroit des ressources süres contrelcs maladies les plus opiniâtres. Il est des germes de toute vertu ; il en est de calmans, comme la graine d'Amis d'adoucissans, comme la graine d'Epouse vertueuse ; d'agaçans, comme la graine de Critique; de sudorifiques., comme la graine</p>
+<p>de Petit-Maître manqué.</p>
+<p>Amilec qui avoit mis la tête à la fenêtres s'écria tout-à-coup : Enfin nous aurons des nouvelles de l'a Lune. Je vois venir un Courier que mon Lieutenant Zamar a sans doute député vers moi. Un éclair ne fend pas les airs avec plus de rapidité: en un in tant le Génie Coutier fut aux pieds d'Amilec, &amp; lui remit une Lettre de la part de Zamar.</p>
+<p>A peine la Lettre fuc-elle rendue, que les Génies qui se trouverent alors dans le magasin entourerent le Courier; &amp; chacun s'intéressant pour le travail auquel il s'étoit occupé, ils lui firent tout à la fois mille questions plus fingulières les unes.que les autres. Quelles nouvelles des</p>
+<p><hi rend="italic">&amp; </hi></p>
+<p>perte de</p>
+<p>Logiciens Lunaires ? Que j'ai eu   </p>
+<p>de peine à en recueillir la graine   </p>
+<p>dans le pays...: je trouvois allez   </p>
+<p>de Logiciens subtils , je n'en   </p>
+<p>trouvois presque pgint de raison-   </p>
+<p>nables... La Phylique, com-   </p>
+<p>ment va-t-elle à la Lune; ce doit   </p>
+<p>être en charmant pays , pour   </p>
+<p>faire des Systêmes à   </p>
+<p>vûe. . . Et les protecteurs des   </p>
+<p>gens de Lettres, les Mecénes   </p>
+<p>ont-ils bien pris ? j'en ai recueil-   </p>
+<p>li tant de graines sur la terre, que   </p>
+<p>l'espécc en a manqué.   </p>
+<p>loient tous en même tems, on ne   </p>
+<p>s'entendoit pas. Amilec les appella, ils s'approcherent &amp; firent un cercle autour de lui. Alors il ouvrit la Lettre qu'il venoit de recevoir, &amp; lue tout haut ce qui suit.</p>
+<p><hi rend="italic">(Voy.</hi>AMILEC PART. II.)</p>
+<p>Ils par</p>
+</div>
+</body>
+    <back>
+        <div type="notes">
+            <head>Notes</head>
+            <note xml:id="N1">Chirurgiens lettrés.</note> 
+        </div>
+    </back>      
+</text>
+</TEI>
