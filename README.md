@@ -13,15 +13,16 @@ In the first step, about 40 novels have been carefully created by double keying.
 
 Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and HathiTrust, a second group of novels which are not yet digitally available (or only in low quality) is now being produced. 
 
-A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) will hopefully help us reach about 200 novels by the end of 2020.
+A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) will hopefully help us reach about 100 volumes by the end of 2020, and hopefully more later on.
 
-At the moment, corpus composition depends primarily on pragmatic criteria. We currently collect and plan to provide metadata for the creation of more principled subcorpora. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, Bibliographie du genre romanesque français 1751-1800, 1977. Our goal is to use this metadata to balance our corpus of texts.
+At the moment, corpus composition depends primarily on pragmatic criteria. We currently collect and plan to provide metadata for the creation of more principled subcorpora. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. Our goal is to use this metadata to balance our corpus of texts.
 
 ## Formats
 
 The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder XML4OCR). 
 
-The master format for all texts is an XML format following the Guidelines of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the COST Action ‘Distant Reading for European Literary History’. 
+The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the COST Action ‘Distant Reading for European Literary History’. 
+
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the script “get_text.py” (in the Scripts folder). 
 
 ## Licence
@@ -30,4 +31,4 @@ All texts are in the public domain and can be reused without restrictions. We do
 
 ## Citation suggestion
 
-*Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)*, edited by Julia Röttgermann, Julia Dudar and Christof Schöch. Trier: Trier University, 2020. URL: https://github.com/mimotext/roman18. 
+*Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)*, edited by Julia Röttgermann, Julia Dudar and Christof Schöch. Trier: Trier University, 2020. URL: https://github.com/mimotext/roman18. DOI: https://doi.org/10.5281/zenodo.4061903
