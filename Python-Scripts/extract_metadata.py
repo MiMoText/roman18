@@ -21,7 +21,7 @@ from collections import Counter
 
 
 # === Files and folders ===
-path = "files"
+path = "../XML-TEI/files"
 
 # === Parameters === 
 xpaths = {"xmlid" : "//tei:TEI/@xml:id", 
