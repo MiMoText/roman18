@@ -9,9 +9,9 @@ This collection of Eighteenth-Century French Novels contains digital texts of no
 
 ## Corpus building
 
-In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model will shortly be available within OCR4all. 
+In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model will shortly be available within OCR4all.
 
-Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and HathiTrust, a second group of novels which are not yet digitally available (or only in low quality) is now being produced. 
+Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and HathiTrust, a second group of novels which are not yet digitally available (or only in low quality) is now being produced.
 
 A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) will hopefully help us reach about 100 volumes by the end of 2020, and hopefully more later on.
 
@@ -19,15 +19,15 @@ At the moment, corpus composition depends primarily on pragmatic criteria. We cu
 
 ## Formats
 
-The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder XML4OCR). 
+The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder XML4OCR).
 
-The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the COST Action ‘Distant Reading for European Literary History’. 
+The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the COST Action ‘Distant Reading for European Literary History’.
 
-In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the script “get_text.py” (in the Scripts folder). 
+In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
 
 ## Licence
 
-All texts are in the public domain and can be reused without restrictions. We don’t claim any copyright or other rights on the transcription, markup or metadata. If you use our texts, for example in research or teaching, please reference this collection using the citation suggestion below. 
+All texts are in the public domain and can be reused without restrictions. We don’t claim any copyright or other rights on the transcription, markup or metadata. If you use our texts, for example in research or teaching, please reference this collection using the citation suggestion below.
 
 ## Citation suggestion
 
