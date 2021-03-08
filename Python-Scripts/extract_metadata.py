@@ -187,8 +187,6 @@ def main(path, xpaths, ordering, sorting):
 				for key,xpath in xpaths.items():
 					#print(key, xpath)
 					metadatum = get_metadatum(xml, xpath)
-					#metadatum = re.sub("\n", "", metadatum)
-					#print([metadatum])
 					keys.append(key)
 					metadata.append(metadatum)
 					#print(metadata)
