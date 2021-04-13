@@ -79,9 +79,15 @@ def clean_text(text):
 		if re.search("\n", list_text[i+1]):
 			if not (re.search("\.", word) or  re.search("!", word) or  re.search("\?", word)):
 				list_text[i+1] = re.sub("\n", " ", list_text[i+1])
-			
+			elif re.search("M\.", word):
+				list_text[i+1] = re.sub("\n", " ", list_text[i+1])
+				
+
 	text = " ".join(list_text)
 	text = re.sub("[ ]{2,20}", " ", text)
+	text = re.sub(" \.", ".", text)
+	text = re.sub(" ,", ",", text)
+	text = re.sub(" ;",";", text)
 	return text
 	
 
@@ -161,7 +167,7 @@ def main(paths, params):
 			pass
 		if params["normalize"] == True:
 			text = normalize_text(text)
-		save_text(text, paths, filename)
+		#save_text(text, paths, filename)
 	
 	
 
