@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Diderot_Supplement" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
@@ -41,11 +41,11 @@
    </publicationStmt>
    <sourceDesc>
     <bibl type="digitalSource">
-     <ref target="wikisource"/>
+     <ref target="https://fr.wikisource.org/wiki/Suppl%C3%A9ment_au_voyage_de_Bougainville"/>
     </bibl>
     <bibl type="printSource">
      <date>
-      1796
+      1875
      </date>
     </bibl>
     <bibl type="firstEdition">
