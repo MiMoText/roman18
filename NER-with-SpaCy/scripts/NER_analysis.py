@@ -25,10 +25,7 @@ for file_path in file_list:
     text_dict[file_path] = most_freq_loc
 
 
-with open('/Users/sarahreb/Desktop/ner_loc.csv', 'w', newline='') as file_output:
+with open('ner_loc.csv', 'w', newline='') as file_output:
     tsv_output = csv.writer(file_output, delimiter='\t')
-    tsv_output.writerow(str(text_dict.values()).removeprefix('/Users/sarahreb/Desktop/JobDH/roman18/plain/files/'))
+    tsv_output.writerow(text_dict.values())
     tsv_output.writerow(text_dict.keys())
-
-
-
