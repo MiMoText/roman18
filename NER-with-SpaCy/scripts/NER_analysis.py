@@ -11,7 +11,7 @@ spacy.cli.download('fr_core_news_sm')
 nlp = spacy.load('fr_core_news_sm', exclude=['tagger', 'parser', 'lemmatizer', 'textcat'])
 
 
-file_list = glob.glob("/Users/sarahreb/Desktop/JobDH/roman18/plain/files/*.txt")
+file_list = glob.glob("../plain/files/*.txt")
 nlp.max_length = 2000000
 
 text_dict = {}
