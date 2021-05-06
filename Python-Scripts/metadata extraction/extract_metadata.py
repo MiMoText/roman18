@@ -23,6 +23,7 @@ from collections import Counter
 # === Files and folders ===
 path = "../XML-TEI/files"
 
+
 # === Parameters === 
 xpaths = {"xmlid" : "//tei:TEI/@xml:id", 
 		  "title" : "//tei:titleStmt/tei:title/text()",
@@ -31,10 +32,11 @@ xpaths = {"xmlid" : "//tei:TEI/@xml:id",
 		  "firsted-yr" : "//tei:bibl[@type='firstEdition']/tei:date/text()",
 		  "form" : "//tei:textClass/tei:keywords/tei:term[@type='form']/text()",
 		  "spelling" : "//tei:textClass/tei:keywords/tei:term[@type='spelling']/text()",
-		  "data-capture" : "//tei:textClass/tei:keywords/tei:term[@type='data-capture']/text()"
+		  "data-capture" : "//tei:textClass/tei:keywords/tei:term[@type='data-capture']/text()",
+          "bgrf" : "//tei:titleStmt/tei:title/@ref",
 		  }
 
-ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling", "data-capture", "token count", "size"]
+ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling", "data-capture", "token count", "size", "bgrf"]
 
 sorting = ["filename", True]
 
@@ -68,6 +70,7 @@ def get_metadatum(xml, xpath):
 	except:
 		metadatum = "NA"
 	metadatum = re.sub(": MiMoText edition", "", metadatum)
+	metadatum = re.sub("bgrf:", "", metadatum)
 	"""
 	if re.search("wikidata", metadatum):
 		viaf = (metadatum.split(";"))[0]
@@ -142,7 +145,7 @@ def get_count(txt):
 	count = re.findall("\W+", str(body))
 	count = len(count)
 	return count
-
+    
 
 def save_metadata(metadata, metadatafile, ordering, sorting): 
 	"""
