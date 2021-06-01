@@ -167,7 +167,7 @@ def main(paths, params):
 			pass
 		if params["normalize"] == True:
 			text = normalize_text(text)
-		#save_text(text, paths, filename)
+		save_text(text, paths, filename)
 	
 	
 

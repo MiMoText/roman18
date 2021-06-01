@@ -1,3 +1,4 @@
+# check for Line-Breaks in Text where none should be and replace them
 import os
 from os.path import join
 from bs4 import BeautifulSoup as bs
@@ -7,9 +8,10 @@ import html
 #############
 # parameters
 #############
-path_to_xml_folder = join("..", "XML-TEI", "files", "*.xml")
-outfile = join("..", "XML-TEI", "files_new")
-stop_words = join("..", "work-in-progress", "Daten", "stopwords_full_version.txt")
+path_to_xml_folder = join("..", "..", "XML-TEI", "files", "Beaumont_Clarice_all.xml")
+#print(path_to_xml_folder)
+outfile = join("..","..", "XML-TEI", "files")
+stop_words = join("..", "..", "work-in-progress", "Daten", "stopwords_full_version.txt")
 
 def read_file(xml_file):
 	with open(xml_file, "r", encoding="utf8") as infile:
@@ -24,6 +26,7 @@ def get_p_tags(xml, stopwords):
 	for p in body.find_all(string= re.compile("p")):
 		try:
 			text = p
+			#print(text)
 			text = re.sub("\n", " ", text)
 			text = re.sub("- ", "-", text)
 			text = re.sub(" -", "-", text)
@@ -53,17 +56,28 @@ def get_p_tags(xml, stopwords):
 					if test_text not in stopwords:
 					
 						text = re.sub(t+text_split[ind+1],re.sub("-", "", t+text_split[ind+1]), text)
-				#elif re.search("-", t) and not re.search("</hi>", t):
-					#test_text = t
-					#try:
-						#test_text = test_text.split("'")[1]
-		
-					#except IndexError:
-						#test_text = test_text
+				
+				elif re.search("-", t):
 					
-					#if test_text not in stopwords:
-						#text = re.sub(t,re.sub("-", "", t), text)
-
+					test_text = t
+					print(test_text)
+					if re.search("'", test_text):
+						test_text = test_text.split("'")[1]
+						print(test_text)
+					test_text = re.sub("\.", "", test_text)
+					test_text = re.sub(",", "", test_text)
+					test_text = re.sub("\?", "", test_text)
+					test_text = re.sub("!", "", test_text)
+					test_text = re.sub(";", "", test_text)
+					#print(test_text)
+					if test_text not in stopwords:
+						print("not in stopwords", t)
+						#text = re.sub("-", "", test_text)
+						t_new = re.sub("-", "", t)
+						print(t_new)
+						text = re.sub(t, t_new, text)
+						#print(text)
+				
 			p.replace_with(text)
 		except:
 			continue
@@ -72,7 +86,7 @@ def get_p_tags(xml, stopwords):
 
 def save_xml(xml, name, outfile):
 	
-	with open(join(outfile, "{}.xml".format(name)), "w", encoding="utf-8") as outfile:
+	with open(join(outfile, "{}_new.xml".format(name)), "w", encoding="utf-8") as outfile:
 		print("saving")
 		outfile.write(xml.prettify())
 
@@ -80,7 +94,6 @@ def main(path_to_xml_folder, stop_words, outfile):
 
 	with open (stop_words, "r", encoding="utf8") as infile:
 		stopwords = infile.read()
-	
 	
 	
 	stopwords = list(stopwords.split(" "))
