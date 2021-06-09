@@ -1,5 +1,5 @@
 # Script for cleaning ocr4all output from linebreaks and add minimal tags
-
+# gedacht für die Bandergänzungen!
 import glob
 import os.path
 from os.path import join
