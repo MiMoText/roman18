@@ -21,7 +21,7 @@ from collections import Counter
 
 
 # === Files and folders ===
-path = "../XML-TEI/files"
+path = "../../XML-TEI/files"
 
 
 # === Parameters === 
