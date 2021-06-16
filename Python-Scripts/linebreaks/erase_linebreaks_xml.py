@@ -8,7 +8,7 @@ import html
 #############
 # parameters
 #############
-path_to_xml_folder = join("..", "..", "XML-TEI", "files", "Beaumont_Clarice_all.xml")
+path_to_xml_folder = join("..", "..", "XML-TEI", "files", "Segur_Correspondance.xml")
 #print(path_to_xml_folder)
 outfile = join("..","..", "XML-TEI", "files")
 stop_words = join("..", "..", "work-in-progress", "Daten", "stopwords_full_version.txt")
@@ -86,7 +86,7 @@ def get_p_tags(xml, stopwords):
 
 def save_xml(xml, name, outfile):
 	
-	with open(join(outfile, "{}_new.xml".format(name)), "w", encoding="utf-8") as outfile:
+	with open(join(outfile, "{}.xml".format(name)), "w", encoding="utf-8") as outfile:
 		print("saving")
 		outfile.write(xml.prettify())
 
