@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4061903.svg)](https://doi.org/10.5281/zenodo.4061903)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5040855.svg)](https://doi.org/10.5281/zenodo.5040855)
 
 # roman18
 Collection de romans français du dix-huitième siècle (1750-1800) / Collection of Eighteenth-Century French Novels (1750-1800)
@@ -31,4 +31,4 @@ All texts are in the public domain and can be reused without restrictions. We do
 
 ## Citation suggestion
 
-*Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Anne Klee, Johanna Konstanciak, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.1.0. Trier: TCDH, 2020. URL: https://github.com/mimotext/roman18. DOI: https://doi.org/10.5281/zenodo.4061903
+*Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Anne Klee, Johanna Konstanciak, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.2.0. Trier: TCDH, 2021. URL: https://github.com/mimotext/roman18. DOI: http://doi.org/10.5281/zenodo.5040855.
