@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Encoding Guidelines for the ELTeC: extended level</title>
+    <author>Cost Action CA16204 – WG1</author>
+   </titleStmt>
+   <publicationStmt>
+    <p>Unpublished draft for discussion</p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>A born digital document drafted in TEI format by LB</p>
+   </sourceDesc>
+  </fileDesc>
+  <revisionDesc>
+   <change when="2018-03-16">Made file to include T0 as requested</change>
+   <change when="2018-03-16">Revised post-Prague</change>
+   <change when="2018-01-17">Expanded metadata section a bit; added comments from CO and BN</change>
+   <change when="2017-12-17">First (partial) discussion draft</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <xi:include href="eltec-body.xml"/>
+  <back>
+   <div>
+    <head>Formal specifications</head>
+    <p>The ELTeC encoding scheme defined by this document is a TEI-conformant customization, from
+     which user documentation, and formal RELAXNG or DTD specifications are generated automatically. </p>
+    <p>This schema is based on ELTeC level-1, but adds the teiCorpus element. </p>
+
+    <schemaSpec ident="eltec-x" source="eltec-library.xml">
+     <moduleRef key="tei"/>
+     <moduleRef key="header"
+      include="change distributor extent fileDesc idno  keywords langUsage language  
+            licence profileDesc  revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+
+     <!-- use original definitions for publicationStmt and availability -->
+
+     <elementRef key="publicationStmt" source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     <elementRef key="availability" source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     <elementRef key="projectDesc" source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     <elementRef key="encodingDesc" source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     
+     <!-- need to add class refs explicitly since they were not included in library -->
+     <classRef key="model.encodingDescPart" source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     
+     <classRef key="model.publicationStmtPart.agency" source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     <classSpec type="model" ident="model.publicationStmtPart.detail"
+      source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     <classSpec type="model" ident="model.availabilityPart"
+      source="/home/lou/Public/TEI/P5/p5subset.xml"/>
+     
+     <!-- also need to specify class memberships for elements they reference -->
+     
+     <elementSpec ident="publisher" mode="change">
+      <classes mode="replace">
+       <memberOf key="att.global"/>
+       <memberOf key="model.biblPart"/>
+       <memberOf key="model.publicationStmtPart.agency"/>
+      </classes>
+     </elementSpec>
+     <elementSpec ident="distributor" mode="change">
+      <classes mode="replace">
+       <memberOf key="att.global"/>
+       <memberOf key="model.publicationStmtPart.agency"/>
+      </classes>
+     </elementSpec>
+     
+     <elementSpec ident="ref" mode="change">
+      <classes mode="replace">
+       <memberOf key="att.global"/>
+       <memberOf key="model.ptrLike"/>
+       <memberOf key="model.publicationStmtPart.detail"/>
+       <memberOf key="att.pointing"/>
+       <memberOf key="att.typed"/>
+      </classes>
+     </elementSpec>
+     
+     <elementSpec ident="licence" mode="change">
+      <classes mode="replace">
+       <memberOf key="att.global"/>
+       <memberOf key="model.availabilityPart"/>
+      </classes>
+     </elementSpec>
+     
+
+     <elementRef key="TEI"/>
+     <elementRef key="back"/>
+     <elementRef key="body"/>
+     <elementRef key="corr"/>
+     <!--*-->
+     <elementRef key="div"/>
+     <elementRef key="emph"/>
+     <!--*-->
+     <elementRef key="foreign"/>
+     <!--*-->
+     <elementRef key="front"/>
+     <elementRef key="gap"/>
+     <!--*-->
+     <elementRef key="head"/>
+     <elementRef key="hi"/>
+     <!--*-->
+     <elementRef key="l"/>
+     <elementRef key="label"/>
+     <!--*-->
+     <elementRef key="milestone"/>
+     <!--*-->
+     <classRef key="att.milestoneUnit"/>
+     <elementRef key="note"/>
+     <!--*-->
+     <elementRef key="p"/>
+     <elementRef key="pb"/>
+     <elementRef key="quote"/>
+     <!--*-->
+     <elementRef key="text"/>
+     <elementRef key="trailer"/>
+
+     <!-- the following are needed in header-->
+     <elementRef key="author"/>
+     <elementRef key="bibl"/>
+     <elementRef key="date"/>
+     <elementRef key="distributor"/>
+     <elementRef key="idno"/>
+     <elementRef key="measure"/>
+     <elementRef key="name"/>
+     <elementRef key="pubPlace"/>
+     <elementRef key="publisher"/>
+     <elementRef key="ref"/>
+     <elementRef key="resp"/>
+     <elementRef key="respStmt"/>
+     <elementRef key="term"/>
+     <elementRef key="title"/>
+     <elementRef key="textDesc"/>
+     <elementRef key="authorGender"/>
+     <elementRef key="size"/>
+     <elementRef key="reprintCount"/>
+     <elementRef key="timeSlot"/>
+
+     <elementSpec ident="timeSlot" mode="change" ns="http://distantreading.net/eltec/ns">
+
+      <attList>
+       <attDef ident="key" mode="replace" usage="req">
+        <datatype>
+         <dataRef key="teidata.enumerated"/>
+        </datatype>
+        <valList type="closed">
+         <valItem ident="T0">
+          <desc>work first published before 1840</desc>
+         </valItem>
+         <valItem ident="T1">
+          <desc>work first published between 1840 and 1859</desc>
+         </valItem>
+         <valItem ident="T2">
+          <desc>work first published between 1860 and 1879</desc>
+         </valItem>
+         <valItem ident="T3">
+          <desc>work first published between 1880 and 1899</desc>
+         </valItem>
+         <valItem ident="T4">
+          <desc>work first published between 1900 and 1920</desc>
+         </valItem>
+
+        </valList>
+       </attDef>
+      </attList>
+      <!-- change class memberships for title to suppress some attributes but allow it to appear outside the header -->
+     </elementSpec>
+
+     <elementSpec ident="title" mode="change">
+      <classes mode="replace">
+       <memberOf key="att.global"/>
+       <memberOf key="model.biblPart"/>
+       <memberOf key="model.emphLike"/>
+       <memberOf key="att.canonical"/>
+      </classes>
+     </elementSpec>
+    
+     
+    </schemaSpec>
+   </div>
+  </back>
+
+
+ </text>
+</TEI>
