@@ -1,0 +1,1930 @@
+[
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q16562419",
+        "name": "political entity"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Narrative_Location to type Q16562419"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Couvent",
+    "description": "Clear recon data for cells containing \"Couvent\" in column Narrative_Location"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column Narrative_Location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paris"
+      }
+    ],
+    "description": "Mass edit cells in column Narrative_Location"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column2",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata ID",
+    "columnInsertIndex": 4,
+    "description": "Create column Wikidata ID at index 4 based on column Column2 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column2",
+    "description": "Remove column Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Wikidata ID",
+    "description": "Remove column Wikidata ID"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Narrative_Location",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata ID",
+    "columnInsertIndex": 3,
+    "description": "Create column Wikidata ID at index 3 based on column Narrative_Location using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q16562419",
+        "name": "political entity"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC 2 to type Q16562419"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column LOC 2"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paris"
+      }
+    ],
+    "description": "Mass edit cells in column LOC 2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Vinchester",
+    "description": "Clear recon data for cells containing \"Vinchester\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Quito",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2900",
+      "name": "Quito",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Quito (Q2900) for cells containing \"Quito\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Saint-Flour",
+    "judgment": "matched",
+    "match": {
+      "id": "Q49272229",
+      "name": "Saint-Flour (kapital sa arrondissement)",
+      "types": [
+        ""
+      ],
+      "score": 23
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Flour (kapital sa arrondissement) (Q49272229) for cells containing \"Saint-Flour\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Alpes",
+    "description": "Clear recon data for cells containing \"Alpes\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Nancy",
+    "judgment": "matched",
+    "match": {
+      "id": "Q40898",
+      "name": "Nancy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nancy (Q40898) for cells containing \"Nancy\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Vienne",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1741",
+      "name": "Vienna",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vienna (Q1741) for cells containing \"Vienne\" in column LOC 2"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LOC 2",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata ID2",
+    "columnInsertIndex": 8,
+    "description": "Create column Wikidata ID2 at index 8 based on column LOC 2 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q16562419",
+        "name": "Q16562419"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC3 to type Q16562419"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column LOC3"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paris"
+      }
+    ],
+    "description": "Mass edit cells in column LOC3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Dalville",
+    "description": "Clear recon data for cells containing \"Dalville\" in column LOC3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Altendorf",
+    "description": "Clear recon data for cells containing \"Altendorf\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Turin",
+    "judgment": "matched",
+    "match": {
+      "id": "Q495",
+      "name": "Turin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turin (Q495) for cells containing \"Turin\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Strasbourg",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6602",
+      "name": "Strasbourg",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Strasbourg (Q6602) for cells containing \"Strasbourg\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Hongrie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q28",
+      "name": "Hungary",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hungary (Q28) for cells containing \"Hongrie\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Saint-Domingue",
+    "judgment": "matched",
+    "match": {
+      "id": "Q861551",
+      "name": "Saint-Domingue",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Saint-Domingue (Q861551) for cells containing \"Saint-Domingue\" in column LOC3"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q16562419",
+        "name": "political entity"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC 4 to type Q16562419"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q16562419",
+        "name": "political entity"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC 13 to type Q16562419"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column LOC 4"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paris"
+      }
+    ],
+    "description": "Mass edit cells in column LOC 4"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Estrémadure"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Estrémadure"
+      }
+    ],
+    "description": "Mass edit cells in column LOC3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Sargines",
+    "description": "Clear recon data for cells containing \"Sargines\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Turquie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q43",
+      "name": "Turkey",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Turkey (Q43) for cells containing \"Turquie\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Loire",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1469",
+      "name": "Loire",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Loire (Q1469) for cells containing \"Loire\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Strasbourg",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6602",
+      "name": "Strasbourg",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Strasbourg (Q6602) for cells containing \"Strasbourg\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Mars",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111",
+      "name": "Mars",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mars (Q111) for cells containing \"Mars\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "Q220",
+      "name": "Rome",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rome (Q220) for cells containing \"Rome\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46",
+      "name": "Europe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (Q46) for cells containing \"Europe\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46",
+      "name": "Europe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (Q46) for cells containing \"Europe\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Constantinople",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16869",
+      "name": "Constantinople",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Constantinople (Q16869) for cells containing \"Constantinople\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column LOC 13"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paris"
+      }
+    ],
+    "description": "Mass edit cells in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Lyon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q456",
+      "name": "Lyon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lyon (Q456) for cells containing \"Lyon\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "la Loire",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1469",
+      "name": "Loire",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Loire (Q1469) for cells containing \"la Loire\" in column LOC 13"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "la Loire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "la Loire"
+      }
+    ],
+    "description": "Mass edit cells in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Angleterre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21",
+      "name": "England",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England (Q21) for cells containing \"Angleterre\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Naples",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2634",
+      "name": "Naples",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naples (Q2634) for cells containing \"Naples\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Couvent",
+    "description": "Clear recon data for cells containing \"Couvent\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Bababalouk",
+    "description": "Clear recon data for cells containing \"Bababalouk\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Dijon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7003",
+      "name": "Dijon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dijon (Q7003) for cells containing \"Dijon\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "l Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46",
+      "name": "Europe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (Q46) for cells containing \"l Europe\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Talmot",
+    "description": "Clear recon data for cells containing \"Talmot\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "d Italie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38",
+      "name": "Italy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy (Q38) for cells containing \"d Italie\" in column LOC 13"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LOC 4",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata ID 4",
+    "columnInsertIndex": 15,
+    "description": "Create column Wikidata ID 4 at index 15 based on column LOC 4 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LOC3",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata ID 3",
+    "columnInsertIndex": 12,
+    "description": "Create column Wikidata ID 3 at index 12 based on column LOC3 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LOC 13",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata ID 5",
+    "columnInsertIndex": 20,
+    "description": "Create column Wikidata ID 5 at index 20 based on column LOC 13 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q486972",
+        "name": "human settlement"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC 13 to type Q486972"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "l Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46",
+      "name": "Europe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (Q46) for cells containing \"l Europe\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Florise",
+    "description": "Clear recon data for cells containing \"Florise\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Vénus",
+    "judgment": "matched",
+    "match": {
+      "id": "Q313",
+      "name": "Venus",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Venus (Q313) for cells containing \"Vénus\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Tours",
+    "judgment": "matched",
+    "match": {
+      "id": "Q288",
+      "name": "Tours",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tours (Q288) for cells containing \"Tours\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Senanges",
+    "description": "Clear recon data for cells containing \"Senanges\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Indes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q668",
+      "name": "India",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India (Q668) for cells containing \"Indes\" in column LOC 4"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LOC 4",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "IDs",
+    "columnInsertIndex": 16,
+    "description": "Create column IDs at index 16 based on column LOC 4 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Wikidata ID 4",
+    "description": "Remove column Wikidata ID 4"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "IDs",
+    "newColumnName": "Wikidata IDs 4",
+    "description": "Rename column IDs to Wikidata IDs 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "Q220",
+      "name": "Rome",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rome (Q220) for cells containing \"Rome\" in column LOC3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Fleur-De-Myrte",
+    "description": "Clear recon data for cells containing \"Fleur-De-Myrte\" in column LOC3"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q515",
+        "name": "city"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC3 to type Q515"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q486972",
+        "name": "human settlement"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Narrative_Location to type Q486972"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Patrie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q16513600",
+      "name": "homeland",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item homeland (Q16513600) for cells containing \"Patrie\" in column Narrative_Location"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Paris"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Paris"
+      }
+    ],
+    "description": "Mass edit cells in column Narrative_Location"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        "Q5119",
+        "Q22923920",
+        "Q484170",
+        "Q6465",
+        "Q866196",
+        "Q200250"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column Narrative_Location"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        "Q5119",
+        "Q22923920",
+        "Q484170",
+        "Q6465",
+        "Q866196",
+        "Q200250"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column LOC3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "France",
+    "description": "Clear recon data for cells containing \"France\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Babylone",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5684",
+      "name": "Babylon",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Babylon (Q5684) for cells containing \"Babylone\" in column Narrative_Location"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Angleterre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21",
+      "name": "England",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England (Q21) for cells containing \"Angleterre\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "Q220",
+      "name": "Rome",
+      "types": [
+        "Q902814",
+        "Q1549591",
+        "Q2202509",
+        "Q5119",
+        "Q15661340",
+        "Q3685476"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rome (Q220) for cells containing \"Rome\" in column LOC3"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Couvent",
+    "description": "Clear recon data for cells containing \"Couvent\" in column Narrative_Location"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "",
+    "description": "Clear recon data for cells containing \"\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2807",
+      "name": "Madrid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Madrid (Q2807) for cells containing \"Madrid\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "Égypte",
+    "description": "Clear recon data for cells containing \"Égypte\" in column LOC 2"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 2",
+    "similarValue": "",
+    "description": "Clear recon data for cells containing \"\" in column LOC 2"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/row-flag",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "LOC 13: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "LOC 13",
+          "from": 26,
+          "to": 51,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "flagged": true,
+    "description": "Flag rows"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Paris",
+    "judgment": "matched",
+    "match": {
+      "id": "Q90",
+      "name": "Paris",
+      "types": [
+        "Q5119",
+        "Q22923920",
+        "Q484170",
+        "Q6465",
+        "Q866196",
+        "Q200250"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Paris (Q90) for cells containing \"Paris\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Lyon",
+    "judgment": "matched",
+    "match": {
+      "id": "Q456",
+      "name": "Lyon",
+      "types": [
+        "Q484170",
+        "Q22927616"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lyon (Q456) for cells containing \"Lyon\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Angleterre",
+    "judgment": "matched",
+    "match": {
+      "id": "Q21",
+      "name": "England",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item England (Q21) for cells containing \"Angleterre\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "d Italie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38",
+      "name": "Italy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy (Q38) for cells containing \"d Italie\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Naples",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2634",
+      "name": "Naples",
+      "types": [
+        "Q515",
+        "Q747074",
+        "Q1549591"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Naples (Q2634) for cells containing \"Naples\" in column LOC 13"
+  },
+  {
+    "op": "core/row-flag",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "flagged": true,
+    "description": "Flag rows"
+  }
+]
