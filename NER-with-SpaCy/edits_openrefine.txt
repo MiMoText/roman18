@@ -2132,5 +2132,197 @@
     "oldColumnName": "neu",
     "newColumnName": "Wikdata Id",
     "description": "Rename column neu to Wikdata Id"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "",
+    "description": "Clear recon data for cells containing \"\" in column Narrative_Location"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wdreconcile.toolforge.org/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q6256",
+        "name": "country"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column LOC 4 to type Q6256"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Italie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q38",
+      "name": "Italy",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Italy (Q38) for cells containing \"Italie\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "l Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46",
+      "name": "Europe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (Q46) for cells containing \"l Europe\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Lausanne",
+    "judgment": "matched",
+    "match": {
+      "id": "Q807",
+      "name": "Lausanne",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Lausanne (Q807) for cells containing \"Lausanne\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Tours",
+    "judgment": "matched",
+    "match": {
+      "id": "Q288",
+      "name": "Tours",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tours (Q288) for cells containing \"Tours\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Mars",
+    "judgment": "matched",
+    "match": {
+      "id": "Q111",
+      "name": "Mars",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mars (Q111) for cells containing \"Mars\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Europe",
+    "judgment": "matched",
+    "match": {
+      "id": "Q46",
+      "name": "Europe",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Europe (Q46) for cells containing \"Europe\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Jupiter",
+    "judgment": "matched",
+    "match": {
+      "id": "Q319",
+      "name": "Jupiter",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Jupiter (Q319) for cells containing \"Jupiter\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Rome",
+    "judgment": "matched",
+    "match": {
+      "id": "Q220",
+      "name": "Rome",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Rome (Q220) for cells containing \"Rome\" in column LOC 4"
   }
 ]
