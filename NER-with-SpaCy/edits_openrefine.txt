@@ -1926,5 +1926,211 @@
     },
     "flagged": true,
     "description": "Flag rows"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "la Chine",
+    "judgment": "matched",
+    "match": {
+      "id": "Q29520",
+      "name": "China",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item China (Q29520) for cells containing \"la Chine\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "la Loire",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1469",
+      "name": "Loire",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Loire (Q1469) for cells containing \"la Loire\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "France",
+    "description": "Clear recon data for cells containing \"France\" in column LOC 4"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "LOC 13",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "neu",
+    "columnInsertIndex": 20,
+    "description": "Create column neu at index 20 based on column LOC 13 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "neu",
+    "description": "Remove column neu"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "LOC 4",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "neu",
+    "columnInsertIndex": 16,
+    "description": "Create column neu at index 16 based on column LOC 4 using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Wikidata IDs 4",
+    "description": "Remove column Wikidata IDs 4"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "neu",
+    "newColumnName": "Wikidata ID 4",
+    "description": "Rename column neu to Wikidata ID 4"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Ust",
+    "description": "Clear recon data for cells containing \"Ust\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 13",
+    "similarValue": "Géorgie",
+    "judgment": "matched",
+    "match": {
+      "id": "Q230",
+      "name": "Georgia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Georgia (Q230) for cells containing \"Géorgie\" in column LOC 13"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC3",
+    "similarValue": "Indes",
+    "judgment": "matched",
+    "match": {
+      "id": "Q668",
+      "name": "India",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India (Q668) for cells containing \"Indes\" in column LOC3"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LOC 4",
+    "similarValue": "Inde",
+    "judgment": "matched",
+    "match": {
+      "id": "Q668",
+      "name": "India",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item India (Q668) for cells containing \"Inde\" in column LOC 4"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Narrative_Location",
+    "similarValue": "Gange",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5089",
+      "name": "Ganges",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Ganges (Q5089) for cells containing \"Gange\" in column Narrative_Location"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Narrative_Location",
+    "expression": "cell.recon.match.id",
+    "onError": "set-to-blank",
+    "newColumnName": "neu",
+    "columnInsertIndex": 3,
+    "description": "Create column neu at index 3 based on column Narrative_Location using expression cell.recon.match.id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Wikidata ID",
+    "description": "Remove column Wikidata ID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "neu",
+    "newColumnName": "Wikdata Id",
+    "description": "Rename column neu to Wikdata Id"
   }
 ]
