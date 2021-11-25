@@ -85,7 +85,13 @@ def get_texts(pattern):
         with open(path, encoding='utf8') as f:
             text = f.read()
         name = Path(path).name
-        yield (name, text) 
+        text = cleanup_texts(text)
+        yield (name, text)
+
+
+def cleanup_texts(text):
+    '''Replace "etamp;" with "&" in the plain text.'''
+    return text.replace('etamp;', '&')
 
 
 def chunk_text(text, tokenizer, max_len=CHUNK_SIZE):
@@ -161,6 +167,7 @@ def main(args):
     # Organize data as pandas DataFrame and write to csv file.
     df = pd.DataFrame.from_dict(results, orient='index', columns=['LOC', 'PER'])
     df.to_csv(args.results_path)
+    logging.warning(f'Written results to {args.results_path}')
 
 
 if __name__ == '__main__':
