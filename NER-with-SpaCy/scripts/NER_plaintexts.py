@@ -209,8 +209,16 @@ if __name__ == '__main__':
         type=int,
         help='the number of most frequent NEs to store'
         )
+    arg_parser.add_argument(
+        '-v', '--verbose',
+        action='store_true',
+        help='wether to use more verbose logging output')
 
     args = arg_parser.parse_args()
+
+    loglevel = logging.DEBUG if args.verbose else logging.WARNING
+    logging.basicConfig(format='%(asctime)s -- %(message)s', datefmt='%Y-%m-%d %I:%M:%S', level=loglevel)
+
     logging.info('running with the following options')
     logging.info(args)
     main(args)
