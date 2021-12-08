@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup as bs
 import itertools
 # parameters
 
-path = join("..", "..", "OCR4all_output", "txt", "corrected_and_to_be_sorted", "*.txt")
+path = join("", "txt","*.txt")
 
 def read_file(file):
 	# read file
@@ -96,7 +96,7 @@ def find_paragraphs(txt):
 		doc_new = doc_new + pall
 	
 	doc_new = doc_new + "</div"
-	doc_new = re.sub("&", "&amp;", doc_new)
+    doc_new = re.sub("&", "&amp;", doc_new)
 	soup = bs(doc_new, "xml")
 	#print(soup)
 	return soup
@@ -129,7 +129,7 @@ def save_xml(xml, name):
 		
 def main(path):
 	
-	with open(join("..", "..", "work-in-progress", "Daten", "stopwords_full_version.txt"), "r", encoding="utf8") as infile:
+	with open("stopwords_full_version.txt", "r", encoding="utf8") as infile:
 		stopwords  = infile.read()
 	
 	stopwords = stopwords.split(" ")
