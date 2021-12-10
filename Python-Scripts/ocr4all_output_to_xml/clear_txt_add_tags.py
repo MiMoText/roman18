@@ -133,7 +133,7 @@ def save_xml(xml, name):
 		outfile.write(str(xml))
 		
 		
-def main(path, header):
+def main(path):
 	
 	with open(join("..", "..", "work-in-progress", "Daten", "stopwords_full_version.txt"), "r", encoding="utf8") as infile:
 		stopwords  = infile.read()
@@ -153,6 +153,6 @@ def main(path, header):
 		#count = count_words(doc)
 		xml = find_paragraphs(doc, header)
 		xml = find_divs(xml)
-		print(xml)
-		save_xml(xml, name)
-main(path, header)
+		#print(xml)
+		#save_xml(xml, name)
+main(path)
