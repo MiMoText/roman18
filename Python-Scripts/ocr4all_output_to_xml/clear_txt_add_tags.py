@@ -1,5 +1,80 @@
 # Script for cleaning ocr4all output from linebreaks and add minimal tags
 # gedacht für die Bandergänzungen!
+
+"""
+Header - needs to be included
+"""
+
+header ="<hallo/>"
+"""
+header = <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:">MiMoText
+     edition </title>
+    <author ref="viaf:;wikidata:"></author>
+    <respStmt>
+     <resp> data capture</resp>
+     <name></name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words"></measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+    <distributor ref="https://github.com/MiMoText/roman18"> Github </distributor>
+    <date> 2021 </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target=""/>
+    </bibl>
+    <bibl type="printSource">
+     <date></date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date></date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form"></term>
+     <term type="spelling"></term>
+     <term type="data-capture">semi-automatic transcription</term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when=""> Initial ELTeC level-1 </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+  </front>
+     <body>
+"""
+
 import glob
 import os.path
 from os.path import join
@@ -87,7 +162,7 @@ def count_words(txt):
 
 	return count
 
-def find_paragraphs(txt):
+def find_paragraphs(txt, header):
 	# add tags: div and p
 	doc = txt.split("\n")
 	doc_new = "<div>"
@@ -95,10 +170,15 @@ def find_paragraphs(txt):
 		pall = "<p>" + p + "</p>"
 		doc_new = doc_new + pall
 	
-	doc_new = doc_new + "</div"
+	doc_new = doc_new + "</div></body></text></TEI>"
+	
 	doc_new = re.sub("&", "&amp;", doc_new)
+	#print(doc_new)
+	
+	doc_new = header + doc_new
 	soup = bs(doc_new, "xml")
-	#print(soup)
+
+
 	return soup
 
 def find_divs(xml):
@@ -127,11 +207,15 @@ def save_xml(xml, name):
 		outfile.write(str(xml))
 		
 		
-def main(path):
+def main(path, header):
 	
 	with open(join("..", "..", "work-in-progress", "Daten", "stopwords_full_version.txt"), "r", encoding="utf8") as infile:
 		stopwords  = infile.read()
 	
+	
+	with open(join("", "teiHeader-Template.xml"), "r", encoding="utf8") as infile:
+		header = infile.read()
+
 	stopwords = stopwords.split(" ")
 	stopwords = schaft_s_sw(stopwords)
 	
@@ -141,7 +225,8 @@ def main(path):
 		doc = read_file(file)
 		doc = clean_doc(doc, stopwords)
 		#count = count_words(doc)
-		xml = find_paragraphs(doc)
+		xml = find_paragraphs(doc, header)
 		xml = find_divs(xml)
+		print(xml)
 		save_xml(xml, name)
-main(path)
+main(path, header)
