@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="BarbeMarbois_Parisienne" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title ref="bgrf:"/>
-                <author ref="viaf:;wikidata:"/>
+                <title ref="bgrf:69.14">La Parisienne en province, ouvrage national, par M.... </title>
+                <author ref="viaf:9958036;wikidata:Q708732">Francois, marquis de Barbé-Marbois(1745-1837)</author>
                 <respStmt>
                     <resp>data capture</resp>
-                    <name/>
+                    <name>gallica</name>
                 </respStmt>
                 <respStmt>
                     <resp>encoding</resp>
-                    <name/>
+                    <name>Johanna Konstanciak</name>
                 </respStmt>
             </titleStmt>
             <extent>
@@ -28,7 +28,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <ref target=""/>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k6382224v?rk=21459;2"/>
                 </bibl>
                 <bibl type="printSource">
                     <title/>
@@ -38,7 +38,7 @@
                     <date/>
                 </bibl>
                 <bibl type="firstEdition">
-                    <date/>
+                    <date>1769</date>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -55,7 +55,7 @@
                 </keywords>
             </textClass>
             <textDesc>
-                <authorGender key="" xmlns="http://distantreading.net/eltec/ns"/>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
                 <size key="" xmlns="http://distantreading.net/eltec/ns"/>
                 <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
                 <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
@@ -66,10 +66,9 @@
         </revisionDesc>
     </teiHeader>
     <text>
-        <front> </front>
-        <body>
-            <div>
-                <p>LA PARISIENNE EN PROVINCE.</p>
+        <front>
+            <div type="titlepage">
+            <p>LA PARISIENNE EN PROVINCE.</p>
                 <p>OUVRAGE NATIONAL.</p>
                 <p>Par M.....</p>
                 <p>Si vuole à punto Far de gli Amanti quel che de le veſti.</p>
@@ -81,6 +80,8 @@
                 <p>On peut trouver encor quelque femme fidelle, Sans doute; &amp; dans Paris, ſi je
                     ſçais bien compter, Il en eſt juſqu'à trois que je pourrois citer.</p>
                 <p>Boil. Sat. X.</p>
+            </div>
+            <div type="liminal">
                 <p>AVANT-PROPOS.</p>
                 <p>Convenez, Zélis, que les hommes ſont bien haïſſables; quel cœur glacé que celui
                     de Dorante! Peut-on marquer moins d'ardeur pour un rendez-vous demandé ſi
@@ -136,6 +137,8 @@
                     un peu mon chagrin: c'eſt qu'aujourd'hui on ne peut décemment ſe diſpenſer de
                     faire au moins une brochure dans ſa vie; &amp; c'eſt par celle-ci que j'acquitte
                     ce ſingulier tribut.</p>
+                </div>
+            <div type="liminal">
                 <p>A THÉMIRE.</p>
                 <p>UN Serin du plus beau plumage Se prit aux lacets de Sylvain: Il étoit vif, léger,
                     badin, Et par ſon aimable ramage Il enchantoit tout le bocage.</p>
@@ -177,6 +180,10 @@
                 <p>..</p>
                 <p>() Des raiſons qu'il eſt inutile d'expliquer, engagent l'Editeur à ſupprimer le
                     reſte de ce morceau.</p>
+        </div>
+        </front>
+        <body>
+            <div>
                 <p>LA PARISIENNE EN PROVINCE.</p>
                 <p>OUVRAGE NATIONAL.</p>
                 <p>PREMIERE PARTIE.</p>

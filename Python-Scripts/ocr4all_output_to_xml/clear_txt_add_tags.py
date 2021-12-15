@@ -154,5 +154,5 @@ def main(path):
 		xml = find_paragraphs(doc, header)
 		xml = find_divs(xml)
 		#print(xml)
-		#save_xml(xml, name)
+		save_xml(xml, name)
 main(path)
