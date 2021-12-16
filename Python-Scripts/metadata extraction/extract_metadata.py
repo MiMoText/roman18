@@ -168,7 +168,7 @@ def main(path, xpaths, ordering, sorting):
 	#workingDir = join("..", "..", collection)
 	
 	teiFolder = join(path, "*.xml")
-	metadatafile = join("xml-tei_metadata.tsv")
+	metadatafile = join("..", "..", "XML-TEI", "xml-tei_metadata.tsv")
 	allmetadata = []
 	counter = 0
 	for teiFile in glob.glob(teiFolder): 

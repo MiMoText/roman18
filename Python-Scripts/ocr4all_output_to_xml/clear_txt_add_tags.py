@@ -1,5 +1,6 @@
 # Script for cleaning ocr4all output from linebreaks and add minimal tags
-# gedacht für die Bandergänzungen!
+# (gedacht für die Bandergänzungen!
+
 import glob
 import os.path
 from os.path import join
@@ -87,7 +88,7 @@ def count_words(txt):
 
 	return count
 
-def find_paragraphs(txt):
+def find_paragraphs(txt, header):
 	# add tags: div and p
 	doc = txt.split("\n")
 	doc_new = "<div>"
@@ -95,10 +96,15 @@ def find_paragraphs(txt):
 		pall = "<p>" + p + "</p>"
 		doc_new = doc_new + pall
 	
-	doc_new = doc_new + "</div"
+	doc_new = doc_new + "</div></body></text></TEI>"
+	
 	doc_new = re.sub("&", "&amp;", doc_new)
+	#print(doc_new)
+	
+	doc_new = header + doc_new
 	soup = bs(doc_new, "xml")
-	#print(soup)
+
+
 	return soup
 
 def find_divs(xml):
@@ -132,6 +138,10 @@ def main(path):
 	with open(join("..", "..", "work-in-progress", "Daten", "stopwords_full_version.txt"), "r", encoding="utf8") as infile:
 		stopwords  = infile.read()
 	
+	
+	with open(join("", "teiHeader-Template.xml"), "r", encoding="utf8") as infile:
+		header = infile.read()
+
 	stopwords = stopwords.split(" ")
 	stopwords = schaft_s_sw(stopwords)
 	
@@ -141,7 +151,8 @@ def main(path):
 		doc = read_file(file)
 		doc = clean_doc(doc, stopwords)
 		#count = count_words(doc)
-		xml = find_paragraphs(doc)
+		xml = find_paragraphs(doc, header)
 		xml = find_divs(xml)
+		#print(xml)
 		save_xml(xml, name)
 main(path)
