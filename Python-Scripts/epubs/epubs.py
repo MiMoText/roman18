@@ -2,8 +2,7 @@
 This Script generates an xml-file from txt-data.
 '''
 
-import os.path
-import glob
+from datetime import date
 from itertools import takewhile
 import logging
 from pathlib import Path
@@ -20,7 +19,8 @@ SAVE_PATH = 'results/'
 
 # Namespace to use during XML creation
 NSMAP = {
-    'xml': 'http://www.w3.org/XML/1998/namespace'
+    'tei': 'http://www.tei-c.org/ns/1.0',
+    'xml': 'http://www.w3.org/XML/1998/namespace',
 }
 
 
@@ -121,11 +121,21 @@ def build_chapter_xml(chapter, footnotes):
     return markup, footnotes
 
 
-def build_header_xml(root=None, metadata={}):
+def build_header_xml(root=None, metadata={}, file_name=''):
     '''Build an xml tree from a text template. Optionally, fill in some metadata.'''
     TEMPL_PATH = Path('templates') / 'teiHeader-Template.xml'
     parser = ET.XMLParser(remove_blank_text=True)
     xml = ET.parse(str(TEMPL_PATH), parser)
+
+    # Pre-fill some known values.
+    today = date.today().isoformat()
+    xml_id = file_name or 'TODO'
+    tei = xml.getroot()
+    tei.attrib[QName(NSMAP.get('xml'), 'id')] = xml_id
+    #print(ET.tostring(tei))
+    change_path = f"//{ET.QName(NSMAP['tei'], 'revisionDesc')}/{ET.QName(NSMAP['tei'], 'change')}"
+    change = xml.find(change_path)
+    change.attrib['when'] = today
 
     if metadata != {}:
         raise NotImplementedError('Auto-fill-in of metadata is not yet supported – sorry!')
@@ -340,9 +350,9 @@ def split_chapters(text):
     return chapters
 
 
-def transform(text):
+def transform(text, file_name):
     """Create an XML tree with data extracted from the text."""
-    xml = build_header_xml()
+    xml = build_header_xml(file_name=file_name)
     tei = xml.getroot()
     
     titlepage, rest = split_titlepage(text)
@@ -386,7 +396,7 @@ def main():
             logging.debug(f'Processing {src_file}')
             text = open_file(src_file)
             text = clean_up(text)
-            xml = transform(text)
+            xml = transform(text, src_file.name)
             write_results(xml, SAVE_PATH, src_file.name)
 
 

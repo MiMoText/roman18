@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
   <teiHeader>
@@ -19,7 +19,7 @@
         </respStmt>
       </titleStmt>
       <extent>
-        <measure unit="words"></measure>
+        <measure unit="words">0</measure>
       </extent>
       <publicationStmt>
         <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
@@ -33,7 +33,7 @@
         <bibl type="digitalSource">
           <title></title>
           <author></author>
-          <ref target="" />
+          <ref target="TODO" />
           <date></date>
         </bibl>
         <bibl type="printSource">
@@ -52,7 +52,7 @@
         </bibl>
       </sourceDesc>
     </fileDesc>
-    <encodingDesc n="eltec-1">
+    <encodingDesc n="eltec-x">
       <p />
     </encodingDesc>
     <profileDesc>
@@ -67,10 +67,10 @@
         </keywords>
       </textClass>
       <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key=""/>
-        <size xmlns="http://distantreading.net/eltec/ns" key=""/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key=""/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key=""/>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="U"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
       </textDesc>
     </profileDesc>
     <revisionDesc>
