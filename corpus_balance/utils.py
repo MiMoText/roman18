@@ -80,14 +80,16 @@ def parse_page_count(page_count_str, count_preface=False, expected_segments=None
 def parse_distribution_format(dist_format_str):
     '''Given a `distribution_format_string`, try to determine format.
     
-    Valid resulting formats are 'in-2', 'in-4', 'in-8', 'in-12', 'in-16', 'in-18'. 
+    Valid resulting formats are 'in-2', 'in-4', 'in-8', 'in-12', 'in-16', 'in-18', 'in-24', 'in-32'. 
     '''
     # Note: the delimiter can be a hyphen, an m-dash or an n-dash.
-    valid = ['2', '4', '8', '12', '16', '18']
+    valid = ['1', '2', '4', '8', '12', '16', '18', '24', '32']
     format_match = re.search('in\s*[-–—]\s*(\d+)', dist_format_str)
     if format_match:
         size = format_match.groups()[0]
         if size not in valid:
             raise ValueError(f'"in-{size}" is not a valid page format.')
         return f'in-{size}'
+    elif dist_format_str == 'in-plano':
+        return 'in-1'
     return None
