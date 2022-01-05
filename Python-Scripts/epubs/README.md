@@ -14,7 +14,6 @@ This script has no external dependencies. It expects the source files in `.txt` 
 python epubs.py
 ```
 
-
 ## Tests
 
 The test suite can be run by executing the following inside this directory:
@@ -29,3 +28,4 @@ Failing tests are regressions and should therefore be considered as bugs.
 ## Known issues
 
 - The XML build up of the main text body currently does not differentiate between different orders of headings. Every heading will result in its own chapter div element.
+- The script can not differentiate between regular chapters and letters (in epistolary novels).
