@@ -211,7 +211,9 @@ def insert_fn_markers_xml(node):
 def insert_italics_xml(node):
     '''Given a paragraph node, insert a hi node for italics if applicable.'''
     # Non-greedy pattern (i.e. match as little as possible) for italic text segments.
-    italic = r'(\*.*?\*)'
+    # Immediately following the first '*' there needs to be a letter or number (as opposed to
+    # whitespace or punctuation), else it is a stand-alone asterisk like in "the marquis of *".
+    italic = r'(\*[\w\d].*?\*)'
     segments = re.split(italic, node.text or '')
     tail_segments = re.split(italic, node.tail or '')
 

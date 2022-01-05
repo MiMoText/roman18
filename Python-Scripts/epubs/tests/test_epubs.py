@@ -192,6 +192,23 @@ class EpubItalicsTest(TestCase):
         self.assertEqual(ref.tail, ' ')
         self.assertEqual(snd_hi.text, 'again')
         self.assertEqual(snd_hi.tail, '.')
+    
+    def test_ignore_regular_asterisks(self):
+        '''Ensure that `insert_italics/xml()` ignores stand-alone asterisks.'''
+        # Here we have two '*' in the same paragraph, but they do not indicate
+        # italics. It is not easy to distinguish these, as they can come up in
+        # many variations.
+        non_italics = [
+            '<p>Hello from the marquis * from *.</p>',
+            '<p>Hello from *. A nice village near *.</p>',
+            '<p>* is a nice village, as is *.</p>',
+        ]
+        for s in non_italics:
+            root = ET.fromstring(s)
+            results = insert_italics_xml(root)
+            hi = results.find('hi')
+            # There should be _no_ hi tag.
+            self.assertIsNone(hi)
 
 
 class EpubFootnotesTest(TestCase):
