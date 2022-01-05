@@ -1,4 +1,6 @@
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -496,47 +498,53 @@
         <note xml:id="N3">« Oh  quel beau garçon  »</note>
         <note xml:id="N4">Voyez la note 2 de la page 372.</note>
         <note xml:id="N5">Voyez tome XX, page 593.</note>
-        <note xml:id="N6">Paul Grillandus (beau nom pour un inquisiteur, dit Voltaire, tome XVII, note 1, p. 346) est auteur d'un *Tractatus de hœreticis et sortilegiis,* Lyon, 1536, in-8o.</note>
+        <note xml:id="N6">Paul Grillandus (beau nom pour un inquisiteur, dit Voltaire, tome XVII, note 1, p. 346) est auteur d'un <hi rend="italic">Tractatus de hœreticis et sortilegiis,</hi> Lyon, 1536, in-8o.</note>
         <note xml:id="N7">Voyez tome XI, page 224.</note>
-        <note xml:id="N8">Toute cette histoire est racontée par Abdias, Marcel et Hégésippe ; Eusèbe en rapporte une partie. (*Note de Voltaire*.) --- Voyez la *Relation de Marcel* dans la *Collection d'anciens évangiles* (*Mélanges,* année 1769).</note>
-        <note xml:id="N9">Voyez, dans les *Mélanges,* année 1769, *les Adorateurs*.</note>
-        <note xml:id="N10">Chapitre ix. (*Note de Voltaire*.)</note>
-        <note xml:id="N11">*Actes,* chapitre xxvi. (*Id.*)</note>
-        <note xml:id="N12">Histoire apostolique d'Abdias. Traduction de Jules Africain, livre VI, page 595 et suiv. (*Id.*)</note>
-        <note xml:id="N13">Eusèbe, livre III, chapitre xxx. (*Note de Voltaire*.)</note>
-        <note xml:id="N14">C'est ce qu'on lit dans une édition de 1776 et dans les éditions de Kehl. Une édition de 1775 porte : « autres *ens* et *ites*. » C'est d'après l'erratum, quelquefois téméraire, de Kehl, que les éditeurs récents ont mis : *autres en* istes *et *en* ites. (B.)*</note>
-        <note xml:id="N15">Elle est imprimée dans l'apologie du comte de Peterborough, par le docteur Freind, page 143, chez Jonas Bourer. (*Note de Voltaire*).</note>
+        <note xml:id="N8">Toute cette histoire est racontée par Abdias, Marcel et Hégésippe ; Eusèbe en rapporte une partie. (<hi rend="italic">Note de Voltaire</hi>.) --- Voyez la <hi rend="italic">Relation de Marcel</hi> dans la <hi rend="italic">Collection d'anciens évangiles</hi> (<hi rend="italic">Mélanges,</hi> année 1769).</note>
+        <note xml:id="N9">Voyez, dans les <hi rend="italic">Mélanges,</hi> année 1769, <hi rend="italic">les Adorateurs</hi>.</note>
+        <note xml:id="N10">Chapitre ix. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N11">
+          <hi rend="italic">Actes,</hi> chapitre xxvi. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N12">Histoire apostolique d'Abdias. Traduction de Jules Africain, livre VI, page 595 et suiv. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N13">Eusèbe, livre III, chapitre xxx. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N14">C'est ce qu'on lit dans une édition de 1776 et dans les éditions de Kehl. Une édition de 1775 porte : « autres <hi rend="italic">ens</hi> et <hi rend="italic">ites</hi>. » C'est d'après l'erratum, quelquefois téméraire, de Kehl, que les éditeurs récents ont mis : <hi rend="italic">autres en</hi> istes <hi rend="italic">et </hi>en<hi rend="italic"> ites. (B.)</hi>
+        </note>
+        <note xml:id="N15">Elle est imprimée dans l'apologie du comte de Peterborough, par le docteur Freind, page 143, chez Jonas Bourer. (<hi rend="italic">Note de Voltaire</hi>).</note>
         <note xml:id="N16">Il n'est pas difficile de deviner qui Voltaire désigne ici. Il n'a changé qu'une lettre : voyez la note 1 de la page suivante.</note>
-        <note xml:id="N17">Voyez ci-dessus, page 333 ; et dans les *Mélanges,* année 1768, le chapitre xiii des *Singularités de la nature*.</note>
-        <note xml:id="N18">Warburton, évêque de Glocester, auteur d'un livre intitulé *la Légation de Moïse :* il en est beaucoup question dans plusieurs ouvrages de M. de Voltaire, contre qui Warburton a écrit avec ce ton de supériorité que les érudits, qui ne savent que ce qu'ont pensé les autres, ne manquent jamais de prendre avec les hommes de génie. (K.)</note>
-        <note xml:id="N19">Voyez ce que Voltaire dit du Cheselden, tomes XVIII, page 404 ; XX, page 504 ; et dans le tome XIV, le chapitre xxxiii du *Siècle de Louis XIV*.</note>
+        <note xml:id="N17">Voyez ci-dessus, page 333 ; et dans les <hi rend="italic">Mélanges,</hi> année 1768, le chapitre xiii des <hi rend="italic">Singularités de la nature</hi>.</note>
+        <note xml:id="N18">Warburton, évêque de Glocester, auteur d'un livre intitulé <hi rend="italic">la Légation de Moïse :</hi> il en est beaucoup question dans plusieurs ouvrages de M. de Voltaire, contre qui Warburton a écrit avec ce ton de supériorité que les érudits, qui ne savent que ce qu'ont pensé les autres, ne manquent jamais de prendre avec les hommes de génie. (K.)</note>
+        <note xml:id="N19">Voyez ce que Voltaire dit du Cheselden, tomes XVIII, page 404 ; XX, page 504 ; et dans le tome XIV, le chapitre xxxiii du <hi rend="italic">Siècle de Louis XIV</hi>.</note>
         <note xml:id="N20">Voyez tome XVII, page 44.</note>
-        <note xml:id="N21">Voyez dans les *Mélanges,* année 1761, la *Lettre de M. Clocpitre à M. Eraton*.</note>
+        <note xml:id="N21">Voyez dans les <hi rend="italic">Mélanges,</hi> année 1761, la <hi rend="italic">Lettre de M. Clocpitre à M. Eraton</hi>.</note>
         <note xml:id="N22">Tillotson et Smalridge sont deux prédicateurs anglais : Voltaire en a déjà parlé ; voyez tome XIX, page 38.</note>
-        <note xml:id="N23">De l'italien *disinvolto,* dégagé ; *disinvoltura,* bonne grâce.</note>
-        <note xml:id="N24">Espèce d'exclamation, sale et grossière, des libertins. (*Note de M. Decroix*.) --- Voyez page 561.</note>
-        <note xml:id="N25">Voltaire. C'est un anachronisme : les événements se passent au commencement du xviiie siècle, et c'est plus tard que Voltaire a dit ce qu'il rapporte ici ; voyez tome XVII, pages 458 et 476 ; tome XX, page 506 ; et dans les *Mélanges,* année 1767, la dixième des *Lettres à Son Altesse le prince de *** ;* année 1786, le paragraphe v des *Remontrances à A.-J. Rustan*.</note>
-        <note xml:id="N26">Il s'agit du *Système de la nature,* fort postérieur au siège de Barcelone et aux aventures de Jenni. (K.) --- Voyez la note 2 de la page 567.</note>
+        <note xml:id="N23">De l'italien <hi rend="italic">disinvolto,</hi> dégagé ; <hi rend="italic">disinvoltura,</hi> bonne grâce.</note>
+        <note xml:id="N24">Espèce d'exclamation, sale et grossière, des libertins. (<hi rend="italic">Note de M. Decroix</hi>.) --- Voyez page 561.</note>
+        <note xml:id="N25">Voltaire. C'est un anachronisme : les événements se passent au commencement du xviiie siècle, et c'est plus tard que Voltaire a dit ce qu'il rapporte ici ; voyez tome XVII, pages 458 et 476 ; tome XX, page 506 ; et dans les <hi rend="italic">Mélanges,</hi> année 1767, la dixième des <hi rend="italic">Lettres à Son Altesse le prince de </hi>
+          <hi rend="italic"></hi> ;<hi rend="italic"> année 1786, le paragraphe v des </hi>Remontrances à A.-J. Rustan*.</note>
+        <note xml:id="N26">Il s'agit du <hi rend="italic">Système de la nature,</hi> fort postérieur au siège de Barcelone et aux aventures de Jenni. (K.) --- Voyez la note 2 de la page 567.</note>
         <note xml:id="N27">Voyez tome XVIII, pages 103-104.</note>
-        <note xml:id="N28">C'est ce que disent, saint Paul dans son *Épître aux Corinthiens,* xv, 36, et saint Jean, xii, 24.</note>
+        <note xml:id="N28">C'est ce que disent, saint Paul dans son <hi rend="italic">Épître aux Corinthiens,</hi> xv, 36, et saint Jean, xii, 24.</note>
         <note xml:id="N29">C'est le vers de Perse, iii, 84 :</note>
-        <note xml:id="N30">*Genèse,* I, i.</note>
-        <note xml:id="N31">Ce dilemme est d'Épicure ; voyez dans les *Mélanges,* année 1772, le paragraphe xviii de : *Il faut prendre un parti :* Voltaire a souvent cité ce dilemme : voyez tome XI, page 94 ; tome XX, pages 296-300 ; et dans les *Mélanges,* année 1777, le second des *Dialogues d'Évhémère*.</note>
+        <note xml:id="N30">
+          <hi rend="italic">Genèse,</hi> I, i.</note>
+        <note xml:id="N31">Ce dilemme est d'Épicure ; voyez dans les <hi rend="italic">Mélanges,</hi> année 1772, le paragraphe xviii de : <hi rend="italic">Il faut prendre un parti :</hi> Voltaire a souvent cité ce dilemme : voyez tome XI, page 94 ; tome XX, pages 296-300 ; et dans les <hi rend="italic">Mélanges,</hi> année 1777, le second des <hi rend="italic">Dialogues d'Évhémère</hi>.</note>
         <note xml:id="N32">Les Péruviens et les Mexicains.</note>
         <note xml:id="N33">Voyez tome XII, pages 384 et 401.</note>
-        <note xml:id="N34">*Ibidem,* pages 395-396.</note>
-        <note xml:id="N35">*Ibidem,* pages 398-400.</note>
-        <note xml:id="N36">Jean Kyrl, né en 1634, mort en 1724, que Pope (troisième épître) appelle l'*homme de Ross*.</note>
+        <note xml:id="N34">
+          <hi rend="italic">Ibidem,</hi> pages 395-396.</note>
+        <note xml:id="N35">
+          <hi rend="italic">Ibidem,</hi> pages 398-400.</note>
+        <note xml:id="N36">Jean Kyrl, né en 1634, mort en 1724, que Pope (troisième épître) appelle l'<hi rend="italic">homme de Ross</hi>.</note>
         <note xml:id="N37">C'est ici que finit ce chapitre dans les éditions de 1775 et 1776. (B.)</note>
-        <note xml:id="N38">Ouvrage qui parut en même temps que le *Système de la nature*. M. de Voltaire a grande raison. L'auteur de cet ouvrage prouve très-bien que la plupart des philosophes, en voulant pénétrer la nature de Dieu, en ont donné des idées absurdes ; mais cela ne détruit point les preuves de son existence, qui peuvent être tirées de l'ordre de l'univers. (K.) --- Le *Système de la nature* est de 1770 ; voyez tome XVIII, pages 97 et suiv., et 374. *Le Bon Sens ou Idées naturelles opposées aux idées surnaturelles,* 1772, in-12, est aussi attribué au baron d'Holbach.</note>
+        <note xml:id="N38">Ouvrage qui parut en même temps que le <hi rend="italic">Système de la nature</hi>. M. de Voltaire a grande raison. L'auteur de cet ouvrage prouve très-bien que la plupart des philosophes, en voulant pénétrer la nature de Dieu, en ont donné des idées absurdes ; mais cela ne détruit point les preuves de son existence, qui peuvent être tirées de l'ordre de l'univers. (K.) --- Le <hi rend="italic">Système de la nature</hi> est de 1770 ; voyez tome XVIII, pages 97 et suiv., et 374. <hi rend="italic">Le Bon Sens ou Idées naturelles opposées aux idées surnaturelles,</hi> 1772, in-12, est aussi attribué au baron d'Holbach.</note>
         <note xml:id="N39">Voyez page 553.</note>
         <note xml:id="N40">Depuis l'époque où écrivait M. de Voltaire, Herschel, en 1789, a découvert deux nouveaux satellites ou lunes à Saturne. (K.)</note>
-        <note xml:id="N41">Voltaire lui-même ; voyez tome XVII, page 557 ; tome XVIII, page 236 ; tome XIX, page 549 ; tome XX, pages 345 et 646 ; et dans les *Mélanges,* année 1768, une des notes sur le *Discours de l'empereur Julien,* et le dialogue A B C, dixième entretien ; année 1771, *Lettres de Memmius,* no 19.</note>
+        <note xml:id="N41">Voltaire lui-même ; voyez tome XVII, page 557 ; tome XVIII, page 236 ; tome XIX, page 549 ; tome XX, pages 345 et 646 ; et dans les <hi rend="italic">Mélanges,</hi> année 1768, une des notes sur le <hi rend="italic">Discours de l'empereur Julien,</hi> et le dialogue A B C, dixième entretien ; année 1771, <hi rend="italic">Lettres de Memmius,</hi> no 19.</note>
         <note xml:id="N42">Salviati ; voyez tome XII, pages 168 et suiv.</note>
         <note xml:id="N43">Voyez tome XII, page 167.</note>
-        <note xml:id="N44">Voyez *ibid.,* page 83 ; et dans les *Mélanges,* année 1768, l'opuscule intitulé *les Droits des hommes,* etc.</note>
+        <note xml:id="N44">Voyez <hi rend="italic">ibid.,</hi> page 83 ; et dans les <hi rend="italic">Mélanges,</hi> année 1768, l'opuscule intitulé <hi rend="italic">les Droits des hommes,</hi> etc.</note>
         <note xml:id="N45">Voyez tome XII, page 526.</note>
-        <note xml:id="N46">Né en 1673, mort en 1754. Il pratiqua l'un des premiers l'inoculation de la petite vérole, et est auteur d'un *Mechanical Account of poisons,* 1702.</note>
+        <note xml:id="N46">Né en 1673, mort en 1754. Il pratiqua l'un des premiers l'inoculation de la petite vérole, et est auteur d'un <hi rend="italic">Mechanical Account of poisons,</hi> 1702.</note>
       </div>
     </back>
   </text>

@@ -1,4 +1,6 @@
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -490,49 +492,50 @@
         <note xml:id="N3">C'est la baie où vient se jeter la rivière de Rance.</note>
         <note xml:id="N4">Sorte de tafia composé que fabriquaient les Anglais de la Barbade (île des Antilles).</note>
         <note xml:id="N5">Naturel du Canada.</note>
-        <note xml:id="N6">Voyez les *Lettres au prince de Brunswick*.</note>
+        <note xml:id="N6">Voyez les <hi rend="italic">Lettres au prince de Brunswick</hi>.</note>
         <note xml:id="N7">L'émigration des protestants avait commencé dès 1681.</note>
-        <note xml:id="N8">Tous ces noms sont en effet hurons. (*Note de Voltaire*).</note>
-        <note xml:id="N9">Plusieurs éditions de 1767 portent *faites*. (B.)</note>
+        <note xml:id="N8">Tous ces noms sont en effet hurons. (<hi rend="italic">Note de Voltaire</hi>).</note>
+        <note xml:id="N9">Plusieurs éditions de 1767 portent <hi rend="italic">faites</hi>. (B.)</note>
         <note xml:id="N10">Il est à croire que pour toutes les répliques du Huron sur la religion, Voltaire s'est inspiré de la relation du baron de La Hontan sur les sauvages du Canada. Ce baron, qui avait vécu longtemps parmi eux, rapporte quelques entretiens qu'il eut sur la religion avec un de ces sauvages, et il paraît que le baron n'avait pas toujours l'avantage dans la dispute. (G. A.)</note>
-        <note xml:id="N11">Dans les premières éditions on avais mis : *la reine de Candace*. En corrigeant cette faute, Voltaire mit dans *Verrata* un *N. B.,* en ces termes : « Comment le P. Quesnel avait-il ignoré que Candace était le nom des belles reines d'Éthiopie, comme Pharaon ou Pharon était le titre des rois d'Égypte ? »</note>
+        <note xml:id="N11">Dans les premières éditions on avais mis : <hi rend="italic">la reine de Candace</hi>. En corrigeant cette faute, Voltaire mit dans <hi rend="italic">Verrata</hi> un <hi rend="italic">N. B.,</hi> en ces termes : « Comment le P. Quesnel avait-il ignoré que Candace était le nom des belles reines d'Éthiopie, comme Pharaon ou Pharon était le titre des rois d'Égypte ? »</note>
         <note xml:id="N12">Voyez tome XVII, page 540.</note>
         <note xml:id="N13">Les Anglais furent en effet maintes fois repoussés de nos côtes pendant cette guerre de 1689, et sous Louis XV, en 1759, même aventure leur arriva aux mêmes lieux. C'est pourquoi Voltaire esquisse cette scène. (G. A.)</note>
-        <note xml:id="N14">Virgile, *Éclog*. I, vers 3.</note>
-        <note xml:id="N15">L'édit de Nantes avait été révoqué en 1685. Voyez, tome XIV, le *Siècle de Louis XIV,* chapitre xxxvi.</note>
+        <note xml:id="N14">Virgile, <hi rend="italic">Éclog</hi>. I, vers 3.</note>
+        <note xml:id="N15">L'édit de Nantes avait été révoqué en 1685. Voyez, tome XIV, le <hi rend="italic">Siècle de Louis XIV,</hi> chapitre xxxvi.</note>
         <note xml:id="N16">C'est la réponse de Fontenelle à un marchand de Rouen, janséniste.</note>
         <note xml:id="N17">Ministre protestant.</note>
         <note xml:id="N18">Innocent XI. Voyez tome XVI, page 52.</note>
         <note xml:id="N19">Les jésuites avaient été chassés en 1764.</note>
-        <note xml:id="N20">C'est une voiture de Paris à Versailles, laquelle ressemble à un petit tombereau ouvert. (*Note de Voltaire*.)</note>
+        <note xml:id="N20">C'est une voiture de Paris à Versailles, laquelle ressemble à un petit tombereau ouvert. (<hi rend="italic">Note de Voltaire</hi>.)</note>
         <note xml:id="N21">La Bastille.</note>
-        <note xml:id="N22">Remède chimique qui était en vigueur à la fin du xviie siècle. Son inventeur, Goddard, exerçait la médecine à Londres sous Charles II ; c'est pourquoi ce remède s'appela en France *gouttes d'Angleterre* (G. A.)</note>
+        <note xml:id="N22">Remède chimique qui était en vigueur à la fin du xviie siècle. Son inventeur, Goddard, exerçait la médecine à Londres sous Charles II ; c'est pourquoi ce remède s'appela en France <hi rend="italic">gouttes d'Angleterre</hi> (G. A.)</note>
         <note xml:id="N23">Doctrine janséniste des élus.</note>
-        <note xml:id="N24">Voyez le chapitre xxxvii du *Siècle de Louis XIV*.</note>
-        <note xml:id="N25">Le *Traité de Physique* de Rohault est de 1671.</note>
+        <note xml:id="N24">Voyez le chapitre xxxvii du <hi rend="italic">Siècle de Louis XIV</hi>.</note>
+        <note xml:id="N25">Le <hi rend="italic">Traité de Physique</hi> de Rohault est de 1671.</note>
         <note xml:id="N26">Le premier volume de l'ouvrage de Malebranche est de 1674. Dans cette partie, Malebranche se montre disciple de Descartes, et rejette en philosophie l'autorité.</note>
         <note xml:id="N27">Système soutenu par les thomistes. C'est le concours immédiat de Dieu avec la créature.</note>
         <note xml:id="N28">Voyez tome XI, page 202.</note>
-        <note xml:id="N29">Voyez le chapitre xxxvii du *Siècle de Louis XIV*.</note>
+        <note xml:id="N29">Voyez le chapitre xxxvii du <hi rend="italic">Siècle de Louis XIV</hi>.</note>
         <note xml:id="N30">Le comté de Fezensac, ayant sept lieues de longueur sur cinq de largeur ; il avait été, en 1140, réuni au comté d'Armagnac. Le vicomté de Fesansaguet, ou petit Fezensac, fut aussi, en 1404, réuni au comté d'Armagnac. Le comté d'Astarac avait environ treize lieues de longueur et onze de largeur.</note>
         <note xml:id="N31">Ignorants, gens sans éducation.</note>
-        <note xml:id="N32">La faculté de théologie de Paris avait donné, en mauvais latin, une censure du *Bélisaire* de Marmontel.</note>
-        <note xml:id="N33">Phrase textuelle du *Bélisaire*.</note>
-        <note xml:id="N34">Couverts de longs habits de lin (tels que des surplis). L'auteur fait ici allusion à la censure du *Bélisaire* de Marmontel par la Sorbonne.</note>
-        <note xml:id="N35">L'édition encadrée de 1775 porte : *contr'édits :* on lit de même dans les éditions de Kehl. Toutes les éditions antérieures à 1775 portent : *contredits*. Mais on ne doit pas oublier que beaucoup d'ouvrages de Voltaire ont été imprimés en pays étrangers, et quelquefois loin des yeux de l'auteur. (B.)</note>
+        <note xml:id="N32">La faculté de théologie de Paris avait donné, en mauvais latin, une censure du <hi rend="italic">Bélisaire</hi> de Marmontel.</note>
+        <note xml:id="N33">Phrase textuelle du <hi rend="italic">Bélisaire</hi>.</note>
+        <note xml:id="N34">Couverts de longs habits de lin (tels que des surplis). L'auteur fait ici allusion à la censure du <hi rend="italic">Bélisaire</hi> de Marmontel par la Sorbonne.</note>
+        <note xml:id="N35">L'édition encadrée de 1775 porte : <hi rend="italic">contr'édits :</hi> on lit de même dans les éditions de Kehl. Toutes les éditions antérieures à 1775 portent : <hi rend="italic">contredits</hi>. Mais on ne doit pas oublier que beaucoup d'ouvrages de Voltaire ont été imprimés en pays étrangers, et quelquefois loin des yeux de l'auteur. (B.)</note>
         <note xml:id="N36">Vêtus de longues robes ou manteaux.</note>
-        <note xml:id="N37">Visé, fondateur du *Mercure galant* en 1762.</note>
-        <note xml:id="N38">Auteur de *Télémachomanie*.</note>
+        <note xml:id="N37">Visé, fondateur du <hi rend="italic">Mercure galant</hi> en 1762.</note>
+        <note xml:id="N38">Auteur de <hi rend="italic">Télémachomanie</hi>.</note>
         <note xml:id="N39">De La Fontaine.</note>
         <note xml:id="N40">François de Harlay de Chanvalon, archevêque de Paris de 1670 à 1695, refusa la sépulture à Molière, fit enfermer Mme Guyon, donna la bénédiction nuptiale à Louis XIV et à Mme de Maintenon. Il était connu par ses aventures galantes. Un jour qu'il entrait dans un salon où étaient un grand nombre de belles dames, il dit :</note>
         <note xml:id="N41">Dans les éditions antérieures aux éditions de Kehl, on lit : « Madame du Belloy. » (B.)</note>
-        <note xml:id="N42">Le Saint-Pouange est historiquement ressemblant ; mais sous ses traits, il faut voir le fameux Saint-Florentin, qui avait alors la police dans son ministère. On connaît les mœurs et les abus de pouvoir de ce favori de Louis XV. En même temps que Voltaire publiait *l'Ingénu,* on lançait contre le même homme un vigoureux pamphlet intitulé *les Sabbatines et les Florentines*. Le premier nom faisait allusion à sa maîtresse, la comtesse de Langeac, ci-devant Mme Sabbatin. (G. A.)</note>
-        <note xml:id="N43">Ouvrage que Voltaire appelle *excellent livre pour les sots* (voyez tome XVIII, page 548). L'auteur est le P. Outreman.</note>
+        <note xml:id="N42">Le Saint-Pouange est historiquement ressemblant ; mais sous ses traits, il faut voir le fameux Saint-Florentin, qui avait alors la police dans son ministère. On connaît les mœurs et les abus de pouvoir de ce favori de Louis XV. En même temps que Voltaire publiait <hi rend="italic">l'Ingénu,</hi> on lançait contre le même homme un vigoureux pamphlet intitulé <hi rend="italic">les Sabbatines et les Florentines</hi>. Le premier nom faisait allusion à sa maîtresse, la comtesse de Langeac, ci-devant Mme Sabbatin. (G. A.)</note>
+        <note xml:id="N43">Ouvrage que Voltaire appelle <hi rend="italic">excellent livre pour les sots</hi> (voyez tome XVIII, page 548). L'auteur est le P. Outreman.</note>
         <note xml:id="N44">C'est le conte de Cosi-Sancta, que nous avons donné précédemment, page 25.</note>
-        <note xml:id="N45">Voyez, dans le *Dictionnaire de Bayle,* l'article Acyndinus.</note>
-        <note xml:id="N46">*Henriade,* chant IV, vers 456-57.</note>
-        <note xml:id="N47">Toutes les éditions, depuis 1767 jusques et compris les éditions de Kehl, et quelques-unes de celles qui les ont suivies, portent *poussa*. C'est un *erratum* manuscrit de feu Decroix, qui a proposé de mettre *pousse*. (B.)</note>
-        <note xml:id="N48">Du jésuite Ribadeneira. Voyez, tome X, une note du *Russe à Paris* et une du *Marseillais et le Lion,* et tome XVIII, page 491.</note>
+        <note xml:id="N45">Voyez, dans le <hi rend="italic">Dictionnaire de Bayle,</hi> l'article Acyndinus.</note>
+        <note xml:id="N46">
+          <hi rend="italic">Henriade,</hi> chant IV, vers 456-57.</note>
+        <note xml:id="N47">Toutes les éditions, depuis 1767 jusques et compris les éditions de Kehl, et quelques-unes de celles qui les ont suivies, portent <hi rend="italic">poussa</hi>. C'est un <hi rend="italic">erratum</hi> manuscrit de feu Decroix, qui a proposé de mettre <hi rend="italic">pousse</hi>. (B.)</note>
+        <note xml:id="N48">Du jésuite Ribadeneira. Voyez, tome X, une note du <hi rend="italic">Russe à Paris</hi> et une du <hi rend="italic">Marseillais et le Lion,</hi> et tome XVIII, page 491.</note>
       </div>
     </back>
   </text>

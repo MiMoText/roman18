@@ -1,4 +1,6 @@
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="TODO" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -494,62 +496,67 @@
     </body>
     <back>
       <div type="notes">
-        <note xml:id="N1">Cette date répond à l'année de notre ère vulgaire 1512, deux ans après qu'Alphonse d'Albuquerque eut pris Goa. Il faut savoir que les brames comptaient 111100 années depuis la rébellion et la chute des êtres célestes, et 4552 ans depuis la promulgation du *Shasta,* leur premier livre sacré : ce qui faisait 115652 pour l'année correspondante à notre année 1512, temps auquel régnaient : Babar, dans le Mogol ; Ismael Sophi, en Perse ; Sélim, en Turquie : Maximilien Ier, en Allemagne : Louis XII, en France ; Jules II, à Rome ; Jeanne la Folle, en Espagne ; Emmanuel, en Portugal. (*Note de Voltaire*.)</note>
+        <note xml:id="N1">Cette date répond à l'année de notre ère vulgaire 1512, deux ans après qu'Alphonse d'Albuquerque eut pris Goa. Il faut savoir que les brames comptaient 111100 années depuis la rébellion et la chute des êtres célestes, et 4552 ans depuis la promulgation du <hi rend="italic">Shasta,</hi> leur premier livre sacré : ce qui faisait 115652 pour l'année correspondante à notre année 1512, temps auquel régnaient : Babar, dans le Mogol ; Ismael Sophi, en Perse ; Sélim, en Turquie : Maximilien Ier, en Allemagne : Louis XII, en France ; Jules II, à Rome ; Jeanne la Folle, en Espagne ; Emmanuel, en Portugal. (<hi rend="italic">Note de Voltaire</hi>.)</note>
         <note xml:id="N2">Les Portugais se sont emparés de Goa en 1510.</note>
-        <note xml:id="N3">Drugha est le mot indien qui signifie vertu. Elle est représentée avec dix bras, et montée sur un dragon pour combattre les vices, qui sont l'intempérance, l'incontinence, le larcin, le meurtre, l'injure, la médisance, la calomnie, la fainéantise, la résistance à ses père et mère, l'ingratitude. C'est cette figure que plusieurs missionnaires ont pris pour le diable. (*Note de Voltaire*.)</note>
-        <note xml:id="N4">On voit que Shastasid avait lu notre *Bible* en arabe, et qu'il avait en vue l'épître de saint Jude, où se trouvent en effet ces paroles au verset 6. Le livre apocryphe qui n'a jamais existé est celui d'Énoch, cité par saint Jude au verset 14. (*Id*.)</note>
+        <note xml:id="N3">Drugha est le mot indien qui signifie vertu. Elle est représentée avec dix bras, et montée sur un dragon pour combattre les vices, qui sont l'intempérance, l'incontinence, le larcin, le meurtre, l'injure, la médisance, la calomnie, la fainéantise, la résistance à ses père et mère, l'ingratitude. C'est cette figure que plusieurs missionnaires ont pris pour le diable. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N4">On voit que Shastasid avait lu notre <hi rend="italic">Bible</hi> en arabe, et qu'il avait en vue l'épître de saint Jude, où se trouvent en effet ces paroles au verset 6. Le livre apocryphe qui n'a jamais existé est celui d'Énoch, cité par saint Jude au verset 14. (<hi rend="italic">Id</hi>.)</note>
         <note xml:id="N5">Commerçant en gros de l'Inde.</note>
-        <note xml:id="N6">*Discours sur l'histoire universelle,* par Bossuet.</note>
-        <note xml:id="N7">C'est la différence du texte hébreu, du samaritain et des Septante. (*Note de Voltaire*.)</note>
-        <note xml:id="N8">On voit bien que Shastasid parle ici en brame qui n'a pas le don de la foi, et à qui la grâce a manqué. (*Note de Voltaire*.)</note>
+        <note xml:id="N6">
+          <hi rend="italic">Discours sur l'histoire universelle,</hi> par Bossuet.</note>
+        <note xml:id="N7">C'est la différence du texte hébreu, du samaritain et des Septante. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N8">On voit bien que Shastasid parle ici en brame qui n'a pas le don de la foi, et à qui la grâce a manqué. (<hi rend="italic">Note de Voltaire</hi>.)</note>
         <note xml:id="N9">Ville située au sud de la presqu'île de l'Inde.</note>
         <note xml:id="N10">Au xviiie siècle, l'inquisition de Goa existait encore.</note>
         <note xml:id="N11">La roupie d'or vaut 38 francs 72 centimes.</note>
         <note xml:id="N12">Le cinnamum est la cannelle d'aujourd'hui, et l'amomum est un fruit sec dont les graines renferment une huile aromatique.</note>
-        <note xml:id="N13">Il est indubitable que les fables concernant Bacchus étaient fort communes en Arabie et en Grèce, longtemps avant que les nations fussent informées si les Juifs avaient une histoire ou non. Josèphe avoue même que les Juifs tinrent toujours leurs livres cachés à leurs voisins. Bacchus était révéré en Égypte, en Arabie, en Grèce, longtemps avant que le non de Moïse pénétrât dans ces contrées. Les anciens vers orphiques appellent Bacchus *Misa* ou *Mosa*. Il fut élevé sur la montage de Nisa, qui est précisément le mont Sina ; il s'enfuit vers la mer Rouge ; il y rassembla une armée, et passa avec elle cette mer à pied sec. Il arrêta le soleil et la lune ; son chien le suivit dans toutes ses expéditions, et le nom de *Caleb,* l'un des conquérants hébreux, signifie *chien*.</note>
+        <note xml:id="N13">Il est indubitable que les fables concernant Bacchus étaient fort communes en Arabie et en Grèce, longtemps avant que les nations fussent informées si les Juifs avaient une histoire ou non. Josèphe avoue même que les Juifs tinrent toujours leurs livres cachés à leurs voisins. Bacchus était révéré en Égypte, en Arabie, en Grèce, longtemps avant que le non de Moïse pénétrât dans ces contrées. Les anciens vers orphiques appellent Bacchus <hi rend="italic">Misa</hi> ou <hi rend="italic">Mosa</hi>. Il fut élevé sur la montage de Nisa, qui est précisément le mont Sina ; il s'enfuit vers la mer Rouge ; il y rassembla une armée, et passa avec elle cette mer à pied sec. Il arrêta le soleil et la lune ; son chien le suivit dans toutes ses expéditions, et le nom de <hi rend="italic">Caleb,</hi> l'un des conquérants hébreux, signifie <hi rend="italic">chien</hi>.</note>
         <note xml:id="N14">Voyez la note 2 de la page 436.</note>
-        <note xml:id="N15">Ce Mosasor est l'un des principaux anges rebelles qui combattirent contre l'Éternel, comme le rapporte l'*Autorashasta,* le plus ancien livre des brachmanes ; et c'est là probablement l'origine de la guerre des Titans et de toutes les fables imaginées depuis sur ce modèle. (*Note de Voltaire*.)</note>
-        <note xml:id="N16">Littéralement *correcteur*. C'est le premier juge de la province.</note>
+        <note xml:id="N15">Ce Mosasor est l'un des principaux anges rebelles qui combattirent contre l'Éternel, comme le rapporte l'<hi rend="italic">Autorashasta,</hi> le plus ancien livre des brachmanes ; et c'est là probablement l'origine de la guerre des Titans et de toutes les fables imaginées depuis sur ce modèle. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N16">Littéralement <hi rend="italic">correcteur</hi>. C'est le premier juge de la province.</note>
         <note xml:id="N17">Je l'excommunie.</note>
-        <note xml:id="N18">Toutes les éditions portent : *aux mains des souliers violets*. Adaté appelle ainsi les gants violets des évêques. (B.)</note>
+        <note xml:id="N18">Toutes les éditions portent : <hi rend="italic">aux mains des souliers violets</hi>. Adaté appelle ainsi les gants violets des évêques. (B.)</note>
         <note xml:id="N19">Voyez tome XI, page 18 ; et tome XII, page 438.</note>
-        <note xml:id="N20">Quinault, *Phaeton,* IV, ii.</note>
-        <note xml:id="N21">Voyez Ézéchiel, chapitre iv. (*Note de Voltaire*.)</note>
-        <note xml:id="N22">Osée, chapitre ier. (*Id.*)</note>
-        <note xml:id="N23">Ézéchiel, chapitre xvi. « Tes tétons ont paru, ton poil a commencé à croître ; je t'ai couverte, tu as ouvert tes cuisses à tous les passants... etc. » ; et chapitre xxiii : « Elle a cherché ceux qui ont le membre d'un âne, et déch...... comme des chevaux. » (*Note de Voltaire*.)</note>
-        <note xml:id="N24">Voyez l'histoire d'Abraham, de Jacob, etc. (*Id.*)</note>
-        <note xml:id="N25">Le patriarche Rubeu couche avec Bala, concubine de son père ; *Genèse,* chapitre xxxv. (*Id.*)</note>
-        <note xml:id="N26">Le patriarche Juda couche avec Thamar, sa bru ; *Genèse,* chapitre xxxviii. (*Id.*)</note>
-        <note xml:id="N27">Un lévite, de la tribu d'Ephraïm, arrivant dans la tribu de Benjamin, les Benjamites veulent le forcer, et assouvissent leurs désirs sur sa femme, qui en meurt ; *Juges,* chapitre xix. (*Id.*)</note>
-        <note xml:id="N28">Les filles de Lot ; *Genèse,* chapitre xix. (*Id.*)</note>
-        <note xml:id="N29">Sodome ; *Genèse,* chapitre xix. (*Id.*)</note>
-        <note xml:id="N30">Toutes les éditions données du vivant de l'auteur, et les éditions de Kehl, portent *superstitieuse*. J'ai cru pouvoir admettre la correction indiquée dans l'*errata* de l'édition de Kehl. (B.)</note>
-        <note xml:id="N31">L'édition originale, l'édition in-4o, l'édition encadrée, portent : *la laque noire délayée ;* ce qui est une faute. Dans l'édition de Kehl on a mis : *le laque noir délayé*. (B.)</note>
+        <note xml:id="N20">Quinault, <hi rend="italic">Phaeton,</hi> IV, ii.</note>
+        <note xml:id="N21">Voyez Ézéchiel, chapitre iv. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N22">Osée, chapitre ier. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N23">Ézéchiel, chapitre xvi. « Tes tétons ont paru, ton poil a commencé à croître ; je t'ai couverte, tu as ouvert tes cuisses à tous les passants... etc. » ; et chapitre xxiii : « Elle a cherché ceux qui ont le membre d'un âne, et déch...... comme des chevaux. » (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N24">Voyez l'histoire d'Abraham, de Jacob, etc. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N25">Le patriarche Rubeu couche avec Bala, concubine de son père ; <hi rend="italic">Genèse,</hi> chapitre xxxv. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N26">Le patriarche Juda couche avec Thamar, sa bru ; <hi rend="italic">Genèse,</hi> chapitre xxxviii. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N27">Un lévite, de la tribu d'Ephraïm, arrivant dans la tribu de Benjamin, les Benjamites veulent le forcer, et assouvissent leurs désirs sur sa femme, qui en meurt ; <hi rend="italic">Juges,</hi> chapitre xix. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N28">Les filles de Lot ; <hi rend="italic">Genèse,</hi> chapitre xix. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N29">Sodome ; <hi rend="italic">Genèse,</hi> chapitre xix. (<hi rend="italic">Id.</hi>)</note>
+        <note xml:id="N30">Toutes les éditions données du vivant de l'auteur, et les éditions de Kehl, portent <hi rend="italic">superstitieuse</hi>. J'ai cru pouvoir admettre la correction indiquée dans l'<hi rend="italic">errata</hi> de l'édition de Kehl. (B.)</note>
+        <note xml:id="N31">L'édition originale, l'édition in-4o, l'édition encadrée, portent : <hi rend="italic">la laque noire délayée ;</hi> ce qui est une faute. Dans l'édition de Kehl on a mis : <hi rend="italic">le laque noir délayé</hi>. (B.)</note>
         <note xml:id="N32">Voyez la note de la page 449.</note>
-        <note xml:id="N33">On lit *gloussement* dans quelques éditions récentes ; mais toutes les éditions du vivant de l'auteur et les éditions de Kehl portent *glossement*. À cette occasion je remarquerai, une fois pour toutes, que Voltaire étant réduit à employer les presses étrangères, ce n'est probablement pas à lui qu'il faut reprocher certaines locutions. (B.)</note>
-        <note xml:id="N34">*Obispo* est le mot portugais qui signifie *episcopus, évêque,* en langage gaulois. Ce mot n'est dans aucun des quatre Évangiles. (*Note de Voltaire*.)</note>
-        <note xml:id="N35">La *Genèse,* I, 27, dit que l'homme a été créé *à l'image de Dieu*.</note>
+        <note xml:id="N33">On lit <hi rend="italic">gloussement</hi> dans quelques éditions récentes ; mais toutes les éditions du vivant de l'auteur et les éditions de Kehl portent <hi rend="italic">glossement</hi>. À cette occasion je remarquerai, une fois pour toutes, que Voltaire étant réduit à employer les presses étrangères, ce n'est probablement pas à lui qu'il faut reprocher certaines locutions. (B.)</note>
+        <note xml:id="N34">
+          <hi rend="italic">Obispo</hi> est le mot portugais qui signifie <hi rend="italic">episcopus, évêque,</hi> en langage gaulois. Ce mot n'est dans aucun des quatre Évangiles. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N35">La <hi rend="italic">Genèse,</hi> I, 27, dit que l'homme a été créé <hi rend="italic">à l'image de Dieu</hi>.</note>
         <note xml:id="N36">L'île de Malte, d'où les chevaliers tiraient leur nom. L'existence politique de ces religieux prit fin en 1798.</note>
-        <note xml:id="N37">Il veut apparemment parler de la sainte Jérusalem décrite dans le livre exact de l'*Apocalypse,* dans Justin, dans Tertullien, Irénée, et autres grands personnages ; mais on voit bien que ce pauvre brame n'en avait qu'une idée très-imparfaite. (*Note de Voltaire.*)</note>
+        <note xml:id="N37">Il veut apparemment parler de la sainte Jérusalem décrite dans le livre exact de l'<hi rend="italic">Apocalypse,</hi> dans Justin, dans Tertullien, Irénée, et autres grands personnages ; mais on voit bien que ce pauvre brame n'en avait qu'une idée très-imparfaite. (<hi rend="italic">Note de Voltaire.</hi>)</note>
         <note xml:id="N38">Civita-Vecchia.</note>
-        <note xml:id="N39">C'était autrefois la porte du Janicule ; voyez comme la nouvelle Rome l'emporte sur l'ancienne. (*Note de Voltaire*.)</note>
-        <note xml:id="N40">*Gloria in excelsis,* paroles de la messe.</note>
-        <note xml:id="N41">On sait qu'on appelle à Rome *cicérons* ceux qui font métier de montrer aux étrangers les antiquailles. (*Notes de Voltaire*.)</note>
+        <note xml:id="N39">C'était autrefois la porte du Janicule ; voyez comme la nouvelle Rome l'emporte sur l'ancienne. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N40">
+          <hi rend="italic">Gloria in excelsis,</hi> paroles de la messe.</note>
+        <note xml:id="N41">On sait qu'on appelle à Rome <hi rend="italic">cicérons</hi> ceux qui font métier de montrer aux étrangers les antiquailles. (<hi rend="italic">Notes de Voltaire</hi>.)</note>
         <note xml:id="N42">Jules II étant mort dans la nuit du 20 au 21 février 1513, Léon X fut élu le 11 mars suivant.</note>
         <note xml:id="N43">Matthieu, xxi, 19.</note>
         <note xml:id="N44">Jean, ii, 7-9.</note>
         <note xml:id="N45">Matthieu, viii, 32 ; Marc, v, 13 ; Luc, viii, 33.</note>
         <note xml:id="N46">Matthieu, xxii, 21 ; Marc, xii, 17 ; Luc, xx, 25.</note>
         <note xml:id="N47">Le Danube.</note>
-        <note xml:id="N48">Toutes les éditions du vivant de l'auteur, et les éditions de Kehl, portent *avec lui*. La correction *avec nous* a été proposée par M. Decroix, dans un *errata* manuscrit. (B.)</note>
+        <note xml:id="N48">Toutes les éditions du vivant de l'auteur, et les éditions de Kehl, portent <hi rend="italic">avec lui</hi>. La correction <hi rend="italic">avec nous</hi> a été proposée par M. Decroix, dans un <hi rend="italic">errata</hi> manuscrit. (B.)</note>
         <note xml:id="N49">Jean VIII, assassiné à coups de marteau par un mari jaloux ;</note>
-        <note xml:id="N50">Léon X ; voyez le chapitre cxxvii de l'*Essai sur les Mœurs,* tome XII, page 275.</note>
-        <note xml:id="N51">*La Mandragora* est de Machiavel ; voyez ce que Voltaire en dit tome XII, page 246.</note>
-        <note xml:id="N52">Voyez dans les *Mélanges,* année 1768, l'opuscule intitulé *les Droits des hommes,* etc. ; et tome XII, page 183.</note>
-        <note xml:id="N53">Le pape Jules II excommunia le roi de France Louix XII, en 1510. Il mit le royaume de France en interdit, et le donna au premier qui voudrait s'en saisir. Cette excommunication et cette interdiction furent réitérées en 1512. On a peine à concevoir aujourd'hui cet excès d'insolence et de ridicule. Mais depuis Grégoire VII, il n'y eut presque aucun évêque de Rome qui ne fît ou ne voulût faire et défaire des souverains, selon son bon plaisir. Tous les souverains méritaient cet infâme traitement, puisqu'ils avaient été assez imbéciles pour fortifier eux-mêmes chez leurs sujets l'opinion de l'infaillibilité du pape, et son pouvoir sur toutes les Églises. Ils s'étaient donné eux-mêmes des fers qu'il était très-difficile de briser. Le gouvernement fut partout un chaos formé par la superstition. La raison n'a pénétré que très-tard chez les peuples de l'Occident : elle a guéri quelques blessures que cette superstition, ennemie du genre humain, avait faites aux hommes ; mais il en reste encore de profondes cicatrices. (*Note de Voltaire*.)</note>
+        <note xml:id="N50">Léon X ; voyez le chapitre cxxvii de l'<hi rend="italic">Essai sur les Mœurs,</hi> tome XII, page 275.</note>
+        <note xml:id="N51">
+          <hi rend="italic">La Mandragora</hi> est de Machiavel ; voyez ce que Voltaire en dit tome XII, page 246.</note>
+        <note xml:id="N52">Voyez dans les <hi rend="italic">Mélanges,</hi> année 1768, l'opuscule intitulé <hi rend="italic">les Droits des hommes,</hi> etc. ; et tome XII, page 183.</note>
+        <note xml:id="N53">Le pape Jules II excommunia le roi de France Louix XII, en 1510. Il mit le royaume de France en interdit, et le donna au premier qui voudrait s'en saisir. Cette excommunication et cette interdiction furent réitérées en 1512. On a peine à concevoir aujourd'hui cet excès d'insolence et de ridicule. Mais depuis Grégoire VII, il n'y eut presque aucun évêque de Rome qui ne fît ou ne voulût faire et défaire des souverains, selon son bon plaisir. Tous les souverains méritaient cet infâme traitement, puisqu'ils avaient été assez imbéciles pour fortifier eux-mêmes chez leurs sujets l'opinion de l'infaillibilité du pape, et son pouvoir sur toutes les Églises. Ils s'étaient donné eux-mêmes des fers qu'il était très-difficile de briser. Le gouvernement fut partout un chaos formé par la superstition. La raison n'a pénétré que très-tard chez les peuples de l'Occident : elle a guéri quelques blessures que cette superstition, ennemie du genre humain, avait faites aux hommes ; mais il en reste encore de profondes cicatrices. (<hi rend="italic">Note de Voltaire</hi>.)</note>
         <note xml:id="N54">Voyez tome XII, pages 183-184, 187-192.</note>
         <note xml:id="N55">Arioste, satire sur le mariage.</note>
-        <note xml:id="N56">Voyez le vers cité, tome XV, page 445. Guy-Patin, dans sa lettre du 7 juin 1650, définit ainsi le cardinal : *Est animal rubrum, callidum et rapax, capax et vorax omnium beneficiorum.*</note>
+        <note xml:id="N56">Voyez le vers cité, tome XV, page 445. Guy-Patin, dans sa lettre du 7 juin 1650, définit ainsi le cardinal : <hi rend="italic">Est animal rubrum, callidum et rapax, capax et vorax omnium beneficiorum.</hi>
+        </note>
       </div>
     </back>
   </text>
