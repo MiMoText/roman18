@@ -25,11 +25,12 @@ def determine_dialect(text):
     '''Factory function which parses the text and returns a appropriate dialect object.'''
     Dialect = None
     if 'www.rousseauonline.ch' in text:
-        Dialect = EpubDialects['rousseauonline']
+        Dialect = EpubDialects['ROUSSEAU']
     elif 'Exporté de Wikisource' in text:
-        Dialect = EpubDialects['wikisource']
+        Dialect = EpubDialects['WIKISOURCE']
     if Dialect is None:
         logging.warn('could not recognize a known source dialect')
+        Dialect = EpubDialects['BASE']
     return Dialect()
 
 
