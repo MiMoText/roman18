@@ -5,7 +5,14 @@ This script is used to convert the markdown files, which we generate from epub f
 
 ## Prerequisites
 
-This script has no external dependencies. It expects the source files in `.txt` files at the location given in the `SOURCE_PATH` constant. It will attempt to write the resulting `.xml` files to the location given in the `SAVE_PATH` constant. If this location is not empty, it will issue a warning, but proceed to (over)write the files there.
+This script uses LXML for the XML handling. You can install it with your prefered package management tool, e.g. `pip` or `conda`:
+
+```
+pip install lxml    # or
+conda install -c anaconda lxml 
+```
+
+It expects the source files in `.txt` files at the location given in the `SOURCE_PATH` constant. It will attempt to write the resulting `.xml` files to the location given in the `SAVE_PATH` constant. If this location is not empty, it will issue a warning, but proceed to (over)write the files there.
 
 
 ## Usage
