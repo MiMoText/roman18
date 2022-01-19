@@ -60,6 +60,7 @@ class EpubBaseDialect:
             elem = ET.Element('note')
             elem.attrib[QName(nsmap.get('xml'), 'id')] = f'N{key}'
             elem.text = value
+            elem = self.insert_caps_xml(elem)
             elem = self.insert_italics_xml(elem)
             return elem
         
@@ -113,26 +114,29 @@ class EpubBaseDialect:
         markup = ET.Element('div', attrib={'type': 'chapter'})
         
         for line in text.split('\n'):
-            if line.startswith('#'):            
-                node = ET.SubElement(markup, 'head')
-                node.text = line.replace('#', '').strip()
+            if line.startswith('#'):
+                node_text = line.strip('# ')
+                if node_text:      
+                    node = ET.SubElement(markup, 'head')
+                    node.text = node_text
             elif line:
                 node = ET.SubElement(markup, 'p')
                 node.text = line.strip()
             
+            
             # Insert additional markup inside the new node.
             node = self.insert_fn_markers_xml(node)
+            node = self.insert_caps_xml(node)
             node = self.insert_italics_xml(node)
 
         return markup, footnotes
 
 
     def build_header_xml(self, root=None, metadata={}, file_name=''):
-        '''Build an xml tree from a text template.'''
+        '''Build an xml tree with teiHeader from a text template.'''
         nsmap = self.__class__.NAMESPACES
         templ_path = Path(__file__).resolve()
         templ_path = templ_path.parent / '..' / 'templates' / 'teiHeader-Template.xml'
-        print(templ_path)
         parser = ET.XMLParser(remove_blank_text=True)
         xml = ET.parse(str(templ_path), parser)
 
@@ -141,7 +145,7 @@ class EpubBaseDialect:
         xml_id = file_name or 'TODO'
         tei = xml.getroot()
         tei.attrib[QName(nsmap.get('xml'), 'id')] = xml_id
-        #print(ET.tostring(tei))
+
         change_path = f"//{ET.QName(nsmap.get('tei'), 'revisionDesc')}/{ET.QName(nsmap.get('tei'), 'change')}"
         change = xml.find(change_path)
         change.attrib['when'] = today
@@ -164,15 +168,66 @@ class EpubBaseDialect:
                 .replace('* * *', '')
                 .replace('\(', '(')
                 .replace('\)', ')')
+                .replace('****', '**')
         )
         
-        # Delete empty lines.
-        lines = [line for line in text.split('\n') if line.strip()]
+        # Delete empty lines. Delete lines which only consist of '**'.
+        lines = [line for line in text.split('\n') if line.strip() and line.strip() != '**']
         # Delete all lines after '# ****À propos de cette édition électronique'
-        lines = takewhile(lambda l: not l.startswith('# ****À propos de cette édition électronique'), lines)
+        lines = takewhile(lambda l: not l.startswith('# **À propos de cette édition électronique'), lines)
 
         text = '\n'.join(lines)
         return text
+
+
+    def insert_caps_xml(self, node):
+        '''Update node with <ref> elements for text in caps.'''
+        # Non-greedy pattern (i.e. match as little as possible) for text in caps.
+        # Immediately following the opening '**' there needs to be a letter or number.
+        caps = r'(\*{2}[\w\d].*?\*{2})'
+        segments = re.split(caps, node.text or '')
+        tail_segments = re.split(caps, node.tail or '')
+
+        # Check for caps in the node's text:
+        if len(segments) > 1:
+            last_node = node
+            i = 0
+            while i < len(segments):
+                seg = segments[i]
+                if not seg.startswith('**') and i == 0:
+                    node.text = seg
+                elif not seg.startswith('**'):
+                    last_node.tail = seg
+                elif seg.startswith('**'):
+                    content = seg.strip('*')
+                    new_node = ET.SubElement(node, 'hi', attrib={'rend': 'caps'})
+                    new_node.text = content
+                    last_node = new_node
+                i += 1
+
+        # Check for caps in the node's tail:
+        if len(tail_segments) > 1:
+            last_node = node
+            i = 0
+            while i < len(tail_segments):
+                seg = tail_segments[i]
+                if not seg.startswith('**') and i == 0:
+                    node.tail = seg
+                elif not seg.startswith('**'):
+                    last_node.tail = seg
+                elif seg.startswith('**'):
+                    content = seg.strip('*')
+                    parent = last_node.getparent()
+                    new_node = ET.SubElement(parent, 'hi', attrib={'rend': 'caps'})
+                    new_node.text = content
+                    last_node = new_node
+                i += 1
+
+        # Do the same for all children nodes:
+        for child in node.getchildren():
+            self.insert_caps_xml(child)
+
+        return node
 
 
     def insert_fn_markers_xml(self, node):
@@ -360,3 +415,7 @@ class EpubBaseDialect:
             chapters.extend([f'{h}\n{t}\n' for h, t in zip(segments[1::2], segments[2::2])])
 
         return chapters
+    
+
+    def __str__(self):
+        return f'{self.__class__}'
