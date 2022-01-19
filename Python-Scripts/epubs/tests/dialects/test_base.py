@@ -3,19 +3,11 @@ Test suite for the conversion of markdown documents, which
 have been generated from epub editions, into TEI XML.
 """
 
-from unittest import TestCase
+from unittest import TestCase, skip
 
 import lxml.etree as ET
 
 from dialects.base import EpubBaseDialect
-'''
-from epubs import build_back_xml
-from epubs import build_header_xml
-from epubs import clean_up
-from epubs import split_chapters, split_titlepage
-from epubs import parse_footnotes
-from epubs import insert_fn_markers_xml, insert_italics_xml
-'''
 
 
 class EpubBaseTest(TestCase):
@@ -176,7 +168,7 @@ class EpubItalicsTest(EpubBaseTest):
         '''Test `insert_italics_xml()`
         
         It is important that this function works not only on the text of a single
-        node, but also on subnotes. Otherwise, the correctness of the output would
+        node, but also on subnodes. Otherwise, the correctness of the output would
         depend on the order of execution.
         '''
         xml = '''
@@ -217,6 +209,45 @@ class EpubItalicsTest(EpubBaseTest):
             hi = results.find('hi')
             # There should be _no_ hi tag.
             self.assertIsNone(hi)
+
+
+class EpubCapsTest(EpubBaseTest):
+    '''Test `insert_caps_xml()`.'''
+
+    def test_insert_simple_caps(self):
+        '''Insert caps in a single paragraph without additional markup.'''
+        xml = '''<p>Hello **from** the other side.</p>'''
+        root = ET.fromstring(xml)
+        paragraph = self.d.insert_caps_xml(root)
+        highlight = paragraph.find('hi')
+        self.assertEqual(paragraph.text, 'Hello ')
+        self.assertEqual(highlight.text, 'from')
+        self.assertEqual(highlight.tail, ' the other side.')
+    
+
+    def test_insert_caps(self):
+        '''Insert caps in a paragraph with subnodes.'''
+        xml = '''
+<div>
+<p>Hello **from** the other side.</p>
+<p>Hello <ref/> **again**.</p>
+</div>
+'''
+        root = ET.fromstring(xml)
+        div = self.d.insert_caps_xml(root)
+        fst_p, snd_p = div.findall('p')
+        ref = snd_p.find('ref')
+        fst_hi = fst_p.find('hi')
+        snd_hi = snd_p.find('hi')
+        
+        self.assertEqual(fst_p.text, 'Hello ')
+        self.assertEqual(fst_hi.text, 'from')
+        self.assertEqual(fst_hi.tail, ' the other side.')
+        self.assertEqual(snd_p.text, 'Hello ')
+        self.assertEqual(ref.text, None)
+        self.assertEqual(ref.tail, ' ')
+        self.assertEqual(snd_hi.text, 'again')
+        self.assertEqual(snd_hi.tail, '.')
 
 
 class EpubFootnotesTest(EpubBaseTest):
