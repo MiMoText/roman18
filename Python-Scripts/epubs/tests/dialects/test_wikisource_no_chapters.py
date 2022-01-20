@@ -19,8 +19,7 @@ Stuff
 ## First
 Text
 ## Second
-More text
-'''
+More text'''
         titlepage, rest = self.dialect.split_titlepage(text)
         self.assertEqual(titlepage, '\nStuff\n## First\nText\n')
         self.assertEqual(rest, '## Second\nMore text\n')
@@ -31,8 +30,7 @@ More text
         text = '''## First
 Text
 ## Second
-More text
-'''
+More text'''
         titlepage, rest = self.dialect.split_titlepage(text)
         self.assertEqual(titlepage, '## First\nText\n')
         self.assertEqual(rest, '## Second\nMore text\n')
