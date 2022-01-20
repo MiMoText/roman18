@@ -2,6 +2,7 @@ from datetime import date
 from itertools import takewhile
 from pathlib import Path
 import re
+from attr import attr, attrib
 
 import lxml.etree as ET
 from lxml.etree import QName
@@ -32,7 +33,7 @@ class EpubBaseDialect:
         
         titlepage, rest = self.split_titlepage(text)
 
-        # Create the various parts of the <text>.
+        # Create the various parts of the text node.
         front = self.build_titlepage_xml(titlepage)
         body, fns = self.build_body_xml(rest)
         back = self.build_back_xml(fns)
@@ -200,8 +201,9 @@ class EpubBaseDialect:
                     last_node.tail = seg
                 elif seg.startswith('**'):
                     content = seg.strip('*')
-                    new_node = ET.SubElement(node, 'hi', attrib={'rend': 'caps'})
+                    new_node = ET.Element('hi', attrib={'rend': 'caps'})
                     new_node.text = content
+                    last_node.insert(0, new_node)
                     last_node = new_node
                 i += 1
 
@@ -217,9 +219,9 @@ class EpubBaseDialect:
                     last_node.tail = seg
                 elif seg.startswith('**'):
                     content = seg.strip('*')
-                    parent = last_node.getparent()
-                    new_node = ET.SubElement(parent, 'hi', attrib={'rend': 'caps'})
+                    new_node = ET.Element('hi', attrib={'rend': 'caps'})
                     new_node.text = content
+                    new_node = self._insert_after(new_node, last_node)
                     last_node = new_node
                 i += 1
 
@@ -259,7 +261,8 @@ class EpubBaseDialect:
                 #         Further text will be appended to the `tail` property of this node.
                 elif segment.isnumeric():
                     number = f'#N{segment}'
-                    fn_node = ET.SubElement(node, 'ref', attrib={'target': number})
+                    fn_node = ET.Element('ref', attrib={'target': number})
+                    last_node.insert(0, fn_node)
                     last_node = fn_node
                 i += 1
 
@@ -268,7 +271,7 @@ class EpubBaseDialect:
             last_node = node
             i = 0
             while i < len(tail_segments):
-                segment = segments[i]
+                segment = tail_segments[i]
                 # Case 1: Normal text at the start of the tail. This should remain tail.
                 if not segment.isnumeric() and i == 0:
                     node.tail = segment
@@ -280,8 +283,8 @@ class EpubBaseDialect:
                 #         of the current node.
                 elif segment.isnumeric():
                     number = f'#N{segment}'
-                    parent = last_node.getparent()
-                    fn_node = ET.SubElement(parent, 'ref', attrib={'target': number})
+                    fn_node = ET.Element('ref', attrib={'target': number})
+                    fn_node = self._insert_after(fn_node, last_node)
                     last_node = fn_node
                 i += 1
 
@@ -316,12 +319,14 @@ class EpubBaseDialect:
                 elif not seg.startswith('*'):
                     last_node.tail = seg
                 # Case 3: italic text. Create a new <hi> node and set its text content.
-                #         Then append it to the paragraph.
+                #         Then insert it to the paragraph as the first (!) child.
                 elif seg.startswith('*'):
                     content = seg.strip('*')
-                    new_node = ET.SubElement(node, 'hi', attrib={'rend': 'italic'})
+                    new_node = ET.Element('hi', attrib={'rend': 'italic'})
                     new_node.text = content
+                    last_node.insert(0, new_node)
                     last_node = new_node
+       
                 i += 1
         
         # Check if there are italic segments in the node's tail.
@@ -341,13 +346,15 @@ class EpubBaseDialect:
                 elif not seg.startswith('*'):
                     last_node.tail = seg
                 # Case 3: italic text. Create a new <hi> node and set its text content.
-                #         Append it to the parent (!) of the current node.
+                #         Append it to the parent (!) of the current node, directly
+                #         following the current node.
                 elif seg.startswith('*'):
                     content = seg.strip('*')
-                    parent = last_node.getparent()
-                    new_node = ET.SubElement(parent, 'hi', attrib={'rend': 'italic'})
+                    new_node = ET.Element('hi', attrib={'rend': 'italic'})
                     new_node.text = content
+                    new_node = self._insert_after(new_node, last_node)
                     last_node = new_node
+                
                 i += 1
         
         # Do the same for all child nodes of the current node.
@@ -415,7 +422,14 @@ class EpubBaseDialect:
             chapters.extend([f'{h}\n{t}\n' for h, t in zip(segments[1::2], segments[2::2])])
 
         return chapters
-    
+
+
+    def _insert_after(self, node, preceding):
+        '''Insert `node` as a sibling of and directly following `preceding` node.'''
+        parent = preceding.getparent()
+        parent.insert(parent.index(preceding)+1, node)
+        return node
+
 
     def __str__(self):
         return f'{self.__class__}'

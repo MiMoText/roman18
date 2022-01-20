@@ -209,6 +209,62 @@ class EpubItalicsTest(EpubBaseTest):
             hi = results.find('hi')
             # There should be _no_ hi tag.
             self.assertIsNone(hi)
+    
+    def test_insert_italics_children_ordering(self):
+        '''Ensure that child nodes are inserted in the correct order.
+        
+        In this test case the inserted italics come before the existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée de surprise et d'enchantement: *Oh che hermoso muchacho*<ref target="#N3"/>! Ces paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_italics_xml(p)
+
+        hi = p.find('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[0])
+        self.assertEqual(ref, children[1])
+    
+
+    def test_insert_italics_children_ordering_reverse(self):
+        '''Ensure that child nodes are inserted in the correct order.
+        
+        In this test case the inserted italics come after the existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée de surprise et d'enchantement: <ref target="#N3"/> *Oh che hermoso muchacho*! Ces paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_italics_xml(p)
+
+        hi = p.find('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[1])
+        self.assertEqual(ref, children[0])
+    
+
+    def test_insert_italics_children_ordering_middle(self):
+        '''Ensure that child nodes are inserted in the correct order.
+        
+        In this test case the inserted italics are placed between two existing child nodes.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée: <ref target="#N3"/> *Oh che hermoso muchacho*! Ces paroles<ref target="#N4"/>, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_italics_xml(p)
+
+        hi = p.find('hi')
+        ref = p.findall('ref')
+        children = p.getchildren()
+
+        self.assertEqual(ref[0], children[0])
+        self.assertEqual(hi, children[1])
+        self.assertEqual(ref[1], children[2])
+
 
 
 class EpubCapsTest(EpubBaseTest):
@@ -248,6 +304,62 @@ class EpubCapsTest(EpubBaseTest):
         self.assertEqual(ref.tail, ' ')
         self.assertEqual(snd_hi.text, 'again')
         self.assertEqual(snd_hi.tail, '.')
+    
+
+    def test_insert_caps_ordering(self):
+        '''Ensure `insert_caps_xml()` appends child nodes in the correct order.
+        
+        In this test case the caps are before an existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée de surprise et d'enchantement: **Oh che hermoso muchacho**<ref target="#N3"/>! Ces paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_caps_xml(p)
+
+        hi = p.find('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[0])
+        self.assertEqual(ref, children[1])
+
+
+    def test_insert_caps_ordering_reverse(self):
+        '''Ensure `insert_caps_xml()` appends child nodes in the correct order.
+        
+        In this test case the caps are after an existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée de surprise et d'enchantement: <ref target="#N3"/> **Oh che hermoso muchacho**! Ces paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_caps_xml(p)
+
+        hi = p.find('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[1])
+        self.assertEqual(ref, children[0])
+
+
+    def test_insert_caps_ordering_middle(self):
+        '''Ensure `insert_caps_xml()` appends child nodes in the correct order.
+        
+        In this test case the caps are in between two existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée de surprise et d'enchantement: <ref target="#N3"/> **Oh che hermoso muchacho**! Ces paroles<ref target="#N4"/>, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_caps_xml(p)
+
+        hi = p.find('hi')
+        ref = p.findall('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[1])
+        self.assertEqual(ref[0], children[0])
+        self.assertEqual(ref[1], children[2])
+
 
 
 class EpubFootnotesTest(EpubBaseTest):
@@ -278,6 +390,59 @@ class EpubFootnotesTest(EpubBaseTest):
         self.assertIsNotNone(ref)
         self.assertEqual(ref.get('target'), '#N1')
         self.assertEqual(ref.tail, ' dans')
+    
+
+    def test_insert_footnotes_order(self):
+        '''Ensure `insert_fn_markers_xml()` inserts child nodes in the correct order.
+        
+        In this test case the fn is before an existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée: \[3\]<hi rend="italic">Oh che hermoso muchacho</hi>! Ces paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_fn_markers_xml(p)
+
+        hi = p.find('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[1])
+        self.assertEqual(ref, children[0])
+    
+    def test_insert_footnotes_order_reverse(self):
+        '''Ensure `insert_fn_markers_xml()` inserts child nodes in the correct order.
+        
+        In this test case the fn is after an existing child node.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée: <hi rend="italic">Oh che hermoso muchacho</hi> \[3\]! Ces paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_fn_markers_xml(p)
+
+        hi = p.find('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi, children[0])
+        self.assertEqual(ref, children[1])
+    
+    def test_insert_footnotes_order_middle(self):
+        '''Ensure `insert_fn_markers_xml()` inserts child nodes in the correct order.
+        
+        In this test case the fn is in between two existing child nodes.
+        '''
+        xml = '''
+<p>Dona Boca Vermeja était extasiée: <hi rend="italic">Oh che hermoso muchacho</hi> \[3\]! <hi rend="italic">Ces</hi> paroles, qui m'échappèrent</p>       
+'''
+        p = ET.fromstring(xml)
+        p = self.d.insert_fn_markers_xml(p)
+
+        hi = p.findall('hi')
+        ref = p.find('ref')
+        children = p.getchildren()
+        self.assertEqual(hi[0], children[0])
+        self.assertEqual(ref, children[1])
+        self.assertEqual(hi[1], children[2])
 
 
 class EpubTEIHeaderTest(EpubBaseTest):
@@ -293,3 +458,18 @@ class EpubTEIHeaderTest(EpubBaseTest):
         '''Providing metadata to fill the header is a highly desirable feature but not supported, yet.'''
         with self.assertRaises(NotImplementedError):
             self.d.build_header_xml(metadata={'author':'Terry Pratchett'})
+
+
+class EpubFullTextTest(EpubBaseTest):
+    '''Test cases for full conversion of snippets.'''
+    
+    def test_text_snippet(self):
+        txt = '''Dona Boca Vermeja était extasiée de surprise et d'enchantement. J'étais saisie comme elle ; je ne pus m'empêcher de dire : *Oh che hermoso muchacho*\[3\]* \!* Ces paroles, qui m'échappèrent, firent tourner le jeune homme.
+
+3. ↑ « Oh \! quel beau garçon \! »  
+'''
+        body, fns = self.d.build_body_xml(txt)
+
+        results = '<body><div type="chapter"><p>Dona Boca Vermeja &#233;tait extasi&#233;e de surprise et d\'enchantement. J\'&#233;tais saisie comme elle&#160;; je ne pus m\'emp&#234;cher de dire&#160;: <hi rend="italic">Oh che hermoso muchacho</hi><ref target="#N3"/>*&#160;\\!* Ces paroles, qui m\'&#233;chapp&#232;rent, firent tourner le jeune homme.</p></div></body>'
+        #print(ET.tostring(body))
+        #print(fns)
