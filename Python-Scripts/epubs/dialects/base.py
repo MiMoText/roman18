@@ -2,10 +2,11 @@ from datetime import date
 from itertools import takewhile
 from pathlib import Path
 import re
-from attr import attr, attrib
 
 import lxml.etree as ET
 from lxml.etree import QName
+
+from xml_utils import insert_markup
 
 
 class EpubBaseDialect:
@@ -113,27 +114,27 @@ class EpubBaseDialect:
         footnotes.update(notes)
 
         markup = ET.Element('div', attrib={'type': 'chapter'})
-        
+
         for line in text.split('\n'):
             if line.startswith('#'):
-                node_text = line.strip('# ')
-                if node_text:      
-                    node = ET.SubElement(markup, 'head')
-                    node.text = node_text
+                content = line.strip('# ')
+                elem = ET.SubElement(markup, 'head')
+                elem.text = content
             elif line:
-                node = ET.SubElement(markup, 'p')
-                node.text = line.strip()
+                content = line.strip()
+                elem = ET.SubElement(markup, 'p')
+                elem.text = content
             
-            
-            # Insert additional markup inside the new node.
-            node = self.insert_fn_markers_xml(node)
-            node = self.insert_caps_xml(node)
-            node = self.insert_italics_xml(node)
+        # Insert additional markup inside the new node.
+        markup = self.insert_fn_markers_xml(markup)
+        markup = self.insert_italic_caps_xml(markup)
+        markup = self.insert_caps_xml(markup)
+        markup = self.insert_italics_xml(markup)
 
         return markup, footnotes
 
 
-    def build_header_xml(self, root=None, metadata={}, file_name=''):
+    def build_header_xml(self, root=None, metadata={}, file_name='TODO'):
         '''Build an xml tree with teiHeader from a text template.'''
         nsmap = self.__class__.NAMESPACES
         templ_path = Path(__file__).resolve()
@@ -143,7 +144,7 @@ class EpubBaseDialect:
 
         # Pre-fill some known values.
         today = date.today().isoformat()
-        xml_id = file_name or 'TODO'
+        xml_id = file_name
         tei = xml.getroot()
         tei.attrib[QName(nsmap.get('xml'), 'id')] = xml_id
 
@@ -186,49 +187,7 @@ class EpubBaseDialect:
         # Non-greedy pattern (i.e. match as little as possible) for text in caps.
         # Immediately following the opening '**' there needs to be a letter or number.
         caps = r'(\*{2}[\w\d].*?\*{2})'
-        segments = re.split(caps, node.text or '')
-        tail_segments = re.split(caps, node.tail or '')
-
-        # Check for caps in the node's text:
-        if len(segments) > 1:
-            last_node = node
-            i = 0
-            while i < len(segments):
-                seg = segments[i]
-                if not seg.startswith('**') and i == 0:
-                    node.text = seg
-                elif not seg.startswith('**'):
-                    last_node.tail = seg
-                elif seg.startswith('**'):
-                    content = seg.strip('*')
-                    new_node = ET.Element('hi', attrib={'rend': 'caps'})
-                    new_node.text = content
-                    last_node.insert(0, new_node)
-                    last_node = new_node
-                i += 1
-
-        # Check for caps in the node's tail:
-        if len(tail_segments) > 1:
-            last_node = node
-            i = 0
-            while i < len(tail_segments):
-                seg = tail_segments[i]
-                if not seg.startswith('**') and i == 0:
-                    node.tail = seg
-                elif not seg.startswith('**'):
-                    last_node.tail = seg
-                elif seg.startswith('**'):
-                    content = seg.strip('*')
-                    new_node = ET.Element('hi', attrib={'rend': 'caps'})
-                    new_node.text = content
-                    new_node = self._insert_after(new_node, last_node)
-                    last_node = new_node
-                i += 1
-
-        # Do the same for all children nodes:
-        for child in node.getchildren():
-            self.insert_caps_xml(child)
-
+        node = insert_markup(node, ET.Element('hi', attrib={'rend': 'caps'}), caps)
         return node
 
 
@@ -239,60 +198,18 @@ class EpubBaseDialect:
         numbered for each chapter individually, they should have been corrected
         with `parse_footnotes()` beforehand.
         '''
-        mark_pattern = r'\\\[(\d+)\\\]'
-        segments = re.split(mark_pattern, node.text or '')
-        tail_segments = re.split(mark_pattern, node.tail or '')
-
-        # Check if there are actually footnote markers in this node's text.
-        if len(segments) > 1:
-            last_node = node
-            i = 0
-            while i < len(segments):
-                segment = segments[i]
-                # Case 1: Text at the start of the node. This is stored in the `text` property
-                #         of the node itself.
-                if not segment.isnumeric() and i == 0:
-                    node.text = segment
-                # Case 2: Regular text after at least one `ref` has been created.
-                #         This should be the `tail` of the previously created `ref` node.
-                elif not segment.isnumeric():
-                    last_node.tail = segment
-                # Case 3: Marker segment. This is stored as a `ref` child node without `text`. 
-                #         Further text will be appended to the `tail` property of this node.
-                elif segment.isnumeric():
-                    number = f'#N{segment}'
-                    fn_node = ET.Element('ref', attrib={'target': number})
-                    last_node.insert(0, fn_node)
-                    last_node = fn_node
-                i += 1
-
-        # Check if there are footnote markers in this node's tail.
-        if len(tail_segments) > 1:
-            last_node = node
-            i = 0
-            while i < len(tail_segments):
-                segment = tail_segments[i]
-                # Case 1: Normal text at the start of the tail. This should remain tail.
-                if not segment.isnumeric() and i == 0:
-                    node.tail = segment
-                # Case 2: Normal text somewhere in the middle or at the end of tail.
-                #         This should be the tail of a previously created node.
-                elif not segment.isnumeric():
-                    last_node.tail = segment
-                # Case 3: Footnote marker. Create a new sub node of the parent (!)
-                #         of the current node.
-                elif segment.isnumeric():
-                    number = f'#N{segment}'
-                    fn_node = ET.Element('ref', attrib={'target': number})
-                    fn_node = self._insert_after(fn_node, last_node)
-                    last_node = fn_node
-                i += 1
-
-        # Do the same for all child nodes of the current node.
-        for child in node.getchildren():
-            self.insert_fn_markers_xml(child)
-
+        mark_pattern = r'(\\\[\d+\\\])'
+        blueprint = ET.Element('ref')
+        node = insert_markup(node, blueprint, mark_pattern)
         return node
+
+
+    def insert_italic_caps_xml(self, node):
+        '''Given a paragraph node, insert a hi node with both italic and caps.'''
+        pattern = r'(\*{3}[\w\d].*?\*{3})'
+        node = insert_markup(node, ET.Element('hi', attrib={'rend': 'italic caps'}), pattern)
+        return node
+
 
     def insert_italics_xml(self, node):
         '''Given a paragraph node, insert a hi node for italics if applicable.'''
@@ -300,69 +217,23 @@ class EpubBaseDialect:
         # Immediately following the first '*' there needs to be a letter or number (as opposed to
         # whitespace or punctuation), else it is a stand-alone asterisk like in "the marquis of *".
         italic = r'(\*[\w\d].*?\*)'
-        segments = re.split(italic, node.text or '')
-        tail_segments = re.split(italic, node.tail or '')
-
-        # Check if there are actually italic segments in the node's text.
-        if len(segments) > 1:
-            # Process italics:
-            last_node = node
-            i = 0
-            while i < len(segments):
-                seg = segments[i]
-                # Case 1: non-italic at the start of the paragraph. This should be
-                #         in the `text` part of the paragraph.
-                if not seg.startswith('*') and i == 0:
-                    node.text = seg
-                # Case 2: non-italic somewhere in the middle of the paragraph. This is
-                #         supposed to be the `tail` of a previously created <hi> node.
-                elif not seg.startswith('*'):
-                    last_node.tail = seg
-                # Case 3: italic text. Create a new <hi> node and set its text content.
-                #         Then insert it to the paragraph as the first (!) child.
-                elif seg.startswith('*'):
-                    content = seg.strip('*')
-                    new_node = ET.Element('hi', attrib={'rend': 'italic'})
-                    new_node.text = content
-                    last_node.insert(0, new_node)
-                    last_node = new_node
-       
-                i += 1
-        
-        # Check if there are italic segments in the node's tail.
-        if len(tail_segments) > 1:
-            last_node = node
-            i = 0
-            while i < len(tail_segments):
-                seg = tail_segments[i]
-                # Case 1: non-italic at the start of the tail. This should remain
-                #         in the `tail` of this node (while all the following text
-                #         shouldn't).
-                if not seg.startswith('*') and i == 0:
-                    node.tail = seg
-                # Case 2: non-italic somewhere in the middle or at the end of the
-                #         tail. This should be in the `tail` of a previously created
-                #         <hi> node.
-                elif not seg.startswith('*'):
-                    last_node.tail = seg
-                # Case 3: italic text. Create a new <hi> node and set its text content.
-                #         Append it to the parent (!) of the current node, directly
-                #         following the current node.
-                elif seg.startswith('*'):
-                    content = seg.strip('*')
-                    new_node = ET.Element('hi', attrib={'rend': 'italic'})
-                    new_node.text = content
-                    new_node = self._insert_after(new_node, last_node)
-                    last_node = new_node
-                
-                i += 1
-        
-        # Do the same for all child nodes of the current node.
-        for child in node.getchildren():
-            self.insert_italics_xml(child)
-
+        node = insert_markup(node, ET.Element('hi', attrib={'rend': 'italic'}), italic)
         return node
 
+    """
+    def insert_heading_xml(self, node):
+        '''Given a div node, insert a head node.'''
+        pattern = r'(^## .*\n)'
+        node = insert_markup(node, ET.Element('head', attrib={'type': 'chapter'}), pattern)
+        return node
+
+
+    def insert_paragraph_xml(self, node):
+        '''Given a div node, insert a new paragraph.'''
+        pattern = r'(^.*$)'
+        node = insert_markup(node, ET.Element('p'), pattern)
+        return node
+    """
 
     def parse_footnotes(self, text, fn_offset=0):
         '''Given a string, identify footnotes and replace their markers.
@@ -422,13 +293,6 @@ class EpubBaseDialect:
             chapters.extend([f'{h}\n{t}\n' for h, t in zip(segments[1::2], segments[2::2])])
 
         return chapters
-
-
-    def _insert_after(self, node, preceding):
-        '''Insert `node` as a sibling of and directly following `preceding` node.'''
-        parent = preceding.getparent()
-        parent.insert(parent.index(preceding)+1, node)
-        return node
 
 
     def __str__(self):

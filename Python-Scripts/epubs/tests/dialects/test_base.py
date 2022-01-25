@@ -193,6 +193,17 @@ class EpubItalicsTest(EpubBaseTest):
         self.assertEqual(snd_hi.text, 'again')
         self.assertEqual(snd_hi.tail, '.')
     
+    def test_insert_multiple_italics(self):
+        '''Insert multiple italics in succession.'''
+        xml = '<p>Hello *from* the *other* side.</p>'
+        p = ET.fromstring(xml)
+        p = self.d.insert_italics_xml(p)
+        hi = p.findall('hi')
+        self.assertEqual(hi[0].text, 'from')
+        self.assertEqual(hi[0].tail, ' the ')
+        self.assertEqual(hi[1].text, 'other')
+        self.assertEqual(hi[1].tail, ' side.')
+    
     def test_ignore_regular_asterisks(self):
         '''Ensure that `insert_italics/xml()` ignores stand-alone asterisks.'''
         # Here we have two '*' in the same paragraph, but they do not indicate
@@ -279,7 +290,7 @@ class EpubCapsTest(EpubBaseTest):
         self.assertEqual(paragraph.text, 'Hello ')
         self.assertEqual(highlight.text, 'from')
         self.assertEqual(highlight.tail, ' the other side.')
-    
+        self.assertEqual(ET.tostring(paragraph), b'<p>Hello <hi rend="caps">from</hi> the other side.</p>')
 
     def test_insert_caps(self):
         '''Insert caps in a paragraph with subnodes.'''
@@ -361,6 +372,17 @@ class EpubCapsTest(EpubBaseTest):
         self.assertEqual(ref[1], children[2])
 
 
+class EpubItalicCapsTest(EpubBaseTest):
+    ''''''
+
+    def test_italic_caps(self):
+        ''''''
+        xml = '<p>***Hello***</p>'
+        p = ET.fromstring(xml)
+        p = self.d.insert_italic_caps_xml(p)
+        hi = p.find('hi')
+        self.assertEqual(hi.attrib['rend'], 'italic caps')
+
 
 class EpubFootnotesTest(EpubBaseTest):
     '''Test cases for the XML generation of <ref> nodes.'''
@@ -391,6 +413,14 @@ class EpubFootnotesTest(EpubBaseTest):
         self.assertEqual(ref.get('target'), '#N1')
         self.assertEqual(ref.tail, ' dans')
     
+    def test_insert_multiple_fns(self):
+        '''Ensure that the node's tails are correct when inserting multiple footnotes.'''
+        xml = '<p>par Perot\[7\] sur les desseins de Gilot\[8\], et par Cafieri\[9\], des</p>'
+        p = ET.fromstring(xml)
+        p = self.d.insert_fn_markers_xml(p)
+        # print(ET.tostring(p))
+        refs = p.findall('ref')
+        self.assertEqual(len(refs), 3)
 
     def test_insert_footnotes_order(self):
         '''Ensure `insert_fn_markers_xml()` inserts child nodes in the correct order.
