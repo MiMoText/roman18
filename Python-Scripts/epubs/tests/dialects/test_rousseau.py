@@ -30,3 +30,24 @@ class EpubRousseauTest(TestCase):
         expected = 'Enfin à force de dévotions si bien faites, à force de  médecines si sagement employées'
         results = self.dialect.clean_up(text)
         self.assertEqual(expected, results)
+    
+    def test_split_titlepage(self):
+        '''rousseauonline.ch sources need a custom titlepage split logic.'''
+        text = '''## Jean-Jacques Rousseau  
+Collection complète des oeuvres
+
+#### 17 vol., in-4º, Genève, 1780-1789  
+www.rousseauonline.ch
+
+JEAN JACQUES ROUSSEAU
+
+## LA REINE FANTASQUE,  CONTE
+
+\[ca. 1754; Bibliothèque Publique de Neuchâtel ms. R. 37; 15 juin, 1758 Journal encyclopédique \(extraits\); Oeuvres de Jean Jaques Rousseau, Amsterdam, 1769; le Pléiade édition, t. II, pp. 1177-1192. == Du Peyrou/Moultou 1780-89 quarto Édition, t. VII, pp.199-220.\]
+
+LA REINE FANTASQUE, *CONTE*.
+'''
+        titlepage, rest = self.dialect.split_titlepage(text)
+        expected_tp = ''
+        expected_rest = '\nLA REINE FANTASQUE, *CONTE*.\n'
+        self.assertEqual(rest, expected_rest)
