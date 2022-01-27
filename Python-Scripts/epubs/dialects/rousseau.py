@@ -1,3 +1,4 @@
+from itertools import dropwhile, takewhile
 import re
 
 from .base import EpubBaseDialect
@@ -29,7 +30,25 @@ class RousseauEpubDialect(EpubBaseDialect):
         except that it also includes non-numeric characters.
         '''
         # E.g. \[various characters, but at least one non-numeric\]
-        pattern = r'\\\[(.*?\D+.*?)\\\]\n'
-        titlepage, meta, rest = re.split(pattern, text)
-        titlepage = f'{titlepage}\n{meta}\n'
+        def is_marker(line):
+            if line.startswith('\['):
+                return any([c for c in line if not c.isnumeric()])
+            return False
+        # pattern = r'\\\[(.*?\D+.*?)\\\]\n'
+        tp = []
+        rest = []
+        found_marker = False
+
+        for line in text.split('\n'):
+            if line.startswith(r'\[') and any([c for c in line if not c.isnumeric()]):
+                found_marker = True
+                line = line.strip('\[ ')
+                tp.append(line)
+            elif found_marker:
+                rest.append(line)
+            else:
+                tp.append(line)
+
+        titlepage = '\n'.join(tp)
+        rest = '\n'.join(rest)
         return titlepage, rest
