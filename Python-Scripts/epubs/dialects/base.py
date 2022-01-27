@@ -81,14 +81,10 @@ class EpubBaseDialect:
         
         # Wrap lines in either head or paragraph tags.
         for line in text.split('\n'):
-            line = line.strip()
-            if line and line.startswith('#'):
-                h = ET.Element('head')
-                h.text = line.replace('#', '').strip()
-                titlepage.append(h)
-            elif line:
+            line = line.strip('# ')
+            if line:
                 p = ET.Element('p')
-                p.text = line.strip()
+                p.text = line
                 titlepage.append(p)
         front.append(titlepage)
         return front
