@@ -5,7 +5,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title ref="bgrf:84.27"> Nouveau voyage sentimental1: MiMoText edition </title>
+    <title ref="bgrf:84.27"> Nouveau voyage sentimental: MiMoText edition </title>
     <author ref="viaf:76441933;wikidata:Q15407023"> Jean-Claude Gorgy(1753-1795) </author>
     <respStmt>
      <resp> data capture </resp>
@@ -33,7 +33,13 @@
    </publicationStmt>
    <sourceDesc>
     <bibl type="digitalSource"> <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63791460"/> </bibl>
-    <bibl type="printSource"> <date> 1791 </date> </bibl>
+    <bibl type="printSource">
+      <title>Nouveau voyage sentimental</title>
+      <author>Jean-Claude Gorjy</author>
+      <pubPlace>Paris</pubPlace>
+      <publisher>Guillot</publisher>
+      <date>1791</date>
+    </bibl>
     <bibl type="firstEdition"> <date> 1791 </date> </bibl>
    </sourceDesc>
   </fileDesc>
