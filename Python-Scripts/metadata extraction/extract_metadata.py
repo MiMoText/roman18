@@ -27,16 +27,17 @@ path = "../../XML-TEI/files"
 # === Parameters === 
 xpaths = {"xmlid" : "//tei:TEI/@xml:id", 
 		  "title" : "//tei:titleStmt/tei:title/text()",
-		  "wikidata" : "//tei:titleStmt/tei:author/@ref", 
+		  "author_wikidata" : "//tei:titleStmt/tei:author/@ref", 
 		  "printSource-yr" : "//tei:bibl[@type='printSource']/tei:date/text()",
 		  "firsted-yr" : "//tei:bibl[@type='firstEdition']/tei:date/text()",
 		  "form" : "//tei:textClass/tei:keywords/tei:term[@type='form']/text()",
 		  "spelling" : "//tei:textClass/tei:keywords/tei:term[@type='spelling']/text()",
 		  "data-capture" : "//tei:textClass/tei:keywords/tei:term[@type='data-capture']/text()",
           "bgrf" : "//tei:titleStmt/tei:title/@ref",
+  
 		  }
 
-ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling", "data-capture", "token count", "size", "bgrf"]
+ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling", "data-capture", "token count", "size", "bgrf", "author_wikidata"]
 
 sorting = ["filename", True]
 
@@ -71,15 +72,16 @@ def get_metadatum(xml, xpath):
 		metadatum = "NA"
 	metadatum = re.sub(": MiMoText edition", "", metadatum)
 	metadatum = re.sub("bgrf:", "", metadatum)
-	"""
+	
 	if re.search("wikidata", metadatum):
-		viaf = (metadatum.split(";"))[0]
-		metadatum = (metadatum.split(";")[1]).split(":")[1]
-		if len(metadatum) == 0:
-			metadatum = viaf
+		metadatum = (metadatum.split(";"))[1]
+		#metadatum = (metadatum.split(";")[1]).split(":")[1]
+		#if len(metadatum) == 0:
+			#metadatum = viaf
+		metadatum = re.sub("wikidata:", "", metadatum)
 			
 		#print(metadatum)
-	"""
+	
 	return metadatum
 
 
@@ -188,11 +190,11 @@ def main(path, xpaths, ordering, sorting):
 				keys.extend(["au-name", "au-gender", "token count", "size"])
 				metadata.extend([name, au_gender, count, size])
 				for key,xpath in xpaths.items():
-					#print(key, xpath)
+					print(key, xpath)
 					metadatum = get_metadatum(xml, xpath)
 					keys.append(key)
 					metadata.append(metadatum)
-					#print(metadata)
+					print(metadata)
 				allmetadata.append(dict(zip(keys, metadata)))
 		except: 
 			print("ERROR!!!", filename)
