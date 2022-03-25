@@ -34,10 +34,10 @@ xpaths = {"xmlid" : "//tei:TEI/@xml:id",
 		  "spelling" : "//tei:textClass/tei:keywords/tei:term[@type='spelling']/text()",
 		  "data-capture" : "//tei:textClass/tei:keywords/tei:term[@type='data-capture']/text()",
           "bgrf" : "//tei:titleStmt/tei:title/@ref",
-  
+		  "title_wikidata" : "//tei:titleStmt/tei:title/@ref",
 		  }
 
-ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling", "data-capture", "token count", "size", "bgrf", "author_wikidata"]
+ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling", "data-capture", "token count", "size", "bgrf", "author_wikidata", "title_wikidata"]
 
 sorting = ["filename", True]
 
@@ -60,28 +60,44 @@ def open_file(teiFile):
 
 
 
-def get_metadatum(xml, xpath): 
+def get_metadatum(xml, xpath, key): 
 	"""
 	For each metadata key and XPath defined above, retrieve the 
 	metadata item from the XML tree.
-	"""
+	"""	
 	try: 
 		namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
 		metadatum = xml.xpath(xpath, namespaces=namespaces)[0]
 	except:
 		metadatum = "NA"
-	metadatum = re.sub(": MiMoText edition", "", metadatum)
-	metadatum = re.sub("bgrf:", "", metadatum)
 	
-	if re.search("wikidata", metadatum):
-		metadatum = (metadatum.split(";"))[1]
-		#metadatum = (metadatum.split(";")[1]).split(":")[1]
-		#if len(metadatum) == 0:
-			#metadatum = viaf
-		metadatum = re.sub("wikidata:", "", metadatum)
-			
-		#print(metadatum)
 	
+	if key == "title":
+		metadatum = " ".join(metadatum.split())
+		metadatum = re.sub(": MiMoText edition", "", metadatum)
+	
+
+	if key == "author_wikidata":
+		try:
+			metadatum = metadatum.split(" ")[1]
+			metadatum = re.sub("wikidata:", "", metadatum)
+			if metadatum == "":
+				metadatum = "NA"
+		except IndexError:
+			metadatum = "NA"
+
+	if key == "bgrf":
+		metadatum = metadatum.split(" ")[0]
+		metadatum = re.sub("bgrf:", "", metadatum)
+		
+	if key == "title_wikidata":
+		try:
+			metadatum = metadatum.split(" ")[1]
+			metadatum = re.sub("wikidata:", "", metadatum)
+		except IndexError:
+			metadatum = "NA"
+		
+		
 	return metadatum
 
 
@@ -95,12 +111,16 @@ def get_authordata(xml):
 	entries, as this is not always a trivial decision to make.
 	Retrieve the author gender in second part.
 	"""
+	
 	try: 
 		namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}       
 		authordata = xml.xpath("//tei:titleStmt/tei:author/text()",
 							   namespaces=namespaces)[0]       
-		#print(authordata)
+		#remove linebreaks 
+		authordata= " ".join(authordata.split())
+		
 		if re.search("(.*?) \(", authordata):
+			
 			name = re.search("(.*?) \(", authordata).group(1)
 			try:
 				birth = re.search("\((\d\d\d\d)", authordata).group(1)
@@ -130,14 +150,12 @@ def get_authordata(xml):
 		n_list = []
 		for n in desc_nodes:
 			for t in n.findall(".//"):
-				#
-				#print("nodes ",t.attrib["key"])
+
 				n_list.append(t.attrib["key"])
 		au_gender = n_list[0]
 		size = n_list[1]
 	except:
 		au_gender = "NA"
-	#print(au_gender)
 	return name,birth,death, au_gender, size
 
 def get_count(txt):
@@ -186,15 +204,12 @@ def main(path, xpaths, ordering, sorting):
 				xml, txt = open_file(teiFile)
 				name,birth,death, au_gender, size = get_authordata(xml)
 				count = get_count(txt)
-				#print(au_gender)
 				keys.extend(["au-name", "au-gender", "token count", "size"])
 				metadata.extend([name, au_gender, count, size])
 				for key,xpath in xpaths.items():
-					print(key, xpath)
-					metadatum = get_metadatum(xml, xpath)
+					metadatum = get_metadatum(xml, xpath, key)
 					keys.append(key)
 					metadata.append(metadatum)
-					print(metadata)
 				allmetadata.append(dict(zip(keys, metadata)))
 		except: 
 			print("ERROR!!!", filename)
