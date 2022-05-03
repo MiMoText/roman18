@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Voltaire_Eloge" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="bgrf:75.43">Éloge historique de la raison: MiMoText edition</title>
+        <author ref="viaf:36925746 wikidata:Q9068">François-Marie Arouet Voltaire(1694-1778)</author>
+        <respStmt>
+          <resp>data capture</resp>
+          <name>wikisource</name>
+        </respStmt>
+        <respStmt>
+          <resp>encoding</resp>
+          <name/>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name>Julia Röttgermann</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words">0</measure>
+      </extent>
+      <publicationStmt>
+        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
+        <distributor ref="https://github.com/mimotext/roman18.git">Github</distributor>
+        <date>2022</date>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://fr.wikisource.org/wiki/%C3%89loge_historique_de_la_raison"/>
+        </bibl>
+        <bibl type="printSource"></bibl>
+        <bibl type="firstEdition">
+          <date>1775</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="eltec-x">
+      <p/>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">heterodiegetic</term>
+          <term type="spelling">modern</term>
+          <term type="data-capture">semi-automatic transcription</term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-04-29">Inital ELTeC level 1</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="titlepage">
+        <p>Éloge historique de la raison</p>
+        <p>Voltaire</p>
+        <p>Garnier, Paris, 1877</p>
+        <p>Exporté de Wikisource le 15 mars 2022</p>
+        <p>ÉLOGE HISTORIQUE</p>
+        <p>DE LA RAISON</p>
+        <p>PRONONCÉ DANS UNE ACADÉMIE DE PROVINCE</p>
+        <p>PAR M. DE CHAMBON.</p>
+        <p>(1774)</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapter">
+        <p>Érasme fit, au xvie siècle, l'éloge de la Folie. Vous m'ordonnez de vous faire l'éloge de la
+          Raison. Cette Raison n'est fêtée en effet tout au plus que deux cents ans après son ennemie, souvent
+          beaucoup plus tard ; et il y a des nations chez lesquelles on ne l'a point encore vue.</p>
+        <p>Elle était si inconnue chez nous du temps de nos druides quelle n'avait pas même de nom dans
+          notre langue. César ne l'apporta ni en Suisse, ni à Autun, ni à Paris, qui n'était alors qu'un
+          hameau de pêcheurs, et lui-même ne la connut guère.</p>
+        <p>Il avait tant de grandes qualités que la Raison ne put trouver de place dans la foule. Ce
+          magnanime insensé sortit de notre pays dévasté pour aller dévaster le sien, et pour se faire donner
+          vingt-trois coups de poignard par vingt-trois autres illustres enragés qui ne le valaient pas à
+          beaucoup près.</p>
+        <p>Le Sicambre Clodvich ou Clovis vint environ cinq cents années après exterminer une partie de
+          notre nation, et subjuguer l'autre. On n'entendit parler de raison ni dans son armée ni dans nos
+          malheureux petits villages, si ce n'est de la raison du plus fort.</p>
+        <p>Nous croupîmes longtemps dans cette horrible et avilissante barbarie. Les croisades ne nous en
+          tirèrent pas. Ce fut à la fois la folie la plus universelle, la plus atroce, la plus ridicule et la
+          plus malheureuse. L'abominable folie de la guerre civile et sacrée qui extermina tant de gens de la
+          langue de
+          <hi rend="italic">oc</hi>
+          et de la langue de
+          <hi rend="italic">oil</hi>
+          <ref target="#N1"/>
+          succéda à ces croisades lointaines. La Raison n'avait garde de se trouver là. Alors la Politique
+          régnait à Rome ; elle avait pour ministres ses deux sœurs, la Fourberie et l'Avarice. On voyait
+          l'Ignorance, le Fanatisme, la Fureur, courir sous ses ordres dans l'Europe ; la Pauvreté les suivait
+          partout ; la Raison se cachait dans un puits avec la Vérité sa fille. Personne ne savait où était ce
+          puits ; et, si l'on s'en était douté, on y serait descendu pour égorger la fille et la mère.</p>
+        <p>Après que les Turcs eurent pris Constantinople et redoublé les malheurs épouvantables de
+          l'Europe, deux ou trois Grecs<ref target="#N2"/>,
+          en s'enfuyant, tombèrent dans ce puits, ou plutôt dans cette caverne, demi-morts de fatigue, de faim
+          et de peur.</p>
+        <p>La Raison les reçut avec humanité, leur donna à manger sans distinction de viandes : chose qu'ils
+          n'avaient jamais connue à Constantinople. Ils reçurent d'elle quelques instructions en petit nombre
+          : car la Raison n'est pas prolixe. Elle leur fit jurer qu'ils ne découvriraient pas le lieu de sa
+          retraite. Ils partirent, et arrivèrent, après bien des courses, à la cour de Charles-Quint et de
+          François Ier.</p>
+        <p>On les y reçut comme des jongleurs qui venaient faire des tours de souplesse pour amuser
+          l'oisiveté des courtisans et des dames dans les intervalles de leurs rendez-vous. Les ministres
+          daignèrent les regarder dans les moments de relâche qu'ils pouvaient donner au torrent des affaires.
+          Ils furent même accueillis par l'empereur et par le roi de France, qui jetèrent sur eux un coup
+          d'œil en passant, lorsqu'ils allaient chez leurs maîtresses. Mais ils firent plus de fruit dans de
+          petites villes où ils trouvèrent de bons bourgeois, qui avaient encore, je ne sais comment, quelque
+          lueur de sens commun.</p>
+        <p>Ces faibles lueurs s'éteignirent dans toute l'Europe parmi les guerres civiles qui la désolèrent.
+          Deux ou trois étincelles de raison ne pouvaient pas éclairer le monde au milieu des torches ardentes
+          et des bûchers que le fanatisme alluma pendant tant d'années. La Raison et sa fille se cachèrent
+          plus que jamais.</p>
+        <p>Les disciples de leurs premiers apôtres se turent, excepté quelques-uns que furent assez
+          inconsidérés pour prêcher la raison déraisonnablement et à contre-temps : il leur en coûta la vie
+          comme à Socrate ; mais personne n'y fit attention<ref target="#N3"/>.
+          Rien n'est si désagréable que d'être pendu obscurément. On fut occupé si longtemps des
+          Saint-Barthélemy, des massacres d'Irlande, des échafauds de la Hongrie, des assassinats des rois,
+          qu'on n'avait ni assez de temps ni assez de liberté d'esprit pour penser aux menus crimes et aux
+          calamités secrètes qui inondaient le monde d'un bout à l'autre.</p>
+        <p>La Raison, informée de ce qui se passait par quelques exilés qui se réfugièrent dans sa retraite,
+          fut touchée de pitié, quoiqu'elle ne passe pas pour être fort tendre. Sa fille, qui est plus hardie
+          qu'elle, l'encouragea à voir le monde, et à tâcher de le guérir. Elles parurent, elles parlèrent ;
+          mais elles trouvèrent tant de méchants intéressés à les contredire, tant d'imbéciles aux gages de
+          ces méchants, tant d'indifférents uniquement occupés d'eux-mêmes et du moment présent, qui ne
+          s'embarrassaient ni d'elles ni de leurs ennemis, qu'elles regagnèrent sagement leur asile.</p>
+        <p>Cependant quelques semences des fruits qu'elles portent toujours avec elles, et qu'elles avaient
+          répandues, germèrent sur la terre, et même sans pourir<ref target="#N4"/>.</p>
+        <p>Enfin il y a quelque temps qu'il leur prit envie d'aller à Rome en pèlerinage, déguisées et
+          cachant leur nom, de peur de l'Inquisition. Dès qu'elles furent arrivées, elles s'adressèrent au
+          cuisinier du pape Ganganelli, Clément XIV. Elles savaient que c'était le cuisinier de Rome le moins
+          occupé. On peut dire même qu'il était, après vos confesseurs, messieurs, l'homme le plus désœuvré de
+          sa profession.</p>
+        <p>Ce bonhomme, après avoir donné aux deux pèlerines un dîner presque aussi frugal que celui du
+          pape, les introduisit chez Sa Sainteté, qu'elles trouvèrent lisant les
+          <hi rend="italic">Pensées de Marc-Aurèle</hi>. Le pape reconnut les masques, les embrassa
+          cordialement, malgré l'étiquette. « Mesdames, leur dit-il, si j'avais pu imaginer que vous fussiez
+          sur la terre, je vous aurais fait la première visite. »</p>
+        <p>Après les compliments, on parla d'affaires. Dès le lendemain, Ganganelli abolit la bulle
+          <hi rend="italic">In cœna Domini,</hi>
+          l'un des plus grands monuments de la folie humaine, qui avait si longtemps outragé tous les
+          potentats<ref target="#N5"/>. Le surlendemain, il prit la résolution de détruire la compagnie<ref target="#N6"/>
+          de Garasse, de Guignard, de Garnet, de Busembaum, de Malagrida, de Paulian, de Patouillet, de
+          Nonotte ; et l'Europe battit des mains. Le surlendemain, il diminua les impôts, dont le peuple se
+          plaignait. Il encouragea l'agriculture et tous les arts ; il se fit aimer de tous ceux qui passaient
+          pour les ennemis de sa place. On eût dit alors dans Rome qu'il n'y avait qu'une nation et qu'une loi
+          dans le monde.</p>
+        <p>Les deux pèlerines, très-étonnées et très-satisfaites, prirent congé du pape, qui leur fit
+          présent non d'agnus et de reliques, mais d'une bonne chaise de poste pour continuer leur voyage. La
+          Raison et la Vérité n'avaient pas été jusque-là dans l'habitude d'avoir leurs aises.</p>
+        <p>Elles visitèrent toute l'Italie, et furent surprises d'y trouver, au lieu du machiavélisme, une
+          émulation entre les princes et les républiques, depuis Parme jusqu'à Turin, à qui rendrait ses
+          sujets plus gens de bien, plus riches, et plus heureux.</p>
+        <p>« Ma fille, disait la Raison à la Vérité, voici, je crois, notre règne qui pourrait bien
+          commencer à advenir après notre longue prison. Il faut que quelques-uns des prophètes qui sont venus
+          nous visiter dans notre puits aient été bien puissants en paroles et en œuvres, pour changer ainsi
+          la face de la terre. Vous voyez que tout vient tard ; il fallait passer par les ténèbres de
+          l'ignorance et du mensonge avant de rentrer dans votre palais de lumière, dont vous avez été chassée
+          avec moi pendant tant de siècles. Il nous arrivera ce qui est arrivé à la Nature : elle a été
+          couverte d'un méchant voile, et toute défigurée pendant des siècles innombrables. À la fin il est
+          venu un Galilée, un Copernic, un Newton, qui l'ont montrée presque nue, et qui en ont rendu les
+          hommes amoureux. »</p>
+        <p>En conversant ainsi, elles arrivèrent à Venise. Ce qu'elles y considérèrent avec le plus
+          d'attention, ce fut un procurateur de Saint-Marc, qui tenait une grande paire de ciseaux devant une
+          table toute couverte de grilles, de becs, et de plumes noires.</p>
+        <p>« Ah s'écria la Raison, Dieu me pardonne,
+          <hi rend="italic">illustrissimo signore,</hi>
+          je crois que voilà une de mes paires de ciseaux que j'avais apportés dans mon puits, lorsque je m'y
+          réfugiai avec ma fille Comment Votre Excellence les a-t-elle eus, et qu'en faites-vous ?</p>
+        <p>---
+          <hi rend="italic">Illustrissima signora,</hi>
+          lui répondit le procurateur, il se peut que les ciseaux aient appartenu autrefois à Votre Excellence
+          ; mais ce fut un nommé Fra-Paolo<ref target="#N7"/>
+          qui nous les apporta il y a longtemps, et nous nous en servons pour couper les griffes de
+          l'Inquisition, que vous voyez étalées sur cette table.</p>
+        <p>« Ces plumes noires appartenaient à des harpies qui venaient manger le dîner de la république ;
+          nous leur rognons tous les jours les ongles et le bout du bec. Sans cette précaution elles auraient
+          fini par tout avaler : il ne serait rien resté pour les sages grands, ni pour les
+          <hi rend="italic">pregadi,</hi>
+          ni pour les citadins.</p>
+        <p>« Si vous passez par la France, vous trouverez peut-être à Paris votre autre paire de ciseaux
+          chez un ministre espagnol<ref target="#N8"/>
+          qui s'en servait au même usage que nous dans son pays, et qui sera un jour béni du genre humain. »</p>
+        <p>Les voyageuses, après avoir assisté à l'opéra vénitien, partirent pour l'Allemagne. Elles virent
+          avec satisfaction ce pays, qui du temps de Charlemagne n'était qu'une forêt immense entrecoupée de
+          marais, maintenant couvert de villes florissantes et tranquilles ; ce pays, peuplé de souverains
+          autrefois barbares et pauvres, devenus tous polis et magnifiques ; ce pays, qui n'avait eu dans les
+          temps antiques que des sorcières pour prêtres, immolant alors des hommes sur des pierres
+          grossièrement creusées ; ce pays, qui ensuite avait été inondé de son sang pour savoir au juste si
+          la chose était
+          <hi rend="italic">in, cum, sub</hi>
+          <ref target="#N9"/>, ou non ; ce pays, qui enfin recevait dans son sein trois religions ennemies,
+            étonnées de vivre paisiblement ensemble. « Dieu soit béni dit la Raison ; ces gens-ci sont venus
+            enfin à moi, à force de démence. » On les introduisit chez une impératrice<ref target="#N10"/>
+          qui était bien plus que raisonnable, car elle était bienfaisante. Les pèlerines furent si contentes
+          d'elle qu'elles ne prirent pas garde à quelques usages qui les choquèrent ; mais elles furent toutes
+          deux amoureuses de l'empereur son fils<ref target="#N11"/>.</p>
+        <p>Leur étonnement redoubla quand elles furent en Suède. « Quoi disaient-elles, une révolution si
+          difficile, et cependant si prompte si périlleuse, et pourtant si paisible<ref target="#N12"/>
+          et depuis ce grand jour pas un seul jour perdu sans faire du bien, et tout cela dans l'âge qui est
+          si rarement celui de la raison Que nous avons bien fait de sortir de notre cache quand ce grand
+          événement saisissait d'admiration l'Europe entière »</p>
+        <p>De là elles passèrent vite par la Pologne, « Ah ma mère, quel contraste s'écria la Vérité. Il me
+          prend envie de regagner mon puits. Voilà ce que c'est que d'avoir écrasé toujours la portion du
+          genre humain la plus utile, et d'avoir traité les cultivateurs plus mal qu'ils ne traitent leurs
+          animaux de labourage. Ce chaos de l'anarchie ne pouvait se débrouiller autrement que par une ruine :
+          on l'avait assez clairement prédite. Je plains un monarque vertueux, sage, et humain<ref target="#N13"/>
+          ; et j'ose espérer qu'il sera heureux, puisque les autres rois commencent à l'être, et que vos
+          lumières se communiquent de proche en proche.</p>
+        <p>« Allons voir, continua-t-elle, un changement plus favorable et plus surprenant. Allons dans
+          cette immense région hyperborée qui était si barbare il y a quatre-vingts ans, et qui est
+          aujourd'hui si éclairée et si invincible. Allons contempler celle<ref target="#N14"/>
+          qui a achevé le miracle d'une création nouvelle... » Elles y coururent, et avouèrent qu'on ne leur
+          en avait pas assez dit.</p>
+        <p>Elles ne cessaient d'admirer combien le monde était changé depuis quelques années. Elles en
+          concluaient que peut-être un jour le Chili et les Terres Australes seraient le centre de la
+          politesse et du bon goût, et qu'il faudrait aller au pôle antarctique pour apprendre à vivre.</p>
+        <p>Quand elles furent en Angleterre, la Vérité dit à sa mère : « Il me semble que le bonheur de
+          cette nation n'est point fait comme celui des autres ; elle a été plus folle, plus fanatique, plus
+          cruelle, et plus malheureuse qu'aucune de celles que je connais ; et la voilà qui s'est fait un
+          gouvernement unique, dans lequel on a conservé tout ce que la monarchie a d'utile, et tout ce qu'une
+          république a de nécessaire. Elle est supérieure dans la guerre, dans les lois, dans les arts, dans
+          le commerce. Je la vois seulement embarrassée de l'Amérique septentrionale<ref target="#N15"/>,
+          qu'elle a conquise à un bout de l'univers, et des plus belles provinces de l'Inde, subjuguées à
+          l'autre bout. Comment portera-t-elle ces deux fardeaux de sa félicité ?</p>
+        <p>--- Le poids est lourd, dit la Raison ; mais, pour peu qu'elle m'écoute, elle trouvera des
+          leviers qui le rendront très-léger. »</p>
+        <p>Enfin la Raison et la Vérité passèrent par la France : elles y avaient déjà fait quelques
+          apparitions, et en avaient été chassées.</p>
+        <p>« Vous souvient-il, disait la Vérité à sa mère, de l'extrême envie que nous eûmes de nous établir
+          chez les Français dans les beaux jours de Louis XIV ? Mais les querelles impertinentes des jésuites
+          et des jansénistes nous firent enfuir bientôt. Les plaintes continuelles des peuples ne nous
+          rappelèrent pas. J'entends à présent les acclamations de vingt millions d'hommes qui bénissent le
+          ciel. Les uns disent : « Cet avénement est d'autant plus joyeux que nous n'en payons pas la joie<ref target="#N16"/>.
+          » Les autres crient : « Le luxe n'est que vanité. Les doubles emplois, les dépenses superflues, les
+          profits excessifs, vont être retranchés » ; et ils ont raison. « Tout impôt va être aboli » ; et ils
+          ont tort, car il faut que chaque particulier paye pour le bonheur général.</p>
+        <p>« Les lois vont être uniformes. » Rien n'est plus à désirer ; mais rien n'est plus difficile. «
+          On va répartir aux indigents qui travaillent, et surtout aux pauvres officiers, les biens immenses
+          de certains oisifs qui ont fait vœu de pauvreté. Ces gens de main-morte n'auront plus eux-mêmes des
+          esclaves de main-morte. On ne verra plus des huissiers de moines chasser de la maison paternelle des
+          orphelins réduits à la mendicité, pour enrichir de leurs dépouilles un couvent jouissant des droits
+          seigneuriaux, qui sont les droits des anciens conquérants. On ne verra plus des familles entières
+          demandant vainement l'aumône à la porte de ce couvent qui les dépouille. » Plût à Dieu rien n'est
+          plus digne d'un roi. Le roi de Sardaigne a détruit chez lui cet abus abominable. Fasse le ciel que
+          cet abus soit exterminé en France</p>
+        <p>« N'entendez-vous pas, ma mère, toutes ces voix qui disent : « Les mariages de cent mille
+          familles utiles à l'État ne seront plus réputés concubinages ; et les enfants ne seront plus
+          déclarés bâtards par la loi ? » La nature, la justice, et vous, ma mère, tout demande sur ce grand
+          objet un règlement sage qui soit compatible avec le repos de l'État et avec les droits de tous les
+          hommes.</p>
+        <p>« On rendra la profession de soldat si honorable que l'on ne sera plus tenté de déserter. » La
+          chose est possible, mais délicate.</p>
+        <p>« Les petites fautes ne seront point punies comme de grands crimes, parce qu'il faut de la
+          proportion à tout. Une loi barbare<ref target="#N17"/>
+          obscurément énoncée, mal interprétée, ne fera plus périr sous des barres de fer et dans les flammes
+          des enfants indiscrets et imprudents, comme s'ils avaient assassiné leurs pères et leurs mères. » Ce
+          devrait être le premier axiome de la justice criminelle.</p>
+        <p>« Les biens d'un père de famille ne seront plus confisqués, parce que les enfants ne doivent
+          point mourir de faim pour les fautes de leur père, et que le roi n'a nul besoin de cette misérable
+          confiscation. » À merveille et cela est digne de la magnanimité du souverain.</p>
+        <p>« La torture, inventée autrefois par les voleurs de grands chemins pour forcer les volés à
+          découvrir leurs trésors, et employée aujourd'hui chez un petit nombre de nations pour sauver le
+          coupable robuste, et pour perdre l'innocent faible de corps et d'esprit, ne sera plus en usage que
+          dans les crimes de lèse-société au premier chef, et seulement pour avoir révélation des complices.
+          Mais ces crimes ne se commettront jamais. » On ne peut mieux.</p>
+        <p>« Voilà les vœux que j'entends faire partout ; et j'écrirai tous ces grands changements dans mes
+          annales, moi qui suis la Vérité.</p>
+        <p>« J'entends encore proférer autour de moi, dans tous les tribunaux, ces paroles remarquables : «
+          Nous ne citerons plus jamais les deux puissances, parce qu'il ne peut en exister qu'une : celle du
+          roi ou de la loi dans une monarchie ; celle de la nation dans une république. La puissance divine
+          est d'une nature si différente et si supérieure qu'elle ne doit pas être compromise par un mélange
+          profane avec les lois humaines. L'infini ne peut se joindre au fini, Grégoire VII fut le premier qui
+          osa appeler l'infini à son secours dans ses guerres jusqu'alors inouïes contre Henri IV, empereur
+          trop fini ; j'entends trop borné. Ces guerres ont ensanglanté l'Europe bien longtemps ; mais enfin
+          on a séparé ces deux êtres vénérables qui n'ont rien de commun, et c'est le seul moyen d'être en
+          paix. »</p>
+        <p>« Ces discours, que tiennent tous les ministres des lois, me paraissent bien forts. Je sais qu'on
+          ne reconnaît deux puissances ni à la Chine, ni dans l'Inde, ni en Perse, ni à Constantinople, ni à
+          Moscou, ni à Londres, etc... Mais je m'en rapporte à vous, ma mère. Je n'écrirai rien que ce que
+          vous aurez dicté. »</p>
+        <p>La Raison lui répondit : « Ma fille, vous sentez bien que je désire à peu près les mêmes choses
+          et bien d'autres. Tout cela demande du temps et de la réflexion. J'ai toujours été très-contente
+          quand, dans mes chagrins, j'ai obtenu une partie des soulagements que je voulais. Je suis
+          aujourd'hui trop heureuse.</p>
+        <p>« Vous souvenez-vous du temps où presque tous les rois de la terre, étant dans une profonde paix,
+          s'amusaient à jouer aux énigmes : et où la belle reine de Saba venait proposer tête à tête des
+          logogriphes à Salomon ?</p>
+        <p>--- Oui, ma mère ; c'était un bon temps, mais il n'a pas duré.</p>
+        <p>--- Eh bien reprit la mère, celui-ci est infiniment meilleur. On ne songeait alors qu'à montrer
+          un peu d'esprit ; et je vois que depuis dix à douze ans on s'est appliqué dans l'Europe aux arts et
+          aux vertus nécessaires, qui adoucissent l'amertume de la vie. Il semble en général qu'on se soit
+          donné le mot pour penser plus solidement qu'on n'avait fait pendant des milliers de siècles. Vous,
+          qui n'avez jamais pu mentir, dites-moi quel temps vous auriez choisi ou préféré au temps où nous
+          sommes pour vous habituer en France.</p>
+        <p>--- J'ai la réputation, répondit la fille, d'aimer à dire des choses assez dures aux gens chez
+          qui je me trouve, et vous savez que j'y ai toujours été forcée ; mais j'avoue que je n'ai que du
+          bien à dire du temps présent, en dépit de tant d'auteurs qui ne louent que le passé.</p>
+        <p>« Je dois instruire la postérité que c'est dans cet âge que les hommes ont appris à se garantir
+          d'une maladie affreuse et mortelle, en se la donnant moins funeste<ref target="#N18"/>
+          ; à rendre la vie à ceux qui la perdent dans les eaux<ref target="#N19"/>
+          ; à gouverner et à braver le tonnerre<ref target="#N20"/>
+          ; à suppléer au point fixe qu'on désire en vain d'occident en orient<ref target="#N21"/>. On a fait
+            plus en morale : on a osé demander justice aux lois contre des lois qui avaient condamné la vertu au
+            supplice ; et cette justice a été quelquefois obtenue. Enfin on a osé prononcer le mot de tolérance.</p>
+        <p>--- Eh bien ma chère fille, jouissons de ces beaux jours ; restons ici, s'ils durent ; et, si les
+          orages surviennent, retournons dans notre puits. »</p>
+        <trailer>FIN DE L'ÉLOGE DE LA RAISON.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="notes">
+        <note xml:id="N1">C'est-à-dire tant de gens du sud et du nord de la Loire.</note>
+        <note xml:id="N2">Les Lascaris.</note>
+        <note xml:id="N3">Étienne Dolet, Vanini, etc.</note>
+        <note xml:id="N4">Voyez la note 2 de la page 339.</note>
+        <note xml:id="N5">Tous les ans, le jeudi saint, on publiait à Rome la bulle
+          <hi rend="italic">In cœna Domini</hi>
+          (voyez tome XVIII, page 42). Clément XIV supprima cette publication.</note>
+        <note xml:id="N6">Le bref de Clément XIV qui prononce la dissolution de la société des jésuites est
+          du 21 juillet 1773. Une bulle de Pie VII, du 7 auguste 1814, l'a rétablie.</note>
+        <note xml:id="N7">Pietro Sarpi, dit Fra-Paolo, historien (1552-1623), défendit sa patrie contre les
+          prétentions du saint-siége. Son
+          <hi rend="italic">Histoire du concile de Trente</hi>
+          est célèbre. (G. A.)</note>
+        <note xml:id="N8">Le comte d'Aranda (D. Pierre-Paul Abarca de Bolea), ministre espagnol de 1765 à
+          1775, ambassadeur en France de 1775 à 1784, mort en 1794. Voltaire lui avait donné, en 1770, un
+          article dans ses
+          <hi rend="italic">Questions sur l'Encyclopédie ;</hi>
+          voyez tome XVII, page 344.</note>
+        <note xml:id="N9">Question de la consubstantialité.</note>
+        <note xml:id="N10">Marie-Thérèse.</note>
+        <note xml:id="N11">Joseph II.</note>
+        <note xml:id="N12">Coup d'État de Gustave III, en 1772.</note>
+        <note xml:id="N13">Stanislas-Auguste, roi en 1764, et sous le règne duquel eut lieu, en 1795, le partage de la Pologne.</note>
+        <note xml:id="N14">L'impératrice Catherine II, avec qui Voltaire était en correspondance.</note>
+        <note xml:id="N15">Boston, l'année précédente (1773), venait de donner le signal de l'insurrection.</note>
+        <note xml:id="N16">Louis XVI, dès le mois de mai 1774, rendit une ordonnance par laquelle il faisait remise du
+          <hi rend="italic">droit de joyeux avénement</hi>. On appelait ainsi certaines impositions
+          extraordinaires qui se percevaient à l'avénement d'un roi. (B.).</note>
+        <note xml:id="N17">L'édit de Louis XIV, de décembre 1666, contre les blasphémateurs, sur lequel fut
+          basée la condamnation de La Barre ; voyez dans les
+          <hi rend="italic">Mélanges,</hi>
+          année 1766, la
+          <hi rend="italic">Relation de la mort du chevalier de La Barre ;</hi>
+          et dans la
+          <hi rend="italic">Correspondance,</hi>
+          la note des éditeurs de Kehl sur la lettre du roi de Prusse, du 7 auguste 1766.</note>
+        <note xml:id="N18">Louis XVI, peu après son avénement au trône, se fit inoculer, ainsi que ses
+          frères le comte de Provence, depuis Louis XVIII, et le comte d'Artois, depuis Charles X (voyez tome
+          XV, le chapitre xli du
+          <hi rend="italic">Précis du Siècle de Louis XV</hi>). L'inoculation fut alors tellement en vogue que
+          les inoculateurs ne pouvaient suffire au nombre de ceux qui les appelaient.</note>
+        <note xml:id="N19">C'est à Philippe-Nicolas Pia, né en 1721, mort en 1799, que l'on doit
+          l'établissement des secours pour les noyés.</note>
+        <note xml:id="N20">L'invention des paratonnerres est de Benjamin Franklin, qui se trouvait à Paris
+          quand Voltaire y vint en 1778 ; voyez, dans le tome Ier, la
+          <hi rend="italic">Vie de Voltaire,</hi>
+          par Condorcet.</note>
+        <note xml:id="N21">Je crois que Voltaire fait allusion ici au problème de la précession des
+          équinoxes, résolu par d'Alembert. (G. A.) --- Voyez, du reste, pour compléter cet
+          <hi rend="italic">Éloge historique de la Raison,</hi>
+          les deux derniers chapitres du
+          <hi rend="italic">Précis du Siècle de Louis XV</hi>, tome XV.</note>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Voltaire_Scarmentado" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="bgrf:56.32">Histoire des voyages de Scarmentado: MiMoText edition</title>
+        <author ref="viaf:36925746 wikidata:Q9068">François-Marie Arouet Voltaire(1694-1778)</author>
+        <respStmt>
+          <resp>data capture</resp>
+          <name>wikisource</name>
+        </respStmt>
+        <respStmt>
+          <resp>encoding</resp>
+          <name/>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name>Julia Röttgermann</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words">0</measure>
+      </extent>
+      <publicationStmt>
+        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
+        <distributor ref="https://github.com/mimotext/roman18.git">Github</distributor>
+        <date>2022</date>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref
+            target="https://fr.wikisource.org/wiki/Histoire_des_voyages_de_Scarmentado_%C3%A9crite_par_lui-m%C3%AAme"/>
+        </bibl>
+        <bibl type="printSource"></bibl>
+        <bibl type="firstEdition">
+          <date>1756</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="eltec-x">
+      <p/>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">heterodiegetic</term>
+          <term type="spelling">modern</term>
+          <term type="data-capture">semi-automatic transcription</term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-04-29">Initial ELTeC level 1</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="titlepage">
+        <p>Histoire des voyages de Scarmentado écrite par lui-même</p>
+        <p>Voltaire</p>
+        <p>Garnier, Paris, 1877</p>
+        <p>Exporté de Wikisource le 15 mars 2022</p>
+        <p>HISTOIRE</p>
+        <p>DES VOYAGES</p>
+        <p>DE SCARMENTADO</p>
+        <p>ÉCRITE PAR LUI-MÊME</p>
+        <p>(1756)</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapter">
+        <p>Je naquis dans la ville de Candie, en 1600. Mon père en était gouverneur ; et je me souviens
+          qu'un poëte médiocre, qui n'était pas médiocrement dur, nommé
+          <hi rend="italic">Iro</hi>
+          <ref target="#N1"/>, fit de mauvais vers à ma louange, dans lesquels il me faisait descendre de
+            Minos en droite ligne ; mais mon père ayant été disgracié, il fit d'autres vers où je ne descendais
+            plus que de Pasiphaé et de son amant. C'était un bien méchant homme que cet Iro, et le plus ennuyeux
+            coquin qui fût dans l'île.</p>
+        <p>Mon père m'envoya, à l'âge de quinze ans, étudier à Rome. J'arrivai dans l'espérance d'apprendre
+          toutes les vérités ; car jusque-là on m'avait enseigné tout le contraire, selon l'usage de ce bas
+          monde, depuis la Chine jusqu'aux Alpes. Monsignor Profondo, à qui j'étais recommandé, était un homme
+          singulier, et un des plus terribles savants qu'il y eût au monde. Il voulut m'apprendre les
+          catégories d'Aristote, et fut sur le point de me mettre dans la catégorie de ses mignons : je
+          l'échappai belle. Je vis des processions, des exorcismes, et quelques rapines. On disait, mais
+          très-faussement, que la signora Olimpia<ref target="#N2"/>,
+          personne d'une grande prudence, vendait beaucoup de choses qu'on ne doit point vendre. J'étais dans
+          un âge où tout cela me paraissait fort plaisant. Une jeune dame de mœurs très-douces, nommée
+          <hi rend="italic">la signora Fatelo,</hi>
+          s'avisa de m'aimer. Elle était courtisée par le révérend P.
+          <hi rend="italic">Poignardini,</hi>
+          et par le révérend P.
+          <hi rend="italic">Aconiti,</hi>
+          jeunes profès d'un ordre qui ne subsiste plus : elle les mit d'accord en me donnant ses bonnes
+          grâces ; mais en même temps je courus risque d'être excommunié et empoisonné. Je partis,
+          très-content de l'architecture de Saint Pierre.</p>
+        <p>Je voyageai en France ; c'était le temps du règne de Louis le Juste<ref target="#N3"/>. La
+          première chose qu'on me demanda, ce fut si je voulais à mon déjeuner un petit morceau du maréchal
+          d'Ancre, dont le peuple avait fait rôtir la chair<ref target="#N4"/>, et qu'on distribuait à fort bon compte à ceux qui en voulaient.</p>
+        <p>Cet État était continuellement en proie aux guerres civiles, quelquefois pour une place au
+          conseil, quelquefois pour deux pages de controverse. Il y avait plus de soixante ans que ce feu,
+          tantôt couvert et tantôt soufflé avec violence, désolait ces beaux climats. C'étaient là les
+          libertés de l'Église gallicane. « Hélas dis-je, ce peuple est pourtant né doux : qui peut l'avoir
+          tiré ainsi de son caractère ? Il plaisante, et il fait des Saint-Barthélemy. Heureux le temps où il
+          ne fera que plaisanter »</p>
+        <p>Je passai en Angleterre : les mêmes querelles y excitaient les mêmes fureurs. De saints
+          catholiques avaient résolu, pour le bien de l'Église, de faire sauter en l'air, avec de la poudre,
+          le roi, la famille royale, et tout le parlement, et de délivrer l'Angleterre de ces hérétiques. On
+          me montra la place où la bienheureuse reine Marie, fille de Henri VIII, avait fait brûler plus de
+          cinq cents de ses sujets. Un prêtre ibernois m'assura que c'était une très-bonne action :
+          premièrement, parce que ceux qu'on avait brûlés étaient Anglais ; en second lieu, parce qu'ils ne
+          prenaient jamais d'eau bénite, et qu'ils ne croyaient pas au trou de saint Patrice<ref target="#N5"/>.
+          Il s'étonnait surtout que la reine Marie ne fût pas encore canonisée ; mais il espérait qu'elle le
+          serait bientôt, quand le cardinal neveu aurait un peu de loisir.</p>
+        <p>J'allai en Hollande, où j'espérais trouver plus de tranquillité chez des peuples plus
+          flegmatiques. On coupait la tête à un vieillard vénérable lorsque j'arrivai à La Haye. C'était la
+          tête chauve du premier ministre Barneveldt, l'homme qui avait le mieux mérité de la république<ref target="#N6"/>.
+          Touché de pitié, je demandai quel était son crime, et s'il avait trahi l'État. « Il a fait bien pis,
+          me répondit un prédicant à manteau noir ; c'est un homme qui croit que l'on peut se sauver par les
+          bonnes œuvres aussi bien que par la foi<ref target="#N7"/>.
+          Vous sentez bien que, si de telles opinions s'établissaient, une république ne pourrait subsister,
+          et qu'il faut des lois sévères pour réprimer de si scandaleuses horreurs. » Un profond politique du
+          pays me dit en soupirant : « Hélas monsieur, le bon temps ne durera pas toujours ; ce n'est que par
+          hasard que ce peuple est si zélé ; le fond de son caractère est porté au dogme abominable de la
+          tolérance, un jour il y viendra : cela fait frémir. » Pour moi, en attendant que ce temps funeste de
+          la modération et de l'indulgence fût arrivé, je quittai bien vite un pays où la sévérité n'était
+          adoucie par aucun agrément, et je m'embarquai pour l'Espagne.</p>
+        <p>La cour était à Séville, les galions étaient arrivés, tout respirait l'abondance et la joie dans
+          la plus belle saison de l'année. Je vis au bout d'une allée d'orangers et de citronniers une espèce
+          de lice immense entourée de gradins couverts d'étoffes précieuses. Le roi, la reine, les infants,
+          les infantes, étaient sous un dais superbe. Vis-à-vis de cette auguste famille était un autre trône,
+          mais plus élevé. Je dis à un de mes compagnons de voyage : « À moins que ce trône ne soit réservé
+          pour Dieu, je ne vois pas à quoi il peut servir. » Ces indiscrètes paroles furent entendues d'un
+          grave Espagnol, et me coûtèrent cher. Cependant je m'imaginais que nous allions voir quelque
+          carrousel ou quelque fête de taureaux, lorsque le grand inquisiteur parut sur ce trône, d'où il
+          bénit le roi et le peuple.</p>
+        <p>Ensuite vint une armée de moines défilant deux à deux, blancs, noirs, gris, chaussés, déchaussés,
+          avec barbe, sans barbe, avec capuchon pointu, et sans capuchon ; puis marchait le bourreau ; puis on
+          voyait au milieu des alguazils et des grands environ quarante personnes couvertes de sacs sur
+          lesquels on avait peint des diables et des flammes. C'étaient des juifs qui n'avaient pas voulu
+          renoncer absolument à Moïse, c'étaient des chrétiens qui avaient épousé leurs commères, ou qui
+          n'avaient pas adoré Notre-Dame d'Atocha<ref target="#N8"/>,
+          ou qui n'avaient pas voulu se défaire de leur argent comptant en faveur des frères hiéronymites. On
+          chanta dévotement de très belles prières, après quoi on brûla à petit feu tous les coupables ; de
+          quoi toute la famille royale parut extrêmement édifiée.</p>
+        <p>Le soir, dans le temps que j'allais me mettre au lit, arrivèrent chez moi deux familiers de
+          l'Inquisition avec la sainte Hermandad : ils m'embrassèrent tendrement, et me menèrent, sans me dire
+          un seul mot, dans un cachot très-frais, meublé d'un lit de natte et d'un beau crucifix. Je restai là
+          six semaines, au bout desquelles le révérend père inquisiteur m'envoya prier de venir lui parler :
+          il me serra quelque temps entre ses bras, avec une affection toute paternelle ; il me dit qu'il
+          était sincèrement affligé d'avoir appris que je fusse si mal logé ; mais que tous les appartements
+          de la maison étaient remplis, et qu'une autre fois il espérait que je serais plus à mon aise.
+          Ensuite il me demanda cordialement si je ne savais pas pourquoi j'étais là. Je dis au révérend père
+          que c'était apparemment pour mes péchés. « Eh bien, mon cher enfant, pour quel péché ? parlez-moi
+          avec confiance. » J'eus beau imaginer, je ne devinai point ; il me mit charitablement sur les voies.</p>
+        <p>Enfin je me souvins de mes indiscrètes paroles. J'en fus quitte pour la discipline et une amende
+          de trente mille réales. On me mena faire la révérence au grand inquisiteur : c'était un homme poli,
+          qui me demanda comment j'avais trouvé sa petite fête. Je lui dis que cela était délicieux, et
+          j'allai presser mes compagnons de voyage de quitter ce pays, tout beau qu'il est. Ils avaient eu le
+          temps de s'instruire de toutes les grandes choses que les Espagnols avaient faites pour la religion.
+          Ils avaient lu les mémoires du fameux évêque de Chiapa<ref target="#N9"/>,
+          par lesquels il paraît qu'on avait égorgé, ou brûlé, ou noyé dix millions d'infidèles en Amérique
+          pour les convertir. Je crus que cet évêque exagérait ; mais quand on réduirait ces sacrifices à cinq
+          millions de victimes, cela serait encore admirable.</p>
+        <p>Le désir de voyager me pressait toujours. J'avais compté finir mon tour de l'Europe par la
+          Turquie ; nous en prîmes la route. Je me proposai bien de ne plus dire mon avis sur les fêtes que je
+          verrais. « Ces Turcs, dis-je à mes compagnons, sont des mécréants qui n'ont point été baptisés, et
+          qui par conséquent seront bien plus cruels que les révérends pères inquisiteurs. Gardons le silence
+          quand nous serons chez les mahométans. »</p>
+        <p>J'allai donc chez eux. Je fus étrangement surpris de voir en Turquie beaucoup plus d'églises
+          chrétiennes qu'il n'y en avait dans Candie. J'y vis jusqu'à des troupes nombreuses de moines qu'on
+          laissait prier la vierge Marie librement, et maudire Mahomet, ceux-ci en grec, ceux-là en latin,
+          quelques autres en arménien<ref target="#N10"/>.
+          « Les bonnes gens que les Turcs » m'écriai-je. Les chrétiens grecs et le chrétiens latins étaient
+          ennemis mortels dans Constantinople ; ces esclaves se persécutaient les uns les autres, comme des
+          chiens qui se mordent dans la rue, et à qui leurs maîtres donnent des coups de bâtons pour les
+          séparer. Le grand-vizir protégeait alors les Grecs. Le patriarche grec m'accusa d'avoir soupé chez
+          le patriarche latin, et je fus condamné en plein divan à cent coups de latte sur la plante des
+          pieds, rachetables de cinq cents sequins. Le lendemain le grand-vizir fut étranglé ; le surlendemain
+          son successeur, qui était pour le parti des Latins, et qui ne fut étranglé qu'un mois après, me
+          condamna à la même amende pour avoir soupé chez le patriarche grec. Je fus dans la triste nécessité
+          de ne plus fréquenter ni l'Église grecque ni la latine. Pour m'en consoler, je pris à loyer une fort
+          belle Circassienne, qui était la personne la plus tendre dans le tête-à-tête, et la plus dévote à la
+          mosquée. Une nuit, dans les doux transports de son amour, elle s'écria en m'embrassant :
+          <hi rend="italic">Alla, Illa, Alla
+          </hi>
+          ce sont les paroles sacramentales des Turcs : je crus que c'étaient celles de l'amour ; je m'écriai
+          aussi fort tendrement : «
+          <hi rend="italic">Alla, Illa, Alla
+          </hi>
+          --- Ah me dit-elle, le Dieu miséricordieux soit loué vous êtes Turc. » Je lui dis que je le
+          bénissais de m'en avoir donné la force, et je me crus trop heureux. Le matin l'iman vint pour me
+          circoncire ; et, comme je fis quelque difficulté, le cadi du quartier, homme loyal, me proposa de
+          m'empaler : je sauvai mon prépuce et mon derrière avec mille sequins, et je m'enfuis vite en Perse,
+          résolu de ne plus entendre ni messe grecque ni latine en Turquie, et de ne plus crier :
+          <hi rend="italic">Alla, Illa, Alla
+          </hi>
+          dans un rendez-vous.</p>
+        <p>En arrivant à Ispahan on me demanda si j'étais pour le mouton noir ou pour le mouton blanc. Je
+          répondis que cela m'était fort indifférent, pourvu qu'il fût tendre. Il faut savoir que les factions
+          du
+          <hi rend="italic">mouton blanc</hi>
+          et du
+          <hi rend="italic">mouton noir</hi>
+          <ref target="#N11"/>
+          partageaient encore les Persans. On crut que je me moquais des deux partis ; de sorte que je me
+          trouvai déjà une violente affaire sur les bras aux portes de la ville : il m'en coûta encore grand
+          nombre de sequins pour me débarrasser des moutons.</p>
+        <p>Je poussai jusqu'à la Chine avec un interprète, qui m'assura que c'était là le pays où l'on
+          vivait librement et gaiement. Les Tartares s'en étaient rendus maîtres<ref target="#N12"/>,
+          après avoir tout mis à feu et à sang ; et les révérends Pères jésuites d'un côté, comme les
+          révérends Pères dominicains de l'autre, disaient qu'ils y gagnaient des âmes à Dieu, sans que
+          personne en sût rien. On n'a jamais vu de convertisseurs si zélés : car ils se persécutaient les uns
+          les autres tour à tour ; ils écrivaient à Rome des volumes de calomnies ; ils se traitaient
+          d'infidèles et de prévaricateurs pour une âme. Il y avait surtout une horrible querelle entre eux
+          sur la manière de faire la révérence. Les jésuites voulaient que les Chinois saluassent leurs pères
+          et leurs mères à la mode de la Chine, et les dominicains voulaient qu'on les saluât à la mode de
+          Rome<ref target="#N13"/>.
+          Il m'arriva d'être pris par les jésuites pour un dominicain. On me fit passer chez Sa Majesté
+          tartare pour un espion du pape. Le conseil suprême chargea un premier mandarin, qui ordonna à un
+          sergent, qui commanda à quatre sbires du pays de m'arrêter et de me lier en cérémonie. Je fus
+          conduit après cent quarante génuflexions devant Sa Majesté. Elle me fit demander si j'étais l'espion
+          du pape, et s'il était vrai que ce prince dût venir en personne le détrôner. Je lui répondis que le
+          pape était un prêtre de soixante-dix ans<ref target="#N14"/>
+          ; qu'il demeurait à quatre mille lieues de Sa Sacrée Majesté tartaro-chinoise ; qu'il avait environ
+          deux mille soldats qui montaient la garde avec un parasol ; qu'il ne détrônait personne, et que Sa
+          Majesté pouvait dormir en sûreté. Ce fut l'aventure la moins funeste de ma vie. On m'envoya à Macao,
+          d'où je m'embarquai pour l'Europe.</p>
+        <p>Mon vaisseau eut besoin d'être radoubé vers les côtes de Golconde. Je pris ce temps pour aller
+          voir la cour du grand Aurengzeb, dont on disait des merveilles dans le monde : il était alors dans
+          Delhi. J'eus la consolation de l'envisager le jour de la pompeuse cérémonie dans laquelle il reçut
+          le présent céleste que lui envoyait le shérif de La Mecque. C'était le balai avec lequel on avait
+          balayé la maison sainte, le
+          <hi rend="italic">caaba,</hi>
+          le
+          <hi rend="italic">beth Alla</hi>. Ce balai est le symbole du balai divin, qui balaye toutes les
+          ordures de l'âme. Aurengzeb ne paraissait pas en avoir besoin ; c'était l'homme le plus pieux de
+          tout l'Indoustan. Il est vrai qu'il avait égorgé un de ses frères et empoisonné son père ; vingt
+          raïas et autant d'omras étaient morts dans les supplices ; mais cela n'était rien, et on ne parlait
+          que de sa dévotion. On ne lui comparait que la sacrée majesté du sérénissime empereur de Maroc,
+          Mulei-Ismael<ref target="#N15"/>, qui coupait des têtes tous les vendredis après la prière.</p>
+        <p>Je ne disais mot ; les voyages m'avaient formé, et je sentais qu'il ne m'appartenait pas de
+          décider entre ces deux augustes souverains. Un jeune Français, avec qui je logeais, manqua, je
+          l'avoue, de respect à l'empereur des Indes et à celui de Maroc. Il s'avisa de dire
+          très-indiscrètement qu'il y avait en Europe de très-pieux souverains qui gouvernaient bien leurs
+          États et qui fréquentaient même les églises, sans pourtant tuer leurs pères et leurs frères, et sans
+          couper les têtes de leurs sujets. Notre interprète transmit en indou le discours impie de mon jeune
+          homme. Instruit par le passé, je fis vite seller mes chameaux : nous partîmes, le Français et moi.
+          J'ai su depuis que la nuit même les officiers du grand Aurengzeb étant venus pour nous prendre, ils
+          ne trouvèrent que l'interprète. Il fut exécuté en place publique, et tous les courtisans avouèrent
+          sans flatterie que sa mort était très-juste.</p>
+        <p>Il me restait de voir l'Afrique, pour jouir de toutes les douceurs de notre continent. Je la vis
+          en effet. Mon vaisseau fut pris par des corsaires nègres. Notre patron fit de grandes plaintes, il
+          leur demanda pourquoi ils violaient ainsi les lois des nations. Le capitaine nègre lui répondit : «
+          Vous avez le nez long, et nous l'avons plat ; vos cheveux sont tout droits, et notre laine est
+          frisée ; vous avez la peau de couleur de cendre, et nous de couleur d'ébène ; par conséquent nous
+          devons, par les lois sacrées de la nature, être toujours ennemis. Vous nous achetez aux foires de la
+          côte de Guinée, comme des bêtes de somme, pour nous faire travailler à je ne sais quel emploi aussi
+          pénible que ridicule. Vous nous faites fouiller à coups de nerfs de bœuf dans des montagnes pour en
+          tirer une espèce de terre jaune qui par elle-même n'est bonne à rien, et qui ne vaut pas, à beaucoup
+          près, un bon ognon d'Égypte ; aussi quand nous vous rencontrons, et que nous sommes les plus forts,
+          nous vous faisons labourer nos champs, ou nous vous coupons le nez et les oreilles. »</p>
+        <p>On n'avait rien à répliquer à un discours si sage. J'allai labourer le champ d'une vieille
+          négresse, pour conserver mes oreilles et mon nez. On me racheta au bout d'un an. J'avais vu tout ce
+          qu'il y a de beau, de bon et d'admirable sur la terre : je résolus de ne plus voir que mes pénates.
+          Je me mariai chez moi : je fus cocu, et je vis que c'était l'état le plus doux de la vie.</p>
+        <trailer>FIN DE L'HISTOIRE DES VOYAGES DE SCARMENTADO.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="notes">
+        <note xml:id="N1">Anagramme de Roi, poëte né avec des talents, que son penchant pour la satire, les
+          aventures qui en furent la suite, sa jalousie contre les hommes de la littérature qui leur étaient
+          supérieurs, avilirent et rendirent malheureux. Le ballet des
+          <hi rend="italic">Éléments</hi>
+          et l'opéra de
+          <hi rend="italic">Callirhoé</hi>
+          sont les seuls de ses ouvrages qui lui aient survécu : ils moururent vieux, et avait fini par se
+          faire dévot. (K.)</note>
+        <note xml:id="N2">Belle-sœur d'Innocent X.</note>
+        <note xml:id="N3">Louis XIII eu dès son enfance, dit Voltaire, le surnom de Juste, parce qu'il était
+          né sous le signe de la Balance. Voyez tome XIV, le
+          <hi rend="italic">Siècle de Louis XIV,</hi>
+          chapitre ii.</note>
+        <note xml:id="N4">Voyez tome XII, page 576.</note>
+        <note xml:id="N5">Sur le trou de saint Patrice, voyez tome XX, page 394 ; et dans les
+          <hi rend="italic">Mélanges,</hi>
+          année 1765, la septième lettre des
+          <hi rend="italic">Lettres sur les miracles</hi>.</note>
+        <note xml:id="N6">Voyez l'<hi rend="italic">Essai sur les Mœurs,</hi>
+          chapitre clxxxvii.</note>
+        <note xml:id="N7">Barneveldt était arminien.</note>
+        <note xml:id="N8">Sur Notre-Dame d'Atocha, voyez dans les
+          <hi rend="italic">Mélanges,</hi>
+          année 1769, une des notes de Voltaire sur son
+          <hi rend="italic">Extrait d'un journal</hi>
+          (ou Mémoires de Dangeau).</note>
+        <note xml:id="N9">Les Cases : voyez tome XII, pages 384 et 401 ; et tome XX, page 597.</note>
+        <note xml:id="N10">Voyez tome XII, page 103.</note>
+        <note xml:id="N11">Voyez tome XII, page 93.</note>
+        <note xml:id="N12">Voyez tome XIII, page 163.</note>
+        <note xml:id="N13">Sur les querelles des cérémonies chinoises, voyez, tome XV, le chapitre xxxix du
+          <hi rend="italic">Siècle de Louis XIV</hi>.</note>
+        <note xml:id="N14">Innocent X, qui a régné de 1644 à 1655.</note>
+        <note xml:id="N15">Voltaire a parlé d'Aurengzeb et de Mulei-Ismael, au tome XIII, pages 140 et 157.</note>
+      </div>
+    </back>
+  </text>
+</TEI>
