@@ -51,7 +51,7 @@ xpaths = {"xmlid": "//tei:TEI/@xml:id",
           "resp_encoding": "//tei:respStmt[2]/tei:name/text()",
           }
 
-ordering = ["filename", "au-name", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling",
+ordering = ["filename", "au-name", "au-birth", "au-death", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling",
             "data-capture", "token count", "size", "bgrf", "author_wikidata", "title_wikidata", "lang",
             "publisher", "distributor", "distribution_date", "copyright_status", "digitalSource_Title",
             "digitalSource_Ref",
@@ -312,8 +312,8 @@ def main(path, xpaths, ordering, sorting):
                 xml, txt = open_file(teiFile)
                 name, birth, death, au_gender, size = get_authordata(xml)
                 count = get_count(txt)
-                keys.extend(["au-name", "au-gender", "token count", "size"])
-                metadata.extend([name, au_gender, count, size])
+                keys.extend(["au-name", "au-birth", "au-death", "au-gender", "token count", "size"])
+                metadata.extend([name, birth, death, au_gender, count, size])
                 for key, xpath in xpaths.items():
                     metadatum = get_metadatum(xml, xpath, key)
                     keys.append(key)
