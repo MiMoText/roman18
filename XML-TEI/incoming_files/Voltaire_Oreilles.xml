@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Voltaire_Oreilles" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="bgrf:75.46">Les oreilles du comte de Chesterfield: MiMoText edition</title>
+        <author ref="viaf:0 wikidata:0">François-Marie Arouet Voltaire(xxxx-xxxx)</author>
+        <respStmt>
+          <resp>data capture</resp>
+          <name>wikisource</name>
+        </respStmt>
+        <respStmt>
+          <resp>encoding</resp>
+          <name/>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name>Julia Röttgermann</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words">0</measure>
+      </extent>
+      <publicationStmt>
+        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
+        <distributor ref="https://github.com/mimotext/roman18.git">Github</distributor>
+        <date>2022</date>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>TO DO</title>
+          <author/>
+          <ref target="https://fr.wikisource.org/wiki/Les_Oreilles_du_Comte_de_Chesterfield_et_le_Chapelain_Goudman"/>
+          <date/>
+        </bibl>
+        <bibl type="printSource">
+          <title>TO DO</title>
+          <author/>
+          <pubPlace/>
+          <publisher/>
+          <date/>
+        </bibl>
+        <bibl type="firstEdition">
+          <date>1775</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="eltec-x">
+      <p/>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">heterodiegetic</term>
+          <term type="spelling">modern</term>
+          <term type="data-capture">semi-automatic transcription</term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-05-18">Initial ELTeC level 1</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="titlepage">
+        <p>Les Oreilles du comte de Chesterfield et le Chapelain Goudman</p>
+        <p>Voltaire</p>
+        <p>Garnier, Paris, 1877</p>
+        <p>Exporté de Wikisource le 23 février 2022</p>
+        <p>LES OREILLES</p>
+        <p>DU COMTE</p>
+        <p>DE CHESTERFIELD</p>
+        <p>ET</p>
+        <p>LE CHAPELAIN GOUDMAN</p>
+        <p>(1775)</p>
+        <p>Chap. I. </p>
+        <p>--- II. </p>
+        <p>--- III. </p>
+        <p>--- IV. </p>
+        <p>Conversation du docteur Goudman et de l'anatomiste Sidrac, sur l'âme et sur quelque autre chose </p>
+        <p>--- V. </p>
+        <p>--- VI. </p>
+        <p>--- VII. </p>
+        <p>--- VIII. </p>
+      </div>
+    </front>
+    <body>
+      <div type="chapter">
+        <head>CHAPITRE I.</head>
+        <p>Ah  la fatalité gouverne irrémissiblement toutes les choses de ce monde. J'en juge, comme de raison, par mon aventure.</p>
+        <p>Milord Chesterfield, qui m'aimait fort, m'avait promis de me faire du bien. Il vaquait un bon <hi rend="italic">preferment</hi>
+          <ref target="#N1"/> à sa nomination. Je cours du fond de ma province à Londres ; je me présente à milord ; je le fais souvenir de ses promesses ; il me serre la main avec amitié, et me dit qu'en effet j'ai bien mauvais visage. Je lui réponds que mon plus grand mal est la pauvreté. Il me réplique qu'il veut me faire guérir, et me donne sur-le-champ une lettre pour M. Sidrac, près de Guildhall.</p>
+        <p>Je ne doute pas que M. Sidrac ne soit celui qui doit m'expédier les provisions de ma cure. Je vole chez lui. M. Sidrac, qui était le chirurgien de milord, se met incontinent en devoir de me sonder, et m'assure que, si j'ai la pierre, il me taillera très-heureusement.</p>
+        <p>Il faut savoir que milord avait entendu que j'avais un grand mal à la vessie, et qu'il avait voulu, selon sa générosité ordinaire, me faire tailler à ses dépens. Il était sourd, aussi bien que monsieur son frère, et je n'en étais pas encore instruit.</p>
+        <p>Pendant le temps que je perdis à défendre ma vessie contre M. Sidrac, qui voulait me sonder à toute force, un des cinquante-deux compétiteurs qui prétendaient au même bénéfice arriva chez milord, demanda ma cure, et l'emporta.</p>
+        <p>J'étais amoureux de Miss Fidler, que je devais épouser dès que je serais curé ; mon rival eut ma place et ma maîtresse.</p>
+        <p>Le comte, ayant appris mon désastre et sa méprise, me promit de tout réparer ; mais il mourut deux jours après.</p>
+        <p>M. Sidrac me fit voir, clair comme le jour, que mon bon protecteur ne pouvait pas vivre une minute de plus, vu la constitution présente de ses organes, et me prouva que sa surdité<ref target="#N2"/> ne venait que de l'extrême sécheresse de la corde et du tambour de son oreille. Il m'offrit même d'endurcir mes deux oreilles avec de l'esprit-de-vin, de façon à me rendre plus sourd qu'aucun pair du royaume.</p>
+        <p>Je compris que M. Sidrac était un très-savant homme. Il m'inspira du goût pour la science de la nature. Je voyais d'ailleurs que c'était un homme charitable qui me taillerait gratis dans l'occasion, et qui me soulagerait dans tous les accidents qui pourraient m'arriver vers le col de la vessie.</p>
+        <p>Je me mis donc à étudier la nature sous sa direction, pour me consoler de la perte de ma cure et de ma maîtresse.</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE II.</head>
+        <p>Après bien des observations sur la nature, faites avec mes cinq sens, des lunettes, des microscopes, je dis un jour à M. Sidrac : « On se moque de nous ; il n'y a point de nature, tout est art. C'est par un art admirable que toutes les planètes dansent régulièrement autour du soleil, tandis que le soleil fait la roue sur lui-même. Il faut assurément que quelqu'un d'aussi savant que la Société royale de Londres ait arrangé les choses de manière que le carré des révolutions de chaque planète soit toujours proportionnel à la racine du cube de leur distance à leur centre ; et il faut être sorcier pour le deviner.</p>
+        <p>« Le flux et le reflux de notre Tamise me paraît l'effet constant d'un art non moins profond et non moins difficile à connaître.</p>
+        <p>« Animaux, végétaux, minéraux, tout me paraît arrangé avec poids, mesure, nombre, mouvement. Tout est ressort, levier, poulie, machine hydraulique, laboratoire de chimie, depuis l'herbe jusqu'au chêne, depuis la puce jusqu'à l'homme, depuis un grain de sable jusqu'à nos nuées.</p>
+        <p>« Certainement il n'y a que de l'art, et la nature est une chimère.</p>
+        <p>--- Vous avez raison, me répondit M. Sidrac, mais vous n'en avez pas les gants ; cela a déjà été dit par un rêveur de la la Manche<ref target="#N3"/>, mais on n'y a pas fait attention.</p>
+        <p>--- Ce qui m'étonne, et ce qui me plaît le plus, c'est que, par cet art incompréhensible, deux machines en produisent toujours une troisième ; et je suis bien fâché de n'en avoir pas fait une avec miss Fidler ; mais je vois bien qu'il était arrangé de toute éternité que miss Fidler emploierait une autre machine que moi.</p>
+        <p>--- Ce que vous dites, me répliqua M. Sidrac, a été encore dit, et tant mieux : c'est une probabilité que vous pensez juste. Oui, il est fort plaisant que deux êtres en produisent un troisième ; mais cela n'est pas vrai de tous les êtres. Deux roses ne produisent point une troisième rose en se baisant ; deux cailloux, deux métaux, n'en produisent pas un troisième ; et cependant un métal, une pierre, sont des choses que toute l'industrie humaine ne saurait faire. Le grand, le beau miracle continuel est qu'un garçon et une fille fassent un enfant ensemble, qu'un rossignol fasse un rossignolet à sa rossignole, et non pas à une fauvette. Il faudrait passer la moitié de sa vie à les imiter, et l'autre moitié à bénir celui qui inventa cette méthode. Il y a dans la génération mille secrets tout à fait curieux. Newton dit que la nature se ressemble partout : <hi rend="italic">Natura est ubique sibi consona</hi>. Cela est faux en amour ; les poissons, les reptiles, les oiseaux, ne font point l'amour comme nous : c'est une variété infinie. La fabrique des êtres sentants et agissants me ravit. Les végétaux ont aussi leur prix. Je m'étonne toujours qu'un grain de blé jeté en terre en produise plusieurs autres.</p>
+        <p>--- Ah  lui dis-je comme un sot que j'étais encore, c'est que le blé doit mourir pour naître, comme on l'a dit dans l'école<ref target="#N4"/>.</p>
+        <p>M. Sidrac me reprit en riant avec beaucoup de circonspection.</p>
+        <p>« Cela était vrai du temps de l'école, dit-il ; mais le moindre laboureur sait bien aujourd'hui que la chose est absurde.</p>
+        <p>--- Ah  monsieur Sidrac, je vous demande pardon ; mais j'ai été théologien, et on ne se défait pas tout d'un coup de ses habitudes. »</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE III.</head>
+        <p>Quelque temps après ces conversations entre le pauvre prêtre Goudman et l'excellent anatomiste Sidrac, ce chirurgien le rencontra dans le parc Saint-James, tout pensif, tout rêveur, et l'air plus embarrassé qu'un algébriste qui vient de faire un faux calcul. « Qu'avez-vous ? lui dit Sidrac ; est-ce la vessie ou le côlon qui vous tourmente ?</p>
+        <p>--- Non, dit Goudman, c'est la vésicule du fiel. Je viens de voir passer dans un bon carrosse l'évêque de Glocester<ref target="#N5"/>, qui est un pédant bavard et insolent ; j'étais à pied, et cela m'a irrité. J'ai songé que si je voulais avoir un évêché dans ce royaume, il y a dix mille à parier contre un que je ne l'aurais pas, attendu que nous sommes dix mille prêtres en Angleterre. Je suis sans aucune protection depuis la mort de milord Chesterfield, qui était sourd. Posons que les dix mille prêtres anglicans aient chacun deux protecteurs, il y aurait en ce cas vingt mille à parier contre un que je n'aurais pas l'évêché. Cela fâche quand on y fait attention.</p>
+        <p>« Je me suis souvenu qu'on m'avait proposé autrefois d'aller aux grandes Indes en qualité de mousse ; on m'assurait que j'y ferais une grande fortune, mais je ne me sentis pas propre à devenir un jour amiral. Et, après avoir examiné toutes les professions, je suis resté prêtre sans être bon à rien.</p>
+        <p>--- Ne soyez plus prêtre, lui dit Sidrac, et faites-vous philosophe. Ce métier n'exige ni ne donne des richesses. Quel est votre revenu ?</p>
+        <p>--- Je n'ai que trente guinées de rente, et, après la mort de ma vieille tante, j'en aurai cinquante.</p>
+        <p>--- Allons, mon cher Goudman, c'est assez pour vivre libre et pour penser. Trente guinées font six cent trente schellings : c'est près de deux schellings par jour. Philips n'en voulait qu'un seul. On peut, avec ce revenu assuré, dire tout ce qu'on pense de la compagnie des Indes, du parlement, de nos colonies, du roi, de l'être en général, de l'homme, et de Dieu, ce qui est un grand amusement. Venez dîner avec moi, cela vous épargnera de l'argent ; nous causerons, et votre faculté pensante aura le plaisir de se communiquer à la mienne par le moyen de la parole : ce qui est une chose merveilleuse que les hommes n'admirent pas assez. »</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE IV.</head>
+        <p>CONVERSATION DU DOCTEUR GOUDMAN ET L'ANATOMISTE SIDRAC SUR L'ÂME ET SUR QUELQUE AUTRE CHOSE.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Mais, mon cher Sidrac, pourquoi dites-vous toujours <hi rend="italic">ma faculté pensante ?</hi> Que ne dites-vous mon âme, tout court ? Cela serait plus tôt fait, et je vous entendrais tout aussi bien.</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Et moi, je ne m'entendrais pas. Je sens bien, je sais bien que Dieu m'a donné la faculté de penser et de parler ; mais je ne sens ni ne sais s'il m'a donné un être qu'on appelle âme.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Vraiment, quand j'y réfléchis, je vois que je n'en sais rien non plus, et que j'ai été longtemps assez hardi pour croire le savoir. J'ai remarqué que les peuples orientaux appelèrent l'âme d'un nom qui signifiait la vie. À leur exemple, les Latins entendirent d'abord par <hi rend="italic">anima</hi> la vie de l'animal. Chez les Grecs on disait la respiration de l'âme. Cette respiration est un souffle. Les Latins traduisirent le mot <hi rend="italic">souffle</hi> par <hi rend="italic">spiritus :</hi> de là le mot qui répond à <hi rend="italic">esprit</hi> chez presque toutes les nations modernes. Comme personne n'a jamais vu ce souffle, cet esprit, on en a fait un être que personne ne peut voir ni toucher. On a dit qu'il logeait dans notre corps sans y tenir de place, qu'il remuait nos organes sans les atteindre. Que n'a-t-on pas dit ? Tous nos discours, à ce qu'il me semble, ont été fondés sur des équivoques. Je vois que le sage Locke a bien senti dans quel chaos ces équivoques de toutes les langues avaient plongé la raison humaine. Il n'a fait aucun chapitre sur l'âme dans le seul livre de métaphysique raisonnable<ref target="#N6"/> qu'on ait jamais écrit. Et si, par hasard, il prononce ce mot en quelques endroits, ce mot ne signifie chez lui que notre intelligence.</p>
+        <p>En effet, tout le monde sent bien qu'il a une intelligence, qu'il reçoit des idées, qu'il en assemble, qu'il en décompose ; mais personne ne sent qu'il ait dans lui un autre être qui lui donne du mouvement, des sensations et des pensées. Il est, au fond, ridicule de prononcer des mots qu'on n'entend pas, et d'admettre des êtres dont on ne peut avoir la plus légère connaissance.</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Nous voilà donc déjà d'accord sur une chose qui a été un objet de dispute pendant tant de siècles.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Et j'admire que nous soyons d'accord.</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Cela n'est pas étonnant, nous cherchons le vrai de bonne foi. Si nous étions sur les bancs de l'école, nous argumenterions comme les personnages de Rabelais. Si nous vivions dans les siècles de ténèbres affreuses qui enveloppèrent si longtemps l'Angleterre, l'un de nous deux ferait peut-être brûler l'autre. Nous sommes dans un siècle de raison ; nous trouvons aisément ce qui nous paraît la vérité, et nous osons la dire.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Oui, mais j'ai peur que cette vérité ne soit bien peu de chose. Nous avons fait en mathématique des prodiges qui étonneraient Apollonius et Archimède, et qui les rendraient nos écoliers ; mais en métaphysique, qu'avons-nous trouvé ? Notre ignorance.</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Et n'est-ce rien ? Vous convenez que le grand Être vous a donné une faculté de sentir et de penser, comme il a donné à vos pieds la faculté de marcher, à vos mains le pouvoir de faire mille ouvrages, à vos viscères le pouvoir de digérer, à votre cœur le pouvoir de pousser votre sang dans vos artères. Nous tenons tout de lui ; nous n'avons rien pu nous donner, et nous ignorerons toujours la manière dont le maître de l'univers s'y prend pour nous conduire. Pour moi, je lui rends grâce de m'avoir appris que je ne sais rien des premiers principes.</p>
+        <p>On a toujours recherché comment l'âme agit sur le corps. Il fallait d'abord savoir si nous en avions une. Ou Dieu nous a fait ce présent, ou il nous a communiqué quelque chose qui en est l'équivalent. De quelque manière qu'il s'y soit pris, nous sommes sous sa main. Il est notre maître, voilà tout ce que je sais.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Mais, au moins, dites-moi ce que vous en soupçonnez. Vous avez disséqué des cerveaux, vous avez vu des embryons et des fœtus : y avez vous découvert quelque apparence d'âme ?</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Pas la moindre, et je n'ai jamais pu comprendre comment un être immatériel, immortel, logeait pendant neuf mois inutilement caché dans une membrane puante entre de l'urine et des excréments. Il m'a paru difficile de concevoir que cette prétendue âme simple existât avant la formation de son corps : car à quoi aurait-elle servi pendant des siècles sans être âme humaine ? Et puis comment imaginer un être simple, un être métaphysique, qui attend pendant une éternité le moment d'animer de la matière pendant quelques minutes ? Que devient cet être inconnu si le fœtus qu'il doit animer meurt dans le ventre de sa mère ?</p>
+        <p>Il m'a paru encore plus ridicule que Dieu créât une âme au moment qu'un homme couche avec une femme. Il m'a semblé blasphématoire que Dieu attendît la consommation d'un adultère, d'un inceste, pour récompenser ces turpitudes en créant des âmes en leur faveur. C'est encore pis quand on me dit que Dieu tire du néant des âmes immortelles pour leur faire souffrir éternellement des tourments incroyables. Quoi  brûler des êtres simples, des êtres qui n'ont rien de brûlable  Comment nous y prendrions-nous pour brûler un son de voix, un vent qui vient de passer ? Encore ce son, ce vent, étaient matériels dans le petit moment de leur passage ; mais un esprit pur, une pensée, un doute ? Je m'y perds. De quelque côté que je me tourne, je ne trouve qu'obscurité, contradiction, impossibilité, ridicule, rêverie, impertinence, chimère, absurdité, bêtise, charlatanerie.</p>
+        <p>Mais je suis à mon aise quand je me dis : Dieu est le maître. Celui qui fait graviter des astres innombrables les uns vers les autres, celui qui fit la lumière, est bien assez puissant pour nous donner des sentiments et des idées, sans que nous ayons besoin d'un petit atome étranger, invisible, appelé <hi rend="italic">âme</hi>.</p>
+        <p>Dieu a donné certainement du sentiment, de la mémoire, de l'industrie à tous les animaux. Il leur a donné la vie, et il est bien aussi beau de faire présent de la vie que de faire présent d'une âme. Il est assez reçu que les animaux vivent : il est démontré qu'ils ont du sentiment, puisqu'ils ont les organes du sentiment. Or, s'ils ont tout cela sans âme, pourquoi voulons-nous à toute force en avoir une ?</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Peut-être c'est par vanité. Je suis persuadé que si un paon pouvait parler, il se vanterait d'avoir une âme, et il dirait que son âme est dans sa queue. Je me sens très-enclin à soupçonner avec vous que Dieu nous a faits mangeants, buvants, marchants, dormants, sentants, pensants, pleins de passions, d'orgueil et de misère, sans nous dire un mot de son secret. Nous n'en savons pas plus sur cet article que ce paon dont je parle ; et celui qui a dit que nous naissons, vivons, et mourons sans savoir comment, a dit une grande vérité.</p>
+        <p>Celui<ref target="#N7"/> qui nous appelle les marionnettes de la Providence me paraît nous avoir bien définis, car enfin, pour que nous existions il faut une infinité de mouvements. Or nous n'avons pas fait le mouvement ; ce n'est pas nous qui en avons établi les lois. Il y a quelqu'un qui, ayant fait la lumière, la fait mouvoir du soleil à nos yeux, et y arriver en sept minutes. Ce n'est que par le mouvement que mes cinq sens sont remués ; ce n'est que par ces cinq sens que j'ai des idées : donc c'est l'Auteur du mouvement qui me donne mes idées. Et, quand il me dira de quelle manière il me les donne, je lui rendrai de très-humbles actions de grâces. Je lui en rends déjà beaucoup de m'avoir permis de contempler pendant quelques années le magnifique spectacle de ce monde, comme disait Épictète. Il est vrai qu'il pouvait me rendre plus heureux, et me faire avoir un bon bénéfice et ma maîtresse miss Fidler ; mais enfin, tel que je suis avec mes six cent trente schellings de rente, je lui ai encore bien de l'obligation.</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Vous dites que Dieu pouvait vous donner un bon bénéfice, et qu'il pouvait vous rendre plus heureux que vous n'êtes. Il y a des gens qui ne vous passeraient pas cette proposition. Eh  ne vous souvenez-vous pas que vous-même vous vous êtes plaint de la fatalité ? Il n'est pas permis à un homme qui a voulu être curé de se contredire. Ne voyez-vous pas que, si vous aviez eu la cure et la femme que vous demandiez, ce serait vous qui auriez fait un enfant à miss Fidler, et non pas votre rival ? L'enfant dont elle aurait accouché aurait pu être mousse, devenir amiral, gagner une bataille navale à l'embouchure du Gange, et achever de détrôner le Grand Mogol. Cela seul aurait changé la constitution de l'univers. Il aurait fallu un monde tout différent du nôtre pour que votre compétiteur n'eût pas la cure, pour qu'il n'épousât pas miss Fidler, pour que vous ne fussiez pas réduit à six cent trente schellings, en attendant la mort de votre tante. Tout est enchaîné ; et Dieu n'ira pas rompre la chaîne éternelle pour mon ami Goudman.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Je ne m'attendais pas à ce raisonnement quand je parlais de fatalité ; mais enfin, si cela est ainsi, Dieu est donc esclave tout comme moi ?</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Il est esclave de sa volonté, de sa sagesse, des propres lois qu'il a faites, de sa nature nécessaire. Il ne peut les enfreindre, parce qu'il ne peut être faible, inconstant, volage comme nous, et que l'Être nécessairement éternel ne peut être une girouette.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Monsieur Sidrac, cela pourrait mener tout droit à l'irréligion : car, si Dieu ne peut rien changer aux affaires de ce monde, à quoi bon chanter ses louanges, à quoi bon lui adresser des prières ?</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Eh  qui vous dit de prier Dieu et de le louer ? Il a vraiment bien affaire de vos louanges et de vos placets  On loue un homme parce qu'on le croit vain ; on le prie quand on le croit faible, et qu'on espère le faire changer d'avis. Faisons notre devoir envers Dieu, adorons-le, soyons justes : voilà nos vraies louanges, nos vraies prières.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Monsieur Sidrac, nous avons embrassé bien du terrain, car, sans compter miss Fidler, nous examinons si nous avons une âme, s'il y a un Dieu, s'il peut changer, si nous sommes destinés à deux vies, si... Ce sont là de profondes études, et peut-être je n'y aurais jamais pensé si j'avais été curé. Il faut que j'approfondisse ces choses nécessaires et sublimes puisque je n'ai rien à faire.</p>
+        <p>
+          <hi rend="caps">SIDRAC.</hi>
+        </p>
+        <p>Eh bien  demain le docteur Grou vient dîner chez moi : c'est un médecin fort instruit ; il a fait le tour du monde avec MM. Banks et Solander<ref target="#N8"/> ; il doit certainement connaître Dieu et l'âme, le vrai et le faux, le juste et l'injuste, bien mieux que ceux qui ne sont jamais sortis de Covent-Garden. De plus, le docteur Grou a vu presque toute l'Europe dans sa jeunesse ; il a été témoin de cinq ou six révolutions en Russie ; il a fréquenté le bacha comte de Bonneval, qui était devenu, comme on sait, un parfait musulman à Constantinople. Il a été lié avec le prêtre papiste MacCarthy, Irlandais, qui se fit couper le prépuce à l'honneur de Mahomet, et avec notre presbytérien écossais Ramsay, qui en fit autant, et qui ensuite servit en Russie, et fut tué dans une bataille contre les Suédois en Finlande. Enfin il a conversé avec le révérend P. Malagrida, qui a été brûlé depuis à Lisbonne, parce que la sainte Vierge lui avait révélé tout ce qu'elle avait fait lorsqu'elle était dans le ventre de sa mère sainte Anne.</p>
+        <p>Vous sentez bien qu'un homme comme M. Grou, qui a vu tant de choses, doit être le plus grand métaphysicien du monde. À demain donc chez moi à dîner.</p>
+        <p>
+          <hi rend="caps">GOUDMAN.</hi>
+        </p>
+        <p>Et après-demain encore, mon cher Sidrac : car il faut plus d'un dîner pour s'instruire.</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE V.</head>
+        <p>Le lendemain, les trois penseurs dînèrent ensemble ; et comme ils devenaient un peu plus gais sur la fin du repas, selon la coutume des philosophes qui dînent, on se divertit à parler de toutes les misères, de toutes les sottises, de toutes les horreurs qui affligent le genre animal, depuis les terres australes jusqu'auprès du pôle arctique, et depuis Lima jusqu'à Méaco. Cette diversité d'abominations ne laisse pas d'être fort amusante. C'est un plaisir que n'ont point les bourgeois casaniers et les vicaires de paroisse, qui ne connaissent que leur clocher, et qui croient que tout le reste de l'univers est fait comme <hi rend="italic">exchange-alley</hi> à Londres, ou comme la rue de la Huchette à Paris.</p>
+        <p>« Je remarque, dit le docteur Grou, que, malgré la variété infinie répandue sur ce globe, cependant tous les hommes que j'ai vus, soit noirs à laine, soit noirs à cheveux, soit bronzés, soit rouges, soit bis, qui s'appellent blancs, ont également deux jambes, deux yeux, et une tête sur leurs épaules, quoi qu'en ait dit saint Augustin, qui, dans son trente-septième sermon, assure qu'il a vu des acéphales, c'est-à-dire des hommes sans tête, des monocules qui n'ont qu'un œil, et des monopèdes qui n'ont qu'une jambe. Pour des anthropopages, j'avoue qu'on en regorge, et que tout le monde l'a été.</p>
+        <p>« On m'a souvent demandé si les habitants de ce pays immense nommé la Nouvelle-Zélande, qui sont aujourd'hui les plus barbares de tous les barbares, étaient baptisés. J'ai répondu que je n'en savais rien, que cela pouvait être ; que les Juifs, qui étaient plus barbares qu'eux, avaient eu deux baptêmes au lieu d'un, le baptême de justice et le baptême de domicile.</p>
+        <p>--- Vraiment, je les connais, dit M. Goudman, et j'ai eu sur cela de grandes disputes avec ceux qui croient que nous avons inventé le baptême. Non, messieurs, nous n'avons rien inventé, nous n'avons fait que rapetasser. Mais, dites-moi, je vous en prie, monsieur Grou, de quatre-vingts ou cent religions que vous avez vues en chemin, laquelle vous a paru la plus agréable : est-ce celle des Zélandais ou celle des Hottentots ?</p>
+        <p>
+          <hi rend="caps">M. GROU.</hi>
+        </p>
+        <p>C'est celle de l'île d'Otaïti, sans aucune comparaison. J'ai parcouru les deux hémisphères ; je n'ai rien vu comme Otaïti et sa religieuse reine. C'est dans Otaïti que la nature habite. Je n'ai vu ailleurs que des masques ; je n'ai vu que des fripons qui trompent des sots, des charlatans qui escamotent l'argent des autres pour avoir de l'autorité, et qui escamotent de l'autorité pour avoir de l'argent impunément ; qui vous vendent des toiles d'araignée pour manger vos perdrix ; qui vous promettent richesses et plaisirs quand il n'y aura plus personne, afin que vous tourniez la broche pendant qu'ils existent.</p>
+        <p>Pardieu  il n'en est pas de même dans l'île d'Aïti, ou d'Otaïti. Cette île est bien plus civilisée que celle de Zélande et que le pays des Cafres, et, j'ose dire, que notre Angleterre, parce que la nature l'a favorisée d'un sol plus fertile ; elle lui a donné l'arbre à pain, présent aussi utile qu'admirable, qu'elle n'a fait qu'à quelques îles de la mer du Sud. Otaïti possède d'ailleurs beaucoup de volailles, de légumes et de fruits. On n'a pas besoin dans un tel pays de manger son semblable ; mais il y a un besoin plus naturel, plus doux, plus universel, que la religion d'Otaïti ordonne de satisfaire en public. C'est de toutes les cérémonies religieuses la plus respectable sans doute ; j'en ai été témoin, aussi bien que tout l'équipage de notre vaisseau. Ce ne sont point ici des fables de missionnaires, telles qu'on en trouve quelquefois dans les <hi rend="italic">Lettres édifiantes et curieuses</hi> des révérends pères jésuites. Le docteur Jean Hawkesworth<ref target="#N9"/> achève actuellement de faire imprimer nos découvertes dans l'hémisphère méridional. J'ai toujours accompagné M. Banks, ce jeune homme si estimable qui a consacré son temps et son bien à observer la nature vers le pôle antarctique, tandis que MM. Dakins et Wood revenaient des ruines de Palmyre et de Balbek<ref target="#N10"/>, où ils avaient fouillé les plus anciens monuments des arts, et que M. Hamilton apprenait aux Napolitains étonnés l'histoire naturelle de leur mont Vésuve<ref target="#N11"/>. Enfin j'ai vu avec MM. Banks, Solander, Cook, et cent autres, ce que je vais vous raconter.</p>
+        <p>La princesse Obéira, reine de l'île Otaïti... »</p>
+        <p>Alors on apporta le café, et, dès qu'on l'eut pris, M. Grou continua ainsi son récit.</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE VI.</head>
+        <p>« La princesse Obéira, dis-je, après nous avoir comblés de présents avec une politesse digne d'une reine d'Angleterre, fut curieuse d'assister un matin à notre service anglican. Nous le célébrâmes aussi pompeusement que nous pûmes. Elle nous invita au sien l'après-dîner ; c'était le 14 mai 1769. Nous la trouvâmes entourée d'environ mille personnes des deux sexes rangées en demi-cercle, et dans un silence respectueux. Une jeune fille très-jolie, simplement parée d'un déshabillé galant, était couchée sur une estrade qui servait d'autel. La reine Obéira ordonna à un beau garçon d'environ vingt ans d'aller sacrifier. Il prononça une espèce de prière, et monta sur l'autel. Les deux sacrificateurs étaient à demi nus. La reine, d'un air majestueux, enseignait à la jeune victime la manière la plus convenable de consommer le sacrifice. Tous les Otaïtiens étaient si attentifs et si respectueux qu'aucun de nos matelots n'osa troubler la cérémonie par un rire indécent. Voilà ce que j'ai vu, vous dis-je ; voilà tout ce que notre équipage a vu : c'est à vous d'en tirer les conséquences.</p>
+        <p>--- Cette fête sacrée ne m'étonne pas, dit le docteur Goudman. Je suis persuadé que c'est la première fête que les hommes aient jamais célébrée, et je ne vois pas pourquoi on ne prierait pas Dieu lorsqu'on va faire un être à son image, comme nous le prions avant les repas qui servent à soutenir notre corps. Travailler à faire naître une créature raisonnable est l'action la plus noble et la plus sainte. C'est ainsi que pensaient les premiers Indiens, qui révérèrent le Lingam, symbole de la génération ; les anciens Égyptiens, qui portaient en procession le Phallus ; les Grecs, qui érigèrent des temples à Priape. S'il est permis de citer la misérable petite nation juive, grossière imitatrice de tous ses voisins, il est dit dans ses livres que ce peuple adora Priape, et que la reine mère du roi juif Asa fut sa grande prêtresse<ref target="#N12"/>.</p>
+        <p>« Quoi qu'il en soit, il est très-vraisemblable que jamais aucun peuple n'établit ni ne put établir un culte par libertinage. La débauche s'y glisse quelquefois dans la suite des temps ; mais l'institution est toujours innocente et pure. Nos premières agapes, dans lesquelles les garçons et les filles se baisaient modestement sur la bouche, ne dégénérèrent qu'assez tard en rendez-vous et en infidélités ; et plût à Dieu que je pusse sacrifier avec miss Fidler devant la reine Obéira en tout bien et en tout honneur  Ce serait assurément le plus beau jour et la plus belle action de ma vie. »</p>
+        <p>M. Sidrac, qui avait jusque-là gardé le silence, parce que MM. Goudman et Grou avaient toujours parlé, sortit enfin de sa taciturnité, et dit : « Tout ce que je viens d'entendre me ravit en admiration. La reine Obéira me paraît la première reine de l'hémisphère méridional ; je n'ose dire des deux hémisphères. Mais parmi tant de gloire et tant de félicité, il y a un article qui me fait frémir, et dont M. Goudman vous a dit un mot auquel vous n'avez pas répondu. Est-il vrai, monsieur Grou, que le capitaine Wallis, qui mouilla dans cette île fortunée avant vous, y porta les deux plus horribles fléaux de la terre, les deux véroles ?</p>
+        <p>--- Hélas  reprit M. Grou, ce sont les Français qui nous en accusent, et nous en accusons les Français. M. Bougainville dit que ce sont ces maudits Anglais qui ont donné la vérole à la reine Obéira ; et M. Cook prétend que cette reine ne l'a acquise que de M. Bougainville lui-même. Quoi qu'il en soit, la vérole ressemble aux beaux-arts : on ne sait point qui en fut l'inventeur ; mais, à la longue, ils font le tour de l'Europe, de l'Asie, de l'Afrique et de l'Amérique.</p>
+        <p>--- Il y a longtemps que j'exerce la chirurgie, dit Sidrac, et j'avoue que je dois à cette vérole la plus grande partie de ma fortune ; mais je ne la déteste pas moins. Madame Sidrac me la communiqua dès la première nuit de ses noces ; et, comme c'est une femme excessivement délicate sur ce qui peut entamer son honneur, elle publia dans tous les papiers publics de Londres qu'elle était à la vérité attaquée du mal immonde, mais qu'elle l'avait apporté du ventre de madame sa mère, et que c'était une ancienne habitude de famille.</p>
+        <p>« À quoi pensa ce qu'on appelle <hi rend="italic">la nature</hi>, quand elle versa ce poison dans les sources de la vie ? On l'a dit, et je le répète, c'est la plus énorme et la plus détestable de toutes les contradictions. Quoi  l'homme a été fait, dit-on, à l'image de Dieu,</p>
+        <p>Finxit in efligiem moderantum cuncta deorum<ref target="#N13"/> :</p>
+        <p>et c'est dans les vaisseaux spermatiques de cette image qu'on a mis la douleur, l'infection, et la mort  Que deviendra ce beau vers de milord Rochester : « L'amour ferait adorer Dieu dans un pays d'athées ? »</p>
+        <p>--- Hélas  dit alors le bon Goudman, j'ai peut-être à remercier la Providence de n'avoir pas épousé ma chère miss Fidler : car sait-on ce qui serait arrivé ? On n'est jamais sûr de rien dans ce monde. En tout cas, monsieur Sidrac, vous m'avez promis votre aide dans tout ce qui concernerait ma vessie.</p>
+        <p>--- Je suis à votre service, répondit Sidrac ; mais il faut chasser ces mauvaises pensées. »</p>
+        <p>Goudman, en parlant ainsi, semblait prévoir sa destinée.</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE VII.</head>
+        <p>Le lendemain, les trois philosophes agitèrent la grande question : « Quel est le premier mobile de toutes les actions des hommes ? » Goudman, qui avait toujours sur le cœur la perte de son bénéfice et de sa bien-aimée, dit que le principe de tout était l'amour et l'ambition. Grou, qui avait vu plus de pays, dit que c'était l'argent ; et le grand anatomiste Sidrac assura que c'était la chaise percée. Les deux convives demeurèrent tout étonnés ; et voici comme le savant Sidrac prouva sa thèse.</p>
+        <p>« J'ai toujours observé que toutes les affaires de ce monde dépendaient de l'opinion et de la volonté d'un principal personnage, soit roi, soit premier ministre, soit premier commis : or cette opinion et cette volonté sont l'effet immédiat de la manière dont les esprits animaux se filtrent dans le cervelet, et de là dans la moelle allongée : ces esprits animaux dépendent de la circulation du sang ; ce sang dépend de la formation du chyle ; ce chyle s'élabore dans le réseau du mésentère ; ce mésentère est attaché aux intestins par des filets très-déliés ; ces intestins, s'il m'est permis de le dire, sont remplis de merde : or, malgré les trois fortes tuniques dont chaque intestin est vêtu, il est percé comme un crible ; car tout est à jour dans la nature, et il n'y a grain de sable si imperceptible qui n'ait plus de cinq cents pores. On ferait passer mille aiguilles à travers un boulet de canon si on en trouvait d'assez fines et d'assez fortes. Qu'arrive-t-il donc à un homme constipé ? Les éléments les plus ténus, les plus délicats de sa merde se mêlent au chyle dans les veines d'Azellius, vont à la veine-porte et dans le réservoir de Pecquet ; elles passent dans la sous-clavière ; elles entrent dans le cœur de l'homme le plus galant, de la femme la plus coquette. C'est une rosée d'étron desséché qui court dans tout son corps. Si cette rosée inonde les parenchymes, les vaisseaux et les glandes d'un atrabilaire, sa mauvaise humeur devient férocité ; le blanc de ses yeux est d'un sombre ardent ; ses lèvres sont collées l'une sur l'autre ; la couleur de son visage a des teintes brouillées ; il semble qu'il vous menace : ne l'approchez pas, et, si c'est un ministre d'État, gardez-vous de lui présenter une requête ; il ne regarde tout papier que comme un secours dont il voudrait bien se servir selon l'ancien et abominable usage des gens d'Europe. Informez-vous adroitement de son valet de chambre favori si monseigneur a poussé sa selle le matin.</p>
+        <p>« Ceci est plus important qu'on ne pense. La constipation a produit quelquefois les scènes les plus sanglantes. Mon grand-père, qui est mort centenaire, était apothicaire de Cromwell ; il m'a conté souvent que Cromwell n'avait pas été à la garde-robe depuis huit jours lorsqu'il fit couper la tête à son roi.</p>
+        <p>« Tous les gens un peu instruits des affaires du continent savent que l'on avertit souvent le duc de Guise le Balafré de ne pas fâcher Henri III en hiver pendant un vent de nord-est. Ce monarque n'allait alors à la garde-robe qu'avec une difficulté extrême. Ses matières lui montaient à la tête ; il était capable, dans ces temps-là, de toutes les violences. Le duc de Guise ne crut pas un si sage conseil : que lui en arriva-t-il ? son frère et lui furent assassinés.</p>
+        <p>« Charles IX, son prédécesseur, était l'homme le plus constipé de son royaume. Les conduits de son côlon et de son rectum étaient si bouchés qu'à la fin son sang jaillit par ses pores. On ne sait que trop que ce tempérament aduste fut une des principales causes de la Saint-Barthélemy.</p>
+        <p>« Au contraire les personnes qui ont de l'embonpoint, les entrailles veloutées, le cholédoque<ref target="#N14"/> coulant, le mouvement péristaltique aisé et régulier, qui s'acquittent tous les matins, dès qu'elles ont déjeuné, d'une bonne selle aussi aisément qu'on crache ; ces personnes favorites de la nature sont douces, affables, gracieuses, prévenantes, compatissantes, officieuses. Un non dans leur bouche a plus de grâce qu'un oui dans la bouche d'un constipé.</p>
+        <p>« La garde-robe a tant d'empire qu'un dévoiement rend souvent un homme pusillanime. La dyssenterie ôte le courage. Ne proposez pas à un homme affaibli par l'insomnie, par une fièvre lente, et par cinquante déjections putrides, d'aller attaquer une demi-lune en plein jour. C'est pourquoi je ne puis croire que toute notre armée eut la dyssenterie à la bataille d'Azincourt, comme on le dit, et qu'elle remporta la victoire culottes bas. Quelques soldats auront eu le dévoiement pour s'être gorgés de mauvais raisins dans la route, et les historiens auront dit que toute l'armée malade se battit à cul nu ; et que, pour ne pas le montrer aux petits-maîtres français, elle les battit <hi rend="italic">à plate couture, </hi> selon l'expression du jésuite Daniel.</p>
+        <p>Et voilà justement comme on écrit l'histoire<ref target="#N15"/>.</p>
+        <p>« C'est ainsi que les Français ont tous répété, les uns après les autres, que notre grand Édouard III se fit livrer six bourgeois de Calais, la corde au cou, pour les faire pendre, parce qu'ils avaient osé soutenir le siège avec courage, et que sa femme obtint enfin leur pardon par ses larmes. Ces romanciers ne savent pas que c'était la coutume dans ces temps barbares que les bourgeois se présentassent devant leur vainqueur, la corde au cou, quand ils l'avaient arrêté trop longtemps devant une bicoque. Mais certainement le généreux Édouard n'avait nulle envie de serrer le cou de ces six otages, qu'il combla de présents et d'honneurs. Je suis las de toutes les fadaises dont tant d'historiens prétendus ont farci leurs chroniques, et de toutes les batailles qu'ils ont si mal décrites. J'aime autant croire que Gédéon remporta une victoire signalée avec trois cents cruches. Je ne lis plus, Dieu merci, que l'histoire naturelle, pourvu qu'un Burnet, et un Whiston, et un Woodward, ne m'ennuient plus de leurs maudits systèmes ; qu'un Maillet ne me dise plus que la mer d'Irlande a produit le mont Caucase, et que notre globe est de verre ; pourvu qu'on ne me donne pas de petits joncs aquatiques pour des animaux voraces, et le corail pour des insectes<ref target="#N16"/> ; pourvu que des charlatans ne me donnent pas insolemment leurs rêveries pour des vérités. Je fais plus de cas d'un bon régime qui entretient mes humeurs en équilibre, et qui me procure une digestion louable et un sommeil plein. Buvez chaud quand il gèle, buvez frais dans la canicule ; rien de trop ni de trop peu en tout genre ; digérez, dormez, ayez du plaisir ; et moquez-vous du reste. »</p>
+      </div>
+      <div type="chapter">
+        <head>CHAPITRE VIII.</head>
+        <p>Comme M. Sidrac proférait ces sages paroles, on vint avertir M. Goudman que l'intendant du feu comte de Chesterfield était à la porte dans son carrosse, et demandait à lui parler pour une affaire très-pressante. Goudman court pour recevoir les ordres de M. l'intendant, qui, l'ayant prié de monter, lui dit :</p>
+        <p>« Monsieur, vous savez sans doute ce qui arriva à M. et à Mme Sidrac la première nuit de leur noces ?</p>
+        <p>--- Oui, monsieur ; il me contait tout à l'heure cette petite aventure.</p>
+        <p>--- Eh bien  il en est arrivé tout autant à la belle mademoiselle Fidler et à monsieur le curé, son mari. Le lendemain ils se sont battus ; le surlendemain ils se sont séparés, et on a ôté à monsieur le curé son bénéfice. J'aime la Fidler, je sais qu'elle vous aime ; elle ne me hait pas. Je suis au-dessus de la petite disgrâce qui est cause de son divorce ; je suis amoureux et intrépide. Cédez-moi miss Fidler, et je vous fais avoir la cure, qui vaut cent cinquante guinées de revenu. Je ne vous donne que dix minutes pour y rêver.</p>
+        <p>--- Monsieur, la proposition est délicate : je vais consulter mes philosophes Sidrac et Grou ; je suis à vous sans tarder. »</p>
+        <p>Il revole à ses deux conseillers. « Je vois, dit-il, que la digestion ne décide pas seule des affaires de ce monde, et que l'amour, l'ambition, l'argent y ont beaucoup de part. » Il leur expose le cas, les prie de le déterminer sur-le-champ. Tous deux conclurent qu'avec cent cinquante guinées il aurait toutes les filles de sa paroisse, et encore miss Fidler par-dessus le marché.</p>
+        <p>Goudman sentit la sagesse de cette décision ; il eut la cure, il eut miss Fidler en secret, ce qui était bien plus doux que de l'avoir pour femme. M. Sidrac lui prodigua ses bons offices dans l'occasion : il est devenu un des plus terribles prêtres de l'Angleterre, et il est plus persuadé que jamais de la fatalité qui gouverne toutes les choses de ce monde.</p>
+        <p>FIN DES ROMANS.</p>
+      </div>
+    </body>
+    <back>
+      <div type="notes">
+        <note xml:id="N1">
+          <hi rend="italic">Preferment</hi> signifie <hi rend="italic">bénéfice</hi> en anglais. (<hi rend="italic">Note de Voltaire.</hi>)</note>
+        <note xml:id="N2">Voyez dans la <hi rend="italic">Correspondance, </hi> la lettre de Voltaire à Chesterfield, du 24 septembre 1771.</note>
+        <note xml:id="N3">
+          <hi rend="italic">Dictionnaire philosophique</hi>, article Nature. (<hi rend="italic">Note de Voltaire.</hi>)</note>
+        <note xml:id="N4">Saint Paul, <hi rend="italic">aux Corinthiens,</hi>, xv, 36 ; et saint Jean, xii, 24.</note>
+        <note xml:id="N5">Warburton. (<hi rend="italic">Note de Voltaire</hi>)</note>
+        <note xml:id="N6">
+          <hi rend="italic">Essai sur l'Entendement humain.</hi>
+        </note>
+        <note xml:id="N7">Voltaire.</note>
+        <note xml:id="N8">Daniel Solander, compatriote et élève de Linné, est mort en 1781. Il avait, avec Joseph Banks, mort en 1820, accompagné Cook dans son premier voyage autour du monde. (B.) --- Ces savants partirent en 1768 pour O'Taïti sous le commandement de Cook, avec mission d'observer le passage de Vénus sur le disque du soleil.</note>
+        <note xml:id="N9">Hawkesworth, né en 1715 ou 1719, mort en 1773, a été le rédacteur du premier <hi rend="italic">Voyage de Cook, </hi> qui parut en 1773.</note>
+        <note xml:id="N10">Robert Wood et Dawkins ont publié les <hi rend="italic">Ruines de Palmyre, </hi> Londres, 1753, in-folio, réimprimés à Paris, 1819, in-4o, et les <hi rend="italic">Ruines de Balbec, </hi> Londres, 1757, in-folio.</note>
+        <note xml:id="N11">Voyez, dans la <hi rend="italic">Correspondance, </hi> la lettre du 17 juin 1773, au chevalier Hamilton.</note>
+        <note xml:id="N12">Troisième livre des <hi rend="italic">Rois, </hi> chapitre xv ; et <hi rend="italic">Paralipomènes, </hi> II, chapitre xv. (<hi rend="italic">Note de Voltaire</hi>.)</note>
+        <note xml:id="N13">Ovide, <hi rend="italic">Métam., </hi> I, 83.</note>
+        <note xml:id="N14">Canal sécrétoire de la bile.</note>
+        <note xml:id="N15">Vers de Voltaire dans <hi rend="italic">Charlot, </hi> acte Ier, scène vii.</note>
+        <note xml:id="N16">Voyez les notes des <hi rend="italic">Singularités de la nature, </hi> chapitres ii et xx ; dans les <hi rend="italic">Mélanges, </hi> année 1768.</note>
+      </div>
+    </back>
+  </text>
+</TEI>
