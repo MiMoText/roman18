@@ -1,0 +1,981 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Moreau_Memoire" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title ref="bgrf:57.10">Nouveau mémoire pour servir à l’histoire des Cacouacs: MiMoText edition</title>
+        <author ref="viaf:56619514 wikidata:Q3157507">Jacob-Nicolas Moreau(1717-1803)</author>
+        <respStmt>
+          <resp>data capture</resp>
+          <name>wikisource</name>
+        </respStmt>
+        <respStmt>
+          <resp>encoding</resp>
+          <name/>
+        </respStmt>
+        <respStmt>
+          <resp>editor</resp>
+          <name>Julia Röttgermann</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words">0</measure>
+      </extent>
+      <publicationStmt>
+        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
+        <distributor ref="https://github.com/mimotext/roman18.git">Github</distributor>
+        <date>2022</date>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <title>TO DO</title>
+          <author/>
+          <ref target="https://fr.wikisource.org/wiki/Nouveau_m%C3%A9moire_pour_servir_%C3%A0_l%E2%80%99histoire_des_Cacouacs"/>
+          <date/>
+        </bibl>
+        <bibl type="printSource">
+          <title>TO DO</title>
+          <author/>
+          <pubPlace/>
+          <publisher/>
+          <date/>
+        </bibl>
+        <bibl type="firstEdition">
+          <date/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="eltec-x">
+      <p/>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="form">autodiegetic</term>
+          <term type="spelling">modern</term>
+          <term type="data-capture">semi-automatic transcription</term>
+        </keywords>
+      </textClass>
+      <textDesc>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-02">Initial ELTeC level 1</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="titlepage">
+        <p>Nouveau mémoire pour servir à l'histoire des Cacouacs</p>
+        <p>Jacob-Nicolas Moreau</p>
+        <p>Amsterdam, 1757</p>
+      </div>
+      <div type="titlepage">
+        <head>NOUVEAU MÉMOIRE POUR SERVIR À L'HISTOIRE DES CACOUACS.</head>
+        <p>Fas mihi Graïorum sacrata resolvere jura ;</p>
+        <p>Fas odisse viros, atque omnia ferre sub auras.</p>
+        <p>Virg. En. libr. ii.</p>
+        <p>AMSTERDAM.</p>
+        <p>MDCCLVII.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapter">
+        <head>AVERTISSEMENT.</head>
+        <p>Si cette Relation tomboit par hazard entre les mains de quelques Cacouacs, on croit devoir les
+          prévenir ici que l'Auteur n'a pas eu intention d'en attaquer aucun en particulier. Leurs mœurs
+          peuvent être en contradiction avec leurs principes ; mais, s'il leur est permis d'exposer ceux-ci,
+          de les défendre, de les soutenir même, il ne doit pas être défendu à un Citoyen de les trouver
+          déraisonnables &amp; dangereux.</p>
+          </div>
+          <div type="chapter">
+        <head>NOUVEAU MÉMOIRE POUR SERVIR À L'HISTOIRE DES CACOUACS.</head>
+        <p>L'Auteur anonime qui, dans le Mercure du mois d'Octobre dernier, a voulu donner une idée des
+          Cacouacs, ne paroît pas assez au fait de leur caractère &amp; de leur gouvernement. En récompense on
+          voit qu'il a contre eux une haine vigoureuse. Soit qu'il ait été maltraité par ces peuples, soit
+          qu'il soit par tempéramment un peu porté à la colere, son stile a quelque chose d'aigre &amp;
+          d'amer, qui fait que l'on se défie de son jugement. D'ailleurs il ne donne qu'une notion
+          très-imparfaite de cette Nation ; &amp; il est très-important pour le bien de la Société qu'on la
+          connoisse à fonds.</p>
+        <p>J'ai vécu pendant quelque tems avec les Cacouacs. Je fus d'abord leur prisonnier ; ils me
+          naturaliserent ensuite ; je devins leur frere ; &amp;, si le charme eût été un peu plus fort,
+          j'aurois pû parvenir chez eux aux plus grandes Dignités. Mais bien me prit de n'avoir été ensorcellé
+          qu'à demi, &amp; mieux encore de trouver mes libérateurs dans une Nation leur ennemie. Je puis au
+          moins parler sçavamment de leurs principes, de leurs mœurs, &amp; même de leur magie. Peut-être les
+          ferai-je mieux connoître que l'Auteur dont je prends la liberté de combattre la rélation. La maniere
+          dont ce peuple a vécu avec moi, m'a donné sur tout cela des lumières que ne peuvent avoir ceux qui
+          ne le connoissent que par ouï-dire.</p>
+        <p>Les Cacouacs ne sont point des Sauvages. Ils ont beaucoup d'esprit, de la politesse, des
+          connoissances, des Arts. Ils possédent même dans un degré supérieur celui des enchantemens. Leur
+          origine, si on les en croit, remonte jusqu'aux Titans qui voulurent escalader le Ciel. Mais, comme
+          les enfans en sçavent toujours plus que leurs peres, les Cacouacs soutiennent aujourd'hui que leurs
+          Ancêtres étoient des Visionnaires, &amp; qu'ils firent la plus haute folie, non de vouloir combattre
+          contre les Dieux, mais de supposer qu'ils existoient. Ils ajoutent que la Foudre qui écrasa Typhon,
+          leur Chef, n'étoit qu'un météore très-naturel, sur le chemin duquel lui &amp; ses Confrères eurent
+          le malheur de se rencontrer. J'ai cru d'abord, quand ils m'ont exposé leurs idées sur la Divinité,
+          qu'ils avoient contre elle quelque reste de rancune ; mais ils m'ont dit tant de raisons, qu'à la
+          fin je les ai jugés ou convaincus, ou fort prêts de l'être, ou du moins très-curieux de le paroître.
+          Nouvelle preuve &amp; très-évidente que les Cacouacs ne sont point des Sauvages. Car les Hurons même
+          croyent un Dieu, &amp; en conviennent bonnement.</p>
+        <p>Les Cacouacs habitent sous des tentes pour marquer leur indépendance &amp; leur liberté. Aussi ne
+          connoissent-ils point de Gouvernement. L'Anarchie est une de leurs maximes fondamentales : car,
+          comme ils font persuadés que c'est le hazard qui a réuni les individus de l'espéce humaine, destinés
+          d'abord à vivre isolés dans les forêts, ils ne veulent s'écarter que le moins qu'il est possible de
+          cette institution primordiale, si conforme à la Nature de l'homme. Ils ne nient pas cependant que
+          cette espéce d'animal n'ait acquis l'habitude de commercer avec ses semblables, &amp; qu'ayant peu à
+          peu perfectionné ses connoissances, il n'ait usurpé quelqu'empire sur les autres machines vivantes.
+          Mais comme cette supériorité dont l'homme jouit, tout au plus depuis six mille ans, ne décide rien
+          pour le droit, &amp; qu'en pareille matière il seroit absurde de vouloir payer les ours de
+          prescription, ils sont convaincus qu'il n'y a point de quadrupede qui ne puisse à son tour prétendre
+          à l'honneur de régner sur le genre animal. Dans cette supposition si vraisemblable, les Cacouacs ne
+          s'enorgueillissent point du présent de la Raison, qui leur vient de la finesse qu'ont reçue par
+          succession les organes de leurs peres, mais seulement de l'usage qu'ils en font ; &amp; comme il
+          peut fort bien arriver par la vicissitude des choses, que les lions ou les chevaux, aillent un jour
+          à la chasse aux hommes, ou les mettent à l'écurie, ces peuples ont la prudence de ne former aucun
+          projet vaste, ni pour l'universalité du genre humain, ni pour leurs propres individus. Quelques-uns
+          même commencent à croire que l'on n'est point éloigné de cette grande révolution ;<ref target="#N1"/>
+          &amp; pour favoriser, autant qu'il est en eux, le cours de la Nature, ils ont pris le parti de se
+          conduire dès à présent par l'instinct, en attendant tranquillement que les bêtes dont les facultés
+          se développent peu à peu, se conduisent par la Raison.</p>
+        <p>On peut juger de la régle de leur conduite par les maximes de gouvernement qu'ils ont adoptées.
+          Selon eux les loix naturelles sont des chiméres ; tout est fondé sur l'usage, &amp; sur une
+          convention libre dont le motif est l'intérêt de chaque particulier. Or, comme cet intérêt peut
+          varier, s'il est vrai, dans quelques climats de l'Europe, qu'il faille demeurer fidèle à son ami
+          &amp; lui restituer le dépôt, ce peut être tout le contraire au Japon : la preuve en est simple,
+          &amp; à la portée de tout le monde. Il n'y a ni vérité ni vertu hors de l'homme qui l'apperçoit ou
+          qui la pratique ; &amp; tout le monde sçait que l'homme est un animal changeant. Ce qui m'a
+          singulièrement étonné, c'est que ces peuples ont toujours à la bouche les mots de
+          <hi rend="italic">Vérité</hi>
+          &amp; de
+          <hi rend="italic">Vertu</hi>. Ils affichent la Vérité ; ils étalent par-tout la Vertu. Il semble
+          qu'ils en ayent à revendre. J'ai vu des Cacouacs qui, montés sur deux tréteaux, crioient à tous les
+          passans, jusqu'à en être enroués,
+          <hi rend="italic">Vertu de la Chine, Vertu des Indes, Vertu d'Espagne ; Vérités du Mexique, Vérités
+            de la Grande Tartarie ;</hi>
+          à peu près comme nos Charlatans crient,
+          <hi rend="italic">Baume du Pérou, Baume de la Mecque</hi>. Ainsi parmi ces peuples il n'y a qu'à
+          s'entendre, &amp; cette multitude de vertus fait qu'elles y sont à bon marché. On espère même qu'un
+          jour tout Cacouac pourra choisir dans tous les Climats du monde, celle qui lui conviendra le mieux.
+          Il n'y aura pour cela qu'une seule précaution à prendre. C'est de se faire naturaliser dans le pays
+          dont les mœurs lui auront paru plus conformes à son temperamment, ou d'y faire, comme on dit en
+          France,
+          <hi rend="italic">élection de domicile ;</hi>
+          alors il pourra porter par-tout la vertu qu'il aura une fois adoptée. Après une convention aussi
+          utile au genre humain, tant pis pour qui sera malhonnête homme, car il n'aura tenu qu'à lui d'être
+          vertueux.</p>
+        <p>Jusques à présent les Cacouacs n'en sont point encore venus à ce choix commode. Car ils sont
+          persuadés que l'on doit embrasser la vertu du pays ou l'on est né, par la même raison qu'il est
+          honnête de se servir des étoffes qui s'y fabriquent, &amp; qu'il est nécessaire de s'y nourrir des
+          fruits qui y croissent. Ils croyent donc que tout homme sensé doit examiner avec soin, ce qui est
+          bien sous le degré du méridien ou il vit, &amp;, s'il ne s'accommode pas de ce genre de Bien, passer
+          sous un autre degré, plutôt que violer les usages reçus. On ne doit pas s'étonner après cela s'ils
+          disent que celui qui ne croit point en Dieu,
+          <hi rend="italic">n'en est que plus obligé d'être homme de Bien</hi>
+          :<ref target="#N2"/>
+          car, plus nous avons de facilités pour agir, plus nous sommes blâmables si nous n'agissons pas : Or,
+          il faut avouer que ces peuples, en secouant l'idée de la Divinité, ont ouvert aux hommes tous les
+          moyens possibles d'être vertueux en se passant d'elle.</p>
+        <p>Lorsqu'une de leurs Colonies va chercher un établissement dans quelque pays lointain, leurs Chefs
+          ont tous l'astrolabe à la main. Ils examinent d'abord l'état du Ciel ; ils observent ensuite la
+          nature du terrain, la qualité des eaux &amp; jusqu'aux vapeurs qui s'élèvent à l'horison. C'est par
+          le résultat de toutes ces combinaisons qu'ils décident si, dans le nouveau Climat qu'ils se
+          proposent de peupler, on doit être bienfaisant ou cruel, fidèle à ses engagemens ou perfide, attaché
+          à sa femme ou adultère, soumis à ses parens ou révolté contre eux. Mais, comme les observations
+          peuvent être fautives, &amp; que d'ailleurs la Nature ne parle pas toujours assez clairement, les
+          Cacouacs ne sont point obstinément attachés à leurs découvertes sur cette morale ambulante, &amp;
+          ils sont toujours disposés à pardonner les erreurs qui ne vont qu'à ce que, nous autres Esclaves des
+          préjugés de notre jeunesse, nous appellons
+          <hi rend="italic">dépravation de mœurs</hi>.</p>
+        <p>En un mot, les Cacouacs étudient la Nature en tout. Ils ne lui bâtissent point de Temple,
+          parce-que cela auroit l'air d'un Culte ; &amp; que les Titans leur ont laissé pour maxime, qu'il
+          faut connoître &amp; non adorer. Mais ils sont attentifs à sa voix ; ils examinent sa marche : il la
+          trouvent, &amp; dans l'instinct des bêtes, &amp; dans leurs propres inclinations. « Si la vüe peut
+          nous tromper, le sentiment, disent-ils, est un guide fidèle ». C'est ce sentiment qui leur a appris
+          que l'homme n'est point fait pour être gouverné, &amp; que les peres n'ont tout au plus sur leurs
+          enfans que le droit de les nourrir &amp; de les habiller, tant que ceux-ci ne peuvent se passer de
+          ce secours.<ref target="#N3"/>
+          Si, par cette raison frappante, l'autorité paternelle est nulle chez eux, en récompense la
+          reconnoissance des enfans y est moins que rien. Et en effet, que doit-on à des gens qui nous ont mis
+          au monde pour leur plaisir ; qui n'ont pas eu l'esprit de nous choisir, ni la bonté de nous aimer
+          avant que nous existassions ?</p>
+        <p>Avec tout cela ils ne sont point si méchans que le suppose l'Écrivain que je combats. Car, au
+          défaut des loix dont ils n'ont point voulu se former l'idée importune, ils respectent, comme je l'ai
+          dit, les coutumes établies. Ainsi ils ne tuent point, parceque dans tous les pays qu'ils ont
+          habités, ils ont trouvé établi l'usage de faire pendre quiconque ôtoit la vie. Pour le vol, ils ne
+          se permettent que celui des pensées des autres, &amp; cela parceque les hommes n'ont point encore eu
+          l'injustice de circonscrire des
+          <ref target="#N4"/>
+          bornes à ce genre de possessions.</p>
+        <p>Ils sont grands parleurs : leur langage a quelque chose de sublime &amp; d'inintelligible qui
+          inspire le respect &amp; entretient l'admiration. Tout dans leur discours est image, sentiment,
+          passion même ; car ils ont découvert que l'enthousiasme<ref target="#N5"/>
+          étoit le moyen le plus sûr pour connoître la propriété des choses. Ils ont raison, car s'il n'y a
+          point de vérité commune à tous les hommes, à quel point fixe les Cacouacs pourroient-ils s'accrocher
+          pour les persuader ? Or, leur goût général est de régner par la persuasion. Il faut donc qu'ils la
+          fassent consister dans cet étonnement qui naît du brûlant des figures, de l'énergie des mots, de la
+          rapidité des images qui se succédent &amp; se chassent, en un mot de ce transport qui saisissoit
+          quelquefois la Pithie sur le trépied sacré &amp; qui s'est une fois emparé d'un Chef Cacouac à
+          l'aspect d'un torrent, d'une montagne couverte de forêts, &amp; d'un orage qui grondoit à quelques
+          lieues de lui.</p>
+        <p>Au reste, s'ils sont quelquefois forcés d'abandonner le talent de persuader, ils ne manquent
+          jamais d'avoir recours à l'art de séduire. Ils voudroient que tous les peu-pies de l'Univers
+          devinssent Cacouacs. Ce n'est point par amour de la Patrie ; je l'ai dit ; ils n'en ont point. Mais
+          c'est qu'il est beau d'être admiré par un plus grand nombre. Dans ce dessein si louable ils
+          cherchent à s'emparer des esprits, ils prodiguent la louange dans l'espérance qu'on la leur rendra
+          au centuple. Si on y manque, ils commencent par gémir en secret ; au bout de quelque tems, ils
+          s'apperçoivent qu'ils n'ont loué qu'un imbécille, &amp; tôt ou tard ils trouvent à se vanger d'un
+          ingrat.</p>
+        <p>Avec cette humeur si douce, ils ne laissent pas quelquefois de faire la guerre. Ils aiment que
+          l'on marche à eux au bruit de la trompette. Le fracas que font leurs ennemis inspire à ces peuples
+          un nouveau courage. Ils semblent s'applaudir des préparatifs que l'on a faits pour les attaquer. Ils
+          ont une légèreté admirable dans leurs évolutions, &amp; trouvent le moyen de parer tous les coups en
+          caracollant. Aussi leurs voisins ont-ils désespéré de les vaincre ; ils se contentent aujourd'hui de
+          les écarter. Une petite Nation, dont j'aurai occasion de parler sur la fin de ce Mémoire, à trouvé
+          un moyen infaillible pour y parvenir. Quand les Cacouacs s'avancent sur sa frontière, ce peuple
+          vient à eux les sifflets à la main. Ce petit instrument a désolé les vainqueurs. La trompette
+          ennemie les animoit. Le sifflet les fait fuir &amp; les disperse. On dit que les Auteurs de cette
+          invention s'apprêtent à la communiquer aux peuples voisins, chez lesquels les Cacouacs font des
+          excursions. Par-là ceux-ci cesseront d'être redoutables. Ils borneront leur gloire à faire
+          prisonniers quelques malheureux étrangers qui, en se promenant dans leur voisinage, n'auront pas eu
+          la précaution de se munir de sifflets.</p>
+        <p>Après avoir donné ce peu de notions sur les principes, &amp; sur le gouvernement des Cacouacs, je
+          pourrois entrer dans quelque détail sur leurs connoissances, sur leurs Arts, &amp; en particulier
+          sur l'espéce de magie qu'ils exercent pour s'attacher à jamais les prisonniers qu'ils font. Mais
+          comme je ne pourrois que rapporter ce que j'ai vu, j'aime mieux raconter ici en peu de mots, par
+          quelle avanture je tombai entre leurs mains, ce qui m'arriva parmi eux, &amp; comment j'échappai aux
+          desseins qu'ils avoient formés sur moi.</p>
+        <p>Malheureusement j'ignorois encore l'usage des sifflets, lorsque dans une partie de chasse que je
+          faisois assez proche de la Colonie des Cacouacs, je m'écartai de mes Compagnons. Cette Nation étoit
+          alors en campagne, &amp; au moment où je m'y attendois le moins, je me vis environné d'un parti de
+          les guerriers. Je fus désarmé au bruit d'une musique Italienne<ref target="#N6"/>,
+          que j'eusse assez goûtée sans la terreur qui s'empara de mes sens. On me fit marcher par les plus
+          beaux chemins du monde. Les guerriers m'environnoient avec un air riant dont je ne m'apperçus qu'au
+          bout d'une demi-heure ; &amp; après que j'eus repris mes sens ; le plus âgé de la troupe, me dit : «
+          Ne crains rien, jeune homme, tu seras libre. Connois les Cacouacs : ils furent toujours les
+          bienfaiteurs du genre humain. Ils n'ont excité dans le monde ni guerres civiles, ni discordes
+          funestes entre les parens. Ces maux cruels sont l'ouvrage de la Superstition. Qui ne craint point un
+          Dieu, ne sçait ce que c'est que de troubler l'Univers »<ref target="#N7"/>.</p>
+        <p>Je ne sçavois à quel propos on me tenoit un pareil discours, &amp; j'ouvrois de grands yeux dans
+          lesquels on pouvoit lire mon étonnement &amp; ma crainte, lors qu'en tournant la tête j'apperçus mon
+          fidéle domestique qui suivoit mes pas. Il m'avoit vu de loin &amp; avoit volé. Il me fit signe qu'il
+          ne m'abandonneroit point. Je fus rassuré ; j'avois une confiance entiere en ce garçon, le plus
+          vertueux &amp; le plus religieux des hommes. Mes parens le regardoient comme un ami : hélas pourquoi
+          a-t-il vécu chez les Cacouacs ? s'il ne les avoit pas connus il me serviroit encore, &amp; n'auroit
+          pas été se faire pendre à Francfort où il finit l'année passée sa malheureuse carrière.</p>
+        <p>Je reviens à mon voyage : nous arrivâmes dès le soir au camp de mes nouveaux maîtres. On me fit
+          entrer dans une tente parfumée. J'apperçus un lit de roses dont l'odeur, quoiqu'agréable, ne
+          laissoit pas de porter à la tête. J'étois las ; je me couchai sur ce lit : on me servit à manger ;
+          &amp; lorsqu'ensuite je voulus reposer, j'apperçus aux deux côtés de mon chevet deux cassolettes
+          d'argent. Il en sortoit une petite fumée d'encens dont il fallut bien m'accommoder. Je crus que tel
+          étoit l'usage de chaque habitant de la Colonie : mais on m'a dit depuis que cet honneur ne se
+          faisoit qu'aux Étrangers.</p>
+        <p>Je commençois à m'endormir, lorsque je fus réveillé par un vieillard vénérable qui portoit un
+          livre. Il s'inclina profondément devant moi, &amp; me dit, avec la voix la plus douce, ces paroles
+          qui me firent trembler. « Jeune homme prends &amp; lis :<ref target="#N8"/>
+          si tu peux aller jusqu'à la fin de cet ouvrage, tu ne seras pas incapable d'en entendre un meilleur.
+          Un plus habile<ref target="#N9"/>
+          t'apprendra à connoître les forces de la Nature ; il me suffira de t'avoir fait essayer les tiennes
+          : adieu ». Le vieillard se retira dans l'instant ; &amp; sans le livre qui resta sur mon lit,
+          j'aurois regardé sa visite comme une vision.</p>
+        <p>Je ne comprenois rien à ce qui se passoit. J'étois prisonnier &amp; je n'en pouvois douter.
+          Cependant, au lieu d'un cachot obscur auquel je m'étois attendu, je me voyois couché sur des roses,
+          entouré de parfums, &amp; un livre à la main ; je passai une partie de la nuit à le lire. Je ne
+          l'entendis point. Je dormis tranquillement. Je lus encore à mon réveil, &amp; je n'entendis pas
+          mieux. Mais je sentis commencer en moi une révolution dont je ne pouvois deviner la cause. Mon
+          imagination s'échauffoit, mon poulx s'élevoit, &amp; ma respiration devenoit plus forte. Il me
+          sembloit que dans un moment d'yvresse la faculté de sentir s'emparât peu à peu de mon ame toute
+          entière, &amp; que la faculté de raisonner s'éteignît dans la même proportion. Je me levai ; je me
+          promenois à grands pas dans ma tente, &amp; je remarquois avec surprise, que lorsque j'approchois
+          des deux cassolettes, je ne pouvois plus même réfléchir sur mon état. « Ah Dieu (m'écriai je en
+          m'éloignant, &amp; jettant le livre que je n'avois point encore quitté) je suis ici chez des
+          Enchanteurs. Jamais les poisons de Circé n'eurent un effet plus prompt. Quel est le sort qui
+          m'attend ? dois-je donc éprouver celui des Compagnons d'Ulisse ? »</p>
+        <p>« Non mon fils (s'écria le vieillard qui m'avoit apparu la veille, &amp; qui entra dans ma tente
+          au moment que j'achevois ces mots) Non mon fils, tu ne seras point changé en bête. Nous voulons au
+          contraire t'élever au rang des Sages. Ne crains rien de cette espéce de transformation que tu
+          éprouves. Cette fermentation sourde des molécules organiques qui composent ton être, annonce la
+          victoire que la matiere vivante doit bientôt remporter sur la matière morte. Tu es sous la main de
+          la Nature, laisse-toi conduire à son impulsion ».</p>
+        <p>J'avois lu la plupart de ces mots dans le livre que j'avois jetté par terre, &amp;, à la clarté
+          dont ils me parurent dans la bouche du vieillard, je crus qu'avec un peu plus d'attention je
+          pourrois un jour les entendre dans le livre mystérieux. « Ah mon pere, m'écriai-je, votre voix me
+          rassure, elle est pour mon ame ce qu'un vent doux &amp; rafraîchissant est à nos corps après les
+          brûlantes ardeurs de la canicule. Je me confie à vos soins : que mon être n'essuie aucune
+          dégradation. Ô Nature ô ma mere je m'abandonne à toi ».</p>
+        <p>Je dois observer pour la fidélité de l'histoire que lorsque je disois de si belles choses, mon
+          vieillard me tenoit par la main, &amp; m'avoit conduit peu à peu jusqu'auprès des cassolettes ; il
+          s'assit avec moi sur mon lit, &amp; m'annonça que dans un moment j'allois connoître les Principaux
+          de la Colonie.</p>
+        <p>Un instant après les rideaux de ma tente furent relevés, &amp; je vis entrer une nombreuse
+          compagnie de Cacouacs, hommes &amp; femmes. Il n'y eut personne qui ne m'embrassât avec tendresse ;
+          point de bouche qui ne louât, &amp; ma figure, &amp; mon esprit, &amp; les rares connoissances que
+          j'avois acquises, &amp; celles même que j'étois capable d'acquérir. Le vieillard me présentoit les
+          Dames. Je n'avois eu jusques-là qu'une idée de moi assez commune. J'étois étonné, j'étois enchanté
+          de l'impression que je faisois sur ce peuple. Toutes mes défiances, toutes mes craintes se
+          dissipoient : mais plus je trouvois de charmes dans cette opinion flatteuse que je commençois à
+          prendre de mon rare mérite, plus j'affectois un air calme, modeste, timide, bien différent des
+          mouvemens que je sentois dans mon ame ; car mon yvresse n'étoit point cessée.</p>
+        <p>Lorsque l'on fut las de me louer ; (car pour moi je ne me lassois point d'entendre mon éloge) on
+          fit entrer des Joueurs d'instrumens : la musique fut bisare, mais vive &amp; animée. Une femme
+          l'interrompit en me disant : » Jeune homme, que pensez vous de ces sons ? n'ont-ils pas créé en vous
+          des sensations délicieuses ? n'ont-ils pas même généralisé vos idées ? à combien de sciences la
+          musique ne nous conduiroit-elle pas ? ô mon fils tout se tient dans la Nature : tout est lié par une
+          chaîne éternelle ; mais rien ne l'est plus essentiellement aux sensations du Plaisir que la
+          connoissance de la Vérité ».</p>
+        <p>Alors tous les Cacouacs commencèrent à parler à la fois. Le vieillard fit signe que l'on se tût ;
+          &amp;, pour me donner lieu de faire briller mon esprit, il proposa lui-même quelques questions sur
+          lesquelles on étoit bien aise d'avoir mon sentiment. Il demanda, par exemple,
+          <hi rend="italic">si la matiere morte</hi>
+          <ref target="#N10"/>
+          <hi rend="italic">se</hi>
+          <hi rend="italic">combine avec la matière vivante ? Comment se fait cette combinaison ? Quel en est résultat ?</hi>
+        </p>
+        <p>Ici je m'apperçus qu'il avoit jetté quelques pastilles dans la cassolette qui touchoit à mon bras
+          gauche. Je me sentis transporté : je dis des choses admirables, &amp; dont j'ai totalement perdu le
+          souvenir. Elles exciterent un applaudissement universel, &amp; si bruiant qu'on fut obligé plusieurs
+          fois de crier silence pour entendre une autre question proposée par une femme très-jolie. Il
+          s'agissoit de sçavoir :
+          <hi rend="italic">Si les moules</hi>
+          <ref target="#N11"/>
+          <hi rend="italic">sont les principes des formes ? Ce que c'est qu'un moule ? Si c'est un être réel &amp;</hi>
+          <hi rend="italic">préexistent, ou si ce n'est que les limites intelligibles d'une molécule vivante
+            unie à de la matière morte ou vivante ; limites déterminées par le rapport de l'Énergie en tout
+            sens, aux résistances en tout sens.</hi>
+        </p>
+        <p>Étrange effet de la cassolette Je commençois à entendre à merveille tout cela ; &amp;, lorsque
+          mon tour fut venu de parler, à peine eus-je dit quatre mots que toutes les femmes s'écrièrent : « Il
+          a trouvé le nœud de la difficulté : illustre Interprête de la Nature, que tardez-vous à l'initier à
+          nos mystéres »</p>
+        <p>On sortit alors, &amp; le vieillard, après m'avoir embrassé, m'assura que je pouvois me regarder
+          comme libre ; parcourir la Colonie &amp; regarder les Cacouacs comme mes freres. Il ajouta qu'avant
+          qu'il fût quatre jours, ils n'auroient plus rien de secret pour moi.</p>
+        <p>Alors, mon laquais entra pour me servir. « Valentin, lui dis-je, il y a près de vingt-quatre
+          heures que je ne t'ai vu. Qu'es-tu devenu ? Ah mon cher Maître me répondit-il, que j'ai appris de
+          choses depuis que je suis ici Quelle douceur dans ces Étrangers Est-il possible que nous les ayions
+          regardés jusqu'ici comme des Barbares ? Hier à peine sçavois-je lire. J'ai trouvé ici toutes les
+          sciences : je sçai déjà la musique, &amp; j'apprends la morale. »</p>
+        <p>Je m'étois trouvé tant d'esprit pour raisonner sur les
+          <hi rend="italic">Moules</hi>, sur les
+          <hi rend="italic">Molécules vivantes</hi>
+          &amp; sur les
+          <hi rend="italic">limites de l'Énergie</hi>, que je n'étois pas surpris de voir Valentin devenu
+          Musicien en vingt-quatre heures. Je l'envoyai faire de ma part des complimens aux Cacouacs les plus
+          distingués. Je sortis l'après-midi. J'allai aux lieux où se tenoit la bonne compagnie ; par-tout on
+          se levoit pour me faire honneur. On n'étoit occupé que du jeune Étranger qui avoit parlé avec tant
+          de raison &amp; d'éloquence. Je continuai à briller ; les idées m'étoient venues : mais, si
+          quelquefois elles me manquoient, j'avois de grands mots à mettre à leur place, &amp; j'observois que
+          c'étoit alors que l'on applaudissoit le plus vivement. Dès le soir on m'envoya deux
+          <hi rend="italic">Odes</hi>
+          à ma louange, &amp; quelques Poëtes Cacouacs me firent demander l'honneur d'assister le lendemain à
+          ma toilette.</p>
+        <p>Je passai ainsi trois jours à converser avec les Cacouacs, à lire leurs écrits, à m'instruire de
+          leurs mœurs, enfin à me former une idée juste de cette Nation. J'ai dit plus haut tout ce qui m'en
+          est resté.</p>
+        <p>Le quatrième jour, dès le lever du soleil, le vieillard qui m'avoit rendu visite tous les matins,
+          se présenta à la porte de ma tente. Il étoit vétu d'une étoffe grossiere. Ses cheveux étoient mal
+          peignés, &amp; ses mains crasseuses. Deux jeunes Cacouacs qui l'accompagnoient étoient vétus &amp;
+          parés à peu près de la même maniere. Il m'appella ; je sortis de ma tente, pour le prier de vouloir
+          bien attendre que j'eusse achevé de me faire habiller. « Mon fils, me dit-il, le tems de ta
+          préparation est achevé. Tu vas goûter les plaisirs les plus dignes de l'homme. Tu vas devenir un
+          véritable Cacouac. Tu connoîtras la Nature. Ses trésors vont s'ouvrir à ta vue. Songes désormais à
+          soutenir la gloire de notre Nom. Elle sera la tienne propre. Elle n'est fondée ni sur l'élévation
+          des Dignités, ni sur le faste de l'opulence. Laisse là le soin de ta parure. Que tout ton extérieur
+          affiche la modestie, la simplicité, la pauvreté même. La singularité de ton habillement, &amp;
+          jusqu'à l'épaisseur de la semele de tes souliers doivent annoncer que tu n'es point un être
+          ordinaire. Si les imaginations sont une fois frappées de l'idée de ton mérite, tu ne peux trop
+          affecter de dédaigner les bienséances communes. Caches-toi alors pour être mieux découvert. Il faut
+          fuir les hommes si l'on veut en être recherché. Ils sont si fort accoutumés à mépriser ceux qui leur
+          ressemblent, qu'un vrai Cacouac ne doit ressembler qu'à lui-même. »</p>
+        <p>Quand le vieillard ne m'auroit pas dit tout cela, son extérieur dégoûtant eût suffi pour
+          m'apprendre qu'il alloit être question de plus grandes choses. Après l'avoir écouté j'eus bientôt
+          fini ma toilette ; &amp; pour surpasser s'il se pouvoir mon guide, je dis à Valentin que je ne
+          serois rasé de huit jours. Je pris son habit qui étoit d'un drap fort épais, &amp; j'envoyai
+          chercher une perruque brune qui avoit au moins dix ans. Chaussé avec de gros bas de laine, je pris
+          un bâton à la main, &amp; je parus aux yeux du vieillard dans la douce espérance de n'être plus
+          désormais occupé que de mes qualités intérieures, &amp; avec le plaisir d'imaginer que les hommages
+          dont je serois l'objet, ne s'adresseroient uniquement qu'à la supériorité de mes talens, &amp; à la
+          sublimité de mes connoissances.</p>
+        <p>Les deux Açolythes qui suivoient mon vénérable Cacouac entrerent dans ma tente après que j'en fus
+          sorti ; ils prirent les deux cassolettes, y mirent des pastilles, &amp; marchèrent gravement à côté
+          de nous. Les rues du camp étoient remplies d'une foule de peuple qui nous admiroit. Les femmes nous
+          suivoient des yeux, les hommes se prosternoient pour nous saluer. Nous marchames lentement pour nous
+          laisser voir ; &amp; nous arrivâmes après une demi-heure à l'arsenal des Cacouacs, ou plutôt au
+          magasin de toutes leurs richesses.</p>
+        <p>C'étoit une vaste &amp; magnifique tente de satin brodé, partagée en deux appartemens ; ou plutôt
+          c'étoient deux tentes réunies qui ne composoient qu'un seul corps, &amp; qui communiquoient l'une
+          dans l'autre. Les rideaux intérieurs de la première étoient de couleur d'azur ; on y voyoit en
+          broderie, &amp; sous des figures allégoriques, les Sciences, les Arts, les Plaisirs, les Amours. La
+          Géométrie y étoit représentée en Reine portant sa tête dans les Cieux, &amp; mesurant de son compas
+          un monde que la Physique construisoit auprès d'elle : celle-ci paroissoit jetter dans le vuide des
+          noyaux de verre qu'une foule de Génies venoient ensuite couvrir d'eau &amp; de poussière. Plus loin
+          on voyoit la Morale assise aux pieds de la Nature ; elle avoit la tête nonchalamment panchée sur des
+          pavots ; des régles de toute espéce, &amp; les mesures de tous les Pays étoient pêle mêle sur ses
+          genoux ; d'une main elle appelloit les Plaisirs, &amp; de l'autre elle montroit à l'Amour mille
+          fleurs qu'elle l'invitoit à parcourir. Celui-ci, dans un autre endroit, brisoit les chaînes de
+          l'Hymen, &amp; lui attachoit des aîles ; il paroissoit sourire en voyant des animaux se caresser ;
+          &amp; sous ses pieds on voyoit écrit en lettres, couleur de feu,
+          <hi rend="italic">Il n'y a de bon que le Physique</hi>
+          <ref target="#N12"/>. Sur un autre rideau on voyoit grouper ensemble la Musique, la Danse, la
+            Tragédie. La première avoit dans la physionomie quelque chose de fier &amp; de brusque. La Danse
+            &amp; la Tragédie paroissoient occupées à se donner mutuellement des leçons. La premiere exécutoit
+            une action théâtrale. La seconde apprenoit de la danse, le geste des mains, &amp; le mouvement de la
+            tête. « Tant il est vrai, disois-je en moi-même, que les Cacouacs se font un devoir de faire entrer
+            par les sens les vérités les plus sublimes, &amp; de toujours plaire en instruisant. »</p>
+        <p>J'admirai d'abord cette variété de figures, dont l'élégance me charmoit. Mon guide avoit pendant
+          ce tems-là les regards fixés sur une table longue, couverte d'instrumens de Mathématiques, de Globes
+          &amp; de différens papiers qu'il me paroissoit parcourir des yeux avec l'attention &amp; la
+          complaisance d'un pere de famille qui fait la revüe de ses richesses. Les deux jeunes gens
+          m'avertirent de faire d'abord le tour de cette table. Ils doublèrent la dose de l'encens, &amp;
+          marchèrent à mes côtés. J'étois environné d'une fumée odoriférante à travers laquelle je ne laissois
+          pas d'appercevoir plusieurs projets d'ouvrages qui vraisemblablement devoient exercer les talens des
+          laborieux Cacouacs qui, trois fois par semaine s'assembloient dans cette salle. C'étoit là, me
+          dit-on, le foyer où devoient se réunir tous les rayons du feu élémentaire : c'étoit aussi là le
+          centre d'où ils devoient ensuite se réfléchir pour éclairer l'Univers. Je lus en passant
+          quelques-uns de ces papiers merveilleux. Je trouvai écrit sur l'un,
+          <hi rend="italic">Systême d'Histoire Universelle, sur lequel l'Auteur arrangera les faits, &amp; où
+            il se proposera uniquement d'établir, que l'Homme est un animal sot &amp; malfaisant ; que presque
+            tous les Princes ont été des vauriens, &amp; les hommes d'État des fripons</hi>. J'en vis un dont le titre étoit :
+          <hi rend="italic">Nouvelle fabrique d'un Monde à la Comete</hi>. Sur un autre je lus ces mots :
+          <hi rend="italic">Traité des Régnes animal &amp; végétal, &amp; du développement successif de leurs élémens éternels</hi>
+          <ref target="#N13"/>
+          <hi rend="italic">dans lequel on se proposera de prouver qu'il est</hi>
+          <hi rend="italic">possible que l'Embriyon formé de ces Élémens ait passé par une infinité
+            d'organisations, &amp; ait eu par succession du mouvement, de la sensation, des idées, de la pensée,
+            de la réflexion, de la conscience, des sentimens, des passions, des signes, des gestes, des sons
+            articulés, une langue, des loix, des Sciences &amp; des Arts.</hi>
+        </p>
+        <p>Ce dernier titre me fit peine. J'adressai la parole au vieillard, &amp; je lui dis : « Mon pere,
+          je conçois à merveille comment un elément matériel vient, à force de mouvement &amp;
+          d'organisations, jusqu'à acquérir une
+          <hi rend="italic">Conscience</hi>, &amp; même une
+          <hi rend="italic">Conscience</hi>
+          timorée. Mais en démontrant tout cela possible, il me semble aussi que l'on démontrera possible
+          qu'il n'y a point de Dieu, ou ce qui revient au même qu'il n'y en a point d'autre que cette matiere
+          élémentaire, éternelle &amp; éternellement en mouvement. Or, l'existence d'un Dieu, cette Vérité de
+          mon pays est une Vérité précieuse à bien d'autres Nations. Vous allez allarmer l'Univers, &amp;
+          moi-même je sens, que je ne puis déraciner de mon ame l'idée que j'ai toujours eue d'une Divinité
+          intelligente &amp; bienfaisante. »</p>
+        <p>Le vieux Cacouac fronça le sourcil, &amp; me répondit gravement. « Jeune homme réfléchis avant
+          d'interroger tes Maître. Nos Sages ne démontreront que la possibilité, &amp; non le fait. Mais quand
+          tu seras rempli de nos lumieres, tu verras que l'objection que tu viens de me faire, est la seule
+          que le Vulgaire ignorant puisse opposer à cette sublime hypothése :<ref target="#N14"/>
+          au reste nous ne prétendons point t'arracher sur le champ toutes les erreurs de ton enfance ; elles
+          doivent tomber d'elles-mêmes, comme la dépouille du serpent le quitte au Printems. Continues de
+          lire, peut-être trouveras-tu des choses qui surpasseront moins ta foible portée. » Dans ce moment
+          mes deux guides éclaterent de rire, d'une façon assez insultante pour moi.</p>
+        <p>Cet air railleur, &amp; le ton de supériorité qu'avoit pris le vieillard m'humilierent un peu ;
+          mais la cassolette me calma. Je continuai de parcourir la table, &amp; je vis tout au bout dans un
+          coin une autre feuille sur laquelle je lus :
+          <hi rend="italic">Plan d'une Religion universelle à l'usage de ceux qui ne peuvent s'en passer,
+            &amp; dans laquelle on pourra admettre une Divinité, à condition qu'elle ne se mêlera de rien</hi>.
+          Je dois l'avouer ici, la fumée du parfum m'avoit tellement monté à la tête que je trouvai cette
+          merveilleuse idée, la plus satisfaisante de toutes. Le vieillard s'apperçut de l'approbation que je
+          donnois à ce que j'avois lû, &amp; dit tout haut : « Mon fils, récueillez en vous-même toutes les
+          facultés de votre ame. Que vos
+          <hi rend="italic">sensations qui sont le moule de toutes vos idées</hi>
+          <ref target="#N15"/>
+          s'anéantissent un moment pour faire place à la grande &amp; vigoureuse sensation qui va renouveller
+          votre être ». Il dit, &amp;, me prenant d'une main, il souleve de l'autre le voile qui séparoit la
+          tente où nous étions, d'avec celle où il me conduisoit. Nos deux compagnons resterent derrière nous.
+          Le vieillard &amp; mot nous entrâmes seuls. Il s'arrête &amp; me laisse observer un moment cette
+          seconde enceinte.</p>
+        <p>Elle étoit de satin blanc &amp; sans broderie. La terre y étoit jonchée des débris d'une foule de
+          livres qui avoient été mis en pièces. C'étoit, me dit-il, les dépouilles des erreurs &amp; des
+          préjugés vaincus. J'y lûs des noms que le monde entier étoit accoutumé à respecter ; les Histoires
+          les plus anciennes &amp; les plus authentiques, les Philosophes les plus renommés. Je soupirai
+          malgré moi d'avoir appris tant de choses qu'il me falloit oublier.</p>
+        <p>C'étoit sur de pareils trophées que s'élevoit une table quarrée couverte d'un tapis de velours
+          cramoisi ; aux quatre coins fumoit dans des cassolettes d'or un parfum plus agréable encore que
+          celui dont j'avois jusques-là respiré l'odeur.</p>
+        <p>Sur cette table, &amp; au milieu des cassolettes étoient rangés sept coffres d'un pied de long
+          sur un demi pied de large, &amp; sur un pouce &amp; demi d'épaisseur. Ils étoient revétus d'un
+          maroquin bleu, &amp; ne paroissoient distingués l'un de l'autre que par les sept premieres lettres
+          de l'alphabet, que l'on y voyoit formées par des lignes de petits clouds de diamant. Chaque coffre
+          avoit sa lettre qui lui paroissoit servir d'étiquette. J'admirois &amp; j'attendois l'explication de
+          ces Symboles mystérieux, lorsque le vieillard rompit le silence par ces mots.</p>
+        <p>« Ô nature ô mere féconde des vérités, des vertus &amp; des plaisirs. Il est tems que tu régnes
+          sur l'homme, comme sur tout ce qui vit &amp; qui végéte. Il est le seul qui ait voulu secouer ton
+          joug &amp; méconnoître ton empire. Il a eu l'orgueil de se croire l'objet de tes complaisances,
+          &amp; il s'est écarté de ton but. Acheves, ô Nature, de perfectionner ces monumens élevés à ta
+          gloire. Continues d'illuminer les Sages qui doivent renouveller l'univers. Que leurs travaux
+          célébrés réunifient ici les vérités de tous les lieux, de tous les âges &amp; de tous les
+          tempéramens. Que leur nom soit éternel comme toi, &amp; que par leurs soins bienfaisans les hommes
+          méritent un jour de te connoître &amp; de parvenir au bonheur dont tu vas faire jouir cet étranger.
+          »</p>
+        <p>Lorsqu'il prononçoit ces paroles ses yeux étoient enflammés, son visage se troubloit &amp; sa
+          voix avoit je ne sçai quoi de rauque &amp; de majestueux. À peine eut-il fini, qu'il monte sur
+          l'estrade qui soutenoit la table ; il m'appelle, je le suis avec une confiance mêlée de vénération
+          &amp; de crainte. Il ouvre alors avec respect deux ou trois des coffres que j'avois devant les yeux.
+          J'y observois avec surprise un assemblage confus des matières les plus hétérogènes ; de la poudre
+          d'or mêlée avec la limaille du fer &amp; les scories du plomb ; des diamans à-demi cachés dans des
+          monceaux de cendres ; les sels des plantes les plus salutaires confondus avec les poisons les plus
+          funestes. Je disois en moi-même, « Ce sont-là sans doute les résultats du mélange de tous les
+          élémens. Je vas voir ici la matière vivante, les molécules organiques, les moules &amp; les limites
+          de l'énergie. » Je n'eus pas le tems de réfléchir davantage. Le Cacouac, après m'avoir regardé
+          fixement, se baisse sur le petit coffre qui étoit vis-à-vis de moi, &amp; me souffle dans les yeux
+          la poudre qui devoit m'élever à la perfection qui m'étoit promise.</p>
+        <p>Je ne sçai s'il me sera possible d'exprimer ce qui se passa en moi-même, &amp; je ne puis le
+          rendre que par des images imparfaites. Je perdis pendant quelques momens l'usage de la vûe, &amp;,
+          dans cet intervalle, il me sembla que tout ce qui me restoit encore de mes vieilles idées se
+          détachoit de mon cerveau. Je sentois le cahos se former &amp; se débrouiller dans ma tête, &amp; mon
+          ame brûler d'un feu que je n'avois point encore éprouvé : l'idée principale, celle qui me parut
+          remplacer d'abord toutes les autres, fut celle de ma propre excellence. Elle étoit comme le fonds du
+          tableau &amp; ce fonds étoit vaste ; car Il me sembloit que mon esprit s'étendît en surface à
+          l'infini, &amp; que les objets s'y peignissent avec une rapidité dont j'étois étonné. Je crus que
+          toutes les Sciences venoient s'y ranger dans l'ordre qu'elles devoient tenir entre elles ; à mesure
+          qu'elles se plaçoient mon trouble diminuoit, je me trouvois pénétré de reconnoissance pour la Nature
+          qui m'avoit fait un être beaucoup plus parfait que mes semblables ; je me fusse cru élevé au-dessus
+          de l'Humanité même, sans le fonds de bonté que je retrouvois dans mon propre cœur, &amp; cette pitié
+          généreuse que je me sentois encore pour le reste du genre humain : enfin j'ouvris les yeux.</p>
+        <p>Quel fut alors mon étonnement de ne plus voir ni la table, ni les petits coffres, ni la tente où
+          tout s'étoit passé, &amp; d'appercevoir seulement mon guide, dont la taille me paroissoit augmentée
+          de plus de soixante pieds ? cependant ma tête étoit vis-a-vis de la sienne. Je m'envisage moi-même,
+          j'ai peine a en croire mes yeux, je me trouve d'une grandeur gigantesque, &amp; je me sens la
+          légèreté d'une plume. Je porte mes regards de côté &amp; d'autre, je retrouve tous les Cacouacs que
+          j'avois vu la veille. Je discerne leurs traits, j'entends leurs voix, ils viennent me féliciter.
+          Hommes &amp; femmes, tout me paroissoit avoir crû dans la même proportion ; cependant à peine
+          touchions-nous la terre ; le moindre mouvement, un saut léger portoit notre tête jusqu'aux nuës.</p>
+        <p>« Tu vois, s'écria le vieillard, l'effet de l'étude de la Nature. C'est elle qui nous éleve
+          au-dessus du Vulgaire ; c'est elle qui met l'Univers aux pieds des Sages. Ne t'informe point si
+          cette grandeur est réelle ou imaginaire ; il suffit pour ton bonheur que tu te croyes grand, &amp;
+          pour ta gloire que les autres ayent de toi la même opinion. Tu détruiras les préjugés ; tu feras la
+          guerre aux erreurs ; tu extermineras tous les principes que les foibles humains se sont formés, ou
+          ont cru trouver dans leur cœur. Ton devoir est désormais de leur prouver qu'ils ont été dupes ;
+          affermis-toi dans le mépris qu'ils méritent. Ils t'en estimeront davantage. Tu peux planer dans les
+          Airs. Considéres l'Univers du haut de ta grandeur, &amp; ne te rabaisses jamais que pour fondre sur
+          les erreurs, comme l'aigle fond sur sa proye ». Il dit, &amp; s'éloigne de moi.</p>
+        <p>Je levai les yeux, mes regards s'étendoient sur un vaste horizon proportionné à ma taille. Je
+          m'élançai dans les airs, rien n'échappoit à ma vue. J'appercevois des États entiers, &amp; les
+          Sociétés humaines étoient pour moi de misérables fourmilières. Que voyois-je en effet ? Des Rois qui
+          commandoient à des peuples, &amp; usurpoient sur leurs sujets ces droits que s'arrogeoient les
+          premiers peres de famille sur leurs enfans. Je disois avec emphase « Qui a donné à cet individu
+          l'autorité qu'il exerce sur tant de millions d'hommes ? Où est le titre de cette convention ? Il
+          doit cependant exister, ou<ref target="#N16"/>
+          leur droit seroit imaginaire. Comment ces malheureux animaux que l'on attache au joug, ont-ils
+          oublié que leur liberté est imprescriptible comme celle des lions ? Aveugle &amp; misérable genre
+          humain tu te vantes d'être destiné à la Société, &amp; tu n'est né que pour l'esclavage<ref target="#N17"/>. »</p>
+        <p>Plus loin, je voyois des Souverains qui, après des guerres longues &amp; cruelles, faisoient des
+          Traités, &amp; s'occupoient du soin de rétablir la paix « Ô Nature m'écriois-je, comment tes enfans
+          se sont-ils éloignés si follement de l'état heureux où tu les avois placés ? Mere bienfaisante, en
+          faisant l'homme Sauvage,
+          <hi rend="italic">tu avois</hi>
+          <hi rend="italic">écarté de lui toutes les miséres dont il est susceptible ;</hi>
+          il a voulu vivre avec ses semblables, &amp; il est devenu malheureux.
+          <hi rend="italic">C'est la Société qui porte nécessairement les hommes à s'entrehaïr</hi>
+          <ref target="#N18"/>.
+          <hi rend="italic">La raison de chaque particulier lui dicte des maximes directement contraires à
+            celles que la raison publique prêche au corps de la Société... Dans cet état de choses, les hommes
+            sont forcés de se caresser &amp; de se détruire mutuellement, ils naissent ennemis par devoir &amp;
+            fourbes par intérêt ; la raison publique</hi>
+          de l'Univers les porte à faire des Traités ; la raison particulière de chaque état les porte à les
+          violer. »</p>
+        <p>Il n'est pas nécessaire que j'avertisse ici que j'étois alors
+          <hi rend="italic">sous le charme</hi>
+          <ref target="#N19"/>, &amp; dans le plus fort du délire. Cette idée qui m'a souvent humilié depuis
+            m'empêchera de rendre un compte détaillé de tout ce qui m'arriva dans cet état de folie. Il seroit
+            peu décent d'entretenir ici mon Lecteur de cent visions ridicules que je ne me rappelle aujourd'hui,
+            que comme on se retrace un rêve long &amp; fatigant.</p>
+        <p>Si, pendant tout le tems qu'il a duré, je n'ai commercé qu'avec des Cacouacs, je n'ai point ici
+          d'excuses à demander ; car si mes réflexions étoient absurdes &amp; mes expressions insolentes,
+          elles ne cédoient rien à celles qui étoient tous les jours dans la bouche des principaux de la
+          Colonie. Mais si ces Enchanteurs m'ont réellement conduit ailleurs, si j'ai malheureusement parlé
+          devant quelqu'homme sensé, ou devant quelqu'honnête Citoyen, je ne craindrai point de leur demander
+          ici pardon de toutes les impertinences que je puis avoir dites en leur présence.</p>
+        <p>Si, par exemple, j'avois mis les Princes qui n'ont point adopté les idées des Cacouacs dans la
+          classe du
+          <hi rend="italic">Vulgaire des Rois</hi>
+          <ref target="#N20"/>
+          ; si j'avois débité que ce n'est qu'aux Cacouacs qu'est dû l'hommage du genre humain, par cette
+          raison admirable que
+          <hi rend="italic">c'est à celui qui connoît l'Univers, &amp; non à celui qui le défigure, que les
+            hommes doivent leurs respects</hi>
+          <ref target="#N21"/>
+          ; si en partant de-là j'avois placé mes nouveaux amis au-dessus même des Souverains, si j'avois
+          assuré que ce que les hommes ont toujours eu de plus sacré, n'est qu'un amas de préjugés &amp; de
+          superstitions qui devoit faire place à la lumière que nous étions destinés à répandre, je
+          reconnoîtrois humblement qu'en répétant tous ces discours si familiers à mes Confrères, j'ai dit
+          autant de sottises qui auroient mérité une punition réelle, si l'on n'eût eu aucun égard à
+          l'aliénation de mon esprit.</p>
+        <p>Après cette déclaration modeste, je ne craindrai point d'avouer que tant que dura mon yvresse
+          magique je ne pensai ni à mes parens, ni à mes amis, ni à mes anciens Concitoyens. Absolument
+          indifférent sur les liens qui m'avoient autrefois attaché à ma Patrie, je n'en connoissois plus
+          d'autre pour moi que l'Univers entier. Je me croyois bonnement destiné à l'éclairer, à le conduire,
+          à le réformer ; j'avois totalement oublié tous mes devoirs particuliers, &amp; je n'envisageois plus
+          que ce devoir général. Je ne pouvois être assez étonné que les Cacouacs n'eussent point encore été
+          chargés de l'administration d'aucun État. J'espérois même que le genre humain, connoissant un jour
+          ses besoins, &amp; abdiquant ses préjugés, viendroit prier cette Nation bienfaisante de rétablir
+          dans l'Univers la liberté, &amp; l'égalité que tant de loix injustes en avoient bannies.</p>
+        <p>Mon tems se partageoit entre les plaisirs de toute espéce &amp; les entretiens brillans que
+          j'avois avec les plus habiles Cacouacs. Souvent je voyageois avec eux ; il me sembloit que notre
+          agilité prodigieuse égalant en quelque façon la vivacité des mouvemens de notre ame, nous nous
+          transportassions en un moment dans les pays les moins connus de l'Univers. C'étoit là que nous
+          découvrions mille petits faits ignorés du reste des hommes, &amp; par lesquels nous espérions
+          détruire un jour la créance universelle accordée aux grands événemens que toute la terre atteste ;
+          car nous ambitionnions surtout la gloire de détruire.</p>
+        <p>C'étoit dans ce généreux dessein que nous avions soin de recueillir précisément ce qu'il y avoit
+          de plus ridicule dans quelques usages ou dans quelques maximes de certains peuples. Nous commencions
+          par chercher à concilier de la faveur &amp; du respect aux erreurs les plus grossiéres ; nous
+          voulions les faire regarder comme aussi solidement appuyées que les principes dont la Vérité, ou est
+          reconnue par tous les hommes, ou est attestée par les monumens les plus authentiques. C'étoit à côté
+          de ces grandes maximes que nous mettions une foule de contes apochryphes &amp; dignes de mépris :
+          nous en construisions une espéce d'édifice que nous savions bien qu'il nous seroit facile de
+          renverser, persuadés en même-tems qu'il entraîneroit par sa chute la ruine des principes sur
+          lesquels les hommes de tous les tems &amp; de tous les lieux ont posé les fondemens de leur Société.
+          Une noble entreprise charmoit surtout notre ambition, c'étoit de faire tomber à la fois toutes les
+          Religions de l'Univers. La véritable nous embarassoit beaucoup ; mais nous nous flations de la faire
+          perdre de vue dans la foule des superstitions qui caractérisoient toutes les autres. Dans cet
+          illustre projet les Cacouacs ne se croioient point encore assez surs de leur magie, &amp; ils
+          étoient bonnement convenus d'employer le mensonge &amp; la mauvaise-foi. Comme j'ai dit plus haut
+          qu'ils me paroissoient persuadés de leur systême, leur conduite ne laissoit pas de me surprendre ;
+          car malgré l'enchantement je n'ai jamais pu comprendre que l'on fût obligé de mentir hardiment, pour
+          détruire des erreurs.</p>
+        <p>Quoiqu'il en soit, les rolles étoient partagés entre les principaux Cacouacs ; chacun avoit son
+          travail qui lui étoit assigné, &amp; tous devoient concourir au but général. Le Vulgaire n'étoit
+          destiné qu'à applaudir, &amp; à débiter les grandes phrases de ses maîtres : pour les Illustres de
+          la Colonie, voici à peu près comment ils avoient distribué entre eux l'usage qu'ils devoient faire
+          de leurs talents.</p>
+        <p>L'un s'étoit proposé de démontrer à l'Univers que rien n'est moins nécessaire que l'existence
+          d'un Dieu, &amp; qu'absolument parlant le monde pouvoit très-bien se passer d'un être Créateur &amp;
+          Conservateur. Il ne falloit pour cela que des élémens éternels &amp; du mouvement, l'un &amp;
+          l'autre nécessaires. Cela une fois supposé, ce qui n'étoit pas plus difficile que de supposer un
+          Dieu, le monde alloit tout seul ; la circulation du sang dans un ciron, le développement des germes
+          dans une plante, &amp; les remords qui tourmentent le scélérat avoient absolument la même cause. Ce
+          n'est pas qu'il ne fût possible qu'il existât un Dieu, mais ce n'étoit pas la faute de l'Homme s'il
+          n'avoit aucune preuve certaine de son action &amp; de son influence.</p>
+        <p>Quelqu'imbécile eût pu trouver étonnant qu'un mouvement aveugle eût produit tant de merveilles
+          &amp; tant d'arrangemens aussi sensés ; qu'il eût, par exemple, placé des dents sur le passage des
+          alimens, qu'il eût mis les yeux de l'Homme au-dessous de son front &amp; non à ses talons, ses mains
+          au bout de ses bras &amp; non à son oreille. Aussi un autre Cacouac étoit chargé de mettre en
+          parallèle, avec ces preuves d'une intelligence supérieure, tous les maux qui affligent l'Homme &amp;
+          tant d'effets singuliers dont il n'apperçoit point la destination. De ce que l'on ne conçoit pas
+          tous les ouvrages de la sagesse Divine, il devoit conclure habilement qu'elle n'existe pas.</p>
+        <p>Le travail d'un autre avoit pour objet de trouver dans l'histoire des preuves de ce systême si
+          utile : il recueilloit des faits &amp; prouvoit que le hazard le plus aveugle avoit conduit tous les
+          événemens. Il avoit fait une liste magnifique de tous les scélérats qui avoient vécu dans la
+          prospérité &amp; qui étoient morts tranquilles. Il leur opposoit le catalogue d'une foule de bons
+          Rois qui avoient été infortunés, &amp; de gens de bien qui avoient péri de misère. S'il avoit à
+          parler des guerres entreprises par un Souverain, il sçavoit observer judicieusement que la seule
+          qu'il eût eu de justes raisons de soutenir avoit été la seule malheureuse<ref target="#N22"/>
+          : on eût peut-être objecté que tout devoit être compensé dans un autre vie. Mais notre sçavant
+          Cacouac avoit réponse à tout ; l'ame des bêtes qu'il ne connoissoit point devoit lui fournir des
+          preuves sans réplique de la matérialité de la sienne propre. Il devoit convaincre tous les hommes
+          qu'ils n'étoient que des pures machines, qu'un enfant &amp; un petit chien se ressembloient à
+          merveille<ref target="#N23"/>,
+            &amp; qu'entre une taupe &amp; Archiméde, il n'y avoit autre différence que celle du plus ou du
+            moins de finesse des organes.</p>
+        <p>Ce même Cacouac (car c'étoit un homme universel, &amp; le plus laborieux de tous) avoit promis à
+          sa Nation, que s'il ne pouvoit détruire l'idée de la Divinité, il anéantiroit du moins les preuves
+          de la Révélation. Pour réussir dans ce dernier projet, il avoit une méthode admirable. Il ramassoit
+          les contes des Indiens, les Fables anciennes &amp; modernes, les absurdités du Mahométisme ; tout
+          lui étoit bon. Il affectoit de donner un air de raison à toutes ces folies qu'il plaçoit gravement à
+          côté de la Réligion Chrétienne, sur laquelle il cherchoit à jetter le ridicule<ref target="#N24"/>.
+          Il ne lui en coutoit rien pour prêter à celle-ci beaucoup d'absurdités ; car je l'ai dit, on étoit
+          convenu dans la Colonie que l'on pourroit mentir. Restoit à détruire les preuves de fait ; notre
+          vénérable les nioit toutes, &amp; cela lui suffisoit. Les titres les plus authentiques, les
+          histoires les plus anciennes, les monumens les plus incontestables échappés à la ruine des tems,
+          tout devoit être brûlé, oublié, compté pour rien. Cette religion qui a triomphé de toutes les
+          autres, s'étoit établie comme toutes les Sectes de Philosophie, sans la moindre contradiction. Déce
+          &amp; le sage Diocletien avoient favorisé ses progrès. L'illustre Cacouac, ne doutoit point que tout
+          l'Univers ne dût l'en croire sur sa parole, &amp; qu'un Sage qui avoit si bien prouvé qu'un grain de
+          matière peut se rappeller le passé &amp; prévoir l'avenir, ne dût anéantir par son souffle
+          tout-puissant les faits les plus certains.</p>
+        <p>Un autre se joignoit à cet infatigable ouvrier. Il faisoit jour &amp; nuit des expériences pour
+          prouver que les loix du mouvement ne s'accordent point avec la Religion révélée. Il n'avoit garde
+          d'appeller des témoins pour observer ses travaux. Mais il disoit : « Une religion appuyée sur des
+          faits ne tiendra jamais contre mes découvertes. Les hommes ont beau dire,
+          <hi rend="italic">J'ai vu ;</hi>
+          je ne dois point les croire, si ce qu'ils ont vu est inconciliable avec les résultats que me fournit
+          la Chimie ; car mon alembic est une machine plus sûre que leurs yeux. »</p>
+        <p>Je ne finirois point, si je voulois rapporter en détail toutes les occupations des Principaux de
+          cette Nation, &amp; j'aurois trop à rougir, si j'avouois ici les miennes. J'observerai seulement que
+          la preuve la plus forte que je puisse donner de la magie qui m'avoit aliéné l'esprit, est que
+          pendant plus de six mois je crus tout ce que me dirent les Cacouacs, je suivis leurs usages, &amp;
+          j'adoptai leurs mœurs.</p>
+        <p>Cependant, soit que le vieillard, qui n'avoit ouvert que deux ou trois coffres, ne m'eût point
+          soufflé assez de poudre dans les yeux, soit que mon ame fût d'une autre trempe que celle des
+          Cacouacs, au bout de six mois je sentis quelque vuide au fonds de moi. Peut-être le charme
+          commençoit-il à se dissiper de lui-même. Il me sembloit que mon esprit augmentant en surface, eût
+          laissé évaporer la substance qui eût dû y entretenir pour toujours la chaleur &amp; la vie. « Il y a
+          long-tems, me dis-je un jour à moi-même, que je suis devenu Cacouac. J'ai perdu des Vérités qui
+          m'avoient autrefois consolé, qui m'avoient soutenu, qui m'avoient paru être le lien de toutes les
+          Sociétés, &amp; gravées dans mon cœur comme dans celui de tous les hommes. Je me trompe ; ces
+          Vérités étoient autant de préjugés de mon enfance. C'étoient des contes de ma nourrice. Mais où donc
+          est-elle cette Vérité dont le nom retentit chaque jour à mon oreille ? Ce n'est ici qu'un mot vuide
+          de sens. C'est une ombre que je veux saisir, &amp; qui m'échappe : on m'a tout ôté ; qu'a t'on mis à
+          la place. Je croyois des Mystères attestés par le monde entier ; on y a substitué d'autres Mystères
+          beaucoup plus incompréhensibles, &amp; dont je n'ai pour garant que la foi des Cacouacs qui m'ont
+          enlevé à mes parens. » À peine eus-je fait cette réflexion, qu'il me sembla que je décroissois de
+          quinze pieds, &amp; que le même changement se faisoit dans tous ceux qui m'environnoient.</p>
+        <p>Ce Phénomène me surprit étrangement. Il augmenta ma défiance. Je voulus voir tous les Cacouacs en
+          particulier, &amp; leur demander quelque Vérité qui fût à mon usage, &amp; me tenir lieu de quelque
+          chose. J'ai dit en commençant qu'ils en étaloient de toutes les espèces : mais lorsqu'il fut
+          question de choisir ce qui me convenoit, je ne trouvai qu'embarras, difficultés, incertitude. Ce que
+          l'un me donnoit pour une Vérité, l'autre le critiquoit comme une absurdité ridicule. Les Cacouacs se
+          disputoient avec chaleur &amp; même avec aigreur dès qu'il s'agissoit de convenir de quelque chose,
+          &amp; je voyois avec quelque honte &amp; même avec un peu de chagrin, que depuis qu'ils m'avoient
+          naturalisé, ils ne s'étoient encore accordés que sur la nécessité de tout anéantir. Lorsque j'eus
+          fait cette triste expérience je trouvai encore ma taille diminuée de quinze pieds, il ne m'en
+          restoit plus que trente de soixante que j'avois auparavant. Je résolus en moi-même de m'échapper un
+          jour &amp; de voyager seul ; bien résolu de revenir au camp, si je ne trouvois pas mieux ; car au
+          défaut de Vérité j'y avois au moins des plaisirs.</p>
+        <p>J'avois formé cette révolution lorsque les Aléthophiles, cette petite Nation dont j'ai parlé plus
+          haut, déclarèrent la guerre aux Cacouacs par un Héraut d'armes qui me parut un Pygmée. On reçut ce
+          Député avec de grands éclats de rire ; on le menaça de le donner aux enfans pour leur servir de
+          poupée ; &amp; cependant on donna des ordres pour que chacun prît les armes.</p>
+        <p>Je n'avois pas une passion bien violente de me battre pour un peuple dont j'avois quelque sujet
+          de me défier, &amp; dont je me dégoûtois peu à peu. Lorsque nos troupes furent assemblées, je m'y
+          trouvai à peu près comme un Saxon dans celles du Roi de Prusse. Cependant, le combat me paroissoit
+          devoir être si inégal, que je ne craignois point de danger, &amp; que je doutois encore moins de la
+          victoire.</p>
+        <p>Nous sortîmes du camp ; nous nous rangeâmes en bataille, &amp; nous ne fumes pas long-tems sans
+          appercevoir un détachement des Aléthophiles qui marchoit à nous. Notre armée s'ébranla, &amp;
+          l'ennemi nous attendit avec une sécurité dont je fus effrayé pour lui. Nos trompettes faisoient un
+          fracas épouvantable. Les ennemis nous répondirent par leurs cris ; ils gardèrent ensuite le silence
+          le plus profond. Mais à peine étions-nous à leur portée que leur détachement se dispersa. Nous
+          crûmes qu'ils alloient prendre la fuite, &amp; les Cacouacs crierent victoire. Mais ce dispersement
+          des Aléthophiles étoit une preuve de leur confiance. Ils se répandirent dans la campagne, nous
+          environnèrent &amp; tirerent tous à la fois ce petit instrument dont j'ai déjà fait mention. Un
+          sifflement universel &amp; fort aigu vint frapper nos oreilles.</p>
+        <p>Je n'oublierai jamais ce moment ; en un clin d'œil il me sembla que tous les Cacouacs, &amp;
+          moi-même nous tombassions de vingt-cinq pieds de haut. Je me vis plus petit même, que ces soldats
+          qui un instant auparavant étoient l'objet de notre mépris &amp; de ma pitié. Ce n'est pas tout,
+          notre armée se débanda en même tems. Tous les Cacouacs se mettent à fuir, les uns vers le camp, les
+          autres dans la campagne. Je courois moins vite qu'eux. Il sembloit que l'étonnement m'eût ôté toute
+          mon activité. Je fus bientôt atteint par deux Aléthophiles, qui me firent leur prisonnier. « Jeune
+          Étranger, me dirent-ils, nous n'en voulons ni à ta vie, ni à tes biens. Il y a trop long-tems que tu
+          es la dupe de l'illusion, il n'est pas juste que tu en sois un jour la victime. Suis-nous ; nous te
+          rendrons à ta Patrie, à tes amis, à tes devoirs. »</p>
+        <p>Hélas je me sentis alors si honteux de tout ce qui m'étoit arrivé, que je répondis, en détournant
+          les yeux. « Qui que vous soyez, je vous regarde comme mes libérateurs ; je suis prêt à me laisser
+          conduire. Permettez-moi seulement de rentrer dans le camp pour y reprendre les effets que j'y ai
+          laissés, &amp; pour y demander des nouvelles d'un fidéle domestique qui est sans doute encore au
+          pouvoir de ces Enchanteurs. »</p>
+        <p>À ce mot d'<hi rend="italic">Enchanteur</hi>, un des deux soldats se mit à rire : « Plaisantenchantement, me dit-il, qu'il est si facile de détruire Au reste, si tu crains si fort la magie desCacouacs, nous ne voulons pas que tu retombes dans leurs pièges, &amp; nous t'accompagnerons jusqu'àleur camp : prends ce sifflet &amp; ne crains rien. »</p>
+        <p>Nous marchâmes, &amp; dans le chemin mes nouveaux guides m'apprirent la Nature du charme que
+          j'avois éprouvé. Ils le connoissoient mieux que personne, &amp; c'est pour cela qu'ils avoient
+          trouvé le moyen de le lever. Une chose m'embarrassoit seulement, c'étoient les voyages que j'avois
+          cru faire dans je ne sçai combien de pays inconnus. J'appris que ces voyages n'avoient rien de réel
+          ; que les Cacouacs qui étoient toujours resté les mêmes pendant tout le tems que je m'étois cru un
+          prodige, avoient le talent de faire ainsi voyager leurs prisonniers, au moyen de certaines feuilles
+          qu'ils leur mettoient devant les yeux, &amp; sur lesquels on avoit gravé tout ce que je croyois
+          avoir vu dans les différentes parties du monde.</p>
+        <p>Au bout d'un quart d'heure nous arrivâmes au camp. Nous le trouvâmes désert, soit que la peur eût
+          empêché les Cacouacs d'y rentrer, soit que voyant de loin deux Aléthophiles, ils craignissent encor
+          quelque coup de sifflet &amp; se fussent cachés. J'apperçus bientôt ma tente, nous y entrâmes. Les
+          cassolettes ne fumoient plus. Les roses étoient flétries. Le livre étoit dans la boue &amp; rongé
+          des vers. Je cherchai mes petits meubles &amp; mon argent, je ne trouvai rien : je cherchai encore.
+          Enfin j'apperçus sur ma table une lettre à mon adresse. Elle étoit de l'écriture de Valentin. Je
+          l'ouvris, &amp; voici ce que j'y lus :</p>
+        <p>Mon cher Maître,</p>
+        <p>« Tous les êtres vivans sont égaux par la Nature, &amp; ont le droit aux mêmes biens ; c'est par
+          une convention libre que les hommes se sont obligés à ne se point dépouiller les uns les autres. La
+          justice n'est fondée que sur l'intérêt ; le grand &amp; l'unique mobile de nos actions est l'amour
+          de soi-même ; &amp; la loi fondamentale de la Société est<ref target="#N25"/>
+          de faire son propre bien avec le moindre mal d'autrui qu'il est possible. Or, Mon cher Maître, j'ai
+          besoin de votre argent : en l'emportant avec moi je ne vous fais précisément que le tort inséparable
+          de mon bien-être. Je vous le vole en votre absence ; j'aurois pu le ravir en vous égorgeant. Mais un
+          véritable Cacouac ne fait jamais de mal à ses semblables que lorsqu'il y est forcé pour son propre
+          bien. Au surplus comme je veux être juste, je renonce très-librement à tous les avantages qui
+          pouvoient me revenir de la convention, sur laquelle est fondée la Société : je décharge dès
+          aujourd'hui le genre Humain de toutes les obligations qu'elle lui impose envers moi. Je parts pour
+          l'Allemagne ; &amp; si vous pouvez me voler ou me faire pendre, je vous le permets de tout mon cœur.
+          Daignez agréer un petit présent que je vous fais en partant, &amp; qui vaut pour le moins votre
+          montre &amp; votre tabatière que j'ai cru ne point devoir séparer de votre bourse. Ce gage que je
+          vous laisse de ma reconnoissance est un ouvrage de ma composition. Je l'ai déposé dans le Magazin
+          des Sciences &amp; des Arts. Il est intitulé :
+          <hi rend="italic">Nouvelles découvertes sur la tragédie, ou l'art de composer de très-belles Scènes de grimaces</hi>. Cet écrit vous prouvera que pour avoir étudié ici les sciences utiles<ref target="#N26"/>
+          je n'ai pas négligé pour cela les talens agréables. Je suis avec le plus profond respect, Mon cher
+          Maître, votre &amp;c.
+          <hi rend="italic">Signé</hi>
+          le Cacouac Valentin.</p>
+        <p>Je gémis lorsque je lûs cette épître singuliére, &amp; je regretai sincèrement mon pauvre valet
+          dont j'ai depuis appris la fin malheureuse ; plût à Dieu que mon argent &amp; mes bijoux lui eussent
+          mieux servi J'embrassai mon guide Aléthophile. J'avois le cœur serré &amp; j'y sentois naître pour
+          les Cacouacs une haine qui ne se pouvoir retenir. Je marchois en silence, &amp; je repassois avec
+          confusion ces systêmes ridicules, ces opinions absurdes, ces maximes funestes, ces folies toute
+          espéce dont je m'étois si long-tems nourri. Mes nouveaux Maîtres me consolèrent. « Gardes-toi de
+          haïr ces gens-là, me dirent-ils, ce seroit se mettre dans un nouveau genre de dépendance, dont ils
+          sauroient encore s'applaudir. Vas, jeune Étranger, le mépris public est le seul châtiment dû à
+          l'extravagance. » Je répondis aux Aléthophiles qu'ils étoient peu sévères. Nous continuâmes notre
+          route. Je sentis pendant le reste du voyage renaître le calme dans mon ame. Je priai mes guides de
+          vouloir bien me laisser le sifflet qu'ils m'avoient confié, résolu de m'en servir dès que je verrois
+          l'ombre d'un Cacouac. J'arrivai dans ma Patrie. Hélas je m'apperçus qu'il y avoit long-tems que j'en
+          étois dehors. Le dirai-je ? ces Cacouacs dangereux &amp; ridicules, ces Cacouacs que le sifflet met
+          en fuite, je trouvai qu'on leur avoit donné le nom de
+          <hi rend="italic">Philosophes</hi>, &amp; qu'on imprimoit leurs Ouvrages.</p>
+        </div>
+        <div type="chapter">
+        <head>PREMIER MÉMOIRE SUR LES CACOUACS.</head>
+        <p>
+          <hi rend="italic">Inséré dans le Mercure de France, 1 Vol.</hi>
+        </p>
+        <p>
+          <hi rend="italic">du Mois d'Octobre, pag. 15, sous le titre d'</hi>
+        </p>
+        <p>
+          <hi rend="italic">AVIS UTILE.</hi>
+        </p>
+        <p>Vers le quarante-huitième degré de latitude septentrionale, on a découvert nouvellement une
+          Nation de Sauvages, plus féroce &amp; plus redoutable que les Caraïbes ne l'ont jamais été. On les
+          appelle
+          <hi rend="italic">Cacouacs</hi>
+          <ref target="#N27"/>
+          : ils ne portent ni flèches, ni massues : leurs cheveux sont rangés avec art ; leurs vêtemens
+          brillans d'or d'argent &amp; de mille couleurs, les rendent semblables aux fleurs les plus
+          éclatantes, ou aux oiseaux les plus richement pannachés ; ils semblent n'avoir d'autre soin que de
+          se parer, de se parfumer &amp; de plaire : en les voyant, on sent un penchant secret qui vous attire
+          vers eux : les grâces dont ils vous comblent, sont le dernier piége qu'ils emploient.</p>
+        <p>Toutes leurs armes consistent dans un venin caché sous leur langue ; à chaque parole qu'ils
+          prononcent, même du ton le plus doux &amp; le plus riant, ce venin coule, s'échappe &amp; se répand
+          au loin. Par le secours de la magie qu'ils cultivent soigneusement, ils ont l'art de le lancer à
+          quelque distance que ce soit. Comme ils ne sont pas moins lâches que méchans, ils n'attaquent en
+          face que ceux dont ils croient n'avoir rien à craindre : le plus souvent ils lancent leur poison par
+          derrière.</p>
+        <p>Parmi les malheureux qui en sont atteints, il y en a qui périssent subitement : d'autres
+          conservent la vie, mais leurs plaies sont incurables, &amp; ne se referment jamais ; tout l'art de
+          la médecine ne peut rien contr'elles ; d'ailleurs on les prend souvent pour être naturelles. Ceux
+          qui en sont frappés deviennent des objets d'horreur, de mépris, &amp; le plus souvent d'une dérision
+          qui n'est pas moins cruelle : tout le monde les fuit ; leurs meilleurs amis rougissent de les
+          connoître &amp; de prendre leur défense.</p>
+        <p>Les Cacouacs ne respectent aucune liaison de société, de parenté, d'amitié, ni même d'amour : ils
+          traitent tous les hommes avec la même perfidie ; on remarque seulement en eux un plaisir un peu plus
+          vif à répandre leur poison sur ceux dont ils ont éprouvé l'amitié ou les bienfaits : en ce cas, ils
+          ont pourtant soin de l'assaisonner du suc de quelques fleurs ; car, malgré leur cruauté, ils ne
+          perdent jamais de vue l'envie de plaire, d'amuser &amp; de séduire.</p>
+        <p>Ils paroissent d'abord les plus sociables de tous les hommes ; ils les recherchent &amp; veulent
+          en être recherchés : mais tout ce qu'ils en font, n'est que dans le dessein d'exercer leur
+          méchanceté, qui ne peut avoir aucune prise sur ceux qui ont le bonheur de n'être pas connus d'eux.
+          Plus vous les voyez affecter de grâces, de gaieté, de vivacité, plus vous devez vous en défier ;
+          c'est ordinairement-là l'instant qu'ils choisissent pour darder leur venin ; vous vous livrez à
+          l'enjouement qu'ils vous inspirent, &amp; vous êtes tout étonnés de l'abondance du poison qui s'est
+          insinué dans vos oreilles, &amp; qui vous a porté à la tête les idées les plus sinistres &amp; les
+          plus cruelles. Malheur à ceux qui se plaisent à les voir &amp; à les entendre Quelques précautions
+          qu'ils prennent, quelques protestations que les Cacouacs leur fassent de les épargner, ils n'ont pas
+          plutôt le dos tourné qu'ils éprouvent leur rage.</p>
+        <p>Cependant ces Barbares, tout Barbares qu'ils sont, se craignent mutuellement, &amp; ne
+          s'attaquent guere entr'eux : mais quand ils rencontrent quelqu'un qui n'est pas initié dans les
+          mysteres de leur magie, ils le poursuivent impitoyablement : du reste, parce qu'ils détestent toute
+          vertu, ils n'en admettent aucune sur la terre, &amp; affectent de croire tous les hommes pervers ;
+          il suffit d'être modeste, honnête, bienfaisant pour être en butte à leurs traits.</p>
+        <p>On exhorte ceux qui voyageront vers cette contrée, à se munir de bonnes armes offensives. On a
+          observé que ces Sauvages les craignent beaucoup ; à leur simple vue, ils cessent de rire &amp; de
+          faire rire ; ce qui est un signe assuré qu'ils sont forcés de retenir leur venin : il reflue alors
+          sur eux, même avec tant de violence, qu'ils périroient bientôt, s'ils ne s'échappoient promptement
+          pour aller chercher des objets sur lesquels ils puissent les dégorger : c'est-là leur unique
+          occupation. On les voir courir çà &amp; là, &amp; roder sans cesse dans cette vue.</p>
+        <p>Les hommes les plus barbares que l'on ait découverts jusqu'ici, ne sont point sans quelques
+          qualités morales ; les insectes les plus déplaisans, les reptiles les plus venimeux, ont quelques
+          propriétés utiles. Il n'en est pas de même des Cacouacs : toute leur substance n'est que venin &amp;
+          corruption ; la source en est intarissable &amp; coule toujours. Ce sont peut-être les seuls êtres
+          dans la nature qui fassent le mal précisément pour le plaisir de faire du mal.</p>
+        <p>On a des avis sûrs que quelques-uns de ces monstres sont venus en Europe ; ils se sont appliqués
+          à contrefaire le ton de la bonne compagnie, pour s'y introduire &amp; s'y mieux cacher : on les
+          rencontre dans les cercles les plus agréables, ils recherchent particulièrement la société des
+          femmes qu'ils affectent d'aimer ; mais c'est contr'elles qu'ils exhalent leur venin de préférence.
+          Il seroit difficile de fixer des indices certains pour les reconnoître : on conseille seulement de
+          se défier des gens qui plaisantent surtout ; on découvre tôt ou tard que ce sont des Cacouacs.</p>
+      </div>
+    </body>
+    <back>
+      <div type="notes">
+        <note xml:id="N1">Un Auteur Cacouac est persuadé que les Cerfs ont déjà acquis de la Raison : peu
+          s'en faut qu'il ne fixe l'âge où ils jouissent de cet avantage. Voyez le
+          <hi rend="italic">Dict. Encycloped</hi>. au mot
+          <hi rend="italic">Cerf</hi>.</note>
+        <note xml:id="N2">Voyez
+          <hi rend="italic">Le Fils naturel</hi>.</note>
+        <note xml:id="N3">Voyez le
+          <hi rend="italic">Gouvernement Civil</hi>
+          de Locke. Voyez le
+          <hi rend="italic">Discours sur l'inégalité parmi les hommes</hi>, pag. 47. &amp; note 10. Voyez aussi plusieurs autres Ouvrages des
+          <hi rend="italic">Cacouacs.</hi>
+        </note>
+        <note xml:id="N4">
+          <hi rend="italic">Discours sur l'inégalité parmi les hommes</hi>, p. 95.</note>
+        <note xml:id="N5">
+          <hi rend="italic">Entretiens</hi>
+          à la suite du
+          <hi rend="italic">Fils naturel</hi>.</note>
+        <note xml:id="N6">Les Cacouacs aiment beaucoup la musique. Il y a eu un tems où elle pensa exciter
+          chez eux une guerre civile. Un de leurs anciens s'avisa de soutenir que ce que ses Adversaires
+          appelloient une
+          <hi rend="italic">Musique</hi>
+          n'en étoit point une, &amp; peu s'en fallut que l'on ne se battît.</note>
+        <note xml:id="N7">Un des Chefs Cacouacs les plus renommés à fait plusieurs Ouvrages, &amp; entre autres une
+          <hi rend="italic">Histoire Universelle</hi>
+          pour prouver cette importante proposition.</note>
+        <note xml:id="N8">
+          <hi rend="italic">Interprétation de la Nature</hi>, Avertissement.</note>
+        <note xml:id="N9">Ce mot,
+          <hi rend="italic">un plus habile</hi>, chez les Cacouacs ne désigne point leurs Docteurs, C'est un
+          titre commun qu'ils se donnent tous les uns aux autres, &amp; que chacun en particulier se flatte de
+          mériter à l'exclusion de tous.</note>
+        <note xml:id="N10">
+          <hi rend="italic">Interprétation de la Nature</hi>, pag. 201.</note>
+        <note xml:id="N11">
+          <hi rend="italic">Ibid</hi>, pag 199.</note>
+        <note xml:id="N12">Voyez dans l'Ouvragc d'un Cacouac très-versé dans l'<hi rend="italic">Histoire Naturelle</hi>, cette magnifique &amp; très-Poëtique description de l'Amour, qui commence par ces mots,
+          <hi rend="italic">Amour, Désir inné, Ame de la Nature</hi>, &amp;c. &amp;c. Et après laquelle, pour
+          la plus grande union des ménages, on conclut judicieusement qu'il est utile, &amp; même agréable à
+          un mari de coucher avec sa femme ; mais que c'est pour lui un malheur de l'aimer, &amp; qu'il
+          vaudroit bien mieux s'en tenir à l'appétit des bêtes.</note>
+        <note xml:id="N13">Voyez les
+          <hi rend="italic">Pensées sur l'interprétation de la Nature</hi>, pag. 191.</note>
+        <note xml:id="N14">
+          <hi rend="italic">Ibid.</hi>
+          pag. 153, 154 &amp; suiv.</note>
+        <note xml:id="N15">
+          <hi rend="italic">Lettre sur les Aveugles</hi>, pag. 58.</note>
+        <note xml:id="N16">Voyez Locke,
+          <hi rend="italic">du Gouvernement Civil</hi>
+          ; le mot
+          <hi rend="italic">Autorité, Dict. Encycloped</hi>. premier vol. avant l'Arrêt du Conseil qui le supprime.
+          <hi rend="italic">Discours sur l'inégalité des Conditions</hi>, pag. 156, 157, 158, 159 &amp; suiv.</note>
+        <note xml:id="N17">
+          <hi rend="italic">Discours sur Inégalité des Conditions</hi>, pag. 147 &amp; 148.</note>
+        <note xml:id="N18">
+          <hi rend="italic">Discours sur l'inégalité des Conditions</hi>, note 7.</note>
+        <note xml:id="N19">
+          <hi rend="italic">Entretiens</hi>
+          à la suite du
+          <hi rend="italic">Fils Naturel</hi>.</note>
+        <note xml:id="N20">Expression Familière aux Cacouacs.</note>
+        <note xml:id="N21">
+          <hi rend="italic">Mêlange de Littérature, d'Histoire &amp;c</hi>. Ch. 33.</note>
+        <note xml:id="N22">
+          <hi rend="italic">Essai sur l'Histoire Générale</hi>. Le même Auteur, pour prouver que le monde
+          <hi rend="italic">est gouverné par une</hi>
+          <hi rend="italic">fatalité aveugle</hi>
+          : remarque judicieusement que
+          <hi rend="italic">l'Empire Ottoman qui avoit pu attaquer l'Empire d'Allemagne pendant la longue
+            guerre de 1701, attendit la conclusion totale de la paix pour faire la guerre contre les Chrétiens</hi>.</note>
+        <note xml:id="N23">
+          <hi rend="italic">Voyez</hi>
+          le même Auteur,
+          <hi rend="italic">Mélange de Littérature de Philosophie &amp; d'Histoire</hi>.</note>
+        <note xml:id="N24">Je ne sçai où l'on lit qu'en Égypte un fou s'avisa un jour d'amasser autour de la
+          plus belle des pyramides une prodigieuse quantité de fagots ; il y mit ensuite le feu : quand ils
+          furent réduits en cendre, il se frotoit les yeux, &amp; étoit tout surpris de voir encor la
+          pyramide.</note>
+        <note xml:id="N25">Toutes ces Maximes sont tirées des Ouvrages des Cacouacs, &amp; la derniere est
+          prise mot à mot dans le
+          <hi rend="italic">Discours sur l'inégalité des conditions</hi>.</note>
+        <note xml:id="N26">Valentin avoit appris à mentir chez les Cacouacs. J'ai sçu depuis, que l'ouvrage
+          qu'il s'attribue dans cette lettre n'étoit point de lui, mais d'un des plus illustres de la Colonie.</note>
+          <note xml:id="N27">Il est à remarquer que le mot Grec κακός, qui ressemble à celui de Cacouacs, signifie méchant.</note>
+      </div>
+    </back>
+  </text>
+</TEI>
