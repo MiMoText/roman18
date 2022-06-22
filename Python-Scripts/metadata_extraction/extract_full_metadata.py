@@ -225,35 +225,40 @@ def get_authordata(xml):
     try:
         namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
         authordata = xml.xpath("//tei:titleStmt/tei:author/text()",
-                               namespaces=namespaces)[0]
-        # remove linebreaks
-        authordata = " ".join(authordata.split())
+                               namespaces=namespaces)
 
-        if re.search("(.*?) \(", authordata):
+        authors_name_list = []
+        for entry in authordata:
+            entry = " ".join(entry.split())
+            if re.search("(.*?) \(", entry):
 
-            name = re.search("(.*?) \(", authordata).group(1)
-            try:
-                birth = re.search("\((\d\d\d\d)", authordata).group(1)
-                death = re.search("(\d\d\d\d)\)", authordata).group(1)
-            except:
+                name = re.search("(.*?) \(", entry).group(1)
+                authors_name_list.append(name)
+                try:
+                    birth = re.search("\((\d\d\d\d)", entry).group(1)
+                    death = re.search("(\d\d\d\d)\)", entry).group(1)
+                except:
+                    birth = "NA"
+                    death = "NA"
+            elif re.search("(.*?)\(", entry):
+                name = re.search("(.*?)\(", entry).group(1)
+                authors_name_list.append(name)
+                try:
+                    birth = re.search("\((\d\d\d\d)", entry).group(1)
+                    death = re.search("(\d\d\d\d)\)", entry).group(1)
+                except:
+                    birth = "NA"
+                    death = "NA"
+            else:
+                name = entry
+                authors_name_list.append(name)
                 birth = "NA"
                 death = "NA"
-        elif re.search("(.*?)\(", authordata):
-            name = re.search("(.*?)\(", authordata).group(1)
-            try:
-                birth = re.search("\((\d\d\d\d)", authordata).group(1)
-                death = re.search("(\d\d\d\d)\)", authordata).group(1)
-            except:
-                birth = "NA"
-                death = "NA"
-        else:
-            name = authordata
-            birth = "NA"
-            death = "NA"
     except:
         name = "NA"
         birth = "NA"
         death = "NA"
+
     # get gender
     try:
         desc_nodes = xml.xpath("//tei:textDesc", namespaces=namespaces)
@@ -265,7 +270,9 @@ def get_authordata(xml):
         size = n_list[1]
     except:
         au_gender = "NA"
-    return name, birth, death, au_gender, size
+
+    names = ', '.join(str(word) for word in authors_name_list)
+    return names, birth, death, au_gender, size
 
 
 def get_count(txt):
