@@ -26,15 +26,15 @@ The master format for all texts is an XML format following the *Guidelines* of t
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
 
 ## Structure of the repository
-Archiv: here we store files which were generated as intermediate.
-OCR4all_output: this folder is needed for our OCR4all digitization pipeline. The subfolders are used to organize a manual correction pipeline. 
-Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
-Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
-XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
-obvil-romans: this folder contains potential novels for our corpus
-plain:  our corpus of french novels 1751-1800 in plain text is stored here
-roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
-work-in-progress: this folder is outdated, only for documentation of archived workflow with TUSTEP  
+* Archiv: here we store files which were generated as intermediate.
+* OCR4all_output: this folder is needed for our OCR4all digitization pipeline. The subfolders are used to organize a manual correction pipeline. 
+* Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
+* Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
+* XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
+* obvil-romans: this folder contains potential novels for our corpus
+* plain:  our corpus of french novels 1751-1800 in plain text is stored here
+* roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
+* work-in-progress: this folder is outdated, only for documentation of archived workflow with TUSTEP  
 
 ## Licence
 
