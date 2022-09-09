@@ -34,7 +34,7 @@ In addition, we provide plain text versions of the texts. However, these are bes
 * obvil-romans: this folder contains potential novels for our corpus
 * plain:  our corpus of french novels 1751-1800 in plain text is stored here
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
-* work-in-progress: this folder is outdated, only for documentation of archived workflow with TUSTEP  
+* work-in-progress: this folder is outdated, only for documentation of an archived workflow of double keyed files   
 
 ## Licence
 
