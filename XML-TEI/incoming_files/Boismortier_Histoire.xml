@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="Boismortier_Histoire" xml:lang="fr"
-    xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="Boismortier_Histoire" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title ref="bgrf:66.12 wikidata:0">Histoire de Jacques Féru: MiMoText edition</title>
+                <title ref="bgrf:66.12 wikidata:0">Histoire de Jacques Féru: MiMoText
+                    edition</title>
                 <author ref="viaf:31987204 wikidata:Q3505914">Suzanne Bodin de
                     Boismortier(1722-1799)</author>
                 <respStmt>
@@ -27,21 +27,27 @@
             <publicationStmt>
                 <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
                 <distributor ref="https://github.com/mimotext/roman-dixhuit">Github</distributor>
-                <date>2022</date>
+                <date>2023</date>
                 <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en" />
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digitalSource">
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63560161" />
+                    <title>Histoire de Jacques Seru et de valeureuse demoiselle Agathe Mignard ;
+                        écrite par un ami d'iceux avec des airs notés</title>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63560161"/>
+                    <publisher>Bibliothèque national de France</publisher>
+                    <date>2012</date>
                 </bibl>
                 <bibl type="printSource">
-                    <title />
-                    <author />
-                    <pubPlace />
-                    <publisher />
-                    <date />
+                    <title>Histoire de Jacques Feru, et de valeureuse Damoiselle Agathe Mignard;
+                        Ecrite par un Ami d'iceux.</title>
+                    <author/>
+                    <pubPlace>La Haye</pubPlace>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Cuissart</publisher>
+                    <date>1766</date>
                 </bibl>
                 <bibl type="firstEdition">
                     <date>1766</date>
@@ -49,11 +55,11 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
-            <p />
+            <p/>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="fra" />
+                <language ident="fra"/>
             </langUsage>
             <textClass>
                 <keywords>
@@ -63,14 +69,10 @@
                 </keywords>
             </textClass>
             <textDesc>
-                <authorGender key="F"
-                    xmlns="http://distantreading.net/eltec/ns" />
-                <size key="medium"
-                    xmlns="http://distantreading.net/eltec/ns" />
-                <reprintCount key="unspecified"
-                    xmlns="http://distantreading.net/eltec/ns" />
-                <timeSlot key="T0"
-                    xmlns="http://distantreading.net/eltec/ns" />
+                <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
             </textDesc>
         </profileDesc>
         <revisionDesc>
@@ -104,7 +106,8 @@
                     avez fait naître, &amp; ne doutez plus du pouvoir que vous avez ſur moi. En
                     rendant ceci public, je ne ſens que l'avantage de publier auſſi les ſentimens
                     d'eſtime &amp; d'amitié que je vous ai voués, &amp; avec leſquels je ſerai
-                    toujours, MADEMOISELLE, Votre très-humble &amp; très-obéiſſante ſervante, ***.</p>
+                    toujours, MADEMOISELLE, Votre très-humble &amp; très-obéiſſante ſervante,
+                    ***.</p>
             </div>
             <div type="chapter">
                 <head>PREFACE.</head>
@@ -263,7 +266,8 @@
             </div>
             <div type="chapter">
                 <head>CHAPITRE V.</head>
-                <head>Jacques Féru, induit à mal par ſes Compagnons, a de l'oubliance envers ſa Mie.</head>
+                <head>Jacques Féru, induit à mal par ſes Compagnons, a de l'oubliance envers ſa
+                    Mie.</head>
                 <p>GUari je fus bientôt, parce que le cœur me diſoit, que point ne déplaiſois à ma
                     mie; mais le cœur nous trompe par fois. Cette douce mie, ſi courtoiſe, ſi
                     pitoyable, ne donnoit nul allegement à mes peines, pour ce que n'avoit de fiance
@@ -723,7 +727,8 @@
                     pour la femme de mon ami; mais pour ſa mie n'étoit ſi révencieux: pris donc la
                     coutumance de voir ſans crainte cette gentille femme: dans la ſuite m'acointai
                     avec Dames &amp; Damoiſelles qui m'advinrent, &amp; à qui j'advins, ce peut
-                    qu'icelles n'étoient ſi belles qu'Agathe; mais ſuffit que me ſembloient telles.</p>
+                    qu'icelles n'étoient ſi belles qu'Agathe; mais ſuffit que me ſembloient
+                    telles.</p>
                 <p>
                     <quote>
                         <l>C'eſt dans l'opinion</l>
