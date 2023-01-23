@@ -6,6 +6,8 @@ Submodule for checking the orthography of a text collection. The expected input 
 
 To install further dictionaries: sudo apt-get install myspell-es (etc.)
 See http://pythonhosted.org/pyenchant/ for more information about the spellchecking library used
+Information on installing and storing the required dictionary files:
+https://pyenchant.github.io/pyenchant/install.html#installing-a-dictionary
 """
 
 
@@ -32,7 +34,7 @@ from os.path import join
 # =======================
 
 
-wdir = join("..", "")
+wdir = ""
 inpath = join(wdir, "plain", "files", "*.txt")
 outpath = join(wdir, "plain", "spellcheck.csv")
 lang = "fr"
