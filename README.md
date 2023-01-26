@@ -31,14 +31,12 @@ In addition, we provide plain text versions of the texts. However, these are bes
 * Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
 * Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
-* obvil-romans: this folder contains potential novels for our corpus
 * plain:  our corpus of french novels 1751-1800 in plain text is stored here
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
-* work-in-progress: this folder is outdated, only for documentation of an archived workflow of double keyed files   
 
 ## Licence
 
-All texts are in the public domain and can be reused without restrictions. We don’t claim any copyright or other rights on the transcription, markup or metadata. If you use our texts, for example in research or teaching, please reference this collection using the citation suggestion below.
+All texts and scripts are in the public domain and can be reused without restrictions. We don’t claim any copyright or other rights on the transcription, markup or metadata. If you use our texts, for example in research or teaching, please reference this collection using the citation suggestion below.
 
 ## Citation suggestion
 
