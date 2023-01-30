@@ -31,9 +31,9 @@ All texts are in the public domain and can be reused without restrictions. We do
 ## Metadata 
 The tsv-File xml-tei_full_metadata.tsv contains metadata on the XML/TEI-files. There is a short metadata version (xml-tei_metadata.tsv) and an extended metadata version (xml-tei_full_metadata.tsv).
 
-BGRF: The ID refers to Martin, Angus, Vivienne Mylne, and Richard L. Frautschi. Bibliographie du genre romanesque français, 1751-1800. London: Mansell, 1977. 
-VIAF: The ID referes to the Virtual International Authority File: https://viaf.org/
-Wikidata: THe ID refers to the free and open knowledge base Wikidata: https://www.wikidata.org
+* BGRF: The ID refers to Martin, Angus, Vivienne Mylne, and Richard L. Frautschi. Bibliographie du genre romanesque français, 1751-1800. London: Mansell, 1977. 
+* VIAF: The ID referes to the Virtual International Authority File: https://viaf.org/
+* Wikidata: THe ID refers to the free and open knowledge base Wikidata: https://www.wikidata.org
 
 ## Citation suggestion
 
