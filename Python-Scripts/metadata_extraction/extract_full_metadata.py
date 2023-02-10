@@ -78,6 +78,12 @@ def open_file(teiFile):
 
     return xml, txt
 
+def get_all_elements(metadatum):
+
+    metas = ', '.join(str(word) for word in metadatum)
+    #print(metas)
+
+    return metas
 
 def get_metadatum(xml, xpath, key):
     """
@@ -86,128 +92,165 @@ def get_metadatum(xml, xpath, key):
 	"""
     try:
         namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
-        metadatum = xml.xpath(xpath, namespaces=namespaces)[0]
+        metadatum = xml.xpath(xpath, namespaces=namespaces)#[0]
+        #if len(metadatum) > 1:
+        #    metadatum = get_all_elements(metadatum)
+        #else:
+        #    metadatum = metadatum[0]
+        
     except:
         metadatum = "NA"
 
+
+
+
     if key == "title":
-        metadatum = " ".join(metadatum.split())
+        metadatum = " ".join(metadatum[0].split())
         metadatum = re.sub(": MiMoText edition", "", metadatum)
 
     if key == "author_wikidata":
+        #print("author wikidata ", metadatum)
         try:
-            metadatum = metadatum.split(" ")[1]
-            metadatum = re.sub("wikidata:", "", metadatum)
+            #metadatum = metadatum.split(" ")[1]
+            #print("wiki", metadatum)
+            #metadatum = re.sub("wikidata:", "", metadatum)
+            
+            metadatum = [w.split(" ")[1] for w in metadatum]
+            metadatum = [re.sub("wikidata:", "", w) for w in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
+            print(metadatum)
+                
             if metadatum == "":
                 metadatum = "NA"
         except IndexError:
             metadatum = "NA"
 
     if key == "bgrf":
-        metadatum = metadatum.split(" ")[0]
-        metadatum = re.sub("bgrf:", "", metadatum)
+        metadatum = [m.split(" ")[0] for m in metadatum]
+        metadatum = [re.sub("bgrf:", "", m) for m in metadatum]
+        metadatum = ", ".join(m for m in metadatum)
 
     if key == "title_wikidata":
         try:
-            metadatum = metadatum.split(" ")[1]
-            metadatum = re.sub("wikidata:", "", metadatum)
+            metadatum = [m.split(" ")[1] for m in metadatum]
+            #print(metadatum)
+            metadatum = [re.sub("wikidata:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "lang":
         try:
-            metadatum = metadatum.split(" ")[0]
-            metadatum = re.sub("lang:", "", metadatum)
+            metadatum = [m.split(" ")[0] for m in metadatum]
+            metadatum = [re.sub("lang:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "publisher":
         try:
-            metadatum = metadatum.split(" ")[0]
-            metadatum = re.sub("publisher:", "", metadatum)
+            metadatum = [m.split(" ")[0] for m in metadatum]
+            metadatum = [re.sub("publisher:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "distributor":
         try:
-            metadatum = metadatum.split(" ")[0]
-            metadatum = re.sub("distributor:", "", metadatum)
+            metadatum = [m.split(" ")[0] for m in metadatum]
+            metadatum = [re.sub("distributor:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "distribution_date":
         try:
-            metadatum = metadatum.split(" ")[1]
+            metadatum = metadatum[0].split(" ")[1]
             metadatum = re.sub("distribution_date:", "", metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "copyright_status":
         try:
-            metadatum = metadatum.split(" ")[0]
+            metadatum = metadatum[0].split(" ")[0]
             metadatum = re.sub("copyright_status:", "", metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "digitalSource_Title":
         try:
-            metadatum = re.sub("digitalSource_Title:", "", metadatum)
+            metadatum = re.sub("digitalSource_Title:", "", metadatum[0])
         except IndexError:
             metadatum = "NA"
 
     if key == "digitalSource_Ref":
         try:
-            metadatum = re.sub("digitalSource_Ref:", "", metadatum)
+            #metadatum = re.sub("digitalSource_Ref:", "", metadatum)
+            metadatum = [re.sub("digitalSource_Ref:", "", w) for w in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
+            print(metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "digitalSource_Publisher":
         try:
-            metadatum = re.sub("digitalSource_Publisher:", "", metadatum)
+            metadatum = [re.sub("digitalSource_Publisher:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "digitalSource_Date":
         try:
-            metadatum = re.sub("digitalSource_Date:", "", metadatum)
+            metadatum = [re.sub("digitalSource_Date:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "printSource_title":
         try:
-            metadatum = re.sub("printSource_title:", "", metadatum)
+            metadatum = re.sub("printSource_title:", "", metadatum[0])
         except IndexError:
             metadatum = "NA"
 
     if key == "printSource_author":
         try:
-            metadatum = re.sub("printSource_author:", "", metadatum)
+            metadatum = [re.sub("printSource_author:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "printSource_pubPlace":
         try:
-            metadatum = re.sub("printSource_pubPlace:", "", metadatum)
+            metadatum = [re.sub("printSource_pubPlace:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "printSource_date":
         try:
-            metadatum = re.sub("printSource_date:", "", metadatum)
+            metadatum = [re.sub("printSource_date:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
 
     if key == "resp_datacapture":
         try:
-            metadatum = re.sub("resp_datacapture:", "", metadatum)
+            metadatum = re.sub("resp_datacapture:", "", metadatum[0])
         except IndexError:
             metadatum = "NA"
 
     if key == "resp_encoding":
         try:
-            metadatum = re.sub("resp_encoding:", "", metadatum)
+            metadatum = [re.sub("resp_encoding:", "", m) for m in metadatum]
+            metadatum = ", ".join(m for m in metadatum)
         except IndexError:
             metadatum = "NA"
+
+    if key == "firsted-yr" or key == "printSource-yr" or key == "form" or key == "spelling" or key == "data-capture" or key == "vols_count":
+        try:
+            metadatum = metadatum[0]
+        except IndexError:
+            metadatum = ""
 
     return metadatum
 
@@ -229,11 +272,13 @@ def get_authordata(xml):
                                namespaces=namespaces)
 
         authors_name_list = []
+        birth_list = []
+        death_list = []
         for entry in authordata:
             entry = " ".join(entry.split())
             if re.search("(.*?) \(", entry):
-
                 name = re.search("(.*?) \(", entry).group(1)
+                #print(name)
                 authors_name_list.append(name)
                 try:
                     birth = re.search("\((\d\d\d\d)", entry).group(1)
@@ -241,6 +286,8 @@ def get_authordata(xml):
                 except:
                     birth = "NA"
                     death = "NA"
+                birth_list.append(birth)
+                death_list.append(death)
             elif re.search("(.*?)\(", entry):
                 name = re.search("(.*?)\(", entry).group(1)
                 authors_name_list.append(name)
@@ -248,13 +295,17 @@ def get_authordata(xml):
                     birth = re.search("\((\d\d\d\d)", entry).group(1)
                     death = re.search("(\d\d\d\d)\)", entry).group(1)
                 except:
-                    birth = "NA"
-                    death = "NA"
+                    birth = "xxxx"
+                    death = "xxxx"
+                birth_list.append(birth)
+                death_list.append(death)
             else:
                 name = entry
                 authors_name_list.append(name)
-                birth = "NA"
-                death = "NA"
+                birth = "xxxx"
+                birth_list.append(birth)
+                death = "xxxx"
+                death_list.append(death)
     except:
         name = "NA"
         birth = "NA"
@@ -273,7 +324,9 @@ def get_authordata(xml):
         au_gender = "NA"
 
     names = ', '.join(str(word) for word in authors_name_list)
-    return names, birth, death, au_gender, size
+    births = ', '.join(str(word) for word in birth_list)
+    deaths = ', '.join(str(word) for word in death_list)
+    return names, births, deaths, au_gender, size
 
 
 def get_count(txt):
@@ -305,30 +358,32 @@ def main(path, xpaths, ordering, sorting):
     # workingDir = join("..", "..", collection)
 
     teiFolder = join(path, "*.xml")
-    metadatafile = join("..", "..", "XML-TEI", "xml-tei_full_metadata.tsv")
+    metadatafile = join("..", "..", "XML-TEI", "xml-tei_full_metadata_test.tsv")
     allmetadata = []
     counter = 0
     for teiFile in glob.glob(teiFolder):
         filename, ext = basename(teiFile).split(".")
-        try:
-            if "schemas" not in filename:
-                counter += 1
-                keys = []
-                metadata = []
-                keys.append("filename")
-                metadata.append(filename)
-                xml, txt = open_file(teiFile)
-                name, birth, death, au_gender, size = get_authordata(xml)
-                count = get_count(txt)
-                keys.extend(["au-name", "au-birth", "au-death", "au-gender", "token count", "size"])
-                metadata.extend([name, birth, death, au_gender, count, size])
-                for key, xpath in xpaths.items():
-                    metadatum = get_metadatum(xml, xpath, key)
-                    keys.append(key)
-                    metadata.append(metadatum)
-                allmetadata.append(dict(zip(keys, metadata)))
-        except:
-            print("ERROR!!!", filename)
+        print(filename)
+        #try:
+        if "schemas" not in filename:
+            counter += 1
+            keys = []
+            metadata = []
+            keys.append("filename")
+            metadata.append(filename)
+            xml, txt = open_file(teiFile)
+            name, birth, death, au_gender, size = get_authordata(xml)
+            count = get_count(txt)
+            keys.extend(["au-name", "au-birth", "au-death", "au-gender", "token count", "size"])
+            metadata.extend([name, birth, death, au_gender, count, size])
+            for key, xpath in xpaths.items():
+                metadatum = get_metadatum(xml, xpath, key)
+                keys.append(key)
+                metadata.append(metadatum)
+                #print(metadata)
+            allmetadata.append(dict(zip(keys, metadata)))
+        #except:
+        #    print("ERROR!!!", filename)
     print("FILES:", counter)
     save_metadata(allmetadata, metadatafile, ordering, sorting)
 
