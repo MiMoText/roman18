@@ -41,8 +41,8 @@ xpaths = {"xmlid": "//tei:TEI/@xml:id",
           "distribution_date": "//tei:TEI//tei:publicationStmt/tei:date/text()",
           "copyright_status": "/tei:TEI//tei:licence/@target",
           "digitalSource_Title": "//tei:bibl[@type='digitalSource']/tei:title/text()",
-          "digitalSource_Ref": "//tei:bibl[@type='digitalSource']/tei:ref[1]/@target",
-          "digitalSource_Publisher": "//tei:bibl[@type='digitalSource']/tei:publisher[1]/text()",
+          "digitalSource_Ref": "//tei:bibl[@type='digitalSource']/tei:ref/@target",
+          "digitalSource_Publisher": "//tei:bibl[@type='digitalSource']/tei:publisher/text()",
           "digitalSource_Date": "//tei:bibl[@type='digitalSource']/tei:date/text()",
           "printSource_title": "//tei:bibl[@type='printSource']/tei:title/text()",
           "printSource_author": "//tei:bibl[@type='printSource']/tei:author/text()",
@@ -78,12 +78,6 @@ def open_file(teiFile):
 
     return xml, txt
 
-def get_all_elements(metadatum):
-
-    metas = ', '.join(str(word) for word in metadatum)
-    #print(metas)
-
-    return metas
 
 def get_metadatum(xml, xpath, key):
     """
@@ -93,32 +87,22 @@ def get_metadatum(xml, xpath, key):
     try:
         namespaces = {'tei': 'http://www.tei-c.org/ns/1.0'}
         metadatum = xml.xpath(xpath, namespaces=namespaces)#[0]
-        #if len(metadatum) > 1:
-        #    metadatum = get_all_elements(metadatum)
-        #else:
-        #    metadatum = metadatum[0]
         
     except:
         metadatum = "NA"
-
-
-
 
     if key == "title":
         metadatum = " ".join(metadatum[0].split())
         metadatum = re.sub(": MiMoText edition", "", metadatum)
 
     if key == "author_wikidata":
-        #print("author wikidata ", metadatum)
         try:
             #metadatum = metadatum.split(" ")[1]
-            #print("wiki", metadatum)
             #metadatum = re.sub("wikidata:", "", metadatum)
             
             metadatum = [w.split(" ")[1] for w in metadatum]
             metadatum = [re.sub("wikidata:", "", w) for w in metadatum]
             metadatum = ", ".join(m for m in metadatum)
-            print(metadatum)
                 
             if metadatum == "":
                 metadatum = "NA"
@@ -188,7 +172,6 @@ def get_metadatum(xml, xpath, key):
             #metadatum = re.sub("digitalSource_Ref:", "", metadatum)
             metadatum = [re.sub("digitalSource_Ref:", "", w) for w in metadatum]
             metadatum = ", ".join(m for m in metadatum)
-            print(metadatum)
         except IndexError:
             metadatum = "NA"
 
