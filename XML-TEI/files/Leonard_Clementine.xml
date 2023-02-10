@@ -2,80 +2,131 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Leonard_Clementine" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:74.20"> La Nouvelle Clémentine: MiMoText edition </title>
-                <author ref="viaf:7485676 wikidata:Q970715"> Nicolas-Germain Léonard(1744-1793) </author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 13585 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>La Nouvelle Clémentine, ou Lettres de Henriette du Berville</title>
-                    <author>Nicolas-Germain Léonard</author>
-                    <date>1774</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1774 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> epistolary </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-25"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <head> LETTRE 1 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Emilie. </hi> que sont devenus, mon Emilie, ces
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:74.20">
+     La Nouvelle Clémentine: MiMoText edition
+    </title>
+    <author ref="viaf:7485676 wikidata:Q970715">
+     Nicolas-Germain Léonard(1744-1793)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     13585
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      La Nouvelle Clémentine, ou Lettres de Henriette du Berville
+     </title>
+     <author>
+      Nicolas-Germain Léonard
+     </author>
+     <date>
+      1774
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1774
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      epistolary
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-25">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="letter">
+    <head>
+     LETTRE 1
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Emilie.
+     </hi>
+     que sont devenus, mon Emilie, ces
                     jours heureux que nous avons passés au couvent? Où sont les jeux de notre
                     enfance, nos plaisirs purs, notre joie franche, et le charme qui accompagnoitces
                     premieres jouissances? Mon amie! J'ai tout perdu. L'âge du bonheur est déja fini
@@ -100,12 +151,18 @@
                     délicieuse, et la verdureest dans tout son éclat: viens! J'ai besoin d'une amie:
                     oui, d'une amie; c'est le mot, n'est-ce pas? Nous parlerons de notre premier
                     âge; et je jouirai du moins de ma félicité passée, puisqu'il ne m'en reste plus
-                    d'autre. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 2 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> je ne te verrai donc point! Tu ne peux
+                    d'autre.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 2
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     je ne te verrai donc point! Tu ne peux
                     quitter une tendre mere! Mais nous nous écrirons, et je te confierai mes peines.
                     Oh! Si j'étois menacée de quelque orage! Tu m'effraies. Dès qu'une fille
                     s'ennuie, dis-tu, elle n'est pas loin d' aimer. Je n'ose descendre dans mon
@@ -128,12 +185,18 @@
                     contre toutes les femmes qu'il a connues? Quelle maladresse! Les hommes qui nous
                     décrient entendent bien peu les intérêts de leur amour-propre! Tu vois que je ne
                     manque point de société. Que me faut-il donc? Je l'ignore: mais peut-être le
-                    saurai-je trop tôt! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 3 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> je ne suis point si prévenue en faveur de
+                    saurai-je trop tôt!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 3
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     je ne suis point si prévenue en faveur de
                     ton ami, que tu l'imagines. J'ai déja commencé à lui trouver des défauts; preuve
                     que je l'observe de sang-froid. Ce n'est point le dépit qui me fait parler:
                     hélas! Il n'en est peut-être que plus à craindre; et je l'aime beaucoup mieux
@@ -147,12 +210,18 @@
                     dirige mon crayon, et ce moment n'est pas celui où je suis le plus tranquille.
                     S'il arrive à masoeur de nous quitter, je deviens déconcertée, timide, aussi-tôt
                     que nous sommes seuls... tout cela m'alarme: je ne suis point en paix. Ah mon
-                    amie! Aurois-tu deviné? </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 4 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> quel sentiment délicieux j'éprouve en
+                    amie! Aurois-tu deviné?
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 4
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     quel sentiment délicieux j'éprouve en
                     commençant cette lettre! Elle te peindra ma joie. Je renais au bonheur. C'est en
                     vain que je voudrois me le dissimuler: Seligny m'est cher. Ce n'est point de
                     l'amour qu'il m'inspire; c'est une amitié tendre fondée sur l'estime. Tout ce
@@ -169,12 +238,18 @@
                     doutasse moi-même. Penses-tu qu'il ait été lié jadis avec Madame De Mery? Es-tu
                     bien informée? Je ne la trouve point si séduisante. Elle a je ne sais quoi de
                     libre et de décidé qui doit repousser un coeur honnête; mais si elle plaît, ses
-                    défauts sont un charme de plus. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 5 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> eh bien! J'ai suivi tes conseils. Tu crois
+                    défauts sont un charme de plus.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 5
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     eh bien! J'ai suivi tes conseils. Tu crois
                     que Seligny, trompé par ma froideur, a paru s'en affecter; qu'il a marqué de
                     l'inquiétude; qu'il a cherché à s'éclaircir? Tu t'abuses. Il a passé tout un
                     jour sans me parler. J'étois si outrée, que le soir j'ai eu mille attentions,
@@ -190,12 +265,18 @@
                     honte? Au fond de l'ame, j'étois charmée d'avoir sa lettre; en la recevant, je
                     brûlois de l'ouvrir: je me tourmentois à deviner ce qu'elle contenoit. Quelle
                     enfance! Jamais je ne me suis trouvée si ridicule! Mais juge de ma surprise:
-                    voici ce qu'on m'écrit. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 6 </head>
-                <p>
-                    <hi rend="italic"> Seligny à Henriette. </hi> il faut vous quitter,
+                    voici ce qu'on m'écrit.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 6
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à Henriette.
+     </hi>
+     il faut vous quitter,
                     mademoiselle; il faut partir. Un vain espoir m'avoit séduit. Oui, j' osois me
                     flatter... mais dois-je vous avouer l'idée que j'avois conçue de vos sentiments,
                     et que j'embrassois avec toute la joie d'un coeur qui obtient ce qu'il desire?
@@ -217,12 +298,18 @@
                     renaître ces moments qui s'écouloient dans le sein de la confiance! ... adieu,
                     mademoiselle! Je ne vous verrai plus: mais votre image me sera toujours chere.
                     Je la porterai partout avec moi: c'est un bonheur du moins que le sort ne pourra
-                    me ravir. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 7 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Seligny. </hi> je ne devois point m'attendre à
+                    me ravir.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 7
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Seligny.
+     </hi>
+     je ne devois point m'attendre à
                     votre lettre, monsieur: je devois m'attendre encore moins aux plaintes que vous
                     me faites, à des aveux qui m'offensent, à des soupçons qui me surprennent. Je
                     n'ai jamais connu la haine: c'est un sentiment trop pénible, et qui répandroit
@@ -245,12 +332,18 @@
                     donc... je me garderai bien de vous retenir! Mais oubliez ce que vous appellez
                     mes rigueurs, et ne voyez dans ma conduite que l'ouvrage de ma raison. C'est un
                     aveu que je vous dois, pour détruire les impressions fâcheuses qui pourroient
-                    vous rester; vous ne les méritez point, et je ne sais pas être injuste. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 8 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Emilie. </hi> je t'envoie une copie de ma
+                    vous rester; vous ne les méritez point, et je ne sais pas être injuste.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 8
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Emilie.
+     </hi>
+     je t'envoie une copie de ma
                     réponse. Maintenant qu'elle est partie, je suis fâchée de l'avoir écrite. Il la
                     trouvera dure. Oui, je l'ai maltraité, ma chere. Ce n'est pas ainsi qu'on écrit
                     quand on aime. Il partira, je le prévois: il n' aura point eu l'adresse de
@@ -264,12 +357,18 @@
                     me prépare! Mon dieu! S'il partoit... je le crains; mais s'il m'aime il doit
                     rester. Madame De Mery nous quitte,et j'éprouve une secrette joie de son départ.
                     D'où vient ce sentiment qui m'afflige? Ah! Que l'amour m'aviliroit à mes yeux,
-                    s'il étoit quelqu'un au monde qu'il m'obligeât de haïr! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 9 </head>
-                <p>
-                    <hi rend="italic"> Seligny à Monsieur De Murcé. </hi> ô mon bienfaiteur et mon
+                    s'il étoit quelqu'un au monde qu'il m'obligeât de haïr!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 9
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à Monsieur De Murcé.
+     </hi>
+     ô mon bienfaiteur et mon
                     ami! J'ai besoin de vous écrire; j'ai besoin de répandre mon coeur dans le
                     vôtre. Depuis que je suis chez Madame De Berville, je ne me reconnois plus.
                     Quelle révolution s'est faite en moi! Qu'est-ce que j'éprouve! ô ciel! Je crains
@@ -310,12 +409,17 @@
                     se plaignit d'une indisposition, et serenferma dès que nous fûmes arrivés.
                     Henriette alors me détestoit surement, et je venois de l'éprouver si tendre! Se
                     peut-il que d'un moment à l'autre le coeur essuie des révolutions si bizarres!
-                </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 10 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Emilie. </hi> j'ai de l'humeur, ma bonne amie!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 10
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Emilie.
+     </hi>
+     j'ai de l'humeur, ma bonne amie!
                     J'en ai contre Seligny, j'en ai contre moi-même. Hélas! Je crains bien que mes
                     folies ne m'aient trahie, et qu'il n'ait remarqué combien il m'intéresse: je ne
                     lui pardonnerois pas d'avoir fait cette découverte. Ce matin encore il
@@ -334,12 +438,18 @@
                     mettre au fait: vous saurez qu'il a d'abord l'art de parler comme moi;
                     qu'ensuite il m'insinue adroitement des objections légeres et faciles à
                     combattre; que bientôt il grossit les obstacles, et qu'à la fin je suis forcée
-                    de convenir qu'il a raison. Que direz-vous de pareilles ruses? </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 11 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> nous arrivons du château de Madame Norton,
+                    de convenir qu'il a raison. Que direz-vous de pareilles ruses?
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 11
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     nous arrivons du château de Madame Norton,
                     où nous avons passé la journée. C'est un bâtiment gothique. Le maître est un
                     homme sec, élancé, qui a toujours l'air de juger ses vassaux. Il vous fait la
                     description d'un tournois comme s'il y eût assisté lui-même; vante beaucoup les
@@ -382,12 +492,17 @@
                     l'effet que sa présence a produit sur moi n'est pas croyable: je ne me
                     reconnoissois plus; ma gaieté renaissoit; mon sang circuloit sans peine; j'avois
                     retrouvé mes forces... ah! Mon Emilie! Jamais je ne triompherai de cet amour!
-                </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 12 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> que je vais rendre Seligny jaloux! Il faut
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 12
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     que je vais rendre Seligny jaloux! Il faut
                     qu'il ait son tour: il ne sera point dit qu'il m'aura chagrinée impunément. Le
                     fils du baron, ce lourd personnage dont je t'ai parlé, est venu d'un air
                     embarrassé me dire... mais comment répéter ce qu'il m'a dit? Je n'ai rien
@@ -419,12 +534,18 @@
                     couleroient dans son sein. Mais ce seroit l'iriter encore! ô ma chere! ô mon
                     unique amie! De noirs pressentiments m'annoncent que mes beaux jours sont
                     passés. Je viens d'ouvrir sous mes pas un abîme d'infortune, et je ne vois dans
-                    l'avenir que des sujets de peines. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 13 </head>
-                <p>
-                    <hi rend="italic"> à la même. </hi> c'en est fait, je ne veux plus m'occuper de
+                    l'avenir que des sujets de peines.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 13
+    </head>
+    <p>
+     <hi rend="italic">
+      à la même.
+     </hi>
+     c'en est fait, je ne veux plus m'occuper de
                     lui; je le bannirai de ma pensée: il le faut; je le dois. Qu'il parte! Ah! Qu'il
                     parte! Je frissonne encore du danger que j'ai couru hier à la chûte du jour: je
                     m'étois retirée dans un bosquet; je rêvois: j'étois dans un de ces instants où
@@ -457,12 +578,18 @@
                     j'ai le coeur navré, l'esprit en désordre: je crois que j'ai la fievre. On a
                     paru deux fois à ma porte, mais je ne répondrai point; j'y suis résolue. Qu'on
                     neme voie plus: qu'on me laisse: qu'on parte: que j'oublie jusqu'au nom du
-                    perfide! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 14 </head>
-                <p>
-                    <hi rend="italic"> Seligny à Henriette. </hi> c'est un homme assez malheureux
+                    perfide!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 14
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à Henriette.
+     </hi>
+     c'est un homme assez malheureux
                     pour vous avoir déplu, qui vient porter à vos pieds son repentir et ses regrets.
                     Je suis loin de vouloir m'excuser; ce n'est point ma justification que je
                     demande, c'est ma grace que j'implore. J' abjure, et je voudrois retrancher de
@@ -478,12 +605,18 @@
                     interdit. Vous fuyez ma présence: elle vous est odieuse. Eh bien! Je vous
                     satisferai, cruelle! Oui, vous serez satisfaite! Vous êtes bien vengée par mes
                     remords. Mais achevez de m'accabler: ordonnez-moi de renoncer à vous. J'attends
-                    mon arrêt: il m' apprendra si je dois vivre. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 15 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Seligny. </hi> vous avez manqué, monsieur, à tous
+                    mon arrêt: il m' apprendra si je dois vivre.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 15
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Seligny.
+     </hi>
+     vous avez manqué, monsieur, à tous
                     les procédés de l'honneur, de la bienséance, et de la probité la plus commune.
                     Pour vous faire concevoir l'horreur de votre conduite, il me suffira de la
                     remettre sous vos yeux; et je vous laisserai le soin de vous juger vous-même.
@@ -526,12 +659,18 @@
                     consumé par l'amour. La lettre que je t'écris est baignée de mes larmes... ô!
                     Seligny! Seligny! Je n'ai plus d' espoir qu'en toi. Viens rassurer ton
                     Henriette; viens lui jurer de la respecter: fais qu'elle n'ait plus à rougir de
-                    son amour! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 16 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Emilie. </hi> Seligny ne paroît point s'alarmer
+                    son amour!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 16
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Emilie.
+     </hi>
+     Seligny ne paroît point s'alarmer
                     des visites de Norton. Je vois qu'il le croit peu redoutable, et je frémis de sa
                     sécurité. Je commence à soupçonner des projets de mariages: nos deux meres ne se
                     quittent plus. On ne cesse de me parler de l' odieux personnage, de son château,
@@ -552,12 +691,18 @@
                     Nous ne retrouverons plus l' enchantement de nos premieres amours: nous ne
                     retrouveronsplus nos tranquilles amusements, nos soirées voluptueuses, nos
                     charmants entretiens. Avec quelle amertume je porte ma vue sur l'avenir! ô! Quel
-                    tourment, que celui d'aimer! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 17 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Seligny. </hi> il faut nous quitter, mon ami; le
+                    tourment, que celui d'aimer!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 17
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Seligny.
+     </hi>
+     il faut nous quitter, mon ami; le
                     ciel ne permet plus que nous soyons heureux. Je viens d' essuyer à votre sujet
                     la scene la plus vive: ma mere est informée de votre amour: il est temps que
                     vous partiez. Oui, partez: laissez-moi seule m'opposer à l'orage. On me
@@ -597,12 +742,18 @@
                     l'aurore d'une félicité sans bornes: qu'il nous sera doux alors de songer à nos
                     malheurs passés! Ils laisseront dans notre esprit charmé, la traceque laisse un
                     rêve pénible au moment du réveil. Adieu! Adieu, Seligny! Je te jure encore un
-                    amour immortel, et ce serment ne sera point vain. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 18 </head>
-                <p>
-                    <hi rend="italic"> Seligny à Monsieur De Murcé. </hi> je suis maintenant à deux
+                    amour immortel, et ce serment ne sera point vain.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 18
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à Monsieur De Murcé.
+     </hi>
+     je suis maintenant à deux
                     lieues de Henriette: ce départ bouleverse toutes mes idées: c' est elle-même qui
                     m'a ordonné de la quitter: je ne sais que penser de ce qui m'arrive. Hier, jour
                     de ma sortie, j'allai visiter pour la derniere fois ce parc rempli des monuments
@@ -676,12 +827,18 @@
                     seul nom de ce rival, auquel on me sacrifie, me rend furieux. Je me forge mille
                     chimeres: je brûle de luidisputer le bien qu'il m'enleve. La jalousie vient
                     mêler ses poisons à mes regrets, la haine, le dépit, la vengeance, toutes les
-                    passions sont dans mon coeur. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 19 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Emilie. </hi> il est parti! Il est parti! Quand
+                    passions sont dans mon coeur.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 19
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Emilie.
+     </hi>
+     il est parti! Il est parti! Quand
                     j'ai voulu le rappeller, il étoit déja loin: il m'avoit déja fui pour toujours.
                     Je t'écris dans la chambre qu'il occupoit. Je le vois: je l'entends: il ne me
                     sort point de l'esprit. Qu'il est désert ce parc, où je l'ai vu si souvent!
@@ -710,12 +867,18 @@
                     entendre auprès de moi quelques soupirs: j'ai cru distinguer la voix de
                     Seligny... ô mon amie! Il me disoit un éternel adieu. Le même son s'est répété
                     plusieurs fois: tout mon coeur en a frémi. Que signifie ce présage? Serions-nous
-                    séparés pour jamais! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 20 </head>
-                <p>
-                    <hi rend="italic"> Seligny à Henriette. </hi> eh bien! Vous espériez être
+                    séparés pour jamais!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 20
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à Henriette.
+     </hi>
+     eh bien! Vous espériez être
                     heureuse loin de moi! êtes-vous satisfaite? Votre bonheur est-il pur? Norton
                     jouit-il de son triomphe? Posséde-t-il la foi que vous m'aviez donnée? ô
                     souvenir qui me désespere! ô jours dont j'ai trop peu connu le prix! Comme la
@@ -748,12 +911,18 @@
                     scrupules: foible amante! Tu ne sais qu'obéir, et trembler sous ton despote. Eh
                     bien? Vas donc présenter ta tête au joug affreux qui t'attend; vas te jetter
                     dans les bras de Norton: mais crains de me trouver aux autels, et d'y voir
-                    couler tout le sang de mon rival! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 21 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Seligny. </hi> homme ingrat! Quel temps
+                    couler tout le sang de mon rival!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 21
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Seligny.
+     </hi>
+     homme ingrat! Quel temps
                     choisissez-vous pour me faire des reproches! C'est le moment où j' essuie pour
                     vous les persécutions les plus cruelles! Connoissez celle que vous outragez. On
                     menace de m'ensevelir dans un cloître, si je n' épouse Norton: mais je reste
@@ -773,12 +942,18 @@
                     hautes. Je veux faire rougir une mere de sa haine: je ne lui donnerai point le
                     plaisir odieux d'être justifiée par ma conduite. N'est-ce point assezd'être
                     malheureux, sans nous rendre coupables? Quant à Norton, est-il digne de ta
-                    vengeance? On ne doit punir qu'un rival aimé. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 22 </head>
-                <p>
-                    <hi rend="italic"> Seligny à M De Murcé. </hi> que d'infructueux voyages! Que
+                    vengeance? On ne doit punir qu'un rival aimé.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 22
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à M De Murcé.
+     </hi>
+     que d'infructueux voyages! Que
                     d'allées et de venues pour un objet que je ne peux plus revoir! Henriette est
                     perdue pour moi: sa mere me l'a ravie. Toutes les informations, toutes les
                     courses que j'ai faites, n'ont servi qu'à me plonger dans l'horreur du doute.
@@ -805,12 +980,18 @@
                     malheureux qui se détestent, et qui maudissent tous les jours de leur vie
                     l'instant de leur union. Que je méprise ce monde avare et lâche! ô mon ami! Vous
                     n'aurez jamais à rougir de votre eleve; jeserai toujours digne de vous, digne de
-                    la vertu: mais l'amour fait mon destin, et je prévois qu'il fera ma perte. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 23 </head>
-                <p>
-                    <hi rend="italic"> M De Murcé à Seligny. </hi> vous avez raison de crier à
+                    la vertu: mais l'amour fait mon destin, et je prévois qu'il fera ma perte.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 23
+    </head>
+    <p>
+     <hi rend="italic">
+      M De Murcé à Seligny.
+     </hi>
+     vous avez raison de crier à
                     l'injustice. Il est inoui qu'une mere enferme sa fille pour l' éloigner de vous,
                     pour rendre le calme à ses sens, pour ôter toute voie à la séduction. C'est un
                     crime qui mérite toute la sévérité des loix, et vous ferez bien de les invoquer:
@@ -856,12 +1037,18 @@
                     effarouchent. Mais, monsieur! étouffez une passion sans espoir: osez penser,
                     agir en homme! Occupez-vous de vos devoirs; ils sont sans nombre. Rendez
                     uncitoyen à l'etat, rendez-vous à vous-même, et vous ne craindrez plus la
-                    vérité. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 24 </head>
-                <p>
-                    <hi rend="italic"> Henriette à Seligny. </hi> comment vous faire parvenir cette
+                    vérité.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 24
+    </head>
+    <p>
+     <hi rend="italic">
+      Henriette à Seligny.
+     </hi>
+     comment vous faire parvenir cette
                     lettre? Et quel est mon but en l'écrivant? Je ne vous reverrai jamais: je suis
                     condamnée à vivre, à mourir ici. Chaque jour resserre mes chaînes, et je n'ai
                     plus d'espoir de les briser. Vous, dont l'ame honnête avoit mérité tous mes
@@ -913,13 +1100,23 @@
                     pleurer à la fois; et les plus doux sentiments, qui devoient faire mon bonheur,
                     sont la cause de mon supplice! Ah! N'aimez jamais, coeurs sensibles! Mon exemple
                     est une leçon terrible des effets de l'amour: puissé-je être sa derniere
-                    victime? </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 25 </head>
-                <p>
-                    <hi rend="italic"> la supérieure du couvent de </hi> * <hi rend="italic"> à
-                        Madame De Berville. </hi> nous vous rendons une infortunée qui n' est plus
+                    victime?
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 25
+    </head>
+    <p>
+     <hi rend="italic">
+      la supérieure du couvent de
+     </hi>
+     *
+     <hi rend="italic">
+      à
+                        Madame De Berville.
+     </hi>
+     nous vous rendons une infortunée qui n' est plus
                     en état de nous entendre, et qui a moins besoin de nos secours spirituels que de
                     ceux du médecin. Nous ne forçons point les volontés: notre maison est l'asyle de
                     la piété, et non la prison du désespoir; et nous ne savons pas lutter contre la
@@ -937,12 +1134,18 @@
                     faire. Nous vous offrons nos voeux pour cette enfant, qui emporte les regrets de
                     toutes ses compagnes. Nous allons conjurer le ciel de rendre le calme à son ame,
                     et de chasser les nuages dont sa raison est offusquée.Puissent nos prieres,
-                    n'être point vaines et tardives! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 26 </head>
-                <p>
-                    <hi rend="italic"> Cécile à Emilie. </hi> ma soeur nous est rendue. Mais hélas!
+                    n'être point vaines et tardives!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 26
+    </head>
+    <p>
+     <hi rend="italic">
+      Cécile à Emilie.
+     </hi>
+     ma soeur nous est rendue. Mais hélas!
                     Ce n'est plus elle! Son corps ne paroît se mouvoir que par ressorts. Ses traits
                     sont dérangés; une froide langueur les a flétris: elle n'a plus qu'une idée
                     confuse des personnes qu'elle a connues. Le seul objet de sa fatale erreur
@@ -968,12 +1171,18 @@
                     pieds de sa mere, et les a mouillés de ses pleurs. Madame De Berville l'a
                     relevée, et s'est éloignée sur-le-champ. Ma soeur me voit la plume à la main, et
                     me demande à qui j'écris. Je vous nomme: elle gémit. Cette chere amie! Dit-elle;
-                    que je voudrois la voir! Mais quand elle viendra, il ne sera plus temps. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 27 </head>
-                <p>
-                    <hi rend="italic"> Cécile à Emilie. </hi> Seligny, qui rode depuis deux jours
+                    que je voudrois la voir! Mais quand elle viendra, il ne sera plus temps.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 27
+    </head>
+    <p>
+     <hi rend="italic">
+      Cécile à Emilie.
+     </hi>
+     Seligny, qui rode depuis deux jours
                     autour de la maison, m'a fait demander une entrevue. Je l'ai trouvé pâle,
                     abattu: il m'a fait pitié. J'aurois harsardé de l'introduire; mais j'avois des
                     ordres contraires. Après l'avoir instruit de l' état de son amie, je suis
@@ -1000,12 +1209,18 @@
                     nous donne des espérances; il se flatte de la sauver. Mais il n'est pas secondé:
                     Madame De Berville, depuisson apparition, ne s'est pas montrée une seule fois.
                     Elle semble oublier sa fille; et sa haine poursuivra l'infortunée jusqu'au
-                    tombeau. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 28 </head>
-                <p>
-                    <hi rend="italic"> Cécile à Emilie. </hi> j'ai dormi cette nuit pendant quelques
+                    tombeau.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 28
+    </head>
+    <p>
+     <hi rend="italic">
+      Cécile à Emilie.
+     </hi>
+     j'ai dormi cette nuit pendant quelques
                     heures. à mon réveil! ô surprise! Je ne n'ai plus vu ma soeur. J'ai trouvé son
                     lit désert, sa chambre abandonnée. J'ai couru, tremblante; j'ai appellé les
                     gens; je les ai interrogés: personne ne vouloit m'instruire. Enfin, un vieux
@@ -1028,12 +1243,18 @@
                     vous: elle est renfermée parmi les folles de son espece, qui se laissent tromper
                     par un séducteur.-Seligny est resté frappé comme d'un coup de foudre. ô monstre!
                     A-t-il dit. Il lui a lancé un regard terrible; s'est précipité vers la porte, et
-                    a disparu. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 29 </head>
-                <p>
-                    <hi rend="italic"> Cécile à Emilie. </hi> ô mademoiselle! J'arrive de l'horrible
+                    a disparu.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 29
+    </head>
+    <p>
+     <hi rend="italic">
+      Cécile à Emilie.
+     </hi>
+     ô mademoiselle! J'arrive de l'horrible
                     prison: j'ai l'ame encore déchirée de cet affreux tableau. Le seul aspect des
                     géolieres m'a fait frémir: je ne vous dirai point par où elles m'ont conduite:
                     je ne voyois rien. à chaque pas, je sentois mon coeur défaillir. On m'a laissée
@@ -1075,23 +1296,35 @@
                     elle est retombéesur sa couche, en s'écriant: ma soeur! Dites à Seligny que je
                     meurs pour lui. J'ignore ce qui s'est passé: on m'a traînée hors de sa vue: j'ai
                     perdu connoissance; et quand j'ai repris mes sens, les murs de sa prison étoient
-                    entre elle et moi. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 30 </head>
-                <p>
-                    <hi rend="italic"> Cécile à Emilie. </hi> comment vous écrire? Mes idées se
+                    entre elle et moi.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 30
+    </head>
+    <p>
+     <hi rend="italic">
+      Cécile à Emilie.
+     </hi>
+     comment vous écrire? Mes idées se
                     confondent: la douleur m'égare: j'ai besoin de pleurer... Henriette! Henriette!
                     Ma soeur! Ma compagne! Mon amie! Tu n'es plus! Tu n'es plus au milieu de ce
                     monde qui ne t'a point connue, au milieu des cruels qui t'ont donné la mort! Tu
                     dors maintenant à l'abri de leur haine: ton ame n'est plus en proie au délire de
                     l'amour: tes yeux ne versent plus de larmes... va!Je te félicite, et je ne
-                    plains que les infortunés qui te survivent! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE DERNIÈRE </head>
-                <p>
-                    <hi rend="italic"> Seligny à Mad De Berville. </hi> enfin, vous triomphez, et
+                    plains que les infortunés qui te survivent!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE DERNIÈRE
+    </head>
+    <p>
+     <hi rend="italic">
+      Seligny à Mad De Berville.
+     </hi>
+     enfin, vous triomphez, et
                     votre fille est dans le tombeau! Il ne vous reste plus qu'à sacrifier encore une
                     victime, et vous n'entendrez plus prononcer le nom de mere, qui vous est odieux.
                     Rassurez-vous, madame, on ne croira jamais que vous l'ayez porté. Appelle-t-on
@@ -1132,8 +1365,9 @@
                     d'en être soulagée dans tes infirmités. Mais l'ombre de Henriette s'offrira
                     devant toi: elle te reprocherasa mort; elle t'accusera devant le ciel. Et tu
                     commenceras à sentir le ver déchirant du remors; et les craintes de l'avenir
-                    rempliront d'effroi tes derniers moments; et tu mourras dans le désespoir. </p>
-            </div>
-        </body>
-    </text>
+                    rempliront d'effroi tes derniers moments; et tu mourras dans le désespoir.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

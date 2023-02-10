@@ -1,119 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Tressan_Jehan" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:80.32">Histoire du petit Jehan de Saintré, et de Gérard de Nevers: MiMoText edition</title>
-                <author ref="viaf:7657720 wikidata:Q219622"> Louis-Élisabeth de La Vergne de Tressan(1705-1783)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>gallica</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">28249</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9458079"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Histoire du petit Jehan de Saintré, et de Gérard de Nevers, par Tressan</title>
-                    <author/>
-                    <pubPlace>Paris</pubPlace>
-                    <publisher>Salmon</publisher>
-                    <date>1824</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1780</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2022-03-22">Initial ELTeC-level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <p>HISTOIRES DU PETIT JEHAN DE SAINTRÉ, ET DE GÉRARD DE NEVERS.</p>
-                <p>Imprimerie de Brodard, A Coulommiers.</p>
-                <p>HISTOIRES</p>
-                <p>DU PETIT JEHAN DE SAINTRÉ, ET DE GÉRARD DE NEVERS, PAR TRESSAN.</p>
-                <p>PARIS,</p>
-                <p>Chez SALMON, LIBRAIRE, QUAI DES AUGUSTINS, No. 19.</p>
-                <p>1824.</p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head>AVANT-PROPOS.</head>
-                <p>Quoiqu'il paraisse, par le commencement de ce roman, qu'il ait été composé sous le roi
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:80.32">
+     Histoire du petit Jehan de Saintré, et de Gérard de Nevers: MiMoText edition
+    </title>
+    <author ref="viaf:7657720 wikidata:Q219622">
+     Louis-Élisabeth de La Vergne de Tressan(1705-1783)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     28249
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9458079"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2015
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Histoire du petit Jehan de Saintré, et de Gérard de Nevers, par Tressan
+     </title>
+     <author/>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Salmon
+     </publisher>
+     <date>
+      1824
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1780
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-03-22">
+    Initial ELTeC-level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     HISTOIRES DU PETIT JEHAN DE SAINTRÉ, ET DE GÉRARD DE NEVERS.
+    </p>
+    <p>
+     Imprimerie de Brodard, A Coulommiers.
+    </p>
+    <p>
+     HISTOIRES
+    </p>
+    <p>
+     DU PETIT JEHAN DE SAINTRÉ, ET DE GÉRARD DE NEVERS, PAR TRESSAN.
+    </p>
+    <p>
+     PARIS,
+    </p>
+    <p>
+     Chez SALMON, LIBRAIRE, QUAI DES AUGUSTINS, No. 19.
+    </p>
+    <p>
+     1824.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     AVANT-PROPOS.
+    </head>
+    <p>
+     Quoiqu'il paraisse, par le commencement de ce roman, qu'il ait été composé sous le roi
                     Jean, les plus fortes raisons nous portent à croire qu'il ne peut l'avoir été que sous
-                    Charles VI.</p>
-                <p>La première, c'est que dans le chapitre 18, la dame des belles-Cousines appelle ses
+                    Charles VI.
+    </p>
+    <p>
+     La première, c'est que dans le chapitre 18, la dame des belles-Cousines appelle ses
                     beaux-oncles, les ducs d'Anjou, de Berry, de Bourgogne; et que la reine régnante l'appelle
-                    belle-Cousine, au lieu de l'appeler belle-nièce. </p>
-                <p>Secondement, on voit cités dans le roman plusieurs grands personnages connus pour avoir
-                    vécu sous Charles VI.</p>
-                <p>Troisièmement, l'histoire singulière, et tout au moins très-gaillarde du Petit Johan de
+                    belle-Cousine, au lieu de l'appeler belle-nièce.
+    </p>
+    <p>
+     Secondement, on voit cités dans le roman plusieurs grands personnages connus pour avoir
+                    vécu sous Charles VI.
+    </p>
+    <p>
+     Troisièmement, l'histoire singulière, et tout au moins très-gaillarde du Petit Johan de
                     Saintré, se rapporte très-peu au ton des vertus épurées de Bonne de Luxembourg, fille du
                     roi de Bohême, ainsi qu'à la noblesse et à la modestie qui régnaient dans sa cour. Ce
                     roman nous paraît bien plutôt avoir été composé pour amuser et pour plaire à la trop
                     célèbre Isabeau de Bavière, qui fut également extrême dans ses aventures et dans ses
-                    forfaits.</p>
-                <p>On pourrait présumer que la dame des belles-Cousines est une des deux filles de
+                    forfaits.
+    </p>
+    <p>
+     On pourrait présumer que la dame des belles-Cousines est une des deux filles de
                     Charles-le-Mauvais, roi de Navarre, gendre du roi Jean; ce qui se rapporte au titre
                     qu'elle prend de nièce de Philippe le Hardi, duc de Bourgogne, frère de sa mère, fils du
                     roi Jean, et chef de la maison de Bourgogne, qui s'éteignit à la mort de
                     CharlesleTéméraire, et qui tomba dans la maison d'Autriche par le mariage de Marie de
                     Bourgogne avec Maximilien, archiduc d'Autriche, de laquelle l'auguste impératrice
-                    MarieThérèse était l'unique et dernière descendante en droite ligne.</p>
-            </div>
-            <div type="chapter">
-                <head>HISTOIRE DU PETIT JEHAN DE SAINTRÉ ET DE LA DAME DES BELLES-COUSINES.</head>
-                <p>La cour du roi Jean était une des plus brillantes de l'Europe, non-seulement par la
+                    MarieThérèse était l'unique et dernière descendante en droite ligne.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     HISTOIRE DU PETIT JEHAN DE SAINTRÉ ET DE LA DAME DES BELLES-COUSINES.
+    </head>
+    <p>
+     La cour du roi Jean était une des plus brillantes de l'Europe, non-seulement par la
                     puissance du souverain d'une grande monarchie, mais aussi par la splendeur et la dignité
                     que l'élévation de l'âme de ce roi, si digne chevalier, et les vertus aimables de Bonne de
                     Luxembourg son épouse, y maintenaient. Jamais l'esprit de la chevalerie ne remplit mieux
                     que dans ce temps ce que les principes sévères de valeur et de loyauté exigent d'un vrai
                     chevalier, jamais l'amour (si quelquefois il eut accès dans cette cour) ne s'enveloppa
-                    plus exactement du voile de la décence et du mystère.</p>
-                <p>Le seigneur de Pouilly, l'un des plus puissans et des plus renommés chevaliers de la
+                    plus exactement du voile de la décence et du mystère.
+    </p>
+    <p>
+     Le seigneur de Pouilly, l'un des plus puissans et des plus renommés chevaliers de la
                     Touraine, avait amené le jeune damoisel Jehan de Saintré à sa suite, dans un voyage qu'il
                     avait fait à Paris, pour rendre hommage à son souverain. Le seigneur de Saintré, son
                     voisin, son égal et son ami, lui avait confié son fils unique. L'usage de ce temps était
@@ -123,8 +199,10 @@
                     procurer, par leurs conseils, par leur exemple et par leur secours, la véritable, la
                     dernière éducation qu'on appelait bonne nourriture; et c'était un honneur signalé qu'un
                     père de famille faisait à celui de ses pareils qu'il avait choisi pour la faire recevoir à
-                    son fils.</p>
-                <p>Le jeune Saintré plut aux enfans d'honneur de la cour, qu'il surpassait tous en adresse et
+                    son fils.
+    </p>
+    <p>
+     Le jeune Saintré plut aux enfans d'honneur de la cour, qu'il surpassait tous en adresse et
                     en agilité, sans leur faire jamais sentir une supériorité qui blesse dans tous les âges:
                     il réussit sans peine à s'en faire aimer. Il plut également aux vieux seigneurs par son
                     respect, et son attention à les écouter. Le roi lui-même l'ayant remarqué parmi les enfans
@@ -133,19 +211,25 @@
                     d'honneur et les pages de sa maison. Quoique Saintré n'eût encore que treize ans, son
                     service devint bientôt assez agréable pour que le roi le choisît entre ses compagnons pour
                     le suivre à la chasse, et pour augmenter le petit nombre de ceux qui le servaient à table,
-                    au banquet royal.</p>
-                <p>Une des princesses dont le droit, par la naissance, était de faire porter son cadenas par
+                    au banquet royal.
+    </p>
+    <p>
+     Une des princesses dont le droit, par la naissance, était de faire porter son cadenas par
                     ses officiers, et de manger à la table du banquet royal, ne manquait presque jamais de s'y
                     trouver: chère à la reine, agréable à ses égales, elle parait le banquet par les charmes
-                    de sa figure; elle en était l'âme par les agrémens de son esprit.</p>
-                <p>Cette dame, que l'auteur, par une juste et forte raison, ne désigne que par le nom de la
+                    de sa figure; elle en était l'âme par les agrémens de son esprit.
+    </p>
+    <p>
+     Cette dame, que l'auteur, par une juste et forte raison, ne désigne que par le nom de la
                     dame des belles-Cousines, était dans la fleur de son âge, et veuve d'un grand prince dont
                     les années avaient été le moindre défaut. Elle ne pouvait le regretter; et il paraissait
                     naturel que, jeune et belle, elle pensât à un second hyménée. Mais sachant trop bien que
                     les mariages des personnes de son rang sont des actes de politique, et ne font pas naître
                     le bonheur, elle avait fait le serment secret de conserver toujours son état heureux et sa
-                    liberté.</p>
-                <p>La dame des belles-Cousines était née vive et sensible, mais elle l'ignorait encore. Un
+                    liberté.
+    </p>
+    <p>
+     La dame des belles-Cousines était née vive et sensible, mais elle l'ignorait encore. Un
                     vieux époux, chagrin et grondeur, avec lequel elle n'avait vécu qu'un an, n'avait eu ni le
                     temps ni le don de le lui apprendre, L'auguste veuve ne s'occupait que de la considération
                     que lui donnait son nouvel état, de la douce liberté dont elle jouirait toute sa vie. Née
@@ -163,11 +247,15 @@
                     farces grossières et les spectacles ridicules de ce temps. Un de ses amusemens favoris
                     était d'aller sur un balcon, d'où l'on voyait sur un vaste préau les exercices de toute
                     espèce dont s'occupait une jeunesse brillante, appelée par la naissance aux honneurs de la
-                    chevalerie.</p>
-                <p>Le petit Jehan de Saintré s'y distinguait parmi ses compagnons, par son adresse, sa force
+                    chevalerie.
+    </p>
+    <p>
+     Le petit Jehan de Saintré s'y distinguait parmi ses compagnons, par son adresse, sa force
                     et son agilité. Sa taille n'était pas élevée; mais elle était svelte, pleine de grâces, et
-                    très-nerveuse pour son âge.</p>
-                <p>Dès que le jeune Saintré apercevait la dame des belles-Cousines sur le balcon, le désir de
+                    très-nerveuse pour son âge.
+    </p>
+    <p>
+     Dès que le jeune Saintré apercevait la dame des belles-Cousines sur le balcon, le désir de
                     se distinguer à ses yeux lui donnait une supériorité nouvelle sur ceux qui lui disputaient
                     le prix. La jeune princesse le remarquait, se plaisait à l'encourager; et lorsqu'elle le
                     voyait empressé à la servir à la table royale, elle lui remettait son assiette couverte de
@@ -192,8 +280,10 @@
                     Hyppomène. Si, se servant d'armes courtoises, il apprenait à se servir des plus
                     meurtrières dans les combats, il lui représentait le jeune Achille instruit par le
                     centaure Chiron: cependant elle ne prenait encore que pour une douce sympathie l'intérêt
-                    vif qui l'attachait à ses succès.</p>
-                <p>Le jeune Saintré approchait de l'âge de seize ans. Les hommes commençaient à distinguer sur
+                    vif qui l'attachait à ses succès.
+    </p>
+    <p>
+     Le jeune Saintré approchait de l'âge de seize ans. Les hommes commençaient à distinguer sur
                     son front et dans ses yeux la noblesse et l'audace dont son âme était animée; les femmes
                     n'y trouvaient encore que de la douceur et de l'indifférence. Cependant il n'avait jamais
                     montré tant d'activité, tant d'adresse à les servir: on le voyait au banquet royal voler
@@ -212,8 +302,10 @@
                     voyant Saintré s'enfuir et se cacher dans la foule, ne lui en laissèrent pas le temps. La
                     reine fit rappeler Saintré; elle eut la bonté de le rassurer, de le consoler d'une faute
                     légère; et le jeune homme fut si fort attendri, que quelques larmes obscurcirent ses beaux
-                    yeux.</p>
-                <p>La dame des belles-Cousines ne put voir couler ces larmes sur des joues de lis et de rose,
+                    yeux.
+    </p>
+    <p>
+     La dame des belles-Cousines ne put voir couler ces larmes sur des joues de lis et de rose,
                     sans se dire dans son âme: Ah! que celle de Saintré me paraît noble et sensible! qu'il
                     mérite bien que je répande sur lui mes premiers bienfaits, et qu'en lui donnant les moyens
                     de déployer les vertus que tour-à-tour je découvre en lui, je parvienne à l'élever aux
@@ -230,8 +322,10 @@
                     vis-à-vis d'un époux odieux, était cependant suffisante pour multiplier en elle des idées
                     inconnues à celle qui n'est encore agitée que par la curiosité et le désir de les
                     acquérir. Ainsi elle était un peu coupable; mais sommes-nous assez innocens nous-mêmes
-                    pour ne pas aimer à l'excuser?</p>
-                <p>Saintré, de son côté, fut à peine retiré, qu'il refléchit, dans le silence, à ce qui
+                    pour ne pas aimer à l'excuser?
+    </p>
+    <p>
+     Saintré, de son côté, fut à peine retiré, qu'il refléchit, dans le silence, à ce qui
                     pouvait avoir occasionné cette fatale distraction, cause de ce qu'il venait d'essuyer. Il
                     n'avait garde de l'attribuer à son service auprès de la dame des belles-Cousines;
                     cependant les beautés, nouvelles pour lui, qu'il n'avait entrevues qu'un moment, se
@@ -240,12 +334,16 @@
                     imagination s'allumait lorsqu'il se peignait ce collet-monté comme un mur d'albâtre
                     entourant un parterre embelli par les plus belles fleurs. Saintré aimait les fleurs dès
                     son enfance; mais de ce moment le lis et la rose devinrent l'objet de sa préférence, et
-                    parèrent tous les jours son plus beau pourpoint.</p>
-                <p>Quelques jours s'écoulèrent, pendant lesquels Saintré fut plus empressé que jamais à servir
+                    parèrent tous les jours son plus beau pourpoint.
+    </p>
+    <p>
+     Quelques jours s'écoulèrent, pendant lesquels Saintré fut plus empressé que jamais à servir
                     la dame des belles-cousines, qui, toujours occupée de cet aimable damoisel, et croyant ne
                     l'être que de sa fortune, ne perdait aucune occasion de lui dire quelques mots
-                    obligens.</p>
-                <p>Un jour que la reine, ayant senti quelque envie de dormir après dîner, avait prié lus
+                    obligens.
+    </p>
+    <p>
+     Un jour que la reine, ayant senti quelque envie de dormir après dîner, avait prié lus
                     belles-Cousines de se retirer pour quelques heures, la jeune veuve, en traversant une
                     galerie qui conduisait à son appartement, aperçut Saintré qui regardait jouer à la paume
                     dans le préau. Ce jeune page, voyant passer les écuyers qui précédaient la princesse, se
@@ -258,8 +356,10 @@
                     disent de vous; passez devant avec mes écuyers, et suivez-moi.“ Le jeune page obéit.
                     „Mesdames, dit-elle tout bas aux dames de sa “suite, nous n'avons rien à faire en ce
                     moment; je vous prépare une bonne scène, „et nous allons bien rire de l'embarras où “je
-                    vais mettre le petit Saintré.“</p>
-                <p>Comme toutes ces dames étaient prévenues en sa faveur, elles applaudirent au projet de la
+                    vais mettre le petit Saintré.“
+    </p>
+    <p>
+     Comme toutes ces dames étaient prévenues en sa faveur, elles applaudirent au projet de la
                     princesse. Madame rentre dans son appartement: quelques momens après elle congédie tous
                     les hommes de sa suite. Saintré fléchit le genou, et veut se retirer avec eux; la
                     princesse l'en empêche. „Depuis long-temps, dit-elle, j'ai des querelles importantes à
@@ -284,17 +384,33 @@
                     Madame, dit-il d'une voix étouffée, et déjà les yeux pleins de larmes, je ne sais que
                     répondre, et je n'en ai point. -- Comment, reprit-elle, il n'existe aucune femme au monde
                     qui vous soit chère? -- A ces mots, Saintré souleva doucement sa paupière, fixa un instant
-                    ses beaux yeux sur ceux de Madame, et répondit en balbutiant: <hi rend="italic">Ah!
-                        vraiment si, Madame</hi>... Mais, comme embarrassé de ce premier mouvement, il baissa
+                    ses beaux yeux sur ceux de Madame, et répondit en balbutiant:
+     <hi rend="italic">
+      Ah!
+                        vraiment si, Madame
+     </hi>
+     ... Mais, comme embarrassé de ce premier mouvement, il baissa
                     promptement les yeux et la tête, et resta muet, en tortillant sa ceinture avec ses doigts.
                     Madame devenant plus pressante, et voulant absolument qu'il lui nommât celle qu'il
-                    préférait, Saintré, après avoir long-temps hésité, lui dit: <hi rend="italic">Par
-                        exemple</hi>, Madame,<hi rend="italic"> j'aime bien madame ma mère et ma sœur
-                        Jaqueline</hi>. -- Oh! je le crois bien, Saintré, ajouta Madame; mais ce n'est pas
+                    préférait, Saintré, après avoir long-temps hésité, lui dit:
+     <hi rend="italic">
+      Par
+                        exemple
+     </hi>
+     , Madame,
+     <hi rend="italic">
+      j'aime bien madame ma mère et ma sœur
+                        Jaqueline
+     </hi>
+     . -- Oh! je le crois bien, Saintré, ajouta Madame; mais ce n'est pas
                     d'elles que je veux parler: ditesmoi absolument si vous n'avez pas encore vu quelque dame
                     à laquelle vous ayez donné votre cœur? -- A ces mots, qui parurent un coup de foudre au
                     jeune et timide Saintré, il resta plus muet, plus confus que jamais; et pressé de nouveau
-                    de répondre, à peine Madame put-elle entendre le <hi rend="italic">non, Madame</hi>, qu'il
+                    de répondre, à peine Madame put-elle entendre le
+     <hi rend="italic">
+      non, Madame
+     </hi>
+     , qu'il
                     dit tout bas et en détournant la tête. Madame feignant d'entrer en colère: Eh bien,
                     mesdames, ne l'avais-je pas prévu, leur dit-elle en les regardant toutes, que Saintré
                     démentirait peut-être bientôt la bonne opinion que nous commencions à prendre de lui? --
@@ -309,8 +425,10 @@
                     et élever aux grandes actions l'âme du grand Lancelot du Lac, et celle du malheureux et
                     passionné Tristan de Léonois? L'un aimait et était aimé de la belle reine Genièvre, et
                     l'autre adorait la blonde et charmante Yseult. Allez, allez, sortez de ma présence; non,
-                    je n'espère plus rien de vous.</p>
-                <p>Le pauvre petit Saintré n'était déjà plus en état d'obéir à cet ordre cruel: à peine
+                    je n'espère plus rien de vous.
+    </p>
+    <p>
+     Le pauvre petit Saintré n'était déjà plus en état d'obéir à cet ordre cruel: à peine
                     avait-il été proféré, que tombant sur ses genoux, et fondant en larmes, il levait des
                     mains suppliantes vers Madame; et, se prosternant sur ses jolis pieds, il cherchait à les
                     baiser, et les baignait de ses larmes. La princesse prit ce moment pour sourire à ses
@@ -322,21 +440,27 @@
                     encore aimer, et dont le cœur “flétri presque auparavant que d'éclore, “ne peut promettre
                     de s'élever aux grandes „actions. Je veux bien lui donner jusqu'à „demain au soir: qu'il
                     se trouve dans la ga“lerie lorsque je me retirerai de chez la “reine; et nous verrons ce
-                    que nous pou“vons en attendre.“</p>
-                <p>Le petit Saintré se retira bien tristement et bien doucement, à reculons, faisant de
+                    que nous pou“vons en attendre.“
+    </p>
+    <p>
+     Le petit Saintré se retira bien tristement et bien doucement, à reculons, faisant de
                     grandes révérences aux dames, mais les yeux gros de larmes, le cœur serré, et sans oser ni
                     pouvoir dire un seul mot. Il passa la nuit dans ce même état; et le lendemain, en
                     retournant à son service, il se garda bien de se présenter pour servir la dame des
                     bellesCousines; il se garda bien plus de se trouver le soir, sur son chemin, dans la
-                    galerie qui conduisait chez elle.</p>
-                <p>La princesse, qui l'avait cherché vainement des yeux pendant tout le jour, et qui ne le
+                    galerie qui conduisait chez elle.
+    </p>
+    <p>
+     La princesse, qui l'avait cherché vainement des yeux pendant tout le jour, et qui ne le
                     trouva pas le soir sur son passage, dit à ses dames en riant, lorsqu'elle fut rentrée:
                     Nous avons fait tant de peur au petit Saintré, qu'il nous fuit, et que nous ne le
                     reverrons plus. -- Mais ce qu'elle disait d'un ton léger, et ce qu'elles prenaient pour
                     une plaisanterie, la rendit cependant assez sérieuse lorsqu'elles furent retirées; et la
                     jolie mine de Saintré, ses larmes, son air suppliant, se peignirent à son imagination
-                    assez vivement pour la tenir éveillée et la faire rêver pendant une partie de la nuit.</p>
-                <p>Le lendemain fut un jour de fête à la cour, où la reine fit appeler à dîner aux tables
+                    assez vivement pour la tenir éveillée et la faire rêver pendant une partie de la nuit.
+    </p>
+    <p>
+     Le lendemain fut un jour de fête à la cour, où la reine fit appeler à dîner aux tables
                     dressées près de la sienne, toutes les dames qui avaient l'honneur d'être admises à son
                     cercle. Celles de la dame des belles-Cousines y parurent avec éclat; et bientôt, ayant
                     aperçu Saintré, elles lui firent vainement quelques signes pour qu'il s'approchât d'elles.
@@ -348,14 +472,18 @@
                     elle fit appeler Saintré, et lui dit qu'il anprenait de bonne heure à manquer à la parole
                     qu'il donnait aux dames; qu'elle voyait bien qu'il avait besoin de leçons sur les devoirs
                     d'un digne poursuivant-d'armes, et que, pour cette fois, elle lui ordonnait
-                    expressessément de l'attendre dans la galerie au moment qu'elle se retirerait.</p>
-                <p>Saintré, forcé d'obéir, se rendit le soir; et dès qu'il vit arriver Madame, il joignit de
+                    expressessément de l'attendre dans la galerie au moment qu'elle se retirerait.
+    </p>
+    <p>
+     Saintré, forcé d'obéir, se rendit le soir; et dès qu'il vit arriver Madame, il joignit de
                     lui-même ses écuyers, n'osant lever les yeux sur elle: il la précéda dans son appartement
                     où la princesse l'ayant aperçu, chargea madame Ysabelle de le retenir, lorsqu'elle
                     congédierait ses officiers. Madame Ysabelle, s'acquittant fort bien de sa commission, ne
                     fit que de très-douces plaisanteries au jeune homme, et sut l'arrêter au moment où, malgré
-                    elle, il voulait se retirer avec les officiers.</p>
-                <p>La dame des belles-Cousines, affectant un air très-grave, s'assit, comme la veille, sur un
+                    elle, il voulait se retirer avec les officiers.
+    </p>
+    <p>
+     La dame des belles-Cousines, affectant un air très-grave, s'assit, comme la veille, sur un
                     petit lit, fit approcher le petit Saintré plus près d'elle que jamais; et l'ayant fait
                     entourer par ses dames, elle lui fit les reproches les plus amers, en lui disant qu'il
                     avait manqué à sa parole, et qu'il était dans le cas odieux d'être traité de foi-mentie. A
@@ -368,29 +496,38 @@
                     Saintré, lui dit-elle; vous êtes encore à temps de tout réparer: votre repentir me touche,
                     et j'oublierai vos torts, si vous m'avouez enfin quelle est la dame que vous aimez le
                     mieux, après votre mère et votre petite sœur Jaqueline. -- Enfin, Saintré balbutiant, et
-                    croyant avoir trouvé la meilleure défaite, répondit: -- <hi rend="italic">Eh bien, puisque
-                        Madame l'ordonne, je lui dirai que j'aime bien Matheline de Coucy</hi>. „Eh! mon
+                    croyant avoir trouvé la meilleure défaite, répondit: --
+     <hi rend="italic">
+      Eh bien, puisque
+                        Madame l'ordonne, je lui dirai que j'aime bien Matheline de Coucy
+     </hi>
+     . „Eh! mon
                     pauvre petit Saintré, que me di“tesvous là? et comment voulez-vous que “je croie qu'un
                     enfant de dix ans a pu tou“cher votre cœur? Ce n'est pas que la pe“tite Matheline ne soit
                     charmante, du plus “haut parage, et que vous n'eussiez bien “placé votre attachement: mais
                     quel retour pourriez-vous espérer d'une enfant? “quels services, quels bons conseils en
                     “pourriez-vous attendre? Ah! vous me trompez plus que jamais, Saintré; mais “ne prétendez
-                    plus m'en imposer.“</p>
-                <p>Saintré, qui croyait avoir trouvé la meilleure défaite, fut bien confondu lorsque la
+                    plus m'en imposer.“
+    </p>
+    <p>
+     Saintré, qui croyait avoir trouvé la meilleure défaite, fut bien confondu lorsque la
                     princesse lui prouva qu'elle était si mauvaise; et ses larmes recommencèrent à couler. Les
                     trois dames ayant enfin pitié de ce charmant enfant, s'écrièrent à-la-fois: -- Ah! c'en
                     est assez, Madame, ayez pitié de son embarras; notre présence doit le redoubler; sa
                     discrétion doit vous plaire: il n'ose devant nous vous avouer le nom de celle qu'il aime,
                     mais daignez l'interroger seule dans votre cabinet: nous osons croire qu'il craindra moins
-                    de s'expliquer.</p>
-                <p>La dame des belles-Cousines avait déjà pensé plus d'une fois à ce moyen de parler à Saintré
+                    de s'expliquer.
+    </p>
+    <p>
+     La dame des belles-Cousines avait déjà pensé plus d'une fois à ce moyen de parler à Saintré
                     plus librement. Elle fut bien aise, sans doute, qu'il lui fût suggéré. „Peut-être
                     avez-vous raison, dit-elle à ses dames; et, par égard pour vous qui daignez “le plaindre,
                     je veux bien employer cette “dernière ressource. „A ces mots, et ayant toujours l'air de
                     plaisanter vis-à-vis de ses dames, elle se leva, dit à Saintré de marcher devant elle, et
                     le conduisit dans un arrièrecabinet, séparé de sa chambre par un grand cabinet de
-                    toilette; et, s'asseyant sur un petit lit pareil à celui qu'elle quittait<ref target="#N01"
-                    />, elle recommença ses questions d'un ton un peu plus bas et plus affectueux au jeune
+                    toilette; et, s'asseyant sur un petit lit pareil à celui qu'elle quittait
+     <ref target="#N01"/>
+     , elle recommença ses questions d'un ton un peu plus bas et plus affectueux au jeune
                     Saintré, qu'elle fit encore approcher debout plus près d'elle. Le jeune homme rougit
                     encore, et hésita quelques momens de répondre, mais il ne pleurait plus; et, levant
                     timidement ses beaux yeux sur ceux de Madame, qui ne tenaient rien de la colère, et qui
@@ -411,8 +548,10 @@
                     toujours l'âme des chevaliers les plus renommés? Si par hasard vous étiez agréable aux
                     yeux de quelque femme, il faudrait donc qu'elle vous le déclarât elle-même, et qu'elle
                     s'humiliât jusqu'à vous prévenir? Saintré, commençant à se rassurer, lui répondit: --
-                    Ah!</p>
-                <p>Madame, si cette dame vous ressemblait, qu'elle aurait peu de peine à me faire tomber à ses
+                    Ah!
+    </p>
+    <p>
+     Madame, si cette dame vous ressemblait, qu'elle aurait peu de peine à me faire tomber à ses
                     genoux, et à s'assurer à jamais de ma foi! -- A peine eut-il prononcé ces mots, qu'effrayé
                     de ce qu'il avait osé dire, sa tête retombant sur sa poitrine, et ses genoux tremblans le
                     soutenaient à peine. La dame des belles-Cousines avait besoin de ce moment de trouble pour
@@ -431,18 +570,33 @@
                     regardez-moi comme votre unique, votre tendre amie, une amie qui se croit en possession de
                     celui qu'elle a choisi pour lui faire sa fortune, et pour faire son propre bonheur. --
                     Elle ne put prononcer ces mots sans appuyer sa belle bouche sur le front brûlant de
-                    Saintré, qui tombait éperdu de surprise et d'amour à ses genoux.</p>
-                <p>Après s'être un peu remise de ce premier moment, si vif, si désiré par les tendres amans,
+                    Saintré, qui tombait éperdu de surprise et d'amour à ses genoux.
+    </p>
+    <p>
+     Après s'être un peu remise de ce premier moment, si vif, si désiré par les tendres amans,
                     la princesse se rassit; et prenant encore la main de Saintré qu'elle serra plus
                     tendrement: -- Mon ami, lui dit-elle, c'est à moi de vous instruire de tous les devoirs
                     d'un bon et loyal chevalier; et ces premiers momens doivent être employés à vous éclairer
                     sur ceux dont vous devez faire les principes constans des sentimens de votre cœur et des
-                    actions de votre vie.</p>
-                <p>Nous craindrions d'ennuyer le lecteur bien plus que nous n'espérions l'édifier, si nous
+                    actions de votre vie.
+    </p>
+    <p>
+     Nous craindrions d'ennuyer le lecteur bien plus que nous n'espérions l'édifier, si nous
                     rapportions les quarante à cinquante pages que l'auteur emploie à rendre compte des doctes
                     leçons que la dame des belles-Cousines donne à son jeune amant. Elle commence par lui
-                    paraphraser le <hi rend="italic">Pater</hi>, le <hi rend="italic">Credo</hi>, le <hi
-                        rend="italic">Confiteor</hi>, comme étant en effet les consolations de l'âme et la
+                    paraphraser le
+     <hi rend="italic">
+      Pater
+     </hi>
+     , le
+     <hi rend="italic">
+      Credo
+     </hi>
+     , le
+     <hi rend="italic">
+      Confiteor
+     </hi>
+     , comme étant en effet les consolations de l'âme et la
                     lumière pure de l'esprit: elle s'attache ensuite à lui inspirer une sainte horreur des
                     sept péchés mortels, dont elle lui fait les plus longs détails; et plus de quatre-vingts
                     passages latins, tirés des pères de l'église, de la bible, des philosophes et des poètes
@@ -452,29 +606,37 @@
                     nous croyons devoir recourir au texte de l'auteur, de peur qu'on ne nous soupçonnât
                     d'avoir voulu tourner en badinage les sérieuses et respectables leçons qu'elle lui donne
                     sur tout le reste. Après lui avoir rapporté un dictum latin de Boëce, qui ne peint que la
-                    laideur de ce péché, elle conclut ainsi: </p>
-                <p>"Et pour ce, mon ami, dit-elle, que “ce péché est si très-déshonnète, le vrai “amoureux à
+                    laideur de ce péché, elle conclut ainsi:
+    </p>
+    <p>
+     "Et pour ce, mon ami, dit-elle, que “ce péché est si très-déshonnète, le vrai “amoureux à
                     tout son pouvoir doit le “fuir; et si par vive contrainte d'amour “il y écheoit, tant et
                     très-tant sont les “très-angoisseuses peines et dangers que “les loyaux amans ont à
                     souffrir, que “ce ne leur doit point être compté à “péché mortel; et si aucun péché y a,
                     “vraiment il doit être éteint par lesdites peines si grandes: donc par ainsi je puis „dire
                     que le vrai amoureux, tel que je “le dis, de ce mortel péché et de tous “les autres est
-                    quitte, franc et sauve.“</p>
-                <p>La dame des belles-Cousines continue à l'instruire de tout ce qui tient aux dix
+                    quitte, franc et sauve.“
+    </p>
+    <p>
+     La dame des belles-Cousines continue à l'instruire de tout ce qui tient aux dix
                     commandemens de Dieu, à ceux de l'église, et sa redoutable érudition lui fournit encore
                     autant de passages tirés des mêmes sources. Elle finit par tout ce qui tient aux mœurs de
                     la vraie chevalerie: elle appuie sur la fidélité, sur la discrétion qu'un loyal chevalier
                     doit à sa dame, avec une énergie qui porte bien naturellement à croire que cette dernière
                     leçon est un peu intéressée, et que la dame a déjà pris son parti sur le prix dont elle
-                    doit payer l'usage de ses leons.</p>
-                <p>Le jeune Saintré, qui l'a toujours écoutée avec l'attention et l'attendrissement dont une
+                    doit payer l'usage de ses leons.
+    </p>
+    <p>
+     Le jeune Saintré, qui l'a toujours écoutée avec l'attention et l'attendrissement dont une
                     belle âme ne peut se défendre, renouvelle ses sermens, et tombe à ses genoux pour les
                     répéter encore. Il ose reprendre cette belle main dans laquelle elle lui a fait déposer
                     ses premières promesses; et, sans se douter que ses respects sont en ce moment les plus
                     tendres caresses, et sont reçus de même que des transports par une âme sensible, il baise,
                     il couvre de larmes de joie et d'amour cette charmante main qu'elle se plaît à lui
-                    abandonner.</p>
-                <p>La dame des belles-Cousines était attentive à tout pour perfectionner son jeune et aimable
+                    abandonner.
+    </p>
+    <p>
+     La dame des belles-Cousines était attentive à tout pour perfectionner son jeune et aimable
                     élève. Son petit amour-propre de vingt-un ans, était même flatté de se trouver digne
                     d'instruire et de former un damoisel qui avait déjà près de trois mois plus que seize ans.
                     Ses soins se portèrent jusque sur sa parure. Rien ne sembla lui échapper s l'examen de
@@ -482,14 +644,18 @@
                     ceux de nos jours. Elle n'en put trouver aucun qui répondît à la taille élégante et svelte
                     du jeune Saintré. Elle blâma le choix des étoffes et des couleurs, et sur-tout la façon
                     mal-adroite et maussade dont les tailleurs avaient arrangé les vêtemens sur une créature
-                    charmante.</p>
-                <p>Elle ouvrit une petite armoire, et rapportant une petite bourse tissue des couleurs qu'elle
+                    charmante.
+    </p>
+    <p>
+     Elle ouvrit une petite armoire, et rapportant une petite bourse tissue des couleurs qu'elle
                     portait pour livrée avant que d'être mariée, et que les tristes et sombres cordelières du
                     veuvage servissent d'attache à sa robe, elle la remit entre ses mains. Mon “ami, lui
                     dit-elle, prenez ces douze écus „d'or; servez-vous-en pour vous faire habiller par les
                     premiers ouvriers qui travaillent pour le roi. Faites-vous bien joli “pour dimanche
-                    prochain; dépensez hardiment cet argent.“</p>
-                <p>Le bon petit Saintré hésitait beaucoup à recevoir cette bourse: -- Eh mais! Madame, dit-il,
+                    prochain; dépensez hardiment cet argent.“
+    </p>
+    <p>
+     Le bon petit Saintré hésitait beaucoup à recevoir cette bourse: -- Eh mais! Madame, dit-il,
                     je n'ai pas encore mérité vos bienfaits. -- Je n'en juge pas comme vous, répondit la
                     princesse; j'espère même, ajouta-t-elle en rougissant un peu, que vous lemériterez mieux
                     de jour en jour; et je suis assez grande dame pour ne vous laisser manquer de rien de tout
@@ -497,16 +663,20 @@
                     grands honneurs. Ah çà, mon ami, poursuivit-elle, en voilà assez pour cette fois, mes
                     dames attendent depuis long-temps: je vais faire la courroucée en vous congédiant; ayez
                     bien l'air d'en être honteux et affligé. Mais croyez, ajoutatelle, en lui baisant le
-                    front, que vous avez en moi la plus tendre et la plus fidèle amie.</p>
-                <p>A ces mots, Madame sortit, ayant bien besoin que ses yeux animés annonçassent de la colère;
+                    front, que vous avez en moi la plus tendre et la plus fidèle amie.
+    </p>
+    <p>
+     A ces mots, Madame sortit, ayant bien besoin que ses yeux animés annonçassent de la colère;
                     et poussant Saintré dehors par le dos: -- Oh! pour le coup, dit-elle à ses dames, je
                     renonce à jamais rien faire de bon de ce chétif écuyer, et je ne l'admettrai plus en ma
                     présence. -- Saintré, cachant avec les mains, ses yeux brillans des feux de l'amour, fit
                     semblant de sangloter. -- En vérité, Madame, dit la bonne dame Catherine, vous maltraitez
                     trop ce jeune homme; n'en désespérez pas encore: peut-être à la fin, en serez-vous plus
                     contente. -- Nous verrons, dit la dame des belles-Cousines; mais je conserve bien peu
-                    d'espoir.</p>
-                <p>Saintré sortit, la joie la plus vive dans le cœur, et le sentant palpiter en pensant à sa
+                    d'espoir.
+    </p>
+    <p>
+     Saintré sortit, la joie la plus vive dans le cœur, et le sentant palpiter en pensant à sa
                     dame. Il alla cacher ses transports et ses douze écus d'or dans sa chambre. Il dormit peu
                     sans doute: dès que le jour parut, il courut chez tous les ouvriers du roi, qui,
                     connaissant et chérissant déjà ce jeune homme, se firent un plaisir de le bien servir; et
@@ -519,22 +689,28 @@
                     de vous donner Saintré pour exemple? Lequel de vous saurait aussi bien employer son
                     argent? La plus grande partie n'irait-elle pas chez le marchand de vin ou ailleurs?
                     Courage, mon ami Saintré! j'en rendrai compte au roi, et soyez sûr de moi pour vous
-                    servir.</p>
-                <p>Le jeune homme parut à la cour, le jour même, avec sa nouvelle parure. On le trouva plus
+                    servir.
+    </p>
+    <p>
+     Le jeune homme parut à la cour, le jour même, avec sa nouvelle parure. On le trouva plus
                     joli, mieux fait que jamais. Mais on fut curieux de savoir quelle livrée il portait à ses
                     aiguillettes; elles étaient assez remarquables pour exciter des questions: on pense bien
                     qu'il n'eut garde d'y répondre. La reine même fut du nombre de celles qui se tourmentèrent
                     vainement à ce sujet; et cette princesse, instruite des scènes qui s'étaient déjà passées
                     entre la dame des bellesCousines et lui, la pria de les renouveler, pour pousser à bout la
-                    discrétion du jeune page.</p>
-                <p>La dame des belles-Cousines ne demandait pas mieux. Elle suivait sans cesse des yeux celui
+                    discrétion du jeune page.
+    </p>
+    <p>
+     La dame des belles-Cousines ne demandait pas mieux. Elle suivait sans cesse des yeux celui
                     dont elle occupait le cœur. Saisissant ce prétexte, elle l'appela, et lui dit d'un ton
                     assez haut: J'ai ce soir à vous “parler de la part de la reine; je vous or“donne de vous
                     trouver dans la galerie, et “de m'y attendre. “ Saintré eut l'air de recevoir cet ordre
                     avec peine; il savait déjà dissimuler. Il se trouva le soir sur le passage de Madame, se
                     joignit aux écuyers, et donna le temps aux dames de la princesse de le retenir, lorsqu'il
-                    parut vouloir se retirer avec eux.</p>
-                <p>Madame l'examina légèrement dans sa nouvelle parure, en présence de ses dames; mais elle
+                    parut vouloir se retirer avec eux.
+    </p>
+    <p>
+     Madame l'examina légèrement dans sa nouvelle parure, en présence de ses dames; mais elle
                     pensait que bientôt elle pourrait s'en dédommager. Elle débuta donc par des questions
                     impérieuses, auxquelles Saintré répondit d'un air assez embarrassé, mais très-négatif sur
                     l'objet de ses demandes... La bonne dame Catherine prenait, à son ordinaire, le parti de
@@ -547,26 +723,34 @@
                     assise sur le petit lit. Saintré s'était déjà précipité à ses genoux; elle allait baiser
                     son front; mais ce front était déjà baissé; et Saintré, voyant ce parterre de fleurs,
                     entouré de murs d'albâtre, qui l'avait un jour si vivement frappé, lui rendait le plus vif
-                    et le plus doux hommage.</p>
-                <p>La dame des belles-Cousines, malgré sa première émotion, malgré tout ce qu'elle prévoyait
+                    et le plus doux hommage.
+    </p>
+    <p>
+     La dame des belles-Cousines, malgré sa première émotion, malgré tout ce qu'elle prévoyait
                     et ne craignait déjà plus, repoussa doucement Saintré, le fit relever; et ce fut alors
                     qu'elle lui parut ne s'occuper que de son nouvel ajustement. Il est vrai de dire que les
                     ouvriers du roi s'étaient surpassés; et Madame trouva que jamais pourpoint mieux coupé,
                     n'avait renfermé une taille si bien prise et si pleine de grâces. Toutes les autres pièces
                     de sa parure furent examinées et louées tour-à-tour avec le degré d'attention que chacune
-                    méritait. Cet examen fut long; il ne le parut à aucun des deux.</p>
-                <p>Pendant cette douce occupation de la princesse, Saintré, qui en partageait les détails et
+                    méritait. Cet examen fut long; il ne le parut à aucun des deux.
+    </p>
+    <p>
+     Pendant cette douce occupation de la princesse, Saintré, qui en partageait les détails et
                     les charmes, avait son occupation particulière; il observait ce grand collet-monté qui
                     s'entr'ouvrait sur une fraise qui venait de tomber sur un cou d'albâtre. De pareils
                     examens deviennent quelquefois assez intéressans pour que l'on s'oublie soi-même; nous
                     ignorons jusqu'à quel point cet oubli fut porté; l'auteur craint de le dire: cette crainte
-                    est bien indiscrète.</p>
-                <p>L'aimable princesse, après avoir donné toutes les leçons de prudence qu'une jeune veuve
+                    est bien indiscrète.
+    </p>
+    <p>
+     L'aimable princesse, après avoir donné toutes les leçons de prudence qu'une jeune veuve
                     pleine d'esprit, nourrie dans la cour la plus brillante, peut et doit donner à son jeune
                     élève, s'aperçut que la conversation avait duré long-temps. Ses dames devaient s'être
                     ennuyées; et elle savait que l'ennui de trois jeunes dames de la cour ne peut être adouci
-                    que par un peu de médisance.</p>
-                <p>Elle se pressa d'avertir Saintré qu'elle allait le bannir pour toujours, en apparence, de
+                    que par un peu de médisance.
+    </p>
+    <p>
+     Elle se pressa d'avertir Saintré qu'elle allait le bannir pour toujours, en apparence, de
                     son appartement, et qu'elle lui défendrait de se trouver jamais le soir sur son passage.
                     Mais qu'elle fut belle, qu'elle fut touchante, lorsque, lui présentant une clef en
                     rougissant, elle lui dit que cette clef ouvrait la porte d'une garde-de-robe qui donnait
@@ -575,19 +759,25 @@
                     occupée de vous. Prenez, ajouta-t-elle, prenez les soixante “écus d'or que renferme cette
                     bourse tissue “de mes cheveux. Ce n'est que par degrés “que vous pouvez briller dans cette
                     cour “sans me compromettre; les nouvelles pa“rures dont je vous prie d'orner votre figure
-                    charmante, pourront passer pour un “nouveau don de votre mère.“</p>
-                <p>A ces mots, tirant une épingle et la mettant dans ses dents: „Soyez attentif, ajoutatelle,
+                    charmante, pourront passer pour un “nouveau don de votre mère.“
+    </p>
+    <p>
+     A ces mots, tirant une épingle et la mettant dans ses dents: „Soyez attentif, ajoutatelle,
                     à ce nouveau signe, mon ami; “vous vous souviendrez, lorsque je le ré“péterai d'y répondre
                     en frottant votre œil “droit: ne me parlez jamais en public que “je ne vous appelle;
-                    personne ne pourra soupçonner notre intelligence.“</p>
-                <p>Saintré baisa mille fois avec feu et la clef, et la main qui la lui présentait. Tous deux
+                    personne ne pourra soupçonner notre intelligence.“
+    </p>
+    <p>
+     Saintré baisa mille fois avec feu et la clef, et la main qui la lui présentait. Tous deux
                     allèrent retrouver les trois dames qui s'étaient endormies après avoir fini leurs
                     ouvrages, et avoir épuisé ce qu'elles savaient de contes. „Eh bien, dame Catherine, dit
                     “la princesse, aurez-vous encore la fai“blesse de prendre le parti de ce gen“tilhomme,
                     sans foi, sans cœur et sans „élévation? Sortez pour toujours de chez “moi, ajouta-t-elle
                     en regardant Saintré; “vous vous montrez trop peu digne de mes “bontés, pour y être
-                    souffert.“</p>
-                <p>Saintré parut anéanti; et, saluant ces dames avec un air pénétré, il se retira le cœur
+                    souffert.“
+    </p>
+    <p>
+     Saintré parut anéanti; et, saluant ces dames avec un air pénétré, il se retira le cœur
                     rempli du sentiment de son bonheur. Peu de jours après il parut à la cour, plus brillant
                     que jamais. Il avait une robe de “fin bleu doublé de fins agneaux de Romélie, un chaperon
                     garni de marte de Sibérie. “ Peu de seigneurs parurent aussi bien vêtus; aucun n'avait
@@ -612,8 +802,10 @@
                     ce moment pour m'envoyer tout ce qu'il me faut encore pour me soutenir avec honneur dans
                     ce nouvel état. -- Nous verrons, répondit la princesse d'un air sec: en attendant,
                     remerciez Dieu de vous avoir donné une si bonne mère, et priez-le de vous la
-                    conserver.</p>
-                <p>La dame des belles-Cousines, rentrée chez la reine, ne s'empressa pas de satisfaire à sa
+                    conserver.
+    </p>
+    <p>
+     La dame des belles-Cousines, rentrée chez la reine, ne s'empressa pas de satisfaire à sa
                     curiosité. Elle attendit que cette princesse lui dît: -- Eh bien, belleCousine, avez-vous
                     interrogé Saintré sur ce que nous voulons savoir? -- Vraiment, réponditelle, il se vante
                     que ses parens le soutiendront en tel état que le roi voudra bien lui donner; il se plaint
@@ -623,8 +815,10 @@
                     que les écuyers et ses autres supérieurs rapportent de ses mœurs, de son application à ses
                     devoirs, et de sa gentillesse? Oui, belle-Cousine, il a raison; et puisque vous me
                     paraissez si froide sur ce qui le touche, je veux me charger moi-même d'en parler au
-                    roi.</p>
-                <p>La famille royale alors était prête à se mettre à table; et dès que le roi parut, la reine
+                    roi.
+    </p>
+    <p>
+     La famille royale alors était prête à se mettre à table; et dès que le roi parut, la reine
                     lui fit remarquer Saintré qu'il n'avait pas d'abord reconnu sous sa riche et nouvelle
                     parure. Il lui plut assez pour accorder sur-le-champ à la reine ce qu'elle demandait pour
                     lui; et, curieux de voir comment il s'acquitterait de la charge d'écuyer tranchant, il
@@ -643,27 +837,35 @@
                     à travailler pour mériter le “guerdon que vous recevez avant de l'avoir “mérité, de
                     préférence sur vos pareils.“ Saintré l'écouta d'un air soumis sans lui répondre, et
                     sur-le-champ commença son service avec une grâce et une adresse qui firent applaudir de
-                    nouveau à la faveur qu'il venait d'obtenir.</p>
-                <p>La tendre et charmante veuve le regardait souvent du coin de l'œil, et recevait dans son
+                    nouveau à la faveur qu'il venait d'obtenir.
+    </p>
+    <p>
+     La tendre et charmante veuve le regardait souvent du coin de l'œil, et recevait dans son
                     âme sensible les louanges que l'on donnait à son jeune amant. Ne pouvant résister à la
                     tendre émotion qui l'agitait, elle employa le signal de l'épingle, auquel Saintré répondit
                     avec la joie la plus vive, en se frottant l'œil droit, et en les élevant tous deux au
                     ciel. La nuit vint: qu'il lui fut doux d'être payé par l'amour des feintes rigueurs de la
                     bienséance! Saintré n'en oubliait aucune; la dame les avouait toutes: jamais on ne trouva
-                    plus de plaisir à se plaindre; jamais on ne songea moins à s'excuser.</p>
-                <p>La dame des belles-Cousines, aussi généreuse que tendre, s'était occupée déjà des dépenses
+                    plus de plaisir à se plaindre; jamais on ne songea moins à s'excuser.
+    </p>
+    <p>
+     La dame des belles-Cousines, aussi généreuse que tendre, s'était occupée déjà des dépenses
                     auxquelles le nouvel état de Saintré l'obligeait. Quatre cents écus d'or qu'elle lui donna
                     furent plus que suffisans pour payer les trois chevaux, les faire équiper superbement,
                     faire couvrir les valets de riches livrées, et répandre ses libéralités sur tous les gens
-                    des écuries du roi, qui lui avaient prouvé leur attachement pendant son premier service. </p>
-                <p>Saintré se fit estimer de plus en plus en exerçant son nouvel emploi. Le roi Jean ne
+                    des écuries du roi, qui lui avaient prouvé leur attachement pendant son premier service.
+    </p>
+    <p>
+     Saintré se fit estimer de plus en plus en exerçant son nouvel emploi. Le roi Jean ne
                     pouvait se passer de lui à sa table; il s'en faisait suivre à la chasse. Adroit à la
                     joute, redoutable dans les tournois, léger, plein de grâces, et dans un bal occupé de
                     plaire sans cesse, les vieux chevaliers le donnaient pour exemple à la jeunesse: les dames
                     louaient son air noble et galant; plusieurs, peut-être, désiraient sa conquête. La dame
                     des belles-Cousines était la seule qui conservât un air froid et sévère lorsqu'elle le
-                    rencontrait en public: mais l'épingle jouait souvent son jeu.</p>
-                <p>C'est ainsi que Saintré passa plusieurs années. Lorsqu'il eut atteint l'âge de pouvoir
+                    rencontrait en public: mais l'épingle jouait souvent son jeu.
+    </p>
+    <p>
+     C'est ainsi que Saintré passa plusieurs années. Lorsqu'il eut atteint l'âge de pouvoir
                     prétendre à l'honneur d'être chevalier, les bienfaits de sa dame lui furent assez
                     prodigués pour le rendre le plus magnifique des aspirans. Il était d'usage que le
                     bachelier ou écuyer-expert qui demandait l'ordre de la chevalerie, débutât par quelque
@@ -677,35 +879,49 @@
                     vos hérauts publieront que ceux qui ce présenteront pour vous combattre, ou seront tenus
                     de vous enlever à force d'armes le riche bracelet que je veux moi-même attacher à votre
                     bras, ou de vous faire un riche présent pour gage de votre victoire, qu'à votre retour
-                    vous présenterez votre dame.</p>
-                <p>A ces mots, elle ouvrit un grand coffre plein d'or; et Saintré fut obligé de faire trois
+                    vous présenterez votre dame.
+    </p>
+    <p>
+     A ces mots, elle ouvrit un grand coffre plein d'or; et Saintré fut obligé de faire trois
                     voyages du cabinet de la dame au sien, pour porter la somme immense qu'elle le força de
                     recevoir. Chaque retour, marqué par les transports de la plus vive reconnaissance,
                     augmentait pour elle le plaisir de donner. Lorsqu'il fut prêt à se retirer, elle lui remit
                     une petite cassette pleine des plus belles pierreries, parmi lesquelles elle choisit
-                    celles qui devaient enrichir ce bracelet qu'elle voulait attacher à son bras.</p>
-                <p>Saintré fit préparer en secret tout ce qu'il lui fallait pour exécuter son projet.
+                    celles qui devaient enrichir ce bracelet qu'elle voulait attacher à son bras.
+    </p>
+    <p>
+     Saintré fit préparer en secret tout ce qu'il lui fallait pour exécuter son projet.
                     L'Andalousie et les bords de la mer Rouge lui fournirent les superbes destriers. Les
                     meilleurs ouvriers furent employés à leurs harnois, à ses armes, ses livrées; et le
-                    premier orfèvre du roi fit un chef-d'œuvre du bracelet qu'il devait porter.</p>
-                <p>On croira sans peine que pendant le temps que demandaient ces préparatifs, cette petite
+                    premier orfèvre du roi fit un chef-d'œuvre du bracelet qu'il devait porter.
+    </p>
+    <p>
+     On croira sans peine que pendant le temps que demandaient ces préparatifs, cette petite
                     épingle, plus belle à ses yeux que les flèches d'or de l'Amour, renouvelait souvent le
-                    signal qui la lui avait rendue si chère, et que la réponse ne se faisait pas attendre.</p>
-                <p>Tout étant prêt dans le mois d'avril, et dans le moment même où le roi Jean, l'aimant et
+                    signal qui la lui avait rendue si chère, et que la réponse ne se faisait pas attendre.
+    </p>
+    <p>
+     Tout étant prêt dans le mois d'avril, et dans le moment même où le roi Jean, l'aimant et
                     l'estimant de plus en plus, venait de l'élever à la dignité de chambellan, Saintré, se
                     jetant à ses genoux, s'écria: „Ah! cher sire, mon redouté seigneur, “permettez-moi donc de
                     me rendre digne des honneurs et des bienfaits dont vous “me comblez. „ A ces mots, il lui
                     fit part de son noble projet, et le supplia d'en autoriser l'exécution par des lettres
-                    d'armes.</p>
-                <p>„Eh quoi! mon ami Saintré, lui répondit “ce bon maître, c'est au moment où je “vous attache
+                    d'armes.
+    </p>
+    <p>
+     „Eh quoi! mon ami Saintré, lui répondit “ce bon maître, c'est au moment où je “vous attache
                     encore plus intimement à ma “personne, que vous voulez vous éloi“gner de moi! Mais, ajouta
                     ce brave roi, “je ne peux vous condamner; je peux en“core moins vous refuser une occasion
-                    de faire honneur à mes sentimens, et de me “mettre en droit de vous armer chevalier.“</p>
-                <p>Dès que le jeune Saintré eut obtenu cette permission de son maître, il ne dissimula plus
+                    de faire honneur à mes sentimens, et de me “mettre en droit de vous armer chevalier.“
+    </p>
+    <p>
+     Dès que le jeune Saintré eut obtenu cette permission de son maître, il ne dissimula plus
                     son entreprise. Ses hérauts richement vêtus et leurs cottes d'armes brodées et blazonnées,
                     parurent en public, ainsi que sa nombreuse livrée, et les beaux chevaux que jusqu'alors il
-                    avait tenus écartés dans un village à quelques lieues de Paris.</p>
-                <p>Chacun félicita Saintré sur l'honneur que lui faisait son entreprise, et sur la
+                    avait tenus écartés dans un village à quelques lieues de Paris.
+    </p>
+    <p>
+     Chacun félicita Saintré sur l'honneur que lui faisait son entreprise, et sur la
                     magnificence de ses préparatifs. L'usage de ce temps était que le roi, la famille royale
                     et les princes du sang fissent un don au jeune gentilhomme dont l'entreprise faisait
                     honneur à la nation. Le monarque lui donna deux mille écus d'or de son épargne; la reine
@@ -721,7 +937,11 @@
                     avantage; et je trouve de la justice à le dédommager de mon ancienne prévention, que je
                     n'ai pu souvent m'empêcher de lui témoigner. Par déférence pour votre Majesté, je veux
                     payer le bracelet qui doit être la marque de son entreprise; j'espère qu'il saura le
-                    défendre, et qu'il en coûtera cher à celui qui voudra le <hi rend="italic">délivrer</hi>.
+                    défendre, et qu'il en coûtera cher à celui qui voudra le
+     <hi rend="italic">
+      délivrer
+     </hi>
+     .
                     Je veux bien même lui faire l'honneur de le passer moi-même à son bras le jour de son
                     départ. Mais, Madame, ajouta-t-elle (comme pu réflexion), il serait bon de savoir si
                     Saintré s'est pourvu de tout ce qui lui est nécessaire pour répondre avec éclat à la haute
@@ -731,14 +951,18 @@
                     belle-Cousine; elle fit donner en conséquence l'ordre à Saintré qui partit le lendemain,
                     mais sans être encore armé, dans le préau, à la tête de son cortège. Il était monté sur le
                     plus beau cheval qu'eût nourri l'Arabie, qu'il maniait et faisait passager avec une grâce
-                    supérieure.</p>
-                <p>On admira le poursuivant-d'armes et la magnificence de son équipage. La belle veuve ne se
+                    supérieure.
+    </p>
+    <p>
+     On admira le poursuivant-d'armes et la magnificence de son équipage. La belle veuve ne se
                     récria point comme les autres: mais elle jouit intérieurement des charmes de son amant,
                     des applaudissemens qu'il recevait, et l'épingle fut mise en jeu. Saintré, sachant ce que
                     la belle veuve avait dit à la reine, en se jetant le soir à ses genoux lui présenta le
                     beau bracelet dont elle admi ra le travail, et qu'elle garda pour l'attacher à son bras le
-                    jour de son départ.</p>
-                <p>Ce jour n'était pas loin. Lorsqu'il fut arrivé, la reine tint un grand cercle. Les hérauts
+                    jour de son départ.
+    </p>
+    <p>
+     Ce jour n'était pas loin. Lorsqu'il fut arrivé, la reine tint un grand cercle. Les hérauts
                     d'armes, revêtus des marques de leur charge, se tinrent debout derrière la famille royale.
                     Saintré parut armé de toutes pièces; la visière levée, la main droite désarmée de son
                     gantelet, se précipita aux pieds de son maître, renouvela le serment d'obéissance et de
@@ -749,8 +973,10 @@
                     seigneurs et chevaliers de la cour, il descendit dans le préau, s'élança légèrement sur
                     son cheval; et, après avoir levé les yeux sur ce palais où restait celle qui faisait
                     l'honneur et les délices de sa vie, il sortit de Paris, prit la route d'Aragon où son
-                    premier héraut l'avait déjà devancé.</p>
-                <p>Le jeune Saintré se fit admirer par sa beauté, ses sentimens, et par sa magnificence, dans
+                    premier héraut l'avait déjà devancé.
+    </p>
+    <p>
+     Le jeune Saintré se fit admirer par sa beauté, ses sentimens, et par sa magnificence, dans
                     toutes les villes françaises qui se trouvèrent sur son passage. Cette magnificence et ses
                     dons augmentèrent dès qu'il entra sur les frontières étrangères; quelques aventures même
                     signalèrent son adresse et sa valeur. Des chevaliers catalans gardaient différens pas dans
@@ -765,11 +991,17 @@
                     jours après, il arriva près de Pampelune, où la cour était alors. La grande réputation du
                     noble poursuivant-d'armes français l'avait devancé; et Saintré vit accourir à sa rencontre
                     un nombre infini de chevaliers et de dames, qui furent frappés de la magnificence et de la
-                    galanterie qui régnaient dans tout son cortège.</p>
-                <p>Arrivé auprès du trône, le monarque lui parla avec une distinction pleine de bonté, et lui
+                    galanterie qui régnaient dans tout son cortège.
+    </p>
+    <p>
+     Arrivé auprès du trône, le monarque lui parla avec une distinction pleine de bonté, et lui
                     demanda des nouvelles du brave chevalier qui régnait sur la France, ajoutant qu'il le
                     félicitait d'avoir fait un pareil élève. Les premiers chevaliers étaient prêts à se
-                    disputer l'honneur de le <hi rend="italic">délivrer</hi>; mais ils furent forcés de céder
+                    disputer l'honneur de le
+     <hi rend="italic">
+      délivrer
+     </hi>
+     ; mais ils furent forcés de céder
                     cet honneur à monseigneur Enguerand, le premier d'entre eux, et proche parent du roi, dont
                     il avait épousé la nièce (madame Aliénor, princesse de Cardonne, l'une des plus belles et
                     des plus parfaites dames de toues les Espagnes.) Au moment où Saintré quitta les genoux du
@@ -787,38 +1019,52 @@
                     madame Aliénor à celle de la dame des belles-Cousines, dont son cœur était sans cesse si
                     tendrement occupé. Il fallait que cette Aliénor fût en effet bien belle pour mériter à ses
                     yeux l'honneur de la comparaison; car on sait que l'amant heureux, lorsqu'il est fidèle,
-                    ne trouve rien d'aussi beau que l'objet aimé.</p>
-                <p>Le lendemain fut marqué par une fête brillante que donna la reine d'Aragon. Saintré y parut
+                    ne trouve rien d'aussi beau que l'objet aimé.
+    </p>
+    <p>
+     Le lendemain fut marqué par une fête brillante que donna la reine d'Aragon. Saintré y parut
                     avec tout le goût et tout l'éclat qui caractérisaient la cour de France. Il plut aux
                     hommes par sa politesse noble, aux dames par sa galanterie respectueuse. Ce fut le premier
                     honneur qu'il fit à la nation. Le fier et juste Aragonais ne put s'empêcher de juger des
                     succès de l'éducation de la noblesse française, lorsque l'amour-propre et de légers
                     défauts ne la font point abuser des dons naturels qu'elle semble avoir reçus pour
-                    plaire.</p>
-                <p>Pendant ces momens de plaisir, on préparait les lices. Les lettres d'armes de Saintré
+                    plaire.
+    </p>
+    <p>
+     Pendant ces momens de plaisir, on préparait les lices. Les lettres d'armes de Saintré
                     portaient que le premier jour les deux tenans rompraient cinq lances, et que le prix
                     serait adjugé à celui qui aurait remporté quelque avantage. Les mêmes lettres portaient
                     que dans la seconde journée les tenans combattraient à pied avec l'épée, la dague et la
-                    hache, et que le vainqueur recevrait un riche don du vaincu.</p>
-                <p>Le roi et la reine, suivis d'une cour nombreuse, honorèrent ces joutes de leur présence.
+                    hache, et que le vainqueur recevrait un riche don du vaincu.
+    </p>
+    <p>
+     Le roi et la reine, suivis d'une cour nombreuse, honorèrent ces joutes de leur présence.
                     Monseigneur Enguerand surpassait le jeune Saintré de toute la tête. Son air martial, sa
                     force et sa valeur éprouvées dans vingt combats, formaient un préjugé favorable pour lui.
                     Le vœu des dames était cependant pour Saintré; leur cœur éprouvait me secrète peine;
-                    quelques-unes poussaient plus loin cet intérêt.</p>
-                <p>L'honneur des trois premières joutes fut absolument égal entre les combattans. A la
+                    quelques-unes poussaient plus loin cet intérêt.
+    </p>
+    <p>
+     L'honneur des trois premières joutes fut absolument égal entre les combattans. A la
                     quatrième course, monseigneur Enguerand parut avoir quelque avantage; mais celui du jeune
                     Saintré fut décisif dans la cinquième. Monseigneur Enguerand ayant manqué son atteinte,
                     Saintré brisa sa lance jusqu'à la poignée, en atteignant Enguerand dans la visière de son
                     casque, et lui faisant ployer la tête presque sur la croupe de son cheval, sans toutefois
-                    le renverser.</p>
-                <p>Ici le combat fut arrêté. Les juges du camp, ayant saisi les adversaires, les conduisirent
+                    le renverser.
+    </p>
+    <p>
+     Ici le combat fut arrêté. Les juges du camp, ayant saisi les adversaires, les conduisirent
                     au balcon royal. Aragon, premier héraut d'armes, ayant recueilli les voix (pour la forme),
                     Saintré fut proclamé vainqueur. Enguerand prit le rubis des mains du héraut, le présenta à
                     Saintré, et lui dit: „Mon frère, puisse ce rubis parer les che“veux de la haute et
-                    vertueuse dame qui “préside secrètement à votre entreprise!“</p>
-                <p>Tous deux furent admis le soir au festin royal, et traités avec la distinction la plus
-                    glorieuse. Le lendemain fut un jour de plaisirs publics.</p>
-                <p>Le troisième jour, les trompettes annoncèrent un combat plus sérieux; et les lices
+                    vertueuse dame qui “préside secrètement à votre entreprise!“
+    </p>
+    <p>
+     Tous deux furent admis le soir au festin royal, et traités avec la distinction la plus
+                    glorieuse. Le lendemain fut un jour de plaisirs publics.
+    </p>
+    <p>
+     Le troisième jour, les trompettes annoncèrent un combat plus sérieux; et les lices
                     rétrécies furent préparées différemment pour le combat à pied. Ce combat fut assez long et
                     assez violent pour que les deux adversaires fussent obligés de reprendre quelquefois
                     haleine, et de replacer leurs armes que la violence des coups avait, en partie, faussées
@@ -829,8 +1075,10 @@
                     que, sans la force de la trempe du gantelet, il eût peut-être coupé le bras d'Enguerand,
                     dont la hache vola à plusieurs pas de distance. Saintré ramassa alors la sienne avec la
                     plus grande agilité, et en présenta la pointe à la visière du casque d'Enguerand, sautant
-                    légèrement et posant le pied sur la hache tombée que celui-ci voulait ramasser.</p>
-                <p>Enguerand, désespéré de se voir désarmé, s'élança sur Saintré, et l'embrassant étroitement,
+                    légèrement et posant le pied sur la hache tombée que celui-ci voulait ramasser.
+    </p>
+    <p>
+     Enguerand, désespéré de se voir désarmé, s'élança sur Saintré, et l'embrassant étroitement,
                     il essaya vainement de le jeter par terre. Saintré, le saisissant aussi du bras gauche,
                     tenait sa hache levée du bras droit, mais sans lui porter un seul coup; il se contentait
                     de résister à ses efforts, et de l'empêcher de lui saisir ce même bras. Le roi d'Aragon,
@@ -857,28 +1105,42 @@
                     ne conviendrait pas que vous retournassiez près de la haute “et vertueuse dame de vos
                     pensées, sans “des marques de votre victoire; puisse-t-elle ne pas dédaigner d'honorer ce
                     carcan “que je lui présente par vos mains, et “puissiez-vous vous plaire un jour à le lui
-                    “voir porter!“</p>
-                <p>Le roi aida lui-même à désarmer les deux chevaliers. Saintré s'apercevant que monseigneur
+                    “voir porter!“
+    </p>
+    <p>
+     Le roi aida lui-même à désarmer les deux chevaliers. Saintré s'apercevant que monseigneur
                     Enguerand était blessé, se précipita sur son poignet sanglant, et baisa l'empreinte du
-                    coup qu'il avait porté, en le baignant de ses larmes.</p>
-                <p>La légère blessure de ce seigneur ne le privant pas d'assister au festin, qui suivit ce
+                    coup qu'il avait porté, en le baignant de ses larmes.
+    </p>
+    <p>
+     La légère blessure de ce seigneur ne le privant pas d'assister au festin, qui suivit ce
                     combat, le roi fit asseoir à sa table le seigneur de Saintré entre lui et madame Aliénor,
-                    et la reine fit le même honneur à monseigneur Enguerand.</p>
-                <p>Plusieurs fêtes couronnèrent encore ce beau jour, et Saintré y fut toujours l'objet des
+                    et la reine fit le même honneur à monseigneur Enguerand.
+    </p>
+    <p>
+     Plusieurs fêtes couronnèrent encore ce beau jour, et Saintré y fut toujours l'objet des
                     attentions les plus glorieuses. Mais les jours passés loin de ce que l'on aime sont bien
                     longs quoique embellis par les honneurs. L'amant pressa le héros de venir recevoir en
-                    France un prix plus doux de sa victoire.</p>
-                <p>Il partit; il vola. Il arrive sur les bords de la Seine. Moment délicieux d'embrasser les
+                    France un prix plus doux de sa victoire.
+    </p>
+    <p>
+     Il partit; il vola. Il arrive sur les bords de la Seine. Moment délicieux d'embrasser les
                     genoux de son roi, et de retrouver tout son bonheur dans les yeux de sa maîtresse, quand
-                    on vient d'honorer l'un et l'autre!</p>
-                <p>Le roi l'embrasse, lui dit des choses les plus flatteuses, sent augmenter son plaisir par
-                    les applaudissemens redoublés des anciens chevaliers. Il le conduit vors la roine.</p>
-                <p>Elle était femme: elle l'avait protégé: elle le revoyait vainqueur et adoré; elle jouissait
+                    on vient d'honorer l'un et l'autre!
+    </p>
+    <p>
+     Le roi l'embrasse, lui dit des choses les plus flatteuses, sent augmenter son plaisir par
+                    les applaudissemens redoublés des anciens chevaliers. Il le conduit vors la roine.
+    </p>
+    <p>
+     Elle était femme: elle l'avait protégé: elle le revoyait vainqueur et adoré; elle jouissait
                     de son ouvrage: sentiment bien doux, qui ne tient point de la faiblesse et fait honneur à
                     la nature! La dame des belles-Cousine était auprès d'elle: le plus beau moment de la vie
                     de Saintré fut de lever les yeux sur elle, et de rendre enfin un hommage public à celle
-                    qu'il aimait, sans blesser le mystère rigoureux qui captivait son amour.</p>
-                <p>La dame des belles-Cousines avait attaché, de sa main, au bras de Saintré, le riche
+                    qu'il aimait, sans blesser le mystère rigoureux qui captivait son amour.
+    </p>
+    <p>
+     La dame des belles-Cousines avait attaché, de sa main, au bras de Saintré, le riche
                     bracelet, marque de son entreprise; il se voyait en droit, en quittant les genoux de la
                     reine, d'aller aux siens, de lui faire hommage sa victoire, et de lui présenter le rubis
                     éclatant et le riche carcan de diamans qu'il avait acceptés secrètement pour elle.
@@ -892,8 +1154,10 @@
                     prête à l'entourer; et en l'emmenant dans son cabinet où elle n'admettra “que nos
                     belles-Cousines. Saintré trouvera “de reste le temps de parler de joûtes et de “combats à
                     ses compagnons. J'aimerais bien “qu'il commençât par nous parler de la cour “d'Aragon, et
-                    des beautés renommées dont „elle est parée.“</p>
-                <p>La reine approuva fort cette proposition; et, prenant Saintré sous le bras, elle le
+                    des beautés renommées dont „elle est parée.“
+    </p>
+    <p>
+     La reine approuva fort cette proposition; et, prenant Saintré sous le bras, elle le
                     conluisit dans son appartement, ou les seules belles-Cousines furent admises. Saintré leur
                     raconta d'abord tout ce qui pouvait satisfaire leur curiosité. Son front et ses joues
                     furent colorés par la modestie, lorsqu'il fut contraint de parler de lui. Pendant ce
@@ -901,8 +1165,10 @@
                     supplians que tendres: il observait, il désirait, il attendait avec une inquiétude qui
                     faisait palpiter son cœur, l'heureux et charmant signal de la petite épingle. Hélas! la
                     dame des bellesCousines n'en avait pas sous sa main, et en cherchait vainemement dans
-                    toute sa parure.</p>
-                <p>Un dernier regard de Saintré comblant son impatience, elle osa s'approcher de la reine; et,
+                    toute sa parure.
+    </p>
+    <p>
+     Un dernier regard de Saintré comblant son impatience, elle osa s'approcher de la reine; et,
                     feignant d'admirer l'éclat d'une agraffe de diamans, elle prit adroitement une épingle.
                     Qu'elle fut prompte à s'en servir! que ses yeux devinrent brillans! La reine l'avait
                     surprise. -- Bon Dieu! chère Cousine, lui ditelle, n'avez-vous pas peur de gâter vos
@@ -910,23 +1176,29 @@
                     devriez mieux ménager un des charmes les plus parfaits de votre agréable figure. --
                     Vraiment, Madame, vous avez bien raison, dit la belle-Cousine; mais vous savez que je suis
                     distraite, et quelle est la force de l'habitude: je sens qu'il serait à présent bien
-                    difficile de me corriger.</p>
-                <p>Le reste du jour, Saintré fut obligé de se livrer aux empressemens de ses anciens
+                    difficile de me corriger.
+    </p>
+    <p>
+     Le reste du jour, Saintré fut obligé de se livrer aux empressemens de ses anciens
                     compagnons, et d'une cour dans laquelle il n'avait pas même un seul ennemi secret. Il
                     attendait avec impatience le moment heureux de voir en liberté celle à qui il supposait si
                     justement le même désir. Ce moment vint, et fut le plus doux qu'il eut encore passé auprès
                     d'elle. a victoire, l'honneur dont il s'était couvert, le rapprochaient un peu plus d'un
                     objet adoré, et lui donnaient cette assurance que la douce égalité établit entre les
-                    amans.</p>
-                <p>Ces momens, d'un prix inestimable, se renouvelèrent souvent. Leur douceur fut troublée au
+                    amans.
+    </p>
+    <p>
+     Ces momens, d'un prix inestimable, se renouvelèrent souvent. Leur douceur fut troublée au
                     bout d'un mois, par l'arrivée inattendue du comte de Loiseleng, l'un des plus grands
                     seigneurs de la Pologne, et grand-officier de cette couronne. Ce riche et brave palatin
                     venait admirer la cour de Jean, accompagné de quatre autres palatins d'un rang à peine
                     inférieur au sien. Tous les cinq, ayant fait la mème entreprise d'armes, portaient au bras
                     un carcan d'or et une chaîne qui l'attachait au pied, sans leur ôter la liberté de se
                     servir de l'un et de l'autre. Ils firent supplier le monarque de leur permettre d'attendre
-                    dans sa cour qu'il se présentât le même nombre de chevaliers pour les délivrer.</p>
-                <p>La magnificence et la simplicité noble des habits des seigneurs polonais se fit admirer de
+                    dans sa cour qu'il se présentât le même nombre de chevaliers pour les délivrer.
+    </p>
+    <p>
+     La magnificence et la simplicité noble des habits des seigneurs polonais se fit admirer de
                     la cour de France. Une veste de brocard d'or, qui leur prenait exactement la taille, leur
                     tombait jusqu'aux genoux. Une ceinture couverte de pierreries, soutenait la large épée
                     courbée qu'ils portaient à leur côté. Des bottes légères, armées de riches éperons d'or;
@@ -944,21 +1216,27 @@
                     brillantes: plusieurs superfluités même de leur ajustement disparurent, ou furent
                     diminuées jusqu'à la vraisemblance. Plusieurs jeunes chevaliers ou poursuivans-d'armes
                     s'empressèrent à remplir de leur nom la liste des prétendans au combat, que les deux
-                    maréchauxdeFrance devait présenter au roi.</p>
-                <p>Saintré n'osait rien demander à la belleCousine; mais il ne lui parlait jamais de
+                    maréchauxdeFrance devait présenter au roi.
+    </p>
+    <p>
+     Saintré n'osait rien demander à la belleCousine; mais il ne lui parlait jamais de
                     l'entreprise d'amour des seigneurs polonais sans la plus vive émotion. Elle pensait avec
                     élévation; et, quoi qu'il en coûtât à son cœur elle ne put voir, sans en être touchée, le
                     désir que son amant lui montrait d'acquérir une nouvelle gloire à ses yeux. Elle lui
                     accorda donc la permission de se présenter au roi pour délivrer les nobles esclaves
-                    d'amour polonais.</p>
-                <p>Le roi Jean ne balança pas à le nommer le premier des cinq qui devaient combattre les
+                    d'amour polonais.
+    </p>
+    <p>
+     Le roi Jean ne balança pas à le nommer le premier des cinq qui devaient combattre les
                     chevaliers étrangers. La cérémonie se fit avec la plus grande splendeur. Ce fut Saintré
                     qui, s'avançant avec grâce, alla demander au palatin comte de Loiseleng s'il l'acceptait
                     pour le délivrer. Celui-ci, prévenu par la réputation de Saintré, regarda comme un honneur
                     le choix que le monarque français avait fait de son élève, et du jeune seigneur le plus
                     renommé de sa cour. Il serra tendrement Saintré dans ses bras, tandis que celui-ci se
-                    baissait pour le délivrer de la chaîne et du carcan attachés à l'un de ses pieds.</p>
-                <p>Les lices furent élevées près du palais SaintPol, dans la grande Culture de sainte
+                    baissait pour le délivrer de la chaîne et du carcan attachés à l'un de ses pieds.
+    </p>
+    <p>
+     Les lices furent élevées près du palais SaintPol, dans la grande Culture de sainte
                     Catherine. Les combats durèrent deux jours, et furent également honorables pour les deux
                     partis. Saintré, cependant, dans toute sa force alors, et n'ayant rien perdu de son
                     adresse et de son agilité, sentit bientôt la supériorité que l'une et l'autre lui
@@ -981,13 +1259,17 @@
                     avouant noblement sa défaite. Déjà le roi Jean était descendu du balcon royal pour
                     embrasser les deux combattans: il sentit, en serrant Saintré dans ses bras, le tendre et
                     vif intérêt d'un père. Mais un prix plus doux avait déjà payé son triomphe; le jeu
-                    flatteur de la petite épingle avait accompagné les regards les plus passionnés.</p>
-                <p>On peut imaginer tout ce que la bonté du roi Jean, et la politesse noble, vive et
+                    flatteur de la petite épingle avait accompagné les regards les plus passionnés.
+    </p>
+    <p>
+     On peut imaginer tout ce que la bonté du roi Jean, et la politesse noble, vive et
                     prévenante de la cour la plus aimable et la plus brillante de l'univers, réunirent pour
                     adoucir aux seigneurs polonais l'embarras et le chagrin de leur défaite. Ils repartirent
                     pour les bords de la Vistule, comblant Saintré, qui alla les reconduire à une journée, de
-                    riches présens et de leurs caresses.</p>
-                <p>Peu de temps après, un simple courier vint annoncer au monarque français que douze
+                    riches présens et de leurs caresses.
+    </p>
+    <p>
+     Peu de temps après, un simple courier vint annoncer au monarque français que douze
                     chevaliers de la Grande-Bretagne avaient passé la mer, et qu'après avoir séjourné quelques
                     jours à Calais, dédaignant de se soumettre aux usages reçus, ils avaient pris le parti,
                     non-seulement de ne point paraître à la cour, mais même de ne rien entreprendre qui pût
@@ -997,8 +1279,10 @@
                     bretons avaient seulement dressé un pas-d'armes sur les confins de leur territoire, et
                     fait élever un perron où leurs douze écus blazonnés étaient attachés près des tentes on
                     ces Bretons devaient attendre ceux des chevaliers français qui seraient assez hardis pour
-                    les toucher.</p>
-                <p>Cette nouvelle excita l'indignation de la chevalerie française, se réveilla cette espèce
+                    les toucher.
+    </p>
+    <p>
+     Cette nouvelle excita l'indignation de la chevalerie française, se réveilla cette espèce
                     d'animosité entre les deux nations, que depuis long-temps rien ne pouvait éteindre. Les
                     Français, cependant, plongés alors dans la plus profonde ignorance, auraient peut-être eu
                     besoin d'imiter leurs voisins, qui commençaient à s'instruire, et dont plusieurs auteurs
@@ -1009,8 +1293,10 @@
                     plus illustre de leur nation inondait sans cesse les échafauds, et qui les rendait encore
                     plus dangereux les uns contre les autres dans l'intérieur de leur gouvernement, que
                     redoutables dans les guerres qu'ils entreprenaient, sans aucune raison légitime, contre
-                    leurs voisins.</p>
-                <p>Un grand nombre de chevaliers obtinrent d'aller réprimer leur orgueil, et se rassemblèrent,
+                    leurs voisins.
+    </p>
+    <p>
+     Un grand nombre de chevaliers obtinrent d'aller réprimer leur orgueil, et se rassemblèrent,
                     au nombre de douze, dans le port d'Ambléteuse, d'où, sans s'informer du nom de leurs
                     adversaires, ils partirent avec cette confiance courageuse qui n'apprécie jamais aucun
                     danger, pour aller toucher les écus de ceux qui tenaient ce pas-d'armes. Ils eurent
@@ -1023,16 +1309,20 @@
                     motifs qui devaient l'entraîner, se joignait le penchant que sa modestie naturelle lui
                     donnait de punir l'orgueil effréné d'une nation impérieuse, jalouse de la sienne. Ce
                     sentiment, né dans son cœur, s'était augmenté sans cesse en voyant les moyens injustes
-                    dont elle se servait pour réussir dans ses desseins.</p>
-                <p>Il partit accompagné de chevaliers dont il connaissait l'attachement et la bravoure. A
+                    dont elle se servait pour réussir dans ses desseins.
+    </p>
+    <p>
+     Il partit accompagné de chevaliers dont il connaissait l'attachement et la bravoure. A
                     peine parut-il près du perron, que, touchant les écus, les Bretons sortirent de leurs
                     tentes tout armés; et, croyant marcher contre de faibles ennemis, ils ne craignirent point
                     de leur montrer les boucliers français renversés et traînés dans la poussière (audace
                     accompagnée de propos insultans). Saisis d'une juste indignation, Saintré et ses
                     compagnons chargèrent les Bretons avec fureur. Ceux-ci plièrent bientôt. Les lances, la
                     hache et l'épée leur furent également funestes. Saintré en renversa cinq sous la pesanteur
-                    de ses coups. Il furent enfin obligés de demander merci.</p>
-                <p>Saintré s'étant emparé de leurs boucliers et de leurs bannières, fit relever ceux des
+                    de ses coups. Il furent enfin obligés de demander merci.
+    </p>
+    <p>
+     Saintré s'étant emparé de leurs boucliers et de leurs bannières, fit relever ceux des
                     Français et les plaça sur le perron avec honneur. Il dédaigna de s'emparer des chevaux; cl
                     renvoyant les Bretons à Calais, il leur dit qu'il garderait le même perron pendant trois
                     jours, prêt à le défendre contre ceux qui sortiraient de Calais pour l'attaquer. Mais les
@@ -1040,28 +1330,36 @@
                     renverser le perron, et, revenant à grandes joutnées, il entra dans Paris aux acclamations
                     d'un peuple nombreux. Les boucliers furent déposés aux pieds du roi. Le monarque rêva pas
                     long-temps pour trouver une récompense digne du vainqueur: dès le lendemain, il fit
-                    convoquer une assemblée brillante, et Saintré fut reçu chevalier.</p>
-                <p>Il n'était pas d'usage que la reine chaussât de sa main les éperons, même aux premiers
+                    convoquer une assemblée brillante, et Saintré fut reçu chevalier.
+    </p>
+    <p>
+     Il n'était pas d'usage que la reine chaussât de sa main les éperons, même aux premiers
                     princes du sang; mais quand elle voulait honorer cette cérémonie, elle la faisait
                     accomplir en sa présence par la princesse qu'elle aimait le mieux. La dame des
                     bellesCousines fut l'objet de son choix. Celle-ci remplit d'un air noble et plein de grâce
                     une charge si chère à son cœur; elle attacha l'éperon, et saisit ce moment pour faire le
                     signal, que Saintré avait toujours l'air de recevoir comme il l'avait reçu quinze ans
-                    auparavant pour la première fois.</p>
-                <p>Le roi Jean déclara le même jour qu'ayant été invité à se joindre aux autres princes
+                    auparavant pour la première fois.
+    </p>
+    <p>
+     Le roi Jean déclara le même jour qu'ayant été invité à se joindre aux autres princes
                     chrétiens qui formaient alors une espèce de croisade pour aller au secours de la Prusse,
                     de la Hongrie et de la Bohême, désolées par des armées sarrasines sorties des bords du
                     Tanais, il avait pris la résolution d'accorder un puissant secours aux chevaliers
                     teutoniques; que la bannière royale sortirait, et qu'elle serait confiée à Saintré, qui
-                    marcherait à l'avant-garde à la tête de cinq cents hommes d'élite.</p>
-                <p>La résolution et le choix du roi furent également approuvés. Le cœur de Saintré tressaillit
+                    marcherait à l'avant-garde à la tête de cinq cents hommes d'élite.
+    </p>
+    <p>
+     La résolution et le choix du roi furent également approuvés. Le cœur de Saintré tressaillit
                     de joie en entendant parler son maître; mais une tristesse, un sentiment, un trouble
                     douloureux, saisit celui de la dame des belles-Cousines; et ce ne fut que lentement, et
                     les yeux obscurcis par les larmes qu'elle porta, d'une main mal assurée, la petite épingle
                     sur ses belles dents. Peu de moments après, ce même pressentiment troubla le brave
                     Saintré; il voulut le combattre, il n'y put réussir; et, le soir, la conversation s'en
-                    ressentit.</p>
-                <p>On croira sans peine que la modestie du jeune et généreux Saintré souffrit beaucoup,
+                    ressentit.
+    </p>
+    <p>
+     On croira sans peine que la modestie du jeune et généreux Saintré souffrit beaucoup,
                     lorsqu'arrivant à la tête des cinq cents lances, il se vit entouré par tous les seigneurs
                     et commandans, qui lui dirent qu'ils le reconnaissaient tous pour leur chef.
                     „Messeigneurs, “répondit noblement Saintré, bien me souviens que naguères, n'étant encore
@@ -1080,38 +1378,54 @@
                     pour “reconnaître toute la déférence que je vous “dois, et ne rien entreprendre sans être
                     guidé “par vos sages conseils. Telles gens que “vous êtes n'en peuvent donner qui ne
                     mènent à servir notre sainte religion dans cette “guerre et à soutenir l'antique honneur
-                    de “la chevalerie française.“</p>
-                <p>La petite histoire, les sentimens et la modestie de Saintré furent généralement applaudis.
+                    de “la chevalerie française.“
+    </p>
+    <p>
+     La petite histoire, les sentimens et la modestie de Saintré furent généralement applaudis.
                     Il leur parut, au conseil de guerre qui s'assembla, être leur ami plus que leur
                     commandant. Ils obéirent librement et de cœur à ses ordres; et, dès le lendemain, l'armée
-                    prit le chemin de l'Allemagne, et s'avança vers les rives du Mein.</p>
-                <p>Saintré ne démentit point l'opinion de sagesse et de valeur qu'on avait du principal chef
+                    prit le chemin de l'Allemagne, et s'avança vers les rives du Mein.
+    </p>
+    <p>
+     Saintré ne démentit point l'opinion de sagesse et de valeur qu'on avait du principal chef
                     de l'armée. Sa modestie, sa déférence, ses soins attentifs pour les princes et les anciens
                     seigneurs qu'il commandait, lui donnèrent un empire particulier. Jamais général d'armée ne
-                    fut plus aimé et mieux obéi.</p>
-                <p>L'armée française s'étant jointe à celles que tous les princes chrétiens avaient envoyées à
+                    fut plus aimé et mieux obéi.
+    </p>
+    <p>
+     L'armée française s'étant jointe à celles que tous les princes chrétiens avaient envoyées à
                     cette guerre sacré, Saintré jouit du bonheur de revoir plusieurs de ses anciens amis dans
                     l'armée du roi d'Aragon, et de retrouver, dans celui qui la commandait, le seigneur
                     Enguerand, avec lequel il s'était uni par une si noble et si tendre amitié, et par lu
-                    fraternité d'armes qu'ils s'étaient jurée.</p>
-                <p>Agissant toujours de concert, campés à côté l'un de l'autre, se prêtant sans cesse des
+                    fraternité d'armes qu'ils s'étaient jurée.
+    </p>
+    <p>
+     Agissant toujours de concert, campés à côté l'un de l'autre, se prêtant sans cesse des
                     secours mutuels, les fiers et braves Aragonais ne firent plus qu'un même corps avec les
                     Français. Le même esprit de zèle et d'honneur animant ces deux estimables nations, ce
                     furent elles qui portèrent les premiers coups à l'armée innombrable des infidèles, et qui
-                    ranimèrent le courage et l'espérance des chevaliers teutoniques.</p>
-                <p>Pendant que Saintré coupait des têtes et cueillait des lauriers, il se passait un événement
+                    ranimèrent le courage et l'espérance des chevaliers teutoniques.
+    </p>
+    <p>
+     Pendant que Saintré coupait des têtes et cueillait des lauriers, il se passait un événement
                     bien étrange, bien inconcevable, dans cette cour de France, où tout retentissait de sa
-                    gloire et de ses vertus.</p>
-                <p>Hélas! comment pourrons-nous raconter, sans frémir mille fois, la trahison cruelle qui
+                    gloire et de ses vertus.
+    </p>
+    <p>
+     Hélas! comment pourrons-nous raconter, sans frémir mille fois, la trahison cruelle qui
                     allait percer le cœur le plus loyal et le plus fidèle? La plume tombe presque de nos
                     mains; et nous ne doutons pas que le sentiment douloureux qui nous affecte, ne passe
-                    bientôt dans l'âme de nos lecteurs.</p>
-                <p>La dame des belles-Cousines, cette charmante veuve, cette amante si tendre, et jusqu'alors
+                    bientôt dans l'âme de nos lecteurs.
+    </p>
+    <p>
+     La dame des belles-Cousines, cette charmante veuve, cette amante si tendre, et jusqu'alors
                     si constante pour ce jeune héros qu'elle avait formé, qu'elle s'était si vivement attaché,
                     pour ce Saintré charmant à qui elle devait le bonheur inestimable d'aimer et d'être
                     adorée, cette dame des bellesCousines, allait lui faire la plus lâche, la plus atroce des
-                    infidélités.</p>
-                <p>Cette veuve trop sensible s'était fait une si douce habitude des plaisirs que l'absence lui
+                    infidélités.
+    </p>
+    <p>
+     Cette veuve trop sensible s'était fait une si douce habitude des plaisirs que l'absence lui
                     enlevait, qu'en croyant ne regretter qu'un amant, elle éprouvait d'autres regrets moins
                     nobles et plus impérieux peut-être. Inquiète, agitée, ne goûtant plus les douceurs du
                     sommeil, elle se rappelait tristement un bonheur qui n'était plus. Une langueur mortelle
@@ -1121,11 +1435,15 @@
                     machinalement cette épingle qui l'avait si bien servie? Son amant n'en recevait plus
                     l'heureux signal: à peine la pouvait-elle porter à sa belle bouche; un poids énorme lui
                     paraissait appesantir son bras: bientôt, froide et presque inanimée, elle se laissait
-                    retomber languissamment sur son lit.</p>
-                <p>Cet état cruel influa bientôt sur sa santé. La reine, à qui cette princesse était chère,
+                    retomber languissamment sur son lit.
+    </p>
+    <p>
+     Cet état cruel influa bientôt sur sa santé. La reine, à qui cette princesse était chère,
                     s'en aperçut; et, ne la voyant point paraître à sa toilette, un jour de fête, elle envoya
-                    auprès d'elle le docteur Huë, son premier médecin.</p>
-                <p>Ce docteur Huë n'était point semblable aux médecins de son temps, qui, presque tous
+                    auprès d'elle le docteur Huë, son premier médecin.
+    </p>
+    <p>
+     Ce docteur Huë n'était point semblable aux médecins de son temps, qui, presque tous
                     affectaient un maintien grave et un air sentencieux. Loin de porter des lunettes sur le
                     nez, pour paraître avoir affaibli ses yeux par l'étude, les siens étaient rians,
                     spirituels, et quelquefois lorgneurs. Quoique véritable profond dans son art, messire Huë
@@ -1140,8 +1458,10 @@
                     quelquefois froissé au sortir d'une de ces visites. La seule dame des belles-Cousines,
                     dont le maintien et l'air étaient assez sévères en public, et dont la santé avait toujours
                     paru si brillante avant l'absence de Saintré, n'avait jamais eu besoin de ses secours, et
-                    ne l'avait jamais mis à portée d'employer ni le savoir, ni l'art de plaire.</p>
-                <p>Messire Huë obéit aux ordres de la reine; il alla voir la dame des belles-Cousines, et, du
+                    ne l'avait jamais mis à portée d'employer ni le savoir, ni l'art de plaire.
+    </p>
+    <p>
+     Messire Huë obéit aux ordres de la reine; il alla voir la dame des belles-Cousines, et, du
                     ton le plus respectueux, lui fit les questions ordinaires. Des réponses vagues ne lui
                     apprirent rien de particulier sur l'état de sa santé. Il s'aperçut seulement, quoique la
                     chambre fût obscure, que ses yeux paraissaient rougis par des larmes; et quelques soupirs
@@ -1151,8 +1471,10 @@
                     découvrir les vraies causes du mal dont elle souffrait. Il s'empara d'un des beaux bras de
                     la princesse; et, mettant toute son attention à étudier son pouls, il fut surpris de son
                     intermittence: le jeu inégal et précipité des tendons lui prouva combien ses nerfs étaient
-                    agités.</p>
-                <p>Un habile médecin a bien des privilèges. Messire Huë, craignant ou feignant de craindre que
+                    agités.
+    </p>
+    <p>
+     Un habile médecin a bien des privilèges. Messire Huë, craignant ou feignant de craindre que
                     l'altération des nerfs ne vint d'un commencement d'obstruction, obtint de la belle veuve
                     le moyen de s'instruire mieux ou de se rassurer. La main de messire Huë parcourut, pressa
                     modestement une partie de ses charmes. Deux fois il fut surpris de la sentir tressaillir
@@ -1173,14 +1495,18 @@
                     ce moment le séjour de la cour est insupportable pour moi. Je vous ouvre mon cœur avec
                     confiance; j'ai besoin de la solitude, et d'y chercher un calme qui me fuit sans cesse
                     ici. Aidezmoi, de grâce, à obtenir de la reine que j'aille respirer l'air pur de la
-                    campagne, et passer le printemps dans mon château de...</p>
-                <p>Messire Huë reçut avec autant d'attendrissement que de respect cette confidence. Il jura
+                    campagne, et passer le printemps dans mon château de...
+    </p>
+    <p>
+     Messire Huë reçut avec autant d'attendrissement que de respect cette confidence. Il jura
                     sur-le-champ à la belle veuve qu'il parlerait dès le même jour à la reine, de façon à
                     déterminer sa Majesté à presser elle-même le voyage désiré; il l'assura même que, dès ce
                     moment, elle pouvait en ordonner les préparatifs. La princesse, calmée par cette
                     espérance, tira de son doigt un riche diamant, qu'elle présenta d'un air plein de grâces à
-                    messire Huë. Recevez-le, dit-elle, comme le gage de l'estime et de la reconnaissance.</p>
-                <p>Messire Huë courut avec empressement rendre compte à la reine de l'état dans lequel il
+                    messire Huë. Recevez-le, dit-elle, comme le gage de l'estime et de la reconnaissance.
+    </p>
+    <p>
+     Messire Huë courut avec empressement rendre compte à la reine de l'état dans lequel il
                     avait trouvé la dame des belles-Cousines; et, cherchant à définir par une seule expression
                     la complication des maux dont elle était affectée, il inventa le mot de vapeurs, qui
                     d'abord ne fut entendu ni par la reine ni par ses dames, mais que l'instant d'après elles
@@ -1188,8 +1514,10 @@
                     plaignirent languissamment de ressentir les effets. Jamais expression ne devint plus
                     promptement à la mode, et n'eut une plus longue durée. C'est à messire Huë que nous devons
                     ce mot, qui, parvenu jusqu'à nous, explique d'une façon si touchante les sentimens et les
-                    peines secrètes que nos dames ont à cacher.</p>
-                <p>La reine, d'après le rapport de messire Huë, passa chez la dame des bellesCousines au
+                    peines secrètes que nos dames ont à cacher.
+    </p>
+    <p>
+     La reine, d'après le rapport de messire Huë, passa chez la dame des bellesCousines au
                     sortir de la messe; et, touchée de la voir pâle et défaite, elle l'embrassa tendrement, et
                     s'attendrit sur ses maux. Mais la dame des belles-Cousines fut un peu interdite, lorsque
                     la reine et ses dames la plaignirent sur tout d'éprouver d'aussi cruelles vapeurs. N'étant
@@ -1208,47 +1536,66 @@
                     bellesCousines, si tendrement occupée de son amant, choisit entre tous ses châteaux celui
                     de la province où cet amant avait reçu le jour. Nous allons voir en effet que Saintré, par
                     la mort de son père, se trouva seigneur d'une petite ville distante seulement de deux
-                    lieues du château de la dame des belles-Cousines. </p>
-                <p>La princesse, arrivée dans ce château, s'occupa les premiers jours à le parcourir et à
+                    lieues du château de la dame des belles-Cousines.
+    </p>
+    <p>
+     La princesse, arrivée dans ce château, s'occupa les premiers jours à le parcourir et à
                     donner ses ordres pour l'embellissement des jardins. Accoutumée au luxe et aux commodités
                     que la famille plus que galante de PhilippeleBel avait introduites déjà dans la cour de
                     France, elle eut d'abord en peu de peine à se faire aux galeries, à l'épaisseur des murs,
                     et aux vastes appartemens voûtés, perdus de vue depuis plusieurs années; son premier soin
                     fut de se ménager un appartement commode, et sur tout un petit oratoire bien solitaire,
                     qu'elle fit meubler et qu'elle arrangea comme celui dont le souvenir lui était si
-                    cher.</p>
-                <p>Agitée par la route et par les soins qu'elle s'était donnés, elle avait d'abord paru jouir
+                    cher.
+    </p>
+    <p>
+     Agitée par la route et par les soins qu'elle s'était donnés, elle avait d'abord paru jouir
                     d'une santé beaucoup meilleure; mais les mêmes regrets, les mêmes inquiétude secrètes
                     commençaient à la faire retomber dans son premier état, lorsqu'un incident qui paraissait
                     ne devoir point avoir de suite, vint la distraire de ses sombres rêveries où sans cesse
-                    elle aimait à se replonger.</p>
-                <p>Un matin, ses dames s'étant rassemblées de bonne heure dans sa chambre pour y déjeûner avec
+                    elle aimait à se replonger.
+    </p>
+    <p>
+     Un matin, ses dames s'étant rassemblées de bonne heure dans sa chambre pour y déjeûner avec
                     elle, elles entendirent une belle et forte sonnerie qui paraissait sortir de la forêt. La
                     belle veuve, ayant fait appeler le gouverneur du château, pour l'interroger sur le lieu
                     d'où ces sons partaient: „Quoi! dit-il “étonné, Madame ignore-t-elle que la riche et belle
                     abbaye de ***, dont ses augustes ancêtres sont fondateurs, est située “à moins d'une lieue
                     d'ici? C'est sans doute “pour annoncer la fête des pardons, qui se “célèbre tous les ans
-                    dans ce temps-ci, que “les religieux font sonner toutes leurs cloches.“</p>
-                <p>On a vu, dans le commencement de cette histoire, que la belle veuve était trèsinstruite,
+                    dans ce temps-ci, que “les religieux font sonner toutes leurs cloches.“
+    </p>
+    <p>
+     On a vu, dans le commencement de cette histoire, que la belle veuve était trèsinstruite,
                     très-pieuse, et que son âme sensible se fût peut-être tournée à la dévotion, si le jeune
                     Saintré n'y avait empreint son image; car les âmes sensibles, et celles des femmes sur
                     tout, veulent toujours s'occuper d'un sentiment qui puisse le plus facilement les remplir
                     et les dominer. Le désir de gagner les pardons la détermina à faire venir promptement ses
                     voitures pour se rendre à l'abbaye, où sa qualité de fondatrice lui donnait droit
-                    d'entrer.</p>
-                <p>Nous croyons devoir suppléer un peu à la négligence de l'auteur, qui ne donne pas une idée
+                    d'entrer.
+    </p>
+    <p>
+     Nous croyons devoir suppléer un peu à la négligence de l'auteur, qui ne donne pas une idée
                     suffisante de la beauté, de la richesse de cette abbaye de Bernardins, et de l'heureux
                     abbé crossé, mitré, qui depuis un an avait été élu tout d'une voix, par une nombreuse
-                    communauté, qu'il rendait heureuse.</p>
-                <p>Cette maison était vaste. L'extérieur en était surchargé d'ornemens gothiques, l'intérieur
+                    communauté, qu'il rendait heureuse.
+    </p>
+    <p>
+     Cette maison était vaste. L'extérieur en était surchargé d'ornemens gothiques, l'intérieur
                     préparé pour toutes les commodité de la vie. La nombreuse bibliothèque était poudreuse,
                     mal rangée; mais on admirait l'ordre qui régnait dans les celliers, la propreté du
-                    réfectoire, et les belles voûtes de l'immense cuisine.</p>
-                <p>L'abbé qui régnait dans cette maison (car tout riche abbé régulier exerce à-peu-près un
+                    réfectoire, et les belles voûtes de l'immense cuisine.
+    </p>
+    <p>
+     L'abbé qui régnait dans cette maison (car tout riche abbé régulier exerce à-peu-près un
                     despotisme oriental), cet abbé n'avait tout au plus que vingt-six ans. Fils d'un riche
                     laboureur, propriétaire des environs; son père, qui jouissait de la plus grande
-                    considération, avait mérité deux fois des récompenses des <hi rend="italic">Missi
-                        Dominici</hi><ref target="#N02"/>, en se mettant à la tête des communes pour repousser
+                    considération, avait mérité deux fois des récompenses des
+     <hi rend="italic">
+      Missi
+                        Dominici
+     </hi>
+     <ref target="#N02"/>
+     , en se mettant à la tête des communes pour repousser
                     des compagnies d'aventuriers, qui pendant la paix, avaient pénétré, la flamme et le fer à
                     la main, dans cette riche province. Il avait gagné dix procès contre les curés
                     envahisseurs du pays dont il avait défendu les habitans, qu'il aidait et nourrissait en
@@ -1272,8 +1619,10 @@
                     fils les jours de fête, qu'un léger duvet colorait déjà ses joues vermeilles, et qu'il
                     avait conduit quelquesunes de ces jeunes filles dans les halliers du bois les plus
                     fertiles en belles noisettes, il ne différa plus à suivre les conseils de son curé, et
-                    alla le présenter à l'abbaye de ***, où il fut reçu à bras ouverts.</p>
-                <p>Le jeune novice s'y forma sans peine. Jamais on n'avait apporté dans son état de plus
+                    alla le présenter à l'abbaye de ***, où il fut reçu à bras ouverts.
+    </p>
+    <p>
+     Le jeune novice s'y forma sans peine. Jamais on n'avait apporté dans son état de plus
                     heureuses et de plus brillantes dipositions. Il devint le héros du chœur, de la cuisine et
                     du cellier, levant un muid d'une main pour le ranger sur les tréteaux, composant les
                     meilleurs salmis, chantant les leçons à ténèbres et les hymnes d'une voix éclatante. Ses
@@ -1283,8 +1632,10 @@
                     eut regretté de ne pouvoir assez bien rendre le coloris brillant de son teint; on croit
                     même que c'est d'après l'un de ses portraits, que frère Jean des Entomures avait mis à la
                     place d'honneur dans un salon de son abbaye de Thélême, que Despréaux reçut l'idée de ce
-                    vers heureux, et qui peint si bien: L'autre broie, en riant, le vermillon des moines.</p>
-                <p>On croira sans peine qu'avec des qualités aussi supérieures l'âme et le caractère le plus
+                    vers heureux, et qui peint si bien: L'autre broie, en riant, le vermillon des moines.
+    </p>
+    <p>
+     On croira sans peine qu'avec des qualités aussi supérieures l'âme et le caractère le plus
                     franc, l'humeur la plus riante, le goût le plus décidé pour la bonne chère, le bon vin, et
                     tous les travaux utiles à la communauté, il se fit adoré de l'abbé, de ses confrêres, et
                     que, reçu profès, il passa rapidement par toutes les charges de l'abbaye, qu'il remplit
@@ -1299,8 +1650,10 @@
                     agréables sur les beaux contours de sa taille, forte mais élégante; ses yeux perçans et
                     pleins de feu auraient pu faire soupçonner que cette longue robe cachait des pieds de
                     chèvre, s'il ne s'était fait une habitude de la lever, et de laisser voir un bas blanc
-                    bien tiré, et les deux jambes les mieux faites et les plus nerveuses.</p>
-                <p>On nous reprochera peut-être d'avoir été beaucoup trop long dans les détails de
+                    bien tiré, et les deux jambes les mieux faites et les plus nerveuses.
+    </p>
+    <p>
+     On nous reprochera peut-être d'avoir été beaucoup trop long dans les détails de
                     l'éducation, et dans la peinture des mœurs et de la figure de damp abbé; mais, il faut
                     l'avouer, nous ne pouvons nous empêcher d'aimer cette charmante dame des bellesCousines,
                     si généreuse, si tendre, si sensible: ne devons-nous pas d'ailleurs multiplier les excuses
@@ -1308,8 +1661,10 @@
                     vont prendre d'elle. Jamais ce sexe charmant, honnête et si fidèle, qui fait les charmes
                     et l'honneur de la société, n'excusera dans la dame des belles Cousines, ce qu'il pardonne
                     à peine à ce vaurien de Galaor, mais du moins il nous saura gré de notre bonne intention,
-                    et de notre zèle à l'excuser même quand il devient infidèle.</p>
-                <p>La dame des belles-Cousines arriva donc dans cette abbaye, le cœur occupé par les regrets
+                    et de notre zèle à l'excuser même quand il devient infidèle.
+    </p>
+    <p>
+     La dame des belles-Cousines arriva donc dans cette abbaye, le cœur occupé par les regrets
                     et par l'idée toujours présente de son amant. Elle venait chercher aux pieds des autels
                     quelques consolations, et y portait ce qui restait de son me. Son arrivée ayant été
                     annoncée par ses écuyers, quatre beaux pères, portant un dais, l'attendant à la porte de
@@ -1320,23 +1675,33 @@
                     La figure majestueuse alors de damp abbé lui rappela celle des grands-prêtres de Juda.
                     S'étant mise à genoux, elle reçut l'eau bénite de sa main; et damp abbé n'osant encore
                     fixer ses regards sur les yeux touchans de la princesse, ce fut à d'autres charmes, que
-                    les siens, bientôt devenus étincelans, rendirent leur premier hommage.</p>
-                <p>Ayant conduit la princesse sur un riche pie-dieu près de l'autel, sa voix sonore et
-                    brillante fit retentir l'église lorsqu'il entonna le <hi rend="italic">Te Deum</hi>, dont
+                    les siens, bientôt devenus étincelans, rendirent leur premier hommage.
+    </p>
+    <p>
+     Ayant conduit la princesse sur un riche pie-dieu près de l'autel, sa voix sonore et
+                    brillante fit retentir l'église lorsqu'il entonna le
+     <hi rend="italic">
+      Te Deum
+     </hi>
+     , dont
                     il répétait les versets alternativement avec le chœur. Cette voix agréable, quoique
                     éclatante, faisant déjà quelque impression sur elle, sut la distraire de ses premières
                     méditations. Elle leva ses beaux yeux sur ceux de damp abbé, qui ne pouvait s'empêcher
                     d'observer ses moindres mouvemens. Leurs regards se rencontrèrent; l'attention de damp
-                    abbé devint plus forte; la distraction de la belle veuve augmenta.</p>
-                <p>La messe étant célébrée, la dame des belles-Cousines se préparait à partir, lorsque l'abbé,
+                    abbé devint plus forte; la distraction de la belle veuve augmenta.
+    </p>
+    <p>
+     La messe étant célébrée, la dame des belles-Cousines se préparait à partir, lorsque l'abbé,
                     suivi des principaux de la maison, l'ayant conduite à la porte de l'église, lui dit
                     respectueusement qu'il était bien tard pour retourner dîner à son chateau; et la supplia,
                     comme fondatrice de l'abbaye, de venir s'y reposer, et prendre un repas frugal dans un
                     monastère aimé de ses augustes aïeux, qu'elle honorerait par sa présence. Elle ne trouva
                     aucune bonne raison pour se refuser à cette invitation respectueuse. Hélas! le sort la
                     destinait à n'en trouver jamais de meilleures pour s'opposer à tous les mauvais tours
-                    qu'un méchant enfant lui préparait.</p>
-                <p>Quelle fut la surprise de la dame des belles-Cousines en entrant dans un salon agréable,
+                    qu'un méchant enfant lui préparait.
+    </p>
+    <p>
+     Quelle fut la surprise de la dame des belles-Cousines en entrant dans un salon agréable,
                     placé entre deux jardins, où déjà l'on dressait une table couverte du plus beau linge, et
                     qui bientôt fut jonchée de fleurs! Un festin superbe fut promptement servi; et damp abbé,
                     un peu plus rassuré, parut encore plus aimable aux dames Jehanne, Ysabelle et Catherine, à
@@ -1349,8 +1714,10 @@
                     à damp abbé. La belle veuve ne répondit rien; mais, le regardant du coin de l'œil, elle
                     suivait sans cesse, et peut-être même sans s'en douter, tous ses mouvemens, tous ses soins
                     empressés, et n'en trouvait aucun qui ne fût animé par une grâce naturelle, et par le
-                    désir de plaire.</p>
-                <p>Les excellens vins de toute espèce, et surtout celui sur lequel saint Bernard répandit sa
+                    désir de plaire.
+    </p>
+    <p>
+     Les excellens vins de toute espèce, et surtout celui sur lequel saint Bernard répandit sa
                     bénédiction dans le treizième siècle, en faveur du don que les habitans de Voujeaux
                     avaient fait du terrain qui le produit à l'abbaye de Citeaux, pour obtenir de riches
                     communes dans l'éternelle patrie des élus, les vins des Pyrénées et de la Grèce même, que
@@ -1381,8 +1748,10 @@
                     obtenir qu'en observant nos statuts, et qu'en “nous accordant au moins toute la journée.
                     Nous avons des chambres commodes; “demain votre altesse royale pourra aisément assister à
                     notre office, gagner los “pardons, prendre un dîner pareil à celui-ci, et retourner le
-                    soir à son château.“</p>
-                <p>Hélas! la belle veuve ne put encore trouver de bonnes raisons pour se refuser à cette
+                    soir à son château.“
+    </p>
+    <p>
+     Hélas! la belle veuve ne put encore trouver de bonnes raisons pour se refuser à cette
                     prière qu'accompagnait l'air le plus vif, et le plus rempli de candeur, le plus expressif,
                     et le plus embarrassant pour celle qui urait craint d'y trouver plus que de la politesse.
                     Elle fut quelques momens sans répondre. Les dames lui rendirent le service de la presser;
@@ -1392,8 +1761,10 @@
                     de sa robe, et de la baiser avec une ardeur que la vue de deux jolis pieds augmenta
                     bientôt encore. Rien n'échappait aux yeux de la belle veuve. Ce premier mouvement ne put
                     lui déplaire: elle lui trouva même encore plus de grâce, étant en désordre à ses genoux,
-                    qu'il n'en avait, paré de tous les ornemens abbatiaux.</p>
-                <p>De petites coupes de cristal de roche, présentées pleines de la liqueur précieuse de la
+                    qu'il n'en avait, paré de tous les ornemens abbatiaux.
+    </p>
+    <p>
+     De petites coupes de cristal de roche, présentées pleines de la liqueur précieuse de la
                     Dalmatie étaient déjà vidées, lorsque l'abbé les conduisit dans un vert et beau préau, où
                     des siéges commodes étaient préparés à l'abri du soleil, dont les platanes et les
                     sicomores touffus voilaient en entier les rayons. Damp abbé, voulant procurer quelque
@@ -1404,8 +1775,10 @@
                     ces mots, donnant l'exemple aux jeunes moines de son couvent, il fut le premier à secouer
                     son long scapulaire et son chaperon; et, retroussant sa robe dans sa ceinture, et laissant
                     voir des bras blancs et neveux découverts jusqu'au dessus du coude, il provoqua les
-                    religieux à la course, au saut, et même à la lutte.</p>
-                <p>Quelques-uns parurent des émules dignes de lui dans les deux premiers jeux; mais quoique
+                    religieux à la course, au saut, et même à la lutte.
+    </p>
+    <p>
+     Quelques-uns parurent des émules dignes de lui dans les deux premiers jeux; mais quoique
                     presque tous fussent grands et bien faits, aucun n'approchait de cette taille élégante et
                     nerveuse, qui semblait, par la correspondance de tous les muscles, être toujours dans
                     l'attitude la moins gênée et la plus favorable. Aucun des jeunes moines n'eût osé se
@@ -1414,8 +1787,10 @@
                     pour essayer de l'ébranler. Damp abbé leur laissa, pendant quelque temps, faire des
                     efforts inutiles; et voulant enfin terminer ces jeux qui duraient depuis une heure, il
                     déploya tout-à-coup ses forces, enleva tout à la fois ses deux adversaires à deux pieds de
-                    hauteur, et alla les porter entre ses bras aux pieds de la dame des belles-Cousines.</p>
-                <p>Pendant ces jeux, la princesse se rappela plus d'une fois le temps, où se plaisant à voir
+                    hauteur, et alla les porter entre ses bras aux pieds de la dame des belles-Cousines.
+    </p>
+    <p>
+     Pendant ces jeux, la princesse se rappela plus d'une fois le temps, où se plaisant à voir
                     les exercices de la jeune noblesse de la cour, elle allait souvent sur ce balcon d'où ses
                     regards s'attachaient avec tant de plaisir sur le jeune Saintré. Mais enfin (nous sommes
                     forcés de le dire) déjà l'image de l'aimable Saintré ne se peignait plus si charmante à
@@ -1424,28 +1799,36 @@
                     page, peut-être même un joli polisson. Absorbée dans une nouvelle rêverie, elle ne sentit
                     de cette complication d'accidens divers, que messire Huë avait défini si habilement par le
                     mot vapeurs, qu'une vive émotion qui semblait se répandre dans toutes ses veines, et qui
-                    lui paraissait trop agréable pour en craindre la durée.</p>
-                <p>Cette émotion redoubla lorsque l'abbé, fier de son triomphe, porta ses deux compagnons à
+                    lui paraissait trop agréable pour en craindre la durée.
+    </p>
+    <p>
+     Cette émotion redoubla lorsque l'abbé, fier de son triomphe, porta ses deux compagnons à
                     ses pieds, en lui disant: -- Madame, c'est à vous de nommer le vainqueur; et c'est de
                     votre belle main qu'il doit recevoir le prix de sa victoire. -- Elle rougit; et l'auteur
                     laisse deviner si c'est de plaisir ou de pudeur. Elle se remit de ce premier trouble: et
                     tirant de son doigt une grosse et brillante émeraude, entourée de diamans jaunes: „Damp
                     abbé, lui „dit-elle, qui pourrait ici vous rien disputer? Recevez donc de ma main ce léger
                     prix de votre victoire dans ces jeux plus agréables pour moi que les combats “souvent
-                    ensanglantés de nos tournois.“</p>
-                <p>L'abbé, se jetant une seconde fois à ses genoux, présenta sa main pour recevoir la bague;
+                    ensanglantés de nos tournois.“
+    </p>
+    <p>
+     L'abbé, se jetant une seconde fois à ses genoux, présenta sa main pour recevoir la bague;
                     la princesse voulant la placer ellemême, serra nécessairement le doigt: ce doigt répondit
                     si brusquement à toute l'existence de l'abbé, qu'il ne put empêcher ses lèvres brûlantes
                     de porter un baiser sur la main qui le pressait; et ce baiser répondit si brusquement au
-                    cœur de la malade de messire Huë, qu'elle ne put en être offensée.</p>
-                <p>L'un et l'autre se levèrent enfin. L'abbé lui donnant la main, le conduisit à une calèche
+                    cœur de la malade de messire Huë, qu'elle ne put en être offensée.
+    </p>
+    <p>
+     L'un et l'autre se levèrent enfin. L'abbé lui donnant la main, le conduisit à une calèche
                     simple, mais commode, qu'il avait fait préparer pour lui donner le plaisir de la chasse,
                     et lui faire parcourir les belles routes de la forêt. Bientôt des fauconniers, bien
                     montés, entourèrent la calèche; et peu de momens après, damp abbé, vêtu d'un habit de
                     campagne qui découvrait toutes les perfections de sa taille, parut sur un beau coursier,
                     le front couvert d'une espèce de chaperon étroit qui se relevait par les bords avec grâce,
-                    et ne tenait en rien du vaste et traînant chaperon des enfans de saint Bernard.</p>
-                <p>Damp abbé guidant la calèche dans plaine, et les chiens faisant lever le gibier de toutes
+                    et ne tenait en rien du vaste et traînant chaperon des enfans de saint Bernard.
+    </p>
+    <p>
+     Damp abbé guidant la calèche dans plaine, et les chiens faisant lever le gibier de toutes
                     parts, bientôt les alouettes furent enlevées par les émérillons; des perdrix furent
                     portées à terre par le coup de talon des tiercelets; et un héron s'étant élevé d'une
                     touffe de roseaux, trois faucons qui furent l'instant d'après déchaperonnés; s'agitant sur
@@ -1455,8 +1838,10 @@
                     le frappaient tour-à-tour de leurs talons; et descendirent avec assez de rapidité pour le
                     lier dans leurs serres au moment qu'il allait toucher la terre. L'abbé s'avançant
                     promptement, reçut de ses fauconniers la patte et les belles plumes de l'aigrette du
-                    héron, et vint les offrir d'un air galant à la princesse.</p>
-                <p>Cette chasse étant finie, la calèche prit la route de la forêt. Bientôt une collation, des
+                    héron, et vint les offrir d'un air galant à la princesse.
+    </p>
+    <p>
+     Cette chasse étant finie, la calèche prit la route de la forêt. Bientôt une collation, des
                     glaces, des surprises de tout genre, manifestèrent la galanterie de l'abbé. Les dames
                     exprimèrent leur étonnement; la princesse, par un effet mieux senti, ne dit rien; se
                     laissant aller doucement aux nouveaux mouvemens de son âme, et n'ayant déjà plus de
@@ -1464,8 +1849,10 @@
                     plaire. Cette collation augmenta la liberté qui commençait à s'établir entre eux; et le
                     soleil étant prêt a disparaître, elle vit finir sans peine un jour agréablement rempli, en
                     pensant que la soirée qu'elle allait passer dans l'abbaye pour rait être tout aussi riante
-                    pour elle.</p>
-                <p>En arrivant, les premières ombres de la nuit, augmentées par un léger orage, lui firent
+                    pour elle.
+    </p>
+    <p>
+     En arrivant, les premières ombres de la nuit, augmentées par un léger orage, lui firent
                     voir la façade de l'abbaye illuminée; et ce fut à la clarté de vingt flambeaux de poing
                     que l'abbé la conduisit dans le riche appartement qu'il lui avait fait préparer. Un
                     concert champêtre s'y fit bientôt entendre; mais la princesse, agitée, presque oppressée
@@ -1473,8 +1860,10 @@
                     rapidement, ne put prêter une longue attention à cette nouvelle fête; et bientôt une douce
                     rêverie et quelques momens de repos lui paraissant préférables, elle passa dans
                     l'intérieur de son appartement avec ses dames et damp abbé qu'elle eût trouvé bien impoli
-                    de bannir alors d'auprès d'elle.</p>
-                <p>Le prudent et modeste auteur ne s'étend point sur les détails de cette soirée, qui fut même
+                    de bannir alors d'auprès d'elle.
+    </p>
+    <p>
+     Le prudent et modeste auteur ne s'étend point sur les détails de cette soirée, qui fut même
                     assez long-temps prolongée après le souper et le départ des dames. Il passe rapidement au
                     réveil de la princesse, dont les yeux ne furent jamais si brillans. Il laisse entre-voir
                     seulement que la dame des bellesCousines, entraînée par ce charme et ce pouvoir
@@ -1482,38 +1871,50 @@
                     nouveaux secrets auxquels Saintré n'avait plus de part: il peint même l'abbé paraissant le
                     lendemain à la toilette de la princesse avec un air moins empressé, mais plus respectueux.
                     Enfin il fait penser que tous deux pouvaient avoir besoin des pardons, que les cloches de
-                    l'abbaye annonçaient qu'il était temps d'aller mériter.</p>
-                <p>L'abbé fit les honneurs avec la même grâce que la veille; le jour entier fut marqué par des
+                    l'abbaye annonçaient qu'il était temps d'aller mériter.
+    </p>
+    <p>
+     L'abbé fit les honneurs avec la même grâce que la veille; le jour entier fut marqué par des
                     soins nouveaux; et le soir il reconduisit la princesse à son château. Comme il restait
                     encore cinq jours de prières pour gagner pleinement les indulgences, ils se quittèrent
-                    avec moins de regret, dans la certitude de se revoir dès le lendemain matin.</p>
-                <p>Ces cinq jours de pardons, furent cinq jours de fêtes plus variées et plus ingénieuses.
+                    avec moins de regret, dans la certitude de se revoir dès le lendemain matin.
+    </p>
+    <p>
+     Ces cinq jours de pardons, furent cinq jours de fêtes plus variées et plus ingénieuses.
                     Semblable au jeune et rustique Cimon qui fut dans un instant poli par l'amour, l'abbé
                     avait promptement reçu les mêmes leçons de ce maître enchanteur, qui nous fait si
                     facilement changer de maintien et de langage. Ces cinq jours furent suivis d'un grand
                     nombre de pareils. Un temps si doux s'écoula rapidement; mais trois mois d'absence de la
                     belle-Cousine avaient paru assez longs à la reine pour lui envoyer un gentilhomme, avec
-                    une lettre de sa main pour la presser de revenir auprès d'elle.</p>
-                <p>L'adroite et belle-Cousine, prévenue de l'arrivée de ce gentilhomme, eut soin de le
+                    une lettre de sa main pour la presser de revenir auprès d'elle.
+    </p>
+    <p>
+     L'adroite et belle-Cousine, prévenue de l'arrivée de ce gentilhomme, eut soin de le
                     recevoir dans son lit, et de faire assez intercepter le jour, pour qu'il ne s'aperçut pas
                     que les roses du plaisir et de la santé rendaient son teint plus frais et plus brillant
                     qu'il ne l'avait été depuis long-temps: elle affecta plus que jamais la langueur; et dans
                     l'audience qu'elle lui donna ainsi que dans la réponse qu'elle lui fit remettre le soir,
                     elle s'excusa sur sa mauvaise santé de retourner à la cour, et sur la nécessité de
-                    continuer les remèdes favorables qu'elle avait commencés.</p>
-                <p>Tandis que le perfide amour se jouait aussi cruellement de la sécurité du brave et fidèle
+                    continuer les remèdes favorables qu'elle avait commencés.
+    </p>
+    <p>
+     Tandis que le perfide amour se jouait aussi cruellement de la sécurité du brave et fidèle
                     Saintré, ce jeune héros venait de se couvrir d'une gloire immortelle. Son bras vainqueur
                     avait fait tomber sous ses coups les deux soudans qui commandaient les infidèles; il leur
                     avait arraché de sa main l'étendard du croissant; et les turcs, épouvantés à l'aspect de
                     la bannière triomphante de la croix, fuyaient de toutes parts, abandonnaient la Prusse, la
-                    Silésie, et cherchaient à se réfugier dans les marais du Pont-Euxin.</p>
-                <p>La trop digne petite nièce des belles-filles de Philippe-le-Bel menait impunément la même
+                    Silésie, et cherchaient à se réfugier dans les marais du Pont-Euxin.
+    </p>
+    <p>
+     La trop digne petite nièce des belles-filles de Philippe-le-Bel menait impunément la même
                     vie avec damp abbé qu'elles avaient mené avec les malheureux Lanoy, lorsque Saintré,
                     couvert de lauriers, et brûlant d'apporter aux pieds de la dame des bellesCousinos les
                     trophées de sa victoire, arriva à la cour de France, après s'être séparé de son frère
                     d'armes monseigneur Enguerand qui retournait couvert de la même gloire a la cour
-                    d'Aragon.</p>
-                <p>Déjà Saintré avait baisé les mains de son auguste maîre, et lui avait rendu compte
+                    d'Aragon.
+    </p>
+    <p>
+     Déjà Saintré avait baisé les mains de son auguste maîre, et lui avait rendu compte
                     modestement de la plus glorieuse campagne; déjà il était chez la reine, dans l'espérance
                     d'y voir la dame des belles-Cousines, de recevoir le signal de la petite épingle, de se
                     retrouver le soir à ses genoux. Quelles furent sa surprise et sa douleur, en apprenant, de
@@ -1524,8 +1925,10 @@
                     long-temps celle qu'il adorait: il prit le prétexte de la mort de son père, et de la
                     nécessité d'aller se faire reconnaitre par les vassaux de sa baronie; et dès le
                     surlendemain, suivi d'un seul écuyer, il partit, et vola vers ce château qui renfermait
-                    celle qui lui faisait aimer la vie.</p>
-                <p>Arrivé dans le parc, il apprit, par un ancien domestique de la princesse, que sa maîtresse
+                    celle qui lui faisait aimer la vie.
+    </p>
+    <p>
+     Arrivé dans le parc, il apprit, par un ancien domestique de la princesse, que sa maîtresse
                     jouissait de la santé la plus parfaite, et qu'elle venait déjà de traverser le parc,
                     montée sur sa haquenée, suivie de ses trois dames, pour aller chasser dans la forêt.
                     Saintré n'hésita pas à voler sur ses traces; et dirigé par le bruit des cors et la voix
@@ -1536,13 +1939,17 @@
                     monseigneur de Saintré? lui dit-elle d'un ton assez froid (ce titre lui était dû depuis
                     qu'il était chevalier): vraiment je ne vous attendais pas sitôt. Pourquoi, ajouta-t-elle
                     d'un ton plus froid, avez-vous quitté le roi votre bon maître? pourquoi êtes-vous venu me
-                    chercher ici?</p>
-                <p>Saintré, glacé, surpris, confondu, lève les yeux au ciel, les porte sur ceux de sa dame,
+                    chercher ici?
+    </p>
+    <p>
+     Saintré, glacé, surpris, confondu, lève les yeux au ciel, les porte sur ceux de sa dame,
                     dont il peut à peine surprendre un regard, et lui dit: -- Juste ciel! Madame, est-ce bien
                     vous qui tenez ce langage, et qui recevez avec une si cruelle froideur le fidèle et
                     malheureux Saintré? -- Si je ne me trompe, répondit-elle d'un air sec et hautain, vos
-                    propos renferment un reproche: de quel droit venez-vous troubler mes amusemens?</p>
-                <p>Saintré pensa expirer d'étonnement et de douleur. Il n'avait pas la force de se relever; il
+                    propos renferment un reproche: de quel droit venez-vous troubler mes amusemens?
+    </p>
+    <p>
+     Saintré pensa expirer d'étonnement et de douleur. Il n'avait pas la force de se relever; il
                     avait abondonné ses genoux qu'il avait d'abord serré si tendrement; la dame des
                     belles-Cousines était déjà prête à s'éloigner et à le laisser dans cet état, lorsque damp
                     abbé arrive à toutes jambes, un cor passé sur son cou et dans son bras gauche, et sans
@@ -1551,16 +1958,20 @@
                     s'éloigne brusquement avec damp abbé sans daigner regarder Saintré, qui demeure immobile,
                     cherche à deviner quel est cet homme qui vient d'entraîner sa princesse, et fixe ses yeux
                     tristes sur madame Catherine qu'il voit lever au ciel les siens pleins de larmes,
-                    s'écriant: Ah brave “et malheureux Saintré, que les temps sont “changés!“ </p>
-                <p>Ce peu de mots porta la lumière et le désespoir dans l'âme sensible de Saintré: mais,
+                    s'écriant: Ah brave “et malheureux Saintré, que les temps sont “changés!“
+    </p>
+    <p>
+     Ce peu de mots porta la lumière et le désespoir dans l'âme sensible de Saintré: mais,
                     cherchant à confirmer ou à détruire les cruels soupçons qui, malgré lui, le pénétraient
                     déjà, et remontant à cheval, il suivit tristement les trois dames, qui paraissaient
                     partager sa douleur, et ne rejoignirent qu'au pas de leur palefroi la dame des
                     belles-Cousines, attentive alors à voir damp abbé qui levait le pied du cerf pour le lui
                     présenter. L'infidèle veuve avait eu le temps d'avertir son nouvel amant que le chevalier
                     qu'il venait de voir était le célébre Jehan de Saintré, l'élève du roi, et qui possédait
-                    un château près de son abbaye.</p>
-                <p>Saintré salua profondément et d'un air sérieux la dame des belles-Cousines en l'abordant.
+                    un château près de son abbaye.
+    </p>
+    <p>
+     Saintré salua profondément et d'un air sérieux la dame des belles-Cousines en l'abordant.
                     -- Sans doute, sire, lui dit-elle, vous êtes venu de votre chateau pour voir un moment la
                     chasse? -- Non, Madame, lui réponditil, arrivé depuis très-peu de jours de l'armée de
                     Prusse, je n'ai paru qu'un moment à la cour. L'inquiétude que me donnait la maladie d'une
@@ -1576,18 +1987,24 @@
                     assez haut pour que Saintré pût l'entendre, ne me conseillez-vous pas de prier le seigneur
                     de Sain„tré de venir souper ce soir à l'abbaye? “Eh mais, dit-elle assez embarrassée,
                     comme vous voudrez; ... cependant... ne déchirez pas sa robe pour l'arrêter, s'il se
-                    “refuse à vos invitation.“</p>
-                <p>Saintré, qui se proposait intérieurement d'achever de développer un mystère qui
+                    “refuse à vos invitation.“
+    </p>
+    <p>
+     Saintré, qui se proposait intérieurement d'achever de développer un mystère qui
                     s'éclaircissait de plus en plus à ses yeux, ne balança pas à se rendre à la légère
                     invitation de l'abbé; et tous ensemble ayant pris le chemin de l'abbaye, Saintré ne
                     s'occupa que de madame Catherine pendant la route, et se contenta d'observer finement le
                     maintien de la princesse, tandis que le présomptueux abbé l'entretenait d'un air libre,
                     lui parlait souvent à l'oreille, et semblait plaisanter avec elle de l'air sérieux et
-                    contraint avec lequel Saintré les suivait, éloigné d'eux de quelques pas.</p>
-                <p>La joie, la magnificence qui brillèrent dans l'abbaye à leur arrivée, surprirent Saintré.
+                    contraint avec lequel Saintré les suivait, éloigné d'eux de quelques pas.
+    </p>
+    <p>
+     La joie, la magnificence qui brillèrent dans l'abbaye à leur arrivée, surprirent Saintré.
                     Il crut entrer dans un château préparé pour les noces du seigneur du lieu, plutôt que dans
-                    le modeste séjour d'un disciple du sévère saint Bernard.</p>
-                <p>Le souper fut très-bon, et devint même assez gai; Saintré ne cherchant déjà plus à pénétrer
+                    le modeste séjour d'un disciple du sévère saint Bernard.
+    </p>
+    <p>
+     Le souper fut très-bon, et devint même assez gai; Saintré ne cherchant déjà plus à pénétrer
                     les sentimens de la dame des belles Cousines, et damp abbé se livrant à la joie bruyante
                     d'un riche moine qui se sent le plus fort, et que l'habitude du bonheur rend avantageux;
                     bientôt même, excité par les regards et les applaudissemens de la dame, qui déjà ne se
@@ -1613,8 +2030,9 @@
                     la trompent: s'ils sont rebutés, ils gémissent, ils pleurent; et les femmes, qui ne sont
                     que trop portées à croire aux grandes passions, en sont souvent les dupes. Mais un des
                     moyens les plus sûrs de ces quêteurs d'aventures, c'est de faire avec éclat pour elles ce
-                    qu'ils nomment des entreprises d'amour. Alors s'attachant quelque espèce d'emprise <ref
-                        target="N03"/> sur le bras, au cou ou à la jambe, ils font accroire en particulier à
+                    qu'ils nomment des entreprises d'amour. Alors s'attachant quelque espèce d'emprise
+     <ref target="N03"/>
+     sur le bras, au cou ou à la jambe, ils font accroire en particulier à
                     toutes ces pauvres dames, qu'ils les ont prises pour elles, et que c'est pour leur en
                     apporter le prix qu'ils vont courir les plus grands hasards. Ils trouvent même un double
                     avantage à cette feinte; l'ancien usage des grandes cours étant de favoriser de pareilles
@@ -1642,8 +2060,10 @@
                     avec une aiguille, de braver un pauvre diable de moine qui n'a que son froc et son
                     scapulaire: mais si, pour soutenir vous-même ce que vous m'avez dit, vous me présentiez un
                     champion qui acceptât de lutter avec moi, Madame connaîtrait bientôt qui de nous deux a
-                    raison.</p>
-                <p>La dame des belle-Cousines se pâmait de rire de cette dispute: ses yeux, ses pieds, ses
+                    raison.
+    </p>
+    <p>
+     La dame des belle-Cousines se pâmait de rire de cette dispute: ses yeux, ses pieds, ses
                     mains encourageaient l'abbé, et paraissaient lui applaudir. Bientôt, perdant toute
                     retenue, et ne cherchant plus qu'à braver et à mortifier Saintré; connaissant les forces
                     de l'un et de l'autre, et jugeant l'abbé supérieur par ce qu'elle avait déjà vu sur le
@@ -1657,8 +2077,10 @@
                     moine insolent; il ne résista point à son premier mouvement, qui le portait à cette lutte
                     inégale: il se leva de table le premier, et regardant la dame avec fierté: -- C'est en
                     effet, Madame, lui dit-il à moitié bas, la seule espèce de combat que vous méritez qu'on
-                    rende aujourd'hui pour vous.</p>
-                <p>Dès que l'abbé vit Saintré debout, il quitta la table en faisant un saut de joie: il courut
+                    rende aujourd'hui pour vous.
+    </p>
+    <p>
+     Dès que l'abbé vit Saintré debout, il quitta la table en faisant un saut de joie: il courut
                     s'emparer familièrement de cette main charmante que mille tendres et respectueux baisers
                     de Saintré avaient si souvent pressée; et il entraîna plutôt qu'il ne conduisit la dame
                     dans le préau voisin. Là, dès qu'il fut avrivé, il se dépouilla promptement de tous ses
@@ -1667,10 +2089,13 @@
                     Saintré, servi par l'écuyer qui le suivait, rougissait de se voir forcé à rendre les armes
                     égales, et à ne conserver aucune espèce d'avantage sur l'abbé. Mesdames Catherine,
                     Ysabelle et Jehanne baissaient les yeux, ou se les couvraient avec leurs chassemouches,
-                        <ref target="#N04"/> tandis que Madame admirait damp abbé, et faisant remarquer aux
+     <ref target="#N04"/>
+     tandis que Madame admirait damp abbé, et faisant remarquer aux
                     autres moines, tout fiers de la valeur de leur chef, la supériorité qu'il annonçait sur
-                    son adversaire.</p>
-                <p>Saintré se présenta de bonne grâce aux bras longs et nerveux de l'abbé, qui pouvait en
+                    son adversaire.
+    </p>
+    <p>
+     Saintré se présenta de bonne grâce aux bras longs et nerveux de l'abbé, qui pouvait en
                     embrasser deux comme lui. Il se soutint deux ou trois tours avec assez de force; mais le
                     moine, dès long-temps exercé dans ce genre de combat, lui tirant fortement un jarret avec
                     le sein, les deux pieds de Saintré parurent bientôt en l'air; et l'insolent abbé s'écriant
@@ -1683,19 +2108,25 @@
                     rompre un dernière lance en l'honneur des dames. -- Ah! vraiment, s'écria-t-elle, je crois
                     monsieur de Saintré trop galant pour se refuser à remplir cet usage; et, s'il y manquait,
                     je le tiendrais le reste de ma vie pour chevalier de mince valeur, et lui en ferais la
-                    honte en présence de la reine et de mes bellesCousines.</p>
-                <p>Furieux de cette atrocité de conduite, et de ces propos d'une femme d'autant plus
+                    honte en présence de la reine et de mes bellesCousines.
+    </p>
+    <p>
+     Furieux de cette atrocité de conduite, et de ces propos d'une femme d'autant plus
                     haissable, qu'elle avait été plus adorée, Saintré se présenta pour la seconde fois à la
                     lutte, et ne fut pas plus heureux. Le vigoureux moine, s'amusant de ses vains efforts, et
                     continuant à le gaber, se plut à le mettre hors d'haleine, et l'étendit encore une fois
-                    sur l'herbe.</p>
-                <p>Cette indécente et cruelle plaisanterie n'ayant été déjà que trop prolongée, les trois
+                    sur l'herbe.
+    </p>
+    <p>
+     Cette indécente et cruelle plaisanterie n'ayant été déjà que trop prolongée, les trois
                     dames de la princesse, qui aimaient aussi tendrement Saintré qu'elles l'estimaient, ne
                     purent s'empêcher de faire entendre à leur dame combien elles étaient scandalisées de voir
                     qu'elle l'eût si long-temps soufferte; et la princesse, rentrant un peu en ellemême,
                     revint à l'abbaye, se remit à table avec elles, et fit signe aux frères servants
-                    d'apporter les confitures et les vins de liqueur.</p>
-                <p>Damp abbé s'habilla proprement pour revenir joindre la dame des belles-Cousines. La joie et
+                    d'apporter les confitures et les vins de liqueur.
+    </p>
+    <p>
+     Damp abbé s'habilla proprement pour revenir joindre la dame des belles-Cousines. La joie et
                     l'audace brillaient dans ses yeux. Son orgueil monastique était bien élevé de l'avantage
                     qu'il venait de remporter; et puisqu'il faut tout dire, et tant il est vrai que les
                     passions basses et honteuses avilissent le caractère, cette fière et haute dame des
@@ -1703,11 +2134,15 @@
                     le plus renommé des chevaliers français terrassé par un moine qu'elle lui avait préféré.
                     Emportée par l'ardeur du plaisir, elle était encore incapable de réfléchir et de
                     considérer que le véritable amour ne règne que sur des âmes sensibles et honnêtes, mais
-                    qu'il fuit avec horreur et s'envole à l'aspect du vice.</p>
-                <p>Saintré, fatigué de la lutte et froissé de ses deux chuttes, reprenait lentement ses
+                    qu'il fuit avec horreur et s'envole à l'aspect du vice.
+    </p>
+    <p>
+     Saintré, fatigué de la lutte et froissé de ses deux chuttes, reprenait lentement ses
                     habits; et cachant la rage qu'il avait dans le cœur, il méditait sur les moyens de
-                    s'assurer une prompte vengeance.</p>
-                <p>Cet lutte, le train de vie que l'abbé menait depuis cinq mois, excitaient alors un grand
+                    s'assurer une prompte vengeance.
+    </p>
+    <p>
+     Cet lutte, le train de vie que l'abbé menait depuis cinq mois, excitaient alors un grand
                     murmure parmi les anciens religieux de l'abbaye. Ils se repentaient déjà d'avoir élu
                     l'homme le moins propre à remplir les vrais devoirs de son état; et l'ancien procureur de
                     l'abbaye leur ayant représenté que le nom et la personne de monseigneur de Saintré
@@ -1719,8 +2154,10 @@
                     commettre. Les députés ayant eu le temps de lui parler avant que Saintré se fût remis à
                     table, damp abbé convint avec eux qu'il avait poussé trop loin ce qu'il osait ne nommer
                     qu'une plaisanterie; et il promit de faire en sorte que le seigneur de Saintré l'excusât
-                    et en perdit le souvenir.</p>
-                <p>Saintré revint peu de momens après, et parut avec un maintien qu'il affectait de rendre
+                    et en perdit le souvenir.
+    </p>
+    <p>
+     Saintré revint peu de momens après, et parut avec un maintien qu'il affectait de rendre
                     ouvert et riant. Damp abbé se leva avec hâte, et le conduisit respectueusement à sa place.
                     -- Monseigneur, lui dit-il, tels sont les jeux de la campagne; et vous n'avez pas moins
                     marqué la bonté de votre âme en daignant vous y prêter, que vous avez prouvé son
@@ -1742,8 +2179,10 @@
                     seigneur de Saintré, la fleur de notre chevalerie. Vous devez savoir, Monseigneur,
                     continua-t-il, tous les droits que vous avez dans ce monastère, dont les hommes, les
                     trésors et les équipages seront à vos ordres, quand il vous plaira de vous en servir.
-                    C'est le moins que nous devions au petit-fils de nos généreux bienfaiteurs.</p>
-                <p>Alors Saintré tirant l'abbé à l'écart, lui dit de l'air le plus simple et le plus honnête:
+                    C'est le moins que nous devions au petit-fils de nos généreux bienfaiteurs.
+    </p>
+    <p>
+     Alors Saintré tirant l'abbé à l'écart, lui dit de l'air le plus simple et le plus honnête:
                     -- Je suis sensible à vos offres, et je contiendrai désormais, contre l'opinion la plus
                     générale, qu'il est possible de trouver quelquefois de la reconnaissance dans les
                     monastères. Vous autres Bernardins, vous êtes tenus, plus que la plupart des autres
@@ -1759,8 +2198,10 @@
                     de sa suite. Je n'ose l'en supplier; mais le seul et le premier don que je vous requière,
                     c'est que vous tâchiez de m'obtenir l'honneur de sa présence. -- Je vous le promets,
                     répondit damp abbé sans hésiter; et, se sentant fort de tout pouvoir qu'il avait sur elle:
-                    Vous pouvez, Monseigneur, le lui proposer dès ce moment en ma présence.</p>
-                <p>Quoique Saintré sentit intérieurement toute l'humiliation de ne devoir qu'à la protection
+                    Vous pouvez, Monseigneur, le lui proposer dès ce moment en ma présence.
+    </p>
+    <p>
+     Quoique Saintré sentit intérieurement toute l'humiliation de ne devoir qu'à la protection
                     d'un moine heureux une faveur qu'autrefois la dame lui eût offert d'elle-même, il feignit
                     de la reconnaissanee pour l'abbé; et retournant vers la dame des bellesCousines, il la
                     pria, de l'air le plus respectueux, de lui faire l'honneur de venir dîner le lendemain
@@ -1772,8 +2213,10 @@
                     rafraîchissemens qui me conviennent, et nul, tel qu'il soit, ne peut s'autoriser de cette
                     démarche de ma part, pour me demander la même grâce. Non, non, Seigneur de Saintré, je ne
                     peux me compromettre par une faveur qui serait désapprouvée par toutes celles de mon
-                    rang.</p>
-                <p>S'il y eût eu dans le cœur de Saintré quel-que reste de ses anciens sentimens, cette
+                    rang.
+    </p>
+    <p>
+     S'il y eût eu dans le cœur de Saintré quel-que reste de ses anciens sentimens, cette
                     nouvelle marque de mépris et d'aversion de sa personne eût bien achevé de le détruire. Il
                     n'était plus maître de son dépit, lorsqu'il aperçut l'abbé qui, prenant la dame des
                     belles-Cousines à part, lui parlait d'un air d'autorité, et semblait exiger d'elle qu'elle
@@ -1785,8 +2228,10 @@
                     lui-même à celui qui vient de faire triompher sa bannière. Je consens donc à dîner demain
                     chez vous; mais ne mettez nul apparat à ce dîner; je ne prétends pas que ma visite ait
                     l'air d'être annoncée ni marquée par une fête: c'est bien assez pour un simple baron tel
-                    que vous, qu'on n'y voie que l'effet du hasard et de la proximité de nos châteaux.</p>
-                <p>Saintré reçut, avec l'air de la reconnaissance une grâce, qu'en toute autre occasion son
+                    que vous, qu'on n'y voie que l'effet du hasard et de la proximité de nos châteaux.
+    </p>
+    <p>
+     Saintré reçut, avec l'air de la reconnaissance une grâce, qu'en toute autre occasion son
                     grand cœur eût peut-être rejetée. Le repas s'acheva sans que rien de ce qui s'était passé
                     dans la journée fût rappelé. La dame des belles-Cousines eut une contenance embarrassée,
                     les dames de sa suite, celle de l'incertitude. L'abbé reprit bientôt l'air d'un amant
@@ -1799,8 +2244,10 @@
                     avant-cours, et la cour même du château, parurent désertes lorsque la princesse arriva
                     vers le midi, montée sur sa haquenée et l'émérillon sur le poing. Ses dames la suivaient
                     dans le même équipage; et damp abbé, en habit de campagne, faisait de temps en temps
-                    cabrer le gros roussin qu'il montait, et croyait lui faire lever des courbettes.</p>
-                <p>Les gentilshomme et les pages de Saintré s'étaient rangés en haie dans la première salle.
+                    cabrer le gros roussin qu'il montait, et croyait lui faire lever des courbettes.
+    </p>
+    <p>
+     Les gentilshomme et les pages de Saintré s'étaient rangés en haie dans la première salle.
                     Lorsque la princesse entra, elle affecta de dire qu'ayant été entraînée par le vol de ses
                     oiseaux, et se trouvant à l'heure du dîner si près du château du seigneur Saintré, elle
                     avait espéré qu'elle y serait reçue pour s'y rafraîchir pendant quelques heures. Saintré,
@@ -1816,13 +2263,17 @@
                     n'avait pas négligé de faire mette devant le moine plusieurs flacons de cristal où l'on
                     voyait briller le vin parfumé de Cahors, et le vin fumeux et agréable de Roussillon. Il
                     savait que le voluptueux damp abbé les aimait; et que, quelque forte que fût sa tête, elle
-                    le serait encore moins que la vapeur enchanteresse de ces vins pleins de feu.</p>
-                <p>La conversation devint en effet plus vive et plus gaie au second service: la dame parut
+                    le serait encore moins que la vapeur enchanteresse de ces vins pleins de feu.
+    </p>
+    <p>
+     La conversation devint en effet plus vive et plus gaie au second service: la dame parut
                     même oublier qu'elle était chez Saintré, et, le croyant bien maté, bien anéanti par sa
                     hauteur et par les propos qu'elle lui tenait, elle eut bientôt l'air de ne s'occuper que
                     de son amant, tandis que l'abbé prenait à sa façon, le ton et les airs d'un petitmaître
-                    qui se trouve en partie de campagne avec sa maîtresse.</p>
-                <p>On complimenta beaucoup le seigneur de Saintré sur la beauté de son château, sur la bonté
+                    qui se trouve en partie de campagne avec sa maîtresse.
+    </p>
+    <p>
+     On complimenta beaucoup le seigneur de Saintré sur la beauté de son château, sur la bonté
                     de ses vins, l'excellence de son repas, et sur tout sur les ornemens nobles, simples et
                     militaires qui paraient son vaste salon. En effet, le roi ayant voulu que Saintré parât le
                     château de ses pères d'une partie des étendards et des autres trophés qu'il avait
@@ -1841,8 +2292,10 @@
                     et je n'aurais pu lui donner la mort, si son haubert mal attaché ne m'eût offert un
                     passage pour lui plonger mon épée dans le côté. Au reste, ajouta t-il, si je croyais
                     qu'elles pussent vous servir, je serais charmé de les offrir, sans vous proposez de les
-                    gagner par une semblable épreuve.</p>
-                <p>La dame des belles-Cousines fut absolument la dupe de l'air de politesse, et même d'amitié
+                    gagner par une semblable épreuve.
+    </p>
+    <p>
+     La dame des belles-Cousines fut absolument la dupe de l'air de politesse, et même d'amitié
                     que Saintré avait pris en parlant; et curieuse de voir à quel point ces belles armes
                     pouvaient relever la riche taille de ce damp abbé, qu'au fond de sa pensée elle regardait
                     déjà comme un héros, elle l'excita elle même à les éprouver. -- Parbleu, dit à la fin
@@ -1900,22 +2353,30 @@
                     dans son casque: -- Tu seras seulement puni, dit-il, comme doivent l'être tous les
                     blasphémateurs, des propos injurieux que ta bouche impie a vomis contre l'ordre sacré de
                     la chevalerie, et contre ceux qui le composent. -- Alors il lui saisit la langue qu'il
-                    tirait pour reprendre haleine, et se contenta de la percer légèrement de sa dague.</p>
-                <p>Saintré voyant ensuite que la dame des bellesCousines était évanouie sur son fauteuil, et
+                    tirait pour reprendre haleine, et se contenta de la percer légèrement de sa dague.
+    </p>
+    <p>
+     Saintré voyant ensuite que la dame des bellesCousines était évanouie sur son fauteuil, et
                     que, ses dames effrayées étaient en pleurs autour d'elle, sa belle âme s'émut encore par
                     un mouvement de pitié. Il se tourna vers les trois dames, et, levant les yeux au ciel: --
                     Pouvais-je faire moins, leur cria-t-il? Je pars; ayez encore pitié d'elle, quelque indigne
                     qu'elle soit de vos soins. -- En achevant ces mots, il remarqua la ceinture bleue que
                     portait la dame des belles-Cousines, et qui était alors l'emblême de la loyauté: il ne put
-                    le souffrir; et, dénouant cette ceinture, il la mit dans son aumonière, et s'éloigna.</p>
-                <p>Tout était préparé pour son départ: il monta à cheval, et abandonna la princesse à ses
-                    remords, le moine à ses soins, son château à ses concierges.</p>
-                <p>Peu de jours après Saintré rejoignit la cour, et fit observer à tous ses gens le plus
+                    le souffrir; et, dénouant cette ceinture, il la mit dans son aumonière, et s'éloigna.
+    </p>
+    <p>
+     Tout était préparé pour son départ: il monta à cheval, et abandonna la princesse à ses
+                    remords, le moine à ses soins, son château à ses concierges.
+    </p>
+    <p>
+     Peu de jours après Saintré rejoignit la cour, et fit observer à tous ses gens le plus
                     profond silence sur l'événement singulier qui venait de se passer. Ses serviteurs, élevés
                     sous l'œil d'un maître vertueux, furent fidèles au serment qu'il leur fit prêter; et
                     lui-même eût cru commettre un crime impardonnable, s'il eût révélé rien de ce qui touchait
-                    à l'honneur d'une dame, même de la plus coupable. </p>
-                <p>Quinze jours après, la dame des bellesCousines, ne pouvant plus prolonger une absence dont
+                    à l'honneur d'une dame, même de la plus coupable.
+    </p>
+    <p>
+     Quinze jours après, la dame des bellesCousines, ne pouvant plus prolonger une absence dont
                     la reine commençait à se plaindre (car elle n'avait pu se refuser à quelques légers
                     soupçons) rejoignit aussi la cour, qui, revenue de la campagne, se trouvait rassemblée
                     dans le vaste hôtel de Saint-Paul. Elle fut reçue à bras ouverts par la vertueuse Bonne de
@@ -1926,8 +2387,10 @@
                     protectrice. Ce fut, il est vrai, avec moins de regret qu'elle n'en avait peut-être alors,
                     qu'il ne vit plus le signal de cette épingle, qui, pendant si long-temps, avait toujours
                     été celui d'un tête-à-tête heureux, et qu'il n'avait jamais reçu sans que son cœur en
-                    tressaillît d'amour et de plaisir.</p>
-                <p>Un jour, après le diné de la reine, toutes les belles-Cousines et quelques seigneurs
+                    tressaillît d'amour et de plaisir.
+    </p>
+    <p>
+     Un jour, après le diné de la reine, toutes les belles-Cousines et quelques seigneurs
                     distingué, tels que Saintré, furent admis dans l'intérieur des appartemens, dont les
                     huissiers interdissaient l'entrée au reste de la cour. Quoique le désœuvrement et l'ennui
                     ne puissent jamais se faire sentir dans une si noble et illustre société, la reine n'était
@@ -1938,8 +2401,10 @@
                     l'histoire singulière dont on venait, disait-il, de lui envoyer les détails du fond de la
                     Hongrie. Ensuite il raconta, devant tout le monde, l'histoire fidèle de ses amours avec la
                     dame des belles-Cousines, et ne supprima aucune circonstance des événemens arrivés dans
-                    l'abbaye, et, en dernier lieu, dans son château.</p>
-                <p>La reine se montra très-scandalisée: elle dit que la dame lui faisait horreur, et méritait
+                    l'abbaye, et, en dernier lieu, dans son château.
+    </p>
+    <p>
+     La reine se montra très-scandalisée: elle dit que la dame lui faisait horreur, et méritait
                     la punition la plus éclatante. Mesdames de Bourgogne, de Berri et d'Anjou, la comtesse de
                     Périgord, la belle et vertueuse dame de Gravelle, enchérirent sur le genre de cette
                     punition, et imaginèrent tout ce qu'elles crurent de plus déshonorant et de plus cruel. Le
@@ -1950,25 +2415,36 @@
                     d'avoir osé enlever la ceinture bleue de son ancienne dame et bienfaitrice. Saintré, piqué
                     de ce qu'elle avait pris un ton très-haut en prononçant ces dernières paroles, lui laissa
                     entrevoir un bout de cette même ceinture qu'elle seule aperçut; et il la cacha presque
-                    aussitôt. Ce fut la fin de sa vengeance et de son amour.</p>
-                <trailer>FIN.</trailer>
-            </div>
-        </body>
-        <back>
-            <div type="notes">
-                <note xml:id="N01">(1) Cet arrière-cabinet s'appelait alors un oratoire; mais la richesse des
+                    aussitôt. Ce fut la fin de sa vengeance et de son amour.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (1) Cet arrière-cabinet s'appelait alors un oratoire; mais la richesse des
                     ornemens, les parfums, let meubles élégans et commodes rendaient ces oratoires des asyles
                     agréables et utilus autant que le peuvent être de nos jours les plus tanquilles et les
                     plus délicieux boudoirs. Nous observons avec plaisir, qu'ils sont à la cour et à la ville
-                    de la plus haute antiquité.</note>
-                <note xml:id="N02">(1) Les Missi Dominici étaient des commissaires que le roi envoyait dans
+                    de la plus haute antiquité.
+    </note>
+    <note xml:id="N02">
+     (1) Les Missi Dominici étaient des commissaires que le roi envoyait dans
                     les provinces pour y entretenir le bon ordre et l'abondance, et défendre le faible contre
-                    les attaques du fort.</note>
-                <note xml:id="N03">(1) Nom de la marque que portait un chevalier, et dont il
-                    devait se faire déferrer.</note>
-                <note xml:id="N04">(1) La mode des éventails
-                    n'existait pas encore dans ce temps grossier.</note>
-            </div>
-        </back>
-    </text>
+                    les attaques du fort.
+    </note>
+    <note xml:id="N03">
+     (1) Nom de la marque que portait un chevalier, et dont il
+                    devait se faire déferrer.
+    </note>
+    <note xml:id="N04">
+     (1) La mode des éventails
+                    n'existait pas encore dans ce temps grossier.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

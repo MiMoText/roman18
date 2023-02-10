@@ -2,83 +2,134 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Loaisel_Ainsi" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:87.54bis"> Ainsi finissent les grandes passions: MiMoText edition </title>
-                <author ref="viaf:4932831 wikidata:Q56062794"> Joseph-Marie Loaisel de
-                    Tréogate(1752-1812) </author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 69612 </measure>
-                <measure unit="vols"> 2 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Ainsi finissent les grandes passions, ou les Dernières amours du
-                        chevalier de ***</title>
-                    <author>Joseph Marie Loaisel de Tréogate</author>
-                    <date> 1788 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1788 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> epistolary </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-19"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="group">
-                <div type="chapter">
-                    <head> LETTRE 1 </head>
-                    <p> Au Comte De P. Vous voilà donc fixé dans vos terres, mon cher comte; vous
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:87.54bis">
+     Ainsi finissent les grandes passions: MiMoText edition
+    </title>
+    <author ref="viaf:4932831 wikidata:Q56062794">
+     Joseph-Marie Loaisel de
+                    Tréogate(1752-1812)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     69612
+    </measure>
+    <measure unit="vols">
+     2
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Ainsi finissent les grandes passions, ou les Dernières amours du
+                        chevalier de ***
+     </title>
+     <author>
+      Joseph Marie Loaisel de Tréogate
+     </author>
+     <date>
+      1788
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1788
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      epistolary
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-19">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      LETTRE 1
+     </head>
+     <p>
+      Au Comte De P. Vous voilà donc fixé dans vos terres, mon cher comte; vous
                         renoncez pour toujours à cette ville fameuse où tout sembloit vous attacher
                         autrefois, et à ses arts que vous aimiez, et à sa philosophie dont vous
                         suiviez bravement les drapeaux, à latête de ses plus zélés disciples. Ce
@@ -130,12 +181,18 @@
                         autres au contraire, tourne au préjudice de la société.Adieu, mon cher
                         comte, votre folie à vous est de compâtir aux foiblesses, et de faire le
                         bonheur de tout ce qui vous entoure. Cette folie là, je crois, vaut bien la
-                        sagesse qui fronde et ne fait le bonheur de personne. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 2 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> je ne cesse pas d'envier votre sort, mon
+                        sagesse qui fronde et ne fait le bonheur de personne.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 2
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      je ne cesse pas d'envier votre sort, mon
                         cher comte; une belle terre me paroît le temple de la félicité. Personne,
                         non personne n'est plus à portée de jouir de la vie qu'un noble vivant comme
                         vous dans l'antique château qu'il a hérité de ses pères. Dedans, autour de
@@ -189,12 +246,18 @@
                         mot, tout ce qui touche. Elle joint à cela de cet esprit que vous aimez;
                         elle dit les plus jolies choses du monde avec un naturel qui enchante; et
                         quand elle veut dire une chose, on la lit toujours dans ses yeux: elle est
-                        vraiment charmante. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 3 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> je sors de chez la baronne où j'ai passé
+                        vraiment charmante.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 3
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      je sors de chez la baronne où j'ai passé
                         la soirée; Madame De V y est venue. Le hasard l'a placée près de moi, et
                         nous avons lié ensemble une conversation fort longue et fort intéressante,
                         qui m'a mis à portée de connoître qu'elle ne paroît pas encore tout ce
@@ -241,12 +304,18 @@
                         pas à la manière du siècle. Elle n'aimera point, parce que la nature
                         l'invitera à satisfaireun penchant; mais parce que la nature lui dira, que
                         l'amour seul est capable de faire le bonheur de l'honnête homme qu'elle aura
-                        jugé digne de son choix. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 4 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> j'ai obtenu la permission de lui faire ma
+                        jugé digne de son choix.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 4
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      j'ai obtenu la permission de lui faire ma
                         cour chez elle; je la vois souvent; elle me traite avec distinction; elle
                         m'écoute avec plaisir, et moi j'aime de plus en plus sa conversation, qui
                         semble faite pour créer des surprises à tous les instans. Que de choses
@@ -260,12 +329,18 @@
                         semble que je sors d' une prison obscure, et que je marche conduit par elle
                         dans un air embaumé d'odeurs suaves et rafraîchissantes. Il n'est donc point
                         de chagrin qui tienne contre les attraits d'une femme? Et les graces
-                        ont-elles dans leur main la destinée de tous les hommes? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 5 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> dois-je bénir mon sort, madame? Le
+                        ont-elles dans leur main la destinée de tous les hommes?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 5
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      dois-je bénir mon sort, madame? Le
                         jour où je vous ai vue sera-t-il une époque fortunée dans l'histoirede ma
                         vie? C'est ce que l'avenir me cache encore. Au moins m'est-il permis, sans
                         afficher une confiance téméraire, d'écouter l' aimable espérance qui se fait
@@ -355,12 +430,18 @@
                         fût toujours la source et l'instrument de votre bonheur; et si je faisois
                         parler la raison, je lui prêterois un langage si tendre, que, loin d'en être
                         effrayée, vous vous sentiriez doucement entraîné par elle, et qu'en lui
-                        cédant, vous ne croiriez qu'obéir à un doux penchant. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 6 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> j'ai laissé hier m. Le commandeur
+                        cédant, vous ne croiriez qu'obéir à un doux penchant.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 6
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      j'ai laissé hier m. Le commandeur
                         malade, ce bon parent qui vous tientlieu de père, ce vieillard courtois et
                         sensible qui fait oublier ses années, ou n'en fait ressouvenir que pour
                         montrer que l'hiver a ses roses ainsi que le printems, et qu'il est des
@@ -384,12 +465,18 @@
                         longue suite d'années et de siècles. Cette espérance même ne fût-elle qu'une
                         illusion pour quelques-uns, serviroit toujours à écarter d'eux les ennuis
                         qui abrègent l'existence, etferoit au moins bien long-tems le charme et le
-                        bonheur de leurs jours. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 7 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> il faut donc que la plus agréable
+                        bonheur de leurs jours.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 7
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      il faut donc que la plus agréable
                         situation d'esprit tienne aux réflexions chagrines par une nuance
                         insensible, et que les regrets soient toujours à côté des plaisirs. Je suis
                         avec des personnes que j'aime, et qui me chérissent; jamais on ne m'a
@@ -413,12 +500,18 @@
                         moment où l'on vient de le cueillir; et vous établissez trop bien ce
                         sentiment dans un coeur, pour que le vôtre n'en soit pas la source
                         inaltérable. Jusqu'ici l'amitié m'avoit paru une chimère; auprès de vous il
-                        est impossible de ne pas croire à sa réalité. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 8 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> vous convenez que Madame De V est
+                        est impossible de ne pas croire à sa réalité.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 8
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      vous convenez que Madame De V est
                         fort aimable; mais vous la croyez dangereuse, parce que vous lui soupçonnez
                         du penchant à la coquetterie. Il y a plusieurs années que vous ne l'avez
                         vue, mon cher comte; elle étoit bien jeune alors, et peut-être n'étoit-elle
@@ -454,12 +547,18 @@
                         peine à me reconnoître. Mon front n'est plus le siège de noirs soucis;
                         j'aime la vie à présent; je ne haïs plus les hommes. L'image de cette
                         aimable femme toujours présente à mon esprit, donne une teinte de féerie à
-                        toutes mes idées; enfin, je suis heureux. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 9 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> hier au soir, je n'avois rien à
+                        toutes mes idées; enfin, je suis heureux.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 9
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      hier au soir, je n'avois rien à
                         desirer; aujourd'hui tout manque à ma satisfaction. J'ai de l' inquiétude,
                         de l'agitation, de l'ennui, et si je medemande la cause de cette situation
                         extraordinaire, votre aimable visage que je vois toujours, même en votre
@@ -486,12 +585,18 @@
                         se compose de ce qu'il y a de plus pur dans les passions et de plus aimable
                         dans la sagesse, l'amitié est au-dessus de tout, est préférable à tout;
                         rendez-là moi si délicieuse qu'elle me tienne lieu de tous les autres
-                        sentimens, aimez-moi, consolez-moi. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 10 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> vous paroissiez foible et souffrante,
+                        sentimens, aimez-moi, consolez-moi.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 10
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      vous paroissiez foible et souffrante,
                         madame, quand je vous ai quittée; cela m'a fait passer une mauvaise nuit; je
                         suis inquiet. Dissipez mes alarmes, elles sont en vérité très-vives; je ne
                         sais quelle idée douloureuse se mêle perpétuellement au délice de penser à
@@ -501,12 +606,18 @@
                         l'oubli doit cacher tous ses mouvemens. Il faut qu'il se familiarise avec
                         les illusions, qu'il s'occupe à les retenir sanscesse, et jouisse du bonheur
                         qu'elles donnent pour ne pas mourir de la privation de celui dont elles
-                        tiennent la place. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 11 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> mon trouble s'accroît tous les jours,
+                        tiennent la place.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 11
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      mon trouble s'accroît tous les jours,
                         mon humeur s'altère, mes idées circulent péniblement et confusément dans mon
                         cerveau; je soupire, je pleure, je ne me reconnois plus... un feu qui n'est
                         pas, je crois, de nature à s'éteindre jamais, un feu interne se fait sentir;
@@ -541,12 +652,18 @@
                         baiser délicieux et prolongé; votre sourire où respirent toutes les graces,
                         tous les amours, tous les charmes de la nature; et ce son de voix si
                         pénétrant qui va s'emparer du coeur comme une mélodie céleste. Ah! Plutôt!
-                        Plutôt cesser d'être que de cesser jamais d' adorer tout cela! ... </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 12 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> votre air réservé avec moi depuis
+                        Plutôt cesser d'être que de cesser jamais d' adorer tout cela! ...
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 12
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      votre air réservé avec moi depuis
                         quelques jours, et votre conversation d'hier chez la baronne, ne me
                         présagent rien de consolant; mais un espoir me reste. Vous ferez ce qui
                         dépendra de vous pour adoucir la rigueur de votre indifférence; vous ne
@@ -564,12 +681,18 @@
                         je me les retrace toutes jusqu'à l'époque actuelle, et je vous vois là
                         présente au bout de cette carrière si courte et si pénible,comme un objet
                         doux et terrible destiné à être le dédommagement ou le complément de mes
-                        infortunes. Décidez, prononcez, fixez mon sort irrévocablement. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 13 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> c'est donc bien vrai, mon adorable amie!
+                        infortunes. Décidez, prononcez, fixez mon sort irrévocablement.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 13
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      c'est donc bien vrai, mon adorable amie!
                         Je pense comme vous, vous sentez comme moi. Oui, oui, aimer est un besoin,
                         mais vous aimer est plus encore; c'est une soif ardente pour le mortel
                         fortuné à qui vous daignez sourire avec tendresse. Le ciel a mis une
@@ -599,20 +722,30 @@
                         versa lui-même dans ton ame, selon la mesure qu'exigeoit sa sagesse. Je
                         bénis et j'adore cet être excellent. Que sa puissance est grande! Il est le
                         créateur d'Eugénie. Combien ses bienfaits sont au-dessus de
-                        toutereconnoissance! Il a permis que je fusse aimé d'Eugénie. </p>
-                </div>
-                <div type="chapter">
-                    <head> BILLET </head>
-                    <p> Vous n'avez pas répondu à ma dernière lettre; vous n'avez rien fait dire au
+                        toutereconnoissance! Il a permis que je fusse aimé d'Eugénie.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      BILLET
+     </head>
+     <p>
+      Vous n'avez pas répondu à ma dernière lettre; vous n'avez rien fait dire au
                         messager fidèle que j'en ai chargé ce matin. Je passe à votre hôtel; vos
                         gens m'apprennent que vous n'y êtes pas, que vous êtes partie avec la
                         Marquise De B pour aller dîner à la campagne, et vous ne m' avez rien fait
-                        dire de tout cela... je ne sais que penser; je suis au désespoir. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 14 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> j'ai été remarqué de ma souveraine; elle
+                        dire de tout cela... je ne sais que penser; je suis au désespoir.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 14
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      j'ai été remarqué de ma souveraine; elle
                         a daigné descendre jusqu'à moi, et j'ai connu la félicité. J' ai cessé
                         d'exister pour recommencer de vivredans ses bras. Que sera-ce qu'une vie
                         soutenue des plus précieuses faveurs de l'amour? ô mon Eugénie! Je voudrois
@@ -665,12 +798,18 @@
                         m'élancer avec Eugénie dans les cieux... époque fortunée du renouvellement
                         de mon existence! Soyez-moi toujours présente; gravez-vous dans ma mémoire
                         en traits immortels, comme vous l'êtes déjà dans le livre des destinées
-                        humaines. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 15 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> oui, mon cher comte, j'ai trouvé la
+                        humaines.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 15
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      oui, mon cher comte, j'ai trouvé la
                         créature charmante que mon imagination de feu poursuivoit depuis long-tems,
                         et j'habite le paradis sur la terre. Oui, j'aime encore, j'aime avec
                         passion, et la chaîne fortunée qui me lie ne se rompra plus. Les uns
@@ -755,12 +894,18 @@
                         cher comte; mon coeur tout épris qu'il paroisse et qu'il le soit réellement,
                         n'est pourtant pas si entiérement à l'amour qu'il n'y reste place à d'autres
                         sentimens assez vifs et assez tendres, pour composer l'amitié la plus vraie
-                        et la plus digne de vous. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 16 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> j'ai de la peine à répondre à ton
+                        et la plus digne de vous.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 16
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      j'ai de la peine à répondre à ton
                         billet charmant; ma plume tremble dans mes doigs, ou, pour mieux dire, mes
                         doigts n'ont aucune part aux caractères que je trace; je ne les sens plus;
                         je ne sens que la plénitude du sentiment qui m'inonde: que dis-je? Il
@@ -807,12 +952,18 @@
                         femme incomparable. Idoles que l'on encense! Objets de l'adoration réuniede
                         tous les hommes! Disparoissez, mon Eugénie vous efface tous; et toi dont
                         j'aimois à contempler la magnificence, et toi aussi, nature! J'ai cessé de
-                        t'admirer; ton chef-d' oeuvre t'éclipse à mes yeux. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 17 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> de Versailles. Faut-il qu'il y ait
+                        t'admirer; ton chef-d' oeuvre t'éclipse à mes yeux.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 17
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      de Versailles. Faut-il qu'il y ait
                         d'autres affaires à traiter que celles du coeur, et d'autres devoirs à
                         remplir que ceux de l'amour? Tout entier à la passion qui me possède,
                         qu'ai-je à desirer de plus que le bonheur d'être aimé de celle qui en est
@@ -881,12 +1032,18 @@
                         pour la prompte conclusion de mes affaires. Je les accélère tant que je
                         peux, pour être bientôt libre, pour retourner à toi, pour revoir Eugénie,
                         pour me retrouver un peu moi-même; car je me chercherois vainement où elle
-                        n'est pas. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 18 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> Eugénie, qui vous apprit à écrire d'une
+                        n'est pas.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 18
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      Eugénie, qui vous apprit à écrire d'une
                         manière si touchante, et à méler tant d'esprit à tant de sensibilité? On
                         voit bien que l'art d'épancher ton ame sur le papier ne te coûte aucun
                         effort. Il n'y a pas un sentiment dans tes lettres qui ne sorte de ton
@@ -896,8 +1053,12 @@
                         ne lis pas autre chose que tes lettres; quand je les ai lues, je les relis;
                         et quand je les ai relues, je n'imagine pas d'occupation plus douce que
                         celle de les relire encore. On dit que les indiens commencent presque tous
-                        leurs livres par ces mots: <hi rend="italic"> béni soit l'inventeur de
-                            l'écriture </hi> . Je pense avec eux que l'on ne sauroit trop honorer la
+                        leurs livres par ces mots:
+      <hi rend="italic">
+       béni soit l'inventeur de
+                            l'écriture
+      </hi>
+      . Je pense avec eux que l'on ne sauroit trop honorer la
                         mémoire de celui qui a fait aux hommes un présent si utile. L'avantage que
                         nous avons de peindre nos pensées avec des sons articulés, est admirable
                         sans doute; mais cet avantage est renfermé dans les bornes étroites du tems
@@ -949,15 +1110,25 @@
                         désespoir sur les bords de l'abîme où il alloit se précipiter. Adieu, mon
                         Eugénie; voilà un bien long discours sur des choses que tu sais mieux que
                         moi: mon dessein aussi n'est il pas de te rien apprendre, mais de causer
-                        avec toi. <hi rend="italic"> p. S. </hi> je reçois un paquet qui m'annonce
+                        avec toi.
+      <hi rend="italic">
+       p. S.
+      </hi>
+      je reçois un paquet qui m'annonce
                         la conclusion de mes affaires... je comptois les jours; je ne compte plus
                         que les heures, et ces heures sont plus longues que les jours...chère
-                        Eugénie! Mon coeur est moins tranquille à mesure que j'approche de toi. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 19 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> vous ne m'écrivez pas souvent, il
+                        Eugénie! Mon coeur est moins tranquille à mesure que j'approche de toi.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 19
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      vous ne m'écrivez pas souvent, il
                         est vrai, mon cher comte; mais pourquoi vous en excuser? Ne suis-je pas sûr
                         de votre attachement? N'en ai-je pas reçu les plus sensibles preuves? Je
                         n'ai pas une idée dont je ne vous fasse part, pas un sentiment que je ne
@@ -985,12 +1156,18 @@
                         rapprocher le moment de notre départ. J'arrange tout; je mets ordre à tout
                         pour l'accélérer; je quinze. Adieu, mon cher comte; sur-tout ne dites à qui
                         ce soit où je vais; je veux qu'on ignore, du moins autant qu'il sera
-                        possible, ma retraite et mon bonheur. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 20 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> nous sommes arrivés; je suis dans la
+                        possible, ma retraite et mon bonheur.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 20
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      nous sommes arrivés; je suis dans la
                         demeure des amours, dans l'asyle des plaisirs, dans le séjour du bonheur;
                         mais avant de vous parler de ce lieu, il faut que je vous dise quelque chose
                         de notre voyage. Nous sommes partis hier 27 d'assez grand matin. Un beau
@@ -1078,12 +1255,18 @@
                         resteras ici. " je vous laisse à penser, mon cher comte, si j'ai promis, si
                         j'ai juré, et quel a dû être le reste de cette soirée... c'est ici que
                         s'ouvre une scène délicieuse; mais pour la peindre, ce seroit aux anges à
-                        prendre les crayons. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 21 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> je n'entreprendrai pas de vous faire une
+                        prendre les crayons.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 21
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      je n'entreprendrai pas de vous faire une
                         description particulière de tout ce qui est digne de remarque, ou me paroît
                         tel dans ce château. Pour un amant, il n'est rien qui ne soit beau dans la
                         demeure de sa maîtresse; et si je voulois vous décrire tout ce qui me plaît
@@ -1130,12 +1313,18 @@
                         furent eux-mêmes les artisans de cesgrandes fortunes qu'on envie à présent à
                         leurs successeurs. Adieu, mon cher comte; j'entends une voix charmante qui
                         prononce mon nom, et quand ce son de voix vient à mon oreille, il faut que
-                        tout cède au plaisir qu'il me fait. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 22 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> que ne puis-je faire passer au fond de
+                        tout cède au plaisir qu'il me fait.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 22
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      que ne puis-je faire passer au fond de
                         votre ame le sentiment du bonheur et de paix qui règne au fond de la mienne!
                         Vous vous dites heureux, et vous vivez sans amour; vous croyez jouir, et
                         vous n'avez pas une Eugénie auprès de vous. Ah! Vous ne connoissez point le
@@ -1217,12 +1406,17 @@
                         promenons au clair de la lune. Enfin, mon cher comte, nous avons ici ce que
                         les hommes n'ont guères, ce que les grands et les rois de la terre n'ont
                         point, ce que vous avez presque; nous sommes libres et nous sommes aimés.
-                    </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 23 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> je vous ai mandé dans les tems la mort de
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 23
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      je vous ai mandé dans les tems la mort de
                         M Le Duc D'Orléans; vous savez combien il fut aimé de la nation, et combien
                         il mérita de l'être. On connoissoit sa bonté, son humanité; mais parmi
                         différentes brochuresqui nous ont été envoyées, nous venons de lire une
@@ -1277,12 +1471,18 @@
                         sacrifice, et n'ont d'éclat fort souvent que par la basse exagération de
                         quelques prôneurs intéressés à nourrir de fumée les ames ostenteuses, dont
                         eux-mêmes ils attendent des services. La vertu se propose bien une autre
-                        récompense, et ce n'est pas parmi les hommes qu'elle va la chercher. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 24 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> toute la terre n'est pas corrompue, mon
+                        récompense, et ce n'est pas parmi les hommes qu'elle va la chercher.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 24
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      toute la terre n'est pas corrompue, mon
                         cher comte; on trouve encore des moeurs et des vertus dans quelque coin du
                         monde. Hier nous avons passé la journée à une demi-lieued' ici, chez un
                         homme tel qu'on n'en voit guères, chez un homme que vous aimeriez de toute
@@ -1396,12 +1596,18 @@
                         n'étoit plus le souvenir de ma famille qui les faisoit couler. Cette image
                         affligeante s' effaçant même peu-à-peu, et faisant place au charme unique de
                         tenir dans mes bras ma belle maîtresse, de jouir de sa belle ame, de sa
-                        sensibilité, je ne pleurois plus que de reconnoissance et de plaisir. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 25 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> vous me demandez des nouvelles de notre
+                        sensibilité, je ne pleurois plus que de reconnoissance et de plaisir.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 25
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      vous me demandez des nouvelles de notre
                         littérature: je suis plus près que vous, il est vrai, du grand théâtre où
                         nos beaux esprits s'évertuent; mais je ne m'informe pas de ce qui s'y passe,
                         et je crois qu'au fond vous ne vous en inquiétez pas plus que moi. Quelques
@@ -1460,12 +1666,18 @@
                         je mériterai une statue.-mais cet honneur ne m'est point dû pour avoir, par
                         la translation des bureaux publics à Bude, procuré seulement aux habitans de
                         cette ville, les moyens de vendre leur vin à un plus haut prix, et de
-                        hausser les loyers de leurs maisons. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 26 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> j'ai une passion si décidée pour les
+                        hausser les loyers de leurs maisons.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 26
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      j'ai une passion si décidée pour les
                         charmes de la campagne, que je regrette quelquefois de n'être pas venu au
                         jour dans ces premiers âges du monde, où les hommes n'étant encore que
                         laboureurs ou bergers, ne connoissoient que la vie champêtre. J' aurois dû
@@ -1565,12 +1777,18 @@
                         particules vivifiantes émanées de toutes les plantes balsamiques dont cette
                         terre est couverte, sous le plus beau ciel de l'univers. Adieu, mon cher
                         comte; je vous suis tendrement attaché pour la vie. Si vous étiez ici avec
-                        nous, cette maison de campagne seroit le paradis terrestre. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 27 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> j'aime toujours à causer avec vous, mon
+                        nous, cette maison de campagne seroit le paradis terrestre.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 27
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      j'aime toujours à causer avec vous, mon
                         cher comte; j'aime à vous parler de nos amusemens innocens, des bons voisins
                         de Madame De V, de ceux qui viennent de tems en tems lui rendre leurs
                         devoirs, et nous tenir compagnie. Ces sortes de détails, je le sais, vous
@@ -1597,11 +1815,18 @@
                         le travail de la terre et la circulation libre de ses productions diverses,
                         suffiroit pour amener l'âge d'or dans un pays. Il parloit honorablement de
                         la profession de cultivateur, et citoit ces paroles connues d'un monarque
-                        éclairé: <hi rend="italic"> si j'avois un homme qui me produisît deux épis
+                        éclairé:
+      <hi rend="italic">
+       si j'avois un homme qui me produisît deux épis
                             de bled au lieu d'un, je le préférerois à tous les génies politiques
-                        </hi> . L'autre savoit qu'en Angleterre une médaille fut frappée et adjugée
-                        au Duc De Bedfort, avec cette inscription: <hi rend="italic"> pour avoir
-                            semé du gland </hi> . Un autre parloit d'un terrein ingrat qu'il a rendu
+      </hi>
+      . L'autre savoit qu'en Angleterre une médaille fut frappée et adjugée
+                        au Duc De Bedfort, avec cette inscription:
+      <hi rend="italic">
+       pour avoir
+                            semé du gland
+      </hi>
+      . Un autre parloit d'un terrein ingrat qu'il a rendu
                         fertile, au moyen d'une méthode de son invention qu'il croit préférable à
                         celle du lieu, et proposoit à ses voisins d'en faire faire l'essai à ses
                         fermiers.Le curé, bon humain, appuyoit les raisonnemens des uns et des
@@ -1678,8 +1903,12 @@
                         me trouveraiheureux d'aller chercher des modèles de perfection et de bonheur
                         inconnus jusqu'à ce jour, dans une société d'hommes qui tiendront lieu de
                         divinités sur la terre. Bon soir, mon cher comte; quand nous reverrons-nous?
-                        Quand causerons-nous ensemble dans l'avenue de Beauvr? <hi rend="italic"> p.
-                            S. </hi> il est arrivé ici ce matin un gros abbé régulier fort aimable,
+                        Quand causerons-nous ensemble dans l'avenue de Beauvr?
+      <hi rend="italic">
+       p.
+                            S.
+      </hi>
+      il est arrivé ici ce matin un gros abbé régulier fort aimable,
                         qui vient chercher Madame De V pour la mener à la fête de son couvent. C'est
                         M De Ch, abbé de P, grosse maison de bernardins, située à quelques lieues de
                         cet endroit. Eugénie va toutes les années à cette fête, quand elle est à sa
@@ -1694,12 +1923,17 @@
                         pour qui les amusemens ne sont rien, s'ils n'ont quelque rapport avec le
                         sentiment qui les occupe, n'aiment pas trop ces sortes de distractions; mais
                         cela fait plaisir à Madame De V: il faut bien aussi que cela m'en fasse.
-                    </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 28 </head>
-                    <p>
-                        <hi rend="italic"> à M Le Ch, abbé de P. </hi> ce n'est pas seulement moi
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 28
+     </head>
+     <p>
+      <hi rend="italic">
+       à M Le Ch, abbé de P.
+      </hi>
+      ce n'est pas seulement moi
                         qui vous écris, m. L'abbé; c'est Mad De V dont j'ai l'honneur d'être le
                         très-humble secrétaire, et qu'une indisposition empêche de vous écrire
                         elle-même. Elle ne sait pas trop si elle vous doit des remerciemens pour
@@ -1736,12 +1970,18 @@
                         lui fît une proposition semblable, je doute, si elle avoit passé quelques
                         jours chez vous, qu'elle demandât le couvent des grands cordeliers. Adieu,
                         monsieur l'abbé; retenez bien que Madame De V vous aime de tout son coeur;
-                        autant en fait le chevalier De T. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 29 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> nous avons passé huit jours à
+                        autant en fait le chevalier De T.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 29
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      nous avons passé huit jours à
                         l'abbaye de P, et en sommes revenus le 26. Il semble que le ciel ait voulu
                         nous punir d'avoir été chercher au-dehors des plaisirs qui ne pouvoient que
                         nous faire regretter ceux que nous laissions dans cette retraite. Ce n'est
@@ -1852,12 +2092,18 @@
                         Elle a fait distribuer une somme aux incendiés,outre les remises de ce que
                         la plupart lui devoient; elle s'est gênée pour les secourir: mais le
                         désastre est trop grand; elle n'a pu faire ce que lui suggéroit son coeur
-                        bienfaisant. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 30 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> les grandes calamités laissent toujours
+                        bienfaisant.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 30
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      les grandes calamités laissent toujours
                         dans un pays quelque chose de triste et de lugubre, qui influe long-tems sur
                         le caractère de ses habitans. Depuis l'événement funeste que je vous ai
                         mandé dans ma dernière lettre, l'on ne rencontre ici que des visages
@@ -1950,12 +2196,18 @@
                         éloignés l'un de l'autre, sans nous parler, et nous jettant seulement de
                         tems en tems quelques regards accompagnés de soupirs. Que signifie cette
                         journée, et tant de plaisir, et tant d'alarmes? ô mon ami! Il n'y a donc
-                        point de bonheur parfait sur la terre? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 31 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> Madame De V a reçu une somme de six mille
+                        point de bonheur parfait sur la terre?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 31
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      Madame De V a reçu une somme de six mille
                         livres pour les incendiés de la Gar. La personne charitable qui envoie ce
                         secours ne se nommepoint. J'ai tout plein de raisons pour soupçonner que
                         vous êtes ce généreux inconnu. Vous ne me direz pas votre secret, et je ne
@@ -1971,12 +2223,18 @@
                         considération humaine pour l'aimer et la pratiquer pour elle-même.Dans ce
                         moment, je m'honore d'être ce que je suis dans la classe des êtres, et je
                         crois à la dignité de mon espèce; dans ce moment, mes yeux laissent tomber
-                        des larmes de joie. Adieu, mon cher comte, que vous devez être heureux! </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 32 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> pendant que tes yeux cachent leur
+                        des larmes de joie. Adieu, mon cher comte, que vous devez être heureux!
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 32
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      pendant que tes yeux cachent leur
                         éclat sous les pavots d'un sommeil tranquille; tandis qu'un songe doux comme
                         ton ame rit peut-être à ton imagination, et la tient doucement éveillée, ton
                         amant fuit le repos pour livrer son esprit à toutes les pensées dont ton
@@ -2027,12 +2285,18 @@
                         seule ame, elle ira se perdre dans le sein d'un dieu principe et ame de
                         toute la nature, et recommencer dans ce changement d'existence des siècles
                         de vie et de bonheur conformes aux idées et aux facultés nouvelles, dont
-                        alors elle sera enrichie. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 33 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> ce que vous me mandez d'Adélaïde,
+                        alors elle sera enrichie.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 33
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      ce que vous me mandez d'Adélaïde,
                         votre jeune soeur, me touche et me surprend. Je n'ignore point qu'elle
                         aimoit le chevalier de Saint-A, malgré le malheur qui le privoit de la vue
                         depuis son enfance. Je sais que cet aimable jeune homme en étoit éperduement
@@ -2087,9 +2351,16 @@
                         Lorsqu'il eut resté quelques minutes dans cette considération, qui le
                         remplissoit d'étonnement, sa mère, qui avoit contenu avec peine les élans de
                         sa tendresse, s'élança auprès de lui, passa ses bras autour de son cou, etse
-                        mit à crier: <hi rend="italic"> mon fils, ô mon fils! </hi> le jeune homme
+                        mit à crier:
+      <hi rend="italic">
+       mon fils, ô mon fils!
+      </hi>
+      le jeune homme
                         reçonnut sa voix, partagea ses transports, et ne put répondre que ces mots:
-                            <hi rend="italic"> ô ma mère! êtes-vous ma mère? </hi> il tomba dans une
+      <hi rend="italic">
+       ô ma mère! êtes-vous ma mère?
+      </hi>
+      il tomba dans une
                         espèce de foiblesse, dont toute la compagnie, qui n'étoit pas moins touchée,
                         s'empressa de le faire revenir. La jeune personne qu'il aimoit s'y employa
                         de la manière la plus tendre, et accompagna ses soins des expressions les
@@ -2172,12 +2443,17 @@
                         encore marqués par l'étonnement du jeune homme; mais l'habitude de voir se
                         forma; il s'attacha à reconnoître les objets que ses yeux lui montroient, en
                         consultant ses autres sens pour ceux qu'ils lui avoient déjà fait connoître.
-                    </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 34 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> je vous disois bien qu'Adélaïde ne
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 34
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      je vous disois bien qu'Adélaïde ne
                         persisteroit pas à refuser la main du chevalier, et que dans peu elle
                         cédroit à l'amour. Ils sont mariés... heureux époux! J'envie votre sort!
                         L'himen est un lien de convention sans doute, et ce ne sont pas les
@@ -2268,12 +2544,18 @@
                         et qui voleroit au bout du monde au premier signal ayant l'air d'une
                         invitation, ne tardera sûrement pas d'arriver, et nous ne serons plus
                         seuls... impénétrable avenir, que me réserves-tu? ... adieu, ô adieu! Mon
-                        cher comte. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 35 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> la lettre de Madame De V a produit son
+                        cher comte.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 35
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      la lettre de Madame De V a produit son
                         effet, comme vous pouvez penser; la marquise n'a pas manqué de venir en
                         grande hâte; elle est ici depuis quinze jours avec son mari. Madame De Lism,
                         Madame De Lu que vous connoissez, et Madame De La Sub y sont aussi. Je crois
@@ -2321,12 +2603,18 @@
                         laisse point voir les sentimens que j'ai pour Madame De V, ni ceux qu'elle a
                         pour moi. Quand elle s'amuse à le persiffler, je prends quelquefois la même
                         liberté: mais une chose nous désespère; il ne nous entend pas, et nous
-                        remercie fort souvent des sottises que nous lui disons. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 36 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> les impertinences d'un fat peuvent amuser
+                        remercie fort souvent des sottises que nous lui disons.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 36
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      les impertinences d'un fat peuvent amuser
                         pendant un tems; mais elles fatiguent et déplaisent à la longue. Le vicomte,
                         à force de tenir de ces fades propos qui font tourner quelques têtes aussi
                         vuides que la sienne, a fini par ennuyer mortellement Madame De V. L'ennui
@@ -2345,12 +2633,18 @@
                         craindre que les goûts de son esprit n'influent un peu sur les sentimens de
                         son coeur. Le ridicule du vicomte n'étoit point à craindre; mais son
                         amour... je ne sais... je n'aime point, non, je n'aime point cette prétendue
-                        conversion. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 37 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> le vicomte n'est plus le même homme; on
+                        conversion.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 37
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      le vicomte n'est plus le même homme; on
                         remarque sur son visage tous les progrès de son amour. D'impudent qu'il
                         étoit, il est devenu soumis, timide, embarrassé; et je conclus delà, non pas
                         qu'il soit amoureux (des hommes de son espèce ne peuvent l' être), mais que
@@ -2384,12 +2678,18 @@
                         chose du monde que je crains le plus. Je m'y étois attendu, ai-je dit en
                         soupirant à Madame De V, comme elle achevoit de me rendre cette
                         conversation. Elle m'a serré la main, me priant de l' aimer toujours. Hélas!
-                        Qu'a-t-elle besoin de m'en prier? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 38 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> je suis ému, troublé, attristé, et
+                        Qu'a-t-elle besoin de m'en prier?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 38
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      je suis ému, troublé, attristé, et
                         ton image est en traits brûlans au milieu de toutes ces agitations. Ce n'est
                         pas ton intention de déchirer l'ame où tu règnes, de bouleverser le temple
                         où tu es si purement adorée. Le voeu d' affliger qui que ce soit au monde,
@@ -2411,12 +2711,18 @@
                         qu'il appartient d'en triompher. Mon Eugénie se souviendra de son amant, et
                         de tout ce qui lui a valu ce beau titre; elle se souviendra de nos sermens,
                         qui sont tels que le parjure seroit pour nous un châtiment, et de notre
-                        union qui, pour ne pas devenir un crime, a besoin d'être éternelle. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 39 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> les prétentions et l'esprit de
+                        union qui, pour ne pas devenir un crime, a besoin d'être éternelle.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 39
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      les prétentions et l'esprit de
                         galanterie bannissent l'union de toutes les sociétés. Si parmi des personnes
                         qui se voient et se rassemblent tous les jours, il se trouve une femme
                         supérieureaux autres par son mérite et par sa beauté, tous les hommes se
@@ -2450,12 +2756,18 @@
                         plus que la bonne chère, et à qui rien ne manque ici pour satisfaire son
                         goût, est le seul qui soit content. Heureux celui qui n'est plus dans l'âge
                         des passions! Heureux (comme disoit Télémaque dans l'île des chypriens), ô
-                        heureux l'homme qui est couvert de cheveux blancs! </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 40 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> lorsqu'on est amoureux comme on l'étoit au
+                        heureux l'homme qui est couvert de cheveux blancs!
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 40
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      lorsqu'on est amoureux comme on l'étoit au
                         dixieme siècle, et que l'on aime à lire des romans de chevalerie, on doit
                         aimer aussi les hermites. Il y en a un dans ce canton; je ne l'avois point
                         encore visité. J'ai donc été me promener à l'hermitage, espérant retrouver
@@ -2582,13 +2894,20 @@
                         s'étant rendu agréable par ses services au roi Henri III, lui demanda, pour
                         grace singulière, de contraindre ses sujets à ne point reconnoître d'autre
                         divinité que celle du soleil.Parmi les juifs, il y avoit une secte qui
-                        rendoit hommage aux puits et aux fontaines: on les appelloit <hi
-                            rend="italic"> putéorites </hi> . Les syriens alloient chercher leurs
+                        rendoit hommage aux puits et aux fontaines: on les appelloit
+      <hi rend="italic">
+       putéorites
+      </hi>
+      . Les syriens alloient chercher leurs
                         dieux dans la mer, et ces dieux étoient des poissons. Les américains
                         septentrionaux de Cévola rendoient un culte à l'eau; les thessaliens aux
                         cigognes; les habitans du Mont-Cassin aux oiseaux seleucides; les assyriens
                         aux colombes; les peuples du Mogol aux génisses; ceux de Calicut et de
-                        Memphis aux boeufs; les tartares, appellés <hi rend="italic"> moxii </hi> ,
+                        Memphis aux boeufs; les tartares, appellés
+      <hi rend="italic">
+       moxii
+      </hi>
+      ,
                         à un cheval de paille; les samogiciens aux serpens, et quelques indiens à un
                         éléphant blanc. Dans cette longue énumération des folies humaines, en est-il
                         d'aussi étrange que celle des égyptiens? Ils eurent un gouvernement, des
@@ -2674,12 +2993,18 @@
                         charmans; mais elle est, quand elle le veut, le chef-d' oeuvre et l'image de
                         la divinité. Je l'offense peut-être ce dieu jaloux de l'hommage exclusif des
                         mortels; mais quand Eugénie me sourit amoureusement, je l'aime et le bénis
-                        davantage, ou, pour mieux dire, c'est lui que j'aime en elle. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 41 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> nous revenons d'une très-belle maison de
+                        davantage, ou, pour mieux dire, c'est lui que j'aime en elle.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 41
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      nous revenons d'une très-belle maison de
                         campagne, appartenant à M De Boulogne, intendant des finances. Cette partie
                         de plaisir étoit projettée depuis long-tems; elle n'a eu lieu qu'aujourd'
                         hui. Tout ce que nous sommes de monde au château, et le curé et quelques
@@ -2746,14 +3071,20 @@
                         développe point dans le cercle uniforme de nos petites représentations; et
                         tel est l'ascendant d'une nature grande et pittoresque, que c'est elle seule
                         qui peut éveiller en nous de grandes sensations, de grandes idées, et de
-                        grands sentimens </p>
-                </div>
-            </div>
-            <div type="group">
-                <div type="chapter">
-                    <head> LETTRE 42 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> que de choses j'aurois à vous dire
+                        grands sentimens
+     </p>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      LETTRE 42
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      que de choses j'aurois à vous dire
                         depuis trois semaines que vous n'avez eu de mes nouvelles, si je voulois
                         vous peindre mon changement de situation, et vous rendre cette foule de
                         petites circonstances qui l'ont occasionné! Je vous fais grace de
@@ -2797,12 +3128,18 @@
                         pas; l'amour désintéressé m'ordonne-t-il de la vouloir aussi, lorsque moi je
                         l'envisage et la prévois dans toutes ses circonstances? Adieu, mon ami;
                         éclairez-moi, soutenez-moi, grondez-moi s'il le faut. Vous êtes indulgent:
-                        j'ai besoin que vous le soyez; mais vous l'êtes trop aussi quelquefois. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 43 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> je suis calme et heureux, mon cher comte;
+                        j'ai besoin que vous le soyez; mais vous l'êtes trop aussi quelquefois.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 43
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      je suis calme et heureux, mon cher comte;
                         je ne l'étois pas il y a quelques heures. J'avois promis de vous épargner
                         beaucoup de détails dans le récit de mes amours, de ne pas vousmontrer votre
                         ami toutes les fois que par ses foiblesses, il seroit indigne de paroître
@@ -3242,12 +3579,18 @@
                         Nous sommes rentrés au château appuyés l'un sur l'autre, joyeux et
                         satisfaits comme au tems de nos premières amours. J'ai chassé devant moi les
                         noires pensées de l'avenir; les soupçons ont disparu; la paix est rentrée
-                        dans mon coeur. Eugénie m'aime toujours. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 44 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> tout le monde est parti, et même le
+                        dans mon coeur. Eugénie m'aime toujours.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 44
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      tout le monde est parti, et même le
                         vicomte. Madame De V avoit le ton moins léger, étoit plus réservée avec lui
                         depuis quelques jours. Cela déplaisoit fort à notre avantageux, qui
                         reprenoit toute sa fatuité, s'imaginant que son mérite avoit enfin triomphé
@@ -3317,12 +3660,18 @@
                         sembloit que le plaisir divisé en particulesinfinies, formoit les élémens de
                         l'air que je respirois. Loin de moi tous les pressentimens qui affligent. Je
                         ne veux plus voir l'avenir, ni entendre ses tristes oracles. Le bonheur peut
-                        m'échapper encore; mais je le tiens, et j'en jouis. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 45 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> à Paris dans ce moment, on se passionne
+                        m'échapper encore; mais je le tiens, et j'en jouis.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 45
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      à Paris dans ce moment, on se passionne
                         pour des folies sentimentales. Dans les journaux, dans les romans, dans les
                         pièces de théâtre, il n'est question que de fous et de folles par amour. Ce
                         qui a donné lieu à cette fureur du moment, dans ce pays où la moindre
@@ -3429,12 +3778,18 @@
                         présente; je me retraçois la cause de son malheur; et quelques regrets,
                         quelques souvenirs se mêloient à mes larmes.J' étois trop vivement ému pour
                         espérer le sommeil; et en attendant le jour, j'écrivis ce qui m'étoit arrivé
-                        " . </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 46 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> tant qu'il y a eu du monde au château, les
+                        " .
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 46
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      tant qu'il y a eu du monde au château, les
                         bons voisins de Madame De V, ces respectables campagnards dont je vous ai
                         parlé dans mes lettres, n'y sont pas venus fort souvent: il y a bien un mois
                         qu'ils y dînèrent. Le vicomte leur trouva des airs gothiques, dit qu'ils
@@ -3461,12 +3816,18 @@
                         puisse être celui des femmes; que les routes irrégulières soient celles où
                         elles se plaisent, où la nature les conduit? Et leur ame est-elle, comme on
                         l'a dit, une glace qui reçoive tous les objets, les rende vivement et n'en
-                        conserve aucun? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 47 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> vous savez que Madame De V a beaucoup de
+                        conserve aucun?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 47
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      vous savez que Madame De V a beaucoup de
                         parens en Alsace, qu'une partie de sa famille réside à Strasbourg. Un oncle,
                         dont elle est la principalehéritière, vient de mourir en cette ville: elle
                         est obligée d'aller elle-même sur les lieux régler les affaires de la
@@ -3475,12 +3836,18 @@
                         à sa terre, de veiller aux intérêts de sa maison pendant son absence, qui
                         sera de plus d'un mois. Je resterai; je ferai ce qu'elle desire; mais ce
                         départ me jette dans une tristesse mortelle: j'en suis accablé. Adieu, mon
-                        cher comte; je n'ai pas la force de continuer. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 48 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> je voudrois ne point t'affliger, mon
+                        cher comte; je n'ai pas la force de continuer.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 48
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      je voudrois ne point t'affliger, mon
                         Eugénie; mais que puis-je te dire qui ne soit pas dicté par un coeur désolé?
                         Je n'ai point d'autres sentimens quemes regrets et ma tendresse. Est-il en
                         mon pouvoir de te peindre autre chose que ma tendresse et mes regrets? Hier,
@@ -3545,12 +3912,18 @@
                         donne le vernis qu'il veut dans le silence des passions. Faut-il que l'avantage de plaire par des graces extérieures soit un résultat de l'art! Et
                         que cet art charmant, à la vérité, soit cependant l'ouvrage des coeurs
                         froids! Adieu, mon Eugénie! écris-moi, dis-moi que je te suis cher; que tu
-                        me seras fidelle; que tu ne veux point le malheur de ton ami. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 49 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> comment supportes-tu les fatigues de ce
+                        me seras fidelle; que tu ne veux point le malheur de ton ami.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 49
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      comment supportes-tu les fatigues de ce
                         voyage si long et si pénible? Si tu allois être malade... je tremble... tu
                         couches ce soir à épernay; trente lieues déjà nous séparent, soixante lieues
                         bientôt vont nous séparer... mon dieu! Que faire, que devenir si loin de
@@ -3573,12 +3946,18 @@
                         Souviens-toi qu'il n'y a dans la nature de vivant à mes yeux que ton image,
                         telle que je la vois, telle que j'aime à la contempler; et qu'il
                         n'existeroit rien pour moi, rien que l'espoir de mourir, si tu me l'offrois
-                        jamais sous des traits différens. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 50 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> le tems, dit-on, guérit toutes les
+                        jamais sous des traits différens.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 50
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      le tems, dit-on, guérit toutes les
                         douleurs; ah! Ce n'est pas lorsqu'elles sont l'effet de ton absence. Le tems
                         est sans pouvoir pour me consoler; il n'a de prise sur mon coeur que pour
                         aggrandir ses blessures; il n'influe sur mes sentimens que pour les
@@ -3642,12 +4021,18 @@
                         fortes et cruelles que le tems n'usera jamais. Voici la troisième lettre que
                         je t'écris: mande-moi, si tu les reçois exactement. Je ne sais où tu es, ce
                         que tu fais, si tu te portes bien. écris-moi donc, écris-moi promptement.
-                        Adieu, tendre objet de mes pleurs, mon amour, ma chère ame! Adieu. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 51 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> que ferai-je de ce billet charmant, où
+                        Adieu, tendre objet de mes pleurs, mon amour, ma chère ame! Adieu.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 51
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      que ferai-je de ce billet charmant, où
                         ma belle, ma bonne, ma seule et unique amie m'a tracé de sa main
                         lesassurances de sa tendresse? Où placerai-je, quel lieu est digne de
                         conserver ce trésor? Je ne puis en détacher mes lèvres; je crois qu'elles y
@@ -3747,12 +4132,18 @@
                         douce espérance qui vient à moi avectoutes ses illusions. Maîtresse chérie!
                         Ame de mon ame! Tu tiens dans tes mains tous les ressorts de mon être; ils
                         iront ou s'arrêteront désormais à ta seule volonté: voudrois-tu les briser
-                        impitoyablement? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 52 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> j'ai bien besoin de vos conseils et
+                        impitoyablement?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 52
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      j'ai bien besoin de vos conseils et
                         de vos consolations, mon cher comte; mais suis-je en état de les recevoir?
                         Les secours de l'amitié peuvent-ils quelque chose dans les pertes de
                         l'amour? L'absence de Madame De V pèse sur moi comme un poids. Quel est donc
@@ -3784,16 +4175,26 @@
                         délicieuses; mais après ce que j'ai découvert,et ce que je vous ai mandé de
                         son caractère, mes chagrins sont une prévoyance sinistre. Mes souvenirs même
                         et mon expérience, se transforment tous en des alarmes continuelles. Plus
-                        confiant et moins éclairé, je serois moins malheureux. <hi rend="italic"> P
-                            S. </hi> je viens de recevoir une lettre de Madame De V; je vous quitte
+                        confiant et moins éclairé, je serois moins malheureux.
+      <hi rend="italic">
+       P
+                            S.
+      </hi>
+      je viens de recevoir une lettre de Madame De V; je vous quitte
                         pour y répondre. Quelle lettre, ô mon ami! ... jamais Eugénie ne me fût
                         aussi chère; jamais l'expression de sa tendresse, jamais l'espérance de
-                        conserver sa foi, ne me jetta dans de si douces extases... </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 53 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> je ne t'envoie qu'un stérile papier,
+                        conserver sa foi, ne me jetta dans de si douces extases...
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 53
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      je ne t'envoie qu'un stérile papier,
                         ô mon Eugénie! Et je voudrois que ce fût mon ame elle-même qui parvîntjusqu'
                         à la tienne. Ce seroit t'envoyer ton bien, puisqu'elle est à toi toute
                         entière. Eh! Que puis-je te donner, de ce qui vient de moi, qui ne
@@ -3846,12 +4247,17 @@
                         t'aime avec toute mon ame, et toute mon ame n'est pas encore ce que je
                         voudrois qu'elle fût pour t'aimer selon mes desirs; mais j'entrevois ce
                         qu'elle deviendra, et c'est à l'amour que je dois ce pressentiment sublime.
-                    </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 54 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> mes sensations varient avec la rapidité
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 54
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      mes sensations varient avec la rapidité
                         de l'éclair. Tu as cru que j'allois rester dans une assiette d' esprit fort
                         tranquille; il n'en est rien. Jamais je ne fus si inconsolable. Ta dernière
                         lettre m'avoit apporté quelques heures de satisfaction bien vive à la
@@ -3897,19 +4303,33 @@
                         et mon coeur devient un foyer de vibrations irrégulières, rapides et
                         précipitées. Depuis quelques jours, je suis moins agité au-dehors, sans être
                         plus calme au-dedans: il me semble toujours que je ne dois plus te revoir.
-                        Une seule pensée s'arrête, se fixe dans mon esprit: <hi rend="italic"> je ne
-                            la reverrai plus </hi> . Après une journée bien longue, bien pénible, je
+                        Une seule pensée s'arrête, se fixe dans mon esprit:
+      <hi rend="italic">
+       je ne
+                            la reverrai plus
+      </hi>
+      . Après une journée bien longue, bien pénible, je
                         me couche; et le matin à mon réveil, cette pensée est encore là, et remplit
-                        mon coeur: <hi rend="italic"> je ne la reverrai plus </hi> . Si je savois
+                        mon coeur:
+      <hi rend="italic">
+       je ne la reverrai plus
+      </hi>
+      . Si je savois
                         feindre, je te manderois des choses plus agréables; mais je ne saurai jamais
                         n'être pas sincère avec toi. Ce sera toujours dans ton coeur que je mettrai
                         en dépôt mes pensées et mes sentimens. Tendres oudouloureux, ils viennent de
-                        toi; ils ne font que retourner à leur source. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 55 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> je vous remercie, mon cher comte, du
+                        toi; ils ne font que retourner à leur source.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 55
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      je vous remercie, mon cher comte, du
                         tendre intérêt que vous me témoignez. S'il ne guérit pas mes maux, il les
                         soulage; et quand je lis vos lettres, toutes pleines d'une philosophie si
                         aimable, je reprends cette situation d'esprit qui dispose un coeur souffrant
@@ -3984,12 +4404,18 @@
                         qu'il doit être dans le plan de la création. Il jouit enfin, parce qu'il
                         aime l'ordre, parce qu'il obéit au voeu de la nature, parce que le penchant
                         qui l'y excite, lui paroît une de ses loix, et que le plaisir si naturel et
-                        si doux qu'il a dans son accomplissement lui en garantit la légitimité. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 56 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> tu me conjure de me tranquilliser;
+                        si doux qu'il a dans son accomplissement lui en garantit la légitimité.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 56
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      tu me conjure de me tranquilliser;
                         tu ne veux pas que je m'afflige, lorsqu'un intervalle de soixante lieuesnous
                         sépare. Mais enseigne-moi donc ce qu'il faut faire pour trouver le repos où
                         tu n'es pas: il y a des habitudes auxquelles il est mortel de renoncer.
@@ -4029,12 +4455,18 @@
                         si heureuses et si délicates de ton style enchanté? Tu ignores donc que tes
                         lettres me disent qu'il n'est rien au monde d'aussi aimable que toi, et
                         m'avertissent continuellement de combien de perfections j'ai besoin pour
-                        mériter ta constance et ta fidélité? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 57 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> j'ai été voir aujourd'hui M De B, ce
+                        mériter ta constance et ta fidélité?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 57
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      j'ai été voir aujourd'hui M De B, ce
                         respectable gentilhomme dont je vous ai parlé dans une de mes lettres. Je
                         l'ai trouvé dans une salle basse décorée à l'antique, et tapissée d'une
                         grande quantité de tableaux defamille. Il étoit assis auprès d'un bon feu,
@@ -4083,7 +4515,10 @@
                         répondu, se croire bien dépourvu de moyens et d'avantages, pour renoncer à
                         l'espoir d'être utile. Qu'un vieillard soit sans ambition, qu'un homme
                         médiocre, qu'un de ces êtres nuls que les anglais appellent ingénieusement
-                            <hi rend="italic"> les blancs </hi> de la société,prévienne sa destinée
+      <hi rend="italic">
+       les blancs
+      </hi>
+      de la société,prévienne sa destinée
                         et se dévoue à l'oubli auquel il est condamné, à la bonne heure; mais
                         lorsqu'on est à la fleur de l'âge, et que l'on a quelque supériorité dans
                         l'esprit, on se doit à la société.-un homme, ai-je repris, quels que soient
@@ -4229,12 +4664,18 @@
                         doux et si indomptable, s'il avoit été dans les vues de sa sagesse que j'en
                         triomphasse? J'obéis au ciel, quand je me livre à toute ma tendresse; et
                         quand je ne suis point maître de ne point aimer, c'est qu'il a voulu que
-                        j'aimasse. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 58 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> je ne sais, mon Eugénie, si vous
+                        j'aimasse.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 58
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      je ne sais, mon Eugénie, si vous
                         avez quelques belles journées à Strasbourg; ici nous n'en avons guères. Il a
                         fait hier un tems épouvantable qui a commencé à cinq heures du matin, et a
                         duré jusqu'à minuit sans discontinuer. Je me suis retiré dans mon
@@ -4297,14 +4738,24 @@
                         voit à regret parmi ses productions diverses; et que ses violentes
                         agitations sont des crises de fureur, dans lesquelles elle s'efforce de
                         l'anéantir. Adieu, chère Eugénie; pensez à moi, aimez-moi: vous me l'avez
-                        tant promis! </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 59 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> cette semaine est celle des événemens
+                        tant promis!
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 59
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      cette semaine est celle des événemens
                         dans ta maison. En voiciencore un qu'il faut te raconter. Un misérable
-                        paysan, nommé <hi rend="italic"> Mouron, </hi> qui a été charretier dans une
+                        paysan, nommé
+      <hi rend="italic">
+       Mouron,
+      </hi>
+      qui a été charretier dans une
                         ferme, a commis dans le canton quelques vols que l'on exagère, et que l'on
                         raconte diversement. Cet homme a eu l'adresse d'échapper à la maréchaussée,
                         occupée, dit-on, à le poursuivre; et tout de suite, on lui a donné le génie
@@ -4318,13 +4769,20 @@
                         prendretoutes les formes qu'il lui plaît. Ce bruit répandu dans tous les
                         villages, a passé jusques dans ta maison, et s'y est accrédité. Tes
                         domestiques croient à tout ce que l'on débite de merveilleux sur le compte
-                        du capitaine <hi rend="italic"> Mouron </hi> ; ils me racontent fort
+                        du capitaine
+      <hi rend="italic">
+       Mouron
+      </hi>
+      ; ils me racontent fort
                         plaisamment ses faits nocturnes, et les différentes métamorphoses qu'on lui
                         attribue. Ce soir, j'étois à table dans le sallon, mangeant tranquillement
                         un petit plat de légumes. Hélène, Agathe, les filles de basse-cour et les
                         autres domestiques, sont entrés tumultueusement avec les marques du plus
-                        grand effroi, me disant d'une voix basse et tremblante que le capitaine <hi
-                            rend="italic"> Mouron </hi> étoit dans le jardin, qu'on l'avoit entendu
+                        grand effroi, me disant d'une voix basse et tremblante que le capitaine
+      <hi rend="italic">
+       Mouron
+      </hi>
+      étoit dans le jardin, qu'on l'avoit entendu
                         parler à ses gens, et qu'il alloit venir nous égorger; que les chiens
                         l'avoient bien senti, et qu'ils ne cessoient d'aboyer et de hurler à la
                         porte du jardin. Je n'ai pu m'empêcher de sourire d'une pareille frayeur;
@@ -4342,8 +4800,11 @@
                         d'un bosquet, et s'enfuir au galop à travers les plate-bandes. Le plaisant
                         del' aventure, c'est que lorsque j'ai dit à haute voix que c'étoit un cheval
                         échappé, ils se sont tous sauvés en jettant de grands cris. Ils pensoient de
-                        bien bonne fois que c'étoit le capitaine <hi rend="italic"> Mouron </hi>
-                        lui-même qui s'étoit changé en cheval. J'ai été obligé de courir après cet
+                        bien bonne fois que c'étoit le capitaine
+      <hi rend="italic">
+       Mouron
+      </hi>
+      lui-même qui s'étoit changé en cheval. J'ai été obligé de courir après cet
                         animal, de le reprendre, et de le conduire aux écuries moi-même. Personne
                         n'osoit en approcher. Cette scène m'a paru fort plaisante, et m'a donné un
                         quart-d' heure de bon rire. La crédulité du peuple m'amuse et me touche. Il
@@ -4352,12 +4813,18 @@
                         absurdes, et qui est le partage ordinaire du peuple ignorant, a été
                         l'instrument dont l'esprit fort de certains hommes s'est servi pour faire
                         des esclaves et des malheureux.Bon soir, mon Eugénie; tu ne m'écris pas; je
-                        suis inquiet. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 60 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> je ne reçois plus de vos lettres,
+                        suis inquiet.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 60
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      je ne reçois plus de vos lettres,
                         Eugénie; seriez-vous malade, ou vous lassez-vous de m'envoyer des
                         consolations? Il n'en est pas ainsi de votre amant, qui voudroit que toutes
                         ses heures fussent employées à vous parler de vous et de son amour. Je
@@ -4414,12 +4881,18 @@
                         unique, et contre lequel le tems ne peut rien; vous savez, je n'ai pu vous
                         le dissimuler, que je suis malade, que je languis, que vous en êtes cause;
                         etvous êtes sur tout cela d'une indolence dont je n'ose encore approfondir
-                        les motifs. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 61 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> s'il entroit dans vos vues de me faire
+                        les motifs.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 61
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      s'il entroit dans vos vues de me faire
                         souffrir; si vous vous êtes dit à vous-même que loin de vous je connoîtrois
                         toutes les gradtions du chagrin, je me résigne à votre volonté comme à celle
                         de l'être qui vous fit l'arbitre de ma destinée. Mais concevez-vous bien
@@ -4448,12 +4921,18 @@
                         être. Eugénie! Chère idole de mon ame! Vois moi, frémissant d'épouvante et
                         de désespoir... un mot, ton ami t'en conjure; envoie-lui un mot, un seul mot
                         que ta main ait tracé; et l'espérance lui rendra sa douce lumière, et tous
-                        ses maux s'en iront comme un souffle. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 62 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> il m'est enfin connu le motif de votre
+                        ses maux s'en iront comme un souffle.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 62
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      il m'est enfin connu le motif de votre
                         silence. être fausse ou cruelle, vous n'avez pas d'autre alternative; et
                         c'est pour cela que vous ne m'écrivez plus. Vous vouliez bien que je
                         devinasse votre changement; mais vous aviez peur de me l' annoncer. Je rends
@@ -4482,7 +4961,11 @@
                         solitude qui me suivra par-tout séparé de vous; augmentez l'horreur qui
                         m'accompagnera dans tous les lieux, en me mettant à même de me représenter
                         et de lire continuellement ces mots, ces terribles mots tracés de votre
-                        main: <hi rend="italic"> Eugénie ne t'aime plus </hi> . Ne cherchez pas à me
+                        main:
+      <hi rend="italic">
+       Eugénie ne t'aime plus
+      </hi>
+      . Ne cherchez pas à me
                         consoler... des consolations à moi! ... ce sont des douleurs, ce sont des
                         tourmens qu'il me faut; je les veux horribles. Je n'ai pourtant pas le
                         projet de mourir; je veux vivre, parce que je veux souffrir. Le calme est à
@@ -4492,12 +4975,18 @@
                         le désespoir qui me vient d'elle, que le bonheur qu'elle ne m'auroit pas
                         donné. Le tems de lire cette lettre, si vous la lisez, sera pris sur des
                         momens bien mieux employés pour votre satisfaction... je l'oubliois...
-                        pardon. Aussi bien n'ai-je pas la force de continuer... </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 63 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> je vous parlois de courage il y a
+                        pardon. Aussi bien n'ai-je pas la force de continuer...
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 63
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      je vous parlois de courage il y a
                         quelques jours. Le mien est abattu; je n'en ai plus. Aujourd'hui cependant
                         je porte une espèce de lumière dansle cahos de mes idées. Le tems et la
                         nature humaine veulent que tout change et que tout finisse. Je commence à
@@ -4517,8 +5006,12 @@
                         je crois vous l' avoir dit, et ces huit jours m'ont vieilli de plus de huit
                         ans. En lisant cette lettre, vous saurez la cause des affreux tourmens que
                         je viens d'éprouver, et vous concevrez que je ne fais point mal de vous en
-                        épargner le tableau. <hi rend="italic"> lettre de M De Ch, sous-lieutenant
-                            de dragons, au Chevalier De . </hi> " mon cher cousin, Madame De V, dont
+                        épargner le tableau.
+      <hi rend="italic">
+       lettre de M De Ch, sous-lieutenant
+                            de dragons, au Chevalier De .
+      </hi>
+      " mon cher cousin, Madame De V, dont
                         tu me demandes des nouvelles, se porte on ne peut mieux. Comment la maladie
                         auroit-elle accès dans sa maison? Les plaisirs l'investissent, et je
                         t'assure qu'elle ne cherche point à les écarter. Elle les goûte fort,et
@@ -4546,12 +5039,18 @@
                         ranimé. Avant qu' elle arrivât, nous n'étions occupés qu'à manoeuvrer, qu'à
                         manier des chevaux et des armes: je mecroyois à Sparte. à présent, nous
                         cueillons des fleurs, nous tressons des guirlandes: je me crois dans
-                        Amathonte " . </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 64 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> que serois-je devenu depuis que Madame De
+                        Amathonte " .
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 64
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      que serois-je devenu depuis que Madame De
                         V est partie; qu'aurois-je fait seul dans ces lieux où une force invincible
                         m'enchaîne et me retient, si je n'avois eu personne à qui confier mes
                         ennuis? ô charme de l'amitié! Pourquoi ne remplissez-vous pas le coeur tout
@@ -4580,7 +5079,11 @@
                         J'avois fait plus d'une lieue depuis que j'étois sorti du presbytère. Le
                         zéphir souffloit, la verdure renaissoit, des fleurs épanouies nouvellement,
                         coloroient d'or et de pourpre le sein des noirs rochers. Je suivois le cours
-                        d'une petite rivière qu'on nomme <hi rend="italic"> l'Oreuze, </hi> faisant
+                        d'une petite rivière qu'on nomme
+      <hi rend="italic">
+       l'Oreuze,
+      </hi>
+      faisant
                         les mêmes sinuosités, les mêmes détours, à travers les touffes d'herbes et
                         les arbrisseaux dispersés sur ses bords; mêlant les souvenirs,les regrets,
                         l'espérance, et quelquefois les retours aigus d'une douleur très-vive, à la
@@ -4616,14 +5119,20 @@
                         entrelacées de deux gros ormeaux, adossés à ses murs. Cette église étoit
                         ouverte; j'y suis entré. Le premier objet qui a frappé ma vue dans ce lieu,
                         c'est un tombeau simple et sans ornemens, élevé dans une chapelle. J'y ai lu
-                        ces mots, après m'en être approché: <hi rend="italic"> ci gît Alexandre,
-                            etc. Comte De La </hi>
-                        <hi rend="italic"> Glehen..., décédé en la quatre-vingt-dixième année de son
+                        ces mots, après m'en être approché:
+      <hi rend="italic">
+       ci gît Alexandre,
+                            etc. Comte De La
+      </hi>
+      <hi rend="italic">
+       Glehen..., décédé en la quatre-vingt-dixième année de son
                             âge. Il quitta les demeures corrompues de la cour et de la ville, pour
                             venir en ce lieu contempler la nature et pratiquer la vertu. il fut en
                             vénération parmi les habitans de cette contrée. Il se montra à eux
                             simple et sensible. Il les instruisoit et les secouroit. les larmes du
-                            pauvre ont coulé sur son cercueil. </hi> je ne saurois vous rendre
+                            pauvre ont coulé sur son cercueil.
+      </hi>
+      je ne saurois vous rendre
                         combien j'ai été touché d'apprendre que ce bon vieillard étoit mort. Saisi
                         d'une véritable affliction, je regardois sa sépulture, et je disois: " il
                         est donc là; voilà donc le lieu où s'achèvent les plus longues scènes de la
@@ -4677,12 +5186,18 @@
                         j'aurai recours à l'être qui renferme en lui toutes les félicités. Mais une
                         autre fois peut-être me sera-t-il moins favorable qu'il me l'est
                         aujourd'hui. Le repos dont je jouis aura peut-être la durée d'un éclair...
-                        hélas! Déjà je crains de le perdre. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 65 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> je ne vous dis rien de mes tourmens,
+                        hélas! Déjà je crains de le perdre.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 65
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      je ne vous dis rien de mes tourmens,
                         ni de la cause de mes tourmens; jerenferme en moi les reproches que je
                         pourrois vous adresser. Mes larmes, je les fais refluer vers mon coeur; mes
                         gémissemens et mes cris, je les étouffe. Vous retracer vos torts, ce seroit
@@ -4720,12 +5235,18 @@
                         déshonorer les femmes, et se font un jeu de leur désespoir; pour consoler de
                         les avoir méconnus, et d'avoir été leur victime? ... je m'arrête, Eugénie;
                         je n'ai rien à vous dire, puisque je n'ai plus rien qui puisse me faire
-                        écouter de vous. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 66 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> a-t-on un langage si tendre, lorsqu'on
+                        écouter de vous.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 66
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      a-t-on un langage si tendre, lorsqu'on
                         est perfide? Adresse-t-on des paroles si douces à celui que l'on veut
                         immoler? Pourquoi cherchez-vous à prolonger mon ivresse? Est-ce pour vous
                         amuser de ma crédulité, ou pour ne rien laisser échapper de votre empire?
@@ -4749,12 +5270,17 @@
                         l'embrasse avec ardeur; ce sera toujours un moment de soustrait à la rage du
                         destin qui me poursuit. Ah! Toutes les heures où je penserai qu'Eugénie
                         m'aime, seront détachées des heures brillantes qui coulent dans les cieux.
-                    </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 67 </head>
-                    <p>
-                        <hi rend="italic"> à la même. </hi> ne suis-je pas dans le délire d'un
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 67
+     </head>
+     <p>
+      <hi rend="italic">
+       à la même.
+      </hi>
+      ne suis-je pas dans le délire d'un
                         songe? Eugénie revient; je touche au moment de la revoir. ô ma bien aimée!
                         Tu vas reparoître en ces lieux; c'est toi qui me l'annonces, toi qui me
                         promets encore la suprême félicité. Je pensois tous mes beaux jours
@@ -4787,12 +5313,18 @@
                         dans les jardins. Mon coeur est le sol où croissent les fleurs que je te
                         destine. Mon imagination les dispose, l'amour les arrange. C'est
                         l'assemblage de tous les aimables sentimens qu'il t'a dit de m'inspirer; ce
-                        bouquet sera digne de toi. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 68 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> oui, mon cher comte, Madame De V est
+                        bouquet sera digne de toi.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 68
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      oui, mon cher comte, Madame De V est
                         revenue. Elle l'est depuis huit jours, non à sa terre, d'où l' on m'a
                         renvoyé votre lettre, mais à Paris où elle s'est rendue, et où je suis de
                         retour moi-même. J'espérois la revoir à Gurc comme elle me l'avoit annoncé;
@@ -4849,12 +5381,18 @@
                         suis tremblant; tous mes sens frémissent d'amour; et elle, elle rit ou elle
                         chante, ou me regarde froidement. On a tant de choses à se dire aprèsune
                         longue absence, et elle ne me dit rien. Je la possède, et je ne suis point
-                        heureux. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 69 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> c'en est fait, mon cher comte, Madame De V
+                        heureux.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 69
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      c'en est fait, mon cher comte, Madame De V
                         n'est plus la même. Je ne reconnois ni son esprit ni son coeur; sa figure
                         même est changée. Avant son départ encore, elle se montroit à la fois tendre
                         et spirituelle; dans chacune de ses pensées, bien que toujours fines et
@@ -4892,12 +5430,18 @@
                         pas le ton de celui qui trompe, elle le sait bien; mais lorsqu'on se lasse
                         d'un amant, et que l'on n'a point à s'en plaindre, il faut bien colorer son
                         changement de quelques prétextes. J'ai cessé de plaire, c'est là mon tort;
-                        celui-là fait supposer tous les autres. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 70 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> elle continue de me traiter avec dureté.
+                        celui-là fait supposer tous les autres.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 70
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      elle continue de me traiter avec dureté.
                         Maintenant elle feint d'être jalouse; elle m'accuse d' inconstance et de
                         légéreté comme le reste des hommes, moi, dont la vie est entreses mains;
                         moi, dont les heures toutes pleines d'amertume ne le sont que par elle; moi,
@@ -4922,8 +5466,12 @@
                         de la regarder. Expliquez-moi donc la cause de cette injustice, de cette
                         tyrannie bizarre et sans exemple? Hélas! Il n'est pas mal aisé de la
                         deviner. Eugénie a cessé d'être tendre, pour devenir impérieuse et vaine.
-                        Elle a dit dans son coeur: <hi rend="italic"> je ne veux plus que me faire
-                            adorer </hi> . Mon amour luiimporte peu. Elle est fatiguée, peut-être
+                        Elle a dit dans son coeur:
+      <hi rend="italic">
+       je ne veux plus que me faire
+                            adorer
+      </hi>
+      . Mon amour luiimporte peu. Elle est fatiguée, peut-être
                         irritée de ma présence; mes soupirs lui déplaisent: elle ne veut plus de mes
                         caresses; mais elle veut toujours mes hommages. On sait dans le monde que
                         j'ai porté ses chaînes; elle veut que l'on sache, que l'on croie que je les
@@ -4933,18 +5481,28 @@
                         blazé, desséché, seroit tombé tout d'un coup dans l'avilissement de la
                         coquetterie? ... et rien ne peut me détacher d'elle; et, tout en me
                         consumant, ma flamme ne fait qu'augmenter. Adieu, mon cher comte; mon esprit
-                        et mes idées se confondent. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 71 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> le Marquis De R, ce colonel dont il a été
+                        et mes idées se confondent.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 71
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      le Marquis De R, ce colonel dont il a été
                         fait mention pendant le voyage de Strasbourg, est revenu de son régiment; il
                         va chez Madame De V presque tous les jours. Je l'ai vu et entendu ce rival
                         justement redouté, et que je puis dire préféré. Il a de la taille, de la
                         figure; il s'annonce avec une politesse parfaite, s'exprime avec aisance,
                         avec grace, quelquefois avec noblesse, et paroît très habile à prendre tous
-                        les tons. Son esprit a <hi rend="italic"> du trait, de la tournure, </hi> et
+                        les tons. Son esprit a
+      <hi rend="italic">
+       du trait, de la tournure,
+      </hi>
+      et
                         une prodigieuse variété. Cet homme est petit-maître, penseur, politique,
                         grand seigneur, bourgeois, artisan, palfrenier, français, anglais,
                         tour-à-tour. L'agriculture, la législation, la philosophie morale, la
@@ -4987,12 +5545,18 @@
                         et dévorant; elle y multiplie les supplices de l'enfer. Adieu, mon cher
                         comte; votre ami n'est plus qu'une ombre de ce qu'il étoit. Moi, votre ami,
                         hélas! Mérité-je ce titre? Un coeur plein d'un désespoir farouche est-il
-                        capable d'amitié? </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 72 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> je sais que là où finit le commerce
+                        capable d'amitié?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 72
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      je sais que là où finit le commerce
                         des coeurs, celui des lettres doit s'arrêter, et je ne prétends pas vous
                         fatiguer plus long-tems de mes écrits; mais permettez-moi de vous faire une
                         dernière question, et de vous demander si c'est sans regret que vous en êtes
@@ -5032,12 +5596,18 @@
                         indigné, mais toujours pour vous laisser voir un coeur reconnoissant.
                         Achevez tranquillement d'immoler votre victime; brisez sans remords tous les
                         liens qui m'attachent à undébris d'existence, je finirai par vous bénir, et
-                        regarder tout cela comme de la pitié. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 73 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> oui, mon cher comte, oui, si je
+                        regarder tout cela comme de la pitié.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 73
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      oui, mon cher comte, oui, si je
                         pouvois, j'irois auprès de vous apprendre à peser le sentiment au poids de
                         la raison; réprimer la passion qui me tyrannise d'une manière si étrange, et
                         lui imposer une sévère contrainte, secouru du zèle et des forces de
@@ -5069,12 +5639,18 @@
                         qu'une illusion? Je ne vois pas ce que je suis; je ne sais que penser dans
                         ce cahos des passions et des visions humaines. Le bruit de la société est à
                         mon esprit, ce qu'est aux oreilles d'un homme qui se noiele murmure et le
-                        bouillonnement des eaux... adieu, mon cher comte... adieu. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 74 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> me voilà donc parvenu à ce terme où
+                        bouillonnement des eaux... adieu, mon cher comte... adieu.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 74
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      me voilà donc parvenu à ce terme où
                         la vie n'est plus qu'une lumière épouvantable que l'on cherche à fuir de
                         toutes ses forces dans la nuit éternelle... elle est consommée votre
                         infidélité; elle l'étoit avant votre retour... j'en ai vu, j' en ai lu
@@ -5142,12 +5718,17 @@
                         dispersés dans les élémens, voilà ce que je serai dans quelques jours. Je
                         serai tout cela, quand Eugénie, belle encore de tous ses appas, et traînée
                         dans le char du plaisir, foulera la terre où l'on aura déposé ma cendre...
-                    </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 75 </head>
-                    <p>
-                        <hi rend="italic"> au Comte De P. </hi> j'ai reçu vos deux lettres en même
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 75
+     </head>
+     <p>
+      <hi rend="italic">
+       au Comte De P.
+      </hi>
+      j'ai reçu vos deux lettres en même
                         tems, mon cher comte, et il n'y a que deux jours qu'elles m' ont été
                         remises. Je n'eusse pas été en état de les lire auparavant. Vos alarmes sur
                         ma santé n'étoient que trop fondées. Je sors d'une maladie longue et
@@ -5426,12 +6007,18 @@
                         de son ame sont changés; il a repris le goût du vrai, l'amour de l'ordre, le
                         courage et la sécurité de la vertu. Il n' estimeplus que ce qui est
                         estimable, n'aime plus que ce qui est digne d'être aimé: il est, je crois,
-                        digne de vous. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 76 </head>
-                    <p>
-                        <hi rend="italic"> au même. </hi> un reste de fièvre me tient en langueur;
+                        digne de vous.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 76
+     </head>
+     <p>
+      <hi rend="italic">
+       au même.
+      </hi>
+      un reste de fièvre me tient en langueur;
                         ma santé ne se rétablit point, et je doute qu'elle se rétablisse jamais.
                         J'ai tant fait pour en hâter la perte! ... mais le mal est venu; il est mon
                         ouvrage: je ne puis le réparer que par la résignation. Mon ame continue
@@ -5454,12 +6041,18 @@
                         sort qui l'attend inévitablement. D'autres peuvent abuser de sa foiblesse,
                         se faire un jeu de sa honte, ériger des trophées sur son déshonneur; ma
                         langue et ma bouche épargneront toujours celle qui, pour être à moi, cessa
-                        d'être à la vertu, et qui oublia sa gloire pour songer à mes plaisirs. </p>
-                </div>
-                <div type="chapter">
-                    <head> LETTRE 77 </head>
-                    <p>
-                        <hi rend="italic"> à Madame De V. </hi> une lettre de vous, madame; et
+                        d'être à la vertu, et qui oublia sa gloire pour songer à mes plaisirs.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LETTRE 77
+     </head>
+     <p>
+      <hi rend="italic">
+       à Madame De V.
+      </hi>
+      une lettre de vous, madame; et
                         pourquoi? Que me voulez-vous? Que me demandez-vous? Et qu'y a-t-il encore de
                         commun entre nous? Quel surcroi de dépit ou d'ennui, quel écart
                         d'imagination ou quel rêve bizarre vous a persuadé que vous m' aimiez
@@ -5467,8 +6060,12 @@
                         expérience vous mette à portée de faire des comparaisons qui ne soient pas à
                         mon désavantage; mais je ne répondrai point à cet article de votre lettre:
                         mes nouveaux sentimens me le défendent plus encore que l'impossibilité de
-                        croire à tous ceux dont vous m'assurez. <hi rend="italic"> vous pleurez,
-                            vous n'êtes pas heureuse </hi> . Je le crois, je pense encore assez bien
+                        croire à tous ceux dont vous m'assurez.
+      <hi rend="italic">
+       vous pleurez,
+                            vous n'êtes pas heureuse
+      </hi>
+      . Je le crois, je pense encore assez bien
                         de vous pour le croire. Ah! Pleurez, madame; pleurez tous les jours, toutes
                         les nuits, à toutes les heures; c'est dans les torrens de vos larmes que le
                         reste de votre vie doit s'écouler, si vous voulez redevenir un objet
@@ -5502,9 +6099,10 @@
                         pour vous... je vous aime toujours, n'en doutez pas; il n'est pas en moi de
                         cesser de vous aimer. Mon attachement n'est plus une passion, Dieu ne
                         sauroit le condamner; mais il est tel encore que s'il falloit ma vie pour
-                        assurer votre bonheur, ma vie encore seroit à vous. </p>
-                </div>
-            </div>
-        </body>
-    </text>
+                        assurer votre bonheur, ma vie encore seroit à vous.
+     </p>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>

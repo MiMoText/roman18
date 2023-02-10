@@ -2,79 +2,128 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Marmontel_Belisaire" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:67.39 wikidata:Q5005038"> Bélisaire: MiMoText edition </title>
-                <author ref="viaf:7393886 wikidata:Q379923"> Jean-François Marmontel(1723-1799) </author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Amelie Probst </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 43694 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/MiMoText/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Bélisaire</title>
-                    <author>Jean-François Marmontel</author>
-                    <date> 1767 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1767 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2020-12-20"> Initial ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head> CHAPITRE ô </head>
-                <p> Dans la vieillesse de Justinien, l'empire, épuisé par de longs efforts,
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:67.39 wikidata:Q5005038">
+     Bélisaire: MiMoText edition
+    </title>
+    <author ref="viaf:7393886 wikidata:Q379923">
+     Jean-François Marmontel(1723-1799)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Amelie Probst
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     43694
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/MiMoText/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Bélisaire
+     </title>
+     <author>
+      Jean-François Marmontel
+     </author>
+     <date>
+      1767
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1767
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2020-12-20">
+    Initial ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     CHAPITRE ô
+    </head>
+    <p>
+     Dans la vieillesse de Justinien, l'empire, épuisé par de longs efforts,
                     approchoit de sa décadence. Toutes les parties de l'administration étoient
                     négligées: les loix étoient en oubli, les finances au pillage, la discipline
                     militaire à l'abandon. L'empereur, lassé de la guerre, achetoit de tous côtés la
@@ -95,8 +144,11 @@
                     gouvernoient le monde en buvant, etchaque nouvelle coupe de vin rendoit leurs
                     vues plus infaillibles. Le vieillard, assis au coin du feu, les écoutoit, et
                     sourioit avec pitié. L'un d'eux s'en apperçut, et lui dit: bon homme, vous avez
-                    l'air de trouver plaisant ce que nous disons là? <hi rend="italic"> plaisant,
-                    </hi> non, dit le vieillard, mais un peu léger, comme il est naturel à votre
+                    l'air de trouver plaisant ce que nous disons là?
+     <hi rend="italic">
+      plaisant,
+     </hi>
+     non, dit le vieillard, mais un peu léger, comme il est naturel à votre
                     âge. Cette réponse les interdit. Vous croyez avoir à vous plaindre,
                     poursuivit-il, et je crois comme vous qu'on a tort de vous négliger; mais c'est
                     le plus petit mal du monde. Plaignez-vous de ce que l'empire n'a plus sa force
@@ -184,11 +236,15 @@
                     qu'il est sorti de sa prison, il ne peut pas être bien loin; suivez ses traces,
                     tâchez de l'attirer dans votre maison de campagne: je m'y rendrai secrétement.
                     Tibére reçut cet ordre avec transport, et dès le lendemain il prit la route que
-                    Bélisaire avoit suivie. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 2 </head>
-                <p> Cependant Bélisaire s'acheminoit en mendiant, vers un vieux château en ruine, où
+                    Bélisaire avoit suivie.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 2
+    </head>
+    <p>
+     Cependant Bélisaire s'acheminoit en mendiant, vers un vieux château en ruine, où
                     sa famille l'attendoit. Il avoit défendu à son conducteur de le nommer sur la
                     route; mais l'air de noblesse répandu sur son visage et dans toute sa personne,
                     suffisoit pour intéresser. Arrivé le soir dans un village, son guide s'arrêta à
@@ -234,8 +290,11 @@
                     Il l'avoit promis.-il a tenu parole; il m'a offert des dignités; mais je n'en ai
                     pas voulu. Quand on a été roi, et qu'on cesse de l'être, il n'y a de
                     dédommagement que le repos et l'obscurité.-vous Gelimer!-oui, c'est moi-même
-                    qu'on assiégea, s'il vous en souvient, sur la montagne de <hi rend="italic">
-                        Papua </hi> . J'y souffris des maux inouis. L'hiver, la famine, le spectacle
+                    qu'on assiégea, s'il vous en souvient, sur la montagne de
+     <hi rend="italic">
+      Papua
+     </hi>
+     . J'y souffris des maux inouis. L'hiver, la famine, le spectacle
                     effroyable de tout un peuple réduit au désespoir, et prêt à dévorer ses enfans
                     et ses femmes, l'infatigable vigilance du bon Pharas, qui, en m'assiégeant, ne
                     cessoit de me conjurer d'avoir pitié de moi-même et des miens, enfin ma juste
@@ -288,11 +347,15 @@
                     suivant des yeux, ô prospérité! Disoit-il, ô prospérité! Qui peut donc se fier à
                     toi? Le héros, le juste, le sage, Bélisaire! ... ah! C'est pour le coup qu'il
                     faut se croire heureux enbéchant son jardin. Et tout en disant ces mots, le roi
-                    des vandales reprit sa béche. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 3 </head>
-                <p> Bélisaire approchoit de l'asyle où sa famille l'attendoit, lorsqu'un incident
+                    des vandales reprit sa béche.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 3
+    </head>
+    <p>
+     Bélisaire approchoit de l'asyle où sa famille l'attendoit, lorsqu'un incident
                     nouveau lui fit craindre d'en être éloigné pour jamais. Les peuples voisins de
                     la Thrace ne cessoient d'y faire des courses; un parti de bulgares venoit d'y
                     pénétrer, lorsque le bruit se répandit que Bélisaire, privé de la vue, étoit
@@ -426,17 +489,24 @@
                     prenant congé du héros, voulut le combler de présens. C'est la dépouille de ma
                     patrie que vous m'offrez, lui dit Bélisaire: vous rougiriez pour moi de m'en
                     voir revêtu. Il n'accepta que de quoi se nourrir lui et son guide sur la route;
-                    et la même escorte le remit où elle l'avoit rencontré. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 4 </head>
-                <p> Il n'étoit plus qu'à douze milles du château où sa famille s'étoit retirée; mais
+                    et la même escorte le remit où elle l'avoit rencontré.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 4
+    </head>
+    <p>
+     Il n'étoit plus qu'à douze milles du château où sa famille s'étoit retirée; mais
                     fatigué d'une longue course, il demanda à son jeune guide s'il ne voyoit pas
                     devant lui quelque village où se reposer. J'en vois un, lui dit celui-ci; mais
                     il est éloigné: faites-vous y conduire. Non, dit le héros, je l'exposerois à
                     être pillé par ces gens-là; et il renvoya son escorte. Arrivé au village, il fut
-                    surpris d'entendre, <hi rend="italic"> le voilà, c'est lui, c'est lui-même </hi>
-                    . Qu'est-ce? Demanda-t-il: c'est toute une famille qui vient au devant de vous,
+                    surpris d'entendre,
+     <hi rend="italic">
+      le voilà, c'est lui, c'est lui-même
+     </hi>
+     . Qu'est-ce? Demanda-t-il: c'est toute une famille qui vient au devant de vous,
                     lui répondit son conducteur. Dans ce moment un vieillard s'avance. Seigneur,
                     dit-il à Bélisaire en l'abordant, pouvons-nous sçavoir qui vous êtes? Vous voyez
                     bien, répondit Bélisaire, que je suis un pauvre, et non pas un seigneur.Un
@@ -530,8 +600,11 @@
                     jeunesse et la vue? En serois-je moins malheureux quand tu serois criminel? Non;
                     mais du moins, dit le jeune homme, la mort terrible d'un méchant effraiera ceux
                     qui lui ressemblent; car je le prendrai, s'il le faut, au pied du trône ou des
-                    autels, et, en lui enfonçant le poignard dans le sein, je crierai: <hi
-                        rend="italic"> c'est Bélisaire que je venge </hi> . Et de quel droit me
+                    autels, et, en lui enfonçant le poignard dans le sein, je crierai:
+     <hi rend="italic">
+      c'est Bélisaire que je venge
+     </hi>
+     . Et de quel droit me
                     vengerois-tu, dit le vieillard d'un ton plus imposant? Est-ce moi qui te l'ai
                     donné, ce droit que je n'ai pas moi-même? Veux-tu l'usurper sur les loix?
                     Qu'elles l'exercent, dit le jeune homme; on s'en reposera sur elles. Mais
@@ -568,11 +641,15 @@
                     lui dit Bélisaire en l'embrassant. Il y a des maux inévitables, et tout ce que
                     peut l'homme juste, c'est de ne pas mériter les siens. Si jamais l'abus du
                     pouvoir, l'oubli des loix, la prospérité des méchans t'irrite, pense à
-                    Bélisaire. Adieu. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 5 </head>
-                <p> Sa constance alloit être mise à une épreuve bien plus pénible; et il est tems de
+                    Bélisaire. Adieu.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 5
+    </head>
+    <p>
+     Sa constance alloit être mise à une épreuve bien plus pénible; et il est tems de
                     dire ce qui s'étoit passé depuis son emprisonnement. La nuit qu'il fut enlevé,
                     et traîné dans les fers, comme un criminel d'état, l'épouvante et la désolation
                     se répandirent dans son palais. Le réveil d' Antonine sa femme, et d'Eudoxe sa
@@ -711,11 +788,15 @@
                     main. Tibére ne pouvoit retenir ses larmes, en voyant la joie vertueuse et pure
                     qui remplissoit le coeur de cette aimable fille. Hélas! Disoit-il en lui-même,
                     quel coup terrible va la tirer de cette douce illusion! Et les yeux baissés, il
-                    restoit devant elle, dans le silence de la douleur. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 6 </head>
-                <p> Bélisaire, en ce moment même, entroit dans la cour du château. Le fidéle Anselme
+                    restoit devant elle, dans le silence de la douleur.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 6
+    </head>
+    <p>
+     Bélisaire, en ce moment même, entroit dans la cour du château. Le fidéle Anselme
                     le voit, s'avance, reconnoît son maître, et transporté de joie, court au-devant
                     de lui. Mais tout-à-coup s'appercevant qu'il est aveugle, ô ciel, dit-il! ô mon
                     bon maître! Est-ce pour vous revoir dans cet état, que le pauvre Anselme a vécu?
@@ -843,11 +924,15 @@
                     vieillard. Je passerai pour votrepere; et vous aurez soin de ne rien dire qui
                     puisse le désabuser. Une maison de plaisance, à moitié chemin de la retraite de
                     Bélisaire, fut le lieu d'où l'empereur se dérobant aux yeux de sa cour, alla le
-                    voir le lendemain. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 7 </head>
-                <p> Voilà donc où habite celui qui m'a rendu tant de fois vainqueur! Dit Justinien,
+                    voir le lendemain.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 7
+    </head>
+    <p>
+     Voilà donc où habite celui qui m'a rendu tant de fois vainqueur! Dit Justinien,
                     en avançant sous un vieux portique en ruine. Bélisaire, à leur arrivée, se leva
                     pour les recevoir. L'empereur, en voyant ce vieillard vénérable dans l'état où
                     il l'avoit mis, fut pénétré de honte et de remords. Il jetta un cri de douleur,
@@ -997,11 +1082,15 @@
                     allant, d'avoir méconnu un tel homme! Mon cher Tibére, voilà comme on nous
                     trompe, comme on nous rend injustes malgré nous. La nuit, le jour suivant, il ne
                     vit dans sa cour que l'image de Bélisaire; et vers le soir, à la même heure, il
-                    revint nourrir sa douleur. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 8 </head>
-                <p> Bélisaire se promenoit avec son guide sur la route. Dès que l'empereur
+                    revint nourrir sa douleur.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 8
+    </head>
+    <p>
+     Bélisaire se promenoit avec son guide sur la route. Dès que l'empereur
                     l'apperçut, il descendit de son char; et en l'abordant, vous nous trouvez
                     plongés, lui dit-il, dans de sérieuses réflexions. Frappé de l'injustice que
                     l'on a fait commettre au malheureux vieillard qui vous a condamné, je méditois
@@ -1055,9 +1144,15 @@
                     erreurs; je lui donne des droits sur tout ce que je suis; enfin, je renonce à
                     moi-même, dés que je consens à regner; et l'homme privé s'anéantit, pour céder
                     au roi son ame toute entiere. Connoissez-vous de dévouement plus généreux, plus
-                    absolu? Voilà pourtant comme pensoient un Antonin, un Marc-Auréle. <hi
-                        rend="italic"> je n'ai plus rien en propre, </hi> disoit l'un; <hi
-                        rend="italic"> mon palais même n'est pas à moi, </hi> disoit l'autre; et
+                    absolu? Voilà pourtant comme pensoient un Antonin, un Marc-Auréle.
+     <hi rend="italic">
+      je n'ai plus rien en propre,
+     </hi>
+     disoit l'un;
+     <hi rend="italic">
+      mon palais même n'est pas à moi,
+     </hi>
+     disoit l'autre; et
                     leurs pareils ont pensé comme eux. La vanité du vulgaire ne voit dans le suprême
                     rang que les petites jouissancesqui la flatteroient, et qui lui font envie, des
                     palais, une cour, des hommages, et cette pompe qu'on a cru devoir attacher à
@@ -1107,10 +1202,13 @@
                     monde,et comme lui on revient ennuyé de l'univers et de soi-même, ne sachant que
                     faire de ces pays immenses, dont un arpent suffit pour nourrir le vainqueur, et
                     une toise pour l'enterrer. J'ai vu dans ma jeunesse le tombeau de Cyrus; il
-                    étoit écrit sur la pierre: <hi rend="italic"> je suis Cyrus, celui qui conquit
+                    étoit écrit sur la pierre:
+     <hi rend="italic">
+      je suis Cyrus, celui qui conquit
                         l'empire des perses. Homme, qui que tu sois, d'où que tu viennes, je te
-                        supplie de ne pas m'envier ce peu de terre qui couvre ma pauvre cendre </hi>
-                    . Hélas! Dis-je en détournant les yeux, c'est bien la peine d'être conquérant.
+                        supplie de ne pas m'envier ce peu de terre qui couvre ma pauvre cendre
+     </hi>
+     . Hélas! Dis-je en détournant les yeux, c'est bien la peine d'être conquérant.
                     Est-ce Bélisaire que j'entends, dit le jeune homme avec surprise! Bélisaire
                     sçait mieux qu'un autre, dit le héros, que l'amour de la guerre est le monstre
                     le plus féroce que notre orgueil ait engendré. Il est, reprit Tibére, une gloire
@@ -1143,8 +1241,11 @@
                     d'amertume. Car, plus un prince est aimé de ses peuples, plus leur bonheur lui
                     devient cher; et alors le bien qu'il leur fait et les maux dont il les soulage,
                     lui semblent si peu de chose dans la masse commune des biens et des maux,
-                    qu'arrivé au terme d'une longue vie, il se demande encore, <hi rend="italic">
-                        qu'ai-je fait? </hi> obligé de lutter sans cesse contre le torrent des
+                    qu'arrivé au terme d'une longue vie, il se demande encore,
+     <hi rend="italic">
+      qu'ai-je fait?
+     </hi>
+     obligé de lutter sans cesse contre le torrent des
                     adversités, voyez quelle douleur ce doit être pour lui, de ne pouvoir jamais le
                     vaincre, et de se sentir entraîné par le cours des événemens. Qui méritoit mieux
                     que Marc-Auréle de voir le monde heureux sous ses loix? Toutes les calamités,
@@ -1205,11 +1306,15 @@
                     dissiper; et le lendemain ayant annoncé qu'il vouloit se promener seul, il
                     s'enfonça dansla forêt voisine. Tibére l'y attendoit; ils partirent ensemble, et
                     vinrent trouver le héros. Le jeune homme ne manqua point de lui rappeller sa
-                    promesse; et Bélisaire reprit ainsi. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 9 </head>
-                <p> On demande s'il est possible d'aimer la vertu pour elle-même. C'est peut-être le
+                    promesse; et Bélisaire reprit ainsi.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 9
+    </head>
+    <p>
+     On demande s'il est possible d'aimer la vertu pour elle-même. C'est peut-être le
                     sublime instinct de quelques ames privilégiées; mais toutes les fois que l'amour
                     de la vertu est réfléchi, il est intéressé. Ne croyez pas que cet aveu soit
                     humiliant pour la nature: vous allez voir que l'intérêt de la vertu s'épure et
@@ -1357,11 +1462,15 @@
                     de ceux qui, par état, sont les peres du peuple. Le seul crime de ce héros est
                     d'avoir été populaire: c'est par-là qu'il a donné prise aux calomnies de ma
                     cour, et peut-être à ma jalousie. Hélas! On me le faisoit craindre! J'aurois
-                    mieux fait de l'imiter. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 10 </head>
-                <p> Le lendemain, à la même heure, Bélisaire les attendoit sur le chemin, au pied
+                    mieux fait de l'imiter.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 10
+    </head>
+    <p>
+     Le lendemain, à la même heure, Bélisaire les attendoit sur le chemin, au pied
                     d'un chêne antique, où la veille ils s'étoient assis; et il se disoit à
                     lui-même: je suis bien heureux dans mon malheur, d'avoir trouvé des hommes
                     vertueux, qui daignent venir me distraire, et s'occuper avec moi des grands
@@ -1553,11 +1662,15 @@
                     dans la nature des choses, et nous n'avons qu'à l'y chercher. Hé bien, dit
                     l'empereur, daignez faire avec nous cette recherche consolante; et avant d'aller
                     au remede, remontons aux sources du mal. Je le veux bien, dit Bélisaire; et ce
-                    sera plus d' une fois le sujet de nos entretiens. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 11 </head>
-                <p> Justinien plus impatient que jamais de revoir Bélisaire, vint le presser le jour
+                    sera plus d' une fois le sujet de nos entretiens.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 11
+    </head>
+    <p>
+     Justinien plus impatient que jamais de revoir Bélisaire, vint le presser le jour
                     suivant, de déchirer le voile qui depuis si long-tems lui cachoit les maux de
                     l'empire. Bélisaire ne remonta qu'à l'époque de Constantin. Quel dommage,
                     dit-il, qu'avec tant de résolution, de courage et d'activité, ce génie vaste et
@@ -1598,12 +1711,19 @@
                     et qui croissoient dans le champ de mars. Ici quel est le berceau, quelle est
                     l'école des guerriers? Les dalmates, les illyriens,les thraces sont aussi
                     étrangers pour nous que les numides et les maures. Nul intérêt commun qui les
-                    lie, nul esprit d'état et de corps qui les anime et les fasse agir. <hi
-                        rend="italic"> souvenez-vous que vous êtes romains, </hi> disoit, à ses
+                    lie, nul esprit d'état et de corps qui les anime et les fasse agir.
+     <hi rend="italic">
+      souvenez-vous que vous êtes romains,
+     </hi>
+     disoit, à ses
                     soldats, un capitaine de l'ancienne Rome; et cette harangue les rendoit
                     infatigables dans les travaux, et intrépides dans les combats. à présent que
-                    dirons-nous à nos troupes pour les encourager? <hi rend="italic"> souvenez-vous
-                        que vous êtes arméniens, numides, ou dalmates? </hi> l'état n'est plus un
+                    dirons-nous à nos troupes pour les encourager?
+     <hi rend="italic">
+      souvenez-vous
+                        que vous êtes arméniens, numides, ou dalmates?
+     </hi>
+     l'état n'est plus un
                     corps, c'est le principe de sa foiblesse; et l'on n'a pas vu qu'il falloit des
                     siécles pour y rétablir cette unité qu'on appelle patrie, et qui est l'ouvrage
                     insensible et lent de l'habitude et de l'opinion. Constantin a décoré sa ville
@@ -1739,11 +1859,15 @@
                     l'empereur étoit plongé, ne fût la suite des entretiens qu'il avoit eus avec
                     Tibére. Tibére, disoient-ils, est un jeune enthousiaste, qui a la folie de
                     l'humanité. Rien de plus dangereuxici qu'un homme de ce caractére; il faut
-                    tâcher de l'éloigner. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 12 </head>
-                <p> Le lendemain, tandis que cette intrigue occupoit la cour, le bon aveugle et ses
+                    tâcher de l'éloigner.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 12
+    </head>
+    <p>
+     Le lendemain, tandis que cette intrigue occupoit la cour, le bon aveugle et ses
                     deux hôtes avoient repris leurs entretiens. Un prince qui veut regner par
                     lui-même, leur disoit-il, doit savoir tout simplifier. Son premier soin est de
                     bien connoître ce qui est utile à ses peuples, et ce qu'ils attendent de lui.
@@ -1999,11 +2123,14 @@
                     qui me confond, dit Tibére, c'est qu'il prétende que les hommes naissent tels
                     que vous les voulez, comme si la nature vousétoit soumise. Cependant Bélisaire
                     est sage: les ans, le malheur l'ont instruit: il mérite bien qu'on l'entende.
-                </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 13 </head>
-                <p> Le jour suivant, à leur arrivée, ils les trouverent dans son jardin, s'occupant
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 13
+    </head>
+    <p>
+     Le jour suivant, à leur arrivée, ils les trouverent dans son jardin, s'occupant
                     de l'agriculture avec Paulin son jardinier. Un moment plutôt, leur dit-il, vous
                     auriez pris, comme moi, une bonne leçon dans l'art de gouverner: car rien ne
                     ressemble tant au gouvernement des hommes que celui des plantes, et mon
@@ -2085,9 +2212,15 @@
                     les enfermer.Je n'irai pourtant pas si loin. Commençons par les faits que j'ai
                     vus par moi-même. On dit que le luxe est bon dans les villes. J'ai peine à le
                     croire; mais je suis bien sûr qu'il est funeste dans les armées. Pompée, en
-                    voyant les soldats de César se nourrir de racines sauvages, disoit, <hi
-                        rend="italic"> ce sont des bêtes brutes: </hi> il devoit dire, <hi
-                        rend="italic"> ce sont des hommes </hi> . Le premier courage d'un guerrier
+                    voyant les soldats de César se nourrir de racines sauvages, disoit,
+     <hi rend="italic">
+      ce sont des bêtes brutes:
+     </hi>
+     il devoit dire,
+     <hi rend="italic">
+      ce sont des hommes
+     </hi>
+     . Le premier courage d'un guerrier
                     est d'exposer sa vie; le second est de la réduire aux seuls besoins de la
                     nature; et celui-ci est le plus pénible pour qui a vécu mollement. Un peuple qui
                     veut jouir au sein de la guerre des délices de la paix, n'est en état de
@@ -2351,8 +2484,11 @@
                     pas la cour la plus brillante, mais la plus heureuse de l'univers. Elle sera peu
                     nombreuse, dit l'empereur. Pourquoi, dit Bélisaire? Quelques ambitieux oisifs,
                     quelques lâches voluptueux s'en éloigneront; mais en revanche les gens utiles,
-                    les gens de bien y aborderont en foule. Je dis <hi rend="italic"> en foule </hi>
-                    , mon cher Tibére, et je le dis à la louange de l'humanité. Quand la vertu est
+                    les gens de bien y aborderont en foule. Je dis
+     <hi rend="italic">
+      en foule
+     </hi>
+     , mon cher Tibére, et je le dis à la louange de l'humanité. Quand la vertu est
                     honorée, elle germe dans tousles coeurs. L'estime publique est comme un soleil
                     qui la fait éclore et pousser avec une vigueur extrême. N'en jugez pas sur
                     l'état d'inertie et de langueur où sont les ames. Comment voulez-vous qu'un fils
@@ -2421,11 +2557,15 @@
                     Justinien à Tibére. Cet homme-là me confond. Sa cour espérant de le dissiper,
                     lui avoit préparé une fête. Il ne daigna pas y assister. à table il ne s'occupa
                     que du soupé de Bélisaire; et en se retirant, il se dit à lui-même: il est moins
-                    malheureux que moi, car il s' est couché sans remors. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 14 </head>
-                <p> Je ne vis plus qu'auprès de lui, dit l'empereur à Tibére le lendemain, en allant
+                    malheureux que moi, car il s' est couché sans remors.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 14
+    </head>
+    <p>
+     Je ne vis plus qu'auprès de lui, dit l'empereur à Tibére le lendemain, en allant
                     revoir le héros: le calme et la sérénité de son ame se communiquent à la mienne.
                     Mais sitôt que je m'en éloigne, ces nuages qu'il a dissipés se rassemblent, et
                     tout s'obscurcit de nouveau. Hier je croyois voir dans son plan le tableau de la
@@ -2612,11 +2752,15 @@
                     de commencer à vivre quand on n'a plus besoin que de sçavoir mourir. Je veux
                     pourtant revoir encore cet homme juste. Il m'afflige; mais j'aime mieux aller
                     m'affliger avec lui, que de participer à la joie insultante de tous ces hommes
-                    froids et durs dont je me vois environné. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 15 </head>
-                <p> Le jour suivant l'empereur et Tibére étant arrivés à l'heure accoutumée,
+                    froids et durs dont je me vois environné.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 15
+    </head>
+    <p>
+     Le jour suivant l'empereur et Tibére étant arrivés à l'heure accoutumée,
                     trouverent le héros assis dans son jardin, à l'aspect du soleil couchant. Il ne
                     m'éclaire plus, mais il m'échauffe encore, leur dit-il d'un air sérein; et
                     j'adore en lui la magnificence et la bonté de celui qui l'a fait. Que j'aime à
@@ -2875,7 +3019,10 @@
                     faire égorger les hommes que de les persuader; mais si les souverains
                     demandoientà Dieu, quelles armes emploierons-nous pour vous faire adorer comme
                     vous devez l'être? Et que Dieu daignât se faire entendre, il leur répondroit,
-                        <hi rend="italic"> vos vertus </hi> . Quand l'ame de Justinien, que cette
+     <hi rend="italic">
+      vos vertus
+     </hi>
+     . Quand l'ame de Justinien, que cette
                     dispute avoit émue, se fut calmée dans le silence, il se rappella les maximes et
                     les conseils des sectaires qui l'entouroient, leur violence, leur orgueil, leurs
                     animosités cruelles. Quel contraste, disoit-il en lui-même! Voilà un homme
@@ -2884,11 +3031,15 @@
                     tyrannique, et qu'une inflexible rigueur! Bélisaire est pieux et juste: il aime
                     son dieu, il désire que tous l'adore comme lui; mais il veut que ce culte soit
                     volontaire et libre. C'est moi qui me suis trop livré à ce zéle qui, dans mon
-                    ame, n'étoit peut-être que l'orgueil de dominer sur les esprits. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE 16 </head>
-                <p> Le lendemain l'empereur et Tibére, en allant trouver le héros, coururent un
+                    ame, n'étoit peut-être que l'orgueil de dominer sur les esprits.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE 16
+    </head>
+    <p>
+     Le lendemain l'empereur et Tibére, en allant trouver le héros, coururent un
                     danger qu'ils n'avoient pas prévu; et la gloire de les en délivrer fut un
                     triomphe que le ciel voulut donner encore à Bélisaire. Les bulgares, qu'on
                     n'avoit poursuivis que jusqu'au pied des montagnes de la haute Thrace, n'avoient
@@ -3089,8 +3240,9 @@
                     sévérité imposante pour tous les crimes à venir. Mais il vécut trop peu pour le
                     bonheur du monde, et pour la gloire de Justinien. Ce vieillard foible et
                     découragé, se contenta de lui donner des larmes; et les conseils de Bélisaire
-                    furent oubliés avec lui. </p>
-            </div>
-        </body>
-    </text>
+                    furent oubliés avec lui.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

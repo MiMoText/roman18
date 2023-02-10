@@ -2,81 +2,134 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Arnaud_Epoux" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:83.15"> Les époux malheureux: MiMoText edition </title>
-        <author ref="viaf:95165197 wikidata:Q548610"> François-Thomas-Marie de Baculard
-          d'Arnaud(1718-1805) </author>
-        <respStmt>
-          <resp> data capture </resp>
-          <name> frantext </name>
-        </respStmt>
-        <respStmt>
-          <resp> encoding </resp>
-          <name> Johanna Konstanciak </name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words"> 76611 </measure>
-        <measure unit="vols"> 2 </measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-        <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-        <date> 2020 </date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://www.frantext.fr/repository/frantext"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Les Époux malheureux ou Histoire de Monsieur et Madame de ***</title>
-          <author>François-Thomas-Marie de Baculard d'Arnaud</author>
-          <publisher>Laporte</publisher>
-          <date>1803</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <title>Les Époux malheureux ou Histoire de Monsieur et Madame de ***</title>
-          <author>François-Thomas-Marie de Baculard d'Arnaud</author>
-          <date>1745</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form"> autodiegetic </term>
-          <term type="spelling"> modern </term>
-          <term type="data-capture"> semi-automatic transcription </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2021-01-19"> Initital ELTeC level-1 </change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="group">
-        <div type="chapter">
-          <head> PARTIE 1 </head>
-          <p> Quoi, monsieur! Il est encore un coeur ouvert aux cris des malheureux! Je n'ai point
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:83.15">
+     Les époux malheureux: MiMoText edition
+    </title>
+    <author ref="viaf:95165197 wikidata:Q548610">
+     François-Thomas-Marie de Baculard
+          d'Arnaud(1718-1805)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     76611
+    </measure>
+    <measure unit="vols">
+     2
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/repository/frantext"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Les Époux malheureux ou Histoire de Monsieur et Madame de ***
+     </title>
+     <author>
+      François-Thomas-Marie de Baculard d'Arnaud
+     </author>
+     <publisher>
+      Laporte
+     </publisher>
+     <date>
+      1803
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <title>
+      Les Époux malheureux ou Histoire de Monsieur et Madame de ***
+     </title>
+     <author>
+      François-Thomas-Marie de Baculard d'Arnaud
+     </author>
+     <date>
+      1745
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      autodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-19">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      PARTIE 1
+     </head>
+     <p>
+      Quoi, monsieur! Il est encore un coeur ouvert aux cris des malheureux! Je n'ai point
             éprouvé le comble de l'infortune! Je suis dépouillé de mes biens, abandonné de mes
             sociétés, rejetté de mes parens, de l'univers entier; peut-être, quel trait pour une ame
             sensible! Ai-je perdu ma réputation: du-moins l'injustice et l'adversité aussi cruelle
@@ -1175,11 +1228,15 @@
             s'arrêtoient que sur une perspective peu propre à flatter mes espérances; et je touchois
             aumoment terrible où, si je devois être retiré de cette incertitude fatigante, c'étoit
             par un coup de foudre plus accablant encore que tous ceux qui m'avoient frappé
-            jusqu'alors. </p>
-        </div>
-        <div type="chapter">
-          <head> PARTIE 2 </head>
-          <p> Je vais mettre sous vos yeux un des plus affreux revers de ma vie. Voici, comme j'ai
+            jusqu'alors.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      PARTIE 2
+     </head>
+     <p>
+      Je vais mettre sous vos yeux un des plus affreux revers de ma vie. Voici, comme j'ai
             appris depuis de la propre bouche d'Agathe, le détail d'un événement dont le souvenir
             seul me glace d'horreur. à peine me fus-je séparé de Mademoiselle , qu'elle se rendit
             chez mon oncle: elle lui fit demander si elle pouvoit avoir avec lui un entretien
@@ -1286,8 +1343,11 @@
             saurai les remplir sans me dégrader; on porte sa noblesse avec soi, et dans tous les
             emplois; je me croirois plus honorée, en me livrant aux dernières fonctions, que d'être
             redevable de l'état le plus brillant à des moyens qui traînent toujours la mortification
-            et la honte après eux; monsieur, je ne suis point réduite à la <hi rend="italic">
-              charité </hi> . Et aussitôt Mademoiselle * est suffoquée par ses larmes. Mon oncle
+            et la honte après eux; monsieur, je ne suis point réduite à la
+      <hi rend="italic">
+       charité
+      </hi>
+      . Et aussitôt Mademoiselle * est suffoquée par ses larmes. Mon oncle
             cherche à se justifier; il se défend avec chaleur d'avoir conçu la moindre idée de
             l'offenser:-je n'ai point prétendu, mademoiselle, blesser une sensibilité trop prompte à
             s'alarmer; le défaut de fortune ne pourroit que prêter plus d'éclat à votre beauté et à
@@ -2342,11 +2402,15 @@
             nous vous adressons nos cris, nos derniers soupirs; nous sommes prêts à mourir: ah! Du
             moins que votre vengeance ne s'étende point sur notre misérable enfant, et qu'elle le
             laisse vivre pour solliciter un pardon que les auteurs de sa déplorable existence n'ont
-            pu obtenir! </p>
-        </div>
-        <div type="chapter">
-          <head> PARTIE 3 </head>
-          <p> Que l'amour-propre a de ressources! Il n'y a point jusqu'à l'infortune dont il ne tire
+            pu obtenir!
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      PARTIE 3
+     </head>
+     <p>
+      Que l'amour-propre a de ressources! Il n'y a point jusqu'à l'infortune dont il ne tire
             parti; ce qui devroit être pour le malheureux un sujet de désespoir et d'humiliation,
             car y a-t-il rien de plus humiliant que le malheur, lui devient souvent un motif de
             consolation et d'orgueil; il trouve une certaine vanité, aussi satisfaisante peut-être
@@ -3160,7 +3224,11 @@
             se feroient un honneur de servir Agathe. Je vous remercie d'ailleurs, madame, de vos
             sentimens de compassion: je voudrois être dans un état qui me permît de vous témoigner
             ma reconnaissance. Pour vous, monsieur, je ne vous demande d'autre service que de
-            supprimer vos réflexions; cette expression de <hi rend="italic"> charité </hi> est toute
+            supprimer vos réflexions; cette expression de
+      <hi rend="italic">
+       charité
+      </hi>
+      est toute
             nouvelle pour moi, et je n'ai jamais été accoutumé à l'entendre. Je retenois un torrent
             de larmes qui pesoient sur mon coeur; j'étois pénétré.Votre discours m'étonne,
             interrompt la marquise; je n'ai point prétendu, monsieur, vous offenser; votre femme m'a
@@ -3181,8 +3249,11 @@
             oh! Rien de plus vrai. Et, en m'accablant de ces paroles offensantes, le gros homme
             s'applaudissoit de la sagesse lumineuse de ses conseils, et se reposoit avec pleine
             confiance sur l'excellente opinion qu'il avoit de son esprit. Pour moi, je ne pus
-            retenir plus long-temps l'abondance de mes pleurs: ils me suffoquoient, et ce <hi
-              rend="italic"> mourir de faim </hi> m'avoit percé le coeur de part en part: il
+            retenir plus long-temps l'abondance de mes pleurs: ils me suffoquoient, et ce
+      <hi rend="italic">
+       mourir de faim
+      </hi>
+      m'avoit percé le coeur de part en part: il
             s'épanche:-c' en est assez, madame, c'en est assez! Vous pouvez garder votre
             femme-de-chambre. Encore une fois, mon épouse n'est pas faite pour s'avilir par un
             semblable état. Je n'exige pas que personne me rende aucun service: je n'attends rien,
@@ -3550,8 +3621,12 @@
             moment favorable où je pourrois la revoir! Il arrive enfin; je vole chez Monsieur *;
             Laurence étoit seule: combien cet instant m'apprit que la timidité accompagne le
             véritable amour! Moi, qui n'avois jamais connu l'embarras, la crainte, que l'on citoit
-            dans les sociétés comme le modèle de ce qu'on appelle <hi rend="italic"> un homme
-              entreprenant </hi> , j'étois déconcerté, tremblant à l'aspect d'une jeune personne; un
+            dans les sociétés comme le modèle de ce qu'on appelle
+      <hi rend="italic">
+       un homme
+              entreprenant
+      </hi>
+      , j'étois déconcerté, tremblant à l'aspect d'une jeune personne; un
             seul de ses regards m'ôtoit l'usage de la parole, arrêtoit ma respiration; je veux
             parler: ma voix expire; je bégaie des mots de respect, de reconnaissance; je n'osois
             lever les yeux; eh! Que mon âme étoit agitée! Monsieur, me dit mon enchanteresse, d'une
@@ -3899,13 +3974,17 @@
             que l'amour n'est pas toujours la source d'égaremens vicieux et déplorables: il a
             perduLesseville, et Sélincourt confesse qu'il lui doit toutes ses vertus. Ma chère
             Agathe, je t'ai la même obligation: tu es Laurence pour moi; je suis le sensible
-            Sélincourt; ô ciel! Que je n'éprouve pas les mêmes coups! </p>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head> PARTIE 4 </head>
-          <p> Nous sommes enfin à Paris, entourés des songes flatteurs de l'espérance: il est vrai
+            Sélincourt; ô ciel! Que je n'éprouve pas les mêmes coups!
+     </p>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      PARTIE 4
+     </head>
+     <p>
+      Nous sommes enfin à Paris, entourés des songes flatteurs de l'espérance: il est vrai
             que la défiance ne me permettoit pas trop de me livrer aveuglément à ses illusions; il
             n'étoit plus guères possible de s'abuser; l'expérience m'éclairoit de sa triste lumière;
             je possédois, à mes dépens, l'art si peu satisfaisant de connaître les hommes, et la
@@ -4940,9 +5019,10 @@
             Daignez m'ouvrir votre sein, et m'admettre dans cette famille d'infortunés dont vous
             êtes l'appui! Ou plutôt je ne vous implore que pour ma femme et mon enfant; je sens que
             je vais succomber sous le poids de ma douleur; ce sont ici mes derniers soupirs: la
-            source de mes larmes va s'épuiser avec ma vie, et mes malheurs vont finir avec elle! </p>
-        </div>
-      </div>
-    </body>
-  </text>
+            source de mes larmes va s'épuiser avec ma vie, et mes malheurs vont finir avec elle!
+     </p>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>

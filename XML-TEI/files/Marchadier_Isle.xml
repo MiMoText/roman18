@@ -2,103 +2,160 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Marchadier_Isle" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:52.32 viaf:6596159764114508170002 wikidata:0">L'isle de France ou la nouvelle colonie de Vénus: MiMoText edition</title>
-        <author ref="viaf:289836054 wikidata:0">Abbé Marchadier(xxxx-1752)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">14701</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2021</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1510733f?rk=21459"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>L'isle de France ou la nouvelle colonie de Vénus</title>
-          <author>Abbé Marchadier</author>
-          <pubPlace>Amsterdam</pubPlace>
-          <publisher>Arkstée &amp; Merkus</publisher>
-          <date>1753</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1752</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1"><p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            heterodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-06-07">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>L'ISLE DE FRANCE, OU LA NOUVELLE COLONIE DE VENUS, Précédée d'une Epître à Mr. ***, ſervant de
-          Préface.</p>
-        <p>A AMSTERDAM.</p>
-        <p>Chez Arkstée &amp; Merkus.</p>
-        <p>MDCCLIII.</p>
-      </div>
-      <div type="titlepage">
-        <p>L'ISLE DE FRANCE, OU LA NOUVELLE COLONIE DE VENUS, Précédée d'une Epître à Mr. ***, ſervant de
-          Préface.</p>
-        <p>A AMSTERDAM.</p>
-        <p>Chez Arkstée &amp; Merkus.</p>
-        <p>MDCCLII.</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>EPITRE A Mr. ***.</head>
-        <p>SAge enjoué, Philoſophe charmant, vous qui joignant l'eſprit au ſentiment, A ce vernis qui forme
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:52.32 viaf:6596159764114508170002 wikidata:0">
+     L'isle de France ou la nouvelle colonie de Vénus: MiMoText edition
+    </title>
+    <author ref="viaf:289836054 wikidata:0">
+     Abbé Marchadier(xxxx-1752)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     14701
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1510733f?rk=21459"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2016
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      L'isle de France ou la nouvelle colonie de Vénus
+     </title>
+     <author>
+      Abbé Marchadier
+     </author>
+     <pubPlace>
+      Amsterdam
+     </pubPlace>
+     <publisher>
+      Arkstée &amp; Merkus
+     </publisher>
+     <date>
+      1753
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1752
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-06-07">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     L'ISLE DE FRANCE, OU LA NOUVELLE COLONIE DE VENUS, Précédée d'une Epître à Mr. ***, ſervant de
+          Préface.
+    </p>
+    <p>
+     A AMSTERDAM.
+    </p>
+    <p>
+     Chez Arkstée &amp; Merkus.
+    </p>
+    <p>
+     MDCCLIII.
+    </p>
+   </div>
+   <div type="titlepage">
+    <p>
+     L'ISLE DE FRANCE, OU LA NOUVELLE COLONIE DE VENUS, Précédée d'une Epître à Mr. ***, ſervant de
+          Préface.
+    </p>
+    <p>
+     A AMSTERDAM.
+    </p>
+    <p>
+     Chez Arkstée &amp; Merkus.
+    </p>
+    <p>
+     MDCCLII.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     EPITRE A Mr. ***.
+    </head>
+    <p>
+     SAge enjoué, Philoſophe charmant, vous qui joignant l'eſprit au ſentiment, A ce vernis qui forme
           l'homme aimable, Sçavez unir le don d'être eſtimable, Qui poſſédant le grand art de jouir,
           Définiſſez &amp; ſentez le plaiſir Voluptueux avec délicateſſe, Sçavant ſans faſte, &amp; ſage ſans
-          rudeſſe:</p>
-        <p>
-          Cher Ami, car ce titre eſt plus précieux que tous ceux que je pourrois vous donner: je vous envoye
+          rudeſſe:
+    </p>
+    <p>
+     Cher Ami, car ce titre eſt plus précieux que tous ceux que je pourrois vous donner: je vous envoye
           un badinage de quelques heures que m'a dicté le loiſir: vous ſçavez qu'il eſt le pere de toutes les
           brochures dont Paris eſt inondé. Je me doute bien que votre Philoſophie ne me pardonnera pas d'en
           avoir augmenté le nombre; mais il faut bien être de ſon ſiécle, que voulezvous, c'eſt la mode, &amp;
@@ -108,165 +165,372 @@
           exemple. Autrefois aimables ignorantes, leur unique occupation étoit de plaire, fieres &amp;
           ſatisfaites des graces de leurs corps, elles cultivoient peu leur eſprit: aujourd'hui elles
           compoſent d'un ſtile agréable ce qu'à peine elles auroient lû il y a quelques années; leur toilette
-          devient ſouvent leur cabinet d'étude.</p>
-        <p>
-          <quote>
-            <l>Couronné de pompons &amp; parfumé d'eſſence,</l>
-            <l>Le Dieu des Vers voltige en ces réduits charmants,</l>
-            <l>Et parmi les miroirs, le fard &amp; les rubans,</l>
-            <l>D'un air plein de grace &amp; d'aiſance,</l>
-            <l>Folâtre avec le Dieu qui préſide aux Romans.</l>
-            <l>L'amour rit en voyant auprès d'une coëffure</l>
-            <l>La trompette de Milton;</l>
-            <l>Sur un patron de garniture</l>
-            <l>Le flageolet d'Anacréon,</l>
-            <l>Et le brodequin de Thalie,</l>
-            <l>De Melpomene le mouchoir,</l>
-            <l>Avec le luth de Polymnie</l>
-            <l>Auprès d'un éventail, ou bien ſur un miroir:</l>
-            <l>Le ſexe né pour plaire aux hommes,</l>
-            <l>Joint au mirthe amoureux le laurier de Delos:</l>
-            <l>Venus eſt Apollon, dans le ſiécle où nous ſommes,</l>
-            <l>Nos Hélenes ſont des Saphos.</l>
-          </quote>
-        </p>
-        <p>Le ſeul reproche que vous ſeriez peut-être en droit de me faire après cela, ce ſeroit d'avoir
+          devient ſouvent leur cabinet d'étude.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Couronné de pompons &amp; parfumé d'eſſence,
+      </l>
+      <l>
+       Le Dieu des Vers voltige en ces réduits charmants,
+      </l>
+      <l>
+       Et parmi les miroirs, le fard &amp; les rubans,
+      </l>
+      <l>
+       D'un air plein de grace &amp; d'aiſance,
+      </l>
+      <l>
+       Folâtre avec le Dieu qui préſide aux Romans.
+      </l>
+      <l>
+       L'amour rit en voyant auprès d'une coëffure
+      </l>
+      <l>
+       La trompette de Milton;
+      </l>
+      <l>
+       Sur un patron de garniture
+      </l>
+      <l>
+       Le flageolet d'Anacréon,
+      </l>
+      <l>
+       Et le brodequin de Thalie,
+      </l>
+      <l>
+       De Melpomene le mouchoir,
+      </l>
+      <l>
+       Avec le luth de Polymnie
+      </l>
+      <l>
+       Auprès d'un éventail, ou bien ſur un miroir:
+      </l>
+      <l>
+       Le ſexe né pour plaire aux hommes,
+      </l>
+      <l>
+       Joint au mirthe amoureux le laurier de Delos:
+      </l>
+      <l>
+       Venus eſt Apollon, dans le ſiécle où nous ſommes,
+      </l>
+      <l>
+       Nos Hélenes ſont des Saphos.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Le ſeul reproche que vous ſeriez peut-être en droit de me faire après cela, ce ſeroit d'avoir
           choiſi un ſujet auſſi frivole. Quelle idée bizarre que celle de cet Ouvrage! j'avoue qu'elle eſt
           ſinguliere. Tant mieux: je voudrois qu'elle fut plus folle: faite pour amuſer, elle en plairoit
           davantage. Peut-être vous auriez voulu que je compoſaſſe une Tragédie: mais vous ſçavez bien que ce
           n'eſt plus la mode d'en faire de bonnes. Aimeriez-vous mieux que je fiſſe des caractéres: ceux que
-          je lis tous les jours m'en ont dégoûté: je ne me pardonnerois pas ſi l'idée ſeule m'en étoit venue.</p>
-        <p>
-          <quote>
-            <l>Irois-je en uſurpant d'une main familiere</l>
-            <l>La palette de la Bruyere,</l>
-            <l>Ainſi que nos ſots Beaux-Eſprits</l>
-            <l>Tremper dans ſes couleurs un pinceau téméraire?</l>
-            <l>Puis regrattant à ma maniere</l>
-            <l>Tous les portraits tracés dans ces divins écrits,</l>
-            <l>Y mettre une couche groſſiere</l>
-            <l>De ce jargon du ſiécle, informe coloris,</l>
-            <l>Dont aujourd'hui dans tout Paris</l>
-            <l>Le peuple auteur aſſomme un caractere;</l>
-            <l>Et faiſant grimacer un Ouvrage divin</l>
-            <l>Sous les apprets d'un art facile,</l>
-            <l>De Raphaél ou du Pouſſin,</l>
-            <l>Changer le crayon d'or en un crayon d'argile.</l>
-            <l>Sot précepteur de ce ſot genre humain,</l>
-            <l>Irois-je ſur les pas des Modernes illuſtres,</l>
-            <l>De la morale enfiler le chemin,</l>
-            <l>Sans avoir atteint quatre luſtres?</l>
-            <l>Rival de Bourdaloue &amp; ſinge de Paſcal,</l>
-            <l>M'en irois-je en un plat ouvrage</l>
-            <l>Coëffant mon Apollon du Bonnet doctoral,</l>
-            <l>Piller Seneque ou retourner Panage,</l>
-            <l>Et de nos mœurs réformateur ſauvage</l>
-            <l>Dogmatiſant ſur le bien &amp; le mal,</l>
-            <l>Sur chaque état &amp; ſur chaque âge,</l>
-            <l>D'un ton pedant &amp; d'un air monacal,</l>
-            <l>Aux Lecteurs morfondus offrir pour toute image,</l>
-            <l>De mes froids lieux communs le myſtique étalage?</l>
-          </quote>
-        </p>
-        <p>D'ailleurs, pour compoſer un ouvrage ſérieux, il faut que l'eſprit ait une certaine liberté; dès
+          je lis tous les jours m'en ont dégoûté: je ne me pardonnerois pas ſi l'idée ſeule m'en étoit venue.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Irois-je en uſurpant d'une main familiere
+      </l>
+      <l>
+       La palette de la Bruyere,
+      </l>
+      <l>
+       Ainſi que nos ſots Beaux-Eſprits
+      </l>
+      <l>
+       Tremper dans ſes couleurs un pinceau téméraire?
+      </l>
+      <l>
+       Puis regrattant à ma maniere
+      </l>
+      <l>
+       Tous les portraits tracés dans ces divins écrits,
+      </l>
+      <l>
+       Y mettre une couche groſſiere
+      </l>
+      <l>
+       De ce jargon du ſiécle, informe coloris,
+      </l>
+      <l>
+       Dont aujourd'hui dans tout Paris
+      </l>
+      <l>
+       Le peuple auteur aſſomme un caractere;
+      </l>
+      <l>
+       Et faiſant grimacer un Ouvrage divin
+      </l>
+      <l>
+       Sous les apprets d'un art facile,
+      </l>
+      <l>
+       De Raphaél ou du Pouſſin,
+      </l>
+      <l>
+       Changer le crayon d'or en un crayon d'argile.
+      </l>
+      <l>
+       Sot précepteur de ce ſot genre humain,
+      </l>
+      <l>
+       Irois-je ſur les pas des Modernes illuſtres,
+      </l>
+      <l>
+       De la morale enfiler le chemin,
+      </l>
+      <l>
+       Sans avoir atteint quatre luſtres?
+      </l>
+      <l>
+       Rival de Bourdaloue &amp; ſinge de Paſcal,
+      </l>
+      <l>
+       M'en irois-je en un plat ouvrage
+      </l>
+      <l>
+       Coëffant mon Apollon du Bonnet doctoral,
+      </l>
+      <l>
+       Piller Seneque ou retourner Panage,
+      </l>
+      <l>
+       Et de nos mœurs réformateur ſauvage
+      </l>
+      <l>
+       Dogmatiſant ſur le bien &amp; le mal,
+      </l>
+      <l>
+       Sur chaque état &amp; ſur chaque âge,
+      </l>
+      <l>
+       D'un ton pedant &amp; d'un air monacal,
+      </l>
+      <l>
+       Aux Lecteurs morfondus offrir pour toute image,
+      </l>
+      <l>
+       De mes froids lieux communs le myſtique étalage?
+      </l>
+     </quote>
+    </p>
+    <p>
+     D'ailleurs, pour compoſer un ouvrage ſérieux, il faut que l'eſprit ait une certaine liberté; dès
           que mes idées s'élevent, elles veulent être libres: la contrainte les affoiblit &amp; les reſſerre:
           quand je penſe, je n'examine jamais ce qu'on a penſé avant moi: je blâme ou je loue tout ce qui me
           paroît digne de louange ou de blâme. Si j'écrivois, je voudrois avoir le courage de le dire, mais je
-          ſçais que nous ne ſommes point ici montez ſur ce ton.</p>
-        <p>
-          <quote>
-            <l>Sur les bords fortunez que la Thamiſe arroſe,</l>
-            <l>Un Auteur peut donner libre eſſor à ſes Vers,</l>
-            <l>Et ſous les préjugez tyrans de l'univers,</l>
-            <l>Le timide compas n'aſſervit point ſa proſe.</l>
-          </quote>
-        </p>
-        <p>En France on eſt plus circonſpect, &amp; on ne ſe livre pas impunément aux ſaillies de ſon
-          imagination.</p>
-        <p>Auſſi me donnerai-je bien de garde de faire jamais pareille ſottiſe: je ſçais trop qu'il n'y a
+          ſçais que nous ne ſommes point ici montez ſur ce ton.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Sur les bords fortunez que la Thamiſe arroſe,
+      </l>
+      <l>
+       Un Auteur peut donner libre eſſor à ſes Vers,
+      </l>
+      <l>
+       Et ſous les préjugez tyrans de l'univers,
+      </l>
+      <l>
+       Le timide compas n'aſſervit point ſa proſe.
+      </l>
+     </quote>
+    </p>
+    <p>
+     En France on eſt plus circonſpect, &amp; on ne ſe livre pas impunément aux ſaillies de ſon
+          imagination.
+    </p>
+    <p>
+     Auſſi me donnerai-je bien de garde de faire jamais pareille ſottiſe: je ſçais trop qu'il n'y a
           point à badiner. Eh, qu'importe après tout? Les François ſemblent-ils être nez pour la vérité? Non,
           mais pour le plaiſir: ils ſont profonds dans l'art de le faire naître, &amp; d'en jouir; leur en
           faut-il davantage? Et voilà, ſi je ne me trompe, la véritable cauſe de ce qu'il paroît en France ſi
           peu de livres ſérieux &amp; profonds, tandis que la preſſe peut à peine ſuffire aux brochures
-          legeres &amp; frivoles dont elle eſt accablée.</p>
-        <p>
-          <quote>
-            <l>Les Dieux jaloux de leur grandeur,</l>
-            <l>Du cabinet de l'Empirée,</l>
-            <l>Aux yeux mortels ont défendu l'entrée,</l>
-            <l>Et quiconque pouſſé d'une indiſcrette ardeur,</l>
-            <l>Prophane d'un regard leur majeſté ſacrée,</l>
-            <l>Sent auſſitôt leur bras vengeur</l>
-            <l>S'appéſantir ſur lui de la voute éthérée.</l>
-            <l>Ainſi l'oiſeau qui plâne dans les airs,</l>
-            <l>Né pour braver la foudre &amp; le feu des éclairs,</l>
-            <l>Et s'élançant du ſéjour de la terre,
-            </l>
-            <l>Voler juſques aux lieux qu'habite le tonnerre;</l>
-            <l>Du ſéjour brillant des Dieux,</l>
-            <l>N'oſe plus affronter la ſplendeur éternelle,</l>
-            <l>Et reprimant ſon vol audacieux</l>
-            <l>Avec la timide hyrondelle,</l>
-            <l>Raze les humbles bords des étangs de ces lieux.</l>
-          </quote>
-        </p>
-        <p>Et puis vous connoiſſez l'humeur de nos François: une brochure, un badinage, un rien qui les
+          legeres &amp; frivoles dont elle eſt accablée.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Les Dieux jaloux de leur grandeur,
+      </l>
+      <l>
+       Du cabinet de l'Empirée,
+      </l>
+      <l>
+       Aux yeux mortels ont défendu l'entrée,
+      </l>
+      <l>
+       Et quiconque pouſſé d'une indiſcrette ardeur,
+      </l>
+      <l>
+       Prophane d'un regard leur majeſté ſacrée,
+      </l>
+      <l>
+       Sent auſſitôt leur bras vengeur
+      </l>
+      <l>
+       S'appéſantir ſur lui de la voute éthérée.
+      </l>
+      <l>
+       Ainſi l'oiſeau qui plâne dans les airs,
+      </l>
+      <l>
+       Né pour braver la foudre &amp; le feu des éclairs,
+      </l>
+      <l>
+       Et s'élançant du ſéjour de la terre,
+      </l>
+      <l>
+       Voler juſques aux lieux qu'habite le tonnerre;
+      </l>
+      <l>
+       Du ſéjour brillant des Dieux,
+      </l>
+      <l>
+       N'oſe plus affronter la ſplendeur éternelle,
+      </l>
+      <l>
+       Et reprimant ſon vol audacieux
+      </l>
+      <l>
+       Avec la timide hyrondelle,
+      </l>
+      <l>
+       Raze les humbles bords des étangs de ces lieux.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Et puis vous connoiſſez l'humeur de nos François: une brochure, un badinage, un rien qui les
           amuſe, voilà ce qu'il leur faut; &amp; non un livre dans les formes qui les intéreſſe. Tout ce qui
-          les occupe eſt bien près de les ennuyer: ils ne ſont point capables d'un ſi grand effort.</p>
-        <p>
-          <l>Citoien du ſéjour de Flore,</l>
-          <l>Le papillon dans un jardin</l>
-          <l>Parmi les roſes &amp; le thin</l>
-          <l>Coule les jours qu'il voit éclore;</l>
-          <l>Tantôt il recueille les pleurs</l>
-          <l>Tombez du Palais de l'Aurore;</l>
-          <l>Et tantôt ſur le ſein des fleurs</l>
-          <l>Il ſuce l'ambre des couleurs</l>
-          <l>Dont il s'embellit &amp; ſe dore:</l>
-          <l>Quelquefois ſur l'aîle des vents</l>
-          <l>Emporté loin des bords charmants</l>
-          <l>Où de ſon goût l'erreur volage</l>
-          <l>A trente fleurs en même temps,</l>
-          <l>Offroit un inconſtant hommage:</l>
-          <l>Il s'envole ſur le feuillage</l>
-          <l>D'un tendre &amp; nouvel arbriſſeau,</l>
-          <l>L'ornement d'un naiſſant bocage</l>
-          <l>Et des Amours l'heureux berceau.</l>
-          <l>Mais les Dryades des montagnes</l>
-          <l>Jamais loin des humbles campagnes</l>
-          <l>Ne l'ont vu d'un cours aſſuré</l>
-          <l>Voler ſur la tête chenue</l>
-          <l>Du cedre caché dans la nue</l>
-          <l>Ou dans un bois ſombre &amp; ſacré</l>
-          <l>Pénétrer le feuillage antique</l>
-          <l>De l'arbre auguſte &amp; prophetique</l>
-          <l>Jadis des humains adoré.</l>
-        </p>
-        <p>Ce Papillon eſt l'image du François: ſi je lui donnois du ſublime ou du profond, il pourroit bien
+          les occupe eſt bien près de les ennuyer: ils ne ſont point capables d'un ſi grand effort.
+    </p>
+    <p>
+     <l>
+      Citoien du ſéjour de Flore,
+     </l>
+     <l>
+      Le papillon dans un jardin
+     </l>
+     <l>
+      Parmi les roſes &amp; le thin
+     </l>
+     <l>
+      Coule les jours qu'il voit éclore;
+     </l>
+     <l>
+      Tantôt il recueille les pleurs
+     </l>
+     <l>
+      Tombez du Palais de l'Aurore;
+     </l>
+     <l>
+      Et tantôt ſur le ſein des fleurs
+     </l>
+     <l>
+      Il ſuce l'ambre des couleurs
+     </l>
+     <l>
+      Dont il s'embellit &amp; ſe dore:
+     </l>
+     <l>
+      Quelquefois ſur l'aîle des vents
+     </l>
+     <l>
+      Emporté loin des bords charmants
+     </l>
+     <l>
+      Où de ſon goût l'erreur volage
+     </l>
+     <l>
+      A trente fleurs en même temps,
+     </l>
+     <l>
+      Offroit un inconſtant hommage:
+     </l>
+     <l>
+      Il s'envole ſur le feuillage
+     </l>
+     <l>
+      D'un tendre &amp; nouvel arbriſſeau,
+     </l>
+     <l>
+      L'ornement d'un naiſſant bocage
+     </l>
+     <l>
+      Et des Amours l'heureux berceau.
+     </l>
+     <l>
+      Mais les Dryades des montagnes
+     </l>
+     <l>
+      Jamais loin des humbles campagnes
+     </l>
+     <l>
+      Ne l'ont vu d'un cours aſſuré
+     </l>
+     <l>
+      Voler ſur la tête chenue
+     </l>
+     <l>
+      Du cedre caché dans la nue
+     </l>
+     <l>
+      Ou dans un bois ſombre &amp; ſacré
+     </l>
+     <l>
+      Pénétrer le feuillage antique
+     </l>
+     <l>
+      De l'arbre auguſte &amp; prophetique
+     </l>
+     <l>
+      Jadis des humains adoré.
+     </l>
+    </p>
+    <p>
+     Ce Papillon eſt l'image du François: ſi je lui donnois du ſublime ou du profond, il pourroit bien
           examiner le titre de mon livre &amp; le laiſſer là. Mais je tâche de l'amuſer, peut-être je ſerai
-          lû. Je ſuis, &amp;c.</p>
-      </div>
-      <div type="chapter">
-        <head>L'ISLE DE FRANCE, OU LA NOUVELLE COLONIE DE VENUS.</head>
-        <head>CHANT PREMIER.</head>
-        <p>QU'UN autre conſacre à la mémoire les exploits ſanglants &amp; les foibleſſes des Héros: qu'un
+          lû. Je ſuis, &amp;c.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     L'ISLE DE FRANCE, OU LA NOUVELLE COLONIE DE VENUS.
+    </head>
+    <head>
+     CHANT PREMIER.
+    </head>
+    <p>
+     QU'UN autre conſacre à la mémoire les exploits ſanglants &amp; les foibleſſes des Héros: qu'un
           autre que moi apprenne à l'univers comment ce fameux Troïen échapa des flammes de ſa patrie
           brûlante, &amp; comment après dix ans d'erreurs &amp; de combats, il jetta les fondements de cet
           Empire formidable qui dans la ſuite ſoumit l'univers entier à l'eſclavage. Pour moi que le ſon de la
           trompette épouvante, &amp; qui n'ai jamais viſité les Muſes qu'à la ſuite des amours, je veux
           décrire comment Vénus fonda ſon aimable empire dans l'Iſle de France; &amp; par quel art divin elle
-          peupla une heureuſe contrée de cette Nation vive &amp; légere qui lui rend un culte ſi fidéle.</p>
-        <p>Roi de la France, &amp; Tyran du reſte de la terre, toi que Vénus mit au monde ſur un lit de
+          peupla une heureuſe contrée de cette Nation vive &amp; légere qui lui rend un culte ſi fidéle.
+    </p>
+    <p>
+     Roi de la France, &amp; Tyran du reſte de la terre, toi que Vénus mit au monde ſur un lit de
           fleurs, la premiere fois qu'elle parut à Idalie aux yeux des mortels; toi dont les fléches dorées
           pénétrent dans les voutes des cieux, &amp; juſqu'au ſein des enfers; Amour, je t'invoque
           aujourd'hui, guides mes pas dans la carriere que je me ſuis tracée, &amp; daignez m'inſpirer les
           accens qui touchent, &amp; ſurtout ces accens qui ſubjuguent le peuple Femme, à qui il m'importe de
-          plaire.</p>
-        <p>Sous un ciel pur &amp; ſerein étoit une Iſle, qui n'avoit pas encore de nom, (on l'appelle depuis
+          plaire.
+    </p>
+    <p>
+     Sous un ciel pur &amp; ſerein étoit une Iſle, qui n'avoit pas encore de nom, (on l'appelle depuis
           l'Iſle de France); la nature l'avoit embellie de ſes plus riches tréſors; toute cette contrée
           n'étoit qu'un jardin délicieux dont la beauté n'étoit point alterée par les apprêts de l'art; je ne
-          la ſçaurois mieux comparer qu'à une belle femme nue.</p>
-        <p>On n'y voyoit point encore de ces vaſtes aſſemblages de pierres, poſées à force de machines, les
+          la ſçaurois mieux comparer qu'à une belle femme nue.
+    </p>
+    <p>
+     On n'y voyoit point encore de ces vaſtes aſſemblages de pierres, poſées à force de machines, les
           unes ſur les autres, &amp; entrelaſſées de gros troncs d'arbres; à leur place étoient des bois
           ſombres &amp; touffus dont le feuillage toujours verd entretenoit l'image du printemps; de vaſtes
           prairies où l'œil ſe jouoit ſur l'émail des plus vives couleurs; des ruiſſeaux argentez qui
@@ -276,15 +540,18 @@
           rafraichi ſans ceſſe par l'agitation badine des aîles d'une multitude de zéphirs qui folâtroient ſur
           le ſein de cette Déeſſe. Le plaiſir étoit comme la température du climat; il couloit avec les
           ruiſſeaux, il voltigeoit ſur l'aîle des vents, &amp; le goſier tendre &amp; flexible des oiſeaux le
-          chantoit en ramageant.</p>
-        <p>Un ſéjour ſi délicieux n'étoit habité que par des Nymphes. Après que le Déluge eut ravagé la
+          chantoit en ramageant.
+    </p>
+    <p>
+     Un ſéjour ſi délicieux n'étoit habité que par des Nymphes. Après que le Déluge eut ravagé la
           terre entiere, &amp; tandis que Deucalion &amp; Pyrra, ſuivant les ordres des Dieux, repeuploient le
           monde, en jettant derriere eux des pierres qui s'animoient. Pyrra remplit cette Iſle d'une multitude
           de Nymphes adorables; mais Deucalion par malice n'y voulut pas jetter la moindre pierre. Vertueuſes,
           (car il n'y avoit point d'hommes dans toute l'Iſle), les Bergeres toutes à peu près du même âge,
           depuis vingt ans couloient des jours tranquilles dans l'innocence &amp; dans le repos.
-        </p>
-        <p>Ce n'étoit pas encore la mode qu'avec des couleurs empruntées elles ſubſtituaſſent un viſage
+    </p>
+    <p>
+     Ce n'étoit pas encore la mode qu'avec des couleurs empruntées elles ſubſtituaſſent un viſage
           artificiel à celui que leur avoit formé la nature, &amp; l'on ne s'étoit pas encore imaginé qu'on
           pût blanchir le ſein d'une femme: il leur étoit permis de porter leur viſage naturel, &amp;
           l'albâtre de leur ſein n'étoit pas acheté au poids de l'or; leurs blonds cheveux qui flottoient au
@@ -318,8 +585,10 @@
           pompons, d'eſſences, de rubans &amp; de mouches, une prêtreſſe reſpectueuſe travailla dans un
           profond ſilence à les embellir pendant la moitié du jour: comme leur beauté étoit tout leur
           appareil, l'inſtant de leur réveil étoit celui de leur toilette; &amp; les graces les eſcortoient
-          par tout ſans qu'elles ſe donnaſſent la peine de les appeller.</p>
-        <p>Parmi toutes les Nymphes qu'un même ſort réuniſſoit dans l'Iſle, il y en avoit deux plus
+          par tout ſans qu'elles ſe donnaſſent la peine de les appeller.
+    </p>
+    <p>
+     Parmi toutes les Nymphes qu'un même ſort réuniſſoit dans l'Iſle, il y en avoit deux plus
           remarquables que les autres: c'étoit Themire &amp; Egerie. Elles étoient très-belles, car toutes
           leurs compagnes auroient voulu ne les jamais voir. Leurs cœurs tendres &amp; naifs s'étoient pris
           l'un à l'autre comme deux fauvettes qu'un inſtinct commun a réunies, qui ramagent enſemble, ſe
@@ -337,8 +606,10 @@
           qu'elle fût, la laiſſoit toujours dans la même ſituation. Dans le ſein de la félicité même, elle
           ſoupiroit après une autre félicité qu'elle ne connoiſſoit pas, mais qu'elle ſentoit lui manquer.
           Elle languiſſoit, &amp; ſa langueur même lui étoit douce: Thémire avoit beſoin d'aimer &amp; elle ne
-          trouvoit rien autour d'elle qu'elle pût aimer autant qu'elle le vouloit.</p>
-        <p>Egérie moins ſenſible à la douceur d'aimer qu'à la vanité de paroître belle faiſoit toute ſon
+          trouvoit rien autour d'elle qu'elle pût aimer autant qu'elle le vouloit.
+    </p>
+    <p>
+     Egérie moins ſenſible à la douceur d'aimer qu'à la vanité de paroître belle faiſoit toute ſon
           étude de plaire; jamais elle ne paſſoit près d'un ruiſſeau ſans le conſulter ſur ſa beauté; ſouvent
           même elle s'écartoit pour en trouver. Avoit-elle rencontré quelqu'une de autres Nymphes? elle en
           relevoit les attraits à Thémire pour ſe faire die qu'elle étoit encore plus belle, &amp; elle
@@ -353,12 +624,16 @@
           jalouſe qu'il y eût des roſes dans le monde; elle eût ſouhaité n'en voir jamais, ſans elles rien
           n'eût égalé la beauté de ſon teint. Ces deux Nymphes charmées l'une de l'autre, le jour au bord des
           ruiſſeaux &amp; la nuit dans un même boccage, couloient des jours ſereins dans la plus étroite
-          liaiſon en ſe communiquant tous ces riens qui rempliſſoient leur cœur.</p>
-        <p>Cependant Vénus avoit depuis long-temps les yeux attachés ſur cette Iſle. Elle ſçavoit qu'il
+          liaiſon en ſe communiquant tous ces riens qui rempliſſoient leur cœur.
+    </p>
+    <p>
+     Cependant Vénus avoit depuis long-temps les yeux attachés ſur cette Iſle. Elle ſçavoit qu'il
           étoit écrit dans les Deſtins qu'un jour cette charmante contrée ſeroit le ſiége de la galanterie,
           des plaiſirs &amp; de la beauté: pour accomplir ce grand ouvrage, elle réſolut d'y envoyer de
-          nouvelles créatures: dans ce deſſein elle appella l'Amour &amp; lui parla en ces termes:</p>
-        <p>Mon fils, vous n'ignorez pas quelle vie ennuyeuſe nous menons depuis long-temps l'un &amp;
+          nouvelles créatures: dans ce deſſein elle appella l'Amour &amp; lui parla en ces termes:
+    </p>
+    <p>
+     Mon fils, vous n'ignorez pas quelle vie ennuyeuſe nous menons depuis long-temps l'un &amp;
           l'autre à Paphos &amp; à Idalie. L'eſſain des plaiſirs qui voltigeoit ſur nos traces nous abandonne
           en foule &amp; déſerte notre cour, depuis qu'on n'honore plus nos autels que par cette fade
           langueur, cette fidélité pleureuſe, &amp; cette monotonie des inſipides ſentiments qui ſont
@@ -397,8 +672,10 @@
           vous que j'ai choiſi pour leur annoncer le bonheur qui les attend; prevenez ces innocentes
           inſulaires ſur le nouveau genre de créatures qui doivent bientôt s'unir à elles: ouvrez leurs cœurs
           aux tendres impreſſions du nouveau ſentiment qu'elles doivent éprouver: ce miniſtere doit être celui
-          de l'amour; partez, mon fils, allez exécuter les ordres du deſtin.</p>
-        <p>L'Amour ſourit en écoutant ſa Mere; auſſi-tôt prenant ſes fléches &amp; ſon bandeau des mains des
+          de l'amour; partez, mon fils, allez exécuter les ordres du deſtin.
+    </p>
+    <p>
+     L'Amour ſourit en écoutant ſa Mere; auſſi-tôt prenant ſes fléches &amp; ſon bandeau des mains des
           graces qui les portoient; il appelle les vents pour le tranſporter ſur leurs aîles rapides: aſſis
           ſur un nuage d'or &amp; d'azur, il fend les airs avec rapidité, &amp; laiſſe derriere lui un vaſte
           ſillon de lumiere. Arrivé au-deſſus de l'Iſle des Nymphes, il contemple pendant quelque temps la
@@ -409,11 +686,15 @@
           ruiſſeaux ſembloient murmurer avec plus de douceur, les Roſſignols &amp; les Fauvettes chanterent
           tout à coup &amp; redoublerent leurs baiſers enflammez: l'air qu'on reſpiroit dans l'Iſle comme
           ammolli par la préſence de l'Amours fit couler dans tous les ſens une langueur délicieuſe; &amp;
-          l'Iſle entiere par un doux frémiſſement s'agita &amp; rendit hommage à ſon ſouverain.</p>
-      </div>
-      <div type="chapter">
-        <head>CHANT SECOND.</head>
-        <p>C'Etoit le temps où la nuit commence à replier ſes voiles ſombres &amp; où les heures, filles du
+          l'Iſle entiere par un doux frémiſſement s'agita &amp; rendit hommage à ſon ſouverain.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHANT SECOND.
+    </head>
+    <p>
+     C'Etoit le temps où la nuit commence à replier ſes voiles ſombres &amp; où les heures, filles du
           matin, prêtes à lancer dans les airs le char doré du Soleil, commencent à ſemer ſur ſon chemin les
           roſes qu'elles ont cueillies dans les jardins de l'Aurore. Thémire dans les bras du ſommeil, goûtoit
           encore les douceurs du repos. Un bocage de myrthes lui avoit ſervi d'azyle cette nuit: couchée ſur
@@ -425,8 +706,10 @@
           levres de corail, &amp; couvrit ſon beau ſein de ſes ailes tremblantes. Thémire au même inſtant
           pouſſa un ſoupir, ſes joues parurent s'allumer, &amp; tout ſon corps ſe tranſit. L'Amour crut
           qu'elle s'alloit réveiller &amp; il s'enfuit auſſi-tôt: il la regarda de loin, &amp; s'appercevant
-          qu'elle dormoit encore, il ſe prépara à exécuter les ordres de ſa mere.</p>
-        <p>Auſſi-tôt il ſe dépouille de ſes aîles &amp; de ſon bandeau, il décharge ſes épaules du carquois
+          qu'elle dormoit encore, il ſe prépara à exécuter les ordres de ſa mere.
+    </p>
+    <p>
+     Auſſi-tôt il ſe dépouille de ſes aîles &amp; de ſon bandeau, il décharge ſes épaules du carquois
           doré qui flottoit derriere lui, &amp; le ſuſpend aux branches d'un myrthe voiſin qui plia ſous le
           poids redoutable: il ſe transforme en un de ces Marquis tels qu'on les voit aujourd'hui étaler ſur
           le Théâtre leurs minois pincez dont ils ſont idolâtres: il avoit conſervé la beauté de ſa figure:
@@ -453,8 +736,10 @@
           minaudieres: en même temps ſa bouche parut ſourire, &amp; Thémire crut entendre ces paroles:
           Aujourd'hui tu ſeras heureuſe; les Dieux envoyent dans ton Iſle de nouvelles créatures: tu gouteras
           des plaiſirs, que juſqu'ici on n'a pas connus. Au même inſtant l'Amour diſparut, &amp; Thémire ſe
-          réveilla.</p>
-        <p>Son premier mouvement fut de promener ſes regards de tous côtez autour d'elle; mais n'appercevant
+          réveilla.
+    </p>
+    <p>
+     Son premier mouvement fut de promener ſes regards de tous côtez autour d'elle; mais n'appercevant
           rien, elle ne put s'empêcher de gémir: ſes yeux étoient encore pleins de l'objet qu'elle avoit vû en
           ſonge, &amp; le ſon de ſes paroles ſembloit errer autour de ſes oreilles; elle regardoit
           attentivement tout ce qui l'environnoit, elle écoutoit le ſilence des bocages, chaque feuille que le
@@ -523,8 +808,10 @@
           Thémire s'étoit arrêtée, elle eſpéroit le poſſéder toute ſeule ſi elle pouvoit l'attrapper. Que le
           temps paroît long, lorſque l'on court après l'Amour! Thémire le pourſuivoit depuis une heure, &amp;
           elle s'imaginoit qu'il y avoit au moins une journée. Déſeſpérée de ne pouvoir l'atteindre, elle
-          tomba de laſſitude ſur un gazon.</p>
-        <p>L'endroit où elle s'arrêta étoit délicieux par ſa fraîcheur. C'étoit une enceinte de myrthes,
+          tomba de laſſitude ſur un gazon.
+    </p>
+    <p>
+     L'endroit où elle s'arrêta étoit délicieux par ſa fraîcheur. C'étoit une enceinte de myrthes,
           environnée de tous côtez d'un buiſſon de roſes; le ſommet des arbres entrelaſſez l'un dans l'autre,
           formoit un toît de verdure impénétrable aux rayons du Soleil; la nature avoit diſpoſé tout autour
           des ſiéges de gazon tapiſſez de fleurs, une onde pure &amp; tranſparente couloit au milieu ſur un
@@ -548,8 +835,10 @@
           êtres, &amp; je ſuis deſcendu tout exprès du Ciel pour faire ceſſer cette languiſſante uniformité
           dans laquelle vous vivez. C'eſt moi qui vous envoïe aujourd'hui ces nouvelles créatures. Ah! dit
           Thémire, comment eſt-ce qu'on les appelle? Viendront-elles bientôt? que ſçavent-elles faire? Quels
-          ſont ces plaiſirs que l'on goûte avec elles?</p>
-        <p>On les appelle hommes, reprit l'Amour. Un homme eſt un animal, qui a les mêmes ſenſations, &amp;
+          ſont ces plaiſirs que l'on goûte avec elles?
+    </p>
+    <p>
+     On les appelle hommes, reprit l'Amour. Un homme eſt un animal, qui a les mêmes ſenſations, &amp;
           fait les mêmes mouvemens que vous; ils n'auront d'autre occupation que celle de tâcher de vous
           plaire, de vous imiter en tout, de copier vos goûts, de louer tout ce que vous ferez; ils vous
           ſuivront partout: ils demeureront tout un jour avec vous, &amp; ſans avoir rien à dire, ils
@@ -568,77 +857,193 @@
           aimer, ma paſſion ne pourra finir qu'avec ma vie: que croyez-vous que cela voudra dire? Mais, dit
           Thémire, rien n'eſt ſi clair, cela veut dire qu'il m'aimera toujours .... tant qu'il vivra. Oh, oui,
           reprit l'Amour, croyez cela, &amp; puis lorſque votre Amant aura une fois ce qu'il deſire, ſatisfait
-          &amp; content, ſon goût s'émouſſera.</p>
-        <p>
-          <l>Le volage vous quittera,</l>
-          <l>Et ma Bergere pleurera.</l>
-        </p>
-        <p>Alors vous apprendrez ce que c'eſt que d'ignorer la véritable ſignification des termes. Tandis
+          &amp; content, ſon goût s'émouſſera.
+    </p>
+    <p>
+     <l>
+      Le volage vous quittera,
+     </l>
+     <l>
+      Et ma Bergere pleurera.
+     </l>
+    </p>
+    <p>
+     Alors vous apprendrez ce que c'eſt que d'ignorer la véritable ſignification des termes. Tandis
           qu'il en eſt temps je m'en vais vous inſtruire du ſens de ces paroles. Lors donc que votre Amant
-          vous jurera que ſon ardeur ne pourra finir qu'avec ſa vie; c'eſt comme s'il vous diſoit:<l>Oui, ma belle,</l>
-          <l>Je vous trouve aujourd'hui tout à fait à mon gré,</l>
-          <l>Nous ſommes aſſez bien aſſortis ce me ſemble,</l>
-          <l>Si le cœur vous en dit, ma foi, j'y ſouſcrirai,</l>
-          <l>Nous nous amuſerons enſemble.</l>
-          <l>Au ſurplus je vous aimerai</l>
-          <l>Auſſi long-temps que vous ſerez aimable,</l>
-          <l>Ou que vous me le paroîtrez.</l>
-          <l>Mais auſſi vous me permettrez,</l>
-          <l>Dès qu'une autre à mes yeux ſemblera préférable,</l>
-          <l>Ou, que mes deſirs ſatisfaits,</l>
-          <l>Auront éteint des feux uſez par l'habitude,</l>
-          <l>De briſer pour jamais une chaîne trop rude,</l>
-          <l>Et d'aller voir ailleurs ſi de nouveaux attraits</l>
-          <l>A de nouveaux plaiſirs pourront ouvrir mon ame,</l>
-          <l>Et me faire ſentir, dans ma nouvelle flamme,</l>
-          <l>Ces tendres mouvemens &amp; ces plaiſirs ſi doux</l>
-          <l>Que mon cœur émouſſé n'aura plus près de vous.</l>
-        </p>
-        <p>Mais au fond, dit Thémire, je ne trouve rien là que de fort raiſonnable; il eſt juſte d'accorder
+          vous jurera que ſon ardeur ne pourra finir qu'avec ſa vie; c'eſt comme s'il vous diſoit:
+     <l>
+      Oui, ma belle,
+     </l>
+     <l>
+      Je vous trouve aujourd'hui tout à fait à mon gré,
+     </l>
+     <l>
+      Nous ſommes aſſez bien aſſortis ce me ſemble,
+     </l>
+     <l>
+      Si le cœur vous en dit, ma foi, j'y ſouſcrirai,
+     </l>
+     <l>
+      Nous nous amuſerons enſemble.
+     </l>
+     <l>
+      Au ſurplus je vous aimerai
+     </l>
+     <l>
+      Auſſi long-temps que vous ſerez aimable,
+     </l>
+     <l>
+      Ou que vous me le paroîtrez.
+     </l>
+     <l>
+      Mais auſſi vous me permettrez,
+     </l>
+     <l>
+      Dès qu'une autre à mes yeux ſemblera préférable,
+     </l>
+     <l>
+      Ou, que mes deſirs ſatisfaits,
+     </l>
+     <l>
+      Auront éteint des feux uſez par l'habitude,
+     </l>
+     <l>
+      De briſer pour jamais une chaîne trop rude,
+     </l>
+     <l>
+      Et d'aller voir ailleurs ſi de nouveaux attraits
+     </l>
+     <l>
+      A de nouveaux plaiſirs pourront ouvrir mon ame,
+     </l>
+     <l>
+      Et me faire ſentir, dans ma nouvelle flamme,
+     </l>
+     <l>
+      Ces tendres mouvemens &amp; ces plaiſirs ſi doux
+     </l>
+     <l>
+      Que mon cœur émouſſé n'aura plus près de vous.
+     </l>
+    </p>
+    <p>
+     Mais au fond, dit Thémire, je ne trouve rien là que de fort raiſonnable; il eſt juſte d'accorder
           la préférence à l'objet le plus aimable: pourquoi vouloir exiger d'un pauvre malheureux qu'il reſte
           colé auprès de vous, quand il ne fait que s'y ennuyer. Il eſt vrai, reprit le Fils de Vénus, rien
-          n'eſt ſi injuſte:</p>
-        <p>
-          <l>Vouloir fixer d'un cœur les volages amours,</l>
-          <l>C'eſt vouloir arrêter un fleuve dans ſon cours:</l>
-          <l>Mais tout injuſte enfin, c'eſt un uſage antique.</l>
-          <l>C'eſt un empire deſpotique</l>
-          <l>Que chaque belle affectera toujours</l>
-          <l>Sur ſes captifs; &amp; leur beauté l'exige.</l>
-          <l>Laiſſez fuir un Amant, c'eſt preſque convenir</l>
-          <l>Que vos foibles attraits n'ont pu le retenir:</l>
-          <l>A le bien garotter votre honneur vous oblige.</l>
-          <l>Et s'il s'échape enfin! Oh Ciel, quel impoſteur!</l>
-          <l>On ne ſçauroit ſurvivre à ſon malheur,</l>
-          <l>C'eſt-à-dire, au mépris que l'on fait de vos charmes,</l>
-          <l>Car ce n'eſt pas la perte de l'Amant</l>
-          <l>Qui déſeſpere &amp; fait verſer des larmes,</l>
-          <l>Cette perte ſe peut reparer aiſément.</l>
-          <l>Mais la ſource de tant d'allarmes</l>
-          <l>N'eſt que le cruel déſeſpoir</l>
-          <l>De voir que la beauté n'a pas tout le pouvoir</l>
-          <l>Dont elle ſe flattoit: c'eſt là ce qui l'étonne.</l>
-          <l>Ainſi lorſqu'en ces mots une Amante en fureur</l>
-          <l>A ſon volage Amant reproche ſon malheur;</l>
-          <l>Quoi le perfide m'abandonne?</l>
-          <l>Je me croiois maîtreſſe de ſon cœur:</l>
-          <l>Mais je me trompois, ah! j'en mourrai de douleur.</l>
-          <l>Voici le ſens: eh quoi l'on me mépriſe!</l>
-          <l>Juſqu'à ce jour mon orgueil s'eſt flatté</l>
-          <l>Du ridicule honneur d'avoir quelque beauté:</l>
-          <l>O Ciel! me ſerois-je mépriſe?</l>
-          <l>Oui, je me trompois, ah! j'en mourrai de douleur.</l>
-        </p>
-        <p>Mais pourquoi toutes ces façons, dit Thémire? pourquoi ne pas dire tout de ſuite qu'on eſt bien
+          n'eſt ſi injuſte:
+    </p>
+    <p>
+     <l>
+      Vouloir fixer d'un cœur les volages amours,
+     </l>
+     <l>
+      C'eſt vouloir arrêter un fleuve dans ſon cours:
+     </l>
+     <l>
+      Mais tout injuſte enfin, c'eſt un uſage antique.
+     </l>
+     <l>
+      C'eſt un empire deſpotique
+     </l>
+     <l>
+      Que chaque belle affectera toujours
+     </l>
+     <l>
+      Sur ſes captifs; &amp; leur beauté l'exige.
+     </l>
+     <l>
+      Laiſſez fuir un Amant, c'eſt preſque convenir
+     </l>
+     <l>
+      Que vos foibles attraits n'ont pu le retenir:
+     </l>
+     <l>
+      A le bien garotter votre honneur vous oblige.
+     </l>
+     <l>
+      Et s'il s'échape enfin! Oh Ciel, quel impoſteur!
+     </l>
+     <l>
+      On ne ſçauroit ſurvivre à ſon malheur,
+     </l>
+     <l>
+      C'eſt-à-dire, au mépris que l'on fait de vos charmes,
+     </l>
+     <l>
+      Car ce n'eſt pas la perte de l'Amant
+     </l>
+     <l>
+      Qui déſeſpere &amp; fait verſer des larmes,
+     </l>
+     <l>
+      Cette perte ſe peut reparer aiſément.
+     </l>
+     <l>
+      Mais la ſource de tant d'allarmes
+     </l>
+     <l>
+      N'eſt que le cruel déſeſpoir
+     </l>
+     <l>
+      De voir que la beauté n'a pas tout le pouvoir
+     </l>
+     <l>
+      Dont elle ſe flattoit: c'eſt là ce qui l'étonne.
+     </l>
+     <l>
+      Ainſi lorſqu'en ces mots une Amante en fureur
+     </l>
+     <l>
+      A ſon volage Amant reproche ſon malheur;
+     </l>
+     <l>
+      Quoi le perfide m'abandonne?
+     </l>
+     <l>
+      Je me croiois maîtreſſe de ſon cœur:
+     </l>
+     <l>
+      Mais je me trompois, ah! j'en mourrai de douleur.
+     </l>
+     <l>
+      Voici le ſens: eh quoi l'on me mépriſe!
+     </l>
+     <l>
+      Juſqu'à ce jour mon orgueil s'eſt flatté
+     </l>
+     <l>
+      Du ridicule honneur d'avoir quelque beauté:
+     </l>
+     <l>
+      O Ciel! me ſerois-je mépriſe?
+     </l>
+     <l>
+      Oui, je me trompois, ah! j'en mourrai de douleur.
+     </l>
+    </p>
+    <p>
+     Mais pourquoi toutes ces façons, dit Thémire? pourquoi ne pas dire tout de ſuite qu'on eſt bien
           fâchée de n'être pas ſi aimable qu'on le croyoit? Ah, reprit vivement l'Amour, gardez-vous bien de
           faire jamais un pareil aveu:
-          <l>Il ne faut pas par des diſcours trop vrais</l>
-          <l>Rabaiſſer le pouvoir de vos brillants attraits,</l>
-          <l>Et trahir l'intérêt de ce peuple de belles</l>
-          <l>Qui doivent dans la ſuite habiter ce ſéjour:</l>
-          <l>Souvenez-vous que quelque jour</l>
-          <l>Vos exemples ſeront leur regle &amp; leurs modeles.</l>
-          Ecoutez donc bien ce que j'ai à vous dire: il faudra toujours que ce ſoient vos amans qui ſoient
+     <l>
+      Il ne faut pas par des diſcours trop vrais
+     </l>
+     <l>
+      Rabaiſſer le pouvoir de vos brillants attraits,
+     </l>
+     <l>
+      Et trahir l'intérêt de ce peuple de belles
+     </l>
+     <l>
+      Qui doivent dans la ſuite habiter ce ſéjour:
+     </l>
+     <l>
+      Souvenez-vous que quelque jour
+     </l>
+     <l>
+      Vos exemples ſeront leur regle &amp; leurs modeles.
+     </l>
+     Ecoutez donc bien ce que j'ai à vous dire: il faudra toujours que ce ſoient vos amans qui ſoient
           coupables de tout ce qui arrivera dans votre commerce: lorſque le retour de l'âge vous privant des
           attraits qui les avoit attirés les fera déſerter, il ne faudra voir en eux que des lâches, des
           perfides &amp; des cœurs inſenſibles à l'amour. Lorſqu'un nouvel objet aura ſurpris votre tendreſſe,
@@ -676,8 +1081,10 @@
           honneur à mes deſirs &amp; aux ſiens, il lui faut un prétexte par lequel elle puiſſe ſe perſuader à
           elle-même que ma paſſion eſt réelle: prodiguonslui les promeſſes &amp; les ſermens; elle ne les
           croira point; mais elle fera ſemblant, &amp; cela ſuffit pour l'extérieur: voilà la ſignification de
-          promeſſes &amp; ſermens.</p>
-        <p>Pour le mot d'affliction qui marque d'ordinaire l'impreſſion que fait ſur nous une choſe
+          promeſſes &amp; ſermens.
+    </p>
+    <p>
+     Pour le mot d'affliction qui marque d'ordinaire l'impreſſion que fait ſur nous une choſe
           déſagréable, belle Nymphe, ſçachez qu'en amour il n'y en a aucune: qu'un amant qui dit à ſa
           maitreſſe, qu'il a été dans une mortelle affliction pendant ſon abſence, dit autant que lorſqu'il
           lui vante ſes attraits, ſes appas, ſa beauté: c'eſtàdire, que tous ces mots ſont dans la langue
@@ -694,11 +1101,15 @@
           affaires, jugera à propos de parler de beauté à ſa maitreſſe, elle ne ſera point aſſez impolie pour
           lui faire l'injure de le croire impoſteur. Je viens, continua-t-il, de vous réveler des myſtéres qui
           vous étoient inconnus juſqu'ici: je conſens à vous découvrir tout mon empire &amp; l'hiſtoire de
-          votre poſtérité. Suivez-moi par les nouveaux chemins que je vais vous tracer.</p>
-      </div>
-      <div type="chapter">
-        <head>CHANT TROISIE'ME.</head>
-        <p>UN char brillant ſe préſenta tout à coup à la vûe de Thémire: il n'étoit point tel que ceux que
+          votre poſtérité. Suivez-moi par les nouveaux chemins que je vais vous tracer.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHANT TROISIE'ME.
+    </head>
+    <p>
+     UN char brillant ſe préſenta tout à coup à la vûe de Thémire: il n'étoit point tel que ceux que
           la moleſſe &amp; le luxe firent rouler depuis dans l'Iſle avec tant de faſte &amp; d'effroi: ce
           n'étoit point un de ces palais dorez &amp; tranſparens enlevez par des animaux fiers &amp; rapides
           que dirige un gros automate à large plumet: c'étoit un char d'yvoire plus blanc que la neige, auquel
@@ -710,8 +1121,10 @@
           Thémire, eſt le ſéjour de tous les Amans qui doivent naître: la main du deſtin y a marqué elle-même
           la place aux différentes nations deſtinées à vivre ſous mes loix: approchons, nous pourrons voir
           leurs portraits juſqu'à ce que nous arrivions à l'endroit où ſont ceux qui doivent habiter votre
-          iſle.</p>
-        <p>Les premiers qui ſe préſentent à nous, ſont les habitans d'une iſle, fiere rivale de la vôtre;
+          iſle.
+    </p>
+    <p>
+     Les premiers qui ſe préſentent à nous, ſont les habitans d'une iſle, fiere rivale de la vôtre;
           ils doivent un jour remporter la gloire d'avoir en tout temps un grand nombre d'énormes édifices de
           bois ſur la mer, qu'ils appelleront des vaiſſeaux, de tuer &amp; d'être tuez dans les batailles avec
           plus de courage que les autres peuples, &amp; de connoître mieux que le reſte de la terre combien
@@ -750,8 +1163,10 @@
           lui dit: vous venez de voir une femme qui ſera long-tems aimée d'un jeune étranger qu'elle adorera:
           elle apprendra un jour ſon infidélité par cette lettre que vous lui voyez dans la main, &amp;
           auſſi-tôt elle ſe donnera la mort de déſeſpoir: mais ſortons vîte de ce climat ſuneſte: ſi l'air
-          ſombre &amp; noir qu'on y reſpire venoit à vous gagner, que deviendroit votre aimable poſtérité?</p>
-        <p>Qui ſont ceux qui ſe préſentent ici à nous? Le pays qu'ils doivent habiter ſera un jour le pays
+          ſombre &amp; noir qu'on y reſpire venoit à vous gagner, que deviendroit votre aimable poſtérité?
+    </p>
+    <p>
+     Qui ſont ceux qui ſe préſentent ici à nous? Le pays qu'ils doivent habiter ſera un jour le pays
           des Monſignors, des Baladins. Comme le climat approche plus vers le midi, leurs joues ſont plus
           colorées &amp; leurs cœurs plus tendres: ils aiment par ſaillie: leu cœur eſt un ſalpêtre qui
           s'embraſe au moindre feu, brûle pendant quelque tems avec violence, &amp; s'éteint comme un méteore:
@@ -768,8 +1183,10 @@
           entendre dans l'univers quelqu'autre choſe qu'elle: elle ſouhaiteroit être ſeule avec lui dans le
           monde pour lui donner &amp; pour en recevoir plus de marques de tendreſſe: des feux ſi violens ne
           ſçauroient durer long-tems. Mais c'eſt trop nous arrêter; laiſſons-la s'enyvrer du bonheur d'aimer;
-          &amp; pourſuivons notre chemin.</p>
-        <p>Thémire en avançant avec l'Amour apperçut bientôt un ſpectacle qui l'étonna. C'étoit des figures
+          &amp; pourſuivons notre chemin.
+    </p>
+    <p>
+     Thémire en avançant avec l'Amour apperçut bientôt un ſpectacle qui l'étonna. C'étoit des figures
           taillées à peu près comme le reſte des femmes qu'elle avoit vûes juſqu'alors; mais elle crut d'abord
           qu'elles n'avoient point de viſage, parce qu'elles n'en voyoit pas: il étoit caché par un voile qui
           leur tomboit juſque ſur le ſein. A travers ce voile on voyoit cependant briller preſque à toutes une
@@ -821,8 +1238,10 @@
           dans des maiſons où ſéparées du reſte de la terre, elles entretiennent juſqu'aux pieds des autels le
           ſouvenir de l'amant qu'elles ont adoré. Thémire écoutoit avec une ſurpriſe mêlée de joye, tout ce
           que lui diſoit l'Amour; &amp; ſes yeux parcouroient avidement tous ces objets auſſi nouveaux
-          qu'intéreſſans pour elle, lorſqu'ils arriverent à un nouveau canton.</p>
-        <p>Le premier objet qui ſe préſenta à eux, fut une figure effrayante qui voulut leur en défendre
+          qu'intéreſſans pour elle, lorſqu'ils arriverent à un nouveau canton.
+    </p>
+    <p>
+     Le premier objet qui ſe préſenta à eux, fut une figure effrayante qui voulut leur en défendre
           l'entrée: ſon teint étoit pâle &amp; livide, ſes regards ſombres &amp; appéſantis d'un feu ſecret:
           ſon corps entouré d'une multitude de ſerpens qui lui rongeoient le cœur ſans ceſſe renaiſſant ſous
           leurs dents meurtriéres. Le ſoupçon &amp; l'inquiétude habitoient ſur ſon front: elle avoit cent
@@ -876,14 +1295,20 @@
           fureur il la tuera. Quelques inſtans après ayant découvert ſon innocence il percera l'eſclave qui
           lui avoit fait ce faux rapport &amp; s'immolera lui-même ſur le corps de ſon amante. Ah, dit
           Thémire, que l'Amour eſt cruel dans ce pays! peut-on avoir du plaiſir à aimer ainſi? En diſant ces
-          mots elle ſortit de cette fatale région.</p>
-        <p>Enfin, dit l'Amour, nous voilà arrivez dans l'endroit qu'habite votre poſtérité.</p>
-        <p>Thémire en entrant dans ce ſéjour crut tout à coup reſpirer un nouvel air; une impreſſion vive
+          mots elle ſortit de cette fatale région.
+    </p>
+    <p>
+     Enfin, dit l'Amour, nous voilà arrivez dans l'endroit qu'habite votre poſtérité.
+    </p>
+    <p>
+     Thémire en entrant dans ce ſéjour crut tout à coup reſpirer un nouvel air; une impreſſion vive
           &amp; legere ſembla ſe gliſſer juſqu'au fonds de ſon ame, &amp; ſes ſens furent animez d'une joye
           inconnue: une douce liberté accompagnée de graces épanouit ſon front, &amp; ſes yeux parurent
           briller d'un nouveau feu. Sa curioſité redoubla ſon attention &amp; elle écouta le Fils de Vénus qui
-          continua en ces termes:</p>
-        <p>L'amour ne ſera dans votre Iſle ni une occupation importante &amp; paſſionnée comme en Italie, ni
+          continua en ces termes:
+    </p>
+    <p>
+     L'amour ne ſera dans votre Iſle ni une occupation importante &amp; paſſionnée comme en Italie, ni
           un commerce religieux de reſpects comme en Eſpagne: ce ne ſera point comme en Angleterre un
           ſentiment ſérieux &amp; profond, ni une paſſion jalouſe &amp; emportée comme parmi les Turcs. Ce
           ſera un amuſement vif &amp; badin, un goût paſſager &amp; folâtre, épuré des fadeurs du ſentiment,
@@ -895,16 +1320,19 @@
           la monnoye, &amp; les maitreſſes ſeront à peu près comme un joli meuble qu'on prendra par caprice
           pour s'en ſervir deux fois, &amp; dont on ſe défera de même pour le céder à d'autres à qui il pourra
           faire plaiſir.
-        </p>
-        <p>Thémire écoutoit avec des tranſports de joye tout ce que lui diſoit l'Amour: ſes yeux erroient
+    </p>
+    <p>
+     Thémire écoutoit avec des tranſports de joye tout ce que lui diſoit l'Amour: ſes yeux erroient
           ſans s'arrêter de ſpectacle en ſpectacle, &amp; ſaiſiſſoient avidement tous les objets qui la
           frapoient. Elle étoit étonnée de voir les femmes de ce pays comme partagées en différentes claſſes,
           auſſi diſtinguées les unes des autres par les manieres que par les ajuſtemens. Elle en demanda la
           raiſon à l'Amour qui ſatisfit ſa curioſité en ces termes. Ce pays ſera partagé en différens climats
           qui ſeront en effet très-diſtinguez les uns des autres. On n'y reſpirera pas le même air, &amp; les
           femmes qui les habiteront ne ſe reſſembleront que par le fonds de coquetterie &amp; de legereté qui
-          ſera le caractere general de la nation. Approchonsnous; vous pourrez les enviſager de plus près.</p>
-        <p>Thémire s'avança avec l'Amour dans le premier de ces climats. Elle ſe ſentit tout de ſuite ſaiſie
+          ſera le caractere general de la nation. Approchonsnous; vous pourrez les enviſager de plus près.
+    </p>
+    <p>
+     Thémire s'avança avec l'Amour dans le premier de ces climats. Elle ſe ſentit tout de ſuite ſaiſie
           par un air qui étoit extrêmement délié &amp; ſubtil; les femmes qui l'habitoient avoient un air de
           ſupériorité &amp; d'aiſance qui n'eût été que ridicule s'il eût été copié, mais qui étoit agréable
           parce qu'il leur étoit naturel. Leur habillement avoit encore plus de goût que de magnificence:
@@ -912,8 +1340,10 @@
           pardonner leurs ridicules lorſqu'elles en avoient. Leur viſage decidé &amp; hardi, avoit de
           l'agrément, au défaut de la beauté, &amp; leur langage pur ſans affectation étoit auſſi poli que
           leurs manieres. Au reſte elles ne jouoient rien: elles étoient naturellement &amp; ſans effort
-          telles qu'elles paroiſſoient être. Elles n'imitoient perſonne, &amp; tout le monde les imitoit.</p>
-        <p>Elle paſſa dans un ſecond climat. L'air qu'on y reſpiroit étoit empeſé, les femmes reſſembloient
+          telles qu'elles paroiſſoient être. Elles n'imitoient perſonne, &amp; tout le monde les imitoit.
+    </p>
+    <p>
+     Elle paſſa dans un ſecond climat. L'air qu'on y reſpiroit étoit empeſé, les femmes reſſembloient
           à des automates dont tous les reſſorts ſeroient ſymétriques, &amp; les mouvemens ſoumis aux regles
           du compas. A l'aiſance des manieres qui leur manquoit, elles ſubſtituoient un air de gravité qui la
           remplaçoit mal. Leur viſage qui ſembloit mandier du reſpect en perdoit de ſes droits du côté de
@@ -924,8 +1354,10 @@
           dans les formes, ne lui accordoient leurs faveurs qu'après une réſiſtance d'un certain nombre de
           jours, &amp; ne lui permettoient de ſe retirer qu'après qu'il avoit obtenu ſon congé, ſuivant les
           loix les plus exactes. Ces femmes, dit l'Amour, s'appelleront les femmes de Robbe; hémire ſourit
-          &amp; s'avança dans le troiſiéme climat.</p>
-        <p>Les femmes qui l'habitoient avoient toutes les yeux fixez ſur celles du premier climat qu'elles
+          &amp; s'avança dans le troiſiéme climat.
+    </p>
+    <p>
+     Les femmes qui l'habitoient avoient toutes les yeux fixez ſur celles du premier climat qu'elles
           tâchoient de copier: elles n'avoient rien à elles qu'un fonds d'orgueil qu'elles ne devoient encore
           qu'à leur fortune. On les voyoit au milieu d'un grand fleuve d'or dans lequel elles puiſoient ſans
           ceſſe pour acheter des airs &amp; du faſte: quand elles étoient belles elles n'étoient pas toujours
@@ -933,8 +1365,10 @@
           ridicules. Elles auroient ſouhaité mettre toute leur fortune ſur elles, &amp; en effet elles
           portoient chacune la dépouille d'une province entiere: elles avoient un bel amant, comme un équipage
           brillant, par air &amp; par vanité, quand elles n'en trouvoient point gratis elles en achetoient au
-          beſoin, &amp; quelque cher qu'il fut, elles avoient de quoi le payer.</p>
-        <p>Thémire enfin paſſa dans un quatriéme entiérement oppoſé à celui-là: avec l'air, qui y étoit un
+          beſoin, &amp; quelque cher qu'il fut, elles avoient de quoi le payer.
+    </p>
+    <p>
+     Thémire enfin paſſa dans un quatriéme entiérement oppoſé à celui-là: avec l'air, qui y étoit un
           peu épais on y reſpiroit une liberté pleine de franchiſe: les femmes y reſſentoient naïvement le
           plaiſir &amp; l'inſpiroient de même: leurs propos plus libres que délicats, ne ſe couvroient que
           d'un vernis de pudeur; leur joye éveillée &amp; bruyante pour ſe nourrir avoit beſoin de groſſes
@@ -944,16 +1378,22 @@
           jargon de la galanterie, mais elles en connoiſſoient l'état &amp; elles ne ſe faiſoient pas
           long-temps attendre. Libres dans leurs manieres, elles permettoient, elles vouloient même que leurs
           amants le fuſſent avec elles. Les femmes de ce climat étoient les moins façonnées &amp; les plus
-          ſatisfaites, c'étoit le climat de la Bourgeoiſie.</p>
-        <p>C'eſt ainſi que Thémire parcouroit avec l'Amour les différentes claſſes de ſa poſtérité. Tout à
+          ſatisfaites, c'étoit le climat de la Bourgeoiſie.
+    </p>
+    <p>
+     C'eſt ainſi que Thémire parcouroit avec l'Amour les différentes claſſes de ſa poſtérité. Tout à
           coup les nuages qu'elle appercevoit diſparurent à ſes yeux, &amp; le Temple du Deſtin s'éclipſa:
           elle ſe ſentit tranſportée rapidement à travers les airs dans le boccage d'où elle avoit été
           enlevée. C'eſt-là qu'elle attendoit impatiemment l'arrivée des nouvelles créatures que l'Amour lui
-          avoit promiſes, &amp; l'accompliſſement des grands deſtins reſervez à ſon Iſle.</p>
-      </div>
-      <div type="chapter">
-        <head>CHANT QUATRIEME.</head>
-        <p>CEpendant Vénus pendant l'abſence de l'Amour avoit long-temps déliberé ſur le genre de créatures
+          avoit promiſes, &amp; l'accompliſſement des grands deſtins reſervez à ſon Iſle.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHANT QUATRIEME.
+    </head>
+    <p>
+     CEpendant Vénus pendant l'abſence de l'Amour avoit long-temps déliberé ſur le genre de créatures
           dont elle feroit choix pour peupler la charmante contrée qui déſormais devoit être ſon nouvel
           empire. Elle avoit jetté les yeux ſur les différents habitants de la terre, mais parmi ceux qui
           rendoient aux femmes le culte le plus fidéle, elle n'en avoit point trouvé qui fuſſent capables de
@@ -962,8 +1402,10 @@
           matiere trop épaiſſe ne couloit point avec aſſez de rapidité dans leurs veines. Il falloit un
           ſalpêtre animé, une nation toute d'air &amp; de feu, qui à la légereté du vent réunit la ſplendeur
           des méteores. C'eſt pourquoi elle s'arrêta à la nation des Sylphes, parce que c'étoit celle qui
-          approchoit le plus de l'idée qu'elle s'étoit formée des nouveaux habitants de l'Iſle.</p>
-        <p>Les Sylphes ſont un peuple aérien, leger &amp; tranſparent: ils ont des ailes ainſi que les
+          approchoit le plus de l'idée qu'elle s'étoit formée des nouveaux habitants de l'Iſle.
+    </p>
+    <p>
+     Les Sylphes ſont un peuple aérien, leger &amp; tranſparent: ils ont des ailes ainſi que les
           oiſeaux: ils penſent de même que l'homme; mais ils ſentent plus vivement parce qu'ils ne ſont point
           environnez d'une enveloppe groſſiere, une ſubſtance de feu regne &amp; s'étend autour d'eux &amp;
           leur tient lieu de corps; ils ne dorment point; ils ſe nourriſſent de ſalpêtre; auſſi rien n'égale
@@ -973,8 +1415,10 @@
           inquiets, toujours ſemillans ou ils ne ſont jamais en repos, ou leur repos même eſt un mouvement. Au
           reſte, ils habitent un globe particulier tout comme nous: ils ont des villes &amp; des royaumes, des
           loix dont ils reſpectent les mots, des épouſes qu'ils n'aiment point, des maitreſſes qu'ils font
-          ſemblant d'aimer.</p>
-        <p>La Reine d'Amathonte étoit occupée de l'image de cette nation legere &amp; folâtre, lorſque ſon
+          ſemblant d'aimer.
+    </p>
+    <p>
+     La Reine d'Amathonte étoit occupée de l'image de cette nation legere &amp; folâtre, lorſque ſon
           fils vint lui rendre compte de l'exécution de ſes deſſeins. Vénus applaudit d'un ſourire; elle
           ouvroit avec grace ſes levres de corail, &amp; l'inſtruiſit de ſes nouveaux projets: il faut mon
           fils, ajouta-t-elle, que vous vous rendiez dans le globe qu'habitent ces génies, vous choiſirez un
@@ -998,8 +1442,10 @@
           s'il lui diſoit pendant deux ou trois ſiécles, c'eſt-à-dire, deux ou trois jours: comme quand une
           coquette répondra à ſon amant revenant de faire une campagne que ſon abſence lui a paru un ſiécle;
           c'eſt-à-dire, un jour. Vous voyez combien le calcul ſera commode; partez, mon fils, &amp;
-          ſervez-vous en pour hâter votre retour.</p>
-        <p>Venus achevoit: déja l'Amour s'étoit envolé: après avoir plané quelque temps à travers l'azur des
+          ſervez-vous en pour hâter votre retour.
+    </p>
+    <p>
+     Venus achevoit: déja l'Amour s'étoit envolé: après avoir plané quelque temps à travers l'azur des
           cieux, il arrive dans le globe des Sylphes. Ce globe étoit compoſé d'une matiere legere comme l'air,
           &amp; tranſparente comme le criſtal, un long cercle de feu l'environnoit de tous côtez. L'air qu'on
           reſpiroit étoit plus ſubtil que celui que nous reſpirons ſur les plus hautes montagnes. C'étoit le
@@ -1007,8 +1453,10 @@
           &amp; des divertiſſements. Peut-on n'en pas voir par tout où il y a des hommes ou des êtres qui en
           approchent? l'Amour ſçavoit que c'étoit ſurtout aux ſpectacles que ſe déploient les talens
           ſupérieurs des Sylphes pour l'inconſtance &amp; la legereté: il s'y tranſporte avec plaiſir, sûr d'y
-          faire un heureux choix pour ſa colonie.</p>
-        <p>La ſalle où ils étoient aſſemblez ne reſſembloit point à celle qui fut depuis dans notre Iſle
+          faire un heureux choix pour ſa colonie.
+    </p>
+    <p>
+     La ſalle où ils étoient aſſemblez ne reſſembloit point à celle qui fut depuis dans notre Iſle
           deſtinée à cet uſage. Ce n'étoit point un ancien lieu d'exercices vulgaires; elle avoit été bâtie
           exprès aux dépens de la nation des Sylphes qui en partageoient la commodité &amp; l'agrément. Elle
           étoit vaſte &amp; ſpacieuſe: l'entrée n'en étoit point obſcure, ni la porte étroite. C'étoit un
@@ -1016,8 +1464,10 @@
           toutes parts. Sur le théâtre on pouvoit faire plus de dix pas ſans toucher les deux bouts: les
           décorations contre notre uſage étoient neuves &amp; faites avec goût: les Sylphes &amp; les
           Sylphides qui jouoient paroiſſoient être dans l'endroit où ſe paſſoit l'action qu'ils repréſentoient
-          aux yeux des ſpectateurs.</p>
-        <p>C'étoit dans cette baſilique ſuperbe qu'étoient aſſemblez les Sylphes à peu près comme nous: les
+          aux yeux des ſpectateurs.
+    </p>
+    <p>
+     C'étoit dans cette baſilique ſuperbe qu'étoient aſſemblez les Sylphes à peu près comme nous: les
           uns étoient de bout dans une vaſte enceinte, où ils ſe précipitoient avec bruit; leurs mouvements
           ondoians étoient ſemblables à ceux des flots de la mer, lorſqu'un flux rapide les porte ſur le
           rivage, d'où ils ſont de même emportés quelques inſtants après par un flux oppoſé. D'autres dans un
@@ -1033,8 +1483,10 @@
           Delà ils alloient dans une loge dire à la Sylphide qui y figuroit qu'elle étoit plus belle qu'elle
           n'avoit jamais été; ils revenoient fredonner dans les couliſſes, ou faire la capriole ſur le
           théâtre, ſe chargeant ingénieuſement d'amuſer le parterre dans des entr'actes &amp; pendant que les
-          Acteurs ſe repoſoient.</p>
-        <p>L'Amour conſidera pendant quelque temps ce ſpectacle qui l'amuſa beaucoup, il n'avoit point
+          Acteurs ſe repoſoient.
+    </p>
+    <p>
+     L'Amour conſidera pendant quelque temps ce ſpectacle qui l'amuſa beaucoup, il n'avoit point
           encore vû de créatures ſi polies &amp; ſi brillantes: ſon choix demeura flottant pendant quelques
           minuttes; ſes yeux indécis erroient du parterre aux loges, des loges au théatre: tous les Sylphes
           méritoient la palme de l'agrément &amp; de la légereté, c'étoit toujours les derniers qu'il avoit
@@ -1042,15 +1494,19 @@
           colonie. Il leur communiqua le deſſein qu'il avoit formé ſur eux. Auſſitôt ces Sylphes impatients de
           voir de nouveaux objets &amp; des créatures nouvelles ſe hâterent de ſe transformer ſelon les ordres
           de l'Amour: &amp; ce fut alors que la terre vit pour la premiere fois des PetitsMaîtres. Tous trois
-          accomplis dans leur genre, ils étoient tous trois différents.</p>
-        <p>Les graces du premier étoient décidées &amp; hardies: ſes airs affichoient ſon mérite, ſes
+          accomplis dans leur genre, ils étoient tous trois différents.
+    </p>
+    <p>
+     Les graces du premier étoient décidées &amp; hardies: ſes airs affichoient ſon mérite, ſes
           manieres bruſquoient le cérémonial: il ſaluoit en cadence, parloit en ſifflant; careſſoit ſes
           levres, pirouettoit ſur un talon, &amp; voltigeoit ſans ceſſe. Ses diſcours leſtes &amp; rapides
           n'attendoient jamais la repartie; une audace aimable brilloit dans ſes yeux; ſon ajuſtement quoique
           ſingulier étoit plein de goût: ſon ton bruyant; ſes coups de tête inimitables: ſes ſourires agaçans;
           ſon eſprit délié comme ſes façons; ſon cœur ſuperficiel, excepté dans l'art de plaire où il étoit
-          profond &amp; où il faiſoit gloire de l'être. C'étoit le Petit-Maitre en épée.</p>
-        <p>Les deux autres avoient cela de commun entre eux que leur état fixoit leur habillement. Mais l'un
+          profond &amp; où il faiſoit gloire de l'être. C'étoit le Petit-Maitre en épée.
+    </p>
+    <p>
+     Les deux autres avoient cela de commun entre eux que leur état fixoit leur habillement. Mais l'un
           avoit plus de méthode dans ſon ajuſtement, l'autre plus de grace &amp; d'art; l'un ſe rengorgeoit de
           temps en temps comme une jolie femme; l'autre ſe tenoit toujours droit comme une poupée; l'un
           carreſſoit ſa longue chevelure qu'il rajuſtoit en fredonnant, l'autre n'oſoit toucher à ſa tête de
@@ -1060,8 +1516,9 @@
           Tous deux copioient le Petit-Maitre en épée, mais le premier à ſon ſalpêtre mêloit deux gramns
           d'empois: le ſecond ſur ſes graces vives &amp; brillantes mettoit trois couches d'un coloris plus
           doux &amp; plus uni. Le premier étoit le Petit-Maitre de robe, le ſecond le Petit-Maitre en rabat.
-        </p>
-        <p>Ces trois Sylphes ainſi transformez s'avancerent vers la nouvelle Iſle dont ils devoient faire la
+    </p>
+    <p>
+     Ces trois Sylphes ainſi transformez s'avancerent vers la nouvelle Iſle dont ils devoient faire la
           conquête, &amp; l'Amour qui les regardoit s'applaudiſſoit de ſon ouvrage; quand ils furent arrivez
           au deſſus de l'Iſle, le Fils de Vénus s'arrêta pour leur montrer la beauté du nouveau ſéjour qu'ils
           alloient habiter: les Sylphes virent avec tranſport ces nouvelles campagnes, ces champs de verdure,
@@ -1076,8 +1533,10 @@
           &amp; les ris y donneront ſans ceſſe la main aux graces qu'eſcorteront la jeuneſſe &amp; la volupté.
           Les plaiſirs y naîtront ſous les pas comme les fleurs dans les campagnes: il y en aura pour toutes
           les faiſons comme pour tous les âges: &amp; les jeunes gens de toutes les nations y viendront faire
-          leur cours de politeſſe &amp; de galanterie.</p>
-        <p>En même temps il ſe tranſporta dans un petit bocage de mirthe qui étoit dans l'enceinte de la
+          leur cours de politeſſe &amp; de galanterie.
+    </p>
+    <p>
+     En même temps il ſe tranſporta dans un petit bocage de mirthe qui étoit dans l'enceinte de la
           forêt: il le regarda en ſouriant: il prononça trois fois les noms de Plaiſir, d'Amour &amp; de
           Vénus; il traça dans l'air avec ſes fléches une enceinte myſtérieuſe tout autour du bocage. Les
           Sylphes étonnez lui demanderent la raiſon de cette cérémonie religienſe: je conſacre, leur dit
@@ -1090,8 +1549,10 @@
           doit ſe conſommer ailleurs. Plus on croira la victime pure, plus l'offrande ſera riche &amp;
           conſidérable: le feu du ſacrifice s'allumera toujours aux rayons de l'or. Ce ſera le ſeul de mes
           Temples dans l'univers qui ne ſera jamais fermé. L'Amour ayant ceſſé de parler deſcendit dans l'Iſle
-          avec les trois Sylphes.</p>
-        <p>Cependant Thémire avoit aſſemblé ſes compagnes; elle leur avoit communiqué l'ordre du Deſtin,
+          avec les trois Sylphes.
+    </p>
+    <p>
+     Cependant Thémire avoit aſſemblé ſes compagnes; elle leur avoit communiqué l'ordre du Deſtin,
           &amp; les avoit inſtruites du bonheur inconnu qui leur étoit deſtiné: toutes ces nymphes attendoient
           impatiemment ſur le rivage les créatures nouvelles. Egerie fut la premiere qui les apperçut, &amp;
           les annonça à ſes compagnes. Auſſitôt elles pouſſerent des cris de joye &amp; volerent au devant
@@ -1107,9 +1568,12 @@
           peupla de nouveaux habitants; &amp; leurs aimables deſcendants qui ont le ſecret de réunir aux
           agréments de leurs meres, la brillante legereté de leurs peres, ont toujours rendu depuis un culte
           fidéle à Vénus; ils lui doivent leur origine &amp; elle eſt encore aujourd'hui la Protectrice &amp;
-          la Souveraine de l'Iſle.</p>
-        <trailer>Fin du quatriéme &amp; dernier Chant, faiſant la ſeconde Partie des Filles-Femmes ou Femmes-Filles.</trailer>
-      </div>
-    </body>
-  </text>
+          la Souveraine de l'Iſle.
+    </p>
+    <trailer>
+     Fin du quatriéme &amp; dernier Chant, faiſant la ſeconde Partie des Filles-Femmes ou Femmes-Filles.
+    </trailer>
+   </div>
+  </body>
+ </text>
 </TEI>

@@ -2,83 +2,130 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Puttelange_Roi" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:91.44"> Le Roi Guiot: MiMoText edition </title>
-                <author ref="viaf:55247202;wikidata:Q22020535"> Jean Vesque de Puttelange(1760-1829) </author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> googlebooks </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Amelie Probst </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 25500 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/MiMoText/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://books.google.de/books?id=8_peAAAAcAAJ"/>
-                </bibl>
-                <bibl type="printSource">
-                    <date> 1791 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1791 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2020-12-02"> Initial ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <head> Le Roi Guiot, histoire nouvelle, Tirée d'un vieux manuscrit poudreux et
-                    vermoulu.</head>
-            </div>
-            <div type="chapter">
-                <head>
-                    <hi rend="italic">INTRODUCTION.</hi>
-                </head>
-                <p> Il était une fois un roi. Ce roi se nommait Guiot; et son royaume, qui a changé
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:91.44">
+     Le Roi Guiot: MiMoText edition
+    </title>
+    <author ref="viaf:55247202;wikidata:Q22020535">
+     Jean Vesque de Puttelange(1760-1829)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      googlebooks
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Amelie Probst
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     25500
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/MiMoText/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://books.google.de/books?id=8_peAAAAcAAJ"/>
+     <publisher>
+      Google Books
+     </publisher>
+     <date>
+      2014
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <date>
+      1791
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1791
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2020-12-02">
+    Initial ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <head>
+     Le Roi Guiot, histoire nouvelle, Tirée d'un vieux manuscrit poudreux et
+                    vermoulu.
+    </head>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      INTRODUCTION.
+     </hi>
+    </head>
+    <p>
+     Il était une fois un roi. Ce roi se nommait Guiot; et son royaume, qui a changé
                     de nom depuis long-temps, a déja donné bien de la tablature à des géographes
                     érudits et à de graves commentateurs, qui ont fini par ne plus le retrouver,
                     après l'avoir vu là où il n'a jamais existé. On disait du temps du roi Guiot,
@@ -87,41 +134,62 @@
                     allés les reconnaître, pour paraître ensuite aux yeux des curieux d'un temps
                     moins reculé. C'est ainsi que, postérieurement à ces époques, l'Atlantide de
                     Platon, cherchée pendant si long-temps et avec si peu de succès, s'est, enfin,
-                    trouvée être une île merveilleuse au milieu du continent <ref target="#N1"/> .
+                    trouvée être une île merveilleuse au milieu du continent
+     <ref target="#N1"/>
+     .
                     Quoiqu'il en soit, il est indubitable que le roi Guiot fut autre fois un
                     personnage fameux sur la terre : car on a lu dans une inscription, écrite dans
                     un français élégant, avant qu'il у eût des français au monde ; on a lu , dis-je,
-                    ces paroles remarquables : <hi rend="italic"> Guiot n'a-t-il pas existé ? </hi>
-                    Mais, me dira-t-on, cela dénote une existence bien problématique, loin
+                    ces paroles remarquables :
+     <hi rend="italic">
+      Guiot n'a-t-il pas existé ?
+     </hi>
+     Mais, me dira-t-on, cela dénote une existence bien problématique, loin
                     d'annoncer que ce Guiot ait été un roi, et de plus, un roi puissant. D'accord;
                     mais une foule de savans a prouvé que ce n'était là que des vétilles, auxquelles
                     il ne valait pas la peine de s'arrêter. Personne, à la vérité, ne comprit ces
                     savans ; ce qui était fort inutile : mais tout le monde les crut; c'est tout ce
-                    qu'il fallait. </p>
-                <p> Longtemps, après,'un des serviteurs, ensuite ministre de la divinité du pays,
+                    qu'il fallait.
+    </p>
+    <p>
+     Longtemps, après,'un des serviteurs, ensuite ministre de la divinité du pays,
                     lequel serviteur, voyant qu'il n'y avait plus rien à faire avec le ciel, voulait
                     tirer quelque parti de la terre, écrivit l'histoire du roi Guiot , telle que je
                     vais la donner. On me permettra toutefois, en ma qualité de traducteur, d'y
-                    ajouter de temps en temps une de mes réflexions. </p>
-                <p> Un moine du douzième siècle traduisit cette histoire en roman. J'ai fait ma
+                    ajouter de temps en temps une de mes réflexions.
+    </p>
+    <p>
+     Un moine du douzième siècle traduisit cette histoire en roman. J'ai fait ma
                     traduction sur la sienne, qui me tomba entre les mains par une aventure rien
-                    moins que plaisante pour moi, et qu'il importe peu au public de connaître <ref
-                        target="#N2"/> : ainsi je la saute pour commencer. </p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head> LE ROI GUIOT. </head>
-                <head> CHAPITRE PREMIER. </head>
-                <p>
-                    <hi rend="italic"> Tremblement de terre, éclipse de soleil, comète. </hi> L'an
-                    du monde quatre cent soixante-neuf mille neuf cent quatre-vingt-quatre <ref
-                        target="#N3"/> , sept mois, sept jours, sept heures , trois minutes, trois
+                    moins que plaisante pour moi, et qu'il importe peu au public de connaître
+     <ref target="#N2"/>
+     : ainsi je la saute pour commencer.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     LE ROI GUIOT.
+    </head>
+    <head>
+     CHAPITRE PREMIER.
+    </head>
+    <p>
+     <hi rend="italic">
+      Tremblement de terre, éclipse de soleil, comète.
+     </hi>
+     L'an
+                    du monde quatre cent soixante-neuf mille neuf cent quatre-vingt-quatre
+     <ref target="#N3"/>
+     , sept mois, sept jours, sept heures , trois minutes, trois
                     secondes, trois tierces, il se fit un grand tremblement de terre, que tous les
                     peuples en général regardèrent comme un présage de quelque grand événement qui
                     les intéressait, et dont chaque peuple en particulier fit l'application à sa
-                    manière; ainsi qu'il s'est toujours pratiqué. </p>
-                <p> Les Paquans, nation jadis fameuse dans l'histoire, et dont plusieurs individus
+                    manière; ainsi qu'il s'est toujours pratiqué.
+    </p>
+    <p>
+     Les Paquans, nation jadis fameuse dans l'histoire, et dont plusieurs individus
                     sont encore répandus chez les nations modernes, quoiqu'aujourd'hui l'on ignore
                     d'où ils sont venus, allèrent aussi-tôt consulter un oracle qui prédisait à
                     merveille et intelligiblement les choses passées, et annonçait les futures avec
@@ -129,16 +197,35 @@
                     éclairé. Il savait également révéler à dessein des projets, dont une
                     manifestation extraordinaire importait aux auteurs, pour en obtenir un succès
                     heureux. La réponse de l'oracle fut, comme la vie des financiers, courte et
-                    bonne. <hi rend="italic"> Naissance </hi> pélérinage <hi rend="italic"> , </hi>
-                    peu <hi rend="italic"> de </hi> chose <hi rend="italic"> , </hi> rien: voilà les
-                    seules paroles qu'on put lui arracher. </p>
-                <p> Les jeunes femmes et les filles crurent que le premier point les concernait.
+                    bonne.
+     <hi rend="italic">
+      Naissance
+     </hi>
+     pélérinage
+     <hi rend="italic">
+      ,
+     </hi>
+     peu
+     <hi rend="italic">
+      de
+     </hi>
+     chose
+     <hi rend="italic">
+      ,
+     </hi>
+     rien: voilà les
+                    seules paroles qu'on put lui arracher.
+    </p>
+    <p>
+     Les jeunes femmes et les filles crurent que le premier point les concernait.
                     Elles vaquèrent de bon cœur à ce qui, dans neuf mois de-là, devait donner des
                     naissances à foison. Les vieilles, qui n'auraient pas été écoutées, si la
                     fantaisie leur fût venue de remplir le même devoir, se chargèrent du second
                     point; et l'on abandonna les deux autres au cours des événemens. Plus tard on
-                    verra si l'oracle fut compris. </p>
-                <p> Le collège pontifical ne manqua pas d'observer que le tremblement de terre était
+                    verra si l'oracle fut compris.
+    </p>
+    <p>
+     Le collège pontifical ne manqua pas d'observer que le tremblement de terre était
                     en effet arrivé exprès, pour annoncer un grand événement aux Paquans. Ils se
                     trouvaient alors les seuls qui fussent précisément dans l'an quatre cent
                     soixante-neuf mille neuf cent quatre-vingt-quatre, sept mois, sept jours, sept
@@ -151,30 +238,68 @@
                     pendules, et où toute la gnomonique se réduisait à mesurer l'ombre des tours
                     avec des perches à houblon. Au reste, les Paquans avaient la réputation d'être,
                     de tous les peuples de la terre, celui qui sût le plus exactement quelle heure
-                    il était, sans se tromper jamais d'un <hi rend="italic"> iota </hi>
-                    <ref target="#N4"/>
-                </p>
-                <p> Pour en revenir aux nombres sept et trois, on fit attention aussi nombres
-                    étaient de ceux que l'on appellait <hi rend="italic"> sacrés </hi> , et pour
+                    il était, sans se tromper jamais d'un
+     <hi rend="italic">
+      iota
+     </hi>
+     <ref target="#N4"/>
+    </p>
+    <p>
+     Pour en revenir aux nombres sept et trois, on fit attention aussi nombres
+                    étaient de ceux que l'on appellait
+     <hi rend="italic">
+      sacrés
+     </hi>
+     , et pour
                     lesquels la nature a une juste prédilection : témoins les sept planètes, les
                     sept jours de la semaine , les trois hypostases de la Divinité, les trois règnes
-                    et l'axiome <hi rend="italic">omne trinum perfectum. </hi>
-                </p>
-                <p> Quelque temps après le tremblement de terre, il se fit une éclipse de soleil,
+                    et l'axiome
+     <hi rend="italic">
+      omne trinum perfectum.
+     </hi>
+    </p>
+    <p>
+     Quelque temps après le tremblement de terre, il se fit une éclipse de soleil,
                     dans la pleine lune, suivant les premières tables astronomiques du pays, gravées
                     seulement dans les têtes des Paquans, et dans la nouvelle lune selon d'autres
-                    tables <hi rend="italic"> castigatae editionis </hi> . Si cette éclipse fut
+                    tables
+     <hi rend="italic">
+      castigatae editionis
+     </hi>
+     . Si cette éclipse fut
                     totale ou partielle, c'est ce qu'il nous importe peu de savoir : il suffira,
                     peut-être, de dire qu'il fit très-noir, et que l'obscurité du temps se joignant
                     à celle des esprits, il n'en résulta rien de trop clair. On eut encore recours à
-                    l'oracle, qui donna la même réponse, <hi rend="italic"> naissance </hi> , <hi
-                        rend="italic"> pélérinage </hi> , <hi rend="italic"> peu </hi> de <hi
-                        rend="italic"> chose </hi> , <hi rend="italic"> rien </hi> . Voilà donc de
+                    l'oracle, qui donna la même réponse,
+     <hi rend="italic">
+      naissance
+     </hi>
+     ,
+     <hi rend="italic">
+      pélérinage
+     </hi>
+     ,
+     <hi rend="italic">
+      peu
+     </hi>
+     de
+     <hi rend="italic">
+      chose
+     </hi>
+     ,
+     <hi rend="italic">
+      rien
+     </hi>
+     . Voilà donc de
                     nouveau les jeunes femmes et les filles qui se font montrer à l'envi. la feuille
                     à l'envers ; et les vieilles qui courent les chapelles et les pagodes du
                     Paquantois; mais le tout par pure dévotion, et pour obéir à l'oracle
-                    scrupuleusement. </p>
-                <p> Il était écrit chez le destin , dans un livre inextricable <ref target="#N5"/> ,
+                    scrupuleusement.
+    </p>
+    <p>
+     Il était écrit chez le destin , dans un livre inextricable
+     <ref target="#N5"/>
+     ,
                     que cette année présagerait à la terre les événemens les plus surprenans. A
                     peine les Paquans avaient consulté le ciel sur l'éclipse de soleil; à peine les
                     Paquantes étaient de retour, les jeunes du bosquet, les vieilles de la pagode,
@@ -183,21 +308,43 @@
                     consternation, que cette comète avait jetée dans tout l'empire, fesait craindre
                     une réponse qui n'apprit que des malheurs. On alla premièrement consulter les
                     astronomes, dont l'opinion la plus claire fut si le soleil ne fesait pas son
-                    déjeûner de cette comète, elle ferait de nous son souper <ref target="#N6"/> .
+                    déjeûner de cette comète, elle ferait de nous son souper
+     <ref target="#N6"/>
+     .
                     Les Paquans, peu sensibles à l'honneur de servir de potage à une étoile à queue;
                     sortirent assez mécontens de l'opinion des astronomes, qu'ils n'ont plus
-                    consultés depuis. Enfin ils retournèrent à l'oracle, qui leur répondit; <hi
-                        rend="italic"> naissance </hi> , <hi rend="italic"> pélerinage, peu de
-                        chose, rien. </hi>
-                </p>
-                <p> Les jeunes femmes et les filles avaient toujours bien la volonté d'obéir à
+                    consultés depuis. Enfin ils retournèrent à l'oracle, qui leur répondit;
+     <hi rend="italic">
+      naissance
+     </hi>
+     ,
+     <hi rend="italic">
+      pélerinage, peu de
+                        chose, rien.
+     </hi>
+    </p>
+    <p>
+     Les jeunes femmes et les filles avaient toujours bien la volonté d'obéir à
                     l'ordre céleste, comme les premières fois; mais du côté des hommes, il fallait
-                        <hi rend="italic"> autre </hi> chose <hi rend="italic"> que de la bonne
-                        volonté, et cette </hi> autre <hi rend="italic"> chose </hi> se trouvait
+     <hi rend="italic">
+      autre
+     </hi>
+     chose
+     <hi rend="italic">
+      que de la bonne
+                        volonté, et cette
+     </hi>
+     autre
+     <hi rend="italic">
+      chose
+     </hi>
+     se trouvait
                     épuisée par les deux réponses précédentes. Les vieilles avaient, d'ailleurs,
                     gagné des calus, des durillons, des empoules et des cors aux pieds, en fesant
-                    leurs pélerinages. </p>
-                <p> Soit donc que la piété se fut refroidie, ce qui est fort naturel; soit que la
+                    leurs pélerinages.
+    </p>
+    <p>
+     Soit donc que la piété se fut refroidie, ce qui est fort naturel; soit que la
                     nation devint plus éclairée, ce qui est plus naturel encore ; on laissa tout
                     uniment au temps le soin d'accomplir ce que l'oracle avait prédit. Il y eut même
                     de ces gens qui font les entendus, qui dirent hautement que l'oracle n'avait pas
@@ -211,20 +358,33 @@
                     qu'un hachis de prêtres serait un ragoût détestable, et qu'un oracle dans la
                     rivière serait une viande trop creuse pour des brochets, quoique des hommes
                     eussent eu s'en contenter; que de plus, à cet égard, il valait mieux attendre
-                    tout de la raison et du temps. </p>
-                <p> Tout rentra dans l'ordre. Les hommes oublièrent les événemens physiques et les
+                    tout de la raison et du temps.
+    </p>
+    <p>
+     Tout rentra dans l'ordre. Les hommes oublièrent les événemens physiques et les
                     sots oracles-les jeunes femmes et les filles attendirent, plus ou moins
-                    patiemment, que <hi rend="italic"> l'autre chose se </hi> joignît chez les
+                    patiemment, que
+     <hi rend="italic">
+      l'autre chose se
+     </hi>
+     joignît chez les
                     hommes à la bonne volonté ; les vieilles allèrent se couper les cors aux pieds.
                     Au reste, voilà le peuple trompé, il adore ceux qui le trompent; détrompé, il
-                    les massacre. Avis à plus d'un lecteur. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE II. </head>
-                <p>
-                    <hi rend="italic"> Grossesse et désirs de la reine des Paquans; assemblée des
-                        matrones et des devins; triomphe des prêtres. </hi></p>
-                <p>En ce temps la reine des Paquans devint enceinte des œuvres du roi, son mari. La
+                    les massacre. Avis à plus d'un lecteur.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE II.
+    </head>
+    <p>
+     <hi rend="italic">
+      Grossesse et désirs de la reine des Paquans; assemblée des
+                        matrones et des devins; triomphe des prêtres.
+     </hi>
+    </p>
+    <p>
+     En ce temps la reine des Paquans devint enceinte des œuvres du roi, son mari. La
                     chronique scandaleuse de la cour laissa à douter, s'il avait été aidé dans ses
                     opérations génératrices, ou s'il les avait conduites seul heureusement à leur
                     fin. C'était une bonne pâte de roi, un de ces bons humains dont on ne parle
@@ -235,8 +395,14 @@
                     les procurait. Alors, chez les Paquans, on disait d'une femme, au bonheur de
                     laquelle il ne manquait rien, qu'elle était heureuse comme une reine. Cette
                     expression a, dans la suite, un peu perdue de sa justesse. Mais a-t-on jamais pu
-                    dire avec raison , <hi rend="italic"> heureux comme un roi </hi> . </p>
-                <p> Ordinairement les femmes ont dans leurs grossesses, des caprices et des
+                    dire avec raison ,
+     <hi rend="italic">
+      heureux comme un roi
+     </hi>
+     .
+    </p>
+    <p>
+     Ordinairement les femmes ont dans leurs grossesses, des caprices et des
                     fantaisies; la reine des Paquans était très femme de ce côté-là. Son premier
                     désir fut d'avoir le grand éléphant blanc de Siam. Le roi, son mari, eut beau
                     lui représenter qu'il y avait trop loin du Paquantois aux indes, et que le grand
@@ -244,8 +410,10 @@
                     le laissassent jamais aller hors du pays. La reine, sa femme insista, et le bon
                     roi, qui ne voulait pas que sa progéniture vint au monde avec un nez en trompe
                     d'éléphant, envoya des ambassadeurs à Siam pour demander le grand éléphant
-                    blanc. </p>
-                <p> Les ambassadeurs n'étaient pas encore hors du royaume, lorsqu'on vint dire au
+                    blanc.
+    </p>
+    <p>
+     Les ambassadeurs n'étaient pas encore hors du royaume, lorsqu'on vint dire au
                     roi des Paquans que la reine sa femme ne voulait plus avoir le grand éléphant
                     blanc, et qu'elle se sentait attaquée de vapeurs hystériques et spasmodiques dès
                     qu'on lui en parlait; mais qu'elle mourait d'envie de voir le bœuf Apis, et
@@ -263,8 +431,10 @@
                     renonça, par bonheur pour les ambassadeurs ; car le peuple de Memphis, prévenu
                     de leur mission, formait déja le projet de les écharper. La reine désira ainsi
                     successivement le chien Anubis, le serpent Python, l'âne de Balaam et le bouc
-                    Hazazel. </p>
-                <p> Enfin, le dernier désir de la reine, et le plus raisonnable , fut de passer
+                    Hazazel.
+    </p>
+    <p>
+     Enfin, le dernier désir de la reine, et le plus raisonnable , fut de passer
                     seulement une petite demie heure, au clair de la lune, sous un berceau de
                     myrthes et d'orangers, avec un officier des gardes, jeune homme, grand, bien
                     fait, d'une figure noble; lequel joignait tous les avantages de l'esprit aux
@@ -284,8 +454,10 @@
                     conjugale n'en fut pas altérée; et plût au ciel! que toutes les femmes se
                     contentassent, une seule fois dans leur vie, de passer une petite demie heure,
                     tête à tète, avec un joli cavalier. Combien de maris conclueraient avec leurs
-                    femmes ce marché avec plaisir ! </p>
-                <p> Quoique la reine des Paquans approchât du terme de sa grossesse, le roi, son
+                    femmes ce marché avec plaisir !
+    </p>
+    <p>
+     Quoique la reine des Paquans approchât du terme de sa grossesse, le roi, son
                     mari, n'y pouvait plus tenir d'impatience de savoir, si l'enfant dont elle
                     accoucherait, serait mâle ou femelle, et s'il naîtrait sous une heureuse
                     constellation. Le bon roi était crédule : c'est le fort des ames faibles. On
@@ -296,8 +468,10 @@
                     barres dans son sein, et qu'elle n'avait jamais eu de couleurs. Le roi fit la
                     grimace à cette dernière nouvelle; mais il se consola en pensant que sa fille
                     serait jolie , et qu'elle ferait tourner tontes les têtes du couchant à
-                    l'orient. </p>
-                <p> Les prêtres, qui gardaient encore sur le cœur le hachis qu'on avait voulu faire
+                    l'orient.
+    </p>
+    <p>
+     Les prêtres, qui gardaient encore sur le cœur le hachis qu'on avait voulu faire
                     de leurs personnes, cherchaient tous les moyens de reprendre sur le peuple leur
                     ancienne autorité. La grossesse de la reine leur en fournit heureusement
                     l'occasion. Il n'est rien que les prêtres ne sachent faire tourner à leur
@@ -323,36 +497,59 @@
                     charitablement, et la multitude le lapida, pour lui prouver, qu'avoir raison
                     contre tout, c'est avoir tort. Il n'est pas hors de propos de marquer ici, que
                     la gent sacerdotale fut, dans tous les temps, composée de deux espèces d'hommes
-                    également dangereuses, de fourbes et d'ignorans. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE III. </head>
-                <p>
-                    <hi rend="italic"> Naissance du roi Guiot; ses trois nourrices</hi>
-                </p>
-                <p> Comme la reine des Paquans était en règle dans tout ce qu'elle fesait, elle
+                    également dangereuses, de fourbes et d'ignorans.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE III.
+    </head>
+    <p>
+     <hi rend="italic">
+      Naissance du roi Guiot; ses trois nourrices
+     </hi>
+    </p>
+    <p>
+     Comme la reine des Paquans était en règle dans tout ce qu'elle fesait, elle
                     accoucha, précisément au bout de neuf mois, d'un gros garçon, qui vint au monde
                     avec deux dents molaires et deux incisives : d'où l'on conjectura qu'il serait,
                     comme son père, un gaillard de bon appétit. Le bon roi, dans la joye de cette
                     naissance, pardonna de tout son cour aux matrones, leur ignorance à juger de
                     quel sexe les enfans seront. Il fit de riches présens aux prêtres qui avaient
                     prédit qu'il naîtrait un enfant, et assembla son conseil d'état, pour donner un
-                    nom heureux au nouveau né. </p>
-                <p> Les conseillers arrivèrent à la salle d'assemblée, en cérémonie, vêtus de
+                    nom heureux au nouveau né.
+    </p>
+    <p>
+     Les conseillers arrivèrent à la salle d'assemblée, en cérémonie, vêtus de
                     grandes robes qui remplissaient dignement leurs places. Ils commencèrent par ne
                     rien dire, continuèrent par ne pas s'entendre , et finirent par adopter l'avis
                     du premier qui en proposa un. Cet avis fut de donner au jeune prince le nom de
                     Guiot. Le roi, la famille royale, les dames et les cavaliers, présens à la
                     délibération, trouvèrent ce nom d'un grand sens : les conseillers en reçurent
-                    compliment, et le jeune prince fut appellé Guiot. Aussitôt le cri de <hi
-                        rend="italic"> vive Guiot</hi> se répand dans la capitale, et les bouches de
+                    compliment, et le jeune prince fut appellé Guiot. Aussitôt le cri de
+     <hi rend="italic">
+      vive Guiot
+     </hi>
+     se répand dans la capitale, et les bouches de
                     tous les Paquans le font voler jusqu'aux extrémités du royaume. Rien ne fut joli
-                    alors, si le nom de Guiot n'y entrait. Les femmes se coëffèrent à la <hi
-                        rend="italic"> guiotière</hi>: l'académie royale donna le nom de <hi
-                        rend="italic"> guiotades</hi> à toutes les fines pointes d'esprit; et un
+                    alors, si le nom de Guiot n'y entrait. Les femmes se coëffèrent à la
+     <hi rend="italic">
+      guiotière
+     </hi>
+     : l'académie royale donna le nom de
+     <hi rend="italic">
+      guiotades
+     </hi>
+     à toutes les fines pointes d'esprit; et un
                     jour le prince ayant sâli le haut-de-chausse du roi, son père, les courtisans
-                    portèrent à l'instant des habits de couleur <hi rend="italic">cacaguiot</hi> . </p>
-                <p> La reine était une femme dans le force de l'âge, d'une constitution vigoureuse,
+                    portèrent à l'instant des habits de couleur
+     <hi rend="italic">
+      cacaguiot
+     </hi>
+     .
+    </p>
+    <p>
+     La reine était une femme dans le force de l'âge, d'une constitution vigoureuse,
                     d'un tempérament sain. Elle jouissait de l'embonpoint qui convient une personne
                     bien portante : sa gorge soulevait honnêtement un grand fichu de gaze, que le
                     roi, son mari, entr'ouvrait quelquefois avec plaisir : sein annonçait alors, par
@@ -363,8 +560,10 @@
                     aises: elle n'était pas moins portée aux plaisirs de l'acte générateur ; mais
                     elle ne pouvait pas nourir d'enfans sans des maux d'estomach à mourir, ni les
                     entendre pleurer sans des migraines affreuses, qui fendaient le cœur
-                    compatissant du roi, son mari. Le prince Guiot fut donc mis à nourrice. </p>
-                <p> Sa première nourrice était une brune piquante, âgée de dix-huit à dix-neuf ans
+                    compatissant du roi, son mari. Le prince Guiot fut donc mis à nourrice.
+    </p>
+    <p>
+     Sa première nourrice était une brune piquante, âgée de dix-huit à dix-neuf ans
                     ,. qui ne devait pas son lait à une fécondité prématurée, et n'avait jamais
                     laissé, entr'ouvrir son fichu de gaze à quelque jeune éveillé. En cela le choix
                     n'avait pas été mal fait. C'était alors l'usage au pays des Paquans de prendre
@@ -380,13 +579,17 @@
                     dégré plus violent. Son sang, échauffé par les désirs, communiqua à son lait une
                     acreté brûlante qui, dans peu de jours, réduisit par la fièvre son nouriçon
                     royal à l'extrémité. Le hazard fit deviner aux médecins que le mal provenait de
-                    la nourice; et la nature guérit le prince, malgré les efforts des médecins. </p>
-                <p> Le jeune Guiot n'avait pas encore trois mois : il n'était pas temps de penser à
+                    la nourice; et la nature guérit le prince, malgré les efforts des médecins.
+    </p>
+    <p>
+     Le jeune Guiot n'avait pas encore trois mois : il n'était pas temps de penser à
                     le sévrer : on lui avait donc cherché une autre nourice, d'un âge plus mûr, et
                     d'un tempérament, en apparence, moins combustible. La belle , il est vrai,
                     n'avait pas encore laissé tuer l'oiseau de Bocace, qu'un fin chasseur guêtait
-                    depuis long-temps. </p>
-                <p> Enfin, un soir, je ne sais comment, on enferma le loup dans la bergerie. Le
+                    depuis long-temps.
+    </p>
+    <p>
+     Enfin, un soir, je ne sais comment, on enferma le loup dans la bergerie. Le
                     chasseur saisit habilement l'occasion aux cheveux; et la belle nourice n'eut pas
                     la force de défendre son charmant oiseau. Ce galant chasseur, comme il arrive
                     assez souvent à ceux qui font métier de cette chasse, n'était pas toujours
@@ -399,8 +602,10 @@
                     fin de l'oracle semblait l'avoir prédit. Mais les prêtres paquans adressèrent au
                     ciel des prières si ferventes dans une langue étrangère qu'ils n'entendaient
                     plus, qu'avec l'aide d'un remède indiqué par un savant non médecin, l'enfant
-                    royal revint dans six semaines à sa première santé. </p>
-                <p> On quitte toujours difficilement une ancienne habitude : il faut une longue
+                    royal revint dans six semaines à sa première santé.
+    </p>
+    <p>
+     On quitte toujours difficilement une ancienne habitude : il faut une longue
                     suite d'exemples des dangers auxquels elle expose, l'on cherche une autre voie.
                     Les désagrémens, provenus des deux premières nourices du prince Guiot, n'avaient
                     pas empêché de lui en donner une troisième. "Il est vrai que celle-ci était
@@ -412,27 +617,60 @@
                     maillots fut défendu par une loi solemnelle, qui, comme toutes les loix
                     prohibitives, vint après que le mal était fait. On renvoya aussi la nourice;
                     mais l'altesse paquante n'en eut pas moins une épaule libertine, et une jambe
-                    qui la fit souvent donner à gauche. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE IV. </head>
-                <p>
-                    <hi rend="italic"> Education et progrès du roi Guiot.</hi>
-                </p>
-                <p> Le prince Guiot grandissait à vue d'oeil : les progrès de l'esprit suivaient
+                    qui la fit souvent donner à gauche.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE IV.
+    </head>
+    <p>
+     <hi rend="italic">
+      Education et progrès du roi Guiot.
+     </hi>
+    </p>
+    <p>
+     Le prince Guiot grandissait à vue d'oeil : les progrès de l'esprit suivaient
                     chez lui ceux du corps : à l'age de trois ans, il marchait déja sans lizières :
-                    il disait aussi <hi rend="italic"> papa, maman </hi> , le plus joliment du
+                    il disait aussi
+     <hi rend="italic">
+      papa, maman
+     </hi>
+     , le plus joliment du
                     monde. La reine, sa mère, qui passait pour avoir infiniment d'esprit, disait,
-                    lorsqu'on lui parlait de la vitesse avec laquelle son fils grandissait ; <hi
-                        rend="italic"> dame </hi> ! <hi rend="italic"> la </hi> mauvaise <hi
-                        rend="italic"> herbe </hi> croît <hi rend="italic"> toujours </hi> vite <hi
-                        rend="italic"> . </hi> Quant au roi, son père , il était tout émerveillé de
-                    voir un fils qui donnait de si belles espérances <hi rend="italic"> . </hi> Ses
+                    lorsqu'on lui parlait de la vitesse avec laquelle son fils grandissait ;
+     <hi rend="italic">
+      dame
+     </hi>
+     !
+     <hi rend="italic">
+      la
+     </hi>
+     mauvaise
+     <hi rend="italic">
+      herbe
+     </hi>
+     croît
+     <hi rend="italic">
+      toujours
+     </hi>
+     vite
+     <hi rend="italic">
+      .
+     </hi>
+     Quant au roi, son père , il était tout émerveillé de
+                    voir un fils qui donnait de si belles espérances
+     <hi rend="italic">
+      .
+     </hi>
+     Ses
                     courtisans le lui vantaient comme un prodige : le visage du bon Sire devenait
                     tout rayonnant de joie en les écoutant : il ne doutait plus de la justesse de
                     l'application du tremblement de terre, de l'éclipse de soleil et de l'étoiļe à
-                    queue. </p>
-                <p> Pour ne pas négliger un naturel qui promettait tant, on se hâta de donner au
+                    queue.
+    </p>
+    <p>
+     Pour ne pas négliger un naturel qui promettait tant, on se hâta de donner au
                     prince des maîtres dans toutes les sciences et dans tous les beaux arts. En peu
                     d'années il sut faire la révérence, tirer au mur et dessiner des portraits à la
                     silhouette sur la maraille avec un charbon. Ses progrès dans les sciences ne
@@ -464,8 +702,10 @@
                     déboutonné. J'étais comme cela dans ma jeunesse, disait-il à ses courtisans; on
                     me disait que je rassemblais en moi toutes les dispositions et les qualités qui
                     doivent faire un grand roi, et vous m'avez souvent répété, qu'on ne s'était pas
-                    trompé, </p>
-                <p> Le prince Guiot revenait une fois à cheval, les pointes des pieds élégamment en
+                    trompé,
+    </p>
+    <p>
+     Le prince Guiot revenait une fois à cheval, les pointes des pieds élégamment en
                     dehors, les genoux bien écartés de la selle, le corps droit, les reins fermes,
                     enfin, avec une grace, qui n'était qu'à lui. Deux écuyers de chaque côté
                     soutenaient leur auguste élève d'équitation. Tout-à-coup le cheval s'effraye ;
@@ -477,28 +717,46 @@
                     avec la dignité séante à son rang; allez, ma vieille êtes encore trop heureuse
                     que je ne vous fasse pas mettre en prison, pour vous apprendre à ne pas vous
                     trouver une autre fois sur mon passage avec des paniers d'œufs. La bonne femme
-                    fit une profonde révérence, et s'en alla, en répétant : <hi rend="italic"> Ah!
-                        le bon prince, il m'a parlé </hi> . </p>
-                <p> Un des passe-temps favoris du prince paquant, était d'envoyer avec une sarbacane
+                    fit une profonde révérence, et s'en alla, en répétant :
+     <hi rend="italic">
+      Ah!
+                        le bon prince, il m'a parlé
+     </hi>
+     .
+    </p>
+    <p>
+     Un des passe-temps favoris du prince paquant, était d'envoyer avec une sarbacane
                     de petites flêches dans le derrière des passans, qu'il ajustait à merveille par
                     une lucarne du grenier. D'autres fois il tirait, avec une dextérité étonnante,
                     en bas des toits du château, les couvreurs qui y travaillaient. Il nommait cet
-                    amusement <hi rend="italic"> la chasse aux vilains </hi> . On prétend que dans
+                    amusement
+     <hi rend="italic">
+      la chasse aux vilains
+     </hi>
+     . On prétend que dans
                     la suite les vilains se dégoûtèrent de servir de blanc à l'adresse des princes,
                     et qu'ils voulurent être tireurs à leur tour. Mais n'anticipons point sur les
-                    événemens. </p>
-                <p> On peut aisément juger, par le peu que j'en ai rapporté, quels progrès son
+                    événemens.
+    </p>
+    <p>
+     On peut aisément juger, par le peu que j'en ai rapporté, quels progrès son
                     altesse avait faits, tant dans la morale, que dans les sciences utiles et dans
                     les exercices du corps. Aussi rien n'est au-dessus de l'éducation des cours,
                     pour former les hommes destinés à régir des empires, et à faire le bonheur de
-                    leurs semblables.</p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE V. </head>
-                <p>
-                    <hi rend="italic"> Mort du roi des Paquans ; régence du royaume. </hi>
-                </p>
-                <p> La mort, dont la faulx tranchante ne respecte pas plus les têtes ceintes d'un
+                    leurs semblables.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE V.
+    </head>
+    <p>
+     <hi rend="italic">
+      Mort du roi des Paquans ; régence du royaume.
+     </hi>
+    </p>
+    <p>
+     La mort, dont la faulx tranchante ne respecte pas plus les têtes ceintes d'un
                     diadême , que celles que couvre un feutre pêlé, abaissa ses regards meurtriers
                     sur l'ancien palais des rois paquans, et mit le père du prince Guiot au tombeau.
                     Elle avait déja frappé la reine, sa mère, deux ans auparavant. Guiot, à l'âge de
@@ -514,8 +772,10 @@
                     doit administrer à l'âge de quatorze ans les vastes domaines de la couronne, et
                     régir les grandes affaires de l'état. Tout le pays paquant applaudissait à ce
                     beau raisonnement : on ne concevait pas comment des docteurs pouvaient avoir
-                    autant d'esprit. </p>
-                <p> Un parent du roi fut nommé régent, en attendant que sa majesté paquante eût
+                    autant d'esprit.
+    </p>
+    <p>
+     Un parent du roi fut nommé régent, en attendant que sa majesté paquante eût
                     atteint l'âge fixé par la loi. Le régent, sans prétentions à l'autorité royale,
                     avait néanmoins acquis toutes les connaissances nécessaires pour l'exercer
                     dignement. Son premier soin fut de faire enterrer le roi défunt. Les seigneurs
@@ -528,8 +788,10 @@
                     da sang, dans les murs mème de la pyramide, où ils étaient plantés sur leurs
                     pieds comme des thermes, afin que les Paquans ne leur marchassent point sur le
                     ventre. Les seigneurs, comme de raison, ne manquaient pas de suivre cet exemple
-                    d'humilité. </p>
-                <p> Les Paquans étaient dans la ferme persuasion que les ames revenaient habiter
+                    d'humilité.
+    </p>
+    <p>
+     Les Paquans étaient dans la ferme persuasion que les ames revenaient habiter
                     leurs corps, après avoir satisfait, pendant mille ans, à la justice divine, à
                     laquelle il faut au moins ce laps de temps, pour punir des fautes qui souvent
                     n'ont pas eu dix minutes de durée. Ce qui avait sur-tout donné un grand dégré de
@@ -541,20 +803,26 @@
                     momie restait toujours dans l'espoir que son ame reviendrait bien-tôt la
                     vivifier. Mais laissons le roi défunt dormir debout pendant ses mille ans :
                     voyons ce que fera le régent, jusqu'à ce que le nouveau roi soit en âge de
-                    prendre les rênes du gouvernement. </p>
-                <p> Le régent développa de grandes vues d'administration : il choisit, pour
+                    prendre les rênes du gouvernement.
+    </p>
+    <p>
+     Le régent développa de grandes vues d'administration : il choisit, pour
                     ministres, des hommes éclairés; ce que l'on ne voit pas toujours : des hommes
                     intégres et de probité, ce que l'on voit encore moins. Il mit les armées sur un
                     pied formidable ; non pour attaquer, mais afin d'ôter à ses voisins le désir de
                     troubler la tranquillité de l'état. Il fit des établissemens utiles à l'humanité
                     souffrante et indigente, en supprimant quatre-vingt mille bonzes célibataires,
                     qui absorbaient la plus pure substance du peuple, à la conservation et à la
-                    défense duquel ils ne travaillaient en rien. </p>
-                <p> Il aurait fait bien d'autres choses si l'âge du roi lui eût permis de tenir le
+                    défense duquel ils ne travaillaient en rien.
+    </p>
+    <p>
+     Il aurait fait bien d'autres choses si l'âge du roi lui eût permis de tenir le
                     timon des affaires plus long-temps. Au surplus, il prouva bien qu'il en était
                     des couronnes, comme des autres emplois: c'est la fortune qui les donne, et ce
-                    n'est guères au mérite qu'elle dispense ses faveurs. </p>
-                <p> Le régent avait attiré à la cour les plaisirs honnêtes et les jeux décens; mais
+                    n'est guères au mérite qu'elle dispense ses faveurs.
+    </p>
+    <p>
+     Le régent avait attiré à la cour les plaisirs honnêtes et les jeux décens; mais
                     sans que les affaires en souffrissent. Le véritable homme de génie sait allier
                     les plaisirs à ses devoirs. Le ministre le plus aimable est souvent celui qui
                     règle le mieux les affaires de l'état. Lorsque le temps de remettre l'autorité
@@ -569,15 +837,20 @@
                     langage de ses courtisans : ce sera toujours celui de ces hommes vils et
                     corrompus qui rampent dans la fange des cours, et osent ensuite chercher à se
                     venger par des tons insultans, sur des citoyens honnêtes, des humiliations
-                    qu'ont leur y fait dévorer. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE VI. </head>
-                <p>
-                    <hi rend="italic"> Régne du roi Guiot; mécontentemens appaisés ; processions.
-                    </hi>
-                </p>
-                <p> LE roi Guiot commença son régne par une opération assez ordinaire en pareil cas.
+                    qu'ont leur y fait dévorer.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VI.
+    </head>
+    <p>
+     <hi rend="italic">
+      Régne du roi Guiot; mécontentemens appaisés ; processions.
+     </hi>
+    </p>
+    <p>
+     LE roi Guiot commença son régne par une opération assez ordinaire en pareil cas.
                     Il défit tout ce que ses prédécesseurs rois, et notamment le régent, son parent,
                     avaient fait de bon. Il changea les ministres éclairés et honnêtes gens, pour
                     leur substituer de ses anciens compagnons de plaisirs, de ceux qui l'avaient
@@ -591,14 +864,22 @@
                     se fesaient appeller messeigneurs et mes révérendissimes pères en Dieu. Cette
                     opération du régent fut le salut du roi Guiot. Messeigneurs et mes
                     révérendissimes pères en Dieu se liguèrent sa majesté contre les mécontens,
-                    qu'ils appellaient <hi rend="italic"> messieurs du tiers </hi> . </p>
-                <p> Les révérendissimes avaient pour suppôts, des révérends au positif, dont le
+                    qu'ils appellaient
+     <hi rend="italic">
+      messieurs du tiers
+     </hi>
+     .
+    </p>
+    <p>
+     Les révérendissimes avaient pour suppôts, des révérends au positif, dont le
                     nombre montait à plus de cent mille, en y comprenant ceux de l'obéissance d'un
                     révérendissime étranger, plus puissant encore que les révérendissimes nationaux.
                     Toute la séquelle sacrée unit ses efforts contre messieurs du tiers; tellement
                     qu'avec ses adhérens, ses créatures et ses dupes, elle parvint, à l'aide de
-                    quelques saignée, à remettre l'autorité royale dans toute sa plénitude. </p>
-                <p> Par reconnaissance de ce service, le roi Guiot, dont les ministres étaient
+                    quelques saignée, à remettre l'autorité royale dans toute sa plénitude.
+    </p>
+    <p>
+     Par reconnaissance de ce service, le roi Guiot, dont les ministres étaient
                     persuadés que l'autel est le plus ferme soutien du trône, fit rentrer tous les
                     messeigneurs, les révérendissimes et les révérends pères en Dieu, dans la
                     jouissance des abus que le régent, sore parent, avait voulu corriger, ils lui
@@ -608,8 +889,10 @@
                     louange du roi Guiot. Ils ne manquèrent pas d'y faire entrer le tremblement de
                     terre, l'éclipse de soleil et l'étoile à queue; ce qui produisait un certain
                     enthousiasme, mêlé de pathétique, contre lequel il n'était pas possible de
-                    tenir. </p>
-                <p> Quelques amis de l'ancien régent, parent du roi, voulurent raisonner. On leur
+                    tenir.
+    </p>
+    <p>
+     Quelques amis de l'ancien régent, parent du roi, voulurent raisonner. On leur
                     répondit que le temps n'en était pas encore venu. Les messeigneurs les firent
                     passer pour de mauvais citoyens : les révérendissimes pères en Dieu les
                     dépeignirent comme des sujets suspects: les révérends au positif les décrièrent
@@ -620,14 +903,18 @@
                     portée d'inclination à éclairer l'esprit de leur prochain avec des torches et
                     des buchers: mais ils trouvèrent bon d'être moins éclairés, et allèrent
                     raisonner dans un pays, où les torches et les buchers ne servaient pas à
-                    illuminer des esprits. </p>
-                <p> Quant à l'ancien régent, comme les révérends éclaireurs sont très charitables et
+                    illuminer des esprits.
+    </p>
+    <p>
+     Quant à l'ancien régent, comme les révérends éclaireurs sont très charitables et
                     très officieux, ils s'offrirent au roi, son parent, pour lui rendre le service
                     que sa majesté paquante voulait faire rendre à ses amis fugitifs. Le prince en
                     fut instruit assez à temps, pour prévenir la réponse du roi. Il prit aussi la
                     route du pays, où l'on n'éclairait pas les gens målgré eux : il у vécut en sage,
-                    jusqu'au moment où vous le verrez reparaître. </p>
-                <p> L'éloignement de l'ex-régent et de ses amis fut un beau sujet de triomphe pour
+                    jusqu'au moment où vous le verrez reparaître.
+    </p>
+    <p>
+     L'éloignement de l'ex-régent et de ses amis fut un beau sujet de triomphe pour
                     les révérendissimes et les révérends éclaireurs. Assurés désormais de
                     l'affection du roi, ils le laissèrent à la disposition de messeigneurs. Ils se
                     retournèrent adroitement du côté du peuple, étourdi de la perte de ses anciens
@@ -635,8 +922,10 @@
                     conduit par une main sacrée avait frappés sur lui. Ils lui démontrèrent que
                     l'état de stupeur où il se trouvait, était une suite manifeste de la vengeance
                     du ciel, dont les coups les plus forts demeuraient encore sus: pendus, afin de
-                    laisser aux pécheurs le temps de se convertir. </p>
-                <p> Des orateurs éloquens représentèrent avec chaleur, les temples renversés sous la
+                    laisser aux pécheurs le temps de se convertir.
+    </p>
+    <p>
+     Des orateurs éloquens représentèrent avec chaleur, les temples renversés sous la
                     régence, des prêtres oisifs arrachés à leurs fonctions sacrées, les auteurs de
                     ces profanations aujourd'hui errans et dispersés. Ils firent envisager au peuple
                     ses malheurs présens, peints des couleurs les plus vives, comme une juste
@@ -650,8 +939,10 @@
                     dévotion reprit son empire. Il n'y a qu'un pas, de la dévotion à la
                     superstition, et de celle-ci au fanatisme, il y a moins d'un pas. Une partie des
                     hommes résistait : mais un vent de nord, qui dessécha les moissons, acheva de
-                    tout convertir. </p>
-                <p> Depuis près de trois mois, il n'avait pas tombé une goûte de pluie : le pays
+                    tout convertir.
+    </p>
+    <p>
+     Depuis près de trois mois, il n'avait pas tombé une goûte de pluie : le pays
                     paquant était réduit à la plus affreuse disette, si cette brûlante sécheresse
                     eût duré encore quinze jours. Il est vrai que, dans ce pays, on n'avait jamais
                     vu trois mois complets se passer sans pluie ; mais des voix sinistres qui
@@ -669,8 +960,10 @@
                     une magnificence mondaine, qui y attira, par dévotion, une foule de spectateurs.
                     Les jeunes filles en revinrent chez elles avec la grace fructifiante de Dieu; et
                     les parens s'en retournèrent avec le désir forcé de faire pénitence pendant
-                    quelque temps, pour regagner ce que cette grace leur avait coûté. </p>
-                <p> Le succès des processions fut tel qu'on devait l'attendre, après trois mois de
+                    quelque temps, pour regagner ce que cette grace leur avait coûté.
+    </p>
+    <p>
+     Le succès des processions fut tel qu'on devait l'attendre, après trois mois de
                     sécheresse: il plut. Qui, après ce nouveau miracle, eût osé regretter le bon
                     temps de la régence, où la pluie tombait sans prodige, et où Dieu portait ses
                     regards bienfesans sur les campagnes, sans qu'on les lui fit parcourir?
@@ -682,13 +975,20 @@
                     que cette croyance est le fondement le plus sûr de sa sacrée autorité. Le roi
                     paquant répondait: c'est mon avis; puis il donnait sa main à baiser à son
                     premier ministre, et voyait en tout s'accomplir les merveilles annoncées par le
-                    tremblement de terre, l'éclipse de soleil et l'étoile à queue. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE VII. </head>
-                <p>
-                    <hi rend="italic"> Chasses et amours du roi Guiot. </hi></p>
-                <p>Quand le roi Guiot vit la tranquillité rétablie dans ses états à la plus grande
+                    tremblement de terre, l'éclipse de soleil et l'étoile à queue.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Chasses et amours du roi Guiot.
+     </hi>
+    </p>
+    <p>
+     Quand le roi Guiot vit la tranquillité rétablie dans ses états à la plus grande
                     gloire de Dieu, et en plus grand avantage de son autorité royale, il alla plus
                     fréquemment à la chasse, pour laquelle, depuis son enfance, il avait eu un goût
                     décidé. Car la chasse a toujours été la passion favorite des grands rois; témoin
@@ -700,8 +1000,10 @@
                     répandre du sang. Afin de ne pas être en reste à l'égard des autres grands
                     princes, le roi des Paquans poursuivit les cerfs, les daims et les sangliers,
                     avec une telle ardeur, que bientôt il n'y en eut plus un seul à trouver à plus
-                    de cinquante lieues à la ronde. </p>
-                <p> Lorsqu'on prenait quelquefois la liberté de lui représenter, dans les termes les
+                    de cinquante lieues à la ronde.
+    </p>
+    <p>
+     Lorsqu'on prenait quelquefois la liberté de lui représenter, dans les termes les
                     plus respectueux, combien il serait à souhaiter que sa majesté se modérât dans
                     ses entreprises et ses desseins, il répondait aussi-tôt; croit-on qu'un roi,
                     dont la naissance a été signalée par trois grands prodiges, soit susceptible
@@ -709,8 +1011,10 @@
                     de la postérité ? En même-temps il lançait à ses pédagogues, un coup-d'œil qui
                     leur donnait une véritable idée de la grandeur. Aussi était-il extrêmement
                     craint et respecté; et ses ministres, par conséquent, l'étaient encore plus que
-                    lui.</p>
-                <p>Cependant, quand il n'y eut plus de gibier aux environs de la capitale et des
+                    lui.
+    </p>
+    <p>
+     Cependant, quand il n'y eut plus de gibier aux environs de la capitale et des
                     maisons royales, on en fit venir à grands fraix. Qu'importe les fraix au prince,
                     quand l'état paye? Alors on amena une si grande quantité de cerfs, de sangliers,
                     de daims, de chevreuils et d'autre gibier de toute espèce, que, sans compter les
@@ -723,10 +1027,15 @@
                     raison et de l'humanité, lui auraient appris que le bonheur des peuples est bien
                     peu de chose, lorsqu'il s'agit des volontés et des plaisirs du prince. Il aurait
                     vu de graves magistrats faire équitablement l'application de ces loix, et en
-                    ordonner l'exécution. </p>
-                <p> Le roi Guiot se garda bien d'adoucir la juste rigueur des peines portées par les
-                    anciennes loix au fait de la chasse; lesquelles dépêchaient fort lestement <hi
-                        rend="italic"> ad patres </hi> , quatre citoyens paquans, plus ou moins,
+                    ordonner l'exécution.
+    </p>
+    <p>
+     Le roi Guiot se garda bien d'adoucir la juste rigueur des peines portées par les
+                    anciennes loix au fait de la chasse; lesquelles dépêchaient fort lestement
+     <hi rend="italic">
+      ad patres
+     </hi>
+     , quatre citoyens paquans, plus ou moins,
                     pour l'occision d'un perdreau qui se nourrissait dans leurs champs, ou pour un
                     lapin qui mangeait leurs choux. L'amour, l'affection qu'il portait à ses
                     peuples, lui fit ajouter à ces anciennes peines, quelques articles d'un genre
@@ -737,8 +1046,10 @@
                     défendre sa propriété. Mais telle est la force des principes de droit, que la
                     nature a gravés en nous, que toutes les peines possibles ne pouvaient expulser
                     des têtes des Paquans l'idée ridicule, que chacun peut chasser sur ce qui lui
-                    appartient. </p>
-                <p> Le goût du roi Guiot, pour la chasse, ne nuisait aucunement à ses heureuses
+                    appartient.
+    </p>
+    <p>
+     Le goût du roi Guiot, pour la chasse, ne nuisait aucunement à ses heureuses
                     dispositions à l'amour. Soit qu'il en fit redevable au lait de ses deux
                     premières nourices, soit qu'il les dût à la seule nature de son tempérament,
                     elles s'annoncèrent chez lui d'assez bonne heure, et ne se rallentirent que peu
@@ -746,8 +1057,10 @@
                     quelquefois roturer; mais l'abus d'une chose n'en change pas la nature. Si le
                     cœur du roi paquant ne fut pas toujours également heureux dans ses choix, il
                     faut convenir que le premier et le dernier sont bien capables de faire excuser,
-                    les moyens. </p>
-                <p> Ce prince approchait de sa quinzième année : ses organes, déja développés,
+                    les moyens.
+    </p>
+    <p>
+     Ce prince approchait de sa quinzième année : ses organes, déja développés,
                     permettaient aux sens d'être affectés de ses impressions tumultueuses, que fait
                     naître la vue d'une femme douée de ces charmes inexprimables, qui portent
                     par-tout le feu des désirs. Il avait été un jour à la chasse et s'y était moins
@@ -756,8 +1069,10 @@
                     semblait préférer la solitude au tourbillon des plaisirs de la cour, plus faits
                     en général pour étourdir l'âme que pour en remplir les vuides. De retour au
                     château, il s'écarte de la compagnie et va promener ses idées inquiètes le long
-                    d'un vaste bassin, qui se terminait à un bosquet d'arbres étrangers. </p>
-                <p> Des myrthes, des lauriers toujours verds, des orangers toujours fleuris, des
+                    d'un vaste bassin, qui se terminait à un bosquet d'arbres étrangers.
+    </p>
+    <p>
+     Des myrthes, des lauriers toujours verds, des orangers toujours fleuris, des
                     caneliers, des gérofliers odorans, ces grenadiers, des seringas, dont les fleurs
                     sans cesse renaissantes portaient au loin dans les airs un baume enchanteur, et
                     affectaient les sens de la plus douce volupté. Des ruisseaux, dont les ondes,
@@ -782,12 +1097,18 @@
                     qu'un jeune cœur aurait vainement voulu écarter. Dans ces lieux charmans tout
                     parlait au cour : tout lui disait que l'amour est l'ame de l'univers, que tout
                     n'existe que par l'amour ; que pour exister, il faut aimer. Ce fut là que le roi
-                    arriva dans une profonde rèverie, dont il cherchait à connaître le sujet. </p>
-                <p> Une dame de sa cour, âgée de trois ans plus que lui', mais qui ne devait qu'a
+                    arriva dans une profonde rèverie, dont il cherchait à connaître le sujet.
+    </p>
+    <p>
+     Une dame de sa cour, âgée de trois ans plus que lui', mais qui ne devait qu'a
                     l'hymen les plaisirs peu vifs, dont jusqu'alors elle avait joui, venait
                     ordinairement, vers le soir, promener une douce mélancolie dans ce bosquet
                     délicieux. Elle y était arrivée avant le soir; et plus rêveuse que jamais, elle
-                    cherchait dans un livre intitulé <hi rend="italic"> l'art d'aimer</hi>, (comme
+                    cherchait dans un livre intitulé
+     <hi rend="italic">
+      l'art d'aimer
+     </hi>
+     , (comme
                     si l'on ne pouvait pas aimer sans art) elle y cherchait, dis-je, si rien ne
                     l'éclairerait sur l'état étrange de son cœur. Ses grands yeux bleux et
                     languissans se portaient de son livre sur les oiseaux amoureux dont les jeux
@@ -806,8 +1127,10 @@
                     tremblante écartait quelquefois cette gaze fortunée, pour y laisser pénétrer un
                     air plus frais. Mais, hélas! dit, en rougissant, l'aimable rêveuse, hélas! l'air
                     que je respire ici, est un feu subtil qui me dévore ; il entretient, il fait
-                    naître l'émotion et le troubla qui me poursuivent. </p>
-                <p> Elle se lève alors avec un certain dépit : elle allait s'éloigner, lorsque le
+                    naître l'émotion et le troubla qui me poursuivent.
+    </p>
+    <p>
+     Elle se lève alors avec un certain dépit : elle allait s'éloigner, lorsque le
                     roi qui, depuis quelque temps, l'observait, s'approche aussi-tôt d'elle, et la
                     prenant, en tremblant, par la main, la fait rasseoir sur un banc de gazon
                     émaillé de fleurs. Ils y restèrent quelques instans sans mot dire : ils étaient
@@ -817,8 +1140,10 @@
                     impression sur les sens, est une divinité, qui inspire d'abord plus de respect
                     que d'ardeur. La crainte de l'offenser semble même l'emporter sur le désir de
                     lui plaire : de-là vient, sans doute, que les jeunes amans sont si peu
-                    entreprenans. </p>
-                <p> Enfin, le roi ouvrit la conversation. Il ne dit pas des choses fort
+                    entreprenans.
+    </p>
+    <p>
+     Enfin, le roi ouvrit la conversation. Il ne dit pas des choses fort
                     intéressantes. Dans ce moment sa langue paraissait embarrassée , autant que son
                     esprit : ses manières avaient également quelque chose de gèné. L'amour rend
                     gauche au commencement; mais cette gaucherie plaît; et le cher roi n'eut jamais
@@ -828,8 +1153,10 @@
                     trouble, ni de son inquiétude : il n'interrogeait plus l'art d'aimer. Le simple
                     charme de s'entretenir avec un homme qu'elle chérissait, lui fesait déja
                     éprouver des sensations plus délicieuses, que tous les plaisirs qu'avait voulu
-                    lui faire goûter un époux pris par devoir. </p>
-                <p> Si les rois font tout ce qu'ils veulent, ils ne peuvent pas cacher tout ce
+                    lui faire goûter un époux pris par devoir.
+    </p>
+    <p>
+     Si les rois font tout ce qu'ils veulent, ils ne peuvent pas cacher tout ce
                     qu'ils font. Sans cesse obsédés par une foule d'importuns, ils doivent se
                     résoudre absolument à avoir des témoins de toutes leurs démarches. C'est ainsi
                     qu'au moment ou le roi Guiot s'imaginait jouir dans le plus grand secret, des
@@ -844,21 +1171,29 @@
                     ait fait du tort à la réputation de la jeune dame des pensées du roi paquant,
                     elle vit, au contraire, ceux qui avaient l'air de la dédaigner auparavant,
                     s'empresser à lui rendre leurs hommages, et ses ennemies les plus mortelles
-                    briguer assidument l'honneur de son amitié. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE VIII. </head>
-                <p>
-                    <hi rend="italic"> Suite des amours du roi Guiot. </hi>
-                </p>
-                <p> Les deux amans ne s'en tinrent pas toujours aux préliminaires. Un roi n'est pas
+                    briguer assidument l'honneur de son amitié.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VIII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Suite des amours du roi Guiot.
+     </hi>
+    </p>
+    <p>
+     Les deux amans ne s'en tinrent pas toujours aux préliminaires. Un roi n'est pas
                     dans l'habitude de soupirer longtemps, ni envain. Ils goutèrent donc ensemble
                     les plaisirs divins, desquels dépend la conservation précieuse de notre chétive
                     espèce : ils les goûtèrent avec tous les plaisirs accessoires, inventés par un
                     amour à demi satisfait; accessoires qui, souvent alors, l'emportent en douceur
                     sur le principal. Je veux dire que le roi Guiot eut la grande, la moyenne et la
-                    petite oye. </p>
-                <p> Le mari de la favorite, plus sensible à l'honneur d'être avancé dans l'armée par
+                    petite oye.
+    </p>
+    <p>
+     Le mari de la favorite, plus sensible à l'honneur d'être avancé dans l'armée par
                     le mérite de sa femme, qu'au déplaisir chimérique d'être cocu, se mit peu en
                     peine de contrecarrer le galant commerce de sa chaste moitié avec sa majesté.
                     Ces derniers vivaient unis comme deux tourceraux. Plus d'une duchesse et d'une
@@ -871,8 +1206,10 @@
                     rudesse du caractère. Dans le fait, le roi Guiot avait un petit besoin de tout
                     cela : il ne s'en doutait pas, à la vérité ; mais, sans le soupçonner, il avait
                     déja fait des progrès passables, quand un contretemps assez plaisant brouilla
-                    les deux amans pour jamais. </p>
-                <p> Madame rentrait un soir d'une promenade, où son royal soupirant n'était pas venu
+                    les deux amans pour jamais.
+    </p>
+    <p>
+     Madame rentrait un soir d'une promenade, où son royal soupirant n'était pas venu
                     la rejoindre, comme il le lui avait promis. En passant à côté d'une remise, elle
                     entend du bruit. Des voix confuses, des paroles entrecoupées des soupirs
                     confondus , des baisers répétés frappent son oreille inquiète. Les femmes sont
@@ -884,8 +1221,10 @@
                     filles de cuisine, brunette piquante, avec un petit nez retroussé, des yeux
                     fripons, des traits de fantaisie, et le plus joli gentil petit corps à
                     chiffonner. Laisser tomber la lanterne, rentrer chez elle, monter à son
-                    appartement, se coucher sans souper; tout cela ne fit qu'un temps. </p>
-                <p> Le lendemain la belle Aurore n'avait pas encore, avec ses doigts de roses ouvert
+                    appartement, se coucher sans souper; tout cela ne fit qu'un temps.
+    </p>
+    <p>
+     Le lendemain la belle Aurore n'avait pas encore, avec ses doigts de roses ouvert
                     les barrières de l'orient, et déja la triste maitresse du roi des Paquans avait
                     fait un tas de lettres, billets, portraits, brasselets, pendans d'oreilles,
                     jarretières, fontanges, boëtes à mouches et cure-dents, présens, hélas ! jadis
@@ -900,26 +1239,34 @@
                     des affaires, à l'expiration de la régence, et si les courtisans ne lui eussent
                     pas représenté qu'il ne convenait pas à un grand roi, qui avait causé une
                     éclipse de soleil, un tremblement de terre et une étoile à queue, de filer le
-                    parfait amour, comme le dernier paquant de son royaume. </p>
-                <p> On fit aussi beaucoup de plaisanteries à la cour, sur l'aventure de la remise
+                    parfait amour, comme le dernier paquant de son royaume.
+    </p>
+    <p>
+     On fit aussi beaucoup de plaisanteries à la cour, sur l'aventure de la remise
                     avec un petit nez retroussé. Les cavaliers trouvaient très-plaisant, qu'il
                     arrivât tous les jours de manquer de foi à des duchesses fort humaines et de
                     bonne composition, pour des soubrettes un peu diablesses, qui, quelquefois
                     égratignaient les galans. C'était tout au plus si ces grandes dames trouvaient à
                     sa place, qu'après avoir joui de la naïveté et du piquant de la roture, on
                     revînt alors dans leurs bras, se fatiguer du manège et de la fadeur des
-                    maîtresses à trente-deux quartiers. </p>
-                <p> Comme il entrait dans les vues du premier ministre, que le roi Guiot s'occupât
+                    maîtresses à trente-deux quartiers.
+    </p>
+    <p>
+     Comme il entrait dans les vues du premier ministre, que le roi Guiot s'occupât
                     des affaires le moins possible, on ne laissa pas refroidir ses dispositions. Un
                     vieux militaire , madré et expert dans plus d'un genre, se chargea du soin
-                    d'endoctriner sa majesté, et de la mettre dans le bon chemin. </p>
-                <p> Les petits soupers devinrent fréquens. Que l'on devine, si les lits
+                    d'endoctriner sa majesté, et de la mettre dans le bon chemin.
+    </p>
+    <p>
+     Les petits soupers devinrent fréquens. Que l'on devine, si les lits
                     ressemblaient en grandeur aux soupers. Les belles ne manquaient pas : l'embarras
                     n'était que dans le choix. Depuis la première dame du royaume, jusqu'à la
                     très-humble servante qui avait l'honneur de tricoter pour sa majesté, tout le
                     beau sexe paquant ambitionnait la faveur de mettre la main au sceptre d'un roi
-                    de quinze ans, qui portait un grand nez en bec de corbin. </p>
-                <p> La première qui obtint le mouchoir, après la belle rêveuse du bosquet enchanté,
+                    de quinze ans, qui portait un grand nez en bec de corbin.
+    </p>
+    <p>
+     La première qui obtint le mouchoir, après la belle rêveuse du bosquet enchanté,
                     fut une femme de qualité, (je ne dis pas de laquelle) un peu parente au vieux
                     militaire. Son mari, qui dépensait honorablement son bien en parties de plaisir,
                     au service du roi, dansait comme un ange ; aussi fut-il fait lieutenant-général
@@ -934,9 +1281,15 @@
                     entendu, sans le moindre intérêt. Cependant le premier ministre s'apperçut qne
                     le canal des graces devenait un peu large, et que les faveurs y glissaient trop
                     facilement. Il réussit à lui substituer une jeune beauté naïve, peu faite pour
-                    l'intrigue, mais qui, par cette raison, ne tint pas longtemps. </p>
-                <p> Le roi Guiot se crut en état d'être son ami à lui-même ; il chercha fortune. Le
-                    proverbe dit, <hi rend="italic"> qui cherche trouve: </hi> cette fois là le
+                    l'intrigue, mais qui, par cette raison, ne tint pas longtemps.
+    </p>
+    <p>
+     Le roi Guiot se crut en état d'être son ami à lui-même ; il chercha fortune. Le
+                    proverbe dit,
+     <hi rend="italic">
+      qui cherche trouve:
+     </hi>
+     cette fois là le
                     proverbe eut raison. Le roi trouva à un tournoi ce qu'il lui fallait dans une
                     grande brunes femme d'un rang moins élevé, à la vérité, mais qu'il pouvait faire
                     monter aussi haut qu'il plaisait à ses ministres. Un despote dépend de ses
@@ -946,16 +1299,20 @@
                     la faveur n accordait pas : elle trafiqua de tous à son profit. Si la nation n'y
                     gagnait rien, elle n'y perdait pas non plus; raison pourquoi elle n'en murmurait
                     aucunement. Il n'en fut pas, de même du ministère : l'ascendant de cette femme,
-                    sur l'esprit du monarque, lui donna de l'ombrage.</p>
-                <p> Le premier ministre n'ayant pu la gagner, résolut de la perdre ; et il se serait
+                    sur l'esprit du monarque, lui donna de l'ombrage.
+    </p>
+    <p>
+     Le premier ministre n'ayant pu la gagner, résolut de la perdre ; et il se serait
                     infailliblement perdu lui-même, s'il n'eût pas pris le roi par son faible; par
                     l'ambition. Eh quoi! lui dit il, Sire! votre majesté perd dans les bras de la
                     mollesse, des jours destinés à vous rendre l'étonnement et l'effroi des nations.
                     Avez-vous oublié ce tremblement de terre, cette éclipse de soleil et cette
                     comète formidable, qui vous présageaient le règne le plus surprenant. Le roi
                     Guiot pâlit, rougit et envoya toutes les femmes au diable, pour revenir
-                    néanmoins à elles encore une petite fois. </p>
-                <p> Le ruse ministre ne parla point de la dépense de trois cent millions, que les
+                    néanmoins à elles encore une petite fois.
+    </p>
+    <p>
+     Le ruse ministre ne parla point de la dépense de trois cent millions, que les
                     amours bien placées de sa majesté avaient coûtés à l'état Eh! qu'en aurait-il
                     dit? à moins qu'il ne l'eut regardée comme une trop forte diminution de la
                     masse, dans laquelle sa place l'autorisait à puiser. D'ailleurs, n'avait il pas
@@ -966,13 +1323,19 @@
                     renvoyer un contrôleur-général des finances, pour avoir soutenu en plein
                     conseil, qu'une bête de somme a, en effet, besoin d'être chargée pour se laisser
                     conduire, mais qu'elle sait aussi secouer la charge, et refuser de marcher,
-                    lorsqu'elle est trop forte <hi rend="italic"> . </hi> Jugez si l'on eût été bien
+                    lorsqu'elle est trop forte
+     <hi rend="italic">
+      .
+     </hi>
+     Jugez si l'on eût été bien
                     reçu, en venant lui dire que le peuple n'était pas bête de somme? C'est aussi de
                     quoi personne ne s'avisa. Je ne dois pourtant pas omettre de dire, à la louange
                     du roi Guiot, qu'on lui fit choisir, pour remplacer ce contrôleur-général, un
                     homme qui n'avait qu'un bras; afin, disait sa majesté, qu'il ne puisât pas à
-                    deux mains, dans le trésor de l'état. </p>
-                <p> Rien n'étant plus mobile que la tête d'un homme, il ne faut pas s'attendre à
+                    deux mains, dans le trésor de l'état.
+    </p>
+    <p>
+     Rien n'étant plus mobile que la tête d'un homme, il ne faut pas s'attendre à
                     trouver beaucoup de stabilité, dans le système d'administration d'un état, où
                     tout dépend de la volonté d'une seule tète. Paraître et disparaître ; voilà quel
                     y est le sort des ministres. Comme le choix des administrateurs, dans cette
@@ -980,13 +1343,20 @@
                     leur administration, C'est ainsi que l'empire paquant, endetté, obéré, ruiné,
                     écrasé par un charlatan, qui avait mis toutes les fortunes en lotterie, confia
                     sagement son salut à un autre charlatan, qui payait les dettes avec des
-                    emprunts, comme si, en empruntant, on ne s'endettait pas </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE IX. </head>
-                <p>
-                    <hi rend="italic"> Guerres du roi Guiot. </hi></p>
-                <p>Les conseils du premier ministre au roi Guiot, au sujet des femmes, étaient
+                    emprunts, comme si, en empruntant, on ne s'endettait pas
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE IX.
+    </head>
+    <p>
+     <hi rend="italic">
+      Guerres du roi Guiot.
+     </hi>
+    </p>
+    <p>
+     Les conseils du premier ministre au roi Guiot, au sujet des femmes, étaient
                     excellens : mais comment acquérir de la gloire en temps de paix ? Règner par la
                     justice et les vertus sur des peuples heureux, ne fut jamais la passion des
                     cœurs ambitieux des grands rois. Į fallait une guerre ; et depuis que le régent
@@ -995,8 +1365,10 @@
                     reçues, ni prétentions à faire valoir. La raison ne suggérait donc aucun moyen
                     de signaler la vertu guerrière du roi Guiot ; mais la politique fut plus
                     heureuse que la raison. C'est une belle chose que la politique pour le bonheur
-                    des états. </p>
-                <p> Deux rois fort sages étaient alors en guerre, à cinq cent lieues du Paquantois,
+                    des états.
+    </p>
+    <p>
+     Deux rois fort sages étaient alors en guerre, à cinq cent lieues du Paquantois,
                     parce que l'ambassadeur de l'un avait prétendu être assis plus haut que
                     l'ambassadeur de l'autre, à un dîner donné par l'ambassadeur d'un troisième roi,
                     dans une ville de cour étrangère, où ces ambassadeurs pouvaient se dispenser de
@@ -1005,11 +1377,17 @@
                     deux potentats belligérans. Leurs peuples, au bonheur desquels il importait
                     infiniment que l'ambassadeur de l'un ne dinit pas plus haut ou plus bas que
                     l'ambassadeur de l'autre, quoique cela ne fasse rien à l'appétit, avaient déja
-                    chanté dix <hi rend="italic"> Te Deum </hi> pour des victoires, remportées de
+                    chanté dix
+     <hi rend="italic">
+      Te Deum
+     </hi>
+     pour des victoires, remportées de
                     part et d'autre, en même temps. Ils comptaient trois à quatre cinq mille bras
                     vigoureux de moins, sans faire une honnorable mention des dettes dont, deux
-                    siècles après, ils n'étaient point encore libérés. </p>
-                <p> L'importance du sujet de la querelle, le désir d'acquérir de la gloire, la
+                    siècles après, ils n'étaient point encore libérés.
+    </p>
+    <p>
+     L'importance du sujet de la querelle, le désir d'acquérir de la gloire, la
                     dignité du tróne des Paquans, ne permettaient pas à leur roi de rester les bras
                     croisés dans une si belle ou occasion de se signaler. Il envoya cinquante mille
                     hommes, soutenir la cause de celui que l'équilibre des états demandait qui fût
@@ -1018,10 +1396,16 @@
                     vus, ni connus. Les révérendissimes pères en Dieu bénirent les armes de sa
                     majesté, en leur souhaitant, de la part d'un Dieu créateur, l'avantage
                     d'exterminer le plus grand nombre possible de créatures de ce Dieu. Le peuple
-                    paquant, jaloux de soutenir sa haute renommée, cria, <hi rend="italic"> vive le
-                        roi</hi>, à la vue du départ de cinquante millions en espèces, qui, ainsi
-                    que les cinquante mille hommes, ne sont jamais revenus. </p>
-                <p> Enchanté du succès de cette campagne, le roi Guiot jugea qu'il ferait tout aussi
+                    paquant, jaloux de soutenir sa haute renommée, cria,
+     <hi rend="italic">
+      vive le
+                        roi
+     </hi>
+     , à la vue du départ de cinquante millions en espèces, qui, ainsi
+                    que les cinquante mille hommes, ne sont jamais revenus.
+    </p>
+    <p>
+     Enchanté du succès de cette campagne, le roi Guiot jugea qu'il ferait tout aussi
                     bien d'entreprendre une guerre pour son compte, que d'aller secourir des rois
                     qui se bataient pour un dîner donné par polisesse à leurs ambassadeurs. Ses
                     états confinaient à des provinces incultes et dépeuplées, qui fesaient partie
@@ -1041,10 +1425,15 @@
                     une si belle chose aux yeux des nations. C'est une invention si nécessaire au
                     bien-être des individus, que le roi Guiot vit le moment où il s'attirait à dos
                     tous les cabinets politiques des princes, et toutes leurs armées sur les bras.
-                    Il fit la paix, en rendant tout ce qui avait été pris. Le peuple cria , <hi
-                        rend="italic"> vive le roi </hi> ; et l'on ne pensa pas plus à cette guerre,
-                    que si elle n'eût pas endetté l'état de six cent millions. </p>
-                <p> Toutefois, sans le tremblement de terre, l'éclipse de soleil et l'étoile à
+                    Il fit la paix, en rendant tout ce qui avait été pris. Le peuple cria ,
+     <hi rend="italic">
+      vive le roi
+     </hi>
+     ; et l'on ne pensa pas plus à cette guerre,
+                    que si elle n'eût pas endetté l'état de six cent millions.
+    </p>
+    <p>
+     Toutefois, sans le tremblement de terre, l'éclipse de soleil et l'étoile à
                     queue, le roi Guiot s'en serait peut-être tenu là; mais il ne pouvait oublier
                     les présages de sa destinée : d'ailleurs, ses succès, chantés par tous les
                     poètes paquans dans des odes joufflues et bien nourries, entretenaient en lui
@@ -1053,8 +1442,10 @@
                     s'étaient distingués par tant de belles actions, dont ils avaient eu, lui toute
                     la gloire, et eux les travaux, que ne devait-il pas se promettre, quand , par sa
                     présence, il ferait passer son courage indomptable dans tous les cours? Voici
-                    comment son ame supérieure eut occasion de déployer ses grandes qualités. </p>
-                <p> Un roi vint à mourir. L'équilibre des états est comme l'honneur des femmes: tout
+                    comment son ame supérieure eut occasion de déployer ses grandes qualités.
+    </p>
+    <p>
+     Un roi vint à mourir. L'équilibre des états est comme l'honneur des femmes: tout
                     lui porte ombrage. Le nouveau roi entrait alors, suivant les principes établis,
                     dans la jouissance de tous les droits actifs et passifs, qui appartenaient à son
                     prédécesseur au jour de son décès. Ceux qui veillaient au maintien de
@@ -1066,15 +1457,19 @@
                     ministres honnêtes c'est la chose la plus facile, et, qu'un bon plan
                     d'administration se fait comme une épître dédicatoire à un fiche financier,
                     laquelle vaut toujours son pris: Quoiqu'il en soit, on déclara la guerre au
-                    nouveau roi, qui gardait les ministres et suivait les plans de son prédécesseur. </p>
-                <p> Le roi Guiot se chargea de la conservation de l'équilibre, et du soin de diriger
+                    nouveau roi, qui gardait les ministres et suivait les plans de son prédécesseur.
+    </p>
+    <p>
+     Le roi Guiot se chargea de la conservation de l'équilibre, et du soin de diriger
                     les opérations hostiles. On travailla en conséquence à ses équipages de
                     campagne. Rien n'y fut épargne ni oublié, pas même les truffes qui devaient être
                     mises dans les sauces, et un théatre avec des acteurs, qui devaient récréer sa
                     majesté: Que fonts d'ailleurs, quelques millions de plus ou de moins, ajoutés à
                     la dépense que de telles circonstances exigent? Les rois n'y regardent pas de si
-                    près. </p>
-                <p> Malgré la richesse de ces préparatifs, le roi paquant perdit, glorieusement
+                    près.
+    </p>
+    <p>
+     Malgré la richesse de ces préparatifs, le roi paquant perdit, glorieusement
                     toutefois, la cause de l'équilibre; et son peuple en paya les dépens. Je dis
                     qu'il la perdit glorieusement, parce qu'il eut la gloire de croire avoir donné
                     lui-même les ordres d'une bataille, dont il fut spectateur du haut d'une
@@ -1085,13 +1480,21 @@
                     réputation un relief incroyable : son nom fut porté, comme ses panégyriques en
                     font foi, du pôle arctique à l'antarctique et reporté de l'orient à l'occident.
                     Au reste, la paix se conclut traités solemnels et inviolables, que l'on se
-                    promettait bien de rompre à la première occasion. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE X. </head>
-                <p>
-                    <hi rend="italic"> Nouvelles amours du roi Guiot </hi> .</p>
-                <p>Voila donc de nouveau la valeur, l'intrépidité, la magnanimité du roi Guiot
+                    promettait bien de rompre à la première occasion.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE X.
+    </head>
+    <p>
+     <hi rend="italic">
+      Nouvelles amours du roi Guiot
+     </hi>
+     .
+    </p>
+    <p>
+     Voila donc de nouveau la valeur, l'intrépidité, la magnanimité du roi Guiot
                     enchaînées, en dépit du grand tremblement de terre, de l'éclipse de soleil et de
                     l'étoile à queue. Il retourna à ses anciennes occupations, la chasse et l'amour.
                     Pour cette fois, la beauté qui fixa son cœur, méritait d'obtenir ce triomphe.
@@ -1100,8 +1503,10 @@
                     avec la justesse, la vivacité et les agrémens d'un esprit cultivé. Son ame douce
                     et sensible formée dans les revers de la fortune , n'avait à souhaiter aucune
                     des qualités, aucune des vertus qui assureraient le bonheur de la terre, si
-                    elles y étaient plus communes. </p>
-                <p> Cette jeune personne intéressante, nommée Dézila, était fille d'un des premiers
+                    elles y étaient plus communes.
+    </p>
+    <p>
+     Cette jeune personne intéressante, nommée Dézila, était fille d'un des premiers
                     seigneurs du royaume. Son père avait eu le malheur de se laisser entraîner par
                     un prince du sang, dans une conspiration tramée contre le feu roi. La
                     conspiration fut découverte : l'auteur , prince du sang, trouva facilement à se
@@ -1109,8 +1514,10 @@
                     La mère de la jeune personne et sa famille ne purent alors résister au parti
                     puissant qui les poursuivait. Elles dûrent quitter la cour et se disperser,
                     jusqu'à ce que, sous la régence, leurs ennemis furent, à leur réduits à prendre
-                    la fuite. Ainsi vont les cours. </p>
-                <p> Les charmes et le mérite de cette jeune beauté, instruite à l'école du malheur,
+                    la fuite. Ainsi vont les cours.
+    </p>
+    <p>
+     Les charmes et le mérite de cette jeune beauté, instruite à l'école du malheur,
                     n'échappèrent pas au roi Guiot. Sa première passion avait été de courte durée,
                     les autres, de simples goûts passagers. Son cœur était encore susceptible
                     d'attachement; il l'était même plus que jamais; car ce qu'il avait éprouvé
@@ -1131,8 +1538,10 @@
                     qu'elle ignorait qu'entre deux jeunes personnes de sexe différent, ce tendre
                     commerce n'est que de l'amour, plus dangereux sous un nom déguisé.
                     Lorsqu'ensuite on s'apperçoit de cette erreur, c'est une preuve, qu'il n'est
-                    plus temps de la réparer. </p>
-                <p>La noblesse des sentimens d'une telle maîtresse influa bien-tôt sur ceux du roi.
+                    plus temps de la réparer.
+    </p>
+    <p>
+     La noblesse des sentimens d'une telle maîtresse influa bien-tôt sur ceux du roi.
                     On ne l'avait jamais vu si grand, si généreux. Sans affecter un faste insultant,
                     il mit dans son train, dans ses équipages, une magnificence soutenue par une
                     économie convenable. La dépense était grande, mais non superflue : il n'oubliait
@@ -1141,8 +1550,10 @@
                     fesait, et de celle à qui ils étaient offerts. Elle n'accepta qu'un portrait, où
                     son amant était peint sous un costume inusité depuis quatre mille ans. C'était
                     assez l'usage des grands, de se faire représenter dans des habits, qu'ils
-                    n'avaient jamais portés. </p>
-                <p> Des procédés si différens de ceux de ses anciennes maîtresses , achevèrent de
+                    n'avaient jamais portés.
+    </p>
+    <p>
+     Des procédés si différens de ceux de ses anciennes maîtresses , achevèrent de
                     captiver le cœur du roi. Son amour était au comble. Enfin il résolut de faire
                     partager son trône à celle qui était la souveraine de ses volontés, et plus que
                     la moitié de sa vie. Il fit à sou conseil d'état l'ouverture de son intention.
@@ -1156,8 +1567,10 @@
                     front la passion du monarque, il ne s'exposât à une disgrace, dont il aurait été
                     facile à ses ennemis de profiter. Un ministre n'est jamais sans ennemis : ceux
                     qui lui font le plus bassement leur cour, sont à la tête. Mais le dessein public
-                    du roi rendit heureusement toutes les craintes vaines. </p>
-                <p> Il est bon de savoir que chez les Paquans, par une loi de l'état, introduite par
+                    du roi rendit heureusement toutes les craintes vaines.
+    </p>
+    <p>
+     Il est bon de savoir que chez les Paquans, par une loi de l'état, introduite par
                     l'usage, il n'était pas permis au prince d'épouser une de ses sujettes.
                     L'observation de semblables loix dépend certainement plus de la volonté des
                     ministres, que de celle du peuple. Il est incontestable que le roi Guiot, en
@@ -1179,8 +1592,10 @@
                     voulut. On ne lui parla point du tremblement de terre, de l'éclipse de soleil et
                     de l'étoile à queue : depuis qu'il connaissait la charmante Dézila , il n'en
                     voulait plus entendre parler. il disait alors, que Dézila était sa seule étoile
-                    lumineuse, et qu'elle éclipsait l'astre du jour. </p>
-                <p> Lorsque cette amante infortunée apprit ce qu'on avait agité au conseil, et la
+                    lumineuse, et qu'elle éclipsait l'astre du jour.
+    </p>
+    <p>
+     Lorsque cette amante infortunée apprit ce qu'on avait agité au conseil, et la
                     résolution qui y avait été prise, elle ouvrit les yeux sur la nature du fatal
                     penchant, qui enchaînait sa destinée à celle du roi. Son ame fut affectée de la
                     plus vive douleur; mais elle reprit bientôt son empire. Dézila fut la première à
@@ -1190,36 +1605,71 @@
                     l'intérêt de leurs peuples. Eh ! ame de ma vie! s'écriait le roi; c'est cet
                     intérêt seul qui me guide, en vous conjurant d'unir votre sort au mien, pour
                     rendre des peuples heureux. Vous seule pouvez me donner la force de faire leur
-                    bonheur. Je le sens. </p>
-                <p> Le roi Guiot parlait d'or : mais ce fut, comme s'il n'avait rien dit. Sa triste
+                    bonheur. Je le sens.
+    </p>
+    <p>
+     Le roi Guiot parlait d'or : mais ce fut, comme s'il n'avait rien dit. Sa triste
                     amante, voyant à la fin qu'il lui était impossible de guérir de sa passion,
                     aussi long temps qu'elle resterait à la cour, prit le parti de l'abandonner à
                     jamais. Une belle nuit, elle exécuta son projet secrettement, après avoir laissé
-                    sur sa table ces vers, qui furent postés au roi à son réveil. </p>
-                <quote>
-                    <l> Hélas ! ce fut en vain qu'une amante insensée</l>
-                    <l>Voulut contribuer au bonheur de tes jours.</l>
-                    <l>C'était le doux espoir de mon ame abusée :</l>
-                    <l>Elle osait se flatter d'éternelles amour, </l>
-                    <l> Mon cœur, trop jeune encor, et sans expérience,</l>
-                    <l>Ignorait les dangers qui remplissent les cours</l>
-                    <l>J'en ai donc aujourd'hui la fatale science!</l>
-                    <l>Je sais qu'on n'y voit pas d'éternelles amours </l>
-                    <l> Je pars, roi trop chéri; le devoir me l'ordonne: </l>
-                    <l> Puisse-t-il sur ton cœur régner ainsi toujours! </l>
-                    <l> Suis avec fermeté l'exemple que te donne </l>
-                    <l> Celle qui t'a promis d'éternelles amours. </l>
-                </quote>
-                <p> Non , chère amante ; reviens : reviens d'une erreur trop funeste : mon cœur te
+                    sur sa table ces vers, qui furent postés au roi à son réveil.
+    </p>
+    <quote>
+     <l>
+      Hélas ! ce fut en vain qu'une amante insensée
+     </l>
+     <l>
+      Voulut contribuer au bonheur de tes jours.
+     </l>
+     <l>
+      C'était le doux espoir de mon ame abusée :
+     </l>
+     <l>
+      Elle osait se flatter d'éternelles amour,
+     </l>
+     <l>
+      Mon cœur, trop jeune encor, et sans expérience,
+     </l>
+     <l>
+      Ignorait les dangers qui remplissent les cours
+     </l>
+     <l>
+      J'en ai donc aujourd'hui la fatale science!
+     </l>
+     <l>
+      Je sais qu'on n'y voit pas d'éternelles amours
+     </l>
+     <l>
+      Je pars, roi trop chéri; le devoir me l'ordonne:
+     </l>
+     <l>
+      Puisse-t-il sur ton cœur régner ainsi toujours!
+     </l>
+     <l>
+      Suis avec fermeté l'exemple que te donne
+     </l>
+     <l>
+      Celle qui t'a promis d'éternelles amours.
+     </l>
+    </quote>
+    <p>
+     Non , chère amante ; reviens : reviens d'une erreur trop funeste : mon cœur te
                     prouvera qu'il peut encore se voir ici d'éternelles amours : dit le roi Guiot,
                     sans trop savoir ce qu'il disait. Il faillit de tomber en syncope de l'aventure,
-                    et finit par demeurer immobile dans son fauteuil à bras. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XI. </head>
-                <p>
-                    <hi rend="italic"> Voyages du roi Guiot. </hi></p>
-                <p>L'INFORTUNÉ roi des Paquans n'était à consoler de la perte de la tendre Dézila.
+                    et finit par demeurer immobile dans son fauteuil à bras.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XI.
+    </head>
+    <p>
+     <hi rend="italic">
+      Voyages du roi Guiot.
+     </hi>
+    </p>
+    <p>
+     L'INFORTUNÉ roi des Paquans n'était à consoler de la perte de la tendre Dézila.
                     Le coup l'avait jeté dans une mélancolie profonde, dont se ministres
                     commençaient à craindre des suites sérieuses. Une humeur atrabilaire lui
                     inspirait une certaine haine contre eux. Aussi ils jugèrent qu'il était temps
@@ -1228,9 +1678,15 @@
                     désintéressé à la personne sacrée du roi Guiot. L'expédient le plus propre à
                     dissiper l'orage prêt à fondre sur eux, leur parut être de faire voyager sa
                     majesté paquante , jusqu'à ce que la princesse, destinée à devenir son épouse,
-                    fut en âge de lui rendre ses très-humbles devoirs conjugaux. </p>
-                <p> Le premier ministre se chargea de la réussite du projet. Il en avait bien fait
-                    réussir d'autres <hi rend="italic"> : </hi> même tout récemment, il avait fait
+                    fut en âge de lui rendre ses très-humbles devoirs conjugaux.
+    </p>
+    <p>
+     Le premier ministre se chargea de la réussite du projet. Il en avait bien fait
+                    réussir d'autres
+     <hi rend="italic">
+      :
+     </hi>
+     même tout récemment, il avait fait
                     accroire au roi, que cinq à six cent mille de ses sujets, qui, sur quelques
                     points incompréhensibles de croyance, différaient un peu de celle de sa majesté,
                     se trouveraient trop heureux et fort honorés de penser comme elle, dès qu'elle
@@ -1238,15 +1694,19 @@
                     insinué. Ce trait de fausse politique, suggéré par un révérend au positif,
                     métamorphosé en plus que révérendissime, fit perdre au roi Guiot cinq à six cent
                     mille de ses meilleurs Paquans, qui allèrent enrichir les ennemis naturels du
-                    Paquantois. </p>
-                <p> Comme un vrai brave ne se laisse point décourager par un seul coup de jarnac, de
+                    Paquantois.
+    </p>
+    <p>
+     Comme un vrai brave ne se laisse point décourager par un seul coup de jarnac, de
                     même un courtisan consommé dans l'art de l'intrigue, n'abandonne pas le cours de
                     la fortune, pour s'être écarté une fois du fil de l'eau. Le premier ministre va
                     trouver le roi Guiot, qui soupirait dans l'abattement, au fond du bosquet de
                     myrthes, de lauriers, d'orangers, de citronniers de grenadiers, de lilas, de
                     gérofliers, de caneliers, de seringas et d'autres arbres ou arbustes
-                    odoriférans. Il lui parla en ces termes :</p>
-                <p>Sire ! je ne puis souffrir plus long-temps que votre majesté paquante coute dans
+                    odoriférans. Il lui parla en ces termes :
+    </p>
+    <p>
+     Sire ! je ne puis souffrir plus long-temps que votre majesté paquante coute dans
                     l'obscurité, des jours qu'elle doit tous à sa gloire et à l'admiration de
                     l'univers. Je n'ai pas condamné d'abord ses regrets de la perte d'un objet qui
                     les méritait : mais vous étiez roi, Sire, avant d'être amant, (c'est ce que
@@ -1272,8 +1732,10 @@
                     n'a-t-il pas annoncé que le prince, dont il prédisait la naissance mémorable,
                     serait un grand pélerin ? Il entendait par là parviendrez par les voyages à un
                     point de grandeur digne de votre illustre origine, et répondant aux prodiges qui
-                    vous ont précédé. </p>
-                <p> Ce discours, prononcé avec chaleur et dignité par un homme insinuant, qui
+                    vous ont précédé.
+    </p>
+    <p>
+     Ce discours, prononcé avec chaleur et dignité par un homme insinuant, qui
                     connaissait à fond son auditeur, fit sur l'ame du cher roi Guiot, un effet tout
                     particulier. Il n'avait plus la belle Dézila, pour guider ses pensées et ses
                     réponses. Serait-il pourtant bien vrai, se disait-il en lui-même, que le
@@ -1283,15 +1745,26 @@
                     réflexions irrésolues. Il le ramena au château, où il lui fit sabler quelques
                     coupes d'un tockay délicieux. Le bon home de roi aimait un peu la liqueur
                     bachique : cela le remit en belle humeur; et sa modestie royale se détermina,
-                    par une douce violence, à aller faire l'admiration de l'univers. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XII. </head>
-                <p>
-                    <hi rend="italic"> Départ du roi Guiot; postillon tué; commis aux portes </hi>
-                    .</p>
-                <p>Comme la modestie de sa majesté paquante était sans bornes, ses équipages, afin
-                    de mieux garder l'<hi rend="italic">incognito</hi>, furent sans fin, Le nombre
+                    par une douce violence, à aller faire l'admiration de l'univers.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Départ du roi Guiot; postillon tué; commis aux portes
+     </hi>
+     .
+    </p>
+    <p>
+     Comme la modestie de sa majesté paquante était sans bornes, ses équipages, afin
+                    de mieux garder l'
+     <hi rend="italic">
+      incognito
+     </hi>
+     , furent sans fin, Le nombre
                     des voitures, destinées à charger les effets et les bagages de sa suite, était
                     si grand, que l'on fut trois mois à rassembler les chevaux nécessaires pour les
                     conduire, que l'on dut retenir à cette fin tous les cochers de fiacres et tous
@@ -1316,12 +1789,17 @@
                     boucher ne veut plus m'envoyer de viande à crédit, je vais dîner chez lui. Ce
                     moyen tenter un créancier parut original : mais prétend que toutes ces raisons
                     et ces exemples édifians satisfirent médiocrement le roi Guiot : car dans le
-                    fond, il était très affectionné à ses Paquans. </p>
-                <p> Arrivé sur les terres d'un prince voisin , il vit trois espèces de paquans venir
+                    fond, il était très affectionné à ses Paquans.
+    </p>
+    <p>
+     Arrivé sur les terres d'un prince voisin , il vit trois espèces de paquans venir
                     arrêter ses voitures, fouiller ses équipages, et vouloir mettre la main jusques
                     dans ses poches, si ses gens ne leur eussent appris à tours de bras, que l'on
-                    n'en agissait pas ainsi avec les rois qui voyagent <hi rend="italic"> incognito
-                    </hi> . On lui donna l'explication de cette cérémonie. Il en trouva la fin fort
+                    n'en agissait pas ainsi avec les rois qui voyagent
+     <hi rend="italic">
+      incognito
+     </hi>
+     . On lui donna l'explication de cette cérémonie. Il en trouva la fin fort
                     plaisante et juste : mais il s'étonna de ce qu'on n'avait pas cherché un moyen
                     plus honnête d'encourager l'industrie nationale et de subvenir aux dépenses de
                     l'état. On se garda bien de lui dire, que dans son royaume la chose était plus
@@ -1333,8 +1811,10 @@
                     connoissance; parce que les boursoufflés à ventre pointus avaient expédié
                     l'ordre de la laisser passer librement, afin de ne point mettre obstacle à la
                     célérité avec laquelle on désirait qu'il traversât ses états, pour qu'il n'y vìt
-                    rien. </p>
-                <p> A la première ville où il arriva, on fut plus honnête, mais aussi plus curieux.
+                    rien.
+    </p>
+    <p>
+     A la première ville où il arriva, on fut plus honnête, mais aussi plus curieux.
                     D'autres espèces de Paquans vinrent à la porte lui demander poliment, qui il
                     était; d'où il venait; où il allait loger. Un Paquant de sa suite répondit qu'il
                     était homme; qu'il venait de chez lui; et qu'il allait loger à l'auberge. Cette
@@ -1345,23 +1825,40 @@
                     comprit que le plaisant avait fait une mauvaise plaisanterie, et que le Paquant
                     ne l'était pas autant qu'il en avait l'air : pour raccommoder la chose, il lui
                     répondit en deux mots, qu'il se nommait Guiot; qu'il était Paquant de naissance
-                    et grand roi de profession; mais que, par modestie, il voyageait <hi
-                        rend="italic"> incognito </hi> , sous le titre de comte de la Guiotière;
+                    et grand roi de profession; mais que, par modestie, il voyageait
+     <hi rend="italic">
+      incognito
+     </hi>
+     , sous le titre de comte de la Guiotière;
                     qu'enfin il allait loger à l'hôtel des trois rois, où il espérait d'être
-                    royalement traité. </p>
-                <p> Les espèces de Paquans écrivirent sa réponse, lui firent une profonde révérence
+                    royalement traité.
+    </p>
+    <p>
+     Les espèces de Paquans écrivirent sa réponse, lui firent une profonde révérence
                     ; puis ils se retirèrent. Quant à lui, il alla descendre à l'hôtel des trois
                     rois, dont le maître changea le lendemain l'enseigne, pour y substituer celle
-                        <hi rend="italic"> d'hôtel du roi Guiot</hi>, avec un portrait dont la
+     <hi rend="italic">
+      d'hôtel du roi Guiot
+     </hi>
+     , avec un portrait dont la
                     ressemblance était frappée à grands coups de brosse, par un Paul-Véronèse, formé
                     à l'école du pays. Sa suite et ses équipages furent dispersés dans tous les
-                    cabarets et les bouchons de l'endroit. </p>
-                <p> Nonobstant la célérité avec laquelle le roi Guiot avait traversé le Paquantois,
+                    cabarets et les bouchons de l'endroit.
+    </p>
+    <p>
+     Nonobstant la célérité avec laquelle le roi Guiot avait traversé le Paquantois,
                     il s'était vu harangué aux postes et aux auberges, par les maires et les baillis
                     en robes, avertis de se trouver sur son passage, pour donner à sa majesté une
                     haute idée de la vraie éloquence, et lui présenter avec délicatesse , des
-                    louanges finement assaisonnées de <hi rend="italic"> ridiculum acri melius </hi>
-                    et de <hi rend="italic">vis comica </hi> . Comme il s'attendait encore à la même
+                    louanges finement assaisonnées de
+     <hi rend="italic">
+      ridiculum acri melius
+     </hi>
+     et de
+     <hi rend="italic">
+      vis comica
+     </hi>
+     . Comme il s'attendait encore à la même
                     cérémonie, il ne voulait pas se mettre à table, avant d'avoir répondu, par une
                     légère inclination de tète, au maire ou au bailli harangueur de cet endroit-là.
                     Les courtisans lui remontrèrent que, n'étant plus chez les Paquans, il ne
@@ -1370,14 +1867,22 @@
                     vérité : enfin l'appétit, plus fort que les courtisans et les hôtes, lui fit
                     perdre la patience d'attendre une harangue, composée dans le vuide du bon sens
                     et de la raison. Il se mit à table; soupa comme quatre; but pour six; dormit de
-                    même, et partit le lendemain matin, après avoir grassement payé son écot. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XIII. </head>
-                <p>
-                    <hi rend="italic"> Continuation de voyages aventure de l'auberge; suppression de
-                        Bonzes </hi>.</p>
-                <p>LA journée se passa sans événement remarquable : il en allait être de même de la
+                    même, et partit le lendemain matin, après avoir grassement payé son écot.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Continuation de voyages aventure de l'auberge; suppression de
+                        Bonzes
+     </hi>
+     .
+    </p>
+    <p>
+     LA journée se passa sans événement remarquable : il en allait être de même de la
                     soirée, si le roi Guiot, étant sorti pour un besoin naturel, n'eût pas
                     rencontré, en montant l'escalier, une grande brunette, en jupon court, en blanc
                     corset; portant grands yeux noirs en coulisse , bouche mignone, vermeille,
@@ -1388,14 +1893,22 @@
                     négligence coquette, deux charmans demi-globes d'albâtre, fermes, polis,
                     arrondis par l'amour et faits pour réveiller l'appétit le plus malade, le plus
                     récalcitrant au vif aiguillon du plaisir. Un coup d'œil agaçant acheva de
-                    dérouter le monarque voyageur <hi rend="italic"> incognito </hi> . Il fit à la
+                    dérouter le monarque voyageur
+     <hi rend="italic">
+      incognito
+     </hi>
+     . Il fit à la
                     brunette la proposition galante, qui fut acceptée à l'instant. Pour que l'effet
                     suivi de près les paroles, le couple dispos entrait déjà dans un cabinet à
                     l'écart, où un paquet de linge sale allait être le trône des plaisirs,
                     lorsqu'une voix importune se mit à crier à tout rompre; Thérèse,
                     Thérèse:-Thérèse, descendez. Mademoiselle Thérèse rajuste à la hâte son fichu de
                     gaze claire; sort du cabinet; en ferme la porte; descend les montées en trois
-                    sauts; va dire au crieur, <hi rend="italic"> plaît-il, papa?</hi> Le père, homme
+                    sauts; va dire au crieur,
+     <hi rend="italic">
+      plaît-il, papa?
+     </hi>
+     Le père, homme
                     fort brusque, qui entendait peu le badinage, dit à sa fille , qu'il ne
                     prétendait pas qu'elle allât ainsi roder en haut dans les quartiers, sans sa
                     permission. Il lui ordonna de se retirer sur le champ à sa chambre, et de s'y
@@ -1410,8 +1923,10 @@
                     ratelier dans l'écurie, et vint tirer tout le monde d'embarras. Cette aventure
                     fit le pendant de celle de la remise. Les courtisans, à qui le roi Guiot la
                     raconta le lendemain, pendant la route, en rirent beaucoup ou en firent le
-                    semblant. </p>
-                <p> Au point du jour, avant de partir, il donna, en présence du papa, un baiser
+                    semblant.
+    </p>
+    <p>
+     Au point du jour, avant de partir, il donna, en présence du papa, un baiser
                     très-innocent à la belle Thérèse. Vers les dix heures, il fit arrêter à un petit
                     bourg , pour y raffraichir. En entrant à l'auberge, il vit une trentaine
                     d'hommes vêtus, les uns de noir, les autres de blanc, ceux-ci de noir et de
@@ -1438,8 +1953,10 @@
                     absorber tous les avantages : comment on les mettait dans l'impossibilité de
                     susciter aux citoyens, des procès frayeux, pour leur dévorer encore le peu de
                     subsistance qu'ils avaient dû leur laisser ; comment, enfin, il n'y avait plus
-                    de bien à espérer désormais sur la terre, où il ne régnait plus ni foi, ni loi. </p>
-                <p> La singularité de ces plaintes ne déplut pas au roi Guiot. Il se rappella
+                    de bien à espérer désormais sur la terre, où il ne régnait plus ni foi, ni loi.
+    </p>
+    <p>
+     La singularité de ces plaintes ne déplut pas au roi Guiot. Il se rappella
                     qu'autrefois le régent, son parent, avait voulu introduire une semblable réforme
                     dans ses états, où l'on voyait fourmiller les gens de cette espèce. L'aubergiste
                     alors s'approcha de lui, et lui dit, avec un bon sens droit et franc. Tenez : je
@@ -1463,14 +1980,21 @@
                     tablettes, dans l'intention de s'en souvenir plus tard, ainsi que de plusieurs
                     observations faites pendant son voyage : mais lorsqu'à son retour, il voulut y
                     avoir recours, le porte-feuille avait disparu. D'ailleurs, il lui aurait été de
-                    peu d'utilité. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XIV. </head>
-                <p>
-                    <hi rend="italic"> Continuation de voyage ; entretien avec un officier </hi>
-                    .</p>
-                <p>Le roi Guiot arriva le soir dans une ville assez considérable, où il trouva une
+                    peu d'utilité.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIV.
+    </head>
+    <p>
+     <hi rend="italic">
+      Continuation de voyage ; entretien avec un officier
+     </hi>
+     .
+    </p>
+    <p>
+     Le roi Guiot arriva le soir dans une ville assez considérable, où il trouva une
                     forte garnison. On devait en passer la revue le lendemain dans la matinée, ce
                     qui l'engagea à ne point pars tir avant midi. En allant voir la troupe, il
                     rencontra beaucoup de personnes , bien mises, qui portaient sous le bras ce qui
@@ -1482,8 +2006,10 @@
                     êtres, infatués de leur petite personne, étaient des ministres de la divinité.
                     Les Paquans allaient tout fondement, sans aucune recherche dans leur parure ;
                     ceux qui, dans le fait, ils mettaient plus de façons ne s'en rendaient que plus
-                    ridicules : ainsi ils étaient fort sages de s'en tenir à l'uni. </p>
-                <p> Quand le roi Guiot vit la troupe, il ne fut pas peu surpris des égards que les
+                    ridicules : ainsi ils étaient fort sages de s'en tenir à l'uni.
+    </p>
+    <p>
+     Quand le roi Guiot vit la troupe, il ne fut pas peu surpris des égards que les
                     officiers avaient pour leurs soldats et des manières nobles de ceux-ci. Il vit
                     aussi les citoyens les plus distingués s'approcher d'eux avec politesse,
                     s'entretenir avec eux pendant les intervalles de repos, entre les opérations et
@@ -1491,8 +2017,10 @@
                     sortissent un instant des bornes de la décence et de l'honnêteté. Il en
                     communiqua sa surprise à un officier, qui, à l'air étranger du roi et de sa
                     suite , était venu leur faire les honneurs de la part de son corps. Cet officier
-                    dit le mot de l'énigme à sa majesté voyageuse. </p>
-                <p> Il n'en a pas toujours été de même, lui dit-il : autrefois notre armée était
+                    dit le mot de l'énigme à sa majesté voyageuse.
+    </p>
+    <p>
+     Il n'en a pas toujours été de même, lui dit-il : autrefois notre armée était
                     composée, comme celle des autres nations ; c'est-à-dire , de paquans et de gens
                     sans éducation, ni mœurs. On a fait réflexion qu'une armée, ainsi composée, ne
                     pouvait pas se mouvoir par l'honneur et par l'amour de la patrie. La cause de
@@ -1515,14 +2043,18 @@
                     au-dessous de la de pense, et qui exige de la fortune dans les individus qui le
                     composent. Mais. il faut, pour prévenir le retour à l'aristocratie, que ce corps
                     soit une école, de laquelle, après s'y être formés, les individus passent dans
-                    les autres corps de l'armée.</p>
-                <p>Quant à la liberté, nous ne la ravis à nos soldats : nous la resserrons seulement
+                    les autres corps de l'armée.
+    </p>
+    <p>
+     Quant à la liberté, nous ne la ravis à nos soldats : nous la resserrons seulement
                     dans les bornes que te maintien de l'ordre prescrit. Nous avons, enfin, rendu
                     cet état, plus honnorable qu'aise. Les soldats sont nos concitoyens, nous nous
                     manquerions donc à nous-mêmes, si nous pouvions leur manquer d'égard. De plus,
                     nous avons fait ensorte qu'une grande partie de l'armée ne fut pas perdue pour
-                    l'industrie et l'agriculture. </p>
-                <p> Le roi des Paquans dressait les oreilles à ce discours : il ouvrait de petits,
+                    l'industrie et l'agriculture.
+    </p>
+    <p>
+     Le roi des Paquans dressait les oreilles à ce discours : il ouvrait de petits,
                     yeux et une grande bouche. Vous pourriez quelquefois avoir une espèce de raison,
                     dit-il à l'officier, quand il eut fini de parler. Alors il lui raconta qu'il
                     était grand roi;-qu'il avait aussi des armées. Il lui fit un récit fort
@@ -1545,13 +2077,19 @@
                     indépendamment de l'étendue et de la population de leur territoire. Cette
                     répartition, à peu-près égale de forces, que l'on veut introduire, n'est
                     nécessaire que tant que les nations sont gouvernées par des princes ambitieux,
-                    qui font servir les peuples d'instrumens à leurs passions. </p>
-                <p> En entendant parler de la sorte, le roi Guiot ouvrait bien plus les yeux et les
+                    qui font servir les peuples d'instrumens à leurs passions.
+    </p>
+    <p>
+     En entendant parler de la sorte, le roi Guiot ouvrait bien plus les yeux et les
                     oreilles. Il répéta, avec un certain air d'embarras, qu'il était grand roi;
                     qu'il avait des armées ; qu'il disposait de ses armées selon sa volonté. -- Се
                     que vous me faites la grace de me dire , peut être vrai , dit l'officier : il en
                     était de même autrefois chez nous : car nous avons aussi un roi, qui nous
-                    gouvernait suivant <hi rend="italic"> son bon plaisir </hi> ; mais les lumières
+                    gouvernait suivant
+     <hi rend="italic">
+      son bon plaisir
+     </hi>
+     ; mais les lumières
                     ont fait changer de face aux choses : il n'est pas douteux qu'avec le temps,
                     elles en opéreront autant chez vous.-Parbleu! je les en défie, repliqua le roi
                     Guiot, avec humeur. J'y mettrai bon ordre. Vous en agirez comme il vous plaira ,
@@ -1560,15 +2098,21 @@
                     quittèrent alors moins bons amis qu'ils ne s'étaient rencontrés. Il n'entrait
                     pas encore dans la tête du monarque paquant, comment des peuples ne seraient pas
                     toujours charmés d'aller se battre en aveugles, contre des inconnus pour des
-                    dîners d'ambassadeurs, des bicoques et des rochers. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XV. </head>
-                <p>
-                    <hi rend="italic"> Continuation de voyage; arrivée à la capitale d'un autre
-                        royaume; démolition d'une forteresse et d'un vieux château </hi>
-                </p>
-                <p> Le roi Guiot retourna à l'auberge, mincement satisfait de ce qu'il avait vu, et
+                    dîners d'ambassadeurs, des bicoques et des rochers.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XV.
+    </head>
+    <p>
+     <hi rend="italic">
+      Continuation de voyage; arrivée à la capitale d'un autre
+                        royaume; démolition d'une forteresse et d'un vieux château
+     </hi>
+    </p>
+    <p>
+     Le roi Guiot retourna à l'auberge, mincement satisfait de ce qu'il avait vu, et
                     moins encore de ce qu'il avait entendu. Comme, cependant, il ne gardait pas de
                     rancune, il dîna de bon appétit : même il aurait offert au dessert un verre de
                     vin à l'officier du matin, s'il s'y fût présenté. Après diner il monta en
@@ -1584,19 +2128,27 @@
                     très-polis : ils ôtèrent honnêtement leurs bonnets, pour lui répondre, que
                     l'intérieur du royaume n'avait pas besoin de places fortes; parce que les
                     citoyens devaient plutôt sacrifier tous leur vie, que de laisser à l'ennemi le
-                    temps de pénétrer si avant. Cette réponse franche émerveilla le roi Guiot. </p>
-                <p> Jamais un Paquant de mon royaume, dit-il à ceux de sa suite, ne m'a tenu un
+                    temps de pénétrer si avant. Cette réponse franche émerveilla le roi Guiot.
+    </p>
+    <p>
+     Jamais un Paquant de mon royaume, dit-il à ceux de sa suite, ne m'a tenu un
                     propos si noble, si énergique. C'est qu'ils ne sont pas libres, riposta un des
                     hommes occupés à démolir le vieux château,--Sans doute , lui repartit le roi
-                    paquant, ils ne sont pas libres, puisque je suis leur maître absolu. </p>
-                <p> Tant pis pour vous, répondit l'autre, en poursuivant son travail : vous n'avez
-                    pas le bonheur de commander à des hommes. </p>
-                <p> Et tant pis pour eux ajouta un autre démolisseur : ils ne savent pas ce que
+                    paquant, ils ne sont pas libres, puisque je suis leur maître absolu.
+    </p>
+    <p>
+     Tant pis pour vous, répondit l'autre, en poursuivant son travail : vous n'avez
+                    pas le bonheur de commander à des hommes.
+    </p>
+    <p>
+     Et tant pis pour eux ajouta un autre démolisseur : ils ne savent pas ce que
                     c'est d'avoir un roi qu'on peut aimer. Ils ne connaissent qu'un despote, qu'ils
                     doivent craindre. Le roi Guiot fit une grimace, et dit au démolisseur,-bien
                     obligé, mon ami! à quoi l'autre répondit : il ne faut rien pour cela, notre
-                    bourgeois : puis il continua son travail ; et le roi passa son chemin. </p>
-                <p> Il aurait pourtant été bien aise de connaître à quoi ce vieux château avait
+                    bourgeois : puis il continua son travail ; et le roi passa son chemin.
+    </p>
+    <p>
+     Il aurait pourtant été bien aise de connaître à quoi ce vieux château avait
                     servi : mais quand il demandait quelque chose, il recevait des réponses si
                     singulières, qu'il devait mettre beaucoup de réserve dans ses questions, s'il ne
                     voulait pas entendre des leçons, auxquelles il ne s'accoutumait pas sans peine.
@@ -1616,8 +2168,10 @@
                     abominables se tramaient et se consommaient dans un odieux mystère, au mépris de
                     toutes les loix de l'état et de l'humanité, à l'insu même du maître, dont les
                     ministres ne rougissaient pas d'emprunter le nom, pour commettre les plus inouis
-                    des forfaits. </p>
-                <p> Le roi Guiot fit de profondes réflexions sur le discours de l'homme au chapeau
+                    des forfaits.
+    </p>
+    <p>
+     Le roi Guiot fit de profondes réflexions sur le discours de l'homme au chapeau
                     sous le bras. Il soupçonna que ses propres ministres pourraient bien pratiquer
                     quelque chose de semblable ou d'approchant; vu que dans ses états, il existait
                     encore plus d'un château destiné à recéler les vols que le prince fesait à la
@@ -1625,8 +2179,10 @@
                     avait signé de ces ordres de sang, que ses ministres lui présentaient, en lui
                     alléguant qu'il était de l'intérêt, de la dignité du trône, de ne pas suivre
                     dans ces affaires les formes établies par les loix. Ils nommaient cela des coups
-                    d'une juste autorité. </p>
-                <p> Ces réflexions sérieuses furent interrompues par l'arrivée d'un brillant
+                    d'une juste autorité.
+    </p>
+    <p>
+     Ces réflexions sérieuses furent interrompues par l'arrivée d'un brillant
                     équipage à six chevaux, richement enharnachés, dans lequel était une jeune
                     femme, mise avec tout l'art, toute la recherche du luxe et de la coquetterie.
                     Elle jetta un léger coup d'œil, mêlé d'insensibilité et de dédain, sur le
@@ -1637,89 +2193,228 @@
                     titulaire, achetait bien cher la faveur de passer avec cette spirituelle
                     personne, quelques instans d'un temps, que la belle partageait à meilleur compte
                     avec un jeune officier. Un des Paquans de la suite du roi se contenta de dire,
-                    c'est ici comme chez nous. </p>
-                <p> La nuit tombait : chacun s'enfut; les démolisseurs, en chantant; le roi Guiot,
+                    c'est ici comme chez nous.
+    </p>
+    <p>
+     La nuit tombait : chacun s'enfut; les démolisseurs, en chantant; le roi Guiot,
                     en rêvant ; les Paquans de sa suite royale , en cherchant à tirer sa majesté de
                     ses rêveries, lesquelles n'étaient pas entièrement de leur goût. Ils craignaient
                     d'éprouver un jour, après un long rêve, un réveil d'Epiménide, dont tout
-                    l'avantage n'aurait pas été de leur côté. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XVI. </head>
-                <p>
-                    <hi rend="italic"> Promenade du matin ; rencontre d'un officier; entretien sur
-                        les titres d'honneurs </hi>
-                </p>
-                <p> Le lendemain matin, le roi Guiot alla se promener avec ses courtisans, ses gens
+                    l'avantage n'aurait pas été de leur côté.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XVI.
+    </head>
+    <p>
+     <hi rend="italic">
+      Promenade du matin ; rencontre d'un officier; entretien sur
+                        les titres d'honneurs
+     </hi>
+    </p>
+    <p>
+     Le lendemain matin, le roi Guiot alla se promener avec ses courtisans, ses gens
                     et les leurs. Un jeune officier, qui, à leur costume et à l'air surpris dont ils
                     regardaiant tout, vit bien que ce devait être des étrangers de marque, les
                     acosta , et leur offrit ses services. La politesse n'est pas défendue. Un
-                    officier paquant le mit au fait de la qualité du roi Guiot, qui voyageait <hi
-                        rend="italic"> incognito </hi> , avec six cent personnes à sa suite, sous le
+                    officier paquant le mit au fait de la qualité du roi Guiot, qui voyageait
+     <hi rend="italic">
+      incognito
+     </hi>
+     , avec six cent personnes à sa suite, sous le
                     titre de comte de la Guiotière, dans le dessein de se faire admirer des nations.
-                    Le louable motif du voyage, et cet <hi rend="italic"> incognito </hi> bien gardé
+                    Le louable motif du voyage, et cet
+     <hi rend="italic">
+      incognito
+     </hi>
+     bien gardé
                     amusèrent l'officier, fin railleur de son naturel, comme l'étaient d'ordinaire
                     les jeunes gens de son métier et de sa profession. Il salua, toutefois avec un
-                    profond respect, le monarque paquant, qu'il qualifiait tout simplement de <hi
-                        rend="italic"> mon roi</hi>, en lui adressant la parole ou en lui répondant.
+                    profond respect, le monarque paquant, qu'il qualifiait tout simplement de
+     <hi rend="italic">
+      mon roi
+     </hi>
+     , en lui adressant la parole ou en lui répondant.
                     Le cher roi ne paraissait pas prendre cette courtoisie le mieux du monde.
                     L'officier s'imagina que sa majesté s'offensait d'un titre qu'elle voulait
-                    cacher sous un modeste <hi rend="italic"> incognito</hi>. Il ne l'appella plus
-                    que <hi rend="italic"> mon comte</hi>. Alors un des officiers paquans dit à
-                    l'officier du pays, que dans le Paquantois on donnait toujours le titre de <hi
-                        rend="italic"> sire </hi> au roi Guiot, en s'adressant à lui , et dans le
-                    discours celui de <hi rend="italic"> votre majesté paquante </hi> ; mais que,
-                    sous l'<hi rend="italic">incognito</hi>, il convenait de le titrer de <hi
-                        rend="italic"> monseigneur </hi> , ou au moins, de <hi rend="italic">
-                        monsieur le comte </hi> et <hi rend="italic"> d'altesse sérénissime</hi>.
+                    cacher sous un modeste
+     <hi rend="italic">
+      incognito
+     </hi>
+     . Il ne l'appella plus
+                    que
+     <hi rend="italic">
+      mon comte
+     </hi>
+     . Alors un des officiers paquans dit à
+                    l'officier du pays, que dans le Paquantois on donnait toujours le titre de
+     <hi rend="italic">
+      sire
+     </hi>
+     au roi Guiot, en s'adressant à lui , et dans le
+                    discours celui de
+     <hi rend="italic">
+      votre majesté paquante
+     </hi>
+     ; mais que,
+                    sous l'
+     <hi rend="italic">
+      incognito
+     </hi>
+     , il convenait de le titrer de
+     <hi rend="italic">
+      monseigneur
+     </hi>
+     , ou au moins, de
+     <hi rend="italic">
+      monsieur le comte
+     </hi>
+     et
+     <hi rend="italic">
+      d'altesse sérénissime
+     </hi>
+     .
                     -Palsambleu ! répartit l'officier, en éclatant de rire et s'excusant de cette
-                    liberté, vous me la donnez belle. Quoi ! j'appellerai <hi rend="italic"> votre
-                        altesse sérénissime </hi> un homme qui n'a que quatre pieds de taille, et
+                    liberté, vous me la donnez belle. Quoi ! j'appellerai
+     <hi rend="italic">
+      votre
+                        altesse sérénissime
+     </hi>
+     un homme qui n'a que quatre pieds de taille, et
                     qui a l'air sombre et refrogné d'un despote chassé de ses états? ( sans
-                    comparaison, toutefois, ajouta-t-il). Je traiterai de <hi rend="italic"> sire
-                    </hi> , de <hi rend="italic"> seigneur </hi> , de <hi rend="italic"> sieur </hi>
-                    , un visage imberbe de dix neuf à vingt ans, tel qu'est celui du roi Guiot ou du
+                    comparaison, toutefois, ajouta-t-il). Je traiterai de
+     <hi rend="italic">
+      sire
+     </hi>
+     , de
+     <hi rend="italic">
+      seigneur
+     </hi>
+     , de
+     <hi rend="italic">
+      sieur
+     </hi>
+     , un visage imberbe de dix neuf à vingt ans, tel qu'est celui du roi Guiot ou du
                     comte de la Guiotière? Eh! ventrebleu l vous vous gaussés de moi, mon cher
-                    officier paquant. </p>
-                <p> Sans le ton de plaisanterie qui assaisonnait cette répartie, on ne sait pas
+                    officier paquant.
+    </p>
+    <p>
+     Sans le ton de plaisanterie qui assaisonnait cette répartie, on ne sait pas
                     comment le roi l'aurait prise : au moins est-il certain , qu il fit semblant
                     d'en rire, et qu'il pria l'officier de commenter son discours. Celui-ci le
-                    satisfit de la manière suivante. </p>
-                <p> Les mots de <hi rend="italic"> sire </hi> , <hi rend="italic"> sieur </hi> , <hi
-                        rend="italic"> seigneur </hi> , usités chez les Paquans, celui de <hi
-                        rend="italic">sor</hi> chez les Albionnais, celui de <hi rend="italic">
-                        senor </hi> chez les Bétiquois, celui de <hi rend="italic"> signore</hi>
-                    chez les Ausoniens, viennent tous incontestablement du mot <hi rend="italic">
-                        senior</hi>, qui, dans la langue d'un petit peuple brigand, rassemblé depuis
-                    peu vers l'Ausonie signifie <hi rend="italic"> le plus vieux </hi>
-                    <ref target="#N7"/> . Le titre <hi rend="italic"> d'altesse sérénissime </hi>
-                    vous vient aussi des Ausoniens, peuple aujourd'hui lâche , bas et rampant, après
-                    être tombé du faite de la grandeur et de l'orgueil. <hi rend="italic"
-                        >Altesse</hi>, dans leur langue <hi rend="italic">altezza</hi>, veut dire
-                        <hi rend="italic">hauteur </hi> : d'un mot qui devrait être une injure , la
+                    satisfit de la manière suivante.
+    </p>
+    <p>
+     Les mots de
+     <hi rend="italic">
+      sire
+     </hi>
+     ,
+     <hi rend="italic">
+      sieur
+     </hi>
+     ,
+     <hi rend="italic">
+      seigneur
+     </hi>
+     , usités chez les Paquans, celui de
+     <hi rend="italic">
+      sor
+     </hi>
+     chez les Albionnais, celui de
+     <hi rend="italic">
+      senor
+     </hi>
+     chez les Bétiquois, celui de
+     <hi rend="italic">
+      signore
+     </hi>
+     chez les Ausoniens, viennent tous incontestablement du mot
+     <hi rend="italic">
+      senior
+     </hi>
+     , qui, dans la langue d'un petit peuple brigand, rassemblé depuis
+                    peu vers l'Ausonie signifie
+     <hi rend="italic">
+      le plus vieux
+     </hi>
+     <ref target="#N7"/>
+     . Le titre
+     <hi rend="italic">
+      d'altesse sérénissime
+     </hi>
+     vous vient aussi des Ausoniens, peuple aujourd'hui lâche , bas et rampant, après
+                    être tombé du faite de la grandeur et de l'orgueil.
+     <hi rend="italic">
+      Altesse
+     </hi>
+     , dans leur langue
+     <hi rend="italic">
+      altezza
+     </hi>
+     , veut dire
+     <hi rend="italic">
+      hauteur
+     </hi>
+     : d'un mot qui devrait être une injure , la
                     flaterie et la bassesse ont su faire un titre d honneur, que l'orgueil,
-                    presqu'aussi bas, a reçu avec avidité. <hi rend="italic"> Sérénissime </hi>
-                    désigne, selon la signification propre, un visage serein, sur lequel viennent se
+                    presqu'aussi bas, a reçu avec avidité.
+     <hi rend="italic">
+      Sérénissime
+     </hi>
+     désigne, selon la signification propre, un visage serein, sur lequel viennent se
                     peindre les qualités douces et bienfesantes d'une ame faite pour régner sur des
-                    êtres sensibles. <hi rend="italic">Majesté</hi> rappelle une idée de grandeur,
+                    êtres sensibles.
+     <hi rend="italic">
+      Majesté
+     </hi>
+     rappelle une idée de grandeur,
                     formée par tout ce qui peut ennoblir l'homme et l'élever au-dessus de ses
                     semblables ; mais par malheur, ce mot a toujours donné plutôt l'idée d'un
                     pouvoir sans bornes, et d'une autorité dont il est plus aisé d'abuser, que de se
                     servir pour le bonheur de i humanité. Nous connaissions ci-devant, comme vous,
                     ces titres donnés par la flaterie rampante à l'orgueil insolent : nous les avons
                     ensuite abjurés, en reprennant nos droits inprescreptibles d'hommes-citoyens.
-                    Nous appellons notre prince, <hi rend="italic"> mon roi; </hi> comme un soldat
-                    appelle son chef, <hi rend="italic"> mon capitaine</hi> ou <hi rend="italic">mon
-                        général </hi> ; persuadés qu il suffit à un roi de remplir dignement les
+                    Nous appellons notre prince,
+     <hi rend="italic">
+      mon roi;
+     </hi>
+     comme un soldat
+                    appelle son chef,
+     <hi rend="italic">
+      mon capitaine
+     </hi>
+     ou
+     <hi rend="italic">
+      mon
+                        général
+     </hi>
+     ; persuadés qu il suffit à un roi de remplir dignement les
                     obligations que ce titre lui impose, pour obtenir l'amour et le respect d un
                     peuple, aussi juste qu'éclairé, duquel il tient tout son pouvoir. Si, cependant,
-                    vous tenez trop à vos anciens titres, choisissez dans ceux de <hi rend="italic"
-                        >mon roi</hi>, de <hi rend="italic">mon comte</hi> et de <hi rend="italic"
-                        >mon vieux</hi>, celui qui ce vous flate le plus. Le roi Guiot répondit, en
-                    balbutiant , qu'il l'appelerait comme il voudrait, pourvu que ne fut pas <hi
-                        rend="italic"> mon vieux</hi>. L'officier souscrivit de tout son cour à
-                    cette condition : il continua sa promenade avec le roi et ses Paquans. </p>
-                <p> Un de ces derniers objecta au jeune officier, qu'il avait avancé mal-a-propos
+                    vous tenez trop à vos anciens titres, choisissez dans ceux de
+     <hi rend="italic">
+      mon roi
+     </hi>
+     , de
+     <hi rend="italic">
+      mon comte
+     </hi>
+     et de
+     <hi rend="italic">
+      mon vieux
+     </hi>
+     , celui qui ce vous flate le plus. Le roi Guiot répondit, en
+                    balbutiant , qu'il l'appelerait comme il voudrait, pourvu que ne fut pas
+     <hi rend="italic">
+      mon vieux
+     </hi>
+     . L'officier souscrivit de tout son cour à
+                    cette condition : il continua sa promenade avec le roi et ses Paquans.
+    </p>
+    <p>
+     Un de ces derniers objecta au jeune officier, qu'il avait avancé mal-a-propos
                     que le pouvoir des rois venait du peuple ; puisque tout pouvoir venait d'enhaut,
                     et que les rois étaient tels par la grace de Dieu. -Votre objection, répondit
                     l'officier, tient à de vieux principes qui veulent être un peu décrassés. Si je
@@ -1734,10 +2429,17 @@
                     haut plutôt qu'en bas, mais que vous conveniez qu'il réside dans l'universalité
                     des forces et des combinaisons qui constituent le grand tout Si cet ordre
                     essentiel, si cette universalité de autre chose que la divinité les attributs
-                    qui nous la rendent sensible , les rois, je le veux bien, sont <hi rend="italic"
-                        > rois par la grace de Dieu. </hi> Mais les peuples, dont l'existence est
-                    indépendante de celle des rois, sont donc aussi <hi rend="italic"> peuples par
-                        la grace divine</hi>? Car il serait absurde de dire que le pouvoir des rois
+                    qui nous la rendent sensible , les rois, je le veux bien, sont
+     <hi rend="italic">
+      rois par la grace de Dieu.
+     </hi>
+     Mais les peuples, dont l'existence est
+                    indépendante de celle des rois, sont donc aussi
+     <hi rend="italic">
+      peuples par
+                        la grace divine
+     </hi>
+     ? Car il serait absurde de dire que le pouvoir des rois
                     tient à l'ordre essentiel, et que ceux qui confèrent aux rois ce pouvoir, n'y
                     tiennent pas : d'autant plus que le pouvoir tenant à l'ordre essentiel, est
                     inhérant aux peuples et non aux rois, qui n'en sont que mandatai et qui ne
@@ -1746,8 +2448,10 @@
                     les peuples; lesquels, je le répète, peuvent exister sans rois, et, par
                     conséquent, tiennent d'eux mêmes à l'ordre essentiel des choses. Où est donc la
                     nécessité de donner aux mandataires une qualification, qui ne convient qu'à ceux
-                    dont ils tiennent leur mandat? </p>
-                <p> Les Paquans, un peu brouillés avec la métaphysique, comprirent, tant bien que
+                    dont ils tiennent leur mandat?
+    </p>
+    <p>
+     Les Paquans, un peu brouillés avec la métaphysique, comprirent, tant bien que
                     mal, une partie de ce raisonnement, que l'officier avait tâché de mettre à leur
                     portée. Ils finirent par objecter encore', qu'au moins le mandat tombait sur une
                     personne, plutôt que sur une autre, par la grace et la volonté de Dieu. Mes
@@ -1756,31 +2460,50 @@
                     l'heure de se rendre à la cazerne approchait : ce qui lui fit prendre congé de
                     la docte compagnie paquante, et laisser le roi Guiot retourner à son hôtel, en
                     rêvassant. Les Paquans de sa suite ne l'interrompirent pas dans ses rêveries :
-                    ce jour-là ils étaient presque tous aussi rêveurs que lui. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XVII. </head>
-                <p>
-                    <hi rend="italic"> Applaudissemens du peuple ; le roi Guiot se rend à la cour;
-                        il y dîne. </hi></p>
-                <p>LES Paquans de la suite du roi Guiot, à leur arrivée, avaient d'abord répandu le
+                    ce jour-là ils étaient presque tous aussi rêveurs que lui.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XVII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Applaudissemens du peuple ; le roi Guiot se rend à la cour;
+                        il y dîne.
+     </hi>
+    </p>
+    <p>
+     LES Paquans de la suite du roi Guiot, à leur arrivée, avaient d'abord répandu le
                     bruit, qu'il était venu un grand roi étranger, dont la naissance avait été
                     précédée d'un tremblement de terre d'une éclipse de soleil et d'une étoile à
-                    queue; raison pour laquelle il voyageait <hi rend="italic"> incognito </hi> ,
+                    queue; raison pour laquelle il voyageait
+     <hi rend="italic">
+      incognito
+     </hi>
+     ,
                     avec six cent paquans, afin de se faire admirer. Le peuple curieux par-tout,
                     ainsi que les savans et que ceux qui croyent l'être, s'était porté en foule vers
                     l'hôtel où logeait le grand roi. Au retour de la promenade, ce concours nombreux
                     n affecta pas désagréablement sa modestie. Il vit, au contraire, avec un certain
                     contentement que ce peuple savait apprécier le mérite. Il s'offrit
                     complaisamment à ses regards curieux ; ensorte que, l'enthousiasme gagnant les
-                    spectateurs, ils se mirent tous à crier, <hi rend="italic"> vive le grand roi
-                        des Paquans</hi>. Ce cri lui rappella l'oracle : il commençait d'y ajouter
-                    foi plus qu'il ne l'avait encore fait. </p>
-                <p> Dans ce moment il survint un homme, assez bizarrement habillé, qui, après s'être
+                    spectateurs, ils se mirent tous à crier,
+     <hi rend="italic">
+      vive le grand roi
+                        des Paquans
+     </hi>
+     . Ce cri lui rappella l'oracle : il commençait d'y ajouter
+                    foi plus qu'il ne l'avait encore fait.
+    </p>
+    <p>
+     Dans ce moment il survint un homme, assez bizarrement habillé, qui, après s'être
                     informé du sujet d'un si grand attroupement, s'approcha du modeste roi Guiot
                     avec une noble hardiesse, et lui tint avec beaucoup de liberté le discours
-                    suivant. </p>
-                <p> Roi des Paquans, je viens d'apprendre que vous voyagés sur la foi d'un oracle,
+                    suivant.
+    </p>
+    <p>
+     Roi des Paquans, je viens d'apprendre que vous voyagés sur la foi d'un oracle,
                     rendu ensuite d'un tremblement de terre, d'une éclipse de soleil et d'une
                     comète. Les voyages en pays étrangers conviennent aux princes avant qu'ils
                     montent sur le trône; après, ils ne doivent parcourir que les provinces de leurs
@@ -1798,8 +2521,10 @@
                     suite du roi, s'imaginant que cette dernière phrase les touchait, n'eussent pas
                     trouvé le moyen de l'éloigner. Ils assurèrent à leur maître, que cet homme avait
                     visiblement la tête fêlée : il les crut aisément, parce qu'il désirait que cela
-                    fût.</p>
-                <p>Le roi Guiot se fit conduire au palais du roi du pays, auprès de qui on
+                    fût.
+    </p>
+    <p>
+     Le roi Guiot se fit conduire au palais du roi du pays, auprès de qui on
                     l'introduisit d'abord sans obstacles, sans formalités. --Ah! lui dit le prince,
                     en allant à sa rencontre, vous me trouvez dans la fonction la plus douce et la
                     plus noble de notre état, celle de faire du bien. Il est vrai, poursuivit-il ,
@@ -1821,8 +2546,10 @@
                     prodiges qu'il était résolu d'oublier, en s'occupant des vrais moyens d'acquérir
                     une plus juste célébrité. Le courtisan paquant, effrayé de cette résolution,
                     dépêcha sur le champ un courier au premier ministre, afin de l'instruire du
-                    danger qu'il y avait à laisser voyager le roi plus longtemps. </p>
-                <p> Les deux rois s'entretinrent ensemble, avec cette familiarité décente qui
+                    danger qu'il y avait à laisser voyager le roi plus longtemps.
+    </p>
+    <p>
+     Les deux rois s'entretinrent ensemble, avec cette familiarité décente qui
                     convient à des hommes civilisés, dont la manière de penser est également noble.
                     Le roi Guiot prit plaisir à voir le respect joint à la franchise, dans tous ceux
                     qui approchaient le roi, son confrère. Il ne fut pas moins enchanté de la
@@ -1832,14 +2559,22 @@
                     couronne. La gaîté et l'union firent les fraix du repas. Le monarque voyageur
                     s'épuisait en comparaison à son désavantage, au sujet de cette façon de vivre
                     libre et enjouée, et de celle de sa cour dont la gène et l'étiquette avait banni
-                    jusqu'à l'ombre d'amusement. </p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE XVIII. </head>
-                <p>
-                    <hi rend="italic"> Entretien d'un mince officier paquant avec de pareils
-                        officiers du roi du pays </hi> . </p>
-                <p> TANDIS que le roi Guiot trouvait que, chez le roi, son hôte, tout était à ravir,
+                    jusqu'à l'ombre d'amusement.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XVIII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Entretien d'un mince officier paquant avec de pareils
+                        officiers du roi du pays
+     </hi>
+     .
+    </p>
+    <p>
+     TANDIS que le roi Guiot trouvait que, chez le roi, son hôte, tout était à ravir,
                     un des minces officiers de sa suite, lequel dînait à l'office avec les minces
                     officiers de la cour, ne cessait pas de mettre également en parallèle tous les
                     usages de cette cour, avec le cérémonial de celle du Paquantois : mais, suivant
@@ -1856,12 +2591,17 @@
                     foule d'autres officiers pourvoyent à toutes les nécessités du repas : il faut
                     que le grand médecin du corps goûte les mêts et la boisson ; et le roi ne peut
                     aucunement toucher à ce qu'il plaît au grand médecin de ne pas trouver de son
-                    goût : il faut, avant tout, que le grand aumônier dise le <hi rend="italic">
-                        benedicite</hi>, et qu'il récite les graces après que sa majesté a dîné.
+                    goût : il faut, avant tout, que le grand aumônier dise le
+     <hi rend="italic">
+      benedicite
+     </hi>
+     , et qu'il récite les graces après que sa majesté a dîné.
                     Remarquez bien, ajouta-t-il, qu'aux jours de fêtes et de gala , tous ces grands
                     officiers servent sa majesté à cheval, armés de pied en cap, comme Bellérophon,
-                    quand il coin. battit la chimère sur un cheval ailé, </p>
-                <p> Après avoir mangé honnêtement et copieusement bu, le mince officier paquant et
+                    quand il coin. battit la chimère sur un cheval ailé,
+    </p>
+    <p>
+     Après avoir mangé honnêtement et copieusement bu, le mince officier paquant et
                     ses commensaux se levèrent de table et allèrent faire un tour de jardin, afin de
                     faciliter la digestion. Ils rencontrèrent plusieurs personnes, qui leur
                     demandèrent si le roi donnerait bientôt audience, ajoutant qu'elles avaient à
@@ -1879,7 +2619,11 @@
                     celui du second commis au valet de chambre du premier commis, celui du premier
                     commis au valet de chambre du ministre subalterne, et le valet de chambre de
                     ministre subalterne à celui du premier ministre ; que le valet de chambre du
-                    premier ministre se chargeait d en parler à <hi rend="italic"> monseigneur</hi>;
+                    premier ministre se chargeait d en parler à
+     <hi rend="italic">
+      monseigneur
+     </hi>
+     ;
                     qu'alors on s'en retournait fort content, les poches vuides, et regardant
                     l'affaire comme faite; que, de retour chez soi , l'on disait beaucoup de bien du
                     premier ministre, des ministres subalternes, de leurs commis et du roi, que l'on
@@ -1888,8 +2632,10 @@
                     de style en partage, ajouta, pour affirmer la vérité de son écrit, qu'il avait
                     passé lui-même par tous ces dégrés de jurisdiction gracieuse, avant d'avoir
                     l'honneur d'être mince officier de sa majesté paquante , et qu'il savait
-                    d'expérience le plaisir que cela fesait aux solliciteurs. </p>
-                <p> Ses compagnons de promenade lui dirent que, chez leur roi, on était admis à
+                    d'expérience le plaisir que cela fesait aux solliciteurs.
+    </p>
+    <p>
+     Ses compagnons de promenade lui dirent que, chez leur roi, on était admis à
                     l'audience sans tant de détours, tous les jours, et à toute heure honnête , à
                     moins que des raisons de santé ne forçassent le roi d'en user autrement, à son
                     grand regret. --Tout ce que vous me dites là est excellent pour un roi
@@ -1899,8 +2645,10 @@
                     pas également le grand tremblement de terre, l'éclipse de soleil et l'étoile à
                     queue. Ses auditeurs trouvaient ces choses bien grandes, bien belles, bien
                     merveilleuses ; mais ils n'en étaient pas moins contens de leur roi qui les
-                    rendait heureux, sans avoir été annoncé avec tant de fracas. </p>
-                <p> En s'entretenant de choses et d'autres, la conversation tomba sur le nombre de
+                    rendait heureux, sans avoir été annoncé avec tant de fracas.
+    </p>
+    <p>
+     En s'entretenant de choses et d'autres, la conversation tomba sur le nombre de
                     personnes employées au service particulier des deux rois. Il se trouva que celui
                     du pays n'avait pour son service et celui de sa maison que douze cent personnes,
                     y compris ses gardes du corps. Le mince officier paquant se mit à faire
@@ -1919,7 +2667,11 @@
                     les dilapidations de la cour, des ministres et de ceux qui les approchaient,
                     avaient réduit les finances à un état de délabrement presque incurable. Mais
                     pour couvrir le vuide effroyable qui se trouvait dans les coffres de la nation,
-                    que l'on nommait toujours <hi rend="italic"> coffres du roi </hi> , un agioteur
+                    que l'on nommait toujours
+     <hi rend="italic">
+      coffres du roi
+     </hi>
+     , un agioteur
                     intrigant avait proposé des emprunts, qui ajoutaient de nouvelles dettes aux
                     anciennes. Néanmoins, comme les Paquans étaient faciles à duper, ils avaient
                     élevé au ciel l'intrigant agioteur, que plus tard ils précipitèrent aux enfers.
@@ -1927,8 +2679,10 @@
                     fiscales', financières et mercantiles, ne suffisent pas, le roi fait assembler
                     les grands et notables de son royaume : il leur dit qu'il lui faut de l'argent;
                     et cinquante mille lances , qui entourent les notables, leur en font trouver
-                    autant qu'il plaît au roi. </p>
-                <p> Les détails, dans lesquels le mince officier paquant était entré, un peu à
+                    autant qu'il plaît au roi.
+    </p>
+    <p>
+     Les détails, dans lesquels le mince officier paquant était entré, un peu à
                     contre-cour, le firent parler avec humeur : il poussa la chose, jusqu'à dire,
                     que le roi, qui l'hébergeait, n'était qu'un roitelet vis-à-vis du roi Guiot. Le
                     propos choqua ses compagnons de promenade : ils envoyèrent chercher une
@@ -1937,18 +2691,29 @@
                     ensuite dans son lit, ou le roi Guiot, instruit de l'aventure lui envoya son
                     congé : ensorte que le battu aurait payé l'amende, si le lendemain matin le
                     monarque paquant ne l'eût reçu en grace, à la demande du roi son hôte. Car ce
-                    dernier avait eu l'honnêteté de retirer chez lui le voyageur <hi rend="italic">
-                        incognito </hi> avec toute sa suite. Au reste, la petite leçon donnée au
+                    dernier avait eu l'honnêteté de retirer chez lui le voyageur
+     <hi rend="italic">
+      incognito
+     </hi>
+     avec toute sa suite. Au reste, la petite leçon donnée au
                     mince officier paquant, ne fit pas de mal à ses confrères , les grands et les
                     minces officies, qui apprirent à faire moins consister la grandeur du prince
-                    dans un faste onéreux à la nation.</p>
-            </div>
-            <div type="chapter">
-                <head> CHAPITRE DERNIER </head>
-                <p>
-                    <hi rend="italic"> Promenade; soulèvement dans le Paquantois ; retour du roi
-                        Guiot ; sa mort </hi> .</p>
-                <p>Les jours suivans le roi du pays conduisit le roi Guiot aux spectacles, aux
+                    dans un faste onéreux à la nation.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE DERNIER
+    </head>
+    <p>
+     <hi rend="italic">
+      Promenade; soulèvement dans le Paquantois ; retour du roi
+                        Guiot ; sa mort
+     </hi>
+     .
+    </p>
+    <p>
+     Les jours suivans le roi du pays conduisit le roi Guiot aux spectacles, aux
                     divertissemens publics, à la chasse. Il lui fit voir tout ce qui pouvait
                     intéresser la curiosité d'un voyageur éclairé qui désire encore de s'instruire.
                     Ils visitèrent ensemble les hôpitaux, les écoles publiques, les manufactures et
@@ -1958,15 +2723,19 @@
                     parent, avait écartés avec tant de sagesse. --Si vous avez déja fait par ce
                     moyen de si belles choses, disait-il au roi, son confrère; que ne devez vous pas
                     attendre de la suite, quand cette foule de célibataires sera rentrée n'est pas
-                    sons les loix de la nature, pour remplir les devoirs de la société ? </p>
-                <p> Les Paquans de sa suite ne formaient pas de spéculations si élevées : ils se
+                    sons les loix de la nature, pour remplir les devoirs de la société ?
+    </p>
+    <p>
+     Les Paquans de sa suite ne formaient pas de spéculations si élevées : ils se
                     contentaient de jouir des plaisirs qu'un peuple libre et enjoué avait multipliés
                     ingénieusement. Aucun regret ne les rappellait vers leur patrie : le mince
                     officier berné commençait à croire qu'on pouvait être heureux ailleurs qu'à la
                     cour du Paquantois. Mais, hélas ! il de félicité durable sur la terre.
                     L'instant, où l'homme pense toucher au bonheur, est souvent celui qui va le
-                    plonger dans un malheur sans remède. </p>
-                <p> Le roi Guiot et ses Paquans s'applaudissaient d'avoir lié connaissance avec un
+                    plonger dans un malheur sans remède.
+    </p>
+    <p>
+     Le roi Guiot et ses Paquans s'applaudissaient d'avoir lié connaissance avec un
                     peuple voisin , si aimable et si éclairé, lorsqu'un courier paquant, expédié par
                     l'ancien régent, vint annoncer en hâte que la plus riche province du Paquantois
                     était prête à se détacher de cette belle couronne. Cette province, éloignée de
@@ -1978,8 +2747,10 @@
                     qu'il refuse de s'en rappeller, le peuple est en droit de refuser une
                     obéissance, qu'il ne doit qu'à la justice des loix. Toutes les fois qu'un peuple
                     se révolte, dites que son gouvernement était mauvais, et vous ne vous tromperez
-                    guères.</p>
-                <p>L'ancien régent, expatrié par la politique déguisée sous le fanatisme, à la
+                    guères.
+    </p>
+    <p>
+     L'ancien régent, expatrié par la politique déguisée sous le fanatisme, à la
                     nouvelle du soulèvement de cette province, se hâta d'y accourir. Tout le royaume
                     l'adorait. Les insurgens reçurent avec toutes les protestations de lui obéir,
                     s'il voulait leur donner des loix. Comme la franchise était le fond de son
@@ -1992,8 +2763,10 @@
                     par ses voyages hors de propos. Le proverbe dit que les absens ont tort;
                     conséquemment les insurgens avaient raison. Mais leur cause ne fût pas, comme
                     celle d'un certain peuple ; laquelle , à force d'être bonne, finit par ne rien
-                    valoir. </p>
-                <p> La nouvelle de cette insurrection fâcha le roi Guiot, mais l'étonna peu. Depuis
+                    valoir.
+    </p>
+    <p>
+     La nouvelle de cette insurrection fâcha le roi Guiot, mais l'étonna peu. Depuis
                     ses voyages, il avait fait des réflexions sur le caractère ambitieux de son
                     premier ministre : il se promettait de faire un choix plus sage à son retour en
                     attendant il lui fit passer des ordres relatifs aux circonstances, et en suivit
@@ -2011,8 +2784,10 @@
                     monarque était sans remède. Le coup avait porté contre ses organes avec trop de
                     violence. Il n'eut la force que de se faire transporter, au milieu de mille
                     dangers, jusqu'à sa capitale, où il mourut fort regretté, à cause des heureuses
-                    dispositions qu'il manifestait à son retour. </p>
-                <p> Après sa mort, tous ceux qui tenaient le parti du premier ministre, embrasèrent
+                    dispositions qu'il manifestait à son retour.
+    </p>
+    <p>
+     Après sa mort, tous ceux qui tenaient le parti du premier ministre, embrasèrent
                     les genoux de l'ancien régent, légitime successeur du roi Guiot au trône des
                     Paquans. Le premier ministre, ne se voyant plus soutenu que par quelques
                     messeigneurs, par des révérendissimes et des révérends pères en Dieu, jugea
@@ -2021,23 +2796,37 @@
                     souhaitait de voir une fin à la tyrannie des ministres, des messeigneurs, des
                     révérendissimes et des révérends pères en Dieu. Ce que le nouveau roi effectua
                     par dégrés, après avoir fait déposer le corps embaumé de son prédécesseur dans
-                    l'antique pyramide, construite sous le roi Tocson, </p>
-                <p> Ainsi se passa le règne du fameux roi Guiot ; ainsi se passent de plus longs
+                    l'antique pyramide, construite sous le roi Tocson,
+    </p>
+    <p>
+     Ainsi se passa le règne du fameux roi Guiot ; ainsi se passent de plus longs
                     règnes que le sien. Les ministres font beaucoup de mal, de bien, et les rois
                     point du tout. Les révérends soutinrent que c'était là ce qu'avait prédit
                     l'oracle : mais, comme le crédit des révérends est en raison inverse du progrès
                     des lumières, il ne fut de longue durée chez les Pasquans, qui, sous un prince
-                    philosophe, devinrent en peu de temps un des peuples les plus éclairés. </p>
-                <trailer>
-                    <hi> Fin de l'historie du roi Guiot. </hi>
-                </trailer>
-            </div>
-            <div type="chapter">
-                <head> BAGATELLE <ref target="N8">(*)</ref>, </head>
-                <p>
-                    <hi rend="italic"> Ou le plus joli petit conte du monde. </hi>
-                </p>
-                <p> FEU mon mari était le plus joli homme du monde, me disait souvent une femme qui,
+                    philosophe, devinrent en peu de temps un des peuples les plus éclairés.
+    </p>
+    <trailer>
+     <hi>
+      Fin de l'historie du roi Guiot.
+     </hi>
+    </trailer>
+   </div>
+   <div type="chapter">
+    <head>
+     BAGATELLE
+     <ref target="N8">
+      (*)
+     </ref>
+     ,
+    </head>
+    <p>
+     <hi rend="italic">
+      Ou le plus joli petit conte du monde.
+     </hi>
+    </p>
+    <p>
+     FEU mon mari était le plus joli homme du monde, me disait souvent une femme qui,
                     dans son temps, n'avait pas été mal. Ce n'était pourtant pas là le motif des
                     fréquentes visites que je lui rendais : mais cette femme avait une fille, qui
                     pouvait paraître la plus jolie du monde, à des yeux amoureux. Je l'appellerai
@@ -2056,8 +2845,10 @@
                     tellement qu'à force de soins et de jolies choses, je devins pour elle un être
                     assez plaisant. Enfin, nous terminâmes par être très-bien ensemble. Être bien
                     avec une jolie fille, je sais que c'est beaucoup dire; mais on va juger, si je
-                    dis quelque chose </p>
-                <p> Après un beau jour d'été, nous jouissions de la plus belle soirée. Un grand
+                    dis quelque chose
+    </p>
+    <p>
+     Après un beau jour d'été, nous jouissions de la plus belle soirée. Un grand
                     clair de lune, une fraîcheur bienfesante invitaient à se promener. Je me rendis
                     à leur invitation, et j'allai chez Bagatelle, pour l'engager à en faire autant.
                     La maman, qui prenait l'air à la porte, me dit que sa fille était au jardin. J'y
@@ -2104,8 +2895,10 @@
                     fidélité, d'après ce qui venait de se passer ? D'ailleurs, Bagatelle était nue ;
                     je la pris pour la vérité. A son réveil, elle n'avait trouvé dans la plus jolie
                     disposition du monde. Son âge et le mien pouvaient nous laisser croire que cette
-                    heureuse disposition ne changerait jamais. </p>
-                <p> Bagatelle alors m'expliqua pourquoi je l'avais surprise dans un négligé si feste
+                    heureuse disposition ne changerait jamais.
+    </p>
+    <p>
+     Bagatelle alors m'expliqua pourquoi je l'avais surprise dans un négligé si feste
                     et si propice à mes vœux. A dix pas de-là, sous des ormes dont les rameaux se
                     recourbaient en berceaux touffus, coulait une eau fraiche et limpide, qui
                     l'avait invitée à s'y délasser des fatigues d'un jour trop brûlant. Après le
@@ -2135,8 +2928,10 @@
                     avec celui de son amant. Je ne sais quel mouvements voluptueux, quelle attitude
                     lascive acheva de me remettre dans la position où Bagatelle m'avait surpris à
                     son réveil. Je crois, au reste, m'en être tiré de la manière la plus jolie du
-                    monde; c'est-à dire, en m'acquittant de tout ce qu'on peut exiger en tel cas. </p>
-                <p> La mère qui commençait de trouver le temps long, appella sa fille. Bagatelle se
+                    monde; c'est-à dire, en m'acquittant de tout ce qu'on peut exiger en tel cas.
+    </p>
+    <p>
+     La mère qui commençait de trouver le temps long, appella sa fille. Bagatelle se
                     r'habilla à la hâte : elle rentra même, un pied chaussé l'autre nud, et dans un
                     désordre vraiment intéressant. Je quittai la mère et la fille; et je fus trois
                     jours sans les revoir. Au bout de ces trois jours, j'allai leur faire visite.
@@ -2151,19 +2946,34 @@
                     apperçu: je sors de la maison : je suis encore à y rentrer. Cela m'est arrivé,
                     il y a dix ans. Il est vrai que des circonstances, quelques jours après, m'ont
                     éloigné du lieu qu'habite la friponne la plus jolie du monde, et que je n'y suis
-                    pas retourné depuis. </p>
-                <trailer> FIN, </trailer>
-            </div>
-        </body>
-        <back>
-            <div type="notes">
-                <head> Notes </head>
-                <note xml:id="N1"> L'abbé Guérin du Rocher prétend que l'Atlantide de Platon est la
-                    Judée; mais il ne nous a encore donné aucune preuve de son assertion, (Voyez <hi
-                        rend="italic"> l'histoire véritable des temps fabuleux </hi> ). </note>
-                <note xml:id="N2"> Si pourtant le public se sent quelque velléité d'en être
-                    instruit, il saura qu'un certain peuple, maintenant <hi rend="italic"> famâ
-                        super æthera notus</hi> , s'étant imaginé de marcher à pas de géant dans la
+                    pas retourné depuis.
+    </p>
+    <trailer>
+     FIN,
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <head>
+     Notes
+    </head>
+    <note xml:id="N1">
+     L'abbé Guérin du Rocher prétend que l'Atlantide de Platon est la
+                    Judée; mais il ne nous a encore donné aucune preuve de son assertion, (Voyez
+     <hi rend="italic">
+      l'histoire véritable des temps fabuleux
+     </hi>
+     ).
+    </note>
+    <note xml:id="N2">
+     Si pourtant le public se sent quelque velléité d'en être
+                    instruit, il saura qu'un certain peuple, maintenant
+     <hi rend="italic">
+      famâ
+                        super æthera notus
+     </hi>
+     , s'étant imaginé de marcher à pas de géant dans la
                     carrière de la plus belle indépendance, ne crut pas pouvoir donner une preuve
                     plus claire de sa liberté, qu'en me privant de la mienne. Entre mes quatre
                     murailles, libre de faire mes réflexions sur les vanités de ce monde, je
@@ -2175,26 +2985,47 @@
                     pièces le pauvre roi des Paquans, qui attendait qu'une main officieuse le fit,
                     sans doute, servir à un usage qui, pour avoir été introduit par la propreté,
                     n'en est ni plus propre, ni plus décent. Je rassemblai les lambeaux épars; et
-                    les voilà. </note>
-                <note xml:id="N3"> Les Caldéens comptaient plus de 470,000 ans avant notre ère. Il
+                    les voilà.
+    </note>
+    <note xml:id="N3">
+     Les Caldéens comptaient plus de 470,000 ans avant notre ère. Il
                     parais que les Paquans, dont il s'agit ici, remontaient à une dixaine de mille
-                    ans moins haut. Bagatelle en comparaison de l'éternité. </note>
-                <note xml:id="N4"> C'est à peu-près comme cet officier français , qui voyageait <hi
-                        rend="italic"> currente calemo, </hi>
-                </note>
-                <note xml:id="N5"> Le bon Henri IV l'a vu, si l'on en croit ces deux vers de
+                    ans moins haut. Bagatelle en comparaison de l'éternité.
+    </note>
+    <note xml:id="N4">
+     C'est à peu-près comme cet officier français , qui voyageait
+     <hi rend="italic">
+      currente calemo,
+     </hi>
+    </note>
+    <note xml:id="N5">
+     Le bon Henri IV l'a vu, si l'on en croit ces deux vers de
                     Voltaire, Sur un autel de fer un livre inextricable Contient de l'avenir
-                    l'histoire irrévocable, <hi rend="italic"> Henriade , ch, VII. </hi></note>
-                <note xml:id="N6"> Nos astronomes s'accordent encore Si cela , avec ceux du
-                    Paquantois. </note>
-                <note xml:id="N7"> On peut conjecturer de-là que le roi Guiot était-contemporain de
-                    Romulus ou de Numa. </note>
-                <note xml:id="N8"><p>
-                        <hi rend="italic"> Note en guise de préface. </hi> (*) L'imprimeur manquant
+                    l'histoire irrévocable,
+     <hi rend="italic">
+      Henriade , ch, VII.
+     </hi>
+    </note>
+    <note xml:id="N6">
+     Nos astronomes s'accordent encore Si cela , avec ceux du
+                    Paquantois.
+    </note>
+    <note xml:id="N7">
+     On peut conjecturer de-là que le roi Guiot était-contemporain de
+                    Romulus ou de Numa.
+    </note>
+    <note xml:id="N8">
+     <p>
+      <hi rend="italic">
+       Note en guise de préface.
+      </hi>
+      (*) L'imprimeur manquant
                         de huit pages pour finir la feuille, j'ai cru que je pouvais suppléer à ce
                         défaut, par l'insertion du récit de cette petite aventure, qui jadis m'est
-                        arrivée, ou peu s'en faut. </p></note>
-            </div>
-        </back>
-    </text>
+                        arrivée, ou peu s'en faut.
+     </p>
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

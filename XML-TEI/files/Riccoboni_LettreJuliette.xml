@@ -2,78 +2,125 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Riccoboni_LettreJuliette" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:59.22"> Lettre de Milady Juliette Catesby à Milady Henriette
-                    Campley: MiMoText edition </title>
-                <author ref="viaf:41845684 wikidata:Q3087936"> Marie Jeanne
-                    Riccoboni(1713-1792)</author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 33163 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Lettre de Milady Juliette Catesby à Milady Henriette Campley</title>
-                    <author>Marie-Jeanne Riccoboni</author>
-                    <date> 1759 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1759 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> epistolary </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-18"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="letter">
-                <head> LETTRE 1 </head>
-                <p>
-                    <hi rend="italic"> mardi, de Summerhill. </hi> c'est au grand trot de six forts
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:59.22">
+     Lettre de Milady Juliette Catesby à Milady Henriette
+                    Campley: MiMoText edition
+    </title>
+    <author ref="viaf:41845684 wikidata:Q3087936">
+     Marie Jeanne
+                    Riccoboni(1713-1792)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     33163
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Lettre de Milady Juliette Catesby à Milady Henriette Campley
+     </title>
+     <author>
+      Marie-Jeanne Riccoboni
+     </author>
+     <date>
+      1759
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1759
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      epistolary
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-18">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="letter">
+    <head>
+     LETTRE 1
+    </head>
+    <p>
+     <hi rend="italic">
+      mardi, de Summerhill.
+     </hi>
+     c'est au grand trot de six forts
                     chevaux, avec des relais bien disposés, l'air de l'empressement, que je vais
                     très-vîte, accompagnée de gens dont je me soucie peu, chez d'autres dont je ne
                     me soucie point du tout.J' abandonne mes amis les plus chers; je vous quitte,
@@ -98,19 +145,44 @@
                     trouve, mais c'est dans ma fierté seulement. Ma chere, j'éprouve que le coeur ne
                     goute pas ces foibles adoucissements dont l'amour-propre se fait des
                     consolations. Enfin, je suis partie; me voilà à cinquante milles de Londres, et
-                    je ne suis point <hi rend="italic"> morte </hi> ; assurez-en Milord Carlile.
-                    Malgré ses prédictions, je ne me suis point <hi rend="italic"> évanouie </hi> au
-                        <hi rend="italic"> pied </hi> du <hi rend="italic"> premier hêtre; les
-                        graces désolées </hi> ne m'ont point élevé ce <hi rend="italic"> joli
-                        tombeau </hi> dans lequel il me voyoit déja. Dites-lui que je ne me repens
+                    je ne suis point
+     <hi rend="italic">
+      morte
+     </hi>
+     ; assurez-en Milord Carlile.
+                    Malgré ses prédictions, je ne me suis point
+     <hi rend="italic">
+      évanouie
+     </hi>
+     au
+     <hi rend="italic">
+      pied
+     </hi>
+     du
+     <hi rend="italic">
+      premier hêtre; les
+                        graces désolées
+     </hi>
+     ne m'ont point élevé ce
+     <hi rend="italic">
+      joli
+                        tombeau
+     </hi>
+     dans lequel il me voyoit déja. Dites-lui que je ne me repens
                     point. Je puis faire violence à mes sentiments; je puis souffrir, mais je ne
                     saurois me repentir. Adieu, mon aimable Henriette; quand vous lui aurez dit tout
-                    cela, dites-vous à vous-même, que personne ne vous aime autant que moi. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 2 </head>
-                <p>
-                    <hi rend="italic"> mercredi, de chez Sir John Warthy. </hi> nous allons partir
+                    cela, dites-vous à vous-même, que personne ne vous aime autant que moi.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 2
+    </head>
+    <p>
+     <hi rend="italic">
+      mercredi, de chez Sir John Warthy.
+     </hi>
+     nous allons partir
                     d'un très-vilain château, dont le seigneur plus vilain encore, est un de ces
                     incommodes personnages qu'il est si fâcheux de rencontrer, et dont l'espéce
                     n'est que trop commune; de ces gens qui font tout mal-à-propos, fatiguent par
@@ -141,12 +213,18 @@
                     parler, de lui marquer le dédain le plus offensant... oh! Non, je ne veux jamais
                     lui parler, je ne veux jamais le voir... voilà Sir Henry, il me presse, il ne
                     sauroit attendre; c'est encore un de ses défauts; pas la moindre patience...
-                    adieu, aimez-moi, aimez-moi comme je vous aime. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 3 </head>
-                <p>
-                    <hi rend="italic"> jeudi, de chez Milord D'Erby. </hi> je vous écris du lieu le
+                    adieu, aimez-moi, aimez-moi comme je vous aime.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 3
+    </head>
+    <p>
+     <hi rend="italic">
+      jeudi, de chez Milord D'Erby.
+     </hi>
+     je vous écris du lieu le
                     plus agréable qui soit peut-être dans la nature: de ma fenêtre je découvre des
                     bois, des eaux, des prés, un paysage admirable. Tout peint ici le calme et la
                     tranquillité; ce séjour si riant, est l'image de la paix douce dont jouit l'ame
@@ -163,13 +241,42 @@
                     toutes les vertus de Milord D'Erby, pour s'occuper avec plaisir de l'examen de
                     son coeur. Je viens de découvrir que Sir Henry est aussi curieux qu'attentif; il
                     a retardé d'une heure le départ de nos femmes, pour faire mille questions à
-                    Betty. Il a remarqué <hi rend="italic"> de longs soupirs </hi> qui <hi
-                        rend="italic"> m'échappent </hi> ; il se <hi rend="italic"> doute </hi>
-                    qu'il y a <hi rend="italic"> un secret à une de mes boëtes </hi> ; il a offert
-                    dix guinées pour s'en assurer. Il est <hi rend="italic"> fort étonné </hi> que
-                    je <hi rend="italic"> vous écrive tous les jours </hi> ; il ne <hi rend="italic"
-                        > conçoit pas </hi> le sujet d'un <hi rend="italic"> commerce si régulier;
-                        est-ce bien à vous que j'écris </hi> ? Comment trouvez-vous ces
+                    Betty. Il a remarqué
+     <hi rend="italic">
+      de longs soupirs
+     </hi>
+     qui
+     <hi rend="italic">
+      m'échappent
+     </hi>
+     ; il se
+     <hi rend="italic">
+      doute
+     </hi>
+     qu'il y a
+     <hi rend="italic">
+      un secret à une de mes boëtes
+     </hi>
+     ; il a offert
+                    dix guinées pour s'en assurer. Il est
+     <hi rend="italic">
+      fort étonné
+     </hi>
+     que
+                    je
+     <hi rend="italic">
+      vous écrive tous les jours
+     </hi>
+     ; il ne
+     <hi rend="italic">
+      conçoit pas
+     </hi>
+     le sujet d'un
+     <hi rend="italic">
+      commerce si régulier;
+                        est-ce bien à vous que j'écris
+     </hi>
+     ? Comment trouvez-vous ces
                     impertinentes enquêtes? Elles me coutent douze guinées; j'ai cru devoir payer la
                     fidélité de Betty,de peur que la réflexion ne l'en dégoutât. Cet homme est
                     inquiet; on ne sait ce qu'il a... il m'ennuie, il me déplaît... je crois, en
@@ -178,13 +285,19 @@
                     parle de lui. C'est ma lettre qui lui donne cette humeur... je vous promets, Sir
                     Henry, que j'écrirai tous les jours; vous aurez la bonté de vous y accoutumer...
                     mais sa soeur vient... je vous quitte, ma chere amie, adieu: dites à Milord
-                    Carlile que je ne l'oublie point. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 4 </head>
-                <p>
-                    <hi rend="italic"> vendredi, de chez votre très-humble adorateur, Sir George
-                        Howard. </hi> je vous félicite, mon aimable Henriette, d'avoir été assez
+                    Carlile que je ne l'oublie point.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 4
+    </head>
+    <p>
+     <hi rend="italic">
+      vendredi, de chez votre très-humble adorateur, Sir George
+                        Howard.
+     </hi>
+     je vous félicite, mon aimable Henriette, d'avoir été assez
                     obstinée pour n'être point devenue la maîtresse de cette sauvage habitation.
                     Miss Bidul, qui, à votre refus, s'est accommodée du coeur, de la main et de
                     toute l'immense personne de Sir George notre hôte, est bien plus propre que vous
@@ -195,7 +308,11 @@
                     consulte son chapelain, défend l'amour dans toute l'étendue de son domaine,
                     marie ses vassaux, traite sérieusement les moindres détails, et se fait une
                     grande affaire de la plus petite chose. Eh bien! Voilà pourtant à peu près la
-                    femme forte, la femme <hi rend="italic"> qui rira au dernier jour </hi> . Si
+                    femme forte, la femme
+     <hi rend="italic">
+      qui rira au dernier jour
+     </hi>
+     . Si
                     elle rit, ma chere, nous pourrions bien pleurer, nous qui lui ressemblons si
                     peu. Il seroit singulier que cette ménagére eût plus de mérite que nous; il est
                     au moins bien sûr qu'elle a plus de bonheur. Sa vie est simple, uniforme; mais
@@ -204,8 +321,11 @@
                     ouverte à l'impression du plaisir... quel plaisir, me direz-vous? Eh, ma chere
                     Henriette, il en est de tant de sortes! Une longue étude de nous-mêmes, notre
                     raison, nos connoissances nous rendent-elles plusheureuses? Je ne sais quelle
-                    idée les autres peuvent avoir de cette lumiére qu'on nomme <hi rend="italic">
-                        esprit </hi> ; elle se peint à mon imagination comme un flambeau ardent,
+                    idée les autres peuvent avoir de cette lumiére qu'on nomme
+     <hi rend="italic">
+      esprit
+     </hi>
+     ; elle se peint à mon imagination comme un flambeau ardent,
                     qu'un coup de vent vient de souffler: il luit un peu dans l'ombre, et ne la
                     dissipe qu'à demi: sa foible clarté suffit pour montrer qu'on marche sur le bord
                     d'un précipice; mais non pas pour faire appercevoir l'endroit glissant où le
@@ -219,12 +339,18 @@
                     raccommoder; cela devroit bien vous engager à vous brouiller moins souvent.
                     Lorsqu'il vous fâche un peu, songez qu'il est mon parent et mon ami. Il a bien
                     des qualités estimables; il est digne de votre coeur... si pourtant il est un
-                    homme au monde digne de la tendresse d'une femme qui pense bien. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 5 </head>
-                <p>
-                    <hi rend="italic"> samedi, du château d'Hastingh. </hi> voici, ma chere
+                    homme au monde digne de la tendresse d'une femme qui pense bien.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 5
+    </head>
+    <p>
+     <hi rend="italic">
+      samedi, du château d'Hastingh.
+     </hi>
+     voici, ma chere
                     Henriette, une maison délicieuse; la gayeté y préside depuis deux mois: elle
                     appartient à une veuve qui n'a pas tout-à-fait vingt ans. Enchantée de son
                     nouvel état, elle vient ici passer l'année de son deuil, seulement pour méditer
@@ -232,8 +358,12 @@
                     remplacer un vieux mari, qu'elle haïssoit de tout son coeur. Elle a le plus joli
                     petit visage qu'il soit possible de voir; une taille fine, bien prise, l'air
                     mutin, une bonne-foi charmante; elle conte ses chagrins en étouffant de rire. Le
-                    vieux lord <hi rend="italic"> étoit jaloux, et elle l'attrapoit; elle
-                        l'attrapoit... </hi> cette agréable et folle créature a justement la portion
+                    vieux lord
+     <hi rend="italic">
+      étoit jaloux, et elle l'attrapoit; elle
+                        l'attrapoit...
+     </hi>
+     cette agréable et folle créature a justement la portion
                     d'esprit qui lui est nécessaire pour s'amuser et pour plaire. Miss Annabella, sa
                     soeur, est tout-à-fait différente de cette aînée; elle n'est jamaissortie de ce
                     magnifique château, où elle vivoit seule avec son pere. Sa figure est noble,
@@ -243,8 +373,12 @@
                     dont il est si difficile de se garantir dans nos cercles, au milieu de ceux qui
                     ont trouvé l'art méprisable de se pardonner mutuellement une partie des défauts
                     du coeur. Je suis toujours révoltée, lorsque j'entends honorer cette criminelle
-                    indulgence <hi rend="italic"> de douceur de caractère, de liant dans l'esprit,
-                        et de condescendance indispensable </hi> dans la société. Oh! Ce Sir Henry,
+                    indulgence
+     <hi rend="italic">
+      de douceur de caractère, de liant dans l'esprit,
+                        et de condescendance indispensable
+     </hi>
+     dans la société. Oh! Ce Sir Henry,
                     il est insupportable; tout lui déplaît, le fâche ou le chagrine; je le croyois
                     de l'humeur la plus égale. Il faut être bien aimable, pour le paroître à ceux
                     qui nous voient tous les jours. Il m'impatiente: quelque mal que je reçoive ses
@@ -255,12 +389,18 @@
                     pour la tête. Moi qui vois son insolente jalousie, je garde le bouquet; je le
                     garderai, dût-il me donner la migraine. J'arriverai demain à Vinchester; j'y
                     trouverai de vos lettres; c'est le seul plaisir que je m'y promets. Adieu; mes
-                    plus tendres compliments à Milord Carlile. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 6 </head>
-                <p>
-                    <hi rend="italic"> dimanche, à Vinchester. </hi> j'ai reçu vos lettres en
+                    plus tendres compliments à Milord Carlile.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 6
+    </head>
+    <p>
+     <hi rend="italic">
+      dimanche, à Vinchester.
+     </hi>
+     j'ai reçu vos lettres en
                     arrivant ici; vous ne doutez pas, ma chere Henriette, du plaisir véritable que
                     j'ai senti à les lire. Votre amitié me touche dans tous les instants de ma vie;
                     elle a suffi long-tems à mon coeur: que j'étois heureuse alors! Si des
@@ -272,8 +412,15 @@
                     perdroit bien du prix que nous y mettons toutes deux. Qu'est-ce donc que je
                     sacrifie? Quel est le bien dont je me prive? La douceur d'être trompée encore
                     peut-être! Mais pourrois-je m'y abandonner, quand j'ai perdu celle de me tromper
-                    moi-même? Vous me dites de <hi rend="italic"> pardonner à Milord D'Ossery </hi>
-                    , ou de <hi rend="italic"> ne plus penser à lui </hi> . Lui pardonner! Ah!
+                    moi-même? Vous me dites de
+     <hi rend="italic">
+      pardonner à Milord D'Ossery
+     </hi>
+     , ou de
+     <hi rend="italic">
+      ne plus penser à lui
+     </hi>
+     . Lui pardonner! Ah!
                     Jamais... n'y plus penser! ... j'y pense assurément le moins que je puis; je n'y
                     pense plus avec plaisir. Je n'y pense plus avec regret; j'y pense... hélas! Ma
                     chere, parce qu'il m'est impossible de n'y plus penser. Le souvenir marche avec
@@ -289,19 +436,42 @@
                     je ne suis point en état de répondre à tout ce que vous me demandez... que je
                     suis foible encore! ... falloit-il me parler de lui? ... vous avez réveillé...
                     je puis éviter cet homme, renoncer à lui, le haïr, le détester; mais
-                    l'oublier... oh! Je ne le saurois. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 7 </head>
-                <p>
-                    <hi rend="italic"> lundi, à Vinchester. </hi> je reçois à l'instant une lettre
+                    l'oublier... oh! Je ne le saurois.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 7
+    </head>
+    <p>
+     <hi rend="italic">
+      lundi, à Vinchester.
+     </hi>
+     je reçois à l'instant une lettre
                     de Milord Carlile, qu'assurément il ne vous a pas communiquée. Il traite ma
                     fuite de ruse féminine; il ne me dit pas cela; mais c'est cela qu'il veut me
-                    dire. Il croit que mon intention est de <hi rend="italic"> mortifier le pauvre
-                    </hi> Milord D'Ossery, de <hi rend="italic"> l' éprouver </hi> , de le <hi
-                        rend="italic"> désoler </hi> , et de lui <hi rend="italic"> faire grace
-                    </hi> ensuite. Cette idée qu'il a de mes desseins, ne me donne pas une haute
-                    opinion de sa façon d'accorder <hi rend="italic"> des graces </hi> .
+                    dire. Il croit que mon intention est de
+     <hi rend="italic">
+      mortifier le pauvre
+     </hi>
+     Milord D'Ossery, de
+     <hi rend="italic">
+      l' éprouver
+     </hi>
+     , de le
+     <hi rend="italic">
+      désoler
+     </hi>
+     , et de lui
+     <hi rend="italic">
+      faire grace
+     </hi>
+     ensuite. Cette idée qu'il a de mes desseins, ne me donne pas une haute
+                    opinion de sa façon d'accorder
+     <hi rend="italic">
+      des graces
+     </hi>
+     .
                     Dites-luicela, en attendant que je sois en humeur de lui répondre. En vérité, je
                     me mépriserois moi-même, si j'étois capable d'une feinte si basse; si, croyant
                     pouvoir pardonner, j'avois la dureté de faire attendre mon pardon, de jouir de
@@ -316,9 +486,16 @@
                     servirai avec mes inférieurs; mais jamais avec mes amis. La confiance ne reçoit
                     pas deux atteintes; il le pense comme moi. Mais, ma chere, une remarque utile à
                     faire, c'est que les hommes n'établissent un principe que dans l' espoir d'en
-                    tirer avantage. Accoutumez-vous à penser,d' après milord, que <hi rend="italic">
-                        le repentir efface toutes les fautes </hi> , et soyez sûre qu'il se
-                    procurera des occasions <hi rend="italic"> de se repentir... </hi> sa lettre m'a
+                    tirer avantage. Accoutumez-vous à penser,d' après milord, que
+     <hi rend="italic">
+      le repentir efface toutes les fautes
+     </hi>
+     , et soyez sûre qu'il se
+                    procurera des occasions
+     <hi rend="italic">
+      de se repentir...
+     </hi>
+     sa lettre m'a
                     fâchée, je l'avoue; au reste, je renonce à son approbation; elle me couteroit
                     trop, si je l'achetois par une foiblesse qui me dégraderoit à mes propres yeux.
                     J'ai toujours regardé comme le plus grand des malheurs, la perte de la bonne
@@ -326,12 +503,18 @@
                     sans la mériter; l'art atteint jusques-là: mais que devient notre paix
                     intérieure, quand nous ne pouvons plus nous estimer nous-mêmes? Milord Carlile
                     est bien singulier de vouloir décider dans une affaire dont il est si peu
-                    instruit. Grondez-le, grondez-le bien, je vous en prie. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 8 </head>
-                <p>
-                    <hi rend="italic"> mardi, à Vinchester. </hi> vous me demandez ce que je fais,
+                    instruit. Grondez-le, grondez-le bien, je vous en prie.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 8
+    </head>
+    <p>
+     <hi rend="italic">
+      mardi, à Vinchester.
+     </hi>
+     vous me demandez ce que je fais,
                     avec qui je suis, quels sont ceux qui me plaisent davantage. Hélas! Je m'ennuie,
                     je suis avec bien du monde, et personne ne me plaît assez pour me distraire.
                     Nous sommes iciquinze ou seize habitants de Londres, sans compter la noblesse
@@ -355,12 +538,21 @@
                     force à nous contraindre? ... voilà le maussade personnage établi dans mon
                     cabinet; insensiblement il gagne du terrein; il est près, tout près de moi... il
                     lit presque ce que j'écris... je voudrois qu'il le lût pour lui apprendre... je
-                    continue exprès... <hi rend="italic"> milord, pardon, vous </hi>
-                    <hi rend="italic"> permettez... </hi> il s'incline, soupire, et reste; en
+                    continue exprès...
+     <hi rend="italic">
+      milord, pardon, vous
+     </hi>
+     <hi rend="italic">
+      permettez...
+     </hi>
+     il s'incline, soupire, et reste; en
                     vérité, il reste. Dans l'humeur où je suis je voudrois qu'il parlât, qu'il me
                     dît qu'il m'aime... je lui donnerois mille guinées pour me faire cet aveu...
-                    puisque mon mauvais sort le fixe là, il faut que je vous laisse. <hi
-                        rend="italic"> toujours mardi à minuit. </hi> comme je voulois vous le dire
+                    puisque mon mauvais sort le fixe là, il faut que je vous laisse.
+     <hi rend="italic">
+      toujours mardi à minuit.
+     </hi>
+     comme je voulois vous le dire
                     ce matin, Milady Vinchester est très-aimable: elle pense bien, se conduit avec
                     décence et sans affectation: elle est belle, bien faite; à sa fraîcheur on la
                     croiroit cadette de Lady Elisabeth, sa soeur. Elle aime son mari, voitses
@@ -396,12 +588,18 @@
                     ment avec impudence; se connoit en chiens, en chevaux, en bijoux; méprise tout,
                     s'admire de bonne foi, décide sans cesse, fatigue les gens de gout, prime parmi
                     les sots, et passe ici pour un homme charmant. Adieu, ma très-chere amie;
-                    j'embrasse Milord Carlile, quoique je ne lui pardonne pas. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 9 </head>
-                <p>
-                    <hi rend="italic"> mercredi, à Vinchester. </hi> voilà deux de vos lettres qu'on
+                    j'embrasse Milord Carlile, quoique je ne lui pardonne pas.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 9
+    </head>
+    <p>
+     <hi rend="italic">
+      mercredi, à Vinchester.
+     </hi>
+     voilà deux de vos lettres qu'on
                     m'apporte; je devois les recevoir hier; j'en étois inquiéte: Sir Henry s'est
                     douté qu'elles avoient été oubliées; il a fait sept milles pour les aller
                     chercher. Je crois que j'ai le coeur mauvais; car je suis fâchée de lui avoir
@@ -430,12 +628,18 @@
                     dit-il, caractérise la comtesse. Sir Manly en étoit amoureux, et ne la voit
                     point encore sans émotion. Il lui écrivit qu'il l'aimoit, et c'est la réponse à
                     sa déclaration que j'attends; dès que j'aurai cette merveilleuse epitre, je vous
-                    en ferai part. Adieu, ma charmante amie. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 10 </head>
-                <p>
-                    <hi rend="italic"> jeudi, à Vinchester. </hi> vous êtes, ma chere Henriette,
+                    en ferai part. Adieu, ma charmante amie.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 10
+    </head>
+    <p>
+     <hi rend="italic">
+      jeudi, à Vinchester.
+     </hi>
+     vous êtes, ma chere Henriette,
                     d'une cruelle exactitude. Vous m'avez promis de ne point me parler de Milord
                     D'Ossery, et vous me tenez parole avec une régularité que j'admire. Je ne
                     voulois pas qu'on m'entretînt de ses sentiments, des miens, de la fantaisie qui
@@ -463,8 +667,11 @@
                     différent de lui! ... mais, ma chere, il n'y faut plus penser; n'est-ce pas? ...
                     hélas! Qu'il est difficile d'oublier! Voilà la lettre que je vous ai promise;
                     Sir Manly m'a permis d'en prendre une copie: vous aurez la bonté de me la
-                    renvoyer. <hi rend="italic"> Milady comtesse de Sunderland, à Sir Manly. </hi>
-                    mon estime pour Sir Manly m'engage à lui parler avec une franchise dont je me
+                    renvoyer.
+     <hi rend="italic">
+      Milady comtesse de Sunderland, à Sir Manly.
+     </hi>
+     mon estime pour Sir Manly m'engage à lui parler avec une franchise dont je me
                     dispenserois, peut-être, à l'égard d'un autre. Vous êtes aimable, monsieur, bien
                     fait, modeste; vous paroissez prudent, et je vous crois discret. Tant de
                     qualités, si vous y joignez la constance, rendrontheureuse une femme qui vous
@@ -509,7 +716,11 @@
                     pensiez sur mon choix, croyez que rien ne peut m'y faire renoncer. Si mon amitié
                     vous est chere, abandonnez pour jamais l'inutile projet de troubler la douceur
                     de ma vie; et par une conduite conforme à mes principes,rendez-vous digne de ma
-                    confiance et de mon estime. <hi rend="italic"> toujours jeudi. </hi> eh bien,
+                    confiance et de mon estime.
+     <hi rend="italic">
+      toujours jeudi.
+     </hi>
+     eh bien,
                     voilà une femme très-respectable, très-respectée; pourquoi? Parce qu'elle a eu
                     l'avantage de s'aimer assez, pour ne point en aimer un autre. Elle a fait
                     l'admiration de tout le monde; mais elle n'a fait le bonheur de personne, pas
@@ -519,14 +730,28 @@
                     Est-il donc si estimable? Sa possession donne-t-elle des plaisirs assez grands
                     pour compenser les peines dont sa privation nous accable? ... je ne sais comment
                     j'envisage la raison de la comtesse, ses vertus; mais cette classe des femmes
-                    foibles me paroit celle des bons coeurs. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 11 </head>
-                <p>
-                    <hi rend="italic"> vendredi, à Vinchester. </hi> quoi! Ma chere Henriette, il
-                    est parti! On ne sait où il est allé? Vous <hi rend="italic"> craignez que ce ne
-                        soit en France... </hi> eh pourquoi le <hi rend="italic"> craindre </hi> ?
+                    foibles me paroit celle des bons coeurs.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 11
+    </head>
+    <p>
+     <hi rend="italic">
+      vendredi, à Vinchester.
+     </hi>
+     quoi! Ma chere Henriette, il
+                    est parti! On ne sait où il est allé? Vous
+     <hi rend="italic">
+      craignez que ce ne
+                        soit en France...
+     </hi>
+     eh pourquoi le
+     <hi rend="italic">
+      craindre
+     </hi>
+     ?
                     Ah! Qu'il s'en aille, qu'il reste, qu'il voyage, ou qu'il demeure, que
                     m'importe! Quel intérêt dois-je y prendre? Il est mort pour moi... cependant il
                     m'est doux de penser qu'il ne l'est que pour moi. Je suis triste, ma chere amie,
@@ -534,9 +759,15 @@
                     la façon dont on vit ici me lasse, et ne me dissipe point. Un jeu ruineux, de
                     longs repas, beaucoup de musique, toujours du bruit, peu de repos, aucun des
                     agréments qu'on se promet aux champs... vous êtes sûre que Milord D'Ossery n'est
-                    plus à Londres; mais si sa maison y est établie, c'est une marque... <hi
-                        rend="italic"> en France! </hi> pourquoi plutôt <hi rend="italic"> en France
-                    </hi> qu'ailleurs? La Duchesse De Pembroke, qu'il a aimée, vient d'y passer...
+                    plus à Londres; mais si sa maison y est établie, c'est une marque...
+     <hi rend="italic">
+      en France!
+     </hi>
+     pourquoi plutôt
+     <hi rend="italic">
+      en France
+     </hi>
+     qu'ailleurs? La Duchesse De Pembroke, qu'il a aimée, vient d'y passer...
                     peut-être a-t-il repris pour elle cette passion, qui, jadis... MilordCarlile ne
                     vous cache-t-il rien? La façon dont il m'écrit, me donne des soupçons... eh, que
                     me fait tout cela? Pourquoi m'en inquiéterois-je? Lady Elisabeth vous prie de
@@ -545,21 +776,30 @@
                     bal que donne Milord Vinchester. On est fatigué de plaisirs ici... partir sans
                     voir Milord Carlile, sans chercher à vous connoître, à vous parler; ne faire
                     aucunes démarches pour savoir où je suis, pour s'assurer... étrange,
-                    inconcevable créature! Il paroissoit plein d'ardeur; il ne pouvoit <hi
-                        rend="italic"> vivre sans me revoir, sans m'appaiser. Recouvrer son coeur,
-                        ou mourir </hi> , disoit-il à Betty, le jour qu'elle vint toute pleurante me
+                    inconcevable créature! Il paroissoit plein d'ardeur; il ne pouvoit
+     <hi rend="italic">
+      vivre sans me revoir, sans m'appaiser. Recouvrer son coeur,
+                        ou mourir
+     </hi>
+     , disoit-il à Betty, le jour qu'elle vint toute pleurante me
                     supplier de le recevoir, de lui parler, et il s'en va! Il s'en va, ma chere, et
                     ne voit pas Milord Carlile... quelque part qu'il soit, je lui souhaite tout le
                     bonheur que je désirerois pour moi-même... mais d'où vient semblez-vous
                     m'accuser de dureté, me faire un reproche de son départ? Ah! Ma chere Henriette,
                     vous aimez Milord Carlile bien plus que vous ne le croyez! Vous prenez son style
                     sans vous enappercevoir. Adieu, voilà Sir Henry; je suis très-propre aujourd'hui
-                    à converser avec lui. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 12 </head>
-                <p>
-                    <hi rend="italic"> samedi, à Vinchester. </hi> je m'ennuie ici, ma chere; je m'y
+                    à converser avec lui.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 12
+    </head>
+    <p>
+     <hi rend="italic">
+      samedi, à Vinchester.
+     </hi>
+     je m'ennuie ici, ma chere; je m'y
                     ennuie beaucoup. Que j'ai déja regretté votre cabinet, le mien, la douceur de
                     ces entretiens que la confiance rend si vifs, ces amusements simples, ces
                     lectures utiles! Si quelque chagrin nous touche et vient troubler notre
@@ -580,20 +820,32 @@
                     montrer sans réserve? Il faut être dans une situation fort heureuse, pour
                     s'amuser des gens qu'on aime peu, ou qu'on n'aime point du tout. Mais je suis
                     bien réfléchissante; je vous lasse, peut-être. Adieu; de quelque humeur que je
-                    sois, je vous aime toujours; ha, oui, de tout mon coeur. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 13 </head>
-                <p>
-                    <hi rend="italic"> dimanche, à Vinchester. </hi> deux de vos lettres! ... il
+                    sois, je vous aime toujours; ha, oui, de tout mon coeur.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 13
+    </head>
+    <p>
+     <hi rend="italic">
+      dimanche, à Vinchester.
+     </hi>
+     deux de vos lettres! ... il
                     n'est point revenu... on ne sait où il est... une de Milord Carlile... il ne
                     m'apprend rien; mais il me gronde, et très-fort, et avec de l'humeur qu'il veut
                     me faire prendre pour de l'amitié... pour de la raison... oh! Je lui répondrai
                     en vérité. Il se plaint de vous, du peu de complaisance que vous lui marquez:
                     aussi, ma chere Henriette, pourquoi ne voulez-vous pas lui dire ce que vous
                     savez comme moi-même, ce que j'ai consenti que vous lui apprissiez? Vous ne
-                    voulez pas <hi rend="italic"> faire connoître à </hi>
-                    <hi rend="italic"> cet homme combien un autre a été aimé </hi> ; cette excuse
+                    voulez pas
+     <hi rend="italic">
+      faire connoître à
+     </hi>
+     <hi rend="italic">
+      cet homme combien un autre a été aimé
+     </hi>
+     ; cette excuse
                     est désobligeante; a-t-il tort d'en être fâché? Quoi-qu' il soit mon meilleur
                     ami, j'ai une sorte de répugnance à lui avouer mes foiblesses; pourtant je lui
                     dirai tout; il verra, du moins, qu'il n'entre dans mon ressentiment aucun des
@@ -602,24 +854,54 @@
                     remis à l'été votre mariage avec Milord Carlile: je lui ai dit que c'étoit pour
                     attendre le retour de votre oncle, dont l'ambassade finissoit dans ce tems. Un
                     quart d'heure après il m'a fait exactement la même question, et moi positivement
-                    la même réponse. <hi rend="italic"> cruelle fille! </hi> s'est-il écrié, <hi
-                        rend="italic"> imposer une loi </hi>
-                    <hi rend="italic"> si dure! Si j'étois </hi> Carlile <hi rend="italic"> ! ... si
-                        vous l'étiez, monsieur. </hi> je <hi rend="italic"> crois... </hi> vous
-                    croyez? ... <hi rend="italic"> j'espére que milady ne peut s'offenser... </hi>
-                    mais je vous prie, si vous étiez Carlile... <hi rend="italic"> je n'ose
+                    la même réponse.
+     <hi rend="italic">
+      cruelle fille!
+     </hi>
+     s'est-il écrié,
+     <hi rend="italic">
+      imposer une loi
+     </hi>
+     <hi rend="italic">
+      si dure! Si j'étois
+     </hi>
+     Carlile
+     <hi rend="italic">
+      ! ... si
+                        vous l'étiez, monsieur.
+     </hi>
+     je
+     <hi rend="italic">
+      crois...
+     </hi>
+     vous
+                    croyez? ...
+     <hi rend="italic">
+      j'espére que milady ne peut s'offenser...
+     </hi>
+     mais je vous prie, si vous étiez Carlile...
+     <hi rend="italic">
+      je n'ose
                         parler... j'ai le malheur de vous révolter... de vous être importun...
-                        pourtant milady... pourtant... </hi> là dessus il s'est levé, a pris le ciel
+                        pourtant milady... pourtant...
+     </hi>
+     là dessus il s'est levé, a pris le ciel
                     à témoin de je ne sais quoi, s'est promené à grands pas, a commencé une
                     conversation avec lui-même, et tout cela d'un air si sombre, si triste, si
                     lugubre, et puis il est resté si déconcerté... mais le voici, plus morne, plus
                     malade, plus mort que jamais; il m'apporte des pamphlets: je suis sûre qu' ils
-                    ne valent rien. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 14 </head>
-                <p>
-                    <hi rend="italic"> lundi, à Vinchester. </hi> j'écris à Milord Carlile, et je
+                    ne valent rien.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 14
+    </head>
+    <p>
+     <hi rend="italic">
+      lundi, à Vinchester.
+     </hi>
+     j'écris à Milord Carlile, et je
                     lui donne ces détails qu'il n'a pu obtenir de vous. Son ancienne amitié pour le
                     Comte D'Ossery lui persuade que le procédé dont je me plains ne sauroit être
                     impardonnable. Il en jugera autrement, je l'espére; il ne lui restera plus de
@@ -630,19 +912,40 @@
                     saurois vous exprimer combien cette occupation m'a agitée. Dès que Milord
                     Carlile aura lu ce cahier, faites-moi le plaisir de le brûler. Je ne réponds pas
                     à votre jolie lettre: ma chere, vous étiez bien gaie quand vous m'avez écrit; je
-                    ne le suis point assez à présent pour vous répondre. <hi rend="italic"> lettre
-                        de Milady Catesby à Milord Carlile. </hi> non, milord, je n'ai point un <hi
-                        rend="italic"> esprit d'obstination </hi> qui me porte à me <hi
-                        rend="italic"> chagriner </hi> , pour faire <hi rend="italic"> partager mes
-                        peines à un autre </hi> ; mais j'ai la noble fermeté qui distingue les
+                    ne le suis point assez à présent pour vous répondre.
+     <hi rend="italic">
+      lettre
+                        de Milady Catesby à Milord Carlile.
+     </hi>
+     non, milord, je n'ai point un
+     <hi rend="italic">
+      esprit d'obstination
+     </hi>
+     qui me porte à me
+     <hi rend="italic">
+      chagriner
+     </hi>
+     , pour faire
+     <hi rend="italic">
+      partager mes
+                        peines à un autre
+     </hi>
+     ; mais j'ai la noble fermeté qui distingue les
                     coeurs généreux de ces petites ames, toujours prêtes à recevoir les impressions
                     qu'on veut leur donner. Déterminée dans mes résolutions par des principes sûrs,
                     je suis capable de tous les efforts que l'honneur exige; et ce que je croirai me
                     devoir, décidera toujours de mes projets de conduite etde mes idées de bonheur.
-                        <hi rend="italic"> c'est un homme, </hi> dites-vous, <hi rend="italic"> qui
+     <hi rend="italic">
+      c'est un homme,
+     </hi>
+     dites-vous,
+     <hi rend="italic">
+      qui
                         a des torts; il les sent, il revient; vous rejettez ses soumissions; ce
                         procédé est peu d'accord avec votre caractére: vous aimez encore, vous êtes
-                        encore aimée; vous devez oublier, vous devez pardonner. </hi> pourquoi le
+                        encore aimée; vous devez oublier, vous devez pardonner.
+     </hi>
+     pourquoi le
                     dois-je, milord? Lorsque vous eutes querelle avec le chevalier Sternill; c'étoit
                     un homme, qui, dans un moment de délire, vous avoit insulté; il reconnoissoit sa
                     faute, il l'avouoit; il offroit de vous faire toutes les réparations qui étoient
@@ -650,7 +953,11 @@
                     l'entendre; rien ne put vous faire consentir à un accommodement; et pour un
                     geste douteux, un mot échappé dans la chaleur d'une folle dispute, vous
                     étendites mort à vos pieds celui que vous aviez nommé cent fois votre ami.
-                    Quelqu'un blâma-t-il votre <hi rend="italic"> inflexibilité </hi> ? Pourquoi
+                    Quelqu'un blâma-t-il votre
+     <hi rend="italic">
+      inflexibilité
+     </hi>
+     ? Pourquoi
                     pardonnerois-je, moi que l'on a insultée avec réflexion, de dessein prémédité,
                     sous le voile de l'amitié, de l'amour, de tous les sentiments qui peuvent
                     toucher un coeur tendre et reconnoissant? Eh! Quel droit un sexe a-t-il de se
@@ -669,9 +976,11 @@
                     votre lettre soit très-propre à m'animer, je ne porterai pas ce sujet plus loin.
                     Je veux bien vous donner ces détails que vous désirez; je consens même à vous
                     prendre pour juge entre Milord D'Ossery et moi; prête à enappeller pourtant, si
-                    vous osiez me condamner sur les faits que je vais vous exposer. <hi
-                        rend="italic"> histoire de Milady Juliette Catesby, et de Milord D'Ossery.
-                    </hi> ce que je vais vous confier, n'est intéressant que pour un ami. Encore
+                    vous osiez me condamner sur les faits que je vais vous exposer.
+     <hi rend="italic">
+      histoire de Milady Juliette Catesby, et de Milord D'Ossery.
+     </hi>
+     ce que je vais vous confier, n'est intéressant que pour un ami. Encore
                     fort occupée de mes chagrins, je puis convenir pourtant, qu' ils n'ont
                     d'extraordinaire que la façon dont je les ai sentis; mais la diversité de nos
                     caractéres met une extrême différence dans notre maniére d'envisager les
@@ -810,8 +1119,12 @@
                     séparoit cruellement, le livre tomba de nos mains, nos larmes se mêlerent; et
                     saisis tous deux de je ne sais quelle crainte, nous nous regardames. Il passa un
                     bras autour de moi, comme pour me retenir; je me penchai vers lui; et rompant le
-                    silence en même-tems, nous nous écriames ensemble: <hi rend="italic"> ah! Qu'ils
-                        étoient malheureux! </hi> une entiére confiance suivit cet attendrissement;
+                    silence en même-tems, nous nous écriames ensemble:
+     <hi rend="italic">
+      ah! Qu'ils
+                        étoient malheureux!
+     </hi>
+     une entiére confiance suivit cet attendrissement;
                     Milord D'Ossery me découvrit enfin les sentiments que je lui avois, disoit-il,
                     inspirés dès le premier instant où il m'avoit vue. Il m'apprit les raisons qu'il
                     avoit eues de contraindre les mouvements de son coeur, naturellement porté vers
@@ -955,7 +1268,9 @@
                     ni comment il étoit possible qu'il pût trouver de la difficulté à s'ouvrir avec
                     moi. Rentrée dans mon appartement, on me dit que milord étoit sorti; deux heures
                     après,on m'apporta une lettre; elle étoit de lui: que devins-je en y trouvant
-                    ces mots! <hi rend="italic"> je pars, madame, et je pars sans espoir de vous
+                    ces mots!
+     <hi rend="italic">
+      je pars, madame, et je pars sans espoir de vous
                         revoir jamais: comment oserois-je reparoître devant vous! Moi qui vous ai
                         trahie! Qui, parvenu au comble de mes voeux, de mes souhaits les plus
                         ardents, aimé de vous enfin, n'ai pu réprimer un indigne mouvement! ... moi
@@ -969,14 +1284,20 @@
                         m'arrêter? ... mais étois-je à moi? ... quoi! Je ne vous verrai plus! Je
                         serai l'objet de vos mépris! De votre haine! ... plus malheureux cent fois
                         de l'être un seul instant de vos regrets, de votre douleur, de vos larmes,
-                        qui vont couler pour un ingrat, pour </hi> un cruel, forcé de se priver! ...
-                    ah! Plaignez-moi, <hi rend="italic"> madame, j'ose implorer votre pitié! Que ne
+                        qui vont couler pour un ingrat, pour
+     </hi>
+     un cruel, forcé de se priver! ...
+                    ah! Plaignez-moi,
+     <hi rend="italic">
+      madame, j'ose implorer votre pitié! Que ne
                         puis-je, au moins, vous apprendre! ... mais cet horrible secret n'est pas
                         tout à moi; je dois respecter... quoi? ... mon malheur. Faut-il que je sois
                         réduit à désirer d'être oublié de vous? Ah! Je ne vous oublierai jamais; je
                         vous adorerai toujours; vous m'occuperez sans cesse. Adieu, madame, adieu.
                         puissé-je ne pas vivre assez long-tems pour apprendre ce que vous pensez
-                        d'un malheureux qui ne vous méritoit pas. </hi> je demeurai comme une
+                        d'un malheureux qui ne vous méritoit pas.
+     </hi>
+     je demeurai comme une
                     personne inanimée: un coup si terrible, si peu attendu, si peu mérité, anéantit
                     presque mon être. Immobile, et sans lever les yeux de dessus ce funeste écrit,
                     il me sembla en le finissant, qu'une invisible main me précipitoit dans un
@@ -1109,27 +1430,53 @@
                     un moment d'entretien. Il m'écrivit, il me suivit en touslieux; son obstination
                     m'allarma; je sentis que Milord D'Ossery ne pouvoit être un homme ordinaire pour
                     moi. Honteuse de me trouver sensible encore, j'ai cru devoir fuir le danger de
-                    le voir et de l'entendre. à présent, milord, croyez-vous devoir m'accuser de <hi
-                        rend="italic"> dureté, d' inflexibilité </hi> , pour avoir <hi rend="italic"
-                        > refusé les visites </hi> de Milord D'Ossery; pour lui avoir <hi
-                        rend="italic"> renvoyé ses lettres sans daigner les ouvrir </hi> ; pour ne
-                        <hi rend="italic"> vouloir aucune explication avec lui </hi> ? Quels égards
+                    le voir et de l'entendre. à présent, milord, croyez-vous devoir m'accuser de
+     <hi rend="italic">
+      dureté, d' inflexibilité
+     </hi>
+     , pour avoir
+     <hi rend="italic">
+      refusé les visites
+     </hi>
+     de Milord D'Ossery; pour lui avoir
+     <hi rend="italic">
+      renvoyé ses lettres sans daigner les ouvrir
+     </hi>
+     ; pour ne
+     <hi rend="italic">
+      vouloir aucune explication avec lui
+     </hi>
+     ? Quels égards
                     lui dois-je? Quels motifs m'engageroient à l'entendre! Eh! Que peut-il avoir à
                     me dire! Il m'a oublié si longtems! Il m'a trop appris qu'il pouvoit vivre sans
                     moi, être heureux sans moi! Ah! Qu'il le soit! Oui, qu'il le soit toujours, mais
                     loin de moi et sans moi! Si vous savez où il est, s'il vous écrit, dites-lui
-                    bien de renoncer au projet de m' <hi rend="italic"> appaiser </hi> , de me voir.
-                    Moi, <hi rend="italic"> son amie! </hi> ah! Dieu! ... je ne saurois l'être; je
+                    bien de renoncer au projet de m'
+     <hi rend="italic">
+      appaiser
+     </hi>
+     , de me voir.
+                    Moi,
+     <hi rend="italic">
+      son amie!
+     </hi>
+     ah! Dieu! ... je ne saurois l'être; je
                     suis fâchée que le ciel lui ait enlevé celle qu'il aimoit, qu'il m'avoit
                     préférée: mais pourquoi sa perte nous rapprocheroit-elle? Est-ce à moi de l'en
                     consoler? Adieu: gardezmon secret; rendez justice à mes sentiments; et si vous
                     voulez que je croie à cette amitié tendre dont vous m'assurez, ne me parlez
-                    jamais de Milord D'Ossery. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 15 </head>
-                <p>
-                    <hi rend="italic"> mercredi, à Vinchester. </hi> je n'ai pu vous écrire hier;
+                    jamais de Milord D'Ossery.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 15
+    </head>
+    <p>
+     <hi rend="italic">
+      mercredi, à Vinchester.
+     </hi>
+     je n'ai pu vous écrire hier;
                     j'étois fatiguée, malade même: j'ai gardé ma chambre. Cette légére indisposition
                     a fait bien du plaisir à Sir Henry; elle l'a fixé près de moi; je ne savois que
                     lui dire; je l'ai prié de chanter; il a la voix douce, sonore, agréable. En
@@ -1181,12 +1528,18 @@
                     mal incurable, il ne faut que des calmants... mais, bon dieu! Est-ce à moi de
                     raisonner, de critiquer l'honnête Sir Villiams? ... voyez le danger de ces
                     lectures; j'ai pensé faire un livre aussi. Adieu, je vous aime de tout mon
-                    coeur. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 16 </head>
-                <p>
-                    <hi rend="italic"> jeudi, à Vinchester. </hi> la ridicule, la sotte, la maussade
+                    coeur.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 16
+    </head>
+    <p>
+     <hi rend="italic">
+      jeudi, à Vinchester.
+     </hi>
+     la ridicule, la sotte, la maussade
                     avanture qui vient de m'arriver. Heureusement débarrassée de Sir Henry, qui est
                     à douze milles d'ici, j'ai voulu profiter de son absence, pour jouir du plaisir
                     de me promener seule. Au détour d'une allée dont je sortois pour gagner le parc,
@@ -1213,12 +1566,18 @@
                     entendre; elle venoit à nous: Sir James s'est enfoncé dans le bois; et votre
                     folle amie a coupé par une petite allée, pour n'être point vue; elle se hâte de
                     vous écrire... en vérité, j'ai perdu la raison... que pensera Sir James? ... il
-                    faut le revoir dans un instant... cette idée n'est pas supportable. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 17 </head>
-                <p>
-                    <hi rend="italic"> toujours jeudi, à minuit. </hi> Sir James n'a point paru au
+                    faut le revoir dans un instant... cette idée n'est pas supportable.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 17
+    </head>
+    <p>
+     <hi rend="italic">
+      toujours jeudi, à minuit.
+     </hi>
+     Sir James n'a point paru au
                     dîner; il s'est plaint de la migraine, et n'a descendu que fort tard. Il
                     paroissoit triste, et j'étois embarrassée. Je ne saurois vous dire combien je
                     crains une explication; je l'éviterai, si je puis. Quoi! Milord D'Ossery sera
@@ -1241,15 +1600,30 @@
                     reconnoître? ... ai-je un tort bien grand, ma chere, parlez donc? Mes fautes
                     vous sont si sensibles, qu'en vérité mon amitié pour vous me force à me les
                     reprocher doublement. Si vous me trouvez bien ridicule, ne m'en aimez pas moins.
-                </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 18 </head>
-                <p>
-                    <hi rend="italic"> vendredi, à Vinchester. </hi> vous craignez que vos lettres
-                    ne soient <hi rend="italic"> longues </hi> , qu'elles ne me <hi rend="italic">
-                        fatiguent </hi> ; vous, machere Henriette, penser que vous pouvez me <hi
-                        rend="italic"> fatiguer </hi> ? Soyez bien sûre qu'éloignée de vous, mon
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 18
+    </head>
+    <p>
+     <hi rend="italic">
+      vendredi, à Vinchester.
+     </hi>
+     vous craignez que vos lettres
+                    ne soient
+     <hi rend="italic">
+      longues
+     </hi>
+     , qu'elles ne me
+     <hi rend="italic">
+      fatiguent
+     </hi>
+     ; vous, machere Henriette, penser que vous pouvez me
+     <hi rend="italic">
+      fatiguer
+     </hi>
+     ? Soyez bien sûre qu'éloignée de vous, mon
                     unique amusement est de lire ces aimables lettres. Le sentiment qui me les fait
                     aimer, ne portera jamais la douleur dans mon ame; mes larmes n'effaceront jamais
                     ces caractéres chéris. Je ne me rappellerai jamais, avec rougeur, le plaisir que
@@ -1273,23 +1647,79 @@
                     je m'afflige. En voulant me voir, il m'a irritée; il me laisse; sa négligence me
                     déplait, m'offense... mon dieu, est-ce votre amie, est-ce une femme sensée, qui
                     est si peu d'accord avec elle-même? Ma bonne, ma tendre amie, aimez-moi pour
-                    nous deux; car je me hais bien fort. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 19 </head>
-                <p>
-                    <hi rend="italic"> samedi, à Vinchester. </hi> Sir James m'a écrit. Sa lettre
-                    est tendre; il <hi rend="italic"> aimera </hi> , il se <hi rend="italic"> taira
-                    </hi> . Il n' <hi rend="italic"> ose </hi> me <hi rend="italic"> demander </hi>
-                    le sujet de <hi rend="italic"> mes pleurs </hi> ; il n' <hi rend="italic">
-                        oubliera jamais cet instant </hi> . Il voit que mon coeur est <hi
-                        rend="italic"> pénétré </hi> d'une <hi rend="italic"> douleur </hi> qu'il
+                    nous deux; car je me hais bien fort.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 19
+    </head>
+    <p>
+     <hi rend="italic">
+      samedi, à Vinchester.
+     </hi>
+     Sir James m'a écrit. Sa lettre
+                    est tendre; il
+     <hi rend="italic">
+      aimera
+     </hi>
+     , il se
+     <hi rend="italic">
+      taira
+     </hi>
+     . Il n'
+     <hi rend="italic">
+      ose
+     </hi>
+     me
+     <hi rend="italic">
+      demander
+     </hi>
+     le sujet de
+     <hi rend="italic">
+      mes pleurs
+     </hi>
+     ; il n'
+     <hi rend="italic">
+      oubliera jamais cet instant
+     </hi>
+     . Il voit que mon coeur est
+     <hi rend="italic">
+      pénétré
+     </hi>
+     d'une
+     <hi rend="italic">
+      douleur
+     </hi>
+     qu'il
                     respecte. Il finit en m'assurant d'un amour éternel... eternel! Ma chere, ils
-                    promettent tous un amour <hi rend="italic"> éternel </hi> . La premiére preuve
-                    que Sir James veut me donner de cet <hi rend="italic"> éternel </hi> amour et de
-                    sa soumission, est de <hi rend="italic"> renfermer </hi> des <hi rend="italic">
-                        sentiments </hi> qu'il est <hi rend="italic"> sûr </hi> de <hi rend="italic"
-                        > conserver toujours </hi> . Je lui ai répondu poliment, en acceptant
+                    promettent tous un amour
+     <hi rend="italic">
+      éternel
+     </hi>
+     . La premiére preuve
+                    que Sir James veut me donner de cet
+     <hi rend="italic">
+      éternel
+     </hi>
+     amour et de
+                    sa soumission, est de
+     <hi rend="italic">
+      renfermer
+     </hi>
+     des
+     <hi rend="italic">
+      sentiments
+     </hi>
+     qu'il est
+     <hi rend="italic">
+      sûr
+     </hi>
+     de
+     <hi rend="italic">
+      conserver toujours
+     </hi>
+     . Je lui ai répondu poliment, en acceptant
                     seulement son silence. Je suis fâchée de lui avoir inspiré de la tendresse. Si
                     je ne puis faire le bonheur de Sir James, je voudrois bien, au moins, ne pas lui
                     causer des peines. Il est aimable; il me plairoit, si l'on pouvoit encore me
@@ -1298,10 +1728,18 @@
                     me presse d'aller la trouver. Retourner à Erford, revoir ces lieux! ... ah! Je
                     n'irai point à Erford! Voilà Sir Henry très-promptement de retour; et le voilà
                     précisément tel qu'il étoit parti. Je l'ai reçu assez bien; pas assez pourtant;
-                    car il a l'air peu content... <hi rend="italic"> milady écrit... </hi> un grand
+                    car il a l'air peu content...
+     <hi rend="italic">
+      milady écrit...
+     </hi>
+     un grand
                     soupir, et le triste personnage s'en va... eh non, il revient chargé d'une
                     corbeille de jacintes et de sémidoubles,dont il va parer mon cabinet. Tandis
-                    qu'il fait cet arrangement, <hi rend="italic"> milady écrit, </hi> au grand
+                    qu'il fait cet arrangement,
+     <hi rend="italic">
+      milady écrit,
+     </hi>
+     au grand
                     regret de Sir Henry. Je sens que rien n'est plus mal-honnête; mais si j'étois
                     capable de complaisance pour ses soins, il m'en accableroit. C'est bien assez de
                     supporter en silence toutes ses humeurs. Il en a tant avec moi, que souvent je
@@ -1321,12 +1759,18 @@
                     être obligeante. Milord Carlile me demande pardon; il trouve que j'ai raison:
                     mais il ne conçoit pas ce qui a pu faire changer de caractére à Milord D'Ossery;
                     il ne le reconnoit point à son procédé bizarre pour moi. Adieu, ma chere et
-                    tendre amie. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 20 </head>
-                <p>
-                    <hi rend="italic"> dimanche, à Vinchester. </hi> ah! Grand dieu, quelle émotion!
+                    tendre amie.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 20
+    </head>
+    <p>
+     <hi rend="italic">
+      dimanche, à Vinchester.
+     </hi>
+     ah! Grand dieu, quelle émotion!
                     Quelle surprise! Sous une enveloppe dont la main m'est inconnue, une lettre de
                     Milord D'Ossery... oui, de lui, en vérité... voilà son caractére... elle est de
                     lui... mon dieu! Elle est bien de lui! ... d'où vient-elle? ... qui l'a
@@ -1361,19 +1805,28 @@
                     pense encore à lui? ... est-ce foiblesse ou curiosité? ... d'où vient ce désir
                     de voir? ... après tout, qu'ai-je à craindre? A-t-il des reproches à me faire?
                     Je veux lire sa lettre, y répondre. Allons... mais voici la Comtesse De
-                    Bristol... hélas! Que n'ai-je une ame comme la sienne! ... adieu. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 21 </head>
-                <p>
-                    <hi rend="italic"> toujours dimanche, à minuit. </hi> il se plaint de moi, ma
+                    Bristol... hélas! Que n'ai-je une ame comme la sienne! ... adieu.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 21
+    </head>
+    <p>
+     <hi rend="italic">
+      toujours dimanche, à minuit.
+     </hi>
+     il se plaint de moi, ma
                     chere Henriette! Il s'en plaint, en vérité! Il a l'audace de s'en plaindre, de
                     me faire des leçons de générosité. L'époux de Jenny Montfort s'étonne de mon
                     inconstance! Il attendoit de moi d'autres sentiments... et tout cela avec une
                     hauteur... lisez, lisez, je vous en prie, l' exacte copie de son insolente
                     lettre... non, cet infidéle n'a point d'idée des chagrins qu'il m'a donnés...
-                    mais un homme comprend-il les peines qu'il peut causer? <hi rend="italic">
-                        lettre de Milord D'Ossery à Milady Catesby. </hi> fuir un malheureux,
+                    mais un homme comprend-il les peines qu'il peut causer?
+     <hi rend="italic">
+      lettre de Milord D'Ossery à Milady Catesby.
+     </hi>
+     fuir un malheureux,
                     rejetter ses soumissions, l'abandonner à ses remords, mépriser son repentir, se
                     peindre sans pitié ce qu'il doit souffrir; c'est le procédé d'une femme
                     ordinaire qui se croit offensée, se livre à l'ardeur de son ressentiment, veut
@@ -1400,33 +1853,71 @@
                     n'a jamais cessé de vous aimer, de vous désirer, de vous regretter. Malgré les
                     plus fortes apparences, croyez qu'il n'est point indigne de la grace qu'il ose
                     vous demander. Pardonnez-moi la façon dont je m'y suis pris pour vous engager à
-                    lire ma lettre; un de mes gens attend votre réponse à la ferme. Cette <hi
-                        rend="italic"> inhumaine fierté; que savez-vous si vous n'êtes point injuste
-                    </hi> ? Eh bien, auriez-vous pensé qu'il osât mettre en doute, si j'ai tort ou
-                    raison avec lui? Ces <hi rend="italic"> lettres, baignées de ses larmes... </hi>
-                    d'où vient donc qu'il répandoit des <hi rend="italic"> larmes </hi> ? Quel sujet
-                    avoit-ild' en <hi rend="italic"> répandre </hi> ? Ah! Qu'il en verse encore!
-                    Qu'il pleure! Il a trahi cette <hi rend="italic"> maîtresse tendre </hi> qui le
+                    lire ma lettre; un de mes gens attend votre réponse à la ferme. Cette
+     <hi rend="italic">
+      inhumaine fierté; que savez-vous si vous n'êtes point injuste
+     </hi>
+     ? Eh bien, auriez-vous pensé qu'il osât mettre en doute, si j'ai tort ou
+                    raison avec lui? Ces
+     <hi rend="italic">
+      lettres, baignées de ses larmes...
+     </hi>
+     d'où vient donc qu'il répandoit des
+     <hi rend="italic">
+      larmes
+     </hi>
+     ? Quel sujet
+                    avoit-ild' en
+     <hi rend="italic">
+      répandre
+     </hi>
+     ? Ah! Qu'il en verse encore!
+                    Qu'il pleure! Il a trahi cette
+     <hi rend="italic">
+      maîtresse tendre
+     </hi>
+     qui le
                     préféroit à tout, ne vivoit que pour l'aimer, dont les voeux les plus ardents
                     n'avoient pour objet que le bonheur de ce cruel... ah! Qu'il pleure! Il a tant
-                    de reproches à se faire! Cette <hi rend="italic"> amie fidéle </hi> peut
-                    l'abandonner sans être <hi rend="italic"> inhumaine </hi> , sans être <hi
-                        rend="italic"> injuste... </hi> audacieux suppliant, il ne se croit point
+                    de reproches à se faire! Cette
+     <hi rend="italic">
+      amie fidéle
+     </hi>
+     peut
+                    l'abandonner sans être
+     <hi rend="italic">
+      inhumaine
+     </hi>
+     , sans être
+     <hi rend="italic">
+      injuste...
+     </hi>
+     audacieux suppliant, il ne se croit point
                     indigne de la grace qu'il demande... pesez bien les termes de cette lettre... y
                     répondrai-je? ... je ne sais... que puis-je lui dire? ... mais je ne me sens pas
                     bien... je ne saurois continuer... ma bonne, ma chere amie, pourquoi vous ai-je
                     quittée, et dans un tems où vos conseils me seroient si nécessaires? ... c'est
                     Milord D' Ossery qui en est cause... eh! Ne l'est-il pas de tout ce qui
-                    m'afflige? </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 22 </head>
-                <p>
-                    <hi rend="italic"> lundi, à Vinchester. </hi> je suis encore dans l'incertitude
+                    m'afflige?
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 22
+    </head>
+    <p>
+     <hi rend="italic">
+      lundi, à Vinchester.
+     </hi>
+     je suis encore dans l'incertitude
                     sur ce que je dois faire: plus je relis la lettre de Milord D'Ossery, plus je me
                     sens révoltée contrelui; parce que je suis capable de ressentiment, il ne
                     reconnoit point mon ame; une basse condescendance me conviendroit mieux dans ses
-                    idées, qu'une <hi rend="italic"> inhumaine fierté </hi> . O! Ma chere Henriette,
+                    idées, qu'une
+     <hi rend="italic">
+      inhumaine fierté
+     </hi>
+     . O! Ma chere Henriette,
                     les hommes nous regardent comme des êtres placés dans l'univers pour l'amusement
                     de leurs yeux, pour la récréation de leurs esprits, pour servir de jouer à cette
                     espéce d'enfance où les assujettit la fougue de leurs passions, l'impétuosité de
@@ -1438,31 +1929,57 @@
                     cherchent, qu'ils nous servent; ils ne considérent en nous que les plaisirs
                     qu'ils espérent de gouter par nous. L'objet de leurs feintes adorations
                     n'atteint jamais jusqu'à leur estime; et si nous leur montrons de la force
-                    d'esprit, de la grandeur d'ame, nous sommes <hi rend="italic"> d'inhumaines
-                    </hi> créatures; nous passons leslimites qu'ils ont osé nous prescrire, et nous
-                    devenons <hi rend="italic"> injustes </hi> sans le savoir. Je suis piquée... je
+                    d'esprit, de la grandeur d'ame, nous sommes
+     <hi rend="italic">
+      d'inhumaines
+     </hi>
+     créatures; nous passons leslimites qu'ils ont osé nous prescrire, et nous
+                    devenons
+     <hi rend="italic">
+      injustes
+     </hi>
+     sans le savoir. Je suis piquée... je
                     lui répondrai... oh! Oui... mais j'attends que l'aigreur dont je ne puis me
                     défendre, soit un peu modérée... je ne veux pas le voir... je ne le voudrai
-                    jamais... je tâcherai de ne point écrire avec dureté, afin de <hi rend="italic">
-                        remettre </hi> à Milord D'Ossery, qui doit m'être indifférent, une partie
-                    des <hi rend="italic"> dettes de l'amant </hi> que je dois haïr... non, il n'y a
-                    pas une expression dans sa lettre qui ne me blesse jusqu'au fond du coeur... <hi
-                        rend="italic"> l'espéce de ses torts </hi> m'est <hi rend="italic"> inconnue
-                    </hi> . Ah! Comment peut-il le croire et le dire? Ne m'a-t-il pas trompée,
+                    jamais... je tâcherai de ne point écrire avec dureté, afin de
+     <hi rend="italic">
+      remettre
+     </hi>
+     à Milord D'Ossery, qui doit m'être indifférent, une partie
+                    des
+     <hi rend="italic">
+      dettes de l'amant
+     </hi>
+     que je dois haïr... non, il n'y a
+                    pas une expression dans sa lettre qui ne me blesse jusqu'au fond du coeur...
+     <hi rend="italic">
+      l'espéce de ses torts
+     </hi>
+     m'est
+     <hi rend="italic">
+      inconnue
+     </hi>
+     . Ah! Comment peut-il le croire et le dire? Ne m'a-t-il pas trompée,
                     quittée, abandonnée? N'a-t-il pas détruit ma plus chere espérance? Ne m'a-t-il
                     pas privée? ... hélas! De lui, du seul objet de mon attachement! Il m'a fait
                     tout le mal qu'il étoit en son pouvoir de me faire; eh! Je lui pardonnerois! ...
                     que n'ai-je eu la force de déchirer cette lettre, dès que j'en ai connu la main?
                     ... pourquoi faut-il? ... cet homme a mis tout son bonheur à troubler, à
-                    détruire le mien. <hi rend="italic"> toujours lundi, à minuit. </hi>
-                    croiriez-vous bien, ma chere Henriette, que je ne saurois écrire à Milord
+                    détruire le mien.
+     <hi rend="italic">
+      toujours lundi, à minuit.
+     </hi>
+     croiriez-vous bien, ma chere Henriette, que je ne saurois écrire à Milord
                     D'Ossery? J'ai recommencé vingt fois une très-petite lettre, sans jamais pouvoir
                     la finir; tout ce que je ne veux pas dire vient s'offrir à mon idée; le reproche
                     se place sous ma plume; je cherche à paroître indifférente, et ma sensibilité
                     éclate malgré moi. Pas une expression qui me satisfasse, ni froideur, ni
                     modération; mon coeur emporté par un mouvement rapide, veut s'expliquer sans
-                    détours: j'attendrai. <hi rend="italic"> toujours lundi, à deux heures. </hi>
-                    jamais je ne pourrai faire cette réponse: j'écris, j'efface, je déchire. Après
+                    détours: j'attendrai.
+     <hi rend="italic">
+      toujours lundi, à deux heures.
+     </hi>
+     jamais je ne pourrai faire cette réponse: j'écris, j'efface, je déchire. Après
                     tout, pourquoi me tourmenter? Me fatiguer? Est-il si essentiel que je lui
                     écrive? ... oui, car si je garde le silence, il croira que je consens à le
                     voir... ah! S'il alloit paroître ici! ... chez qui peut-il être? Il n'a point de
@@ -1475,31 +1992,57 @@
                     peines; nous sommes souvent convenues qu'il y a de la dureté à refuser sa pitié
                     à des maux qui nous paroissent légers: ce n'est pas l'espéce du mal, mais la
                     sensibilité du malade qui doit exciter notre compassion. Ah! Je suis bien digne
-                    de la vôtre! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 23 </head>
-                <p>
-                    <hi rend="italic"> mardi, à Vinchester. </hi> voici une copie de ma réponse: je
+                    de la vôtre!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 23
+    </head>
+    <p>
+     <hi rend="italic">
+      mardi, à Vinchester.
+     </hi>
+     voici une copie de ma réponse: je
                     ne savois pas combien il étoit difficile d'écrire quand on ne vouloit pas dire
                     tout ce qu'on pensoit. C'est un fardeau pesant dont je viens de me débarrasser.
                     Croiriez-vous que depuis une heure que ma lettre est partie, j'ai désiré vingt
                     fois de la ravoir? Je crains qu'elle ne le désoblige trop... même qu'elle
                     nel'afflige. J'ai relu la sienne avec attention; elle me paroit moins choquante;
                     tout ce qui me révoltoit m'attendrit à présent. Cet endroit, où il parle de mes
-                    lettres, est touchant, en vérité... il les <hi rend="italic"> pressoit contre
-                        ses lévres... </hi> elles étoient sa <hi rend="italic"> seule </hi>
-                    <hi rend="italic"> consolation... </hi> mais quels chagrins avoit-il donc? <hi
-                        rend="italic"> son exil? </hi> s'il m'aimoit? ... eh! Comment en eût-il
+                    lettres, est touchant, en vérité... il les
+     <hi rend="italic">
+      pressoit contre
+                        ses lévres...
+     </hi>
+     elles étoient sa
+     <hi rend="italic">
+      seule
+     </hi>
+     <hi rend="italic">
+      consolation...
+     </hi>
+     mais quels chagrins avoit-il donc?
+     <hi rend="italic">
+      son exil?
+     </hi>
+     s'il m'aimoit? ... eh! Comment en eût-il
                     épousé une autre, si son coeur? ... je n'y puis rien comprendre... il dit qu'il
                     est malheureux... je ne voudrois pas penser qu'il l'est en effet... ah! S'il
                     sentoit ce que j'ai senti! Cette douleur, ces déchirements, s'il les sentoit!
                     Que je le plaindrois! Que ma fierté céderoit aisément à la douceur de le
                     consoler, de ramener la joie dans son ame! ... je pleure, en vérité je pleure;
-                    je ne puis supporter l'idée de sa tristesse, de <hi rend="italic"> ces longs
-                        chagrins </hi> dont il me parle. Quoique ma raison doive me persuader qu'ils
-                    n'ont point existé, ils se peignent, sans cesse, à mon coeur. <hi rend="italic">
-                        réponse de Milady Juliette Catesby, à Milord Comte D'Ossery. </hi> je ne
+                    je ne puis supporter l'idée de sa tristesse, de
+     <hi rend="italic">
+      ces longs
+                        chagrins
+     </hi>
+     dont il me parle. Quoique ma raison doive me persuader qu'ils
+                    n'ont point existé, ils se peignent, sans cesse, à mon coeur.
+     <hi rend="italic">
+      réponse de Milady Juliette Catesby, à Milord Comte D'Ossery.
+     </hi>
+     je ne
                     m'attendois, milord, ni à vos plaintes, ni à la priére que vous me faites:
                     letems où une explication de votre conduite pouvoit m'intéresser, est déja loin
                     de moi. S'il se retrace quelquefois à ma mémoire, c'est comme le souvenir d'un
@@ -1507,9 +2050,20 @@
                     et confuse. Il m'importe peu de connoître les raisons qui vous engagerent à me
                     rendre à moi-même; il me suffit que vous l'ayez fait. Je ne crois point sortir
                     de mon caractére, en refusant de vous voir, en le refusant absolument. Je ne
-                    vous regarderai jamais comme un <hi rend="italic"> ami </hi> , auquel je doive
-                    remettre des fautes qu'on ne peut pardonner ni à l' <hi rend="italic"> ami </hi>
-                    , ni à l' <hi rend="italic"> amant </hi> . Celui qui put m'abandonner si
+                    vous regarderai jamais comme un
+     <hi rend="italic">
+      ami
+     </hi>
+     , auquel je doive
+                    remettre des fautes qu'on ne peut pardonner ni à l'
+     <hi rend="italic">
+      ami
+     </hi>
+     , ni à l'
+     <hi rend="italic">
+      amant
+     </hi>
+     . Celui qui put m'abandonner si
                     long-tems aux soupçons vagues de mon esprit agité, à ceux que je devois former
                     sur ses sentiments, même sur sa probité, doit-il s'étonner de mon indifférence?
                     A-t-il droit de me la reprocher? Eh! Pourquoi chercherois-je à m'instruire des
@@ -1523,7 +2077,9 @@
                     ce n'est pas ce que je pense. Cette orgueilleuse indifférence n'est pas dans mon
                     coeur; je suis fâchée d'avoir envoyé cette lettre... pourquoi feindre? N'eut-il
                     pas été mieux de parler naturellement, d'avouer ma véritable situation à son
-                    égard? De dire: <hi rend="italic"> je vous aime peut-être encore, mais je ne
+                    égard? De dire:
+     <hi rend="italic">
+      je vous aime peut-être encore, mais je ne
                         vous estime plus; je renonce à vous; la constance de mes sentiments n'est
                         point une preuve que je vous croie digne de mon attachement? Elle est dans
                         mon caractére; des traits ineffaçables ont gravé dans mon ame une foiblesse
@@ -1531,26 +2087,45 @@
                         mais aux impressions vives que j'ai reçues. Semblable à une personne qui se
                         regarde avec complaisance, et jouit du plaisir de se voir, sans songer à la
                         glace qui le lui procure, je me plais à me rappeller mon amour, sans me
-                        plaire à penser à vous. </hi> cela eût été plus noble, plus vrai: je
+                        plaire à penser à vous.
+     </hi>
+     cela eût été plus noble, plus vrai: je
                     voudrois l'avoir fait. Je hais la dissimulation, j'en hais jusqu'à l'apparence.
                     Mais la lettre est partie... depuis long-tems j'ai perdu l'habitude d'être
                     contente de moi; le regret semble attaché à toutes mes démarches. De tant de
                     qualités dont je m'applaudissois, il ne me reste que la connoissance de mes
                     fautes; et de tant de biens que je m' étois promis, votre amitié est le seul qui
-                    m'en paroisse un véritable. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 24 </head>
-                <p>
-                    <hi rend="italic"> mercredi, à Vinchester. </hi> assurément, ma chere, ma tête
+                    m'en paroisse un véritable.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 24
+    </head>
+    <p>
+     <hi rend="italic">
+      mercredi, à Vinchester.
+     </hi>
+     assurément, ma chere, ma tête
                     est un peu dérangée. Je suis inquiéte, agitée: je compte les heures, les
                     moments; le tems me paroit d'une longueur extrême. J'attends, sans savoir ce que
                     j' attends. Le moindre bruit excite un mouvement en moi; ma porte s'ouvre, le
                     coeur me bat. Pendant que mes gens vont et viennent dans mon appartement, je les
                     regarde avec des yeux qui leur demandent quelque chose. Je m'en suis apperçue à
-                    l' ennuyeuse répétition de, <hi rend="italic"> que veut madame? </hi> eh! Bon
-                    dieu! <hi rend="italic"> madame </hi> le sait-elle ce qu' <hi rend="italic">
-                        elle veut </hi> ? ... devinez-vous, ma chere Henriette, le sujet de tant
+                    l' ennuyeuse répétition de,
+     <hi rend="italic">
+      que veut madame?
+     </hi>
+     eh! Bon
+                    dieu!
+     <hi rend="italic">
+      madame
+     </hi>
+     le sait-elle ce qu'
+     <hi rend="italic">
+      elle veut
+     </hi>
+     ? ... devinez-vous, ma chere Henriette, le sujet de tant
                     d'émotion? ... oh! Que cela est bas, vil, honteux! C'est donc l'attente d'une
                     réponse... non, je ne puis me souffrir. J'ai envie de partir, de m'éloigner d'un
                     voisinage si dangereux; mais si Milord D'Ossery veut me voir, me parler, où
@@ -1577,12 +2152,18 @@
                     une femme? Ce matin il étoit chez moi; ses vertiges lui ont pris: je ne savois
                     avec quoi ranimer ses esprits. Je n'ai trouvé qu'un flacon rempli d'eau ambrée;
                     je lui ai tout répandu sur le visage. Sa soeur m'a crié que je l'empoisonnois...
-                    j'espére qu'il n'en reviendra pas. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 25 </head>
-                <p>
-                    <hi rend="italic"> jeudi. </hi> rien encore de Milord D'Ossery. Ne pas me
+                    j'espére qu'il n'en reviendra pas.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 25
+    </head>
+    <p>
+     <hi rend="italic">
+      jeudi.
+     </hi>
+     rien encore de Milord D'Ossery. Ne pas me
                     répondre! Il lui sied bien d'avoir de la hauteur... il est fâché, peut-être...
                     ma lettre étoit-elle si dure? ... le vain personnage ne peut supporter le ton de
                     l' indifférence dans une femme qui lui a montré de la tendresse; celui de la
@@ -1592,11 +2173,26 @@
                     la jalousie; ah! N'en riez jamais! Si vous l' aviez sentie, vous ne pourriez
                     vous permettre d'aigrir la sienne par des plaisanteries. Avec un naturel tendre
                     et généreux, est-il possible de badiner d'un mouvement involontaire, qui affecte
-                    l'ame si douloureusement? C'est une <hi rend="italic"> folie </hi> , dites-vous,
-                    une <hi rend="italic"> extravagance </hi> : soit; mais cette <hi rend="italic">
-                        folie </hi> désespére. C'est du supplice d'un homme dont elle est adorée,
-                    que Lady Henriette s'amuse:il doit être <hi rend="italic"> sûr de votre
-                        tendresse, vous connoître, vous croire </hi> . Eh! L'amour raisonne-t-il! à
+                    l'ame si douloureusement? C'est une
+     <hi rend="italic">
+      folie
+     </hi>
+     , dites-vous,
+                    une
+     <hi rend="italic">
+      extravagance
+     </hi>
+     : soit; mais cette
+     <hi rend="italic">
+      folie
+     </hi>
+     désespére. C'est du supplice d'un homme dont elle est adorée,
+                    que Lady Henriette s'amuse:il doit être
+     <hi rend="italic">
+      sûr de votre
+                        tendresse, vous connoître, vous croire
+     </hi>
+     . Eh! L'amour raisonne-t-il! à
                     force de réfléchir sur mes propres sentiments, j'ai, peut-être, aquis une légére
                     connoissance du coeur. Ma chere, celle qui peut rire de l'inquiétude, de la
                     douleur d'un homme attaché à elle, ou ne l'aime plus, ou s'est trompée quand
@@ -1608,28 +2204,75 @@
                     adoucissez, du moins, cette attente par une complaisance que vous devez à la
                     vivacité de sa tendresse. Je l'aime, vous le savez; et puis vos fautes retombent
                     un peu sur moi. Il m'écrit des lettres de quatre pages, toutes remplies de vos
-                        <hi rend="italic"> cruelles malices </hi> ; vous boudez, et il se désole:
+     <hi rend="italic">
+      cruelles malices
+     </hi>
+     ; vous boudez, et il se désole:
                     allons, pardonnez-lui pour l'amour de votre meilleure amie. On ne prétend pas
-                    vous <hi rend="italic"> cacher </hi> , vous faire <hi rend="italic"> disparoître
-                    </hi> ; on désire que vous soyez admirée: parez-vous, montrez-vous,sortez, on y
+                    vous
+     <hi rend="italic">
+      cacher
+     </hi>
+     , vous faire
+     <hi rend="italic">
+      disparoître
+     </hi>
+     ; on désire que vous soyez admirée: parez-vous, montrez-vous,sortez, on y
                     consent; soyez belle aux yeux de tout le monde; mais ne vous applaudissez de
                     l'être, que lorsque votre amant vous regarde. Adieu: on m'a prié de vous
-                    gronder; je vous gronde; mais je ne vous en aime pas moins. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 26 </head>
-                <p>
-                    <hi rend="italic"> vendredi, à Vinchester. </hi> la lettre de Milord D'Ossery
-                    vous a <hi rend="italic"> touchée </hi> ; ma réponse vous paroit <hi
-                        rend="italic"> très-haute </hi> , vous n'approuvez point cet <hi
-                        rend="italic"> excès de sévérité... </hi> allons, poursuivez, ma chere
+                    gronder; je vous gronde; mais je ne vous en aime pas moins.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 26
+    </head>
+    <p>
+     <hi rend="italic">
+      vendredi, à Vinchester.
+     </hi>
+     la lettre de Milord D'Ossery
+                    vous a
+     <hi rend="italic">
+      touchée
+     </hi>
+     ; ma réponse vous paroit
+     <hi rend="italic">
+      très-haute
+     </hi>
+     , vous n'approuvez point cet
+     <hi rend="italic">
+      excès de sévérité...
+     </hi>
+     allons, poursuivez, ma chere
                     Henriette, chagrinez-moi aussi. J'admire avec quelle facilité nous rapprochons
                     tout de nos propres sentiments; vous veniez de pardonner à Milord Carlile, quand
                     vous m'avez écrit. Pénétrée encore du plaisir que donne un doux raccommodement,
-                    vous pensez que l'on doit <hi rend="italic"> pardonner </hi> ; qu'il y a de la
-                        <hi rend="italic"> dureté </hi> à ne pas <hi rend="italic"> pardonner </hi>
-                    . Vous me <hi rend="italic"> priez </hi> , vous me <hi rend="italic"> conjurez
-                    </hi> d'entendre <hi rend="italic"> ce pauvre comte </hi> . Quand je voudrois
+                    vous pensez que l'on doit
+     <hi rend="italic">
+      pardonner
+     </hi>
+     ; qu'il y a de la
+     <hi rend="italic">
+      dureté
+     </hi>
+     à ne pas
+     <hi rend="italic">
+      pardonner
+     </hi>
+     . Vous me
+     <hi rend="italic">
+      priez
+     </hi>
+     , vous me
+     <hi rend="italic">
+      conjurez
+     </hi>
+     d'entendre
+     <hi rend="italic">
+      ce pauvre comte
+     </hi>
+     . Quand je voudrois
                     vous donner cette preuve de ma complaisance, en serois-je la maîtresse? ... eh!
                     Comment l'écouter! Il ne veutplus parler... vous le plaignez! Pouvez-vous croire
                     qu'après sa fuite, son mariage, et deux ans d'oubli, mon indifférence soit
@@ -1660,12 +2303,18 @@
                     notre imagination. Ce portrait, autrefois si chéri, est celui d'un homme
                     trompeur; hélas! Je l'ai regardé long-tems comme la représentation d'une
                     créature céleste! ... oh! Je ne puis plus le voir! ... je le hais... je me hais
-                    aussi... je vous aime toujours. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 27 </head>
-                <p>
-                    <hi rend="italic"> samedi, à Vinchester. </hi> vous mouriez d'envie que Sir
+                    aussi... je vous aime toujours.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 27
+    </head>
+    <p>
+     <hi rend="italic">
+      samedi, à Vinchester.
+     </hi>
+     vous mouriez d'envie que Sir
                     Henry parlât; eh bien! Le voilà déclaré, proposé et refusé! Milady Vinchester
                     m'a vanté l'amour de son frere, son respect, le silence qu'il s'est imposé dans
                     la crainte de me déplaire; et passant de ses louanges aux miennes, elle m'a
@@ -1702,16 +2351,26 @@
                     pour elle! N'en sont-ils pas responsables à leurs compatriotes, à des parents
                     qui les aiment, à une maîtresse dont ils causent long-tems l'inquiétude, et
                     enfin le désespoir? Pauvre Lady Seymour! Sa situation et les réflexions qu'elle
-                    vous engage à faire, ont pénétré mon coeur. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 28 </head>
-                <p>
-                    <hi rend="italic"> dimanche, à Vinchester. </hi> ah! Comment vous dire, vous
+                    vous engage à faire, ont pénétré mon coeur.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 28
+    </head>
+    <p>
+     <hi rend="italic">
+      dimanche, à Vinchester.
+     </hi>
+     ah! Comment vous dire, vous
                     exprimer? ... aurai-je la force d'écrire? ... hélas! Je me plaignois de lui! ...
                     Henriette...ma chere Henriette, il est malade, dangereusement malade... Milord
                     D' Ossery se meurt! ... ah! Dieu, il se meurt! ... voyez ce billet que je viens
-                    de recevoir. <hi rend="italic"> Milord D'Ossery à Milady Catesby. </hi> il ne me
+                    de recevoir.
+     <hi rend="italic">
+      Milord D'Ossery à Milady Catesby.
+     </hi>
+     il ne me
                     reste que peu d'instants à vivre: la contenance de ceux qui m'environnent, et la
                     résistance que l'on oppose à toutes mes volontés, m'en assurent. C'est avec
                     peine que j'obtiens la permission d' écrire... hélas! Pourquoi l'ai-je tant
@@ -1721,9 +2380,16 @@
                     moins, à la mémoire d'un amant malheureux; je ne vous ai jamais trompée; je vous
                     ai toujours aimée. Ces lettres que vous me demandez avec une dureté dont j'ai
                     cru votre coeur incapable, vous seront fidélement rendues après ma mort. Madame,
-                    ne m'en privez pas pendant que je respire encore. <hi rend="italic"> après sa
-                        mort! ... </hi> j'apprendrai <hi rend="italic"> avec plaisir... </hi>
-                    peut-il croire, imaginer? ... ah! L'inhumain, il ne lui restoit que ce coup
+                    ne m'en privez pas pendant que je respire encore.
+     <hi rend="italic">
+      après sa
+                        mort! ...
+     </hi>
+     j'apprendrai
+     <hi rend="italic">
+      avec plaisir...
+     </hi>
+     peut-il croire, imaginer? ... ah! L'inhumain, il ne lui restoit que ce coup
                     affreux à me porter; malade, mourant peut-être... eh! Où est-il? Chez qui? Dans
                     quel lieu? Dans quelles mains? ... est-il secouru? ... a-t-il près de lui? ...
                     oh! Cette douleur est insupportable! Ce malheureux qui vient d'apporter ce fatal
@@ -1741,12 +2407,18 @@
                     doit être pour l'autre cette voix dont les accents terribles rappellent vers toi
                     nos coeurs égarés, ah! Que ce soit moi, que ce soit ma mort qui ranime dans son
                     ame l' amour qui n'est dû qu'à toi seul! O! Ma chere Henriette, s'il meurt, vous
-                    n'avez plus d'amie! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 29 </head>
-                <p>
-                    <hi rend="italic"> mardi, à Vinchester. </hi> il est un peu mieux; mais la
+                    n'avez plus d'amie!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 29
+    </head>
+    <p>
+     <hi rend="italic">
+      mardi, à Vinchester.
+     </hi>
+     il est un peu mieux; mais la
                     fiévre est toujours violente; heureusement les symptomes de la malignité ont
                     disparu depuis deux jours. Il a encore des moments de délire dans lesquels il
                     s'agite beaucoup. Hélas! Il n'est point hors de danger! Je ne vous ai pas écrit
@@ -1765,10 +2437,16 @@
                     cette familiarité qui ne craint point de descendre, et imprime le respect dont
                     elle semble vouloir affranchir? C'est une créature si digne d'exister, qui va,
                     peut-être, périr? ... j'attends avec crainte, avec impatience... mais on demande
-                    Betty... ah! Quel bonheur! <hi rend="italic"> une nuit tranquille, </hi>
-                    <hi rend="italic"> cinq heures de sommeil, plus de délire, la fiévre
+                    Betty... ah! Quel bonheur!
+     <hi rend="italic">
+      une nuit tranquille,
+     </hi>
+     <hi rend="italic">
+      cinq heures de sommeil, plus de délire, la fiévre
                         considérablement diminuée; le docteur Harrison répond de sa vie, même de sa
-                        prochaine convalescence. </hi> o! Ma tendre, ma sincére amie, félicitez-moi!
+                        prochaine convalescence.
+     </hi>
+     o! Ma tendre, ma sincére amie, félicitez-moi!
                     Je bénis le ciel dont la bonté me le rend... des larmes de consolation coulent
                     enfin de mes yeux... ah! Qu'il vive! Qu'il soit heureux! Que tous les biens
                     qu'on envie deviennent son partage! ... aimable et cher D'Ossery, tu m'accuses
@@ -1776,18 +2454,31 @@
                     pour toi! Quelle dure bienséance me retient! Que ne m'est-il permis de voler
                     auprès de toi! D'aller soulager, partager, adoucir tes maux; de baigner ton
                     visage des pleurs que m'arrache le sentiment immortel qui m'attache à toi! Ah!
-                    Ranime tes espérances; celle que tu chéris n'est point <hi rend="italic">
-                        cruelle </hi> , n'est point <hi rend="italic"> inhumaine </hi> ; elle peut
+                    Ranime tes espérances; celle que tu chéris n'est point
+     <hi rend="italic">
+      cruelle
+     </hi>
+     , n'est point
+     <hi rend="italic">
+      inhumaine
+     </hi>
+     ; elle peut
                     te pardonner, te revoir, t'aimer! ... eh! Bon dieu, où m'emporte un mouvement
                     trop vif! ... ô! Ma bonne, mon indulgente amie, excusez mon égarement! Je ne
                     suis point à moi; mon ame est entrainée... mais je me sens brûlante, altérée; ma
                     tête ne peut plus se soutenir; mes yeux appesantis... hélas! Qu'ai-je donc? ...
-                    adieu; il vivra, ma chere; tous mes souhaits sont remplis. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 30 </head>
-                <p>
-                    <hi rend="italic"> samedi, à Vinchester. </hi> j'ai passé trois jours sans vous
+                    adieu; il vivra, ma chere; tous mes souhaits sont remplis.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 30
+    </head>
+    <p>
+     <hi rend="italic">
+      samedi, à Vinchester.
+     </hi>
+     j'ai passé trois jours sans vous
                     écrire, ma chere, et je crains bien que mon silence ne vous ait inquiétée; j'ai
                     eu un peu de mal à la gorge, la fiévre et beaucoup d'accablement; on m'a saignée
                     malgré moi. Sir Henry n'a pas voulu perdre cette occasion de faire éclater son
@@ -1802,8 +2493,12 @@
                     quelques jours, et le seul nom d'Abraham m'interdit? ... c'est un billet qu'il
                     m'apporte... ce pauvre Abraham, il est si charmé de me revoir, qu'il ne peut me
                     parler... mais lisons... ces lignes sont tracées avec difficulté... il a été
-                    bien mal... voyez, ma chere, ce qu'il m'écrit. <hi rend="italic"> billet de
-                        Milord D' Ossery à Milady Catesby. </hi> quoi! Madame, vous avez daigné vous
+                    bien mal... voyez, ma chere, ce qu'il m'écrit.
+     <hi rend="italic">
+      billet de
+                        Milord D' Ossery à Milady Catesby.
+     </hi>
+     quoi! Madame, vous avez daigné vous
                     intéresser à mes jours! Cette bonté me touche vivement; mais la dois-je à votre
                     seule pitié, ou à un foible reste de cette amitié? ... hélas! J'ose à peine me
                     flatter que vous en conserviez un léger souvenir! Qu'il me seroit doux de penser
@@ -1814,12 +2509,18 @@
                     excité.Vous voyez, il sait que j'ai craint pour sa vie. John, l'impertinent John
                     est cause de ces remerciements qu'il me fait... mais je suis obligée de finir;
                     on attend après ma lettre. Je ne veux pas vous laisser un jour de plus dans l'incertitude de ce qui peut être arrivé; et puis il faut une réponse à Abraham.
-                    Ah! C'est une grande affaire que cette réponse! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 31 </head>
-                <p>
-                    <hi rend="italic"> dimanche, à Vinchester. </hi> voyez, ma chere Henriette, dans
+                    Ah! C'est une grande affaire que cette réponse!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 31
+    </head>
+    <p>
+     <hi rend="italic">
+      dimanche, à Vinchester.
+     </hi>
+     voyez, ma chere Henriette, dans
                     quel embarras me jettent ma vivacité, cette précipitation avec laquelle
                     j'envoyai John, sans l'avertir de se cacher, sans lui défendre de me nommer,
                     sans lui donner d'autre ordre que de s'instruire. L'imprudent animal n'a rien su
@@ -1828,18 +2529,25 @@
                     l'antichambre de Milord D'Ossery. Le pauvre malade charmé de savoir près de lui
                     un de mes gens, envoyé par moi, a voulu le voir. MonsieurJohn, comme il me l'a
                     redit lui-même, a reçu, avec bien de la joie, l'ordre d'entrer; a répondu à
-                    toutes les questions de milord; l'a assuré <hi rend="italic"> que milady étoit
+                    toutes les questions de milord; l'a assuré
+     <hi rend="italic">
+      que milady étoit
                         plus morte que vive en le faisant partir; qu'elle avoit toujours bien de
                         l'amitié pour milord, et étoit à peine contente de recevoir trois buletins
-                        par jour, que lui John avoit l'honneur de lui envoyer... </hi> si vous
+                        par jour, que lui John avoit l'honneur de lui envoyer...
+     </hi>
+     si vous
                     saviez avec quelle satisfaction cet étourdi m'a rendu compte de sa commission;
                     comme il s'applaudit des merveilles qu'il a faites! ... après tout, je ne dois
                     me plaindre que de mon peu de prévoyance. J'ai renvoyé Abraham sans réponse
                     hier: je me suis excusée sur la foiblesse de ma tête... ah! Ce n'est pas celle
                     que je crains le plus! ... encore Abraham! ... encore une lettre! ... voyons...
                     ce n'est pas la peine de copier son billet; c'est, à peu près, celui d'hier,
-                    excepté beaucoup d'inquiétude sur ce mal de gorge que je n'ai plus. <hi
-                        rend="italic"> voyez-moi, écoutez-moi; </hi> toujours la même chose. Il faut
+                    excepté beaucoup d'inquiétude sur ce mal de gorge que je n'ai plus.
+     <hi rend="italic">
+      voyez-moi, écoutez-moi;
+     </hi>
+     toujours la même chose. Il faut
                     répondre... mais qu'il m'est difficile de lui écrire! Le zélé Abraham a dit à
                     Betty, qu'il ne partiroit point sans une lettre... à mesure que mes craintes se
                     sont dissipées, ma fierté a reprisde l'empire sur mon ame. Je suis très-fâchée
@@ -1847,14 +2555,22 @@
                     sûr. Par cette feinte, il ménage ma vanité; son adresse ne m'échappe point...
                     oh! Ces hommes! Ces hommes! Remarquez-vous comme ils savent tirer partie des
                     événements? Lorsque les moyens de nous subjuguer semblent leur manquer, un
-                    incident imprévu, le hazard, une <hi rend="italic"> maladie </hi> les raménent
+                    incident imprévu, le hazard, une
+     <hi rend="italic">
+      maladie
+     </hi>
+     les raménent
                     vers le but qu'ils s'étoient proposé. On ne veut point les voir; on ne veut
                     point les entendre; tout paroit fini; mais leurs ressources ne s'épuisent
                     jamais. Quand ils ne savent plus que faire, ils ont la fiévre, ma chere; ils
                     n'ont plus qu'un instant à vivre; ils remplissent notre imagination de terreur;
                     s'offrent à notre idée sous un aspect attendrissant; mettent sous nos yeux le
                     spectacle effrayant de la mort, de la destruction de cette forme enchanteresse
-                    qui nous séduisoit: et la fiévre la plus maligne n'est pas ce qui les tue; c'est notre <hi rend="italic"> dureté... </hi> il n'a pas songé à me dire cela...
+                    qui nous séduisoit: et la fiévre la plus maligne n'est pas ce qui les tue; c'est notre
+     <hi rend="italic">
+      dureté...
+     </hi>
+     il n'a pas songé à me dire cela...
                     mais Abraham attend... je n'aurois jamais cru avoir si peu d'esprit. Je ne
                     trouve rien à dire... oh! Ce méchant John! Que ne s'est-il caché! ... je rêve
                     envain... celui qui m'écrit, n'est-il pas ce même Milord D'Ossery qui m'a causé
@@ -1862,12 +2578,18 @@
                     Jenny? Ces torts sont-ils diminués? Non, mais... il a été malade. Allons, je
                     vais écrire... je ne vous envoie point la copie de mon billet; il est
                     très-court, très-étudié et très-mauvais. Adieu, ma chere Henriette; je vous aime
-                    toujours. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 32 </head>
-                <p>
-                    <hi rend="italic"> lundi, à Vinchester. </hi> je viens de me promener au bord
+                    toujours.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 32
+    </head>
+    <p>
+     <hi rend="italic">
+      lundi, à Vinchester.
+     </hi>
+     je viens de me promener au bord
                     d'une petite riviére, qui baigne les murs d'un pavillon où je vais souvent voir
                     pêcher. Comme il étoit fort matin, je me suis amusée à regarder traverser la
                     riviére à de jeunes paysannes qui vont vendre des fleurs et des fruits à la
@@ -1881,24 +2603,60 @@
                     l'appeller; elle est venue à nous; j'ai acheté tous ses bouquets, et lui ai
                     demandé pourquoi elle ne chantoit pas comme les autres. Ma question l'a émue;
                     elle a fait une petite mine pour s'empêcher de pleurer, et m'a dit avec une
-                    ingénuité charmante, qu'elle étoit prête à <hi rend="italic"> rompre son coeur
-                    </hi> ; que Mosès, un des fermiers de Milord Vinchester, la feroit mourir de
+                    ingénuité charmante, qu'elle étoit prête à
+     <hi rend="italic">
+      rompre son coeur
+     </hi>
+     ; que Mosès, un des fermiers de Milord Vinchester, la feroit mourir de
                     chagrin elle et un autre; et le souvenir de cet autre l'a fait pleurer, et bien
                     fort. La pauvre enfant m'a intéressée; j'ai voulu tout savoir, et voici
                     l'histoire de ma petite jardiniére. C'est que Mosès... écoutez bien, ma chere...
-                    Mosès est un <hi rend="italic"> méchant avare </hi> ; il avoit accordé Tommy,
-                    son petit-fils, avec Sara, qui aime Tommy comme <hi rend="italic"> ses deux yeux
-                    </hi> . La noce alloit se faire; les habits étoient achetés, les parents priés,
-                    les violons retenus; <hi rend="italic"> et voilà qu'une lettre </hi> venue
+                    Mosès est un
+     <hi rend="italic">
+      méchant avare
+     </hi>
+     ; il avoit accordé Tommy,
+                    son petit-fils, avec Sara, qui aime Tommy comme
+     <hi rend="italic">
+      ses deux yeux
+     </hi>
+     . La noce alloit se faire; les habits étoient achetés, les parents priés,
+                    les violons retenus;
+     <hi rend="italic">
+      et voilà qu'une lettre
+     </hi>
+     venue
                     d'Orford, a fait changer Mosès. La soeur de Tommy estmorte; elle a laissé de
-                    l'argent à Tommy, et le <hi rend="italic"> vilain </hi> Mosès ne veut plus de
+                    l'argent à Tommy, et le
+     <hi rend="italic">
+      vilain
+     </hi>
+     Mosès ne veut plus de
                     Sara pour sa petite-fille, à moins qu'on n'augmente sa dot à proportion de
-                    l'héritage. La mere de Sara, qui est <hi rend="italic"> fiére </hi> , s'est
-                    emportée, a tout rompu; et comme elle est d'un naturel un peu vif, elle veut <hi
-                        rend="italic"> tordre le cou </hi> à Sara, si elle aime encore le petit-fils
-                    de cet <hi rend="italic"> arabe </hi> de Mosès; et la pauvre Sara aura le <hi
-                        rend="italic"> cou tordu </hi> , voyez-vous, car elle l'aime toujours; et
-                    l'honnête Tommy <hi rend="italic"> rompra son coeur </hi> aussi plutôt que de
+                    l'héritage. La mere de Sara, qui est
+     <hi rend="italic">
+      fiére
+     </hi>
+     , s'est
+                    emportée, a tout rompu; et comme elle est d'un naturel un peu vif, elle veut
+     <hi rend="italic">
+      tordre le cou
+     </hi>
+     à Sara, si elle aime encore le petit-fils
+                    de cet
+     <hi rend="italic">
+      arabe
+     </hi>
+     de Mosès; et la pauvre Sara aura le
+     <hi rend="italic">
+      cou tordu
+     </hi>
+     , voyez-vous, car elle l'aime toujours; et
+                    l'honnête Tommy
+     <hi rend="italic">
+      rompra son coeur
+     </hi>
+     aussi plutôt que de
                     renoncer à Sara. Entre le bonheur ou le malheur de ces simples et tendres
                     amants, cent cinquante guinées s'élevoient comme une barriére insurmontable. Je
                     l'ai forcée; j'ai tout applani: le juif Mosès, la fiére jardiniére, l'honnête
@@ -1915,14 +2673,24 @@
                     suis gaie, ma chere; je commence à reprendre le gout des amusements; je ne veux
                     pas examiner la cause de ce changement; je trouverois peut-être... n'allez pas
                     croire que le mariage de Sara soit un prétexte pour célébrer la convalescence de
-                    ce <hi rend="italic"> pauvre comte... </hi> n'est-ce pas ainsi que vous
+                    ce
+     <hi rend="italic">
+      pauvre comte...
+     </hi>
+     n'est-ce pas ainsi que vous
                     l'appellez? En tout cas John n'en sait rien; mon secret est en sûreté. Voir
-                    danser à ce bal. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 33 </head>
-                <p>
-                    <hi rend="italic"> mardi, à Vinchester. </hi> encore une lettre! ... voilà un
+                    danser à ce bal.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 33
+    </head>
+    <p>
+     <hi rend="italic">
+      mardi, à Vinchester.
+     </hi>
+     encore une lettre! ... voilà un
                     commerce bien exact et bien dangereux: j'ai à tout moment besoin de me souvenir
                     queMilord D'Ossery m'a trompée. Malgré ce souvenir, comment résister aux
                     mouvements de mon coeur? Ils me portent à l'écouter. Mais que me dira-t-il? Ses
@@ -1932,16 +2700,25 @@
                     Arthur, tante de feu Milady D'Ossery, est ici depuis huit jours; elle parle
                     continuellement des graces et de la beauté de la petite D'Ossery. Cette femme
                     est la plus ennuyeuse créature qu'il soit possible de rencontrer: mais voici la
-                    lettre de milord. <hi rend="italic"> Milord D'Ossery à Milady Catesby. </hi>
-                    hélas! De quoi me félicitez-vous, madame! De quel prix sont pour moi des jours
+                    lettre de milord.
+     <hi rend="italic">
+      Milord D'Ossery à Milady Catesby.
+     </hi>
+     hélas! De quoi me félicitez-vous, madame! De quel prix sont pour moi des jours
                     que vous ne voulez plus rendre heureux! Vous! Des égards! Ah! Vous ne pouviez
                     m'affliger plus sensiblement que par cette insultante politesse! Elle est
                     toujours compagne de l'indifférence. Supprimez-les ces égards; c'est votre
                     pitié, votre tendre pitié, qui m'est nécessaire; c'estune condescendance d'un
                     jour, d'une heure, que je vous demande. Ne m'entendrez-vous point? Suis-je
                     condamné sans retour? Me refuserez-vous une grace accordée aux plus vils
-                    criminels? Nous avons <hi rend="italic"> été </hi>
-                    <hi rend="italic"> amis... </hi> ne vous souvient-il plus que vous m'avez donné
+                    criminels? Nous avons
+     <hi rend="italic">
+      été
+     </hi>
+     <hi rend="italic">
+      amis...
+     </hi>
+     ne vous souvient-il plus que vous m'avez donné
                     un nom plus doux? Mon amour, le vôtre, vos promesses, vos serments même, tout
                     est-il effacé? ... rappellez-vous Erford, ma chere, mon adorable Juliette...
                     c'est un homme autrefois honoré de votre tendresse, qui vous demande, à genoux,
@@ -1949,35 +2726,69 @@
                     pas rejetter ma priére. Ne continuez pas à affliger un malheureux dont le sort
                     est dans vos mains. Non, je ne perdrai qu'avec la vie, l'espoir d'obtenir de
                     vous un généreux pardon. J'ai un secret que je ne puis révéler qu'à vous;
-                    donnez-moi un jour, madame; au nom du ciel, ne soyez pas inexorable. Sa <hi
-                        rend="italic"> chere </hi> , son <hi rend="italic"> adorable Juliette </hi>
-                    ; cela est assez familier, je vous assure; et vous voyez quelle obstination à se
+                    donnez-moi un jour, madame; au nom du ciel, ne soyez pas inexorable. Sa
+     <hi rend="italic">
+      chere
+     </hi>
+     , son
+     <hi rend="italic">
+      adorable Juliette
+     </hi>
+     ; cela est assez familier, je vous assure; et vous voyez quelle obstination à se
                     faire écouter... ah!Cette maladie! Où m'a-t-elle engagée? ... le voir! La seule
                     idée d'une telle entrevue me fait tressaillir... mais cette audace de vouloir me
                     parler! ... cet homme est bien hardi! Ne devroit-il pas éviter mes regards?
                     Quelle pourroit être sa contenance devant moi! Ne suis-je pas en droit de
                     l'accabler de reproches? ... eh bien, il ne me craint point du tout! D'où vient
                     que je le redoute, moi qui peux lever les yeux sur lui avec la noble assurance
-                    que donne la certitude d'avoir toujours bien fait? Que je me <hi rend="italic">
-                        rappelle Erford! </hi> hélas! S'il m'y avoit vue après son départ,
-                    oseroit-il me prier de me le <hi rend="italic"> rappeller </hi> ? Il connoit ses
+                    que donne la certitude d'avoir toujours bien fait? Que je me
+     <hi rend="italic">
+      rappelle Erford!
+     </hi>
+     hélas! S'il m'y avoit vue après son départ,
+                    oseroit-il me prier de me le
+     <hi rend="italic">
+      rappeller
+     </hi>
+     ? Il connoit ses
                     fautes; mais qu'il est loin d' imaginer comment je les ai senties? ... peut-il
                     jamais excuser cet abandon cruel? Eh! Pourquoi feignoit-il? Pourquoi feint-il
                     encore? Je me préparois avec plaisir à la fête que je donne. Cette lettre vient
-                    troubler ma joie, m'embarrasser, me retracer un tems... ah! Rien n'est <hi
-                        rend="italic"> effacé </hi> ! ... vous êtes fort capable de rire de mes
-                    chagrins; vous me dites que je devrois <hi rend="italic"> l'avoir vu, l'avoir
-                        entendu </hi> , que <hi rend="italic"> tout seroit terminé </hi> . Vous qui
+                    troubler ma joie, m'embarrasser, me retracer un tems... ah! Rien n'est
+     <hi rend="italic">
+      effacé
+     </hi>
+     ! ... vous êtes fort capable de rire de mes
+                    chagrins; vous me dites que je devrois
+     <hi rend="italic">
+      l'avoir vu, l'avoir
+                        entendu
+     </hi>
+     , que
+     <hi rend="italic">
+      tout seroit terminé
+     </hi>
+     . Vous qui
                     n'avez jamais eu à pardonner que des fautes légéres, quelques mouvements de
                     jalousie, de l'impatience,de l'humeur peut-être, vous croyez qu'on peut se
                     résoudre aisément; qu'il est facile de savoir ce qu'on veut... je ne puis
-                    comprendre cet espoir de pardon! Mon dessein n'est pas de <hi rend="italic">
-                        l'affliger </hi> . Je le verrois si je croyois pouvoir soutenir sa présence;
-                    je l'écouterois s'il étoit possible d'excuser... mais je vais lui écrire. <hi
-                        rend="italic"> Milady Catesby à Milord D'Ossery. </hi> eh! Pourquoi, milord,
+                    comprendre cet espoir de pardon! Mon dessein n'est pas de
+     <hi rend="italic">
+      l'affliger
+     </hi>
+     . Je le verrois si je croyois pouvoir soutenir sa présence;
+                    je l'écouterois s'il étoit possible d'excuser... mais je vais lui écrire.
+     <hi rend="italic">
+      Milady Catesby à Milord D'Ossery.
+     </hi>
+     eh! Pourquoi, milord,
                     n'aurois-je point tout oublié! Qui m'engageoit à me souvenir d'un ingrat, à
-                    m'occuper d'un infidéle? Ne m'avez-vous pas prié <hi rend="italic"> de vous
-                        oublier </hi> ? Comment osez-vous me rappeller un tems et des lieux auxquels
+                    m'occuper d'un infidéle? Ne m'avez-vous pas prié
+     <hi rend="italic">
+      de vous
+                        oublier
+     </hi>
+     ? Comment osez-vous me rappeller un tems et des lieux auxquels
                     je ne puis songer sans vous haïr? Quel droit avez-vous encore à mon amitié,
                     après m'avoir si cruellement récompensée de celle que je vous ai montrée? Si
                     votre légéreté m'a rendue à moi-même, vous ne pouvez vous plaindre que de votre
@@ -1991,12 +2802,18 @@
                     complaisance où je puisse me forcer pour vous obliger. Je suis fâchée d'avoir
                     envoyé cette lettre: on dit qu'entre des amants brouillés un reproche est le
                     préliminaire d'un traité de paix. Adieu, mon aimable Henriette, je vous aime
-                    toujours. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 34 </head>
-                <p>
-                    <hi rend="italic"> mercredi... non jeudi, à six heures du matin. </hi> oh! Ma
+                    toujours.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 34
+    </head>
+    <p>
+     <hi rend="italic">
+      mercredi... non jeudi, à six heures du matin.
+     </hi>
+     oh! Ma
                     chere Henriette, quelle agitation dans mes sens! ... quel trouble dans mon ame!
                     ... je l'ai vu... il m'a parlé...c' étoit lui... il étoit au bal... oui, lui!
                     Milord D'Ossery... ah! Ne me dites plus de le voir! Ne me priez plus de
@@ -2030,12 +2847,18 @@
                     lesquelles je cherchois en vain Milord D'Ossery; je l'ai apperçu au bout de la
                     terrasse; et dèsque je me suis levée, il a disparu; le bal a fini, et me voilà
                     dans mon lit à vous écrire, à réfléchir, à me chagriner... je ne sais quel parti
-                    prendre. </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 35 </head>
-                <p>
-                    <hi rend="italic"> vendredi, à Vinchester. </hi> je reçois des invitations si
+                    prendre.
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 35
+    </head>
+    <p>
+     <hi rend="italic">
+      vendredi, à Vinchester.
+     </hi>
+     je reçois des invitations si
                     pressantes de Milord D'Ormond; ma cousine et lui continuent à me prier avec tant
                     d'instances d'aller les trouver à Erford, que je ne puis me refuser plus
                     long-tems à leur empressement. Je ne sais pourquoi je sens affoiblir ma
@@ -2050,8 +2873,11 @@
                     et nous irons ensemble à ma jolie maison d' Amsteat... voici Abraham... quel
                     paquet il m'apporte! Tout un cahier écrit de la main de milord... oh! Permettez,
                     permettez, ma chere, que je vous laisse! ... je brûle de lire... ah! Qu'est-ce
-                    donc qu'il me dit! Vous le saurez dès que j'aurai parcouru ce cahier. <hi
-                        rend="italic"> Milord D'Ossery à Milady Catesby. </hi> l'avanture du bal m'a
+                    donc qu'il me dit! Vous le saurez dès que j'aurai parcouru ce cahier.
+     <hi rend="italic">
+      Milord D'Ossery à Milady Catesby.
+     </hi>
+     l'avanture du bal m'a
                     trop appris, madame, que je ne puis espérer de devoir au hazard ou à mon
                     adresse, la faveur d'un entretien avec vous. L'horreur que vous a fait ma
                     présence, l'état où je vous ai vue, et la douleur que j'ai sentie d'en être la
@@ -2063,8 +2889,12 @@
                     vous vous géniez sur ce point. Tout ce qui vous est cher aquiert des droits sur
                     mon coeur; votre amie ne peut être une personne indifférente pour moi. Ah! Lady
                     Juliette, lorsque vous aurez lu, si vous ne me pardonnez pas, vous n'avez jamais
-                    aimé celui qui vous aimera toujours! <hi rend="italic"> histoire de Milord
-                        D'Ossery. </hi> lorsque Lady Charlotte Chester eut donné au Duc De Penbroke
+                    aimé celui qui vous aimera toujours!
+     <hi rend="italic">
+      histoire de Milord
+                        D'Ossery.
+     </hi>
+     lorsque Lady Charlotte Chester eut donné au Duc De Penbroke
                     une préférence que mes soins et mon attachement m'avoient fait espérer, je
                     voulus m'éloigner d'elle, et je passai en France. J'étois vivement touché de sa
                     perfidie; elle me porta à éviter les femmes; je jugeai de toutes, par la seule
@@ -2244,19 +3074,25 @@
                     regretter, jugez de mes tourments par les vôtres! Jugez de ma douleur en m'arrachant à vous! à vous, que j'adorois... que j'adorerai toujours, de quelque
                     façon que vous puissiez me traiter. Vous devez vous souvenir, madame, qu'un
                     courier me fit demander la veille de mon départ d'Erford; il m'apportoit une
-                    lettre: elle étoit de Miss Jenny, et voici ce qu'elle contenoit. <hi
-                        rend="italic"> lettre de Miss Jenny Montfort à Milord Comte D' Ossery. la
+                    lettre: elle étoit de Miss Jenny, et voici ce qu'elle contenoit.
+     <hi rend="italic">
+      lettre de Miss Jenny Montfort à Milord Comte D' Ossery. la
                         malheureuse soeur de votre ami, la triste Jenny Montfort est perdue,
                         deshonnorée par l'imprudence de son frere, par la vôtre, milord, et plus
                         encore par la sienne. Elle vous l'apprend sans savoir ce qu'elle espére de
                         sa démarche; elle n'a rien exigé de vous; vous ne lui avez rien promis. Quel
-                    </hi> droit lui est-il permis de réclamer? Et pourtant <hi rend="italic"> si
+     </hi>
+     droit lui est-il permis de réclamer? Et pourtant
+     <hi rend="italic">
+      si
                         vous l'abandonnez, n'aurez-vous rien à vous reprocher? Je désire ardemment
                         votre réponse; si elle n' adoucit point ma situation, je n'attendrai pas que
                         ma honte paroisse à tous les yeux. Le seul moyen qui peut m'en faire éviter
                         l'éclat, s'est déja présenté à mon esprit. J'ensevelirai avec moi ce funeste
                         secret, et personne ne vous reprochera jamais le malheur ni la mort de Jenny
-                        Montfort. </hi> peignez-vous mon état, madame, après cette lecture; songez
+                        Montfort.
+     </hi>
+     peignez-vous mon état, madame, après cette lecture; songez
                     dans quelles réflexions je passai cette nuit, la derniére de mon séjour à
                     Erford. Je formai mille projets; ma raison les détruisois à mesure qu'ils
                     s'offroient à mon imagination: je voulois aller trouver Montfort, lui apprendre
@@ -2477,35 +3313,76 @@
                     la haïr; c'étoit à elle à me détester. Je suis sensiblement affectée de cette
                     mort. Puisqu'il le permet, je vous envoie ce cahier... je ne sais encore ce que
                     je pense... ah! Cette aimable Jenny, que son sort a été triste! Je le croyois si
-                    heureux! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 36 </head>
-                <p>
-                    <hi rend="italic"> samedi, à Vinchester. </hi> Milord D'Ossery avoit bien raison
+                    heureux!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 36
+    </head>
+    <p>
+     <hi rend="italic">
+      samedi, à Vinchester.
+     </hi>
+     Milord D'Ossery avoit bien raison
                     de dire que l'espéce de ses torts m' étoit inconnue. Comment aurois-je imaginé?
-                    ... quelle avanture! Ce <hi rend="italic"> cabinet... </hi> cette <hi
-                        rend="italic"> obscurité... </hi> sa hardiesse... il appelle cela un
-                    malheur... j'oubliai mon amour, dit-il... ah! Oui, les hommes ont de ces <hi
-                        rend="italic"> oublis </hi> ; leur coeur et leurs sens peuvent agir
+                    ... quelle avanture! Ce
+     <hi rend="italic">
+      cabinet...
+     </hi>
+     cette
+     <hi rend="italic">
+      obscurité...
+     </hi>
+     sa hardiesse... il appelle cela un
+                    malheur... j'oubliai mon amour, dit-il... ah! Oui, les hommes ont de ces
+     <hi rend="italic">
+      oublis
+     </hi>
+     ; leur coeur et leurs sens peuvent agir
                     séparément; ils le prétendentau moins; et par ces distinctions qu'ils prennent
                     pour excuse, ils se réservent la faculté d'être excités par l'amour, séduits par
-                    la volupté, ou entraînés par <hi rend="italic"> l'instinct </hi> . Comment
+                    la volupté, ou entraînés par
+     <hi rend="italic">
+      l'instinct
+     </hi>
+     . Comment
                     pouvons-nous démêler la véritable impression qui les détermine? Les effets sont
                     si semblables, et la cause si cachée. Mais cette excuse qu'ils prennent, ils ne
                     la reçoivent pas; remarquez cela: ce qu'ils séparent en eux, ils le réunissent
                     en nous. C'est nous accorder une grande supériorité dans notre façon de sentir;
                     mais faire naître en nous une terrible incertitude sur l'espéce des mouvements
-                    qui les portent à désirer de nous posséder. Pourtant, ma chere Henriette, ce <hi
-                        rend="italic"> perfide </hi> , cet <hi rend="italic"> ingrat </hi> , cet
-                    homme <hi rend="italic"> faux et trompeur </hi> , n'étoit qu'un infidéle... pas
-                    même un infidéle... sa tête <hi rend="italic"> troublée... </hi> sa raison <hi
-                        rend="italic"> égarée... </hi> ah! Quel égarement! Qu' il m'a couté de
+                    qui les portent à désirer de nous posséder. Pourtant, ma chere Henriette, ce
+     <hi rend="italic">
+      perfide
+     </hi>
+     , cet
+     <hi rend="italic">
+      ingrat
+     </hi>
+     , cet
+                    homme
+     <hi rend="italic">
+      faux et trompeur
+     </hi>
+     , n'étoit qu'un infidéle... pas
+                    même un infidéle... sa tête
+     <hi rend="italic">
+      troublée...
+     </hi>
+     sa raison
+     <hi rend="italic">
+      égarée...
+     </hi>
+     ah! Quel égarement! Qu' il m'a couté de
                     larmes! Faudra-t-il pardonner! ... mais comment Milord D'Ossery a-t-il pu me
                     laisser deux ans dans l' ignorance de ce secret? ... il en donne une raison...
                     il en donne de tout... qu'il a souffert! Que de probité dans ce sacrifice!
-                    Quelle générosité! Il parle de sa fille: <hi rend="italic"> aimable innocente,
-                    </hi> dit-il... je meplais à lui voir ce naturel tendre... pauvre petite! Je
+                    Quelle générosité! Il parle de sa fille:
+     <hi rend="italic">
+      aimable innocente,
+     </hi>
+     dit-il... je meplais à lui voir ce naturel tendre... pauvre petite! Je
                     crois, ma chere, que je l'aime aussi... ah! S'il m'avoit parlé à Erford, que de
                     peines il nous eût épargnées à l'un et à l'autre! Je me serois prêtée à sa
                     situation; il m'eût été moins dur de le céder, que de m'en voir abandonnée; je
@@ -2516,16 +3393,29 @@
                     vus; j'aurois aimé sa femme. Quel sujet avois-je de m'en plaindre? Pourquoi
                     n'auroit-elle pas été ma compagne, mon amie? Elle vivroit peut-être encore. Je
                     ne me ferois point le reproche cruel d'avoir innocemment causé ses chagrins.
-                    Mais à quoi servent à présent tous ces <hi rend="italic"> j' aurois </hi> , il
-                        <hi rend="italic"> eût </hi> , dont je vous fatigue? Milady D'Ossery est
+                    Mais à quoi servent à présent tous ces
+     <hi rend="italic">
+      j' aurois
+     </hi>
+     , il
+     <hi rend="italic">
+      eût
+     </hi>
+     , dont je vous fatigue? Milady D'Ossery est
                     morte. Son mari étoit coupable; l'est-il encore? Ne l'est-il plus? Voilà le
                     point embarrassant. La raison de me cacher son secret est bien légére; si peu de
-                    confiance...mais c'étoit sa femme: oh! Je ne sais que résoudre! </p>
-            </div>
-            <div type="letter">
-                <head> LETTRE 37 </head>
-                <p>
-                    <hi rend="italic"> dimanche, à Vinchester. </hi> je pars après-demain pour
+                    confiance...mais c'étoit sa femme: oh! Je ne sais que résoudre!
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE 37
+    </head>
+    <p>
+     <hi rend="italic">
+      dimanche, à Vinchester.
+     </hi>
+     je pars après-demain pour
                     Erford; Abraham est ici: son maître envoie savoir de mes nouvelles; je le crois
                     plus inquiet de ma réponse que de ma santé. La fin touchante de sa femme avoit
                     arrêté les transports de ma joie; elle me frappe encore; mais mon coeur parle;
@@ -2538,12 +3428,16 @@
                     soumissions, des craintes, des incertitudes, un bien qu'il désire; un prompt
                     retour sera le prix de sa confiance... quel heureuxavenir s'ouvre devant moi!
                     Mais je vais lui écrire; pourquoi retarderois-je le plaisir que je puis lui
-                    procurer? Voici la copie de mon billet. <hi rend="italic"> à Milord D'Ossery.
+                    procurer? Voici la copie de mon billet.
+     <hi rend="italic">
+      à Milord D'Ossery.
                         vous me croyez changée, non, je ne le suis point. sensible à votre
                         confiance, je crois devoir l'être aussi à vos sentiments. Je vais chez
                         Milord D'Ormond. Si vous voulez vous rendre à Erford, j'y reverrai le Comte
                         D'Ossery avec ce plaisir vif qu'on sent en retrouvant un ami que l'on
-                        croyoit avoir perdu pour jamais. </hi> en l'invitant d'aller à Erford, en
+                        croyoit avoir perdu pour jamais.
+     </hi>
+     en l'invitant d'aller à Erford, en
                     lui disant que je la verrai avec plaisir, n'est-ce pas tout lui dire? Je cache
                     avec peine l'agitation de mes sens; ma joie brille dans mes yeux; on dit que je
                     suis embellie depuis deux jours. ô! Ma chere amie, que je voudrois vous voir!
@@ -2553,8 +3447,12 @@
                     lui, prouvant mon estime,a paru calmer un peu ses chagrins; il sera mon ami,
                     dit-il; mon bonheur le consolera... il m'a touchée. Adieu, ma chere Henriette;
                     j'attends vos félicitations à Erford; j'y serai jeudi, peut-être mercredi: vous
-                    jugez bien que j'ai beaucoup d' envie d'y arriver. <hi rend="italic"> Milord
-                        D'Ossery à Lady Henriette, lundi à Erford. </hi> vous écrivez, belle
+                    jugez bien que j'ai beaucoup d' envie d'y arriver.
+     <hi rend="italic">
+      Milord
+                        D'Ossery à Lady Henriette, lundi à Erford.
+     </hi>
+     vous écrivez, belle
                     Henriette, à Milady Catesby; on a reconnu votre main, vos armes; mais à qui
                     remettre votre lettre? Est-il encore au monde une Milady Catesby? Ce n'est pas,
                     du moins, à Erford qu'il faut la chercher. Si, à la place de cette amie si chere
@@ -2566,27 +3464,51 @@
                     tous les biens dont j'étoisprivé. Permettez-moi de vous remercier du désir
                     généreux que vous aviez qu' elle me pardonnât. Elle l'a fait; elle a mis dans
                     cet acte de bonté toute la noblesse de sentiments dont vous la connoissez
-                    capable; hier fut le jour à jamais fortuné... <hi rend="italic"> Milady
-                        D'Ossery. </hi> eh bien, cet indiscret, il ne me laissera rien à vous dire.
+                    capable; hier fut le jour à jamais fortuné...
+     <hi rend="italic">
+      Milady
+                        D'Ossery.
+     </hi>
+     eh bien, cet indiscret, il ne me laissera rien à vous dire.
                     ô! Ma chere Henriette, ils étoient tous unis contre moi; on ne m'appelloit ici
                     que pour me conduire dans le piége préparé: ma cousine conduisoit la
                     conjuration; on ne m'a pas donné le tems de respirer. Un amant repentant à mes
                     genoux, des parents chéris, priant pour lui; un coeur tendre, le ministre
                     présent... en vérité, on m'a mariée si vite, si vite, que je crois, de bonne
                     foi, que le mariage ne vaut rien. Milady D'Ormond est si vive... si absolue...
-                        <hi rend="italic"> Milady D'Ormond. </hi> j'arrive à tems pour me justifier:
-                    un <hi rend="italic"> piége </hi> , une <hi rend="italic"> conspiration </hi> ,
-                    un <hi rend="italic"> mariage qui ne vaut rien... </hi> que penseriez-vous de
+     <hi rend="italic">
+      Milady D'Ormond.
+     </hi>
+     j'arrive à tems pour me justifier:
+                    un
+     <hi rend="italic">
+      piége
+     </hi>
+     , une
+     <hi rend="italic">
+      conspiration
+     </hi>
+     ,
+                    un
+     <hi rend="italic">
+      mariage qui ne vaut rien...
+     </hi>
+     que penseriez-vous de
                     moi, machere Henriette, si vous n'étiez sûre de mes sentiments pour notre amie?
                     Oui, je l'ai mariée au seigneur d' Angleterre le plus aimable; le mariage est
                     bon, je vous assure; et aucune des parties contractantes n'a envie de le rompre.
                     Juliette n'est-elle pas en droit de se plaindre de moi! Son bonheur a toujours
                     été un de mes souhaits les plus ardents; je le crois parfait, et je m'attends à
-                    des compliments de votre part. <hi rend="italic"> Milady D'Ossery. </hi> on vous
+                    des compliments de votre part.
+     <hi rend="italic">
+      Milady D'Ossery.
+     </hi>
+     on vous
                     attend avec impatience ici: point de fêtes, de bals sans ma chere Henriette; je
                     dirois point de plaisirs, si la personne qui suit ma plume des yeux, n'étoit
-                    déja un peu jalouse de ma tendre amitié. </p>
-            </div>
-        </body>
-    </text>
+                    déja un peu jalouse de ma tendre amitié.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

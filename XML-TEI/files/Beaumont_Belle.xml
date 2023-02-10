@@ -1,97 +1,157 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Beaumont_Belle" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:56.19 wikidata:Q60193373">La Belle et la Bête: MiMoText edition</title>
-        <author ref="viaf:31999252 wikidata:Q466788">Jeanne-Marie Leprince de Beaumont(1711-1776)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>wikisource</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">5599</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref
-            target="https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/La_Belle_et_la_B%C3%AAte"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Contes moraux pour l'instruction de la jeunesse</title>
-          <author>Jeanne Marie Leprince de Beaumont</author>
-          <pubPlace>Paris</pubPlace>
-          <publisher>Barba</publisher>
-          <date>1806</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <title>Magasin des enfans</title>
-          <date>1756</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-07-01"/>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>La Belle et la Bête</p>
-        <p>Jeanne Marie Leprince de Beaumont</p>
-        <p>Barba, Paris , 1806</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>LA BELLE ET LA BÊTE.</head>
-        <head>CONTE.</head>
-        <p>Il y avait une fois un marchand qui était extrêmement riche. Il avait six enfans, trois garçons
+<TEI xml:id="Beaumont_Belle" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:56.19 wikidata:Q60193373">
+     La Belle et la Bête: MiMoText edition
+    </title>
+    <author ref="viaf:31999252 wikidata:Q466788">
+     Jeanne-Marie Leprince de Beaumont(1711-1776)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      wikisource
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     5599
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/La_Belle_et_la_B%C3%AAte"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2021
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Contes moraux pour l'instruction de la jeunesse
+     </title>
+     <author>
+      Jeanne Marie Leprince de Beaumont
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Barba
+     </publisher>
+     <date>
+      1806
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <title>
+      Magasin des enfans
+     </title>
+     <date>
+      1756
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-07-01"/>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     La Belle et la Bête
+    </p>
+    <p>
+     Jeanne Marie Leprince de Beaumont
+    </p>
+    <p>
+     Barba, Paris , 1806
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     LA BELLE ET LA BÊTE.
+    </head>
+    <head>
+     CONTE.
+    </head>
+    <p>
+     Il y avait une fois un marchand qui était extrêmement riche. Il avait six enfans, trois garçons
           et trois filles ; et, comme ce marchand était un homme d'esprit, il n'épargna rien pour l'éducation
           de ses enfants, et leur donna toutes sortes de maîtres. Ses filles étaient très-belles ; mais la
           cadette, sur-tout, se faisait admirer, et on ne l'appelait, quand elle était petite, que
-          <hi rend="italic">La belle enfant</hi>
-          ; en sorte que le nom lui en resta ; ce qui donna beaucoup de jalousie à ses sœurs. Cette cadette,
+     <hi rend="italic">
+      La belle enfant
+     </hi>
+     ; en sorte que le nom lui en resta ; ce qui donna beaucoup de jalousie à ses sœurs. Cette cadette,
           qui était plus belle que ses sœurs, était aussi meilleure qu'elles. Les deux aînées avaient beaucoup
           d'orgueil, parce qu'elles étaient riches ; elles faisaient les dames, et ne voulaient pas recevoir
           les visites des autres filles de marchands ; il leur fallait des gens de qualité pour leur
@@ -100,12 +160,16 @@
           savait que ces filles étaient fort riches, plusieurs gros marchands les demandèrent en mariage ;
           mais les deux aînées répondirent qu'elles ne se marieraient jamais, à moins qu'elles ne trouvassent
           un duc, ou tout au moins un comte. La
-          <hi rend="italic">Belle</hi>
-          (car je vous ai dit que c'était le nom de la plus jeune), la Belle, dis-je, remercia bien
+     <hi rend="italic">
+      Belle
+     </hi>
+     (car je vous ai dit que c'était le nom de la plus jeune), la Belle, dis-je, remercia bien
           honnêtement ceux qui voulaient l'épouser ; mais elle leur dit : qu'elle était trop jeune, et qu'elle
           souhaitait de tenir compagnie à son père pendant quelques années. Tout d'un coup le marchand perdit
-          son bien, et il ne lui resta qu'une petite maison de campagne, bien loin de la ville.</p>
-        <p>Il dit en pleurant, à ses enfans, qu'il fallait aller demeurer dans cette maison, et, qu'en
+          son bien, et il ne lui resta qu'une petite maison de campagne, bien loin de la ville.
+    </p>
+    <p>
+     Il dit en pleurant, à ses enfans, qu'il fallait aller demeurer dans cette maison, et, qu'en
           travaillant comme des paysans, ils y pourraient vivre. Ses deux filles aînées répondirent qu'elles
           ne voulaient pas quitter la ville, et qu'elles avaient plusieurs amans qui seraient trop heureux de
           les épouser, quoiqu'elles n'eussent plus de fortune : les bonnes demoiselles se trompaient ; leurs
@@ -119,8 +183,10 @@
           malheur, et qu'elle le suivrait à la campagne, pour le consoler et lui aider à travailler. La pauvre
           Belle avait été bien affligée d'abord de perdre sa fortune ; mais elle s'était dit à elle-même :
           quand je pleurerai bien fort, mes larmes ne me rendront pas mon bien ; il faut tâcher d'être
-          heureuse sans fortune.</p>
-        <p>Quand ils furent arrivés à leur maison de campagne, le marchand et ses trois fils s'occupèrent à
+          heureuse sans fortune.
+    </p>
+    <p>
+     Quand ils furent arrivés à leur maison de campagne, le marchand et ses trois fils s'occupèrent à
           labourer la terre. La Belle se levait à quatre heures du matin, et se dépêchait de nétoyer la maison
           et d'apprêter à dîner pour la famille. Elle eut d'abord beaucoup de peine, car elle n'était pas
           accoutumée à travailler comme une servante ; mais, au bout de deux mois, elle devint plus forte, et
@@ -131,8 +197,10 @@
           basse, et est si stupide qu'elle est contente de sa malheureuse situation. Le bon marchand ne
           pensait pas comme ses filles. Il savait que la Belle était plus propre que ses sœurs à briller dans
           les compagnies. Il admirait la vertu de cette jeune fille, et sur-tout sa patience ; car ses sœurs,
-          non contentes de lui laisser faire tout l'ouvrage de la maison, l'insultaient à tout moment.</p>
-        <p>Il y avait un an que cette famille vivait dans la solitude, lorsque le marchand reçut une lettre,
+          non contentes de lui laisser faire tout l'ouvrage de la maison, l'insultaient à tout moment.
+    </p>
+    <p>
+     Il y avait un an que cette famille vivait dans la solitude, lorsque le marchand reçut une lettre,
           par laquelle on lui marquait qu'un vaisseau, sur lequel il avait des marchandises, venait d'arriver
           heureusement. Cette nouvelle pensa tourner la tête à ses deux aînées, qui pensaient qu'à la fin
           elles pourraient quitter cette campagne, où elles s'ennuyaient tant ; et quand elles virent leur
@@ -164,8 +232,10 @@
           faim, et prit un poulet qu'il mangea en deux bouchées, et en tremblant. Il but aussi quelques coups
           de vin, et, devenu plus hardi, il sortit de la salle, et traversa plusieurs grands appartemens,
           magnifiquement meublés. À la fin il trouva une chambre où il y avait un bon lit, et comme il était
-          minuit passé, et qu'il était las, il prit le parti de fermer la porte et de se coucher.</p>
-        <p>Il était dix heures du matin quand il se leva le lendemain, et il fut bien surpris de trouver un
+          minuit passé, et qu'il était las, il prit le parti de fermer la porte et de se coucher.
+    </p>
+    <p>
+     Il était dix heures du matin quand il se leva le lendemain, et il fut bien surpris de trouver un
           habit fort propre à la place du sien qui était tout gâté. Assurément, dit-il, en lui-même, ce palais
           appartient à quelque bonne Fée qui a eu pitié de ma situation. Il regarda par la fenêtre et ne vit
           plus de neige ; mais des berceaux de fleurs qui enchantaient la vue. Il rentra dans la grande salle
@@ -175,7 +245,10 @@
           de roses, il se souvint que la Belle lui en avait demandé, et cueillit une branche où il y en avait
           plusieurs. En même tems, il entendit un grand bruit, et vit venir à lui une Bête si horrible, qu'il
           fut tout prêt de s'évanouir. « Vous êtes bien ingrat, lui dit la
-          <hi rend="italic">Bête</hi>, d'une voix terrible ; je vous ai sauvé la vie, en vous recevant dans
+     <hi rend="italic">
+      Bête
+     </hi>
+     , d'une voix terrible ; je vous ai sauvé la vie, en vous recevant dans
           mon château, et, pour ma peine, vous me volez mes roses que j'aime mieux que toutes choses au monde.
           Il faut mourir pour réparer cette faute ; je ne vous donne qu'un quart d'heure pour demander pardon
           à Dieu. Le marchand se jeta à genoux, et dit à la bête, en joignant les mains : --- Monseigneur,
@@ -191,8 +264,10 @@
           pas que tu t'en ailles les mains vides. Retourne dans la chambre où tu as couché, tu y trouveras un
           grand coffre vide ; tu peux y mettre tout ce qui te plaira ; je le ferai porter chez toi. En même
           tems, la Bête se retira, et le bon homme dit en lui-même ; s'il faut que je meure, j'aurai la
-          consolation de laisser du pain à mes pauvres enfans.</p>
-        <p>Il retourna dans la chambre où il avait couché, et, y ayant trouvé une grande quantité de pièces
+          consolation de laisser du pain à mes pauvres enfans.
+    </p>
+    <p>
+     Il retourna dans la chambre où il avait couché, et, y ayant trouvé une grande quantité de pièces
           d'or, il remplit le grand coffre, dont la Bête lui avait parlé, le ferma, et, ayant repris son
           cheval qu'il retrouva dans l'écurie, il sortit de ce palais avec une tristesse égale à la joie qu'il
           avait, lorsqu'il y était entré. Son cheval prit de lui-même une des routes de la forêt, et en peu
@@ -247,20 +322,28 @@
           contente de votre bon cœur, la Belle ; la bonne action que vous faites, en donnant votre vie, pour
           sauver celle de votre père, ne demeurera point sans récompense ». La Belle, en s'éveillant, raconta
           ce songe à son père, et, quoiqu'il le consolât un peu, cela ne l'empêcha pas de jeter de grands
-          cris, quand il fallut se séparer de sa chère fille.</p>
-        <p>Lorsqu'il fut parti, la Belle s'assit dans la grande salle, et se mit à pleurer aussi ; mais,
+          cris, quand il fallut se séparer de sa chère fille.
+    </p>
+    <p>
+     Lorsqu'il fut parti, la Belle s'assit dans la grande salle, et se mit à pleurer aussi ; mais,
           comme elle avait beaucoup de courage, elle se recommanda à Dieu, et résolut de ne point se
           chagriner, pour le peu de temps qu'elle avait à vivre ; car elle croyait fermement que la Bête la
           mangerait le soir. Elle résolut de se promener en attendant, et de visiter ce beau château. Elle ne
           pouvait s'empêcher d'en admirer la beauté. Mais elle fut bien surprise de trouver une porte, sur
           laquelle il y avait écrit :
-          <hi rend="italic">Appartement de la Belle</hi>. Elle ouvrit cette porte avec précipitation, et elle
+     <hi rend="italic">
+      Appartement de la Belle
+     </hi>
+     . Elle ouvrit cette porte avec précipitation, et elle
           fut éblouie de la magnificence qui y régnait ; mais ce qui frappa le plus sa vue fut une grande
           bibliothèque, un clavecin, et plusieurs livres de musique. On ne veut pas que je m'ennuie, dit-elle,
           tout bas ; elle pensa ensuite, si je n'avais qu'un jour à demeurer ici, on ne m'aurait pas fait une
           telle provision. Cette pensée ranima son courage. Elle ouvrit la bibliothèque, et vit un livre où il
           y avait écrit en lettres d'or :
-          <hi rend="italic">Souhaitez, commandez ; vous êtes ici la reine et la maîtresse</hi>. Hélas
+     <hi rend="italic">
+      Souhaitez, commandez ; vous êtes ici la reine et la maîtresse
+     </hi>
+     . Hélas
           dit-elle, en soupirant, je ne souhaite rien que de voir mon pauvre père, et de savoir ce qu'il fait
           à présent : elle avait dit cela en elle-même. Quelle fut sa surprise en jetant les yeux sur un grand
           miroir, d'y voir sa maison, où son père arrivait avec un visage extrêmement triste. Ses sœurs
@@ -284,16 +367,20 @@
           bien des hommes qui sont plus monstres que vous, dit la Belle ; et je vous aime mieux avec votre
           figure que ceux qui, avec la figure d'hommes, cachent un cœur faux, corrompu, ingrat. --- Si j'avais
           de l'esprit, reprit la Bête, je vous ferais un grand compliment pour vous remercier ; mais je suis
-          un stupide, et tout ce que je puis vous dire, c'est que je vous suis bien obligé.</p>
-        <p>La Belle soupa de bon appétit. Elle n'avait presque plus peur du monstre ; mais elle manqua
+          un stupide, et tout ce que je puis vous dire, c'est que je vous suis bien obligé.
+    </p>
+    <p>
+     La Belle soupa de bon appétit. Elle n'avait presque plus peur du monstre ; mais elle manqua
           mourir de frayeur, lorsqu'il lui dit : « La Belle, voulez-vous être ma femme ? » Elle fut quelque
           tems sans répondre : elle avait peur d'exciter la colère du monstre, en le refusant : elle lui dit
           pourtant en tremblant : non la Bête. Dans ce moment, ce pauvre monstre voulut soupirer, et il fit un
           sifflement si épouvantable, que tout le palais en retentit ; mais Belle fut bientôt rassurée, car la
           Bête lui ayant dit tristement : Adieu donc la Belle, sortit de la chambre, en se retournant de tems
           en tems pour la regarder encore. Belle se voyant seule, sentit une grande compassion pour cette
-          pauvre Bête : Hélas disait-elle, c'est bien dommage qu'elle soit si laide, elle est si bonne</p>
-        <p>Belle passa trois mois dans ce palais avec assez de tranquillité. Tous les soirs, la Bête lui
+          pauvre Bête : Hélas disait-elle, c'est bien dommage qu'elle soit si laide, elle est si bonne
+    </p>
+    <p>
+     Belle passa trois mois dans ce palais avec assez de tranquillité. Tous les soirs, la Bête lui
           rendait visite, l'entretenait pendant le souper, avec assez de bon sens, mais jamais avec ce qu'on
           appelle esprit, dans le monde. Chaque jour, Belle découvrait de nouvelles bontés dans ce monstre.
           L'habitude de le voir l'avait accoutumée à sa laideur ; et, loin de craindre le moment de sa visite,
@@ -342,8 +429,10 @@
           répondit l'autre. Pour cela, il lui faut faire de grandes caresses ; et, ayant pris cette
           résolution, elles remontèrent, et firent tant d'amitié à leur sœur, que la Belle en pleura de joie.
           Quand les huit jours furent passés, les deux sœurs s'arrachèrent les cheveux, et firent tant les
-          affligées de son départ, qu'elle promit de rester encore huit jours chez son père.</p>
-        <p>Cependant Belle se reprochait le chagrin qu'elle allait donner à sa pauvre Bête, qu'elle aimait
+          affligées de son départ, qu'elle promit de rester encore huit jours chez son père.
+    </p>
+    <p>
+     Cependant Belle se reprochait le chagrin qu'elle allait donner à sa pauvre Bête, qu'elle aimait
           de tout son cœur, et elle s'ennuyait de ne plus la voir. La dixième nuit qu'elle passa chez son
           père, elle rêva qu'elle était dans le jardin du palais, et qu'elle voyait la Bête couchée sur
           l'herbe et près de mourir, qui lui reprochait son ingratitude. La Belle se réveilla en sursaut, et
@@ -394,8 +483,9 @@
           une espèce de miracle que la conversion d'un cœur méchant et envieux. Dans le moment, la fée donna
           un coup de baguette qui transporta tous ceux qui étaient dans cette salle, dans le royaume du
           prince. Ses sujets le virent avec joie, et il épousa la Belle qui vécut avec lui fort long-tems, et
-          dans un bonheur parfait, parce qu'il était fondé sur la vertu.</p>
-      </div>
-    </body>
-  </text>
+          dans un bonheur parfait, parce qu'il était fondé sur la vertu.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

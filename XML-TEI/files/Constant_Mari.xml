@@ -1,98 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Constant_Mari" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:83.22 wikidata:0">Le mari sentimental: MiMoText edition</title>
-        <author ref="viaf:95173854 wikidata:Q55229494">Samuel de Constant(1729-1800)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Athena</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name></name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">39223</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://athena.unige.ch/athena/constant-s/constant-le-mari-sentimental.html"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Le mari sentimental, ou le mariage comme il y en a quelques-uns. Lettres d'un homme du pays de vaud, écrites en 178...</title>
-          <author>NA</author>
-          <pubPlace>NA</pubPlace>
-          <publisher>NA</publisher>
-          <date>1783</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1783</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">epistolary</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-05-20">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="liminal">
-        <p>LE MARI SENTIMENTAL,</p>
-        <p>OU LE MARIAGE COMME IL Y EN A QUELQUES-UNS. LETTRES D'UN HOMME DU PAYS DE VAUD, ÉCRITES EN 178...</p>
-        <p>M.DCC.LXXXIII.
-        </p>
-        <p>
-          <hi rend="italic">Si l'on demandait pourquoi on a imprimé ces Lettres; l'imprimeur, le relieur, le
+<TEI xml:id="Constant_Mari" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:83.22 wikidata:0">
+     Le mari sentimental: MiMoText edition
+    </title>
+    <author ref="viaf:95173854 wikidata:Q55229494">
+     Samuel de Constant(1729-1800)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Athena
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     39223
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://athena.unige.ch/athena/constant-s/constant-le-mari-sentimental.html"/>
+     <publisher>
+      Athena: Pierre Perroud
+     </publisher>
+     <date>
+      1998
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Le mari sentimental, ou le mariage comme il y en a quelques-uns. Lettres d'un homme du pays de vaud, écrites en 178...
+     </title>
+     <author>
+      NA
+     </author>
+     <pubPlace>
+      NA
+     </pubPlace>
+     <publisher>
+      NA
+     </publisher>
+     <date>
+      1783
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1783
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      epistolary
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-05-20">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="liminal">
+    <p>
+     LE MARI SENTIMENTAL,
+    </p>
+    <p>
+     OU LE MARIAGE COMME IL Y EN A QUELQUES-UNS. LETTRES D'UN HOMME DU PAYS DE VAUD, ÉCRITES EN 178...
+    </p>
+    <p>
+     M.DCC.LXXXIII.
+    </p>
+    <p>
+     <hi rend="italic">
+      Si l'on demandait pourquoi on a imprimé ces Lettres; l'imprimeur, le relieur, le
             colporteur, le libraire diront que c'est pour y trouver leur profit. Je souhaite, très-cher lecteur,
-            que vous y trouviez le vôtre, ce sera celui de l'éditeur.</hi>
-        </p>
-
-      </div>
-    </front>
-    <body>
-      <div type="letter">
-        <head>LE MARI SENTIMENTAL.</head>
-        <head>LETTRES DE Mr. BOMPRÉ, à Mr. de ST. THOMIN, à Orbe.</head>
-        <head>LETTRE PREMIÈRE.</head>
-        <p>Mon cher Ami, Depuis que je vous ai quitté, je n'ai cessé de penser à vous &amp; à votre bonheur.
+            que vous y trouviez le vôtre, ce sera celui de l'éditeur.
+     </hi>
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="letter">
+    <head>
+     LE MARI SENTIMENTAL.
+    </head>
+    <head>
+     LETTRES DE Mr. BOMPRÉ, à Mr. de ST. THOMIN, à Orbe.
+    </head>
+    <head>
+     LETTRE PREMIÈRE.
+    </head>
+    <p>
+     Mon cher Ami, Depuis que je vous ai quitté, je n'ai cessé de penser à vous &amp; à votre bonheur.
           Je crois que j'ai mal fait d'assister à vos noces; il me semble que j'en suis devenu moins heureux;
           le plaisir &amp; la gaieté que j'ai vu régner chez vous pendant dix jours, ont laissé au fond de mon
           ame une tristesse dont je ne puis pas trop me rendre raison. Ce n'est pas votre bonheur qui
@@ -142,8 +203,10 @@
           est également reparti entre tous: d'ailleurs, j'ai le plaisir de leur être souvent utile, j'aide à
           faire leurs comptes avec ceux qui achètent leurs denrées, je tâche d'appaiser leurs différends,
           j'écris aux Capitaines pour les pères qui ont des enfans au service; avec le livre de M.
-          <hi rend="italic">Tissot</hi>
-          j'apprends aux malades à se conduire, &amp; aux mères à soigner leurs enfans qui souffrent: il y a
+     <hi rend="italic">
+      Tissot
+     </hi>
+     j'apprends aux malades à se conduire, &amp; aux mères à soigner leurs enfans qui souffrent: il y a
           peu de jours où il n'y ait quelques heures d'employées à ces occupations. Après cela il y a mon
           cheval, ah mon ami, quel cheval, quel excellent cheval! Il est d'une vigueur &amp; d'une force sans
           égale, &amp; ses allures sont d'une douceur charmante. L'autre jour il me sauva la vie; je m'étais
@@ -211,11 +274,14 @@
           silence me ferait trop de mal dans ce moment, je sentirais trop vivement ma solitude, &amp; alors je
           ne sais pas de quoi je serais capable; pensez donc à votre ami, je vous en prie, il vous aime, il
           vous est tendrement attaché.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE II.</head>
-        <p>Vous croyez donc, mon cher ami, que c'est une compagne, une femme, qui manque à ma vie: cela est
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE II.
+    </head>
+    <p>
+     Vous croyez donc, mon cher ami, que c'est une compagne, une femme, qui manque à ma vie: cela est
           peut-être très-vrai, mais je ne veux pas le croire; je ne prendrai point vos plaisanteries pour des
           raisons. On a toujours plaisanté les vieux garçons; on les condamne &amp; on les plaint rarement:
           j'en ai vu plusieurs qui ont su être heureux, &amp; je saurai l'être. Soyez-le avec votre épouse
@@ -401,11 +467,14 @@
           &amp; qui dans ce moment, est dans un état si critique. Je compte faire ce voyage la semaine
           prochaine, &amp; je vous en rendrai compte au retour. Adieu, mon cher ami, vous savez, j'espère,
           combien je vous aime.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE III.</head>
-        <p>Ed anch'io son pittore! Oui, mon cher ami, &amp; moi aussi je suis heureux, &amp; heureux comme
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE III.
+    </head>
+    <p>
+     Ed anch'io son pittore! Oui, mon cher ami, &amp; moi aussi je suis heureux, &amp; heureux comme
           mon ami St. Thomin. Mon amitié avait besoin de cette conformité avec lui; on écoute mieux ceux qui
           parlent de leur bonheur, on peut mieux leur en parler quand on a le sien; c'est-à-dire, que je me
           marie, rien n'est plus vrai: il faut des siècles pour prendre une résolution; il ne faut qu'un
@@ -719,11 +788,14 @@
           campagne, dans le voisinage de mes bons paysans. Je tressaille de joie. Elle sera heureuse aussi.
           Que je sache seulement ses goûts, sa volonté, j'y donnerai ma vie. Adieu, mon cher ami. Ecrivez-moi
           à Genève, ou que je trouve ici une de vos lettres à mon retour.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE IV.</head>
-        <p>Me voilà revenu, mon cher ami, j'aurais dû vous le dire plutôt, j'aurais dû vous parler plutôt de
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE IV.
+    </head>
+    <p>
+     Me voilà revenu, mon cher ami, j'aurais dû vous le dire plutôt, j'aurais dû vous parler plutôt de
           mon bonheur; il n'y manquait que cela; à chaque ligne de ma lettre je voudrais vous dire, je suis
           heureux, je suis heureux: ma chère femme est là, j'écris à côté d'elle, mon chien est à ses pieds;
           c'est la tranquillité du bonheur. Elle est charmante, ma femme; elle fait ce que je n'avais osé
@@ -814,11 +886,14 @@
           peine, parce qu'ils font l'occupation de ma femme, &amp; qu'elle ordonne tout à sa volonté. Elle
           veut que je finisse, ce sera en vous embrassant, &amp; en vous assurant de tous mes sentimens.
           Adieu, mon cher ami.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE V.</head>
-        <p>Mon cher ami, je ne comprends rien au mariage; à tout moment, je me trouve dans l'erreur, &amp;
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE V.
+    </head>
+    <p>
+     Mon cher ami, je ne comprends rien au mariage; à tout moment, je me trouve dans l'erreur, &amp;
           aucune de mes idées ne se réalise: je voudrais vous consulter, &amp; je ne sais comment exprimer ce
           que j'éprouve; je crains que vous ne m'entendiez pas; je suis peut-être un mari extraordinaire.
           Pendant les quinze jours que j'ai passés avec vous, dans le tems de votre mariage, je n'ai pas
@@ -911,11 +986,14 @@
           Je vous en prie, dites-moi comment vous êtes heureux; j'ai l'ambition de l'être comme vous: ce n'est
           pas la première fois que vous m'aurez servi de modèle. Chez moi, il n'y a que mes sentimens pour
           vous qui pourraient en être un; ils vous sont acquis pour la vie. Adieu, mon cher ami.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE VI.</head>
-        <p>Mon cher ami, je m'épuise en réflexions sur votre dernière lettre. Quoi! vous ne vous donnez
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE VI.
+    </head>
+    <p>
+     Mon cher ami, je m'épuise en réflexions sur votre dernière lettre. Quoi! vous ne vous donnez
           aucune peine pour votre bonheur, &amp; vous êtes heureux! Le caractère de Mad. de Saint-Thomin
           s'accorde si bien avec le vôtre, qu'il n'en coûte de sacrifice ni à l'un ni à l'autre. Elle conduit
           sa maison; elle cultive ses relations; elle suit à ses plaisirs avec autant d'esprit que de
@@ -974,8 +1052,10 @@
           logique &amp; d'élémens de sciences, qui sont toujours négligés dans l'éducation des femmes. Je me
           rappelle que, lorsque j'étais en garnison à Mons, il y avait une très-jolie demoiselle qui lisait
           les
-          <hi rend="italic">Mondes</hi>
-          de Fontenelle; elle en était enchantée; elle souhaitait seulement de trouver un astronome qui lui
+     <hi rend="italic">
+      Mondes
+     </hi>
+     de Fontenelle; elle en était enchantée; elle souhaitait seulement de trouver un astronome qui lui
           apprît à connaître dans le ciel les étoiles &amp; les planettes: elle méritait d'en trouver un,
           &amp; il se présenta bientôt: la pluralité des mondes amène la pluralité des êtres, &amp; le cours
           d'astronomie finit très-malheureusement. Il y a quelque tems qu'au château de St. *** la
@@ -1012,11 +1092,14 @@
           si fort ce qui nous convient, que j'ai raison de croire que nous y resterons attachés. Les sentimens
           de ma femme me rassurent contre ses idées: nous pouvons être heureux sans rien changer. Moi, je ne
           changerai jamais; toujours je serai votre ami dévoué.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE VII.</head>
-        <p>Mon cher ami, j'ai été bien long-tems sans recevoir de vos nouvelles: en cherchant les causes de
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE VII.
+    </head>
+    <p>
+     Mon cher ami, j'ai été bien long-tems sans recevoir de vos nouvelles: en cherchant les causes de
           votre silence, j'ai trouvé que la plus naturelle était l'ennui que doivent vous causer mes lettres,
           &amp; je ne suis point étonné que vous ayiez été cinq semaines sans me répondre. Je vous parle de
           moi comme si j'étais un être intéressant; je vous dis mes idées comme si elles valaient quelque
@@ -1111,11 +1194,14 @@
           denrées. Adieu, mon cher ami; j'ai l'esprit triste &amp; l'ame affligée. Je ne vous dirai rien de
           plus aujourd'hui: quand j'aurai besoin de consolation, je la chercherai dans mon attachement pour
           vous.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE VIII.</head>
-        <p>Mon cher ami, je n'ai pas voulu répondre plus tôt à la lettre que j'ai reçue de vous il y a plus
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE VIII.
+    </head>
+    <p>
+     Mon cher ami, je n'ai pas voulu répondre plus tôt à la lettre que j'ai reçue de vous il y a plus
           de deux mois; j'avais cependant besoin d'écrire à mon ami; mais je me faisais un scrupule de lui
           révéler mes chagrins domestiques. Je les mets au rang de ces choses honteuses à l'humanité qu'il
           faut cacher, sur-tout à un ami éloigné: s'il était là, il verrait à mon air triste que mon ame n'est
@@ -1264,11 +1350,14 @@
           oubliez tout quand vous aurez lu, souvenez-vous seulement d'un ami qui vous aime. Adieu. P. S. Vous
           m'aviez promis vos idées sur le commerce des denrées dans les villes; je les attends, je les
           demande; donnez-moi à penser, je vous en prie.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE IX.</head>
-        <p>Mon cher ami, je ne puis me rendre à vos raisons; elles sont bien dites, mais elles ne me
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE IX.
+    </head>
+    <p>
+     Mon cher ami, je ne puis me rendre à vos raisons; elles sont bien dites, mais elles ne me
           persuadent pas. Les habitans des villes en agissent durement avec les gens de la campagne, &amp;
           vous participez un peu de cette dureté. Les villes sont comme les financiers opulens, qui traitent
           tyranniquement ceux qui ont besoin de leur argent, ils veulent tout avoir en abondance &amp; à vil
@@ -1418,11 +1507,14 @@
           affection: je crois plutôt que l'ame est comme les boëtes de parfums; plus on les remue, plus il en
           exhale de sentimens. Je sens au moins que tout ce que j'aime, ne diminue point la tendre amitié que
           j'ai pour vous. Adieu, mon cher ami; je finis avec mon papier.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE X.</head>
-        <p>Je ne vous écris jamais, mon cher ami, que je ne me demande pourquoi j'ai été si long-tems sans
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE X.
+    </head>
+    <p>
+     Je ne vous écris jamais, mon cher ami, que je ne me demande pourquoi j'ai été si long-tems sans
           vous écrire, &amp; je suis toujours étonné que vous ayiez à vous plaindre de mon silence. Dans le
           fait, je ne sais me rendre raison de rien; je me laisse aller à un certain abattement, à un certain
           anéantissement dont je me trouve bien. L'activité, la sensibilité amènent toujours quelques peines
@@ -1557,11 +1649,14 @@
           faut faire souffrir personne pour une bête: s'il était devenu enragé, ce serait bien pis encore.
           Pauvre Hector! il m'aimait; je regrette ses caresses. Mon cher ami, ne me faites rien regretter.
           Adieu.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XI.</head>
-        <p>Vous ne me comprenez donc pas, mon cher ami, &amp; vous me demandez si je suis amoureux de ma
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XI.
+    </head>
+    <p>
+     Vous ne me comprenez donc pas, mon cher ami, &amp; vous me demandez si je suis amoureux de ma
           femme. Je vous demanderai, moi, ce que c'est que d'être amoureux: est-ce désirer avec ardeur, avec
           passion, la possession de l'objet qu'on adore? C'est l'amour d'un jeune homme, ce ne peut être le
           mien. Si c'est faire dépendre son sort, sa vie, son bonheur d'un être aimé; si c'est chercher une
@@ -1716,12 +1811,19 @@
           Pauline est revenu hier, on ne l'a point encore vu; elle n'est pas sans inquiétude. Les dispositions
           de Nicolas ne sont plus aussi bonnes: on ne sait quand le mariage se terminera. J'ai écrit, il y a
           déjà plusieurs jours, pour avoir les livres que vous me demandez: vous recevrez bientôt le
-          <hi rend="italic">Commentaire de Blackstone sur les Loix anglaises</hi>. Il n'y a que les
-          <hi rend="italic">Loix criminelles</hi>
-          de traduites. Le
-          <hi rend="italic">Discours qui a remporté le prix à la Société économique de Berne, sur le meilleur
-            Systême des Loix criminelles</hi>
-          ne paraît point encore: on ne comprend pas pourquoi on s'empresse si peu de le publier; il est
+     <hi rend="italic">
+      Commentaire de Blackstone sur les Loix anglaises
+     </hi>
+     . Il n'y a que les
+     <hi rend="italic">
+      Loix criminelles
+     </hi>
+     de traduites. Le
+     <hi rend="italic">
+      Discours qui a remporté le prix à la Société économique de Berne, sur le meilleur
+            Systême des Loix criminelles
+     </hi>
+     ne paraît point encore: on ne comprend pas pourquoi on s'empresse si peu de le publier; il est
           attendu avec impatience. Il doit contenir des lumières bien intéressantes &amp; bien importantes
           pour l'humanité. Hélas! on n'en profitera point, &amp; les hommes seront toujours jugés par des loix
           barbares &amp; bizarres. Ce que j'ai lu jusqu'à présent là-dessus ne m'a jamais satisfait. Il me
@@ -1737,11 +1839,14 @@
           &amp; l'ame trop remplie de tristesse. Quelquefois je suis en peine de ce que je deviendrai.
           Toujours souffrir! je veux croire que j'en aurai la force. Adieu, mon cher ami, je vous embrasse
           tendrement.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XII.</head>
-        <p>Mon cher ami, il y avait déjà quelque tems qu'il était décidé que mon cheval serait vendu, &amp;
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XII.
+    </head>
+    <p>
+     Mon cher ami, il y avait déjà quelque tems qu'il était décidé que mon cheval serait vendu, &amp;
           ma femme avait entamé un marché pour le troquer contre deux chevaux de carrosse; j'y avais consenti,
           &amp; j'avais offert un prix que le marchand de chevaux avait refusé. Aujourd'hui, en revenant chez
           moi, je l'ai rencontré avec mon cheval qu'il emmenait; il avait accepté ce que j'avais offert, &amp;
@@ -1758,7 +1863,9 @@
           je suis sûr qu'il en aura soin; il doit faire la route en deux jours. Le pauvre garçon a presque
           pleuré en recevant la commission: pour moi, je le vois partir avec plaisir, &amp; ce maquignon,
           emmenant mon cheval, m'avait serré le coeur. Je vous en prie, mon cher ami, point de remerciemens,
-          point de reconnaissance; c'est moi qui vous en devrai <ref target="#N01"/>. Vous avez sans doute reçu ma dernière
+          point de reconnaissance; c'est moi qui vous en devrai
+     <ref target="#N01"/>
+     . Vous avez sans doute reçu ma dernière
           lettre; je vous écrivis avant-hier. Ce que je vous disais, en la finissant, sur les loix criminelles
           a fait naître chez moi des réflexions que j'ai mises sur le papier comme elles se sont présentées;
           ce sont des matériaux pour disputer avec vous lorsque nous serons ensemble. En attendant, n'allez
@@ -1772,24 +1879,55 @@
           indifférence le vieux domestique &amp; le cheval de votre ami. J'envie leur bonheur: c'est eux qui
           jouiront de votre amitié pour moi. Souvenez-vous que c'est tout ce qui me reste; plaignez-moi d'être
           loin de vous. Hélas! je n'ai plus rien autour de moi; je vous tends les bras. Adieu, mon cher ami.
-        </p>
-      </div>
-      <div type="letter">
-        <head>DIALOGUE</head>
-        <p>
-          <hi rend="italic">Q.</hi>Monsieur, qu'est-ce qu'a fait ce malheureux qu'on mène pendre?
-          <hi rend="italic">R.</hi>
-          Ah! Monsieur, c'est un misérable qui mérite bien la corde; il a volé pour 20000 francs de vaisselle
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     DIALOGUE
+    </head>
+    <p>
+     <hi rend="italic">
+      Q.
+     </hi>
+     Monsieur, qu'est-ce qu'a fait ce malheureux qu'on mène pendre?
+     <hi rend="italic">
+      R.
+     </hi>
+     Ah! Monsieur, c'est un misérable qui mérite bien la corde; il a volé pour 20000 francs de vaisselle
           d'argent.
-          <hi rend="italic">Q.</hi>Et à qui, Monsieur?
-          <hi rend="italic">R.</hi>A un homme de grande considération, qui a cent mille livres de rentes.
-          <hi rend="italic">Q.</hi>Eh bien! quel mal a-t-il fait?
-          <hi rend="italic">R.</hi>Comment, Monsieur, quel mal? La société serait une jolie chose si la
+     <hi rend="italic">
+      Q.
+     </hi>
+     Et à qui, Monsieur?
+     <hi rend="italic">
+      R.
+     </hi>
+     A un homme de grande considération, qui a cent mille livres de rentes.
+     <hi rend="italic">
+      Q.
+     </hi>
+     Eh bien! quel mal a-t-il fait?
+     <hi rend="italic">
+      R.
+     </hi>
+     Comment, Monsieur, quel mal? La société serait une jolie chose si la
           propriété des biens n'était pas assurée.
-          <hi rend="italic">Q.</hi>Et à lui, qu'est-ce qu'on lui avait assuré? car sûrement, puisqu'il a volé, il n'avait rien.
-          <hi rend="italic">R.</hi>Il n'avait qu'à travailler pour gagner sa vie; il était fort &amp; robuste.
-          <hi rend="italic">Q.</hi>Monsieur, oserais-je vous demander ce que c'est que gagner sa vie?
-          <hi rend="italic">R.</hi>Pour un journalier, par exemple, quand il travaille dès l'aube du jour
+     <hi rend="italic">
+      Q.
+     </hi>
+     Et à lui, qu'est-ce qu'on lui avait assuré? car sûrement, puisqu'il a volé, il n'avait rien.
+     <hi rend="italic">
+      R.
+     </hi>
+     Il n'avait qu'à travailler pour gagner sa vie; il était fort &amp; robuste.
+     <hi rend="italic">
+      Q.
+     </hi>
+     Monsieur, oserais-je vous demander ce que c'est que gagner sa vie?
+     <hi rend="italic">
+      R.
+     </hi>
+     Pour un journalier, par exemple, quand il travaille dès l'aube du jour
           jusqu'à la nuit, il est assuré d'avoir du pain noir comme votre chapeau; quelquefois c'est du pain
           d'avoine, dont la paille écorche le gosier; de plus, il aura une bouteille du plus mauvais vin &amp;
           quelque mauvais laitage; pour se coucher, un peu de paille au fond d'une écurie, &amp; pour se
@@ -1798,14 +1936,30 @@
           peuvent s'enivrer quelquefois: si c'est un artisan ou un artiste, sa fortune est faite, pourvu que
           les poisons dont son métier l'oblige de faire usage n'altèrent pas sa santé, &amp; ne l'envoient pas
           à l'hôpital.
-          <hi rend="italic">Q.</hi>Mais, Monsieur, il me semble qu'il vaut autant être pendu.
-          <hi rend="italic">R.</hi>La propriété, Monsieur, la propriété des biens, c'est ce qu'il faut assurer.
-          <hi rend="italic">Q.</hi>Vous êtes riche, sans doute, Monsieur?
-          <hi rend="italic">R.</hi>Monsieur, je suis receveur-caissier des fermes du roi, &amp; j'ai
+     <hi rend="italic">
+      Q.
+     </hi>
+     Mais, Monsieur, il me semble qu'il vaut autant être pendu.
+     <hi rend="italic">
+      R.
+     </hi>
+     La propriété, Monsieur, la propriété des biens, c'est ce qu'il faut assurer.
+     <hi rend="italic">
+      Q.
+     </hi>
+     Vous êtes riche, sans doute, Monsieur?
+     <hi rend="italic">
+      R.
+     </hi>
+     Monsieur, je suis receveur-caissier des fermes du roi, &amp; j'ai
           l'espérance d'être un jour fermier-général.
-          <hi rend="italic">Q.</hi>Monsieur le receveur-caissier, je vous souhaite plus de bonheur qu'à ce pauvre diable.
-        </p>
-        <p>Les législateurs n'ont su que punir, &amp; la vie des hommes est devenue un jeu auquel on s'est
+     <hi rend="italic">
+      Q.
+     </hi>
+     Monsieur le receveur-caissier, je vous souhaite plus de bonheur qu'à ce pauvre diable.
+    </p>
+    <p>
+     Les législateurs n'ont su que punir, &amp; la vie des hommes est devenue un jeu auquel on s'est
           accoutumé. Il n'y a, sans doute, point de changement à espérer. Ce n'est pas aujourd'hui que les
           riches feront des loix contre eux-mêmes: on dira que, gêner les hommes dans la liberté d'acquérir,
           d'accumuler, de jouir, c'est les blesser dans leur sensibilité la plus vive, que c'est détruire les
@@ -1866,11 +2020,14 @@
           attirent à la ville le peuple de la campagne. Cette publication devrait être faite avec solemnité
           &amp; avec tout l'appareil de la justice. Tel homme qui médite un crime, en serait détourné, en
           entendant la peine qu'il encourra, &amp;c., &amp;c., &amp;c.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XIII.</head>
-        <p>Eh bien, mon cher ami, vous ne me dites plus rien: il y a bientôt trois semaines que je n'ai rien
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XIII.
+    </head>
+    <p>
+     Eh bien, mon cher ami, vous ne me dites plus rien: il y a bientôt trois semaines que je n'ai rien
           reçu de vous; &amp; je n'attends Antoine que demain. Vos bonnes raisons sont-elles donc épuisées;
           n'avez-vous plus de conseils à me donner, plus de remontrances à me faire? Je comprends; il faudrait
           retourner en arrière, me condamner, &amp; vous n'avez pas cette cruauté. Non, mon cher ami, Il ne
@@ -1992,11 +2149,14 @@
           soir, demain matin, je vous écrirai encore. P.S. J'attends le retour d'un domestique que j'ai envoyé
           aujourd'hui, de très-grand matin, à Rolle. La poste va partir: je suis obligé de fermer ma lettre.
           Adieu.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XIV.</head>
-        <p>Enfin, j'ai revu Antoine; il est arrivé hier au soir, comme je l'avais prévu. J'ai été au-devant
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XIV.
+    </head>
+    <p>
+     Enfin, j'ai revu Antoine; il est arrivé hier au soir, comme je l'avais prévu. J'ai été au-devant
           de lui; je l'ai amené dans ma chambre. Je lui ai fait mille questions; je l'ai fait asseoir, &amp;
           ce n'est qu'après l'avoir interrompu souvent, que je l'ai laissé raconter l'accueil touchant,
           amical, empressé, que vous avez fait à tous deux. Il en avait les larmes aux yeux, &amp; en vérité,
@@ -2067,11 +2227,14 @@
           porte ma lettre à M.... Je crois que vous la recevrez presque en même tems que la précédente.
           J'attends aussi de vos nouvelles: écrivez-moi; j'ai besoin de tout ce que vous pouvez me dire.
           Adieu, mon cher Saint-Thomin; je vous embrasse tendrement.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XV.</head>
-        <p>Je m'empresse de vous dire, mon cher ami, que vous ne devez avoir aucune inquiétude sur ce qui
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XV.
+    </head>
+    <p>
+     Je m'empresse de vous dire, mon cher ami, que vous ne devez avoir aucune inquiétude sur ce qui
           s'est passé avec M. K***. J'ai été chez lui hier au soir, depuis ma lettre écrite, &amp; pendant que
           ma femme reposait: il continue à être mieux, il ne souffrait point du tout. Notre entrevue a été
           honnête &amp; amicale. Ma visite ne fut pas longue; il y avait entre nous de la gêne &amp; de
@@ -2235,11 +2398,14 @@
           prennent sur moi un empire effrayant; je combats pour m'y soustraire: je ne sais si je serai le plus
           fort; votre amitié seule peut me soutenir. Quelquefois il me semble qu'elle m'échappe; la mienne
           durera autant que ma vie. Je vous embrasse, mon cher ami.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XVI.</head>
-        <p>Non, mon cher ami, je ne voulais plus vous écrire; mes lettres doivent vous fatiguer: elles ont
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XVI.
+    </head>
+    <p>
+     Non, mon cher ami, je ne voulais plus vous écrire; mes lettres doivent vous fatiguer: elles ont
           été trop fréquentes depuis quelques tems. L'objet ne mérite pas la peine que je vous donne, ni
           l'intérêt que vous y prenez. N'est-il pas ridicule de vous occuper de quelques tracasseries de
           ménage; c'est une épreuve à laquelle je ne voulais pas mettre votre amitié; rien de moins
@@ -2324,11 +2490,14 @@
           retiennent à la vie: voyez si vous voulez me les ôter. Mon cher ami, ménagez-moi, &amp; si votre
           façon de penser est différente de la mienne, que nos sentimens n'en souffrent pas, &amp; que nos
           coeurs soient toujours les mêmes; le mien est à vous jusqu'à mon dernier soupir.
-        </p>
-      </div>
-      <div type="letter">
-        <head>LETTRE XVII.</head>
-        <p>Le parti en est pris, mon cher ami, je viens vous dire un éternel adieu: c'est la dernière
+    </p>
+   </div>
+   <div type="letter">
+    <head>
+     LETTRE XVII.
+    </head>
+    <p>
+     Le parti en est pris, mon cher ami, je viens vous dire un éternel adieu: c'est la dernière
           douceur que je puisse goûter, &amp; dans mon désespoir, je sens encore combien je vous aime. Ah, mon
           ami, votre lettre!... Elle est cruelle; il y a des termes ambigus, des phrases d'un sens obscur.
           Jamais votre amitié n'a employé un style aussi embarrassé. Vous ne dites point tout ce que vous
@@ -2374,33 +2543,43 @@
           aucune plainte, aucun murmure. A genoux ici, devant vous, je demande pardon à tout ce qui m'entoure.
           Et de quoi me plaindrais-je? J'ai la force d'échapper aux maux qui me tourmentent: le remède est là;
           il m'attend. Adieu, mon cher ami... Vivez heureux.
-          <hi rend="italic">N.B.</hi>
-          Il y avait sur l'adresse du paquet:
-          <hi rend="italic">Je demande que ces papiers soient remis aussi promptement qu'il sera possible à
-            Monsieur de Saint-Thomin, à Orbe.</hi>
-        </p>
-        <p>
-          Le bruit que l'on entendit répandit l'effroi dans la maison. Personne n'osait aller à la chambre de
+     <hi rend="italic">
+      N.B.
+     </hi>
+     Il y avait sur l'adresse du paquet:
+     <hi rend="italic">
+      Je demande que ces papiers soient remis aussi promptement qu'il sera possible à
+            Monsieur de Saint-Thomin, à Orbe.
+     </hi>
+    </p>
+    <p>
+     Le bruit que l'on entendit répandit l'effroi dans la maison. Personne n'osait aller à la chambre de
           M. Bompré: ce furent Nicolas &amp; Antoine qui y entrèrent les premiers. Ce dernier n'a survécu à
           son maître que quelques semaines. Mad. Bompré, qui jouit des biens de son mari, s'est remariée,
           cette année, à un homme qui la rend fort heureuse. Le chevalier Lowel est revenu chercher Pauline:
           on ne sait point ce que la passion lui fera faire pour elle.
-        </p>
-      </div>
-    </body>
-    <back>
-    <div type="notes">
-<note xml:id="N01"><p>
-  NOTE que l'on peut se passer de lire.</p>
-<p>(a)
-  <hi rend="italic">Ce qui suit a été trouvé parmi les papiers de M. Bompré. Il parait que c'étaient
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     <p>
+      NOTE que l'on peut se passer de lire.
+     </p>
+     <p>
+      (a)
+      <hi rend="italic">
+       Ce qui suit a été trouvé parmi les papiers de M. Bompré. Il parait que c'étaient
     des idées qu'il avait écrites comme elles s'étaient présentées à son esprit, ainsi qu'il l'indique
     dans cette lettre. Il avait peut-être dessein de les mettre un jour en ordre &amp; de leur donner
     plus d'étendue. Elles sont placées ici telles qu'elles ont été trouvées. On doit toujours se faire
     un scrupule de changer la moindre des choses aux idées des autres: il vaut mieux les présenter avec
-    leurs défauts que d'entreprendre de les corriger.</hi>
-</p>
-<p>Si la perversité de l'homme est la première cause des crimes qui se commettent dans la société,
+    leurs défauts que d'entreprendre de les corriger.
+      </hi>
+     </p>
+     <p>
+      Si la perversité de l'homme est la première cause des crimes qui se commettent dans la société,
   la seconde est certainement la prodigieuse inégalité des richesses. Les pauvres volent, les riches
   oppriment, &amp; il faut des bourreaux &amp; des gibets pour défendre les uns contre les autres.
   Quand on voit autant de malheureux parmi les hommes vivans en société, ce n'est pas sans quelque
@@ -2438,7 +2617,9 @@
   avilissant le malheureux qui en a besoin; elle est la honte des loix. Les législateurs humains
   auraient dû épuiser leur génie à chercher les moyens de prévenir la misère &amp; le crime, avant que
   de penser à les punir.
-</p></note>
-    </div></back>
-  </text>
+     </p>
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

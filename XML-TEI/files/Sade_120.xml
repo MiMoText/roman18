@@ -2,134 +2,158 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Sade_120" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:1 wikidata:Q1210734">
-          Les Cent Vingt Journées de Sodome: MiMoText edition
-        </title>
-        <author ref="viaf:56615966 wikidata:Q123867"> Marquis de Sade(1740-1814)</author>
-        <respStmt>
-          <resp>
-            data capture
-          </resp>
-          <name>
-            wikisource contributors
-          </name>
-        </respStmt>
-        <respStmt>
-          <resp>
-            encoding
-          </resp>
-          <name>
-            Julia Dudar
-          </name>
-        </respStmt>
-        <respStmt>
-          <resp>
-            editor
-          </resp>
-          <name>
-            Julia Röttgermann
-          </name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">
-          154339
-        </measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">
-          Mining and Modeling Text
-        </publisher>
-        <distributor ref="https://github.com/mimotext/roman18">
-          Github
-        </distributor>
-        <date>
-          2020
-        </date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://fr.wikisource.org/wiki/Les_120_Journ%C3%A9es_de_Sodome"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Les 120 Journées de Sodome, ou l'École du libertinage</title>
-          <author>Donatien Alphonse François de Sade</author>
-          <publisher>Club des Bibliophiles</publisher>
-          <pubPlace>Paris</pubPlace>
-          <date>
-            1904</date>
-        </bibl>
-        <bibl type="unspecified">
-          <!-- Text included in the MiMoText corpus due to creation in 1785 (stated in:LES CENT-VINGT JOURNÉES
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:1 wikidata:Q1210734">
+     Les Cent Vingt Journées de Sodome: MiMoText edition
+    </title>
+    <author ref="viaf:56615966 wikidata:Q123867">
+     Marquis de Sade(1740-1814)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      wikisource contributors
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Julia Dudar
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     154339
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Les_120_Journ%C3%A9es_de_Sodome"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2022
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Les 120 Journées de Sodome, ou l'École du libertinage
+     </title>
+     <author>
+      Donatien Alphonse François de Sade
+     </author>
+     <publisher>
+      Club des Bibliophiles
+     </publisher>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <date>
+      1904
+     </date>
+    </bibl>
+    <bibl type="unspecified">
+     <!-- Text included in the MiMoText corpus due to creation in 1785 (stated in:LES CENT-VINGT JOURNÉES
           DE SODOME OU L'ÉCOLE DU LIBERTINAGE, in: Jens, Walter, und Rudolf Radler, Hrsg. Kindlers neues
           Literatur-Lexikon.Bd. 22: Supplement L - Z. Studienausg. Frechen: KOMET, 2001.) The following <date>
           therefore represents the year of creation.-->
-          <date>
-            1785
-          </date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            heterodiegetic
-          </term>
-          <term type="spelling">
-            modern
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2020-04-22">
-        Upgrade to ELTeC level-1
-      </change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <head>
-          Les 120 Journées de Sodome, ou l'École du libertinage
-        </head>
-        <p>
-          Donatien Alphonse François de Sade
-        </p>
-        <p>
-          Club des Bibliophiles, Paris, 1904
-        </p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <p>
-          Les guerres considérables que Louis XIV eut à soutenir pendant le cours de son règne, en épuisant
+     <date>
+      1785
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2020-04-22">
+    Upgrade to ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <head>
+     Les 120 Journées de Sodome, ou l'École du libertinage
+    </head>
+    <p>
+     Donatien Alphonse François de Sade
+    </p>
+    <p>
+     Club des Bibliophiles, Paris, 1904
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <p>
+     Les guerres considérables que Louis XIV eut à soutenir pendant le cours de son règne, en épuisant
           les finances de l'état et les facultés du peuple trouvèrent pourtant le secret d'enrichir une énorme
-          quantité de ces sangsues toujours à la suite des calamités publiques qu'ils font naître au lieu d'ap<corr>p</corr>aiser,et cela pour être à même d'en profiter avec plus d'avantage ; la fin de ce règne si sublimed'ailleurs, est peut-être une des époques de l'empire françois, où l'on fit le plus de ces fortunesobscures, qui n'éclatent que par un luxe et des débauches aussi sourdes qu'elles. C'était vers lafin de ce règne, et peu avant que le régent eût envoyé par ce fameux tribunal comme fous les hommesde chambre de justice, de faire rendre gorge à cette multitude de traîtres,---que quatre entre euximaginèrent la singulière partie de débauche, dont nous allons rendre compte. Ce serait à tort quel'on imaginerait que les voleurs seuls s'étaient occupé<corr>s</corr>
-          de cette maltôte, elle avait à sa tête de très grands seigneurs. Le duc de Blangis et son frère
+          quantité de ces sangsues toujours à la suite des calamités publiques qu'ils font naître au lieu d'ap
+     <corr>
+      p
+     </corr>
+     aiser,et cela pour être à même d'en profiter avec plus d'avantage ; la fin de ce règne si sublimed'ailleurs, est peut-être une des époques de l'empire françois, où l'on fit le plus de ces fortunesobscures, qui n'éclatent que par un luxe et des débauches aussi sourdes qu'elles. C'était vers lafin de ce règne, et peu avant que le régent eût envoyé par ce fameux tribunal comme fous les hommesde chambre de justice, de faire rendre gorge à cette multitude de traîtres,---que quatre entre euximaginèrent la singulière partie de débauche, dont nous allons rendre compte. Ce serait à tort quel'on imaginerait que les voleurs seuls s'étaient occupé
+     <corr>
+      s
+     </corr>
+     de cette maltôte, elle avait à sa tête de très grands seigneurs. Le duc de Blangis et son frère
           l'évêque de... qui tous deux y avaient fait des fortunes immenses, sont des preuves incontestables
           que la noblesse ne négligeait pas plus que les autres les moyens de s'enrichir par cette voie ; car
           deux illustres personnages intimement liés et de plaisirs et d'affaires avec le célèbre Durcet et le
@@ -162,9 +186,19 @@
           président aussi coupable que ses deux amis, avait sans dégoûter Durcet, avoué son petit commerce
           secret avec sa propre fille, au moyen de quoi les trois pères voulant chacun conserver leurs droits,
           convinrent pour les étendre encore d'avantage, que les trois jeunes personnes, uniquement liées de
-          bien et de nom à leurs époux, n'ap<corr>p</corr>artiendraientrelativement au corps pas plus à l'un des trois amis qu'à l'autre, et également à chacun deux, souspeine des punitions les plus sévères, si elles s'avisaient d'enfreindre aucune des clausesauxquelles on les assujettissait. On était à la veine de conclure, lorsque l'évêque déjà lié deplaisirs avec les deux amis de son frère, proposa de mettre un quatrième sujet dans l'alliance, sion voulait le laisser participer aux 3 autres. Ce sujet, la seconde fille du duc et par conséquencesa nièce, lui ap<corr>p</corr>artenaitde bien plus près encore qu'on ne l'imaginait, il avait eu des liaisons avec sa belle-sœur, où lesdeux frères savaient à n'en pouvoir douter, que l'existence de cette jeune personne qui se nommaitAline était bien plus certainement due à l'évêque qu'au duc ; l'évêque qui s'était dès le berceauchargé du soin d'Aline ne l'avait pas, comme on imagine bien, vu arriver à l'âge des charmes sans envouloir jouir, ainsi il était sur ce point l'égal de ses confrères et l'effet qu'il proposait dansce commerce avait le même degré d'avarice et de dégradation, mais comme ses attraits et sa tendrejeunesse l'emportaient encore sur ces trois compagnes, on ne balança point à accepter le marché.L'évêque comme les trois autres céda, en conservant ses droits, et chacun de nos quatre personnagesainsi liés se trouva donc mari de quatre
-          <corr>jolies</corr>
-          femmes. Il s'ensuivit donc de cet arrangement, qu'il est à propos de récapituler pour la facilité du
+          bien et de nom à leurs époux, n'ap
+     <corr>
+      p
+     </corr>
+     artiendraientrelativement au corps pas plus à l'un des trois amis qu'à l'autre, et également à chacun deux, souspeine des punitions les plus sévères, si elles s'avisaient d'enfreindre aucune des clausesauxquelles on les assujettissait. On était à la veine de conclure, lorsque l'évêque déjà lié deplaisirs avec les deux amis de son frère, proposa de mettre un quatrième sujet dans l'alliance, sion voulait le laisser participer aux 3 autres. Ce sujet, la seconde fille du duc et par conséquencesa nièce, lui ap
+     <corr>
+      p
+     </corr>
+     artenaitde bien plus près encore qu'on ne l'imaginait, il avait eu des liaisons avec sa belle-sœur, où lesdeux frères savaient à n'en pouvoir douter, que l'existence de cette jeune personne qui se nommaitAline était bien plus certainement due à l'évêque qu'au duc ; l'évêque qui s'était dès le berceauchargé du soin d'Aline ne l'avait pas, comme on imagine bien, vu arriver à l'âge des charmes sans envouloir jouir, ainsi il était sur ce point l'égal de ses confrères et l'effet qu'il proposait dansce commerce avait le même degré d'avarice et de dégradation, mais comme ses attraits et sa tendrejeunesse l'emportaient encore sur ces trois compagnes, on ne balança point à accepter le marché.L'évêque comme les trois autres céda, en conservant ses droits, et chacun de nos quatre personnagesainsi liés se trouva donc mari de quatre
+     <corr>
+      jolies
+     </corr>
+     femmes. Il s'ensuivit donc de cet arrangement, qu'il est à propos de récapituler pour la facilité du
           lecteur, que le duc, père de Julie, devint l'époux de Constance, fille de Durcet ; que Durcet, père
           de Constance, devint l'époux d'Adélaïde, fille du président, que le président, père d'Adélaïde,
           devint l'époux de Julie, fille aînée du duc, et que l'évêque, oncle et père d'Aline devint l'époux
@@ -213,9 +247,15 @@
           cet acquiescement essentiel à leurs désirs n'était pas une petite affaire.---Le troisième souper
           était destiné aux créatures les plus viles et les plus souillées qui pussent se rencontrer ; à qui
           connait les écarts de la débauche, ce raffinement paraîtra tout simple, il est très voluptueux de se
-          vautrer, pour ains<corr>s</corr>idire, dans l'ordure, avec des créatures de cette classe, on trouve là, l'abandonnement le pluscomplet, les crapules les plus monstrueuses, l'avilissement le plus entier et les plaisirs comparésà ceux qu'on a goûtés la veille ou aux créatures distinguées qui nous les ont fait goûter, jettentun grand sel et sur l'un et sur l'autre excès. Là, comme les débauches étaient plus entières, rienn'était oublié pour les rendre et nombreuses et piquantes. Il y paraissaient cent putains dans lecours de six heures et trop souvent toutes les cent ne sortaient pas entières. Mais ne précipitonsrien, ce raffinement-ci a des détails où nous ne sommes pas encore. Le quatrième souper étaitréservé aux pucelles. On ne les recevait que jusqu'à 15 ans depuis 7. Leur condition était égale, ilne s'agissait que de leur figure, on la voulait charmante et de la sûreté de leur prémices, ilfallait qu'ils fussent authentiques, incroyable raffinement du libertinage. Ce n'était pas qu'ilsvoulussent assurément cueillir toutes ces roses et comment l'eussent-ils pu, puisqu'elles étaienttoujours offertes au nombre de 20 et que de nos quatre libertins deux seulement étaient en état depouvoir procéder à cet acte, l'un des deux autres la traitant n'éprouvait plus absolument aucuneérection et l'évêque ne pouvant absolument jouir que d'une façon qui peut, j'en conviens déshonorerun vierge, mais qui pourtant la laisse toujours bien entière, n'importe, il fallait que les 20prémices y fussent et ceux qui n'étaient pas endommagés par eux devenaient devant eux la proie decertains valets aussi débauchés qu'eux et qu'ils avaient toujours à leur suite pour plus d'uneraison. Indépendamment de ces quatre soupers il y en avait tous les vendredis un secret particulier,bien moins nombreux que les quatre autres, quoique peut-être infiniment plus cher. On n'admettait àcelui-là
-          <corr>que</corr>
-          4 jeunes demoiselles de condition enlevées de chez leurs parents à force de ruse et d'argent. Les
+          vautrer, pour ains
+     <corr>
+      s
+     </corr>
+     idire, dans l'ordure, avec des créatures de cette classe, on trouve là, l'abandonnement le pluscomplet, les crapules les plus monstrueuses, l'avilissement le plus entier et les plaisirs comparésà ceux qu'on a goûtés la veille ou aux créatures distinguées qui nous les ont fait goûter, jettentun grand sel et sur l'un et sur l'autre excès. Là, comme les débauches étaient plus entières, rienn'était oublié pour les rendre et nombreuses et piquantes. Il y paraissaient cent putains dans lecours de six heures et trop souvent toutes les cent ne sortaient pas entières. Mais ne précipitonsrien, ce raffinement-ci a des détails où nous ne sommes pas encore. Le quatrième souper étaitréservé aux pucelles. On ne les recevait que jusqu'à 15 ans depuis 7. Leur condition était égale, ilne s'agissait que de leur figure, on la voulait charmante et de la sûreté de leur prémices, ilfallait qu'ils fussent authentiques, incroyable raffinement du libertinage. Ce n'était pas qu'ilsvoulussent assurément cueillir toutes ces roses et comment l'eussent-ils pu, puisqu'elles étaienttoujours offertes au nombre de 20 et que de nos quatre libertins deux seulement étaient en état depouvoir procéder à cet acte, l'un des deux autres la traitant n'éprouvait plus absolument aucuneérection et l'évêque ne pouvant absolument jouir que d'une façon qui peut, j'en conviens déshonorerun vierge, mais qui pourtant la laisse toujours bien entière, n'importe, il fallait que les 20prémices y fussent et ceux qui n'étaient pas endommagés par eux devenaient devant eux la proie decertains valets aussi débauchés qu'eux et qu'ils avaient toujours à leur suite pour plus d'uneraison. Indépendamment de ces quatre soupers il y en avait tous les vendredis un secret particulier,bien moins nombreux que les quatre autres, quoique peut-être infiniment plus cher. On n'admettait àcelui-là
+     <corr>
+      que
+     </corr>
+     4 jeunes demoiselles de condition enlevées de chez leurs parents à force de ruse et d'argent. Les
           femmes de nos libertins partageaient presque toujours cette débauche et leur extrême soumission,
           leurs soins, leurs services les rendaient toujours plus piquantes. À l'égard de la chère faite à ces
           soupers, il est inutile de dire que la profusion y régnait autant que la délicatesse. Pas un seul de
@@ -234,9 +274,9 @@
           est-ce à nom de décider si le vice lui était aussi nécessaire que la vertu ? Elle ne nous inspire
           pas peut-être en raison égale du penchant à l'un ou à l'autre en raison de ses besoins respectifs.
           Mais poursuivons.---
-        </p>
-        <p>
-          Le duc de Blangis maître à 18 ans d'une fortune déjà immense et qu'il a beaucoup accru par des
+    </p>
+    <p>
+     Le duc de Blangis maître à 18 ans d'une fortune déjà immense et qu'il a beaucoup accru par des
           maltôtes depuis, éprouva tous les inconvénients qui naissent en foule autour d'un jeune homme riche,
           en crédit, et qui n'a rien à se refuser presque toujours dans un tel cas ; la mesure des forces
           devient celle des vices et on se refuse d'autant moins qu'on a plus de facilités à se prouver tout.
@@ -293,9 +333,9 @@
           jeune et l'ayant laissé comme je l'ai dit maître d'une fortune immense avait pourtant mis pour
           clause que le jeune homme laisserait jouir sa mère sa vie durant d'une grande partie de cette
           fortune. Une telle condition déplût bientôt à Blangis.
-        </p>
-        <p>
-          Et le scélérat ne voyant que le poison qui put l'empêcher d'y souscrire il se détermina sur le champ
+    </p>
+    <p>
+     Et le scélérat ne voyant que le poison qui put l'empêcher d'y souscrire il se détermina sur le champ
           à en faire usage. Mais le fourbe débutant pour lors dans la carrière du vice n'osa pas agir lui
           même, il engagea une de ses sœurs avec laquelle il vivait en intrigue criminelle à se charger de
           cette exécution en lui faisant entendre que si elle réussirait il la ferait jouir d'une partie de la
@@ -303,9 +343,9 @@
           le duc voyant que son secret mal confié allait peut-être trahi se décide dans la minute à réunir à
           sa victime celle qu'il avait voulu rendre sa complice, il les menait à une de ses terres d'où les
           deux infortunées ne revinrent jamais.
-        </p>
-        <p>
-          Rien n'encourage comme un premier vice impuni. Après cette épreuve le duc brisa tous les freins, dès
+    </p>
+    <p>
+     Rien n'encourage comme un premier vice impuni. Après cette épreuve le duc brisa tous les freins, dès
           qu'un être quelconque opposait à ses désirs les plus légers entraves le poison s'employait aussitôt,
           des meurtres nécessaires il passa bientôt aux meurtres de volupté, il conçut le malheureux écart qui
           nous fait trouver des plaisirs dans les maux d'autrui, il sentit qu'une commotion violente imprimée
@@ -347,9 +387,9 @@
           entière sur les infamies qu'il venait de se permettre prenait aussitôt la place de son égarement et
           de cette indifférence, de cette espèce d'apathie naissait presque aussitôt de nouvelles étincelles
           de volupté.
-        </p>
-        <p>
-          Le duc dans sa jeunesse avait déchargé jusque 18 fois dans un jour et sans qu'on le vit plus épuisé
+    </p>
+    <p>
+     Le duc dans sa jeunesse avait déchargé jusque 18 fois dans un jour et sans qu'on le vit plus épuisé
           à la dernière perte qu'à la première. Sept ou huit dans le même intervalle ne l'effrayait point
           encore malgré son demi-siècle. Depuis près de vingt-cinq ans il s'était habitué à la sodomie passive
           et il en soutenait les attaques avec la même vigueur qu'il les rendait activement l'instant d'après
@@ -371,14 +411,16 @@
           soutenant sa turpitude avec autant d'esprit que d'effronterie, il prétendait hautement que la
           poltronerie n'étant que le désir de sa conservation, il était parfaitement impossible à des gens
           sensés de la reprocher comme un défaut.
-        </p>
-        <p>
-          En conservant absolument les mêmes traits moroses et les adaptant à une existence physique
+    </p>
+    <p>
+     En conservant absolument les mêmes traits moroses et les adaptant à une existence physique
           infiniment inférieure à celle qui vient d'être tracée on avait le portrait de l'évêque de---, frère
           du duc de Blangis. Même noirceur dans l'âme, même penchant au crime, même mépris pour la religion,
           même athéisme, même fourberie, l'esprit plus souple et plus adroit cependant et plus d'art
-          <corr>de</corr>
-          précipiter ses victimes, mais une taille fine et légère, un corps petit et fluet, une santé
+     <corr>
+      de
+     </corr>
+     précipiter ses victimes, mais une taille fine et légère, un corps petit et fluet, une santé
           chancelante, des nerfs tous délicats, une recherche plus grande dans les plaisirs, des facultés
           médiocres, un membre très ordinaire, petit même mais se ménageant avec un tel art et perdant
           toujours si peu que son imagination sans cesse enflammée le rendait aussi fréquemment que son frère
@@ -429,9 +471,9 @@
           désormais sur tous les événements l'évêque revint à Paris pour jouir des fruits de ses forfaits, et
           sans le plus petit remord d'avoir trompé les intentions d'un homme hors d'état par sa situation de
           prouver ni peine ni plaisirs.---
-        </p>
-        <p>
-          Le président de Curval était le doyen de la société, âgé de près de 60 ans, et singulièrement usé
+    </p>
+    <p>
+     Le président de Curval était le doyen de la société, âgé de près de 60 ans, et singulièrement usé
           par la débauche. Il n'offrait presque plus qu'un squelette, il était grand, sec, mince, des yeux
           bruns et éteintes, une bouche livide et malsaine, le menton élevé, le nez long. Couvert de poils
           comme un satire, un dot plat, des fesses molles et tombantes qui ressemblaient plutôt à deux sales
@@ -533,9 +575,9 @@
           cœurs, car profitant de l'esprit qu'il avait eu pour écrire contre elle, il était auteur de
           plusieurs ouvrages dont les effets avaient été prodigieux et ces succès qu'il se rappellait sans
           cesse, étaient encore une de ses plus chères voluptés.
-        </p>
-        <p>
-          Durcet est âgé de 53 ans, il est petit, court, gros, fort épais, une figure agréable et fraiche, la
+    </p>
+    <p>
+     Durcet est âgé de 53 ans, il est petit, court, gros, fort épais, une figure agréable et fraiche, la
           peau très blanche, tout le corps et principalement les hanches et les fesses absolument comme une
           femme, son cul frais, gras, ferme et petite, mais excessivement ouvert par l'habitude de la Sodomie.
           Son vit est extraordinairement petit, à peine a-t-il 2 pouces de tour et 4 de long, il ne bande
@@ -545,9 +587,9 @@
           aussi dépravée que celle de ses confrères, camarade d'école du duc ils s'amusent encore
           journellement ensemble, et l'un des grands plaisirs de Durcet est de se faire chatouiller l'anus par
           le membre énorme du duc.
-        </p>
-        <p>
-          Tels sont en un mot, cher lecteur, les quatre scélérats avec lesquels je vais te faire passer
+    </p>
+    <p>
+     Tels sont en un mot, cher lecteur, les quatre scélérats avec lesquels je vais te faire passer
           quelque mois. Je te les ai dépeints de mon mieux pour que tu les connaisses au fond et que rien ne
           t'étonne dans le récit de leurs différents écarts. Il est impossible d'entrer dans le détail
           particulier de leurs goûts, j'aurais nui à l'intérêt et la place principale de cet ouvrage en te les
@@ -587,8 +629,10 @@
           homme qu'elle eut connu l'avait comme on le dit laissé bien parfaitement entière de ce côté là. Les
           plus beaux cheveux noirs retombant en boucles naturels par dessus les épaules et quand on le voulut,
           jusque sur le joli poil d'une couleur
-          <corr>égale</corr>
-          qui ombrageait ce petit con volupteuex devenait une nouvelle parure que j'eusse été coupable
+     <corr>
+      égale
+     </corr>
+     qui ombrageait ce petit con volupteuex devenait une nouvelle parure que j'eusse été coupable
           d'omettre et achevait de prêter à cette créature angélique âgée d'environ 22 ans tout le charme que
           la nature peut prodiguer en une femme. À tous ses agréments Constance joignait un esprit juste,
           agréable, et même plus élevé qu'il n'eut dû être dans la triste situation où l'avait placé le sort,
@@ -614,8 +658,10 @@
           extraordinairement grands étaient bleux, ils exprimaient à la fois la tendresse et la décence ; deux
           grands sourcils minces mais singulièrement tracés ornaient un front peu élevé, mais d'une noblesse,
           d'un tel attrait qu'on eut
-          <corr>cru</corr>
-          qu'il était le temple de la pudeur même, son nez étroit, un peu servi du haut descendait
+     <corr>
+      cru
+     </corr>
+     qu'il était le temple de la pudeur même, son nez étroit, un peu servi du haut descendait
           insensiblement dans une forme demi aquilin, ses lèvres étaient minces, bordés de l'incarnat le plus
           vif, et sa bouche un peu grande, c'était le seul défaut de sa céleste physionomie, ne s'ouvrait que
           pour faire voir 32 perles que la nature avait l'air d'avoir semé parmi des rosers. Elle avait le col
@@ -724,9 +770,9 @@
           personne malgré l'air de vivacité que ses yeux annonçaient. Elle abhorrait le président presque
           autant que son oncle et Durcet qui ne la ménageait pourtant pas était néanmoins le seul pour lequel
           elle eut l'air de n'avoir aucune répugnance.---
-        </p>
-        <p>
-          Tels étaient donc les 8 principaux personnages avec lesquels nous allons vous faire vivre mon cher
+    </p>
+    <p>
+     Tels étaient donc les 8 principaux personnages avec lesquels nous allons vous faire vivre mon cher
           lecteur. Il est temps de vous dévoiler maintenant l'objet de plaisir singulier qu'on se
           proposait.---Il est reçu parmi les véritables libertins que les sensations communiquées par l'organe
           de la langue sont celles qui flattent davantage et dont les impressions sont les plus vives, en
@@ -761,8 +807,10 @@
           dans tous les genres écouteraient, s'échaufferaient la tête et finiraient par éteindre avec ou leurs
           femmes ou ces différents objets l'embrasement que les conteuses avaient produit. Il n'y a sans aucun
           doute rien de plus voluptueux dans ce projet que la manière luxurieuse dont
-          <corr>on</corr>
-          y procéda et ce sont et cette manière et les différents récits qui vont former cet ouvrage que je
+     <corr>
+      on
+     </corr>
+     y procéda et ce sont et cette manière et les différents récits qui vont former cet ouvrage que je
           conseille---d'après cet exposé---à tout dévot de laisser là tout de suite s'il ne veut pas être
           scandalisé, car il voit que la plupart est peu chaste et nous osons lui répondre d'avance que
           l'exécution le sera encore bien moins. Comme les quatre actrices dont il s'agit ici jouent un rôle
@@ -772,9 +820,9 @@
           des projets de servir physiquement comme moralement de ces quatre créatures, néanmoins ce n'était
           pas leurs attraits ni leur âge qui décidaient ici, c'étaient uniquement leur esprit et leur
           expérience et il était dans ce sens-là impossible d'être mieux servi qu'on ne le fut.---
-        </p>
-        <p>
-          Md. Duclos était le nom de celle que l'on chargea du récit des 150 passions simples. C'était une
+    </p>
+    <p>
+     Md. Duclos était le nom de celle que l'on chargea du récit des 150 passions simples. C'était une
           femme de quarante35-huit ans, encore assez fraîche qui avait de grands restes de beauté, des yeux
           fort beaux, la peau fort blanche et l'un des plus beaux culs et des plus potelés qu'on pût voir, la
           bouche fraîche et propre, les seins superbes et de jolis cheveux bruns, la taille grosse mais élevée
@@ -801,9 +849,9 @@
           elle s'engagea, et où elle s'engagea avec des gens qui ne voulaient que des choses extraordinaires
           et à qui par conséquent celle-là plut, peut-être---dis-je---sans cette partie-là ce pucelage
           singulier fut-il mort avec elle.
-        </p>
-        <p>
-          La Martaine, grosse maman de 52 ans, bien fraîche et bien saine et douée du plus gros et du plus
+    </p>
+    <p>
+     La Martaine, grosse maman de 52 ans, bien fraîche et bien saine et douée du plus gros et du plus
           beau fessier qu'on pût avoir, offrait absolument le contraire de l'avancière, elle avait passé sa
           vie dans cette débauche sodomite, et y était bellement familiarisée qu'elle ne goûtait absolument
           des plaisirs que par là. Une difformité de la nature---elle était barrée---l'ayant empêché de
@@ -833,9 +881,9 @@
           quatrième rôle d'historienne, c'est à dire celui dans le récit duquel il devait se rencontrer le
           plus d'horreur et d'infamie. Qui mieux qu'une créature qui les avait toutes faites, pouvait jouer ce
           personnage-là ?
-        </p>
-        <p>
-          Ces femmes trouvées, et trouvées dans tous points tels qu'on pouvait les désirer il fallut s'occuper
+    </p>
+    <p>
+     Ces femmes trouvées, et trouvées dans tous points tels qu'on pouvait les désirer il fallut s'occuper
           des accessoires. On avait d'abord désiré de s'entourer d'un grand nombre d'objets luxurieux des deux
           sexes, mais quand on eut fait attention que le seul local où cette partie lubrique put commodément
           s'exécuter était le même château en Suisse appartenant à Durcet et dans lequel il avait expédié la
@@ -931,9 +979,9 @@
           Beauce, et l'ayant laissée seule un instant dans la forest, elle y fut enlevée sur le champ ; elle
           était fille unique et devait avec quatre cent mille francs de dot épouser l'année d'après un très
           grand seigneur. Ce fut elle qui pleura et se désola le plus de l'horreur de son sort.
-        </p>
-        <p>
-          La quatrième se nommait Sophie, elle avait 14 ans et était fille d'un gentilhomme assez à son aise
+    </p>
+    <p>
+     La quatrième se nommait Sophie, elle avait 14 ans et était fille d'un gentilhomme assez à son aise
           et vivant dans ses terres en Berri, elle avait été enlevée à la promenade à côté de sa mère, qui
           voulant la défendre fut précipitée dans une rivière, où sa fille la vit expirer sous ses yeux. La
           cinquième se nommait Colombe, elle était de Paris et fille d'un conseiller, au parlement, elle avait
@@ -948,16 +996,16 @@
           Mimi ou Michette, elle avait 12 ans, elle était fille du Marquis de Senanger et avait été enlevée
           dans la terre de son père en Bourbonnais à l'instant d'une promenade en calèche, qu'on lui avait
           laissé faire avec deux ou trois seules femmes du château qui furent assassinées.
-        </p>
-        <p>
-          On voit que les apprêts de ces voluptés coûtaient bien des sommes et bien des crimes, avec de tels
+    </p>
+    <p>
+     On voit que les apprêts de ces voluptés coûtaient bien des sommes et bien des crimes, avec de tels
           gens, les trésors faisaient pas de chose et quant aux crimes, on vivait alors dans un siècle où il
           s'en fallait bien qu'ils fussent recherchés et punis comme ils l'ont été depuis, moyennant quoi tout
           réussit et si bien que nos libertins ne furent jamais inquiétés des suites, et qu'à peine y eut-il
           des perquisitions.
-        </p>
-        <p>
-          L'instant de l'examen des jeunes garçons arriva, offrant plus de facilité, leur nombre fut plus
+    </p>
+    <p>
+     L'instant de l'examen des jeunes garçons arriva, offrant plus de facilité, leur nombre fut plus
           grand, les appareilleurs en présentèrent 150 et je n'exagérerais sûrement pas en affirmant, qu'ils
           égalaient au moins la classe des jeunes filles, tant par leurs délicieuses figures, que par leurs
           grâces enfantines, leur candeur, leur innocence et leur noblesse ; ils étaient payés trente mille
@@ -989,17 +1037,19 @@
           donna à ceux qui restèrent, leur âge, leur naissance et le précis de leur aventure. Car pour les
           portraits j'y renonce, les traits de l'amour même n'étaient sûrement pas plus délicats et les
           modèles où l'Albani allait choisir les traits de ces anges divins étaient sûrement bien inférieurs.
-        </p>
-        <p>
-          Zélamir était âgé de 13 ans, c'était le fils unique d'un gentilhomme de Poitou, qui l'élevait avec
+    </p>
+    <p>
+     Zélamir était âgé de 13 ans, c'était le fils unique d'un gentilhomme de Poitou, qui l'élevait avec
           le plus grand soin dans sa terre, on l'avait envoyé à Poitiers, voir une parente, escorté d'un seul
           domestique, et nos filous qui l'attendaient, assassinèrent le domestique et s'emparèrent de
           l'enfant. Cupidon était du même âge, il était au collège de la Flèche, fils d'un gentilhomme des
           environs de cette ville, il y faisait ses études, on le guetta et on l'enleva dans une promenade que
           les écoliers faisaient le dimanche ; il était le plus joli de tout le collège.---Narcisse était âgé
           de 12 ans, il était
-          <corr>fils d'un</corr>
-          chevalier de Malthe, on l'avait enlevé à Rouen où son père remplissait une charge honorable et
+     <corr>
+      fils d'un
+     </corr>
+     chevalier de Malthe, on l'avait enlevé à Rouen où son père remplissait une charge honorable et
           compatible avec la noblesse, on le faisait partir pour le collège de Louis le Grand à Paris, il fut
           enlevé en route. Zéphire, le plus délicieux des 8 à supposer que leur excessive beauté eut laissé la
           faculté d'un choix, était de Paris, il y faisait ses études dans une célèbre pension, son père était
@@ -1028,9 +1078,9 @@
           il était fils d'un homme de condition du Nivernois qui venait de l'y amener il n'y avait 6 mois, on
           l'enleva tout simplement, à une promenade qu'il était allé faire seul dans l'avenue de St. Cloud. Il
           devint la passion de l'évêque auquel ses prémices furent destinées.
-        </p>
-        <p>
-          Telles étaient les déités masculines que nos libertins préparaient à leur lubricité. Nous verrons en
+    </p>
+    <p>
+     Telles étaient les déités masculines que nos libertins préparaient à leur lubricité. Nous verrons en
           temps et lieu l'usage qu'ils en firent. Il restait 142 sujets, mais on ne badine point avec ce
           gibier là comme avec l'autre, aucun ne fut congédié sans avoir servi. Nos libertins passèrent avec
           eux un mois au château du duc ; comme on était à la veille du départ, tous les arrangements
@@ -1050,8 +1100,10 @@
           ; il ne s'était jamais rien vu, ni de si beau, ni de si majestueux que cet outil presque toujours en
           l'air, et dont 8 décharges, on en fit l'épreuve, remplissaient une pinte juste. Il était d'ailleurs
           fort doux et d'une physionomie intéressante. Antinous, ainsi nommé parce que
-          <corr>à</corr>
-          l'exemple du Bardache d'Adrien il joignait au plus beau vit du monde le cul le plus voluptueux, ce
+     <corr>
+      à
+     </corr>
+     l'exemple du Bardache d'Adrien il joignait au plus beau vit du monde le cul le plus voluptueux, ce
           qui est très rare, était porteur d'un outil de 8 pouces de tour sur de 12 de long, il avait 30 ans
           et de la plus jolie figure du monde. Briseeul avait un hochet si plaisamment contourné qu'il lui
           dévenait presque impossible d'enculer sans briser le cul, et de là lui était venu le nom qu'il
@@ -1120,9 +1172,9 @@
           Indépendamment des services de la maison au séjour luxurieux que l'on se proposait, ces quatre
           femmes devaient encore présider à toutes les assemblées pour tous les différents soins et services
           de lubricité que l'on pourrait exiger d'elles.
-        </p>
-        <p>
-          Tous ces soins remplis et l'été déjà commencé, on ne s'occupait plus que des transports des
+    </p>
+    <p>
+     Tous ces soins remplis et l'été déjà commencé, on ne s'occupait plus que des transports des
           différentes choses qui devaient pendant les quatre mois de séjour à là terre de Durcet en rendre
           l'habitation commode et agréable. On y fit porter une nombreuse quantité de meubles et de glace, des
           vivres, des vins, des liqueurs de toutes les espèces, on y envoya des ouvriers, et petit à petit on
@@ -1134,10 +1186,13 @@
           religieuse aux sens dut évidemment prêter à la luxure un attrait de plus. Nous allons peindre cette
           retraite non comme elle était autrefois, mais dans l'état et d'embellissement, et de solitude encore
           plus parfaite où les quatre amis l'avaient mise.
-        </p>
-        <p>
-          Il fallait pour y parvenir arriver d'abord à Baste, on y passait certain
-          <corr>lieu</corr>, au de là duquel, la route se rétrécissait au point qu'il fallait quitter les
+    </p>
+    <p>
+     Il fallait pour y parvenir arriver d'abord à Baste, on y passait certain
+     <corr>
+      lieu
+     </corr>
+     , au de là duquel, la route se rétrécissait au point qu'il fallait quitter les
           voitures peu après. On entrait dans la forêt noire, on s'y enfonçait d'environs 15 lieues par une
           route difficile et tortueuse, et absolument inpraticable sans guide. Un méchant hameau de
           charbonnière et de garde bois s'offrait. Environ en cette hauteur-là commence le territoire de la
@@ -1165,8 +1220,10 @@
           redescendant la partie septentrionale on arrive dans une petite plaine d'environ quatre arpents,
           laquelle est entourée de partout de rochers à pics dont les sommets touchent aux mêmes rochers qui
           enveloppent la plaine comme un paravent et qui ne laissent pas la plus légère
-          <corr>communication</corr>
-          entre eux, le passage nommé le chemin du pont, est donc l'unique qu'on puisse descendre et
+     <corr>
+      communication
+     </corr>
+     entre eux, le passage nommé le chemin du pont, est donc l'unique qu'on puisse descendre et
           communique dans la petite plaine, et une fois détruit il n'y a plus un seul habitant de la terre de
           quelqu'espèce qu'on veuille le supposer à qui il devienne possible d'aborder la petite plaine. Or
           c'est au milieu de cette petite plaine si bien entourée, si bien défendue que se trouva le château
@@ -1270,15 +1327,15 @@
           d'entrer en matières il est essentiel que nous les fassions connaître à notre lecteur, qui d'après
           l'exacte description que nous lui avons faite du tout, n'aura plus maintenant que suivre légèrement
           et voluptueusement sans que rien trouble son intelligence ou vienne embarrasser
-        </p>
-        <p>
-          son mémoire.
-        </p>
-        <p>
-          Règlements.
-        </p>
-        <p>
-          On se lèvera tous les jours à 10 heures du matin ; à ce moment les quatre fouteurs qui n'auront pas
+    </p>
+    <p>
+     son mémoire.
+    </p>
+    <p>
+     Règlements.
+    </p>
+    <p>
+     On se lèvera tous les jours à 10 heures du matin ; à ce moment les quatre fouteurs qui n'auront pas
           été du service pendant la nuit, viendront rendre visite aux amis et amèneront chacun avec eux un
           petit garçon, ils passeront successivement d'une chambre à l'autre ils agiront au gré et aux désirs
           des amis, mais dans les commencements les petits garçons qu'ils amèneront ne seront que pour la
@@ -1444,9 +1501,9 @@
           haranguer les femmes, elles s'assemblèrent toutes par son ordre dans le salon aux narrations, et
           étant monté sur la tribune ou l'espèce de trône destinée à l'historienne, voici à peu près le
           discours qu'il leur tint.
-        </p>
-        <p>
-          "Etres faibles et enchaînées, uniquement destinées à nos plaisirs, vous ne vous êtes pas flattées
+    </p>
+    <p>
+     "Etres faibles et enchaînées, uniquement destinées à nos plaisirs, vous ne vous êtes pas flattées
           j'espère que cet empire aussi ridicule qu'absolu que l'on vous laisse dans le monde, vous serait
           accordé dans ces lieux, mille fois plus soumises que ne le serait des esclaves, vous ne devez vous
           attendre qu'à l'humiliation, et l'obéissance doit être la seule vertu dont je vous conseille de
@@ -1524,12 +1581,14 @@
           comme moi qui ne serait vis-à-vis de lui que c'est qu'un ciron aux yeux de l'éléphant,
           permettrait-il, dis-je, que cette faible créature, l'insultât, le bafouât, le défiât, le bravât et
           l'offense comme je fais à plaisir à chaque instant de la journée."
-        </p>
-        <p>
-          Ce petit sermon fait, le duc descendit de chaire, et excepté les quatre vieilles et les quatre
+    </p>
+    <p>
+     Ce petit sermon fait, le duc descendit de chaire, et excepté les quatre vieilles et les quatre
           historiennes qui savaient bien qu'elles étaient là plutôt
-          <corr>comme</corr>
-          sacrificatrices et prêtresses que comme victimes, excepté ces 8 là, dis-je, tout le reste fondait en
+     <corr>
+      comme
+     </corr>
+     sacrificatrices et prêtresses que comme victimes, excepté ces 8 là, dis-je, tout le reste fondait en
           larmes, et le duc s'en embarassant fort peu les laissa conjecturer, jaboter, se plaindre entre
           elles, bien sûr que les 8 espionnes lui rendraient bon compte de tout, et fut passer la nuit avec
           Hercule, l'un de la troupe des fouteurs qui était devenu son plus intime favori comme amant, le
@@ -1569,26 +1628,26 @@
           à mesure que si l'on rencontrera un nom qui embrassera dans les récits on pourra recourir à cette
           table, et plus haut aux portraits étendus, si cette légère esquisse ne suffit pas à rappeler ce qui
           aura été dit.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Personnages du "roman de l'école du libertinage".
-        </head>
-        <p>
-          Le duc de Blangis, 50 ans, fait comme un satire, doué d'un membre monstrueux et d'une force
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Personnages du "roman de l'école du libertinage".
+    </head>
+    <p>
+     Le duc de Blangis, 50 ans, fait comme un satire, doué d'un membre monstrueux et d'une force
           prodigieuse ; on peut le regarder comme le réceptacle de tous les vices et de tous les crimes, il a
           tué sa mère, sa sœur et trois de ses femmes.
-        </p>
-        <p>
-          L'évêque de... est son frère, 45 ans, plus mince et plus délicat que le duc, une vilaine bouche, il
+    </p>
+    <p>
+     L'évêque de... est son frère, 45 ans, plus mince et plus délicat que le duc, une vilaine bouche, il
           est fourbe adroit, fidèle sectateur de la sodomie active et passive, il méprise absolument toute
           autre espèce de plaisir, il a cruellement fait mourir deux enfants pour lesquels un ami avait laissé
           des fortunes considérables entre ses mains. Il a le genre nerveux d'une si grande sensibilité qu'il
           s'évanouit presque en déchargeant.
-        </p>
-        <p>
-          Le président de Curval, 60 ans, c'est un grand homme sec, mince ; des yeux creux éteints, la bouche
+    </p>
+    <p>
+     Le président de Curval, 60 ans, c'est un grand homme sec, mince ; des yeux creux éteints, la bouche
           malsaine, l'image ambulante de la crapule et du libertinage, d'une saleté affreuse sur lui-même, et
           y attachant de la volupté ; il a été circoncis, son érection est rare et difficile. Cependant elle a
           lieu et il éjacule encore presque tous les jours, son goût le porte de préférence aux hommes,
@@ -1598,9 +1657,9 @@
           ne doit sa fortune qu'à des meurtres et nommément d'un qui est affreux et qu'on peut voir dans le
           détail de son portrait. Il éprouve en déchargeant une sorte de colère lubrique qui le porte aux
           cruautés.
-        </p>
-        <p>
-          Durcet, financier, 53 ans, grand aussi et camarade d'école du duc, il est petit, court et trapu,
+    </p>
+    <p>
+     Durcet, financier, 53 ans, grand aussi et camarade d'école du duc, il est petit, court et trapu,
           mais son corps est frais, beau et blanc, il est taillé comme une femme, et en a tous les goûts.
           Privé par la petitesse de sa consistance, de leur donner plaisir, il l'a imité et se fait foutre à
           tout instant du jour, il aime aussi la jouissance de la bouche, c'est la seule qui puisse lui donner
@@ -1610,29 +1669,32 @@
           pitié. Il ne bande plus et ses éjaculations sont fort rares. Ses instants de crise sont précédés
           d'une sorte de spasme qui le jette dans une colère lubrique dangereuse pour ceux ou celles qui
           servent sa passion.
-        </p>
-        <p>
-          Constance est femme du duc et fille de Durcet, elle a 22 ans, c'est une beauté romaine, plus de
+    </p>
+    <p>
+     Constance est femme du duc et fille de Durcet, elle a 22 ans, c'est une beauté romaine, plus de
           majesté que de finesse, de l'embonpoint quoique bien faite, un corps superbe, le cul singulièrement
           coupé et pouvant servir de modèle, les cheveux et les yeux très noirs, elle a de l'esprit et ne sent
           que trop toute l'horreur de son sort. Un grand fond de vertu naturelle que rien n'a pu détruire.
-        </p>
-        <p>
-          Adélaïde, femme de Durcet et fille du président, c'est une jolie poupée, elle a 20 ans, les yeux
+    </p>
+    <p>
+     Adélaïde, femme de Durcet et fille du président, c'est une jolie poupée, elle a 20 ans, les yeux
           très tendres et d'un joli bleu animé, elle a toute la tournure d'une héroïne de roman, le cou long
           et bien attaché, la bouche un peu grande, c'est son seul défaut. Une petite gorge et un petit cul,
           mais tout cela quoique délicat est blanc et moulé, l'esprit romanesque, le cœur tendre,
           excessivement vertueux et dévote ; elle se cache pour remplir ses devoirs de chrétienne.
-        </p>
-        <p>
-          Julie, femme du président et fille aînée du duc, elle a 24 ans, grasse, potelée, de beaux yeux
+    </p>
+    <p>
+     Julie, femme du président et fille aînée du duc, elle a 24 ans, grasse, potelée, de beaux yeux
           bruns, un joli nez ; des traits marqués et agréables, mais une bouche affreuse, elle a peu de vertu,
           et même grande disposition à la malpropreté, à l'ivrognerie, à la gourmandise, et au putanisme, son
           mari l'aime à cause du défaut de sa
-          <corr>vertu</corr>. On ne lui a jamais donné ni principe ni religion.
-        </p>
-        <p>
-          Aline sa sœur cadette, crue fille du duc quoique réellement elle soit fille de l'évêque et d'une des
+     <corr>
+      vertu
+     </corr>
+     . On ne lui a jamais donné ni principe ni religion.
+    </p>
+    <p>
+     Aline sa sœur cadette, crue fille du duc quoique réellement elle soit fille de l'évêque et d'une des
           femmes du duc, elle a 18 ans, une physionomie très piquante et très agréable, beaucoup de fraîcheur,
           les yeux bruns, le nez retroussé, l'air mutine quoique foncièrement indolente et paresseuse, elle
           n'a point l'air d'avoir encore du tempérament, et déteste très sincèrement toutes les infamies dont
@@ -1640,179 +1702,179 @@
           crasse, elle ne sait ni lire, ni écrire, elle déteste l'évêque et craint le duc. Elle aimait
           beaucoup sa sœur, elle est sobre et propre, répond drôlement et avec enfantillage, son cul est
           charmant.
-        </p>
-        <p>
-          La Duclos, 1e historienne. Elle a 48 ans, grands restes de beauté, beaucoup de fraîcheur, le plus
+    </p>
+    <p>
+     La Duclos, 1e historienne. Elle a 48 ans, grands restes de beauté, beaucoup de fraîcheur, le plus
           beau cul qu'on puisse avoir. Brune, taille pleine, très en chair.
-        </p>
-        <p>
-          La Champville a 50 ans, elle est mince, bien faite, et les yeux lubriques, elle est tribade et tout
+    </p>
+    <p>
+     La Champville a 50 ans, elle est mince, bien faite, et les yeux lubriques, elle est tribade et tout
           l'annonce dans elle ; son métier est le maquerellage, elle a été blonde, elle a de jolis yeux, le
           clitoris long et chatouilleux, un cul fort usé à force de services, et néanmoins elle est pucelle
           par là.
-        </p>
-        <p>
-          La Martaine a 52 ans, elle est maquerelle, c'est une grosse maman fraîche et saine, elle est barrée
+    </p>
+    <p>
+     La Martaine a 52 ans, elle est maquerelle, c'est une grosse maman fraîche et saine, elle est barrée
           et n'a jamais connu que le plaisir de Sodome pour lequel elle semble avoir été spécialement créée,
           car elle a malgré son âge le plus beau cul possible, il est fort gros, et si accoutumé aux
           introductions, qu'elle soutient les plus gros engins sans sourciller. Elle a encore de jolis traits,
           mais qui pourtant commencent à se faner.
-        </p>
-        <p>
-          La Desgranges a 56 ans, cul le plus grand, et la plus scélérate qu'ait jamais existé elle est grande
+    </p>
+    <p>
+     La Desgranges a 56 ans, cul le plus grand, et la plus scélérate qu'ait jamais existé elle est grande
           mince, pâle, elle a été brune, c'est l'image du crime personifié. Son cul flétri ressemble à du
           papier marbre, et l'orifice en est immense. Elle a un talon, trois doigts et six dents de moins. Il
           n'existe pas un seul crime qu'elle n'ait fait ou fait faire, elle a ce jargon agréable, de l'esprit,
           et est actuellement une des maquerelles en titre de la société.
-        </p>
-        <p>
-          Marie, la première des duègnes a 58 ans, elle est fouettée et marquée, elle a été servante de
+    </p>
+    <p>
+     Marie, la première des duègnes a 58 ans, elle est fouettée et marquée, elle a été servante de
           voleur, les yeux fermes et chanceux, le nez de travers, les dents jaunes, une fesse rongée par un
           abcès, elle a fait et tué 14 enfants.
-        </p>
-        <p>
-          Louison, la seconde duègne, a 60 ans, elle est petite, bossue, borgne et boiteuse, et elle a
+    </p>
+    <p>
+     Louison, la seconde duègne, a 60 ans, elle est petite, bossue, borgne et boiteuse, et elle a
           pourtant un fort joli cul, elle est toujours prête aux crimes et elle est extrêmement méchante. Ces
           deux premières sont annexées aux filles, et les deux suivantes aux garçons.
-        </p>
-        <p>
-          Thérèse a 62 ans, l'air de squelette, ni cheveux ni dents, une bouche puante, le cul criblé de
+    </p>
+    <p>
+     Thérèse a 62 ans, l'air de squelette, ni cheveux ni dents, une bouche puante, le cul criblé de
           blessures, le trou large à l'excès, elle est d'une saleté et d'une puanteur atroce, elle a un bras
           tordu et elle boîte.
-        </p>
-        <p>
-          Fanchon, âgée de 65 ans, a été pendue 6 fois en effigie, et a commis tous les crimes imaginables,
+    </p>
+    <p>
+     Fanchon, âgée de 65 ans, a été pendue 6 fois en effigie, et a commis tous les crimes imaginables,
           elle est louche, camuse, courte, grosse, point de front, plus que 2 dents, un érisipèle (sic) lui
           couvre le cul, un paquet d'émoroïdes lui sort du trou, un chancre lui dévore le vagin, elle a une
           cuisse brûlée, et un cancer lui ronge le sein, elle est toujours saoule, et vomit, pète et chie
           partout et à, tout instant sans s'en apercevoir.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Sérail des jeunes filles.
-        </head>
-        <p>
-          Augustine, fille d'un baron de Languedoc, 15 ans, minois fin et éveillé.
-        </p>
-        <p>
-          Fanni, fille d'un conseiller de Bretagne, 14 ans, l'air doux et tendre.
-        </p>
-        <p>
-          Zelmire, fille du comte de Tourville, seigneur de Beauce, 15 ans, l'air noble et l'âme très
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Sérail des jeunes filles.
+    </head>
+    <p>
+     Augustine, fille d'un baron de Languedoc, 15 ans, minois fin et éveillé.
+    </p>
+    <p>
+     Fanni, fille d'un conseiller de Bretagne, 14 ans, l'air doux et tendre.
+    </p>
+    <p>
+     Zelmire, fille du comte de Tourville, seigneur de Beauce, 15 ans, l'air noble et l'âme très
           sensible.
-        </p>
-        <p>
-          Sophie, fille d'un gentilhomme de Berri, des traits charmants, 14 ans.
-        </p>
-        <p>
-          Colombe, fille d'un conseiller au parlement de Paris, 13 ans, grande fraîcheur.
-        </p>
-        <p>
-          Hébé, fille d'un officier d'Orléans, l'air très libertin et les yeux charmants, elle a 12 ans.
-        </p>
-        <p>
-          Rosette et Michelette toutes deux l'air de belle vierge, l'une a 13 ans et est fille d'un magistrat
+    </p>
+    <p>
+     Sophie, fille d'un gentilhomme de Berri, des traits charmants, 14 ans.
+    </p>
+    <p>
+     Colombe, fille d'un conseiller au parlement de Paris, 13 ans, grande fraîcheur.
+    </p>
+    <p>
+     Hébé, fille d'un officier d'Orléans, l'air très libertin et les yeux charmants, elle a 12 ans.
+    </p>
+    <p>
+     Rosette et Michelette toutes deux l'air de belle vierge, l'une a 13 ans et est fille d'un magistrat
           de Châlons sur Saône, l'autre en a 12 et est fille du Marquis de Senange, elle a été enlevé en
           Bourbonnais chez son père. Leur taille et le reste de leurs attraits, et principalement leur cul est
           au-dessus de toute expression, elles sont choisies sur 130.
-        </p>
-        <p>
-          Sérail des jeunes garçons.
-        </p>
-        <p>
-          Zélamir, 13 ans, fils d'un gentilhomme de Poitou.
-        </p>
-        <p>
-          Cupidon, même âge, fils d'un gentilhomme d'auprès de la Flèche.
-        </p>
-        <p>
-          Narcisse, 12 ans, fils d'un homme en place de Rouen, chevalier de Malthe.
-        </p>
-        <p>
-          Zéphire, 15 ans, fils d'un officier général de Paris, il est destiné au duc.
-        </p>
-        <p>
-          Céladon, fils d'un magistrat de Nancy, il a 14 ans.
-        </p>
-        <p>
-          Adonis, fils d'un président de la grande chambre de Paris, 15 ans, destiné à Curval.
-        </p>
-        <p>
-          Hyacinthe, 14 ans, fils d'un officier retiré en champagne.
-        </p>
-        <p>
-          Giton page du roi, 12 ans, fils d'un gentilhomme du Nivernois.
-        </p>
-        <p>
-          Nulle plume est en état de peindre les grâces, les traits, et les charmes secrets de ces 8 enfants,
+    </p>
+    <p>
+     Sérail des jeunes garçons.
+    </p>
+    <p>
+     Zélamir, 13 ans, fils d'un gentilhomme de Poitou.
+    </p>
+    <p>
+     Cupidon, même âge, fils d'un gentilhomme d'auprès de la Flèche.
+    </p>
+    <p>
+     Narcisse, 12 ans, fils d'un homme en place de Rouen, chevalier de Malthe.
+    </p>
+    <p>
+     Zéphire, 15 ans, fils d'un officier général de Paris, il est destiné au duc.
+    </p>
+    <p>
+     Céladon, fils d'un magistrat de Nancy, il a 14 ans.
+    </p>
+    <p>
+     Adonis, fils d'un président de la grande chambre de Paris, 15 ans, destiné à Curval.
+    </p>
+    <p>
+     Hyacinthe, 14 ans, fils d'un officier retiré en champagne.
+    </p>
+    <p>
+     Giton page du roi, 12 ans, fils d'un gentilhomme du Nivernois.
+    </p>
+    <p>
+     Nulle plume est en état de peindre les grâces, les traits, et les charmes secrets de ces 8 enfants,
           au-dessus de tout ce qu'il est possible de dire, et choisis comme on le sait sur un très grand
           nombre.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Huit fouteurs.
-        </head>
-        <p>
-          Hercule, 26 ans, assez joli, mais très mauvais sujet, favori du duc, son vit a 8 pouces, 2 lignes de
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Huit fouteurs.
+    </head>
+    <p>
+     Hercule, 26 ans, assez joli, mais très mauvais sujet, favori du duc, son vit a 8 pouces, 2 lignes de
           tour, sur 13 de long ; décharge beaucoup.
-        </p>
-        <p>
-          Antinous a 30 ans, très bel homme, son vit a 8 pouces de tour, sur 12 de long.
-        </p>
-        <p>
-          Brise-cul, 28 ans, l'air d'un satire, son vit est tortu, la tête, ou le gland en est énorme, il a 8
+    </p>
+    <p>
+     Antinous a 30 ans, très bel homme, son vit a 8 pouces de tour, sur 12 de long.
+    </p>
+    <p>
+     Brise-cul, 28 ans, l'air d'un satire, son vit est tortu, la tête, ou le gland en est énorme, il a 8
           pouces, 3 lignes de tour, et le corps du vit 8 pouces, sur 13 de long. Ce vit majestueux est
           absolument cambré.
-        </p>
-        <p>
-          Bande-au-ciel, a 25 ans, il est fort laid, mais sain et vigoureux, grand favori de Curval, il a 25
+    </p>
+    <p>
+     Bande-au-ciel, a 25 ans, il est fort laid, mais sain et vigoureux, grand favori de Curval, il a 25
           ans, est toujours en l'air, et son vit a 7 pouces 11 lignes de tour, sur 11 de long.
-        </p>
-        <p>
-          Les quatre autres de 9 à 10 et 11 pouces de long, sur 7 et demi, et 7 et 9 lignes de tour, et ils
+    </p>
+    <p>
+     Les quatre autres de 9 à 10 et 11 pouces de long, sur 7 et demi, et 7 et 9 lignes de tour, et ils
           ont de 25 à 30 ans.
-        </p>
-        <p>
-          Fin de l'introduction.
-        </p>
-        <p>
-          Omissions que j'ai faites dans cette introduction.
-        </p>
-        <p>
-          1. Il faut dire que Hercule et Bande-au-ciel sont l'un très mauvais sujet et l'autre fort laid, et
+    </p>
+    <p>
+     Fin de l'introduction.
+    </p>
+    <p>
+     Omissions que j'ai faites dans cette introduction.
+    </p>
+    <p>
+     1. Il faut dire que Hercule et Bande-au-ciel sont l'un très mauvais sujet et l'autre fort laid, et
           qu'aucun des 8 n'a jamais pu jouir ni d'homme ni de femme.
-        </p>
-        <p>
-          2. Que la chapelle sert de garderobe et les détails d'après cet usage.
-        </p>
-        <p>
-          3. Que les maquerelles et les maquereaux dans leur expédition avaient avec eux des coupes-jarrets à
+    </p>
+    <p>
+     2. Que la chapelle sert de garderobe et les détails d'après cet usage.
+    </p>
+    <p>
+     3. Que les maquerelles et les maquereaux dans leur expédition avaient avec eux des coupes-jarrets à
           leurs ordres.
-        </p>
-        <p>
-          4. Détaillez un peu les gorges des servantes, et parlez du cancer de Fanchon. Peignez aussi un peu
+    </p>
+    <p>
+     4. Détaillez un peu les gorges des servantes, et parlez du cancer de Fanchon. Peignez aussi un peu
           davantage les figures des 16 enfants.
-        </p>
-        <p>
-          Les 120 journées de Sodome ou l'école du libertinage.
-        </p>
-        <p>
-          Première partie.
-        </p>
-        <p>
-          Les 150 passions simples ou de première classe composant les trente journées de novembre remplies
+    </p>
+    <p>
+     Les 120 journées de Sodome ou l'école du libertinage.
+    </p>
+    <p>
+     Première partie.
+    </p>
+    <p>
+     Les 150 passions simples ou de première classe composant les trente journées de novembre remplies
           par la narration de la Duclos auxquelles sont entremêlés les évènemens scandaleux du château en
           forme de journal pendant ce mois-là.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          1e journée.
-        </head>
-        <p>
-          On se leva le 1er de 9bre à 10 heures du matin, ainsi qu'il était préscrit par les règlements, dont
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     1e journée.
+    </head>
+    <p>
+     On se leva le 1er de 9bre à 10 heures du matin, ainsi qu'il était préscrit par les règlements, dont
           on s'était mutuellement juré de ne s'écarter en rien. Les quatre fouteurs qui n'avaient point
           partagé la couche des amis leur amenèrent à leur lever Zéphire chez le duc, Adonis chez Curval,
           Narcisse chez Durcet, et Zélamir chez l'évêque. Tous quatre étaient bien timides encore, bien
@@ -1895,9 +1957,9 @@
           élégant, beaucoup de rouge et de diamants s'était placée sur son estrade, commença ainsi l'histoire
           des événements de sa vie dans laquelle elle devait faire entrer le détail des 150 premières passions
           désignées sous le nom de passions simples.
-        </p>
-        <p>
-          "Ce n'est pas une petite affaire, messieurs, que de s'annoncer devant un cercle comme le vôtre,
+    </p>
+    <p>
+     "Ce n'est pas une petite affaire, messieurs, que de s'annoncer devant un cercle comme le vôtre,
           accoutumé à tout ce que les lettres produisent de plus fin et de plus délicat, comment pourrez-vous
           supporter le récit interne et grossier d'une malheureuse créature comme moi, qui n'ai jamais reçu
           d'autre éducation que celle que le libertinage m'a donnée, mais votre indulgence me rassure, vous
@@ -1932,8 +1994,10 @@
           physionomie, il m'arrêta : "Où vas-tu, Françon," me dit-il---"Arranger des chaises, mon
           père"---"Bon, bon, ta mère les arrangera, viens, viens dans ce cabinet, " me dit-il en m'attirant
           dans
-          <corr>un</corr>
-          réduit qui se trouvait là. "Je te ferai voir quelque chose que tu n'a jamais vu."---Je le suis.---Il
+     <corr>
+      un
+     </corr>
+     réduit qui se trouvait là. "Je te ferai voir quelque chose que tu n'a jamais vu."---Je le suis.---Il
           ferme la porte sur nous, et m'ayant porté bien en face de lui, "tiens Françon," me dit-il, en
           sortant son vit monstrueux de sa culotte, dont je pensai tomber à la renverse d'effroi, "tiens mon
           enfant," continuait-il, en se branlant, "as-tu jamais rien vu de pareil à cela... c'est ce qu'on
@@ -2047,8 +2111,10 @@
           ce petit monologue, le sirop se préparait et suivant l'usage on nous en fit avaler trois grands vers
           à chacune, mais comme je n'avais pas coutume d'en boire quand j'amenais du gibier à Louis, parce
           qu'il n'en donnait qu'à celle que
-          <corr>je</corr>
-          lui amenais, que je ne restais communément pas et que je me retirais tout de suite, je fus étonnée
+     <corr>
+      je
+     </corr>
+     lui amenais, que je ne restais communément pas et que je me retirais tout de suite, je fus étonnée
           de la précaution cette fois et d'un ton de la plus naïve innocence je lui dis : "Et pourquoi donc me
           faites-vous boire, mon père, et ce que vous voulez que je pisse ?"---"Oui, mon enfant," dit
           Geoffroi, qui me tenait toujours entre ses cuisses et qui promenait déjà sa main sur mon devant,
@@ -2191,9 +2257,9 @@
           d'agréables aventures. Mais ce n'était pas plus là ma destinée, des événements plus importants
           m'attendaient dans un nouveau monde et j'appris en revenant à la maison des nouvelles qui vinrent
           bientôt troubler l'ivresse où venait de me mettre l'heureuse tournure de ma dernière histoire."
-        </p>
-        <p>
-          Ici une cloche se fit entendre dans le salon, c'était celle qui annonçait que le souper était servi,
+    </p>
+    <p>
+     Ici une cloche se fit entendre dans le salon, c'était celle qui annonçait que le souper était servi,
           en conséquence Duclos généralement applaudie des petits débuts intéressants de son histoire
           descendit de sa tribune, et après s'être un peu rajusti des désordres dans lequel chacun se
           trouvait, on s'occupa de nouveaux plaisirs en allant avec empressement chercher ceux que Cornus
@@ -2249,16 +2315,16 @@
           avaient eu sur le canapé à la narration. Malheureuses victimes de leur brutalité auxquelles il n'est
           que trop vraisemblable qu'ils firent plus d'outrages que de caresses, et auxquelles, sans doute, ils
           donnèrent plus de dégoûts que de plaisirs Telle fut l'histoire de la première journée.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          <hi rend="italic">
-            2e journée.
-          </hi>
-        </head>
-        <p>
-          On se leva à l'heure ordinaire, l'évêque entièrement remis de ses excès et qui dès quatre heures du
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      2e journée.
+     </hi>
+    </head>
+    <p>
+     On se leva à l'heure ordinaire, l'évêque entièrement remis de ses excès et qui dès quatre heures du
           matin s'était trouvé bien scandalisé de ce qu'on l'eût laissé coucher seul, avait sonné pour que
           Julie et le fouteur qui lui était destiné vinssent occuper leur poste ; ils arrivèrent à l'instant,
           et le libertin se replongea dans leurs bras au sein de nouvelles impuretés, quand le déjeuner fut
@@ -2285,8 +2351,10 @@
           différentes fantaisies de ceux à qui elles avaient affaire. Ce projet du financier plut
           universellement, Duclos mandée accepta la commission, et dès le même jour elle ajouta dans leur
           appartement
-          <corr>l'objet</corr>
-          sur lequel elles pouvaient toujours exercer leurs poignets pour l'entretenir dans la sorte d'agilité
+     <corr>
+      l'objet
+     </corr>
+     sur lequel elles pouvaient toujours exercer leurs poignets pour l'entretenir dans la sorte d'agilité
           nécessaire. On chargea Hercule du même emploi chez les garçons qui toujours bien plus adroits dans
           cet art-là que les filles, parce qu'il ne s'agit que de faire aux autres ce qu'ils se font à eux
           mêmes, n'eurent besoin que deux semaines pour devenir les plus délicieux branleurs qu'il fût
@@ -2315,9 +2383,9 @@
           ses goûts, mais très gênante pour cette pauvre petite femme, il la menaça de tous les effets de sa
           colère si elle s'en dérangeait un seul instant. Tout étant prêt, Duclos monta sur sa tribune et
           reprit ainsi le fil de la narration :
-        </p>
-        <p>
-          "Il y avait trois jours que ma mère n'avait paru dans la maison, lorsque son mari, inquiet bien
+    </p>
+    <p>
+     "Il y avait trois jours que ma mère n'avait paru dans la maison, lorsque son mari, inquiet bien
           plutôt de ses effets et de son argent que de la créature, s'avisa d'entrer dans sa chambre, où ils
           avaient coutume de serrer ce qu'ils avaient de plus précieux, mais quel fut son étonnement,
           lorsqu'au lieu de ce qu'il cherchait, il ne trouva qu'un billet de ma mère, qui lui disait de
@@ -2390,7 +2458,10 @@
           sacredieu montrer mon cul sur les bornes avec autant de tranquillité que je boirais un verre de vin.
           Imite-moi, Françon, on gagne tout sur les hommes avec de la complaisance. Le métier est un peu dur
           dans les commencements, mais on s'y fait
-          <corr>accoutumée</corr>, autant d'hommes autant de goûts, d'abord il faut t'y attendre, l'un veut
+     <corr>
+      accoutumée
+     </corr>
+     , autant d'hommes autant de goûts, d'abord il faut t'y attendre, l'un veut
           une chose, l'autre en veut une autre, mais qu'importe ? On est là pour obéir, on se soumet, c'est
           bientôt passé et l'argent reste." J'étais confondue, je l'avoue, d'entendre de propos aussi déréglés
           dans la bouche d'une fille si jeune et qui m'avait toujours paru si décente, mais comme mon cœur en
@@ -2561,9 +2632,9 @@
           continue, en laissant les spectateurs persuadés, d'une vérité dont ils étaient, je crois, pénétrés
           depuis bien longtemps, que l'idée du crime fait toujours enflammer les sens et nous conduire à la
           lubricité.
-        </p>
-        <p>
-          "Je fus très étonnée," dit Duclos, en reprenant le fil de son discours, "de voir toutes mes
+    </p>
+    <p>
+     "Je fus très étonnée," dit Duclos, en reprenant le fil de son discours, "de voir toutes mes
           compagnes rire en me retrouvant, et me demandant, si je m'étais essuyée, et mille autres propos qui
           prouvaient, qu'elles savaient très bien ce que je venais de faire. On ne me laissa pas longtemps
           dans l'inquiétude, et ma sœur me menait dans une chambre voisine de celle où se faisaient
@@ -2610,8 +2681,10 @@
           dissimuler tout que je pourrais cette indigne partie,---je me sers de son expression,---de ses deux
           mains il mania longtemps et avec lubricité mon derrière, il l'écartait, il le vénérait quelques
           fois, il
-          <corr>y</corr>
-          portait sa bouche et je la sentis même une fois ou deux directement appuyée sur le trou. Mais il ne
+     <corr>
+      y
+     </corr>
+     portait sa bouche et je la sentis même une fois ou deux directement appuyée sur le trou. Mais il ne
           se touchait point encore, rien ne paraissait, se sentait pourtant pressé apparemment il se disposa
           au dénouement de son opération : "couchez-vous tout à fait à terre," me dit-il, en me jetant
           quelques carreaux, "là, oui, ainsi.---Les jambes bien écartées, le cul un peu relevé, et le trou le
@@ -2646,16 +2719,16 @@
           monde voulut lui baiser le cul, l'évêque laissa du foutre, les 3 autres y rebandèrent, et on fut se
           coucher comme la veille, c'est à dire, chacun avec la femme qu'il avait eu sur le canapé, et quatre
           fouteurs qui n'avaient point paru depuis le dîner.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          <hi rend="italic">
-            3ejournée.
-          </hi>
-        </head>
-        <p>
-          Le duc se leva de neuf heures, c'était lui, qui devait commencer, à se prêter aux leçons, que la
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      3ejournée.
+     </hi>
+    </head>
+    <p>
+     Le duc se leva de neuf heures, c'était lui, qui devait commencer, à se prêter aux leçons, que la
           Duclos devait donner aux jeunes filles, il se campa dans un fauteuil et éprouva pendant une heure
           les divers attouchements, masturbations, pollutions et postures diverses de chacune de ces petites
           filles conduites et guidées par sa maîtresse et comme on l'imagine aisément, son tempérament
@@ -2670,12 +2743,12 @@
           toutes les opérations de la campagne, nous avons cru nécessaire d'en donner copie au lecteur, il
           nous a semblé que sachant (après l'avoir lu) la destination des sujets, il prendrait plus d'intérêt
           aux sujets dans le reste des opérations.
-        </p>
-        <p>
-          Tableau des projets du reste de voyage.
-        </p>
-        <p>
-          Le 7 de 9bre révolution de la 1e semaine on procédera dès le matin au mariage de Michette et de
+    </p>
+    <p>
+     Tableau des projets du reste de voyage.
+    </p>
+    <p>
+     Le 7 de 9bre révolution de la 1e semaine on procédera dès le matin au mariage de Michette et de
           Giton, les deux époux à qui l'âge ne permet pas de se conjoindre non plus qu'aux trois hivers
           suivants, seront séparés dès le soir même, et sans plus avoir regard à cette cérémonie qui n'aura
           servi qu'à divertir pendant la journée, on procédera dans le même soir à la correction des sujets,
@@ -2758,8 +2831,10 @@
           temps après, il était jeune et joli, mais à peine pouvait-on distinguer son vit, tant il était petit
           et mou. Il l'étendit presque nue sur le canapé, se mit à genoux entre ses cuisses, lui soutenant les
           fesses des deux mains, et lui chatouillant avec une
-          <corr>main</corr>
-          le joli petit trou de son derrière, pendant ce temps-là sa bouche se porta sur le con de ma sœur, il
+     <corr>
+      main
+     </corr>
+     le joli petit trou de son derrière, pendant ce temps-là sa bouche se porta sur le con de ma sœur, il
           lui chatouilla le clitoris avec la langue, et s'y prit si adroitement, fit un usage si compassé et
           si égal de ses deux mouvements, qu'en trois minutes il la plongea dans le délire, je vis sa tête se
           pencher, ses yeux s'égarer, et la friponne s'écria ; "ah, mon cher abbé, tu me fais mourir de
@@ -2861,16 +2936,16 @@
           qu'examinant les fesses. Le duc s'y trompa quelques fois, mais les 3 autres avaient une telle
           habitude de culs, qu'ils ne s'y trompèrent pas une seule fois. On fut se coucher et le lendemain
           amena de nouveaux plaisirs, et quelques nouvelles réflexions.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          <hi rend="italic">
-            Quatrième journée.
-          </hi>
-        </head>
-        <p>
-          Les amis étant bien aise de distinguer à tout instant de la journée ceux des jeunes gens soit en
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      Quatrième journée.
+     </hi>
+    </head>
+    <p>
+     Les amis étant bien aise de distinguer à tout instant de la journée ceux des jeunes gens soit en
           filles, soit en garçons dont les pucelages devaient leur appartenir décidèrent leur faire porter
           dans tous leurs divers ajustements un ruban aux cheveux qui indiqua à qui ils appartenaient. En
           conséquence le duc adopta le rose et le vert, tout ce qui aurait un ruban rose par devant lui
@@ -3056,16 +3131,16 @@
           manualisaient, plus ou moins vite en raison du plus ou moins de plaisir qu'ils prenaient, mais
           épuisé des voluptés du jour, personne ne déchargea et chacun fut prendre au lit les forces
           nécessaires à se livrer le lendemain à de nouvelles infamies.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          <hi rend="italic">
-            Cinquième journée.
-          </hi>
-        </head>
-        <p>
-          Ce fut Curval, qui ce matin-là fut se prêter aux masturbations de l'école, et comme les jeunes
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      Cinquième journée.
+     </hi>
+    </head>
+    <p>
+     Ce fut Curval, qui ce matin-là fut se prêter aux masturbations de l'école, et comme les jeunes
           filles commençaient à faire des progrès, il eut beaucoup de peine à résister aux secousses
           multipliées, aux postures lubriques et varieuses de ces huit charmantes petites filles, mais comme
           il voulait se réserver il quitta le poste, on déjeuna, et l'on statua ce matin-là que les quatre
@@ -3106,7 +3181,10 @@
           autres instants de la journée, sûrs que jamais on ne leur donnerait le tout. Ces occupations
           remplirent ou précédaient les visites ordinaires ; la belle Fanni, à laquelle Curval avait fait dire
           de se trouver en un certain état, se trouva dans l'état contraire,
-          <corr>la suite nous expliquera tout ce-ci</corr>, elle fut mise sur le cahier de corrections. Chez
+     <corr>
+      la suite nous expliquera tout ce-ci
+     </corr>
+     , elle fut mise sur le cahier de corrections. Chez
           les jeunes gens, Giton avait fait ce qu'il était défendu de faire, on le marqua de même et après les
           fonctions de la chapelle furent remplies qui fournirent très plus de sujets, on se mit à table, ce
           fut le premier repas, où les amants furent admis, ils prirent place chacun à côté de celui qui
@@ -3217,8 +3295,10 @@
           encore devait incessamment s'offrir à mes regards ; nous avions dans la maison une de ces femmes que
           l'on appelle de marcheuses, un terme de bordels, et dont le métier est de courir nuit et jour pour
           aller déterrer
-          <corr>quelque</corr>
-          gibier,---cette créature âgée de plus de 40 ans, joignait à des appas très flêtris et qui n'avaient
+     <corr>
+      quelque
+     </corr>
+     gibier,---cette créature âgée de plus de 40 ans, joignait à des appas très flêtris et qui n'avaient
           jamais été bien séduisants l'affreux défaut de puer des pieds, tel était positivement le sujet, qui
           convenait au marquis de---, il arriva, on lui présenta dame Louise, c'était le nom de l'héroïne, il
           la trouva délicieuse, et sitôt qu'il la tient au sanctuaire des plaisirs, il la fait déchausser,
@@ -3286,16 +3366,16 @@
           fut trouvé le lendemain matin vautré sur la dégoûtante Fanchon, avec laquelle il avait fait de
           nouvelles horreurs toute la nuit, tandis qu'Adonis et Adélaïde privées de sa couche, était l'un dans
           un petit lit fort éloigné et l'autre à terre sur un matelas.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          <hi rend="italic">
-            Sixième journée.
-          </hi>
-        </head>
-        <p>
-          C'était le jour de mgr. d'aller se présenter aux masturbations. Il y fut ; si les disciples de la
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      Sixième journée.
+     </hi>
+    </head>
+    <p>
+     C'était le jour de mgr. d'aller se présenter aux masturbations. Il y fut ; si les disciples de la
           Duclos eussent été des hommes vraisemblablement, mgr. n'eut pas résisté, mais une petite fente au
           bas du ventre était un furieux tort à ses yeux, et les grâces mêmes l'eussent-elles entourées, dès
           que cette maudite fente s'offrit ce n'était assez pour le calmer, il résista donc en héros, je crois
@@ -3546,16 +3626,16 @@
           porte du palais d'Apollon les eût trouvés plongés dans leurs ordures bien plutôt comme des porceaux,
           que comme des hommes. N'ayant besoin que de repos chacun couche seul et fut reprendre dans le sein
           de Morphée un peu de force pour le lendemain.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          <hi rend="italic">
-            Septième journée.
-          </hi>
-        </head>
-        <p>
-          Les amis ne se soucièrent plus à aller se prêter chaque matin une heure aux leçons de la Duclos,
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     <hi rend="italic">
+      Septième journée.
+     </hi>
+    </head>
+    <p>
+     Les amis ne se soucièrent plus à aller se prêter chaque matin une heure aux leçons de la Duclos,
           fatigués des plaisirs de la nuit, craignant d'ailleurs que cette opération ne leur fît perdre leur
           foutre de trop bon matin, et jugeant de plus que cette cérémonie les blasait trop tôt sur des
           voluptés et sur des objets qu'ils avaient intérêt de se ménager ; qu'on substituerait chaque matin
@@ -3710,14 +3790,14 @@
           corrigées et si bien corrigée par lui qu'ayant complètement versé du foutre en son honneur, il ne
           voulut plus d'elle ce soir-là et la faisant coucher à terre sur un matelas, il donna sa place à
           Duclos, toujours mieux que jamais dans ses bonnes grâces.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Huitième journée.
-        </head>
-        <p>
-          Les exemples de la veille en ayant imposés, on ne trouva ni ne put trouver personne en faute le
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Huitième journée.
+    </head>
+    <p>
+     Les exemples de la veille en ayant imposés, on ne trouva ni ne put trouver personne en faute le
           lendemain, les leçons se continuèrent sur les fouteurs et comme il n'y eut aucun événement jusqu'au
           café, nous ne prendrons cette journée que cette époque, il était servi par Augustine, Zelmire,
           Narcisse et Zéphire, les fouteries en cuisses commencèrent. Curval s'empara de Zelmire, et le duc
@@ -3789,7 +3869,10 @@
           mesure qu'elles joueront un personnage. Dès le lendemain de mon arrivé on me donna de l'occupation,
           car les pratiques allaient grand train chez la Fournier, et nous en faisions souvent cinq ou six par
           jour chacune, mais je ne vous parlerai
-          <corr>ainsi que je l'ai fait jusqu'à présent</corr>, que de celles qui peuvent exciter votre
+     <corr>
+      ainsi que je l'ai fait jusqu'à présent
+     </corr>
+     , que de celles qui peuvent exciter votre
           attention par leur piquant : ou leur singularité. Le premier homme, que je vis dans mon nouveau
           séjour, fut un payeur de rentes, homme d'environ 50 ans, il me fit mettre à genoux, la tête penchée
           sur le lit, et s'établissant sur le lit également à genoux au-dessus de moi, il se branla le vit
@@ -3840,8 +3923,10 @@
           culottes et met en l'air un membre noir et ridé qui ne promettait pas de grossir de long-temps,
           cependant la vieille est nue, et vient effrontément offrir à son amant un vieux corps jaune et ridé,
           sec, pendant et décharné dont la description
-          <corr>à quelques points que soient vos fantaisies sur cela</corr>
-          vous ferait trop d'horreur pour que je veuille l'entreprendre, mais loin d'en être dégoûté, notre
+     <corr>
+      à quelques points que soient vos fantaisies sur cela
+     </corr>
+     vous ferait trop d'horreur pour que je veuille l'entreprendre, mais loin d'en être dégoûté, notre
           libertin s'extasie, il la saisit, l'attire à lui sur le fauteuil où elle se manualisait, en
           attendant qu'elle se déshabillât, lui darda encore une fois sa langue dans la bouche, et la
           retournant il offre à l'instant son hommage au revers de la médaille, je le vis distinctement manier
@@ -3904,8 +3989,10 @@
           "c'est délicieux Combien je me reproche l'encens, que je vous ai dérobé O culs délicieux, je vous
           promets un sacrifice expiatoire, je fais serments sur vos autels de ne plus m'égarer de la vie." ?
           Et, ce beau derrière l'ayant un peu échauffé,
-          <corr>il</corr>
-          plaça la novice dans une posture fort indécente sans doute, mais dans laquelle il pouvait, comme on
+     <corr>
+      il
+     </corr>
+     plaça la novice dans une posture fort indécente sans doute, mais dans laquelle il pouvait, comme on
           l'a vu plus haut, faire têter son petit enchoix en suçant l'anus le plus frais et le plus
           voluptueux. Mais Durcet, trop blasé sur ce plaisir-là, n'y retrouvait que bien rarement sa vigueur,
           on eut beau le sucer, il eut beau le rendre, il fallut se retirer dans le même état de défaillance
@@ -3943,8 +4030,10 @@
           infamies qu'on m'a reprochées sur cela toute ma vie. Ces gens, qui ne connaissaient pas mes motifs,
           m'appelaient dur, féroce et barbare, mais me moquant de toutes les dénominations, j'allais mon
           train, je faisais
-          <corr>j'en conviens</corr>
-          ce que les sots appellent des atrocités, mais j'établissais des jouissances, des comparaisons
+     <corr>
+      j'en conviens
+     </corr>
+     ce que les sots appellent des atrocités, mais j'établissais des jouissances, des comparaisons
           délicieuses, et j'étais heureux."---"Avoue le fait," lui dit le duc, "conviens, qu'il t'est arrivé
           plus de vingt fois de faire ruiner des malheureux rien que pour servir en ce sens-là les goûts
           pervers, dont tu conviens ici."---"Plus de vingt fois ?" dit Durcet, "plus de deux cent, mon ami, et
@@ -3987,14 +4076,14 @@
           aux plaisirs de la bouche, mais on inventa cent façons de les varier et quand on s'en fut bien
           rassasié, on fut essayer de trouver dans quelques heures de repos des forces nécessaires à
           recommencer.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Neuvième journée.
-        </head>
-        <p>
-          Duclos avertit ce matin-là, qu'elle croyait prudent, ou d'offrir aux jeunes filles d'autres
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Neuvième journée.
+    </head>
+    <p>
+     Duclos avertit ce matin-là, qu'elle croyait prudent, ou d'offrir aux jeunes filles d'autres
           plastrons pour l'exercice de la masturbation, que les fouteurs, qu'on y employait, ou de cesser leur
           leçons, les croyant suffisamment instruites. Elle dit avec beaucoup de raison et de vraisemblance
           qu'employant ces jeunes gens sous le nom de fouteurs il pouvait en résulter des intrigues, qu'il
@@ -4096,14 +4185,14 @@
           en chérit encore sans doute surtout cela avec les petits garçons et c'est ainsi que se termina cette
           9e journée, dont on vit arriver la fin avec d'autant plus de plaisir que l'on se flattait que le
           lendemain ferait entendre sur l'objet qu'on chérissait autant des récits un peu plus circonstanciés.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Dixième journée.
-        </head>
-        <p>
-          Plus nous avançons, mieux nous pouvons éclaircir nos lecteurs sur de certains faits que nous avons
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Dixième journée.
+    </head>
+    <p>
+     Plus nous avançons, mieux nous pouvons éclaircir nos lecteurs sur de certains faits que nous avons
           été obligés de lui tenir voilés, dans le commencement, à présent par exemple nous pourrons lui dire,
           quel était l'objet des visites de matin dans les chambres des enfants ; la cause qui les faisait
           punir, quand il se trouvait quelque délinquent à ces visites, et quelles étaient les voluptés qu'on
@@ -4153,8 +4242,10 @@
           mais pourtant un peu grosse, léger, inconvénient, d'où il résultait le cul le plus frais et le plus
           mignon, le plus potelé et le plus blanc qu'il y eut peut-être à Paris. L'homme que je lui vis
           expédier par le trou était son
-          <corr>premier amant</corr>
-          car elle était encore pucelle et très assurément de touts côtés. Aussi un tel morceau bon n'est qu'à
+     <corr>
+      premier amant
+     </corr>
+     car elle était encore pucelle et très assurément de touts côtés. Aussi un tel morceau bon n'est qu'à
           un grand ami de la maison. C'était le vieil abbé de Fierville, aussi connu par ses richesses que par
           sa débauche, goutteux jusqu'aux bout des doigts ; il arrive tout embéguiné, s'établit dans la
           chambre, visite tous les utensils qui vont lui devenir nécessaires, prépare tout, et la petite
@@ -4186,19 +4277,26 @@
           illusions. L'abbé rejetant la petite fille loin de lui brutalement dès qu'il a fini, se rajuste, dit
           qu'on l'a trompé, en disant qu'on ferait chier cet enfant, qu'elle n'avait sûrement point chié, et
           qu'il a avalé la moitié de son étron,
-          <corr>elle</corr>
-          remarqua que l'abbé ne voulait que du lait. Il grogne, il jure, il peste, dit qu'il ne payera point,
+     <corr>
+      elle
+     </corr>
+     remarqua que l'abbé ne voulait que du lait. Il grogne, il jure, il peste, dit qu'il ne payera point,
           qu'il ne reviendra plus, que c'est bien la peine qu'il se déplace pour des petites morceaux comme
           cela, et part en ajoutant à cela mille autres invectives que je trouverai occasion de vous raconter
           dans une autre passion, dont elles sont le principal, au lieu qu'elles ne seraient ici qu'un très
           mince accessoire. "Parbleu," dit Curval, "voilà un homme bien délicat, se fâcher parcequ'il a reçu
           un peu de merde, et ceux qui en mangent..." "Patience, patience mgr.," dit Duclos, "permettez que
           mon récit aille dans l'ordre, que vous avez vous-mêmes exigé et vous verrez que nous viendrons au
-          tour des libertins singuliers dont vous parlez là<ref target="#N01"/>.
-        </p>
-        <p>
-          Deux jours après ce fut mon tour, on m'avait prévenu et je me ret<corr>enais</corr>
-          depuis 36 heures. Mon héros était un vieil aumônier du roi, perclu de goutte comme le précédent, il
+          tour des libertins singuliers dont vous parlez là
+     <ref target="#N01"/>
+     .
+    </p>
+    <p>
+     Deux jours après ce fut mon tour, on m'avait prévenu et je me ret
+     <corr>
+      enais
+     </corr>
+     depuis 36 heures. Mon héros était un vieil aumônier du roi, perclu de goutte comme le précédent, il
           ne fallait l'approcher que nue. Mais le devant et le sein devait être couvert avec le plus grand
           soin, on m'avait récommandé cette clause avec la plus grande exactitude en m'assurant que, s'il
           venait malheureusement à découvrir la plus petite apparence de ces parties, je ne viendrais jamais
@@ -4226,10 +4324,16 @@
           m'ordonne de commencer, quelques pets préludents, il les respire, enfin l'étron paraît. Il se pâme :
           "Chie, ma petite, chie, mon ange," s'écria-t-il tout en feu, "fais moi bien voir l'étron sortir de
           ton beau cul, et il l'aidait, les doigts pressant l'anus facilitaient l'explosion, il se branlait,
-          il observait, il s'enivrait de volupté et l'<corr>excès de</corr>
-          plaisir le transportant à la fin hors de lui, ses cris, ses soupirs, ses attouchements, tout me
-          convain<corr>que</corr>
-          qu'il touche au dernier période du plaisir, et j'en deviens sûre en tournant la tête, et voyant son
+          il observait, il s'enivrait de volupté et l'
+     <corr>
+      excès de
+     </corr>
+     plaisir le transportant à la fin hors de lui, ses cris, ses soupirs, ses attouchements, tout me
+          convain
+     <corr>
+      que
+     </corr>
+     qu'il touche au dernier période du plaisir, et j'en deviens sûre en tournant la tête, et voyant son
           engin en miniature dégorger quelques gouttes de sperme dans le même vase que je viens de remplir.
           Celui-là sortit sans humeur, il m'assura même qu'il me ferait l'honneur de me revoir, quoique je fus
           persuadée du contraire, sachant qu'il ne revoyait jamais deux fois la même fille. ---"Mais je
@@ -4267,8 +4371,10 @@
           l'étron, il le regarde et le manie, je lui demande excuse de ma liberté, il continue de me dire des
           sottises, et décharge, l'étron sous le nez, en me disant, qu'il me retrouverait et que j'aurais un
           jour affaire à lui.
-          <corr>Un autre</corr>
-          n'employait à semblables fêtes que de femmes de 70 ans, je le vis opérer avec une qui avait au moins
+     <corr>
+      Un autre
+     </corr>
+     n'employait à semblables fêtes que de femmes de 70 ans, je le vis opérer avec une qui avait au moins
           80, il était couché sur un canapé, la matrone à califourchon sur lui, lui déposa son vieux cac sur
           le ventre en lui branlant un vieux vit ridé qui ne déchargea presque pas. Il y avait chez la
           Fournier un autre meuble assez singulier, c'était une espèce de chaise percée, dans laquelle un
@@ -4303,29 +4409,39 @@
           Adélaïde, sa chère épouse, Antinous, Louison, Champville, Michette, Rosette, Hyacinthe et Giton, un
           redoublement de lubricité plutôt qu'aucune autre raison avait sans doute dicté cet arrangement, car
           les têtes s'échauffèrent toute cette soirée-là, que d'un avis unanime personne ne se coucha, mais on
-          revancha, ce qui avait été fait, de saletés et d'<corr>impuretés</corr>
-          de chaque chambre,
-          <corr>on</corr>
-          ne s'imagine pas. Vers la pointe du jour on voulut se remettre à table quoiqu'on eût
-          <corr>dormi</corr>
-          beaucoup peu pendant la nuit, on s'y mit tout pêlemêle et indistinctement et les cuisinières que
+          revancha, ce qui avait été fait, de saletés et d'
+     <corr>
+      impuretés
+     </corr>
+     de chaque chambre,
+     <corr>
+      on
+     </corr>
+     ne s'imagine pas. Vers la pointe du jour on voulut se remettre à table quoiqu'on eût
+     <corr>
+      dormi
+     </corr>
+     beaucoup peu pendant la nuit, on s'y mit tout pêlemêle et indistinctement et les cuisinières que
           l'on reveilla envoyèrent des œufs brouillés, des chincara, des potages à l'oignon et des omelettes,
           on but encore, mais Constance était dans une tristesse que rien ne pouvait calmer, la haine de
           Curval croissait en même temps que son pauvre ventre, elle venait d'en éprouver pendant les orgies
           de cette nuit-là, excepté le corps,
-          <corr>parcequ'on était convenu, de laisser grossir la poire</corr>, d'en éprouver, dis-je, excepté
+     <corr>
+      parcequ'on était convenu, de laisser grossir la poire
+     </corr>
+     , d'en éprouver, dis-je, excepté
           cela tout ce qu'on peut s'imaginer de mauvais procédés ; elle voulait s'en pleindre à Durcet et au
           duc, son père et son mari, qui l'envoyèrent au diable et lui dirent qu'il fallait bien qu'elle eût
           quelque défaut, dont il ne s'apercevait pas, pour déplaire ainsi au plus vertueux et au plus honnête
           des hommes, voilà tout ce qu'elle en eut. Et on fut se coucher.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Onzième journée.
-        </head>
-        <p>
-          On se leva fort tard et supprimant absolument pour ce jour-là toutes les cérémonies d'usage, on se
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Onzième journée.
+    </head>
+    <p>
+     On se leva fort tard et supprimant absolument pour ce jour-là toutes les cérémonies d'usage, on se
           mit à table, en sortant du lit, le café servi par Giton, Hyacinthe, Augustine et Fanni fut assez
           tranquille, cependant Durcet voulut absolument faire péter Augustine ; et le duc le mettre en bouche
           à Fanni, or, comme, du désir à l'effet, il n'y avait jamais qu'un pas avec de telles têtes, on se
@@ -4351,8 +4467,10 @@
           d'après cela que ce soit moi qui en prenne le soin," et en disant cela, il avait appuyé la jeune
           fille contre un lit et s'était placé aux genoux à bas de ses fesses, en les écartant de ses deux
           mains, on dirait d'abord qu'il ne fait que
-          <corr>d'examiner</corr>
-          la situation, il en paraît surpris, peu-à-peu il s'y apprivoise, sa langue approche, elle en détache
+     <corr>
+      d'examiner
+     </corr>
+     la situation, il en paraît surpris, peu-à-peu il s'y apprivoise, sa langue approche, elle en détache
           les morceaux, ses sens s'éveillent, son vit dresse, le nez, la bouche, la langue, tout semble
           travailler à la fois, son extase paraît si délicieuse, qu'à peine lui reste-t-il le pouvoir de
           parler, le foutre monte à la fin, il saisit son vit, le branle et arrive en déchargeant de nettoyer
@@ -4419,14 +4537,14 @@
           elle avait tant, de le satisfaire,---le souper et les orgies furent assez tranquilles et comme il
           n'y eut aucun événement de conséquence jusqu'à la soirée d'ensuite, c'est par le récit dont la
           Duclos l'égayait que nous allons commencer l'histoire de la 12me journée.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Douzième journée.
-        </head>
-        <p>
-          "Le nouvel état dans lequel je vais entrer m'oblige," dit la Duclos, "de vous ramener, messieurs, un
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Douzième journée.
+    </head>
+    <p>
+     "Le nouvel état dans lequel je vais entrer m'oblige," dit la Duclos, "de vous ramener, messieurs, un
           instant au détail de mon personnel, on se figura mieux les plaisirs que l'on peint, quand l'objet
           qui les procure est connu. Je venais d'atteindre ma vingtième année ; j'étais brune, mais la peau
           malgré cela d'un blanc le plus agréable, l'immensité des cheveux, qui couvraient ma tête,
@@ -4437,8 +4555,10 @@
           ce genre, et peu de femmes dans Paris l'avaient aussi délicieusement tourné, il était plein, rond,
           fort gras et très potelé, sans que cet embonpoint diminuât rien de son élégance. Le plus léger
           mouvement découvrait à l'instant cette petite rose, que vous chérissez tant, messieurs, et qui
-          <corr>je le pense bien comme vous</corr>
-          est l'attrait le plus délicieux d'une femme, quoiqu'il y eut très long-temps que je fus dans le
+     <corr>
+      je le pense bien comme vous
+     </corr>
+     est l'attrait le plus délicieux d'une femme, quoiqu'il y eut très long-temps que je fus dans le
           libertinage ; il était impossible d'être plus fraîche, tant à cause du bon tempérament, que m'avait
           donné la nature que par mon extrême sagesse sur les plaisirs, qui pouvaient gâter ma fraîcheur, ou
           nuire à mon tempérament. J'aimais très peu les hommes et je n'avais jamais en eu, qu'un seul
@@ -4460,8 +4580,11 @@
           sur ces objets, pour ne troubler l'ordre de ma narration. Mais puisque je vois que cela peut vous
           amuser, je n'oublierai plus à l'avenir de vous en entretenir.---À ces défauts on m'a toujours
           reproché d'en joindre un autre, celui d'un très mauvais cœur, mais est-ce ma faute ? N'est-ce pas de
-          la nature, que nous tenons nos vices ou nos perfections, et puis j'<corr>adorais</corr>
-          ce cœur qu'elle a fait insensible, je ne sache pas d'avoir de ma vie pleuré ni sur mes maux ni sur
+          la nature, que nous tenons nos vices ou nos perfections, et puis j'
+     <corr>
+      adorais
+     </corr>
+     ce cœur qu'elle a fait insensible, je ne sache pas d'avoir de ma vie pleuré ni sur mes maux ni sur
           ceux d'autrui, j'ai aimé ma sœur et je l'ai perdu sans la plus petite douleur, vous avez été témoins
           du flegme avec lequel je viens d'apprendre sa perte, je verrais, Dieu merci, périr l'univers que je
           n'en verserais pas une larme."---"Voilà comme il faut être," dit le duc, "la compassion est la vertu
@@ -4478,12 +4601,16 @@
           reprends. Malgré tous ces défauts et plus que tout celui de méconnaître entièrement le sentiment
           humiliant de la reconnaissance, que je n'admettais que comme poids injurieux à l'humanité, et qui
           dégrade tout à fait la fierté que nous avons reçue de la nature, avec tous les défauts
-          <corr>dis-je</corr>
-          mes compagnes m'aimaient, et j'étais de toutes la plus récherchée des hommes. Telle était ma
+     <corr>
+      dis-je
+     </corr>
+     mes compagnes m'aimaient, et j'étais de toutes la plus récherchée des hommes. Telle était ma
           situation, lorsqu'un fermier général nommé d'Aucourt vint faire une partie chez la Fournier ; comme
           il était une de ses pratiques,
-          <corr>mais plus pour les filles étrangères que pour elle</corr>
-          de la maison, on avait de grands égards pour lui, et Madame qui voulait absolument nous faire faire
+     <corr>
+      mais plus pour les filles étrangères que pour elle
+     </corr>
+     de la maison, on avait de grands égards pour lui, et Madame qui voulait absolument nous faire faire
           connaissance, me prévint un jour à l'avance de lui garder ce que vous savez, et ce qu'il aimait plus
           qu'aucun des hommes, que j'en eu encore vus, vous l'allez voir par le détail. d'Aucourt arriva, et
           m'ayant baisée, il gronde Md. Fournier, de ne lui avoir toujours procuré plutôt une aussi jolie
@@ -4652,7 +4779,10 @@
           ne chie jamais que quand on le baise." Je baise, mais sans m'y hazarder, et lui s'en apercevant :
           "Plus près, mortbleu, plus près, milloi," mit dit-il impérieusement, "avez-vous donc peur d'un peu
           de merde ?"---Enfin par
-          <corr>couder</corr>, je postai mes lèvres jusqu'aux environs du trou, mais à peine les a-t-il
+     <corr>
+      couder
+     </corr>
+     , je postai mes lèvres jusqu'aux environs du trou, mais à peine les a-t-il
           senties qu'il débonde, et l'irruption fut si violente, qu'une de mes joues s'en trouva ; toute
           barriolée, il n'eut besoin, que d'un seul jet, pour combler le plat, de ma vie je n'avais vu un tel
           étron, il remplissait à lui tout seul un très profond saladier, notre homme s'en empare, se couche
@@ -4660,8 +4790,15 @@
           fortement pendant qu'il va faire subitement repasser dans ses entrailles, ce qu'il vient de dégorger
           ; quelque sale que fût ce derrière il fallut obéir sans doute. "Sa maîtresse le fait," me dis-je,
           "il ne faut pas être plus difficile qu'elle." J'enfonçai trois doigts dans l'orifice bombeur, qui se
-          présenta, notre homme est ac<corr>cablé</corr>,il se plonge dans ses propres excréments, il y barbote, il s'en nourrit, une de ses mains soutientle plat, l'autre secoue un vit qui s'annonce très majestueusement entre ses cuisses, cependant jeredouble mes soins, il réunissait, je m'aperçois aux resserrements de son anus, que les musclesérecteurs sont prêts à lancer la semence, je ne
-          <corr>tarde point</corr>, le plat se vuide et mon homme décharge. De retour au salon, je retrouvai
+          présenta, notre homme est ac
+     <corr>
+      cablé
+     </corr>
+     ,il se plonge dans ses propres excréments, il y barbote, il s'en nourrit, une de ses mains soutientle plat, l'autre secoue un vit qui s'annonce très majestueusement entre ses cuisses, cependant jeredouble mes soins, il réunissait, je m'aperçois aux resserrements de son anus, que les musclesérecteurs sont prêts à lancer la semence, je ne
+     <corr>
+      tarde point
+     </corr>
+     , le plat se vuide et mon homme décharge. De retour au salon, je retrouvai
           mon inconstant d'Aucourt avec la belle Marianne, ce fripon-là avait passé toutes les darts.---Il ne
           lui restait plus que le page dont je crois, qu'il se serait fort bien arrangé aussi, si le jaloux
           abbé eût consenti à le céder. Quand tout le monde fut réuni, on parla de se mettre tous nus et de
@@ -4674,8 +4811,10 @@
           l'autre ne voulut me rien éclaircir et j'ai toujours ignoré le reste de leurs intelligences
           secrètes, qui de quelque sorte qu'elles puissent être n'empêchent pas que lequel que son amant
           satisfit avec moi, ne sont
-          <corr>des</corr>
-          passions complètes et dignes à tous égards d'avoir une place dans ce recueil ce qui pouvait en être
+     <corr>
+      des
+     </corr>
+     passions complètes et dignes à tous égards d'avoir une place dans ce recueil ce qui pouvait en être
           ailleurs ne pouvait qu'être épisodique et a été, vous sera certainement raconté dans nos soirées
           après quelques libertinages assez indécents, quelques pets encore, quelque petits restes d'étrons,
           beaucoup propos et de grandes impiétés de la part de l'Abbé, qui paraissait mettre à en dire une de
@@ -4724,14 +4863,14 @@
           qu'il ne voulait pour cette soirée que ceux des trois vieux amis. On le contenta et le petit
           libertin déchargea comme un étalon en dévorant la merde de Curval. La nuit vint mettre un peu de
           calme à tant d'intempérance, et rendre à nos libertins et des désirs et des forces.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Treizième journée.
-        </head>
-        <p>
-          Le président, qui couchait cette nuit-là avec sa fille Adélaïde, s'en étant amusé, jusqu'à l'instant
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Treizième journée.
+    </head>
+    <p>
+     Le président, qui couchait cette nuit-là avec sa fille Adélaïde, s'en étant amusé, jusqu'à l'instant
           de son premier sommeil, l'avait réléguée sur un matelas par terre près de son lit pour donner sa
           place à Fanchon qu'il voulait toujours avoir près de lui, quand la lubricité le reveillait, ce qui
           lui arrivait presque toutes les nuits, vers les trois heures, il se reveillait en sursaut, jurait et
@@ -4745,8 +4884,11 @@
           allume des bougies, on cherche, on fouille, rien ne paraît, le premier mouvement fut de passer dans
           l'appartement des filles, on visite tous les lits et l'intéressante Adélaïde se trouve enfin assise
           à déshabille auprès de celui de Sophie, les deux charmantes filles qui unissaient au caractère de
-          tendresse égal<corr>ement</corr>
-          une piété, des sentiments de vertu, de candeur et d'aménité absolument les mêmes, s'étaient prises
+          tendresse égal
+     <corr>
+      ement
+     </corr>
+     une piété, des sentiments de vertu, de candeur et d'aménité absolument les mêmes, s'étaient prises
           de la plus belle tendresse l'une pour l'autre et elles se consolaient mutuellement du sort affreux
           qui les accablait, on ne s'en était pas douté jusque lors, mais les suites firent découvrir que ce
           n'était pas la première fois que cela arrivait, et l'on sut que la plus âgée entretenait l'autre de
@@ -4760,8 +4902,10 @@
           proposait, n'était pas douce, mais l'évêque lui ayant fait quelques objections très raisonnables sur
           ce qu'il voulait faire, Durcet se contenta de les inscrire, il n'y avait pas moyen de s'en prendre
           aux vieilles, messieurs les avaient ce soir-là tout à fait couchées dans une autre chambre.
-          <corr>On se consola</corr>
-          donc sur ce défaut d'administration, et on s'arrangea à l'avenir, pour qu'il resta toujours
+     <corr>
+      On se consola
+     </corr>
+     donc sur ce défaut d'administration, et on s'arrangea à l'avenir, pour qu'il resta toujours
           assidûment au moins une vieille chez les filles, et une chez les garçons, on fut se recoucher et
           Curval que la colère n'avait rendu que plus cruellement impudique, fit à sa fille des choses que
           nous ne pouvons pas encore dire, mais qui en précipitant sa décharge le firent au moins rendormir
@@ -4902,14 +5046,14 @@
           reste encore à offrir aux lecteurs. Curval et Durcet furent emportés sans connaissance. Mais le duc
           et l'évêque aussi de sens froid que s'ils n'eussent rien fait n'en furent pas moins se livrer tout
           le reste de la nuit à leurs voluptés ordinaires.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Quatorzième journée.
-        </head>
-        <p>
-          On s'aperçut ce jour-là que le temps venait favoriser encore les projets infâmes de nos libertins,
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Quatorzième journée.
+    </head>
+    <p>
+     On s'aperçut ce jour-là que le temps venait favoriser encore les projets infâmes de nos libertins,
           et les soustraire mieux que leur précautions mêmes aux yeux de l'univers entier, il était tombé une
           quantité effroyable de neige, qui remplissant les vallons d'Alenton, semblaient interdire la
           retraite de nos quatre scélérats aux approches même des bêtes, car pour des humains, il ne pouvait
@@ -5036,14 +5180,14 @@
           traitements qu'elles avaient éprouvés et sans plus de détail puisque les circonstances ne nous les
           permettent pas encore, chacun fut se coucher et prendre dans les bras de Morphée les forces
           nécessaires à se sacrifier de nouveaux à Vénus.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Quinzième journée.
-        </head>
-        <p>
-          Rarement le lendemain des corrections offrait de coupables, il n'y en avait aucun ce jour-là, mais
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Quinzième journée.
+    </head>
+    <p>
+     Rarement le lendemain des corrections offrait de coupables, il n'y en avait aucun ce jour-là, mais
           toujours stricte sur les permissions de chier le matin, on n'accorda cette faveur qu'à Hercule,
           Michette, Sophie et la Desgranges, et Curval pensa décharger en voyant opérer cette dernière, on fit
           peu de choses au café, on se contenta d'y manier des fesses et d'y sucer quelques trous de culs, et
@@ -5292,25 +5436,29 @@
           fois, et je laisse au lecteur à penser et à imaginer ce qu'il y fut dit de propos ; on passe aux
           actions, le duc s'échauffe, et je ne sais ni pourquoi ni comment, on prétendit que Thérèse porta
           quelque temps les marques qu'on y mit ce soir. ---Laissons nos acteurs passer de ces bacchanales au
-          <corr>service</corr>
-          de leurs épouses, qu'on leur avait préparé à chacun pour ce soir-là et voyons ce qui se passe le
+     <corr>
+      service
+     </corr>
+     de leurs épouses, qu'on leur avait préparé à chacun pour ce soir-là et voyons ce qui se passe le
           lendemain.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Seizième journée.
-        </head>
-        <p>
-          Tous nos héros se levèrent frais comme s'il fussent arrivés de confesse, excepté le duc, qui
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Seizième journée.
+    </head>
+    <p>
+     Tous nos héros se levèrent frais comme s'il fussent arrivés de confesse, excepté le duc, qui
           commençait à un peu se dépuiser, on en accusa Duclos ; il est certain que cette fille avait
           entièrement saisi l'art de lui procurer des voluptés, et qu'il avoua ne décharger lubriquement
           qu'avec elle, tant il est vrai, que pour ces choses-là tout tient absolument aux caprices, que
           l'âge, la beauté, la vertu, que tout cela n'y fait rien, qu'il n'est question que d'un certain tacte
           bien plus souvent saisi par des beautés dans leur automne, que par celles sans expérience, que le
           printemps couronne encore de tous ses dons. Il y avait aussi une autre créature dans la
-          <corr>société</corr>
-          qui commençait à se rendre très aimable et à y devenir très intéressante, c'était Julie ; elle
+     <corr>
+      société
+     </corr>
+     qui commençait à se rendre très aimable et à y devenir très intéressante, c'était Julie ; elle
           annonça déjà de l'imagination de la débauche et du libertinage assez politique, pour sentir qu'elle
           avait besoin de protection, assez fausse pour caresser eux-mêmes, dont peut-être elle ne soucissait
           au fond, elle se faisait amie de Duclos pour tâcher de rester toujours un peu en faveur auprès de
@@ -5348,7 +5496,10 @@
           superficialement qu'il allait merdifier ce joli petit con vierge, qu'il ne semblait pas, que la
           nature eût destiné sans doute à d'ainsi sales plaisirs. L'évêque délicieusement branlé par Zéphire,
           perdit son foutre plus
-          <corr>fré</corr>quemment en joignant au plaisir qu'il sentait celui du délicieux tableau, dont on le
+     <corr>
+      fré
+     </corr>
+     quemment en joignant au plaisir qu'il sentait celui du délicieux tableau, dont on le
           rendait spectateur, il était furieux, il gronda Zéphire, il gronda Curval, il s'en prit à tout le
           monde, on lui fit avaler un grand verre d'élixir pour reparer, ses forces ; Michette et Colombe le
           couchèrent sur un sopha pour sa méridienne, et ne le quittèrent pas. Il se réveilla assez bien
@@ -5421,10 +5572,14 @@
           aimable créature reprit ainsi la suite de sa narration : "Il est affreux," dit cette belle fille,
           "d'avoir encore à vous entretenir de turpitudes semblables à celles dont je vous parle depuis,
           plusieurs jours, mais
-          <corr>vous</corr>
-          avez exigé que
-          <corr>je</corr>
-          réunisse tout ce qui pouvait y avoir trait, et que je ne laisse rien sous le voile. Encore trois
+     <corr>
+      vous
+     </corr>
+     avez exigé que
+     <corr>
+      je
+     </corr>
+     réunisse tout ce qui pouvait y avoir trait, et que je ne laisse rien sous le voile. Encore trois
           exemples de ces saletés atroces, et nous passerons à d'autres fantaisies. Le premier que je vous
           citerai est celui du vieux directeur des domaines âgé d'environ 66 ans. Il faisait mettre la femme
           toute nue, et après lui avoir caressé un instant les fesses avec plus de brutalité que de
@@ -5518,14 +5673,14 @@
           pendant que cette belle fille le suçait et que les mains du paillard s'égaraient un peu partout, son
           foutre partit avec abondance, et Curval l'ayant imité avec la Champville, on parla enfin de s'aller
           coucher.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Dix-septième journée.
-        </head>
-        <p>
-          La terrible antipathie du président pour Constance éclatait tous les jours, il avait passé la nuit
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Dix-septième journée.
+    </head>
+    <p>
+     La terrible antipathie du président pour Constance éclatait tous les jours, il avait passé la nuit
           avec elle par un arrangement avec Durcet, à qui elle revenait, et il en fit le lendemain les
           plaintes les plus amères : "Puisqu'à cause de son état," dit-il, "on ne veut pas la soumettre aux
           corrections ordinaires, de peur qu'elle n'accouche avant l'instant, où nous nous disposons à
@@ -5740,14 +5895,14 @@
           éviter.---Comme il ne se passa absolument que des choses ordinaires depuis cet instant là jusqu'à
           celui où les narrations du lendemain commencèrent, nous allons tout de suite y transporter le
           lecteur.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Dixième-huitième journée.
-        </head>
-        <p>
-          Duclos, belle, pariée et toujours plus brillante, que jamais commença ainsi les récits de la 18me
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Dixième-huitième journée.
+    </head>
+    <p>
+     Duclos, belle, pariée et toujours plus brillante, que jamais commença ainsi les récits de la 18me
           soirée.---"Je venais de faire l'acquisition d'une grosse et grande créature, nommée Justine, elle
           avait 25 ans, 5 pieds 6 de haut, membrée comme une servante de cabaret, d'ailleurs de beaux traits,
           une belle peau, et le plus beau cul du monde, comme ma maison abondait en ces sortes de vieux
@@ -5845,14 +6000,14 @@
           Bande-au-ciel, l'évêque par Antinous, et Curval par Brise-cul ; l'évêque qui n'avait rien fait de la
           journée déchargea, dit on, aux orgies en mangeant l'étron de Zélamir, qu'il se faisait garder depuis
           deux jours. Et l'on fut se coucher.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Dix-neuvième journée.
-        </head>
-        <p>
-          Dès le matin, d'après quelques observations faites sur la merde des sujets destinés aux lubricités,
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Dix-neuvième journée.
+    </head>
+    <p>
+     Dès le matin, d'après quelques observations faites sur la merde des sujets destinés aux lubricités,
           on décida, qu'il fallait essayer une chose, dont Duclos avait parlé dans ses narrations, je veux
           dire, le retranchement du pain et de la soupe, à toutes les tables excepté à celles des messieurs,
           ces deux objets furent soustraits, on y redoubla au contraire la volaille et le gibier, on ne fut
@@ -5946,22 +6101,25 @@
           ayant échauffé les têtes, on voulut de la merde de tous les côtés, et alors Curval qui n'avait point
           déchargé, mêla à son étron celui de Thérèse qu'il fit chier sur-le-champ. L'évêque accoutumé à se
           servir des jouissances de son frère, en fit autant avec la Duclos, le duc avec Marie, et Durcet avec
-          Louison, il était atroce, inouï, je le répète, de se servir de vieilles go<corr>uines</corr>
-          comme celles-là, quand on avait à ses ordres d'aussi jolis objets, mais on le sait, la satiété naît
+          Louison, il était atroce, inouï, je le répète, de se servir de vieilles go
+     <corr>
+      uines
+     </corr>
+     comme celles-là, quand on avait à ses ordres d'aussi jolis objets, mais on le sait, la satiété naît
           au sein de l'abondance et c'est au milieu des voluptés, que l'on se délecte par des supplices. Ces
           saletés faites, sans qu'il n'eût coûté qu'une décharge, et ce fut l'évêque, qui la fit, on fut se
           mettre à table ; en train de faire des saletés, on ne voulut aux orgies que les 4 vieilles et les 4
           historiennes, et on renvoya tout le reste, on en dit tant, on en fit tant, que pour-le-coup, tout le
           monde partit et nos libertins ne furent se coucher que dans les bras de l'épuisement et de
           l'ivresse.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingtième journée.
-        </head>
-        <p>
-          Il était arrivé quelque chose de très plaisant ce soir-là précédent, le duc absolument ivre, au lieu
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingtième journée.
+    </head>
+    <p>
+     Il était arrivé quelque chose de très plaisant ce soir-là précédent, le duc absolument ivre, au lieu
           de gagner sa chambre avait été se mettre dans le lit de la jeune Sophie, et quelque chose que pût
           lui dire cet enfant, qui savait bien que ce qu'il faisait était contre les règles il n'en démordit
           pas, soutint toujours qu'il était dans son lit, avec Aline, qui devait être sa femme de nuit, mais
@@ -6082,14 +6240,14 @@
           ce secret, il soit fermement persuadé qu'il n'en est pas de meilleur). Le reste de la soirée n'ayant
           rien produit d'extraordinaire, on fut se coucher afin de se préparer le lendemain aux noces
           brillantes de Colombe et de Zélamir, qui devaient former la célébration de la fête de la 3e semaine.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt et unième journée.
-        </head>
-        <p>
-          On s'occupa dès le matin de cette cérémonie suivant l'usage accoutumé, mais je ne sais si c'était
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt et unième journée.
+    </head>
+    <p>
+     On s'occupa dès le matin de cette cérémonie suivant l'usage accoutumé, mais je ne sais si c'était
           fait exprès ou non, mais la jeune épouse se trouva coupable dès le matin, Durcet assura qu'il avait
           trouvé de la merde dans son pot de chambre, elle s'en défendit, elle dit que pour la faire punir,
           c'était la vieille qui était venue faire cela, et qu'on lui faisait souvent de ces tromperies-là,
@@ -6208,8 +6366,10 @@
           déchiraient le cœur de cette pauvre femme, et troublaient tout le plaisir qu'elle avait à retrouver
           sa fille. Je crus dans ce début trouver nos textes, et je présentai à la mère qu'ayant retiré sa
           fille aînée du libertinage, je m'offrais d'en retirer la seconde, mais
-          <corr>le</corr>
-          moyen ne réussit pas, la malheureuse pleura et dit que pour rien au monde on ne lui arracherait le
+     <corr>
+      le
+     </corr>
+     moyen ne réussit pas, la malheureuse pleura et dit que pour rien au monde on ne lui arracherait le
           seul secours, qui lui restait dans sa seconde fille, qu'elle était vieille, infirme, qu'elle
           recevait des soins de cet enfant, et que l'en priver, serait lui arracher la vie, ici, je l'avoue à
           ma honte, messieurs, mais je sentis un petit mouvement au fond de mon cœur, qui me fit connaître que
@@ -6227,8 +6387,10 @@
           ; ayant près de son lit un vase de bois, dans lequel était un peu de lait, où le cte. pissa dès en
           entrant, pour empêcher toute espèce de train et être bien maître du réduit. Le cte. avait mis deux
           grands coquins à sa gage dans l'escalier, qui devaient fortement s'opposer à toute montée ou des
-          <corr>entrées</corr>
-          hors de propos. "Vieille bougresse," lui dit le cte., "nous venons ici avec ta fille, que voilà et
+     <corr>
+      entrées
+     </corr>
+     hors de propos. "Vieille bougresse," lui dit le cte., "nous venons ici avec ta fille, que voilà et
           qui est, par ma foi, une très jolie putain, nous venons, vieille sorcière, pour soulager tes maux,
           mais il faut nous les peindre, allons," dit-il, en s'asseyant et commençant de palper les fesses de
           Lucile, "allons, détaille-nous tes souffrances."---"Hélas," dit la bonne femme, "vous venez avec
@@ -6271,8 +6433,10 @@
           que de plus, comme il voulait réunir toute la famille, je lui cédasse aussi Lucile, dont le beau
           corps l'avait vivement ému et dont il ne me cachait pas, qu'il projetait la perte ainsi que des deux
           autres. J'aimais Lucile, mais j'aimais encore mieux l'argent, il me donnait un prix
-          <corr>net</corr>
-          de ces trois créatures, je consentis à tout, quatre jours après, Lucile, sa petite sœur et la
+     <corr>
+      net
+     </corr>
+     de ces trois créatures, je consentis à tout, quatre jours après, Lucile, sa petite sœur et la
           vieille mère furent réunis, ce sera à Md. Desgranges, à vous conter, comment, pour quant à moi, je
           reprends le fil de mes récits interrompu par cette anecdote, qui n'aurait dû vous être racontée qu'à
           la fin de mes récits, comme une de mes plus fortes."---"Un moment," dit Durcet, "je n'entends pas
@@ -6352,14 +6516,14 @@
           qu'ils en avaient joui tous les deux à la fois. Duclos qui vraisemblablement avait servi de second,
           était couchée morte-ivre auprès d'eux, et le reste était l'un sur l'autre dans un autre coin,
           vis-à-vis le grand feu, qu'on avait eu soin d'entretenir toute la nuit.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-deuxième journée.
-        </head>
-        <p>
-          Il résulta de ces bacchanales nocturnes, qu'on fit très peu de choses ce jour-là ; on oublia la
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-deuxième journée.
+    </head>
+    <p>
+     Il résulta de ces bacchanales nocturnes, qu'on fit très peu de choses ce jour-là ; on oublia la
           moitié des cérémonies, on dîna en l'air, et ce ne fut guère qu'au café, que l'on commença à se
           reconnaître, il était servi par Rosette, et Sophie, Zélamir et Giton ; Curval, pour se remettre, fit
           chier Giton, et le duc avala l'étron de Rosette, l'évêque se fit sucer par Sophie, et Durcet par
@@ -6387,14 +6551,14 @@
           instants, après quoi on fut se mettre à table. Mais tout se sentait encore du désordre de nos deux
           acteurs principaux, on fut également aussi sage aux orgies, qu'il était possible, que de tels
           libertins le fussent, et tout le monde fut au lit assez tranquille.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-troisième journée.
-        </head>
-        <p>
-          "Peut-on brailler, peut-on hurler comme tu le fais, en déchargeant ?" dit le duc à Curval en le
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-troisième journée.
+    </head>
+    <p>
+     "Peut-on brailler, peut-on hurler comme tu le fais, en déchargeant ?" dit le duc à Curval en le
           voyant le 23e au matin, "à qui diable en avais-tu, pour crier de la sorte ? Je n'ai jamais vu des
           décharges de cette violence-là."---"Ah parbleu " dit Curval, c'est bien à toi qu'on entend d'une
           lieue m'adresser une pareille reproche Ces cris-là, mon ami, viennent de l'extrême sensibilité de
@@ -6509,15 +6673,18 @@
           ennemi de poltron, de plat déjà à foutre et le menaçait de lui couper le visage avec la lame de son
           épée, et plus l'un devenait méchant plus l'autre aussitôt s'humiliait, enfin au bout de
           quelqu'instants de débat, l'assaillant offrait une composition à son ennemi.---"Je vois bien que tu
-          <corr>demandes pardon</corr>," lui disait-il, "je te fais grâce mais à condition que tu baiseras mon
+     <corr>
+      demandes pardon
+     </corr>
+     ," lui disait-il, "je te fais grâce mais à condition que tu baiseras mon
           cul."---"Oh, monsieur, tout ce que vous voudrez," disait l'autre enchanté, "je vous le baiserai
           merdeux même, si vous voulez pourvu que vous ne me fassiez aucun mal." Le tapageur rengainant,
           exposait à l'instant son derrière, le miché trop heureux se jetait dessus avec enthousiasme, et
           pendant que le jeune homme lui lâchait une demi douzaine de pets au nez, le vieux paillard au comble
           de sa joie lâchait du foutre en mourant de plaisir.
-        </p>
-        <p>
-          "Tous ces excès se conçoivent," dit Durcet, en bégayant parce que le petit libertin bandait au récit
+    </p>
+    <p>
+     "Tous ces excès se conçoivent," dit Durcet, en bégayant parce que le petit libertin bandait au récit
           de ces turpitudes, "rien de si simple que d'aimer l'avilissement et de trouver des jouissances dans
           le mépris. Celui qui aime avec ardeur les choses qui déshonorent, trouve du plaisir à l'être, et
           doit bander quand on lui dit, qu'il l'est, la turpitude est une jouissance très commode, c'est aimer
@@ -6570,14 +6737,14 @@
           venait d'annoncer, on fit coucher avec soin les vieilles dans les chambres des filles et des
           garçons, mais ce soin ne fut pas nécessaire, et Julie qui s'en empara toute la nuit, le rendit le
           lendemain à la société aussi souple qu'un gant.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-quatrième journée.
-        </head>
-        <p>
-          C'est une véritable maladie de l'âme, la dévotion, on a beau faire, on ne s'en corrige point, plus
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-quatrième journée.
+    </head>
+    <p>
+     C'est une véritable maladie de l'âme, la dévotion, on a beau faire, on ne s'en corrige point, plus
           facile de s'imprégner dans l'âme des malheureux, parce qu'elle les console, parce qu'elle leur offre
           des chimères pour les consoler de leurs maux, il est bien plus difficile encore de l'extirper dans
           ces âmes-là, que d'âmes d'autres : c'était l'histoire d'Adélaïde, plus le tableau de la débauche et
@@ -6605,8 +6772,10 @@
           palais, ses ingénieux confrères prétendaient que comme une récidive prouvait que la nature agissait
           dans un homme plus fortement que l'éducation et que les principes, que par conséquent en récidivant
           il attestait pour ainsi dire, qu'il n'était pas maître de lui-même, il fallait le punir doublement.
-          <corr>Il</corr>
-          voulut raisonner aussi conséquemment, avec autant d'esprit que ses anciens condisciples, et déclara
+     <corr>
+      Il
+     </corr>
+     voulut raisonner aussi conséquemment, avec autant d'esprit que ses anciens condisciples, et déclara
           qu'en conséquence, il fallait les punir, elle et sa compagne, dans toute la rigueur des ordonnances
           ; mais comme ces ordonnances portaient peine de mort pour un tel cas, et qu'on avait envie de
           s'amuser encore quelque temps avec ces dames, avant d'en venir là, on se contenta de les faire
@@ -6620,9 +6789,14 @@
           enfants ne pouvant plus se retenir, se mettaient à tout instant dans le cas d'être punis, c'était
           l'histoire de Fanni, d'Hébé chez les sultanes, et d'Hyacinthe chez les garçons, ce qu'on trouva dans
           leur pot, était énorme, et Durcet s'en amusa longtemps, on n'avait jamais tant demandé
-          <corr>de</corr>
-          permission<corr>s</corr>
-          du matin, et tout le monde jurait après Duclos de ce qu'elle avait indiqué un beau secret. Malgré la
+     <corr>
+      de
+     </corr>
+     permission
+     <corr>
+      s
+     </corr>
+     du matin, et tout le monde jurait après Duclos de ce qu'elle avait indiqué un beau secret. Malgré la
           multitude des permissions demandées on n'en accorda qu'à Constance, Hercule, 2 fouteurs subalternes,
           Augustine, Zéphire et la Desgranges, on s'en amusa un instant et l'on se mit à table.---"Tu vois,"
           dit Durcet à Curval, "le tort que tu as eu de laisser instruire tes filles de la religion, on ne
@@ -6693,17 +6867,24 @@
           commençant à le flageller avec doucement d'abord, puis un peu plus fort, et puis à tour de bras, et
           cela indistinctement depuis la nuque du cou jusqu'aux talons, en un instant je mets mon homme en
           sang.---"Vous êtes un scélérat," lui disais-je, en frappant
-          <corr>son corps</corr>, "qui avez commis toute sorte de crimes, rien n'est sacré pour vous et
+     <corr>
+      son corps
+     </corr>
+     , "qui avez commis toute sorte de crimes, rien n'est sacré pour vous et
           dernièrement encore ; on dit, que vous avez empoisonné votre mère."---"Cela est vrai, madame, cela
           est vrai, disait-il, en se branlant, "je suis un monstre, je suis un criminel, il n'y a pas
           d'infamies et que je n'aie pas faites, et que je ne sois prêt à faire encore, allez, vos coups sont
           inutiles, je ne me corrigerai jamais, j'ai trop de volupté dans le crime, "vous me tueriez que je le
           commettrais encore, le crime est mon élément, il est ma vie, j'y ai vécu, et j'y veux mourir."---"Et
           vous sentez,"
-          <corr>dit Duclos</corr>
-          ? combien
-          <corr>il</corr>
-          m'animait lui-même par ce propos, je redoublais et mes invectives et mes coups, le foutre, lui
+     <corr>
+      dit Duclos
+     </corr>
+     ? combien
+     <corr>
+      il
+     </corr>
+     m'animait lui-même par ce propos, je redoublais et mes invectives et mes coups, le foutre, lui
           échappe, pourtant c'était le signal, à ce mot je redouble de vigueur et tâche de le frapper sur les
           endroits les plus sensibles, il cabriole, il saute, il m'échappe et va se jeter en déchargeant dans
           un cuve d'eau tiède préparée tout exprès pour la purition de cette sanglante cérémonie.---Oh pour le
@@ -6743,8 +6924,10 @@
           pas vu de meilleur moyen pour cela, que de le lier avec une idée libertine, il est parfaitement sûr,
           que cet homme là mourra en maniant des culs."---"Ce qu'il y a de certain," dit Champville, "c'est,
           que c'est un fier impie, je le connais, et j'aurais occasion de vous faire voir comme il
-          <corr>agit</corr>
-          avec les plus saints mystères de la religion."---"Ce doit être," dit le duc, "c'est un homme qui se
+     <corr>
+      agit
+     </corr>
+     avec les plus saints mystères de la religion."---"Ce doit être," dit le duc, "c'est un homme qui se
           moque de tout et qui veut s'accoutumer à penser et à agir de même à ses derniers instants."---"Pour
           moi," ajouta l'évêque, "je trouve quelque chose de très piquant à cette passion, et je ne vous cache
           pas, que je bande ; continue, Duclos, continue, car je sens que je ferais quelque sottise, et je
@@ -6770,8 +6953,10 @@
           qu'on est dessus, on le fouette sur tout le corps avec une houcine, comme pour presser sa marche, il
           le redouble, et comme il se branle pendant ce temps-là, dès qu'il décharge, il jette les hauts cris,
           fait une ruade, et jette la fille les quatre
-          <corr>pattes</corr>
-          en l'air."---"Oh, pour celle-là," dit le duc, "elle est plus divertissante, que lubrique et dis moi,
+     <corr>
+      pattes
+     </corr>
+     en l'air."---"Oh, pour celle-là," dit le duc, "elle est plus divertissante, que lubrique et dis moi,
           je te prie, Duclos, cet homme-là t'a-t-il dit, s'il avait quelques camarades de son goût ?"---"Oui,
           Mgr.," dit l'aimable Duclos, en entrant avec esprit dans la plaisanterie, et descendait de son
           estrade, parce que sa tâche était remplie, "oui, Mgr., il me dit, qu'il en avait beaucoup, mais
@@ -6802,20 +6987,22 @@
           l'évêque n'avaient pas perdu leur temps, et que Curval entre les bras de Brise-cul faisait
           délicieusement, tout ce qu'on peut faire, avec tout ce qu'il avait pu rassembler près de lui
           d'objets voluptueux. On servit,---les orgies à l'ordinaire, et l'on fut se coucher, toute
-          <corr>écarbouillée</corr>
-          qu'était Adélaïde, le duc qui devait l'avoir cette nuit-là, la voulut, et comme il était revenu des
+     <corr>
+      écarbouillée
+     </corr>
+     qu'était Adélaïde, le duc qui devait l'avoir cette nuit-là, la voulut, et comme il était revenu des
           orgies un peu ivre à son ordinaire, on dit, qu'il ne la ménagea pas, enfin la nuit se passa comme
           toutes les précédentes, c'est à dire dans le sein du délire et de la débauche, et la blonde Aurore
           étant venue, comme disent les poètes, "ouvrir le palais d'Apollon," ce Dieu assez libertin lui-même,
           ne monta sur son char azuré que pour venir éclairer de nouvelles luxures.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-cinquième journée.
-        </head>
-        <p>
-          Une nouvelle intrigue se formait pourtant à la soudaine dans les murs impénétrables du château de
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-cinquième journée.
+    </head>
+    <p>
+     Une nouvelle intrigue se formait pourtant à la soudaine dans les murs impénétrables du château de
           Silliny, mais elle n'était pas d'une conséquence aussi dangereuse, que celle d'Adélaïde et de Sophie
           ; cette nouvelle société se tramait entre Aline et Zelmire, la conformité de caractère de ces deux
           jeunes filles avait aidé beaucoup à ce lieu, toutes deux douces et sensibles, deux ans et demi de
@@ -6970,14 +7157,14 @@
           perdit le sien excité par ceux de Martaine, et l'évêque excité par ceux de Desgranges. Mais les
           jeunes beautés n'obtinrent rien, tant il est vrai, qu'il faut que tous se suivent et qu'il faut que
           ce soit toujours les goûts crapuleux, qui exécutent les choses infâmes.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-sixième journée.
-        </head>
-        <p>
-          Comme rien n'était plus délicieux que les punitions, que rien en préparait autant de plaisirs, et de
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-sixième journée.
+    </head>
+    <p>
+     Comme rien n'était plus délicieux que les punitions, que rien en préparait autant de plaisirs, et de
           ces sortes de plaisirs, qu'on s'était promis de ne goûter que là, jusque ce que les récits
           permissent, en les développant, de s'y livrer avec plus d'étendue, on imagina tout, pour tâcher de
           faire tomber les sujets dans des fautes, qui procurassent la volupté de les punir. Pour cet effet,
@@ -7148,14 +7335,14 @@
           comme le souper sonna on interrompit tous propos et tous plaisirs, pour aller jouir de ceux de la
           table. Les orgies se célébrèrent avec assez de tranquillité et on fut se coucher vertueusement, sans
           qu'il y eut même aucune apparence d'ivresse ce qui était extrêmement rare.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-septième journée.
-        </head>
-        <p>
-          Dès le matin les délations autorisées dès la veille commencèrent, et les sultanes ayant vu, qu'il ne
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-septième journée.
+    </head>
+    <p>
+     Dès le matin les délations autorisées dès la veille commencèrent, et les sultanes ayant vu, qu'il ne
           manquait que Rosette, pour qu'elles fussent toutes les 8 en correction, ne manquèrent pas de l'aller
           accuser, on assura qu'elle avait pété toute la nuit, et comme c'était affaire de taquinerie de la
           part des jeunes filles, elle eut tout le sérail contre elle, et elle fut inscrite sur-le-champ, tout
@@ -7245,8 +7432,10 @@
           que quelquefois la chose réchauffait au point, qu'il était obligé de chercher avec elle quelques
           refraîchissements à l'ardeur dont il était dévoré, il ne s'en tenait pas là, tout espèce de vol
           avait pour lui le même attrait, et nul meuble était en sûreté
-          <corr>de</corr>
-          lui ; était-il à votre table, il y volait des couverts, dans votre cabinet vos bijoux, près de votre
+     <corr>
+      de
+     </corr>
+     lui ; était-il à votre table, il y volait des couverts, dans votre cabinet vos bijoux, près de votre
           poelle votre boësse ou votre mouchoir, tout était bon, pourvu qu'il pût le prendre, et tout le
           faisait bander et même décharger, dès qu'il l'avait pris. Mais il était certainement en cela moins
           extraordinaire que le président au parlement, avec lequel j'eus affaire, très peu de temps après mon
@@ -7367,14 +7556,14 @@
           toutes ces drôleries-là n'étaient bonnes que pour de jeunes gens. Enfin on fut se coucher et Curval
           au sein de quelques nouvelles infamies, fut se dédommager des tendres pastourelles, dont on venait
           de le rendre témoin.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-huitième journée.
-        </head>
-        <p>
-          C'était le jour d'un mariage et le tour de Cupidon et de Rosette à être unis par les nœuds de
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-huitième journée.
+    </head>
+    <p>
+     C'était le jour d'un mariage et le tour de Cupidon et de Rosette à être unis par les nœuds de
           l'hymen, et par une singularité encore fatale, tous les deux se trouvèrent dans le cas d'être
           corrigés le soir.---Comme personne ne se trouva en faute ce matin-là, on employa toute cette partie
           du jour à la cérémonie des noces et dès qu'elle fut faite, en les réunit au salon, pour voir ce
@@ -7454,8 +7643,10 @@
           libertin.---"De Dijon, monsieur."---"De Dijon---"Ah mortbleu Voilà une lettre, que j'en reçois à
           l'instant, où l'on vient de m'apprendre une nouvelle, qui me désole."---"Et qu'est-ce que c'est ?"
           demanda avec intérêt la jeune fille.
-          <corr>Comme je connais les gens de Dijon,</corr>
-          ça peut m'intéresser.---"Oh non," reprend notre homme, " elle n'intéresse que moi, c'est la nouvelle
+     <corr>
+      Comme je connais les gens de Dijon,
+     </corr>
+     ça peut m'intéresser.---"Oh non," reprend notre homme, " elle n'intéresse que moi, c'est la nouvelle
           de la mort d'un jeune homme auquel je prenais le plus vif intérêt, il venait d'épouser une fille que
           mon frère qui est à Dijon, lui avait procurée, une fille, dont il était très épris, et le lendemain
           des noces, il est mort subitement."---"Son nom, monsieur, s'il vous plaît."---"Il se nommait
@@ -7532,14 +7723,14 @@
           nuit à se faire foutre, et à boire des liqueurs.---On fut se mettre au lit deux heures à la pointe
           du jour. Et le lendemain ramena et les évènemens et les récits, que le lecteur trouvera, s'il prend
           la peine de lire ce qui suit.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Vingt-neuvième journée.
-        </head>
-        <p>
-          Il y a un proverbe, et il est une fort bonne chose, que les proverbes, il y a un, dis-je, qui
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Vingt-neuvième journée.
+    </head>
+    <p>
+     Il y a un proverbe, et il est une fort bonne chose, que les proverbes, il y a un, dis-je, qui
           prétend que "l'appétit vient en mangeant," ce proverbe tout grossier qu'il est, a pourtant un sens
           très étendu ; il veut dire qu'à force de faire des horreurs, on en désire des nouvelles, et que plus
           on fait, plus on désire ; c'était l'histoire de nos insatiables libertins, par une dureté
@@ -7779,7 +7970,10 @@
           pendre, M. le commissaire " Ce fut alors, qu'il se rejetta sur son fauteuil en déchargeant : "oui,
           faites-la prendre, sacré Dieu, que je la voie pendre, sacré Dieu, M. le commissaire, que je la voie
           pendre C'est tout ce que j'exige de vous "---Le prétendu commissaire, m'emmène avec l'effet et ma
-          <corr>chemise</corr>, il me fait passer dans une chambre voisine, défait sa robe, et me laisse voir
+     <corr>
+      chemise
+     </corr>
+     , il me fait passer dans une chambre voisine, défait sa robe, et me laisse voir
           le même valet, qui m'avait reçu, et engagé au vol, que le trouble dans lequel j'étais, m'avait
           empêché de reconnaître. "Eh bien," me dit-il, avez-vous eu bien peur ?"---"Hélas," lui dis-je. " Je
           n'en puis plus, me dit-il, "et voilà, pour vous dédommager," et en même temps il me remet de la part
@@ -7789,7 +7983,10 @@
           je suis peu partisan de la délicatesse en libertinage, en y en mettant moins, dis-je, on peut
           apprendre de ce récit la manière sûre d'empêcher une putain, de se plaindre, quelque soit l'iniquité
           des procédés qu'on veuille employer avec elle, il n'y a qu'à lui tendre ainsi des
-          <corr>pièges</corr>, l'y faire tomber, et dès qu'une fois, on est certain de l'avoir rendue
+     <corr>
+      pièges
+     </corr>
+     , l'y faire tomber, et dès qu'une fois, on est certain de l'avoir rendue
           coupable, on peut à son tour faire tout ce qu'on veut, il n'y a plus à craindre qu'elle ose se
           plaindre, elle aura trop peur, ou d'être prévenue, ou d'être recriminée."---"Il est certain," dit
           Curval, "qu'à la place du financier, je m'en serais permis davantage, et vous auriez bien pu, ma
@@ -7838,21 +8035,23 @@
           le dîner, ni le café, on passe tout de suite au salon où Duclos magnifiquement vêtue, parut sur sa
           tribune pour y terminer par les cinq récits suivants la partie des 150 narrations, qui lui avaient
           été confiées pour les 30 jours du mois de novembre.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Trentième journée.
-        </head>
-        <p>
-          "Je ne sais, messieurs," dit cette belle fille, "si vous avez entendu parler de la fantaisie aussi
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Trentième journée.
+    </head>
+    <p>
+     "Je ne sais, messieurs," dit cette belle fille, "si vous avez entendu parler de la fantaisie aussi
           singulière que dangereuse du comte de Lernos ; mais quelque liaison que j'ai eu avec lui m'ayant mis
           dans le cas de connaître au fond ses manœuvres, et les ayant trouvées très extraordinaires, j'ai cru
           qu'elles devaient faire nombre dans les voluptés que vous m'avez ordonné de vous détailler.---La
           passion du cte. de Lernos est de mettre à mal le plus de jeunes filles et de femmes mariées qu'il
           peut
-          <corr>sic</corr>
-          et indépendamment des livres qu'il met en usage pour les séduire, il n'y a sorte de moyen qu'il
+     <corr>
+      sic
+     </corr>
+     et indépendamment des livres qu'il met en usage pour les séduire, il n'y a sorte de moyen qu'il
           n'invente pour les livrer à des hommes, ou il favorise leurs penchants, en les unissant à l'objet de
           leurs vœux, ou il leur trouve des amants, si elles n'en ont pas, il a une maison exprès où toutes
           les parties qu'il arrange, se retrouvent, il les unit, leur assure de la tranquillité et du repos et
@@ -8013,23 +8212,24 @@
           d'horreurs et d'infamies que les deux autres amis en purent inventer de leur côté. À deux heures du
           matin tout fut se coucher, et c'est ainsi que se termina le mois de novembre et la première partie
           de cette lubrique et intéressante narration, de laquelle nous ne faisons pas attendre la seconde au
-          public, si nous voyons qu'il accueille bien la première.<ref target="#N02"/>
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Seconde partie.
-        </head>
-        <p>
-          Les cent cinquante passions de la seconde classe ou doubles, composant 31 journées de décembre
+          public, si nous voyons qu'il accueille bien la première.
+     <ref target="#N02"/>
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Seconde partie.
+    </head>
+    <p>
+     Les cent cinquante passions de la seconde classe ou doubles, composant 31 journées de décembre
           remplies par les narrations de la Chanville, auxquelles on a joint le journal exact des événements
           scandaleux du château pendant ce mois.
-        </p>
-        <p>
-          Plan.
-        </p>
-        <p>
-          Le 1er de décembre, la Chanville prend les récits et compte les 150 histoires suivantes. (Les
+    </p>
+    <p>
+     Plan.
+    </p>
+    <p>
+     Le 1er de décembre, la Chanville prend les récits et compte les 150 histoires suivantes. (Les
           chiffres précèdent les récits.) 1. Ne veut dépuceler que de trois ans jusqu'à sept, mais en con.
           C'est lui qui dépucelle la Chanville à l'âge de cinq ans. 2. Il fait attacher une fille de neuf ans
           en boule et la dépucelle en levrette. 3. Il veut violer une fille de douze à treize ans, et ne la
@@ -8044,18 +8244,20 @@
           se fasse et dépuceler l'épouse entre la messe et l'heure du coucher. 10. Il veut que son valet,
           homme très adroit, aille épouser partout des filles, qu'il les lui amène, le maître les fout, il les
           trafique après à des maquerelles.
-        </p>
-        <p>
-          La troisième journée.---11. Il ne veut dépuceler que les deux sœurs. 12. Il épouse la fille, la
+    </p>
+    <p>
+     La troisième journée.---11. Il ne veut dépuceler que les deux sœurs. 12. Il épouse la fille, la
           dépucelle, mais il l'a trompée, et dès que l'affaire est faite il la plante là. 13. Il ne fout la
           pucelle qu'à l'instant d'après où un homme vient de la déflorer devant lui, il veut qu'elle ait le
           con tout barbouillé de sperme. 14. Il dépucelle avec un godmiché, et décharge sur l'ouverture qu'il
           vient de faire sans s'introduire. 15. Il ne veut que des pucelles de condition, et les paye au poids
           de l'or, ce sera le duc, qui avouera à avoir depuis trente ans dépucelé plus quinze cent.
-        </p>
-        <p>
-          <corr>4e journée.</corr>
-          16. Il force un frère à foutre sa sœur devant lui, et il la fout après, il les fait chier tous deux
+    </p>
+    <p>
+     <corr>
+      4e journée.
+     </corr>
+     16. Il force un frère à foutre sa sœur devant lui, et il la fout après, il les fait chier tous deux
           avant. 17. Il force un père à foutre sa fille après que lui l'a dépucelée. 18. Il mène sa fille à
           neuf ans au bordel et l'y dépucelle tenue par la maquerelle, il a eu douze filles et il les a ainsi
           dépucelées toutes. 19. Il ne veut dépuceler que de trente à quarante ans. 20. Il ne veut dépuceler
@@ -8075,8 +8277,10 @@
           mariées, il veut les foutre toutes les quatre, il leur fait des enfants à toutes les quatre, afin
           d'avoir le plaisir de dépuceler un jour ces enfants, qu'il a faits à ses filles, et que le mari
           croit à lui,
-          <corr>le</corr>
-          duc raconte sur cela,---mais ça ne fait point nombre, parce qu'ils ne peuvent être renouvelés ; ça
+     <corr>
+      le
+     </corr>
+     duc raconte sur cela,---mais ça ne fait point nombre, parce qu'ils ne peuvent être renouvelés ; ça
           ne fait point passion ; il raconte, dis-je, qu'il a connu un homme qui a foutu trois enfants qu'il
           avait de sa mère, desquelles il y avait une fille qu'il avait fait épouser à son fils de façon qu'en
           foutant celle-là, il foutait sa sœur, sa fille et sa belle-fille, et qu'il contraignit son fils à
@@ -8350,10 +8554,11 @@
           fixée là, les cheveux épais, ses jambes se trouvent dans le plus grand écartement possible et son
           gros ventre extraordinairement tendu. Là le con baissé de toute sa force, c'est là et sur le ventre
           qu'il dirige ses coups et quand il a vu le sang, il passe de l'autre côté du cylindre et vient
-          décharger sur le visage.<ref target="#N03"/>
-        </p>
-        <p>
-          Le duc ce soir-là répudie Constance qui tombe dans le plus grand discrédit. Cependant on la ménage,
+          décharger sur le visage.
+     <ref target="#N03"/>
+    </p>
+    <p>
+     Le duc ce soir-là répudie Constance qui tombe dans le plus grand discrédit. Cependant on la ménage,
           à cause de sa grossesse, sur laquelle on a des projets. Augustine passe pour femme du duc, et ne
           fait plus que les fonctions d'épouse aux sophas et aux garderobes. Constance n'a plus rang qu'après
           les vieilles.---Le vingt-neuf. 140. Il ne veut que des filles de quinze ans et il les fouette
@@ -8386,29 +8591,30 @@
           quatre filles réchauffent et le fouettent, quand il est bien en feu, il se jette sur la cinquième
           fille, nue dans une chambre vis-à-vis et l'assaillit indifféremment sur tout le corps à grands coups
           de nerfs-de-bœuf jusqu'à ce qu'il décharge, mais pour que cela soit plutôt fait et que la patiente
-          souffre moins, on ne le lâche que quand il est tout près de sa décharge.<ref target="#N04"/>
-        </p>
-        <p>
-          Chanville est applaudie, on lui fait le même honneur qu'à Duclos, et ce soir-là elles soupent toutes
+          souffre moins, on ne le lâche que quand il est tout près de sa décharge.
+     <ref target="#N04"/>
+    </p>
+    <p>
+     Chanville est applaudie, on lui fait le même honneur qu'à Duclos, et ce soir-là elles soupent toutes
           deux avec les amis.---Ce soir-là aux orgies, Adélaïde, Aline, Augustine, et Zelmire, sont condamnées
           à être fouettées avec des verges sur tout le corps, excepté le sein, mais comme on veut encore en
           jouir au moins deux mois, elles sont très ménagées.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Troisième partie.
-        </head>
-        <p>
-          Les cent cinquante passions de troisième classe ou criminelles, composant trente et une journée de
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Troisième partie.
+    </head>
+    <p>
+     Les cent cinquante passions de troisième classe ou criminelles, composant trente et une journée de
           janvier, remplies par les narrations de la Martaine, auxquelles on a joint le journal des événements
           scandaleux du château pendant ce mois-là.
-        </p>
-        <p>
-          Le premier janvier.
-        </p>
-        <p>
-          1. Il n'aime qu'à se faire enculer et on ne sait, on lui cherche des vits assez gros, mais elle
+    </p>
+    <p>
+     Le premier janvier.
+    </p>
+    <p>
+     1. Il n'aime qu'à se faire enculer et on ne sait, on lui cherche des vits assez gros, mais elle
           n'appuye pas, dit-elle, sur cette passion, comme une passion trop simple et trop connue de ses
           auditeurs. 2. Il ne veut dépuceler que des petites filles de trois à sept ans, en cul. C'est l'homme
           qui a eu son pucelage de cette manière, elle avait quatre ans, elle en est malade, sa mère implore
@@ -8429,7 +8635,9 @@
           n'a que douze ans, il y a des peines infinies, elle est tenue par les quatre vieilles, et il est
           servi par Duclos et Chanville, et comme il y a une fête le lendemain pour ne rien déranger, Hébé dès
           le même soir est livrée en cul et tous les quatre amis en jouissent. On l'emporte sans connaissance,
-          elle a été enculée sept coups.<ref target="#N05"/> Le deux janvier. 6. Il se fait péter dans la bouche par quatre
+          elle a été enculée sept coups.
+     <ref target="#N05"/>
+     Le deux janvier. 6. Il se fait péter dans la bouche par quatre
           filles, en en enculant une cinquième, puis, il change, toutes pètent et toutes sont enculées.---Il
           ne décharge que dans le cinquième cul 7. Il s'amuse avec trois garçons, il encule et se fait chier,
           en les changeant tous trois, et branle celui qui est dans l'inaction. 8. Il fout la sœur en cul, en
@@ -8591,8 +8799,11 @@
           sur le billot, et le sabre y enfonce de trois pouces ; si la corde ne retire pas la fille, à temps,
           elle est morte, il décharge en lâchant son coup, mais avant il l'a enculé, le con sur le
           billot.---Ce soir Colombe est livrée pour le cul, on la menace et on fait mine de lui couper le
-          cou.---<corr>Le quinze.</corr>
-          69. Il pend la putain tout à fait, elle a ses pieds appuyés sur un tabouret, une corde y tient au
+          cou.---
+     <corr>
+      Le quinze.
+     </corr>
+     69. Il pend la putain tout à fait, elle a ses pieds appuyés sur un tabouret, une corde y tient au
           tabouret, il est en face posté sur un fauteuil, où il se fait branler par la fille de cette
           femme-là, en déchargeant, il tire la corde, la fille n'étant plus soutenue, reste accrochée, il
           sort, des valets viennent, détachent la fille et au moyen d'une saignée, elle revient, mais le
@@ -8723,8 +8934,10 @@
           entre dans les chairs et qui coupe ; laquelle, quand elle est retirée enlève un morceau rond de
           chair aussi profond que l'on a fait descendre la machine, qui creuse toujours, si on ne la retire
           pas. 121. Il fait
-          <corr>des horreurs à des enfants</corr>
-          de dix à quinze ans. 122. Il serre et enlève avec des tenailles, le bout des seins et les coupe avec
+     <corr>
+      des horreurs à des enfants
+     </corr>
+     de dix à quinze ans. 122. Il serre et enlève avec des tenailles, le bout des seins et les coupe avec
           des ciseaux.---Ce même soir Augustine est livrée pour le cul, Curval en l'enculant avait voulu
           baiser la gorge de Constance en déchargeant. Il lui a enlevé le bout avec ses dents, mais comme on
           la panse tout de suite, on assure que ça ne fera rien à son fruit. Curval dit à ses confrères qui
@@ -8749,8 +8962,10 @@
           dans les fesses.---Ce même soir l'évêque dépucelle Fanni en cul.---Le Vingt-sept. 128. Le même homme
           dont Desgranges parlera le vingt-quatre février fait avorter une femme grosse, à force de coups de
           fouet sur le ventre, il veut la voir pondre devant lui. 129. Il fait eunuque
-          <corr>total</corr>
-          un jeune garçon de 16 à 17 ans. Il l'encule avant et le fouette. 130. Il veut une pucelle, il lui
+     <corr>
+      total
+     </corr>
+     un jeune garçon de 16 à 17 ans. Il l'encule avant et le fouette. 130. Il veut une pucelle, il lui
           coupe le clitoris avec un rasoir, puis la déflore avec un cylindre de fer chaud qu'il enfonce à
           coups de marteau. 131 Il fait avorter à 8 mois au moyen d'un breuvage qui fait pondre à l'instant à
           la femme son enfant mort, d'autrefois il détermine un accouchement par le trou du cul. Mais l'enfant
@@ -8806,19 +9021,19 @@
           laquelle on la brûlera avec un fer chaud tout auprès de l'intérieur du vagin, sous les aisselles et
           un peu grésillée sous chaque teton. Elle endure tout cela en héroïne et en invoquant Dieu ce qui
           irrite davantage ses bourreaux.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Quatrième partie.
-        </head>
-        <p>
-          Les cent cinquante passions meurtrières ou de quatrième classe, composant vingt-huit journées de
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Quatrième partie.
+    </head>
+    <p>
+     Les cent cinquante passions meurtrières ou de quatrième classe, composant vingt-huit journées de
           février, remplies par les narrations de la Desgranges, auxquelles on a joint le journal exact des
           événements scandaleux du château pendant ce mois-là.
-        </p>
-        <p>
-          Établisse d'abord, que tout change de face ce mois-là, que les quatre épouses sont répudiées, que
+    </p>
+    <p>
+     Établisse d'abord, que tout change de face ce mois-là, que les quatre épouses sont répudiées, que
           cependant Julie a trouvé grâce près de l'évêque qui l'a prise chez lui en qualité de servante, mais
           qu'Aline, Adélaïde et Constance sont sans feu, ni lieu, excepté pourtant cette dernière qu'on a
           permis à Duclos de reléguer chez elle parce qu'on veut ménager son fruit. Mais pour Adélaïde et
@@ -9124,8 +9339,10 @@
           jour-là coupe un teton tout raz sur le sein de la vieille Louison. Alors les deux autres voient
           bien, quel va être leur sort.---Le quatorze. 73. Un homme dont le goût simple était de fouetter une
           fille perfectionne en enlevant tous les
-          <corr>morceaux</corr>
-          gros comme un poids de chair sur le corps de la fille, mais on ne la panse point et elle périt ainsi
+     <corr>
+      morceaux
+     </corr>
+     gros comme un poids de chair sur le corps de la fille, mais on ne la panse point et elle périt ainsi
           à petit feu. Desgranges avertit qu'elle va parler de meurtres très douloureux et que c'est l'extrême
           cruauté qui fera le principal, alors on lui recommande plus que jamais les détails. 74. Celui qui
           aimait à saigner, ôte tous les jours une demi-once de sang jusqu'à la mort. Celui-là est fort
@@ -9157,8 +9374,10 @@
           ce supplice. 83. Il aimait à foutre des bouches et des culs fort jeunes, il perfectionne en
           arrachant le cœur d'une fille toute vivante, il y fait un trou, fout ce trou tout chaud, remet le
           cœur à sa place avec son foutre dedans, on recoud la playe et on laisse la fille finir son sort
-          <corr>sic</corr>
-          sans secours ce qui n'est pas long dans ce cas-là.---Ce soir-là Curval, toujours animé contre la
+     <corr>
+      sic
+     </corr>
+     sans secours ce qui n'est pas long dans ce cas-là.---Ce soir-là Curval, toujours animé contre la
           belle Constance, dit qu'on pût bien accoucher avec un membre cassé, et en conséquence on casse le
           bras droit de cette infortunée. Durcet le même soir coupe un teton à Marie qu'on a fouettée et fait
           chier auparavant.---Le seize. 84. Un fustigateur perfectionne en dégarnissant doucement les os. Il
@@ -9318,10 +9537,14 @@
           l'encule pendant que Curval lui coupe un doigt, puis Curval l'encule pendant que le duc la brûle sur
           les cuisses avec un fer rouge à 6 endroits, il lui coupe encore un doigt de la main à l'instant de
           la décharge de Curval, et malgré tout cela rien
-          <corr>ne</corr>
-          va pas moins ;
-          <corr>elle</corr>
-          couche encore avec le duc ; on casse un bras à Marie, on lui arrache les ongles des doigts et on les
+     <corr>
+      ne
+     </corr>
+     va pas moins ;
+     <corr>
+      elle
+     </corr>
+     couche encore avec le duc ; on casse un bras à Marie, on lui arrache les ongles des doigts et on les
           lui brûle. Cette même nuit Durcet et Curval descendent Adélaïde au caveau, aidés de Desgranges et de
           Duclos. Curval l'encule pour la dernière fois, puis ils la font périr dans des supplices affreux
           qu'on vous détaillera.---Le vingt-trois. 119. Il place un jeune garçon dans une machine qui le tire
@@ -9456,9 +9679,9 @@
           pour la faire périr, ils sont tous bien plus forts encore que ceux d'Augustine, et on les trouve
           encore à l'opération, le lendemain matin à l'heure du déjeuner. Cette belle fille meurt à 15 ans et
           deux mois.
-        </p>
-        <p>
-          C'était elle qui avait le plus beau cul du sérail des filles.---Et dès le lendemain Curval qui n'a
+    </p>
+    <p>
+     C'était elle qui avait le plus beau cul du sérail des filles.---Et dès le lendemain Curval qui n'a
           plus de femme prend Hébé.---Le vingt-sept. On remet au lendemain à célébrer la fête de la
           dix-septième et dernière semaine, afin que cette fête accompagne la clôture des récits, et
           Desgranges conte les passions suivantes. 139. Un homme dont Martaine a parlé le douze janvier et qui
@@ -9556,8 +9779,10 @@
           trente pucelages dans sa journée et tout cela sans répandre une goutte de foutre. Le caveau où les
           filles tombent, est garni de quinze différents assortiments de supplice effroyables, et un bourreau
           sous le masque et le
-          <corr>costume</corr>
-          d'un démon préside à chaque supplice, vêtu de la couleur affectée à ce supplice, le ruban que la
+     <corr>
+      costume
+     </corr>
+     d'un démon préside à chaque supplice, vêtu de la couleur affectée à ce supplice, le ruban que la
           fille a au col, répond à une des couleurs affectées à ce supplice et dès qu'elle tombe, le bourreau
           de cette couleur s'empare d'elle et la mène au supplice où il préside. Mais on ne commence à les y
           appliquer toutes, qu'à la chute de la quinzième fille, dès que celle-ci est tombée, notre homme dans
@@ -9612,40 +9837,40 @@
           ventre de Constance, en enculant Giton, et il en a arraché le fruit déjà très formé et désigné au
           sexe masculin, puis on a continué les supplices sur les cinq victimes, qui tous ont été aussi cruels
           que variés.
-        </p>
-        <p>
-          Le 1er mars, voyant, que les neiges ne sont pas encore fondues on se décide à expédier en détail
+    </p>
+    <p>
+     Le 1er mars, voyant, que les neiges ne sont pas encore fondues on se décide à expédier en détail
           tout qui reste, les amis sont de nouveau ménagés dans leur chambre et décident de donner un ruban
           vert à tout ce qui doit être ramené en France, sous condition de prêter la main au supplice du
           reste, on ne dit rien aux six femmes de cuisine, mais on se décide à supplicier les trois servantes
           qui en valent bien la peine et à sauver les trois cuisinières à cause de leurs talents. En
           conséquence on fait la liste et l'on voit qu'à cette époque il y a déjà de sacrifiées :
-        </p>
-        <p>
-          En épouses : ........................---Aline, Adélaïde et Constance 3 En filles du sérail :
+    </p>
+    <p>
+     En épouses : ........................---Aline, Adélaïde et Constance 3 En filles du sérail :
           ...............---Augustine, Michette, Rosette et Zelmire 4 En bardaches :
           .....................---Giton et Narcisse 2 En fouteurs : ........................---un des
           subalternes 1 total 10
-        </p>
-        <p>
-          Passe à la marque à la dernière bande du recto.
-        </p>
-        <p>
-          Ici commence la fin et la suite du verso.
-        </p>
-        <p>
-          Les nouveaux ménages s'arrangent donc :
-        </p>
-        <p>
-          Le duc prend avec lui ou sous sa protection
-        </p>
-        <p>
-          Hercule, la Duclos et une cuisinière ................................. 4 Curval prend Brise-cul,
+    </p>
+    <p>
+     Passe à la marque à la dernière bande du recto.
+    </p>
+    <p>
+     Ici commence la fin et la suite du verso.
+    </p>
+    <p>
+     Les nouveaux ménages s'arrangent donc :
+    </p>
+    <p>
+     Le duc prend avec lui ou sous sa protection
+    </p>
+    <p>
+     Hercule, la Duclos et une cuisinière ................................. 4 Curval prend Brise-cul,
           Champville et une cuisinière ......... 4 Durcet prend Bande-au-ciel, Martaine et une cuisinière
           ...... 4 Et l'évêque Antinoüs, la Desgranges et Julie ........................ 4 16
-        </p>
-        <p>
-          et on décida que dans l'instant et par le ministère des quatre amis, des quatre routeurs, et des
+    </p>
+    <p>
+     et on décida que dans l'instant et par le ministère des quatre amis, des quatre routeurs, et des
           quatre historiennes, ne voulant point employer les cuisinières on se saisira de tout ce qui reste le
           plus traîtreusement que faire se pourra, excepté les trois servantes qu'on ne saisira que le dernier
           jour, et que l'on formera des appartements du haut quatre prisons, que l'on mettra les trois
@@ -9657,49 +9882,49 @@
           plaît avec ses victimes ou dans les prisons, ou ils les font venir dans le salon ou dans leur
           chambre, le tout suivant leur gré, en conséquence, on expédie donc, comme il vient d'être dit, un
           sujet chaque jour dans l'ordre suivante :
-        </p>
-        <p>
-          Le 1 mars Fanchon, le 2. Louison, le 3. Thérèse, le 4. Marie, le 5. Fanni, le 6. et le 7. Sophie et
+    </p>
+    <p>
+     Le 1 mars Fanchon, le 2. Louison, le 3. Thérèse, le 4. Marie, le 5. Fanni, le 6. et le 7. Sophie et
           Céladon ensemble comme amants et ils périssent comme il a été dit cloué l'un sur l'autre, le 8. un
           des fouteurs subalternes, le 9. Hébé, le 10. un des fouteurs subalternes, le 11. Colombe, le 12. le
           dernier des fouteurs subalternes, le 13. Zélamir, le 14. Cupidon, le 15. Zéphire, le 16. Adonis, le
           17. Hyacinthe, le 18. au matin on se saisit des trois servantes, que l'on enferme dans la prison des
           vieilles, et on les expose le 18, le 19. et Je 20. total 20. Cette récapitulation fait voir l'emploi
           de tous les sujets, puisqu'il avait en tout 46, savoir :
-        </p>
-        <p>
-          Maîtres ............................................. 4 Vieilles
+    </p>
+    <p>
+     Maîtres ............................................. 4 Vieilles
           ............................................. 4 À la cuisine .......................................
           6 Historiennes .................................... 4 Fouteurs
           .......................................... 8 Jeunes garçons ................................. 8
           Épouses .......................................... 4 Jeunes filles
           .................................... 8 total 46
-        </p>
-        <p>
-          Que sur cela il y en a eu 30 d'immolés et 16, qui s'en retournent à Paris.
-        </p>
-        <p>
-          Compte du total
-        </p>
-        <p>
-          Massacrés avant le 1er mars dans les premières orgies ......... 10 Depuis le 1er mars
+    </p>
+    <p>
+     Que sur cela il y en a eu 30 d'immolés et 16, qui s'en retournent à Paris.
+    </p>
+    <p>
+     Compte du total
+    </p>
+    <p>
+     Massacrés avant le 1er mars dans les premières orgies ......... 10 Depuis le 1er mars
           ..................................................................... 20 Et ils s'en retournent
           .................................................................. 16 personnes total 46
-        </p>
-        <p>
-          À l'égard des supplices des vingt derniers sujets et de la vie qu'on mène jusqu'au départ, vous le
+    </p>
+    <p>
+     À l'égard des supplices des vingt derniers sujets et de la vie qu'on mène jusqu'au départ, vous le
           détaillerez à votre aise, vous direz d'abord que les 12 restants mangeaient tous ensemble, et les
           supplices à votre choix.
-        </p>
-        <p>
-          Notes.
-        </p>
-        <p>
-          Ne vous écartez en vie de ce plan, tout y est combiné plusieurs fois, et avec la plus grande
+    </p>
+    <p>
+     Notes.
+    </p>
+    <p>
+     Ne vous écartez en vie de ce plan, tout y est combiné plusieurs fois, et avec la plus grande
           exactitude.
-        </p>
-        <p>
-          Détaillez le départ, et dans le total mêlez surtout de la morale aux soupers. Quand vous mettrez au
+    </p>
+    <p>
+     Détaillez le départ, et dans le total mêlez surtout de la morale aux soupers. Quand vous mettrez au
           net, ayez un cahier, où vous placerez les noms de tous les personnages principaux et de tous ceux
           qui jouent un grand rôle, tels que ceux qui ont plusieurs passions et dont vous reparlez plusieurs
           fois, comme celui de l'enfer ; laissez une grande marge auprès de leur nom et remplissez cette marge
@@ -9712,12 +9937,12 @@
           N'oubliez pas de placer dans décembre la scène des petites filles servant au souper venant séringuer
           des liqueurs dans les verres des amis, avec leurs culs, vous l'avez annoncé et n'en avez point parlé
           dans le plan.
-        </p>
-        <p>
-          Supplices en supplément.
-        </p>
-        <p>
-          Au moyen d'un tuyau on lui introduit une souris dans le con, le tuyau se retire, on coud le con, et
+    </p>
+    <p>
+     Supplices en supplément.
+    </p>
+    <p>
+     Au moyen d'un tuyau on lui introduit une souris dans le con, le tuyau se retire, on coud le con, et
           l'animal ne pouvant sortir lui dévore les entrailles. On lui fait avaler un serpent qui va de même
           la dévorer. En général peignez Curval et le duc deux scélérats fougueux et impétueux, c'est comme
           cela que vous les avez pris dans 1re partie, et dans le plan, et peignez l'évêque, un scélérat froid
@@ -9727,14 +9952,14 @@
           le cahier de vos personnages le plan du château, appartement par appartement, y ait une feuille, et
           dans le blanc que vous laisserez à côté, placez les sortes de choses que vous faites faire, dans
           telle ou telle pièce. Toute cette grande bande a été commencée le 22 8bre 1785 et finie en 37 jours.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>
-          Liste des différents objets morales traités dans les lettres du comte.
-        </head>
-        <p>
-          Les morts stoïques---l'insouciance de l'opinion publique---le stoïcisme---la pudeur---la
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Liste des différents objets morales traités dans les lettres du comte.
+    </head>
+    <p>
+     Les morts stoïques---l'insouciance de l'opinion publique---le stoïcisme---la pudeur---la
           jalousie---la sensibilité---la pitié---la tyrannie---l'oppression---possibilité de jouir sans aimer,
           et d'aimer sans jouir---le remords---effets de la douleur comme cause active de la volupté, soit
           qu'on la donne, soit qu'on la reçoive---le plaisir---le fil de fraternité---combat du vice et de la
@@ -9772,18 +9997,28 @@
           quoi servirait-il de se repentir d'un mal que rien ne peut réparer ; la difficulté du remords
           l'anéantit, ce qui fait voir que le remords a cela de particulier sur les autres affections de
           l'âme, de s'anéantir en raison de ce qu'on l'accroît.
-        </p>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N01">Cette bande a été écrite en 20 soirées de 7 à heures et est finie le 12. 9ber 1785. Lisez le reste au revers de la bande ce qui suit, fait la suite de la fin du revers.</note>
-        <note xml:id="N02">Fautes que j'ai faites.
-J'ai trop dévoilé les histoires de garderobe au commencement, il ne faut les développer qu'après les récits qui en parlent — trop parlé de la Sodomie active et passive, voilez-les, jusqu'à ce que les récits en parlent. — J'ai eu tort de rendre Duclos sensible à la mort de sa sœur ; ça ne répond pas au reste de son caractère, changez cela. — Si j'ai dit qu'Aline était pucelle à l'arrivée au, château j'ai eu tort, elle ne l'est pas et ne doit pas l'être. L'évêque l'a dépucelée partout. Et n'ayant pas pu me relire, cela doit sûrement fourmiller d'autres fautes. — Quand je remettrai au [prison] qu'un de mes premiers soins soit d'avoir toujours auprès de moi un cahier de notes, où il faudra que je place exactement chaque évènement et chaque portrait en mesure que je l'écris. Car sans cela je m'embrouillerai horriblement à cause de la multitude des personnages. Partez pour la seconde partie du principe qu'Augustine et Zéphire couchent déjà dans la chambre du duc dès la ie partie, comme Adonis et Zelmire dans celle de Curval, Hyacinthe et Fanni dans celle de Durcet, Céladon et Sophie dans celle de l'évêque, quoique tout cela ne soit pas encore dépucelé.</note>
-        <note xml:id="N03">[Les] brouillons marquent les adoptions seulement après la défloration et en conséquence disent que le duc adopte ici Augustine. Vérifiez, si ce n'est pas faux et si l'adoption des quatre sultanes n'est pas fait dès le commencement, et dès ce moment-là, s'il n'est pas dit qu'elles couchent dans la chambre de ceux qui les ont adoptées. —</note>
-        <note xml:id="N04">Vérifier pourquoi il y a un de plus.</note>
-        <note xml:id="N05">Que Martaine ne dise point qu'elle est barrée, c'est faux.</note>
-      </div>
-    </back>
-  </text>
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     Cette bande a été écrite en 20 soirées de 7 à heures et est finie le 12. 9ber 1785. Lisez le reste au revers de la bande ce qui suit, fait la suite de la fin du revers.
+    </note>
+    <note xml:id="N02">
+     Fautes que j'ai faites.
+J'ai trop dévoilé les histoires de garderobe au commencement, il ne faut les développer qu'après les récits qui en parlent — trop parlé de la Sodomie active et passive, voilez-les, jusqu'à ce que les récits en parlent. — J'ai eu tort de rendre Duclos sensible à la mort de sa sœur ; ça ne répond pas au reste de son caractère, changez cela. — Si j'ai dit qu'Aline était pucelle à l'arrivée au, château j'ai eu tort, elle ne l'est pas et ne doit pas l'être. L'évêque l'a dépucelée partout. Et n'ayant pas pu me relire, cela doit sûrement fourmiller d'autres fautes. — Quand je remettrai au [prison] qu'un de mes premiers soins soit d'avoir toujours auprès de moi un cahier de notes, où il faudra que je place exactement chaque évènement et chaque portrait en mesure que je l'écris. Car sans cela je m'embrouillerai horriblement à cause de la multitude des personnages. Partez pour la seconde partie du principe qu'Augustine et Zéphire couchent déjà dans la chambre du duc dès la ie partie, comme Adonis et Zelmire dans celle de Curval, Hyacinthe et Fanni dans celle de Durcet, Céladon et Sophie dans celle de l'évêque, quoique tout cela ne soit pas encore dépucelé.
+    </note>
+    <note xml:id="N03">
+     [Les] brouillons marquent les adoptions seulement après la défloration et en conséquence disent que le duc adopte ici Augustine. Vérifiez, si ce n'est pas faux et si l'adoption des quatre sultanes n'est pas fait dès le commencement, et dès ce moment-là, s'il n'est pas dit qu'elles couchent dans la chambre de ceux qui les ont adoptées. —
+    </note>
+    <note xml:id="N04">
+     Vérifier pourquoi il y a un de plus.
+    </note>
+    <note xml:id="N05">
+     Que Martaine ne dise point qu'elle est barrée, c'est faux.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

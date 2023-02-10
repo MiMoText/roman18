@@ -1,86 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Mouhy_Opuscule" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:52.35">Opuscule d'un célèbre auteur égyptien: MiMoText edition</title>
-                <author ref="viaf:9858280 wikidata:Q2960572">Charles de Fieux(1701-1784)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>gallica</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">5306</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9743521f?rk=21459;2"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Opuscule d'un célèbre auteur égyptien, contenant l'histoire d'Orphée par laquelle
-                        on pourroit soupçonner qu'il est peu de femmes fidèles</title>
-                    <author>Charles de Fieux, chevalier de Mouhy</author>
-                    <pubPlace>Londres</pubPlace>
-                    <publisher/>
-                    <date/>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1752</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> mixed </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2022-03-18">Initial Eltec level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <p>OPUSCULE D'UN CÉLÉBRE AUTEUR EGYPTIEN. CONTENANT L'HISTOIRE D'ORPHÉE, PAR LAQUELLE ON
-                    POURROIT SOUPÇONNER QU'IL EST PEU DE FEMMES FIDELES.</p>
-                <p>A LONDRES.</p>
-                <p>M. DCC. LII.</p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head>AVERTISSEMT.</head>
-                <p>UN de mes amis ayant hérité d'une Terre, il a trouvé dans le Château une ancienne
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:52.35">
+     Opuscule d'un célèbre auteur égyptien: MiMoText edition
+    </title>
+    <author ref="viaf:9858280 wikidata:Q2960572">
+     Charles de Fieux(1701-1784)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     5306
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9743521f?rk=21459;2"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2016
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Opuscule d'un célèbre auteur égyptien, contenant l'histoire d'Orphée par laquelle
+                        on pourroit soupçonner qu'il est peu de femmes fidèles
+     </title>
+     <author>
+      Charles de Fieux, chevalier de Mouhy
+     </author>
+     <pubPlace>
+      Londres
+     </pubPlace>
+     <publisher/>
+     <date/>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1752
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      mixed
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-03-18">
+    Initial Eltec level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     OPUSCULE D'UN CÉLÉBRE AUTEUR EGYPTIEN. CONTENANT L'HISTOIRE D'ORPHÉE, PAR LAQUELLE ON
+                    POURROIT SOUPÇONNER QU'IL EST PEU DE FEMMES FIDELES.
+    </p>
+    <p>
+     A LONDRES.
+    </p>
+    <p>
+     M. DCC. LII.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     AVERTISSEMT.
+    </head>
+    <p>
+     UN de mes amis ayant hérité d'une Terre, il a trouvé dans le Château une ancienne
                     Bibliothéque, qu'on n'avoit peut-être pas viſitée depuis plus de ſoixante ans, parmi un
                     tas de Livres rongés par la pouſſiere il s'eſt rencontré un Manuscrit Egyptien qu'il m'a
                     montré: je l'ai lû, &amp; je lui en ai rendu compte. Il m'a prié de le traduire; je l'ai
@@ -90,12 +142,18 @@
                     s'en tiendra à la lecture de cet Avertiſſement, par-là, il évitera l'ennui dont je
                     voudrois le ſauver, ſi la curioſité prévaut, qu il ne s'en prenne qu'à à lui ſeul; a mon
                     égard me voila à l'abri de ſa mauvaiſe humeur, &amp; peu m'importe de la maniere dont il
-                    jugera d'un Opuſcule dont le ſort devoit être la pâture des Rats.</p>
-            </div>
-            <div type="chapter">
-                <head>LETTRE</head>
-                <p>De M. le Comte de *** à M. le Duc de ***.</p>
-                <p>Vous allez être content, Mosieur, je vous envoye la Traduction de ce vieux Manuſcrit
+                    jugera d'un Opuſcule dont le ſort devoit être la pâture des Rats.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LETTRE
+    </head>
+    <p>
+     De M. le Comte de *** à M. le Duc de ***.
+    </p>
+    <p>
+     Vous allez être content, Mosieur, je vous envoye la Traduction de ce vieux Manuſcrit
                     Egyptien que vous trouvâtes l'année paſſée dans votre Bibliothéque: je ne veux pas m'en
                     faire un mérite auprès de vous, mais la peine que cet Opuſcule m'a couté eſt inconcevable.
                     Il y avoit des feuilles entieres preſqu'effacées par le tems, &amp; je ne ſcai ſi je n'ai
@@ -103,11 +161,17 @@
                     quoiqu'il en ſoit, j'ai remplis mes engagemens, &amp; je me trouverai fort heureux ſi je
                     puis contribuer à votre amuſement, &amp; par - là vous prouver l'attachement ſincere &amp;
                     inviolable avec lequel j'ai l'honneur d'être, Monsieur, Votre très-humble &amp;
-                    très-obéiſſant Serviteur.</p>
-            </div>
-            <div type="chapter">
-                <head>OPUSCULE D'UN CELEBRE AUTEUR EGYPTIEN.</head>
-                <p> NE'<ref target="#N01"/> de parens aſſez riches pour jouir des commodités de la vie, trop
+                    très-obéiſſant Serviteur.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     OPUSCULE D'UN CELEBRE AUTEUR EGYPTIEN.
+    </head>
+    <p>
+     NE'
+     <ref target="#N01"/>
+     de parens aſſez riches pour jouir des commodités de la vie, trop
                     ſages pour déſirer tout ce qui tendant au faſte, ne ſert ſouvent qu'à troubler la
                     tranquillité de nos jours, aſſez honnêtes gens pour s'être acquis avec juſtice cette
                     réputation de probité qui fait la ſatisfaction la plus réelle de ceux qui la méritent, je
@@ -126,8 +190,11 @@
                     je tombai dans le déſeſpoir; mon ame fatiguée de ce corps dont les organes immobiles
                     s'oppoſoient à ſon bonheur, voulant ſe délivrer d'un poids ſi onéreux pour retrouver d'ame
                     d'une femme de la perte de laquelle je ne pouvois me conſoler, profita de la liberté que
-                    lui avoit donnée la divine Oſiris <ref target="#N02"/> de ſe dépouiller <ref target="#N03"/>
-                    de la matiére qui l'embaraſſoit, &amp; de ſe purifier par cette ſéparation. Elle prit donc
+                    lui avoit donnée la divine Oſiris
+     <ref target="#N02"/>
+     de ſe dépouiller
+     <ref target="#N03"/>
+     de la matiére qui l'embaraſſoit, &amp; de ſe purifier par cette ſéparation. Elle prit donc
                     ſon eſſort, &amp; abandonnant les parties terreſtres qui l'environnoient, elle ſuivit le
                     ſort des eſprits, &amp; s'élevant tout-à-coup au-deſſus de ce qui étoit étranger à ſon
                     eſpece, elle ſe trouva dans le ſéjour des Ames qui ſéparées de leur individu jouiſſent du
@@ -138,15 +205,19 @@
                     préſente, ajoutent aux douceurs de leur être cette ſatisfaction dont jouit le Nautonier,
                     qui rendu au Port malgré l'orage après avoir cent fois enviſagé les horreurs de la mort,
                     voit impunément de deſſus la rive les efforts inutiles des flots, qui un moment auparavant
-                    menaçoient de l'enſevelir.</p>
-                <p>Le ſeul déſir qui m'embaraſſoit étoit de rencontrer l'ame de l'adorable Reine d'Egypte;
+                    menaçoient de l'enſevelir.
+    </p>
+    <p>
+     Le ſeul déſir qui m'embaraſſoit étoit de rencontrer l'ame de l'adorable Reine d'Egypte;
                     j'errois de tous les côtés pour y parvenir: j'en vis une qui voltigeoit, je la joignis;
                     mais hélas ce n'étoit pas Zeleuſis: c'étoit celle qui autrefois occupoit le corps
                     d'Orphée. Je m'attachai à la conſidérer; elle s'arrêta &amp; me parla en ces termes: Iu
                     vois en moi la ſubſtance divine qui préſidoit à l'Etre du Chantre de la Thrace, né
                     d'Apollon &amp; de Clio. La Divinité puiſſante que nous adorons donna aux organes du corps
                     dans lequel j'habitois cette diſpoſition néceſſaire à la perfection des talens. En peu de
-                    tems je devins le plus habile Muſicien <ref target="#N04"/> de la Thrace; ma voix
+                    tems je devins le plus habile Muſicien
+     <ref target="#N04"/>
+     de la Thrace; ma voix
                     enchantoit les cœurs, &amp; le ſon de ma lyre rempliſſoit les eſprits de cette aimable
                     volupté qui ne laiſſant plus de place à aucune autre ſenſation ſuſpend les chagrins les
                     plus violens. Je ne bornois cependant pas là les dons que le Ciel m'avoit prodigué,
@@ -155,31 +226,44 @@
                     plus abſtrait. Cet Art que j'avois pouſſé à ſa perfection, s'il eſt poſſible à un mortel
                     d'y atteindre, délaſſoit mon imagination &amp; renouvelloit pour ainſi dire à mes organes
                     leur aptitude aux impreſſions de l'ame: mon premier ſoin fut de connoître le principe de
-                    ma création.</p>
-                <p>L'exiſtence me paroiſſoit ſi précieuſe, que je ne pouvois comparer à rien l'obligation que
+                    ma création.
+    </p>
+    <p>
+     L'exiſtence me paroiſſoit ſi précieuſe, que je ne pouvois comparer à rien l'obligation que
                     j'avois à l'Etre ſupérieur qui en étoit la premiere cauſe; je voulus approfondir toutes
                     les obligations que j'avois au Créateur, la vérité ſe préſentant à mon eſprit par degré,
-                    j'apperçus le rayon de lumiere <ref target="#N05"/> qui y conduit. Je ne vis plus ces Etres
+                    j'apperçus le rayon de lumiere
+     <ref target="#N05"/>
+     qui y conduit. Je ne vis plus ces Etres
                     malfaiſans &amp; imparfaits qui induiſent les hommes au mal &amp; qui les entraînent. Je
                     ne vis plus cet aſſemblage défectueux de crimes, de vertus, de bonté, de caprice, enfin le
                     caractere odieux qu'on imprime à ces Divinités payennes &amp; fantaſtiques qu'on s'étoit
                     efforcé de me perſuader ſupérieures en tout à mon eſpece; je ne vis plus dis-je dans
-                    Taikma <ref target="#N06"/>qu'un Etre bon, parfait, inſuſceptible d'aucun défaut, un Etre
+                    Taikma
+     <ref target="#N06"/>
+     qu'un Etre bon, parfait, inſuſceptible d'aucun défaut, un Etre
                     qui ne m'avoit produit à la lumiere que pour faire ma félicité; enfin je conçus tout le
-                    bonheur <ref target="#N07"/> de le ſervir.</p>
-                <p>Je ne fus pas longtems ſans comprendre que la vertu eſt le ſeul bien après lequel on doit
+                    bonheur
+     <ref target="#N07"/>
+     de le ſervir.
+    </p>
+    <p>
+     Je ne fus pas longtems ſans comprendre que la vertu eſt le ſeul bien après lequel on doit
                     ſoupirer. J'étois rempli de cette idée lorſque le fils de Vénus ſe préſenta à moi avec
                     tous ſes charmes, ce Dieu parla à mon cœur, il l'inſpira, &amp; ſa victoire fut complette.
                     La charmante Zirphée fut la premiere qui conduiſit mes pas encore chancelans ſur le chemin
                     des plaiſirs: elle n'avoit point cette beauté dont l'élégante régularité inſpire plutôt le
                     reſpect que l'amour: elle n'en plaiſoit que d'avantage; les graces l'avoient formée pour
                     être aimable, tout peignoit en elle le ſentiment, &amp; ce même ſentiment répandu ſur ſon
-                    viſage donnoit un heureux préjugé de la tendreſſe de ſon cœur.</p>
-                <p>Je l'aimai: que ce mot exprime foiblement l'ardeur de l'amour que j'avois pour elle; peu
+                    viſage donnoit un heureux préjugé de la tendreſſe de ſon cœur.
+    </p>
+    <p>
+     Je l'aimai: que ce mot exprime foiblement l'ardeur de l'amour que j'avois pour elle; peu
                     accoutumé au déſir de plaire, je craignois de ne pas réuſſir; la timidité me donnoit cet
                     air de contrainte qu'on prend ſi ſouvent pour la modeſtie, &amp; qui ajoute de nouveaux
-                    charmes à la jeuneſſe, Zirphée vouloit être aimée, mais elle craignoit l'amour <ref
-                        target="N08"/>: ce Dieu pour ſe vanger de ſon inſenſibilité lui fit partager avec moi
+                    charmes à la jeuneſſe, Zirphée vouloit être aimée, mais elle craignoit l'amour
+     <ref target="N08"/>
+     : ce Dieu pour ſe vanger de ſon inſenſibilité lui fit partager avec moi
                     la flamme qui me conſumoit: trop ſenſible pour ne le pas paroître; elle me donnoit en tout
                     tems la préférence ſur mes rivaux. Elle prêtoit une oreille attentive à mes chanſons, elle
                     les écoutoit avec plaiſir &amp; cherchoit à les apprendre: quelquefois elle me faiſoit
@@ -187,13 +271,17 @@
                     de ſes paroles: l'amour qui nous enflammoit s'augmentant par dégré, nous ne fûmes pas
                     longtems maîtres de nous cacher nos ſentimens: elle ne me laiſſoit plus ignorer ceux
                     qu'elle avoit pour moi ſans être épouvantée de ſon aveu, elle me le répétoit &amp; ſe
-                    trouvoit ſoulagée par cette confidence; depuis que je vous connois <ref target="#N09"/>, me
+                    trouvoit ſoulagée par cette confidence; depuis que je vous connois
+     <ref target="#N09"/>
+     , me
                     diſoit-elle un jour, j'aime la ſolitude, les louanges que donnent les autres hommes à ma
                     beauté ne me touchent plus ... Ah mon cher Orphée ſi vous me trouvez belle, que m'importe
                     leurs ſuffrages! Le vôtre ne me ſuffit-il pas, puiſque je vois tout dans vous ſeul: mon
                     amour ne peut être plus grand, il fait mon bonheur, puiſſiez-vous le partager avec moi; je
-                    déſire trop ardemment pour ne pas craindre...</p>
-                <p>Arrêtez Belle Zirphée, m'écriaije, ceſſez d'accabler par vos ſoupçons l'Amant le plus
+                    déſire trop ardemment pour ne pas craindre...
+    </p>
+    <p>
+     Arrêtez Belle Zirphée, m'écriaije, ceſſez d'accabler par vos ſoupçons l'Amant le plus
                     tendre; ſi vous m'aimiez comme vous le dites ne me croiriezvous pas digne de vous, &amp;
                     le ſerois-je ſi je ceſſois jamais de vous aimer? Ah détournez de votre eſprit cette penſée
                     qui me fait injure: rendez plus de juſtice à ma fidélité, &amp; connoiſſez mieux la
@@ -206,21 +294,29 @@
                     l'effet de mon diſcours: je voulus en recueillir le fruit; je pris ſa main tremblante; je
                     la portai à ma bouche, je la couvris des baiſers les plus amoureux; bien-tôt revenu de mon
                     extaſe je levai les yeux pour chercher les ſiens, &amp; y lire mon bonheur: mais quel fut
-                    mon embarras quand je la trouvai évanouie. <ref target="#N10"/> Les pâleurs meſſagères de
+                    mon embarras quand je la trouvai évanouie.
+     <ref target="#N10"/>
+     Les pâleurs meſſagères de
                     la mort n'étoient pas peintes ſur ſon viſage, il ſembloit ſeulement qu'elle dormoit. Peu
                     accoutumé à ces ſortes d'événemens, ſon état m'effraya: aller chercher du ſecours, c'étoit
-                    trop riſquer.</p>
-                <p>Quel parti prendre? Je crus que le feu qui me conſumoit pourroit rappeller ſes eſprits: je
+                    trop riſquer.
+    </p>
+    <p>
+     Quel parti prendre? Je crus que le feu qui me conſumoit pourroit rappeller ſes eſprits: je
                     colai ſur ſa bouche un baiſer de flâme; ce premier expédient ne m'ayant pas réuſſi, j'en
                     eſſayai pluſieurs autres; le Dieu cauſe de cet accident m'inſpira, je ſuivis ſon conſeil,
                     &amp; bien-tôt ma Maîtreſſe revenant à elle-même: Ah cruel, s'écriatelle, que t'avois-je
-                    fait pour profiter de ma foibleſſe.</p>
-                <p>Crains la colere de Diane, protectrice de l'innocence: ſans doute elle ſe vangera ſur toi
+                    fait pour profiter de ma foibleſſe.
+    </p>
+    <p>
+     Crains la colere de Diane, protectrice de l'innocence: ſans doute elle ſe vangera ſur toi
                     du crime que tu viens de commettre, &amp; moi malheureuſe, que vais-je devenir: comment
                     oſerai - je paroître devant les hommes après m'être rendu l'objet de leur mépris!Appaiſez
                     votre colére, belle Zirphée, répondis-je, pardonnez une faute que vous ne regarderiez pas
                     comme telle, ſi vous aviez pour moi les mêmes ſentimens que j'ai pour vous: ne craignez
-                    pas Diane, ne brûlat-elle <ref target="#N11"/> pas des mêmes feux pour Endimion, &amp;
+                    pas Diane, ne brûlat-elle
+     <ref target="#N11"/>
+     pas des mêmes feux pour Endimion, &amp;
                     put-elle réſiſter aux traits de l'amour: qu'avons-nous à appréhender, puiſque ce Dieu
                     m'inſpire, il nous protégera ſans doute:les yeux de ma maîtreſſe étoient cependant baignés
                     de larmes, elle ne me répondoit rien, &amp; je voyois avec chagrin les marques de la
@@ -229,7 +325,9 @@
                     me rendre une ſeconde fois coupable; j'obéis: mais loin de m'attirer ſa colére: Mon cher
                     Orphée, me ditelle, que je ſerois heureuſe, ſi je pouvois compter ſur votre conſtance,
                     cette vertu me ſeroit d'autant plus agréable en vous qu'elle eſt rare dans les autres
-                    hommes. Pour moi je ſens <ref target="#N12"/> que je vous ſerai toujours fidèle, rien ne
+                    hommes. Pour moi je ſens
+     <ref target="#N12"/>
+     que je vous ſerai toujours fidèle, rien ne
                     pourra jamais me faire changer: j'en atteſte les Dieux témoins de notre bonheur
                     réciproque, ils ſont trop juſtes pour ne me pas punir ſi je devenois parjure; ah puiſſent
                     ſur moi les Divinités épuiſer les ſupplices du Tartare, m'écriai-je auſſitôt ſi je ceſſe
@@ -240,29 +338,43 @@
                     les vit renaître comme le ſoir les avoit vû finir. L'aimable volupté ſe préſentant à moi
                     avec tous ſes charmes, je concevois alors toute la reconnoiſſance que je devois à l'amour.
                     Cet agréable commerce dura trois mois: pendant cet eſpace de tems nos deſirs loin de
-                    s'affoiblir prenoient de nouvelles forces: <ref target="#N13"/> j'aimois Zirphée, elle
+                    s'affoiblir prenoient de nouvelles forces:
+     <ref target="#N13"/>
+     j'aimois Zirphée, elle
                     partageoit l'amour que j'avois pour elle; pouvoit-il manquer quel-que choſe à mon
-                    bonheur.</p>
-                <p>L'inconſtance ſeule pouvoit v mettre obſtacle; mais hélas, Zirphée que j'adorois, qui
-                    m'avoit cent fois juré l'amour le plus tendre, devint parjure.</p>
-                <p>Je la trouvai un jour triſte &amp; rêveuſe: Qu'avez - vous belle Zirphée, lui dis-je, vous
+                    bonheur.
+    </p>
+    <p>
+     L'inconſtance ſeule pouvoit v mettre obſtacle; mais hélas, Zirphée que j'adorois, qui
+                    m'avoit cent fois juré l'amour le plus tendre, devint parjure.
+    </p>
+    <p>
+     Je la trouvai un jour triſte &amp; rêveuſe: Qu'avez - vous belle Zirphée, lui dis-je, vous
                     craignez de me regarder; je ne vois plus en vous cette tendre amante prête à me faire
                     éprouver de nouveaux plaiſirs; ne ſuis-je donc plus digne de votre tendreſſe; ai-je fait
                     quel-que choſe qui puiſſe vous déplaire? parlez, je ſçaurai punir le coupable; je
                     préférerois la mort à votre indifférence: elle me regardoit d'un air interdit, &amp; ſon
                     ſilence ne me prouvoit que trop ſon changement: vous ne me répondez pas, continuai-je,
                     vous m'aſſurez donc que je ſuis le plus malheureux de tous les hommes; c'en eſt aſſez,
-                    vous voulez <ref target="#N14"/> ma mort, vous ſerez contente: croyez-vous que je puiſſe
+                    vous voulez
+     <ref target="#N14"/>
+     ma mort, vous ſerez contente: croyez-vous que je puiſſe
                     ſurvivre à votre infidélité. Ne m'accuſez pas, repliquat'elle: ſi je ſuis inconſtante,
-                    m'en croyez-vous la cauſe? l'Amour <ref target="#N15"/> conduit mon inclination à un autre
+                    m'en croyez-vous la cauſe? l'Amour
+     <ref target="#N15"/>
+     conduit mon inclination à un autre
                     objet; j'aime Iphis: ce jeune Berger a ſçû l'emporter ſur vous: cet aſcendant qu'il a ſur
                     moi part de la Divinité qui a ſçû nous unir; vous devez reſpecter ſes decrets: c'eſt elle
                     qui parle, obéiſſez: il faut nous ſéparer, &amp; laiſſer le champ libre au nouveau
-                    vainqueur.</p>
-                <p>Croyez-vous que je puiſſe vous obéir, cruelle Zirphée, m'écriai-je; non, je vous ſuivrai
+                    vainqueur.
+    </p>
+    <p>
+     Croyez-vous que je puiſſe vous obéir, cruelle Zirphée, m'écriai-je; non, je vous ſuivrai
                     par-tout, &amp; je troublerai du moins les plaiſirs de mon rival, ſi je ne puis être aſſez
-                    heureux pour vous toucher.</p>
-                <p>Votre conduite ne ſerviroit qu'à m'irriter, reprit la parjure avec vivacité, &amp; loin de
+                    heureux pour vous toucher.
+    </p>
+    <p>
+     Votre conduite ne ſerviroit qu'à m'irriter, reprit la parjure avec vivacité, &amp; loin de
                     conſerver pour vous aucun ſentiment de tendreſſe; je vous regarderois comme un tyran qui
                     me deviendroit odieux; oubliez-moi, ſi vous pouvez, &amp; ſur-tout ne me voyez jamais.Elle
                     n'eut pas plutôt prononcé ces derniers mots qu'elle s'éloigna de moi. Je reſtai alors dans
@@ -280,36 +392,50 @@
                     j'enviſageois les peines de l'Amour, plus je chériſſois mon état préſent; je vouois aux
                     Muſes un culte détaché d'aucun autre ſentiment; je bravois l'Amour, il me paroiſſoit
                     n'avoir plus aucune puiſſance ſur mon ame; que je connoiſſois peu ce Dieu! il ſçut bientôt
-                    me prouver ſon empire ſur les cœurs.</p>
-                <p>Euridice étoit charmante, on ne pouvoit la voir ſans l'adorer; mais le reſpect qu'on avoit
+                    me prouver ſon empire ſur les cœurs.
+    </p>
+    <p>
+     Euridice étoit charmante, on ne pouvoit la voir ſans l'adorer; mais le reſpect qu'on avoit
                     pour elle épouvantoit l'Amour. Elle étoit l'image de la ſageſſe; cette aimable naiveté,
                     ſimbole de l'innocence, étoit peinte ſur ſon viſage. Elle plaiſoit parce qu'elle ne ſe
-                        <ref target="#N16"/> ſoucioit point de plaire: elle n'étoit point ſemblable à ſes
+     <ref target="#N16"/>
+     ſoucioit point de plaire: elle n'étoit point ſemblable à ſes
                     compagnes: celles ci demandoient les ſuffrages, &amp; ſembloient les exiger: Euridice, au
-                    contraire, étoit redevable de ſa beauté à la ſeule nature; ſon eſprit trop ſupérieur <ref
-                        target="N17"/> pour n'être pas ſimple, étoit toujours au niveau de ceux à qui elle
+                    contraire, étoit redevable de ſa beauté à la ſeule nature; ſon eſprit trop ſupérieur
+     <ref target="N17"/>
+     pour n'être pas ſimple, étoit toujours au niveau de ceux à qui elle
                     parloit: on ſortoit d'auprès d'elle pénétré d'amour - propre; elle penſoit pour les
                     eſprits médiocres, &amp; leur approprioit ſes penſées: elle raiſonnoit avec ceux dont
                     l'imagination plus élevée approchoit davantage de ſa perfection: les Dieux enfin en la
-                    formant avoient voulu donner une preuve de leur puiſſance.</p>
-                <p>J'allois ſouvent les ſoirs pour me délaſſer des fatigues de l'étude de la journée, me
+                    formant avoient voulu donner une preuve de leur puiſſance.
+    </p>
+    <p>
+     J'allois ſouvent les ſoirs pour me délaſſer des fatigues de l'étude de la journée, me
                     promener dans une prairie: là je cherchois à raſſembler mes eſprits diſſipez par le
                     travail, en répétant ſur ma Lyre les airs les plus agréables; les jeunes filles de cette
                     contréetrée venoient écouter mes chanſons, &amp; Euridice s'y trouvoit quelquefois avec
                     ſes compagnes, elle m'animoit par ſa préſence, &amp; ſembloit prendre plaiſir à mes
-                    concerts.</p>
-                <p>Je m'apperçus bientôt de l'effet que produiſoit ſur mon cœur les charmes d'Euridice, je
-                    voulus me ſervir de ma Philoſophie <ref target="#N18"/> pour conſerver l'état
+                    concerts.
+    </p>
+    <p>
+     Je m'apperçus bientôt de l'effet que produiſoit ſur mon cœur les charmes d'Euridice, je
+                    voulus me ſervir de ma Philoſophie
+     <ref target="#N18"/>
+     pour conſerver l'état
                     d'indifférence dont je faiſois tant de cas; vains efforts, eit-il poſſible de réſiſter à
                     l'amour? La raiſon eſt un foible obſtacle à ſes progrès: l'expérience même de ſa fatalité
                     ne put rien contre ſa puiſſance. J'aimois Euridice, mais je l'aimois trop pour oſer
                     eſpérer. Je devins triſte, &amp; la maladie de mon ame plongea bientôt mon corps dans un
-                    anéantiſſement preſque total.</p>
-                <p>Je cherchois la ſolitude, je fuyois tout ce qui n'étoit point Euridice, je la cherchois
+                    anéantiſſement preſque total.
+    </p>
+    <p>
+     Je cherchois la ſolitude, je fuyois tout ce qui n'étoit point Euridice, je la cherchois
                     partout: lorſque je la trouvois, ſa préſence m'inſpiroit l'amour &amp; le reſpect, &amp;
                     ces deux ſentimens ſe combattant mutuellement me plongeoient dans les réfléxions les plus
-                    cruelles.</p>
-                <p>Rien n'eſt plus affreux ſans doute que d'aimer ſans eſpérance de retour. Le propre de
+                    cruelles.
+    </p>
+    <p>
+     Rien n'eſt plus affreux ſans doute que d'aimer ſans eſpérance de retour. Le propre de
                     l'amour vertueux eſt d'inſpirer la timidité. Plus on eſtime l'objet aimé, plus on craint
                     &amp; moins on eſpere: Euridice s'apperçut de mon accablement.Un jour que je me promenois
                     à l'écart rêvant à la ſituation de mon ame, elle m'aborda: Orphée, me ditelle, vous êtes
@@ -320,11 +446,15 @@
                     ſentimens de mon cœur; je jouiſſois de la plus douce tranquillité. Cet état ſi déſirable
                     repandoit dans mon ame l'aimable ſérénité qui paroiſſoit ſur mon viſage, ce n'eſt plus
                     cela: j'aime, &amp; quel objet eſt ici digne d'amour que vous-même, pourriez-vous vous y
-                    méprendre....</p>
-                <p>Je ne pus continuer, les larmes coupérent ma reſpiration, &amp; perdant connoiſſance, je ne
+                    méprendre....
+    </p>
+    <p>
+     Je ne pus continuer, les larmes coupérent ma reſpiration, &amp; perdant connoiſſance, je ne
                     revins à moi que quel-que tems après par les ſoins que prit Euridice elle-même de me
-                    rappeller à la lumiere.</p>
-                <p>Ah cruelle, lui dis-je, pourquoi me rendre une vie, qui ne peut m'être que déſagréable, ſi
+                    rappeller à la lumiere.
+    </p>
+    <p>
+     Ah cruelle, lui dis-je, pourquoi me rendre une vie, qui ne peut m'être que déſagréable, ſi
                     vous refuſez de vous intéreſſer à mon amour: votre état me fait pitié, repartit Euridice;
                     mais que vous ſerviroitil que j'euſſe pour vous les mêmes ſentimens que vous avez pour
                     moi. La vertu s'oppoſe à votre bonheur, n'eſpérez jamais que je manque aux loix qu'elle
@@ -345,15 +475,20 @@
                     étonnée de mes tranſports ne s'oppoſa pas à mes déſirs: elle y mit cependant pour
                     condition que nous irions conſulter l'Oracle de la Déeſſe, &amp; que nous obéirions
                     abſolument à ſes ordres: elle m'accompagna au Temple, l'Oracle fit une réponſe conforme à
-                    nos vœux. Nous nous jurâmes mutuellement un amour conſtant.</p>
-                <p>La vertu ſeule fait naître des plaiſirs parfaits. Je n'ai jamais mieux reconnu cette vérité
-                    que dans cet inſtant.</p>
-                <p>Je jouiſſois d'un bien que les remords ne rendoient point amer: j'aimois, &amp; la pureté
+                    nos vœux. Nous nous jurâmes mutuellement un amour conſtant.
+    </p>
+    <p>
+     La vertu ſeule fait naître des plaiſirs parfaits. Je n'ai jamais mieux reconnu cette vérité
+                    que dans cet inſtant.
+    </p>
+    <p>
+     Je jouiſſois d'un bien que les remords ne rendoient point amer: j'aimois, &amp; la pureté
                     de mon amour lui donnoit de nouvelles forces, une félicité ſi parfaite ne pouvoit pas
                     durer longtems; les Dieux jaloux de mon bonheur ſçurent m'en priver bientôt, le Soleil
                     avoit à peine parcouru les douze ſignes du Zodiaque depuis notre union, qu'un Roi voiſin
                     de la partie de la terre que nous habitons, ayant entendu vanter les charmes d'Euridice
-                        <ref target="#N19"/>, ſe traveſtit &amp; voulut en juger par luimême. Il la trouva ſi
+     <ref target="#N19"/>
+     , ſe traveſtit &amp; voulut en juger par luimême. Il la trouva ſi
                     belle qu'il voulut la poſſéder. Il la fit enlever un jour qu'elle ſe baignoit dans une
                     Fontaine, une de ſes compagnes qui en fut témoin vint m'annoncer cette triſte nouvelle:
                     j'en penſai mourir de douleur, &amp; je fus quelques inſtans accablé ſous le poids de mon
@@ -386,8 +521,10 @@
                     chantant ſur ma Lyre les douceurs de la paiſible indifférence, &amp; les dangers de
                     l'amour; animées par le Dieu qui les inſpiroit &amp; par la haine qu'elles avoient pour
                     moi, les Bacchantes me déchirèrent &amp; emportèrent avec elles chacune une partie de mon
-                    corps.</p>
-                <p>Tel fut le récit que me fit Orphée de ſes malheurs, &amp; de ſa fin déplorable. J'allois
+                    corps.
+    </p>
+    <p>
+     Tel fut le récit que me fit Orphée de ſes malheurs, &amp; de ſa fin déplorable. J'allois
                     lui dire combien l'Hiſtoire qu'il venoit de me rapporter m'avoit touché; mais l'apparition
                     imprévûé de l'adorable Reine d'Egypte me coupa la parole, &amp; me fit treſſaillir de tant
                     de joie &amp; de plaiſir, que toutes mes ſenſations ſe tournèrent du côté de cet objet
@@ -406,16 +543,20 @@
                     mon ſein le dernier ſoupir de Calbalis, ce premier demi-Dieu de l'Egypte à qui nous devons
                     l'ouverture des bouches du Nil, il m'avoit été tranſmis par la Reine Kelmalis ma mere qui
                     les tenoit auſſi de la ſienne: ce Taliſman précieux a la vertu de retenir l'ame dans le
-                    corps de celui qui le porte quelqu'accident qui lui arrive.</p>
-                <p>Vous alliez mourir; je n'héſitai point; je profitai du ſeul moment qui vous reſtoit pour
+                    corps de celui qui le porte quelqu'accident qui lui arrive.
+    </p>
+    <p>
+     Vous alliez mourir; je n'héſitai point; je profitai du ſeul moment qui vous reſtoit pour
                     vous ſauver la vie; je détachai le cordon où pendoit le aliſman &amp; vous le mis au col;
                     à peine y fut-il attaché que vous reprîtes la connoiſſance &amp; que j'expirai dans vos
                     bras: oui, cher époux, je voulus par le ſacrifice que je vous fis dans ce moment de ma
                     vie, vous convaincre combienvous étiez aimé; mais, hélas! que n'ai je point ſouffert
                     depuis cette cruelle ſéparation, mon ame plaintive n'a gouté depuis ce moment que la
                     fatale douceur de s'applaudir de vous avoir conſervé la vie, &amp; de vous avoir donné une
-                    preuve ſi complette de mon amour....</p>
-                <p>A peine Zeleuſis achevoit-elle ces mots, que Phares jetta un cri de joye &amp; expira:
+                    preuve ſi complette de mon amour....
+    </p>
+    <p>
+     A peine Zeleuſis achevoit-elle ces mots, que Phares jetta un cri de joye &amp; expira:
                     pénétré de reconnoiſſance &amp; d'amour, il n'avoit pas plutôt entendu quel étoit
                     l'obſtacle qui l'empêchoit de ſe réunir pour jamais à une épouſe ſi tendre, qu'il détacha
                     avec précipitation le cordon où étoit pendu le Taliſman &amp; le jetta loin de lui. Enfin
@@ -424,8 +565,10 @@
                     Reine d'Egypte: la belle Zeleuſis pénétrée du ſacrifice &amp; de la reconnoiſſance de ſon
                     époux, alloit lui dire les choſes les plus tendres, quand le Ciel s'ouvrit tout-à-coup
                     avec des éclats de foudre &amp; un million de feux &amp; d'éclairs qui ſembloient annoncer
-                    le bouleverſement de toute la nature.</p>
-                <p>L'ame timide de Zeleuſis vouloit s'enfuir &amp; appelloit déjà celle de ſon époux, une voix
+                    le bouleverſement de toute la nature.
+    </p>
+    <p>
+     L'ame timide de Zeleuſis vouloit s'enfuir &amp; appelloit déjà celle de ſon époux, une voix
                     ſonore, mais douce, leur dit: Arrêtez, ô couple fidèle dont la conſtance &amp; les vertus
                     méritent des autels. Dans le même moment que ces paroles ſe prononçoient, les nuées ſe
                     fendirent, un char environné de rayons brillans dont de foibles Mortels n'auroient pû
@@ -445,13 +588,17 @@
                     l'être: tant d'actions héroïques ont aſſuré pour jamais mon bonheur &amp; celui de tout ce
                     qui m'eſt cher; venez en jouir, venez dans les bras de votre ayeule &amp; d'une tendre
                     mere, prouver à la Poſtérité que les Dieux récompenſent toujours les vertus quand les
-                    hommes s'attachent à les aimer, &amp; qu'ils placent leur félicité à les pratiquer.</p>
-                <trailer>FIN.</trailer>
-            </div>
-        </body>
-        <back>
-            <div type="notes">
-                <note xml:id="N01">(a) Ce n'eſt pas ſans des recherches infinies, qu'on eſt parvenu à
+                    hommes s'attachent à les aimer, &amp; qu'ils placent leur félicité à les pratiquer.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (a) Ce n'eſt pas ſans des recherches infinies, qu'on eſt parvenu à
                     apprendre le nom de ce Philoſophe, qui a été dans les ſuites Roi d'Egypte. On a trouvé
                     dans un Manuſcrit qui étoit dans le carré de la toilette de la Reine Brunchault, qu'il
                     s'appelloit Phares; qu'à l'âge de 15 ans il ſe jetta dans le Nil, parce que Zeleuſis Reine
@@ -485,8 +632,10 @@
                     &amp; l'on apprend par un Hiéroglyphe de ce tems-là qu'il ſe conduiſit avec tant
                     d'adreſſe, que ſes peuples ont toujours été dans la confiance qu'il étoit un géant, &amp;
                     qu'ils ont toujours ignoré l'artifice qui entretenoit leur illuſion. On apprend par le
-                    même Manuſcrit que Phares eſt l'inventeur des Echaſſes.</note>
-                <note xml:id="N02">(a) Oſiris étoit fils de Jupiter &amp; de Niobé, &amp; mari d'Io ſi célébre
+                    même Manuſcrit que Phares eſt l'inventeur des Echaſſes.
+    </note>
+    <note xml:id="N02">
+     (a) Oſiris étoit fils de Jupiter &amp; de Niobé, &amp; mari d'Io ſi célébre
                     par la maniere dont Jupiter l'enava; il l'épouſa lorſqu'elle ſe rendit en Egypte pour ſe
                     dérober aux perſécutions de Junon, qui ne lui pardonna jamais l'amour qu'elle avoit
                     inſpiré au maître des Dieux ſon époux. Il a fallu bien des recherches pour parvenir à
@@ -527,8 +676,10 @@
                     croc, ce que paroiſſent confirmer la plûpart des figures d'Iſis qui nous reſtent de
                     l'Antiquité, ſur l'épaule deſquelles on remarque la repréſentation d'un filet, &amp; qui
                     portent à leur main celle d'une eſpéce de crochet. Voyez Kircher, Œdipus Egiptiacus &amp;
-                    le Voyage de Chaw.</note>
-                <note xml:id="N03">(b) La Déeſſe Oſiris qui aimoit tendrement les peuples de l'Egypte, à cauſe
+                    le Voyage de Chaw.
+    </note>
+    <note xml:id="N03">
+     (b) La Déeſſe Oſiris qui aimoit tendrement les peuples de l'Egypte, à cauſe
                     du zéle avec lequel ils entretenoient ſon culte, leur accorda le privilége de quitter leur
                     corps quand ils en ſeroient embarraſſés, &amp; à leurs ames de parcourir l'immenſité des
                     Cieux pendant un ſiécle. Ces heureux peuples jouirent de ce précieux droit; mais Aſpalis
@@ -541,8 +692,10 @@
                     prodige s'opéroit, l'ame de Bezaline qui n'avoit pas ceſſé depuis la ſéparation de ſon
                     corps d'être autour de ſon amant, voyant ce que venoit de faire pour elle le fidele
                     Aſpalis, paſſa dans le corps qu'il venoit d'abandonner. En faveur de ce miracle d'amour la
-                    Déeſſe permit aux Egyptiens de ſuivre un ſi bel exemple.</note>
-                <note xml:id="N04">(a) On trouve écrit dans l'Hiſtoire qui a pour titre les Amuſemens des
+                    Déeſſe permit aux Egyptiens de ſuivre un ſi bel exemple.
+    </note>
+    <note xml:id="N04">
+     (a) On trouve écrit dans l'Hiſtoire qui a pour titre les Amuſemens des
                     Dieux, les merveilles que la douceur des ſons d'Orphée opéra dans tous les lieux où ſon
                     deſtin le conduiſit. Voici quelques particularités ſur ce ſujet qui ne ſont pas connués.
                     Orphée entrant un jour dans une grande Ville où l'on ſolemniſoit la fête de ſon pere
@@ -564,86 +717,117 @@
                     merveilleux arrivant à grands flots les ſubmergea, &amp; ſans la main d'Apollon, Orphée en
                     auroit été englouti: dans ſon effroi il demanda au Dieu ſon Pere que la Nature fût à
                     l'avenir inſenſible à ſes chants, &amp; c'eſt depuis ce tems que ces prodiges tant vantés
-                    n'eurent plus lieu.</note>
-                <note xml:id="N05">(a) Tous les Philoſophes ont prétendu que le rayon de lumiere dont il eſt
+                    n'eurent plus lieu.
+    </note>
+    <note xml:id="N05">
+     (a) Tous les Philoſophes ont prétendu que le rayon de lumiere dont il eſt
                     ici parlé, eſt une de ces penſées innées qui ne deviennent efficaces qu'autant que des
                     méditations profondes les développent, mais c'eſt un pur galimathias; voici le mot de
                     l'énigme. Il y avoit un Temple en Egypte conſacré à la Vérité. Il étoit élevé dans un
                     labyrinthe, peu de Mortels en connoiſſoient les détours; au lever du Soleil on prétendoit
                     que le troiſiéme de ſes rayons en indiquoit la route, &amp; c'eſt de ce rayon qu'Orphée
-                    prétend ici parler.</note>
-                <note xml:id="N06"> (a) Les Egyptiens croyoient que Taikma étoit le Dieu Chef de toutes les
+                    prétend ici parler.
+    </note>
+    <note xml:id="N06">
+     (a) Les Egyptiens croyoient que Taikma étoit le Dieu Chef de toutes les
                     Divinités &amp; le Créateur de l'Univers. Ils prétendoient qu'il ne l'avoit créé que pour
                     le rendre heureux, &amp; qu'à la fin du monde tout ce qui exiſte auroit une ſenſation
-                    propre à goûter le bonheur.</note>
-                <note xml:id="N07">(a) Rien de plus malheureux qu'un Mortel qui ſe croit délivré des préjugés:
+                    propre à goûter le bonheur.
+    </note>
+    <note xml:id="N07">
+     (a) Rien de plus malheureux qu'un Mortel qui ſe croit délivré des préjugés:
                     il veut en vain le perſuader, il ſe décéle en propoſant ſans ceſſe les doutes &amp; les
                     remords qui l'accompagnent en tous lieux. Il n'y a pas longtems qu'un de ces prétendus
                     eſprits-forts, ſe trouvant à l'extrêmité, déclara hautement que dans le fond du cœur, il
                     avoit toujours crû à la Juſtice Divine, &amp; que c'étoit par air &amp; pour ſe faire
-                    conſidérer qu'il avoit toujours voulu la nier.</note>
-                <note xml:id="N08">(a) Le portrait que fait ici Orphée de ſa premiere Maîtreſſe eſt bien peu
+                    conſidérer qu'il avoit toujours voulu la nier.
+    </note>
+    <note xml:id="N08">
+     (a) Le portrait que fait ici Orphée de ſa premiere Maîtreſſe eſt bien peu
                     reſſemblant. Zirphée étoit la fille du Berger Coridan ſi célèbre par ſes malheurs: elle
                     étoit vaine, artificieuſe &amp; l'une des plus coquettes de la contrée: c'étoit par vanité
                     qu'elle feignit des complaiſances pour Orphée: elle ménageoit dans ce tems-là trois amans
-                    auſquels elle faiſoit accroire que chacun d'eux étoit le préféré.</note>
-                <note xml:id="N09">(a) Toute femme qui écoute &amp; qui répond, veut qu'on lui parle encore
+                    auſquels elle faiſoit accroire que chacun d'eux étoit le préféré.
+    </note>
+    <note xml:id="N09">
+     (a) Toute femme qui écoute &amp; qui répond, veut qu'on lui parle encore
                     &amp; qu'on eſpère davantage. On a répété tant de fois à ce ſéxe imprudent que tout amant
                     eſt unſéducteur, un trompeur qui cherche à le ſurprendre; d'où vient donc que tant de
                     femmes ſont ſéduites &amp; qu'elles s'en plaignent? Eſt-ce qu'il y a du plaiſir à être
-                    trahies, ou ſeroit-ce un prétexte pour s'en conſoler avec un ſéducteur plus aimable! </note>
-                <note xml:id="N10">(a) Une Princeſſe du Pérou née extraordinairement curieuſe s'aviſa un jour
+                    trahies, ou ſeroit-ce un prétexte pour s'en conſoler avec un ſéducteur plus aimable!
+    </note>
+    <note xml:id="N10">
+     (a) Une Princeſſe du Pérou née extraordinairement curieuſe s'aviſa un jour
                     après ſon dîner de ſe jetter ſur ſon ſopha &amp; de feindre d'y dormir, un jeune Ecuyer
                     qui par les devoirs de ſa Charge ne la quittoit jamais s'éloigna d'abord par reſpect: la
                     jeune Princeſſe fâchée de cette retenué changea d'attitude, mit ſon beau bras pardeſſus ſa
                     tête, ſous lequel elle entrevoyoit ſans être vue le jeune homme; une partie de ſes charmes
                     l'attira auprès d'elle, il étoit dangereux de les conſidérer: il alloit hazarder un
                     baiſer, il s'étoit mis à genoux pour le dérober, la Princeſſe en fut ſi émué qu'elle
-                    s'évanouit.... </note>
-                <note xml:id="N11">(a) Rien de plus adroit que cet-te manière de confoler une jeune perſonne
+                    s'évanouit....
+    </note>
+    <note xml:id="N11">
+     (a) Rien de plus adroit que cet-te manière de confoler une jeune perſonne
                     qui ſe reproche d'abord une foibleſſe; l'exemple prouve ſi bien que lorſque la galante
                     Raſimé monta ſur le Trône de Bagdad, toutes les femmes de la Ville qui juſques-là
                     ignoroient juſqu'au nom de l'amour, devinrent ſi ſçavantes dans ſes myſtères qu'avant la
-                    fin de l'année elles en donnoient des leçons publiques.</note>
-                <note xml:id="N12">(a) La premiere condition que met une femme en pareil cas, c'eſt qu'on lui
+                    fin de l'année elles en donnoient des leçons publiques.
+    </note>
+    <note xml:id="N12">
+     (a) La premiere condition que met une femme en pareil cas, c'eſt qu'on lui
                     ſera fidéle, &amp; ſe propoſe pour exemple pourquoi? C'eſt qu'elle croit dans ce moment
                     ſon état le plus heureux; mais à peine a-t-elle réfléchi ſur les circonſtances de ſon
                     bonheur qu'elle conçoit qu'il pourroit l'être davantage: l'impoſſibilité de la choſe avec
                     un ſeul amant qui peut venir à manquer, fait qu'elle aſſigne d'abord la ſurvivance de ſon
-                    cœur, &amp; cela ſe fait ſans y penſer.</note>
-                <note xml:id="N13"> (a) Oui du côté de Zirphée, mais à l'égard de l'Amant, pure préſomption de
+                    cœur, &amp; cela ſe fait ſans y penſer.
+    </note>
+    <note xml:id="N13">
+     (a) Oui du côté de Zirphée, mais à l'égard de l'Amant, pure préſomption de
                     ſa part. La preuve en va ſuivre. La Bergere qui en jugea bien plus ſainement prit ſes
                     meſures pour que ſes plaiſirs ne ſouffriſſent pas du déchet. C'eſt Orphée lui - même qui
-                    va nous l'apprendre</note>
-                <note xml:id="N14">(a) Denys le Tyran en dit un jour autant à la femme d'un Sénateur qui avoit
+                    va nous l'apprendre
+    </note>
+    <note xml:id="N14">
+     (a) Denys le Tyran en dit un jour autant à la femme d'un Sénateur qui avoit
                     eu quelque complaiſance pour lui, &amp; qui s'en repentant ne vouloit plus le revoir. Elle
                     lui répondit, Mourez ſi vous en avez le courage, nous y gagnerons tous deux. Le Tyran
-                    étonné reparit, il n'y a qu'une femme capable de répondre avec cette inhumanité.</note>
-                <note xml:id="N15">(a) Les Egyptiens prétendoient que l'Amour étoit de toutes les Divinités la
+                    étonné reparit, il n'y a qu'une femme capable de répondre avec cette inhumanité.
+    </note>
+    <note xml:id="N15">
+     (a) Les Egyptiens prétendoient que l'Amour étoit de toutes les Divinités la
                     principale, &amp; leur opinion étoit qu'il falloit céder au penchant qui entraînoit, à
-                    moins qu'on ne voulût encourir l'indignation de cette Divinité.</note>
-                <note xml:id="N16">(a) Eloge outré. Il n'y a point de femmes jolies qui ne s'occupent du ſoin
+                    moins qu'on ne voulût encourir l'indignation de cette Divinité.
+    </note>
+    <note xml:id="N16">
+     (a) Eloge outré. Il n'y a point de femmes jolies qui ne s'occupent du ſoin
                     de plaire &amp; de celui d'être aimées. Laodice Prêtreſſe du Temple de Delphes, la plus
                     ſage de toutes les femmes comme la plus belle, étoit deux heures tous les matins à ſa
                     toilette pour être vuë deux minutes, d'un jeune Miniſtre du Temple qui en étoit épris,
-                    &amp; auquel elle n'accorda jamais que cette faveur.</note>
-                <note xml:id="N17">(a) M. de Voltaire tout admirable qu'il eſt, n'a peut - être jamais écrit
+                    &amp; auquel elle n'accorda jamais que cette faveur.
+    </note>
+    <note xml:id="N17">
+     (a) M. de Voltaire tout admirable qu'il eſt, n'a peut - être jamais écrit
                     une plus jolie phraſe; ce n'eſt point là du perſifflage comme nos écrits modernes en ſont
                     remplis; tout eſt aujourd'hui vernis, plus ou moins beau, le reſte eſt misère &amp;
-                    pauvreté.</note>
-                <note xml:id="N18">(a) La véritable Philoſophie n'eſt pas de raiſonner mais de s'éloigner des
+                    pauvreté.
+    </note>
+    <note xml:id="N18">
+     (a) La véritable Philoſophie n'eſt pas de raiſonner mais de s'éloigner des
                     occaſions qui mettent en danger le cœur ou la probité. Le mot de Philoſophe doit ſignifier
                     un mortel plus rempli d'orgueil &amp; d'amourpropre qu'un homme ordinaire: j'ai examiné,
                     conſidéré, étudié, ceux qui ſe ſont crûs Philoſophes &amp; qui ſe le diſent, je n'ai
                     trouvé que des ſots qui ne croyent ni ne pratiquent aucune des maximes dont ils font le
-                    pompeux étalage.</note>
-                <note xml:id="N19">(a) On ſera peut-être étonné que ceci ſoit contraire aux ſentimens des
+                    pompeux étalage.
+    </note>
+    <note xml:id="N19">
+     (a) On ſera peut-être étonné que ceci ſoit contraire aux ſentimens des
                     Poëtes, qui prétendent qu'Euridice fut piquée par un Serpent, qu'elle mourut de cette
                     bleſſure, qu'Orphée la retira enſuite des Enfers, &amp; la reperdit par ſon imprudence.
                     Mais je prie le Lecteur de faire attention que je ne ſuis préciſément que le Traducteur;
                     je laiſſe à juger qui a tort ou des Poëtes ou du Manuſcrit Egyptien qui me ſert
-                    d'original.</note>
-            </div>
-        </back>
-    </text>
+                    d'original.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

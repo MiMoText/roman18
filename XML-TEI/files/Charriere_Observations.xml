@@ -1,87 +1,135 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Charriere_Observations" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:88.43 wikidata:0">Observations et conjectures politiques: MiMoText edition</title>
-        <author ref="viaf:46755588 wikidata:Q123386">Isabelle de Charrière(1740-1805)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Hub18cFrench</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">4815</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://intertextual-hub.uchicago.edu/philologic/hub18thcfrench/navigate/702/"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Observations et conjectures politiques</title>
-          <author>Isabelle de Charrière</author>
-          <date>1788</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1788</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-05-17">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-        <div type="chapter">
-          <head>LETTRE [N° 6]</head>
-          <p>
-            <hi rend="italic">Sur l'Édit concernant les Protestants</hi>
-          </p>
-          <p>
-            Hanau, le-janvier 1788.
-          </p>
-          <p>
-            N'est-il pas bien étrange, Monsieur, qu'une de vos grandes Dames aille solliciter contre les
+<TEI xml:id="Charriere_Observations" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:88.43 wikidata:0">
+     Observations et conjectures politiques: MiMoText edition
+    </title>
+    <author ref="viaf:46755588 wikidata:Q123386">
+     Isabelle de Charrière(1740-1805)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Hub18cFrench
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     4815
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://intertextual-hub.uchicago.edu/philologic/hub18thcfrench/navigate/702/"/>
+     <publisher>
+      The Intertextual Hub
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Observations et conjectures politiques
+     </title>
+     <author>
+      Isabelle de Charrière
+     </author>
+     <date>
+      1788
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1788
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-05-17">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     LETTRE [N° 6]
+    </head>
+    <p>
+     <hi rend="italic">
+      Sur l'Édit concernant les Protestants
+     </hi>
+    </p>
+    <p>
+     Hanau, le-janvier 1788.
+    </p>
+    <p>
+     N'est-il pas bien étrange, Monsieur, qu'une de vos grandes Dames aille solliciter contre les
             Protestants, et publie un mémoire contre l'Édit qui les favorise? On regardait dans les pays
             étrangers l'absurdité de la révocation de l'Édit de Nantes comme un axiome en politique, et l'on ne
             croyait pas qu'au bout d'un siècle un seul Français ne vît détruire avec plaisir ce monument de la
@@ -91,9 +139,9 @@
             en sent longtemps la nécessité avant que l'incertitude sur la forme, sur la manière, sur les
             limitations, cesse de les entraver ; c'est à Paris l'histoire de l'Hôtel-Dieu c'est aussi celle du
             Code criminel en France, et nous pensions que c'était celle des Protestants.
-          </p>
-          <p>
-            L'on veut enfin s'occuper de cet objet, on veut fixer toutes les incertitudes et lever tous les
+    </p>
+    <p>
+     L'on veut enfin s'occuper de cet objet, on veut fixer toutes les incertitudes et lever tous les
             obstacles. L'Europe entière applaudit aux intentions du Roi, et croit que tous les Français sans
             exception lui rendront grâces d'un acte de sagesse qui est en même temps un acte de justice et de
             bonté: point du tout ; il y a encore des Français jésuites. On enlève les Mémoires de M. de
@@ -117,9 +165,9 @@
             mais il y aurait des espérances assez semblables à concevoir pour celles-ci. Et à présent je me
             tourne vers toute la Nation Française, voulant essayer de faire agir sur elle, envers ses enfants
             expatriés, un genre de reconnaissance dont elle me paraît très susceptible.
-          </p>
-          <p>
-            La France est glorieuse avec raison de l'empire qu'elle exerce sur la plupart des Nations de
+    </p>
+    <p>
+     La France est glorieuse avec raison de l'empire qu'elle exerce sur la plupart des Nations de
             l'Europe, en leur faisant parler sa langue, jouer ses comédies et lire ses livres, au point qu'avec
             le français on se fait entendre presque partout, et qu'avec le français beaucoup de gens paraissent
             des littérateurs passables sans entendre ni le grec, ni le latin. A qui la France doit-elle cet
@@ -139,23 +187,27 @@
             pays n'était pas une seconde patrie pour la plupart d'entre nous, une patrie que se choisissent le
             goût et l'élégance? Après avoir reconnu la cause dans ses effets, nous verrons combien ces effets
             étaient naturels, si nous fixons les yeux sur la cause elle-même.
-          </p>
-          <p>
-            Dans le temps que Saurin faisait accourir à ses sermons tout le beau monde de La Haye, plusieurs
+    </p>
+    <p>
+     Dans le temps que Saurin faisait accourir à ses sermons tout le beau monde de La Haye, plusieurs
             Français et Françaises de qualité y donnaient la prévention la plus favorable pour leur Nation, et
             les reparties fines de Mme de Dangeau les jugements qu'elle portait sur les gens et les ouvrages,
             étaient cités dans toute la Hollande. Deux parentes du Duc de La Rochefoucauld furent gouvernantes
             d'enfants chez des gens de qualité à Utrecht ; d'autres filles de condition pleines d'esprit, et de
             mérite, y tenaient une école au commencement du siècle, et vers l'an 1720 de jeunes gens des deux
             sexes jouèrent chez elles
-            <hi rend="italic">Iphigénie</hi>
-            et
-            <hi rend="italic">Idoménée.</hi>
-            Je le demande, ces émanations de la France ne doivent-elles pas avoir contribué infiniment à vous
+     <hi rend="italic">
+      Iphigénie
+     </hi>
+     et
+     <hi rend="italic">
+      Idoménée.
+     </hi>
+     Je le demande, ces émanations de la France ne doivent-elles pas avoir contribué infiniment à vous
             faire régner sur les esprits des peuples où elles furent portées?
-          </p>
-          <p>
-            A présent qu'il ne vous reste plus à faire aucune conquête de ce genre, à présent que nous sommes
+    </p>
+    <p>
+     A présent qu'il ne vous reste plus à faire aucune conquête de ce genre, à présent que nous sommes
             les tributaires de votre littérature, et presque les esclaves de vos usages, rappelez, Français, il
             en est bien temps, les exilés qui vous ont acquis cet empire ; rappelez-les avec empressement, avec
             amour ; vos rigueurs furent si peu modérées! Ne soyez pas timides et avares dans vos faveurs. La
@@ -164,16 +216,20 @@
             entendra-t-elle une messe de moins, quand les Protestants seraient non seulement mariés, mais
             heureux en France? C'est la Religion Protestante qui devrait trembler, car la tolérance fait plus de
             prosélytes que la persécution.
-          </p>
-        </div>
-        <div type="chapter">
-          <head>BIEN-NÉ [N°s 8 et 10]</head>
-          <p></p>
-          <p>
-            <hi rend="italic">Conte</hi>
-          </p>
-          <p>
-            Il y avait, je ne sais où, un Roi né avec un esprit droit, et un coeur ami de la justice ; mais dont
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     BIEN-NÉ [N°s 8 et 10]
+    </head>
+    <p/>
+    <p>
+     <hi rend="italic">
+      Conte
+     </hi>
+    </p>
+    <p>
+     Il y avait, je ne sais où, un Roi né avec un esprit droit, et un coeur ami de la justice ; mais dont
             une mauvaise éducation avait laissé les bonnes qualités incultes et inutiles. Il n'avait pas été
             plus heureux du côté de l'exemple : car à la Cour du Roi son grand-père, on s'occupait de tout, hors
             du gouvernement. Le petit-fils, avant de parvenir au trône, tenu dans une ennuyeuse oisiveté, et une
@@ -183,27 +239,29 @@
             universel. C'est par goût que le postillon parle d'une certaine façon à ses chevaux, le laboureur à
             sa femme, le seigneur à ses laquais ; car il n'est point prouvé qu'il faille jurer pour se faire
             respecter et obéir.
-          </p>
-          <p>
-            Le Roi dont je parle, et que j'appellerai Bien-Né, était gros mangeur et grand chasseur. Rien encore
+    </p>
+    <p>
+     Le Roi dont je parle, et que j'appellerai Bien-Né, était gros mangeur et grand chasseur. Rien encore
             de plus naturel. Depuis Nemrod, tous les ministres de la guerre, de la marine, des finances, tous
             ceux qui entourent un Souverain, et voudraient faire son métier à sa place, disent que chasser est
             un plaisir de Roi, un plaisir noble, une image de la guerre. De quelle guerre, bon Dieu? De celle où
             l'on égorgerait des innocents désarmés! Mais un jeune Roi ne raisonne pas, il chasse : les soucis de
             la Royauté ne galopent point avec lui, et ne l'attendent pas non plus dans le palais à son retour.
             Il a faim ; il mange; il a soif, il boit ; il est fatigué, il s'endort.
-          </p>
-          <p>
-            Bien-Né trouvait pourtant le temps de travailler avec ses ministres ; mais c'était toujours
-            <hi rend="italic">ad hoc:</hi>
-            on ne débattait jamais librement avec lui les grandes questions de la politique et des lois ; on ne
+    </p>
+    <p>
+     Bien-Né trouvait pourtant le temps de travailler avec ses ministres ; mais c'était toujours
+     <hi rend="italic">
+      ad hoc:
+     </hi>
+     on ne débattait jamais librement avec lui les grandes questions de la politique et des lois ; on ne
             s'entretenait jamais librement en sa présence des événements publics, ou particuliers ; ses
             courtisans, ses parents, ne lui parlaient d'aucune affaire ; le travail diurne fini, il ne songeait
             plus à rien ; et ses ministres ne s'occupaient que des moyens de conserver leur place. Pour les
             courtisans, ils pensaient jour et nuit à obtenir de l'argent et des faveurs.
-          </p>
-          <p>
-            A force de bonté et de négligence de la part du Roi, de tours de force et d'adresse de la part de
+    </p>
+    <p>
+     A force de bonté et de négligence de la part du Roi, de tours de force et d'adresse de la part de
             tous ceux qui l'entouraient, les abus, les fripons et les friponneries pullulèrent, les honnêtes
             gens tremblèrent, les frondeurs crièrent, les affaires s'embarrassèrent horriblement ; Bien-Né ne
             sut bientôt plus où donner de la tête. Il avait lu dans sa première jeunesse certaines déclamations
@@ -212,9 +270,9 @@
             présentes. Il lisait de temps en temps les discours emphatiques, jérémiques et exhortatoires qui lui
             étaient présentés ; mais ne paraissant écrits que pour lui déplaire, ils ne remplissaient aucun
             autre but, si ce n'est qu'ils l'endormaient aussi quelquefois.
-          </p>
-          <p>
-            Au moment où il était le plus embarrassé, il fut attaqué d'une légère maladie : resté seul un jour,
+    </p>
+    <p>
+     Au moment où il était le plus embarrassé, il fut attaqué d'une légère maladie : resté seul un jour,
             parce qu'on le croyait endormi, il pensa, et ce fut assez tristement. Pour la première fois de sa
             vie, il eut une sérieuse et véritable inquiétude sur la situation de son royaume et de ses sujets. «
             Sagesse, s'écria-t-il, après une heure de réflexions profondes, sagesse, que j'ai si souvent entendu
@@ -233,35 +291,35 @@
             il se savait très bon gré d'avoir su se vaincre, et trouvait mauvais que, loin de lui en faire
             compliment, on eût l'air plus intimidé avec lui que s'il avait dit aux gens les plus grosses
             injures.
-          </p>
-          <p>
-            Huit jours après la première apparition, le Roi s'enferma dans son cabinet, et au bout d'une heure
+    </p>
+    <p>
+     Huit jours après la première apparition, le Roi s'enferma dans son cabinet, et au bout d'une heure
             de rêverie, à vit le même fantôme qui lui dit d'un ton plus doux que la première fois : « Sois plus
             sobre. - J'y consens, dit le Roi, mais j'ai l'estomac très bon, et ce n'est pas ce que je mange et
             bois qui peut ôter la subsistance à mon peuple. - Obéis, dit le fantôme : je t'en dirai davantage
             dans huit jours. » Le Roi obéit. Il faisait placer auprès de lui sur la table une bouteille moitié
             eau, moitié vin, et quand elle était finie, n'ayant plus de quoi boire, il cessait de manger.
-          </p>
-          <p>
-            L'étonnement redoubla, et la consternation devint générale. Bien-Né s'aperçut qu'il avait la tête
+    </p>
+    <p>
+     L'étonnement redoubla, et la consternation devint générale. Bien-Né s'aperçut qu'il avait la tête
             beaucoup plus libre qu'auparavant, et que cependant on lui parlait beaucoup moins d'affaires. «
             C'est singulier, disait-il, jamais je n'ai été si disposé à travailler, on doit voir que je suis
             moins distrait et moins assoupi que je n'étais, et cependant on ne me propose point de projets
             utiles, on n'a plus rien à me demander, ni à me dire. »
-          </p>
-          <p>
-            Outre que l'abstinence où il vivait, ne laissait pas que d'être pénible, ce silence où l'on restait
+    </p>
+    <p>
+     Outre que l'abstinence où il vivait, ne laissait pas que d'être pénible, ce silence où l'on restait
             avec lui l'ennuyait un peu, mais l'espèce d'amie qu'il s'était acquise, lui revenant dans l'esprit à
             tout moment, le consolait beaucoup, et il était très curieux de savoir ce qu'elle lui dirait à leur
             première entrevue.
-          </p>
-          <p>
-            Le jour venu, Bien-Né n'eut pas peu de peine à se débarrasser de ses courtisans, qui commençaient à
+    </p>
+    <p>
+     Le jour venu, Bien-Né n'eut pas peu de peine à se débarrasser de ses courtisans, qui commençaient à
             redouter à l'excès ses moments de retraite et de solitude. Il leur dit enfin : « Je veux être seul
             »; et ils s'éloignèrent. Le fantôme ne se fit pas attendre.
-          </p>
-          <p>
-            « Chasse moins souvent, lui dit-il ; le pouvoir que tu as sur toi-même, augmente à mesure que tu
+    </p>
+    <p>
+     « Chasse moins souvent, lui dit-il ; le pouvoir que tu as sur toi-même, augmente à mesure que tu
             l'exerces, et ce sacrifice ne te sera pas plus difficile que les autres. » Bien-Né ne fit cette fois
             aucune objection : il se demanda seulement quel usage il ferait du temps qu'il avait coutume
             d'employer à la chasse. « Est-ce du temps gagné, dit-il, si je ne sais qu'en faire? - Obéis, dit le
@@ -302,9 +360,9 @@
             milieu de tes conseils, dans les conversations particulières, dans les fêtes publiques, auxquelles
             je te conseille de prendre part ; je te ferai tirer parti des discours sages, des discours frivoles
             et même des discours insensés : je serai ta compagne et ton amie. »
-          </p>
-          <p>
-            Le Roi obéit, et sa Cour devint comme la maison d'un particulier sage, éclairé, et sociable, où les
+    </p>
+    <p>
+     Le Roi obéit, et sa Cour devint comme la maison d'un particulier sage, éclairé, et sociable, où les
             enfants, les amis, les domestiques, parlent, conseillent, agissent, avec intelligence et zèle, pour
             le plus grand bien du maître et de la famille. L'intérêt de la chose publique fut la pensée
             habituelle du Roi : en se couchant, en se réveillant, en se promenant, il était occupé du bien de
@@ -321,9 +379,9 @@
             l'esprit militaire de la nation avant de tenter une réforme qui, faite à la hâte, serait suivie
             bientôt d'une réforme nouvelle. Songe surtout, songe bien, qu'il ne faut affliger aucun de tes
             sujets si tu n'y es pas obligé pour le bien de tous. »
-          </p>
-          <p>
-            Une autre fois la sagesse dit à Bien-Né: « Je ne te conseille pas de te déguiser en marchand comme
+    </p>
+    <p>
+     Une autre fois la sagesse dit à Bien-Né: « Je ne te conseille pas de te déguiser en marchand comme
             le Calife Aaron Alraschid, pour aller écouter ce qu'on dit et voir ce qu'on fait, dans les cabarets,
             et dans les maisons particulières ; je ne te conseille pas non plus de courir les grands chemins
             comme Tracassier ton allié, t'amusant à te faire méconnaître quelque temps et reconnaître ensuite,
@@ -337,20 +395,29 @@
             actions si simples, des vertus qui te coûteront si peu. » Le Roi obéit, et peu à peu il sembla que
             la sagesse elle-même fut sur le trône. Les finances se rétablirent : la Nation fut plus florissante
             et plus respectée que jamais, et Bien-Né fut aussi heureux qu'un Roi peut l'être.
-          </p>
-        </div>
-        <div type="chapter">
-          <head>UN SAVETIER DU FAUBOURG SAINT-MARCEAU, AU ROI [N° 13]</head>
-          <p>
-            <hi rend="italic">Sur les Lettres de Cachet</hi>
-          </p>
-          <p>
-            SIRE,
-          </p>
-          <p>
-            Votre Majesté a dit, le 17 janvier, qu'elle ne souffrirait pas que son Parlement s'élevât
-            <hi rend="italic">contre l'exercice d'un pouvoir que l'intérêt des familles et la tranquillité de l'État réclament</hi>
-            <hi rend="italic">souvent et que des Magistrats eux-mêmes ne cessent d'invoquer</hi>. Je ne suis
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     UN SAVETIER DU FAUBOURG SAINT-MARCEAU, AU ROI [N° 13]
+    </head>
+    <p>
+     <hi rend="italic">
+      Sur les Lettres de Cachet
+     </hi>
+    </p>
+    <p>
+     SIRE,
+    </p>
+    <p>
+     Votre Majesté a dit, le 17 janvier, qu'elle ne souffrirait pas que son Parlement s'élevât
+     <hi rend="italic">
+      contre l'exercice d'un pouvoir que l'intérêt des familles et la tranquillité de l'État réclament
+     </hi>
+     <hi rend="italic">
+      souvent et que des Magistrats eux-mêmes ne cessent d'invoquer
+     </hi>
+     . Je ne suis
             qu'un pauvre savetier, mais cela n'empêche pas que je ne m'intéresse aux affaires politiques, et je
             me suis fait expliquer cet article de votre réponse à votre Parlement. On m'a dit que Votre Majesté
             donnait souvent, pour l'intérêt et la tranquillité des familles, à un père la permission de faire
@@ -366,9 +433,9 @@
             l'humiliation et le désespoir, enfin de mon frère qui, ayant fait des épargnes considérables dans sa
             qualité de portier d'un conseiller au Parlement, a témoigné depuis peu quelque envie de se marier.
             Or quel mécompte pour moi et pour mes enfants qui avons toujours compté sur son héritage.
-          </p>
-          <p>
-            Un de mes amis à qui j'ai communiqué la requête que je voulais présenter à Votre Majesté s'en est
+    </p>
+    <p>
+     Un de mes amis à qui j'ai communiqué la requête que je voulais présenter à Votre Majesté s'en est
             extrêmement moqué, et m'a assuré que l'on n'accordait des Lettres de Cachet qu'à des gens riches et
             considérables, et en état par conséquent de témoigner de manière ou d'autre leur reconnaissance à
             vos Ministres. « Encore, m'a-t-il dit, si vous aviez une fille bien jolie, ou un fils bien beau
@@ -388,9 +455,9 @@
             jour, c'est-à-dire jusqu'à sa cinquantième année, a toujours prodigué à mes enfants les plus tendres
             caresses et par mille bonbons et autres petits cadeaux les a fait s'envisager comme ses enfants,
             c'est-à-dire comme ses héritiers.
-          </p>
-          <p>
-            Sire! assurez le bonheur d'un père et de huit enfants par l'exercice d'un pouvoir aussi précieux
+    </p>
+    <p>
+     Sire! assurez le bonheur d'un père et de huit enfants par l'exercice d'un pouvoir aussi précieux
             qu'il est absolu. N'avez-vous pas dit que la liberté légitime de vos sujets vous est aussi chère
             qu'à eux-mêmes? Mot heureux qui est un trait de lumière pour moi, en même temps qu'il semble fait
             exprès pour aveugler et plonger dans une sécurité profonde, ma femme, mon frère, mon fils et leurs
@@ -409,9 +476,9 @@
             recevait les mêmes explications que moi, peut-être regarderait-il ma liberté comme illégitime, et
             comme sa prétendue est très jolie, peut-être fascinerait-elle les yeux de M. de... J'aurais beau
             crier à l'injustice entre quatre murailles, il serait trop tard.
-          </p>
-          <p>
-            Ah Ciel! j'étais sur le point de passer sous silence mon argument le plus entraînant, mais la
+    </p>
+    <p>
+     Ah Ciel! j'étais sur le point de passer sous silence mon argument le plus entraînant, mais la
             pénétration de Votre Majesté et de ses clairvoyants Ministres y aurait suppléé sans doute. Je n'ai
             parlé que de mon propre intérêt : mais n'est-il pas évident, que le mariage de mon fils
             encouragerait la bâtardise, et par conséquence le libertinage ; que l'impunité des défauts de ma
@@ -420,11 +487,13 @@
             peut-être mille et mille désordres? La tranquillité de l'État demande donc, que dis-je, réclame,
             invoque, exige, les trois Lettres de Cachet ; et votre Royaume peut aussi peu s'en passer que votre
             fidèle sujet.
-          </p>
-          <p>
-            <hi rend="italic">Crépin Sabot.</hi>
-          </p>
-        </div>
-      </body>
-    </text>
-  </TEI>
+    </p>
+    <p>
+     <hi rend="italic">
+      Crépin Sabot.
+     </hi>
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>

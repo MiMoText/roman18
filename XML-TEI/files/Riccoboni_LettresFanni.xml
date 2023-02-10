@@ -2,81 +2,130 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Riccoboni_LettresFanni" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:57.12"> Lettres de Fanni Butler à Milord Charles Alfred de
-                    Caitombridge: MiMoText edition </title>
-                <author ref="viaf:41845684 wikidata:Q3087936"> Marie Jeanne
-                    Riccoboni(1713-1792)</author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 31956 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/MiMoText/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Lettres de Fanni Butler à Milord Charles Alfred de Caitombridge</title>
-                    <author>Marie-Jeanne Riccoboni</author>
-                    <date> 1757 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1757 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> epistolary </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-13"> Initial ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head> MISS FANNI à UN SEUL LECTEUR </head>
-                <p> Si le naturel et la vérité, qui font tout le mérite de ces lettres, leur
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:57.12">
+     Lettres de Fanni Butler à Milord Charles Alfred de
+                    Caitombridge: MiMoText edition
+    </title>
+    <author ref="viaf:41845684 wikidata:Q3087936">
+     Marie Jeanne
+                    Riccoboni(1713-1792)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     31956
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/MiMoText/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Lettres de Fanni Butler à Milord Charles Alfred de Caitombridge
+     </title>
+     <author>
+      Marie-Jeanne Riccoboni
+     </author>
+     <date>
+      1757
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1757
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      epistolary
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-13">
+    Initial ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     MISS FANNI à UN SEUL LECTEUR
+    </head>
+    <p>
+     Si le naturel et la vérité, qui font tout le mérite de ces lettres, leur
                     attirent l'approbation du public, si le hasard vous les fait lire, si vous
                     reconnoissez les expressions d'un coeur qui fut à vous, si quelque trait
                     rappelle à votre mémoire un sentiment que vous avez payé de la plus basse
@@ -93,8 +142,11 @@
                     étoit en elle la source de tous les biens; vous l'empoisonnâtes cruellement...
                     elle ne hait point l'amour, elle ne hait que vous. Je n'ai rien à dire au
                     public. Si je l'amuse, j'aurai fait plus que je n'espérois; si je l'ennuie,
-                    j'aurai fait ce que mille autres font tous les jours.Lettre 1. <hi rend="italic"
-                        > jeudi à midi. </hi> après avoir bien réfléchi sur votre songe, je vous
+                    j'aurai fait ce que mille autres font tous les jours.Lettre 1.
+     <hi rend="italic">
+      jeudi à midi.
+     </hi>
+     après avoir bien réfléchi sur votre songe, je vous
                     félicite, milord, de cette vivacité d'imagination qui vous fait rêver de si
                     jolies choses. Ménagez ce bien; une douce erreur est ce qui fait tout l'agrément
                     de notre vie, heureux par de riantes illusions, qu'a-t-on besoin de la réalité?
@@ -102,20 +154,31 @@
                     dont nous jouissions. Livrez-vous au plaisir de rêver, et sachez-moi gré de je
                     ne sais quel mouvement qui fait que je m'intéresse à tout ce qui vous touche. Je
                     n'ai point dormi, point rêvé; mais j'ai tant songé, tant pensé, que je crois que
-                    je ne pense plus. Adieu, milord. Lettre 2. <hi rend="italic"> samedi à onze
-                        heures. </hi> je ne veux point que vous m'aimiez, je ne veux point que vous
+                    je ne pense plus. Adieu, milord. Lettre 2.
+     <hi rend="italic">
+      samedi à onze
+                        heures.
+     </hi>
+     je ne veux point que vous m'aimiez, je ne veux point que vous
                     soyez sérieux, je vous défends de me plaire, je vous défends de m'intéresser.
                     Mon amitié devient si tendre, qu'elle commence à m' inquiéter. J'ai lu deux fois
                     votre billet, et j'allois le relire une troisieme, quand je me suis demandé
                     raison de ce goût pour la lecture. Adieu, milord, je vous verrai à six heures.
                     Je suis assez comme vous; je trouve le matin ennuyeux, le jour long; on ne
-                    s'amuse que le soir.Lettre 3. <hi rend="italic"> lundi à une heure. </hi> paix,
+                    s'amuse que le soir.Lettre 3.
+     <hi rend="italic">
+      lundi à une heure.
+     </hi>
+     paix,
                     milord, paix, vous ne vous corrigez point: je vous défends de me plaire, et vous
                     m'attendrissez. Votre lettre m'a fait rêver: en la lisant quelque chose me
                     disoit que de tous les vices l'ingratitude étoit le plus odieux. Ou je me
                     connois mal, ou mon coeur n'en est pas capable: si vous me prouvez que je vous
-                    dois de la reconnoissance, si vous me le prouvez... adieu, milord. Lettre 4. <hi
-                        rend="italic"> mercredi à midi. </hi> mais quelle fantaisie vous porte à
+                    dois de la reconnoissance, si vous me le prouvez... adieu, milord. Lettre 4.
+     <hi rend="italic">
+      mercredi à midi.
+     </hi>
+     mais quelle fantaisie vous porte à
                     m'aimer, à vous efforcer de me plaire? Pourquoi me préférer à tant d'autres
                     femmes, qui desirent peut-être de vous inspirer ce que vous voulez que je croie
                     que vous ressentez pour moi? ... vous dérangez tous mes projets, vous détruisez
@@ -127,7 +190,10 @@
                     des larmes! ... ah! Sir Charles, si elles étoient un pressentiment... je ne veux
                     plus vous voir, je ne veux plus vous entendre... est-il bien vrai que je ne le
                     veux plus? ... je ne sais... mon dieu, milord, pourquoi m'aimez-vous? Lettre 5.
-                        <hi rend="italic"> vendredi matin. </hi> je vous ai dit que je vous aime,
+     <hi rend="italic">
+      vendredi matin.
+     </hi>
+     je vous ai dit que je vous aime,
                     parce que je suis étourdie; je vous le répete, parce que je suis sincere. Par
                     une suite de cette qualité, je ne puis vous cacher que votre joie m'a pénétrée
                     d'un plaisir si vif, que je me suis presque repentie de vous avoir fait attendre
@@ -142,8 +208,11 @@
                     que j'ai avoué mon penchant. Je n'exige pas qu'il appuie les raisons que j'ai de
                     le combattre; mais je veux que, regardant la confidence que je lui ai faite,
                     comme une marque de mon estime, il oublie mon secret dans les momens où je ne
-                    voudrai pas qu'il se souvienne que je le lui ai dit. Lettre 6. <hi rend="italic"
-                        > dimanche à deux heures. </hi> je ne prierai point le ciel avec vous, mon
+                    voudrai pas qu'il se souvienne que je le lui ai dit. Lettre 6.
+     <hi rend="italic">
+      dimanche à deux heures.
+     </hi>
+     je ne prierai point le ciel avec vous, mon
                     aimable ami; les voeux que nous lui adressons sont trop différens. Vous voulez
                     qu'il vous prive de la vie, si vous devenez infidele; et moi je lui demande
                     votre bonheur, votre éternel bonheur, sans examiner si c'est moi qui dois
@@ -156,7 +225,11 @@
                     mon coeur, elle n'y sera jamais. Je ne vous verrai ce soir que bien tard. Je
                     vais chez Miss Jening; milord Stanlei y sera; il parlera de vous peut-être; il
                     vous nommera du moins. N'est-ce rien que d'entendre le nom de ce qu'on aime?
-                    Lettre 7. <hi rend="italic"> lundi matin. </hi> je pourrois vous cacher que je
+                    Lettre 7.
+     <hi rend="italic">
+      lundi matin.
+     </hi>
+     je pourrois vous cacher que je
                     ne vous ai point écrit hier au soir; mais la plus légere tromperie blesse
                     l'amour. Un assoupissement extrême, je ne sais quelle lassitude m'ont empêchée
                     de remplir ma promesse. J'ai lu vos deux petites lettres, et puis je me suis
@@ -168,8 +241,11 @@
                     dans le mien. Avez-vous plus d'esprit que moi? Dans cette occasion je ne veux
                     pas le croire; mais vous dites tout ce qu'il vous plaît, moi je dis souvent bien
                     plus que je ne veux, et pourtant bien moins que je ne pense. Mais je vous
-                    quitte. J'entends une voix... ah, que n'est-ce la vôtre! Lettre 8. <hi
-                        rend="italic"> jeudi à dix heures. </hi> vous me priez de penser à vous; j'y
+                    quitte. J'entends une voix... ah, que n'est-ce la vôtre! Lettre 8.
+     <hi rend="italic">
+      jeudi à dix heures.
+     </hi>
+     vous me priez de penser à vous; j'y
                     pense. En vérité, vous m'occupez sans cesse; mais quoiqu'un même objet semble
                     fixer toutes mes idées, j'ai pourtant l'art de les étendre et de les varier.
                     Tantôt regardant sir Charles comme un simple ami, j'aime en lui son esprit, sa
@@ -182,7 +258,11 @@
                     séparé, je vois l'aimable portrait se former sous mes yeux; il m'offre un
                     tout... ah! Ce tout est tout pour moi. Adieu, milord... vous faites la mine...
                     adieu, sir Charles... vous boudez encore... eh bien, adieu, mon cher Alfred.
-                    Lettre 9. <hi rend="italic"> vendredi matin. </hi> eh! Pourquoi ne vous
+                    Lettre 9.
+     <hi rend="italic">
+      vendredi matin.
+     </hi>
+     eh! Pourquoi ne vous
                     écrirois-je pas? Ne puis-je que vous répondre? N'ai-je rien à vous dire, à vous
                     qui me parlez si bien, et dont l'éloquence est si puissante sur mon ame? Mon
                     trouble est dissipé, mes craintes sont évanouies; je cesse de penser à moi, pour
@@ -190,7 +270,11 @@
                     vos mains ma tranquillité, mon bonheur; soyez-en l'arbitre. Vous méritez bien
                     qu'un coeur qui se donne à vous, borne tous ses soins à vous aimer, tous ses
                     voeux à vous plaire, tous ses desirs à vous rendre heureux. Ah! Ce n'est pas les
-                    borner.Lettre 10. <hi rend="italic"> dimanche à minuit. </hi> à peine
+                    borner.Lettre 10.
+     <hi rend="italic">
+      dimanche à minuit.
+     </hi>
+     à peine
                     sortiez-vous de chez moi, que j'ai été saisie de cette sorte de chagrin que l'on
                     éprouve lorsque l'on vient de perdre quelque chose, et qu'on veut se dissimuler
                     que cette perte afflige. Seroit-il possible que vous ne puissiez vous éloigner
@@ -201,8 +285,12 @@
                     Non, milord, non, je ne le veux pas. Je suis fâchée, je boude: allons,
                     ôtez-vous, laissez-moi... que votre lettre est tendre! Qu'elle est vive! Qu'elle
                     est jolie! Je l'aime... je l'aime mieux que vous; car je vous quitte pour la
-                    relire. Lettre 11. <hi rend="italic"> mardi dans mon lit, à je ne sais qu'elle
-                        heure. </hi> le sommeil me fuit; pourquoi m'obstiner à le chercher? Il peut
+                    relire. Lettre 11.
+     <hi rend="italic">
+      mardi dans mon lit, à je ne sais qu'elle
+                        heure.
+     </hi>
+     le sommeil me fuit; pourquoi m'obstiner à le chercher? Il peut
                     calmer le trouble demes sens; mais la douceur du repos vaut-elle l'agitation que
                     donne l'amour? Je prends un livre, je le laisse: c'est votre lettre que je lis;
                     je la finis, je la recommence: je voudrois ne l'avoir pas lue, pour la relire
@@ -222,7 +310,11 @@
                     assez pour le mériter... mon dieu, si vous me trompiez, si vous vous trompiez
                     vous-même! ... ce que je pense à présent vous fâcheroit. Adieu. Demain d'und' un
                     regard, d'un souris, d'un mot, vous dissiperez peut-être tout ce qui me reste de
-                    raison. Lettre 12. <hi rend="italic"> mercredi à minuit. </hi> que votre retour
+                    raison. Lettre 12.
+     <hi rend="italic">
+      mercredi à minuit.
+     </hi>
+     que votre retour
                     m'a charmé! Quoi, si aimable, si chéri, si digne de l'être, et vous avez des
                     craintes, des doutes! Ah! N'en ayez jamais. Vous ignorez combien je suis
                     sincere, et ce qu'un vrai mérite peut sur mon coeur. Je trouve tout en vous;
@@ -240,8 +332,11 @@
                     cette lettre; ce n'est rien pour elle. Bon dieu, si je l'avois, moi, comme je
                     briserois le cachet! Je la lirois vîte, vîte, et puis doucement, doucement, et
                     puis je la lirois encore, et puis je la... mais je ne veux pas tout dire. Adieu.
-                    Je vous aime de tout mon coeur. Lettre 13. <hi rend="italic"> vendredi à midi.
-                    </hi> vous m'avez promis de la reconnoissance, et vous en manquez déjà. M'écrire
+                    Je vous aime de tout mon coeur. Lettre 13.
+     <hi rend="italic">
+      vendredi à midi.
+     </hi>
+     vous m'avez promis de la reconnoissance, et vous en manquez déjà. M'écrire
                     que je ne vous aime point, ou que je vous aime foiblement, c'est être ingrat.
                     Voyez, cherchez, examinez les preuves que vous m'avez données de votre
                     tendresse; et quand vous aurez trouvé celle qui vous paroîtra la plus forte,
@@ -267,8 +362,11 @@
                     rappellons les momens les plus doux de notre vie; pouvons-nous, sans frémir,
                     écouter un sentiment aimable, il est vrai, mais dont les suites peuvent être si
                     cruelles? Risquer, vous? Ha! Sir Charles, sir Charles,je ne suis point contente
-                    de vous, je ne le suis point de moi, je ne le suis de personne. Lettre 14. <hi
-                        rend="italic"> lundi à onze heures du soir. </hi> savez-vous bien, mon cher
+                    de vous, je ne le suis point de moi, je ne le suis de personne. Lettre 14.
+     <hi rend="italic">
+      lundi à onze heures du soir.
+     </hi>
+     savez-vous bien, mon cher
                     Alfred, que vous m'avez ennuyée ce soir, tout comme un autre? Que maudits soient
                     les colleges, les universités, le grec, le latin, le françois, et tous les
                     impertinens livres où l'on apprend à raisonner en dépit de l'expérience et de la
@@ -292,8 +390,11 @@
                     nous distingue, et fait qu'avec la même forme nous ne nous ressemblons point...
                     mais voyez où cette sotte conversation m'a conduite, à oublier à qui j'écris, à
                     ne pas seulement me souvenir que je vous aime. Adieu, bon soir: effet
-                    merveilleux de la dissertation, je dors. Lettre 15. <hi rend="italic"> lundi...
-                    </hi> on est bien criminel, quand on a fâché ce qu'on aime. Mais en convenant de
+                    merveilleux de la dissertation, je dors. Lettre 15.
+     <hi rend="italic">
+      lundi...
+     </hi>
+     on est bien criminel, quand on a fâché ce qu'on aime. Mais en convenant de
                     sa faute, on mérite qu'un coeur généreux l'oublie. Vous avez prévenu le pardon
                     que je voulois vous demander: cette bonté m'embarrasse. Jesuis dans la position
                     d'un sujet rebelle, qui, après s' être révolté contre son prince, en éprouvant
@@ -303,8 +404,12 @@
                     un instant d'ennui. Ce n'est pas assez d'exiler cette lettre, de la trouver
                     indigne d' être avec les autres, il faut la déchirer, la brûler, n'en laisser
                     aucunes traces. Ne vous souvenez jamais de mon caprice; mais souvenez-vous de ma
-                    tendresse; elle ne finira qu'avec moi. Lettre 16. <hi rend="italic"> lundi à
-                        quatre heures. </hi> quelle nouvelle, mon cher Alfred! Je suis désolée. Que
+                    tendresse; elle ne finira qu'avec moi. Lettre 16.
+     <hi rend="italic">
+      lundi à
+                        quatre heures.
+     </hi>
+     quelle nouvelle, mon cher Alfred! Je suis désolée. Que
                     vais-je devenir? Ah! J'avois bien raison de ne vouloir point aimer! Quoi malade,
                     malade à garder le lit! Et je ne puis vous voir, vous donner mes soins! Mon
                     dieu, que mon inquiétude est vive! Voilà cette lettre que vous me demandez: vous
@@ -312,7 +417,11 @@
                     ne m'écrivez point; envoyez ce soir chez moi; faites-moi direcomment vous serez.
                     J'ai eu la fievre toute la nuit, une migraine horrible; mais le mal de ce que
                     j'aime me fait oublier le mien. Que je suis affligée! Que je vous aime! Lettre
-                    17. <hi rend="italic"> mardi matin. </hi> je suis triste, mon cher Alfred, bien
+                    17.
+     <hi rend="italic">
+      mardi matin.
+     </hi>
+     je suis triste, mon cher Alfred, bien
                     triste, je vous assure... ne point vous voir pendant que vous souffrez, que vous
                     vous ennuyez! ... ah! C'est bien moi qui voudrois être votre garde! Que mes
                     soins seroient complaisans! Avec quel plaisir je partagerois votre solitude! Que
@@ -327,8 +436,11 @@
                     politesse! Il vientme voir, dit-il. N' est-il pas bien nécessaire que ce
                     monsieur me voie? Adieu, mon cher, mon aimable, mon tendre ami. Ne sortez point
                     si vous n' êtes pas mieux; et si vous sortez, levez bien vos glaces. Ne prenez
-                    point l'air, il est très-froid. Lettre 18. <hi rend="italic"> mercredi à midi.
-                    </hi> je m'éveille dans l'instant: je me sens reposée, tranquille; mais à mesure
+                    point l'air, il est très-froid. Lettre 18.
+     <hi rend="italic">
+      mercredi à midi.
+     </hi>
+     je m'éveille dans l'instant: je me sens reposée, tranquille; mais à mesure
                     que je reprends mes esprits, une idée bien chere ramene le trouble dans mon
                     coeur. Je pense que je ne vous verrai qu'à six heures. Que de momens à passer
                     sans vous! Mais en s'écoulant, ils amenent celui qui doit vous offrir à mes
@@ -352,8 +464,11 @@
                     ronde, j'ai beau me parer, me parfumer, prêter des livres, ouvrir la porte au
                     petit chat, donner des bonbons, des bouquets; autant de perdu. Miss Betzi n'en
                     tient compte, et me hait comme la peste. Adieu, sir Charles, point de bouquet
-                    pour vous. Lettre 19. <hi rend="italic"> jeudi à minuit au coin de mon feu.
-                    </hi> je ne veux pas me coucher, non, je ne le veux pas; je veux rester là. Je
+                    pour vous. Lettre 19.
+     <hi rend="italic">
+      jeudi à minuit au coin de mon feu.
+     </hi>
+     je ne veux pas me coucher, non, je ne le veux pas; je veux rester là. Je
                     n'aime de monappartement que l'endroit où je suis. Ma chambre est un pays
                     étranger pour moi: je ne vous y ai jamais vu. Ici, tout est vif, tout est riant,
                     tout a reçu l'empreinte chérie; ce cabinet est tout mon univers. Mais, mon cher
@@ -362,15 +477,21 @@
                     délicates de votre ame; elle m'apprêtera le plus grand des plaisirs. Qu'il est
                     doux de porter ses regards sur les expressions tendres et passionnées d'un amant
                     que l'on adore, de se répéter les noms flatteurs qu'il nous donne! Je suis donc
-                        <hi rend="italic"> votre maîtresse, votre chere maîtresse, votre amie, votre
+     <hi rend="italic">
+      votre maîtresse, votre chere maîtresse, votre amie, votre
                         premiere amie? Vous ne vivez point loin de moi? Vous ne sentez votre
-                        existence que lorsque l'instant où vous m'allez voir approche </hi> ? Quoi!
+                        existence que lorsque l'instant où vous m'allez voir approche
+     </hi>
+     ? Quoi!
                     C'est moi qui anime cette jolie machine? C'est le feu de mon amour qui lui
                     donne, et le mouvement et la grace avec laquelle elle se meut? Dis le moi cent
                     fois, mille fois, dis le moi toujours. Qu'il étoit aimable ce soir! N'avoir pas
                     vu que cette femme étoit belle! N'avoir vu que moi! Ah, que je vous aime! Je
-                    vous aime tant, que si vous étiez là, je vous aimerois trop.Lettre 20. <hi
-                        rend="italic"> dimanche au soir. </hi> vous me demandez avec vivacité ce que
+                    vous aime tant, que si vous étiez là, je vous aimerois trop.Lettre 20.
+     <hi rend="italic">
+      dimanche au soir.
+     </hi>
+     vous me demandez avec vivacité ce que
                     je pense; et quand je vous le dis, vous doutez de la vérité de ma réponse.
                     Pourquoi donc ce doute? Si je voulois me taire, si je me suis fait presser pour
                     parler, c'est qu'il est des choses qu'il est inutile de dire, parce qu'on ne
@@ -381,8 +502,12 @@
                     douteriez de ma sincérité. Non, dit-il, ce n'est point cela, assurément...
                     impertinent, malhonnête, que cela vous arrive une autre fois, vous verrez.
                     Adieu, milord oh! Très-milord, je vous assure. Votre grace, si vous
-                    m'obstinez.Lettre 21. <hi rend="italic"> mardi dans mon lit, malade comme un
-                        chien. </hi> elle a chagriné celui qu'elle aime: au lieu du plaisir qu'elle
+                    m'obstinez.Lettre 21.
+     <hi rend="italic">
+      mardi dans mon lit, malade comme un
+                        chien.
+     </hi>
+     elle a chagriné celui qu'elle aime: au lieu du plaisir qu'elle
                     pouvoit lui donner, qu'il attendoit, qu'il méritoit, elle lui a causé de la
                     peine, elle l'a fait gronder, bouder. Il a chiffonné la lettre qu'il auroit
                     baisée, il l'a battue, mordue, déchirée; il en a mangé la moitié; il est fâché,
@@ -392,8 +517,11 @@
                     moi... mon cher amant, je vous prie de me pardonner; je ne le ferai plus; non,
                     jamais. Et vous, mon cher Alfred, relevez-la; qu'un doux souris lui prouve que
                     vous êtes capable d'oublier ses fautes. Ah çà, la paix est faite, n'est-ce pas?
-                    Oh oui, elle est faite.Lettre 22. <hi rend="italic"> mercredi à trois heures.
-                    </hi> je vous attends. Mes yeux sont fixés sur l'aiguille de ma montre; qu'elle
+                    Oh oui, elle est faite.Lettre 22.
+     <hi rend="italic">
+      mercredi à trois heures.
+     </hi>
+     je vous attends. Mes yeux sont fixés sur l'aiguille de ma montre; qu'elle
                     va lentement! Dans deux heures elle volera: il me le semblera du moins... il va
                     donc venir cet amant si tendre, si aimé, si digne de l'être. Hier il étoit là:
                     j'occupe la place qu'il remplissoit; j'ai du plaisir à me voir sur le siege où
@@ -411,8 +539,12 @@
                     cette vallée immense; et de quelque côté que vous soyez, ma place sera près de
                     vous... voilà bien de quoi me faire gronder: peut-on être triste comme cela? Ah
                     la maudite tête! C'est elle qui dicte ces accens plaintifs. Vous allez paroître;
-                    la joie va ranimer la pauvre malade. Lettre 23. <hi rend="italic"> vendredi à
-                        minuit. </hi> vous croyez que je dors peut-être; j'ai bien autre chose à
+                    la joie va ranimer la pauvre malade. Lettre 23.
+     <hi rend="italic">
+      vendredi à
+                        minuit.
+     </hi>
+     vous croyez que je dors peut-être; j'ai bien autre chose à
                     faire vraiment. On ne fut jamais plus éveillée, plus folle, plus... je ne sais
                     quoi. Je songe à ce merveilleux anneau dont on a tant parlé ce soir: on me le
                     donne, je l'ai, je le mets à mon doigt, je suis invisible, je pars, j'arrive...
@@ -432,8 +564,12 @@
                     devions la ménager. Si j'avois le pouvoir de ne jamais m'éloigner de vous, je
                     perdrois le plaisir de vous souhaiter, de vous attendre, et peut-être celui de
                     vous plaire. Je ne veux point de l'anneau. Adieu, mon aimable ami; adieu, le moi
-                    que j'aime mieux que moi-même. Lettre 24. <hi rend="italic"> samedi dans mon lit
-                        bien tard. </hi> pourquoi disiez-vous du mal de votre lettre? Elle est si
+                    que j'aime mieux que moi-même. Lettre 24.
+     <hi rend="italic">
+      samedi dans mon lit
+                        bien tard.
+     </hi>
+     pourquoi disiez-vous du mal de votre lettre? Elle est si
                     bien! Le langage de votrecoeur pourroit-il me plaire moins que celui de votre
                     esprit? Je ne puis ôter du mien cette femme que vous aimiez, qui vous a pu
                     trahir: je la plains, elle a été bien malheureuse de ne pas connoître le prix
@@ -457,8 +593,11 @@
                     que moi; mais ce que j'ai n'est-il donc rien? Mon partage me rendoit heureuse
                     hier, ce matin encore; on ne m'a rien ôté; ma situation n'a point changé: d'où
                     vient que mon coeur s' obstine à la trouver moins douce? ... ah! Sir Charles,
-                    sir Charles, un de nous deux a tort. Lettre 25. <hi rend="italic"> lundi. </hi>
-                    la, doucement: comme vous grondez! Mais n'ai-je pas raison de me révolter
+                    sir Charles, un de nous deux a tort. Lettre 25.
+     <hi rend="italic">
+      lundi.
+     </hi>
+     la, doucement: comme vous grondez! Mais n'ai-je pas raison de me révolter
                     quelquefois contre un penchant qui change mon coeur, qui n'y laisse plus de
                     place pour ceux qui doivent m'être chers, qui me l'ont toujours été? Ne puis-je,
                     sans vous fâcher, regretter un peu le tems où tout me plaisoit, où tout
@@ -493,8 +632,11 @@
                     est fiere; elle sauroit vous cacher un feu qu'elle ne pourroit éteindre, qu'elle
                     ne desireroit pas d'éteindre. Elle vous aimeroit inconstant, léger, mais jamais
                     perfide... ah! Si vous me trompiez, si l'ombre même de la fausseté! ... si
-                    milord n'étoit pas... mais il est... il est lui.Lettre 27. <hi rend="italic">
-                        jeudi au soir. </hi> vous avez raison de vous plaindre: j'ai mal fait de
+                    milord n'étoit pas... mais il est... il est lui.Lettre 27.
+     <hi rend="italic">
+      jeudi au soir.
+     </hi>
+     vous avez raison de vous plaindre: j'ai mal fait de
                     déchirer ma lettre; ce procédé a quelque chose de désobligeant. Mais, mon cher
                     Alfred, vous avez tout pris, tout rassemblé; vous verrez tout ce que je voulois
                     cacher. Le billet que vous avez reçu de ma main, étoit l'expression réfléchie de
@@ -516,7 +658,10 @@
                     ses mauvais desseins! ... fixer un tems! ... prendre un jour! ... oh! Cela m'est
                     impossible; je ne puis vous donner ma parole: n'exigez pas cela, je vous en
                     prie, ne l'exigez pas. Je ne saurois. Taisez-vous... oh! Tais-toi. Lettre 28.
-                        <hi rend="italic"> samedi dans mon lit. </hi> quelle lettre, mon cher
+     <hi rend="italic">
+      samedi dans mon lit.
+     </hi>
+     quelle lettre, mon cher
                     Alfred! Je ne saurois la quitter. Que tout ce qui vient de vous me plaît! Que
                     votre amour m'est cher! Que j'en aime les assurances! Ah! Parlez-moi toujours,
                     écrivez-moi sans cesse. Que tous les instans de ma vie soient remplis par le
@@ -536,8 +681,11 @@
                     au songe le plus riant, à moi, à tout le reste du monde... oh! Pour cela,
                     milord, vous n' avez point d'égards, point d'attention; est-il bien de ne pas
                     laisser un moment de tranquillité à celle que vous aimez? Finissez, finissez
-                    donc: c'est le mot qu'il faut toujours vous dire.Lettre 29. <hi rend="italic">
-                        lundi. </hi> que je vous jure de vous aimer toujours? Ah! Je vous le jure,
+                    donc: c'est le mot qu'il faut toujours vous dire.Lettre 29.
+     <hi rend="italic">
+      lundi.
+     </hi>
+     que je vous jure de vous aimer toujours? Ah! Je vous le jure,
                     par l'honneur, par la vérité, par vous-même; votre coeur est l'autel sacré qui
                     reçoit mes sermens: puissent ces yeux que vous aimez se fermer pour toujours, si
                     je les leve jamais avec plaisir sur un autre que vous! Je ne me consolerois
@@ -554,8 +702,11 @@
                     mais qui peut s' assurer de penser toujours de même?Ladi Stanlei disoit l'autre
                     jour, que notre sexe étoit léger, mais que le vôtre étoit perfide. On m'assura
                     que sur ces deux points elle avoit fait mille épreuves. Mille, c'est beaucoup:
-                    malgré son expérience, je l'en crois bien moins que vous. Lettre 30. <hi
-                        rend="italic"> mercredi à deux heures du matin. </hi> qu'il est doux, qu' il
+                    malgré son expérience, je l'en crois bien moins que vous. Lettre 30.
+     <hi rend="italic">
+      mercredi à deux heures du matin.
+     </hi>
+     qu'il est doux, qu' il
                     est satisfaisant de penser bien de ce qu'on aime, de ne point douter de sa foi,
                     de son coeur, de s'applaudir dans un instant... que trop souvent la crainte des
                     suites empoisonne; crainte qui place le regret tout près du plaisir! Ah, que mon
@@ -578,8 +729,11 @@
                     conduisent à celui qui va me priver de vous, qui va m'enlever mon bien le plus
                     cher! Ah, les vilains révoltés, que je les hais! Faut-il que vous me quittiez
                     pour eux? Ils méritent bien d'être punis, puisqu'ils vous font aller dans votre
-                    gouvernement. Adieu, mon aimable, mon cher Alfred.Lettre 31. <hi rend="italic">
-                        jeudi à minuit. </hi> oh! Qui peut rendre, qui peut exprimer le plaisir que
+                    gouvernement. Adieu, mon aimable, mon cher Alfred.Lettre 31.
+     <hi rend="italic">
+      jeudi à minuit.
+     </hi>
+     oh! Qui peut rendre, qui peut exprimer le plaisir que
                     m'a fait cette visite! Aimable garçon! Le voir entrer dans ma chambre, quand je
                     le crois à Hamptoncourt; prendre une heure pour me la donner; que cette
                     attention est charmante! Mon dieu, qu'il étoit bien! Que cet habit lui sied! Que
@@ -591,8 +745,11 @@
                     ma joie! ... mais parlerai-je toujours de ma félicité? Je vous ennuierai, mon
                     cher Alfred: mais n'est-ce point à vous que je dois les mouvemens de cette joie?
                     C'est un ruisseau qui retourne vers sa source. Eh! Comment vous lasseriez-vous
-                    de mon bonheur, vous qui le faites, vous qui m' aimez?Lettre 32. <hi
-                        rend="italic"> vendredi. </hi> êtes-vous revenu, mon cher Alfred? Vous
+                    de mon bonheur, vous qui le faites, vous qui m' aimez?Lettre 32.
+     <hi rend="italic">
+      vendredi.
+     </hi>
+     êtes-vous revenu, mon cher Alfred? Vous
                     êtes-vous souvenu de votre chere maîtresse? Son idée vous a-t-elle été présente,
                     dans un séjour où l'orgueil et l'intérêt ont établi leur domicile? Miss Betzi
                     s'est enfermée avec moi; nous avions nos raisons pour rester seules; elle
@@ -600,7 +757,11 @@
                     annonçant chaque phrase, et mettant Zaïde en pieces; et moi je n'écoutois point,
                     le ciel me faisoit la grace de ne point écouter; cependant le portrait de
                     Consalve a ramené mon attention; je me suis imaginé qu'il vous ressembloit: en
-                    vérité, il vous ressemble. <hi rend="italic"> à trois heures. </hi> cette
+                    vérité, il vous ressemble.
+     <hi rend="italic">
+      à trois heures.
+     </hi>
+     cette
                     aiguille semble immobile; elle marche pourtant, elle va d'un pas égal. Mes
                     desirs ne peuvent hâter ni ralentir son mouvement. Quand ira-t-elle sur six
                     heures? ... j'écris pour calmer mon impatience... j'écris pour écrire... mon
@@ -610,8 +771,11 @@
                     qu'en vérité, je ne pense que cela: je ne devrois pas le dire si souvent; il
                     faut de l'art pour conserver un coeur. Ladi Charlotte le dit, et ladi Charlotte
                     sait bien ce qu'elle dit... de l'art, mon cher Alfred! Quoi! De l'art avec toi!
-                    ... te cacher que je t'adore! ... ah! Jamais, non, jamais. Lettre 33. <hi
-                        rend="italic"> dimanche à midi. </hi> ne cherchez point des noms plus doux
+                    ... te cacher que je t'adore! ... ah! Jamais, non, jamais. Lettre 33.
+     <hi rend="italic">
+      dimanche à midi.
+     </hi>
+     ne cherchez point des noms plus doux
                     pour me les donner: celui de votre maîtresse est le plus flatteur pour moi; il
                     m'est plus cher que tous les titres qui peuvent exciter les desirs de la femme
                     la plus vaine et la plus ambitieuse. Ah! Que l'or et les pierreries brillent sur
@@ -624,8 +788,11 @@
                     l'usage, si la décence n'étoit pas blessée par cet aveu, je dirois avec vanité,
                     j'aime milord duc; je suis à lui; je mets ma gloire et mon bonheur à lui prouver
                     ma tendresse. Qu'il la partage. Que j'excite un moment de plaisir dans son
-                    coeur, je n'envierai pas le sort du plus grand roi du monde. Lettre 34. <hi
-                        rend="italic"> vendredi. </hi> elle n'a donc plus que deux jours à vous
+                    coeur, je n'envierai pas le sort du plus grand roi du monde. Lettre 34.
+     <hi rend="italic">
+      vendredi.
+     </hi>
+     elle n'a donc plus que deux jours à vous
                     voir, cette pauvre Fanni! Que cette idée l'afflige! Vous ne me quitterez point
                     sans regret, mon cher Alfred; car vous m'aimez, je me le dis à moi-même. J'ai
                     besoin de me le dire quand je ne vous vois point; mais vous m'en assurez bien
@@ -643,8 +810,12 @@
                     ... lui? ... non... il a les vertus de Titus... je lui donnerois l'empire de
                     Néron... on dit que ce prince fut un jour souverain paisible du monde connu. Mon
                     cher Alfred en seroit le monarque chéri, révéré. Ah! Le beau conte de fées! ...
-                    je suis folle. Adieu, mon cher Alfred. Lettre 35. <hi rend="italic"> lundi à
-                        deux heures du matin. </hi> ce n'est donc pas moi qui vous donnerai cette
+                    je suis folle. Adieu, mon cher Alfred. Lettre 35.
+     <hi rend="italic">
+      lundi à
+                        deux heures du matin.
+     </hi>
+     ce n'est donc pas moi qui vous donnerai cette
                     lettre, mon cher Alfred; une autre main vous la présentera; vous ne lirez point
                     dans mes yeux la vérité des sentimens qu' elle contient... je ne lirai point
                     dans les vôtres, l'impression qu'elle fera sur vous. Mes regards suivoient tous
@@ -666,8 +837,11 @@
                     davantage; il connoît le prix d'un coeur sincere; l'éloignement ne détruira pas
                     le plaisir qu'il sent à m'occuper; et plus je lui dirai que je l'aime, plus il
                     m'aimera lui-même. Adieu, mon aimable ami, adieu. Que ce mot me fait de peineà
-                    présent! Pensez à moi. Ah! Pensez y toujours. Lettre 36. <hi rend="italic">
-                        mardi à minuit. </hi> enfin il est fini ce jour dont rien n'a trompé la
+                    présent! Pensez à moi. Ah! Pensez y toujours. Lettre 36.
+     <hi rend="italic">
+      mardi à minuit.
+     </hi>
+     enfin il est fini ce jour dont rien n'a trompé la
                     longueur; il est fini, et demain ne sera pas plus heureux. Je n'aurai point de
                     lettres, pas la moindre marque de votre souvenir. Ah! Que cela est dur pour un
                     coeur accoutumé aux plus tendres soins du vôtre! Vous fuyez, mon cher Alfred,
@@ -678,7 +852,11 @@
                     ressemble à un autre... en vérité, je l'aimerai, l'habit me plaît: le premier
                     jour où je vous l'ai vu est bien présent à ma mémoire: c'est celui où je me suis
                     dit de si bonne foi, je l'aime, mon dieu, je l'aime. Oh! Je l' aimois déjà bien
-                    fort.Lettre 37. <hi rend="italic"> mercredi matin. </hi> qu'êtes-vous à présent,
+                    fort.Lettre 37.
+     <hi rend="italic">
+      mercredi matin.
+     </hi>
+     qu'êtes-vous à présent,
                     mon cher Alfred? Que faites-vous? Songez-vous qu'il est quelqu'un qui ne respire
                     que pour vous aimer? Me rappeller tous vos discours, relire vos lettres, en
                     attendre, en desirer, voilà ce qui va remplir tous les instans de votre absence.
@@ -689,8 +867,11 @@
                     tout bas: ah, qu'il a bien ce qu'il mérite! Jamais milord ne donnera des
                     conseils qui soient mieux suivis... sir Thomas est charmé de me voir bien
                     triste, il trouve que cela est dans l'ordre; et vous savez que sir Thomas met de
-                    l'ordre par-tout, excepté dans ses propos. Mais on m'interrompt. Adieu. <hi
-                        rend="italic"> à cinq heures, toujours mercredi. </hi> quelle date, mon cher
+                    l'ordre par-tout, excepté dans ses propos. Mais on m'interrompt. Adieu.
+     <hi rend="italic">
+      à cinq heures, toujours mercredi.
+     </hi>
+     quelle date, mon cher
                     Alfred! Elle est bien cruelle; j'attends tout le monde, exceptévous, vous la
                     seule personne que je desire... oh! Quels voeux, quels souhaits formerai-je pour
                     mon tendre ami! ... pourrai-je séparer mes intérêts des siens, parmi les biens
@@ -701,28 +882,43 @@
                     celui que vous aviez mis la veille de votre départ: la jolie enfant m'a tirée
                     doucement, et m'a dit d'un air riant: voilà milord duc; et moi comme une folle,
                     comme une étourdie, je me suis tournée toute rouge, toute émue, et puis de rire;
-                    car il est impossible de ne pas rire d'une telle sottise. <hi rend="italic"> à
-                        minuit. </hi> que j'ai de peine à fermer ma lettre! Il me semble que j'ai
+                    car il est impossible de ne pas rire d'une telle sottise.
+     <hi rend="italic">
+      à
+                        minuit.
+     </hi>
+     que j'ai de peine à fermer ma lettre! Il me semble que j'ai
                     mille choses à vous dire, il faut pourtant vous quitter... vous quitter, mon
                     cher Alfred! Comme un tems fait regretter l'autre! Hélas! J'étois bien heureuse
                     quand je vous quittois! Je vais me mettre au lit; votre portrait y vient avec
                     moi, nous allons dormir ensemble... dormir! Ce portrait-là ne vous ressemble
-                    guere, il ne vous ressemble point du tout.Lettre 38. <hi rend="italic"> jeudi.
-                    </hi> venez, mon cher Alfred, venez me dédommager de tout l'ennui du jour; que
+                    guere, il ne vous ressemble point du tout.Lettre 38.
+     <hi rend="italic">
+      jeudi.
+     </hi>
+     venez, mon cher Alfred, venez me dédommager de tout l'ennui du jour; que
                     le plaisir de vous parler me fasse oublier tant de fadeurs que l'usage oblige
                     d'entendre et de répéter... ah, quelle humeur! Quelle tristesse! Cette entiere
                     privation m'est affreuse. Ni vous, ni rien de vous! Quoi! Pas une ligne en
                     route! M' auriez-vous oubliée? Non, je ne le crois pas, je ne veux pas le
                     croire. Faites-vous des voeux pour votre maîtresse? Ah! Je vous en prie,
                     demandez à l'amour et à la fortune, qu'ils daignent lui conserver le coeur de
-                    son amant. Lettre 39. <hi rend="italic"> vendredi à trois heures. </hi> voila
+                    son amant. Lettre 39.
+     <hi rend="italic">
+      vendredi à trois heures.
+     </hi>
+     voila
                     des lettres de par-tout, et pas une qui m'intéresse: point de nouvelles de mon
                     cher Alfred. Oh! Que je suis laide, sotte, fâcheuse! La belle mine que je vais
                     faire! Il faut sortir pourtant; mais que m'importe?Je ne veux pas plaire,
                     j'aime, je suis éloignée de ce que j'aime. Je ne tiens plus à rien. Il me semble
                     qu' on m'a tout pris, tout enlevé, même mes espérances; je suis comme si je
                     n'étois point. Je vais chez ladi Vorthi; il le faut: elle m'ennuiera, mais je le
-                    lui rendrai bien. <hi rend="italic"> à cinq heures. </hi> comme j'allois sortir
+                    lui rendrai bien.
+     <hi rend="italic">
+      à cinq heures.
+     </hi>
+     comme j'allois sortir
                     avec Miss Betzi, sir Thomas, le bon, l'aimable sir Thomas m'apporte une lettre.
                     Je le remercie, je le caresse, je lui fais baiser la main de la méchante miss;
                     je lis cette lettre, je ris, je pleure; je suis contente, attendrie, charmée;
@@ -734,7 +930,11 @@
                     l'usage! Je vais donner cette feuille à sir Thomas, il la fera partir ce soir.
                     Adieu donc, adieu. Oh, que miss est pressée! Elle est trop indifférente, oui,
                     elle l'est trop. Adieu. Je vous dirai ce soir tout ce que je pense, si pourtant
-                    il m'est possible de l'exprimer.Lettre 40. <hi rend="italic"> à minuit. </hi> je
+                    il m'est possible de l'exprimer.Lettre 40.
+     <hi rend="italic">
+      à minuit.
+     </hi>
+     je
                     vous ai quitté brusquement, mon cher Alfred: on m'arrachoit au plaisir de vous
                     parler. Sir Thomas a fait partir ma lettre. Il est bien mon serviteur, en
                     vérité, et tout-à-fait content de ma conduite. Il ne trouve pas ma mauvaise
@@ -760,8 +960,11 @@
                     cher Alfred? Mon cher amant, plains ta maîtresse, elle ne te voit point, elle ne
                     te verra de long-tems... ah! Qu'un moment de ta présence, qu'un seul de ces
                     baisers que tu lui prodiguois, porteroient de joie dans son ame! Mais tu ne
-                    m'entends point. Hélas! Tu ne saurois m'entendre. Lettre 41. <hi rend="italic">
-                        samedi matin. </hi> quelque douleur que je ressente de votre absence,
+                    m'entends point. Hélas! Tu ne saurois m'entendre. Lettre 41.
+     <hi rend="italic">
+      samedi matin.
+     </hi>
+     quelque douleur que je ressente de votre absence,
                     quelque dure que me soit cette séparation, je ne me repens point de vousaimer.
                     Les peines les plus cruelles ne me feroient pas renoncer à la douceur d'un
                     sentiment que vous m'avez rendu si cher. Un instant de votre vue, un billet de
@@ -771,7 +974,10 @@
                     sentirai dans vos bras, quand je vous presserai dans les miens, me
                     souviendrai-je des pleurs que votre éloignement me fait répandre? Non, je ne me
                     souviendrai que de vous. Adieu, je vous quitte; aimez-moi comme je vous aime.
-                        <hi rend="italic"> samedi au soir. </hi> j' ai fait aujourd'hui tout ce
+     <hi rend="italic">
+      samedi au soir.
+     </hi>
+     j' ai fait aujourd'hui tout ce
                     qu'il m'a été possible pour dissiper cet ennui que je ne saurois vaincre; mais
                     je n'ai cherché qu'en vous un amusement qu'aucun autre objet ne pouvoit me
                     procurer. Je me suis retirée dans mon petit cabinet, j' ai ouvert le tiroir qui
@@ -789,8 +995,11 @@
                     Miss Betzi vous prie de croire que, si je n'ai pas de nouvelles demain, vous
                     pourrez m'adresser votre premiere lettre aux petites-maisons. Qu'elle est
                     heureuse, mon cher Alfred! Elle n'aime rien... mais est-on heureux de n' aimer
-                    rien? ... non, oh, non. Lettre 42. <hi rend="italic"> dimanche au soir. </hi>
-                    j'ai été aujourd'hui dîner à huit milles de Londres avec deux dames catholiques
+                    rien? ... non, oh, non. Lettre 42.
+     <hi rend="italic">
+      dimanche au soir.
+     </hi>
+     j'ai été aujourd'hui dîner à huit milles de Londres avec deux dames catholiques
                     qui se sont retirées dans cette espece de couvent françois, nouvellement toléré:
                     cela peut passer pour un monastere, quoique les religieuses soient en habit
                     séculier. La maison est belle, et remplie de jeunes demoiselles irlandoises.J'
@@ -814,13 +1023,21 @@
                     amie est malheureuse, malheureuse par lui. Avecce petit projet, nous avancions
                     vers Londres, et le coeur me battoit bien fort. Aurai-je une lettre, disois-je à
                     sir Thomas? Vous irez voir si j'ai une lettre. Il y a été. Je n'en ai point:
-                    hélas! Je n'en ai point. <hi rend="italic"> à minuit. </hi> je suis tout-à-fait
+                    hélas! Je n'en ai point.
+     <hi rend="italic">
+      à minuit.
+     </hi>
+     je suis tout-à-fait
                     triste, mon cher Alfred; cette lettre qui n'est point venue... mon dieu,
                     pourquoi n'est-elle pas venue? Ah! L'absence est le poison de l'amour; elle
                     détruit tous ses plaisirs. Adieu, je vais me mettre au lit; et ce portrait qui
                     rit, je ne puis le souffrir ce soir; son air gai m' indigne; il passera la nuit
                     dans le tiroir, pour lui apprendre à me montrer de la joie quand je suis de
-                    mauvaise humeur. Lettre 43. <hi rend="italic"> lundi. </hi> je l'ai repris, ce
+                    mauvaise humeur. Lettre 43.
+     <hi rend="italic">
+      lundi.
+     </hi>
+     je l'ai repris, ce
                     portrait, je lui ai pardonné; il faut bien que je l'aime, puisque je n'ai que
                     lui. Je vous y trouve, parce que je vous cherche, parce que je vous desire; il
                     est après tout l'objet qui vous retrace le mieux à mes yeux. Ah! Tout vous
@@ -829,8 +1046,11 @@
                     me plaît! Hélas, mes plus tendres baisers ne l'animent point! Il est toujours le
                     même, insensible à toutes mes caresses: la froide image ne me les rend point...
                     est-ce là cet amant passionné, ardent, qu'un seul regard rend si vif, si
-                    obstiné? ... ah, que n'est-ce lui! Lettre 44. <hi rend="italic"> mardi à minuit.
-                    </hi> que puis-je vous dire, dans la position où je suis? Après avoir attendu ce
+                    obstiné? ... ah, que n'est-ce lui! Lettre 44.
+     <hi rend="italic">
+      mardi à minuit.
+     </hi>
+     que puis-je vous dire, dans la position où je suis? Après avoir attendu ce
                     jour avec tant d'impatience, le voir finir sans recevoir cette lettre si
                     desirée; ne savoir que penser, n'oser vous condamner dans la crainte d'être
                     injuste; m'inquiéter, me chagriner, c'est tout ce que je puis faire. Ah!
@@ -849,7 +1069,11 @@
                     plaisirs qu'il m'a donnés! Il y a huit jours que je vous écrivois; mais quelle
                     différence! Je parlois à un amant dont je croyois être adorée. à qui est-ce que
                     je parle à présent? Je ne vous connois plus; non, milord, je ne vous connois
-                    plus. Lettre 45. <hi rend="italic"> mercredi à six heures du soir. </hi> on
+                    plus. Lettre 45.
+     <hi rend="italic">
+      mercredi à six heures du soir.
+     </hi>
+     on
                     prend vivement votre parti; Miss Betzi ne veut pas que vous ayiez tort; elle ne
                     conçoit pas que vous puissiez avoir tort: elle vous défend, me gronde; je suis
                     la malheureuse,et c'est vous qu'on plaint, qu'on excuse... pauvre petit!
@@ -863,7 +1087,11 @@
                     c'est un paresseux, un négligent, un... tout ce qu' on peut être de pis. Adieu,
                     milord. Votre grace veut-elle recevoir mes humbles complimens? ... ho! Je vois
                     bien la mine que vous faites; mais je ne m'en soucie guere, entendez-vous?
-                    Lettre 46. <hi rend="italic"> à minuit, toujours mercredi. </hi> on est bien
+                    Lettre 46.
+     <hi rend="italic">
+      à minuit, toujours mercredi.
+     </hi>
+     on est bien
                     fier, bien content, bien heureux, quand on n'a point de reproches à se faire,
                     quand on peut se dire: je ne mérite pas ceux dont on m'accable. J'éprouve
                     l'injusticedes autres. On attend une impertinente maîtresse à ses genoux, on lui
@@ -875,12 +1103,18 @@
                     éclairci les nuages de l'humeur qui me dominoit, de cette humeur qui m'a fait
                     vous écrire avec froideur et indifférence. Ah! Je vous en prie, brûlez bien vîte
                     cette lettre: n'en gardez jamais une où vous ne trouverez pas des assurances de
-                    mon amour. Ai-je pu douter d'un coeur si tendre, de cet amant qui me dit: <hi
-                        rend="italic"> ô ma belle, ô ma chere maîtresse! Aimez-moi, aimez-moi, si
-                        vous voulez que je vive </hi> ! Ah, si je le veux! Ah, si je vous aime! Mais
+                    mon amour. Ai-je pu douter d'un coeur si tendre, de cet amant qui me dit:
+     <hi rend="italic">
+      ô ma belle, ô ma chere maîtresse! Aimez-moi, aimez-moi, si
+                        vous voulez que je vive
+     </hi>
+     ! Ah, si je le veux! Ah, si je vous aime! Mais
                     je ne mérite pas de vous le dire, j'en suis indigne: je ne vous le dirai pas,
-                    c'est une pénitence que j'impose à mon coeur.Lettre 47. <hi rend="italic">
-                        vendredi matin. </hi> je suis triste, mon cher Alfred, et tout me le paroît
+                    c'est une pénitence que j'impose à mon coeur.Lettre 47.
+     <hi rend="italic">
+      vendredi matin.
+     </hi>
+     je suis triste, mon cher Alfred, et tout me le paroît
                     depuis que je ne vous vois plus. Un amant aimé embellit tout; il répand
                     l'agrément dans les lieux qu'on habite, sur les personnes qu'on voit; il prête
                     sa grace à tous les objets qui nous environnent; le charme inexprimable attaché
@@ -899,12 +1133,19 @@
                     comme... comme ses amoureux, en vérité. Mais elle me dit que vous m'aimez, que
                     j'ai raison de vous adorer, que jamais folie ne fut plus pardonnable, et
                     là-dessus je l'embrasse. Adieu, mon aimable, mon tendre ami. Adieu, mon cher
-                    Alfred. Lettre 48. <hi rend="italic"> vendredi à minuit. </hi> j'ai dîné chez
+                    Alfred. Lettre 48.
+     <hi rend="italic">
+      vendredi à minuit.
+     </hi>
+     j'ai dîné chez
                     ladi Vorthi. En rentrant, j'ai trouvé la charmante miss qui m'attendoit. J'ai vu
                     votre lettre dans ses yeux; elle me l'a remise avec une joie que l'amitié seule
                     peut donner, et qu'elle seule aussi peut comprendre. Miss reçoit tous les
-                    complimens de milord, et lui en rend mille. Elle répond à votre anecdote d' <hi
-                        rend="italic"> Iphis: plût au ciel qu'il l' imitât </hi> ! Cela vous
+                    complimens de milord, et lui en rend mille. Elle répond à votre anecdote d'
+     <hi rend="italic">
+      Iphis: plût au ciel qu'il l' imitât
+     </hi>
+     ! Cela vous
                     paroît-il assez tigre? à sa place je dirois comme elle: il est fâcheux d'être
                     aimée, quand on n' aime point; de sentir qu'on fait à quelqu'un une peine
                     violente, qu'on ne peut soulager, qu'on aigrit par la fierté, qu' on entretient
@@ -923,16 +1164,27 @@
                     de la joie. Hé! Quelle joie! Qu'elle étoit pure! Qu'elle étoit vraie! Que ne
                     puis-je te la faire oublier, pour te la donner encore! Ah! Mon cher Alfred,
                     pourquoi ne me reste-t-il plus rien à faire pour ton bonheur! Vous me priez
-                    d'écrire quatre pages où il n'y ait que ces mots, <hi rend="italic"> je t'aime,
-                        je te desire: </hi> ah! Si je m'en croyois, je les répéterois tant, que vous
-                    vous lasseriez peut-être de les lire.Lettre 49. <hi rend="italic"> samedi à
-                        minuit. </hi> vous croyez, mon cher Alfred, que je vais vous écrire. Point
+                    d'écrire quatre pages où il n'y ait que ces mots,
+     <hi rend="italic">
+      je t'aime,
+                        je te desire:
+     </hi>
+     ah! Si je m'en croyois, je les répéterois tant, que vous
+                    vous lasseriez peut-être de les lire.Lettre 49.
+     <hi rend="italic">
+      samedi à
+                        minuit.
+     </hi>
+     vous croyez, mon cher Alfred, que je vais vous écrire. Point
                     du tout, je vais me coucher: je suis accablée, ma tête ne se prête point à mes
                     desirs; elle se fait sentir si vivement, que si je vous aimois moins, je ne
                     senterois qu'elle; mais rien ne peut affoiblir le sentiment qui me fait songer à
                     vous. Adieu. Pensez à moi, aimez-moi, aimez-moi bien. Je vous aime, je vous
-                    aimerai toujours, j'aurai toujours du plaisir à vous aimer. Lettre 50. <hi
-                        rend="italic"> dimanche matin. </hi> je me porte mieux, ma tête est
+                    aimerai toujours, j'aurai toujours du plaisir à vous aimer. Lettre 50.
+     <hi rend="italic">
+      dimanche matin.
+     </hi>
+     je me porte mieux, ma tête est
                     débarrassée, et je commence le jour par vous donner des preuves de ma tendresse:
                     je voudrois l'employer tout entier à vous écrire. Que ne puis-je m'enfermer, ne
                     voir personne! Cette porte s'ouvre, on annonce: qui? Un importun. Qui que ce
@@ -945,7 +1197,11 @@
                     mon existence même. Qu'avez-vous donc fait pour me lier si fortement, pour
                     m'arracher à tout ce qui n'est point vous? Quoi! Pas un instant, pas une idée,
                     pas la moindre distraction! ... oh! Mon cher Alfred, m'aimez-vous de même.
-                    Lettre 51. <hi rend="italic"> dimanche à minuit. </hi> il est donc des momens
+                    Lettre 51.
+     <hi rend="italic">
+      dimanche à minuit.
+     </hi>
+     il est donc des momens
                     où, dans l'absence de ce qu'il aime, un coeur tendre peut se livrer à la joie.
                     Oh! Que j'en ai ressenti à la vue de ces deux feuilles remplies de témoignages
                     de ton amour! Avec quelles délices je les ai parcourues! Je n'osois respirer, de
@@ -958,13 +1214,20 @@
                     magnifique? Cette couronne refusée à celles qui la demandoient, qui se
                     disputoient l'honneur de l'obtenir, de la recevoir de ta main, est donc offerte
                     à ta maîtresse? Qu'elle est brillante à ses yeux! Mon dieu, que ces riens ont de
-                    prix! L'amour en compose ses trésors... <hi rend="italic"> là est un baiser...
-                    </hi> il n'y est plus, il n'y est plus, ce baiser, mon cher Alfred, il y en a
+                    prix! L'amour en compose ses trésors...
+     <hi rend="italic">
+      là est un baiser...
+     </hi>
+     il n'y est plus, il n'y est plus, ce baiser, mon cher Alfred, il y en a
                     mille à présent... non, vous ne m'avez jamais écrit avec ce feu... j'ai mis tout
                     mon visage sur ce papier, qui a été dans tes mains. Je croyois t'entendre me
                     parler, voir cette mine aimable, cette bouche dont le silence aussi doux que les
                     expressions, plus animé peut-être... ah! Que je t'aime! Faut-il que je ne puisse
-                    que te l' écrire! Lettre 52. <hi rend="italic"> lundi à midi. </hi> c'est donc à
+                    que te l' écrire! Lettre 52.
+     <hi rend="italic">
+      lundi à midi.
+     </hi>
+     c'est donc à
                     votre réveil que vous recevez mes lettres! à votre réveil, mon cherAlfred! Mon
                     dieu, que j'aimerois à vous réveiller! J'approcherois sans bruit, j'ouvrirois
                     doucement le rideau, je passerois mon bras sous votre tête: un baiser... ah,
@@ -980,7 +1243,10 @@
                     générosité, pour vous faciliter, tous ceux que je prendrai, je les compterai
                     pour deux, si vous le voulez... le voudrez-vous, mon cher Alfred? J'espere que
                     milord est trop juste, trop noble... oh! Non, tu ne le voudras pas.Lettre 54.
-                        <hi rend="italic"> mardi à six heures du soir. </hi> pendant que miss Betzi
+     <hi rend="italic">
+      mardi à six heures du soir.
+     </hi>
+     pendant que miss Betzi
                     assure sir Thomas de son indifférence, de sa parfaite indifférence, qu'elle lui
                     dit de son air le plus riant, le plus satisfait, qu'elle ne l'aime point,
                     qu'elle ne l'aimera jamais; tandis qu'il fait la mine d'un ours qu'on a trop
@@ -998,12 +1264,18 @@
                     Je ne l' aurai point, ce que je veux! Je suis trop sûre de ne point l'avoir! ...
                     sept heures, point de lettre! Est-ce que je n'en aurai point ce soir? Miss Betzi
                     dit que je me renfrogne à vue d'oeil; que je prends l'air d'une vertu qui
-                    s'appuie sur un tombeau: elle rit. Hélas! Je ne saurois rire. <hi rend="italic">
-                        à neuf heures du soir. </hi> me voilà retombée dans mes premiers chagrins,
+                    s'appuie sur un tombeau: elle rit. Hélas! Je ne saurois rire.
+     <hi rend="italic">
+      à neuf heures du soir.
+     </hi>
+     me voilà retombée dans mes premiers chagrins,
                     je n'ai point de lettre. Mais d'où vient donc que je n'en ai pas? Je ne
                     m'accoutume point à ces retards, ils m'affligent. Je soupe chez ladi Vorthi: je
-                    suis d'une humeur contre vous! ... paix: ne me parlez de votre vie. <hi
-                        rend="italic"> à une heure du matin. </hi> je reviens à vous, mon cher
+                    suis d'une humeur contre vous! ... paix: ne me parlez de votre vie.
+     <hi rend="italic">
+      à une heure du matin.
+     </hi>
+     je reviens à vous, mon cher
                     Alfred, un penchant naturel m'y ramene. Quelle que soit mon humeur, elle ne va
                     pas jusqu'à diminuer ma tendresse: j'aime à penser que vous n'avez pas tort. On
                     me gronde quand je me plains de vous, on prend votre parti, on vous aime, on
@@ -1022,7 +1294,11 @@
                     mais c'est ce courrier, ce maudit courrier, qui s'amuse à se casser le cou,
                     plutôt que d' apporter ma lettre: je voudrois que le traître fût au fond de la
                     Tamise; mais non, je perdrois ma lettre. Adieu, adieu donc, mon cher amant.
-                    Lettre 57. <hi rend="italic"> mercredi. </hi> la douceur avec laquelle vous
+                    Lettre 57.
+     <hi rend="italic">
+      mercredi.
+     </hi>
+     la douceur avec laquelle vous
                     répondez à mes reproches augmente bien le regret quej'ai déjà senti d'avoir pu
                     vous les faire. Votre justification m'a touchée, attendrie jusqu'aux larmes. Je
                     voudrois retrancher de ma vie tous les instans où je pourrai vous causer la plus
@@ -1039,7 +1315,11 @@
                     coeur, cette ame que j'adore: eh! Pourquoi me les cachiez-vous? De quels biens
                     m'avez-vous privée! Que de jours perdus pour l'amour! Eh bien, mon cher Alfred,
                     c'est encore une dette, et je ne me sens point assez de générosité pour vous la
-                    remettre. <hi rend="italic"> toujours mercredi à minuit. </hi> je suis d'une
+                    remettre.
+     <hi rend="italic">
+      toujours mercredi à minuit.
+     </hi>
+     je suis d'une
                     colere, d'une indignation: devinez... mais, qui pourroit l'imaginer! Sir
                     Barclay, ce vilain lord, si petit, si rond, si laid, si sot: et bien, milord, il
                     aura demain votre habit, cet habit si admiré, si envié, cet habit que j'aime
@@ -1051,8 +1331,11 @@
                     habit: j'y mets le feu; oui, je l'y mettrai; tant pis pour qui sera dedans. Lui
                     convient-il de se mettre comme vous? Est-il digne d'être votre singe? Adieu, mon
                     cher Alfred, je vais dormir. Ah! Si je pouvois rêver! ... pourquoi non? ... vous
-                    rêvez bien, vous. Hélas! Je ne vous vois pas même en songe. Lettre 53. <hi
-                        rend="italic"> jeudi à trois heures. </hi> je viens de trouver une position
+                    rêvez bien, vous. Hélas! Je ne vous vois pas même en songe. Lettre 53.
+     <hi rend="italic">
+      jeudi à trois heures.
+     </hi>
+     je viens de trouver une position
                     pour votre portrait, dans laquelle il vous ressemble tant,que j'ai cru vous
                     voir. Je vous disois bien qu'il se feroit aimer... en relisant votre derniere
                     lettre, je trouve dans votre style un peu de tristesse. Ah! Ne vous y abandonnez
@@ -1071,8 +1354,11 @@
                     malheureuse, bien malheureuse, en vérité, puisqu'elle a un caractere inflexible,
                     qui ne lui a jamais permis de goûter les plaisirs de l'amitié. Mais qu'est-ce
                     donc que cette lettre? Est-ce à mon amant que j'écris? Non, c'est à mon ami, à
-                    mon plus cher, à mon plus tendre ami.Lettre 59. <hi rend="italic"> vendredi.
-                    </hi> je voudrois ne vous point écrire, parce que je suis triste; mais je vous
+                    mon plus cher, à mon plus tendre ami.Lettre 59.
+     <hi rend="italic">
+      vendredi.
+     </hi>
+     je voudrois ne vous point écrire, parce que je suis triste; mais je vous
                     écris parce que je vous aime; au hasard d' être un peu grave, un peu fâcheuse
                     même. La maladie de ma tante m'afflige. Je ne l'aime pourtant pas, il n'est pas
                     possible que je l'aime; mais elle souffre, elle me fait une véritable
@@ -1098,7 +1384,10 @@
                     semble qu'alors chaque jour nous rapprocheroit davantage. Quand on est à la
                     moitié du chemin qu'on doit faire, on marche vers la fin, il paroît qu'on avance
                     bien plus. Adieu, adieu, mon cher amant, adieu tout ce que j'aime. Lettre 60.
-                        <hi rend="italic"> samedi. </hi> voilà des lettres bien ennuyeuses, mon cher
+     <hi rend="italic">
+      samedi.
+     </hi>
+     voilà des lettres bien ennuyeuses, mon cher
                     Alfred; mais mon style est toujours assujetti aux impressions que mon ame
                     reçoit. Jene saurois prendre un ton que je serois forcée d'étudier; et puis vous
                     m'avez permis de répandre dans votre sein mes peines et mes plaisirs. Mon coeur
@@ -1121,9 +1410,16 @@
                     m'aimez; je ne me lasse point de vous l'entendre répéter. Que j'aime vos
                     lettres, la main qui les écrit, ton esprit, ton coeur, ton toi! Ah! Quand te
                     verrai-je? Quand pourrai-je te presser contre mon sein, reposer ma tête sur le
-                    tien? Adieu. Ah! Le vilain mot! Le dirai-je toujours! Lettre 61. <hi
-                        rend="italic"> dimanche à sept heures du soir. </hi> vous vous souvenez
-                    toujours de mes reproches, de mes <hi rend="italic"> injustes reproches </hi> .
+                    tien? Adieu. Ah! Le vilain mot! Le dirai-je toujours! Lettre 61.
+     <hi rend="italic">
+      dimanche à sept heures du soir.
+     </hi>
+     vous vous souvenez
+                    toujours de mes reproches, de mes
+     <hi rend="italic">
+      injustes reproches
+     </hi>
+     .
                     Est-ce ainsi que vous pardonnez, mon cher Alfred? J'aime mieux vous le payer: ne
                     me grondez plus. Votre lettre a fait rester ladi Vorthi un peu de tems à ma
                     porte. Elle venoit me prendre pour faire une visite: elle étoit si pressée, si
@@ -1168,8 +1464,12 @@
                     vais me coucher, et toujours avec ce portrait qui ne dit pasun mot, et qui
                     pourtant me regarde comme s' il avoit quelque chose à me dire. Je ne vous
                     écrirai pas demain. Je vais à Hamstead; il sera tard quand je reviendrai, car
-                    j'y souperai. Lettre 63. <hi rend="italic"> lundi, ou plutôt mardi à deux heures
-                        du matin. </hi> quoi! Mon cher Alfred, je passerois tout un jour sans vous
+                    j'y souperai. Lettre 63.
+     <hi rend="italic">
+      lundi, ou plutôt mardi à deux heures
+                        du matin.
+     </hi>
+     quoi! Mon cher Alfred, je passerois tout un jour sans vous
                     dire que je vous aime! Je me livrerois au sommeil plutôt qu'à vous! Je
                     préférerois mon repos à mon amant, à mon cher amant! Non, je veux te parler, te
                     dire... hélas! Ce que je t'ai dit mille fois. Quelles nouvelles assurances,
@@ -1179,7 +1479,11 @@
                     m'entends pas: tu me répondrois; je ne parlerois plus, je n'aurois plus la force
                     de parler. Déjà dans tes bras, déjà... mais tu n'y es pas. Ah! Dieu, tu n'y es
                     pas! Bon soir, bon soir, mon aimable ami, bon soir. Adieu toi, adieu tout le
-                    monde.Lettre 64. <hi rend="italic"> mardi à trois heures. </hi> je suis au coin
+                    monde.Lettre 64.
+     <hi rend="italic">
+      mardi à trois heures.
+     </hi>
+     je suis au coin
                     de mon feu, en bonnet de nuit, de nuit exactement. Jamais ennui ne fut
                     comparable à celui que je sens; si j'avois pu le prévoir, je n'aurois point
                     aimé... allons, paix, taisez-vous, laissez-moi dire; c'est bien le moins qu'il
@@ -1202,8 +1506,12 @@
                     consulter votre goût dans cette occasion. Mais je voulois vous gronder, vous
                     faire un train épouvantable: je ne sais comment, j'ai tout oublié, excepté mon
                     amour: il n'en fut jamais de plus tendre, de plus sincere, de plus ardent; mais
-                    vous n'en doutez pas, mon cher Alfred. Lettre 65. <hi rend="italic"> mercredi
-                        matin. </hi> me voilà donc à cette moitié, à cette heureuse moitié que j'ai
+                    vous n'en doutez pas, mon cher Alfred. Lettre 65.
+     <hi rend="italic">
+      mercredi
+                        matin.
+     </hi>
+     me voilà donc à cette moitié, à cette heureuse moitié que j'ai
                     tant desirée! Hélas, que de jours encore! J'en voudrois passer deux à la fois.
                     Miss Betzi dit que je n'irai jamais jusqu'à la fin, que je mourrai d'une belle
                     langueur; que l'impatience, l'ennui et la passion me tueront tout aussi bien
@@ -1222,8 +1530,11 @@
                     modele un peu sur vous, chante; en vérité il chante! Il a pris un maître
                     italien, pour lui donner du goût. Il a beau faire, il ne chantera pas l-s-d-l...
                     que cette ariette me charmoit quand vous la chantiez! Qu'elle pénétroit mon ame!
-                    Hélas, je suis privée de tout! Oui, de tout. <hi rend="italic"> à minuit. </hi>
-                    vos lettres que je me plais à relire, me font découvrir dans mon coeur une
+                    Hélas, je suis privée de tout! Oui, de tout.
+     <hi rend="italic">
+      à minuit.
+     </hi>
+     vos lettres que je me plais à relire, me font découvrir dans mon coeur une
                     source de tendresse que je n'y avois jamais apperçue. Eh, qui m'eût dit, qui
                     m'eût persuadée qu'il étoit dans le monde un homme si aimable,si digne d' être
                     aimé! Il falloit vous connoître pour le croire, pour le sentir. D'où vient que
@@ -1239,8 +1550,11 @@
                     que mon coeur s'émeut quand je pense à ce retour! ... quoi! Le voir, lui, sir
                     Charles, l'embrasser, lui parler, l'écouter, le toucher, presser ses mains dans
                     les miennes! ... ah, que n'est-ce demain! Que n'est-ce tout à l'heure! Lettre 66
-                        <hi rend="italic"> samedi à minuit. que je lise ces lettres avec le même
-                        plaisir que vous en ressentez à les écrire. </hi> eh! N'endoutez point, mon
+     <hi rend="italic">
+      samedi à minuit. que je lise ces lettres avec le même
+                        plaisir que vous en ressentez à les écrire.
+     </hi>
+     eh! N'endoutez point, mon
                     cher Alfred. Moi, je les trouverois longues? Si je ne dis rien quand je ne
                     reçois qu'une feuille, c'est que mon coeur ne veut point gêner le vôtre; mais si
                     vous saviez combien je suis contente quand j'en vois deux, combien je vous sais
@@ -1267,10 +1581,18 @@
                     avec moi: miss Betzi embellira bien cette folie qui m'a prise un jour. Ah! Je ne
                     m'éloigne jamais de vous; votre idée m'accompagne par-tout: le cercle des
                     miennes est borné à ce qui vous concerne, à ce qui vous plaît, à ce qui vous
-                    intéresse. <hi rend="italic"> tu m'as enveloppée dans un tourbillon; </hi> je
+                    intéresse.
+     <hi rend="italic">
+      tu m'as enveloppée dans un tourbillon;
+     </hi>
+     je
                     n'en sors point; je n'en veux point sortir. Entraîne-moi toujours: où serois-je
-                    mieux qu'avec toi? Adieu, ma mie. Lettre 67. <hi rend="italic"> dimanche à
-                        minuit. </hi> vous êtes bien bon, mon cher Alfred, de relire si souvent mes
+                    mieux qu'avec toi? Adieu, ma mie. Lettre 67.
+     <hi rend="italic">
+      dimanche à
+                        minuit.
+     </hi>
+     vous êtes bien bon, mon cher Alfred, de relire si souvent mes
                     lettres: si je les relisois, moi, vous n'en auriez pas de si longues, vous n'en
                     auriez pas si souvent. Jecroyois, quand vous partîtes, que je vous écrirois des
                     folies, des choses amusantes, de jolies choses: mais cette plume brillante et
@@ -1300,8 +1622,11 @@
                     m'en consoler. Une estime si sincere, tant de crédulité pour vos discours, tant
                     de confiance, d'amitié... ah! Sir Charles, est-il possible que vous vous
                     étonniez! ... quoi! Vous faire un mérite? ... en vérité vous ne deviez pas
-                    m'écrire cela; il ne falloit ni le penser, ni le dire. Lettre 68. <hi
-                        rend="italic"> lundi à midi chez miss Betzi. </hi> ma confiance est toujours
+                    m'écrire cela; il ne falloit ni le penser, ni le dire. Lettre 68.
+     <hi rend="italic">
+      lundi à midi chez miss Betzi.
+     </hi>
+     ma confiance est toujours
                     la même, mon cher Alfred; je me hâte de vous le dire, de peur que vous ne me
                     grondiez. Je n'ai pas raison; j'ai tort peut-être, j'espere que j'ai tort. Que
                     je suis folle! Miss Betzi le dit. Elle vous conseille de me bien laver la tête;
@@ -1336,7 +1661,11 @@
                     Aime-moi par bonté, par devoir, par reconnoissance, parce que tu ne peux aimer
                     personne qui ait pour toi un attachement plus tendre, plus vrai. Je suis un peu
                     impertinente; mais je suis sensible, sincere. Je t'aime, je t'adore; ah! Oui, de
-                    toute mon ame. Lettre 69. <hi rend="italic"> mardi à minuit. </hi> on dit que
+                    toute mon ame. Lettre 69.
+     <hi rend="italic">
+      mardi à minuit.
+     </hi>
+     on dit que
                     l'amour abaisse le courage; et moi je crois, mon cher Alfred, qu'il l' éleve,qu'
                     il en donne aux foibles: j'en fais l'expérience. C'est après sept heures des
                     plus violentes douleurs, que je trouve dans mon coeur la force de vous écrire,
@@ -1382,8 +1711,11 @@
                     l'assuroit l'autre jour que s'il étoit raisonnable, s'il ne lui montroit que de
                     l'amitié, elle ne le maltraiteroit point, et qu'il lui seroit tout aussi
                     indifférent qu'un autre. Voilà tout ce qu'il peut attendre de ses soins. Adieu
-                    ma mie, adieu toi, adieu mon aimable Alfred. Lettre 70. <hi rend="italic">
-                        toujours mardi à quatre heures du matin, dans mon lit. </hi> je ne saurois
+                    ma mie, adieu toi, adieu mon aimable Alfred. Lettre 70.
+     <hi rend="italic">
+      toujours mardi à quatre heures du matin, dans mon lit.
+     </hi>
+     je ne saurois
                     dormir; je reprends la plume, et c'est avec plaisir que je la reprends. Je finis
                     toujours mes lettres avec regret. Cesser de t'écrire, c'est te quitter, comme tu
                     le dis. Ah! C'est bien toi qui m'as quittée, quittée pour si long-tems! Pendant
@@ -1400,8 +1732,11 @@
                     voyant, tout le tems que j'aurai passé sans te voir? Ce premier moment
                     effacera-t-il le souvenir de cet ennui, de cette langueur? ... ah, s'il
                     l'effacera! ... reviens, reviens, mon aimable Alfred, reviens dans les bras de
-                    celle qui t'adore. Oh! Pour cette fois adieu tout-à-fait. Lettre 71 <hi
-                        rend="italic"> mercredi à trois heures après-midi. </hi> vous vous lassez
+                    celle qui t'adore. Oh! Pour cette fois adieu tout-à-fait. Lettre 71
+     <hi rend="italic">
+      mercredi à trois heures après-midi.
+     </hi>
+     vous vous lassez
                     donc, milord, d'avoir une cour, de représenter, de punir, de récompenser, et
                     d'essuyer de longs complimens? Je voudrois être dans votre antichambre quandmidi
                     sonne. Supposons que j'y sois, daignerez-vous m'accorder une audience
@@ -1438,11 +1773,19 @@
                     reverrai; c'est une émotion si vive quand j'y pense! Oh!Je perds la tête, en
                     vérité je la perds! Quoi! Tu seras là; mes yeux en se levant rencontreront les
                     tiens; je ne ferai pas un seul mouvement qui ne t'intéresse; j'entendrai cette
-                    voix douce, harmonieuse, me dire: <hi rend="italic"> que veux-tu? ... que
-                        desires-tu? ... </hi> mon cher Alfred, si tu savois, je ne puis plus écrire;
+                    voix douce, harmonieuse, me dire:
+     <hi rend="italic">
+      que veux-tu? ... que
+                        desires-tu? ...
+     </hi>
+     mon cher Alfred, si tu savois, je ne puis plus écrire;
                     mon coeur agité, pressé... ah! Reviens, reviens donc. Mon dieu, que vous êtes
                     aimé! S'il est un sentiment plus fort que l'amour, que ce que le vulgaire
-                    appelle <hi rend="italic"> amour </hi> , je le sens pour toi. Aimer, adorer,
+                    appelle
+     <hi rend="italic">
+      amour
+     </hi>
+     , je le sens pour toi. Aimer, adorer,
                     foibles expressions qui ne rendent point les transports d'une passion si
                     tendre... ah, si tu étois là! Si tu y étois, mon cher Alfred, mon cher, mon
                     adorable amant! Je crois... oui, je crois que je trouverois un moyen de te
@@ -1472,8 +1815,14 @@
                     coeurs durs, méprisables, des ames basses... ils sont causeque la bonté est
                     regardée comme une vertu... mais, mon cher Alfred, il dure donc encore ce mois?
                     Il durera donc toujours? Quoi! Pas un mot de votre retour! Ah, la maudite
-                    province! Que je la hais! <hi rend="italic"> elle vous </hi>
-                    <hi rend="italic"> ennuie; </hi> elle me tue, moi. Je n'ose vous dire combien
+                    province! Que je la hais!
+     <hi rend="italic">
+      elle vous
+     </hi>
+     <hi rend="italic">
+      ennuie;
+     </hi>
+     elle me tue, moi. Je n'ose vous dire combien
                     votre absence me chagrine, je ne puis plus la supporter; non, en vérité. J'ai
                     déjà eu deux ou trois attaques de cette maladie qui m'a fait tant de peur, de la
                     catalepsie. Oh! Je l'aurai sûrement; mon coeur est déjà fixé, le reste ne tient
@@ -1654,8 +2003,12 @@
                     capable d'un attachement si tendre, quand on fait consister son bonheur dans un
                     seul objet! Mais qu'il est doux de trouver dans cet objet un amant digne de tout
                     ce qu'on ressentpour lui! Oh! Que j'aime cette attention aimable qui te fait
-                    tout quitter pour moi, pour écrire à ta maîtresse, <hi rend="italic"> pour
-                        obliger ta chere maîtresse </hi> ! Comment reconnoître tes soins, ta
+                    tout quitter pour moi, pour écrire à ta maîtresse,
+     <hi rend="italic">
+      pour
+                        obliger ta chere maîtresse
+     </hi>
+     ! Comment reconnoître tes soins, ta
                     tendresse? Que ferai-je pour mon cher Alfred? Hélas que pourrai-je faire! Si tu
                     l'avois voulu, j'aurois une récompense à te donner, un prix à t'accorder: je
                     voulois te le garder; mais... mais voilà ce que c'est que d'être si pressé! ...
@@ -1715,7 +2068,11 @@
                     mal-adroit, de gauche, ne s'accordent guere avec la délicatesse des propos qu'on
                     tient à son amant... cela recommence, je vais m'en mêler... adieu, je ne vous
                     dirois que des impertinences; car je prens volontiers le ton des autres. à ce
-                    soir. <hi rend="italic"> à minuit. </hi> ah! De quelle joie votre lettre a
+                    soir.
+     <hi rend="italic">
+      à minuit.
+     </hi>
+     ah! De quelle joie votre lettre a
                     pénétré mon coeur! Quoi! Parti pour ***? Vous êtes déjà plus près de moi? Vous
                     serez ici le quatre? Que cette nouvelle est charmante! Vousavez compté toutes
                     les minutes que vous devez encore passer sans me voir: le calcul est juste. ô
@@ -1728,14 +2085,21 @@
                     n'y faut pas penser! ... c'est une attente... un espoir! ... non, je ne
                     dormirois plus, si j'y songeois... que cette lettre m' a charmée! Quelle bonté!
                     Mon cher Alfred s'excuse, lui qui devroit se plaindre: je craignois des
-                    reproches, je ne trouve que des assurances de sa tendresse. <hi rend="italic">
-                        il est mon esclave; il est aux pieds de sa souveraine: ses chaînes sont
-                        douces; il les préfere à la liberté, à l'empire du monde. </hi> à mes pieds,
+                    reproches, je ne trouve que des assurances de sa tendresse.
+     <hi rend="italic">
+      il est mon esclave; il est aux pieds de sa souveraine: ses chaînes sont
+                        douces; il les préfere à la liberté, à l'empire du monde.
+     </hi>
+     à mes pieds,
                     toi! Ah! Viens dans mes bras, viens-y prendre de nouveaux fers, et que leur
                     légéreté, ne t'engage jamais à les rompre. Mon dieu, que je t'aime! Je t'aimerai
                     toute ma vie, je t'aimerai après ma mort. Oui, sans doute, puisque mon ame est
                     immortelle. Adieu, adieu, mon cher Alfred; adieu, mon aimable ami; adieu, toi,
-                    toi, que j'adore! <hi rend="italic"> à trois heures du matin. </hi> quoi, je ne
+                    toi, que j'adore!
+     <hi rend="italic">
+      à trois heures du matin.
+     </hi>
+     quoi, je ne
                     dormirai point? Quoi! Tu ne me laisseras pas dormir? Je penserai toujours à toi?
                     Mais que voulez-vous, mon cher petit? Je vous ai écrit chez miss; je vous ai
                     écrit ce soir; j'ai relu dix fois votre lettre; j'ai fait milles caresses à
@@ -1813,8 +2177,11 @@
                     tort; vous êtes surpris que vos caresses ne soient pas plus puissantes sur mon
                     coeur. Quel reproche, mon cher Alfred! Si elles n'ont pu détruire la triste
                     impression que m'avoit fait un discours tenu sans dessein, devez-vous en
-                    conclure que je suis moins sensible, et m'accuser de défiance? <hi rend="italic"
-                        > tu connois le coeur de ton amant, et tu crains! </hi> non, je ne crains
+                    conclure que je suis moins sensible, et m'accuser de défiance?
+     <hi rend="italic">
+      tu connois le coeur de ton amant, et tu crains!
+     </hi>
+     non, je ne crains
                     pas: qui pourroit autoriser ma crainte? Qui vous engageroit à feindre avec moi,
                     à me tromper, à vous imposer à vous-même une indigne contrainte? Vous
                     supposerois-je de la bassesse, de la fausseté? Ce trouble dont je ne puis me
@@ -1824,10 +2191,18 @@
                     suis comme un vaporeux, qui, jouissant d'une santé parfaite, à force de s'en
                     occuper, envisage à chaque instant tous les maux qui peuvent la détruire, et
                     voit la mort, sans que rien lui en découvre les approches... vous vous plaignez
-                    de mes regards; vous trouvez qu'ils ne sont plus ceux d' <hi rend="italic"> une
-                        maîtresse tendre qui contemple avec plaisir </hi> celui qu'elle aime; mais
-                    ceux d'une femme <hi rend="italic"> inquiete qui cherche à pénétrer un homme
-                        qu'elle éprouve </hi> . Quel tems pour éprouver, mon cher Alfred! Que me
+                    de mes regards; vous trouvez qu'ils ne sont plus ceux d'
+     <hi rend="italic">
+      une
+                        maîtresse tendre qui contemple avec plaisir
+     </hi>
+     celui qu'elle aime; mais
+                    ceux d'une femme
+     <hi rend="italic">
+      inquiete qui cherche à pénétrer un homme
+                        qu'elle éprouve
+     </hi>
+     . Quel tems pour éprouver, mon cher Alfred! Que me
                     reviendroit-il de le faire? Si une seule de vos actions démentoit cette
                     noblesse, cette élévation de sentimens, cette candeur que j'ai cru trouver en
                     vous, cette affreuse découverte détruiroit mon amour sans doute; mais mon
@@ -1877,8 +2252,11 @@
                     une distinction flatteuse, sa confiance un éloge, et son estime un titre pour
                     prétendre à celle de tout le monde. Aussi suis-je comme cette arthénienne, qui
                     paroissant dans une assemblée de femmes fort ornées, répondit au reproche qu'on
-                    lui fit de s'y montrer en négligé: <hi rend="italic"> ma parure est mon mari
-                    </hi> . La mienne est mon amant, je suis plus parée qu'elle. Oui, mon cher
+                    lui fit de s'y montrer en négligé:
+     <hi rend="italic">
+      ma parure est mon mari
+     </hi>
+     . La mienne est mon amant, je suis plus parée qu'elle. Oui, mon cher
                     petit, ton amour est mon bien suprême. Mais que le mien m'est précieux! C'est un
                     présent de ta main, c'est un de tes bienfaits; tu te plais à faire des heureux.
                     Tu peux jouir d'un plaisir si noble quand tu vois ta maîtresse; tu peux te dire
@@ -1910,7 +2288,11 @@
                     plus me voir. Je vous estime trop pour m'imaginer que ce soit votre dessein; la
                     tendresse que vous m'avez inspirée, n'a pas besoin, pour subsister, des preuves
                     que vous en avez exigées: je puis vous aimer, sans porter d'atteinte aux
-                    nouveaux liens dont on veut <hi rend="italic"> vous charger </hi> . Eh! Qui a
+                    nouveaux liens dont on veut
+     <hi rend="italic">
+      vous charger
+     </hi>
+     . Eh! Qui a
                     donc le droit de vous en donner malgré vous? Mais je n'examine rien, je vous
                     aime encore; votre conduite m' apprendra si vous êtes digne d'une amie aussi
                     généreuse. Si vous manquez aux égards que vous me devez, je vous mépriserai
@@ -2099,9 +2481,15 @@
                     ai-je eu assez d'égards pour ne mettre jamais d'aigreur dans mes plaintes.
                     Adieu, milord, adieu pour jamais.Lettre 100. J'ai attendu plus d'un mois,
                     milord, l' effet de votre promesse. Un si long oubli me force d'insister, et de
-                    vous prier une seconde fois de me rendre ces lettres qui ne vous sont point <hi
-                        rend="italic"> cheres </hi> , qui ne peuvent vous être <hi rend="italic">
-                        cheres </hi> . Il faudroit vous supposer une façon de penser bien
+                    vous prier une seconde fois de me rendre ces lettres qui ne vous sont point
+     <hi rend="italic">
+      cheres
+     </hi>
+     , qui ne peuvent vous être
+     <hi rend="italic">
+      cheres
+     </hi>
+     . Il faudroit vous supposer une façon de penser bien
                     singuliere, pour imaginer que vous puissiez chérir des témoins qui déposent
                     contre vous, et ne flattent votre vanité qu'en dégradant votre coeur. Tant
                     d'autres femmes pouvoient vous en écrire de plus agréables: pourquoi m'avez-vous
@@ -2118,18 +2506,35 @@
                     amitié, à la plus légere marque de votre souvenir, c'est dans les papiers
                     publics que je vous l'adresse. Vous me reconnoîtrez: un style qui vous fut si
                     familier, qui flatta tant de fois votre vanité, n'est point encore étranger pour
-                    vous; mais vos yeux ne reverront jamais ces caracteres que vous nommiez <hi
-                        rend="italic"> sacrés </hi> , que vous baisiez avec tant d'ardeur, qui vous
+                    vous; mais vos yeux ne reverront jamais ces caracteres que vous nommiez
+     <hi rend="italic">
+      sacrés
+     </hi>
+     , que vous baisiez avec tant d'ardeur, qui vous
                     étoient si chers, et que vous m'avez fait remettre avec tant d'exactitude. Vous
-                    dites dans votre dernier billet, que <hi rend="italic"> vous m'êtes encore
-                        attaché par l'amitié la plus tendre </hi> . Mille graces, milord, de cet
+                    dites dans votre dernier billet, que
+     <hi rend="italic">
+      vous m'êtes encore
+                        attaché par l'amitié la plus tendre
+     </hi>
+     . Mille graces, milord, de cet
                     effort sublime; je dois beaucoup sans doute à la générosité de votre coeur,
                     puisqu'elle a pu vous défendre de la haine et du mépris pour une femme que vous
-                    avez si vivement offensée. Vous ne méritez pas, continuez-vous, <hi
-                        rend="italic"> l'épithete que je vous donne; vous ne fûtes jamais mon ennemi
-                    </hi> : vous avez l'audace de répéter que <hi rend="italic"> vous ne le fûtes
-                        jamais </hi> : vous osez meprier <hi rend="italic"> de ne point oublier un
-                        homme qui me fut cher </hi> . Non, milord, non, je ne l' oublierai point, je
+                    avez si vivement offensée. Vous ne méritez pas, continuez-vous,
+     <hi rend="italic">
+      l'épithete que je vous donne; vous ne fûtes jamais mon ennemi
+     </hi>
+     : vous avez l'audace de répéter que
+     <hi rend="italic">
+      vous ne le fûtes
+                        jamais
+     </hi>
+     : vous osez meprier
+     <hi rend="italic">
+      de ne point oublier un
+                        homme qui me fut cher
+     </hi>
+     . Non, milord, non, je ne l' oublierai point, je
                     ne l'oublierai jamais; un trait ineffaçable l'a gravé dans ma mémoire; mais je
                     ne m'en souviendrai que pour détester ses artifices. Tremblez, ingrat, je vais
                     porter une main hardie jusqu'au fond de votre coeur, en développer les replis
@@ -2263,8 +2668,9 @@
                     milord. Pour reconnoître en partie cette amitié si tendre, si sincere, que vous
                     me conservez, je souhaite que vous n'en ressentiez jamais pour quelqu'un qui
                     vous ressemble. Ce souhait doit vous convaincre que je suis capable de
-                    pardonner. </p>
-            </div>
-        </body>
-    </text>
+                    pardonner.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

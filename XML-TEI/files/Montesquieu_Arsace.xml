@@ -2,80 +2,129 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Montesquieu_Arsace" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:83.42 wikidata:Q19132875"> Arsace et Isménie : histoire orientale:
-                    MiMoText edition </title>
-                <author ref="viaf:27069096 wikidata:Q15975"> Montesquieu(1689-1755) </author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 14206 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Arsace et Isménie : histoire orientale</title>
-                    <author>Charles-Louis de Secondat, baron de La Brède et de Montesquieu</author>
-                    <date> 1949 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1755 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-06"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head> HISTOIRE ORIENTALE </head>
-                <p> Sur la fin du règne d'Artamène, la Bactriane fut agitée par les discordes
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:83.42 wikidata:Q19132875">
+     Arsace et Isménie : histoire orientale:
+                    MiMoText edition
+    </title>
+    <author ref="viaf:27069096 wikidata:Q15975">
+     Montesquieu(1689-1755)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     14206
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Arsace et Isménie : histoire orientale
+     </title>
+     <author>
+      Charles-Louis de Secondat, baron de La Brède et de Montesquieu
+     </author>
+     <date>
+      1949
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1755
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-06">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     HISTOIRE ORIENTALE
+    </head>
+    <p>
+     Sur la fin du règne d'Artamène, la Bactriane fut agitée par les discordes
                     civiles. Ce prince mourut accablé d'ennuis et laissa son trône à sa fille
                     Isménie. Aspar, premier eunuque du palais, eut la principale direction des
                     affaires. Il désiroit beaucoup le bien de l'état, et il désiroit fort peu le
@@ -930,8 +979,12 @@
                     offrir tous les coeurs de l'univers: il ne pouvoit lui apporter un trône, mais
                     des vertus capables de le remplir. Il croyoit que son amour devoit passer à la
                     postérité, et qu'il n'y passeroit jamais mieux qu'avec sa gloire. Il vouloit
-                    qu'on écrivît ces paroles sur son tombeau: <hi rend="italic"> Isménie a eu pour
-                        époux un roi chéri des mortels </hi> . Il disoit qu'il aimoit Aspar, son
+                    qu'on écrivît ces paroles sur son tombeau:
+     <hi rend="italic">
+      Isménie a eu pour
+                        époux un roi chéri des mortels
+     </hi>
+     . Il disoit qu'il aimoit Aspar, son
                     premier ministre, parce qu'il parloit toujours des sujets, plus rarement du roi,
                     et jamais de lui-même. Il a, disoit-il, trois grandes choses: l'esprit juste, le
                     coeur sensible et l'âme sincère. Arsace parloit souvent de l'innocence de son
@@ -1045,8 +1098,9 @@
                     rends grâces au ciel de ce qu'il a voulu que mon règne commençât par des
                     malheurs. L'adversité est notre mère; la prospérité n'est que notre marâtre.
                     Vous me proposez des querelles qui ne sont pas celles des rois. Laissons jouir
-                    le roi et la reine de Bactriane du bonheur de se plaire et de s'aimer. </p>
-            </div>
-        </body>
-    </text>
+                    le roi et la reine de Bactriane du bonheur de se plaire et de s'aimer.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

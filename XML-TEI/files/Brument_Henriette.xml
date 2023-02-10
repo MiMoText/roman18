@@ -1,101 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Brument_Henriette" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:68.17 wikidata:0">Henriette de Wolmar: MiMoText edition</title>
-                <author ref="viaf:0 wikidata:0">Brument(xxxx-xxxx)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>Universitäts- und Landesbibliothek Sachsen-Anhalt</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-                <respStmt>
-                    <resp>editor</resp>
-                    <name>Julia Röttgermann</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">20728</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2022</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>Henriette De Wolmar, Ou la Mere Jalouse De Sa Fille Histoire Veritable ;
-                        Pour servir de suite à la Nouvelle Héloise par J. J. R. </title>
-                    <ref target="https://opendata.uni-halle.de//handle/1981185920/44901"/>
-                    <publisher/>
-                    <date/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Henriette de Wolmar, ou la mere jalouse de sa fille, histoire veritable,
-                        Pour servir de suite à la Nouvelle Héloïse, Par J. J. R.</title>
-                    <author/>
-                    <pubPlace>Geneve</pubPlace>
-                    <pubPlace>Paris</pubPlace>
-                    <publisher>Delalain</publisher>
-                    <publisher>Valade</publisher>
-                    <date>1768</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1768</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="U" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2023-01-18">Initial ELTeC level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <p>HENRIETTE DE WOLMAR, OU LA MERE JALOUSE DE SA FILLE.</p>
-                <p>HENRIETTE</p>
-                <p>DE WOLMAR, OU LA MERE JALOUSE DE SA FILLE, HISTOIRE VERITABLE, Pour ſervir de
-                    ſuite à la Nouvelle Héloiſe, Par J.J. R.</p>
-                <p>Il eſt des forfaits, Que les Dieux en courroux ne pardonnent jamais.</p>
-                <p>Volt. Sémiram.</p>
-                <p>A GENEVE, Et ſe trouve à PARIS, Chez DELALAIN, Libraire, rue Saint Jacques.</p>
-                <p>Et VALADE, Libraire, rue de la Parcheminerie.</p>
-                <p>M. DCC. LXVIII.</p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head>EPITRE A MON CONFRERE.</head>
-                <p>MON AMI, Le lien qui nous unit depuis ſi longtemps, m'engage aujourd'hui à
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:68.17 wikidata:0">
+     Henriette de Wolmar: MiMoText edition
+    </title>
+    <author ref="viaf:0 wikidata:0">
+     Brument(xxxx-xxxx)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Universitäts- und Landesbibliothek Sachsen-Anhalt
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     20728
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <title>
+      Henriette De Wolmar, Ou la Mere Jalouse De Sa Fille Histoire Veritable ;
+                        Pour servir de suite à la Nouvelle Héloise par J. J. R.
+     </title>
+     <ref target="https://opendata.uni-halle.de//handle/1981185920/44901"/>
+     <publisher>
+      Halle (Saale): Universitäts- und Landesbibliothek Sachsen-Anhalt
+     </publisher>
+     <date>
+      2010
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Henriette de Wolmar, ou la mere jalouse de sa fille, histoire veritable,
+                        Pour servir de suite à la Nouvelle Héloïse, Par J. J. R.
+     </title>
+     <author/>
+     <pubPlace>
+      Geneve
+     </pubPlace>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Delalain
+     </publisher>
+     <publisher>
+      Valade
+     </publisher>
+     <date>
+      1768
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1768
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="U" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2023-01-18">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     HENRIETTE DE WOLMAR, OU LA MERE JALOUSE DE SA FILLE.
+    </p>
+    <p>
+     HENRIETTE
+    </p>
+    <p>
+     DE WOLMAR, OU LA MERE JALOUSE DE SA FILLE, HISTOIRE VERITABLE, Pour ſervir de
+                    ſuite à la Nouvelle Héloiſe, Par J.J. R.
+    </p>
+    <p>
+     Il eſt des forfaits, Que les Dieux en courroux ne pardonnent jamais.
+    </p>
+    <p>
+     Volt. Sémiram.
+    </p>
+    <p>
+     A GENEVE, Et ſe trouve à PARIS, Chez DELALAIN, Libraire, rue Saint Jacques.
+    </p>
+    <p>
+     Et VALADE, Libraire, rue de la Parcheminerie.
+    </p>
+    <p>
+     M. DCC. LXVIII.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     EPITRE A MON CONFRERE.
+    </head>
+    <p>
+     MON AMI, Le lien qui nous unit depuis ſi longtemps, m'engage aujourd'hui à
                     t'écrire. Je veux rendre à l'amitié l'hommage que tant de gens adreſſent à
                     l'intérêt. Qu'un autre, par le ſtyle empoulé d'une pompeuſe Dédicace, s'efforce
                     de captiver la faveur d'un Grand; qu'il orne de Monseigneur, les premieres pages
@@ -108,42 +180,60 @@
                     &amp; bizarre, verſe au hazard ſes faveurs: elles tombent indiſtinctement, ou
                     ſur celui qui court après elles, ou ſur celui qui les attend en repos dans ſon
                     lit. Qu'elle m'en faſſe reſſentir les effets, l'encens le plus pur fumera ſur
-                    ſes Autels.</p>
-                <p>Toi, cher ami, toi qui m'as rendu le plus important des ſervices, au moment où je
+                    ſes Autels.
+    </p>
+    <p>
+     Toi, cher ami, toi qui m'as rendu le plus important des ſervices, au moment où je
                     m'y attendais le moins, il eſt juſte que je t'en marque ma reconnaiſſance. C'eſt
                     à toi que je dédie ce premier eſſai de ma plume: acceptes-en l'hommage, il eſt
-                    ſincere: &amp; crois-moi toujours ton ami.</p>
-            </div>
-            <div type="chapter">
-                <head>AVERTISSEMENT.</head>
-                <p>L'HUMBLE Editeur des Lettres de Julie, Monſieur Jean-Jacques Rouſſeau, dit qu'il
+                    ſincere: &amp; crois-moi toujours ton ami.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     AVERTISSEMENT.
+    </head>
+    <p>
+     L'HUMBLE Editeur des Lettres de Julie, Monſieur Jean-Jacques Rouſſeau, dit qu'il
                     ne pardonnerait jamais à un homme aſſez ſot pour le louer en face ſur ſon
                     ouvrage, ſuppoſé qu'il réuſsît. Je ſuis loin de croire que le mien ait quelque
                     ſuccès; mais qu'il plaiſe ou non, je n'en attends, ni louange ni blâme. C'eſt un
-                    bâtard que j'expoſe; qu'il devienne ce qu'il pourra.</p>
-                <p>Si l'on s'attend que je vais faire l'éloge de mon livre, &amp; ſupplier à genoux
+                    bâtard que j'expoſe; qu'il devienne ce qu'il pourra.
+    </p>
+    <p>
+     Si l'on s'attend que je vais faire l'éloge de mon livre, &amp; ſupplier à genoux
                     le Lecteur de lui être favorable, on ſe trompe: je m'arrête au titre, &amp;
-                    c'eſt-là tout.</p>
-                <p>Je donne cette Hiſtoire pour véritable; je puis d'autant mieux atteſter qu'elle
+                    c'eſt-là tout.
+    </p>
+    <p>
+     Je donne cette Hiſtoire pour véritable; je puis d'autant mieux atteſter qu'elle
                     l'eſt, que je l'ai entendue raconter de la bouche de celle même qui en eſt
-                    l'héroïne.</p>
-                <p>Les Wolmar, dont l'Auteur que je viens de citer, proteſte n'avoir jamais entendu
+                    l'héroïne.
+    </p>
+    <p>
+     Les Wolmar, dont l'Auteur que je viens de citer, proteſte n'avoir jamais entendu
                     parler dans les environs de la petite ville où il place ſes amans, étaient
                     très-connus ſur les frontieres du Piémont. Originaires d'Angleterre, ils
                     paſſerent en France lorſque Jacques II. vint chercher un aſyle à la Cour de
                     Louis. Ils ſervirent long-tems &amp; avec gloire dans les Troupes de ce Prince,
-                    protecteur zélé de leur Roi malheureux.</p>
-                <p>Sire Henri de Wolmar, le dernier de cette famille, ſe conſacra au métier des
+                    protecteur zélé de leur Roi malheureux.
+    </p>
+    <p>
+     Sire Henri de Wolmar, le dernier de cette famille, ſe conſacra au métier des
                     armes dès ſa plus tendre jeuneſſe. Il s'était engagé pour Soldat ſous un autre
                     nom que le ſien; il ne dut qu'à ſon courage, &amp; non pas à la célébrité d'un
                     nom dont on eſt ſouvent indigne, la Croix de l'Ordre de Saint Louis, dont il fut
-                    décoré.</p>
-                <p>C'eſt de ſa fille, Henriette de Wolmar, plus connue ſous le nom de Madame de
+                    décoré.
+    </p>
+    <p>
+     C'eſt de ſa fille, Henriette de Wolmar, plus connue ſous le nom de Madame de
                     Meillecour, que j'écris l'hiſtoire. Elle me pardonnera ſans doute aiſément
                     d'avoir mis au grand jour les crimes de ſa mere. Au-deſſus des préjugés du
                     vulgaire ſtupide, elle eſt loin de croire que la honte dont ils couvrent leur
-                    auteur, puiſſe jamais rejaillir ſur elle.</p>
-                <p>Il eſt étrange que la multitude ne revienne point d'une prévention ſi abſurde,
+                    auteur, puiſſe jamais rejaillir ſur elle.
+    </p>
+    <p>
+     Il eſt étrange que la multitude ne revienne point d'une prévention ſi abſurde,
                     &amp; qu'il ne ſoit donné qu'à un petit nombre de ne point y être aſſervi. Quoi!
                     mon pere, ma mere, coupables de crimes, auront juſtement ſubi les peines
                     proportionnées à leur énormité, &amp; il faudra que moi, leur fils, que
@@ -154,34 +244,48 @@
                     ignominie? Vertueux, je ne peux les reconnaître qu'aux vives lueurs du flambeau
                     de la vertu: s'ils s'écartent jamais du chemin qui éclaire, qu'ils ſoient
                     ſacrifiés à la mort: leurs forfaits &amp; les ſuites qu'ils entraînent, doivent
-                    être anéantis, en mêmetems qu'eux-mêmes ceſſent d'exiſter.</p>
-                <p>Mais j'oublie que c'eſt un Avertiſſement que je fais, &amp; que je viens de
+                    être anéantis, en mêmetems qu'eux-mêmes ceſſent d'exiſter.
+    </p>
+    <p>
+     Mais j'oublie que c'eſt un Avertiſſement que je fais, &amp; que je viens de
                     franchir les bornes étroites qui m'y ſont preſcrites. On me pardonnera ſans
                     doute, en faveur de mon peu d'expérience en cette matiere. Je l'ai dit dans mon
                     Epître, c'eſt mon coup d'eſſai; j'ignore abſolument ce que mes Maîtres, les
                     Auteurs connus, appellent les régles de l'Art. Si je les apprends jamais, je
-                    tâcherai de m'y conformer.</p>
-            </div>
-            <div type="chapter">
-                <head>HENRIETTEDE WOLMAR, OU LA MERE JALOUSE DE SA FILLE.</head>
-                <p>APRES avoir ſervi avec gloire ſa Patrie &amp; ſon Prince, Mr. de Wolmar était
+                    tâcherai de m'y conformer.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     HENRIETTEDE WOLMAR, OU LA MERE JALOUSE DE SA FILLE.
+    </head>
+    <p>
+     APRES avoir ſervi avec gloire ſa Patrie &amp; ſon Prince, Mr. de Wolmar était
                     retiré dans une très-belle Terre qu'il avait achetée vers les Frontieres du
-                    Piémont.</p>
-                <p>Depuis dix ans il donnait tous ſes ſoins à l'éducation de ſa Fille, tendre &amp;
+                    Piémont.
+    </p>
+    <p>
+     Depuis dix ans il donnait tous ſes ſoins à l'éducation de ſa Fille, tendre &amp;
                     unique fruit de ſon mariage. Son épouſe, d'une humeur bruſque &amp; acariâtre,
                     &amp; dont le jeu occupait preſque tous les inſtans, avait voulu s'en charger;
-                    il l'avait refuſée.</p>
-                <p>Madame, lui dit-il un jour, je ſçais trop de quel prix eſt le tems de la
+                    il l'avait refuſée.
+    </p>
+    <p>
+     Madame, lui dit-il un jour, je ſçais trop de quel prix eſt le tems de la
                     jeuneſſe, &amp; combien vîte il en faut profiter, pour me repoſer ſur vous du
                     ſoin d'inſtruire ma fille. Toute entiere à vos plaiſirs, vous la négligeriez,
                     &amp; je verrais cette jeune plante croître au hazard, ſans qu'on daignât ſe
                     ſouvenir, ou qu'on pensât même qu'elle exiſte. Amuſez-vous, je ne m'y oppoſe
-                    pas, &amp; laiſſez-moi me contenter.</p>
-                <p>Madame de Wolmar connaiſſait ſon époux; elle ne repliqua rien, mais elle conçut
+                    pas, &amp; laiſſez-moi me contenter.
+    </p>
+    <p>
+     Madame de Wolmar connaiſſait ſon époux; elle ne repliqua rien, mais elle conçut
                     dès ce moment une haine implacable contre la jeune Henriette, (c'eſt ainſi que
                     ſe nommait ſa fille,) &amp; cette haine, rallumée au flambeau de la jalouſie,
-                    devint fureur par la ſuite.</p>
-                <p>Je n'ai jamais bien conçu comment la nature, cette mere tendre, qui met dans nous
+                    devint fureur par la ſuite.
+    </p>
+    <p>
+     Je n'ai jamais bien conçu comment la nature, cette mere tendre, qui met dans nous
                     cet inſtinct qui nous porte à chérir les auteurs de nos jours, ſouffre, envers
                     leurs enfans, dans quelques-uns d'entr'eux, un ſentiment contraire. On en a vu,
                     &amp; on n'en voit, hélas, que trop d'exemples! Combien de parens injuſtes, qui
@@ -193,40 +297,56 @@
                     pardonne jamais, ou du moins trèsrarement à ſa fille d'être plus aimable
                     qu'elle, ſi elle-même ſe pique de quel-que beauté: c'eſt peut-être là la cauſe
                     principale de mille événemens de cette nature que nous avons à chaque inſtant
-                    ſous les yeux.</p>
-                <p>Mademoiſelle de Wolmar va nous fournir un exemple de ces infortunées victimes du
-                    caprice.</p>
-                <p>Elle entrait dans ſa ſeizième année. Une beauté peu commune, une taille des mieux
+                    ſous les yeux.
+    </p>
+    <p>
+     Mademoiſelle de Wolmar va nous fournir un exemple de ces infortunées victimes du
+                    caprice.
+    </p>
+    <p>
+     Elle entrait dans ſa ſeizième année. Une beauté peu commune, une taille des mieux
                     priſes, un eſprit au-deſſus de ſon âge, &amp; ſe pliant à tout, formaient un de
                     ces chefs-d'œuvres que la nature enfante ſi rarement. M. de Wolmar adorait
                     Henriette. Ce pere tendre, qui voyait ſes leçons profiter de jour en jour
                     au-delà même de ſes eſpérances, s'était fait un plaiſir, un devoir de les lui
-                    continuer.</p>
-                <p>La Géographie, le Deſſein, la Poéſie, la Muſique, étaient les talens enchanteurs
+                    continuer.
+    </p>
+    <p>
+     La Géographie, le Deſſein, la Poéſie, la Muſique, étaient les talens enchanteurs
                     &amp; utiles qu'il lui avait communiqués. Il lui avait même appris, ou pour
                     mieux dire, il avait fait éclore de ſon jeune cœur un peu de philoſophie: non
                     point de cette philoſophie ſcholaſtique, reléguée dans le fond des colleges,
                     dont de grands mots vuides de ſens font toute la baſe &amp; le ſoutien; non de
                     cette philoſophie, enfant monſtrueux du Déiſme, dont ſe parent orgueilleuſement
                     nos prétendus Eſprits-forts; mais de cette philoſophie morale, aimable, inſpirée
-                    par la nature, &amp; avouée par la raiſon.</p>
-                <p>M. de Wolmar commençait à jouir délicieuſement du fruit de ſes travaux,
-                    lorſqu'une maladie cruelle vint l'arracher à ſes plaiſirs.</p>
-                <p>Il languiſſait depuis long-tems &amp; n'en ignorait point la cauſe. Avant de
+                    par la nature, &amp; avouée par la raiſon.
+    </p>
+    <p>
+     M. de Wolmar commençait à jouir délicieuſement du fruit de ſes travaux,
+                    lorſqu'une maladie cruelle vint l'arracher à ſes plaiſirs.
+    </p>
+    <p>
+     Il languiſſait depuis long-tems &amp; n'en ignorait point la cauſe. Avant de
                     mourir, il fit appeller Henriette: “Ma fille, lui dit-il, je touche au „terme de
                     mes jours, &amp; le coup „fatal qui m'arrache à la vie, part “d'une main qui me
                     fut chere. Je “lui pardonne ma mort. Que l'honneur ſoit ton unique guide, &amp;
                     dans “toutes tes actions, ne conſulte que „ce que te dictera ton cœur; je le
-                    „connois vertueux.“ A ces mots il embraſſe ſa fille, &amp; expire dans ſes bras. </p>
-                <p>Henriette fut inconſolable de ſa mort, il ſemblait qu'elle prévoyait les malheurs
+                    „connois vertueux.“ A ces mots il embraſſe ſa fille, &amp; expire dans ſes bras.
+    </p>
+    <p>
+     Henriette fut inconſolable de ſa mort, il ſemblait qu'elle prévoyait les malheurs
                     qui l'attendaient. Souvent elle répétait ces paroles terribles: Une main qui me
-                    fut chere. Ciel! ſur qui tombent mes ſoupçons!</p>
-                <p>En effet, Madame de Wolmar s'était priſe d'une paſſion violente pour un jeune
+                    fut chere. Ciel! ſur qui tombent mes ſoupçons!
+    </p>
+    <p>
+     En effet, Madame de Wolmar s'était priſe d'une paſſion violente pour un jeune
                     homme qui venait depuis quelque tems au château. Réſolue de l'épouſer, elle
                     avait fait prendre à M. de Wolmar un poiſon lent, qui l'avait enfin conduit au
                     tombeau. Il avait été préparé par ſon homme-d'affaire, qui était tout entier à
-                    elle.</p>
-                <p>O! mon pere, s'écria Henriette, un jour qu'elle ſe croyait ſeule dans un cabinet
+                    elle.
+    </p>
+    <p>
+     O! mon pere, s'écria Henriette, un jour qu'elle ſe croyait ſeule dans un cabinet
                     de verdure, qui était au bout du jardin; ô mon pere ſe peut-il que la mort vous
                     ait enlevé à ma tendreſſe? Quelles ſuites funeſtes elle va avoir pour moi!
                     Hélas! j'euſſe été trop heureuſe. Ma mere me hait; que lui ai-je donc fait pour
@@ -240,31 +360,43 @@
                     n'oſe nommer, que ne pouvez-vous lire dans mon cœur! Hélas! j'aime ſans eſpoir.
                     Quand vous ſçauriez tout ce que je ſens pour vous, que vous m'aimeriez autant
                     que je vous aime, mes malheurs n'en feraient qu'augmenter. J'étois née pour le
-                    bonheur, l'affreux trépas me l'a ravi pour jamais....</p>
-                <p>Elle s'arrête à ces mots, &amp; elle tire de ſon ſein un portrait qu'elle y
+                    bonheur, l'affreux trépas me l'a ravi pour jamais....
+    </p>
+    <p>
+     Elle s'arrête à ces mots, &amp; elle tire de ſon ſein un portrait qu'elle y
                     tenait caché. C'étoit celui du Chevalier de Meillecour, le même qu'aimait Madame
                     de Wolmar, &amp; dont je parlerai tout-à-l'heure. Elle l'avait peint elle-même:
                     d'une main tremblante elle le porte à ſa bouche, elle eſſuie des larmes qui
-                    coulent malgré elle, &amp; ſe diſpoſe à aller rejoindre la compagnie.</p>
-                <p>Elle était nombreuſe ce jour-là. Depuis la mort de M. de Wolmar, ſon épouſe
+                    coulent malgré elle, &amp; ſe diſpoſe à aller rejoindre la compagnie.
+    </p>
+    <p>
+     Elle était nombreuſe ce jour-là. Depuis la mort de M. de Wolmar, ſon épouſe
                     donnait réguliérement à jouer chez elle trois jours de la ſemaine. Elle ne
                     penſait qu'au jeu &amp; à ſes plaiſirs, &amp; ne ſe ſouvenait qu'elle avait une
-                    fille que pour la chagriner.</p>
-                <p>Après le dîner, on ſe mit à jouer.Différentes parties furent liées. Henriette
+                    fille que pour la chagriner.
+    </p>
+    <p>
+     Après le dîner, on ſe mit à jouer.Différentes parties furent liées. Henriette
                     évita de faire la ſienne, &amp; profita du tems où tout le monde était occupé,
-                    pour ſe retirer, dans le deſſein de ſe livrer à ſes réflerions.</p>
-                <p>Parmi tous ceux qui étaient reçus chez Madame de Wolmar, le Chevalier de
+                    pour ſe retirer, dans le deſſein de ſe livrer à ſes réflerions.
+    </p>
+    <p>
+     Parmi tous ceux qui étaient reçus chez Madame de Wolmar, le Chevalier de
                     Meillecour y allait le plus ſouvent. Le château de ſon pere, qui n'était éloigné
                     que d'un quart de lieue, lui en procurait la facilité. Il y avait un an qu'il
                     était de retour de Paris, où il avait fait ſes exercices, &amp; ſon pere ſe
-                    propoſait de lui acheter une Compagnie dans le Régiment de B....</p>
-                <p>Ce jeune homme joignait à une naiſſance illuſtre, toutes les qualités qu'on
+                    propoſait de lui acheter une Compagnie dans le Régiment de B....
+    </p>
+    <p>
+     Ce jeune homme joignait à une naiſſance illuſtre, toutes les qualités qu'on
                     pouvait deſirer. Il était très-bien fait; ſon humeur était enjouée; ſon eſprit
                     juſte &amp; badin ſe plaiſait à s'égayer dans ces jolis riens, qui raniment la
                     converſation, lorſqu'elle commence à languir par la profondeur ou le ſérieux de
                     la matiere que l'on traite; &amp; ſaiſiſſait avec préciſion le point épineux
-                    d'une difficulté, qu'il développait avec la clarté la plus grande.</p>
-                <p>Il fut remarqué de la jeune de Wolmar. Il l'avait aimée dès la premiere fois
+                    d'une difficulté, qu'il développait avec la clarté la plus grande.
+    </p>
+    <p>
+     Il fut remarqué de la jeune de Wolmar. Il l'avait aimée dès la premiere fois
                     qu'il l'avoit vue; mais il n'avait pas encore déclaré ſon amour. Henriette
                     l'avait aimé de même; elle voyait bien qu'il l'aimait, &amp; quoiqu'elle eût
                     ſouhaité qu'il ſe fût déclaré, elle évitait avec ſoin de ſe trouver ſeule avec
@@ -272,41 +404,55 @@
                     que le Chevalier de Meillecour ne fût un parti très-ſortable pour elle; mais
                     elle étoit ſûre que Madame de Wolmar, dans la ſeule vue de la chagriner, lui
                     aurait défendu l'entrée de chez elle. Henriette voyait ſon amant, &amp; elle
-                    était contente.</p>
-                <p>Le Chevalier de Meillecour avait, comme Henriette, trouvé le moyen de ne pas
+                    était contente.
+    </p>
+    <p>
+     Le Chevalier de Meillecour avait, comme Henriette, trouvé le moyen de ne pas
                     jouer. Réſolu ce jour-là de déclarer ſon amour, il n'avait point perdu de vue ſa
-                    maîtreſſe. Il la vit ſortir &amp; la ſuivit ſans qu'elle s'en apperçût.</p>
-                <p>Placé derriere une charmille, il avait été témoin du chagrin &amp; du diſcours de
+                    maîtreſſe. Il la vit ſortir &amp; la ſuivit ſans qu'elle s'en apperçût.
+    </p>
+    <p>
+     Placé derriere une charmille, il avait été témoin du chagrin &amp; du diſcours de
                     ſon amante. Vingt fois il avait été tenté de s'offrir à ſes yeux, &amp; de lui
                     faire l'aveu de ſa paſſion, &amp; vingt fois il n'avait oſé le faire. La
                     timidité eſt toujours compagne d'un amour véritable; l'on appréhende de bleſſer
                     par un aveu indiſcret la pudeur de celle que l'on aime: cet aveu eſt pourtant
-                    bien naturel!</p>
-                <p>Nos Petits-maîtres tournent en ridicule la timidité des amans; mais nos
+                    bien naturel!
+    </p>
+    <p>
+     Nos Petits-maîtres tournent en ridicule la timidité des amans; mais nos
                     Petits-maîtres l'ont-ils jamais été? Leur cœur émouſſé par les plaiſirs, eſt-il
                     capable de rien ſentir? L'amour, cette paſſion de l'ame, n'eſt chez eux
                     qu'habitude &amp; finit par leur être inſipide. La facilité qu'ils ont à Paris
                     de ſatisfaire leurs deſirs, les rend inſolens, &amp; ils viennent au point de
                     s'imaginer qu'à moins de bruſquer une intrigue d'amour, d'inſulter des femmes,
-                    ils paſſent pour des Héros de Roman, pour des vrais ſots.</p>
-                <p>Dans l'inſtant que Mademoiſelle de Wolmar fit entendre par ſon diſcours qu'elle
+                    ils paſſent pour des Héros de Roman, pour des vrais ſots.
+    </p>
+    <p>
+     Dans l'inſtant que Mademoiſelle de Wolmar fit entendre par ſon diſcours qu'elle
                     aimait, le jeune de Meillecour allait enfin ſe hazarder. Une lumiere affreuſe
                     paſſe tout-à-coup dans ſon cœur. Ciel! que vient-il d'entendre? J'ai donc un
                     rival, s'écrie-t-il! Henriette, ſe peut-il que votre cœur ſi jeune encore ſe
                     ſoit déjà donné? Ah! que ne connais-je le mortel heureux qui le poſſéde, ce fer
-                    le lui arracherait bientôt!</p>
-                <p>Il ſe retirait, il jettait pour la derniere fois la vue vers l'endroit où était
+                    le lui arracherait bientôt!
+    </p>
+    <p>
+     Il ſe retirait, il jettait pour la derniere fois la vue vers l'endroit où était
                     ſa maîtreſſe: quelle ſituation! quel moment! c'eſt ſon portrait qu'il voit dans
                     ſes mains, c'eſt lui-même, il ne peut ſe méconnaître. Voler aux pieds de ſon
                     amante, lui faire l'aveu le plus tendre, la conjurer avec larmes de lui
                     pardonner ſa hardieſſe, lui déclarer qu'il ſçait ſon ſecret, lui proteſter qu'il
                     n'en abuſera jamais, eſt l'ouvrage du même inſtant. Henriette éperdue tombe ſur
                     un banc de gazon; une pâleur mortelle prend la place du vif éclat de la roſe,
-                    ſes beaux yeux ſe ferment à la lumiere, elle s'évanouit.</p>
-                <p>Meillecour ſe releve, d'une main que guide le reſpect, il lâche le lacet
+                    ſes beaux yeux ſe ferment à la lumiere, elle s'évanouit.
+    </p>
+    <p>
+     Meillecour ſe releve, d'une main que guide le reſpect, il lâche le lacet
                     d'Henriette, il lui fait reſpirer d'un flacon qu'il porte ſur lui; elle ſoupire
-                    &amp; revient à elle.</p>
-                <p>Ah! Chevalier, quoi! c'eſt vous, c'eſt vous que je vois! vous m'aimez!... Vous
+                    &amp; revient à elle.
+    </p>
+    <p>
+     Ah! Chevalier, quoi! c'eſt vous, c'eſt vous que je vois! vous m'aimez!... Vous
                     m'avez ſurpris mon ſecret, je ne vous cacherai point que je vous aime, mon cœur
                     ſans détours, ne connut jamais le menſonge, &amp; l'abhorre. Mais que
                     prétendez-vous?--- Vous adorer le reſte de ma vie.-- Meillecour, que ce moment
@@ -314,11 +460,15 @@
                     j'enviſage! Vous connaiſſez Madame de Wolmar; gardez-vous qu'elle ne
                     s'apperçoive de notre intelligence. Elle eſt pénétrante; le moindre geſte, le
                     moindre coup d'œil nous décélerait; &amp; nous ſerions perdus. Je ne ſçais quel
-                    ſort elle me prépare; quel qu'il ſoit, je ne ſerai jamais qu'à vous.</p>
-                <p>Elle s'éloigne à ces mots: Meillecour va lui répondre, elle eſt dejà au château.
+                    ſort elle me prépare; quel qu'il ſoit, je ne ſerai jamais qu'à vous.
+    </p>
+    <p>
+     Elle s'éloigne à ces mots: Meillecour va lui répondre, elle eſt dejà au château.
                     Immobile, il la ſuit des veux; il ne peut s'arracher de l'endroit charmant
-                    qu'elle vient de quitter, il ſemble qu'il l'y croit encore préſente.</p>
-                <p>On trouvera étrange qu'Henriette déclare ainſi ſon amour la premiere fois qu'elle
+                    qu'elle vient de quitter, il ſemble qu'il l'y croit encore préſente.
+    </p>
+    <p>
+     On trouvera étrange qu'Henriette déclare ainſi ſon amour la premiere fois qu'elle
                     voit ſon amant &amp; qu'il lui parle du ſien. Une fille doit-elle ſans rougir
                     faire l'aveu de ſa tendreſſe? Ne doit-elle rien aux bienſéances, à la pudeur?
                     Miſérable préjugé, Roi deſpotique du vulgaire, verrai-je donc toujours encenſer
@@ -327,14 +477,18 @@
                     mêmes paſſions que celui des hommes, &amp; peut-être encore plus aſſervi à leur
                     empire, &amp; il ne leur ſera pas permis, on leur fera un crime de jouir des
                     mêmes droits qu'eux? Cette loi eſt horrible &amp; le tyran le plus barbare ne la
-                    porterait pas.</p>
-                <p>Elevée par un pere philoſophe, &amp; philoſophe elle-même, Henriette ne ſavait
+                    porterait pas.
+    </p>
+    <p>
+     Elevée par un pere philoſophe, &amp; philoſophe elle-même, Henriette ne ſavait
                     dire que ce qu'elle penſait, heureux ſi tous les mortels agiſſaient comme elle!
                     Il était cinq heures du ſoir; le jeu était fini, &amp; l'on ſortait pour faire
                     un tour de promenade. Meillecour craint qu'on ne le ſurprenne &amp; qu'on ne lui
                     faſſe quelques plaiſanteries ſur l'endroit ſolitaire où il ſe trouve; il ſe hâte
-                    d'en ſortir, &amp; gagne une allée oppoſée à celle où tout le monde était.</p>
-                <p>Il fut bientôt remis du trouble où l'avait jetté la ſcéne qui venait de ſe
+                    d'en ſortir, &amp; gagne une allée oppoſée à celle où tout le monde était.
+    </p>
+    <p>
+     Il fut bientôt remis du trouble où l'avait jetté la ſcéne qui venait de ſe
                     paſſer, &amp; il joignit la compagnie. Il chercha envain Henriette; elle s'était
                     retirée dans ſa chambre, ſous prétexte d'une petite indiſpoſition. Il lui fut
                     impoſſible de la voir le reſte de la ſoirée. Enfin tout le monde ſe ſépara.
@@ -343,8 +497,10 @@
                     m'a propoſé pour vous un parti très-ſortable; c'eſt une femme qui a paſſé ſa
                     premiere jeuneſſe, mais qui eſt encore fraîche &amp; qui peut ſe vanter de
                     quelque beauté. Elle jouit de vingt mille livres de rente &amp; n'a qu'une
-                    fille, qu'elle fera religieuſe dès que ſon mariage ſera prêt à ſe faire.</p>
-                <p>La foudre qui gronde ſur la tête du voyageur épouvanté, &amp; qui tombe à chaque
+                    fille, qu'elle fera religieuſe dès que ſon mariage ſera prêt à ſe faire.
+    </p>
+    <p>
+     La foudre qui gronde ſur la tête du voyageur épouvanté, &amp; qui tombe à chaque
                     inſtant devant lui, ne l'interdit point autant que le fut Meillecour.
                     Qu'avez-vous donc, reprit Madame de Wolmar, que vous ne répondez rien? La
                     propoſition que je vous fais vous déplairait-elle? Non, Madame, répartit
@@ -355,11 +511,15 @@
                     Chevalier, quelle faible digue vous m'oppoſez! Je me charge de faire conſentir
                     votre pere à ce mariage, &amp; de le conclure avant huit jours, ſi vous voulez.
                     Meillecour allait répliquer, mais les domeſtiques qui vinrent à ſervir, firent
-                    ceſſer la converſation.</p>
-                <p>Monſieur le Chevalier, dit Madame de Wolmar en élevant ſa voix, j'eſpere que vous
+                    ceſſer la converſation.
+    </p>
+    <p>
+     Monſieur le Chevalier, dit Madame de Wolmar en élevant ſa voix, j'eſpere que vous
                     voudrez bien ſouper avec moi.---. Volontiers, Madame; &amp; ils ſe mirent à
-                    table.</p>
-                <p>Dès qu'ils furent ſeuls; il eſt inutile, dit-elle, Chevalier, de diſſimuler plus
+                    table.
+    </p>
+    <p>
+     Dès qu'ils furent ſeuls; il eſt inutile, dit-elle, Chevalier, de diſſimuler plus
                     long-tems avec vous. Cette femme dont je vous parle, c'eſt moi-même. Ma fille
                     m'ennuie, ſa philoſophie m'excéde, &amp; j'ai réſolu de m'en défaire à quelque
                     prix que ce ſoit. Elle m'a bravée du vivant de ſon pere, elle apprendra quels
@@ -372,8 +532,10 @@
                     des autres! En cloîtrant Mademoiſelle votre fille, peut-être l'allez-vous rendre
                     le plus infortuné de tous les êtres. Quel ſupplice que des vœux qui pour jamais
                     nous enchaînent malgré nous, dans un lieu qu'on regarde comme une priſon
-                    affreuſe!</p>
-                <p>Le déſeſpoir, la rage, ſuivent de près l'inſtant cruel où on les a prononcés,
+                    affreuſe!
+    </p>
+    <p>
+     Le déſeſpoir, la rage, ſuivent de près l'inſtant cruel où on les a prononcés,
                     &amp; l'on maudit mille fois ceux qui nous ont forcés à les faire. J'accepte,
                     continua-t-il, en s'appercevant qu'il avait peut-être pris le parti d'Henriette
                     avec trop de chaleur, &amp; craignant de faire ſoupçonner quelque choſe à celle
@@ -381,37 +543,51 @@
                     mais s'il faut l'acheter au prix de la liberté de Mademoiſelle de Wolmar, je n'y
                     conſentirai jamais. Ecoutez la nature, conſultez les inclinations de
                     Mademoiſelle votre fille, &amp;, ſacrifiant vos déplaiſirs, ſi jamais elle fut
-                    capable de vous en donner, vengez-vous en la rendant heureuſe.</p>
-                <p>Madame de Wolmar qui l'écoutait avec impatience, &amp; dont la colere était prête
+                    capable de vous en donner, vengez-vous en la rendant heureuſe.
+    </p>
+    <p>
+     Madame de Wolmar qui l'écoutait avec impatience, &amp; dont la colere était prête
                     d'éclater, fit tomber adroitement la converſation ſur autre choſe. Un
                     quart-d'heure après ils ſe leverent de table, &amp; le Chevalier lui ayant
-                    promis de revenir le lendemain, partit pour ſe rendre chez lui.</p>
-                <p>Dès que Madame de Wolmar ſe vit ſeule; je n'en puis plus douter, s'écria-t-elle;
+                    promis de revenir le lendemain, partit pour ſe rendre chez lui.
+    </p>
+    <p>
+     Dès que Madame de Wolmar ſe vit ſeule; je n'en puis plus douter, s'écria-t-elle;
                     l'ingrat aime ma fille; il n'a feint d'acquieſcer au mariage que je lui propoſe,
                     que pour me tromper. On ne prend point avec tant de chaleur l'intérêt d'une
                     perſonne pour laquelle on n'aurait que de l'amitié. Celle-ci eſt de glace,
                     l'amour eſt tout de feu. Ah! monſtres, vous vous aimez; craignez ma fureur,
-                    craignez une amante mépriſée &amp; qui peut tout ſur vous.</p>
-                <p>Elle était dans des tranſports extrêmes, &amp; ſe promenait à grands pas. Enfin
+                    craignez une amante mépriſée &amp; qui peut tout ſur vous.
+    </p>
+    <p>
+     Elle était dans des tranſports extrêmes, &amp; ſe promenait à grands pas. Enfin
                     elle prit le parti de ſe coucher; mais ce ne fut que pour réfléchir aux moyens
-                    de les perdre.</p>
-                <p>Il était à peine ſept heures du matin, lorſque Henriette vint ſouhaiter le bon
+                    de les perdre.
+    </p>
+    <p>
+     Il était à peine ſept heures du matin, lorſque Henriette vint ſouhaiter le bon
                     jour à ſa mere. C'était un devoir qu'elle lui rendait ſcrupuleuſement. Vous vous
                     êtes levée bien matin, lui dit Madame de Wolmar; votre indiſpoſition d'hier a
                     été bien-tôt paſſée. Oui, Madame, lui répondit Henriette; (car le mot mere lui
                     était interdit: cette marâtre eût rougi ſans doute de s'entendre appeller d'un
                     nom ſi doux, &amp; qu'elle méritait ſi peu:) oui, ma maladie était légere &amp;
                     je me trouve beaucoup mieux. --- J'en ſuis charmée: laiſſez-moi &amp; revenez
-                    dans une heure.</p>
-                <p>Un tel ordre inquieta Henriette. Elle ne paraiſſait devant ſa mere qu'à l'heure
+                    dans une heure.
+    </p>
+    <p>
+     Un tel ordre inquieta Henriette. Elle ne paraiſſait devant ſa mere qu'à l'heure
                     des repas, encore rarement, ou quand il y avait compagnie. Que veut-elle de moi,
                     diſait-elle en s'en allant? Meillecour a ſoupé hier avec elle; ſe ſerait-il
                     trahi, ſçaurait-elle ce qui s'eſt paſſé entre nous? .... Ciel! .... Elle était
-                    dans cette perplexité, lorſqu'on vint l'avertir que ſa mere l'attendait.</p>
-                <p>Madame de Wolmar avait refléchi ſur le parti violent qu'elle s'était propoſé,
+                    dans cette perplexité, lorſqu'on vint l'avertir que ſa mere l'attendait.
+    </p>
+    <p>
+     Madame de Wolmar avait refléchi ſur le parti violent qu'elle s'était propoſé,
                     &amp; avait réſolu de prendre celui de la diſſimulation. Feignons, dit-elle,
-                    Henriette eſt ſincere, je vais tout ſçavoir, &amp; j'agirai en conſéquence.</p>
-                <p>Henriette s'était hâtée de ſe rendre à ſes ordres. Dès qu'elle parut: approchez,
+                    Henriette eſt ſincere, je vais tout ſçavoir, &amp; j'agirai en conſéquence.
+    </p>
+    <p>
+     Henriette s'était hâtée de ſe rendre à ſes ordres. Dès qu'elle parut: approchez,
                     Mademoiſelle, j'ai quel-que choſe à vous communiquer. Vous voilà grande &amp;
                     d'un âge à choiſir un état. Le mariage vous conviendraitil? Il ſe préſente pour
                     vous un parti convenable, décidez-vous; je ſuis prête à vous l'accorder. Madame,
@@ -422,8 +598,10 @@
                     deſtine me convient, &amp; c'en doit être aſſez, je crois, pour qu'il n'éprouve
                     point vos refus. Monſieur de Meillecour eſt d'une naiſſance au moins égale à la
                     vôtre, &amp; s'il n'eſt point auſſi riche que vous, il a de ſa mere une fortune
-                    honnête, &amp; ſon pere n'a point d'autres enfans que lui.</p>
-                <p>Au nom de Meillecour, Henriette avait treſſailli; un vif incarnat s'était peint
+                    honnête, &amp; ſon pere n'a point d'autres enfans que lui.
+    </p>
+    <p>
+     Au nom de Meillecour, Henriette avait treſſailli; un vif incarnat s'était peint
                     ſur ſes belles joues. Elle s'était remiſe auſſi-tôt, mais Madame de Wolmar, qui
                     avait toujours les yeux ſur elle, avait déjà remarqué ſon trouble. Elle n'en fit
                     cependant rien paraître, &amp; continuant ſur le même ton: eh bien! à quoi vous
@@ -434,20 +612,26 @@
                     cherché à pénétrer ſon ame, &amp; que ſon émotion, au nom de Meillecour, y avait
                     découvert une grande partie de ſon ſecret. Elle était dans un trouble
                     inconcevable; ſa mere qui ſe contenait à peine, lui ordonna de monter à ſa
-                    chambre.</p>
-                <p>Meillecour avait paſſé la plus cruelle de toutes les nuits. Sa maîtreſſe arrachée
+                    chambre.
+    </p>
+    <p>
+     Meillecour avait paſſé la plus cruelle de toutes les nuits. Sa maîtreſſe arrachée
                     de ſes bras, &amp; conduite dans un couvent, pour y finir une vie malheureuſe,
                     avait ſans ceſſe été préſente à ſon imagination. Armé de ſon épée, il l'avait
                     deux fois enlevée aux barbares miniſtres de la vengeance, &amp; deux fois il
                     avait été forcé de céder la victoire. Ce ſonge affreux le réveille; il s'agite,
-                    il ſe tourmente.</p>
-                <p>Riviere, ſon fidéle Domeſtique, &amp; qui couchait tout proche de ſa chambre,
+                    il ſe tourmente.
+    </p>
+    <p>
+     Riviere, ſon fidéle Domeſtique, &amp; qui couchait tout proche de ſa chambre,
                     accourt auſſi-tôt. Qu'avez-vous donc, Monſieur, lui dit-il? Rien, mon cher
                     Riviere, rien. Mon pere eſt-il levé? ---- Non, Monſieur; il n'eſt encore que
                     cinq heures.---. Tant mieux: Nous allons partir pour la chaſſe. Il ſe hâte de
                     s'habiller, Riviere court en faire autant; ils prennent leurs fuſils, &amp; déjà
-                    ils ſont dans la campagne.</p>
-                <p>Ils avaient fait un chemin conſidérable, lorſqu'ils ſe trouverent auprès du
+                    ils ſont dans la campagne.
+    </p>
+    <p>
+     Ils avaient fait un chemin conſidérable, lorſqu'ils ſe trouverent auprès du
                     château de Madame de Wolmar. Meillecour s'arrête à ſa vue. Je ne ſçais quoi de
                     ſiniſtre l'empêche d'entrer dans le parc. Il en avait déjà trois fois fait le
                     tour, &amp; allait ſe retirer. Il apperçoit ſa maîtreſſe à ſa fenêtre: la tête
@@ -461,14 +645,18 @@
                     ai-je pu me taire? J'ai promis, pour lui donner le change, d'accomplir cet hymen
                     que j'abhorre; elle a changé de converſation, &amp; nous nous ſommes quittés
                     aſſez froidement. Je ne doute plus qu'elle ne ſçache notre ſecret; l'état où je
-                    vous vois ne me le confirme que trop.</p>
-                <p>Ah! Meillecour, répondit Henriette, avec quelle adreſſe elle m'a trompée ce
+                    vous vois ne me le confirme que trop.
+    </p>
+    <p>
+     Ah! Meillecour, répondit Henriette, avec quelle adreſſe elle m'a trompée ce
                     matin! Elle m'a propoſé de me marier; &amp; avec qui? avec vous, cher amant,
                     avec vous. Jugez de ma ſurpriſe. Mon trouble m'a décélée. J'allais me jetter
                     dans ſes bras, lui découvrir mon ame; un regard ſévere m'a fait voir, mais trop
                     tard, le piege qu'on m'avait tendu. Elle m'a fait ſortir de devant elle, auſſi
-                    inſtruite que ſi je lui euſſe tout avoué.</p>
-                <p>L'état où était ſon amant, celui où elle était elle-même, avait empêché Henriette
+                    inſtruite que ſi je lui euſſe tout avoué.
+    </p>
+    <p>
+     L'état où était ſon amant, celui où elle était elle-même, avait empêché Henriette
                     de demander à Meillecour par quel hazard il ſe trouvait dans ſa chambre, &amp;
                     de réfléchir au danger où il l'expoſait, ſi on venait à l'y voir. Elle allait
                     lui en faire des reproches; Madame de Wolmar entre, elle voit le Chevalier
@@ -477,13 +665,17 @@
                     La rage étouffe ſa voix; elle ne peut rien exprimer pour trop ſentir. Henriette
                     &amp; Meillecour anéantis, n'oſent lever les yeux ſur elle: ils n'ont rien à ſe
                     reprocher, mais l'innocence craint l'ombre même du crime. L'apparence était
-                    contr'eux, n'était-ce pas aſſez pour les confondre?</p>
-                <p>C'eſt donc là, fille indigne, s'écria enfin Madame de Wolmar, c'eſt donc là cette
+                    contr'eux, n'était-ce pas aſſez pour les confondre?
+    </p>
+    <p>
+     C'eſt donc là, fille indigne, s'écria enfin Madame de Wolmar, c'eſt donc là cette
                     philoſophie dont tu te pares? Tu n'affectes un air de prude que pour voiler tes
                     intrigues, la honte &amp; l'opprobre dont tu me couvres...... Et toi, ſors
                     d'ici, ſéducteur infâme: tu ne dois qu'à ta naiſſance, dont tu es indigne, de ne
-                    pas laver dans ton ſang l'outrage que tu me fais; mais je ſçaurai m'en venger. </p>
-                <p>Meillecour aſſis auprès d'Henriette qui était évanouie, ſe leve à ces mots. Il
+                    pas laver dans ton ſang l'outrage que tu me fais; mais je ſçaurai m'en venger.
+    </p>
+    <p>
+     Meillecour aſſis auprès d'Henriette qui était évanouie, ſe leve à ces mots. Il
                     oublie l'état où eſt ſa maîtreſſe, pour ne ſonger qu'à la juſtifier en rejettant
                     tout ſur lui. Il parle, mais on ne l'écoute point. Madame de Wolmar, d'une voix
                     effrayante, appelle ſes gens; trois laquais montent auſſi-tôt. Saiſiſſez-vous de
@@ -496,67 +688,91 @@
                     regards de Madame de Wolmar &amp; les menaces de Meillecour, ſe jettent tous
                     trois ſur lui; il en bleſſe un, &amp; veut s'échapper de leurs bras en ſautant
                     en arriere; il tombe, on le déſarme, &amp; accablé ſous le nombre &amp; les
-                    coups de ces barbares, il eſt porté ſans connoiſſance hors du parc.</p>
-                <p>Henriette n'était point revenue de ſon évanouiſſement. Cette ſcene affreuſe
+                    coups de ces barbares, il eſt porté ſans connoiſſance hors du parc.
+    </p>
+    <p>
+     Henriette n'était point revenue de ſon évanouiſſement. Cette ſcene affreuſe
                     s'était paſſée ſans qu'elle en eût rien entendu. Madame de Wolmar, ſans pitié
                     pour ſa fille, l'avait ahandonnée, dès qu'elle avait vu enlever le Chevalier.
                     Henriette, en ouvrant les yeux, ſe trouve ſeule dans ſa chambre. Un couteau de
                     chaſſe caſſé auprès d'elle, du ſang qu'elle apperçoit, la mettent dans un état
-                    plus facile à imaginer qu'à décrire.</p>
-                <p>Qu'es-tu devenu, cher amant? Et elle verſe un torrent de larmes. Serait-ce ton
+                    plus facile à imaginer qu'à décrire.
+    </p>
+    <p>
+     Qu'es-tu devenu, cher amant? Et elle verſe un torrent de larmes. Serait-ce ton
                     ſang que je vois? Ma mere..... je n'oſe dire barbare, je lui dois mon
                     reſpect...... Ma mere aurait-elle employé la violence pour t'arracher de ces
                     lieux? Je n'en puis ſupporter l'affreuſe idée. Percé de coups, peut-être
                     expires-tu dans ce moment.... Ma mort ſuivra de près la tienne. Eh! pourrais-je
                     te ſurvivre? Pourrais-je reſpirer un air que tu ne partagerais plus avec moi? O
                     amour! quelle deſtinée horrible tu me prépares, ſi le premier inſtant où je
-                    brûle de tes feux eſt marqué par des maux ſi cruels!</p>
-                <p>Madame de Wolmar ne laiſſa pas long-tems Henriette dans ſes réfléxions. Elle
+                    brûle de tes feux eſt marqué par des maux ſi cruels!
+    </p>
+    <p>
+     Madame de Wolmar ne laiſſa pas long-tems Henriette dans ſes réfléxions. Elle
                     avait proſité du peu d'inſtans où elle l'avait laiſſée ſeule, pour faire
                     apprêter une chaiſe de poſte. Allons, Mademoiſelle, lui dit-elle en entrant,
                     &amp; lui jettant un regard où ſa fureur paraiſſait toute entiere; ſuivez-moi,
                     venez expier à jamais votre crime &amp; ma honte. Henriette la ſuit ſans
-                    répliquer, &amp; elles ſont déja dans la chaiſe.</p>
-                <p>Pendant près de deux jours que dura leur voyage, elles ne ſe dirent rien.
+                    répliquer, &amp; elles ſont déja dans la chaiſe.
+    </p>
+    <p>
+     Pendant près de deux jours que dura leur voyage, elles ne ſe dirent rien.
                     Henriette pouſſait des ſoupirs, verſait des larmes, qui ne faiſaient ſans doute
                     qu'endurcir, qu'irriter ſa barbare mere. Un cœur ſourd aux cris ſi puiſſans de
-                    la nature, n'entend point la voix de la pitié.</p>
-                <p>Elles arrivent enfin à L.... &amp; ne mettent pied à terre qu'à la porte du
+                    la nature, n'entend point la voix de la pitié.
+    </p>
+    <p>
+     Elles arrivent enfin à L.... &amp; ne mettent pied à terre qu'à la porte du
                     couvent, où Henriette va être renfermée. Madame de Wolmar fait venir la
                     Supérieure, elles parlent bas toutes deux un inſtant, &amp; celle-ci d'un air
                     myſtique fait entrer auſſi-tôt dans l'intérieur de la maiſon la malheureuſe
-                    victime qu'on lui dévoue.</p>
-                <p>Le marché avait été bien vîte conclu: en deux mots, Madame de Wolmar avait fait
+                    victime qu'on lui dévoue.
+    </p>
+    <p>
+     Le marché avait été bien vîte conclu: en deux mots, Madame de Wolmar avait fait
                     entendre ce dont il était queſtion, &amp; avait promis quinze mille francs pour
-                    la dot de ſa fille, dont elle avait payé deux mille d'avance.</p>
-                <p>Elle n'avait rien dit à Henriette lorſqu'on l'avait ſéparée d'elle, ſans demander
+                    la dot de ſa fille, dont elle avait payé deux mille d'avance.
+    </p>
+    <p>
+     Elle n'avait rien dit à Henriette lorſqu'on l'avait ſéparée d'elle, ſans demander
                     à la voir, elle l'abandonne à toute ſa douleur, au déſeſpoir peutêtre, monte
-                    dans ſa chaiſe &amp; part pour ſe rendre à ſon château.</p>
-                <p>Meillecour n'était revenu de ſon évanouiſſement que plus d'une heure après. Il
+                    dans ſa chaiſe &amp; part pour ſe rendre à ſon château.
+    </p>
+    <p>
+     Meillecour n'était revenu de ſon évanouiſſement que plus d'une heure après. Il
                     voit Riviere à côté de lui: qu'as-tu fait d'Henriette, lui demanda-t-il?. De
                     Mademoiſelle de Wolmar? --- Oui. --. Ah! Monſieur, j'ai vu ſortir une chaiſe du
                     château; Madame de Wolmar, Mademoiſelle ſa fille.....---N'acheve pas. O ciel,
                     marâtre impitoyable! Tu m'enleves donc tout ce que j'aime! Henriette! Dieu! Mais
                     à quoi ſervent mes plaintes? .... Cher Riviere, ſeconde la fureur qui me guide,
-                    viens arracher ma maîtreſſe des mains de ſon bourreau.</p>
-                <p>Ils n'avaient point de chevaux, &amp; la chaiſe avoit une heure d'avance ſur eux.
+                    viens arracher ma maîtreſſe des mains de ſon bourreau.
+    </p>
+    <p>
+     Ils n'avaient point de chevaux, &amp; la chaiſe avoit une heure d'avance ſur eux.
                     Le Chevalier ſe déſeſpérait. Son domeſtique, qui n'oſait fronder ouvertement ſa
                     réſolution, l'engage à retourner au château de ſon pere, qui devait aller ce
                     jour la à C..... petite Ville voiſine. Il nous ſera aiſé, dit-il, pendant ſon
                     abſence, de faire ſeller des chevaux &amp; d'exécuter votre projet. Meillecour
                     avait de la peine à ſe rendre à cet avis; enfin il l'écoute, &amp; ils ſe
-                    metttent en chemin.</p>
-                <p>La fatigue qu'avait ſupportée les Chevalier, les tranſports auxquels il s'était
+                    metttent en chemin.
+    </p>
+    <p>
+     La fatigue qu'avait ſupportée les Chevalier, les tranſports auxquels il s'était
                     livré, lui donnerent une fievre terrible. Son ſang qui bouillonne dans ſes
                     veines, y allume un feu qui le dévore: en entrant chez lui, une ſueur froide
                     coule de tous ſes pores, il tombe dans un état à faire craindre pour ſes jours,
-                    &amp; l'on eſt obligé de le mettre au lit.</p>
-                <p>Son pere était encore au logis; on lui annonce la ſituation du Chevalier, il vole
+                    &amp; l'on eſt obligé de le mettre au lit.
+    </p>
+    <p>
+     Son pere était encore au logis; on lui annonce la ſituation du Chevalier, il vole
                     auprès de ſon lit. Ce pere tendre, le cœur ſerré par la douleur, peut à peine
                     demander à ſon fils ce qui l'a mis dans cet état. Meillecour ne répond rien. Il
                     fait ſigne qu'il veut être ſeul &amp; qu'il a beſoin de repos. Son pere ſe
-                    retire &amp; va donner des ordres pour qu'on faſſe venir un Médecin.</p>
-                <p>Il appelle Riviere: mon ami, lui dit-il, qu'eſt-il donc arrivé à mon fils? tu ne
+                    retire &amp; va donner des ordres pour qu'on faſſe venir un Médecin.
+    </p>
+    <p>
+     Il appelle Riviere: mon ami, lui dit-il, qu'eſt-il donc arrivé à mon fils? tu ne
                     l'as point quitté; tire-moi de l'inquiétude horrible où je ſuis. --- Je vais
                     vous dire tout ce que je ſçais, Monſieur; &amp; il lui fait un récit de ce qui
                     leur eſt arrivé. Ah! je n'en puis douter, s'écria ce pere malheureux: Meillecour
@@ -567,8 +783,10 @@
                     ces entrefaites. Il le conduiſit lui-même à la chambre de ſon fils. Monſieur
                     Loyſeau (c'eſt le nom du Médecin) tâta le poulx du malade qu'il trouva
                     extrêmement agité; il lui ordonna une ſaignee, qui fut faite une heure
-                    après.</p>
-                <p>Le Chevalier demandait à chaque inſtant des nouvelles de ſa chere Henriette,
+                    après.
+    </p>
+    <p>
+     Le Chevalier demandait à chaque inſtant des nouvelles de ſa chere Henriette,
                     &amp; perſonne ne lui en pouvait donner. Riviere qui le voyait empirer de jour
                     en jour, inventa une hiſtoire qui lui fit recouvrer la ſanté. Monſieur, lui
                     dit-il un jour, (c'était le huitieme de ſa maladie, &amp; il était un peu
@@ -582,12 +800,16 @@
                     vous permets de lui dire que vous avez une lettre à lui remettre de ma part,
                     mais je vous défends de la lui rendre avant le temps que je vous preſcris. Toute
                     groſſiere qu'une ſemblable hiſtoire paraiſſe, elle eut l'effet qu'on en
-                    attendait.</p>
-                <p>Eſt-il bien vrai, s'écria le Chevalier! mon cher Riviere, tu aurais une lettre
+                    attendait.
+    </p>
+    <p>
+     Eſt-il bien vrai, s'écria le Chevalier! mon cher Riviere, tu aurais une lettre
                     d'Henriette! Elle ſerait au château de ſa mere!... Ne me trompestu point? ----
                     Non, Monſieur: fiez-vous à moi, tranquilliſez-vous, portez-vous mieux, &amp;
-                    tous vos deſirs ſeront remplis.</p>
-                <p>La cauſe une fois détruite, l'effet s'évanouit bientôt. En trois jours le jeune
+                    tous vos deſirs ſeront remplis.
+    </p>
+    <p>
+     La cauſe une fois détruite, l'effet s'évanouit bientôt. En trois jours le jeune
                     de Meillecour recouvra une ſanté, ſinon parfaite, du moins telle qu'on la peut
                     deſirer après huit jours d'une fievre preſque continuelle. Le quatrieme jour de
                     ſa convaleſcence, il demanda à Riviere la lettre de ſa chere Henriette: celui-ci
@@ -603,8 +825,10 @@
                     l'avoir régardé long-temps en ſilence. Ah! cruel, que t'aije fait pour me
                     tromper ainſi? Mais ne crois pas m'avoir arraché à la mort par ton indigne
                     ſupercherie; e veux ſçavoir, je ſçaurai à quel-que prix que ce ſoit le deſtin de
-                    ma maîtreſſe, ou je me délivrerai d'une vie qui m'eſt odieuſe ſans elle.</p>
-                <p>Monſieur de Meillecour le pere, était dans une chambre à côté de celle où ſe
+                    ma maîtreſſe, ou je me délivrerai d'une vie qui m'eſt odieuſe ſans elle.
+    </p>
+    <p>
+     Monſieur de Meillecour le pere, était dans une chambre à côté de celle où ſe
                     tenait cette converſation. Il entre: ah! mon fils, mon cher fils, quels projets
                     formez-vous? Quoi! la douleur de perdre une maîtreſſe vous ferait attenter à vos
                     jours? Eh! vous appartient-elle cette vie pour en diſpoſer à votre gré?
@@ -618,30 +842,40 @@
                     votre douleur, &amp; vous en aimerait moins. Je ne condamne point l'amour:
                     maître une fois de luimême, il porte aux plus grands exploits; mais eſclave de
                     ſes faibleſſes, il n'eſt plus qu'un vil objet de mépris, qui dégrade l'homme
-                    &amp; l'abrutit.</p>
-                <p>Ce diſcours enflamme le jeune de Meillecour. Oui, mon pere, j'embraſſe avec
+                    &amp; l'abrutit.
+    </p>
+    <p>
+     Ce diſcours enflamme le jeune de Meillecour. Oui, mon pere, j'embraſſe avec
                     ardeur le parti que vous me propoſez. Servez-moi auprès de Madame de Wolmar,
                     comme je vais ſervir mon Roi, &amp; nous ſerons contens l'un &amp; l'autre. Sans
                     renoncer à l'amour, j'abjure à jamais ſes foibleſſes. Je vais me rendre digne de
                     vous &amp; de celle que j'aime, ou je mourrai victime de mon devoir.. Les larmes
                     aux yeux, Mr. de Meillecour embraſſe ſon fils &amp; lui promet de remplir ſes
-                    vœux.</p>
-                <p>Tandis que tout ceci ſe paſſait au château de Meillecour, Madame de Wolmar, de
+                    vœux.
+    </p>
+    <p>
+     Tandis que tout ceci ſe paſſait au château de Meillecour, Madame de Wolmar, de
                     retour dans le ſien, &amp; ne voyant perſonne, s'occupait depuis quinze jours à
                     chercher les moyens de completer ſa vengeance. Henriette renfermée dans un
                     couvent ne la ſatisfaiſait qu'à moitié, elle voulait que le Chevalier fût auſſi
-                    ſa victime.</p>
-                <p>Il y avait dans le pays un jeune homme, qui, à la faveur d'un de ſes amis, chez
+                    ſa victime.
+    </p>
+    <p>
+     Il y avait dans le pays un jeune homme, qui, à la faveur d'un de ſes amis, chez
                     lequel il était venu paſſer quelque-tems, avait eu entrée chez Madame de Wolmar,
                     dont il était devenu éperduement amoureux, &amp; cherchait à lui inſpirer la
                     même paſſion. Il était d'une famille noble du Dauphiné. Il avait perdu au jeu la
                     plus grande partie de ſon bien, &amp; ne ſubſiſtait plus que de la bourſe de ſes
                     amis. Ce fut ſur lui que Madame de Wolmar jetta les yeux. Elle réſolut de
                     l'épouſer, pourvu qu'il la vengeât. Pour cet effet elle lui écrivit pour
-                    l'engager de paſſer chez elle, &amp; il s'y rendit dès le lendemain.</p>
-                <p>Monſieur, lui dit-elle, après l'avoir fait aſſeoir, j'ai cru m'appercevoir, aux
-                    ſoins que vous me rendez, que vous avez quelques vues ſur moi.</p>
-                <p>Il ne dépend que de vous de les remplir. Ma fille enlevée par un jeune homme qui
+                    l'engager de paſſer chez elle, &amp; il s'y rendit dès le lendemain.
+    </p>
+    <p>
+     Monſieur, lui dit-elle, après l'avoir fait aſſeoir, j'ai cru m'appercevoir, aux
+                    ſoins que vous me rendez, que vous avez quelques vues ſur moi.
+    </p>
+    <p>
+     Il ne dépend que de vous de les remplir. Ma fille enlevée par un jeune homme qui
                     l'a ſéduite &amp; déshonorée ſans doute, ne me laiſſe que le deſir de la venger;
                     j'en aurai la puiſſance ſi vous daigniez me ſéconder. Ma main eſt à ce prix,
                     décidezvous. ---- Mon parti eſt tout pris, Madame; commandez, &amp; vous me
@@ -656,11 +890,15 @@
                     guider le bras qui doit me venger. C'eſt le vôtre que j'ai choiſi, Monſieur: je
                     vous le répéte, à ce prix, ma main &amp; toute ma fortune ſont à vous. (Dormont,
                     c'eſt ainſi que ce Gentilhomme ſe nommait,) promit que dès le lendemain il irait
-                    chercher leur ennemi commun, &amp; ſe retira.</p>
-                <p>Madame de Wolmar paſſa une nuit plus tranquille qu'elle n'avait fait depuis
+                    chercher leur ennemi commun, &amp; ſe retira.
+    </p>
+    <p>
+     Madame de Wolmar paſſa une nuit plus tranquille qu'elle n'avait fait depuis
                     long-tems. L'eſpoir de voir bien-tôt ſa vengeance remplie, calma pour quelques
-                    momens cette ame impérieuſe &amp; cruelle.</p>
-                <p>Le ſoleil dorait à peine le ſommet des montagnes, lorſque Dormont ſortit pour
+                    momens cette ame impérieuſe &amp; cruelle.
+    </p>
+    <p>
+     Le ſoleil dorait à peine le ſommet des montagnes, lorſque Dormont ſortit pour
                     aller trouver le Chevalier. Il paſſa chez Madame de Wolmar; elle était levée;
                     ſi-tôt qu'elle le voit: eh bien? ---- J'y cours, Madame. Elle ſe jette à ſon cou
                     &amp; l'embraſſe avec tranſport; il ſemble qu'elle veuille faire paſſer ſon ame
@@ -668,23 +906,33 @@
                     qu'anime l'eſpérance, porte dans nos cœurs un feu qui les embraſe. Voilà les
                     hommes! eſclaves ſerviles d'un ſexe dangereux, ils ſacrifient l'amitié, la
                     nature même à leur aveugle paſſion. Dormont s'arrache des bras de Madame de
-                    Wolmar; il ſemble courir à une victoire aſſurée.</p>
-                <p>Le tems le plus beau du monde, invitait à prendre le plaiſir de la chaſſe. Il
+                    Wolmar; il ſemble courir à une victoire aſſurée.
+    </p>
+    <p>
+     Le tems le plus beau du monde, invitait à prendre le plaiſir de la chaſſe. Il
                     s'attendait à y rencontrer le jeune Meillecour: il connoiſſait la fureur du
                     Chevalier pour cet amuſement. Par le plus grand hazard, celui-ci n'y fut point
                     ce jour-là. Dormont roda envain aux environs du château de Meillecour juſqu'à
                     près de onze heures. Enfin fatigué d'attendre, il entra dans une Auberge &amp;
-                    écrivit ces mots.</p>
-                <quote>
-                    <p>BILLET.</p>
-                    <p>Vous avez couvert d'opprobre déshonoré une Famille que j'eſtime. C'eſt dans
+                    écrivit ces mots.
+    </p>
+    <quote>
+     <p>
+      BILLET.
+     </p>
+     <p>
+      Vous avez couvert d'opprobre déshonoré une Famille que j'eſtime. C'eſt dans
                         votre ſang que je prétends laver la honte qui en réjaillit ſur moi. Je vous
                         attendrai à huit heures au bout de votre parc, du côté du couchant. Je ſerai
-                        ſeul.</p>
-                </quote>
-                <p>Il fit porter ce billet par un domeſtique de l'Auberge, &amp; retourna chez ſon
-                    ami, à qui il ne dit rien du rendez-vous qu'il venait de donner.</p>
-                <p>Lorſqu'on apporta ce billet au Chevalier, il était encore avec ſon pere. Celui-ci
+                        ſeul.
+     </p>
+    </quote>
+    <p>
+     Il fit porter ce billet par un domeſtique de l'Auberge, &amp; retourna chez ſon
+                    ami, à qui il ne dit rien du rendez-vous qu'il venait de donner.
+    </p>
+    <p>
+     Lorſqu'on apporta ce billet au Chevalier, il était encore avec ſon pere. Celui-ci
                     l'ouvre: que devient-il après l'avoir lu! Quoi! s'écria ce vieillard infortuné,
                     tout conſpire donc à m'arracher le cœur? Tenez, mon fils, liſez, &amp; voyez ſi
                     vous êtes coupable de ce dont on vous accuſe. Non, mon pere, répond le
@@ -706,20 +954,26 @@
                     paraît même entrer dans les vues de ſon pere, pour en venir plus facilement à
                     bout. Votre volonté eſt ma loi, lui dit-il; je ſens que mon ame, qu'entraînait
                     un faux inſtinct de gloire, cede ſans effort à vos raiſons. Je fais plus, je
-                    mépriſe l'offenſe &amp; je plains l'offenſeur.</p>
-                <p>L'air de vérité avec lequel le jeune de Meillecour prononce ces dernieres
+                    mépriſe l'offenſe &amp; je plains l'offenſeur.
+    </p>
+    <p>
+     L'air de vérité avec lequel le jeune de Meillecour prononce ces dernieres
                     paroles, en impoſe au vieillard, qui embraſſe ſon fils, &amp; le ſerre dans ſes
                     bras avec cette affection que reſſent un cœur vraiment ſatisfait. Le Chevalier
                     ſaiſit cet inſtant, il déchire le billet &amp; jette les morceaux par la
-                    fenêtre.</p>
-                <p>Nous étions à la fin de Septembre, où la nuit commence à venir de bonne heure: le
+                    fenêtre.
+    </p>
+    <p>
+     Nous étions à la fin de Septembre, où la nuit commence à venir de bonne heure: le
                     Chevalier qui s'attendait que ſon pere le ferait garder à vue, &amp; qu'on ne le
                     laiſſerait point ſortir, ne parut pas vouloir le tenter; il ſe retira au
                     contraire dans ſa chambre plutôt que de coutume, afin de ne donner aucun
                     ſoupçon. Les fenêtres n'étoient pas fort hautes, &amp; l'on pouvait facilement
                     ſauter dans le jardin ſur lequel elles donnaient. Ce fut la route qu'il choiſit
-                    pour exécuter ſon projet.</p>
-                <p>A peine était-il ſept heures &amp; demie qu'il partit. Il trouva Dormont qui
+                    pour exécuter ſon projet.
+    </p>
+    <p>
+     A peine était-il ſept heures &amp; demie qu'il partit. Il trouva Dormont qui
                     l'attendait. Allons, lui dit Meillecour, en mettant l'épée à la main, nous nous
                     expliquerons après: je n'ai pas beaucoup de temps, on vient peut-être après moi.
                     Interdit de ce bruſque abord, Dormont n'a que le temps de ſe mettre en défenſe.
@@ -729,24 +983,32 @@
                     auquel il s'expoſe. La ruſe ſupplée à la force. Meillecour ſe découvre tout
                     entier: dupe du ſtratagême, Dormont ſe précipite ſur lui; le Chevalier s'efface
                     auſſi-tôt, &amp; s'élançant ſur ſon ennemi, il lui plonge ſon épée au travers du
-                    corps.</p>
-                <p>Etonné du coup terrible qu'il venait de porter, il ſe retirait à grands pas. Au
+                    corps.
+    </p>
+    <p>
+     Etonné du coup terrible qu'il venait de porter, il ſe retirait à grands pas. Au
                     détour d'un des murs du parc, il ſe trouve aſſailli par quatre hommes maſqués,
                     qui ſe jettent en même tems ſur lui, le déſarment, lui bandent les yeux, &amp;
-                    le portent dans une chaiſe, qui était dans un bois à quelques pas de-là.</p>
-                <p>Ces gens dévoués à Madame de Wolmar, qui avait promis de les récompenſer
+                    le portent dans une chaiſe, qui était dans un bois à quelques pas de-là.
+    </p>
+    <p>
+     Ces gens dévoués à Madame de Wolmar, qui avait promis de les récompenſer
                     généreuſement, avaient ordre de ſe ſaiſir du Chevalier, ſuppoſé qu'il ſortît
                     vainqueur du rendezvous, où elle ne doutait point qu'il ne ſe trouvât. Ils
                     avaient ſuivi Dormont ſans qu'il s'en fût apperçu, &amp; avaient paſſé tout le
-                    jour dans le bois.</p>
-                <p>Il y avait une heure au moins que la chaiſe roulait: le Chevalier, à qui ſes
+                    jour dans le bois.
+    </p>
+    <p>
+     Il y avait une heure au moins que la chaiſe roulait: le Chevalier, à qui ſes
                     raviſſeurs avaient eu la précaution de lier les mains &amp; de bander les yeux,
                     ne ceſſait de leur dire: Lâches, quel eſt donc mon crime? De quel droit
                     m'arrêtez-vous? Où me conduiſez-vous? Si vous en voulez à ma vie, que ne
                     m'attaquez-vous comme le téméraire à qui je viens de donner la mort; je ſçaurai
                     vous faire, ainſi que lui, repentir de votre hardieſſe. On le laiſſait exhaler
-                    ſa fureur, &amp; on ne lui répondait rien.</p>
-                <p>Enfin la chaiſe s'arrête, on le deſcend à terre, &amp; il eſt conduit dans une
+                    ſa fureur, &amp; on ne lui répondait rien.
+    </p>
+    <p>
+     Enfin la chaiſe s'arrête, on le deſcend à terre, &amp; il eſt conduit dans une
                     eſpece de tour où on l'enferme ſoigneuſement. Livré à lui-même, il ſe perd dans
                     un abyme de réflexions. Les mains liées &amp; les yeux bandés, comme je viens de
                     le dire, il reſte quelque tems immobile au milieu de ſa priſon. Enfin, le
@@ -755,20 +1017,26 @@
                     yeux, &amp; court vers l'endroit où il préſume qu'eſt la porte. Il la cherche
                     long-tems; enfin il la trouve. D'un bras vigoureux il la ſecoue, elle réſiſte,
                     il redouble, il s'épuiſe en efforts inutiles, &amp; eſt forcé d'abandonner ſon
-                    entrepriſe.</p>
-                <p>Il était deux heures du matin, il s'aſſied à terre, il va réfléchir ſur ſon
+                    entrepriſe.
+    </p>
+    <p>
+     Il était deux heures du matin, il s'aſſied à terre, il va réfléchir ſur ſon
                     affreuſe ſituation; mais le ſommeil, qui malgré lui vient fermer ſa paupiere, en
                     le livrant à une eſpece de mort, lui fait bientôt oublier, avec l'univers, les
-                    maux cruels dont il eſt accablé.</p>
-                <p>Cependant Henriette était dans ſon couvent; toujours tourmentée par la
+                    maux cruels dont il eſt accablé.
+    </p>
+    <p>
+     Cependant Henriette était dans ſon couvent; toujours tourmentée par la
                     Supérieure, qui lui rappellait à chaque inſtant les volontés de ſa mere. Madame
                     de Wolmar, lui diſaitelle, veut que vous ſoyez Religieuſe: ferme dans ſes
                     réſolutions, rien, m'écrit-elle, ne la fera changer; il faut vous ſoumettre à
                     ſes ordres. Images de Dieu ſur la terre, nos parents ſont les interprêtes de ſes
                     loix ſuprêmes: leur réſiſter, c'eſt déſobéir au Ciel. A ce diſcours Henriette
                     reſtait immobile &amp; ne répondait rien. Elle levait les mains vers ce Ciel,
-                    que l'on atteſtait, &amp; ſon ame s'exhalait en ſoupirs.</p>
-                <p>Un jour qu'elle était ſeule: Oui, cher amant, s'écria-t-elle en eſſuyant ſes
+                    que l'on atteſtait, &amp; ſon ame s'exhalait en ſoupirs.
+    </p>
+    <p>
+     Un jour qu'elle était ſeule: Oui, cher amant, s'écria-t-elle en eſſuyant ſes
                     larmes, je te l'ai promis, je te ſerai fidelle.. Mon Dieu, l'on veut que je me
                     donne à toi, que je me conſacre à toi ſans reſerve! Eh! quel cœur irais-je
                     porter aux pieds de tes Autels! un cœur ſouillé du plus affreux parjure. Quel
@@ -778,8 +1046,10 @@
                     pour partager avec toi. Et peuventils te plaire ces ſacrifices que te font tous
                     les jours tant de malheureuſes victimes de la politique? Elles t'euſſent aimé,
                     elles t'euſſent adoré dans l'état où tu les appellais; elles t'abjurent
-                    peut-être, expirantes ſous le poids des chaînes dont elles ſont chargées.</p>
-                <p>Mademoiſelle de Wolmar avait conſervé le portrait de ſon amant. Il avait été
+                    peut-être, expirantes ſous le poids des chaînes dont elles ſont chargées.
+    </p>
+    <p>
+     Mademoiſelle de Wolmar avait conſervé le portrait de ſon amant. Il avait été
                     juſqu'à ce jour preſque ſon unique compagnie. Elle ſortait rarement de ſa
                     chambre, ſi ce n'eſt pour aller au réfectoire ou aux offices, où on l'obligeait
                     de ſe trouver. Elle y paraiſſait avec cet air languiſſant &amp; abattu que donne
@@ -792,8 +1062,10 @@
                     quoiqu'elle en ignorât entiérement la cauſe. Henriette n'était point de ces
                     femmes qui croient ſoulager leurs maux en les confiant à tout le monde. Son
                     chagrin était dans ſon cœur; elle ſouffrait même de voir qu'il paraiſſait aſſez
-                    pour qu'Adélaïde s'en apperçût.</p>
-                <p>Henriette &amp; Adélaïde ſe promenaient un jour, &amp; celle-ci preſſait ſon amie
+                    pour qu'Adélaïde s'en apperçût.
+    </p>
+    <p>
+     Henriette &amp; Adélaïde ſe promenaient un jour, &amp; celle-ci preſſait ſon amie
                     de lui découvrir le ſujet de ſes larmes. Eſt-ce que vous n'avez pas de confiance
                     en moi, lui diſait cette aimable fille? Mademoiſelle de Wolmar vaincue par des
                     queſtions ſi ſouvent réitérées, &amp; plus encore par la tendre affection
@@ -813,8 +1085,10 @@
                     Sophie s'était jettée dans les bras d'Henriette, &amp; la preſſait contre ſon
                     ſein.MadeMademoiſelle de Wolmar n'était point préparée à cet aſſaut. Son cœur
                     d'accord avec ſa bouche, rompt enfin un ſilence qu'elle avait gardé trop
-                    long-tems.</p>
-                <p>Après qu'elle eut ceſſé de parler, Sophie &amp; Adélaïde la plaignirent
+                    long-tems.
+    </p>
+    <p>
+     Après qu'elle eut ceſſé de parler, Sophie &amp; Adélaïde la plaignirent
                     ſincérement. Mais, reprit la premiere, Monſieur de Meillecour ne ſçait point ce
                     que vous êtes devenue, vous ignorez vous-même où il peut être; que ſçavez-vous
                     s'il vous demeurera toujours fidele? Si quelqu'autre objet? ... Ah! mon cœur en
@@ -828,8 +1102,10 @@
                     ſouper dans l'appartement d'Henriette. Il était dix heures quand elles ſe
                     raſſemblerent. Elles avaient laiſſé coucher tout le monde, afin de n'être point
                     interrompues. Elles fermerent la porte ſur elles, &amp; Sophie commença
-                    ainſi.</p>
-                <p>Nous demeurions à un château que mon pere avait à quelques lieues de Grenoble.
+                    ainſi.
+    </p>
+    <p>
+     Nous demeurions à un château que mon pere avait à quelques lieues de Grenoble.
                     Reſtée ſeule avec lui, j'avais à peine douze ans, lorſqu'au lieu de me faire
                     apprendre ce qui convenait à mon ſexe, il me fit faire un habit d'homme, &amp;
                     me mena à la chaſſe avec lui. Il l'aimait extraordinairement: j'y pris goût,
@@ -879,8 +1155,10 @@
                     jeune Marquis ſur-tout vanta mon courage. Qu'on aime à s'entendre louer d'une
                     perſonne qui nous eſt chere!, ma joie était inexprimable. Il fut queſtion
                     d'emporter notre chaſſe: nous la mîmes avec aſſez de peine ſur mon cheval: je
-                    montai derriere mon pere, &amp; nous prîmes la route du château.</p>
-                <p>Nos hôtes y reſterent encore deux jours, pendant leſquels mon amant trouva le
+                    montai derriere mon pere, &amp; nous prîmes la route du château.
+    </p>
+    <p>
+     Nos hôtes y reſterent encore deux jours, pendant leſquels mon amant trouva le
                     moyen de me déclarer ſon amour.. Il me preſſa de lui dire s'il était aimé. La
                     maniere dont je reçus l'aveu de ſa tendreſſe, ne lui fit voir que trop qu'il ne
                     m'était pas indifférent., Je vais partir, me dit-il avec chagrin, &amp; je ne
@@ -888,22 +1166,30 @@
                     Monſieur votre pere vous amene pour que vous veniez nous voir? Mon pere vous
                     aime &amp; vous eſtime; vous lui ferez toujours plaiſir, quand vous voudrez
                     venir ici. Il reçut avec tranſport la permiſſion que je lui donnais, &amp; nous
-                    nous quittâmes très-ſatisfaits l'un de l'autre.</p>
-                <p>Il partit enfin &amp; emporta avec lui mon cœur &amp; ma tranquillité. Je fus
+                    nous quittâmes très-ſatisfaits l'un de l'autre.
+    </p>
+    <p>
+     Il partit enfin &amp; emporta avec lui mon cœur &amp; ma tranquillité. Je fus
                     huit jours ſans revoir mon amant; mais je ne paſſai pas un quartd'heure ſans
                     qu'il fût préſent à ma penſée. Le jour ſon image me ſuivait dans les bois, la
                     nuit je lui parlais ſans ceſſe. Avec quel plaiſir je lui découvrais mon cœur, je
-                    lui montrais tout l'amour qu'il m'avait inſpiré!</p>
-                <p>Il vint me voir le neuvieme jour. Il me trouva ſeule. Mon pere était allé voir un
+                    lui montrais tout l'amour qu'il m'avait inſpiré!
+    </p>
+    <p>
+     Il vint me voir le neuvieme jour. Il me trouva ſeule. Mon pere était allé voir un
                     de ſes amis, &amp; ne devait revenir que le ſurlendemain. Je le reçus avec cet
                     air ſatisfait que donne la vue de ce qu'on aime. Il vint à moi les bras ouverts
                     &amp; m'embraſſa.. Aurais-je dû prévoir que le monſtre ne venait que pour me
-                    deſhonorer!</p>
-                <p>Pendant le ſouper il me propoſa d'aller tuer un lievre le lendemain. Nous
+                    deſhonorer!
+    </p>
+    <p>
+     Pendant le ſouper il me propoſa d'aller tuer un lievre le lendemain. Nous
                     partirons, me dit-il, à la pointe du jour, &amp; nous reviendrons pour dîner.
                     J'acceptai avec plaiſir: je lui fis couvrir un lit, il fut ſe coucher, &amp;
-                    moi, de mon côté, je m'enfermai dans ma chambre.</p>
-                <p>Je vous l'ai déjà dit, c'était en habit d'homme que j'allais à la chaſſe; j'en
+                    moi, de mon côté, je m'enfermai dans ma chambre.
+    </p>
+    <p>
+     Je vous l'ai déjà dit, c'était en habit d'homme que j'allais à la chaſſe; j'en
                     pris un verd ce jour-là, je m'en ſouviendrai toute ma vie. Il était environ cinq
                     heures quand nous partîmes. Nous chaſſâmes ſix heures entieres. Nous ſuivions un
                     ſentier dans un petit bois. L'ombre, le ſilence, un verd gazon parſemé de fleurs
@@ -918,8 +1204,10 @@
                     s'enorgueillit le plus de ſa nobleſſe. Nobles, c'eſt à vos ſentimens ſeuls qu'on
                     devrait vous reconnaître; l'homme qui les oublie, s'avilit d'autant plus, que
                     ſon ſang eſt plus illuſtre, il deshonore ſes ayeux, &amp; doit rougir de les
-                    nommer.</p>
-                <p>Nous nous aſsîmes donc, reprit Sophie; le Marquis tira une petite bouteille de ſa
+                    nommer.
+    </p>
+    <p>
+     Nous nous aſsîmes donc, reprit Sophie; le Marquis tira une petite bouteille de ſa
                     poche, &amp; me demanda ſi je voulais prendre un doigt de liqueur, en attendant
                     que nous euſſions gagné le château, qui était éloigné de nous de plus d'une demi
                     lieue. Je n'eus pas plûtôt avalé de cette liqueur traîtreſſe, qu'une douce
@@ -933,28 +1221,36 @@
                     plongée. Que devins-je? Ah! Dieu! quand je me vis dans les bras de ce monſtre:
                     je fis l'impoſſible pour m'en arracher; je n'en pus venir à bout. Le barbare
                     s'était trop bien précautionné. Epuiſée, je m'évanouis: il eut le loiſir
-                    d'aſſouvir ſa brutalité. Pendant mon évanouiſſement il diſparut.</p>
-                <p>Revenue à moi, je me trouvai dans un état horrible; loin cependant d'en être
+                    d'aſſouvir ſa brutalité. Pendant mon évanouiſſement il diſparut.
+    </p>
+    <p>
+     Revenue à moi, je me trouvai dans un état horrible; loin cependant d'en être
                     accablée, furieuſe, je me levai. La rage dans mon cœur prit la place de l'amour.
                     Je jurai de laver dans le ſang du perfide mon injure &amp; ſon crime. Je
                     retournai au château: j'y trouvai mon pere, qui était revenu plutôt que je ne
                     l'attendais. Il me demanda ſi j'avais été ſeule à la chaſſe. Je lui dis avec le
                     plus de tranquilité que je pus affecter, que le jeune de Sol..... était venu
                     avec moi, qu'il m'avait quittée pour retourner chez lui où il avoit affaire. Mon
-                    pere prit cela comme je le lui diſais, &amp; n'en demanda pas davantage.</p>
-                <p>Le château de Sol.... n'était qu'à une lieue de chez nous. Je voyais, preſque
+                    pere prit cela comme je le lui diſais, &amp; n'en demanda pas davantage.
+    </p>
+    <p>
+     Le château de Sol.... n'était qu'à une lieue de chez nous. Je voyais, preſque
                     tous les jours, quelqu'un de cet endroit. Comme on ſçavait que le Seigneur était
                     de nos amis; ceux à qui j'en demandais des nouvelles n'y trouvaient rien de
                     ſurprenant. Quinze jours après ma funeſte aventure, j'appris que le Marquis de
                     Sol..... venait d'acheter à ſon fils un Régiment, &amp; que celui-ci devait
-                    partir dans deux jours pour s'y rendre.</p>
-                <p>Je montais preſque tous les jour, à cheval, ainſi je pouvais, ſous prétexte d'une
+                    partir dans deux jours pour s'y rendre.
+    </p>
+    <p>
+     Je montais preſque tous les jour, à cheval, ainſi je pouvais, ſous prétexte d'une
                     partie de chaſſe, aller attendre mon ennemi, ſans que mon pere ſoupçonnât rien
                     de mon deſſein. Je pris deux paires de piſtolets &amp; je partis à la pointe du
                     jour. Je ſçavais le chemin que devait prendre le Marquis; je fus l'attendre à
                     une demi lieue de chez lui, au coin d'un bois qu'il fallait néceſſairement qu'il
-                    traverſât.</p>
-                <p>Il n'y avaît pas un quart-d'heure que j'y étais lorſque je le vis venir. Il était
+                    traverſât.
+    </p>
+    <p>
+     Il n'y avaît pas un quart-d'heure que j'y étais lorſque je le vis venir. Il était
                     ſuivi d'un domeſtique. A ſon approche je ſentis ma fureur redoubler. Je m'étais
                     maſquée pour n'être pas reconnue. Je réſolus de laiſſer paſſer le Marquis &amp;
                     de jetter bas ſon domeſtique; pour n'avoir pas deux ennemis à combattre. Je
@@ -966,15 +1262,19 @@
                     cheval Je fus à lui démaſquée: monſtre, lui dis-je, te voilà puni de ton crime;
                     c'eſt ainſi que je venge l'affront que tu m'as fait. Il me tendit une main
                     tremblante &amp; mourut ſans pouvoir prononcer une ſeule parole. Pour moi je ne
-                    ſongeai qu'à m'éloigner au plus vîte de ce lieu fatal.</p>
-                <p>Mon pere me vit arriver; la mort était dans mes yeux. Qu'as-tu donc,
+                    ſongeai qu'à m'éloigner au plus vîte de ce lieu fatal.
+    </p>
+    <p>
+     Mon pere me vit arriver; la mort était dans mes yeux. Qu'as-tu donc,
                     s'écria-t-il? Que t'eſt-il arrivé? Je ne réponds rien, je deſcends tremblante de
                     cheval, &amp; il m'aide à gagner la ſalle. Lorſque j'eus repris mes ſens: ah!
                     mon pere c'en eſt fait, il faut que je m'arrache à ce que j'ai de plus cher au
                     monde, il faut que je vous quitte, &amp; je n'ai point une heure à moi Faites
                     mettre les chevaux à la chaiſe, je vais pendant ce temps-là vous apprendre tout.
-                    Il ſortit &amp; rentra auſſi-tôt.</p>
-                <p>Il s'était aſſis à côté de moi &amp; tenait une de mes mains. Inquiet, il
+                    Il ſortit &amp; rentra auſſi-tôt.
+    </p>
+    <p>
+     Il s'était aſſis à côté de moi &amp; tenait une de mes mains. Inquiet, il
                     cherchait à lire d'avance dans mes yeux ce que j'allais lui dire. Je lui fis un
                     recit de tout ce qui s'était paſſé entre le Marquis &amp; moi, &amp; de la
                     vengeance que j'en venais de tirer. Il était ſi interdit de ce qu'il entendait,
@@ -984,8 +1284,10 @@
                     fouetter vers L... Il était midi quand je partis; nous ne nous arrêtâmes point
                     de toute la nuit, &amp; le lendemain de bonne heure nous arrivâmes ici. Je
                     renvoyai la chaiſe &amp; je cherchai dans le jour-même un endroit où je puſſe
-                    être en ſûreté.</p>
-                <p>Je choiſis ce couvent. Mon pere m'avait donné des lettres de change, je les
+                    être en ſûreté.
+    </p>
+    <p>
+     Je choiſis ce couvent. Mon pere m'avait donné des lettres de change, je les
                     envoyai recevoir peu de jours après mon arrivée. Je m'étais fait donner un
                     appartement, &amp; j'étais ici en qualité de penſionnaire. Les premiers jours,
                     où, livrée à moimême, je me rappellais ce que je venais de faire, il me ſemblait
@@ -1001,8 +1303,10 @@
                     affaire, ſuppoſé qu'on en découvrît l'auteur. Sur ces entrefaites mon pere
                     m'écrivit que je pouvais revenir en toute ſûreté. Je n'avais été aucunement
                     ſoupçonnée. Le domeſtique que j'avais manqué, avait publié qu'ils avaient été
-                    attaqués par des voleurs, &amp; l'on n'avait point fait d'autres recherches.</p>
-                <p>De ſi bonnes nouvelles me firent prendre ſur le champ le parti de retourner chez
+                    attaqués par des voleurs, &amp; l'on n'avait point fait d'autres recherches.
+    </p>
+    <p>
+     De ſi bonnes nouvelles me firent prendre ſur le champ le parti de retourner chez
                     mon pere. Je n'y avais pas paſſé huit jours, que je tombai dans une mélancholie
                     affreuſe. Je vis mon amour prêt à ſe rallumer pour la ſeconde fois. Ces lieux où
                     j'avais vu le Marquis, le rappellaient ſans peine à ma mémoire. Je le vois,
@@ -1012,41 +1316,55 @@
                     qu'avec peine: il n'avait que moi. Ce ne fut qu'à des prieres réitérées que je
                     dus enfin la permiſſion qu'il m'en donna. Je partis; &amp; après un an que je
                     paſſai dans la plus grande ſécurité, je fis mes vœux. Depuis ce tems, aucun
-                    remords ne m'a pourſuivie; je vis tranquille, &amp; je puis dire heureuſe.</p>
-                <p>Sophie finit ainſi ſon hiſtoire. Il était tard, ces aimables filles ſe
+                    remords ne m'a pourſuivie; je vis tranquille, &amp; je puis dire heureuſe.
+    </p>
+    <p>
+     Sophie finit ainſi ſon hiſtoire. Il était tard, ces aimables filles ſe
                     ſéparerent; on ſe promit un ſecret inviolable ſur tout ce qu'on venait
-                    d'entendre, &amp; l'on ſe jura une amitié ſincere.</p>
-                <p>Henriette ne put dormir de toute la nuit. Au ſouvenir de l'hiſtoire de Sophie, un
+                    d'entendre, &amp; l'on ſe jura une amitié ſincere.
+    </p>
+    <p>
+     Henriette ne put dormir de toute la nuit. Au ſouvenir de l'hiſtoire de Sophie, un
                     tremblement univerſel s'emparait de ſon corps, ſon cœur palpitait. Hélas! ſe
                     diſaitelle, d'où vient que je friſonne? Je n'ai rien à craindre de ſemblable.
                     Mes maux ont une cauſe toute différente de ceux de Sophie, pourquoi donc ceux-ci
                     m'affectent-ils ſi fort? Elle ne ſçavait que penſer de l'état où elle ſe
                     trouvait, &amp; était loin d'imaginer que ce fût là un préſentiment des nouveaux
-                    malheurs qui l'attendaient.</p>
-                <p>Le Pere du Chevalier de Meillecour, inquiet de ſçavoir ſi ſon fils était couché,
+                    malheurs qui l'attendaient.
+    </p>
+    <p>
+     Le Pere du Chevalier de Meillecour, inquiet de ſçavoir ſi ſon fils était couché,
                     était monté à ſa chambre, à deſſein de s'en éclaircir. Il avait une double clef;
                     il ouvre la porte. Ah! ciel, il eſt parti! ..... Il eſt parti, répete Riviere,
                     qui le ſuivait.---- Oui, mon cher Riviere: cours vîte, arrache mon fils à la
                     mort, arrache-le au crime, plus affreux encore: &amp; lui indique le lieu du
                     rendez-vous. Riviere ne replique rien; il prend avec lui deux domeſtiques &amp;
-                    des flambeaux, &amp; vole à l'endroit fatal.</p>
-                <p>Le Chevalier venait d'être enlevé lorſqu'il arriva. Riviere ne trouve que Dormont
+                    des flambeaux, &amp; vole à l'endroit fatal.
+    </p>
+    <p>
+     Le Chevalier venait d'être enlevé lorſqu'il arriva. Riviere ne trouve que Dormont
                     qui reſpirait encore. A la lueur des flambeaux, il entr'ouvre une paupiere
                     appéſantie par le ſommeil de la mort. Il veut parler. Sa langue glacée ſe refuſe
                     à ſes efforts. Un moment après, raſſemblant toutes les forces de ſon ame; qui
                     que vous ſoyez, dit-il d'une voix mourante, tous vos ſecours me ſont inutiles:
                     je ſens que je n'en puis revenir. Je pardonne ma mort à mon ennemi...... Ma
-                    témérité a reçu la peine...... &amp; il expire en prononçant ces paroles.</p>
-                <p>Riviere qui vit qu'il n'en pouvait rien tirer davantage, retourna rendre compte
-                    de ce qu'il venait de voir à Monſieur de Meillecour.</p>
-                <p>Dès que ce vieillard l'apperçut: hé bien! quelles nouvelles? ---- De cruelles,
+                    témérité a reçu la peine...... &amp; il expire en prononçant ces paroles.
+    </p>
+    <p>
+     Riviere qui vit qu'il n'en pouvait rien tirer davantage, retourna rendre compte
+                    de ce qu'il venait de voir à Monſieur de Meillecour.
+    </p>
+    <p>
+     Dès que ce vieillard l'apperçut: hé bien! quelles nouvelles? ---- De cruelles,
                     Monſieur. ----- Ah? mon fils eſt mort. Non, repartit Riviere; mais j'ignore ce
                     qu'il eſt devenuJ'ai trouvé ſon ennemi étendu par terre, &amp; qui eſt expiré
                     peu de minutes après notre arrivée. J'en ai tiré quelques paroles; mais elles ne
                     donnent aucun éclairciſſement ſur le ſort de mon maître. Je prévois qu'après
                     avoir percé ſon adverſaire, il aura pris la fuite. Nous recevrons ſûrement de
-                    ſes nouvelles ſous peu de jours.</p>
-                <p>Monſieur de Meillecour, privé de ſon fils, ſon unique conſolation &amp; le
+                    ſes nouvelles ſous peu de jours.
+    </p>
+    <p>
+     Monſieur de Meillecour, privé de ſon fils, ſon unique conſolation &amp; le
                     ſoutien de ſa vieilleſſe, était réduit au déſeſpoir. Hélas! diſait-il, j'ai
                     prévu le coup fatal qu'il me porte. Livrée à ſes fougueux deſirs, la jeuneſſe
                     ſuit aveuglément le torrent qui l'entraîne: dans combien d'abîmes ne la
@@ -1056,25 +1374,33 @@
                     coupable. Cachons, mon cher Riviere, cachons ſon aventure cruelle. Le ciel
                     propice à mes vœux me le rendra peut-être bientôt. Je rappellerai dans ſon cœur
                     cette vertu qui n'en eſt qu'exilée. Un cœur né vertueux peut s'égarer; mais tôt
-                    ou tard il revient à lui-même, &amp; la vertu reprend tous ſes droits.</p>
-                <p>Vain eſpoir! vieillard infortuné, ton fils ne te ſera pas ſi-tôt rendu; au
+                    ou tard il revient à lui-même, &amp; la vertu reprend tous ſes droits.
+    </p>
+    <p>
+     Vain eſpoir! vieillard infortuné, ton fils ne te ſera pas ſi-tôt rendu; au
                     pouvoir d'une furie infernale, il faut qu'il ſe prépare au plus cruel des
-                    tourmens.</p>
-                <p>Madame de Wolmar le retenait depuis ſix mois dans cette tour dont j'ai parlé
+                    tourmens.
+    </p>
+    <p>
+     Madame de Wolmar le retenait depuis ſix mois dans cette tour dont j'ai parlé
                     ci-deſſus. Un homme maſqué lui portait tous les jours de quoi vivre. Il avait
                     ordre de le faire ſans parler. Envain le Chevalier lui avait demandé mille fois
                     quel était l'endroit où il était retenu, &amp; par quel ordre; il n'en avait
                     jamais pu rien apprendre: promeſſes, prieres, menaces, tout avait été inutile.
                     On lui donnait ſa nourriture par une eſpece de guichet, &amp; l'on ſe retirait
-                    auſſi-tôt.</p>
-                <p>Les premiers jours de ſa priſon, le Chevalier n'avait voulu rien prendre, il
+                    auſſi-tôt.
+    </p>
+    <p>
+     Les premiers jours de ſa priſon, le Chevalier n'avait voulu rien prendre, il
                     était réſolu de ſe laiſſer mourir de faim. Mais bientôt la nature affaiblie
                     chercha malgré lui ce qui pouvait la ranimer.La Religion, dont les principes une
                     fois gravés dans le cœur, ſont ineffaçables, lui reprocha le nouveau crime qu'il
                     voulait commettre. Il reprit peu-à-peu ſes forces, &amp; attendit avec conſtance
                     qu'il plût au ciel de lui rendre ſa liberté. Il la recouvra dans le moment qu'il
-                    s'y attendait le moins.</p>
-                <p>Madame de Wolmar allait ſouvent voir ſa victime. Elle la contemplait à loiſir
+                    s'y attendait le moins.
+    </p>
+    <p>
+     Madame de Wolmar allait ſouvent voir ſa victime. Elle la contemplait à loiſir
                     ſans en être apperçue. Un jour qu'elle vit le Chevalier aſſis ſur ſon lit, dans
                     cette tranquilité que donne l'eſprit, quand une fois il s'eſt mis au-deſſus des
                     malheurs; c'en eſt trop, dit-elle; ſa captivité loin de lui être inſupportable,
@@ -1085,37 +1411,51 @@
                     me dérober plus de la moitié de ma vengeance. Vengeons-nous, mais par un
                     ſupplice plus cruel que la mort même, par un ſupplice proportionné à l'offenſe
                     qu'il m'a faite. Elle remit au lendemain à exécuter le projet qu'elle venait de
-                    former.</p>
-                <p>Des quatre hommes dont elle s'était ſervie pour enlever le Chevalier, trois
+                    former.
+    </p>
+    <p>
+     Des quatre hommes dont elle s'était ſervie pour enlever le Chevalier, trois
                     avaient été ſacrifiés à ſa ſûreté: un ſeul reſtait auprès d'elle. Complice de
                     tous ſes crimes, elle ne craignait pas qu'il révélât ſon ſecret. Monſieur de
                     Meillecour, perſuadé que ſon fils était paſſé dans le pays étranger, n'avoit
                     fait aucune recherche; il n'avait même oſé en faire, crainte qu'on ne ſoupçonnât
                     le Chevalier du meurtre de Dormont, dont on avait juſqu'à préſent ignoré
                     l'auteur. Ainſi abandonné de l'univers, le jeune de Meillecour reſtait expoſé à
-                    toute la fureur de ſon ennemie.</p>
-                <p>Dès qu'il fut jour, Madame de Wolmar fit appeller ſon hommed'affaires, ce
-                    complice dont j'ai parlé. (Brunet était ſon nom.)</p>
-                <p>Monſieur Brunet, lui dit-elle, je vous ai toujours vu attaché à mes intérêts: je
+                    toute la fureur de ſon ennemie.
+    </p>
+    <p>
+     Dès qu'il fut jour, Madame de Wolmar fit appeller ſon hommed'affaires, ce
+                    complice dont j'ai parlé. (Brunet était ſon nom.)
+    </p>
+    <p>
+     Monſieur Brunet, lui dit-elle, je vous ai toujours vu attaché à mes intérêts: je
                     veux enfin reconnaître les ſervices que vous m'avez rendus; la récompenſe qui
                     vous attend paſſera votre eſpoir. Montons dans ma chaiſe, &amp; je vous dirai ce
-                    dont il eſt queſtion.</p>
-                <p>Ce Monſieur Brunet était celui qui portait à manger au Chevalier. Il eut ſoin de
+                    dont il eſt queſtion.
+    </p>
+    <p>
+     Ce Monſieur Brunet était celui qui portait à manger au Chevalier. Il eut ſoin de
                     lui en donner pour pluſieurs jours, ſuivant l'ordre qu'il en avait reçu de
                     Madame de Wolmar; il fit enſuite atteler les chevaux à la chaiſe, &amp; partit
-                    avec elle.</p>
-                <p>Auſſi-tôt qu'ils furent en route: je vais retirer ma fille du couvent, dit Madame
+                    avec elle.
+    </p>
+    <p>
+     Auſſi-tôt qu'ils furent en route: je vais retirer ma fille du couvent, dit Madame
                     de Wolmar; je vous la donne; mais il faut que nous la forçions à vous épouſer en
                     préſence de ſon amant. C'eſt à ſes yeux même que je veux qu'elle vous donne la
                     main. Si elle le refuſe, ſi rien ne peut l'y contraindre, la mort du Chevalier,
                     en la mettant au déſeſpoir, me vengera de l'un &amp; de l'autre. Je ferai
                     rentrer Henriette dans ſon couvent, pour n'en jamais ſortir, &amp; ma main, au
-                    défaut de la ſienne, ſera votre recompenſe.</p>
-                <p>Monſieur Brunet, ébloui par cette offre, promit tout ce qu'elle voulut. Ils
+                    défaut de la ſienne, ſera votre recompenſe.
+    </p>
+    <p>
+     Monſieur Brunet, ébloui par cette offre, promit tout ce qu'elle voulut. Ils
                     arriverent à L.... le lendemain de leur départ. Ils deſcendirent à une Auberge,
                     &amp; Madame de Wolmar ayant pris un caroſſe de remiſe, ſe rendit au couvent où
-                    était ſa fille.</p>
-                <p>Elle demanda à parler à la Supérieure, qui fit venir auſſi-tôt Henriette. Cette
+                    était ſa fille.
+    </p>
+    <p>
+     Elle demanda à parler à la Supérieure, qui fit venir auſſi-tôt Henriette. Cette
                     aimable fille n'apperçut pas plutôt ſa mere, qu'oubliant tous ſes chagrins, elle
                     ſe précipita dans ſes bras..Un bon cœur ne peut ſe démentir. Madame de Wolmar
                     reçut ſa fille avec affection &amp; l'embraſſa. Henriette était pénétrée
@@ -1127,13 +1467,17 @@
                     Celle-ci ne fut pas long-temps à revenir, elles prirent congé de la Supérieure,
                     &amp; furent trouver Monſieur Brunet qui les attendait. Ils paſſerent tous trois
                     le reſte du jour à L.... &amp; le lendemain ils partirent pour le château de
-                    Wolmar.</p>
-                <p>Henriette y paſſa huit jours ſans voir ſon prétendu parent. Pendant ce temps-là
+                    Wolmar.
+    </p>
+    <p>
+     Henriette y paſſa huit jours ſans voir ſon prétendu parent. Pendant ce temps-là
                     ſa mere lui fit les meilleurs traitemens. O cœur humain! labyrinthe
                     impénétrable! Pourquoi ne peut-on lire ſur le front des hommes les complots
                     horribles que forment leurs ames perverſes? Madame de Wolmar embraſſait ſa
-                    fille, elle eût voulu pouvoir l'étouffer.</p>
-                <p>Le moment fatal approchait où ce monſtre allait mettre le comble à ſes crimes.
+                    fille, elle eût voulu pouvoir l'étouffer.
+    </p>
+    <p>
+     Le moment fatal approchait où ce monſtre allait mettre le comble à ſes crimes.
                     Suivie de deux domeſtiques &amp; de ſon complice, elle monte à la priſon du
                     Chevalier, &amp; ſe la fait ouvrir. Cet endroit était aſſez bien éclairé:
                     Meillecour fait un cri de ſurpriſe en voyant entrer Madame de Wolmar. Il veut ſe
@@ -1141,11 +1485,15 @@
                     ſe ſaiſiſſent de lui, &amp; l'attachent étroitement à un des coins de la tour,
                     où il y avait un anneau de fer. Le Chevalier accable de reproches ſa barbare
                     ennemie; celle-ci, ſans rien répondre, fait ſigne à ſes gens de la ſuivre, &amp;
-                    fait refermer la priſon.</p>
-                <p>Meillecour ne ſavait que penſer de cet évenement: il n'ignorait plus le lieu où
+                    fait refermer la priſon.
+    </p>
+    <p>
+     Meillecour ne ſavait que penſer de cet évenement: il n'ignorait plus le lieu où
                     il était; mais il n'en était pas plus avancé. Il ne fut pas long-temps à être
-                    éclairci du ſujet pour lequel on l'avoit attaché.</p>
-                <p>Madame de Wolmar revint bientôt. Elle était accompagnée de ſa fille. Elle la fait
+                    éclairci du ſujet pour lequel on l'avoit attaché.
+    </p>
+    <p>
+     Madame de Wolmar revint bientôt. Elle était accompagnée de ſa fille. Elle la fait
                     entrer avec elle dans la priſon du Chevalier. Contemple, lui dit-elle, contemple
                     l'auteur de tes maux. Je le tiens ici enchaîné, &amp; il n'en ſortira jamais. Je
                     vais me venger de vous deux d'une maniere qui me ſatisfaſſe entiérement. Elle
@@ -1156,13 +1504,17 @@
                     lui garderai juſqu'au dernier ſoupir. Une priſon horrible &amp; perpétuelle me
                     ſerait moins affreuſe que l'indigne hymen que vous me propoſez. Je ſaurai que
                     mon amant reſpire, qu'il m'aime, &amp; contente de mon ſort, je n'en murmurerai
-                    jamais.</p>
-                <p>Il ſerait trop doux, repliqua Madame de Wolmar: l'indigne objet de ton amour,
+                    jamais.
+    </p>
+    <p>
+     Il ſerait trop doux, repliqua Madame de Wolmar: l'indigne objet de ton amour,
                     immolé à tes yeux, va être ton premier ſupplice..... Barbare! s'écrie Henriette,
                     &amp; elle ſe laiſſe tomber à la renverſe. Monſieur Brunet, qui était près
                     d'elle, la reçut dans ſes bras. Cependant Madame de Wolmar court ellemême
-                    chercher le poiſon qu'elle deſtine à l'infortuné de Meillecour.</p>
-                <p>Celui-ci avait inutilement fait tous ſes efforts pour rompre les liens qui
+                    chercher le poiſon qu'elle deſtine à l'infortuné de Meillecour.
+    </p>
+    <p>
+     Celui-ci avait inutilement fait tous ſes efforts pour rompre les liens qui
                     l'attachaient. Réduit au déſeſpoir, il fixait Monſieur Brunet, qui, reſté
                     immobile, regardait alternativement le Chevalier &amp; Henriette, qui était
                     revenue à elle. Non: s'écriatil; tant de ſcélérateſſe n'entra jamais dans mon
@@ -1179,10 +1531,14 @@
                     Complice de tous ſes forfaits, elle m'immolerait bien-tôt à ſa ſureté, ou il
                     faudrait la prévenir. Un nouveau crime m'eſt affreux: il vaut mieux fuir; je
                     vais dans quelque coin du monde me ſouſtraire au chatiment que je mérite, en
-                    abandonnant un monſtre qui ſeul m'a rendu coupable.</p>
-                <p>Il dit, &amp; ſe hâte d'aller détacher le Chevalier, qui ne pouvait revenir de ſa
-                    ſurpriſe.</p>
-                <p>Dès que le jeune de Meillecour ſe vit libre, il courut vers ſa Maîtreſſe. Il
+                    abandonnant un monſtre qui ſeul m'a rendu coupable.
+    </p>
+    <p>
+     Il dit, &amp; ſe hâte d'aller détacher le Chevalier, qui ne pouvait revenir de ſa
+                    ſurpriſe.
+    </p>
+    <p>
+     Dès que le jeune de Meillecour ſe vit libre, il courut vers ſa Maîtreſſe. Il
                     s'était jetté à ſes genoux &amp; baiſait une de ſes mains avec tranſport.
                     Hâtez-vous, lui dit Monſieur Brunet; vous n'avez pas un inſtant à perdre. Quoi!
                     s'écria le Chevalier, vous voulez que je m'arrache à ce que j'ai de plus cher.
@@ -1193,8 +1549,10 @@
                     propre ſang. La nature ſe révol-te à l'idée ſeule qu'on s'en forme. Si elle ne
                     me punit qu'en me cloîtrant, comme elle a déja fait, ſoyez ſûr que je ne ferai
                     jamais de vœux, &amp; que je vous garderai juſqu'à la mort la foi que je vous ai
-                    promiſe.</p>
-                <p>Meillecour la regardait ſans rien dire &amp; ſoupirait. Eh bien! dit-il enfin:
+                    promiſe.
+    </p>
+    <p>
+     Meillecour la regardait ſans rien dire &amp; ſoupirait. Eh bien! dit-il enfin:
                     fuyons donc, dérobons-nous tous deux à ſes emportemens: mon pere va devenir le
                     vôtre, vous vivrez.... Non, répartit Henriette, n'attendez jamais que je faſſe
                     une pareille démarche; l'amour, je le ſens, l'emporte dans mon cœur ſur le
@@ -1205,15 +1563,21 @@
                     je trouverai moyen de vous donner de mes nouvelles. Retirez-vous chez votre pere
                     &amp; les y attendez. Epargnez Madame de Wolmar; elle eſt coupable je le ſçais,
                     elle vous a outragé indignement, mais elle eſt ma mere; partez, Chevalier; &amp;
-                    elle l'embraſſa en le baignant de ſes larmes.</p>
-                <p>Meillecour partit enfin, le déſeſpoir dans le cœur: il ſe retirait à petits pas;
+                    elle l'embraſſa en le baignant de ſes larmes.
+    </p>
+    <p>
+     Meillecour partit enfin, le déſeſpoir dans le cœur: il ſe retirait à petits pas;
                     il eût ſouhaité que Madame de Wolmar eût pu le rencontrer. Il quittait à regret
-                    un lieu où il laiſſait la moitié de luimême.</p>
-                <p>Il deſcendit cependant ſans obſtacle, &amp; à la faveur de la nuit, qui
+                    un lieu où il laiſſait la moitié de luimême.
+    </p>
+    <p>
+     Il deſcendit cependant ſans obſtacle, &amp; à la faveur de la nuit, qui
                     commençait à étendre ſes voiles, il eut le bonheur de ſe ſauver ſans être vu de
                     perſonne. Il prit la route du château de Meillecour, où il arriva peu de tems
-                    après.</p>
-                <p>Il était à peine ſorti de la tour lorſque Madame de Wolmar y arriva. Elle
+                    après.
+    </p>
+    <p>
+     Il était à peine ſorti de la tour lorſque Madame de Wolmar y arriva. Elle
                     apportait le breuvage fatal. Elle monte à la priſon. En y entrant, elle voit
                     Monſieur Brunet debout devant Henriette, &amp; qui s'entretenait avec elle. Elle
                     jette en même tems un coup-d'œil vers l'endroit où elle croit trouver le
@@ -1225,19 +1589,27 @@
                     Je déteſte le jour où je fus aſſez lâche pour ſervir votre vengeance. Votre
                     fureur n'a plus rien de ſacré. Je vous abandonne aux accès de votre rage.
                     Qu'elle s'aſſouviſſe, ſi elle l'oſe; je n'en ſerai plus du moins l'aveugle
-                    inſtrument.</p>
-                <p>Il ſort en diſant ces mots. Madame de Wolmar, livrée à ce que la fureur a de plus
-                    terrible, vole ſur ſes pas, après avoir enfermé Henriette.</p>
-                <p>Elle l'eut bientôt atteint. Traître, tu me quittes donc? Va, emporte des
+                    inſtrument.
+    </p>
+    <p>
+     Il ſort en diſant ces mots. Madame de Wolmar, livrée à ce que la fureur a de plus
+                    terrible, vole ſur ſes pas, après avoir enfermé Henriette.
+    </p>
+    <p>
+     Elle l'eut bientôt atteint. Traître, tu me quittes donc? Va, emporte des
                     richeſſes dont je t'ai comblé. J'ai voulu te rendre heureux, la perfidie eſt le
                     prix dont tu paies mes bienfaits. Elles me ſeraient odieuſes ces richeſſes,
                     répartit Monſieur Brunet, puiſque je ne les devrais qu'au crime; je ne veux que
-                    ce qui m'appartient légitimement: demain nous réglerons enſemble.</p>
-                <p>Il était environ ſept heures du ſoir: il ſe retira dans ſa chambre où il eut ſoin
+                    ce qui m'appartient légitimement: demain nous réglerons enſemble.
+    </p>
+    <p>
+     Il était environ ſept heures du ſoir: il ſe retira dans ſa chambre où il eut ſoin
                     de s'enfermer. Il connoiſſait Madame de Wolmar. Tel eſt le ſort des coupables,
                     de ſe craindre mutuellement. Le crime ne forma jamais de ſociété durable; la
-                    vertu ſeule a ce droit..</p>
-                <p>M. Brunet, paſſant tout-à-coup du comble du ſcélératiſme, au plus ſublime effort
+                    vertu ſeule a ce droit..
+    </p>
+    <p>
+     M. Brunet, paſſant tout-à-coup du comble du ſcélératiſme, au plus ſublime effort
                     de vertu, ſurprendra ſans doute mes lecteurs. M. Brunet, né honnête homme, ne
                     s'était corrompu qu'à l'exemple de Madame de Wolmar. En le mettant de ſon
                     ſecret, elle l'avait pour ainſi dire forcé de l'imiter. Que ne peut ſur nous une
@@ -1247,10 +1619,14 @@
                     principes de l'honneur une fois gravés dans notre cœur, ne s'effacent jamais
                     tout-à-fait. Le feu qui eſt ſous la cendre, au moindre jour qu'on lui donne,
                     produit les plus vives étincelles, &amp; cauſe quelquefois le plus grand
-                    embraſement..</p>
-                <p>Madame de Wolmar, étourdie d'une révolution ſi ſubite, paſſa la nuit dans une
-                    inquiétude affreuſe.</p>
-                <p>Cependant Henriette était dans la priſon du Chevalier. Le ſort de ſon amant
+                    embraſement..
+    </p>
+    <p>
+     Madame de Wolmar, étourdie d'une révolution ſi ſubite, paſſa la nuit dans une
+                    inquiétude affreuſe.
+    </p>
+    <p>
+     Cependant Henriette était dans la priſon du Chevalier. Le ſort de ſon amant
                     l'occupait toute entiere. Hélas! diſait-elle, par quel événement était-il donc
                     tombé entre les mains de ma mere? Il a ſouffert une priſon affreuſe; je lui dois
                     tout mon amour ..... Sort cruel, ne nous as-tu réunis qu'afin de nous ſéparer
@@ -1259,8 +1635,10 @@
                     venir d'un œil ſec. Séparation inſenſible de l'ame d'avec le corps, elle eſt le
                     terme de nos malheurs, &amp; le commencement de ce repos inaltérable, dont le
                     germe eſt dans notre cœur, dont nous croyons ſouvent jouir, &amp; que nous
-                    cherchons toujours vainement.</p>
-                <p>A ſon réveil, Madame de Wolmar apprit le départ de Monſieur Brunet. Elle frémit à
+                    cherchons toujours vainement.
+    </p>
+    <p>
+     A ſon réveil, Madame de Wolmar apprit le départ de Monſieur Brunet. Elle frémit à
                     cette nouvelle: mais réſolue de ſe donner la mort, ſi ſes crimes étaient
                     découverts, elle ſe remit auſſi-tôt. Elle ſe tranſporta à la tour. Henriette la
                     vit arriver ſans émotion; elle était préparée à tout. Que voulez-vous de moi,
@@ -1272,23 +1650,33 @@
                     ton infortune, &amp; je ſerai contente; &amp; ſi après la mort on eſt capable de
                     quelque ſentiment, je jouirai du plaiſir de ſavoir que tu y ſouffres, &amp;
                     qu'il n'eſt point de remede à tes maux. Elle dit, &amp; elle quitta Henriette
-                    pour aller donner ſes ordres pour leur départ.</p>
-                <p>Elles partirent une heure après. Henriette ſuivait en victime la barbare qui
+                    pour aller donner ſes ordres pour leur départ.
+    </p>
+    <p>
+     Elles partirent une heure après. Henriette ſuivait en victime la barbare qui
                     l'immolait. Elles arriverent au couvent, &amp; Madame de Wolmar, après avoir
                     laiſſé le reſte de la dot de ſa fille, &amp; recommandé qu'on lui fît prononcer
-                    ſes vœux le plutôt qu'il ſerait poſſible, retourna chez elle.</p>
-                <p>On annonça à Henriette, huit jours après ſon arrivée, qu'elle prendrait l'habit
-                    dans un mois, &amp; l'on fixa à quatre ſa profeſſion.</p>
-                <p>Henriette avait formé ſon projet; réſolue de l'exécuter, elle ſe ſoumit à tout ce
+                    ſes vœux le plutôt qu'il ſerait poſſible, retourna chez elle.
+    </p>
+    <p>
+     On annonça à Henriette, huit jours après ſon arrivée, qu'elle prendrait l'habit
+                    dans un mois, &amp; l'on fixa à quatre ſa profeſſion.
+    </p>
+    <p>
+     Henriette avait formé ſon projet; réſolue de l'exécuter, elle ſe ſoumit à tout ce
                     qu'on exigea, avec l'apparence de la meilleure volonté. Adélaïde &amp; Sophie,
                     l'allaient voir ſouvent. Elles étaient ſurpriſes de la voir ainſi déterminée à
                     embraſſer un état pour lequel elle leur avait toujours paru avoir le plus grand
-                    éloignement.</p>
-                <p>Le terme expiré, Henriette prit l'habit: on en donna avis à Madame de Wolmar,
+                    éloignement.
+    </p>
+    <p>
+     Le terme expiré, Henriette prit l'habit: on en donna avis à Madame de Wolmar,
                     &amp; du temps où elle devait prononcer ſes vœux. Cette marâtre impitoyable, en
                     s'applaudiſſant de ce commencement de victoire, répondit qu'elle ſe rendrait à
-                    L.... au jour marqué.</p>
-                <p>Le Chevalier de Meillecour avait été très-bien reçu de ſon pere. Ce vieillard
+                    L.... au jour marqué.
+    </p>
+    <p>
+     Le Chevalier de Meillecour avait été très-bien reçu de ſon pere. Ce vieillard
                     reſpectable, qui avait pleuré la perte de ſon fils, l'embraſſait avec tranſport.
                     C'eſt ma déſobéiſſance, ô mon pere! qui a cauſé tous mes malheurs. -- N'en
                     parlons plus; ton répentir efface ton crime. Il fut l'ouvrage de l'imprudence
@@ -1307,38 +1695,54 @@
                     adreſſe, dès que je ſerai arrivé. Mais tu aimes donc toujours Mademoiſelle de
                     Wolmar! Eh! qui pourrait ne la pas aimer? Son cœur eſt le ſanctuaire même de la
                     vertu. --- Et ſi elle fait ſes vœux? Non, mon pere, elle m'a juré qu'elle n'en
-                    prononcerait jamais.</p>
-                <p>Nous ſommes faibles pour ce qui nous eſt cher: M. de Meillecour conſentit à tout
+                    prononcerait jamais.
+    </p>
+    <p>
+     Nous ſommes faibles pour ce qui nous eſt cher: M. de Meillecour conſentit à tout
                     ce que voulut ſon fils, &amp; le départ de celui-ci fut fixé au
-                    ſur-lendemain.</p>
-                <p>Il y avait quinze jours que le Chevalier était à Paris. Il avait reçu une lettre
+                    ſur-lendemain.
+    </p>
+    <p>
+     Il y avait quinze jours que le Chevalier était à Paris. Il avait reçu une lettre
                     de ſon pere à qui il avait écrit ſon arrivée. Envain il chercha dans cette
-                    lettre des nouvelles de ſa chere Henriette; on ne lui en diſait pas un mot.</p>
-                <p>Un jour qu'il ſe promenait aux Tuileries, &amp; qu'il ſongeait aux moyens qu'il
+                    lettre des nouvelles de ſa chere Henriette; on ne lui en diſait pas un mot.
+    </p>
+    <p>
+     Un jour qu'il ſe promenait aux Tuileries, &amp; qu'il ſongeait aux moyens qu'il
                     pourrait employer pour poſſéder ſa Maîtreſſe, il fut abordé par le jeune Comte
                     de Ch.... Eh! bon jour, Chevalier; mais, c'eſt un miracle que de te voir à
                     Paris. Tu viens vivre, n'eſt-il pas vrai? car on ne fait que végéter dans vos
                     Provinces. Ma foi, vive Paris: c'eſt le centre des plaiſirs &amp; l'aſtre
                     vivifiant de la nature. A peine avait-il donné le tems au Chevalier de lui
                     répondre, que ſe trouvant à la porte, il fit avancer ſa voiture, s'élança
-                    dedans, &amp; fit monter Meillecour avec lui.</p>
-                <p>Ils s'étaient connus en faiſant leurs exercices, &amp; avaient été fort bons
-                    amis.</p>
-                <p>Mais, où me menez-vous, dit enfin le Chevalier à ſon ami? Souper chez la Baronne
+                    dedans, &amp; fit monter Meillecour avec lui.
+    </p>
+    <p>
+     Ils s'étaient connus en faiſant leurs exercices, &amp; avaient été fort bons
+                    amis.
+    </p>
+    <p>
+     Mais, où me menez-vous, dit enfin le Chevalier à ſon ami? Souper chez la Baronne
                     de Nor.... nous y trouverons bonne compagnie, &amp; nous y ſerons bien
-                    reçus.</p>
-                <p>La Baronne de Nor.... était une Femme de ving-cinq ans &amp; veuve depuis ſix
+                    reçus.
+    </p>
+    <p>
+     La Baronne de Nor.... était une Femme de ving-cinq ans &amp; veuve depuis ſix
                     mois. Elle était jolie, &amp; nombre de ſoupirans lui faiſaient la cour. Mais
                     réſolue de ne ſe point remarier, elle ne les écoutait que pour s'amuſer.
                     Maîtreſſe d'une fortune immenſe que le vieux Baron, ſon époux, lui avait laiſſée
                     en mourant, elle s'en ſervait à jouir de la vie agréablement. Après avoir fait
-                    ſa partie, elle retenait ſouvent quatre ou cinq amis avec qui elle ſoupait.</p>
-                <p>Lorſque le Comte &amp; le Chevalier arriverent chez elle, ils la trouverent ſeule
+                    ſa partie, elle retenait ſouvent quatre ou cinq amis avec qui elle ſoupait.
+    </p>
+    <p>
+     Lorſque le Comte &amp; le Chevalier arriverent chez elle, ils la trouverent ſeule
                     contre l'ordinaire. Elle tenait un livre qu'elle poſa auſſi-tôt qu'elle les
                     apperçut. Elle fut audevant d'eux, &amp; les reçut avec cette affabilité, cette
                     aiſance qui caractériſent les femmes comme il faut, &amp; ſur-tout celles de la
-                    Capitale.</p>
-                <p>Je vous préſente un de mes bons amis, dit le Comte de Ch..... &amp; nous venons
+                    Capitale.
+    </p>
+    <p>
+     Je vous préſente un de mes bons amis, dit le Comte de Ch..... &amp; nous venons
                     vous demander à ſouper. Vous voyez que j'en agis ſans façon. Voilà comme j'aime
                     que l'on ſoit, dit la Baronne, après avoir fait donner des ſieges au Chevalier
                     &amp; au Comte. De la liberté par-tout. A quoi bon ce cérémonial qui nous gêne
@@ -1348,39 +1752,73 @@
                     ton; &amp; de fadeurs en fadeurs, de complimens en complimens, j'en viens au
                     point de m'ennuyer à la mort avec elles. Auſſi leur langue s'exerce-t-elle à
                     loiſir contre moi; mais peu m'importe la calomnie; j'ai pris le parti de me
-                    mettre audeſſus.</p>
-                <p>En effet, dit le Chevalier, qui n'avait point encore parlé. A quoi ſervirait de
+                    mettre audeſſus.
+    </p>
+    <p>
+     En effet, dit le Chevalier, qui n'avait point encore parlé. A quoi ſervirait de
                     chercher à la confondre? C'eſt une hydre toujours renaiſſante. Ah! pour le coup,
                     interrompit le Comte de Ch.... ſi le Chevalier s'en mêle, la diſſertation n'eſt
                     pas prête à finir. Laiſſons les femmes &amp; leur caquet, croyez-moi, Madame,
                     &amp; amuſons-nous à faire un tri. Il aimait beaucoup le jeu, la Baronne ne le
-                    haïſſait pas, &amp; le Chevalier faiſait ſa partie comme un autre.</p>
-                <p>Ils ſe mirent donc à jouer. La Baronne perdit, &amp; perdit en femme qui ſçait
+                    haïſſait pas, &amp; le Chevalier faiſait ſa partie comme un autre.
+    </p>
+    <p>
+     Ils ſe mirent donc à jouer. La Baronne perdit, &amp; perdit en femme qui ſçait
                     perdre. On vint avertir qu'on avait ſervi. Ils ſouperent voluptueuſement. La
                     Baronne fit, on ne peut pas mieux, les honneurs de ſa table. Elle chanta, &amp;
                     pria Meillecour de chanter. Il ne ſe fit pas preſſer. Il choiſit une chanſon
                     qu'il avait faite pour ſa Maîtreſſe pendant ſon ſéjour dans la priſon. Elle
-                    était ſous un nom ſuppoſé: la voici.</p>
-                <quote>
-                    <p>CHANSON.</p>
-                    <l>Je n'ai des yeux, charmante Liſe,</l>
-                    <l>Que pour admirer tes appas;</l>
-                    <l>Mon ame, vivement épriſe,</l>
-                    <l>N'exiſte plus où tu n'es pas.</l>
-                    <l>Si d'une beauté que l'on vante</l>
-                    <l>Le hazard me fait voir les traits;</l>
-                    <l>Qu'elle éblouiſſe, enleve, enchante,</l>
-                    <l>Je ne lui trouve aucuns attraits.</l>
-                    <l>Je n'ai des yeux, charmante Liſe,</l>
-                    <l>Que pour admirer tes appas;</l>
-                    <l>Mon ame, vivement épriſe,</l>
-                    <l>N'exiſte plus où tu n'es pas.</l>
-                </quote>
-                <p>On applaudit à ſa chanſon &amp; au goût avec lequel il la chanta, &amp; après que
+                    était ſous un nom ſuppoſé: la voici.
+    </p>
+    <quote>
+     <p>
+      CHANSON.
+     </p>
+     <l>
+      Je n'ai des yeux, charmante Liſe,
+     </l>
+     <l>
+      Que pour admirer tes appas;
+     </l>
+     <l>
+      Mon ame, vivement épriſe,
+     </l>
+     <l>
+      N'exiſte plus où tu n'es pas.
+     </l>
+     <l>
+      Si d'une beauté que l'on vante
+     </l>
+     <l>
+      Le hazard me fait voir les traits;
+     </l>
+     <l>
+      Qu'elle éblouiſſe, enleve, enchante,
+     </l>
+     <l>
+      Je ne lui trouve aucuns attraits.
+     </l>
+     <l>
+      Je n'ai des yeux, charmante Liſe,
+     </l>
+     <l>
+      Que pour admirer tes appas;
+     </l>
+     <l>
+      Mon ame, vivement épriſe,
+     </l>
+     <l>
+      N'exiſte plus où tu n'es pas.
+     </l>
+    </quote>
+    <p>
+     On applaudit à ſa chanſon &amp; au goût avec lequel il la chanta, &amp; après que
                     le Comte eut auſſi chanté la ſienne, on ſe mit à cauſer. Inſenſiblement la
                     converſation retomba ſur les femmes. Le Chevalier prit leur parti contre ſon
-                    ami, qui les maltraitait fort.</p>
-                <p>En vérité, dit le Comte, je te trouve un excellent apologiſte. Tu fais des femmes
+                    ami, qui les maltraitait fort.
+    </p>
+    <p>
+     En vérité, dit le Comte, je te trouve un excellent apologiſte. Tu fais des femmes
                     le tableau le plus brillant. Tu en ménages les jours avec un art qui n'eſt qu'à
                     toi, &amp; que j'admire d'honneur. Ah! mon cher ami que tu les connais peu! Ce
                     n'eſt chez elles que tracaſſerie, intrigue, interêt, coquetterie. La femme eſt
@@ -1390,8 +1828,10 @@
                     phénix, qui ne doit ſon exiſtence qu'au cerveau creux de nos fabuliſtes
                     inſenſés. Paix, paix, je veux être ton Mentor, je ne te donne pas huit jours,
                     Chevalier, pour être entiérement revenu de ton erreur, &amp; penſer en tout
-                    comme moi.</p>
-                <p>Il faut, Monſieur le Comte, dit en riant la Baronne, que vous ayez été
+                    comme moi.
+    </p>
+    <p>
+     Il faut, Monſieur le Comte, dit en riant la Baronne, que vous ayez été
                     furieuſement maltraité par les femmes. Tout au contraire, répartit-il en
                     l'interrompant: j'en ai été aſſez favoriſé, mais je n'ai jamais trouvé chez
                     elles de véritable amour. Cette paſſion de l'ame eſt trop forte pour leurs
@@ -1399,13 +1839,17 @@
                     effets les moins équivoques; mais, ſemblables à l'éclair, dont la lumiere vive
                     &amp; brillante frappe &amp; ſe diſſipe à l'inſtant, je les ai vus paraître
                     &amp; bientôt s'évanouir. Je veux à ce ſujet vous raconter une aventure qui
-                    m'eſt arrivée il n'y a pas un an.</p>
-                <p>J'étais aux Français: on donnait Zaïre ce jour-là. Vous connaiſſez cette Piece,
+                    m'eſt arrivée il n'y a pas un an.
+    </p>
+    <p>
+     J'étais aux Français: on donnait Zaïre ce jour-là. Vous connaiſſez cette Piece,
                     il eſt inutile que je vous en faſſe l'analyſe; il ſuffit de vous dire qu'au
                     moment où Oroſmane reproche à ſa Maîtreſſe de ne le pas aimer, j'entendis d'une
                     loge voiſine de celle où j'étais placé, une voix qui s'écria: Il eſt bien
-                    injuſte! belas! elle n'aime que lui, elle ne veut vivre que pour lui.</p>
-                <p>Je fus curieux de ſçavoir quelle était la perſonne qui venait de prononcer ces
+                    injuſte! belas! elle n'aime que lui, elle ne veut vivre que pour lui.
+    </p>
+    <p>
+     Je fus curieux de ſçavoir quelle était la perſonne qui venait de prononcer ces
                     paroles. Je me baiſſai, &amp; vis bientôt une jeune Dame qui eſſuyait des
                     pleurs, qui coulaient malgré elle ſur des joues qui euſſent fait honte au plus
                     vif éclat de la roſe. Deux grands yeux noirs &amp; bien fendus étaient couronnés
@@ -1420,20 +1864,28 @@
                     inconnue. Je vis avec plaiſir que ces ris, ces éclats immodérés, qu'arrachent
                     quelques balivernes dans les ſublimes Comédies en un acte, n'excitaient chez
                     elle aucune ſenſation. Elle était tendre, elle voulait quelque choſe qui émût
-                    l'ame, &amp; de pareilles fariboles ne ſont pas faites pour y aller.</p>
-                <p>Enfin la toile tomba. Je me hâtai de ſuivre cette Dame, qui s'était déjà levée,
+                    l'ame, &amp; de pareilles fariboles ne ſont pas faites pour y aller.
+    </p>
+    <p>
+     Enfin la toile tomba. Je me hâtai de ſuivre cette Dame, qui s'était déjà levée,
                     &amp; qui s'en allait avec une autre, que j'ai ſçu depuis être une de ſes amies.
                     Je fus aſſez heureux pour voir tomber une des boucles d'oreille de mon inconnue.
                     Je la ramaſſai; mais je me gardai bien de la lui rendre auſſi-tôt. Je formai le
-                    deſſein de la porter chez elle.</p>
-                <p>Ces deux Dames allaient monter dans leur équipage; j'appellai mon Laquais, &amp;
+                    deſſein de la porter chez elle.
+    </p>
+    <p>
+     Ces deux Dames allaient monter dans leur équipage; j'appellai mon Laquais, &amp;
                     lui ordonnai de les ſuivre. Il ſuffit, Monſieur, me ditil, &amp; auſſi-tôt il
                     s'élança derriere la voiture &amp; diſparut comme un éclair. Je connaiſſais le
                     talent de ce garçon pour de ſemblables commiſſions, &amp; je ne doutai point
-                    qu'il ne me ſatiſfît pleinement à ſon retour.</p>
-                <p>Je me rendis droit chez moi; je montai dans ma chambre où je commandai qu'on me
-                    laiſſât ſeul.</p>
-                <p>Mon Laquais fut long-temps à revenir; je m'impatientais: Enfin il parut. Eh bien!
+                    qu'il ne me ſatiſfît pleinement à ſon retour.
+    </p>
+    <p>
+     Je me rendis droit chez moi; je montai dans ma chambre où je commandai qu'on me
+                    laiſſât ſeul.
+    </p>
+    <p>
+     Mon Laquais fut long-temps à revenir; je m'impatientais: Enfin il parut. Eh bien!
                     qu'as-tu découvert?vert? ----- Ah! Monſieur, la charmante perſonne! elle eſt ma
                     foi divine. ---- Après, je ſçais tout cela -- J'étais donc monté derriere ſon
                     caroſſe, un Laquais eſt venu s'y placer à côté de moi: j'ai reconnu Saint-Jean,
@@ -1452,15 +1904,21 @@
                     s'eſt arrêté comme il parlait encore. Nous étions rue Saint-Louis au Marais.
                     J'ai remarqué l'endroit où entrait Emilie, &amp; après m'être aſſuré que c'était
                     là qu'elle demeurait, je ſuis vîte accouru, &amp; vous m'en voyez encore tout
-                    eſſouflé.</p>
-                <p>Je ſuis content de toi, lui dis-je; tu me montreras demain cette maiſon. Vas
-                    manger un morceau, &amp; dis qu'on me monte à ſouper.</p>
-                <p>Je mangeai peu, je ne dormis preſque point de toute la nuit. L'image d'Emilie me
+                    eſſouflé.
+    </p>
+    <p>
+     Je ſuis content de toi, lui dis-je; tu me montreras demain cette maiſon. Vas
+                    manger un morceau, &amp; dis qu'on me monte à ſouper.
+    </p>
+    <p>
+     Je mangeai peu, je ne dormis preſque point de toute la nuit. L'image d'Emilie me
                     fut toujours préſente. Je m'aſſoupis cependant ſur le matin. Dès que je fus
                     éveillé, j'appellai mon Laquais. Quelle heure eſtil, lui demandai-je? ----
                     Monſieur il eſt près d'onze heures. ---- Dépêchetoi donc de m'habiller, &amp;
-                    que nous ſortions.</p>
-                <p>Je me rendis chez ma belle inconnue, où je me fis annoncer. Je la trouvai dans le
+                    que nous ſortions.
+    </p>
+    <p>
+     Je me rendis chez ma belle inconnue, où je me fis annoncer. Je la trouvai dans le
                     déshabillé le plus galant. Vous me pardonnerez, lui dis-je, Madame, la liberté
                     que je prends de vous importuner. Hier, en ſortant du ſpectacle, vous avez
                     laiſſé tomber une de vos boucles d'oreilles; je l'ai ramaſſée &amp; viens pour
@@ -1469,8 +1927,10 @@
                     m'aſſis: Nous causâmes quelque-tems; enfin je pris congé d'elle en lui demandant
                     la permiſſion de la voir quelquefois. Elle me l'accorda, comme elle avait reçu
                     ſa boucle d'oreille, c'eſt-à-dire, la rougeur peinte ſur le front, &amp; je
-                    partis.</p>
-                <p>Je lui fis réguliérement ma cour, &amp; je parvins bientôt, ou du moins je crus
+                    partis.
+    </p>
+    <p>
+     Je lui fis réguliérement ma cour, &amp; je parvins bientôt, ou du moins je crus
                     lui avoir inſpiré la même paſſion que je reſſentais pour elle. Qui n'y aurait
                     été trompé? J'arrivais, on volait au-devant de moi en me tendant les bras. Je
                     cueillais ſur ſa bouche les baiſers les plus délicieux...... Si vous étiez un
@@ -1478,11 +1938,15 @@
                     encore. Je vous avoue qu'elle était mon idole. Je lui aurais ſacrifié ma
                     fortune, mon exiſtence même. Elle avait exigé que mon amour ne parût point
                     devant ſon amie. Cette maudite amie ſurvenait toujours dans les inſtans où je
-                    croyais ma Maîtreſſe toute à moi: il ſemblait qu'elle les épiait.</p>
-                <p>Ennuyé de cette contrainte, &amp; brûlant d'obtenir d'Emilie ce que je n'en avais
+                    croyais ma Maîtreſſe toute à moi: il ſemblait qu'elle les épiait.
+    </p>
+    <p>
+     Ennuyé de cette contrainte, &amp; brûlant d'obtenir d'Emilie ce que je n'en avais
                     encore pu avoir, je lui propoſai un jour de venir voir un jardin que j'avais au
-                    Fauxbourg St. Antoine. Elle accepta la partie qui fut miſe au lendemain.</p>
-                <p>Nous étions convenus que je m'y rendrais le premier. Je fis apprêter la la
+                    Fauxbourg St. Antoine. Elle accepta la partie qui fut miſe au lendemain.
+    </p>
+    <p>
+     Nous étions convenus que je m'y rendrais le premier. Je fis apprêter la la
                     collation. Il y avait une heure que je l'attendais lorſqu'elle arriva. L'amour
                     lui-même avait pris ſoin de la parer. Je ne l'avais jamais vue ſi belle. Je crus
                     toucher au comble du bonheur. Après quelques tours de promenade, nous entrâmes
@@ -1497,23 +1961,31 @@
                     Monſieur le Comte, vous êtes un galant du premier ordre. Comme vous vous
                     paſſionnez! Je connais quelques femmes qui aiment qu'on ſe prenne de grande
                     paſſion pour elles, vous pouvez être ſûr que je ne vous oublierai point dans
-                    l'occaſion. Elle ſort en diſant ces mots, &amp; monte dans ſon équipage.</p>
-                <p>Immobile &amp; ſemblable à un homme frappé de la foudre, je reſtai comme un
+                    l'occaſion. Elle ſort en diſant ces mots, &amp; monte dans ſon équipage.
+    </p>
+    <p>
+     Immobile &amp; ſemblable à un homme frappé de la foudre, je reſtai comme un
                     terme. Je ne ſçavais ſi je veillais, ou ſi quelque ſonge trompeur occupait ma
                     penſée. Je la laiſſai partir ſans lui pouvoir répondre un ſeul mot. Revenu enfin
                     à moi, je reſolus d'oublier une femme dont j'avais été ſi fort la dupe. Depuis
                     cet inſtant, je me ſuis défié de ce ſexe volage, &amp; ſi j'en ai encore été
                     trompé quelquefois, je puis dire, que j'ai bien eu ma revanche; mais je ſuis
-                    bien ſûr que je ne donnerai jamais dans le panneau.</p>
-                <p>Il ne faut jurer de rien, dit Madame de Nor.... qui s'était beaucoup amuſée de la
+                    bien ſûr que je ne donnerai jamais dans le panneau.
+    </p>
+    <p>
+     Il ne faut jurer de rien, dit Madame de Nor.... qui s'était beaucoup amuſée de la
                     concluſion de l'aventure du Comte. Monſieur, on n'eſt jamais plus proche du
                     précipice, que lorſque l'on croit en être bien éloigné. Je ſuis bien certaine
                     que Monſieur le Chevalier penſe comme moi ----Aſſurément, Madame; &amp; ces
-                    braves- là ſont ceux qui y ſont le plutôt pris.</p>
-                <p>Le récit du Comte les avait menés plus loin qu'ils ne croyaient: il était deux
+                    braves- là ſont ceux qui y ſont le plutôt pris.
+    </p>
+    <p>
+     Le récit du Comte les avait menés plus loin qu'ils ne croyaient: il était deux
                     heures du matin lorſqu'ils ſe ſéparerent. La Baronne les engagea à la venir voir
-                    ſouvent. Ils le lui promirent &amp; ſe retirerent.</p>
-                <p>Le Chevalier la vit preſque tous les jours pendant ſon ſéjour à Paris. Un ſoir
+                    ſouvent. Ils le lui promirent &amp; ſe retirerent.
+    </p>
+    <p>
+     Le Chevalier la vit preſque tous les jours pendant ſon ſéjour à Paris. Un ſoir
                     qu'il y avait ſoupé &amp; qu'il en revenait fort tard, il fut attaqué par deux
                     hommes, qui, ayant l'épée à la main, l'obligerent de tirer la ſienne. Ils le
                     chargerent tous deux en même tems. Le Chevalier s'étant mis contre une muraille,
@@ -1523,12 +1995,16 @@
                     l'avait déjà bleſſé dangereuſement, lorſque le guet vint à paſſer. On ſe ſaiſit
                     du Chevalier de Meillecour &amp; de cet homme, &amp; on les conduiſit tous deux
                     chez un Commiſſaire. On y tranſporta auſſi celui qui était étendu roide mort à
-                    quelques pas de là.</p>
-                <p>Le Commiſſaire interrogea d'abord le Chevalier. Celui-ci répondit ſans
+                    quelques pas de là.
+    </p>
+    <p>
+     Le Commiſſaire interrogea d'abord le Chevalier. Celui-ci répondit ſans
                     s'émouvoir, qu'il avait été attaqué par deux hommes qu'il ne connaiſſait pas,
                     &amp; qu'il avait été obligé de ſe défendre, mais qu'on pourrait en ſçavoir
-                    davantage de celui qu'on avait emmené.</p>
-                <p>On le fit venir, ou plutôt on l'apporta, car il ne pouvait plus ſe ſoutenir. Le
+                    davantage de celui qu'on avait emmené.
+    </p>
+    <p>
+     On le fit venir, ou plutôt on l'apporta, car il ne pouvait plus ſe ſoutenir. Le
                     Chevalier lui avait fait deux bleſſures profondes, par leſquelles il perdait
                     beaucoup de ſang. On le preſſa de parler, en le menaçant de le conduire au
                     Châtelet. Hélas! dit-il, je n'ai que quelques heures à vivre, ainſi je n'ai rien
@@ -1537,56 +2013,76 @@
                     ne connaiſſons point nous a payé pour l'attaquer lorſqu'il ſortirait de chez
                     Madame la Baronne de Nor..... où elle nous a dit qu'il était entré. Le ciel,
                     vengeur des crimes, nous a punis.... Je meurs.... En effet, il lui prit une
-                    faibleſſe dans laquelle il expira quelques minutes après.</p>
-                <p>Le commiſſaire en fut fâché. Il aurait voulu ſavoir quelle était cette Dame. Le
+                    faibleſſe dans laquelle il expira quelques minutes après.
+    </p>
+    <p>
+     Le commiſſaire en fut fâché. Il aurait voulu ſavoir quelle était cette Dame. Le
                     Chevalier de Meillecour était loin de ſoupçonner Madame de Wolmar; trop éloigné
                     de l'endroit qu'elle habitait, il ne lui vint pas même dans l'eſprit de penſer à
                     elle. On eut beau l'interroger, il proteſta qu'il ne connaiſſait perſonne qui
-                    pût en venir contre lui à cet excès.</p>
-                <p>Cependant on fit tranſporter les deux cadavres dans le lieu où l'on a coutume de
+                    pût en venir contre lui à cet excès.
+    </p>
+    <p>
+     Cependant on fit tranſporter les deux cadavres dans le lieu où l'on a coutume de
                     les expoſer, après avoir dreſſé un procès-verbal des dépoſitions, &amp; le
                     Chevalier s'étant réclamé du Comte de Ch.... on envoya chez ce Seigneur, qui ſe
                     rendit lui-même chez le Commiſſaire. Sur ſa parole, on laiſſa aller Monſieur de
-                    Meillecour, qui n'entendit plus parler de cette affaire.</p>
-                <p>L'inconnue qui l'avait fait attaquer, était Madame de Wolmar, qui, ayant appris
+                    Meillecour, qui n'entendit plus parler de cette affaire.
+    </p>
+    <p>
+     L'inconnue qui l'avait fait attaquer, était Madame de Wolmar, qui, ayant appris
                     qu'il était parti pour Paris, s'y était rendue en poſte preſque auſſi-tôt que
                     lui. Elle l'avait long-temps cherché aux promenades &amp; aux ſpectacles, &amp;
                     l'avait enfin vu aux Italiens, où le Comte de Ch... l'avait mené un jour pour
-                    voir une piece nouvelle.</p>
-                <p>Elle l'avait donc reconnu, comme je viens de le dire, &amp; l'avait fait ſuivre.
+                    voir une piece nouvelle.
+    </p>
+    <p>
+     Elle l'avait donc reconnu, comme je viens de le dire, &amp; l'avait fait ſuivre.
                     Le Chevalier de Meillecour s'était retiré ce jour-là chez lui. Elle le fit épier
                     pendant pluſieurs jours, &amp; ayant appris qu'il allait ſouvent chez la Baronne
                     de Nor.... elle ſe détermina d'autant mieux à le faire attaquer lorſqu'il en
-                    ſortirait, que ce quartier était fort éloigné de celui où elle demeurait.</p>
-                <p>La nuit était preſque commencée lorſqu'on vint lui dire que le Chevalier y était
+                    ſortirait, que ce quartier était fort éloigné de celui où elle demeurait.
+    </p>
+    <p>
+     La nuit était preſque commencée lorſqu'on vint lui dire que le Chevalier y était
                     entré. Elle prit ces deux aſſaſſins avec elle &amp; les mena au lieu où ils
                     devaient l'attendre. De retour chez elle, elle fit faire ſa malle, congédia ſon
                     domeſtique &amp; prit la poſte à l'heure-même, pour ſe rendre à ſa Terre de
-                    Wolmar.</p>
-                <p>Elle était à peine hors de Paris, qu'elle eut regret d'avoir confié le ſoin de ſa
+                    Wolmar.
+    </p>
+    <p>
+     Elle était à peine hors de Paris, qu'elle eut regret d'avoir confié le ſoin de ſa
                     vengeance à des mains étrangeres. S'ils allaient me trahir, diſait-elle à chaque
                     inſtant? .... Telle était la fureur de cette mégere. La victime immolée de ſes
                     propres mains n'aurait pu même aſſouvir ſa rage, ou les coups qu'elle aurait
                     portés, n'auraient point été aſſez cruels, ou Meillecour y aurait trop tôt
-                    ſuccombé.</p>
-                <p>Le Chevalier voyant que ſa vie n'était point en ſûreté à Paris, &amp; ne recevant
+                    ſuccombé.
+    </p>
+    <p>
+     Le Chevalier voyant que ſa vie n'était point en ſûreté à Paris, &amp; ne recevant
                     point de nouvelles d'Henriette, comme elle le lui avait promis, réſolut de ſe
                     rendre à L.... où elle devait être. Il l'écrivit à ſon pere, &amp; partit deux
-                    jours après.</p>
-                <p>Il s'était retiré chez un ami qu'ils avaient dans cette ville. C'était un fameux
+                    jours après.
+    </p>
+    <p>
+     Il s'était retiré chez un ami qu'ils avaient dans cette ville. C'était un fameux
                     Négociant &amp; le pere d'Adélaïde, cette tendre amie d'Henriette, qui,
                     auparavant établi à B.... était venu ſe fixer à L...... où était la plus grande
                     partie de ſon bien. Le jeune de Meillecour n'avait dit à perſonne ce qui l'avait
                     amené à L.... Il avait été déjà pluſieurs fois à l'Office au couvent des
                     U....... Ses yeux avaient cherché vainement l'objet de ſon amour; il n'avait
-                    garde de le reconnaître ſous l'habit qui le couvrait.</p>
-                <p>Un jour qu'Adélaïde était à dîner chez ſon pere, il lui demanda des nouvelles de
+                    garde de le reconnaître ſous l'habit qui le couvrait.
+    </p>
+    <p>
+     Un jour qu'Adélaïde était à dîner chez ſon pere, il lui demanda des nouvelles de
                     ſa chere amie, (c'eſt ainſi qu'elle avait coutume d'appeller Henriette:) hélas!
                     réponditelle, tranquille &amp; dans la plus grande ſécurité, elle ſemble
                     attendre avec impatience le tems fixé pour prononcer ſes vœux. Je ne ſçais, mais
                     j'appréhende que ſa vocation ne ſoit forcée, &amp; que le déſeſpoir ſeul ne
-                    l'ait portée à prendre ce parti.</p>
-                <p>Le jeune de Meillecour écoutait avec émotion: ſon trouble le décéla. Monſieur le
+                    l'ait portée à prendre ce parti.
+    </p>
+    <p>
+     Le jeune de Meillecour écoutait avec émotion: ſon trouble le décéla. Monſieur le
                     Chevalier, lui dit le pere d'Adélaïde, il ſemble que vous preniez intérêt à ce
                     que dit ma fille. ----. Ah! Monſieur, le plus grand du monde. C'eſt de
                     Mademoiſelle de Wolmar ſans doute que Mademoiſelle vient de parler. Quelle autre
@@ -1595,26 +2091,36 @@
                     de Meillecour? Et oui, ſans doute, reprit Monſieur .- Ah! ma chere Henriette va
                     renaître, quand elle vous ſçaura ſi près d'elle. Soyez aſſuré, Monſieur, que
                     vous aurez de ſes nouvelles dès demain. On preſſa le Chevalier de raconter ſon
-                    hiſtoire, &amp; il ne ſe fit pas long-tems prier.</p>
-                <p>Adélaïde retourna le même jour à ſon couvent, &amp; fit part à Henriette de ſa
+                    hiſtoire, &amp; il ne ſe fit pas long-tems prier.
+    </p>
+    <p>
+     Adélaïde retourna le même jour à ſon couvent, &amp; fit part à Henriette de ſa
                     découverte. Elle la conjura d'écrire au Chevalier, qui ſe déſeſpérait ſur l'idée
                     funeſte qu'il ſe formait de la voir faire le ſerment de n'être jamais à lui. Il
                     devrait mieux me connaître, dit Mademoiſelle de Wolmar: je lui ai juré le
                     contraire, &amp; mes ſermens ſont inviolables. Mais je pardonne à l'amour cette
                     indigne crainte. Demain je lui écrirai, &amp; vous me ferez le plaiſir de lui
-                    donner ma lettre. Dès qu'elle fut ſeule elle lui écrivit en ces termes.</p>
-                <quote>
-                    <p>LETTRE.</p>
-                    <p>“Je vous avais prié, Chevalier, “d'attendre de mes nouvelles au “château de
+                    donner ma lettre. Dès qu'elle fut ſeule elle lui écrivit en ces termes.
+    </p>
+    <quote>
+     <p>
+      LETTRE.
+     </p>
+     <p>
+      “Je vous avais prié, Chevalier, “d'attendre de mes nouvelles au “château de
                         votre pere; votre impatience m'a devancée. Je ne vous “en ferai point de
                         reproches; je “connais l'amour: ſans doute, à “votre place, j'en aurais ſait
                         autant. Mais je vous le demande en “grace, ne cherchez point à me voir, “ni
                         à pénétrer mes ſentimens. J'ai “pris l'habit de Religieuſe, &amp; dans
                         „trois mois je dois prononcer mes “vœux. Je vous ferai avertir du „jour; ne
-                        vous éloignez point, &amp; “me croyez toujours fidelle.</p>
-                    <p>Henrtte de Wolmar.</p>
-                </quote>
-                <p>Cette lettre fut cachetée &amp; remiſe à Adélaïde le lendemain. Elle ſortit
+                        vous éloignez point, &amp; “me croyez toujours fidelle.
+     </p>
+     <p>
+      Henrtte de Wolmar.
+     </p>
+    </quote>
+    <p>
+     Cette lettre fut cachetée &amp; remiſe à Adélaïde le lendemain. Elle ſortit
                     auſſi-tôt pour la porter au Chevalier. Il était ſeul lorſqu'elle la lui donna.
                     Il l'ouvrit avec vivacité &amp; la dévora des yeux. Que devint-il à cette
                     expreſſion fatale! je dois prononcer mes vœux. Elle veut que je la croie
@@ -1627,14 +2133,18 @@
                     Henriette de ſon attachement. Il réſolut d'attendre le terme fatal qu'on lui
                     preſcrivait. Pendant cet intervalle, Henriette &amp; le Chevalier ſe donnerent
                     réciproquement de leurs nouvelles par le moyen d'Adélaïde, qui venait ſouvent
-                    chez ſon pere.</p>
-                <p>Enfin, le jour qui devait mettre le comble à tant d'événemens arriva. Madame de
+                    chez ſon pere.
+    </p>
+    <p>
+     Enfin, le jour qui devait mettre le comble à tant d'événemens arriva. Madame de
                     Wolmar s'était rendue à L..... &amp; Henriette avoit fait dire à ſon amant de ſe
                     rendre à ſon couvent. Tout était préparé pour la cérémonie de ſa profeſſion. Il
                     y avait une aſſemblée nombreuſe, &amp; le Directeur du couvent, qui devait lui
                     faire prononcer ſes vœux, s'était déjà fort étendu ſur le mépris du monde, le
-                    danger qu'il y a d'y vivre, &amp; les douceurs de la vie monaſtique.</p>
-                <p>Henriette, immobile au milieu d'une nombreuſe aſſemblée, ſemblait écouter ce
+                    danger qu'il y a d'y vivre, &amp; les douceurs de la vie monaſtique.
+    </p>
+    <p>
+     Henriette, immobile au milieu d'une nombreuſe aſſemblée, ſemblait écouter ce
                     diſcours avec la plus grande attention. Elle fixait le Chevalier de Meillecour,
                     qui était dans l'incertitude la plus cruelle. Madame de Wolmar de ſon côté
                     attendoit avec impatience la fin de la cérémonie. Henriette s'avance d'un pas
@@ -1643,53 +2153,76 @@
                     écoute, &amp; Henriette, d'une voix ferme, prononce ces paroles: e jure devant
                     Dieu ici préſent, devant vous, ma mere, de ne choiſir, de n'avoir jamais d'autre
                     époux que Monſieur de Meillecour, que voici. Elle lui tend la main; il s'avance,
-                    &amp; elle renouvelle ſon ſerment.</p>
-                <p>Madame de Wolmar, frappée comme d'un coup de foudre, s'évanouit. On la tranſporte
+                    &amp; elle renouvelle ſon ſerment.
+    </p>
+    <p>
+     Madame de Wolmar, frappée comme d'un coup de foudre, s'évanouit. On la tranſporte
                     dans l'intérieur du couvent. Cette femme était fort replette. Il ſe fit chez
                     elle une ſi grande révolution, qu'elle mourut peu d'heures après, dans les accès
-                    de la rage la plus violente.</p>
-                <p>Telle fut la fin de Madame de Wolmar, fin digne de la vie ſcélérate qu'elle avait
+                    de la rage la plus violente.
+    </p>
+    <p>
+     Telle fut la fin de Madame de Wolmar, fin digne de la vie ſcélérate qu'elle avait
                     menée. Le ciel, vengeur des crimes, patiente; mais enfin, il frappe, &amp; ſes
-                    coups ſont d'autant plus terribles, qu'ils ont été plus long-tems ſuſpendus.</p>
-                <p>Cependant Henriette ayant vu enlever ſa mere, avait volé ſur ſes pas. Elle la
+                    coups ſont d'autant plus terribles, qu'ils ont été plus long-tems ſuſpendus.
+    </p>
+    <p>
+     Cependant Henriette ayant vu enlever ſa mere, avait volé ſur ſes pas. Elle la
                     baignait de ſes larmes, &amp; allait expirer elle-même ſur ce corps froid &amp;
                     inanimé. La nature ne perd jamais ſes droits. Malgré ce que lui avait fait
                     ſouffrir ſa mere, elle eût donné ſa vie pour racheter la ſienne. On fut obligé
                     de l'arracher de ce lieu funeſte. Son époux l'attendait à la porte du couvent.
                     Ils monterent dans un équipage &amp; ſe rendirent chez Monſieur V avec
-                    Adélaïde.</p>
-                <p>Un tel événement avait fait beaucoup de bruit dans l'aſſemblée. Pluſieurs
+                    Adélaïde.
+    </p>
+    <p>
+     Un tel événement avait fait beaucoup de bruit dans l'aſſemblée. Pluſieurs
                     perſonnes qui apprirent la violence que l'on avait faite à Mademoiſelle de
                     Wolmar, pour lui faire prononcer ſes vœux, approuverent ſon procédé. Toute la
-                    Ville ſçut bientôt cette aventure, &amp; elle devint la nouvelle du jour.</p>
-                <p>Cependant Monſieur V*** à la conſidération de Monſieur de Meillecour, fit tout
+                    Ville ſçut bientôt cette aventure, &amp; elle devint la nouvelle du jour.
+    </p>
+    <p>
+     Cependant Monſieur V*** à la conſidération de Monſieur de Meillecour, fit tout
                     préparer pour le convoi de Madame de Wolmar. Elle fut enterrée avec toute la
-                    pompe qu'exigeait ſon rang.</p>
-                <p>Le Chevalier, Henriette, Monſieur V*** &amp; ſa fille, partirent quelques jours
+                    pompe qu'exigeait ſon rang.
+    </p>
+    <p>
+     Le Chevalier, Henriette, Monſieur V*** &amp; ſa fille, partirent quelques jours
                     après pour le Château de Meillecour. Le Chevalier apprit à ſon pere tout ce qui
                     venait de ſe paſſer, &amp; le pria de vouloir bien ſervir de pere à Mademoiſelle
                     de Wolmar. Elle s'approcha de Monſieur de Meillecour, qui l'embraſſa &amp; lui
-                    promit toute ſa tendreſſe.</p>
-                <p>Henriette, qui juſqu'à ce jour avait été inconſolable, ſe rendit aux inſtances du
+                    promit toute ſa tendreſſe.
+    </p>
+    <p>
+     Henriette, qui juſqu'à ce jour avait été inconſolable, ſe rendit aux inſtances du
                     Chevalier; elle eſſuya ſes larmes, &amp; l'on prit des arrangemens pour la
                     mettre en poſſeſſion de ſes biens. Elle avait nommé le jeune de Meillecour pour
                     ſon époux, &amp; aux pieds même des Autels; dès qu'elle put le faire avec
                     décence, elle fit ratifier ſon choix. Ils reçurent la Bénédiction Nuptiale dans
-                    la Chapelle du Château de Meillecour.</p>
-                <p>Monſieur V*** avait paſſé quinze jours avec eux &amp; était retourné à L...... où
+                    la Chapelle du Château de Meillecour.
+    </p>
+    <p>
+     Monſieur V*** avait paſſé quinze jours avec eux &amp; était retourné à L...... où
                     ſon commerce l'appellait. Adélaïde, liée d'une étroite amitié avec Henriette, ne
                     l'avait point quittée. Elle ne ſe rendit auprès de ſon pere qu'après le mariage
-                    de nos amans, pour épouſer un riche parti à qui on la deſtinait.</p>
-                <p>Epoux heureux, Mademoiſelle de Wolmar &amp; le Chevalier, virent couronner leurs
+                    de nos amans, pour épouſer un riche parti à qui on la deſtinait.
+    </p>
+    <p>
+     Epoux heureux, Mademoiſelle de Wolmar &amp; le Chevalier, virent couronner leurs
                     deſirs. Le ciel, propice à leurs vœux, leur accorda pluſieurs enfans. Ils
                     vivaient avec Monſieur de Meillecour, qui, après avoir eu la joie d'embraſſer
                     ſes petits-fils, mourut enfin paiſiblement au milieu de ſa famille, dont il fut
-                    juſtement regretté.</p>
-                <p>Monſieur &amp; Madame de Meillecour ſe diſputerent à l'envi à qui aimerait le
+                    juſtement regretté.
+    </p>
+    <p>
+     Monſieur &amp; Madame de Meillecour ſe diſputerent à l'envi à qui aimerait le
                     mieux les tendres fruits de leur amour. Ils leur donnerent la meilleure
-                    éducation, &amp; eurent la ſatisfaction de les voir tous mariés.</p>
-                <trailer>FIN.</trailer>
-            </div>
-        </body>
-    </text>
+                    éducation, &amp; eurent la ſatisfaction de les voir tous mariés.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+ </text>
 </TEI>

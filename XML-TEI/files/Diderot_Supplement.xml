@@ -5,35 +5,72 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title ref="bgrf:98.38 wikidata:Q1765222">Supplément au voyage de Bougainville: MiMoText edition </title>
-    <author ref="viaf:54146831 wikidata:Q448"> Denis Diderot(1713-1784) </author>
+    <title ref="bgrf:98.38 wikidata:Q1765222">
+     Supplément au voyage de Bougainville: MiMoText edition
+    </title>
+    <author ref="viaf:54146831 wikidata:Q448">
+     Denis Diderot(1713-1784)
+    </author>
     <respStmt>
-     <resp> encoding </resp>
-     <name> Pia Geißel </name>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Pia Geißel
+     </name>
     </respStmt>
    </titleStmt>
    <extent>
-    <measure unit="words"> 14832 </measure>
+    <measure unit="words">
+     14832
+    </measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-    <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-    <date> 2020 </date>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
     <availability>
      <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <bibl type="digitalSource"> <ref
-     target="https://fr.wikisource.org/wiki/Suppl%C3%A9ment_au_voyage_de_Bougainville"/> </bibl>
-    <bibl type="printSource">
-      <title>Supplément au voyage de Bougainville</title>
-      <author>Denis Diderot</author>
-      <pubPlace>Paris</pubPlace>
-      <publisher>Garnier</publisher>
-      <date>1796</date>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Suppl%C3%A9ment_au_voyage_de_Bougainville"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2010
+     </date>
     </bibl>
-    <bibl type="firstEdition"> <date> 1796 </date> </bibl>
+    <bibl type="printSource">
+     <title>
+      Supplément au voyage de Bougainville
+     </title>
+     <author>
+      Denis Diderot
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Garnier
+     </publisher>
+     <date>
+      1796
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1796
+     </date>
+    </bibl>
    </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -45,9 +82,15 @@
    </langUsage>
    <textClass>
     <keywords>
-     <term type="form"> dialogue novel </term>
-     <term type="spelling"> modern </term>
-     <term type="data-capture"> semi-automatic transcription </term>
+     <term type="form">
+      dialogue novel
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
     </keywords>
    </textClass>
    <textDesc>
@@ -58,62 +101,173 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
-   <change when="2020-05-25"> Initial ELTeC level-1 </change>
+   <change when="2020-05-25">
+    Initial ELTeC level-1
+   </change>
   </revisionDesc>
  </teiHeader>
  <text>
   <front>
    <div type="titlepage">
-    <head> SUPPLÉMENT au VOYAGE DE BOUGAINVILLE </head>
-    <head> ou DIALOGUE ENTRE <hi rend="italic"> A. </hi> ET <hi rend="italic"> B. </hi> sur
+    <head>
+     SUPPLÉMENT au VOYAGE DE BOUGAINVILLE
+    </head>
+    <head>
+     ou DIALOGUE ENTRE
+     <hi rend="italic">
+      A.
+     </hi>
+     ET
+     <hi rend="italic">
+      B.
+     </hi>
+     sur
      l'inconvénient d'attacher des idées morales à certaines actions physiques qui n'en comportent
-     pas </head>
-    <p> At quanto meliora monet, pugnantiaque istis, Dives opis Natura suæ, tu si modo recte
+     pas
+    </head>
+    <p>
+     At quanto meliora monet, pugnantiaque istis, Dives opis Natura suæ, tu si modo recte
      Dispensare velis, ac non fugienda petendis Immiscere ! Tuo vitio rerumne labores, Nil referre
-     putas ? </p>
-    <p> Horat. <hi rend="italic"> Sat. </hi> lib. I, <hi rend="italic"> sat. </hi> ii, vers. 73 et
-     seq. </p>
-    <p> (Écrit en 1772 --- publié en 1796) </p>
+     putas ?
+    </p>
+    <p>
+     Horat.
+     <hi rend="italic">
+      Sat.
+     </hi>
+     lib. I,
+     <hi rend="italic">
+      sat.
+     </hi>
+     ii, vers. 73 et
+     seq.
+    </p>
+    <p>
+     (Écrit en 1772 --- publié en 1796)
+    </p>
    </div>
   </front>
   <body>
    <div type="chapter">
-    <head> I. </head>
-    <head> JUGEMENT DU VOYAGE DE BOUGAINVILLE. </head>
-    <p> <hi rend="italic"> A </hi> . Cette superbe voûte étoilée, sous laquelle nous revînmes hier,
-     et qui semblait nous garantir un beau jour, ne nous a pas tenu parole. </p>
-    <p> <hi rend="italic"> B </hi> . Qu'en savez-vous ? </p>
-    <p> <hi rend="italic"> A </hi> . Le brouillard est si épais qu'il nous dérobe la vue des arbres
-     voisins. </p>
-    <p> <hi rend="italic"> B </hi> . Il est vrai ; mais si ce brouillard, qui ne reste dans la
+    <head>
+     I.
+    </head>
+    <head>
+     JUGEMENT DU VOYAGE DE BOUGAINVILLE.
+    </head>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Cette superbe voûte étoilée, sous laquelle nous revînmes hier,
+     et qui semblait nous garantir un beau jour, ne nous a pas tenu parole.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Qu'en savez-vous ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Le brouillard est si épais qu'il nous dérobe la vue des arbres
+     voisins.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Il est vrai ; mais si ce brouillard, qui ne reste dans la
      partie inférieure de l'atmosphère que parce qu'elle est suffisamment chargée d'humidité,
-     retombe sur la terre ? </p>
-    <p> <hi rend="italic"> A </hi> . Mais si au contraire il traverse l'éponge, s'élève et gagne la
+     retombe sur la terre ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Mais si au contraire il traverse l'éponge, s'élève et gagne la
      région supérieure où l'air est moins dense, et peut, comme disent les chimistes, n'être pas
-     saturé ? </p>
-    <p> <hi rend="italic"> B </hi> . Il faut attendre. </p>
-    <p> <hi rend="italic"> A </hi> . En attendant, que faites-vous ? </p>
-    <p> <hi rend="italic"> B </hi> . Je lis. </p>
-    <p> <hi rend="italic"> A </hi> . Toujours ce voyage de Bougainville ? </p>
-    <p> <hi rend="italic"> B </hi> . Toujours. </p>
-    <p> <hi rend="italic"> A </hi> . Je n'entends rien à cet homme-là. L'étude des mathématiques,
+     saturé ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Il faut attendre.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . En attendant, que faites-vous ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je lis.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Toujours ce voyage de Bougainville ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Toujours.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je n'entends rien à cet homme-là. L'étude des mathématiques,
      qui suppose une vie sédentaire, a rempli le temps de ses jeunes années ; et voilà qu'il passe
      subitement d'une condition méditative et retirée au métier actif, pénible, errant et dissipé de
-     voyageur. </p>
-    <p> <hi rend="italic"> B </hi> . Nullement. Si le vaisseau n'est qu'une maison flottante, et si
+     voyageur.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Nullement. Si le vaisseau n'est qu'une maison flottante, et si
      vous considérez le navigateur qui traverse des espaces immenses, resserré et immobile dans une
      enceinte assez étroite, vous le verrez faisant le tour du globe sur une planche, comme vous et
-     moi le tour de l'univers sur votre parquet. </p>
-    <p> <hi rend="italic"> A </hi> . Une autre bizarrerie apparente, c'est la contradiction du
+     moi le tour de l'univers sur votre parquet.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Une autre bizarrerie apparente, c'est la contradiction du
      caractère de l'homme et de son entreprise. Bougainville a le goût des amusements de la société
      ; il aime les femmes, les spectacles, les repas délicats ; il se prête au tourbillon du monde
      d'aussi bonne grâce qu'aux inconstances de l'élément sur lequel il a été ballotté. Il est
      aimable et gai : c'est un véritable Français lesté, d'un bord, d'un traité de calcul
-     différentiel et intégral, et de l'autre, d'un voyage autour du globe. </p>
-    <p> <hi rend="italic"> B </hi> . Il fait comme tout le monde : il se dissipe après s'être
-     appliqué, et s'applique après s'être dissipé. </p>
-    <p> <hi rend="italic"> A </hi> . Que pensez-vous de son Voyage ? </p>
-    <p> <hi rend="italic"> B </hi> . Autant que j'en puis juger sur une lecture assez superficielle,
+     différentiel et intégral, et de l'autre, d'un voyage autour du globe.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Il fait comme tout le monde : il se dissipe après s'être
+     appliqué, et s'applique après s'être dissipé.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Que pensez-vous de son Voyage ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Autant que j'en puis juger sur une lecture assez superficielle,
      j'en rapporterais l'avantage à trois points principaux : une meilleure connaissance de notre
      vieux domicile et de ses habitants ; plus de sûreté sur des mers qu'il a parcourues la sonde à
      la main, et plus de correction dans nos cartes géographiques. Bougainville est parti avec les
@@ -121,168 +275,510 @@
      véracité ; un coup d'œil prompt qui saisit les choses et abrège le temps des observations ; de
      la circonspection, de la patience ; le désir de voir, de s'éclairer et de s'instruire ; la
      science du calcul, des mécaniques, de la géométrie, de l'astronomie ; et une teinture
-     suffisante d'histoire naturelle. </p>
-    <p> <hi rend="italic"> A </hi> . Et son style ? </p>
-    <p> <hi rend="italic"> B </hi> . Sans apprêt ; le ton de la chose, de la simplicité et de la
-     clarté, surtout quand on possède la langue des marins. </p>
-    <p> <hi rend="italic"> A </hi> . Sa course a été longue ? </p>
-    <p> <hi rend="italic"> B </hi> . Je l'ai tracée sur ce globe. Voyez-vous cette ligne de points
-     rouges ? </p>
-    <p> <hi rend="italic"> A </hi> . Qui part de Nantes ? </p>
-    <p> <hi rend="italic"> B </hi> . Et court jusqu'au détroit de Magellan, entre dans la mer
+     suffisante d'histoire naturelle.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et son style ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Sans apprêt ; le ton de la chose, de la simplicité et de la
+     clarté, surtout quand on possède la langue des marins.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Sa course a été longue ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je l'ai tracée sur ce globe. Voyez-vous cette ligne de points
+     rouges ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Qui part de Nantes ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et court jusqu'au détroit de Magellan, entre dans la mer
      Pacifique, serpente entre ces îles formant l'archipel immense qui s'étend des Philippines à la
      Nouvelle-Hollande, rase Madagascar, le cap de Bonne-Espérance, se prolonge dans l'Atlantique,
      suit les côtes d'Afrique, et rejoint l'une de ses extrémités à celle d'où le navigateur s'est
-     embarqué. </p>
-    <p> <hi rend="italic"> A </hi> . Il a beaucoup souffert ? </p>
-    <p> <hi rend="italic"> B </hi> . Tout navigateur s'expose, et consent de s'exposer aux périls de
+     embarqué.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Il a beaucoup souffert ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Tout navigateur s'expose, et consent de s'exposer aux périls de
      l'air, du feu, de la terre et de l'eau : mais qu'après avoir erré des mois entiers entre la mer
      et le ciel, entre la mort et la vie ; après avoir été battu des tempêtes, menacé de périr par
      naufrage, par maladie, par disette d'eau et de pain, un infortuné vienne, son bâtiment
      fracassé, tomber, expirant de fatigue et de misère, aux pieds d'un monstre d'airain qui lui
-     refuse ou lui fait attendre impitoyablement les secours les plus urgents, c'est une dureté !... </p>
-    <p> <hi rend="italic"> A </hi> . Un crime digne de châtiment. </p>
-    <p> <hi rend="italic"> B </hi> . Une de ces calamités sur laquelle le voyageur n'a pas compté. </p>
-    <p> <hi rend="italic"> A </hi> . Et n'a pas dû compter. Je croyais que les puissances
+     refuse ou lui fait attendre impitoyablement les secours les plus urgents, c'est une dureté !...
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Un crime digne de châtiment.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Une de ces calamités sur laquelle le voyageur n'a pas compté.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et n'a pas dû compter. Je croyais que les puissances
      européennes n'envoyaient, pour commandants dans leurs possessions d'outre-mer, que des âmes
-     honnêtes, des hommes bienfaisants, des sujets remplis d'humanité, et capables de compatir... </p>
-    <p> <hi rend="italic"> B </hi> . C'est bien là ce qui les soucie ! </p>
-    <p> <hi rend="italic"> A </hi> . Il y a des choses singulières dans ce voyage de Bougainville. </p>
-    <p> <hi rend="italic"> B </hi> . Beaucoup. </p>
-    <p> <hi rend="italic"> A </hi> . N'assure-t-il pas que les animaux sauvages s'approchent de
+     honnêtes, des hommes bienfaisants, des sujets remplis d'humanité, et capables de compatir...
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . C'est bien là ce qui les soucie !
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Il y a des choses singulières dans ce voyage de Bougainville.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Beaucoup.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . N'assure-t-il pas que les animaux sauvages s'approchent de
      l'homme, et que les oiseaux viennent se poser sur lui, lorsqu'ils ignorent le danger de cette
-     familiarité ? </p>
-    <p> <hi rend="italic"> B </hi> . D'autres l'avaient dit avant lui. </p>
-    <p> <hi rend="italic"> A </hi> . Comment explique-t-il le séjour de certains animaux dans des
+     familiarité ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . D'autres l'avaient dit avant lui.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Comment explique-t-il le séjour de certains animaux dans des
      îles séparées de tout continent par des intervalles de mer effrayants ? Qui est-ce qui a porté
-     là le loup, le renard, le chien, le cerf, le serpent ? </p>
-    <p> <hi rend="italic"> B </hi> . Il n'explique rien ; il atteste le fait. </p>
-    <p> <hi rend="italic"> A </hi> . Et vous, comment l'expliquez-vous ? </p>
-    <p> <hi rend="italic"> B </hi> . Qui sait l'histoire primitive de notre globe ? Combien
+     là le loup, le renard, le chien, le cerf, le serpent ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Il n'explique rien ; il atteste le fait.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et vous, comment l'expliquez-vous ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Qui sait l'histoire primitive de notre globe ? Combien
      d'espaces de terre, maintenant isolés, étaient autrefois continus ? Le seul phénomène sur
      lequel on pourrait former quelque conjecture, c'est la direction de la masse des eaux qui les a
-     séparés. </p>
-    <p> <hi rend="italic"> A </hi> . Comment cela ? </p>
-    <p> <hi rend="italic"> B </hi> . Par la forme générale des arrachements. Quelque jour nous nous
+     séparés.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Comment cela ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Par la forme générale des arrachements. Quelque jour nous nous
      amuserons de cette recherche, si cela vous convient. Pour ce moment, voyez-vous cette île qu'on
-     appelle des <hi rend="italic"> Lanciers </hi> ? À l'inspection du lieu qu'elle occupe sur le
+     appelle des
+     <hi rend="italic">
+      Lanciers
+     </hi>
+     ? À l'inspection du lieu qu'elle occupe sur le
      globe, il n'est personne qui ne se demande qui est-ce qui a placé là des hommes ? quelle
      communication les liait autrefois avec le reste de leur espèce ? que deviennent-ils en se
-     multipliant sur un espace qui n'a pas plus d'une lieue de diamètre ? </p>
-    <p> <hi rend="italic"> A </hi> . Ils s'exterminent et se mangent ; et de là peut-être une
-     première époque très-ancienne et très-naturelle de l'anthropophagie, insulaire d'origine. </p>
-    <p> <hi rend="italic"> B </hi> . Ou la multiplication y est limitée par quelque loi
+     multipliant sur un espace qui n'a pas plus d'une lieue de diamètre ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ils s'exterminent et se mangent ; et de là peut-être une
+     première époque très-ancienne et très-naturelle de l'anthropophagie, insulaire d'origine.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Ou la multiplication y est limitée par quelque loi
      superstitieuse ; l'enfant y est écrasé dans le sein de sa mère foulée sous les pieds d'une
-     prêtresse. </p>
-    <p> <hi rend="italic"> A </hi> . Ou l'homme égorgé expire sous le couteau d'un prêtre ; ou l'on
-     a recours à la castration des mâles... </p>
-    <p> <hi rend="italic"> B </hi> . À l'infibulation des femelles ; et de là tant d'usages d'une
+     prêtresse.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ou l'homme égorgé expire sous le couteau d'un prêtre ; ou l'on
+     a recours à la castration des mâles...
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . À l'infibulation des femelles ; et de là tant d'usages d'une
      cruauté nécessaire et bizarre, dont la cause s'est perdue dans la nuit des temps, et met les
      philosophes à la torture. Une observation assez constante, c'est que les institutions
      surnaturelles et divines se fortifient et s'éternisent, en se transformant, à la longue, en
      lois civiles et nationales ; et que les institutions civiles et nationales se consacrent, et
-     dégénèrent en préceptes surnaturels et divins. </p>
-    <p> <hi rend="italic"> A </hi> . C'est une des palingénésies les plus funestes. </p>
-    <p> <hi rend="italic"> B </hi> . Un brin de plus qu'on ajoute au lien dont on nous serre. </p>
-    <p> <hi rend="italic"> A </hi> . N'était-il pas au Paraguay au moment même de l'expulsion des
-     jésuites ? </p>
-    <p> <hi rend="italic"> B </hi> . Oui. </p>
-    <p> <hi rend="italic"> A </hi> . Qu'en dit-il ? </p>
-    <p> <hi rend="italic"> B </hi> . Moins qu'il n'en pourrait dire ; mais assez pour nous apprendre
+     dégénèrent en préceptes surnaturels et divins.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . C'est une des palingénésies les plus funestes.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Un brin de plus qu'on ajoute au lien dont on nous serre.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . N'était-il pas au Paraguay au moment même de l'expulsion des
+     jésuites ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Oui.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Qu'en dit-il ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Moins qu'il n'en pourrait dire ; mais assez pour nous apprendre
      que ces cruels Spartiates en jaquette noire en usaient avec leurs esclaves Indiens, comme les
      Lacédémoniens avec les Ilotes ; les avaient condamnés à un travail assidu ; s'abreuvaient de
      leur sueur, ne leur avaient laissé aucun droit de propriété ; les tenaient sous l'abrutissement
      de la superstition ; en exigeaient une vénération profonde ; marchaient au milieu d'eux, un
      fouet à la main, et en frappaient indistinctement tout âge et tout sexe. Un siècle de plus, et
      leur expulsion devenait impossible, ou le motif d'une longue guerre entre ces moines et le
-     souverain, dont ils avaient peu à peu secoué l'autorité. </p>
-    <p> <hi rend="italic"> A </hi> . Et ces Patagons, dont le docteur Maty et l'académicien La
-     Condamine ont fait tant de bruit ? </p>
-    <p> <hi rend="italic"> B </hi> . Ce sont de bonnes gens qui viennent à vous, et qui vous
-     embrassent en criant <hi rend="italic"> Chaoua </hi> ; forts, vigoureux,toutefois n'excédant
+     souverain, dont ils avaient peu à peu secoué l'autorité.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et ces Patagons, dont le docteur Maty et l'académicien La
+     Condamine ont fait tant de bruit ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Ce sont de bonnes gens qui viennent à vous, et qui vous
+     embrassent en criant
+     <hi rend="italic">
+      Chaoua
+     </hi>
+     ; forts, vigoureux,toutefois n'excédant
      guère la hauteur de cinq pieds cinq à six pouces ; n'ayant d'énorme que leur corpulence, la
-     grosseur de leur tête et l'épaisseur de leurs membres. </p>
-    <p> Né avec le goût du merveilleux, qui exagère tout autour de lui, comment l'homme
+     grosseur de leur tête et l'épaisseur de leurs membres.
+    </p>
+    <p>
+     Né avec le goût du merveilleux, qui exagère tout autour de lui, comment l'homme
      laisserait-il une juste proportion aux objets, lorsqu'il a, pour ainsi dire, à justifier le
-     chemin qu'il a fait, et la peine qu'il s'est donnée pour les aller voir au loin ? </p>
-    <p> <hi rend="italic"> A </hi> . Et du sauvage, qu'en pense-t-il ? </p>
-    <p> <hi rend="italic"> B </hi> . C'est, à ce qu'il paraît, de la défense journalière contre les
+     chemin qu'il a fait, et la peine qu'il s'est donnée pour les aller voir au loin ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et du sauvage, qu'en pense-t-il ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . C'est, à ce qu'il paraît, de la défense journalière contre les
      bêtes, qu'il tient le caractère cruel qu'on lui remarque quelquefois. Il est innocent et doux,
      partout où rien ne trouble son repos et sa sécurité. Toute guerre naît d'une prétention commune
      à la même propriété. L'homme civilisé a une prétention commune, avec l'homme civilisé, à la
      possession d'un champ dont ils occupent les deux extrémités ; et ce champ devient un sujet de
-     dispute entre eux. </p>
-    <p> <hi rend="italic"> A </hi> . Et le tigre a une prétention commune, avec l'homme sauvage, à
+     dispute entre eux.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et le tigre a une prétention commune, avec l'homme sauvage, à
      la possession d'une forêt ; et c'est la première des prétentions, et la cause de la plus
      ancienne des guerres... Avez-vous vu le Taïtien que Bougainville avait pris sur son bord, et
-     transporté dans ce pays-ci ? </p>
-    <p> <hi rend="italic"> B </hi> . Je l'ai vu ; il s'appelait Aotourou. À la première terre qu'il
+     transporté dans ce pays-ci ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je l'ai vu ; il s'appelait Aotourou. À la première terre qu'il
      aperçut, il la prit pour la patrie des voyageurs ; soit qu'on lui en eût imposé sur la longueur
      du voyage ; soit que, trompé naturellement par le peu de distance apparente des bords de la mer
      qu'il habitait, à l'endroit où le ciel semble confiner à l'horizon, il ignorât la véritable
      étendue de la terre. L'usage commun des femmes était si bien établi dans son esprit, qu'il se
      jeta sur la première Européenne qui vint à sa rencontre, et qu'il se disposait
      très-sérieusement à lui faire la politesse de Taïti. Il s'ennuyait parmi nous. L'alphabet
-     taïtien n'ayant ni <hi rend="italic"> b </hi> , ni <hi rend="italic"> c </hi> , ni <hi
-     rend="italic"> d </hi> , ni <hi rend="italic"> f </hi> , ni <hi rend="italic"> g </hi> , ni <hi
-     rend="italic"> q </hi> , ni <hi rend="italic"> x </hi> , ni <hi rend="italic"> y </hi> , ni <hi
-     rend="italic"> z </hi> , il ne put jamais apprendre à parler notre langue, qui offrait à ses
+     taïtien n'ayant ni
+     <hi rend="italic">
+      b
+     </hi>
+     , ni
+     <hi rend="italic">
+      c
+     </hi>
+     , ni
+     <hi rend="italic">
+      d
+     </hi>
+     , ni
+     <hi rend="italic">
+      f
+     </hi>
+     , ni
+     <hi rend="italic">
+      g
+     </hi>
+     , ni
+     <hi rend="italic">
+      q
+     </hi>
+     , ni
+     <hi rend="italic">
+      x
+     </hi>
+     , ni
+     <hi rend="italic">
+      y
+     </hi>
+     , ni
+     <hi rend="italic">
+      z
+     </hi>
+     , il ne put jamais apprendre à parler notre langue, qui offrait à ses
      organes inflexibles trop d'articulations étrangères et de sons nouveaux. Il ne cessait de
      soupirer après son pays, et je n'en suis pas étonné. Le voyage de Bougainville est le seul qui
      m'ait donné du goût pour une autre contrée que la mienne ; jusqu'à cette lecture, j'avais pensé
      qu'on n'était nulle part aussi bien que chez soi ; résultat que je croyais le même pour chaque
      habitant de la terre ; effet naturel de l'attrait du sol ; attrait qui tient aux commodités
-     dont on jouit, et qu'on n'a pas la même certitude de retrouver ailleurs. </p>
-    <p> <hi rend="italic"> A </hi> . Quoi ! vous ne trouvez pas l'habitant de Paris aussi convaincu
-     qu'il croisse des épis dans la campagne de Rome que dans les champs de la Beauce ? </p>
-    <p> <hi rend="italic"> B </hi> . Ma foi, non. Bougainville a renvoyé Aotourou, après avoir
-     pourvu aux frais et à la sûreté de son retour. </p>
-    <p> <hi rend="italic"> A </hi> . ô Aotourou ! que tu seras content de revoir ton père, ta mère,
-     tes frères, tes sœurs, tes maîtresses, tes compatriotes, que leur diras-tu de nous ? </p>
-    <p> <hi rend="italic"> B </hi> . Peu de choses, et qu'ils ne croiront pas. </p>
-    <p> <hi rend="italic"> A </hi> . Pourquoi peu de choses ? </p>
-    <p> <hi rend="italic"> B </hi> . Parce qu'il en a peu conçues, et qu'il ne trouvera dans sa
-     langue aucun terme correspondant à celles dont il a quelques idées. </p>
-    <p> <hi rend="italic"> A </hi> . Et pourquoi ne le croiront-ils pas ? </p>
-    <p> <hi rend="italic"> B </hi> . Parce qu'en comparant leurs mœurs aux nôtres, ils aimeront
-     mieux prendre Aotourou pour un menteur, que de nous croire si fous. </p>
-    <p> <hi rend="italic"> A </hi> . En vérité ? </p>
-    <p> <hi rend="italic"> B </hi> . Je n'en doute pas : la vie sauvage est si simple, et nos
+     dont on jouit, et qu'on n'a pas la même certitude de retrouver ailleurs.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Quoi ! vous ne trouvez pas l'habitant de Paris aussi convaincu
+     qu'il croisse des épis dans la campagne de Rome que dans les champs de la Beauce ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Ma foi, non. Bougainville a renvoyé Aotourou, après avoir
+     pourvu aux frais et à la sûreté de son retour.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . ô Aotourou ! que tu seras content de revoir ton père, ta mère,
+     tes frères, tes sœurs, tes maîtresses, tes compatriotes, que leur diras-tu de nous ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Peu de choses, et qu'ils ne croiront pas.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Pourquoi peu de choses ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Parce qu'il en a peu conçues, et qu'il ne trouvera dans sa
+     langue aucun terme correspondant à celles dont il a quelques idées.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et pourquoi ne le croiront-ils pas ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Parce qu'en comparant leurs mœurs aux nôtres, ils aimeront
+     mieux prendre Aotourou pour un menteur, que de nous croire si fous.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . En vérité ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je n'en doute pas : la vie sauvage est si simple, et nos
      sociétés sont des machines si compliquées ! Le Taïtien touche à l'origine du monde, et
      l'Européen touche à sa vieillesse. L'intervalle qui le sépare de nous est plus grand que la
      distance de l'enfant qui naît à l'homme décrépit. Il n'entend rien à nos usages, à nos lois, ou
      il n'y voit que des entraves déguisées sous cent formes diverses ; entraves qui ne peuvent
      qu'exciter l'indignation et le mépris d'un être en qui le sentiment de la liberté est le plus
-     profond des sentiments. </p>
-    <p> <hi rend="italic"> A </hi> . Est-ce que vous donneriez dans la fable de Taïti ? </p>
-    <p> <hi rend="italic"> B </hi> . Ce n'est point une fable ; et vous n'auriez aucun doute sur la
-     sincérité de Bougainville, si vous connaissiez le supplément de son voyage. </p>
-    <p> <hi rend="italic"> A </hi> . Et où trouve-t-on ce supplément ? </p>
-    <p> <hi rend="italic"> B </hi> . Là, sur cette table. </p>
-    <p> <hi rend="italic"> A </hi> . Est-ce que vous ne me le confierez pas ? </p>
-    <p> <hi rend="italic"> B </hi> . Non ; mais nous pourrons le parcourir ensemble, si vous voulez. </p>
-    <p> <hi rend="italic"> A </hi> . Assurément, je le veux. Voilà le brouillard qui retombe, et
+     profond des sentiments.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Est-ce que vous donneriez dans la fable de Taïti ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Ce n'est point une fable ; et vous n'auriez aucun doute sur la
+     sincérité de Bougainville, si vous connaissiez le supplément de son voyage.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et où trouve-t-on ce supplément ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Là, sur cette table.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Est-ce que vous ne me le confierez pas ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Non ; mais nous pourrons le parcourir ensemble, si vous voulez.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Assurément, je le veux. Voilà le brouillard qui retombe, et
      l'azur du ciel qui commence à paraître. Il semble que mon lot soit d'avoir tort avec vous
      jusque dans les moindres choses ; il faut que je sois bien bon pour vous pardonner une
-     supériorité aussi continue ! </p>
-    <p> <hi rend="italic"> B </hi> . Tenez, tenez, lisez : passez ce préambule qui ne signifie rien,
+     supériorité aussi continue !
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Tenez, tenez, lisez : passez ce préambule qui ne signifie rien,
      et allez droit aux adieux que lit un des chefs de l'île à nos voyageurs. Cela vous donnera
-     quelque notion de l'éloquence de ces gens-là. </p>
-    <p> <hi rend="italic"> A </hi> . Comment Bougainville a-t-il compris ces adieux prononcés dans
-     un langue qu'il ignorait ? </p>
-    <p> <hi rend="italic"> B </hi> . Vous le saurez. C'est un vieillard qui parle. </p>
+     quelque notion de l'éloquence de ces gens-là.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Comment Bougainville a-t-il compris ces adieux prononcés dans
+     un langue qu'il ignorait ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Vous le saurez. C'est un vieillard qui parle.
+    </p>
    </div>
    <div type="chapter">
-    <head>II.</head>
-    <head>LES ADIEUX DU VIEILLARD.</head>
-    <p> Il était père d'une famille nombreuse. À l'arrivée des Européens, il laissa tomber des
-     regards de dédain sur eux, sans marquer ni étonnement, ni frayeur, ni curiosité <ref
-     target="N1"/> . Ils l'abordèrent ; il leur tourna le dos, se retira dans sa cabane. Son silence
+    <head>
+     II.
+    </head>
+    <head>
+     LES ADIEUX DU VIEILLARD.
+    </head>
+    <p>
+     Il était père d'une famille nombreuse. À l'arrivée des Européens, il laissa tomber des
+     regards de dédain sur eux, sans marquer ni étonnement, ni frayeur, ni curiosité
+     <ref target="N1"/>
+     . Ils l'abordèrent ; il leur tourna le dos, se retira dans sa cabane. Son silence
      et son souci ne décelaient que trop sa pensée : il gémissait en lui-même sur les beaux jours de
      son pays éclipsés. Au départ de Bougainville, lorsque les habitants accouraient en foule sur le
      rivage, s'attachaient à ses vêtements, serraient ses camarades entre leurs bras, et pleuraient,
-     ce vieillard s'avança d'un air sévère, et dit : </p>
-    <p> « Pleurez, malheureux Taïtiens ! pleurez ; mais que ce soit de l'arrivée, et non du départ
+     ce vieillard s'avança d'un air sévère, et dit :
+    </p>
+    <p>
+     « Pleurez, malheureux Taïtiens ! pleurez ; mais que ce soit de l'arrivée, et non du départ
      de ces hommes ambitieux et méchants : un jour, vous les connaîtrez mieux. Un jour, ils
      reviendront, le morceau de bois que vous voyez attaché à la ceinture de celui-ci, dans une
      main, et le fer qui pend au côté de celui-là, dans l'autre, vous enchaîner, vous égorger, ou
@@ -290,22 +786,36 @@
      corrompus, aussi vils, aussi malheureux qu'eux. Mais je me console ; je touche à la fin de ma
      carrière ; et la calamité que je vous annonce, je ne la verrai point. Taïtiens ! mes amis !
      vous auriez un moyen d'échapper à un funeste avenir ; mais j'aimerais mieux mourir que de vous
-     en donner le conseil. Qu'ils s'éloignent, et qu'ils vivent. » </p>
-    <p> Puis s'adressant à Bougainville, il ajouta : « Et toi, chef des brigands qui t'obéissent,
+     en donner le conseil. Qu'ils s'éloignent, et qu'ils vivent. »
+    </p>
+    <p>
+     Puis s'adressant à Bougainville, il ajouta : « Et toi, chef des brigands qui t'obéissent,
      écarte promptement ton vaisseau de notre rive : nous sommes innocents, nous sommes heureux ; et
      tu ne peux que nuire à notre bonheur. Nous suivons le pur instinct de la nature ; et tu as
      tenté d'effacer de nos âmes son caractère. Ici tout est à tous ; et tu nous as prêché je ne
-     sais quelle distinction du <hi rend="italic"> tien </hi> et du/mien/. Nos filles et nos femmes
+     sais quelle distinction du
+     <hi rend="italic">
+      tien
+     </hi>
+     et du/mien/. Nos filles et nos femmes
      nous sont communes ; tu as partagé ce privilège avec nous ; et tu es venu allumer en elles des
      fureurs inconnues. Elles sont devenues folles dans tes bras ; tu es devenu féroce entre les
      leurs. Elles ont commencé à se haïr ; vous vous êtes égorgés pour elles ; et elles nous sont
      revenues teintes de votre sang. Nous sommes libres ; et voilà que tu as enfoui dans notre terre
      le titre de notre futur esclavage. Tu n'es ni un dieu, ni un démon : qui es-tu donc, pour faire
      des esclaves ? Orou ! toi qui entends la langue de ces hommes-Là, dis-nous à tous, comme tu me
-     l'as dit à moi, ce qu'ils ont écrit sur cette lame de métal : <hi rend="italic"> Ce pays est à
-     nous </hi> . Ce pays est à toi ! et pourquoi ? parce que tu y as mis le pied ? Si un Taïtien
+     l'as dit à moi, ce qu'ils ont écrit sur cette lame de métal :
+     <hi rend="italic">
+      Ce pays est à
+     nous
+     </hi>
+     . Ce pays est à toi ! et pourquoi ? parce que tu y as mis le pied ? Si un Taïtien
      débarquait un jour sur vos côtes, et qu'il gravât sur une de vos pierres ou sur l'écorce d'un
-     de vos arbres : <hi rend="italic"> Ce pays appartient aux habitants de Taïti </hi> , qu'en
+     de vos arbres :
+     <hi rend="italic">
+      Ce pays appartient aux habitants de Taïti
+     </hi>
+     , qu'en
      penserais-tu ? Tu es le plus fort ! Et qu'est-ce que cela fait ? Lorsqu'on t'a enlevé une des
      méprisables bagatelles dont ton bâtiment est rempli, tu t'es récrié, tu t'es vengé ; et dans le
      même instant tu as projeté au fond de ton cœur le vol de toute une contrée ! Tu n'es pas
@@ -363,11 +873,19 @@
      mangent pour vivre et pour croître : ils croissent pour multiplier, et ils n'y trouvent ni
      vice, ni honte. Écoute la suite de tes forfaits. À peine t'es-tu montré parmi eux, qu'ils sont
      devenus voleurs. À peine es-tu descendu dans notre terre, qu'elle a fumé de sang. Ce Taïtien
-     qui courut à ta rencontre, qui t'accueillit, qui te reçut en criant : <hi rend="italic"> Taïo !
-     ami, ami </hi> ; vous l'avez tué. Et pourquoi l'avez-vous tué ? parce qu'il avait été séduit
-     par l'éclat de tes petits œufs de serpents <ref target="#N2"/> . Il te donnait ses fruits ; il
+     qui courut à ta rencontre, qui t'accueillit, qui te reçut en criant :
+     <hi rend="italic">
+      Taïo !
+     ami, ami
+     </hi>
+     ; vous l'avez tué. Et pourquoi l'avez-vous tué ? parce qu'il avait été séduit
+     par l'éclat de tes petits œufs de serpents
+     <ref target="#N2"/>
+     . Il te donnait ses fruits ; il
      t'offrait sa femme et sa fille ; il te cédait sa cabane : et tu l'as tué pour une poignée de
-     ces grains, qu'il avait pris sans te le demander <ref target="#N3"/> . Et ce peuple ? Au bruit
+     ces grains, qu'il avait pris sans te le demander
+     <ref target="#N3"/>
+     . Et ce peuple ? Au bruit
      de ton arme meurtrière, la terreur s'est emparée de lui ; et il s'est enfui dans la montagne.
      Mais crois qu'il n'aurait pas tardé d'en descendre ; crois qu'en un instant, sans moi, nous
      périssiez tous. Eh ! pourquoi les ai-je apaisés ? pourquoi les ai-je contenus ? pourquoi les
@@ -383,8 +901,9 @@
      homme, qui exhortait notre enfant à être femme, et femme complaisante et voluptueuse. On a
      dansé autour de votre couche ; et c'est au sortir des bras de cette femme, après avoir éprouvé
      sur son sein la plus douce ivresse, que tu as tué son frère, son ami, son père, peut-être. Tu
-     as fait pis encore ; regarde de ce côté ; vois cette enceinte hérissée de flèches <ref
-     target="N4"/> ; ces armes qui n'avaient menacé que nos ennemis, vois-les tournées contre nos
+     as fait pis encore ; regarde de ce côté ; vois cette enceinte hérissée de flèches
+     <ref target="N4"/>
+     ; ces armes qui n'avaient menacé que nos ennemis, vois-les tournées contre nos
      propres enfants : vois les malheureuses compagnes de nos plaisirs ; vois leur tristesse ; vois
      la douleur de leurs pères ; vois le désespoir de leurs mères : c'est là qu'elles sont
      condamnées à périr par nos mains, ou par le mal que tu leur as donné. Éloigne-toi, à moins que
@@ -392,27 +911,76 @@
      mers coupables qui t'ont épargné dans ton voyage, s'absoudre, et nous venger en t'engloutissant
      avant ton retour ! Et vous, Taïtiens, rentrez dans vos cabanes, rentrez tous ; et que ces
      indignes étrangers n'entendent à leur départ que le flot qui mugit, et ne voient que l'écume
-     dont sa fureur blanchit une rive déserte ! » </p>
-    <p> À peine eut-il achevé, que la foule des habitants disparut : un vaste silence régna dans
+     dont sa fureur blanchit une rive déserte ! »
+    </p>
+    <p>
+     À peine eut-il achevé, que la foule des habitants disparut : un vaste silence régna dans
      toute l'étendue de l'île ; et l'on n'entendit que le sifflement aigu des vents et le bruit
      sourd des eaux sur toute la longueur de la côte : on eût dit que l'air et la mer, sensibles à
-     la voix du vieillard, se disposaient à lui obéir. </p>
-    <p> <hi rend="italic"> B </hi> . Eh bien ! qu'en pensez-vous ? </p>
-    <p> <hi rend="italic"> A </hi> . Ce discours me paraît véhément ; mais à travers je ne sais quoi
-     d'abrupt et de sauvage, il me semble y retrouver des idées et des tournures européennes. </p>
-    <p> <hi rend="italic"> B </hi> . Pensez donc que c'est une traduction du taïtien en espagnol, et
+     la voix du vieillard, se disposaient à lui obéir.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Eh bien ! qu'en pensez-vous ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ce discours me paraît véhément ; mais à travers je ne sais quoi
+     d'abrupt et de sauvage, il me semble y retrouver des idées et des tournures européennes.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Pensez donc que c'est une traduction du taïtien en espagnol, et
      de l'espagnol en français. Le vieillard s'était rendu, la nuit, chez cet Orou qu'il a
      interpellé, et dans la case duquel l'usage de la langue espagnole s'était conservé de temps
-     immémorial <ref target="#N5"/> . Orou avait écrit en espagnol la harangue du vieillard : et
-     Bougainville en avait une copie à la main, tandis que le Taïtien la prononçait. </p>
-    <p> <hi rend="italic"> A </hi> . Je ne vois que trop à présent pourquoi Bougainville a supprimé
-     ce fragment ; mais ce n'est pas là tout ; et ma curiosité pour le reste n'est pas légère. </p>
-    <p> <hi rend="italic"> B </hi> . Ce qui suit, peut-être, vous intéressera moins. </p>
-    <p> <hi rend="italic"> A </hi> . N'importe. </p>
-    <p> <hi rend="italic"> B </hi> . C'est un entretien de l'aumônier de l'équipage avec un habitant
-     de l'île. </p>
-    <p> <hi rend="italic"> A </hi> . Orou ? </p>
-    <p> <hi rend="italic"> B </hi> . Lui-même. Lorsque le vaisseau de Bougainville approcha de
+     immémorial
+     <ref target="#N5"/>
+     . Orou avait écrit en espagnol la harangue du vieillard : et
+     Bougainville en avait une copie à la main, tandis que le Taïtien la prononçait.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je ne vois que trop à présent pourquoi Bougainville a supprimé
+     ce fragment ; mais ce n'est pas là tout ; et ma curiosité pour le reste n'est pas légère.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Ce qui suit, peut-être, vous intéressera moins.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . N'importe.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . C'est un entretien de l'aumônier de l'équipage avec un habitant
+     de l'île.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Orou ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Lui-même. Lorsque le vaisseau de Bougainville approcha de
      Taïti, un nombre infini d'arbres creusés furent lancés sur les eaux ; en un instant son
      bâtiment en fut environné ; de quelque côté qu'il tournât ses regards, il voyait des
      démonstrations de surprise et de bienveillance. On lui jetait des provisions ; on lui tendait
@@ -421,45 +989,93 @@
      accouraient ; les voilà tous à terre : on s'empare des hommes de l'équipage ; on se les partage
      ; chacun conduit le sien dans sa cabane : les hommes les tenaient embrassés par le milieu du
      corps ; les femmes leur flattaient les joues de leurs mains. Placez-vous là ; soyez témoin, par
-     la pensée, de ce spectacle d'hospitalité ; et dites-moi comment vous trouvez l'espèce humaine. </p>
-    <p> <hi rend="italic"> A </hi> . Très-belle. </p>
-    <p> <hi rend="italic"> B </hi> . Mais j'oublierais peut-être de vous parler d'un événement assez
+     la pensée, de ce spectacle d'hospitalité ; et dites-moi comment vous trouvez l'espèce humaine.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Très-belle.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Mais j'oublierais peut-être de vous parler d'un événement assez
      singulier. Cette scène de bienveillance et d'humanité fut troublée tout à coup par les cris
      d'un homme qui appelait à son secours ; c'était le domestique d'un des officiers de
      Bougainville. De jeunes Taïtiens s'étaient jetés sur lui, l'avaient étendu par terre, le
-     déshabillaient et se disposaient à lui faire la civilité. </p>
-    <p> <hi rend="italic"> A </hi> . Quoi ! ces peuples si simples, ces sauvages si bons, si
-     honnêtes ?... </p>
-    <p> <hi rend="italic"> B </hi> . Vous vous trompez ; ce domestique était une femme déguisée en
+     déshabillaient et se disposaient à lui faire la civilité.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Quoi ! ces peuples si simples, ces sauvages si bons, si
+     honnêtes ?...
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Vous vous trompez ; ce domestique était une femme déguisée en
      homme. Ignorée de l'équipage entier, pendant tout le temps d'une longue traversée, les Taïtiens
      devinèrent son sexe au premier coup d'œil. Elle était née en Bourgogne ; elle s'appelait Barré
      ; ni laide, ni jolie, âgée de vingt-six ans. Elle n'était jamais sortie de son hameau ; et sa
      première pensée de voyager fut de faire le tour du globe : elle montra toujours de la sagesse
-     et du courage. </p>
-    <p> <hi rend="italic"> A </hi> . Ces frêles machines-là renferment quelquefois des âmes bien
-     fortes. </p>
+     et du courage.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ces frêles machines-là renferment quelquefois des âmes bien
+     fortes.
+    </p>
    </div>
    <div type="chapter">
-    <head> III. </head>
-    <head> ENTRETIEN DE L'AUMÔNIER ET D'OROU. </head>
-    <p> <hi rend="italic"> B </hi> . Dans la division que les Taïtiens se firent de l'équipage de
-     Bougainville, l'aumônier <ref target="#N6"/> devint le partage d'Orou. L'aumônier et le Taïtien
+    <head>
+     III.
+    </head>
+    <head>
+     ENTRETIEN DE L'AUMÔNIER ET D'OROU.
+    </head>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Dans la division que les Taïtiens se firent de l'équipage de
+     Bougainville, l'aumônier
+     <ref target="#N6"/>
+     devint le partage d'Orou. L'aumônier et le Taïtien
      étaient à peu près du même âge, trente-cinq à trente-six ans. Orou n'avait alors que sa femme
      et trois filles appelées Asto, Palli et Thia. Elles le déshabillèrent, lui lavèrent le visage,
      les mains et les pieds, et lui servirent un repas sain et frugal. Lorsqu'il fut sur le point de
      se coucher, Orou, qui s'était absenté avec sa famille, reparut, lui présenta sa femme et ses
-     trois filles nues, et lui dit : </p>
-    <p> ---Tu as soupé, tu es jeune, tu te portes bien ; si tu dors seul, tu dormiras mal ; l'homme
+     trois filles nues, et lui dit :
+    </p>
+    <p>
+     ---Tu as soupé, tu es jeune, tu te portes bien ; si tu dors seul, tu dormiras mal ; l'homme
      a besoin la nuit d'une compagne à son côté. Voilà ma femme, voilà mes filles : choisis celle
      qui te convient ; mais si tu veux m'obliger, tu donneras la préférence à la plus jeune de mes
-     filles qui n'a point encore eu d'enfants. </p>
-    <p> La mère ajouta :---Hélas ! je n'ai point à m'en plaindre ; la pauvre Thia ! ce n'est pas sa
-     faute. </p>
-    <p> L'aumônier répondit : </p>
-    <p> Que sa religion, son état, les bonnes mœurs et l'honnêteté ne lui permettaient pas
-     d'accepter ces offres. </p>
-    <p> Orou répliqua : </p>
-    <p> ---Je ne sais ce que c'est que la chose que tu appelles religion ; mais je ne puis qu'en
+     filles qui n'a point encore eu d'enfants.
+    </p>
+    <p>
+     La mère ajouta :---Hélas ! je n'ai point à m'en plaindre ; la pauvre Thia ! ce n'est pas sa
+     faute.
+    </p>
+    <p>
+     L'aumônier répondit :
+    </p>
+    <p>
+     Que sa religion, son état, les bonnes mœurs et l'honnêteté ne lui permettaient pas
+     d'accepter ces offres.
+    </p>
+    <p>
+     Orou répliqua :
+    </p>
+    <p>
+     ---Je ne sais ce que c'est que la chose que tu appelles religion ; mais je ne puis qu'en
      penser mal, puisqu'elle t'empêche de goûter un plaisir innocent, auquel nature, la souveraine
      maîtresse, nous invite tous ; de donner l'existence à un de tes semblables ; de rendre un
      service que le père, la mère et les enfants te demandent ; de t'acquitter avec un hôte qui t'a
@@ -476,17 +1092,35 @@
      contrister. Vois le souci que tu as répandu sur tous ces visages : elles craignent que tu
      n'aies remarqué en elles quelques défauts qui leur attirent ton dédain. Mais quand cela serait,
      le plaisir d'honorer une de mes filles, entre ses compagnes et ses sœurs, et de faire une bonne
-     action, ne te suffirait-il pas ? Sois généreux ! </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Ce n'est pas cela : elles sont toutes quatre également belles ; mais ma religion ! mais mon
-     état ! </p>
-    <p> OROU. </p>
-    <p> Elles m'appartiennent, et je te les offre : elles sont à elles, et elles se donnent à toi.
-     Quelle que soit la pureté de conscience que la chose <hi rend="italic"> religion </hi> et la
-     chose <hi rend="italic"> état </hi> te prescrivent, tu peux les accepter sans scrupules. Je
+     action, ne te suffirait-il pas ? Sois généreux !
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Ce n'est pas cela : elles sont toutes quatre également belles ; mais ma religion ! mais mon
+     état !
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Elles m'appartiennent, et je te les offre : elles sont à elles, et elles se donnent à toi.
+     Quelle que soit la pureté de conscience que la chose
+     <hi rend="italic">
+      religion
+     </hi>
+     et la
+     chose
+     <hi rend="italic">
+      état
+     </hi>
+     te prescrivent, tu peux les accepter sans scrupules. Je
      n'abuse point de mon autorité ; et sois sûr que je connais et que je respecte les droits des
-     personnes. </p>
-    <p> Ici, le véridique aumônier convient que jamais la Providence ne l'avait exposé à une aussi
+     personnes.
+    </p>
+    <p>
+     Ici, le véridique aumônier convient que jamais la Providence ne l'avait exposé à une aussi
      pressante tentation. Il était jeune ; il s'agitait, il se tourmentait ; il détournait ses
      regards des aimables suppliantes ; il les ramenait sur elles ; il levait ses mains et ses yeux
      au ciel.---Thia, la plus jeune, embrassait ses genoux et lui disait : Étranger, n'afflige pas
@@ -499,73 +1133,167 @@
      serai peut-être plus chanceuse avec toi qu'avec nos jeunes Taïtiens. Si tu m'accordes cette
      faveur, je ne t'oublierai plus ; je te bénirai toute ma vie ; j'écrirai ton nom sur mon bras et
      sur celui de ton fils ; nous le prononcerons sans cesse avec joie ; et, lorsque tu quitteras ce
-     rivage, mes souhaits t'accompagneront sur les mers jusqu'à ce que tu sois arrivé dans ton pays. </p>
-    <p> Le naïf aumônier dit qu'elle lui serrait les mains, qu'elle attachait sur ses yeux des
+     rivage, mes souhaits t'accompagneront sur les mers jusqu'à ce que tu sois arrivé dans ton pays.
+    </p>
+    <p>
+     Le naïf aumônier dit qu'elle lui serrait les mains, qu'elle attachait sur ses yeux des
      regards si expressifs et si touchants ; qu'elle pleurait ; que son père, sa mère et ses sœurs
      s'éloignèrent ; qu'il resta seul avec elle, et qu'en disant : Mais ma religion, mais mon état,
      il se trouva le lendemain couché à côté de cette jeune fille, qui l'accablait de caresses, et
      qui invitait son père, sa mère et ses sœurs, lorsqu'ils s'approchèrent de leur lit le matin, à
-     joindre leur reconnaissance à la sienne. </p>
-    <p> Asto et Palli, qui s'étaient éloignées, rentrèrent avec les mets du pays, des boissons et
+     joindre leur reconnaissance à la sienne.
+    </p>
+    <p>
+     Asto et Palli, qui s'étaient éloignées, rentrèrent avec les mets du pays, des boissons et
      des fruits : elles embrassaient leur sœur et faisaient des vœux sur elle. Ils déjeunèrent tous
-     ensemble ; ensuite Orou, demeuré seul avec l'aumônier, lui dit : </p>
-    <p> ---Je vois que ma fille est contente de toi ; et je te remercie. Mais pourrais-tu
+     ensemble ; ensuite Orou, demeuré seul avec l'aumônier, lui dit :
+    </p>
+    <p>
+     ---Je vois que ma fille est contente de toi ; et je te remercie. Mais pourrais-tu
      m'apprendre ce que c'est que le mot religion, que tu as répété tant de fois, et avec tant de
-     douleur ? </p>
-    <p> L'aumônier, après avoir rêvé un moment, répondit : </p>
-    <p> --- Qui est-ce qui a fait ta cabane et les ustensiles qui la meublent ? </p>
-    <p> OROU. </p>
-    <p> C'est moi. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Eh bien ! nous croyons que ce monde et ce qu'il renferme est l'ouvrage d'un ouvrier. </p>
-    <p> OROU. </p>
-    <p> Il a donc des pieds, des mains, une tête ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Non. </p>
-    <p> OROU. </p>
-    <p> Où fait-il sa demeure ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Partout. </p>
-    <p> OROU. </p>
-    <p> Ici même ! </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Ici. </p>
-    <p> OROU. </p>
-    <p> Nous ne l'avons jamais vu. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> On ne le voit pas. </p>
-    <p> OROU. </p>
-    <p> Voilà un père bien indifférent ! Il doit être vieux ; car il a au moins l'âge de son
-     ouvrage. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Il ne vieillit point : il a parlé à nos ancêtres : il leur a donné des lois ; il leur a
+     douleur ?
+    </p>
+    <p>
+     L'aumônier, après avoir rêvé un moment, répondit :
+    </p>
+    <p>
+     --- Qui est-ce qui a fait ta cabane et les ustensiles qui la meublent ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     C'est moi.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Eh bien ! nous croyons que ce monde et ce qu'il renferme est l'ouvrage d'un ouvrier.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Il a donc des pieds, des mains, une tête ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Non.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Où fait-il sa demeure ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Partout.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Ici même !
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Ici.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Nous ne l'avons jamais vu.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     On ne le voit pas.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Voilà un père bien indifférent ! Il doit être vieux ; car il a au moins l'âge de son
+     ouvrage.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Il ne vieillit point : il a parlé à nos ancêtres : il leur a donné des lois ; il leur a
      prescrit la manière dont il voulait être honoré ; il leur a ordonné certaines actions, comme
-     bonnes ; il leur en a défendu d'autres, comme mauvaises. </p>
-    <p> OROU. </p>
-    <p> J'entends ; et une de ces actions qu'il leur a défendues comme mauvaises, c'est de coucher
-     avec une femme et une fille ? Pourquoi donc a-t-il fait deux sexes ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Pour s'unir ; mais à certaines conditions requises, après certaines cérémonies préalables,
+     bonnes ; il leur en a défendu d'autres, comme mauvaises.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     J'entends ; et une de ces actions qu'il leur a défendues comme mauvaises, c'est de coucher
+     avec une femme et une fille ? Pourquoi donc a-t-il fait deux sexes ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Pour s'unir ; mais à certaines conditions requises, après certaines cérémonies préalables,
      en conséquence desquelles un homme appartient à une femme, et n'appartient qu'à elle ; une
-     femme appartient à un homme, et n'appartient qu'à lui. </p>
-    <p> OROU. </p>
-    <p> Pour toute leur vie ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Pour toute leur vie. </p>
-    <p> OROU. </p>
-    <p> En sorte que, s'il arrivait à une femme de coucher avec un autre que son mari, ou à un mari
+     femme appartient à un homme, et n'appartient qu'à lui.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Pour toute leur vie ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Pour toute leur vie.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     En sorte que, s'il arrivait à une femme de coucher avec un autre que son mari, ou à un mari
      de coucher avec une autre que sa femme... mais cela n'arrive point, car, puisqu'il est là, et
-     que cela lui déplaît, il sait les en empêcher. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Non ; il les laisse faire, et ils pèchent contre la loi de Dieu (car c'est ainsi que nous
-     appelons le grand ouvrier), contre la loi du pays ; et ils commettent un crime. </p>
-    <p> OROU. </p>
-    <p> Je serais fâché de t'offenser par mes discours ; mais si tu le permettais, je te dirais mon
-     avis. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Parle. </p>
-    <p> OROU. </p>
-    <p> Ces préceptes singuliers, je les trouve opposés à la nature, et contraires à la raison ;
+     que cela lui déplaît, il sait les en empêcher.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Non ; il les laisse faire, et ils pèchent contre la loi de Dieu (car c'est ainsi que nous
+     appelons le grand ouvrier), contre la loi du pays ; et ils commettent un crime.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Je serais fâché de t'offenser par mes discours ; mais si tu le permettais, je te dirais mon
+     avis.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Parle.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Ces préceptes singuliers, je les trouve opposés à la nature, et contraires à la raison ;
      faits pour multiplier les crimes, et fâcher à tout moment le vieil ouvrier, qui a tout fait
      sans mains, sans tête et sans outils ; qui est partout, et qu'on ne voit nulle part ; qui dure
      aujourd'hui et demain, et qui n'a pas un jour de plus ; qui commande et qui n'est pas obéi ;
@@ -588,18 +1316,41 @@
      : mais je me réjouis qu'il n'ait point parlé à nos pères, et je souhaite qu'il ne parle point à
      nos enfants ; car il pourrait par hasard leur dire les mêmes sottises, et ils feraient
      peut-être celle de le croire. Hier, en soupant, tu nous as entretenus de magistrats et de
-     prêtres ; je ne sais quels sont ces personnages que tu appelles <hi rend="italic"> magistrats
-     </hi> et <hi rend="italic"> prêtres </hi> , dont l'autorité règle votre conduite ; mais,
+     prêtres ; je ne sais quels sont ces personnages que tu appelles
+     <hi rend="italic">
+      magistrats
+     </hi>
+     et
+     <hi rend="italic">
+      prêtres
+     </hi>
+     , dont l'autorité règle votre conduite ; mais,
      dis-moi, sont-ils maîtres du bien et du mal ? Peuvent-ils faire que ce qui est juste soit
      injuste, et que ce qui est injuste soit juste ? dépend-il d'eux d'attacher le bien à des
      actions nuisibles, et le mal à des actions innocentes ou utiles ? Tu ne saurais le penser, car,
      à ce compte, il n'y aurait ni vrai ni faux, ni bon ni mauvais, ni beau ni laid ; du moins, que
      ce qu'il plairait à ton grand ouvrier, à les magistrats, à tes prêtres, de prononcer tel ; et,
      d'un moment à, l'autre, tu serais obligé de changer d'idées et de conduite. Un jour l'on te
-     dirait, de la part de l'un de tes trois maîtres : <hi rend="italic"> tue </hi> , et tu serais
-     obligé, en conscience, de tuer ; un autre jour : <hi rend="italic"> vole </hi> ; et tu serais
-     tenu de voler ; ou : <hi rend="italic"> ne mange pas de ce fruit </hi> ; et tu n'oserais en
-     manger ; <hi rend="italic"> je te défends ce légume ou cet animal </hi> ; et tu te garderais
+     dirait, de la part de l'un de tes trois maîtres :
+     <hi rend="italic">
+      tue
+     </hi>
+     , et tu serais
+     obligé, en conscience, de tuer ; un autre jour :
+     <hi rend="italic">
+      vole
+     </hi>
+     ; et tu serais
+     tenu de voler ; ou :
+     <hi rend="italic">
+      ne mange pas de ce fruit
+     </hi>
+     ; et tu n'oserais en
+     manger ;
+     <hi rend="italic">
+      je te défends ce légume ou cet animal
+     </hi>
+     ; et tu te garderais
      d'y toucher. Il n'y a point de bonté qu'on ne pût t'interdire ; point de méchanceté qu'on ne
      pût t'ordonner. Et où en serais-tu réduit, si tes trois maîtres, peu d'accord entre eux,
      s'avisaient de te permettre, de t'enjoindre et de te défendre la même chose, comme je pense
@@ -621,39 +1372,95 @@
      esprits ; ils ne sauront plus ce qu'ils ont à faire ou à éviter. Troublés dans l'état
      d'innocence, tranquilles dans le forfait, ils auront perdu l'étoile polaire dans leur chemin.
      Réponds-moi sincèrement ; en dépit des ordres exprès de tes trois législateurs, un jeune homme,
-     dans ton pays, ne couche-t-il jamais, sans leur permission, avec une jeune fille ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Je mentirais si je te l'assurais. </p>
-    <p> OROU. </p>
-    <p> La femme, qui a juré de n'appartenir qu'à son mari, ne se donne-t-elle point à un autre ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Rien de plus commun. </p>
-    <p> OROU. </p>
-    <p> Tes législateurs sévissent ou ne sévissent pas : s'ils sévissent, ce sont des bêtes féroces
+     dans ton pays, ne couche-t-il jamais, sans leur permission, avec une jeune fille ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Je mentirais si je te l'assurais.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     La femme, qui a juré de n'appartenir qu'à son mari, ne se donne-t-elle point à un autre ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Rien de plus commun.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Tes législateurs sévissent ou ne sévissent pas : s'ils sévissent, ce sont des bêtes féroces
      qui battent la nature ; s'ils ne sévissent pas, ce sont des imbéciles qui ont exposé au mépris
-     leur autorité par une défense inutile. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Les coupables, qui échappent à la sévérité des lois, sont châtiés par le blâme général. </p>
-    <p> OROU. </p>
-    <p> C'est-à-dire que la justice s'exerce par le défaut de sens commun de toute la nation ; et
-     que c'est la folie de l'opinion qui supplée aux lois. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> La fille déshonorée ne trouve plus de mari. </p>
-    <p> OROU. </p>
-    <p> Déshonorée ! et pourquoi ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> La femme infidèle est plus ou moins méprisée. </p>
-    <p> OROU. </p>
-    <p> Méprisée ! et pourquoi ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Le jeune homme s'appelle un lâche séducteur. </p>
-    <p> OROU. </p>
-    <p> Un lâche ! un séducteur ! et pourquoi ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Le père, la mère et l'enfant sont désolés. L'époux volage est un libertin : l'époux trahi
-     partage la honte de sa femme. </p>
-    <p> OROU. </p>
-    <p> Quel monstrueux tissu d'extravagances tu m'exposes là ! et encore tu ne dis pas tout : car
+     leur autorité par une défense inutile.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Les coupables, qui échappent à la sévérité des lois, sont châtiés par le blâme général.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     C'est-à-dire que la justice s'exerce par le défaut de sens commun de toute la nation ; et
+     que c'est la folie de l'opinion qui supplée aux lois.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     La fille déshonorée ne trouve plus de mari.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Déshonorée ! et pourquoi ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     La femme infidèle est plus ou moins méprisée.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Méprisée ! et pourquoi ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Le jeune homme s'appelle un lâche séducteur.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Un lâche ! un séducteur ! et pourquoi ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Le père, la mère et l'enfant sont désolés. L'époux volage est un libertin : l'époux trahi
+     partage la honte de sa femme.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Quel monstrueux tissu d'extravagances tu m'exposes là ! et encore tu ne dis pas tout : car
      aussitôt qu'on s'est permis de disposer à son gré des idées de justice et de propriété ; d'ôter
      ou de donner un caractère arbitraire aux choses ; d'unir aux actions ou d'en séparer le bien et
      le mal, sans consulter que le caprice, on se blâme, on s'accuse, on se suspecte, on se
@@ -667,24 +1474,56 @@
      le bel ordre, ne sera qu'un ramas d'hypocrites, qui foulent secrètement aux pieds les lois ; ou
      d'infortunés, qui sont eux-mêmes les instruments de leurs supplices, en s'y soumettant ; ou
      d'imbéciles, en qui le préjugé a tout à fait étouffé la voix de la nature ; ou d'êtres mal
-     organisés, en qui la nature ne réclame pas ses droits. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Cela ressemble. Mais vous ne vous mariez donc point ? </p>
-    <p> OROU. </p>
-    <p> Nous nous marions. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Qu'est-ce que votre mariage ? </p>
-    <p> OROU. </p>
-    <p> Le consentement d'habiter une même cabane, et de coucher dans le même lit, tant que nous
-     nous y trouverons bien. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Et lorsque vous vous y trouvez mal ? </p>
-    <p> OROU. </p>
-    <p> Nous nous séparons. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Que deviennent vos enfants ? </p>
-    <p> OROU. </p>
-    <p> Ô étranger ! ta dernière question achève de me déceler la profonde misère de ton pays.
+     organisés, en qui la nature ne réclame pas ses droits.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Cela ressemble. Mais vous ne vous mariez donc point ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Nous nous marions.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Qu'est-ce que votre mariage ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Le consentement d'habiter une même cabane, et de coucher dans le même lit, tant que nous
+     nous y trouverons bien.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Et lorsque vous vous y trouvez mal ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Nous nous séparons.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Que deviennent vos enfants ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Ô étranger ! ta dernière question achève de me déceler la profonde misère de ton pays.
      Sache, mon ami, qu'ici la naissance d'un enfant est toujours un bonheur, et sa mort un sujet de
      regrets et de larmes. Un enfant est un bien précieux, parce qu'il doit devenir un homme ;
      aussi, en avons-nous un tout autre soin que de nos plantes et de nos animaux. Un enfant qui
@@ -694,37 +1533,85 @@
      repassant de la cabane de son mari dans celle de ses parents, une femme emmène avec elle les
      enfants qu'elle avait apportés en dot : on partage ceux qui sont nés pendant la cohabitation
      commune ; et l'on compense, autant qu'il est possible, les mâles par les femelles, en sorte
-     qu'il reste à chacun à peu près un nombre égal de filles et de garçons. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Mais les enfants sont longtemps à charge avant que de rendre service. </p>
-    <p> OROU. </p>
-    <p> Nous destinons à leur entretien et à la subsistance des vieillards, une sixième partie de
+     qu'il reste à chacun à peu près un nombre égal de filles et de garçons.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Mais les enfants sont longtemps à charge avant que de rendre service.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Nous destinons à leur entretien et à la subsistance des vieillards, une sixième partie de
      tous les fruits du pays ; ce tribut les suit partout. Ainsi tu vois que plus la famille du
-     Taïtien est nombreuse, plus il est riche. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Une sixième partie ! </p>
-    <p> OROU. </p>
-    <p> Oui ; c'est un moyen sûr d'encourager la population, et d'intéresser au respect de la
-     vieillesse et à la conservation des enfants. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Vos époux se reprennent-ils quelquefois ? </p>
-    <p> OROU. </p>
-    <p> Très-souvent ; cependant la durée la plus courte d'un mariage est d'une lune à l'autre. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> À moins que la femme ne soit grosse ; alors la cohabitation est au moins de neuf mois ? </p>
-    <p> OROU. </p>
-    <p> Tu te trompes ; la paternité, comme le tribut, suit l'enfant partout. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Tu m'as parlé d'enfants qu'une femme apporte en dot à son mari. </p>
-    <p> OROU. </p>
-    <p> Assurément. Voilà ma fille aînée qui a trois enfants ; ils marchent ; ils sont sains ; ils
+     Taïtien est nombreuse, plus il est riche.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Une sixième partie !
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Oui ; c'est un moyen sûr d'encourager la population, et d'intéresser au respect de la
+     vieillesse et à la conservation des enfants.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Vos époux se reprennent-ils quelquefois ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Très-souvent ; cependant la durée la plus courte d'un mariage est d'une lune à l'autre.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     À moins que la femme ne soit grosse ; alors la cohabitation est au moins de neuf mois ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Tu te trompes ; la paternité, comme le tribut, suit l'enfant partout.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Tu m'as parlé d'enfants qu'une femme apporte en dot à son mari.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Assurément. Voilà ma fille aînée qui a trois enfants ; ils marchent ; ils sont sains ; ils
      sont beaux ; ils promettent d'être forts : lorsqu'il lui prendra fantaisie de se marier, elle
      les emmènera ; ils sont les siens : son mari les recevra avec joie, et sa femme ne lui en
-     serait que plus agréable, si elle était enceinte d'un quatrième. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> De lui ? </p>
-    <p> OROU. </p>
-    <p> De lui, ou d'un autre. Plus nos filles ont d'enfants, plus elles sont recherchées ; plus nos
+     serait que plus agréable, si elle était enceinte d'un quatrième.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     De lui ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     De lui, ou d'un autre. Plus nos filles ont d'enfants, plus elles sont recherchées ; plus nos
      garçons sont vigoureux et forts, plus ils sont riches : aussi, autant nous sommes attentifs à
      préserver les unes des approches de l'homme, les autres du commerce de la femme, avant l'âge de
      fécondité ; autant nous les exhortons à produire, lorsque les garçons sont pubères et les
@@ -733,11 +1620,19 @@
      penses-tu donc ? Tu ne deviens point grosse ; tu as dix-neuf ans ; tu devrais avoir déjà deux
      enfants, et tu n'en as point. Quel est celui qui se chargera de toi ? Si tu perds ainsi tes
      jeunes ans, que feras-tu dans ta vieillesse ? Thia, il faut que tu aies quelque défaut qui
-     éloigne de toi les hommes. Corrige-toi, mon enfant : à ton âge, j'avais été trois fois mère. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Quelles précautions prenez-vous pour garder vos filles et vos garçons adolescents ? </p>
-    <p> OROU. </p>
-    <p> C'est l'objet principal de l'éducation domestique et le point le plus important des mœurs
+     éloigne de toi les hommes. Corrige-toi, mon enfant : à ton âge, j'avais été trois fois mère.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Quelles précautions prenez-vous pour garder vos filles et vos garçons adolescents ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     C'est l'objet principal de l'éducation domestique et le point le plus important des mœurs
      publiques. Nos garçons, jusqu'à l'âge de vingt-deux ans, deux ou trois ans au delà de la
      puberté, restent couverts d'une longue tunique, et les reins ceints d'une petite chaîne. Avant
      que d'être nubiles, nos filles n'oseraient sortir sans un voile blanc. Ôter sa chaîne, lever
@@ -760,13 +1655,32 @@
      sans réserve et sans secret. Le reste de la cérémonie s'achève sur un lit de feuilles, comme tu
      l'as vu à ta descente parmi nous. À la chute du jour, la fille rentre dans la cabane de ses
      parents, ou passe dans la cabane de celui dont elle a fait choix, et y reste tant qu'elle s'y
-     plaît. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Ainsi cette fête est ou n'est point un jour de mariage ? </p>
-    <p> OROU. </p>
-    <p> Tu l'as dit </p>
-    <p> --- <hi rend="italic"> A </hi> . Qu'est-ce que je vois là en marge ? </p>
-    <p> <hi rend="italic"> B </hi> . C'est une note, où le bon aumônier dit que les préceptes des
+     plaît.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Ainsi cette fête est ou n'est point un jour de mariage ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Tu l'as dit
+    </p>
+    <p>
+     ---
+     <hi rend="italic">
+      A
+     </hi>
+     . Qu'est-ce que je vois là en marge ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . C'est une note, où le bon aumônier dit que les préceptes des
      parents sur le choix des garçons et des filles étaient pleins de bon sens et d'observations
      très-fines et très-utiles ; mais qu'il a supprimé ce catéchisme, qui aurait paru à des gens
      aussi corrompus et aussi superficiels que nous, d'une licence impardonnable ; ajoutant
@@ -783,35 +1697,73 @@
      commun entre la Vénus d'Athènes et celle de Taïti ; l'une est Vénus galante, l'autre est Vénus
      féconde. Une Taïtienne disait un jour avec mépris à une autre femme du pays : « Tu es belle,
      mais tu fais de laids enfants ; je suis laide, mais je fais de beaux enfants, et c'est moi que
-     les hommes préfèrent. » </p>
-    <p> Après cette note de l'aumônier, Orou continue : </p>
-    <p> OROU. </p>
-    <p> L'heureux moment pour une jeune fille et pour ses parents, que celui où sa grossesse est
+     les hommes préfèrent. »
+    </p>
+    <p>
+     Après cette note de l'aumônier, Orou continue :
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     L'heureux moment pour une jeune fille et pour ses parents, que celui où sa grossesse est
      constatée ! Elle se lève ; elle accourt ; elle jette ses bras autour du cou de sa mère et de
      son père ; c'est avec des transports d'une joie mutuelle, qu'elle leur annonce et qu'ils
      apprennent cet événement. Maman ! mon papa ! embrassez-moi ; je suis grosse !---Est-il bien
-     vrai ?---Très-vrai.---Et de qui l'êtes-vous ?---Je le suis d'un tel... </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Comment peut-elle nommer le père de son enfant ? </p>
-    <p> OROU. </p>
-    <p> Pourquoi veux-tu qu'elle l'ignore ? Il en est de la durée de nos amours comme de celle de
-     nos mariages ; elle est au moins d'une lune à la lune suivante. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Et cette règle est bien scrupuleusement observée ? </p>
-    <p> OROU. </p>
-    <p> Tu vas en juger. D'abord, l'intervalle de deux lunes n'est pas long ; mais lorsque deux
+     vrai ?---Très-vrai.---Et de qui l'êtes-vous ?---Je le suis d'un tel...
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Comment peut-elle nommer le père de son enfant ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Pourquoi veux-tu qu'elle l'ignore ? Il en est de la durée de nos amours comme de celle de
+     nos mariages ; elle est au moins d'une lune à la lune suivante.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Et cette règle est bien scrupuleusement observée ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Tu vas en juger. D'abord, l'intervalle de deux lunes n'est pas long ; mais lorsque deux
      pères ont une prétention bien fondée à la formation d'un enfant, il n'appartient plus à sa
-     mère. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> À qui appartient-il donc ? </p>
-    <p> OROU. </p>
-    <p> À celui des deux à qui il lui plaît de le donner ; voilà tout son privilège : et un enfant
+     mère.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     À qui appartient-il donc ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     À celui des deux à qui il lui plaît de le donner ; voilà tout son privilège : et un enfant
      étant par lui-même un objet d'intérêt et de richesse, tu conçois que, parmi nous, les
-     libertines sont rares, et que les jeunes garçons s'en éloignent. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Vous avez donc aussi vos libertines ? J'en suis bien aise. </p>
-    <p> OROU. </p>
-    <p> Nous en avons même de plus d'une sorte : mais tu m'écartes de mon sujet. Lorsqu'une de nos
+     libertines sont rares, et que les jeunes garçons s'en éloignent.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Vous avez donc aussi vos libertines ? J'en suis bien aise.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Nous en avons même de plus d'une sorte : mais tu m'écartes de mon sujet. Lorsqu'une de nos
      filles est grosse, si le père de l'enfant est un jeune homme beau, bien fait, brave,
      intelligent et laborieux, l'espérance que l'enfant héritera des vertus de son père renouvelle
      l'allégresse. Notre enfant n'a honte que d'un mauvais choix. Tu dois concevoir quel prix nous
@@ -820,104 +1772,278 @@
      nous. Toi qui as parcouru diverses contrées, dis-moi si tu as remarqué dans aucune autant de
      beaux hommes et autant de belles femmes que dans Taïti ! Regarde-moi : comment me trouves-tu ?
      Eh bien ! il y a dix mille hommes ici plus grands, aussi robustes ; mais pas un plus brave que
-     moi ; aussi les mères me désignent-elles souvent à leurs filles. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Mais de tous ces enfants que tu peux avoir faits hors de ta cabane, que t'en revient-il ? </p>
-    <p> OROU. </p>
-    <p> Le quatrième, mâle ou femelle. Il s'est établi parmi nous une circulation d'hommes, de
+     moi ; aussi les mères me désignent-elles souvent à leurs filles.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Mais de tous ces enfants que tu peux avoir faits hors de ta cabane, que t'en revient-il ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Le quatrième, mâle ou femelle. Il s'est établi parmi nous une circulation d'hommes, de
      femmes et d'enfants, ou de bras de tout âge et de toute fonction, qui est bien d'une autre
-     importance que celle de vos denrées qui n'en sont que le produit. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Je le conçois. Qu'est-ce que c'est que ces voiles noirs que j'ai rencontrés quelquefois. </p>
-    <p> OROU. </p>
-    <p> Le signe de la stérilité, vice de naissance, ou suite de l'âge avancé. Celle qui quitte ce
+     importance que celle de vos denrées qui n'en sont que le produit.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Je le conçois. Qu'est-ce que c'est que ces voiles noirs que j'ai rencontrés quelquefois.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Le signe de la stérilité, vice de naissance, ou suite de l'âge avancé. Celle qui quitte ce
      voile et se mêle avec les hommes, est une libertine, celui qui relève ce voile et s'approche de
-     la femme stérile, est un libertin. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Et ces voiles gris ? </p>
-    <p> OROU. </p>
-    <p> Le signe de la maladie périodique. Celle qui quitte ce voile, et se mêle avec les hommes,
-     est une libertine ; celui qui le relève, et s'approche de la femme malade, est un libertin. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Avez-vous des châtiments pour ce libertinage ? </p>
-    <p> OROU. </p>
-    <p> Point d'autre que le blâme. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Un père peut-il coucher avec sa fille, une mère avec son fils, un frère avec sa sœur, un
-     mari avec la femme d'un autre ? </p>
-    <p> OROU. </p>
-    <p> Pourquoi non ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Passe pour la fornication ; mais l'inceste, mais l'adultère ! </p>
-    <p> OROU. </p>
-    <p> Qu'est-ce que tu veux dire avec tes mots, <hi rend="italic"> fornication, inceste, adultère
-     ? </hi> </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Des crimes, des crimes énormes, pour l'un desquels on brûle dans mon pays. </p>
-    <p> OROU. </p>
-    <p> Qu'on brûle ou qu'on ne brûle pas dans ton pays, peu m'importe. Mais tu n'accuseras pas les
+     la femme stérile, est un libertin.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Et ces voiles gris ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Le signe de la maladie périodique. Celle qui quitte ce voile, et se mêle avec les hommes,
+     est une libertine ; celui qui le relève, et s'approche de la femme malade, est un libertin.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Avez-vous des châtiments pour ce libertinage ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Point d'autre que le blâme.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Un père peut-il coucher avec sa fille, une mère avec son fils, un frère avec sa sœur, un
+     mari avec la femme d'un autre ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Pourquoi non ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Passe pour la fornication ; mais l'inceste, mais l'adultère !
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Qu'est-ce que tu veux dire avec tes mots,
+     <hi rend="italic">
+      fornication, inceste, adultère
+     ?
+     </hi>
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Des crimes, des crimes énormes, pour l'un desquels on brûle dans mon pays.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Qu'on brûle ou qu'on ne brûle pas dans ton pays, peu m'importe. Mais tu n'accuseras pas les
      mœurs d'Europe par celles de Taïti, ni par conséquent les mœurs de Taïti par celles de ton pays
      : il nous faut une règle plus sûre ; et quelle sera cette règle ? En connais-tu une autre que
-     le bien général et l'utilité particulière ? À présent, dis-moi ce que ton crime <hi
-     rend="italic"> inceste </hi> a de contraire à ces deux fins de nos actions ? Tu te trompes, mon
+     le bien général et l'utilité particulière ? À présent, dis-moi ce que ton crime
+     <hi rend="italic">
+      inceste
+     </hi>
+     a de contraire à ces deux fins de nos actions ? Tu te trompes, mon
      ami, si tu crois qu'une loi une fois publiée, un mot ignominieux inventé, un supplice décerné,
-     tout est dit. Réponds-moi donc, qu'entends-tu par <hi rend="italic"> inceste </hi> ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Mais un <hi rend="italic"> inceste </hi> ... </p>
-    <p> OROU. </p>
-    <p> Un <hi rend="italic"> inceste </hi> ?... Y a-t-il longtemps que ton grand ouvrier sans tête,
-     sans mains et sans outils, a fait le monde ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Non. </p>
-    <p> OROU. </p>
-    <p> Fit-il toute l'espèce humaine à la fois ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Non. Il créa seulement une femme et un homme. </p>
-    <p> OROU. </p>
-    <p> Eurent-ils des enfants ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Assurément. </p>
-    <p> OROU. </p>
-    <p> Supposons que ces deux premiers parents n'aient eu que des filles, et que leur mère soit
-     morte la première ; ou qu'ils n'aient eu que des garçons, et que la femme ait perdu son mari. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Tu m'embarrasses; mais tu as beau dire, l' <hi rend="italic"> inceste </hi> est un crime
-     abominable, et parlons d'autre chose. </p>
-    <p> OROU. </p>
-    <p> Cela te plaît à dire ; je me tais, moi, tant que tu ne m'auras pas dit ce que c'est que le
-     crime abominable <hi rend="italic"> inceste </hi> . </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Eh bien ! je t'accorde que peut-être l' <hi rend="italic"> inceste </hi> ne blesse en rien
+     tout est dit. Réponds-moi donc, qu'entends-tu par
+     <hi rend="italic">
+      inceste
+     </hi>
+     ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Mais un
+     <hi rend="italic">
+      inceste
+     </hi>
+     ...
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Un
+     <hi rend="italic">
+      inceste
+     </hi>
+     ?... Y a-t-il longtemps que ton grand ouvrier sans tête,
+     sans mains et sans outils, a fait le monde ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Non.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Fit-il toute l'espèce humaine à la fois ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Non. Il créa seulement une femme et un homme.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Eurent-ils des enfants ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Assurément.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Supposons que ces deux premiers parents n'aient eu que des filles, et que leur mère soit
+     morte la première ; ou qu'ils n'aient eu que des garçons, et que la femme ait perdu son mari.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Tu m'embarrasses; mais tu as beau dire, l'
+     <hi rend="italic">
+      inceste
+     </hi>
+     est un crime
+     abominable, et parlons d'autre chose.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Cela te plaît à dire ; je me tais, moi, tant que tu ne m'auras pas dit ce que c'est que le
+     crime abominable
+     <hi rend="italic">
+      inceste
+     </hi>
+     .
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Eh bien ! je t'accorde que peut-être l'
+     <hi rend="italic">
+      inceste
+     </hi>
+     ne blesse en rien
      la nature ; mais ne suffit-il pas qu'il menace la constitution politique ? Que deviendraient la
      sûreté d'un chef et la tranquillité d'un Etat, si toute une nation composée de plusieurs
-     millions d'hommes, se trouvait rassemblée autour d'une cinquantaine de pères de famille. </p>
-    <p> OROU. </p>
-    <p> Le pis-aller, c'est qu'où il n'y a qu'une grande société, il y en aurait cinquante petites,
-     plus de bonheur et un crime de moins. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Je crois cependant que, même ici, un fils couche rarement avec sa mère. </p>
-    <p> OROU. </p>
-    <p> À moins qu'il n'ait beaucoup de respect pour elle, et une tendresse qui lui fasse oublier la
-     disparité d'âge, et préférer une femme de quarante ans à une fille de dix-neuf. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Et le commerce des pères avec leurs filles ? </p>
-    <p> OROU. </p>
-    <p> Guère plus fréquent, à moins que la fille ne soit laide et peu recherchée. Si son père
-     l'aime, il s'occupe à lui préparer sa dot en enfants. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Cela me fait imaginer que le sort des femmes que la nature a disgraciées ne doit pas être
-     heureux dans Taïti. </p>
-    <p> OROU. </p>
-    <p> Cela me prouve que tu n'as pas une haute opinion de la générosité de nos jeunes gens. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Pour les unions de frères et de sœurs, je ne doute pas qu'elles ne soient très-communes. </p>
-    <p> OROU. </p>
-    <p> Et très-approuvées. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> À t'entendre, cette passion, qui produit tant de crimes et de maux dans nos contrées, serait
-     ici tout à fait innocente. </p>
-    <p> OROU. </p>
-    <p> Étranger ! tu manques de jugement et de mémoire : de jugement, car, partout où il y a
+     millions d'hommes, se trouvait rassemblée autour d'une cinquantaine de pères de famille.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Le pis-aller, c'est qu'où il n'y a qu'une grande société, il y en aurait cinquante petites,
+     plus de bonheur et un crime de moins.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Je crois cependant que, même ici, un fils couche rarement avec sa mère.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     À moins qu'il n'ait beaucoup de respect pour elle, et une tendresse qui lui fasse oublier la
+     disparité d'âge, et préférer une femme de quarante ans à une fille de dix-neuf.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Et le commerce des pères avec leurs filles ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Guère plus fréquent, à moins que la fille ne soit laide et peu recherchée. Si son père
+     l'aime, il s'occupe à lui préparer sa dot en enfants.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Cela me fait imaginer que le sort des femmes que la nature a disgraciées ne doit pas être
+     heureux dans Taïti.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Cela me prouve que tu n'as pas une haute opinion de la générosité de nos jeunes gens.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Pour les unions de frères et de sœurs, je ne doute pas qu'elles ne soient très-communes.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Et très-approuvées.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     À t'entendre, cette passion, qui produit tant de crimes et de maux dans nos contrées, serait
+     ici tout à fait innocente.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Étranger ! tu manques de jugement et de mémoire : de jugement, car, partout où il y a
      défense, il faut qu'on soit tenté de faire la chose défendue et qu'on la fasse : de mémoire,
      puisque tu ne te souviens plus de ce que je t'ai dit. Nous avons des vieilles dissolues, qui
      sortent la nuit sans leur voile noir, et reçoivent des hommes, lorsqu'il ne peut rien résulter
@@ -929,22 +2055,38 @@
      femmes et des filles peu scrupuleuses à garder leur voile gris ; mais, dans le fait, nous
      n'attachons pas une grande importance à toutes ces fautes ; et tu ne saurais croire combien
      l'idée de richesse particulière ou publique, unie dans nos têtes à l'idée de population, épure
-     nos mœurs sur ce point. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> La passion de deux hommes pour une même femme, ou le goût de deux femmes ou de deux filles
-     pour un même homme, n'occasionnent-ils point de désordres ? </p>
-    <p> OROU. </p>
-    <p> Je n'en ai pas encore vu quatre exemples : le choix de la femme ou celui de l'homme finit
+     nos mœurs sur ce point.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     La passion de deux hommes pour une même femme, ou le goût de deux femmes ou de deux filles
+     pour un même homme, n'occasionnent-ils point de désordres ?
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Je n'en ai pas encore vu quatre exemples : le choix de la femme ou celui de l'homme finit
      tout. La violence d'un homme serait une faute grave ; mais il faut une plainte publique, et il
      est presque inouï qu'une fille ou qu'une femme se soit plainte. La seule chose que j'aie
      remarquée, c'est que nos femmes ont moins de pitié des hommes laids, que nos jeunes gens des
-     femmes disgraciées ; et nous n'en sommes pas fâchés. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Vous ne connaissez guère la jalousie, à ce que je vois ; mais la tendresse maritale, l'amour
+     femmes disgraciées ; et nous n'en sommes pas fâchés.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Vous ne connaissez guère la jalousie, à ce que je vois ; mais la tendresse maritale, l'amour
      maternel, ces deux sentiments si puissants et si doux, s'ils ne sont pas étrangers ici, y
-     doivent être assez faibles. </p>
-    <p> OROU. </p>
-    <p> Nous y avons suppléé par un autre, qui est tout autrement général, énergique et durable,
+     doivent être assez faibles.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Nous y avons suppléé par un autre, qui est tout autrement général, énergique et durable,
      l'intérêt. Mets la main sur la conscience ; laisse là cette fanfaronnade de vertu, qui est sans
      cesse sur les lèvres de tes camarades, et qui ne réside pas au fond de leur cœur. Dis-moi si,
      dans quelque contrée que ce soit, il y a un père qui, sans la honte qui le retient, n'aimât
@@ -955,13 +2097,21 @@
      d'un enfant qui souffre ; c'est ici que les mères sont soignées dans la maladie ; c'est ici
      qu'on prise une femme féconde, une fille nubile, un garçon adolescent ; c'est ici qu'on
      s'occupe de leur institution, parce que leur conservation est toujours un accroissement, et
-     leur perte toujours une diminution de fortune. </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Je crains bien que ce sauvage n'ait raison. Le paysan misérable de nos contrées, qui excède
+     leur perte toujours une diminution de fortune.
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Je crains bien que ce sauvage n'ait raison. Le paysan misérable de nos contrées, qui excède
      sa femme pour soulager son cheval, laisse périr son enfant sans secours, et appelle le médecin
-     pour son bœuf. </p>
-    <p> OROU. </p>
-    <p> Je n'entends pas trop ce que tu viens de dire ; mais, à ton retour dans ta patrie si bien
+     pour son bœuf.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Je n'entends pas trop ce que tu viens de dire ; mais, à ton retour dans ta patrie si bien
      policée, tâche d'y introduire ce ressort ; et c'est alors qu'on y sentira le prix de l'enfant
      qui naît, et l'importance de la population. Veux-tu que je te révèle un secret ? mais prends
      garde qu'il ne t'échappe. Vous arrivez : nous vous abandonnons nos femmes et nos filles ; vous
@@ -991,88 +2141,203 @@
      ce qui lui est utile. S'il te présente un morceau d'or pour un morceau de fer ; c'est qu'il ne
      fait aucun cas de l'or, et qu'il prise le fer. Mais dis-moi donc pourquoi tu n'es pas vêtu
      comme les autres ? Que signifie cette casaque longue qui t'enveloppe de la tête aux pieds, et
-     ce sac pointu que tu laisses tomber sur tes épaules, ou que tu ramènes sur tes oreilles ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> C'est que, tel que tu me vois, je me suis engagé dans une société d'hommes qu'on appelle,
+     ce sac pointu que tu laisses tomber sur tes épaules, ou que tu ramènes sur tes oreilles ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     C'est que, tel que tu me vois, je me suis engagé dans une société d'hommes qu'on appelle,
      dans mon pays, des moines. Le plus sacré de leurs vœux est de n'approcher d'aucune femme, et de
-     ne point faire d'enfants. </p>
-    <p> OROU. </p>
-    <p> Que faites-vous donc ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Rien. </p>
-    <p> OROU. </p>
-    <p> Et ton magistrat souffre cette espèce de paresse, la pire de toutes ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Il fait plus ; il la respecte et la fait respecter. </p>
-    <p> OROU. </p>
-    <p> Ma première pensée était que la nature, quelque accident, ou un art cruel vous avait privés
+     ne point faire d'enfants.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Que faites-vous donc ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Rien.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Et ton magistrat souffre cette espèce de paresse, la pire de toutes ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Il fait plus ; il la respecte et la fait respecter.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Ma première pensée était que la nature, quelque accident, ou un art cruel vous avait privés
      de la faculté de produire votre semblable ; et que, par pitié, on aimait mieux vous laisser
      vivre que de vous tuer. Mais, moine, ma fille m'a dit que tu étais un homme, et un homme aussi
      robuste qu'un Taïtien, et qu'elle espérait que tes caresses réitérées ne seraient pas
      infructueuses. À présent que j'ai compris pourquoi tu t'es écrié hier au soir : Mais ma
      religion ! mais mon état ! pourrais-tu m'apprendre le motif de la faveur et du respect que les
-     magistrats vous accordent ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Je l'ignore. </p>
-    <p> OROU. </p>
-    <p> Tu sais au moins par quelle raison, étant homme, tu t'es librement condamné à ne pas l'être
-     ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Cela serait trop long et trop difficile à t'expliquer. </p>
-    <p> OROU. </p>
-    <p> Et ce vœu de stérilité, le moine y est-il bien fidèle ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Non. </p>
-    <p> OROU. </p>
-    <p> J'en étais sûr. Avez-vous aussi des moines femelles ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Oui. </p>
-    <p> OROU. </p>
-    <p> Aussi sages que les moines mâles ? </p>
-    <p> L'AUMÔNIER. </p>
-    <p> Plus renfermées, elles sèchent de douleur, périssent d'ennui. </p>
-    <p> OROU. </p>
-    <p> Et l'injure faite à la nature est vengée. Oh ! le vilain pays ! Si tout y est ordonné comme
-     ce que tu m'en dis, vous êtes plus barbares que nous. </p>
-    <p> Le bon aumônier raconte qu'il passa le reste de la journée à parcourir l'île, à visiter les
+     magistrats vous accordent ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Je l'ignore.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Tu sais au moins par quelle raison, étant homme, tu t'es librement condamné à ne pas l'être
+     ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Cela serait trop long et trop difficile à t'expliquer.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Et ce vœu de stérilité, le moine y est-il bien fidèle ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Non.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     J'en étais sûr. Avez-vous aussi des moines femelles ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Oui.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Aussi sages que les moines mâles ?
+    </p>
+    <p>
+     L'AUMÔNIER.
+    </p>
+    <p>
+     Plus renfermées, elles sèchent de douleur, périssent d'ennui.
+    </p>
+    <p>
+     OROU.
+    </p>
+    <p>
+     Et l'injure faite à la nature est vengée. Oh ! le vilain pays ! Si tout y est ordonné comme
+     ce que tu m'en dis, vous êtes plus barbares que nous.
+    </p>
+    <p>
+     Le bon aumônier raconte qu'il passa le reste de la journée à parcourir l'île, à visiter les
      cabanes, et que le soir, après avoir soupé, le père et la mère l'ayant supplié de coucher avec
      la seconde de leurs filles, Palli s'était présentée dans le même déshabille que Thia, et qu'il
      s'était écrié plusieurs fois pendant la nuit : Mais ma religion ! mais mon état ! que la
      troisième nuit il avait été agité des mêmes remords avec Asto l'aînée, et que la quatrième nuit
-     il l'avait accordée par honnêteté à la femme de son hôte. </p>
+     il l'avait accordée par honnêteté à la femme de son hôte.
+    </p>
    </div>
    <div type="chapter">
-    <head> IV. </head>
-    <head> SUITE DU DIALOGUE. </head>
-    <p> <hi rend="italic"> A </hi> . J'estime cet aumônier poli. </p>
-    <p> <hi rend="italic"> B </hi> . Et moi, beaucoup davantage les mœurs des Taïtiens, et le
-     discours d'Orou. </p>
-    <p> <hi rend="italic"> A </hi> . Quoique un peu modelé à l'européenne. </p>
-    <p> <hi rend="italic"> B </hi> . Je n'en doute pas. </p>
-    <p> ---Ici le bon aumônier se plaint de la brièveté de son séjour dans Taïti, et de la
+    <head>
+     IV.
+    </head>
+    <head>
+     SUITE DU DIALOGUE.
+    </head>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . J'estime cet aumônier poli.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et moi, beaucoup davantage les mœurs des Taïtiens, et le
+     discours d'Orou.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Quoique un peu modelé à l'européenne.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je n'en doute pas.
+    </p>
+    <p>
+     ---Ici le bon aumônier se plaint de la brièveté de son séjour dans Taïti, et de la
      difficulté de mieux connaître les usages d'un peuple assez sage pour s'être arrêté de lui-même
      à la médiocrité, ou assez heureux pour habiter un climat dont la fertilité lui assurait un long
      engourdissement, assez actif pour s'être mis à l'abri des besoins absolus de la vie, et assez
      indolent pour que son innocence, son repos et sa félicité n'eussent rien à redouter d'un
      progrès trop rapide de ses lumières. Rien n'y était mal par l'opinion et par la loi, que ce qui
      était mal de sa nature. Les travaux et les récoltes s'y faisaient en commun. L'acception du mot
-     <hi rend="italic"> propriété </hi> y était très-étroite ; la passion de l'amour, réduite à un
+     <hi rend="italic">
+      propriété
+     </hi>
+     y était très-étroite ; la passion de l'amour, réduite à un
      simple appétit physique, n'y produisait aucun de nos désordres. L'île entière offrait l'image
      d'une seule famille nombreuse, dont chaque cabane représentait les divers appartements d'une de
      nos grandes maisons. Il finit par protester que ces Taïtiens seront toujours présents à sa
      mémoire, qu'il avait été tenté de jeter ses vêtements dans le vaisseau et de passer le reste de
      ses jours parmi eux, et qu'il craint bien de se repentir plus d'une fois de ne l'avoir pas
-     fait. </p>
-    <p> <hi rend="italic"> A </hi> . Malgré cet éloge, quelles conséquences utiles à tirer des mœurs
-     et des usages bizarres d'un peuple non civilisé ? </p>
-    <p> <hi rend="italic"> B </hi> . Je vois qu'aussitôt que quelques causes physiques, telles, par
+     fait.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Malgré cet éloge, quelles conséquences utiles à tirer des mœurs
+     et des usages bizarres d'un peuple non civilisé ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je vois qu'aussitôt que quelques causes physiques, telles, par
      exemple, que la nécessité de vaincre l'ingratitude du sol, ont mis en jeu la sagacité de
      l'homme, cet élan le conduit bien au delà du but, et que, le terme du besoin passé, on est
      porté dans l'océan sans bornes des fantaisies, d'où l'on ne se retire plus. Puisse l'heureux
      Taïtien s'arrêter où il en est ! Je vois qu'excepté dans ce recoin écarté de notre globe, il
-     n'y a point eu de mœurs, et qu'il n'y en aura peut-être jamais nulle part. </p>
-    <p> <hi rend="italic"> A </hi> . Qu'entendez-vous donc par des mœurs ? </p>
-    <p> <hi rend="italic"> B </hi> . J'entends une soumission générale et une conduite conséquente à
+     n'y a point eu de mœurs, et qu'il n'y en aura peut-être jamais nulle part.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Qu'entendez-vous donc par des mœurs ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . J'entends une soumission générale et une conduite conséquente à
      des lois bonnes ou mauvaises. Si les lois sont bonnes, les mœurs sont bonnes ; si les lois sont
      mauvaises, les mœurs sont mauvaises ; si les lois, bonnes ou mauvaises, ne sont point
      observées, la pire condition d'une société, il n'y a point de mœurs. Or, comment voulez-vous
@@ -1080,80 +2345,236 @@
      nations tant anciennes que modernes, et vous trouverez les hommes assujettis à trois codes, le
      code de la nature, le code civil, et le code religieux, et contraints d'enfreindre
      alternativement ces trois codes qui n'ont jamais été d'accord ; d'où il est arrivé qu'il n'y a
-     eu dans aucune contrée, comme Orou l'a deviné de la nôtre, ni homme, ni citoyen, ni religieux. </p>
-    <p> <hi rend="italic"> A </hi> . D'où vous conclurez, sans doute, qu'en fondant la morale sur
+     eu dans aucune contrée, comme Orou l'a deviné de la nôtre, ni homme, ni citoyen, ni religieux.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . D'où vous conclurez, sans doute, qu'en fondant la morale sur
      les rapports éternels, qui subsistent entre les hommes, la loi religieuse devient peut-être
-     superflue ; et que la loi civile ne doit être que renonciation de la loi de nature. </p>
-    <p> <hi rend="italic"> B </hi> . Et cela, sous peine de multiplier les méchants, au lieu de
-     faire des bons. </p>
-    <p> <hi rend="italic"> A. </hi> Ou que, si l'on juge nécessaire de les conserver toutes trois,
+     superflue ; et que la loi civile ne doit être que renonciation de la loi de nature.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et cela, sous peine de multiplier les méchants, au lieu de
+     faire des bons.
+    </p>
+    <p>
+     <hi rend="italic">
+      A.
+     </hi>
+     Ou que, si l'on juge nécessaire de les conserver toutes trois,
      il faut que les deux dernières ne soient que des calques rigoureux de la première, que nous
-     apportons gravée au fond de nos cœurs, et qui sera toujours la plus forte. </p>
-    <p> <hi rend="italic"> B </hi> . Cela n'est pas exact. Nous n'apportons en naissant qu'une
+     apportons gravée au fond de nos cœurs, et qui sera toujours la plus forte.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Cela n'est pas exact. Nous n'apportons en naissant qu'une
      similitude d'organisation avec d'autres êtres, les mêmes besoins, de l'attrait vers les mêmes
      plaisirs, une aversion commune pour les mêmes peines : voilà ce qui constitue l'homme ce qu'il
-     est, et doit fonder la morale qui lui convient. </p>
-    <p> <hi rend="italic"> A </hi> . Cela n'est pas aisé. </p>
-    <p> <hi rend="italic"> B </hi> . Cela est si difficile, que je croirais volontiers le peuple le
+     est, et doit fonder la morale qui lui convient.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Cela n'est pas aisé.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Cela est si difficile, que je croirais volontiers le peuple le
      plus sauvage de la terre, le Taïtien qui s'en est tenu scrupuleusement à la loi de la nature,
-     plus voisin d'une bonne législation qu'aucun peuple civilisé. </p>
-    <p> <hi rend="italic"> A </hi> . Parce qu'il lui est plus facile de se défaire de son trop de
-     rusticité, qu'à nous de revenir sur nos pas et de réformer nos abus. </p>
-    <p> <hi rend="italic"> B </hi> . Surtout ceux qui tiennent à l'union de l'homme et de la femme. </p>
-    <p> <hi rend="italic"> A </hi> . Cela se peut. Mais commençons par le commencement. Interrogeons
-     bonnement la nature, et voyons sans partialité ce qu'elle nous répondra sur ce point. </p>
-    <p> <hi rend="italic"> B </hi> . J'y consens. </p>
-    <p> <hi rend="italic"> A </hi> . Le mariage est-il dans la nature ? </p>
-    <p> <hi rend="italic"> B </hi> . Si vous entendez par le mariage la préférence qu'une femelle
+     plus voisin d'une bonne législation qu'aucun peuple civilisé.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Parce qu'il lui est plus facile de se défaire de son trop de
+     rusticité, qu'à nous de revenir sur nos pas et de réformer nos abus.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Surtout ceux qui tiennent à l'union de l'homme et de la femme.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Cela se peut. Mais commençons par le commencement. Interrogeons
+     bonnement la nature, et voyons sans partialité ce qu'elle nous répondra sur ce point.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . J'y consens.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Le mariage est-il dans la nature ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Si vous entendez par le mariage la préférence qu'une femelle
      accorde à un mâle sur tous les autres mâles, ou celle qu'un mâle donne à une femelle sur toutes
      les autres femelles ; préférence mutuelle, en conséquence de laquelle il se forme une union
      plus ou moins durable, qui perpétue l'espèce par la reproduction des individus, le mariage est
-     dans la nature. </p>
-    <p> <hi rend="italic"> A </hi> . Je le pense comme vous ; car cette préférence se remarque
+     dans la nature.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je le pense comme vous ; car cette préférence se remarque
      non-seulement dans l'espèce humaine, mais encore dans les autres espèces d'animaux : témoin ce
      nombreux cortège de mâles qui poursuivent une même femelle au printemps dans nos campagnes, et
-     dont un seul obtient le titre de mari. Et la galanterie ? </p>
-    <p> <hi rend="italic"> B </hi> . Si vous entendez par galanterie cette variété de moyens
+     dont un seul obtient le titre de mari. Et la galanterie ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Si vous entendez par galanterie cette variété de moyens
      énergiques ou délicats que la passion inspire, soit au mâle, soit à la femelle, pour obtenir
      cette préférence qui conduit à la plus douce, la plus importante et la plus générale des
-     jouissances ; la galanterie est dans la nature. </p>
-    <p> <hi rend="italic"> A </hi> . Je le pense comme vous. Témoin cette diversité de gentillesses
+     jouissances ; la galanterie est dans la nature.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je le pense comme vous. Témoin cette diversité de gentillesses
      pratiquées par le mâle pour plaire à la femelle ; par la femelle pour irriter la passion et
-     fixer le goût du mâle. Et la coquetterie ? </p>
-    <p> <hi rend="italic"> B </hi> . C'est un mensonge qui consiste à simuler une passion qu'on ne
+     fixer le goût du mâle. Et la coquetterie ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . C'est un mensonge qui consiste à simuler une passion qu'on ne
      sent pas, et à promettre une préférence qu'on n'accordera pas. Le mâle coquet se joue de la
      femelle ; la femelle coquette se joue du mâle : jeu perfide qui amène quelquefois les
      catastrophes les plus funestes ; manège ridicule, dont le trompeur et le trompé sont également
-     châtiés par la perte des instants les plus précieux de leur vie. </p>
-    <p> <hi rend="italic"> A </hi> . Ainsi la coquetterie, selon vous, n'est pas dans la nature ? </p>
-    <p> <hi rend="italic"> B </hi> . Je ne dis pas cela. </p>
-    <p> <hi rend="italic"> A </hi> . Et la constance ? </p>
-    <p> <hi rend="italic"> B </hi> . Je ne vous en dirai rien de mieux que ce qu'en a dit Orou à
+     châtiés par la perte des instants les plus précieux de leur vie.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ainsi la coquetterie, selon vous, n'est pas dans la nature ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je ne dis pas cela.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et la constance ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je ne vous en dirai rien de mieux que ce qu'en a dit Orou à
      l'aumônier. Pauvre vanité de deux enfants qui s'ignorent eux-mêmes, et que l'ivresse d'un
-     instant aveugle sur l'instabilité de tout ce qui les entoure ! </p>
-    <p> <hi rend="italic"> A </hi> . Et la fidélité, ce rare phénomène ? </p>
-    <p> <hi rend="italic"> B </hi> . Presque toujours l'entêtement et le supplice de l'honnête homme
-     et de l'honnête femme dans nos contrées ; chimère à Taïti. </p>
-    <p> <hi rend="italic"> A </hi> . Et la jalousie ? </p>
-    <p> <hi rend="italic"> B </hi> . Passion d'un animal indigent et avare qui craint de manquer ;
+     instant aveugle sur l'instabilité de tout ce qui les entoure !
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et la fidélité, ce rare phénomène ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Presque toujours l'entêtement et le supplice de l'honnête homme
+     et de l'honnête femme dans nos contrées ; chimère à Taïti.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et la jalousie ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Passion d'un animal indigent et avare qui craint de manquer ;
      sentiment injuste de l'homme ; conséquence de nos fausses mœurs, et d'un droit de propriété
-     étendu sur un objet sentant, pensant, voulant, et libre. </p>
-    <p> <hi rend="italic"> A </hi> . Ainsi la jalousie, selon vous, n'est pas dans la nature ? </p>
-    <p> <hi rend="italic"> B </hi> . Je ne dis pas cela. Vices et vertus, tout est également dans la
-     nature. </p>
-    <p> <hi rend="italic"> A </hi> . Le jaloux est sombre. </p>
-    <p> <hi rend="italic"> B </hi> . Comme le tyran, parce qu'il en a la conscience. </p>
-    <p> <hi rend="italic"> A </hi> . La pudeur ? </p>
-    <p> <hi rend="italic"> B </hi> . Mais vous m'engagez là dans un cours de morale galante. L'homme
+     étendu sur un objet sentant, pensant, voulant, et libre.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ainsi la jalousie, selon vous, n'est pas dans la nature ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je ne dis pas cela. Vices et vertus, tout est également dans la
+     nature.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Le jaloux est sombre.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Comme le tyran, parce qu'il en a la conscience.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . La pudeur ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Mais vous m'engagez là dans un cours de morale galante. L'homme
      ne veut être ni troublé ni distrait dans ses jouissances. Celles de l'amour sont suivies d'une
      faiblesse qui l'abandonnerait à la merci de son ennemi. Voilà tout ce qu'il peut y avoir de
-     naturel dans la pudeur : le reste est d'institution. </p>
-    <p> ---L'aumônier remarque, dans un troisième morceau que je ne vous ai point lu, que le Taïtien
+     naturel dans la pudeur : le reste est d'institution.
+    </p>
+    <p>
+     ---L'aumônier remarque, dans un troisième morceau que je ne vous ai point lu, que le Taïtien
      ne rougit pas des mouvements involontaires qui s'excitent en lui à côté de sa femme, au milieu
      de ses filles ; et que celles-ci en sont spectatrices, quelquefois émues, jamais embarrassées.
      Aussitôt que la femme devint la propriété de l'homme, et que la jouissance furtive d'une fille
-     fut regardée comme un vol, on vit naître les termes <hi rend="italic"> pudeur, retenue,
-     bienséance </hi> ; des vertus et des vices imaginaires ; en un mot, on voulut élever entre les
+     fut regardée comme un vol, on vit naître les termes
+     <hi rend="italic">
+      pudeur, retenue,
+     bienséance
+     </hi>
+     ; des vertus et des vices imaginaires ; en un mot, on voulut élever entre les
      deux sexes, des barrières qui les empêchassent de s'inviter réciproquement à la violation des
      lois qu'on leur avait imposées, et qui produisirent souvent un effet contraire, en échauffant
      l'imagination et en irritant les désirs. Lorsque je vois des arbres plantés autour de nos
@@ -1161,21 +2582,51 @@
      semble reconnaître un retour secret vers la forêt, et un appel à la liberté première de notre
      ancienne demeure. Le Taïtien nous dirait : Pourquoi te caches-tu ? de quoi es-tu honteux ?
      fais-tu le mal, quand tu cèdes à l'impulsion la plus auguste de la nature ? Homme, présente-toi
-     franchement si tu plais. Femme, si cet homme te convient, reçois-le avec la même franchise. </p>
-    <p> <hi rend="italic"> A </hi> . Ne vous fâchez pas. Si nous débutons comme des hommes
-     civilisés, il est rare que nous ne finissions pas comme le Taïtien. </p>
-    <p> <hi rend="italic"> B </hi> . Oui, ces préliminaires de convention consument la moitié de la
-     vie d'un homme de génie. </p>
-    <p> <hi rend="italic"> A </hi> . J'en conviens ; mais qu'importe, si cet élan pernicieux de
+     franchement si tu plais. Femme, si cet homme te convient, reçois-le avec la même franchise.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ne vous fâchez pas. Si nous débutons comme des hommes
+     civilisés, il est rare que nous ne finissions pas comme le Taïtien.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Oui, ces préliminaires de convention consument la moitié de la
+     vie d'un homme de génie.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . J'en conviens ; mais qu'importe, si cet élan pernicieux de
      l'esprit humain, contre lequel vous vous êtes récrié tout à l'heure, en est d'autant plus
      ralenti ? Un philosophe de nos jours, interrogé pourquoi les hommes faisaient la cour aux
      femmes, et non les femmes la cour aux hommes, répondit qu'il était naturel de demander à celui
-     qui pouvait toujours accorder. </p>
-    <p> <hi rend="italic"> B </hi> . Cette raison m'a paru de tout temps plus ingénieuse que solide.
+     qui pouvait toujours accorder.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Cette raison m'a paru de tout temps plus ingénieuse que solide.
      La nature, indécente si vous voulez, pousse indistinctement un sexe vers l'autre : et dans un
-     état de l'homme brute et sauvage qui se conçoit, mais qui n'existe peut-être nulle part... </p>
-    <p> <hi rend="italic"> A </hi> . Pas même à Taïti ? </p>
-    <p> <hi rend="italic"> B </hi> . Non... l'intervalle qui séparerait un homme d'une femme serait
+     état de l'homme brute et sauvage qui se conçoit, mais qui n'existe peut-être nulle part...
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Pas même à Taïti ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Non... l'intervalle qui séparerait un homme d'une femme serait
      franchi par le plus amoureux. S'ils s'attendent, s'ils se fuient, s'ils se poursuivent, s'ils
      s'évitent, s'ils s'attaquent, s'ils se défendent, c'est que la passion, inégale dans ses
      progrès, ne s'applique pas en eux de la même force. D'où il arrive que la volupté se répand, se
@@ -1193,61 +2644,139 @@
      poursuite de l'autre. C'est une espèce de tactique où les ressources de la défense et les
      moyens de l'attaque ont marché sur la même ligne. On a consacré la résistance de la femme ; on
      a attaché l'ignominie à la violence de l'homme ; violence qui ne serait qu'une injure légère
-     dans Taïti, et qui devient un crime dans nos cités. </p>
-    <p> <hi rend="italic"> A </hi> . Mais comment est-il arrivé qu'un acte dont le but est si
+     dans Taïti, et qui devient un crime dans nos cités.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Mais comment est-il arrivé qu'un acte dont le but est si
      solennel, et auquel la nature nous invite par l'attrait le plus puissant ; que le plus grand,
      le plus doux, le plus innocent des plaisirs soit devenu la source la plus féconde de notre
-     dépravation et de nos maux ? </p>
-    <p> <hi rend="italic"> B </hi> . Orou l'a fait entendre dix fois à l'aumônier : écoutez-le donc
-     encore, et tâchez de le retenir. </p>
-    <p> C'est par la tyrannie de l'homme, qui a converti la possession de la femme en une propriété. </p>
-    <p> Par les mœurs et les usages, qui ont surchargé de conditions l'union conjugale. </p>
-    <p> Par les lois civiles, qui ont assujetti le mariage à une infinité de formalités. </p>
-    <p> Par la nature de notre société, où la diversité des fortunes et des rangs a institué des
-     convenances et des disconvenances. </p>
-    <p> Par une contradiction bizarre et commune à toutes les sociétés subsistantes, où la naissance
+     dépravation et de nos maux ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Orou l'a fait entendre dix fois à l'aumônier : écoutez-le donc
+     encore, et tâchez de le retenir.
+    </p>
+    <p>
+     C'est par la tyrannie de l'homme, qui a converti la possession de la femme en une propriété.
+    </p>
+    <p>
+     Par les mœurs et les usages, qui ont surchargé de conditions l'union conjugale.
+    </p>
+    <p>
+     Par les lois civiles, qui ont assujetti le mariage à une infinité de formalités.
+    </p>
+    <p>
+     Par la nature de notre société, où la diversité des fortunes et des rangs a institué des
+     convenances et des disconvenances.
+    </p>
+    <p>
+     Par une contradiction bizarre et commune à toutes les sociétés subsistantes, où la naissance
      d'un enfant, toujours regardée comme un accroissement de richesses pour la nation, est plus
-     souvent et plus sûrement encore un accroissement d'indigence dans la famille. </p>
-    <p> Par les vues politiques des souverains, qui ont tout rapporté à leur intérêt et à leur
-     sécurité. </p>
-    <p> Par les institutions religieuses, qui ont attaché les noms de vices et de vertus à des
-     actions qui n'étaient susceptibles d'aucune moralité. </p>
-    <p> Combien nous sommes loin de la nature et du bonheur ! L'empire de la nature ne peut être
+     souvent et plus sûrement encore un accroissement d'indigence dans la famille.
+    </p>
+    <p>
+     Par les vues politiques des souverains, qui ont tout rapporté à leur intérêt et à leur
+     sécurité.
+    </p>
+    <p>
+     Par les institutions religieuses, qui ont attaché les noms de vices et de vertus à des
+     actions qui n'étaient susceptibles d'aucune moralité.
+    </p>
+    <p>
+     Combien nous sommes loin de la nature et du bonheur ! L'empire de la nature ne peut être
      détruit : on aura beau le contrarier par des obstacles, il durera. Écrivez tant qu'il vous
      plaira sur des tables d'airain, pour me servir des expressions du sage Marc-Aurèle, que le
      frottement voluptueux de deux intestins est un crime, le cœur de l'homme sera froissé entre la
      menace de votre inscription et la violence de ses penchants. Mais ce cœur indocile ne cessera
      de réclamer ; et cent fois, dans le cours de la vie, vos caractères effrayants disparaîtront à
-     nos yeux. Gravez sur le marbre : Tu ne mangeras ni de l'ixion <ref target="#N7"/> , ni du
+     nos yeux. Gravez sur le marbre : Tu ne mangeras ni de l'ixion
+     <ref target="#N7"/>
+     , ni du
      griffon ; tu ne connaîtras que ta femme ; tu ne seras point le mari de ta sœur : mais vous
      n'oublierez pas d'accroître les châtiments à proportion de la bizarrerie de vos défenses ; vous
-     deviendrez féroces, et vous ne réussirez point à me dénaturer. </p>
-    <p> <hi rend="italic"> A </hi> . Que le code des nations serait court, si on le conformait
-     rigoureusement à celui de la nature ! combien d'erreurs et de vices épargnés à l'homme ! </p>
-    <p> <hi rend="italic"> B </hi> . Voulez-vous savoir l'histoire abrégée de presque toute notre
+     deviendrez féroces, et vous ne réussirez point à me dénaturer.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Que le code des nations serait court, si on le conformait
+     rigoureusement à celui de la nature ! combien d'erreurs et de vices épargnés à l'homme !
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Voulez-vous savoir l'histoire abrégée de presque toute notre
      misère ? La voici. Il existait un homme naturel : on a introduit au dedans de cet homme un
      homme artificiel ; et il s'est élevé dans la caverne une guerre civile qui dure toute la vie.
      Tantôt l'homme naturel est le plus fort ; tantôt il est terrassé par l'homme moral et
      artificiel ; et, dans l'un et l'autre cas, le triste monstre est tiraillé, tenaillé, tourmenté,
      étendu sur la roue ; sans cesse gémissant, sans cesse malheureux, soit qu'un faux enthousiasme
      de gloire le transporte et l'enivre, ou qu'une fausse ignominie le courbe et l'abatte.
-     Cependant il est des circonstances extrêmes qui ramènent l'homme à sa première simplicité. </p>
-    <p> <hi rend="italic"> A </hi> . La misère et la maladie, deux grands exorcistes. </p>
-    <p> <hi rend="italic"> B </hi> . Vous les avez nommés. En effet, que deviennent alors toutes ces
+     Cependant il est des circonstances extrêmes qui ramènent l'homme à sa première simplicité.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . La misère et la maladie, deux grands exorcistes.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Vous les avez nommés. En effet, que deviennent alors toutes ces
      vertus conventionnelles ? Dans la misère, l'homme est sans remords ; et dans la maladie, la
-     femme est sans pudeur. </p>
-    <p> <hi rend="italic"> A </hi> . Je l'ai remarqué. </p>
-    <p> <hi rend="italic"> B </hi> . Mais un autre phénomène qui ne vous aura pas échappé davantage,
+     femme est sans pudeur.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je l'ai remarqué.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Mais un autre phénomène qui ne vous aura pas échappé davantage,
      c'est que le retour de l'homme artificiel et moral suit pas à pas les progrès de l'état de
      maladie à l'état de convalescence et de l'état de convalescence à l'état de santé. Le moment où
      l'infirmité cesse est celui où la guerre intestine recommence, et presque toujours avec
-     désavantage pour l'intrus. </p>
-    <p> <hi rend="italic"> A </hi> . Il est vrai. J'ai moi-même éprouvé que l'homme naturel avait
+     désavantage pour l'intrus.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Il est vrai. J'ai moi-même éprouvé que l'homme naturel avait
      dans la convalescence une vigueur funeste pour l'homme artificiel et moral. Mais enfin,
-     dites-moi, faut-il civiliser l'homme, ou l'abandonner à son instinct ? </p>
-    <p> <hi rend="italic"> B </hi> . Faut-il vous répondre net ? </p>
-    <p> <hi rend="italic"> A </hi> . Sans doute. </p>
-    <p> <hi rend="italic"> B </hi> . Si vous vous proposez d'en être le tyran, civilisez-le ;
+     dites-moi, faut-il civiliser l'homme, ou l'abandonner à son instinct ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Faut-il vous répondre net ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Sans doute.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Si vous vous proposez d'en être le tyran, civilisez-le ;
      empoisonnez-le de votre mieux d'une morale contraire à la nature ; faites-lui des entraves de
      toute espèce ; embarrassez ses mouvements de mille obstacles ; attachez-lui des fantômes qui
      l'effraient ; éternisez la guerre dans la caverne, et que l'homme naturel y soit toujours
@@ -1259,9 +2788,19 @@
      fort, ou vous y verrez l'espèce humaine pliée de siècle en siècle au joug qu'une poignée de
      fripons se promettait de lui imposer. Méfiez-vous de celui qui veut mettre de l'ordre.
      Ordonner, c'est toujours se rendre le maître des autres en les gênant : et les Calabrais sont
-     presque les seuls à qui la flatterie des législateurs n'en ait point encore imposé. </p>
-    <p> <hi rend="italic"> A </hi> . Et cette anarchie de la Calabre vous plaît ? </p>
-    <p> <hi rend="italic"> B </hi> . J'en appelle à l'expérience ; et je gage que leur barbarie est
+     presque les seuls à qui la flatterie des législateurs n'en ait point encore imposé.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et cette anarchie de la Calabre vous plaît ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . J'en appelle à l'expérience ; et je gage que leur barbarie est
      moins vicieuse que notre urbanité. Combien de petites scélératesses compensent ici l'atrocité
      de quelques grands crimes dont on fait tant de bruit ! Je considère les hommes non civilisés
      comme une multitude de ressorts épars et isolés. Sans doute, s'il arrivait à quelques-uns de
@@ -1272,101 +2811,292 @@
      s'en rompit plus dans un jour, sous l'état de législation, qu'il ne s'en rompait en un an sous
      l'anarchie de nature. Mais quel fracas ! quel ravage ! quelle énorme destruction des petits
      ressorts, lorsque deux, trois, quatre de ces énormes machines vinrent à se heurter avec
-     violence ! </p>
-    <p> <hi rend="italic"> A </hi> . Ainsi vous préféreriez l'état de nature brute et sauvage ? </p>
-    <p> <hi rend="italic"> B </hi> . Ma foi, je n'oserais prononcer ; mais je sais qu'on a vu
+     violence !
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Ainsi vous préféreriez l'état de nature brute et sauvage ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Ma foi, je n'oserais prononcer ; mais je sais qu'on a vu
      plusieurs fois l'homme des villes se dépouiller et rentrer dans la forêt, et qu'on n'a jamais
-     vu l'homme de la forêt se vêtir et s'établir dans la ville. </p>
-    <p> <hi rend="italic"> A </hi> . Il m'est venu souvent dans la pensée que la somme des biens et
+     vu l'homme de la forêt se vêtir et s'établir dans la ville.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Il m'est venu souvent dans la pensée que la somme des biens et
      des maux était variable pour chaque individu ; mais que le bonheur ou le malheur d'une espèce
      animale quelconque avait sa limite qu'elle ne pouvait franchir, et que peut-être nos efforts
      nous rendaient en dernier résultat autant d'inconvénient que d'avantage ; en sorte que nous
      nous étions bien tourmentés pour accroître les deux membres d'une équation, entre lesquels il
      subsistait une éternelle et nécessaire égalité. Cependant je ne doute pas que la vie moyenne de
-     l'homme civilisé ne soit plus longue que la vie moyenne de l'homme sauvage. </p>
-    <p> <hi rend="italic"> B </hi> . Et si la durée d'une machine n'est pas une juste mesure de son
-     plus ou moins de fatigue, qu'en concluez-vous ? </p>
-    <p> <hi rend="italic"> A </hi> . Je vois qu'à tout prendre, vous inclineriez à croire les hommes
-     d'autant plus méchants et plus malheureux qu'ils sont plus civilisés ? </p>
-    <p> <hi rend="italic"> B </hi> . Je ne parcourrai point toutes les contrées de l'univers ; mais
+     l'homme civilisé ne soit plus longue que la vie moyenne de l'homme sauvage.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et si la durée d'une machine n'est pas une juste mesure de son
+     plus ou moins de fatigue, qu'en concluez-vous ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je vois qu'à tout prendre, vous inclineriez à croire les hommes
+     d'autant plus méchants et plus malheureux qu'ils sont plus civilisés ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Je ne parcourrai point toutes les contrées de l'univers ; mais
      je vous avertis seulement que vous ne trouverez la condition de l'homme heureuse que dans
      Taïti, et supportable que dans un recoin de l'Europe. Là, des maîtres ombrageux et jaloux de
-     leur sécurité se sont occupés à le tenir dans ce que vous appelez l'abrutissement. </p>
-    <p> <hi rend="italic"> A </hi> . À Venise, peut-être ? </p>
-    <p> <hi rend="italic"> B </hi> . Pourquoi non? Vous ne nierez pas, du moins, qu'il n'y a nulle
+     leur sécurité se sont occupés à le tenir dans ce que vous appelez l'abrutissement.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . À Venise, peut-être ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Pourquoi non? Vous ne nierez pas, du moins, qu'il n'y a nulle
      part moins de lumières acquises, moins de morale artificielle, et moins de vices et de vertus
-     chimériques. </p>
-    <p> <hi rend="italic"> A </hi> . Je ne m'attendais pas à l'éloge de ce gouvernement. </p>
-    <p> <hi rend="italic"> B </hi> . Aussi ne le fais-je pas. Je vous indique une espèce de
-     dédommagement de la servitude, que tous les voyageurs ont senti et préconisé. </p>
-    <p> <hi rend="italic"> A </hi> . Pauvre dédommagement ! </p>
-    <p> <hi rend="italic"> B </hi> . Peut-être. Les Grecs proscrivirent celui qui avait ajouté une
-     corde à la lyre de Mercure. </p>
-    <p> <hi rend="italic"> A </hi> . Et cette défense est une satire sanglante de leurs premiers
-     législateurs. C'est la première corde qu'il fallait couper. </p>
-    <p> <hi rend="italic"> B </hi> . Vous m'avez compris. Partout où il y a une lyre, il y a des
-     cordes. Tant que les appétits naturels seront sophistiqués, comptez sur des femmes méchantes. </p>
-    <p> <hi rend="italic"> A </hi> . Comme la Reymer. </p>
-    <p> <hi rend="italic"> B </hi> . Sur des hommes atroces. </p>
-    <p> <hi rend="italic"> A </hi> . Comme Gardeil. </p>
-    <p> <hi rend="italic"> B </hi> . Et sur des infortunés à propos de rien. </p>
-    <p> <hi rend="italic"> A </hi> . Comme Tanié, mademoiselle de La Chaux, le chevalier Desroches
-     et madame de La Carlière <ref target="#N8"/> . </p>
-    <p> Il est certain qu'on chercherait inutilement dans Taïti des exemples de la dépravation des
+     chimériques.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je ne m'attendais pas à l'éloge de ce gouvernement.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Aussi ne le fais-je pas. Je vous indique une espèce de
+     dédommagement de la servitude, que tous les voyageurs ont senti et préconisé.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Pauvre dédommagement !
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Peut-être. Les Grecs proscrivirent celui qui avait ajouté une
+     corde à la lyre de Mercure.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Et cette défense est une satire sanglante de leurs premiers
+     législateurs. C'est la première corde qu'il fallait couper.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Vous m'avez compris. Partout où il y a une lyre, il y a des
+     cordes. Tant que les appétits naturels seront sophistiqués, comptez sur des femmes méchantes.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Comme la Reymer.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Sur des hommes atroces.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Comme Gardeil.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et sur des infortunés à propos de rien.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Comme Tanié, mademoiselle de La Chaux, le chevalier Desroches
+     et madame de La Carlière
+     <ref target="#N8"/>
+     .
+    </p>
+    <p>
+     Il est certain qu'on chercherait inutilement dans Taïti des exemples de la dépravation des
      deux premiers, et du malheur des trois derniers. Que ferons-nous donc ? reviendrons-nous à la
-     nature ? nous soumettrons-nous aux lois ? </p>
-    <p> <hi rend="italic"> B </hi> . Nous parlerons contre les lois insensées jusqu'à ce qu'on les
+     nature ? nous soumettrons-nous aux lois ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Nous parlerons contre les lois insensées jusqu'à ce qu'on les
      réforme ; et, en attendant, nous nous y soumettrons. Celui qui, de son autorité privée,
      enfreint une mauvaise loi, autorise tout autre à enfreindre les bonnes. Il y a moins
      d'inconvénients à être fou avec des fous, qu'à être sage tout seul. Disons-nous à nous-mêmes,
      crions incessamment qu'on a attaché la honte, le châtiment et l'ignominie à des actions
      innocentes en elles-mêmes ; mais ne les commettons pas, parce que la honte, le châtiment et
      l'ignominie sont les plus grands de tous les maux. Imitons le bon aumônier, moine en France,
-     sauvage dans Taïti. </p>
-    <p> <hi rend="italic"> A </hi> . Prendre le froc du pays où l'on va, et garder celui du pays où
-     l'on est. </p>
-    <p> <hi rend="italic"> B </hi> . Et surtout être honnête et sincère jusqu'au scrupule avec des
+     sauvage dans Taïti.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Prendre le froc du pays où l'on va, et garder celui du pays où
+     l'on est.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et surtout être honnête et sincère jusqu'au scrupule avec des
      êtres fragiles qui ne peuvent faire notre bonheur, sans renoncer aux avantages les plus
-     précieux de nos sociétés <ref target="#N9"/> . Et ce brouillard épais, qu'est-il devenu ? </p>
-    <p> <hi rend="italic"> A </hi> . Il est tombé. </p>
-    <p> <hi rend="italic"> B </hi> . Et nous serons encore libres, cette après-dînée, de sortir ou
-     de rester ? </p>
-    <p> <hi rend="italic"> A </hi> . Cela dépendra, je crois, un peu plus des femmes que de nous. </p>
-    <p> <hi rend="italic"> B </hi> . Toujours les femmes ! on ne saurait faire un pas sans les
-     rencontrer à travers son chemin. </p>
-    <p> <hi rend="italic"> A </hi> . Si nous leur lisions l'entretien de l'aumônier et d'Orou ? </p>
-    <p> <hi rend="italic"> B </hi> . À votre avis, qu'en diraient-elles ? </p>
-    <p> <hi rend="italic"> A </hi> . Je n'en sais rien. </p>
-    <p> <hi rend="italic"> B </hi> . Et qu'en penseraient-elles ? </p>
-    <p> <hi rend="italic"> A </hi> . Peut-être le contraire de ce qu'elles en diraient. </p>
+     précieux de nos sociétés
+     <ref target="#N9"/>
+     . Et ce brouillard épais, qu'est-il devenu ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Il est tombé.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et nous serons encore libres, cette après-dînée, de sortir ou
+     de rester ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Cela dépendra, je crois, un peu plus des femmes que de nous.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Toujours les femmes ! on ne saurait faire un pas sans les
+     rencontrer à travers son chemin.
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Si nous leur lisions l'entretien de l'aumônier et d'Orou ?
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . À votre avis, qu'en diraient-elles ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Je n'en sais rien.
+    </p>
+    <p>
+     <hi rend="italic">
+      B
+     </hi>
+     . Et qu'en penseraient-elles ?
+    </p>
+    <p>
+     <hi rend="italic">
+      A
+     </hi>
+     . Peut-être le contraire de ce qu'elles en diraient.
+    </p>
    </div>
   </body>
   <back>
    <div type="notes">
-    <note xml:id="N1"> La présence de ce vieillard et son attitude à l'arrivée des Européens sont
-     signalées par Bougainville. </note>
-    <note xml:id="N2"> Colliers de verroterie ; perles fausses. </note>
-    <note xml:id="N3"> Bougainville prétend ne pas savoir pourquoi ni comment cet homme fut tué. La
+    <note xml:id="N1">
+     La présence de ce vieillard et son attitude à l'arrivée des Européens sont
+     signalées par Bougainville.
+    </note>
+    <note xml:id="N2">
+     Colliers de verroterie ; perles fausses.
+    </note>
+    <note xml:id="N3">
+     Bougainville prétend ne pas savoir pourquoi ni comment cet homme fut tué. La
      fuite dans la montagne de plusieurs de ses camarades à cette occasion est rapportée par le
-     voyageur. </note>
-    <note xml:id="N4"> Cet isolement des femmes infectées ne fut pas maintenu bien sévèrement, et en
+     voyageur.
+    </note>
+    <note xml:id="N4">
+     Cet isolement des femmes infectées ne fut pas maintenu bien sévèrement, et en
      peu d'années, grâce à la syphilis, aux liqueurs spiritueuses et aussi à cette influence
      pernicieuse dont la cause est encore inconnue, mais qui suit toujours l'arrivée des Européens,
      dans les îles océaniennes surtout, la population de Taïti, qui était d'environ 100,000 âmes aux
      visites de Bougainville et de Cook, se trouva réduite à la moitié, puis au tiers, puis à
-     presque rien : 7 ou 8,000 habitants. </note>
-    <note xml:id="N5"> Queiros avait découvert Taïti en 1606 ; mais Queiros était Portugais. </note>
-    <note xml:id="N6"> Quoique tout ce qui suit n'ait aucune prétention à l'authenticité, on sera
-     peut-être bien aise d'apprendre que l'aumônier de <hi rend="italic"> la Boudeuse </hi>
-     s'appelait le P. Lavaisse et qu'il était Cordelier. </note>
-    <note xml:id="N7"> Mieux : <hi rend="italic"> Ixos </hi> , nom d'un oiseau cité dans la Bible. </note>
-    <note xml:id="N8"> L'histoire de Tanié, de la Reymer, de M^lle de La Chaux et de Gardeil se
-     trouvera dans <hi rend="italic"> Ceci n'est pas un Conte, et celle du chevalier Desroches et de
-     M^me de la Carlière dans l'écrit intitulé : </hi> Sur l'inconséquence du jugement public de nos
-     actions particulières. </note>
-    <note xml:id="N9"> Cette conclusion montre, ce nous semble, que ceux qui ont accusé Diderot, à
+     presque rien : 7 ou 8,000 habitants.
+    </note>
+    <note xml:id="N5">
+     Queiros avait découvert Taïti en 1606 ; mais Queiros était Portugais.
+    </note>
+    <note xml:id="N6">
+     Quoique tout ce qui suit n'ait aucune prétention à l'authenticité, on sera
+     peut-être bien aise d'apprendre que l'aumônier de
+     <hi rend="italic">
+      la Boudeuse
+     </hi>
+     s'appelait le P. Lavaisse et qu'il était Cordelier.
+    </note>
+    <note xml:id="N7">
+     Mieux :
+     <hi rend="italic">
+      Ixos
+     </hi>
+     , nom d'un oiseau cité dans la Bible.
+    </note>
+    <note xml:id="N8">
+     L'histoire de Tanié, de la Reymer, de M^lle de La Chaux et de Gardeil se
+     trouvera dans
+     <hi rend="italic">
+      Ceci n'est pas un Conte, et celle du chevalier Desroches et de
+     M^me de la Carlière dans l'écrit intitulé :
+     </hi>
+     Sur l'inconséquence du jugement public de nos
+     actions particulières.
+    </note>
+    <note xml:id="N9">
+     Cette conclusion montre, ce nous semble, que ceux qui ont accusé Diderot, à
      propos de cet écrit, d'avoir demandé le partage des biens et la communauté des femmes, ont
-     poussé bien au delà des limites qu'il leur assignait lui-même ses idées réformatrices. </note>
+     poussé bien au delà des limites qu'il leur assignait lui-même ses idées réformatrices.
+    </note>
    </div>
   </back>
  </text>

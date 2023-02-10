@@ -2,104 +2,178 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Grandin_Paulin" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:92.17 wikidata:0">Paulin ou les avantures du comte de Walter: MiMoText edition</title>
-        <author ref="viaf:71525352 wikidata:Q3115303">Grandville(1772-1836)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>gallica</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">39680</measure>
-        <measure unit="vols">2</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2021</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k739327"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Paulin ou les avantures du comte de Walter</title>
-          <author>Charles-François Grandin</author>
-          <pubPlace>Paris</pubPlace>
-          <publisher>Desenne</publisher>
-          <publisher>L'Esclapart</publisher>
-          <date>1792</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1792</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1"><p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            heterodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-06-10">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>PAULIN LES AVENTURES DU COMTE DE WALTER.</p>
-        <p>PAULIN</p>
-        <p>OU</p>
-        <p>LES AVENTURES DU COMTE DE WALTER.</p>
-        <p>TOME PREMIER.</p>
-        <p>A PARIS.</p>
-        <p>Chez Desenne, Libraire, au Palais-royal.</p>
-        <p>L'ESCLAPART, Libraire, rue du Roule.</p>
-        <p>Au Cabinet Littéraire de Voltaire, Boulevard du Temple, près la rue Xaintonge.</p>
-        <p>Et chez tous les Marchands de Nouveautés.</p>
-        <p>1792.</p>
-      </div>
-    </front>
-    <body>
-      <div type="group">
-        <div type="chapter">
-          <head>CONVERSATION SUR L'AUTEUR ET SON ROMAN.</head>
-          <p>Claire entre un matin chés Rose, (un matin, c'est - à - dire à une heure après midi.) Eh bien,
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:92.17 wikidata:0">
+     Paulin ou les avantures du comte de Walter: MiMoText edition
+    </title>
+    <author ref="viaf:71525352 wikidata:Q3115303">
+     Grandville(1772-1836)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     39680
+    </measure>
+    <measure unit="vols">
+     2
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k739327"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2007
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Paulin ou les avantures du comte de Walter
+     </title>
+     <author>
+      Charles-François Grandin
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Desenne
+     </publisher>
+     <publisher>
+      L'Esclapart
+     </publisher>
+     <date>
+      1792
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1792
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-06-10">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     PAULIN LES AVENTURES DU COMTE DE WALTER.
+    </p>
+    <p>
+     PAULIN
+    </p>
+    <p>
+     OU
+    </p>
+    <p>
+     LES AVENTURES DU COMTE DE WALTER.
+    </p>
+    <p>
+     TOME PREMIER.
+    </p>
+    <p>
+     A PARIS.
+    </p>
+    <p>
+     Chez Desenne, Libraire, au Palais-royal.
+    </p>
+    <p>
+     L'ESCLAPART, Libraire, rue du Roule.
+    </p>
+    <p>
+     Au Cabinet Littéraire de Voltaire, Boulevard du Temple, près la rue Xaintonge.
+    </p>
+    <p>
+     Et chez tous les Marchands de Nouveautés.
+    </p>
+    <p>
+     1792.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      CONVERSATION SUR L'AUTEUR ET SON ROMAN.
+     </head>
+     <p>
+      Claire entre un matin chés Rose, (un matin, c'est - à - dire à une heure après midi.) Eh bien,
             dit Claire, que fais-tu aujourd'hui, ma bonne amie? Je n'en sais rien dit Rose, depuis onze heures
             je suis à ma toilette, et il me semble que je ne fais que de m'y mettre. -- Comment cela? -- Je lis.
             -- Tu lis? La belle occupation! et que lis tu? -- Un petit Roman nouveau qui est assés drôle à ce
@@ -121,14 +195,24 @@
             Adieu, je vais dîner avec l'Evêque anti--constitutionnel de S... et je dois souper avec Hercule. --
             Et moi, après dîner, j'irai aux petits Spectacles. -- Ah! friponne, je parie que tu vas souper avec
             le papa de Paulin. Rose sourit; Claire passe chés le Libraire, achete un exemplaire qu'elle lira, ou
-            qu'elle ne lira poînt, mais que ceux qui le verront chés elle, trouveront peut-être intéressant.</p>
-        </div>
-        <div type="chapter">
-          <head>PAULIN OU LES AVENTURES DU COMTE DE WALTER.</head>
-          <head>PREMIERE PARTIE.</head>
-          <head>CHAPITRE PREMIER.</head>
-          <head>L'ENLEVEMENT NOCTURNE.</head>
-          <p>LE calme le plus profond regnait dans le college d'Harcourt; il était minuit. On frappe à coups
+            qu'elle ne lira poînt, mais que ceux qui le verront chés elle, trouveront peut-être intéressant.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      PAULIN OU LES AVENTURES DU COMTE DE WALTER.
+     </head>
+     <head>
+      PREMIERE PARTIE.
+     </head>
+     <head>
+      CHAPITRE PREMIER.
+     </head>
+     <head>
+      L'ENLEVEMENT NOCTURNE.
+     </head>
+     <p>
+      LE calme le plus profond regnait dans le college d'Harcourt; il était minuit. On frappe à coups
             redoublés. Le portier peu accoutumé à ce tintamare affreux se leve et sans ouvrir, s'informe du
             sujet qui peut causer tant de bruit.De par le Roi, ouvrez.“ A cet ordre, le battant de la porte
             roule sur ses gonds; six cavaliers s'offrent à la vue du portier qui se frotte les yeux. Un exempt
@@ -147,22 +231,32 @@
             tendremont, soupirait et parlait les larmes aux yeux. Je vous avoue que j'ai toujours soupçonné que
             cette personne était une lemme travestie; la délicatesse de ses traits, le doux son de sa voix me
             l'ont fait préjuger. Ta derniere fois que je la vis, je voulus lui faire quelques questions, elles
-            furent sans réponse, et ses larmes coulerent plus abondamment que jamais"</p>
-          <p>L'exempt s'ennuiant d'attendre dans le corridor, vint interrompre la conversation. Il voit
+            furent sans réponse, et ses larmes coulerent plus abondamment que jamais"
+     </p>
+     <p>
+      L'exempt s'ennuiant d'attendre dans le corridor, vint interrompre la conversation. Il voit
             l'écolier et le maître se presser tendrement et confondre leurs pleurs et leurs gémissemens il est
             presqu'attendri; mais détournant les yeux de cette scene touchante.... „Allons, messieurs, il est
             tems de partir Il fallut arracher des bras du Principal, le tendre Paulin; on l'entraîna, ses mains
-            tont tendues du côté de son ami.</p>
-          <p>Le bruit avait éveillé plusieurs pensionnaires, aussi surpris qu'attendris sur le sort du jeune
+            tont tendues du côté de son ami.
+     </p>
+     <p>
+      Le bruit avait éveillé plusieurs pensionnaires, aussi surpris qu'attendris sur le sort du jeune
             homme, ils exhalaient le reproche et la plainte; mais tout fut inutile. Il fallut le laisser partir.
             On joint une chaise de poste qui attendait à la porte: on y place Paulin seul; le signal du départ
             est donné, la voiture roule, et l'infortuné jeune homme étourdi de son aventure, ne peut s'imaginer
-            que deviendra son sort.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE II.</head>
-          <head>RÉFLEXIONS.</head>
-          <p>L'aurore à peine commençait à chasser les ombres de la nuit que Paulin n'était point revenu de
+            que deviendra son sort.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE II.
+     </head>
+     <head>
+      RÉFLEXIONS.
+     </head>
+     <p>
+      L'aurore à peine commençait à chasser les ombres de la nuit que Paulin n'était point revenu de
             son étourdissement. Il ouvre enfin les yeux, touche tout ce qui l'environne et semble surpris de se
             voir renfermé dans une boîte roulante. “Où vais-je? qu'ai-je fait? est-ce pour me punir des lautes
             de mes parons? et qui sont-ils ces parens cruels qui se sont toujours cachés à ma vue, qui ne m'ont
@@ -178,19 +272,25 @@
             lui, s'il en eut exigé le sacrifice. Pourquoi m'arracher de la demeure paisible, où mes jours sans
             être heureux, coulaient du moins dans l'espérance? elle m'est ravie à jamais. per sonne du collége
             n'a jamais pu m'éclairer sur mon sort. O providence! je m'abandonne à tes soins. Tu veilles sur
-            toutes les créatures, daigne protéger Paulin.“</p>
-          <p>
-            Pendant ces réflexions la voiture roulait avec rapidité. Le jour était avancé; on arrête dans un
+            toutes les créatures, daigne protéger Paulin.“
+     </p>
+     <p>
+      Pendant ces réflexions la voiture roulait avec rapidité. Le jour était avancé; on arrête dans un
             bois. L'exempt fait descendre Paulin et lui offre un poulot froid, du pain et du vinLe besoin à
             seize ans l'emporte sur toutes les afflictions; assis sur le gazon, il partage son poulet avec celui
             qui le lui avait offert. Pendant le repas; il avait hasardé quelques questions, mais le muet
             conducteur ne voulut répondre à aucunes, et sans être plus instruit, il fallut remonter on voilure
-          </p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE III.</head>
-          <head>L'AUBERGE.</head>
-          <p>Le jour depuis deux heures a vai fait place à la nuit; la voiture s'arrête, Paulin descend dans
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE III.
+     </head>
+     <head>
+      L'AUBERGE.
+     </head>
+     <p>
+      Le jour depuis deux heures a vai fait place à la nuit; la voiture s'arrête, Paulin descend dans
             une grande cour où il apperçoit plusieurs équip ages. Une fille de l'auberge, (car c'était
             effectivement une auberge où l'on faisait arrêter Paulin) éclaire les deux voyageurs, les conduit
             dans une chambre à deux lits. L'exempt après avoir visité la chambre et s'être assuré que son
@@ -214,20 +314,30 @@
             s'excuse sur ses ordres! Madame de S... embrasse l'intéressant Paulin: un coup d'œil permet à Agathe
             d'en faire autant. Paulin prend avec gaucherie le baiser qu'on lui donne avec timidité. Depuis qu'il
             existait jamais lèvres de rose n'avaient rencontrées de si près les siennes, qui les approchaient
-            pour la fraicheur. Il faut se séparer. „Adieu jeune homme infortuné...</p>
-          <p>On ne put en proférer davantage. Mais combien leurs yeux promirent-ils de ne point l'oublier, et
+            pour la fraicheur. Il faut se séparer. „Adieu jeune homme infortuné...
+     </p>
+     <p>
+      On ne put en proférer davantage. Mais combien leurs yeux promirent-ils de ne point l'oublier, et
             de l'aider même si l'occasion pouvait s'en saisir. A peine sont elles passées le seuil de la porte,
             que le farouche exempt la ferme et semble reprocher au malheureux Paulin d'avoir joui d'un moment de
             consolation. Celui-ci lui fait quelques questions sur ces dames, des réponses dures le forcent au
             silence. On soupe, et notre pauvre prisonnier fatigué de sa première journée de voyage se couche et
-            s'endort.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE IV.</head>
-          <head>LE SONGE ET LE REVEIL.</head>
-          <p>A peine Paulin était endormi, qu'un songe vint retracer à son imagination les deux divinités qui
-            s'étaient attendries sur son sort. Il est d'une espèce assez singulière pour être raconté.</p>
-          <p>Paulin était dans le bois où naguère il avait partagé avec son dur conducteur, le poulet qui lui
+            s'endort.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE IV.
+     </head>
+     <head>
+      LE SONGE ET LE REVEIL.
+     </head>
+     <p>
+      A peine Paulin était endormi, qu'un songe vint retracer à son imagination les deux divinités qui
+            s'étaient attendries sur son sort. Il est d'une espèce assez singulière pour être raconté.
+     </p>
+     <p>
+      Paulin était dans le bois où naguère il avait partagé avec son dur conducteur, le poulet qui lui
             servit de dîner. L'escorte gênante n'accompagnait plus ses pas. Il errait seul, quand, dans
             l'épaisseur du bois, il entend des cris. Il court, et voit son exempt qui menaçait et voulait
             frapper.... Qui pourroit le penser...? Agathe, la céleste Agathe. Trop innocent pour concevoir le
@@ -235,8 +345,10 @@
             fléchir. Ses prieres sont vaines, la rage étincelait dans les yeux de l'exempt. Paulin s'élance sur
             lui; les charmes de la belle éplorée lui inspirent un courage héroïque, il parvient à à désarmer son
             adversaire, et le terrasse; puis, se saisissant d'Agathe, il fuit le traître qu'il perd bientôt de
-            vue.</p>
-          <p>La fatigue, la peur font succomber cette aimable personne; elle ne voit plus son ravisseur, son
+            vue.
+     </p>
+     <p>
+      La fatigue, la peur font succomber cette aimable personne; elle ne voit plus son ravisseur, son
             cœur se rassure, mais ses genoux pliant sous le léger fardeau de son corps, elle tombe doucement, et
             toujours soutenue par son libérateur, sur la mousse dont le bois étoit garni. Paulin s'assied près
             d'elle, leurs yeux se fixent, s'interrogent, se répondent. La nature, ou plutôt son instinct, ce
@@ -244,20 +356,32 @@
             vole sur leurs têtes, et leur décoche à chacun un de ses traits dorés. Son flambeau qu'il agite,
             s'éteint.... Paulin, qui de sa vie n'avait contemplé les attraits enchanteurs de la beauté, en
             possédait déjà tous les trésors... quand il se sent pousser à l'instant où son ame expirait sur le
-            sein d'Agathe.</p>
-          <p>Indigné contre ceux qui l'arrachent à la plus ravissante erreur. Il se réveille en sur saut. Le
-            reproche s'exhalait déjà contre l'exempt, qu'il pouvait seul soupçonner de le réveiller pour partit.</p>
-          <p>Mais quel fut son étonnement quand il entendit bien distinctement: „Prenez vos habits sous votre
-            bras, et suivez moi vîte. Je vous conduisons dans un endroit où vous verrez les deux dames d'hier.</p>
-          <p>Sans répondre, Paulin saute à bas du lit, suit un homme qui le précede. Il marche dans
+            sein d'Agathe.
+     </p>
+     <p>
+      Indigné contre ceux qui l'arrachent à la plus ravissante erreur. Il se réveille en sur saut. Le
+            reproche s'exhalait déjà contre l'exempt, qu'il pouvait seul soupçonner de le réveiller pour partit.
+     </p>
+     <p>
+      Mais quel fut son étonnement quand il entendit bien distinctement: „Prenez vos habits sous votre
+            bras, et suivez moi vîte. Je vous conduisons dans un endroit où vous verrez les deux dames d'hier.
+     </p>
+     <p>
+      Sans répondre, Paulin saute à bas du lit, suit un homme qui le précede. Il marche dans
             l'obscurité, traverse un jardin, se trouve sur un chemin étroit. Là, lui dit son conducteur, vous
             pouvez vous vêtir, vous êtes hors de danger “ Il fut bientôt habillé. A cent pas il voit une
-            voiture, on l'y conduit; il y monte, il reconnaît madame de S... et la charmante Agathe.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE V.</head>
-          <head>JOURNÉE DE VOYAGE PLUS AGRÉABLE QUE LA PRÉCÉDENTE.</head>
-          <p>Paulin croit encore sommeiller. Le songe agréable qu'on avait si brusquement interrompu, avait,
+            voiture, on l'y conduit; il y monte, il reconnaît madame de S... et la charmante Agathe.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE V.
+     </head>
+     <head>
+      JOURNÉE DE VOYAGE PLUS AGRÉABLE QUE LA PRÉCÉDENTE.
+     </head>
+     <p>
+      Paulin croit encore sommeiller. Le songe agréable qu'on avait si brusquement interrompu, avait,
             dans son esprit agité, plus d'apparence de réalité, que la scene qui se passait maintenant sous ses
             yeux. Madame de S..... après plusieurs questions auxquelles Paulin était hors d'état de répondre,
             tant par l'ignorance où il était de son sort, que par l'ivresse qu'il ressentait de se voir près
@@ -306,12 +430,18 @@
             la Fleur, au bout du jardin, la somme promise, et se retire sans que Paulin se doute qu'il a un
             nouveau conducteur. Arrives à la voiture, Paulin y monte; la Fleur saute sur un bidet que lui
             gardait un postillon, et les voilà qui galoppent. Laissons les voyager, pour fixer un instant notre
-            attention sur ce qui passe à l'auberge.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE VI.</head>
-          <head>IL Y A MANIERE DE VOIR LES CHOSES.</head>
-          <p>Jerôme avait à peine touché les dix louis, qu'il s'empresse à aller couvrir de honte la perfide
+            attention sur ce qui passe à l'auberge.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE VI.
+     </head>
+     <head>
+      IL Y A MANIERE DE VOIR LES CHOSES.
+     </head>
+     <p>
+      Jerôme avait à peine touché les dix louis, qu'il s'empresse à aller couvrir de honte la perfide
             Gotton. D'un saut il franchit le jardin, non pas pourtant s'en s'embarasser les pieds dans les
             arbrisseaux qui bordent les sentiers, il trébuche, tombe, se releve et parvient à la chambre de son
             infidele maîtresse. Par un usage consacré dans presque toutes les auberges, les servantes ne ferment
@@ -355,12 +485,18 @@
             scene quî doit fixer tous nos regards; laissons Gotton et Jérôme s'applaudir de leurs mauvaises
             actions; laissons jurer, faire des perquisitions inutiles à l'exempt qui vient de perdre et sa
             bourse et son prisonnier; laissons le monter à cheval après avoir fait un vacarme affreux dans
-            l'auberge, laissons lui donner la chasse à notre cher Paulin, et voyons ce que celui-ci devient.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE VII.</head>
-          <head>EVENEMENT FACILE A PRÉVOIR.</head>
-          <p>Paulin ennivré d'un bonheur jusqu'à lors ignoré, parlait peu mais il admirait. Lepeu qu'il avait
+            l'auberge, laissons lui donner la chasse à notre cher Paulin, et voyons ce que celui-ci devient.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE VII.
+     </head>
+     <head>
+      EVENEMENT FACILE A PRÉVOIR.
+     </head>
+     <p>
+      Paulin ennivré d'un bonheur jusqu'à lors ignoré, parlait peu mais il admirait. Lepeu qu'il avait
             dit était sans suite, mais l'indulgence, partage du beau sexe, avait découvert aux yeux de la mère
             et de la fille un bon sens peu ordinaire à la jeunesse. D'ailleurs il admirait... Que peut faire de
             mieux un homme que la beauté ravit! l'admiration! doux silence de l'âme! qui peut méconnaître tes
@@ -380,8 +516,10 @@
             scelle ce discours; en se levant pour descendre, le mal adroit Paulin tout étourdi de ce contre
             tems, tombe sur Agathe: le hazard voulut que leurs bouches se rencontrassent. madame de S... était
             trop raisonnable pour s'offencer d'un malheur si imprévu, elle ne dil mot. Agathe rougit, mais sans
-            se plaindre de sa maladresse. Paulin descendu, s'onfonce dans le bois. La voiture poursuit sa route.</p>
-          <p>A peine notre jeune aventurier avait il fait cent pas qu'il entendit le hennissement et le pas
+            se plaindre de sa maladresse. Paulin descendu, s'onfonce dans le bois. La voiture poursuit sa route.
+     </p>
+     <p>
+      A peine notre jeune aventurier avait il fait cent pas qu'il entendit le hennissement et le pas
             précipité des chevaux; il distingua à travers l'épaisseur du bois l'uniforme de ceux qui le tenaient
             la veille, cette vue le fait frissonner et par précaution il se couche sur la terre. Les cavaliers
             attrapèrent bien-tôt la voiture qu'on n'avait plus d'intérêt à presser si fort. L'exempt, (car
@@ -399,12 +537,18 @@
             nature entière ses sanglots, ses soupirs dont elle ne coinaissait pas la source ne l'eclairaient pas
             sur la véritable situation de son cœur. La pauvre enfant s'imaginait pleurer un frère quand elle
             gémissait sur le sort d'un amant adoré. Peut-être le temps apportera-t-il quelque soulagement à sa
-            douleur; espérons le avec elle et replions nous sur Paulin que nous avons laissé dans le bois.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE VIII, Recontre Facheuse.</head>
-          <head>L'Hermitage.</head>
-          <p>PAULIN qu'une sage prévoyance avait fuit coucher par terre, soit par la fatigue du jour, soit par
+            douleur; espérons le avec elle et replions nous sur Paulin que nous avons laissé dans le bois.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE VIII, Recontre Facheuse.
+     </head>
+     <head>
+      L'Hermitage.
+     </head>
+     <p>
+      PAULIN qu'une sage prévoyance avait fuit coucher par terre, soit par la fatigue du jour, soit par
             l'interruption survenue à son sommeil la nuit précédente, s'endormit dans cette situation. Le soleil
             s'obscurcissait par degrés, l'impétueux Boréo poussait les nuages qui, s'entrechoquant, finirent par
             s'ouvrir et inonderent le lieu où le pauvre Paulin goûtait la douceur du repos. Il se réveille et
@@ -458,20 +602,28 @@
             même son songe, tous les détails de son aventure jusqu'au moment qu'il avait rencontré l'hermite. La
             lune avait succédée au soleil; sa lumière perçait à travers les bois, et Paulin avait remarqué
             qu'aux noms de madame de S...., et de la Princesse de B.. L'hermite avait plus d'une fois froncé les
-            sourcils, sans y faire autrement attention, il crut que c'était un tic qui lui était naturel.</p>
-          <p>Enfin ils sortent du bois, et se trouvent au pied d'une roche escarpée. Un sentier les conduit à
+            sourcils, sans y faire autrement attention, il crut que c'était un tic qui lui était naturel.
+     </p>
+     <p>
+      Enfin ils sortent du bois, et se trouvent au pied d'une roche escarpée. Un sentier les conduit à
             l'hermitage qui eut semblé inaccessible à tout autre qu'à celui qui l'habitait. Il était situé entre
             deux roches qui bornaient la vue de tous côtés, et dont la cîme semblait toucher aux cieux, Le
             sentier faisait cent détours, et la porte de l'hermitage semblait taillée dans le roc. Les deux
             voyageurs arrivés, frère Anselme, (ainsi se nommait l'hermite,) fait asseoir le jeune homme sur un
             banc de pierre, et le prie de l'attendre un instant: il entre seul, referme la porte sur lui, et
             laisse Paulin avec la faculté de contempler à son aise, au clair de la lune, les arides et rebutans
-            objets qui l'entourent.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE IX.</head>
-          <head>LE Tombeau.</head>
-          <p>Une heure s'était écoulée sans qu'il parut à Paulin que l'hermite se ressouvint de lui. Encore
+            objets qui l'entourent.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE IX.
+     </head>
+     <head>
+      LE Tombeau.
+     </head>
+     <p>
+      Une heure s'était écoulée sans qu'il parut à Paulin que l'hermite se ressouvint de lui. Encore
             mouillé de la pluie qu'il avait reçue, il était transi, l'ennui de se trouver seul, mille idées
             sinistres qui frappaient son imagination, la perfidie apparente de frère Anselme, tout le détermina
             à se remettre en marche. Il se lève, mais le besoin joint à la fatigue avait épuisé ses forces. Il
@@ -487,7 +639,10 @@
             voulés bien. Paulin l'assura qu'il serait enchanté d'offrir ses vœux au Créateur, et malgré le
             besoin qui le pressait, il entra dans la chapelle. Frère Anselme entonne une antienne, un oremus,
             Paulin fait sa partie, et répond, sans souffleur, et toujours à propos,
-            <hi rend="italic">amen</hi>. Suit un Deprofundis pour les âmes du Purgatoire. A peine
+      <hi rend="italic">
+       amen
+      </hi>
+      . Suit un Deprofundis pour les âmes du Purgatoire. A peine
             l'achevaient-ils, qu'on entend frapper à coups redoublés à la porte de l'hermitage. Anselme effrayé,
             se lève, dit à Paulin, ne bougés pas, je reviens à l'înstant. Il l'enferme dans la chapelle, et part
             comme un éclair. L'illumination, qui avait paru si brillante à notre avanturier, consistait entre
@@ -502,8 +657,10 @@
             l'hermitage. Pendant qu'il observait la pierre, il entend une voix partir du tombeau, qui lui dit
             bien distinctement, que veux-tu? Paulin croyant d'abord que c'était l'hermite, répond, à manger, car
             je meure de faim! eh bien, descens. Paulin à celle fois ne reconnait plus la voix d'Anselme, celle
-            qui s'adressait à lui, partait bien positivement de la tombe.</p>
-          <p>Notre héros n'était pas exempt de quelques petits préjugés, il s'imagina avoir affaire au diable,
+            qui s'adressait à lui, partait bien positivement de la tombe.
+     </p>
+     <p>
+      Notre héros n'était pas exempt de quelques petits préjugés, il s'imagina avoir affaire au diable,
             ou au moins à quelques revenans. Il se signe, se recommande à son patron, et la faim, l'emportant
             sur les craintes que lui inspiraient ses préjugés, il se resout, voyant que frère Anselme n'arrivait
             pas, à descendre dans celle tombe mistérieuse. Il pose ses deux pieds, non sans frissonner, sur le
@@ -528,12 +685,17 @@
             qu'il n'eut jamais découvert, taillée dans le roc, s'ouvre, chacun détale et Paulin avec eux. Point
             de lumière. Comment se faire un tableau de ce qu'on ne voit pas Qu'on juge de l'état où se trouvait
             le bon Paulin.
-          </p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE X.</head>
-          <head>JOIE TROUBLÉE.</head>
-          <p>LE plus grand silence s'observait dans ce ce lieu de ténèbres. Paulin accoutumé en éternuant de
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE X.
+     </head>
+     <head>
+      JOIE TROUBLÉE.
+     </head>
+     <p>
+      LE plus grand silence s'observait dans ce ce lieu de ténèbres. Paulin accoutumé en éternuant de
             s'entendre dire, dieu vous bénisse, en satisfaisant à ce besoin de la nature, reçoit quelques coups
             de poingts qui font dissiper ses vapeurs. Une des sentinelles vint après une demie heure annoncer
             qu'on pouvoit rentrer. --- Bonne alerte! c'est une capture: un cri de joie unanime est la réponse de
@@ -594,12 +756,18 @@
             bruit d'artillerie vint porter la terreur dans l'âme de ces monstres. Peut-être le ciel touché des
             malheurs de nos prisonniers, veut-il les terminer. Ne précipitons point ses Decrets; attendons tout
             de sa justice, et contentons nous pour le moment de l'effroi de nos brigands, dont la joie est si
-            extraordinairement troublée..</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE XI.</head>
-          <head>SECOURS IMPRÉVU.</head>
-          <p>Au bruit qu'on venait d'entendre, toute la troupe prend les armes. Anselme, pour arriver sans
+            extraordinairement troublée..
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE XI.
+     </head>
+     <head>
+      SECOURS IMPRÉVU.
+     </head>
+     <p>
+      Au bruit qu'on venait d'entendre, toute la troupe prend les armes. Anselme, pour arriver sans
             être vû, fait ouvrir la bascule et monte seul pour s'assurer de ce qui pouvait causer un tel
             vacarme. Il y avait une autre entrée qui aboulissait à ce souterrain, dont la porte soigneusement
             fermée donnait dans la cour de l'hermitage. La bascule ne servant que pour aller à la découverte, ou
@@ -622,8 +790,10 @@
             que la jeune dame lui soutenait la tête sur ses genoux; Paulin s'assied auprès d'elle. -- Ange
             céleste, lui disaitelle, c'est un Dieu qui vous a envoyé dans cet antre effroyable pour adoucir nos
             maux. Celui pour qui votre pitié s'intéresse, est mon époux: c'ost l'ami, l'amant le plus tendre;
-            l'amitié, la reconnaissance vont désormais partager mon cœur entre vous et lui.</p>
-          <p>Pendant cette scene attendrissante, il s'en passait une bien différente dans la caverne quelle
+            l'amitié, la reconnaissance vont désormais partager mon cœur entre vous et lui.
+     </p>
+     <p>
+      Pendant cette scene attendrissante, il s'en passait une bien différente dans la caverne quelle
             venaient de quitter. A peine Anselme avait mis le pied dans la chapelle que quatre hommes se
             saisirent de lui, et lui mettant un mouchoir sur la bouche, le conduisirent à leur chef, qui était
             dans la cour avec un piquet d'archers: „Voici l'hermite lui disent-ils; ils est monté par une trape
@@ -676,12 +846,18 @@
             attaqué. Le commandant branlait la tête, et ne trouvait point cela trop clair. -- On examinera cela
             à Avignon. Je vous y conduis. Il laissa une garde pour veiller sur les effets, jusqu'à ce qu'on eut
             des ordres pour les enlever. On se mit en marche après avoir donné un cheval à monsieur et madame de
-            Buoani, les autres suivirent à pied.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE XII.</head>
-          <head>LE CHATEAU.</head>
-          <p>Les chevaux montaient assés facilement le chemin de l'hermitage, mais il n'en était pas de même
+            Buoani, les autres suivirent à pied.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE XII.
+     </head>
+     <head>
+      LE CHATEAU.
+     </head>
+     <p>
+      Les chevaux montaient assés facilement le chemin de l'hermitage, mais il n'en était pas de même
             pour descendre. Aussi faisait on une marche lente. Paulin reconnut le bois où il avait fait la
             fâcheuse rencontre de frere Anselme; une sueur froide parcourut tout son corps, à ce seul souvenir
             Après six heures de marche par des chemins tortueux, on apperçut une longue avenue au bout de
@@ -700,8 +876,10 @@
             à l'officier ventre bleu! tu ne „peux sans injustice arrêter ce jeune homme, il n'est pas des
             nôtres, et nous ne le „connaissons pas. D'ailleurs sa conduite „depuis hier qu'il est arrivé chez
             nous prouve que c'est un brave et honnête garçon. Frere Anselme éleve la voix, et dit: laissés le
-            aller, c'est un débarqué “de college.“</p>
-          <p>L'appologie de ces messieurs n'eut pas produit un grand effet, si monsieur et madame de Buoani
+            aller, c'est un débarqué “de college.“
+     </p>
+     <p>
+      L'appologie de ces messieurs n'eut pas produit un grand effet, si monsieur et madame de Buoani
             n'eussent répondu de lui, et promis de le représenter quand on le jugerait convenable. L'officier
             par déférence pour eux fut contraint de céder; il consentit, quoiqu'à son grand regret, de laisser
             partir Paulin. Un homme de moins, disait-il tout bas, çà diminue la somme de ma capture. La troupe
@@ -739,17 +917,29 @@
             sollicitation, d'arranger celles de la Comtesse. Il y réussit à son grand étonnement à lui-même. Il
             est vrai qu'elles étaient plus en ordre que ne le sont communément celles des gens qu'on nomme comme
             il faut. La Comtesse demeura donc maîtresse du château, et ce qui est fort rare dans les
-            successions, tout s'arrangea sans procès.</p>
-          <trailer>FIN DE LA PREMIERE PARTIE.</trailer>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head>PAULIN OU LES AVENTURES DU COMTE DE WALTER.</head>
-          <head>DEUXIEME PARTIE.</head>
-          <head>CHAPITRE PREMIER.</head>
-          <head>ETREVUE AMOUREUSE.</head>
-          <p>Quelques mois s'étaient écoulés pendant le travail de Paulin. La famille de Buoani habitait
+            successions, tout s'arrangea sans procès.
+     </p>
+     <trailer>
+      FIN DE LA PREMIERE PARTIE.
+     </trailer>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      PAULIN OU LES AVENTURES DU COMTE DE WALTER.
+     </head>
+     <head>
+      DEUXIEME PARTIE.
+     </head>
+     <head>
+      CHAPITRE PREMIER.
+     </head>
+     <head>
+      ETREVUE AMOUREUSE.
+     </head>
+     <p>
+      Quelques mois s'étaient écoulés pendant le travail de Paulin. La famille de Buoani habitait
             Carpentras, il y avait fait plusieurs voyages, mais il n'avait jamais pu parvenir à mettre le pied
             dans Avignon. La Comtesse chargeait toujours son intendant des démarches qu'il y fallait faire. Il
             semblait qu'elle éloignât Paulin de cette ville où elle savait bien qu'il élait recommandé à la
@@ -769,8 +959,10 @@
             craignait qu'il ne s'égarât, et que le hazard ne lui offrit ou la Princesse, ou cette Agathe dont le
             nom seul la faisait frémir, d'après la peinture qu'en avait fait Paulin en lui racontant ses
             aventures. Un matin, éveillé plutôt que de coutume, il se leve, va demander un cheval, prend son
-            fusil et gagne le bois, sans que celui qui le servait, et qui le suivait par-tout, s'en aperçut.</p>
-          <p>Jamais il ne s'était trouvé si peu disposé au plaisir de poursuivre le gibier. Il laissait
+            fusil et gagne le bois, sans que celui qui le servait, et qui le suivait par-tout, s'en aperçut.
+     </p>
+     <p>
+      Jamais il ne s'était trouvé si peu disposé au plaisir de poursuivre le gibier. Il laissait
             marcher à son gré le cheval qui le portait, et ce cheval sans doute accoutumé à aller souvent à
             Avignon, en suivait au petit trot la route. Le bruit d'une voiture fait lever les yeux à Paulin. Il
             entond: -- C'est lui! c'est lui-même! il regarde et voit .... sa chere Agathe avec une dame qui lui
@@ -801,8 +993,10 @@
             le plutôt possible. Il fallut se séparer. Les adieux furent tendres, mais précipités. La Princesse
             était sévere, ainsi le trouvait Paulin, que cette séparation déchirait. On le fait descendre; la
             voiture vole loin de lui, sans qu'il s'apperçoive qu'il est seul, à pied et tenant dans son bras la
-            bride de son cheval.</p>
-          <p>La Fleur, ce domestique affidé de la Comtesse de Buoani, qui le servait, ne trouvant point Paulin
+            bride de son cheval.
+     </p>
+     <p>
+      La Fleur, ce domestique affidé de la Comtesse de Buoani, qui le servait, ne trouvant point Paulin
             dans sa chambre, avait prévenu sa maîtresse; celle-ci l'avait promptement dépêché pour le suivre et
             le ramener, il part et trouve le jeune homme dans la position ou je viens de le laisser. Paulin à
             son aspect se remet de son mieux pour cacher son trouble, remonte à cheval, et sans proférer un seul
@@ -813,12 +1007,18 @@
             importunité, en lui faisant l'invitation dont la Comtesse l'avait chargé. Paulin un peu contrarié,
             ne peut refuser. Il part, non sans marquer de l'impatience de se voir ainsi obsédé. Pauvre jeune
             homme! il ne pressentait pas son bonheur, il ne se doutait pas qu'un torrent de délices pour lui
-            jusqu'alors inconnues...... Mais ne nous pressons point, et suivons notre héros pas à pas.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE II.</head>
-          <head>QUI N'EUT PAS SUCCOMBÉ?</head>
-          <p>MADAME de Buaoni avaifressenti dans la nuit une légère incommodité, et déjà dans la malinée elle
+            jusqu'alors inconnues...... Mais ne nous pressons point, et suivons notre héros pas à pas.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE II.
+     </head>
+     <head>
+      QUI N'EUT PAS SUCCOMBÉ?
+     </head>
+     <p>
+      MADAME de Buaoni avaifressenti dans la nuit une légère incommodité, et déjà dans la malinée elle
             avait envoyé prier Paulin de lui faire compagnie. La Fleur, comme je l'ai dit plus haut, ne l'ayant
             pas trouvé, son absence avait donné l'alarme. La nouvelle de son arrivée avait rétabli le calme et
             dissipé les inquiétudes de la Comtesse. Son teint avait repris tout son éclat, elle s'était levée
@@ -852,8 +1052,10 @@
             de tant de beautés! Paulin ne se connoît plus. Le respect, qui jusqu'alors avait enchaîné son
             audace, fuit à la lueur du flambeau de l'amour. Une main téméraire ... Une plus délicate veut
             s'opposer au progrès ... Combat délicieux! où la vertu, l'innocence sont contraintes de céder aux
-            traits vainqueurs de l'amour, et aux douces impressions de la nature!</p>
-          <p>La Comtesse qui connaissait le peu d'expérience du jeune combattant n'opposait qu'une résistance
+            traits vainqueurs de l'amour, et aux douces impressions de la nature!
+     </p>
+     <p>
+      La Comtesse qui connaissait le peu d'expérience du jeune combattant n'opposait qu'une résistance
             dont la bienséance ne pouvait la dispenser. Mais à l'apparence non équivoque d'une victoire assurée
             pour l'assiégeant, la résistance devint plus opiniâtre... L'attaque était trop vigoureuse pour
             échapper au vainqueur ... Paulin au comble du bonheur est assuré qu'il n'est pas de songe qui
@@ -862,17 +1064,25 @@
             beauté, et dès ce jour il se proposa bien d'en faire usage dans toutes les circonstances qui se
             présenteraient. L'heure du dîner approchait, on se sépara pour cacher aux yeux des domestiques ce
             que, malgré tous les soins, leurs regards indiscrets et pénétrans découvrent bientôt, er l'on se
-            promit bien de rendre de fréquentes visites au boudoir.</p>
-          <p>O projets humains, semblables à la fleur nouvelle, le jour qui vous voit naître, est souvent le
+            promit bien de rendre de fréquentes visites au boudoir.
+     </p>
+     <p>
+      O projets humains, semblables à la fleur nouvelle, le jour qui vous voit naître, est souvent le
             même qui vous voit mourir Paulin, enivre de son bonheur, regagnait sa chambre, il entre et sa
             première pensée s'arrête sur Agathe... que dira-t-elle, si?... Toi seule!. .. oui, toi seule ... que
             serait-ce donc si mon Agathe goûtait dans dans mes bras? ... il allait achever ... Nous verrons dans
-            le chapitre suivant ce qui l'en empêcha.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE III.</head>
-          <head>REVERS De Fortune.</head>
-          <p>Un bruit de chevaux fait tourner la tête à Paulin, il regarde et voit dans la cour plusieurs
+            le chapitre suivant ce qui l'en empêcha.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE III.
+     </head>
+     <head>
+      REVERS De Fortune.
+     </head>
+     <p>
+      Un bruit de chevaux fait tourner la tête à Paulin, il regarde et voit dans la cour plusieurs
             cavaliers qui mettent pied à terre. Son premier mouvement fut de se rendre auprès de la Comtesse.
             Mais la Fleur vint l'en empêcher en lui disant: „Suivezmoi, où vous êtes perdu“. Paulin interdit, le
             suit sans dire un mot. La Fleur lui fait traverser le parc, ils arrivent à la porte qui donne sur la
@@ -893,8 +1103,10 @@
             contredit. Continuez. -- A la recommandation de Madame, vous aurez ici tout ce que vous desirerez,
             et dès qu'il n'y aura plus de danger pour vous de revenir au château, on vous fera avertir. Madame
             s'abstiendra de venir vous voir les premiers jours pour éviter de donner des soupçons sur le lieu de
-            votre retraite. Je vais parler au fermier, et je retourne sur le champ auprès de Madame la Comtesse.</p>
-          <p>La Fleur recommanda effectivement Paulin au fermier et à sa lemme et les pria de la part de sa
+            votre retraite. Je vais parler au fermier, et je retourne sur le champ auprès de Madame la Comtesse.
+     </p>
+     <p>
+      La Fleur recommanda effectivement Paulin au fermier et à sa lemme et les pria de la part de sa
             maîtresse de ne le laisser jamais sortir que déguisé. Paulin fut bientôt rassuré quand il sut qu'il
             n'était question que de l'affaire de l'hermitage. Il pouvait facilement se justifier et sans les
             précautions de la Comtesse, il eût volontiers subi tous les examens qu'on eût desiré. Il passa donc
@@ -943,8 +1155,10 @@
             que nous avons gagné. Vous vous en repentés, sans doute, mais le mal est fait, et rien ne peut le
             réparer. Si votre cœur n'est point assés perverti pour sentir le tort que vous nous faites, souvenés
             vous de cette leçon, et ne plongés plus à l'avenir le poignard dans le cœur de braves pères de
-            famille tel que moi; que votre brutalité diffame après cinquante ans de vertu.</p>
-          <p>Pendant ce discours qui déchirait le cœur du malheureux Paulin, on gagnait la ferme. On arrive.
+            famille tel que moi; que votre brutalité diffame après cinquante ans de vertu.
+     </p>
+     <p>
+      Pendant ce discours qui déchirait le cœur du malheureux Paulin, on gagnait la ferme. On arrive.
             Le fermier lui donne l'habit promis et lui ferme la porte au nez. Paulin revet l'habit, laisse le
             sien à la parle, et marche sans savoir où il tourne ses pas. -- Les reproches de ce brave homme sont
             justes, disait-il, j'ai trahi les devoirs les plus sacrés. J'aurais du respecter la vertu; j'aurais
@@ -965,20 +1179,28 @@
             juge point à propos de dire pourquoi il se trouve dans les champs, si tard; il forge une hisfoire
             qui n'a pas le sens commun, et qui le rend encore plus suspect. Il élait alors sur les terres de
             France; les deux soldats le remettent entre les mains de la maréchaussée, et déposent qu'il est du
-            régiment de ***. On conduit Paulin de brigade en brigade jusqu'à Toulon où était le régiment.</p>
-          <p>Qu'on se peigne la douleur de notre jeune homme, les mains liées, marchant à pied entre deux
+            régiment de ***. On conduit Paulin de brigade en brigade jusqu'à Toulon où était le régiment.
+     </p>
+     <p>
+      Qu'on se peigne la douleur de notre jeune homme, les mains liées, marchant à pied entre deux
             cavaliers, enfermé dans tous les endroits où il arrête. Il serait bien digne de notre pitié, si nous
             ne nous rappellions pas ses torts, et les reproches qu'il a à se faire. Laissons-le descendre un
             moment dans son cœur, qu'il le cite lui même au tribunal de sa conscience. Elle est encore assez
             pure. Ne l'accablons pas, il est dans une situation bien décourageante; tâchons de l'en tirer: et
             quoiqu'il ait mérité son sort; rendons-le lui plus doux, faisons encore briller à ses veux un rayon
             d'espoir. Les fautes que nous nous lui reprochons ne sont jamais impardonnable; je m'en rapporte à
-            la décision du beau sexe.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE IV.</head>
-          <head>A QUELQUE CHOSE MALHEUR EST BON.</head>
-          <p>Arrive à Toulon, on conduit Paulin chez le commandant du régiment, après l'avoir préalablement
+            la décision du beau sexe.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE IV.
+     </head>
+     <head>
+      A QUELQUE CHOSE MALHEUR EST BON.
+     </head>
+     <p>
+      Arrive à Toulon, on conduit Paulin chez le commandant du régiment, après l'avoir préalablement
             déposé en prison. M. de R... qui commandait alors, lui demande son nom. -- Paulin. -- Votre
             compagnie? -- Aucune. -- Comment aucune? -- Non, Monsieur, j'ose vous assurer que je ne suis soldat
             ni de votre régiment ni d'aucun autre. -- Mais cet habit? est celui de Victor fils du fermier de la
@@ -1004,8 +1226,10 @@
             Corse. Le chevalier de Belleval s'embarqua avec son bienfaiteur, et dans l'espoir d'être reçu
             officier en arrivant à Bastia. Le trajet fut heureux et court. On débarqua à San Fiorenzo, de-là on
             se rendit par terre à la garnison. Le régiment fut logé dans la citadelle et Belleval dans la maison
-            du commandant. Selon la promesse qui lui en avait été faite, il reçut le grade de sous-lieutenant.</p>
-          <p>L'Isle était encore agitée de troubles, et il était imprudent de s'enfoncer seul dans les
+            du commandant. Selon la promesse qui lui en avait été faite, il reçut le grade de sous-lieutenant.
+     </p>
+     <p>
+      L'Isle était encore agitée de troubles, et il était imprudent de s'enfoncer seul dans les
             montagnes où les habitans, moins censés que ceux des villes, ne voyaient qu'avec chagrin la
             dépendance de leurs compatriotes sous la domination française. Un jour Belleval fut commandé pour
             marcher contre un parti de ces rébelles: il parvient avec cinquante hommes à en dissiper au moins le
@@ -1021,8 +1245,10 @@
             punis sévèrement, et pour donner satisfaction aux offensés, il fit devant eux altacher les coupables
             avec des cordes; et les conduisit ainsi jusqu'à Bastia. Ces bonnes gens bénissaient le jeune homme
             qui leur avait rendu justice. Ils lui demanderent son nom pour ne l'oublier jamais: il leur donna
-            cette satisfaction.</p>
-          <p>Quelques jours après, au moment de la retraite Belleval rentrait chez lui, on l'arrête; il se
+            cette satisfaction.
+     </p>
+     <p>
+      Quelques jours après, au moment de la retraite Belleval rentrait chez lui, on l'arrête; il se
             retourne et reconnaît ce même paysan avec sa fille. Seigneur français, montons vîte chez vous, j'ai
             à vous communiquer un secret de la plus grande importance. Quand ils furent dans sa chambre,
             Seigneur, dit le paysan, une bonne action n'est jamais sans récompense. Vous nous ayés vengé d'une.
@@ -1038,8 +1264,10 @@
             aux barrieres, mais ils ne s'attendaient pas à être reçus comme ils le furent. Le carnage fut
             effrayant. On fit des prisonniers. Ceux de la ville qui devaient se joindre aux autres, n'oserent
             bouger. Le calme revint avec l'aurore; et le soleil ne fut pas même témoin du désordre de la nuit.
-            On fit une exacte perquisition des coupables. Le paysan fut récompensé, et Belleval fait capitaine.</p>
-          <p>Envain écrivait-il à la Princesse, à madame de Buoani; toutes ses lettres restaient sans réponse.
+            On fit une exacte perquisition des coupables. Le paysan fut récompensé, et Belleval fait capitaine.
+     </p>
+     <p>
+      Envain écrivait-il à la Princesse, à madame de Buoani; toutes ses lettres restaient sans réponse.
             Sa mortelle douleur était de n'entendre plus parler d'Agathe. Il n'osait écrire à madame de S....
             D'ailleurs pouvaient-elles ne pas condamner sa conduite chez madame de Buoani, chez son fermier, car
             il ne pouvait attribuer qu'à sa derniere incartade avec Caroline, le silence que gardait madame de
@@ -1048,8 +1276,10 @@
             et celle-ci à sa fille. -- Oui, disait - il, je suis abandonné, haï, méprisé, peut-être, par la
             charmante Agathe. Que m'importe l'opinion des autres, si Agathe me déteste!.. Ah! combien je fus
             coupable.. Il réfléchissait souvent à ses malheurs; sans les bontés de M. de R... qui adoucissaient
-            l'amertume de ses chagrins, il se fut abandonné à la plus noire mélancolie.</p>
-          <p>Deux ans passés en Corse l'avaient formé, l'exercice du corps l'avait rendu robuste, ses traits
+            l'amertume de ses chagrins, il se fut abandonné à la plus noire mélancolie.
+     </p>
+     <p>
+      Deux ans passés en Corse l'avaient formé, l'exercice du corps l'avait rendu robuste, ses traits
             devenaient plus mâles, enfin Belleval pouvait passer pour un cavalier charmant. Son esprit formé par
             les leçons du malheur, avait acquis une solidité rare dans un homme de di-huit ans. Un état honnête
             était son partage; qu'avait-il à desirer!... La possession d'Agathe. Mais le moyen d'imaginer que
@@ -1059,17 +1289,25 @@
             ces idées s'accumulaient dans sa tête, et rarement la raison triomphait. J'ai perdu des amis qui
             m'avaient adopté sans me connaître. Le ciel m'on a rendu un autre... bien respectable: il m'a
             accueilli, soulagé, soutenu, donné un état, et cela dans un tems où j'avais tout perdu, où le
-            désespoir était ma seule ressource.</p>
-          <p>O amitié! que tes devoirs sont sacrés ils sont l'ouvrage de la Divinité! Belleval honorait,
+            désespoir était ma seule ressource.
+     </p>
+     <p>
+      O amitié! que tes devoirs sont sacrés ils sont l'ouvrage de la Divinité! Belleval honorait,
             chérissait M. de R... C'était un devoir sans doute, mais il était bien cher à son ame
             reconnaissante. Il fit dans cette occasion l'heureuse expérience qu'il ne faut jamais désespérer de
             la Providenée et que les maux les plus affligeans sont suivis d'un bonheur d'autant plus touchant
-            qu'il les répare tous.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE V.</head>
-          <head>ANCIENNE CONAISSANCE.</head>
-          <p>Belleval s'acquittait trop bien de son devoir pour ne point aiguiser contre lui les traits de
+            qu'il les répare tous.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE V.
+     </head>
+     <head>
+      ANCIENNE CONAISSANCE.
+     </head>
+     <p>
+      Belleval s'acquittait trop bien de son devoir pour ne point aiguiser contre lui les traits de
             l'envie. D'ailleurs la protection de M. de R... lui suseitait mille jaloux de son bonheur. -- Mais
             qu'elle est sa famille, se disait-on? jamais il n'en parle. Jamais courrier depuis qu'il est au
             régiment n'a apporté un seul paquet pour lui. Il faut nécessairement le pénétrer, savoir qui il est.
@@ -1077,8 +1315,10 @@
             viendra placer un intrus à notre rang On agissait sourdement. Par égard pour ce commandant qu'on
             traitait légèrement en particulier et qu'on ne pouvait s'empêcher de respecter en publie, par égard
             donc on se laisait, mais on allendait une occasion favorable; et c'est une nouvelle bonne action de
-            Belleval qui la fit naître, et qui fit éclater l'orage qui se formait depuis long-tems sur sa tête.</p>
-          <p>Belleval à son tour visitait l'hôpital militaire et les prisons. En s'acquittant un jour de ce
+            Belleval qui la fit naître, et qui fit éclater l'orage qui se formait depuis long-tems sur sa tête.
+     </p>
+     <p>
+      Belleval à son tour visitait l'hôpital militaire et les prisons. En s'acquittant un jour de ce
             devoir il fut fort surpris de trouver dans les fers Nulsifrote, le voleur dont nous avons parlé dans
             la premiere partie de cette ouvrage. Il le reconnut aussi-tôt. Nulsifrote, soit que Belleval fut
             trop changé depuis deux ans, soit que ses traits ne fussent qu'imparfaitement gravés dans sa mémoire
@@ -1097,12 +1337,18 @@
             retirer quand il aura apporté une bouteille de vin, et vous saurés tout. Belleval mit six francs
             dans la main du geolier qui apporta la bouteille, et les laissa seuls. Nulsifrote après avoir avalé
             deux bonnes gorgées de ce vin qu'il trouva délicieux, commença son récit tel qu'on le va voir dans
-            le chapitre suivant.</p>
-        </div>
-        <div>
-          <head>CHAPITRE VI.</head>
-          <head>AVENTURES DE NULSIFROTE.</head>
-          <p>Après notre séparation, on nous conduisit à Avignon. Comme j'étais blessé, je fus placé à
+            le chapitre suivant.
+     </p>
+    </div>
+    <div>
+     <head>
+      CHAPITRE VI.
+     </head>
+     <head>
+      AVENTURES DE NULSIFROTE.
+     </head>
+     <p>
+      Après notre séparation, on nous conduisit à Avignon. Comme j'étais blessé, je fus placé à
             l'hôpital où l'on eût le plus grand soin de moi. J'en eus pourtant pour mes deux mois, mais mille
             coups de fusil, c'est égal, je n'en suis pas mort. Pendant le tems que j'étais couché-là comme un
             nigaud, on instruisait toujours contre moi et mes respectables camarades. Ce fut après un espèce
@@ -1112,8 +1358,8 @@
             Nulsifrote n'était pas fait pour exercer un si indigne métier. Malgré la parole d'honneur de ce
             chien d'officier qui nous est venu prendre, je fus comme les autres condamné à faire la révérence
             aux deux poteaux.
-            <ref target="#N01"/>
-            Cette cérémonie là, n'était pas de mon goût. J'appris que frère Anselme avait déjà fait la
+      <ref target="#N01"/>
+      Cette cérémonie là, n'était pas de mon goût. J'appris que frère Anselme avait déjà fait la
             contredanse avec d'autres, je ne me souciai pas d'en faire autant. Une belle nuit donc, avec la robe
             de l'hôpital sur le corps, je me leve, et je m'en vais droit, sauf votre respect (les paroles ne
             sentent rien, n'est-ce pas?) je m'en vais aux latrines. Un chien de soldat du Pape qui ne me
@@ -1142,31 +1388,41 @@
             moi parce qu'elle sait bien comme je garde un secret. Ici‚ Nulsifrote raconte l'aventure de Jérôme
             et de l'exempt qui conduisait Paulin, alors que madame de S.... le sauva de ses mains, comme on l'a
             vu dans la premiere partie. Belleval rit beaucoup de cette espiéglerie, qu'il ignorait. Nulsifrote
-            reprit ainsi sa narration.</p>
-          <p>Avant qu'il soit peu elle sera la maîtresse de l'auberge. Le maître doit se retirer incessamment,
+            reprit ainsi sa narration.
+     </p>
+     <p>
+      Avant qu'il soit peu elle sera la maîtresse de l'auberge. Le maître doit se retirer incessamment,
             et vous pensés-bien qu'il leur laissera à meilleur marché qu'à d'autres. Enfin, finalement après que
             je me fus bien r'habillé, nourri, reposé, je repris la route de la Suisse, évitant toujours les
             grands chemins. Car je n'avais pas oublié que j'étais déserteur. J'avais quelques éens que ma sœur
             m'avait donnés. La roule ne me semblait pas rude. Je sortis donc sans malheur de France, et me vl'à
-            sur le territoire de Genève.</p>
-          <p>Ici Nulsifrote fut interrompu par le geolier qui venait chercher des clefs pour ouvrir un
+            sur le territoire de Genève.
+     </p>
+     <p>
+      Ici Nulsifrote fut interrompu par le geolier qui venait chercher des clefs pour ouvrir un
             domicile à quelques nouveaux venus. Il demanda pardon de son importunité et sortit. Nulsifrote
-            reprit le fil de son discours, comme dans le chapitre suivant.</p>
-        </div>
-        <div type="chapter">
-          <head>
-            CHAPITRE VII.</head>
-          <head>>SUITES DES AVENTURES DE Nulsifrote.</head>
-          <p>
-            Par toute ma vie été un peu paresseux pour le travail des mains, c'est pour çà que je n'ai jamais
+            reprit le fil de son discours, comme dans le chapitre suivant.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE VII.
+     </head>
+     <head>
+      &gt;SUITES DES AVENTURES DE Nulsifrote.
+     </head>
+     <p>
+      Par toute ma vie été un peu paresseux pour le travail des mains, c'est pour çà que je n'ai jamais
             sçu de métier. Vous pensés bien que les écus de ma sœur eurent bientôt changé de poche. Je cherchai
             une place dans le service de la république: mais sans passe-port, sans cartouche, que faire? c'était
             trop risquer que de se présenter sans papier à la main. J'al lai un matin trouver un vieux ministre
             qui avait la réputation d'être très-charitable. Ah! c'était un brave homme! il prit si fort à cœur
             de m'obliger que sous peu de jours je fus reçu pour recruter aux confins de la république. Me vl'à
             donc placé gagnant à-peu-près un écu par jour, sans compter le tour du bâton.. J'étais assés
-            tranquille, mais le diable qui m'a toujours talonné, vint me poursuivre jusques-là.</p>
-          <p>Un vaurien, qui s'étaient échappé, je ne sais comment, des griffes de la justice d'Avignon, me
+            tranquille, mais le diable qui m'a toujours talonné, vint me poursuivre jusques-là.
+     </p>
+     <p>
+      Un vaurien, qui s'étaient échappé, je ne sais comment, des griffes de la justice d'Avignon, me
             reconnut: il exerçait le même emploi qui avait failli le perdre dans le Comtat. Il me proposa de
             renouer avec lui, je lui dis qu'il y avait trop de risques à courir dans ce métier-là, et que j'y
             avais absolument renoncé. Le drôle sembla goûter mes raisons, il applaudit à ma résolution, et me
@@ -1201,13 +1457,21 @@
             bienfait que de vivre désormais en honnête homme. -- Je le jure, mon capitaine, et de plus je
             promets de vous suivre par-lout. Je m'attacherai à votre sort, je le partagerai dans toutes les
             circonstances, et vous n'aurés pas lieu de vous repentir d'avoir Nulsifrote pour votre serviteur:
-            jamais j'ose vous l'assurer, vous n'en aurés trouvé de plus zélé.</p>
-          <p>Belleval quitta Nulsifrote, et alla comme il lui avait promis, travailler à lui obtenir sa grace.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE VIII.</head>
-          <head>PERTE SENSIBLE, DISGRACE QUI EN EST LA SUITE.</head>
-          <p>Il ne fut pas facile à Belleval d'obtenir la grace qu'il demandait. Cependant avec un peu
+            jamais j'ose vous l'assurer, vous n'en aurés trouvé de plus zélé.
+     </p>
+     <p>
+      Belleval quitta Nulsifrote, et alla comme il lui avait promis, travailler à lui obtenir sa grace.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE VIII.
+     </head>
+     <head>
+      PERTE SENSIBLE, DISGRACE QUI EN EST LA SUITE.
+     </head>
+     <p>
+      Il ne fut pas facile à Belleval d'obtenir la grace qu'il demandait. Cependant avec un peu
             d'importunité, il y réussit. Nulsifrote fut mis en liberté, il accourut aussi-tôt chés son
             bienfaiteur, et lui jura de verser pour lui jusqu'à la derniere goutte de son sang. Belleval eut
             beau lui représenter que ses moiens ne lui permettaient pas de le garder à son service, tout fut
@@ -1231,8 +1495,8 @@
             en France, je fus offert et accepté. Et depuis ce moment je n'abandonnai mon malheureux maître que
             lorsque poursuivi jusques dans l'azile qu'il avait choisi à Paris, il fut enlevé et conduit à la
             Bastille.
-            <ref target="#N02"/>
-            Ses ennemis triompherent. Le Roi Frédérie prononça sa prescription, quand, avec sa digne épouse, il
+      <ref target="#N02"/>
+      Ses ennemis triompherent. Le Roi Frédérie prononça sa prescription, quand, avec sa digne épouse, il
             se croyait à l'abri des poursuites de ce Prince. L'Ambassadeur Français semblait le protéger, mais
             par une lâcheté digne des seuls courtisans, il le livra aux traîtres qui avaient résolu sa perte. M.
             le Baron qui se croyoit en sûreté, malgré les avis certains qu'il recevait de Prusse, qu'on le
@@ -1246,22 +1510,28 @@
             emmené par M. l'abbé Doulsy, j'ignore où il le plaça. Pour moi, j'eus le sort des autres
             domestiques, on me paya et je fus contraint d'abandonner des maîtres à qui j'étais sincerement
             attaché. Vous voyés que sous plus d'un rapport on peut soupçonner que vous êtes l'héritier du grand
-            nom et des malheurs du pere le plus respectable.</p>
-          <p>Hélas! disait Belleval, il se pourrait bien... Mais cette Baronne si elle eut été ma mère, qui
+            nom et des malheurs du pere le plus respectable.
+     </p>
+     <p>
+      Hélas! disait Belleval, il se pourrait bien... Mais cette Baronne si elle eut été ma mère, qui
             pouvait l'empêcher de me serrer dans ses bras, de me presser sur son sein? pourquoi ne
             m'ouvrait-elle pas son cœur? ... Va, Nulsifrote, les apparences feraient à la vérité conjecturer que
             je suis le fils de cet infortuné Baron, mais comment s'en assurer? Comment ne flatter que je le sois
             en effet? -- Attendons tout du tems, mon cher maître. Pour moi mon cœur me dit que vous êtes le fils
-            de ce brave homme, et je suis sûr que nous le trouverons quelque jour.</p>
-          <p>Belleval réfléchissait sur ce qu'il venait d'entendre quand on vint lui annoncer que M. de R...
+            de ce brave homme, et je suis sûr que nous le trouverons quelque jour.
+     </p>
+     <p>
+      Belleval réfléchissait sur ce qu'il venait d'entendre quand on vint lui annoncer que M. de R...
             son commandant avait fait une chûte de cheval si terrible qu'on doutait qu'il passât la journée.
             Belleval court à son apparlement, il s'agenouille près de son lit et ses larmes coulent sur la main
             de sor bionfaiteur. Celui-ci ouvre les yeux, reconnaît Belleval, lui sourit, sans pouvoir proférer
             une parole. La nuit suivante, l'impitovable mort enleva à Paulin le seul ami el le seul protecteur
             qu'il eut alors au la terre. Après avoir rendu les derniers devoirs à ce respectable ami, chaque
             jour il se retirait chez lui pour le pleurer, où pour s'entretenir avec Nulsifrote de sa prétendue
-            famille. Agathe n'était point oubliée dans ces tristes conversations.</p>
-          <p>Enfin le tems était arrivé, où le sort devait se déchaîner sur le chevalier. Sa douleur l'avait
+            famille. Agathe n'était point oubliée dans ces tristes conversations.
+     </p>
+     <p>
+      Enfin le tems était arrivé, où le sort devait se déchaîner sur le chevalier. Sa douleur l'avait
             empêché de faire assiduement sa cour au nouveau commandant qui mal prévenu contre lui, lui faisait
             souvent souffrir des humiliations. Ses ennemis n'attendaient que ce moment pour se découvrir.
             Belleval reçut quatre cartels àlafois. Accompagné de Nulsifrote il s'y rendit et fut assez heureux
@@ -1276,18 +1546,26 @@
             Faites moi l'honneur de me dire où vous vous retirés, je vous expédierai un congé illimité et
             j'aurai le plus grand soin de vous faire passer vos appointemens pour échapper au ressentiment de
             vos adversaires, passés sur le bâtiment qui fait voile à Gênes, il part aujourd'hui, je vous
-            enverrai votre congé à l'adresse que vous me marquerés dès que vous y serés arrivé.</p>
-          <p>Belleval sentit toute la justesse du raisonnement du commandant, il le remercia et sur le champ
+            enverrai votre congé à l'adresse que vous me marquerés dès que vous y serés arrivé.
+     </p>
+     <p>
+      Belleval sentit toute la justesse du raisonnement du commandant, il le remercia et sur le champ
             alla ramasser ses épargnes qui se montaient à une somme honnête, fait Nulsifrote son trésorier et
             tous deux s'embarquent pour Gênes. Paulin était curieux de voir cette superbe ville. Ils y arrivent
             peu de tems après. Nulsifrote par son humeur enjouée dissipait la mélancolie de son maître. Il
             cherche à Gênes à lui procurer des plaisirs qui lui fassent oublier ses peines Nous verrons dans peu
-            s'il y réussit.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE IX.</head>
-          <head>IL NE S'Y ATTENDAIT PAS.</head>
-          <p>On jouissait des plaisirs du Carnaval quand le Chevalier arriva à Gênes. L'hôtellerie où il se
+            s'il y réussit.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE IX.
+     </head>
+     <head>
+      IL NE S'Y ATTENDAIT PAS.
+     </head>
+     <p>
+      On jouissait des plaisirs du Carnaval quand le Chevalier arriva à Gênes. L'hôtellerie où il se
             logea était près d'un hôtel magnifiquement bâti Nulsifrote avait pour principe de s'adosser toujours
             à des voisins riches, parce que disait-il, tôt-ou-tard on lie connaissance avec eux. Belleval et son
             écuyer allèrent ensemble repaître leurs yeux des beautés sans nombre de cette Capitale. En rentrant
@@ -1309,8 +1587,10 @@
             cette Dame veut l'entretenir avant de l'introduire chés elle. Elle lui donne rendés-vous le
             lendemain matin et lui enseigne la manière de s'y prendre pour n'être vu de personne. Elle prouvait
             quelque mécontentement de sa conduite; mais elle se réservait à prononcer quand elle l'aurait
-            entendu.</p>
-          <p>Avec quel impatience le Chevalier attendit - il le lendemain! L'heure si ardemment désirée
+            entendu.
+     </p>
+     <p>
+      Avec quel impatience le Chevalier attendit - il le lendemain! L'heure si ardemment désirée
             arriva; suivant les instructions qu'il avait reçues il fut introduit près de Madame de S ... Son
             premier mouvement fut de se jetter à ses pieds. Elle le releve avec gravité et lui ordonne de
             s'asseoir. -- Eh bien, Monsieur, qu'êtes-vous devenu depuis votre sortie forcée de la ferme de
@@ -1354,38 +1634,59 @@
             mes vœux, il y joindra bientôt, j'espere le respectable Walter. -- Oui, Madame, répond M. de S... Le
             grand Frédéric n'ost plus. Les intérêts politiques sont changés, j'ai reçu aujourd'hui la nouvelle
             que Walter va nous être rendu. Le Ministre me mande qu'il le fera conduire ici dès qu'il sera
-            élargi.</p>
-          <p>La nouvelle ne précéda que peu de jours l'arrivée du Baron. On ne saurait peindre la joie de
+            élargi.
+     </p>
+     <p>
+      La nouvelle ne précéda que peu de jours l'arrivée du Baron. On ne saurait peindre la joie de
             cette famille réunie. Agalhe, la tendre Agathe la parlageait bien sincerement. Mais depuis que
             Paulin était devenu Comte de Walter, elle était plus réservée que jamais. On donna ordre à
             Nulsifrote d'apporter à l'hôtel le bagage de son maître. -- Je savais bien, disait-il, qu'il était
-            toujours avantageux de bien s'avoisiner. Le Baron le reconnut pout avoir été à son service.</p>
-          <p>Paulin, que désormais nous ne nommerons plus que le Comte de Walter, dit à son pere ce qu'il
+            toujours avantageux de bien s'avoisiner. Le Baron le reconnut pout avoir été à son service.
+     </p>
+     <p>
+      Paulin, que désormais nous ne nommerons plus que le Comte de Walter, dit à son pere ce qu'il
             avait appris par Nulsifrote touchant ses malheurs; il pria le Baron de lui en faire un récit plus
             exact. Nous le donnerons au publie, ainsi que la suite des aventures de notre nouveau Comte et de sa
-            belle Agathe.</p>
-          <trailer>Fin ds la deuxieme partie et du Tome premier.</trailer>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head>
-            PAULIN OU LES AVENTURES DU COMTE DE WALTER.</head>
-          <head>TROISIEME PARTIE.</head>
-          <head>CHAPITRE PREMIER.</head>
-          <head>LE BAL.</head>
-          <p>Nous venons de voir la fortune de Paulin bien changer de face. Son bonheur semble assuré sur une
+            belle Agathe.
+     </p>
+     <trailer>
+      Fin ds la deuxieme partie et du Tome premier.
+     </trailer>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      PAULIN OU LES AVENTURES DU COMTE DE WALTER.
+     </head>
+     <head>
+      TROISIEME PARTIE.
+     </head>
+     <head>
+      CHAPITRE PREMIER.
+     </head>
+     <head>
+      LE BAL.
+     </head>
+     <p>
+      Nous venons de voir la fortune de Paulin bien changer de face. Son bonheur semble assuré sur une
             base inébranlable. Suivons-le, et nous verrons si l'on doit compter sur les dons de cette aveugle
-            marâtre, et comment il soutiendra l'honneur du grand nom de Walter.</p>
-          <p>Le Comte était dans sa dix-huitième année; Agathe avait atteint sa quinzième. Malgré la liaison
+            marâtre, et comment il soutiendra l'honneur du grand nom de Walter.
+     </p>
+     <p>
+      Le Comte était dans sa dix-huitième année; Agathe avait atteint sa quinzième. Malgré la liaison
             intime des deux maisons de S*** et de Walter, les chefs trouvaient leurs enfans trop jeunes pour les
             unir. Les paroles furent engagées, le mariage décidé, mais il ne devait être célébré que dans deux
-            ans.</p>
-          <p>Walter vivait près de son Agathe; il la voyait tous les jours, et tous les jours aussi elle
+            ans.
+     </p>
+     <p>
+      Walter vivait près de son Agathe; il la voyait tous les jours, et tous les jours aussi elle
             embellissait à ses yeux. Les égaremens de Paulin furent oubliés. On ne voyait plus dans la personne
             du Comte qu'un jeune homme dont la conduite serait désormais à l'abri de tout reproche. Il l'avait
-            promis, Agathe se plaisait à le croire.</p>
-          <p>Nous avons dit qu'on goûtait alors à Gênes les plaisirs du carnaval. Walter allait chez plusieurs
+            promis, Agathe se plaisait à le croire.
+     </p>
+     <p>
+      Nous avons dit qu'on goûtait alors à Gênes les plaisirs du carnaval. Walter allait chez plusieurs
             nobles Gênois, aux bals qu'ils donnaient, mais il n'y allait qu'avec la belle Agathe et les deux
             cheres mamans. A ceux que donnait l'Ambassadeur, il ne quittait sa maîtresse que pour converser avec
             madame de S... ou avec la Baronne sa mere. A tout instant il pressait le Baron de lui dévoiler ses
@@ -1393,8 +1694,10 @@
             Baronne, quand il lui faisait la même question, lui repondait, qu'elle les avait tous oubliés depuis
             qu'elle possédait son fils. Il fallut donc prendre patience. Nulsifrote était son domestique et son
             ami. C'est dire assés que Walter se reposait sur lui du soin de toutes ses affaires, et l'on peut
-            dire à la louange de cet ex-bandit, qu'il ne se rappellait ses fautes que pour les détester.</p>
-          <p>M. de S ... son épouse et sa fille furent invités à souper chés le Doge. Le Baron et la Baronne
+            dire à la louange de cet ex-bandit, qu'il ne se rappellait ses fautes que pour les détester.
+     </p>
+     <p>
+      M. de S ... son épouse et sa fille furent invités à souper chés le Doge. Le Baron et la Baronne
             de Walter l'étaient dans une autre maison. Le Comle avait été oublié des deux côtés, on ne l'avait
             pas nommé dans les invitations. Chacun malgré cet oubli voulait l'emmener; pour ne point faire de
             jaloux le Comte dit qu'il resterait chés lui. On applaudit à sa résolution, Agathe elle même y donna
@@ -1441,8 +1744,10 @@
             éblouissante. Avés vous vu cela comme moi? -- Ma foi, non. Tu veux que je devine cela à travers son
             domino? -- Vous n'avés donc pas pris garde que le domino s'est dénoué comme par malheur, mais bien
             certainement exprès pour vous faire voir ce qui ne m'est point échappé? -- Tant mieux. S'il est
-            ainsi, Vengeons Madame Rotondi.</p>
-          <p>Le domino blane revint et prenant le Comte par la main le pria de le suivre. Nulsifrote
+            ainsi, Vengeons Madame Rotondi.
+     </p>
+     <p>
+      Le domino blane revint et prenant le Comte par la main le pria de le suivre. Nulsifrote
             accompagne son maître. Ils traversent la salle des rafraichîssemens et parviennent à un cabinet où
             M. Rotondi les appercevant vint pour les recevoir. La porte fermée, Madame Rotondi ôte son masque et
             son mari qui avait pareillement ôté le sien manqua de tomber à la renverse en voyant sa femme. --
@@ -1453,8 +1758,10 @@
             voulons être seules, quand il vous plaira de rentrer vous voudrés bien gagner votre appartement et
             ne point approcher du mien. Demain matin nous vous donnerons à déjeuner. On chargea Nulsifrote de le
             veiller et de le garder jusqu'au lendemain et sans attendre sa réponse Madame Rotondi s'empare de
-            Walter et laisse son confus époux tout étourdi de l'aventure.</p>
-          <p>Le fripon de Comte n'avait garde de reculer. La dame en ôtant son masque avait découvert un
+            Walter et laisse son confus époux tout étourdi de l'aventure.
+     </p>
+     <p>
+      Le fripon de Comte n'avait garde de reculer. La dame en ôtant son masque avait découvert un
             visage charmant, et les conjeclures de Nulsifrote se trouvaient justes. De grands yeux bleus
             couverts d'un soureil noir, un nés retroussé, une bouche un peu grande, mais qui ne s'ouvrait que
             pour faire voir un ratelier de perles: le lys n'eût point effacé la blancheur de sa peau, un vif
@@ -1466,12 +1773,18 @@
             mousseline dérobait à la vue. Bientôt jupon, corset, lout fut à bas, et Madame Rotondi put rassasier
             ses yeux d'un spectacle pour elle aussi ravissant que ses charmes l'étaient pour Walter. Tous deux
             s'élancent sur le duvet, les rideaux tirés, l'amour seul fut témoin de ce qui se passa sur cet autel
-            qui lui fut consacré pendant cette nuit.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE II.</head>
-          <head>Le Déjeuner.</head>
-          <p>Nulsifrote était resté avec M. Rotondi. Quand ce dernier fut rovenu de l'étourdissement ou
+            qui lui fut consacré pendant cette nuit.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE II.
+     </head>
+     <head>
+      Le Déjeuner.
+     </head>
+     <p>
+      Nulsifrote était resté avec M. Rotondi. Quand ce dernier fut rovenu de l'étourdissement ou
             l'avait jetté l'apparition de sa femme, il jolta les yeux rson compagnon. -- Parbleu, dit-il, j'ai
             bien du guignon, cette diable de femme se trouve par-tout.... Si je ne conaissais pas son honnêteté,
             ses principes, je croirais qu'elle venait ici pour son compte... Mais non, elle en est incapable,
@@ -1519,8 +1832,10 @@
             mari; elle saisit avidement l'occasion de se venger par quelques sarcasmes des scenes désagréables
             que lui avait faites cette belle prude. Elle promit de se trouver au déjeûner. Ils se séparerent. M.
             Rotondi et Nulsifrote gagnerent le logis, et attendirent patiemment qu'il plût aux dames de se
-            réveiller.</p>
-          <p>Madame de Lestal fut exacte, elle était arrivée, que les belles endormies étaient encore dans les
+            réveiller.
+     </p>
+     <p>
+      Madame de Lestal fut exacte, elle était arrivée, que les belles endormies étaient encore dans les
             bras l'une de l'autre. M. Rotondi riait de toutes ses forces d'un sommeil si profond, et pour faire
             une malice digne de son génie élevé, il gagna la femme de chambre de sa femme, pour qu'elle les
             introduise dans l'appartement avant le réveil Celle-ci n'était point dans la confidence, elle
@@ -1542,13 +1857,18 @@
             Walter s'écrie: Caroline! Madame de Lestal de son côté le reconnait, et nomme avec autant de
             surprise, Paulin! Un signe de ce jeune homme fait changer l'exclamation. -- C'est ma chere Pauline
             Il faut que je l'embrasse! Rotondi n'entendait rien à tout cela: il se contentait de rire. -- Ah?
-            <hi rend="italic">mademoiselle Pauline</hi>, disait-il, vous me paraissés charmante; mais d'honneur
+      <hi rend="italic">
+       mademoiselle Pauline
+      </hi>
+      , disait-il, vous me paraissés charmante; mais d'honneur
             je n'aurais jamais cru qu'il vous fut possible de préférer madame à moi. Madame Rotondi se remit
             facilement de son trouble, quand elle vit que madame de Lestal connaissait mademoiselle Pauline. On
             fit sortir les hommes pour se lever avec promesse de les rappeller quand il serait tems. alter donna
             ordre à Nulsifrote d'aller voir ce qui se passait à l'hôtel de l'Ambassadeur et de revenir lui en
-            rendre compte.</p>
-          <p>Dès qu'il furent sortis Waller saute à bas du lit et se jette dans les bras de la belle de
+            rendre compte.
+     </p>
+     <p>
+      Dès qu'il furent sortis Waller saute à bas du lit et se jette dans les bras de la belle de
             Lestal. -- Quoi, ma chere Caroline, c'est vous! dites-moi donc comment vous vous trouvés ici? -- Ah
             cruel... mais charmant Paulin, c'est vous seul qui en êtes cause. Le détail que vous me demandés
             serait trop long, mais j'espere vous voir chez moi, et là, je vous instruirai. Madame Rotondi la
@@ -1556,18 +1876,29 @@
             polites dissensions furent oubliées de part et d'autre et Valter habillé par ces deux charmantes
             femmes de chanbre se trouva en état d'achever le rôle qu'il avait si heureusement commencé. M.
             Rotondi fut introduit et le déjeûner fut des plus gais. L'épais financier fit milles agaciers à
-            <hi rend="italic">Pauline</hi>. Les plaisanteries sur la petite scene du matin ne finissaient point
-            et chacun, si l'on en excepte Caroline, en riait de bon cœur.</p>
-          <p>Après le déjeuner elle se chargea du Comte au grand regret de madame Rotondi qui eut bien voulu
+      <hi rend="italic">
+       Pauline
+      </hi>
+      . Les plaisanteries sur la petite scene du matin ne finissaient point
+            et chacun, si l'on en excepte Caroline, en riait de bon cœur.
+     </p>
+     <p>
+      Après le déjeuner elle se chargea du Comte au grand regret de madame Rotondi qui eut bien voulu
             le garder, mais il fallut bien le laisser aller pour engager au secret madame de Lestal. On se fit
             les adieux les plus tendres, et l'on se promit bien de se revoir au plutôt. Rotondi sur-tout voulait
             à toute force savoir l'adresse de Mademoiselle
-            <hi rend="italic">Pauline</hi>
-            pour aller lui présenter ses respects. On fut inflexible, on lui refusa cette grace.</p>
-          <p>Nulsifrote arriva au moment de la séparation. -- J'ai du nouveau à vous apprendre. J'apporte dans
+      <hi rend="italic">
+       Pauline
+      </hi>
+      pour aller lui présenter ses respects. On fut inflexible, on lui refusa cette grace.
+     </p>
+     <p>
+      Nulsifrote arriva au moment de la séparation. -- J'ai du nouveau à vous apprendre. J'apporte dans
             ce paquet vos habits Il faut sur le champ venir à l'hôtel. -- Il m'est impossible de m'habiller ici,
-            suis nous, je changerai chés Caroline. La voiture part, on arrive.</p>
-          <p>Nulsifrote lui apprend que des personnes débarquées pendant la nuit sont descendues à l'hôtel,
+            suis nous, je changerai chés Caroline. La voiture part, on arrive.
+     </p>
+     <p>
+      Nulsifrote lui apprend que des personnes débarquées pendant la nuit sont descendues à l'hôtel,
             qu'il ignore qui elles sont, mais que depuis leur arrivée le Baron et la Baronne sont fort en peine
             de lui et le font chercher par-tout, qu'il avait arrangé les choses pour le mieux en disant que le
             Comte était à un bal bourgeois où l'on le retenait malgré lui. Mademoiselle Agathe, ajoutait-il, que
@@ -1579,12 +1910,18 @@
             parlé, et se reprochant intérieurement l'incartade qu'il venait de faire si près de son Agathe, qui
             seul eut dû l'occuper. --Ah! mon Agathe, ditait-il, en soupirant, puisse celte offense être
             soustraite à ta connaissance! ce sera je le jure la derniere. Le fripon oubliait l'audience que
-            devait lui donner Caroline.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE III.</head>
-          <head>QUELLES ÉTAIENT LES PERSONNES DÉBARQUÉS. AVENTURES DE BARON DE WALTER.</head>
-          <p>À peine Walter fut-il arrivé que la Baronne sa mère lui fit dire de passer chés elle, qu'il était
+            devait lui donner Caroline.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE III.
+     </head>
+     <head>
+      QUELLES ÉTAIENT LES PERSONNES DÉBARQUÉS. AVENTURES DE BARON DE WALTER.
+     </head>
+     <p>
+      À peine Walter fut-il arrivé que la Baronne sa mère lui fit dire de passer chés elle, qu'il était
             intéressant pour lui de l'entretenir avant de voir le Baron. Il y court sur le champ; mais il
             rencontre son père qui lui ordonne d'un ton sérieux de le suivre dans son cabinet. -- Les folies
             d'un jeune homme bien né, dit le Baron, quand ils furent enfermés, sont quelque fois peu
@@ -1597,8 +1934,10 @@
             la belle Agathe. -- Mon fils, une étourderie de jeune homme influe souvent sur sa vie entiere. Une
             démarche équivoque que fait faire l'imprudence mène sans qu'on s'en apperçoive au vice, et du vice
             au crime. Je crois qu'il est encore possible de parer le coup que l'on veut vous porter. Parlés et
-            je verrai ce qu'il me reste à faire.</p>
-          <p>Valter raconta avec sa franchise ordinaire tout ce qui lui était arrivé depuis sa sortie du
+            je verrai ce qu'il me reste à faire.
+     </p>
+     <p>
+      Valter raconta avec sa franchise ordinaire tout ce qui lui était arrivé depuis sa sortie du
             collège. Il eut bien desiré omettre quelques particularités, sur-tout les plus récentes, mais son
             père avait exigé de la sincérité, il en avait promis, l'aventure du bal fut comme les autres
             racontée en son entier. Son père l'écouta attentivement sans l'interrompre et dès qu'il eut cessé,
@@ -1619,8 +1958,10 @@
             retour je vous ferai appeller, et je vous démontrerai par une action de ma vie, action qui en a
             empoisonné le cours et à laquelle j'ai attribué tous mes malheurs, je vous démontrerai, dis-je,
             quels chagrins sont la suite de ce que si légèromont vous appellés une plaisanterie. Allés,
-            Monsieur.</p>
-          <p>Walter se rendit aussi-tôt chés sa mère. Tu as vu le Baron? -- Oui, ma chère maman, je le quitte.
+            Monsieur.
+     </p>
+     <p>
+      Walter se rendit aussi-tôt chés sa mère. Tu as vu le Baron? -- Oui, ma chère maman, je le quitte.
             -- Je voulais te parlér auparavant ... mais n'importe ... tu parais triste! que l'a-t-il dit? --
             Madame, que c'est vous qui devés m'instruire d'un évènement ... -- A ta mère, mon Paulin, à ta mère,
             Madame? -- Belle et tendre maman! ... pardon. J'embrasse vos genoux. -- Ah! ce n'est pas-là ta
@@ -1649,8 +1990,10 @@
             civil et circonspect avec Madame de Buoani; ce sera chés moi que vous viendrés lui présenter vos
             respects ainsi qu'à la Princesse. On vint dire au Comte que le Baron l'attendait. Il embrasse sa
             mère, Madame de S ... et sort triste, les deux dames souriaient en le regardant aller. Il entra dans
-            le cabinet.</p>
-          <p>Avant de rien avancer pour votre justification, j'ai cru nécessaire de voir Caroline, je l'ai
+            le cabinet.
+     </p>
+     <p>
+      Avant de rien avancer pour votre justification, j'ai cru nécessaire de voir Caroline, je l'ai
             vue. Je suis content d'elle; sans que je l'exigeasse, elle m'a donné par écrit un désaveu formel des
             imputations faites contre vous. Elle s'engage de plus à soutenir que l'enlevement prétendu n'est
             qu'une imposture, et elle se réserve à dévoiler une trame ourdie contre vous, dans laquelle elle a
@@ -1661,8 +2004,10 @@
             n'a osé me confier, et j'exige de vous que ce soit votre derderniore ontrevue. Walter de crainte de
             se parjurer changea la conversation et pria son pere de ne plus retarder à lui apprendre les
             événemens de sa vie. --- Oui, mon fils, j'ai le tems avant dîner de faire ce que vous desirés de
-            moi. Si nous sommes interrompus, nous reprendrons le fil de ma narration dans un autre moment.</p>
-          <p>La maison de Walter est originaire d'Allemagne. Mes aveux se sont distingués au service de cette
+            moi. Si nous sommes interrompus, nous reprendrons le fil de ma narration dans un autre moment.
+     </p>
+     <p>
+      La maison de Walter est originaire d'Allemagne. Mes aveux se sont distingués au service de cette
             puissance. L'illustre maison d'Autriche en a élevé des membres aux postes les plus importans. Mon
             pere en voyageant en Angleterre fut épri des charmes de la belle Iglocestor. Il la rechercha et
             devînt son époux. Je fus le seul fruit de celle union. La famille de ma mere avait de tout tems été
@@ -1675,8 +2020,10 @@
             royaumes jusqu'à l'entier éclaircissement des soupçous qu'on avait sur son compte. Mon pere ne fit
             plus de démarches auprès du gouvernement anglais, mais il écrivit en Allemagne, la contrainte qu'on
             exorçait sur lui. Point de répouse: il semblait que tout l'univers tremblât à l'idée seule d'opposer
-            quelque résistance aux volontés de ces fiers insulaires. Il fallut prendre le parli de la patience.</p>
-          <p>Après quelques mois écoulés dans une tranquilité morne; un soir mon pere reçoit une lettre
+            quelque résistance aux volontés de ces fiers insulaires. Il fallut prendre le parli de la patience.
+     </p>
+     <p>
+      Après quelques mois écoulés dans une tranquilité morne; un soir mon pere reçoit une lettre
             anonyme; elle était conçue en ces larmes: luyés, le tems presse. Cette nuit même un cidre barbare
             vous arrache à vos foyers, et vous sépare peut-être pour jamais de votre femme et de votre fils.“
             Mon pere, trop instruit du sort que plusieurs seigneurs avaient éprouvé, ne négligea point cet avis.
@@ -1709,8 +2056,10 @@
             toutes mes volontés, on n'eût point eu à se repentir des soins qui me furent prodigués. J'apprenais
             facilement, et mon précepteur, qui s'inquiétait plus du soin de conserver sa place que de celui de
             faire un homme, comblait d'éloges et admirait jusqu'aux petits défauts que ma mere trouvait plus
-            amusans qu'inquiétans.</p>
-          <p>Un bon fermier, voisin du château, me recevait chez lui. J'y étais accueilli, fêté, je n'étais
+            amusans qu'inquiétans.
+     </p>
+     <p>
+      Un bon fermier, voisin du château, me recevait chez lui. J'y étais accueilli, fêté, je n'étais
             point distingué parmi ses enfans, mais autant chéri qu'eux: et la vanité, qu'enflaient de perfides
             leçons, semblaient être déposée au château, quand je m'acheminais vers la ferme. Ma mere voyait avec
             plaisir mes fréquentes visites chés son fermier. Il avait deux fils, et une fille appellée
@@ -1726,8 +2075,10 @@
             indignation et la rendrait injuste! C'est maintenant, mon fils, que vous allés frémir des malheurs
             que répand sur nos jours une passion terrible. Ecoutés, et quand vous connaîtrés les funestes effets
             des égaremens de la jeunesse. Vous respecterés sous le chaume, la vertu, l'innocence; elles habitent
-            rarement ailleurs.</p>
-          <p>Je passai trois ans loin de Victorine, et j'ose vous assurer que je ne passai pas un jour sans
+            rarement ailleurs.
+     </p>
+     <p>
+      Je passai trois ans loin de Victorine, et j'ose vous assurer que je ne passai pas un jour sans
             m'occuper d'elle. Enfin je revins au château avec le brevet de capitaine à la suite d'un régiment.
             Mes premiers pas en descendant de voiture furent dirigés vers la ferme. La premiere personne qui
             s'offrit à mes yeux fut ma Victorine. Que je la trouvai belle elle passait treize ans. Vous en faire
@@ -1756,8 +2107,10 @@
             où nous ne manquerions pas de nous prendre. Enfin nous nous y précipitâmes, et la malheureuse
             Victorine ne tarda pas à s'appercevoir qu'elle devenait mere. La mienne fit bientôt cette
             découverte, et sur le champ elle obtint une ordre pour me faire joindre mon régiment. Je refusai de
-            partir, on m'entraina escorté, et je ne pus même obtenir la faveur d'embrasser et de voir Victorine.</p>
-          <p>J'étais déjà parti, le désespoir dans l'âme, quand un laboureur voisin du pere de Victorine vint
+            partir, on m'entraina escorté, et je ne pus même obtenir la faveur d'embrasser et de voir Victorine.
+     </p>
+     <p>
+      J'étais déjà parti, le désespoir dans l'âme, quand un laboureur voisin du pere de Victorine vint
             la demander en mariage. A cette nouvelle, ma mère se présente, offre une dot, et confie à ses parens
             en quel état était Victorine. Son respectable père jette sur la Baronne un regard indigné et lui
             dit: gardés votre or, Madame, il ne me servira jamais à tromper personne. J'avais donné ma parole,
@@ -1778,14 +2131,22 @@
             exactes perquisitions de Victorine et de son enfant, mais elles ont toujours été vaines. Un de ses
             frères, qui a survéeu aux maux qui accablerent sa famille, m'en a fait le récit douloureux, il a
             joui de mes bienfaits jusqu'au moment que la mort vint le frapper. Mais les bienſaits que je lui ai
-            prodigués sont-ils un dédomagement comparable aux maux qu'une famille entiere a soufferts pour moi?</p>
-          <p>Il allait poursuivre quand on vint les prier de passer chés Madame de S ... Le père et le fils
-            s'y rendrent. Suivons Valter auprès de ses anciennes connaissances.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE IV.</head>
-          <head>EXPLICATION QUI CAUSE UNE NOUVELLE DISGRACE.</head>
-          <p>Walter entre avec son père, il salue respectueusement les dames, on se met à table. On ne dit pas
+            prodigués sont-ils un dédomagement comparable aux maux qu'une famille entiere a soufferts pour moi?
+     </p>
+     <p>
+      Il allait poursuivre quand on vint les prier de passer chés Madame de S ... Le père et le fils
+            s'y rendrent. Suivons Valter auprès de ses anciennes connaissances.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE IV.
+     </head>
+     <head>
+      EXPLICATION QUI CAUSE UNE NOUVELLE DISGRACE.
+     </head>
+     <p>
+      Walter entre avec son père, il salue respectueusement les dames, on se met à table. On ne dit pas
             un mot des affaires dont il était question. Madame de Buoani, toujours jolie, lançait, par
             intervalle sur Walter, des regards qui ne décelaient pas une ennemie. La Princesse lui souriait avec
             bonté. Le Baron était grave, son épouse inquiete, Madame de S... paraissait piquée, son mari avait
@@ -1799,8 +2160,10 @@
             assis l'un près de l'autre, Caroline avait beaucoup de peine à contenir Walter. Tenés donc au moins
             votre parole jusqu'à la fin de mon récit. -- Tu es charmante, j'y consens. Mais qu'il soit court.
             Donne-moi un baiser, et je t'écoute sans bouger. Le baiser accordé, trois autres volés, Caroline
-            commence ainsi.</p>
-          <p>A l'instant où nous fûmes surpris dans le jardin, vous savés que je gagnai ma chambre. A peine
+            commence ainsi.
+     </p>
+     <p>
+      A l'instant où nous fûmes surpris dans le jardin, vous savés que je gagnai ma chambre. A peine
             m'y trouvai-je seule que je m'abandonnai à la douleur; vous pouvés juger de l'inquiétude que me
             eausait cette aventure. Le lendemain je comptais sur les reproches de mon père et sur-tout de ma
             mère, je me trompai, on ne me parla point de ma faiblesse; et je fus traitée avec une douceur qui me
@@ -1819,8 +2182,10 @@
             votre femme si je voulais la seconder. Les moyens qu'elle voulut me faire adopter ne s'accordaient
             pas avec mon cœur. Il ne s'agissait rien moins que de faire une plainte de séduction. Je le promis
             cependant, car un refus m'eut peul-être plongée dans le plus grand embarras. Il ne s'agissait plus
-            que de découvrir ce que vous étiés devenu.</p>
-          <p>M. la Fleur me trouvait à son gré, il osa me le dire, et c'est par lui que j'appris le motif du
+            que de découvrir ce que vous étiés devenu.
+     </p>
+     <p>
+      M. la Fleur me trouvait à son gré, il osa me le dire, et c'est par lui que j'appris le motif du
             grand intérèt que prenait à mon sort Madame de Buonni. Il me parlait souvent du boudoir, d'un
             superbe sopha, il me le fit voir et si je l'eusse écoulé, j'eusse joué le rôle de sa maîtresse, et
             lui le vôtre. Cet amour, qui dans les premiers tems ne me causait que peu d'ombrage, s'accrut à tel
@@ -1864,8 +2229,10 @@
             Caroline, je ne suis venu ici que pour travailler à la justification de M. le Comte sur les
             accusations de rapt et de séduction, vous voyés qu'on ne peut mieux procéder aux preuves de son
             innocence. Je vous cede maintenant ma place, il est de notre sort de nous succéder l'une à l'autre.
-            A votre tour; adieu.</p>
-          <p>Quand madame de Buoani fut seule avec Walter, elle lui dit: je ne m'attendais pas..... Un baiser
+            A votre tour; adieu.
+     </p>
+     <p>
+      Quand madame de Buoani fut seule avec Walter, elle lui dit: je ne m'attendais pas..... Un baiser
             sur sa bouche l'empêcha de poursuivre. -- Méchant! lui ditelle, ne crains point mes reproches. Maîs
             as tu pu croire que je le poursuivais pour te donner à cette créature. La Fleur m'a assurée que ſu
             l'avais enlevée. Ta conduite n'était-elle pas pour moi un outrage sauglant, n'assurait-elle pas mes
@@ -1900,28 +2267,44 @@
             mille livres, et un brevet de Colonel au senvice de France. Quand vous serés plus digne de ma
             confiance vous saurés la suite des malheurs de votre pere. Ce qui lui arrive aujourd'hui, lui prouve
             que le plus grand de tous est d'avoir un fils qui vous ressemble, Partés sur le champ, volre valet
-            vous attend avec des chevaux.</p>
-          <p>Walter anéanti se leve sans dire un seul mot, il descend et n'ose pas même regarder les fenêtres
+            vous attend avec des chevaux.
+     </p>
+     <p>
+      Walter anéanti se leve sans dire un seul mot, il descend et n'ose pas même regarder les fenêtres
             de l'hôtel, il monte à cheval, part en poussant un profond soupil. Nulsifrote le suit, ils sortent
             de la ville. --Je suis perdu, disait Walter! malheureux! lu pars sans embrasser ta more!... tu pars
             après avoir plongé le poignard dans le sein de la charmante Agathe.... La voir!.. qui? moi!....
             pouraisje soutenir sa présence? c'en est fait. Je la perds pour la vie. Nulsifrote le consolait du
             mieux qu'il pouvait, mais soins superflus! La sombre mélancolie s'empara de son ame. Nous verrons
             dans la suite s'il a sçu profiler des leçons de l'expérience, et si la raison ne triomphera point
-            des passions, et ne fera pas taire le tumultueux langage des sens.</p>
-          <trailer>FIN DE LA TROISIEME PARTIE.</trailer>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head>PAULIN OU LES AVENTURES DU COMTE DE WALTER.</head>
-          <head>QUATRIEME PARTIE.</head>
-          <head>CHAPITRE PREMIER.</head>
-          <head>OU L'ON RETROUVE QUELQU'UN A QUI L'ON NE PENSE PLUS.</head>
-          <p>Walter était rentré en France le cœur plein de sa disgrace. -- C'en est donc fait, disait-il,
+            des passions, et ne fera pas taire le tumultueux langage des sens.
+     </p>
+     <trailer>
+      FIN DE LA TROISIEME PARTIE.
+     </trailer>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      PAULIN OU LES AVENTURES DU COMTE DE WALTER.
+     </head>
+     <head>
+      QUATRIEME PARTIE.
+     </head>
+     <head>
+      CHAPITRE PREMIER.
+     </head>
+     <head>
+      OU L'ON RETROUVE QUELQU'UN A QUI L'ON NE PENSE PLUS.
+     </head>
+     <p>
+      Walter était rentré en France le cœur plein de sa disgrace. -- C'en est donc fait, disait-il,
             j'ai perdu tout ce qui m'étai cher, j'ai offensé la nature, j'ai outragé l'amour ... chere Agathe!
-            ... jamais, non jamais tu ne me pardonneras.</p>
-          <p>Son régiment était en garnison à Besançon, il s'y rend. Les portes de la ville étaient fermées à
+            ... jamais, non jamais tu ne me pardonneras.
+     </p>
+     <p>
+      Son régiment était en garnison à Besançon, il s'y rend. Les portes de la ville étaient fermées à
             son arrivée; au nom de Walter le Commandant de la place les fait ouvrir. Il faisait nuit, il ne fit
             point attention à l'uniforme de la garde de la porte, son insouciance était si forte qu'il n'avait
             pas même jetté les yeux sur son brevet. Il n'avait pas plus pensé à remercier le Ministre, et l'idée
@@ -1936,26 +2319,34 @@
             vous êtes fort surpris, et sans doute vous devés l'ôtre. Il en est parmi vous qui m'ont donné
             quelques sujets de plainte par leur injustice, je l'oublie et vous invite avec tout le corps de MM.
             les officiers, à dîner demain avec moi. Je veux qu'une parfaite réconciliation nous fasse ensevelir
-            éternellement dans l'oubli, vos persécutions injustes, et le ressentiment que je devrais en avoir.</p>
-          <p>La nouvelle se répandit bientôt dans le régiment que le Comte de Walter était ce même Belleval
+            éternellement dans l'oubli, vos persécutions injustes, et le ressentiment que je devrais en avoir.
+     </p>
+     <p>
+      La nouvelle se répandit bientôt dans le régiment que le Comte de Walter était ce même Belleval
             qu'on avait si maltraité. Le soldat était enchanté, il connaissait la douceur du nouveau Colonel, il
             l'avait connu dans un rang inférieur, et personne n'apprécie mieux que lui les qualités d'un
             officier. Ceux qui avaient quelques reproches à se faire craignaient le ressentiment de Walter, mais
             il ne leur donna jamais sujet de se souvenir de ce qu'ils lui avaient fait. Bientôt il fut
-            généralement aimé.</p>
-          <p>Nulsifrote que l'accueil de son maître avait surpris, lui demandait d'un air émerveillé, si
-            c'était ainsi qu'il se vengeait. >Oui, lui répondait-il, c'est ainsi que doit se venger un brave
+            généralement aimé.
+     </p>
+     <p>
+      Nulsifrote que l'accueil de son maître avait surpris, lui demandait d'un air émerveillé, si
+            c'était ainsi qu'il se vengeait. &gt;Oui, lui répondait-il, c'est ainsi que doit se venger un brave
             homme: la vengeance irrite le coupable quoiqu'il ait mérité son sort; les bienfaits au contraire
             font quelquefois dos ingrats, mais les forcent à l'admiration et au respect. -- Monsieur, je suis
             forcé de convenir que vous valés mieux que moi. Quand j'en veux à un ennemi, je me bats avec lui, je
             le tue si je peux, et après cela j'ai des regrets.... oh! votre façon d'agir ne laisse dans le ceur
-            que de la satisfaction.</p>
-          <p>Le Baron était rentré en France, il habitait un château en Picardie provenant des biens de sa
+            que de la satisfaction.
+     </p>
+     <p>
+      Le Baron était rentré en France, il habitait un château en Picardie provenant des biens de sa
             femme. Monsieur el madame de S... y étaient aussi avec Agathe; soit que M. de S.. eût été rappellé
             de son ambassade, soit qu'il fut revenu en France pour ses affaires, c'est ce que nous lgnorons et
             dont nous nous meltons fort peu en peine. Walter leur écrivait, toujours s'informant d'Agathe, mais
-            le Baron qui seul lui répondait, était muet sur cet article.</p>
-          <p>Un jour Walter suivi de Nulsifrote, venait d'exercer son régiment, il passe devant une auberge où
+            le Baron qui seul lui répondait, était muet sur cet article.
+     </p>
+     <p>
+      Un jour Walter suivi de Nulsifrote, venait d'exercer son régiment, il passe devant une auberge où
             l'on poussait des cris, et où il semblait qu'il y avait un vacarme effroyable. Sa générosité, de
             l'amitié du soldat avait gagné l'estime du bourgeois, il pouvait, sans crainte d'être repoussé,
             faire des représentations dans celte classe comme dans l'autre. -- Va, dit-il à Nulsifrote, voir ce
@@ -1995,8 +2386,11 @@
             m'appartinssent, tout avait été vendu, et la vente avait été annoncée après décês. Si j'eusse réussi
             dans mon opération, ma fortune élait faite, la marque honorable et distinetive du courage m'eût
             peut-être été prodiguée;
-            <hi rend="italic">car vous n'ignorés pas que plusieurs de mes anciens compagnons d'eploits en ont
-              acquis à pareil prise</hi>.
+      <hi rend="italic">
+       car vous n'ignorés pas que plusieurs de mes anciens compagnons d'eploits en ont
+              acquis à pareil prise
+      </hi>
+      .
             Puisqu'on voulait que je fusse mort, j'al cru plus sage de ne point dire que j'étais vivant, car on
             m'eût peut-être encore puni de ce crime. Dans l'impossibilité où je me trouvais de me faire rendre
             juslice, je ſus contraint de m'engager, pour ne pas périr de faim. -- Connaitriés vous bien, si vous
@@ -2008,24 +2402,33 @@
             frapper. C'est une femme, souvenés vous que notre sexe ne se distingue de l'autre que par le respect
             et les égards qu'il lui doit, de quelque faute même qu'il se rende coupable. Avant deux mois vous
             serés officier. Je monterai votr maison, en attendant voilà les quinze louis que Golhon vous a
-            volés, je vous conseille de ne pas les exposer à un pareil jeu.</p>
-          <p>
-            L'exempt manquait de termes pour prouver sa reconnaissance. Un procédé si noble touchait son âme.
+            volés, je vous conseille de ne pas les exposer à un pareil jeu.
+     </p>
+     <p>
+      L'exempt manquait de termes pour prouver sa reconnaissance. Un procédé si noble touchait son âme.
             Valter lui tint parole et cette aventure fit autant d'honneur au Colonel que de plaisir à l'exempt
             qui oublia bientôt toutes ses pertes dans un poste plus honorable que celui qu'il exerçait au
-            paravant.</p>
-          <p>Nulsifrote enchanté d'avoir rencontré sa sœur à Besançon partageait ses momens de loisir entre sa
+            paravant.
+     </p>
+     <p>
+      Nulsifrote enchanté d'avoir rencontré sa sœur à Besançon partageait ses momens de loisir entre sa
             table et sa cave. Valle eut été heureux si le souvenir de ses fautes n'eut altéré la joie qu'il
             ressentait à faire de bonnes actions. Une lettre qu'il reçut de son père acheva de le désespérer. Il
             lui mandait qu'Agathe allait épouser le Marquis de Benezin, que les paroles étaient donées, et que
             ce mariage, que le Roi approuvait, était prêt à se conclure. Valter sans autre réfléxion, ordonne
             qu'on lui prépare dos chevaux de poste. Il monte en chaise, Nulsifrote sur son bidet, et tous deux
-            prennent la route de Vensailles.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE II.</head>
-          <head>LE PRIEURE, LE DUEL.</head>
-          <p>LEs postillons bien payés faisaient brûler le pavé à leurs chevaux. Entre Langres et Chaumont
+            prennent la route de Vensailles.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE II.
+     </head>
+     <head>
+      LE PRIEURE, LE DUEL.
+     </head>
+     <p>
+      LEs postillons bien payés faisaient brûler le pavé à leurs chevaux. Entre Langres et Chaumont
             l'essieu de la voiture se brise, éloigné de plus d'une lieue d'un village, on était forcé d'attendre
             pour réparer ce malheur. Valter outré de dépit de ce contretems aurait pris le cheval de Nulsifrote,
             s'il eut été présent, mais la diligence que l'on laisait le contraignait de gagner toujours en avant
@@ -2048,8 +2451,10 @@
             On vint l'avertir que sa voilure était prête quand le bon Principal lui demandait quel était le
             sujet de son voyage, il lui promit de le satisfaire à son retour, mais lui dit-il, je ne puis
             m'arrêter plus long-tems. On lui recommande de ne point manquer de venir au Prieuré en repassant, il
-            ombrassa son ami et gagnant promplement sa voiture il monte et fouette postillon.</p>
-          <p>Il arrive à Paris, et Nulsifrote qu'il avait chargé de s'infomer de la demeure du Marquis de
+            ombrassa son ami et gagnant promplement sa voiture il monte et fouette postillon.
+     </p>
+     <p>
+      Il arrive à Paris, et Nulsifrote qu'il avait chargé de s'infomer de la demeure du Marquis de
             lenezin vint lui rendre réponse à l'hôtel des princes où il était descendu, c'est-à-dire, sans le
             savoir, tout près de celui de M. de S ... père de la belle Agathe. -- A peine descendu de voiture,
             sans monter à son appartement, il vole chés le Marquis. Il était chés lui. Un laquais lui demande
@@ -2064,8 +2469,10 @@
             champ, au bois de Boulogne, l'épée et des pistolets. Ma voiture m'attend, je n'ai qu'un domestique,
             prenés le vôtre, et montons ensemble: -- Volontiers, monsieur, je vous suis. Après avoir doné
             quelques ordres, le Marquis de Benezin et Valter montent en voiture, et se rendent au bois de
-            Boulogne.</p>
-          <p>Arrivés-là, il fut décidé qu'on commencerait le combat du pistolet. Valter tire, la balle siffle
+            Boulogne.
+     </p>
+     <p>
+      Arrivés-là, il fut décidé qu'on commencerait le combat du pistolet. Valter tire, la balle siffle
             aux oreilles du Marquis, sans l'atteindre. Il tire à son tour, la balle effleure l'épaule de Valter,
             le sang coule; le Marquis le croyant plus dangereusement blessé, lui demande s'il est content. -- Je
             ne puis l'être qu'en perdant la vie, ou en vous l'arrachant. En disant ces mots, il saute sur son
@@ -2098,8 +2505,10 @@
             -- Ah! madame, vous m'éclairés...lairés... oui, ce bonheur ne serait point assés payé de tout mon
             sang... -- ce n'est pas-là le prix que nous y attachions, votre repentir seul eut tout effacé.
             Tranquillisés vous, nous allons travailler à réparer le mal que vous avés fait. Je cours chés le
-            Baron.</p>
-          <p>Valter était au comble du bonheur de savoir qu'Agathe l'aimait toujours, il n'en pouvait douter.
+            Baron.
+     </p>
+     <p>
+      Valter était au comble du bonheur de savoir qu'Agathe l'aimait toujours, il n'en pouvait douter.
             Mais ce qu'on venait de lui rappeller l'empêchait de se livrer à l'espoir de la posséder de sitôt.
             Il y avait encore un an d'épreuves. Ce terme est bien long pour des amans: qui sait d'ailleurs si
             l'on ne prolongera pas encore ce terme heureux. Il était seul, bientôt la Baronne instruite du
@@ -2108,21 +2517,31 @@
             rapport des chirurgiens n'en pouvait échapper. Il était nécessaire d'assoupir cette affaire, et
             c'étoit-là le but de leur voyage à la Cour. Laissons-les solliciter les bontés du Prinee, et
             revenons à Valter, dont les qualités du cœur se perfectionnent de jour on jour, et à qui son
-            imprudence vient de donner une nouvelle et forte leçon.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE III.</head>
-          <head>NOUVEAU TRAIT QUI CARACTERISE NOTRE HERO.</head>
-          <p>Walter se rétablissait de jour en jour. A peine fut-il en état de soutenir le voyage que son pere
+            imprudence vient de donner une nouvelle et forte leçon.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE III.
+     </head>
+     <head>
+      NOUVEAU TRAIT QUI CARACTERISE NOTRE HERO.
+     </head>
+     <p>
+      Walter se rétablissait de jour en jour. A peine fut-il en état de soutenir le voyage que son pere
             lui signifia l'ordre de rejoindre au plutôt son régiment. Malgré les prières de sa more, et les
             représentations d'Agathe qui, toutes deux ne le jugeaient pas capable de soutenir la voiture, il
-            fallut partir. Le Baron fut inflexible; nous pourrons mieux, disait-il, travailler pour lui.</p>
-          <p>La santé du Marquis de Benezin élait dans une situation bien différenle de cello de Valter, son
+            fallut partir. Le Baron fut inflexible; nous pourrons mieux, disait-il, travailler pour lui.
+     </p>
+     <p>
+      La santé du Marquis de Benezin élait dans une situation bien différenle de cello de Valter, son
             mal empirait, et la crainte de sa mort était ce qui déterminait le Baron à presser le départ de son
             fils. Si les poursuites, disait - il sont trop vives je vous enverrai un courier, et vous passerés
             en Suisse. Voilà, monsieur, à quoi nous expose un caractere violent, et c'est la débauche seule qui
-            le forme ainsi.</p>
-          <p>Valter se remit donc en route, et le voyage, loin de lui nuire, produisit en lui un effet tout
+            le forme ainsi.
+     </p>
+     <p>
+      Valter se remit donc en route, et le voyage, loin de lui nuire, produisit en lui un effet tout
             contraire. Il passa au Prieuré où il vit le Principal, à qui il fit confidence de son malheur. -- Et
             c'est pour une telle action que vous aviés lant d'empressemont? vous ne m'en avés rien dit? M. le
             Comte, si vous m'eussiés ouvert votre cœur, je me flatte que vous n'eussiés point accompli l'œuvre
@@ -2132,8 +2551,10 @@
             mes regrets! si vous saviés ce que peut faire commettre l'amour!.... Après lui avoir remontré avec
             douceur les devoirs de l'homme raisonnable, le bon Prieur fut contraint de le consoler. Ils se
             séparerent et Valleu arriva à Besançon. La jole que firont éclater et les officiers et les soldats
-            le flatta peu. Son cœur était trop ulcéré pour la partager.</p>
-          <p>Le même jour de son arrivée, une femme agée d'environ quarante ans vint se présenter pour lui
+            le flatta peu. Son cœur était trop ulcéré pour la partager.
+     </p>
+     <p>
+      Le même jour de son arrivée, une femme agée d'environ quarante ans vint se présenter pour lui
             parler. Il ne voulait recevoir personne, cependant quand on lui dit que cette femme venait lui
             demander une grâce, il ordonna qu'on la fit entrer sur le champ. Ille était maigre, pâle, mais on
             voyait à ses taits que les chagrins seuls avaient altéré sa beauté. Elle entre et veut se jetter aux
@@ -2178,8 +2599,10 @@
             père en Allemagne sera la propriété de mon frère. Qu'il vienne partager avec moi la pension que me
             fait mon père Je ne veux rien posséder dont il ne jouisse de la moitié ... je sais qu'elles ont été
             vos pertes ... c'est à moi à réparer les injustices de ma grand-mère. Victorine ne pouvait répondre
-            que par des larmes. Son cœur était trop plein pour qu'elle pût s'exprimer autrement.</p>
-          <p>Walter avait donné ordre à Nulsifrote d'amener Firmin. Le bon jeune homme crut que, son Colonel
+            que par des larmes. Son cœur était trop plein pour qu'elle pût s'exprimer autrement.
+     </p>
+     <p>
+      Walter avait donné ordre à Nulsifrote d'amener Firmin. Le bon jeune homme crut que, son Colonel
             insensible aux larmes de sa mère, voulait le perdre. Il marchait en silence et tremblait de
             l'approcher. Il entre et voit sa mère baignée de larmes Ah! s'écrie-t-il, je pressentais notre
             malheur ... ce nom cruel sera funeste à toute notre famille. -- Malheureux! que dis-tu? tombe aux
@@ -2189,16 +2612,22 @@
             sa mère lui dévoila ce secret qu'elle avait jusqu'alors renfermé dans son sein. Cet aveu
             attendrissant touche à la fois trois cœurs faits pour s'entendre. Les embrassemens, les soupirs, les
             pleurs que la joie faisait couler formaient ce mélodieux concert de l'âme qui attendrit le cœur le
-            plus féroce.</p>
-          <p>Valter fait disposer sa maison pour recevoir sous le même toît ces doux personnes si chères à son
+            plus féroce.
+     </p>
+     <p>
+      Valter fait disposer sa maison pour recevoir sous le même toît ces doux personnes si chères à son
             cœur. Il écrit sur le champ à son père. Comme son cœur palpitait en écrivant le détail de la scène
-            qui venait de se passer chés lui!</p>
-          <p>On venait de porter sa lettre à la poste, quand un courier vint lui en remettre une du Baron. Il
+            qui venait de se passer chés lui!
+     </p>
+     <p>
+      On venait de porter sa lettre à la poste, quand un courier vint lui en remettre une du Baron. Il
             la décachete devant ses nouveaux amis: en voiei le contenu. Le Mar quis de Benezin n'est plus, le
             Rol est distpuit de tous les détails de votre affaire, il est courroucé, sur-tout après le refus
             qu'a essuyé le Marquis, que vous ayés osé attaquer un homme déjà outragé par ce refus. L'ordre est
-            donné pour vous arrêter. Fuyés promptement, vous m'écrirés quand vous serés en lieu de sûreté.</p>
-          <p>Nulsifrote selle promptement des chevaux. Firmin veut accompagner Walter, tous deux allaient
+            donné pour vous arrêter. Fuyés promptement, vous m'écrirés quand vous serés en lieu de sûreté.
+     </p>
+     <p>
+      Nulsifrote selle promptement des chevaux. Firmin veut accompagner Walter, tous deux allaient
             monter à cheval, le Gouverneur entre. -- M. le Comte, il m'en coûte d'être auprès de vous porteur
             d'une mauvaise nouvelle; mais je suis chargé de la part du Roi de vous arrêter et de vous faire
             conduire au château de Vincennes. L'ordre est précis, aucun délai ne vous est accordé. Cependant
@@ -2206,20 +2635,30 @@
             vos dépêches et vos adieux, et sur votre parole d'honneur la ville sera votre prison jusqu'à demain
             matin. Valter le remercia de la faveur qu'il lui accordait et mit sur le champ la main à la plume
             pour instruire son père. Il reçut tous les officiers de son régiment à qui il fit ses adieux, et le
-            lendemain matin, escorté par des cavaliers, il se rendit au fatal domicile qu'on lui avait désigné.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE IV.</head>
-          <head>SITUATION DES DIFFERENS PERSONNAGES DE CETTE HISTOIRE.</head>
-          <p>Walter arrivé au donjon de Vin cennes lut reçu par le Gouvorneur de la même manière que ces
+            lendemain matin, escorté par des cavaliers, il se rendit au fatal domicile qu'on lui avait désigné.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE IV.
+     </head>
+     <head>
+      SITUATION DES DIFFERENS PERSONNAGES DE CETTE HISTOIRE.
+     </head>
+     <p>
+      Walter arrivé au donjon de Vin cennes lut reçu par le Gouvorneur de la même manière que ces
             Messieurs ont coutume de recevoir un homme disgracié. On lui ôta ses armes, son argent, et
             Nulsifrote, qui l'avait accompagné, fut renvoyé. Le maître eut beau prier qu'on lui laissat cette
             société, on n'y fit aucune attention. Le valet eut beau jurer, tempêter, on ne l'écouta point, il
-            quitta le Comte en jurant tout bas qu'il le retirerait bientôt de-là.</p>
-          <p>Valter fut enfermé dans une chambre assés bien éclairée. Sa fenêtre était large, mais garnie de
+            quitta le Comte en jurant tout bas qu'il le retirerait bientôt de-là.
+     </p>
+     <p>
+      Valter fut enfermé dans une chambre assés bien éclairée. Sa fenêtre était large, mais garnie de
             doubles barreaux de fer. Livré à ses réflexions, sans société, sans livres, c'est ainsi que le
-            pauvre Comte fut contraint de rester en attendant qu'il plaise à la providence de le délivrer.</p>
-          <p>Victorine et Firmin qui avaient été témoins du malheur de leur ami, étaient restés dans sa
+            pauvre Comte fut contraint de rester en attendant qu'il plaise à la providence de le délivrer.
+     </p>
+     <p>
+      Victorine et Firmin qui avaient été témoins du malheur de leur ami, étaient restés dans sa
             maison. Ils n'étaient qu'inparfaitement instrults de l'affaire de Valler: ils s'en entretenaient
             sans cesse. Enin une lettre du Baron les retirent de l'apathie dans laquelle ils étaient plongés.
             Ils partent pour Paris. Victorine revoit l'objet de sa tendresse. Le Baron embrassant ses genoux,
@@ -2228,8 +2667,10 @@
             le cœur de Vietorine et celui de la Baronne, elles deviennent inséparables. Le Baron attend pour
             prononcer sur le sort de Firmin que son fils soit libre. Il a assés de confiance en lui pour lui
             proposer son projet, et ce projet était le même que Paulin avait conçu. Firmin, selon le desir de
-            son père donna sa démission de quartier maître. Un autre emploi lui était destiné.</p>
-          <p>Nulsifrote ne tarda pas à venir mêler sa douleur à celle que ressentait cette famille de la
+            son père donna sa démission de quartier maître. Un autre emploi lui était destiné.
+     </p>
+     <p>
+      Nulsifrote ne tarda pas à venir mêler sa douleur à celle que ressentait cette famille de la
             privation de celui qui en devait faire toutes les délices. Il fut décidé qu'il servirait l'irmin
             jusqu'au retour de son maître Quand ils furent seuls, F'irmin lni dit: vous aimiés M. le Comte. --
             Oui, Monsieur, je l'aimais et je le chérirai toute ma vie. -- Eh bien, cherchons ensemble quelques
@@ -2238,17 +2679,23 @@
             Monsieur, le ciel nous inspirera à l'un ou à l'autre quelque bonne idée, réfléchissons y séparément.
             -- C'est bien dit, Nulsifrote, je te promets de ne pas sommeiller une nuit tranquillement qu'il ne
             soit délivré. -- Et moi, je promets de ne pas boire.. je ne promets rien, mais j'agirai.
-            Laissons-les réfléchir pour fixer un instant notre attention sur Agathe.</p>
-          <p>Elle savait que son amant élait prisonnier, elle s e reprochail d'en être la cause.Mais le Baron,
+            Laissons-les réfléchir pour fixer un instant notre attention sur Agathe.
+     </p>
+     <p>
+      Elle savait que son amant élait prisonnier, elle s e reprochail d'en être la cause.Mais le Baron,
             disait-elle souvent à sa mère, devait-il avancer que mon père avait donné sa parole au Marquis de
             Bonezin puisqu'elle était engagée avec lui à Gênes... Elle ne put prononcer le nom de cette ville
             sans rougir, elle lui rappellait un évènement dont le souvenir blessait son cœur ... Mais son amant
             était malheureux, il l'était par un excès d'amour, par sa tendresse pour elle, ses faules étaient
-            toutes oubliées.</p>
-          <p>Nulsifrote se remuait de son mieux pour trouver quelqu'un qui s'interessât au sort de son maître.
+            toutes oubliées.
+     </p>
+     <p>
+      Nulsifrote se remuait de son mieux pour trouver quelqu'un qui s'interessât au sort de son maître.
             Firmin de son côté s'agitait pour la même cause. Toutes leurs démarches eussent été sans fruit sans
-            un évènement qui donna une nouvelle face aux affaires.</p>
-          <p>Firmin et Nulsifrote se promenant dans l'allée des Tuileries rencontrerent une Dame dont les
+            un évènement qui donna une nouvelle face aux affaires.
+     </p>
+     <p>
+      Firmin et Nulsifrote se promenant dans l'allée des Tuileries rencontrerent une Dame dont les
             traits fixaient l'attention des admirateurs du beau sexe. -- Je connais ce joli minois-là, dit
             Nulslfrote, c'est ... parbleu! je ne me trompe pas, c'est Madame de Buoani. Cette Dame entend son
             nom, se retourne et reconnoissant Nulsifrote, elle lui demande s'il n'est plus au service de Valler.
@@ -2259,8 +2706,10 @@
             n'est pas religieusement gardé jusqu'au terme que je prescrirai, je le replonge dans les cachots. On
             lui jura qu'on ne commettrait point d'indiserétion; Firmin et son laquais se livraient aux douces
             impressions de la joie comme s'ils eussent déjà vu l'objet de leur attachement. On se sépara dans la
-            ferme résolution de se voir le lendemain.</p>
-          <p>Je crois avoir dit que Valter avait dans sa chambre une plus grande fenêtre qu'on a coutume d'en
+            ferme résolution de se voir le lendemain.
+     </p>
+     <p>
+      Je crois avoir dit que Valter avait dans sa chambre une plus grande fenêtre qu'on a coutume d'en
             voir dans ces sombres repaires. Le Gouverneur allait de tems à autre lui rendre visile, mais sans
             lui donner un mot d'instruclion sur son sort Un jour qu'il sortait de sa chambre, Valter, toujours
             plus triste après ses visites, avait ce même jour reçu une faveur qui lui rendait un peu sa gaieté
@@ -2270,46 +2719,105 @@
             troisieme couplet aux deux qu'avait faits Valter. Avant de la commencer il soupire et dit: Agathe,
             ma chere Agathe, quand je chantais près de toi mes deux couplets, tu me répondais toujours par le
             troisieme. Aujourd'hui l'écho soul do ces voûtes ténébreuses va répondre à ma voix..... N'importe,
-            je m'occupe de toi, puisses-tu m'imiter!</p>
-          <p>On verra peut-être avec plaisir cette romance, la voici.</p>
-          <p>
-            <quote>
-              <p>ROMANCE
-                <ref target="#N03"/>.</p>
-              <l>C'est dans tes yeux, tendre objet de</l>
-              <l>Ma flamme,</l>
-              <l>Que ton Paulin pour la premiere fois</l>
-              <l>Puisa le feu qui dévore son ame.</l>
-              <l>Dès ce moment l'amour fixa son choix,</l>
-              <l>Il connut le bonheur suprême</l>
-              <l>Quand il crut lire dans tes yeux,</l>
-              <l>Ce mot inventé par les Dieux,</l>
-              <l>Ce mol enchanteur, je vous aime.</l>
-              <l>Ce même jour sur tes lèvres de rose</l>
-              <l>Je dérobai le plus tendre baiser....</l>
-              <l>C'est vainement que la bouche mi-close</l>
-              <l>Allait s'ouvrir pour me le refuser....</l>
-              <l>J'osi dans mon ardeur extrême</l>
-              <l>Poser ma bouche sur ton sein,</l>
-              <l>Malgré le geste de ta main</l>
-              <l>La tienne prononça, je t'aime.</l>
-            </quote>
-          </p>
-          <p>Valter chantait avouë tout ell'énergie du sentiment. Qu'elle fut sa surprise d'entendre chanter
-            par une voix inconnue le couplet suivant.</p>
-          <p>
-            <quote>
-              <l>Il me souvient du moment plein de charmes</l>
-              <l>Où dans tes yeux je vis briller l'amour.</l>
-              <l>Mais, cher Paulin, il m'arracha des larmes</l>
-              <l>Quand, loin de toi, j'attendais ton retour.</l>
-              <l>Pour goûter le bonheur suprême</l>
-              <l>Agathe oubliera des forfaits</l>
-              <l>Qu'amour ne pardonne jamais</l>
-              <l>Qu'à l'amant qui dit, je vous aime.</l>
-            </quote>
-          </p>
-          <p>Walter s'élance à la fenêtre, les fatals barreaux lui dérobent la vue de celle qui chantait.
+            je m'occupe de toi, puisses-tu m'imiter!
+     </p>
+     <p>
+      On verra peut-être avec plaisir cette romance, la voici.
+     </p>
+     <p>
+      <quote>
+       <p>
+        ROMANCE
+        <ref target="#N03"/>
+        .
+       </p>
+       <l>
+        C'est dans tes yeux, tendre objet de
+       </l>
+       <l>
+        Ma flamme,
+       </l>
+       <l>
+        Que ton Paulin pour la premiere fois
+       </l>
+       <l>
+        Puisa le feu qui dévore son ame.
+       </l>
+       <l>
+        Dès ce moment l'amour fixa son choix,
+       </l>
+       <l>
+        Il connut le bonheur suprême
+       </l>
+       <l>
+        Quand il crut lire dans tes yeux,
+       </l>
+       <l>
+        Ce mot inventé par les Dieux,
+       </l>
+       <l>
+        Ce mol enchanteur, je vous aime.
+       </l>
+       <l>
+        Ce même jour sur tes lèvres de rose
+       </l>
+       <l>
+        Je dérobai le plus tendre baiser....
+       </l>
+       <l>
+        C'est vainement que la bouche mi-close
+       </l>
+       <l>
+        Allait s'ouvrir pour me le refuser....
+       </l>
+       <l>
+        J'osi dans mon ardeur extrême
+       </l>
+       <l>
+        Poser ma bouche sur ton sein,
+       </l>
+       <l>
+        Malgré le geste de ta main
+       </l>
+       <l>
+        La tienne prononça, je t'aime.
+       </l>
+      </quote>
+     </p>
+     <p>
+      Valter chantait avouë tout ell'énergie du sentiment. Qu'elle fut sa surprise d'entendre chanter
+            par une voix inconnue le couplet suivant.
+     </p>
+     <p>
+      <quote>
+       <l>
+        Il me souvient du moment plein de charmes
+       </l>
+       <l>
+        Où dans tes yeux je vis briller l'amour.
+       </l>
+       <l>
+        Mais, cher Paulin, il m'arracha des larmes
+       </l>
+       <l>
+        Quand, loin de toi, j'attendais ton retour.
+       </l>
+       <l>
+        Pour goûter le bonheur suprême
+       </l>
+       <l>
+        Agathe oubliera des forfaits
+       </l>
+       <l>
+        Qu'amour ne pardonne jamais
+       </l>
+       <l>
+        Qu'à l'amant qui dit, je vous aime.
+       </l>
+      </quote>
+     </p>
+     <p>
+      Walter s'élance à la fenêtre, les fatals barreaux lui dérobent la vue de celle qui chantait.
             --Qui peut chanter cette romance que personne ne connaît?.. Ah! malgré la douceur des accens, je ne
             reconnais par la voix de mon Agathe. Il recommence le second couplet pour voir si l'on répondra
             encore par le troisieme. Vaine espérance! il n'entendit plus rien. --Il est donc dans la nature des
@@ -2321,19 +2829,29 @@
             une étourderie!... Ah! cruel! arracher la vie à un homme qui n'était point coupable!.. hélas! je le
             croiais, je le voiais prêt à m'enlever mon Agathe! ... Oh! mon Prince! si jamais vous avés connu
             l'amour, peut-être trouverai-je, grâce à vos yeux, peut-être plaindrés vous la situation d'un amant
-            désespéré!</p>
-          <p>Ainsi réfléchissait et se plaignait le malheureux Walter. Voyons ce que ses amis tentent pour le
-            tirer d'esclavage, et quel sera le suecès de leur entreprise.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE V.</head>
-          <head>QUI APPROCHE DU DENOUEMENT.</head>
-          <p>Firmin et Nulsifrote exactes à leur parole., se rendent à l'heure indiquées, chés madame de
+            désespéré!
+     </p>
+     <p>
+      Ainsi réfléchissait et se plaignait le malheureux Walter. Voyons ce que ses amis tentent pour le
+            tirer d'esclavage, et quel sera le suecès de leur entreprise.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE V.
+     </head>
+     <head>
+      QUI APPROCHE DU DENOUEMENT.
+     </head>
+     <p>
+      Firmin et Nulsifrote exactes à leur parole., se rendent à l'heure indiquées, chés madame de
             Buoani. -- Monsieur, dil-elle à Firmin, hier en rentrant chés moi, j'ai écrit à une personne qui
             habite le château de Vincennes. Comme elle s'intéresse au sort de notre ami commun, je lui ai fait
             part de sa détention. Sans doute elle aura déjà travaillé pour lui. Elle nous attend à diner;
-            partons. Les chevaux attelés, on monte en voiture pour se rendre à Vincennes.</p>
-          <p>Walter avait passé la nuit dans la plus vive agitation, il se demandait sans cesse qu'elle
+            partons. Les chevaux attelés, on monte en voiture pour se rendre à Vincennes.
+     </p>
+     <p>
+      Walter avait passé la nuit dans la plus vive agitation, il se demandait sans cesse qu'elle
             pouvait être la personne qui la veille avait chanté. -- Cette aventure me confond. Je ne sais sur
             qui arrêter mes soupçons. Dès le matin il entend le bruit des verroux qui barricadaient sa porte, on
             ouvre. Un jeune homme accompagnait le geolier. Ce dernier, selon sa coutume, faisait la chambre sans
@@ -2357,8 +2875,10 @@
             long-tems aujourd'hui. Prenés patience, je donne à dîner à madame de Buoani et à un monsieur qu'elle
             amene, qui s'intéresse beaucoup à vous, et qu'elle nomme, je crois, l'irmin. -- C'est mon frere
             Adieu, ne me suivés pas jusqu'à la porte, on soupçonnerait bientôt notre intelligence. Elle eut beau
-            dire, Walter la conduisit en lui baisant la main.</p>
-          <p>M. de S.. depuis son rappel de Gênes, semblait oublié de la Cour, quand le Roi daigna le nommer
+            dire, Walter la conduisit en lui baisant la main.
+     </p>
+     <p>
+      M. de S.. depuis son rappel de Gênes, semblait oublié de la Cour, quand le Roi daigna le nommer
             Ministre de sa maison. Les prisons d'état devenaient soumises à ses ordres, mais le Roi lui avait
             expresément détendu de relâcher Walter jusqu'à nouvel ordre. Le Ministre néanmoins osa prendre sur
             lui de procurer plus d'aisance à ce prisonnier, il donna des ordres en conséquence, et bientôt
@@ -2378,8 +2898,10 @@
             que vous me promettés. Venés au jardin, là, j'acheverai le récit de mes peines. Puisse ma fermeté
             dans l'infortune vous en inspirer dans votre siuation. Quel plaisir éprouva Walter en respirant
             l'air pur de ce séjour champêtre. Assis tous deux sur le gazon, le Baron reprit ainsi le fil de son
-            discours.</p>
-          <p>Le sort de Victorine et de son infortunée famille m'avait trop louché pour reparaître jamais dans
+            discours.
+     </p>
+     <p>
+      Le sort de Victorine et de son infortunée famille m'avait trop louché pour reparaître jamais dans
             un lieu témoin de eur infortune. Quoique ma mere pût faire pour m'y engager, je persistai dans ma
             résolution. Un voyage que j'y avais fait peu après l'époque de leur misere, m'avait mis à portée de
             voir ce qui s'était passé. Mais à la mort de ma mere qui arriva peu de tems après, j'appris sa
@@ -2391,8 +2913,10 @@
             en France, elle mit au mondo cet estimable enfant qui fit la consolalion do sa mere. Elle l'éleva,
             le nourrit, et le travail de ses mains les firent subsister l'un et l'autre jusqu'au tems où vous
             les avés trouvés à Besançon. Jamais son cœur ne s'est permis un murmure contre l'auteur de ses maux.
-            Voilà ce qu'elle ne cesse de me répéter.</p>
-          <p>Après la mort de ma mere, deventu désormais maître de mon sort, j'afformai mes biens, el je fis
+            Voilà ce qu'elle ne cesse de me répéter.
+     </p>
+     <p>
+      Après la mort de ma mere, deventu désormais maître de mon sort, j'afformai mes biens, el je fis
             un voyage en Angleterre pour tâcher de me mettre en possession. de ceux de ma mere. Ils avaient été
             saisis, mais je montrai mes titres el je rentrai dans mes droits. Pendant mon séjour à Londres, on
             m'offrit du service, je l'acceptai. Propriétaire d'un régiment, j'eus bientôt des ennemis. Sous le
@@ -2430,12 +2954,16 @@
             so contraignit plus, elle alla par-tout redemander son fils. Les barbares qui lui avaient ravi,
             jouissaient de son désespoir, et niaient qu'ils en fussont les auteurs. Vous savés le reste et
             comment ma longue captivité a cessé. Ma constance à souffrir ne s'est jamais démentie. Imités moi
-            mon cher fils, et puisse le sort ne pas vous poursuivre aussi constamment que votre pere!</p>
-          <p>Le Baron après lui avoir renouvellé l'assurance qu'il serait l'époux d'Agathe le quitta en lui
+            mon cher fils, et puisse le sort ne pas vous poursuivre aussi constamment que votre pere!
+     </p>
+     <p>
+      Le Baron après lui avoir renouvellé l'assurance qu'il serait l'époux d'Agathe le quitta en lui
             promettant qu'il tenterait de la déterminer à lui rendre visite. Walter au comble de la joie pria
             son pere de ne rien négliger pour lui procurer cette faveur. Le Baron sortit et le laissa dans le
-            jardin.</p>
-          <p>A peine était-il sorti du château que Walter apperçoit plusieurs personnes se promener dans une
+            jardin.
+     </p>
+     <p>
+      A peine était-il sorti du château que Walter apperçoit plusieurs personnes se promener dans une
             allée voisine de celle où il était. On approche de lui, c'était Caroline, madame de Buoani, Firmin
             et Nulsifrote. -- Comment Walter dans le jardin? et par quel miracle? -- On me permet de m'y
             promener -- Profitons, dit madame de Buoani, de l'occasion qui se présente. Suivés nous. -- Madame,
@@ -2457,12 +2985,18 @@
             Monsieur le Comte, il est tems de rentrer. Ce mot fut un coup de foudre pour la société. -- Je vous
             suis, monsieur, dit Valter, avec précipitation, je vous suis, rentrons. Caroline voulut parler. Le
             Major la pria de ne point se mêler du de voir des prisonniers. Valler renfra dans s chambre le cœur
-            soulagé d'un poids énorme. Il se jetta sur son lit et s'endormît.</p>
-        </div>
-        <div type="chapter">
-          <head>CHAPITRE VI.</head>
-          <head>ON DOIT S'EN DOUTER.</head>
-          <p>Il était encore dans les bras du sommeil quand une voix frappe son oreille, il leve la tête et la
+            soulagé d'un poids énorme. Il se jetta sur son lit et s'endormît.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      CHAPITRE VI.
+     </head>
+     <head>
+      ON DOIT S'EN DOUTER.
+     </head>
+     <p>
+      Il était encore dans les bras du sommeil quand une voix frappe son oreille, il leve la tête et la
             belle Agathe est le premier objet qui frappe ses yeux. Il se jette à bas de son lit, où il était
             tout habillé, et tombe aux genoux de cette aimable fille, il voit son pere, sa mere, Firmin et
             Nulsifrote. Il remarque la joie qui éclate dans tous leurs traits. Agathe en le relevant avec grace
@@ -2472,15 +3006,23 @@
             d'avoir écouté la voix de l'honneur? Vous le voyés, mon frere, et loi, Nulsifrole, dis-moi, ce
             bonheur serait-il trop payé par de langues années de souffrance. Mon eller frere, lui dit Firmin,
             nous n'avons connu le piege qu'à notte séparation, un mot de madame de Buoani m'a ſout dévoilé:
-            <hi rend="italic">nous avons manqué notre coup</hi>, dit-elle à Caroline; celle-ci lui répondit, croyant n'être point entendue,
-            <hi rend="italic">nous ne le mauçuerons pus demtin, nous serons seules</hi>. J'ai prévenu M. le
+      <hi rend="italic">
+       nous avons manqué notre coup
+      </hi>
+      , dit-elle à Caroline; celle-ci lui répondit, croyant n'être point entendue,
+      <hi rend="italic">
+       nous ne le mauçuerons pus demtin, nous serons seules
+      </hi>
+      . J'ai prévenu M. le
             Baron. Il devait aujourd'hui venir pour faire échouer leurs projets, il ne savait pas qu'il jouirait
             du double plaisir de le sauver de leurs mains et de s'apporter l'ordre de ta liberté. Et moi,
             monsieur, dit Nulsifrote, c'est aussi en vous quitfant que j'ai appris ce qu'on voulait faire de
             vous et de moi. On m'a offert une somme d'argent que j'ai refusée, ne voulant la recevoir qu'aprés
             l'exécution du projet. Sitôt sorti du Château, une chaise de poste vous aurait conduit dans la terre
-            de madame de Buoani, près d'Avignon, je n'ai su que cela le resle vous devés le présumer.</p>
-          <p>L'ordre du Roi fut romis au Gouvorneur; on monta on voiltre, el bientôt toule la famille se
+            de madame de Buoani, près d'Avignon, je n'ai su que cela le resle vous devés le présumer.
+     </p>
+     <p>
+      L'ordre du Roi fut romis au Gouvorneur; on monta on voiltre, el bientôt toule la famille se
             rassombla chés M. de S. Ce ministre intruisit Waltor de l'étit du Marquis de Benezin, il était
             absolument hors de danger: et c'est sur le certificat des chirurgiens que sa Majesté a daigné vous
             pardonner. Je vais vous présenter à lui. Quand vous aurés embrassé ses genoux, nous reviendrons
@@ -2490,8 +3032,10 @@
             belle enfant rougit encore. d'avantage et sa beauté n'en était que plus radieuse. Walter en sortant
             fait un mouvement pour s'approcher d'elle... il recule. Embrassés là, dit M. de S..., embrassés là,
             je ne connais que ce moyen de me faire pardonner. Ce baiser fut donné et rendu sans contrainte, il
-            fut délicieux, et ramena le calme dans les sens agités de la modeste Agathe.</p>
-          <p>La Princesse de B... à qui madame de S... avait fait part du prochain mariage de sa fille, arriva
+            fut délicieux, et ramena le calme dans les sens agités de la modeste Agathe.
+     </p>
+     <p>
+      La Princesse de B... à qui madame de S... avait fait part du prochain mariage de sa fille, arriva
             à l'instant que Walter venait de partir pour Versailles. Jusqu'alors cette veuve aussi verlueuse que
             belle avait renfermé dans son cœur un sentiment plus que tendre, sentiment qui s'y était enraciné à
             sa premiere entrevue avec Paulin. Elle avait combattu, et la vertu, dans ce moment si fatale à son
@@ -2513,8 +3057,10 @@
             lui donnant une fille aussi charmante qu'elle. -- heureusement qu'elles ne se quittaient poinl. Ils
             plaisantaient ainsi, mais bientôt la réflexion les ramenait au sérieux examen des faiblesses
             humaines. Elles sont plus que pardonnables, disaient-ils, elles sont respectables, quand la vertu
-            les surmonte.</p>
-          <p>Le notaire étant arrivé, on signa le contrat de Walter et d'Agathe. La Princesse de B... venait
+            les surmonte.
+     </p>
+     <p>
+      Le notaire étant arrivé, on signa le contrat de Walter et d'Agathe. La Princesse de B... venait
             de faire part de ses projets au Baron et à M. de S... qui ne pouvaient les désapprouver après lui
             avoir fail les représentations qu'ils lui devaient. Elle pria le notaire de dresser un nouveau
             combat avec ordre de laisser les noms en blanc, elle assurait par une clause de ce contrat une
@@ -2536,26 +3082,36 @@
             l'obtienne. Les pleurs étaiendit le seul langage de tous les témoins de cette scene. On signe le
             nouveau contrat. Firmin du consentement unanime de la famille, prend le nom le Walter, et il fut
             décidé que l'on passerait trois mois de l'anée à Avignon et le reste à Paris, ou dans les terres des
-            nouveaux mariés.</p>
-          <p>Walter dans le sein d'une épouse sensible et belle, oublia ses erreurs, renonça au penchant qu'il
+            nouveaux mariés.
+     </p>
+     <p>
+      Walter dans le sein d'une épouse sensible et belle, oublia ses erreurs, renonça au penchant qu'il
             avait.... Oui, Lecltur, il est des femmes qui pouvent opérervde tels prodiges. La vertu, ennemie
             d'une austérité révoltante, des traits agréables, une complaisance, non pas aveugle, mais délicate,
             une gaieté franche unie à la douceur, vrai partage de la beauté, retiennent long-tems, et tendent
-            agréables les chaines de l'hymen.</p>
-          <trailer>Fin de la quatrieme partie et du Tome deuxieme et dernier.</trailer>
-        </div>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N01">(1) Supplice des criminels en Ilalie.</note>
-        <note xml:id="N02">(1) Elle n'est plus!... mes braves compatriotes l'ont renversée. Hommages soient
+            agréables les chaines de l'hymen.
+     </p>
+     <trailer>
+      Fin de la quatrieme partie et du Tome deuxieme et dernier.
+     </trailer>
+    </div>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (1) Supplice des criminels en Ilalie.
+    </note>
+    <note xml:id="N02">
+     (1) Elle n'est plus!... mes braves compatriotes l'ont renversée. Hommages soient
           rendus à la Liberté qu'engendra la philosophie!note de l'auteur.
-        </note>
-        <note xml:id="N03">(1) Si cette romance paraît à quelques Amateurs digne d'être mise en musique,
+    </note>
+    <note xml:id="N03">
+     (1) Si cette romance paraît à quelques Amateurs digne d'être mise en musique,
           l'Auteur de cet Ouvrage los supplie de vouloir bien lui faire passer copie de l'air; chés son
-          Libraire: il sera infiiniment reconnaissant de cette faveur.</note>
-      </div>
-    </back>
-  </text>
+          Libraire: il sera infiiniment reconnaissant de cette faveur.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

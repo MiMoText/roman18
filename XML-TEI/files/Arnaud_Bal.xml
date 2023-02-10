@@ -2,96 +2,151 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Arnaud_Bal" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:51.9 wikidata:0">Le Bal de Venise: MiMoText edition</title>
-        <author ref="viaf:95165197 wikidata:Q548610">François-Thomas-Marie de Baculard d'Arnaud(1718-1805)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>google books</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">0000</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://books.google.de/books?id=6bM5AAAAcAAJ"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Le Bal de Venise: Nouvelle historique</title>
-          <author>François-Thomas-Marie de Baculard d'Arnaud</author>
-          <pubPlace>Avignon</pubPlace>
-          <publisher>Girard</publisher>
-          <date>1751</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1751</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            homodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-09-01">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>LE BAL DE VENISE. NOUVELLE HISTORIQUE.</p>
-        <p>A AVIGNON.</p>
-        <p>Chez GIRARD.</p>
-        <p>M. DCC. LI.</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>AVERTISSEMENT.</head>
-        <p>
-          <hi rend="italic">LE fond de ce petit Roman, (car on verra bien que c'en eſt un) eſt hiſtorique. La
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:51.9 wikidata:0">
+     Le Bal de Venise: MiMoText edition
+    </title>
+    <author ref="viaf:95165197 wikidata:Q548610">
+     François-Thomas-Marie de Baculard d'Arnaud(1718-1805)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      google books
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     0000
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://books.google.de/books?id=6bM5AAAAcAAJ"/>
+     <publisher>
+      Google Books
+     </publisher>
+     <date>
+      2009
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Le Bal de Venise: Nouvelle historique
+     </title>
+     <author>
+      François-Thomas-Marie de Baculard d'Arnaud
+     </author>
+     <pubPlace>
+      Avignon
+     </pubPlace>
+     <publisher>
+      Girard
+     </publisher>
+     <date>
+      1751
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1751
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      homodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-09-01">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     LE BAL DE VENISE. NOUVELLE HISTORIQUE.
+    </p>
+    <p>
+     A AVIGNON.
+    </p>
+    <p>
+     Chez GIRARD.
+    </p>
+    <p>
+     M. DCC. LI.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     AVERTISSEMENT.
+    </head>
+    <p>
+     <hi rend="italic">
+      LE fond de ce petit Roman, (car on verra bien que c'en eſt un) eſt hiſtorique. La
             principale avanture eſt vraie en partie, &amp; peut-être plus d'un Lecteur ſe retrouverat'il dans
             l'Amant de la Florella. Le vrai ainſi déguiſé tauche peu ſans doute: on n'en tient pas grand compte
             à l'Auteur. C'eſt l'Art qu'on cherche dans un Roman, &amp; quel Art? Pour réuſſire il faut qu'il ſe
@@ -102,96 +157,152 @@
             &amp; dont la ſimplicité fait le caractere. Il eſt aiſé de s'appercevoir, ſans qu'il ſoit beſoin de
             nommer l'Auteur, qu'il eſt bien au-deſſus de ce petit Ouvrage. Les talens aiment à s'exercer
             quelquefois ſur des bagatelles, mais ce ſont toujours des talens; &amp; l'Ecrivain qui s'eſt amuſé à
-            faire cette Nouvelle Hiſtorique, a fait aſſurêment ſes preuves.</hi>
-        </p>
-      </div>
-      <div type="chapter">
-        <head>LE BAL DE VENISE. NOUVELLE HISTORIQUE.</head>
-        <p>EH bien, Madame, me défierezvous encore! Vous ſeriez-vous attendue à recourir à moi pour ſoulager
+            faire cette Nouvelle Hiſtorique, a fait aſſurêment ſes preuves.
+     </hi>
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LE BAL DE VENISE. NOUVELLE HISTORIQUE.
+    </head>
+    <p>
+     EH bien, Madame, me défierezvous encore! Vous ſeriez-vous attendue à recourir à moi pour ſoulager
           ce mortel ennui dont la Province vous accable; vous voilà pourtant dans la néceſſité d'entendre le
           récit de quelques avantures qui à Paris vous auroient peu amuſée. Mon Ouvrage (j'ai aſſez d'amour
           propre pour l'augurer) vaudra peut-être bien tous ces Romans fades dont on eſt inondé chaque Hyver.
           Je me hâte donc de ſatisfaire votre curioſité; je ſuppoſe que j'ai eu le bonheur de l'intéreſſer en
-          ma faveur.</p>
-        <p>Je laiſſe aux faiſeurs de Voyages le ſoin de vous arrêter, par mille détails plus ennuyeux &amp;
+          ma faveur.
+    </p>
+    <p>
+     Je laiſſe aux faiſeurs de Voyages le ſoin de vous arrêter, par mille détails plus ennuyeux &amp;
           plus faux les uns que les autres: il ne s'agit ici que d'un Bal, il eſt vrai que c'eſt un des plus
           beaux du monde, je veux parler du fameux Carnaval de Veniſe. Je m'y trouvai l'année derniere avec le
           Chevalier *** que vous avez connu à Paris: nous liâmes bien-tôt connoiſſance enſemble. Le Chevalier
           me conduiſit à un ſuperbe Bal que donnoit le Sénateur P***; il remarqua l'envie que j'avois d'être
           au fait des avantures de galanterie, il ne me fit point acheter le plaiſir, il ſe chargea de me
-          donner tous les éclairciſſemens que je déſirois.</p>
-        <p>Le premier objet qui s'offrit à nos yeux fut LA FLORELLA, une des plas célébres Courtiſannes qui
+          donner tous les éclairciſſemens que je déſirois.
+    </p>
+    <p>
+     Le premier objet qui s'offrit à nos yeux fut LA FLORELLA, une des plas célébres Courtiſannes qui
           ait fait fleurir le culte de Venus ſur le bord de la Mer Adriatique. Voici de quelle façon le
-          Chevalier commença à s'acquitter de ſa promeſſe.</p>
-        <p>Cette femme que vous voyez, me dit-il, eſt un phénomène dans ſon eſpéce. Dès l'âge le plus tendre
+          Chevalier commença à s'acquitter de ſa promeſſe.
+    </p>
+    <p>
+     Cette femme que vous voyez, me dit-il, eſt un phénomène dans ſon eſpéce. Dès l'âge le plus tendre
           elle s'étoit conſacrée à l'Amour &amp; s'étoit miſe au nombre de ces Beautés qui ne le ſervent point
           toujours par le ſeul intérêt du plaiſir. Pluſieurs Sénateurs l'ont illuſtrée par leurs folies &amp;
           la ruine de leur fortune. Ce qui eſt un ſujet d'opprobre &amp; d'infamie pour tout ce qu'on appelle
-          honnête femme, devient un motif d'orgueil pour une Courtiſanne.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          avoit toujours conſervé l'eſprit de ſon état, c'eſtàdire, une coquetterie achevée, une égale
+          honnête femme, devient un motif d'orgueil pour une Courtiſanne.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     avoit toujours conſervé l'eſprit de ſon état, c'eſtàdire, une coquetterie achevée, une égale
           étourderie de cœur &amp; d'eſprit, l'art de prendre pluſieurs viſages, pluſieurs tons, de ſe plier à
           tous les goûts, ſans en adopter réellement aucun, d'exciter enfin les paſſions les plus vives ſans
           être atteinte du moindre ſentiment de tendreſſe: elle avoit, dis-je, ſçu jouir de ſa liberté, goûter
           tous ces plaiſirs légers, qui ſont attachés à la profeſſion de coquette, &amp; n'avoit d'autre vûe
-          que l'intérêt &amp; l'ambition, juſqu'au moment qu'un jeune Seigneur François arriva en ce Pays.</p>
-        <p>Le Marquis de *** n'eût pas jetté les yeux ſur la
-          <hi rend="italic">Florella</hi>, qu'il ſentit le pouvoir de la Beauté. Il penſoit aſſez
+          que l'intérêt &amp; l'ambition, juſqu'au moment qu'un jeune Seigneur François arriva en ce Pays.
+    </p>
+    <p>
+     Le Marquis de *** n'eût pas jetté les yeux ſur la
+     <hi rend="italic">
+      Florella
+     </hi>
+     , qu'il ſentit le pouvoir de la Beauté. Il penſoit aſſez
           raiſonnablement ſur le compte des femmes de cette eſpéce, il les mépriſoit aſſez pour ne les point
           aimer; il rougit donc de ſes premiers tranſports, il les combattit long-tems, &amp; ſe dit contre la
           Courtiſanne toutes les raiſons les plus fortes qui pouvoient détruire une paſſion naiſſante; il la
           vit même dans pluſieurs ſoupers où l'avoient invité ſes amis, &amp; il affectoit de ne la pas
           regarder: il y avoit cependant des momens où ſes yeux n'étoient que trop convaincus de ſes charmes,
           &amp; ſes yeux ne tarderent pas à faire paſſer cette conviction juſqu'à ſon cœur; il vouloit fuir la
-          <hi rend="italic">Florella</hi>, &amp; il cherchoit toutes les occaſions de la voir.</p>
-        <p>La Courtiſanne ſe crût offenſée, de ce qu'il n'étoit pas venu comme les autres Etrangers lui
+     <hi rend="italic">
+      Florella
+     </hi>
+     , &amp; il cherchoit toutes les occaſions de la voir.
+    </p>
+    <p>
+     La Courtiſanne ſe crût offenſée, de ce qu'il n'étoit pas venu comme les autres Etrangers lui
           rendre ſes hommages dès le premier jour qu'il étoit entré dans Veniſe. Elle en fut vivement piquée,
           &amp; vous ſçavez que le dépit mene ſouvent les femmes plus loin que l'Amour même. Elle agaça
           pluſieurs fois le Marquis au Spectacle, elle minauda, elle ſourit, elle bouda, elle oppoſa mépris à
           mépris; elle étoit déſeſpérée. Le Marquis ne répondoit à toutes ſes avances que par une indifférence
           qui eſt pour une femme le comble de l'outrage. Cette fierté ne tarda pas à s'évanouir. Le Marquis de
           jour en jour devenoit plus amoureux de la
-          <corr>
-            <hi rend="italic">Florella</hi>
-          </corr>, &amp; n'oſoit ſe l'avouer à ſoi-même. Un de ſes amis le Comte ***, éclairé ſur ces ſortes
+     <corr>
+      <hi rend="italic">
+       Florella
+      </hi>
+     </corr>
+     , &amp; n'oſoit ſe l'avouer à ſoi-même. Un de ſes amis le Comte ***, éclairé ſur ces ſortes
           de matieres, s'en apperçut preſque auſſi-tôt que lui: il lui arracha enfin l'aveu d'un amour qu'il
           ne pouvoit plus ſe diſſimuler, il le railla beaucoup ſur cette ſévérité qu'il exerçoit contre lui
           même, en nourriſſant en ſecret un feu qu'il étoit ſi facile d'éteindre; il l'engagea, pour recouvrer
           ſa tranquillité, à en venir avec la
-          <hi rend="italic">Florella</hi>
-          à ces extrêmités qui pour la plûpart des hommes ſont en même tems le comble &amp; la fin de l'amour.</p>
-        <p>Le Marquis non ſans quelque répugnance céda aux conſeils de ſon ami. On fit parler à la
+     <hi rend="italic">
+      Florella
+     </hi>
+     à ces extrêmités qui pour la plûpart des hommes ſont en même tems le comble &amp; la fin de l'amour.
+    </p>
+    <p>
+     Le Marquis non ſans quelque répugnance céda aux conſeils de ſon ami. On fit parler à la
           Courtiſanne par une femme habile &amp; verſée dans ces ſortes de négociations; les arrangemens
-          furent bien tôt réglés, le Marquis fut invité pour le lendemain même à ſouper.</p>
-        <p>Vous devez entendre, me dit le Chevalier, la ſignification du terme de
-          <hi rend="italic">ſouper</hi>
-          en langage de Bonne Compagnie: les plaiſirs de la nuit ſuivent ordinairement ceux de la table; la
-          <hi rend="italic">Florella</hi>
-          avoit appellé à ſon ſecours tous ſes charmes, elle avoit donné à ſa beauté les graces qui ſont plus
-          ſéduiſantes que la beauté même, &amp; qui enhardiſſent le plaiſir.</p>
-        <p>Le Marquis étoit occupé de penſées bien différentes; le Com-te s'étoit chargé de le conduire chez
+          furent bien tôt réglés, le Marquis fut invité pour le lendemain même à ſouper.
+    </p>
+    <p>
+     Vous devez entendre, me dit le Chevalier, la ſignification du terme de
+     <hi rend="italic">
+      ſouper
+     </hi>
+     en langage de Bonne Compagnie: les plaiſirs de la nuit ſuivent ordinairement ceux de la table; la
+     <hi rend="italic">
+      Florella
+     </hi>
+     avoit appellé à ſon ſecours tous ſes charmes, elle avoit donné à ſa beauté les graces qui ſont plus
+          ſéduiſantes que la beauté même, &amp; qui enhardiſſent le plaiſir.
+    </p>
+    <p>
+     Le Marquis étoit occupé de penſées bien différentes; le Com-te s'étoit chargé de le conduire chez
           la Courtiſanne, il le trouva rêveur, &amp; plongé dans une profonde mélancolie: il tiroit à chaque
           inſtant ſa montre, &amp; il ſoupiroit; il ſembloit qu'il voulut différer l'heure du rendez-vous, au
           lieu de la précipiter. Son ami chercha par ſes railleries à le tirer de cet aſſoupiſſement qui lui
           paroiſſoit en effet extraordinaire, au moment que le Marquis devoit reſſentir de la joie de ſe voir
           bien-tôt le poſſeſſeur de la plus jolie femme de Veniſe. Il fut bien plus étonné quand cet Amant
           d'un nouveau genre déclara qu'il étoit forcé de manquer au rendez-vous; le Comte voulut pénétrer les
-          raiſons qui l'obligeoient à reculer l'inſtant de ſes plaiſirs, il s'obſtina à vouloir diſſimuler.</p>
-        <p>L'autre alla trouver la
-          <hi rend="italic">Florella</hi>, &amp; feignit qu'une indiſpoſition avoit retenu le Marquis: ainſi
-          la partie fut remiſe au lendemain.</p>
-        <p>Le Marquis paſſa très-mal une nuit, qu'il ne tenoit qu'à lui de rendre une des plus délicieuſes
+          raiſons qui l'obligeoient à reculer l'inſtant de ſes plaiſirs, il s'obſtina à vouloir diſſimuler.
+    </p>
+    <p>
+     L'autre alla trouver la
+     <hi rend="italic">
+      Florella
+     </hi>
+     , &amp; feignit qu'une indiſpoſition avoit retenu le Marquis: ainſi
+          la partie fut remiſe au lendemain.
+    </p>
+    <p>
+     Le Marquis paſſa très-mal une nuit, qu'il ne tenoit qu'à lui de rendre une des plus délicieuſes
           de ſa vie: le Comte le retrouva dans le même état auſſi mélancolique, &amp; peu diſpoſé à découvrir
           le ſujet du trouble qui l'agitoit; il lui apprit cependant qu'il avoit été chez la Courtiſanne,
           &amp; qu'elle l'attendoit ce jour même: il ajouta qu'il étoit néceſſaire qu'il ſe décidât; enfin il
           entraîna le Marquis chez la
-          <hi rend="italic">Florella</hi>, malgré tous les efforts qu'il fit pour remettre encore le ſouper à un autre jour.</p>
-        <p>“Princeſſe, dit l'Introducteur, “voici un rébelle que je vous amene: croyez-moi, ne lui faites
-          point de quartier, il n'en mérite point.</p>
-        <p>Le Marquis marqua beaucoup d'embarras dans cette entrevue; la Courtiſanne le badina avec beaucoup
+     <hi rend="italic">
+      Florella
+     </hi>
+     , malgré tous les efforts qu'il fit pour remettre encore le ſouper à un autre jour.
+    </p>
+    <p>
+     “Princeſſe, dit l'Introducteur, “voici un rébelle que je vous amene: croyez-moi, ne lui faites
+          point de quartier, il n'en mérite point.
+    </p>
+    <p>
+     Le Marquis marqua beaucoup d'embarras dans cette entrevue; la Courtiſanne le badina avec beaucoup
           de grace ſur ſa prétendue timidité: il parloit peu, mais il regardoit preſque toujours la
-          <hi rend="italic">Florella</hi>, &amp; ce qu'il diſoit, il le diſoit de ce ton du cœur qui n'eſt
+     <hi rend="italic">
+      Florella
+     </hi>
+     , &amp; ce qu'il diſoit, il le diſoit de ce ton du cœur qui n'eſt
           connu que du véritable amour. On ſoupa, la gayeté ſe déploya au ſouper, la Courtiſanne y fit briller
           cet eſprit de débauche qui aux yeux des hommes rend cette ſorte de femmes ſi aimables, &amp; dont le
           Marquis jugeoit autrement: les équivoques furent bien-tôt ſuivies de ces Chanſons dont le
@@ -203,65 +314,114 @@
           étonnement: il ne ſçavoit que penſer d'un amour auſſi bizarre; en effet y a-t'il rien de plus
           ſingulier qu'un homme qui eſt amoureux à la folie d'une femme, &amp; qui différe cet inſtant qui ne
           peut jamais arriver aſſez tôt, ce moment où l'on connoît, où l'on ſent tous les charmes, toutes les
-          délices de la vie.</p>
-        <p>C'eſt cependant ce que faiſoit le Marquis: il reprochoit même tout bas à ſon ami ce ton libre
+          délices de la vie.
+    </p>
+    <p>
+     C'eſt cependant ce que faiſoit le Marquis: il reprochoit même tout bas à ſon ami ce ton libre
           &amp; familier qu'il employoit vis-à-vis de la
-          <hi rend="italic">Florella</hi>. Le Comte ne lui répondoit que par un ſourire qui lui diſoit qu'une
+     <hi rend="italic">
+      Florella
+     </hi>
+     . Le Comte ne lui répondoit que par un ſourire qui lui diſoit qu'une
           Courtiſanne exige d'autre choſe que le reſpect: il ne ſe corrigea donc point, il prit de nouvelles
-          libertés, enfin il ſe leva de table, &amp; fit appeller ſes gens.</p>
-        <p>Le Marquis reſta interdit: “il eſt déja petit jour, dit le Comte en ſe relevant, “&amp; c'eſt à
+          libertés, enfin il ſe leva de table, &amp; fit appeller ſes gens.
+    </p>
+    <p>
+     Le Marquis reſta interdit: “il eſt déja petit jour, dit le Comte en ſe relevant, “&amp; c'eſt à
           moi une cruauté que de laiſſer languir un mortel heureux, qui n'aſpire qu'au moment d'être dans le
-          ſein de l'Amour. Adieu Reine, &amp; toi notre cher ſonge à profiter de ton bonheur.</p>
-        <p>“Où allez-vous donc, interrompit le Marquis d'un ton embarraſſé? vous ſçavez que je ſuis forcé de
-          m'arracher à mes plaiſirs, &amp; de me retirer avec vous.</p>
-        <p>En diſant cela, il ne ceſſoit de regarder le Comte, &amp; de lui faire des ſignes, comme pour
-          l'engager à appuyer ſes prétextes.</p>
-        <p>Mais, “répondit le Comte, tu n'y penſes pas Marquis: Princeſſe, au moins n'y faites pas
+          ſein de l'Amour. Adieu Reine, &amp; toi notre cher ſonge à profiter de ton bonheur.
+    </p>
+    <p>
+     “Où allez-vous donc, interrompit le Marquis d'un ton embarraſſé? vous ſçavez que je ſuis forcé de
+          m'arracher à mes plaiſirs, &amp; de me retirer avec vous.
+    </p>
+    <p>
+     En diſant cela, il ne ceſſoit de regarder le Comte, &amp; de lui faire des ſignes, comme pour
+          l'engager à appuyer ſes prétextes.
+    </p>
+    <p>
+     Mais, “répondit le Comte, tu n'y penſes pas Marquis: Princeſſe, au moins n'y faites pas
           attention. Le pauvre garçon! Il extravague, c'eſt l'amour qui lui tourne la tête. Adieu, je viendrai
-          ſçavoir demain des nouvelles des mariés: bon ſoir &amp; bonne nuit.</p>
-        <p>Dans le moment il diſparut comme un éclair, laiſſant le pauvre Marquis dans un trouble inexprimable.</p>
-        <p>La Courtiſanne de ſon côté diſſimuloit ſon dépit: c'étoit la premiere fois qu'elle ſe trouvoit
-          vis-à-vis un ſemblable Amant; elle regardoit cet embarras comme une injure faite à ſa beauté.</p>
-        <p>“Que je ne vous retienne point, Monſieur, dit-elle au Marquis: “je ne mérite point que vous me
+          ſçavoir demain des nouvelles des mariés: bon ſoir &amp; bonne nuit.
+    </p>
+    <p>
+     Dans le moment il diſparut comme un éclair, laiſſant le pauvre Marquis dans un trouble inexprimable.
+    </p>
+    <p>
+     La Courtiſanne de ſon côté diſſimuloit ſon dépit: c'étoit la premiere fois qu'elle ſe trouvoit
+          vis-à-vis un ſemblable Amant; elle regardoit cet embarras comme une injure faite à ſa beauté.
+    </p>
+    <p>
+     “Que je ne vous retienne point, Monſieur, dit-elle au Marquis: “je ne mérite point que vous me
           ſacrifiez votre tems, il vous eſt précieux, vous pouvez avoir quelques affaires à terminer, ou
           peut-être, ajouta-t'elle d'un ton railleur, “&amp; je ſerois fort portée à le croire, la nuit eſt
           faite pour les plaiſirs; quelque Conquête plus brillante ſans doute que la mienne vous attend: allez
           Monſieur, hâtez-vous de triompher, que je ne ſois point la cauſe que vous différiez le moment de
-          faire une heureuſe; les François ſont ſi recherchés!</p>
-        <p>Le Marquis regardoit la Courtiſanne, &amp; ſoupiroit: “La charmante
-          <hi rend="italic">Florella</hi>, répliqua-t'il en lui baiſant la main avec tranſport, a-t'elle
+          faire une heureuſe; les François ſont ſi recherchés!
+    </p>
+    <p>
+     Le Marquis regardoit la Courtiſanne, &amp; ſoupiroit: “La charmante
+     <hi rend="italic">
+      Florella
+     </hi>
+     , répliqua-t'il en lui baiſant la main avec tranſport, a-t'elle
           quelque Rivale à craindre? Je voudrois qu'elle en pût avoir, pour goûter le plaiſir de les lui
           ſacrifier. Je voudrois qu'elle pût lire dans mon cœur: elle y verroit à quel point je l'adore. Ah!
-          <hi rend="italic">Florella</hi>, que vous connoiſſez peu l'amour, &amp; que vous êtes faite pour le connoître!</p>
-        <p>Le Marquis prononçoit ces mots avec cet attendriſſement qui donne de l'ame &amp; toute la force
+     <hi rend="italic">
+      Florella
+     </hi>
+     , que vous connoiſſez peu l'amour, &amp; que vous êtes faite pour le connoître!
+    </p>
+    <p>
+     Le Marquis prononçoit ces mots avec cet attendriſſement qui donne de l'ame &amp; toute la force
           du ſentiment aux moindres expreſſions; le cœur de la Courtiſanne reſſentoit des émotions que
           juſqu'alors il avoit ignorées: il s'ouvroit à un nouveau jour, un autre eſprit étoit ſur le point de
-          l'animer.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          fit appeller ſes femmes de Chambre pour la deshabiller: car, interrompit le Chevalier, c'eſt la mode
+          l'animer.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     fit appeller ſes femmes de Chambre pour la deshabiller: car, interrompit le Chevalier, c'eſt la mode
           à Veniſe ainſi qu'à Paris; cette eſpéce de femmes a des gens comme nos femmes de Condition, elles
-          ſont environnées des mêmes airs de grandeur &amp; d'opulence.</p>
-        <p>Si la parure donne à la beauté plus de majeſté, plus d'orgueil, un deshabillé galant la rend plus
+          ſont environnées des mêmes airs de grandeur &amp; d'opulence.
+    </p>
+    <p>
+     Si la parure donne à la beauté plus de majeſté, plus d'orgueil, un deshabillé galant la rend plus
           touchante, &amp; plus ſéduiſante; elle paroît ſe familiariſer davantage avec les plaiſirs; ſes
           graces ſont plus à elle; elle eſt plus près de la ſimple nature; eh! qu'en cet état elle étale de
-          charmes aux regards d'un connoiſſeur voluptueux, c'eſt préciſément l'appareil de ſon triomphe.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          ſe dépouilla donc de tous les ornemens étrangers; ſes véritables attraits s'offrirent aux yeux du
+          charmes aux regards d'un connoiſſeur voluptueux, c'eſt préciſément l'appareil de ſon triomphe.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     ſe dépouilla donc de tous les ornemens étrangers; ſes véritables attraits s'offrirent aux yeux du
           Marquis qui étoit déja Amant paſſionné, mais dont l'embarras augmentoit avec l'amour; il avoit peine
-          à parler, ſes mots étoient entrecoupés.</p>
-        <p>La Courtiſanne congédia ſes femmes: “vous me ſervirez de femme de Chambre, dit-elle au Marquis en
-          ſouriant, n'eſt-ce pas trop vous abaiſſer?</p>
-        <p>“M'abaiſſer! répondit le Marquis, on ne s'humilie point à ſervir ce qu'on aime: eh quel plus
-          glorieux emploi la Fortune pourroit-elle m'offrir?</p>
-        <p>La Courtiſanne étoit de ces femmes qui ne ſe défient point de leur beauté, &amp; qui ſont bien
+          à parler, ſes mots étoient entrecoupés.
+    </p>
+    <p>
+     La Courtiſanne congédia ſes femmes: “vous me ſervirez de femme de Chambre, dit-elle au Marquis en
+          ſouriant, n'eſt-ce pas trop vous abaiſſer?
+    </p>
+    <p>
+     “M'abaiſſer! répondit le Marquis, on ne s'humilie point à ſervir ce qu'on aime: eh quel plus
+          glorieux emploi la Fortune pourroit-elle m'offrir?
+    </p>
+    <p>
+     La Courtiſanne étoit de ces femmes qui ne ſe défient point de leur beauté, &amp; qui ſont bien
           perſuadées qu'elles ne ſçauroient perdre à montrer les avantages dont la Nature les a favoriſées: il
           faut l'avouer auſſi, tout le monde s'accorde pour penſer comme elle ſur ſes charmes; &amp; en effet
-          Veniſe n'a point de Rivales à lui oppoſer.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          a la peau d'une blancheur admirable, la gorge parfaite, une taille élégante qui a la majeſté de la
+          Veniſe n'a point de Rivales à lui oppoſer.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     a la peau d'une blancheur admirable, la gorge parfaite, une taille élégante qui a la majeſté de la
           Déeſſe, &amp; les graces de la Nymphe, le plus beau front du monde, des cheveux d'un chatain clair
           placés extrêmement bien, ſes grands yeux noirs réuniſſent la langueur &amp; la vivacité du plaiſir,
           &amp; ſont bordés de longues paupieres d'un noir de jais, qui donnent un nouvel éclat à ſa peau;
@@ -276,87 +436,158 @@
           tout cela tous les charmes, tout le ſéduiſant, toutes les graces de la phiſionomie d'une jeuneſſe
           enfantine, de l'Amour même; &amp; mettez encore par-deſſus tout cela, ce je ne ſçai quoi qui ſe fait
           ſi bien entendre des ſens, cet art que peu de femmes poſſédent, d'inſpirer le goût de la volupté au
-          premier coup d'oœil, &amp; la promeſſe de le partager au ſecond.</p>
-        <p>Voilà notre Courtiſanne dépeinte trait pour trait; cette peinture vous étoit néceſſaire, votre
-          imagination ſe repréſentera avec plus de force la ſituation du Marquis.</p>
-        <p>Il aida donc la
-          <hi rend="italic">Florella</hi>
-          à ſe deshabiller, ou plutôt à s'embellir; car à chaque inſtant elle prenoit de nouveaux charmes à
+          premier coup d'oœil, &amp; la promeſſe de le partager au ſecond.
+    </p>
+    <p>
+     Voilà notre Courtiſanne dépeinte trait pour trait; cette peinture vous étoit néceſſaire, votre
+          imagination ſe repréſentera avec plus de force la ſituation du Marquis.
+    </p>
+    <p>
+     Il aida donc la
+     <hi rend="italic">
+      Florella
+     </hi>
+     à ſe deshabiller, ou plutôt à s'embellir; car à chaque inſtant elle prenoit de nouveaux charmes à
           ſes yeux; chaque ajuſtement qu'il ôtoit, lui découvroient une beauté qui l'enflammoit, &amp; qu'il
           dévoroit de regards, des mains, de la bouche,.... il étoit tout de feu, il brûloit de la ſoif du
-          plaiſir, il ſe mouroit d'amour.</p>
-        <p>Voilà encore une de ces ſituations naiſſantes qu'on ne peut rendre qu'imparfaitement.</p>
-        <p>La nuit étoit avancée, la
-          <hi rend="italic">Florella</hi>
-          qui elle-même commençoit à aimer le Marquis de bonne foi, &amp; qui partageoit tout le trouble
+          plaiſir, il ſe mouroit d'amour.
+    </p>
+    <p>
+     Voilà encore une de ces ſituations naiſſantes qu'on ne peut rendre qu'imparfaitement.
+    </p>
+    <p>
+     La nuit étoit avancée, la
+     <hi rend="italic">
+      Florella
+     </hi>
+     qui elle-même commençoit à aimer le Marquis de bonne foi, &amp; qui partageoit tout le trouble
           qu'elle lui inſpiroit, lui demanda avec un ſourire enchanteur, la permiſſion de ſe mettre au lit,
-          dans l'eſpérance aſſurément qu'il l'y ſuivroit bien-tôt.</p>
-        <p>Voilà donc la Beauté même ſur ſon Trône, car le lit eſt le Trône de la Beauté, force bougies
-          éclairoient l'appartement de la Courtiſanne.</p>
-        <p>Je ne vous parle point de ſon ameublement, le goût, la galanterie, la volupté y brilloient bien
+          dans l'eſpérance aſſurément qu'il l'y ſuivroit bien-tôt.
+    </p>
+    <p>
+     Voilà donc la Beauté même ſur ſon Trône, car le lit eſt le Trône de la Beauté, force bougies
+          éclairoient l'appartement de la Courtiſanne.
+    </p>
+    <p>
+     Je ne vous parle point de ſon ameublement, le goût, la galanterie, la volupté y brilloient bien
           plus que la grandeur; tout y appelloit les plaiſirs, &amp; ſe ſentoit de ces graces, de ce charme
-          que la Maîtreſſe de la maiſon répandoit ſur tout ce qu'elle touchoit, ſur tout ce qui l'environnoit.</p>
-        <p>Jamais la
-          <hi rend="italic">Florella</hi>
-          n'avoit été ſi belle, parce qu'elle n'avoit encore jamais éprouvé ce ſentiment, ces tranſports qui
+          que la Maîtreſſe de la maiſon répandoit ſur tout ce qu'elle touchoit, ſur tout ce qui l'environnoit.
+    </p>
+    <p>
+     Jamais la
+     <hi rend="italic">
+      Florella
+     </hi>
+     n'avoit été ſi belle, parce qu'elle n'avoit encore jamais éprouvé ce ſentiment, ces tranſports qui
           l'animerent, &amp; qui embelliſſent plus que tous les artifices de la coquetterie. Ses beaux yeux
           étoient chargés d'une douce langueur qui n'ôtoit rien à la vivacité de ſes regards; ſon viſage étoit
           animé de ce coloris brillant qui eſt le feu même de la volupté; ſes charmes qu'elle oublioit, pour
           ne ſonger qu'à ſon amour, (car elle ſentoit enfin l'amour) tiroient de nouvelles graces de cet
           oubli, &amp; en étoient plus ſéduiſans; toute ſon ame demandoit le plaiſir, voloit après lui, &amp;
-          s'impatientoit de la lenteur du Marquis.</p>
-        <p>Pour lui il étoit dans l'extaſe, dans le raviſſement; il étoit à genoux, il adoroit ſa charmante
-          Maîtreſſe.</p>
-        <p>“Que vous êtes belle, lui diſoit-il! que je vous aime, que je vous adore! non, divine
-          <hi rend="italic">Florella</hi>, je n'ai jamais goûté une yvreſſe ſi délicieuſe; tout l'amour eſt dans mon cœur.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          ne répondoit que par un regard plein de volupté, de tendreſſe, &amp; qui valoit tous les ornemens du
-          monde.</p>
-        <p>“Laiſſez-moi, continuoit le Marquis, baiſer ces yeux charmans; que mon ame y vole toute entiere.</p>
-        <p>En diſant cela, il baiſoit les yeux de la
-          <hi rend="italic">Florella</hi>, les baiſoit encore, &amp; s'enyvroit de plaiſir: de ſes yeux, il paſſoit à ſa bouche.</p>
-        <p>“Quelles délices, quel raviſſement, pourſuivoit-il avec cette fureur qui eſt le comble de
+          s'impatientoit de la lenteur du Marquis.
+    </p>
+    <p>
+     Pour lui il étoit dans l'extaſe, dans le raviſſement; il étoit à genoux, il adoroit ſa charmante
+          Maîtreſſe.
+    </p>
+    <p>
+     “Que vous êtes belle, lui diſoit-il! que je vous aime, que je vous adore! non, divine
+     <hi rend="italic">
+      Florella
+     </hi>
+     , je n'ai jamais goûté une yvreſſe ſi délicieuſe; tout l'amour eſt dans mon cœur.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     ne répondoit que par un regard plein de volupté, de tendreſſe, &amp; qui valoit tous les ornemens du
+          monde.
+    </p>
+    <p>
+     “Laiſſez-moi, continuoit le Marquis, baiſer ces yeux charmans; que mon ame y vole toute entiere.
+    </p>
+    <p>
+     En diſant cela, il baiſoit les yeux de la
+     <hi rend="italic">
+      Florella
+     </hi>
+     , les baiſoit encore, &amp; s'enyvroit de plaiſir: de ſes yeux, il paſſoit à ſa bouche.
+    </p>
+    <p>
+     “Quelles délices, quel raviſſement, pourſuivoit-il avec cette fureur qui eſt le comble de
           l'amour! tiens, mon adorable
-          <hi rend="italic">Florella</hi>, tiens, Divinité de mon cœur, reçois toute mon ame, que je reſpire
+     <hi rend="italic">
+      Florella
+     </hi>
+     , tiens, Divinité de mon cœur, reçois toute mon ame, que je reſpire
           la tienne, que je m'en rempliſſe, que je meure d'amour &amp; de plaiſir ſur cette bouche charmante.
           Ah! Sens-tu comme moi cette langueur, cette yvreſſe qui va juſqu'à mon cœur, oui, je veux mourir
-          dans tes bras...</p>
-        <p>Chaque parole du Marquis étoit entrecoupée de mille baiſers; il s'enflammoit toujours davantage,
+          dans tes bras...
+    </p>
+    <p>
+     Chaque parole du Marquis étoit entrecoupée de mille baiſers; il s'enflammoit toujours davantage,
           il brûloit de tout le feu de l'amour, ſes baiſers étoient encore plus ardens, il ſembloit enfin
-          toucher au moment où il s'alloit précipiter dans le centre du plaiſir.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          étoit dans cet heureux déſordre, dans cet abandon ſi charmant, qui eſt le triomphe de la beauté; ſon
+          toucher au moment où il s'alloit précipiter dans le centre du plaiſir.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     étoit dans cet heureux déſordre, dans cet abandon ſi charmant, qui eſt le triomphe de la beauté; ſon
           ame s'étoit égarée, ſes yeux s'étoient fermés ſous les baiſers de ſon Amant, elle ne faiſoit que
-          jetter de ces ſoupirs qui ſont les interprétes de la paſſion.</p>
-        <p>Le Marquis revenu un inſtant à lui-même, jetta les yeux ſur la Courtiſanne, les y fixa quelques
-          momens, &amp; laiſſa couler tout à coup des larmes.</p>
-        <p>“Ah!
-          <hi rend="italic">Florella</hi>, s'écria-t'il, que je ſuis malheureux! Faut-il que vous ſoyez ſi
+          jetter de ces ſoupirs qui ſont les interprétes de la paſſion.
+    </p>
+    <p>
+     Le Marquis revenu un inſtant à lui-même, jetta les yeux ſur la Courtiſanne, les y fixa quelques
+          momens, &amp; laiſſa couler tout à coup des larmes.
+    </p>
+    <p>
+     “Ah!
+     <hi rend="italic">
+      Florella
+     </hi>
+     , s'écria-t'il, que je ſuis malheureux! Faut-il que vous ſoyez ſi
           belle, &amp; que tous ces tréſors ne ſoient point pour l'amour .... Faut-il que tu ne ſçaches point
           aimer, toi qui eſt faite pour être adorée, pour ſentir toute la tendreſſe, tout l'emportement de la
           paſſion que tu eſt capable d'inſpirer? ah! pourquoi t'ai-je vûe? tu vas faire les malheurs de ma
           vie: pourquoi ai-je un cœur trop ſenſible, trop tendre? Seras-tu jamais capable d'aimer, adorable
-          Florella, &amp; ne puis-je être aimé de toi?</p>
-        <p>Le langage étoit tout nouveau pour la Courtiſanne, qui cependant goûtoit à ce diſcours des
+          Florella, &amp; ne puis-je être aimé de toi?
+    </p>
+    <p>
+     Le langage étoit tout nouveau pour la Courtiſanne, qui cependant goûtoit à ce diſcours des
           plaiſirs qu'elle n'avoit point encore ſentis. Cette timidité du Marquis, le caractére de l'amour,
           flattoit ſon orgueil, &amp;, je crois vous l'avoir déja dit, la Coquette s'évanouiſſoit, ce n'étoit
-          plus qu'une femme amoureuſe de bonne foi.</p>
-        <p>“Eh! pourquoi, dit la
-          <hi rend="italic">Florella</hi>
-          avec tendreſſe, croyez-vous que je ne puiſſe être ſenſible? Je vous l'avouerai: juſqu'à préſent je
+          plus qu'une femme amoureuſe de bonne foi.
+    </p>
+    <p>
+     “Eh! pourquoi, dit la
+     <hi rend="italic">
+      Florella
+     </hi>
+     avec tendreſſe, croyez-vous que je ne puiſſe être ſenſible? Je vous l'avouerai: juſqu'à préſent je
           n'ai point connu l'amour, j'ai même cherché à l'ignorer, je l'ai toujours regardé comme mon ennemi
-          mortel; mais je crains bien, ajouta-t-elle, que je ne me réconcilie avec lui.</p>
-        <p>En diſant ces derniers mots, elle regarda le Marquis avec un œil qui lui apprenoit aſſez, quel
-          pouvoit être l'auteur de cette réconciliation.</p>
-        <p>“Quoi! répliqua le Marquis, la “belle
-          <hi rend="italic">Florella</hi>
-          aimeroit! Elle connoîtroit les plaiſirs attachés à la tendreſſe! Ah! tu en ſerois encore plus
+          mortel; mais je crains bien, ajouta-t-elle, que je ne me réconcilie avec lui.
+    </p>
+    <p>
+     En diſant ces derniers mots, elle regarda le Marquis avec un œil qui lui apprenoit aſſez, quel
+          pouvoit être l'auteur de cette réconciliation.
+    </p>
+    <p>
+     “Quoi! répliqua le Marquis, la “belle
+     <hi rend="italic">
+      Florella
+     </hi>
+     aimeroit! Elle connoîtroit les plaiſirs attachés à la tendreſſe! Ah! tu en ſerois encore plus
           charmante, plus belle; avoue-le moi, au milieu de ce bonheur apparent, quand tu ſembles recevoir des
           adorations de tout le monde, quand la Fortune t'accable de ſes dons, quand tu poſſédes tous les
           charmes, ne ſens-tu pas un vuide affreux dans ton cœur? O divine
-          <hi rend="italic">Florella</hi>, il n'eſt que l'amour qui puiſſe le remplir: l'amour eſt le premier
+     <hi rend="italic">
+      Florella
+     </hi>
+     , il n'eſt que l'amour qui puiſſe le remplir: l'amour eſt le premier
           des plaiſirs, le comble du bonheur, les délices de la vie. Eh! quelle fortune, quel triomphe de la
           vanité peut le valoir? Faut-il que tes careſſes ſoient le prix de l'intérêt, qu'on ſoit maître de ta
           beauté, ſans poſſéder ton cœur? idée cruelle qui m'aſſaſſine! Un ſeul de tes regards n'eſt-il pas
@@ -369,42 +600,75 @@
           &amp; dont aſſurément on n'a jamais goûté comme moi les faveurs. Non, jamais on ne t'a aimée comme
           je t'aime: tu peux faire le bonheur, le charme de ma vie; prens donc un cœur ſenſible, connois tous
           tes avantages, connois l'amour, ſens toute ſa force, ſa délicateſſe. Ah!
-          <hi rend="italic">Florella</hi>, que ces momens ſont cruels pour moi! Quels tourmens me
+     <hi rend="italic">
+      Florella
+     </hi>
+     , que ces momens ſont cruels pour moi! Quels tourmens me
           déchirent!... Non, je ne veux point être heureux à ce prix; je vous quitte pour jamais. Hélas!
-          jouiſſez de votre triomphe; voyez couler mes larmes: ô Dieu, que mon ſort eſt à plaindre!</p>
-        <p>Le Marquis, en effet, étoit agité d'un trouble inconcevable; il verſoit des pleurs, il ſe jettoit
+          jouiſſez de votre triomphe; voyez couler mes larmes: ô Dieu, que mon ſort eſt à plaindre!
+    </p>
+    <p>
+     Le Marquis, en effet, étoit agité d'un trouble inconcevable; il verſoit des pleurs, il ſe jettoit
           aux pieds de la
-          <hi rend="italic">Florella</hi>, il l'accabloit de baiſers, il ſe relevoit, &amp; tomboit dans une eſpéce de l'étargie.</p>
-        <p>La Courtiſanne n'étoit pas moins troublée.</p>
-        <p>“Je vous l'avouerai, dit-elle au Marquis, &amp; c'eſt la premiere fois de ma vie que je ſuis
+     <hi rend="italic">
+      Florella
+     </hi>
+     , il l'accabloit de baiſers, il ſe relevoit, &amp; tomboit dans une eſpéce de l'étargie.
+    </p>
+    <p>
+     La Courtiſanne n'étoit pas moins troublée.
+    </p>
+    <p>
+     “Je vous l'avouerai, dit-elle au Marquis, &amp; c'eſt la premiere fois de ma vie que je ſuis
           ſincere; vous me faites comprendre qu'il eſt des plaiſirs au-deſſus de l'intérêt, de l'orgueil, de
           la coquetterie; vous êtes le premier homme qui m'ayez tenu ce langage; vous êtes auſſi le premier
           pour qui mon cœur s'eſt ſenti remué d'un ſentiment dont je ſuis moi-même étonnée; me feriezvous
-          perdre cette liberté qui m'eſt ſi chere? vous êtes bien dangereux.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          devenoit plus circonſpecte, plus timide, à meſure que ſon cœur s'enflammoit. Enfin, le croirez-vous,
+          perdre cette liberté qui m'eſt ſi chere? vous êtes bien dangereux.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     devenoit plus circonſpecte, plus timide, à meſure que ſon cœur s'enflammoit. Enfin, le croirez-vous,
           cela vous paroîtra extraordinaire, le Marquis dévoré d'amour, ſi je puis parler ainſi, ſe retira
           chez lui dans l'agitation la plus cruelle, déchiré de mille ſentimens divers, &amp; ſans avoir voulu
-          jouir auprès de la Courtiſanne des droits qu'il avoit acquis.</p>
-        <p>Je fis un cri d'étonnement, à cet endroit de la narration; mais dis-je au Chevalier, voilà un
+          jouir auprès de la Courtiſanne des droits qu'il avoit acquis.
+    </p>
+    <p>
+     Je fis un cri d'étonnement, à cet endroit de la narration; mais dis-je au Chevalier, voilà un
           phénomène qui ne s'eſt jamais vû; comment? un Amant paſſionné qui peut jouir de ſa Maîtreſſe, qui
           n'aſpire qu'après ce moment heureux, le laiſſe échapper, &amp; s'arrache pour ainſi dire, au plaiſir
-          qui le cherche malgré lui? Ce ſont-là de ces paſſions ſingulieres, on ne le croira jamais.</p>
-        <p>C'eſt pourtant, reprit le Chevalier, l'exacte vérité: je tiens le fait de la bouche même du
-          Marquis, &amp; pluſieurs de ſes amis me l'ont aſſuré.</p>
-        <p>Le Marquis de retour chez lui s'abandonna au plus profondes réflexions: il y avoit des momens, où
-          il avoit honte de ſa retenue; il y en avoit d'autres, où il s'applaudiſſoit de ſa délicateſſe.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          de ſon côté n'étoit pas moins troublée: elle ne ſçavoit que penſer de la retraite du Marquis;
+          qui le cherche malgré lui? Ce ſont-là de ces paſſions ſingulieres, on ne le croira jamais.
+    </p>
+    <p>
+     C'eſt pourtant, reprit le Chevalier, l'exacte vérité: je tiens le fait de la bouche même du
+          Marquis, &amp; pluſieurs de ſes amis me l'ont aſſuré.
+    </p>
+    <p>
+     Le Marquis de retour chez lui s'abandonna au plus profondes réflexions: il y avoit des momens, où
+          il avoit honte de ſa retenue; il y en avoit d'autres, où il s'applaudiſſoit de ſa délicateſſe.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     de ſon côté n'étoit pas moins troublée: elle ne ſçavoit que penſer de la retraite du Marquis;
           cependant elle connoiſſoit déja aſſez l'amour, pour ſentir qu'elle étoit véritablement aimée; &amp;
           cette paſſion d'un nouveau genre pour elle, en la ſurprenant, la flattoit, &amp; excitoit chez elle
-          des ſentimens qui l'élevoient audeſſus d'elle-même.</p>
-        <p>Le Comte avoit paſſé chez la
-          <hi rend="italic">Florella</hi>; les Domeſtiques lui avoient ſeulement dit que le Marquis s'étoit
-          retiré: il vole à ſon logis, &amp; entre dans ſon appartement ſans ſe faire annoncer.</p>
-        <p>“L'amour content, lui dit-il en ouvrant les rideaux de ſon lit, dort ſur ſes lauriers. Eh bien,
+          des ſentimens qui l'élevoient audeſſus d'elle-même.
+    </p>
+    <p>
+     Le Comte avoit paſſé chez la
+     <hi rend="italic">
+      Florella
+     </hi>
+     ; les Domeſtiques lui avoient ſeulement dit que le Marquis s'étoit
+          retiré: il vole à ſon logis, &amp; entre dans ſon appartement ſans ſe faire annoncer.
+    </p>
+    <p>
+     “L'amour content, lui dit-il en ouvrant les rideaux de ſon lit, dort ſur ſes lauriers. Eh bien,
           Marquis, as-tu ſoutenu l'honneur du nom François? fais moi part de tes exploits, je ſuis un homme
           diſcret, &amp; tu pourras te dépouiller avec moi de toute modeſtie. En effet je te trouve cet air de
           pâleur qui ſied ſi bien à un Amant victorieux. Que dis-tu des Italiennes? avoue qu'elles menent
@@ -415,112 +679,186 @@
           doit s'être familiariſée avec cette eſpéce d'outrage; &amp; puis on ne ſçauroit toujours vaincre,
           les armes ſont journalieres, Turenne a bien été battu. Comment tu ne te corrigeras jamais de cette
           timidité qui te perd? en vérité je te renierai pour mon Compatriote: eh! ſi donc, tu vas décréditer
-          notre Nation....</p>
-        <p>“Ah! Comte, répliqua le Marquis, tes railleries ne ſont guéres de ſaiſon, &amp; il n'y a pas
+          notre Nation....
+    </p>
+    <p>
+     “Ah! Comte, répliqua le Marquis, tes railleries ne ſont guéres de ſaiſon, &amp; il n'y a pas
           moyen de t'ouvrir ſon cœur. Tu vois le plus malheureux des hommes, quelqu'un qui aime avec fureur,
           &amp; qui .... non, je ne te le dirai pas: c'eſt pour le coup que tu croirois avoir ſujet de te
           mocquer de moi; les hommes penſent ſi différemment. Ah!
-          <hi rend="italic">Florella, Florella</hi>....</p>
-        <p>“Comment, interrompit le Comte, tu aurois des ſecrets pour moi, pour le meilleur de tes amis? Ma
+     <hi rend="italic">
+      Florella, Florella
+     </hi>
+     ....
+    </p>
+    <p>
+     “Comment, interrompit le Comte, tu aurois des ſecrets pour moi, pour le meilleur de tes amis? Ma
           diſcrétion, ce me ſemble, eſt à toute épreuve; d'où vient donc cet air de dignité que tu donnes à
           une fantaiſie? Serois-tu homme à te prendre de paſſion? La Princeſſe, ajouta t'il avec une voix
           traînante &amp; un ris mocqueur, auroit-elle été cruelle? Sa vertu, ſans doute, s'eſt miſe ſur la
           défenſive, il t'en a couté quelques égratignures. Oh parbleu, je voudrois pour la rareté du fait
           qu'on eut fait des façons, le trait ſeroit impayable. Parle donc: tu es un homme deshonoré dans mon
           eſprit, ſi tu ne dis mot; il n'y a rien que je n'imagine contre toi, &amp; je le répéte, je vais
-          juſqu'à croire que tu n'as eſſuyé que des rigueurs de la Dona Florella. Ce que c'eſt que la pudeur!</p>
-        <p>“Je te prie, répondit le Marquis, de faire tréve à ce badinage, &amp; de ne point faire la
-          <hi rend="italic">Florella</hi>
-          l'objet de tes railleries.</p>
-        <p>“J'ai tort, il eſt vrai, continua le Comte: c'eſt une fille qui mérite du reſpect, de la
-          vénération; elle eſt ſi vertueuſe, c'eſt une divinité.</p>
-        <p>“Ah! Comte, pour ſuivit le Mar„quis, vous êtes bien cruel! vous me piquez au viſ. Si vous pouviez
+          juſqu'à croire que tu n'as eſſuyé que des rigueurs de la Dona Florella. Ce que c'eſt que la pudeur!
+    </p>
+    <p>
+     “Je te prie, répondit le Marquis, de faire tréve à ce badinage, &amp; de ne point faire la
+     <hi rend="italic">
+      Florella
+     </hi>
+     l'objet de tes railleries.
+    </p>
+    <p>
+     “J'ai tort, il eſt vrai, continua le Comte: c'eſt une fille qui mérite du reſpect, de la
+          vénération; elle eſt ſi vertueuſe, c'eſt une divinité.
+    </p>
+    <p>
+     “Ah! Comte, pour ſuivit le Mar„quis, vous êtes bien cruel! vous me piquez au viſ. Si vous pouviez
           lire dans mon cœur, aſſurément vous m'aimez aſſez, pour que votre eſprit m'épargnât des railleries
-          qui m'offenſent, puiſqu'elles bleſſent quelqu'un que j'aime, &amp; que j'aimerai toute ma vie...</p>
-        <p>“C'eſt s'expliquer, reprit le Comte: te voilà au nombre de ces Amans de la premiere claſſe:
+          qui m'offenſent, puiſqu'elles bleſſent quelqu'un que j'aime, &amp; que j'aimerai toute ma vie...
+    </p>
+    <p>
+     “C'eſt s'expliquer, reprit le Comte: te voilà au nombre de ces Amans de la premiere claſſe:
           aſſurément ce Roman commence bien; mais je ne vois rien dans tout ceci qui puiſſe te donner ce
           ſérieux qui approche de la triſteſſe. Tu aimes, mon ami, tu es heureux, tu as couché cette nuit avec
           la Princeſſe, tu peux encore y coucher ce ſoir, on te donne même la ſemaine toute entiere, mais pas
           un jour de plus; tu ſens bien que tu te perdrois de réputation, &amp; je te le dis très-ſincérement,
           parce que je prends un vif intérêt à tout ce qui te touche; garde toi bien de faire ces confidences
-          à d'autres qu'à moi, il y va de ton honneur.</p>
-        <p>Le Comte n'eut pas achevé ces mots, que ſes regards vinrent à ſaiſir une Lettre qui étoit ſur le
-          lit du Marquis.</p>
-        <p>“Les Confidens, dit le Comte, en s'emparant de la Lettre avec précipitation &amp; malgré tous les
+          à d'autres qu'à moi, il y va de ton honneur.
+    </p>
+    <p>
+     Le Comte n'eut pas achevé ces mots, que ſes regards vinrent à ſaiſir une Lettre qui étoit ſur le
+          lit du Marquis.
+    </p>
+    <p>
+     “Les Confidens, dit le Comte, en s'emparant de la Lettre avec précipitation &amp; malgré tous les
           efforts de ſon ami, qui vouloit la lui arracher des mains, “ont droit de tout ſçavoir, &amp; de tout
           lire: je gagerois que cette Epître s'adreſſe à la Déeſſe. Voilà ce qui s'appelle une paſſion dans
-          les régles.</p>
-        <p>Il lût auſſi-tôt avec avidité une Lettre qui n'étoit que commencée, &amp; qu'en effet le Marquis
+          les régles.
+    </p>
+    <p>
+     Il lût auſſi-tôt avec avidité une Lettre qui n'étoit que commencée, &amp; qu'en effet le Marquis
           écrivoit à la
-          <hi rend="italic">Florella</hi>.</p>
-        <p>Cette lecture mit le Comte au fait de ce que l'autre s'obſtinoit à lui cacher; il prit un viſage
-          étonné, en laiſſant tomber la Lettre de ſes mains.</p>
-        <p>“Mais cela n'eſt pas poſſible, s'écria-t'il, l'amour te tourne la tête, &amp; te fait
+     <hi rend="italic">
+      Florella
+     </hi>
+     .
+    </p>
+    <p>
+     Cette lecture mit le Comte au fait de ce que l'autre s'obſtinoit à lui cacher; il prit un viſage
+          étonné, en laiſſant tomber la Lettre de ſes mains.
+    </p>
+    <p>
+     “Mais cela n'eſt pas poſſible, s'écria-t'il, l'amour te tourne la tête, &amp; te fait
           extravaguer; tu écris des rêveries. Comment, tu as un rendez-vous avec une femme, &amp; quelle
           femme? &amp; tu es auſſi peu entreprenant? tu as encore le front de lui écrire que c'eſt l'amour qui
           te fait faire cette ſottiſe? Marquis, je te parle ſérieuſement, je te conſeille dès ce jour même de
           quitter Veniſe, &amp; d'aller te cacher en France, dans quelqu'une de tes Terres: te voilà perdu
-          pour toujours: mais explique moi donc cette énigme, je m'y confonds.</p>
-        <p>“Eh bien, répliqua le Marquis, “vous allez tout ſçavoir, pourvu que vous n'inſultiez point à mes
+          pour toujours: mais explique moi donc cette énigme, je m'y confonds.
+    </p>
+    <p>
+     “Eh bien, répliqua le Marquis, “vous allez tout ſçavoir, pourvu que vous n'inſultiez point à mes
           foibleſſes. Je ſuis devenu amoureux fol de la
-          <hi rend="italic">Florella</hi>; j'ai fait tous mes efforts pour l'éviter; c'eſt vous qui ſerez la
+     <hi rend="italic">
+      Florella
+     </hi>
+     ; j'ai fait tous mes efforts pour l'éviter; c'eſt vous qui ſerez la
           cauſe de tous les malheurs qui pourroient m'arriver; apprenez donc que je l'aime avec fureur, que je
           voudrois devoir mon bonheur à l'amour ſeul, &amp; non à l'intérêt; que ce n'eſt qu'un excès de
           tendreſſe qui m'a empêché de goûter des plaiſirs qui ne m'auroient point ſatisfait, &amp; qui
           n'euſſent fait qu'irriter ma paſſion. Je vous l'avoue, je ne me comprends point moi-même; je rougis
           quelquefois de cette délicateſſe, qui ne fert qu'à me rendre plus malheureux: tout ce que je ſens,
           c'eſt que j'aime la
-          <hi rend="italic">Florella</hi>
-          à l'idolâtrie, que mon cœur eſt engagé pour toute ma vie; plains moi, ou ajoute, ſi tu veux, la
-          raillerie aux plaintes; mon penchant eſt décidé, rien ne peut m'arrêter....</p>
-        <p>Le Comte alloit répondre, lorſqu'on vint remettre au Marquis une bourſe, &amp; une Lettre: il
-          l'ouvrit avec précipitation, en voici le contenu.</p>
-        <p>
-          <hi rend="italic">Je vous renvoye, Monſieur, vos deux cens Louis; vous m'avez appris qu'il étoit des
+     <hi rend="italic">
+      Florella
+     </hi>
+     à l'idolâtrie, que mon cœur eſt engagé pour toute ma vie; plains moi, ou ajoute, ſi tu veux, la
+          raillerie aux plaintes; mon penchant eſt décidé, rien ne peut m'arrêter....
+    </p>
+    <p>
+     Le Comte alloit répondre, lorſqu'on vint remettre au Marquis une bourſe, &amp; une Lettre: il
+          l'ouvrit avec précipitation, en voici le contenu.
+    </p>
+    <p>
+     <hi rend="italic">
+      Je vous renvoye, Monſieur, vos deux cens Louis; vous m'avez appris qu'il étoit des
             plaiſirs au deſſus de ceux qui accompagnent l'intérêt. Je crains bien que vous ne m'ayez fait
             connoître l'amour; je le connois déja aſſez, pour ſentir que vous êtes le ſeul homme qui juſqu'ici
             m'ait aimée véritablement, vous ne devez pas déſeſpérer que dans la ſuite vous ne ſoyez traité de
             même; ma conquéte doit vous flatter, ſi vous avez quelque vanité: ſaus vous me ſerois-je jamais
             douté que j'avois un cœur? venez donc pénétrer ce cœur de vos ſentimens, il eſt impatient de les
             recevoir. Oui, j'en ſuis convaincue, l'amour eſt le premier de tous biens &amp; de tous les
-            plaiſirs: je vous attends</hi>, Florella.</p>
-        <p>“Eh bien, s'écria le Marquis en s'adreſſant à ſon ami, “ne ſuis-je pas déja récompenſé de la
+            plaiſirs: je vous attends
+     </hi>
+     , Florella.
+    </p>
+    <p>
+     “Eh bien, s'écria le Marquis en s'adreſſant à ſon ami, “ne ſuis-je pas déja récompenſé de la
           ſingularité de mes ſentimens? O eſt déja aſſez ſenſible pour être Dieu, la
-          <hi rend="italic">Florella</hi>
-          aimeroit, &amp; déſintéreſſée! tu le vois, elle me renvoye cette bourſe que j'avois hier au ſoir
+     <hi rend="italic">
+      Florella
+     </hi>
+     aimeroit, &amp; déſintéreſſée! tu le vois, elle me renvoye cette bourſe que j'avois hier au ſoir
           laiſſée ſur ſa toilette: je n'ai jamais eu la force de la lui offrir, je craignois de lui déplaire,
-          &amp; ſans doute je l'aurois offenſée, je l'aurois humilie, peut-on outrager ce qu'on aime?</p>
-        <p>Le Marquis ne pouvoit diſſimuler ſa joye; il écrivit à la
-          <hi rend="italic">Florella</hi>
-          une réponſe où l'amour étoit exprimé dans les termes les plus touchans.</p>
-        <p>Le Comte étoit reſté immobile d'étonnement, le procédé de la Courtiſanne lui paroiſſoit même
+          &amp; ſans doute je l'aurois offenſée, je l'aurois humilie, peut-on outrager ce qu'on aime?
+    </p>
+    <p>
+     Le Marquis ne pouvoit diſſimuler ſa joye; il écrivit à la
+     <hi rend="italic">
+      Florella
+     </hi>
+     une réponſe où l'amour étoit exprimé dans les termes les plus touchans.
+    </p>
+    <p>
+     Le Comte étoit reſté immobile d'étonnement, le procédé de la Courtiſanne lui paroiſſoit même
           digne d'admiration; il ceſſa donc de badiner, &amp; prit avec le Marquis un ton bien oppoſé; il lui
           repréſenta que les fortes paſſions ont toujours de funeſtes ſuites; mais un Amant tel que le Marquis
           goûte peu des conſeils de cet-te eſpece: il laiſſa le Comte diſſerter ſur les dangers de l'amour,
-          &amp; vola chez ſa Maîtreſſe.</p>
-        <p>Il fut auſſi réſervé cette fois-ci que la premiere. Pluſieurs jours ſe paſſerent dans la même
+          &amp; vola chez ſa Maîtreſſe.
+    </p>
+    <p>
+     Il fut auſſi réſervé cette fois-ci que la premiere. Pluſieurs jours ſe paſſerent dans la même
           retenue, quoique ſon amour parvînt toujours à de nouveaux dégrés; il voulut enſin éprouver juſqu'au
           bout s'il étoit ſincérement aimé, &amp; remit à cette derniere épreuve le comble de ſes plaiſirs. Il
           entra donc un matin chez la
-          <hi rend="italic">Florella</hi>
-          dans la ſituation d'un homme accablé de douleur.</p>
-        <p>“Quavez-vous, lui dit-elle déja toute effrayée?</p>
-        <p>“Ce que j'ai, répondit le Marquis en tombant ſur une chaiſe, „j'ai tout perdu, votre amour, votre
+     <hi rend="italic">
+      Florella
+     </hi>
+     dans la ſituation d'un homme accablé de douleur.
+    </p>
+    <p>
+     “Quavez-vous, lui dit-elle déja toute effrayée?
+    </p>
+    <p>
+     “Ce que j'ai, répondit le Marquis en tombant ſur une chaiſe, „j'ai tout perdu, votre amour, votre
           cœur... Oui, ma chere
-          <hi rend="italic">Florella</hi>, vous ne m'aimerez plus, quand vous apprendrez l'excès de mes
+     <hi rend="italic">
+      Florella
+     </hi>
+     , vous ne m'aimerez plus, quand vous apprendrez l'excès de mes
           diſgraces; j'eſperois partager ma fortune avec vous, ou plutôt vous la céder toute entiere. Je viens
           de recevoir de Paris des Lettres qui me donnent le coup de la mort; on me mande que j'ai perdu un
           Procès dont dépendoient toutes mes eſpérances, que je ſuis ruiné, qu'en un mot je ſuis réduit aux
-          plus cruelles extrêmités.</p>
-        <p>Le Marquis, à chaque mot qu'il diſoit, examinoit attentivement, &amp; cherchoit à ſaiſir les
+          plus cruelles extrêmités.
+    </p>
+    <p>
+     Le Marquis, à chaque mot qu'il diſoit, examinoit attentivement, &amp; cherchoit à ſaiſir les
           mouvemens qui ſe paſſoient ſur le viſage de la Courtiſanne; des pleurs couloient de ſes yeux, elle
-          regardoit ſon Amant avec cette mélancolie qui eſt le charme de la tendreſſe.</p>
-        <p>“Il ne me reſte donc plus, ajouta le Marquis, qu'à m'ôter la vie; car dois-je prétendre à être
-          aimé de la ſeule femme que j'aye adorée?</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          n'eut pas la force de lui répondre, elle vint ſe jetter toute en larmes entre ſes bras.</p>
-        <p>“Je ſens tous vos malheurs, lui dit-elle, mais faut-il qu'ils faſſent mon bonheur; c'eſt
+          regardoit ſon Amant avec cette mélancolie qui eſt le charme de la tendreſſe.
+    </p>
+    <p>
+     “Il ne me reſte donc plus, ajouta le Marquis, qu'à m'ôter la vie; car dois-je prétendre à être
+          aimé de la ſeule femme que j'aye adorée?
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     n'eut pas la force de lui répondre, elle vint ſe jetter toute en larmes entre ſes bras.
+    </p>
+    <p>
+     “Je ſens tous vos malheurs, lui dit-elle, mais faut-il qu'ils faſſent mon bonheur; c'eſt
           cependant ce revers qui vous met dans l'obligation de ne plus douter de mon amour. Que ce que vous
           venez de m'apprendre vous rend encore plus cher à mon cœur! Oui, c'eſt par vous que j'ai connu le
           ſentiment, que je l'ai goûté; c'eſt vous enfin qui me faites éprouver que rien n'eſt au-deſſus de
@@ -529,58 +867,90 @@
           amérement, “m'ait abaiſſée au point d'être indigne de l'eſtime du dernier des hommes! J'ai fait
           leurs plaiſirs, &amp; je ſuis l'objet de leur mépris; mais vous ſerez du moins forcé de me plaindre;
           je ne veux plus aimer que vous; je ne puis par aſſez d'amour réparer ma conduite paſſée, &amp;
-          effacer mon deshonneur.</p>
-        <p>“Quoi! vous m'aimez encore, s'écria le Marquis? Ah! ta tendreſſe te rend à mes yeux la plus
+          effacer mon deshonneur.
+    </p>
+    <p>
+     “Quoi! vous m'aimez encore, s'écria le Marquis? Ah! ta tendreſſe te rend à mes yeux la plus
           charmante, la plus eſtimable de toutes les femmes; mais ſens-tu bien tout ce que tu vas perdre? Il
           ne te faut rien déguiſer, ma chere
-          <hi rend="italic">Florella</hi>, ta fortune ſera bien différente.</p>
-        <p>“Eh! que m'importe la fortune, reprit-elle, ſi je puis mériter ton amour!</p>
-        <p>“C'en eſt aſſez, pourſuivit le Marquis, je ſuis au comble de mes “vœux, je ſuis aimé, &amp; je
-          n'en puis plus douter.</p>
-        <p>Ce fut dans ces momens ſi délicieux qu'il ceſſa de ſe refuſer à des plaiſirs dont il goûta toute
+     <hi rend="italic">
+      Florella
+     </hi>
+     , ta fortune ſera bien différente.
+    </p>
+    <p>
+     “Eh! que m'importe la fortune, reprit-elle, ſi je puis mériter ton amour!
+    </p>
+    <p>
+     “C'en eſt aſſez, pourſuivit le Marquis, je ſuis au comble de mes “vœux, je ſuis aimé, &amp; je
+          n'en puis plus douter.
+    </p>
+    <p>
+     Ce fut dans ces momens ſi délicieux qu'il ceſſa de ſe refuſer à des plaiſirs dont il goûta toute
           l'yvreſſe: ſon cœur partagea avec ſes ſens les douceurs, les tranſports de la jouiſſance; rendu à
           cet eſprit de réflexion, qui dans les ames tendres donne un nouveau prix, un nouveau feu au
-          ſentiment, il s'occupa, ſe remplit de tout ſon bonheur.</p>
-        <p>“Il eſt donc vrai, s'écria-t'il en eſſuyant par mille baiſers ces larmes précieuſes qu'arrachoit
+          ſentiment, il s'occupa, ſe remplit de tout ſon bonheur.
+    </p>
+    <p>
+     “Il eſt donc vrai, s'écria-t'il en eſſuyant par mille baiſers ces larmes précieuſes qu'arrachoit
           l'amour aux beaux yeux de la
-          <hi rend="italic">Florella</hi>, “il eſt vrai que tu m'aimes aſſez pour me préférer à la fortune, à
+     <hi rend="italic">
+      Florella
+     </hi>
+     , “il eſt vrai que tu m'aimes aſſez pour me préférer à la fortune, à
           ces plaiſirs qui la ſuivent; apprends-donc, ma divine Maîtreſſe, tout l'excès de mon bonheur, &amp;
           de ma joye; apprends que ces prétendus malheurs que j'ai ſuppoſés ne ſont qu'une feinte inventée par
           mon amour; j'ai voulu ſçavoir ſi tu m'aimois, &amp; ſi tu m'aimois plus que la richeſſe. Non, je
           n'ai d'autre malheur à craindre, que celui de perdre ton cœur, &amp; ce ſeroit pour moi le plus
-          cruel; j'ai aſſez de bien pour te rendre heureuſe, ſi tu veux toujours le partager avec l'amour.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          ſe livra donc toute entiere à la tendreſſe. On ne parloit dans Veniſe que de cette avanture, &amp;
+          cruel; j'ai aſſez de bien pour te rendre heureuſe, ſi tu veux toujours le partager avec l'amour.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     ſe livra donc toute entiere à la tendreſſe. On ne parloit dans Veniſe que de cette avanture, &amp;
           elle paroiſſoit ſurprenante: les femmes ſur tout la trouvoient incroyable; le Marquis paſſa quelques
-          mois dans cet enchantement, il fit des dépenſes conſidérables, &amp; ſe vit obligé d'être prodigue.</p>
-        <p>L'amour eſt preſque toujours un excès de fureur, un enthouſiaſme dans le cœur d'une femme;
+          mois dans cet enchantement, il fit des dépenſes conſidérables, &amp; ſe vit obligé d'être prodigue.
+    </p>
+    <p>
+     L'amour eſt preſque toujours un excès de fureur, un enthouſiaſme dans le cœur d'une femme;
           rarement s'y tourne-t'il en paſſion d'habitude. Voilà pour quelle raiſon il y en a ſi peu qui
           connoiſſent le doux ſentiment, &amp; l'uniformité de la pure amitié; &amp; puis elles ne ſçauroient
           s'accoutumer à voir une beauté dépouillée de ces ornemens qui nourriſſent ſon orgueil: elles veulent
           commander, mortifier leurs rivales, &amp; la ſimplicité ne s'accommode point avec ces plans de
-          tirannie, &amp; de hauteur.</p>
-        <p>Notre Courtiſanne avoit toujours le cœur engagé; mais elle commençoit à ſe reſſouvenir
+          tirannie, &amp; de hauteur.
+    </p>
+    <p>
+     Notre Courtiſanne avoit toujours le cœur engagé; mais elle commençoit à ſe reſſouvenir
           d'ellemême, à s'appercevoir que ſes charmes excitoient moins de bruit, parce qu'elle ſe produiſoit
           moins ſur la ſcéne du monde, &amp; qu'elle n'étoit plus autoriſée de cet éclat dont ſont frappées la
           plûpart des femmes. L'amour propre, encore plus que l'intérêt, combattoit chez elle la tendreſſe:
           c'étoien: là deux ennemis bien dangereux pour le pauvre Marquis, &amp; auſquels il ne pouvoit guéres
-          réſiſter.</p>
-        <p>Les autres femmes qui voyoient la
-          <hi rend="italic">Florella</hi>
-          étoient les premieres à traiter de foibleſſe un amour ſi eſtimable. Elles lui repréſentoient
+          réſiſter.
+    </p>
+    <p>
+     Les autres femmes qui voyoient la
+     <hi rend="italic">
+      Florella
+     </hi>
+     étoient les premieres à traiter de foibleſſe un amour ſi eſtimable. Elles lui repréſentoient
           toujours la beauté humiliée par une ſituation auſſi bornée; c'étoitlà le dernier objet ſur lequel on
           ramenoit toujours ſes regards; les momens où elle étoit ſeule étoient funeſtes au Marquis; elle
           combattoit, elle pleuroit même, elle aimoit; mais elle commençoit à vouloir rentrer dans ſes droits,
           à vouloir plaire. Elle tenoit cependant encore aſſez à la tendreſſe, pour cacher ces honteux combats
-          aux yeux de ſon Amant.</p>
-        <p>Sandero, c'eſt le nom de ce Sénateur qui eſt vis-à-vis nous, &amp; dont la figure mélancolique
+          aux yeux de ſon Amant.
+    </p>
+    <p>
+     Sandero, c'eſt le nom de ce Sénateur qui eſt vis-à-vis nous, &amp; dont la figure mélancolique
           annonce le chagrin, eſt du nombre de ces enfans prédeſtinés de la fortune, qui, élevés par elle aux
           premieres Charges, acquiérent le droit de faire mille extravagances; &amp; de débiter mille
           ſortiſes. On les ſouffre; on fait plus, on leur fait la cour, &amp; cela par la ſeule raiſon qu'ils
           ſont riches; cet homme eſt le
-          <hi rend="italic">Trimalcion</hi>
-          de Veniſe; il poſſede un grand mérite, il a le meilleur Cuiſinier, &amp; il donne les plus jolis
+     <hi rend="italic">
+      Trimalcion
+     </hi>
+     de Veniſe; il poſſede un grand mérite, il a le meilleur Cuiſinier, &amp; il donne les plus jolis
           ſoupers; il a tous les matins à ſon lever la liſte des beautés neuves, des Courtiſannes à la mode;
           les gondoles du dernier goût lui ſont réſervées aux Fêtes publiques; il fait autant de dépenſe que
           le Doge, &amp; affiche la même étiquette pour la magnificence &amp; la grandeur. Des parties les
@@ -588,42 +958,70 @@
           vogue, la liberté de ſe mocquer, pour ainſi dire, tout haut &amp; lui préſent, du maître du logis:
           voilà les brillantes qualités qui font de notre vieux Sénateur le Dieu de la bonne Compagnie.
           Sandero a la fureur des gens de ſon eſpéce; il achete à prix d'or les plaiſirs, &amp; ne les goûte
-          qu'autant qu'ils lui ont coûté d'argent &amp; d'impertinences.</p>
-        <p>Dès le moment qu'il apprit que la
-          <hi rend="italic">Florella</hi>
-          s'étoit attachée par inclination, il conçut le louable deſſein de détruire une union ſi parfaite.
+          qu'autant qu'ils lui ont coûté d'argent &amp; d'impertinences.
+    </p>
+    <p>
+     Dès le moment qu'il apprit que la
+     <hi rend="italic">
+      Florella
+     </hi>
+     s'étoit attachée par inclination, il conçut le louable deſſein de détruire une union ſi parfaite.
           Voilà comme penſent &amp; comme agiſfent la plûpart des hommes jaloux du bonheur d'autrui: ils ne
-          ſont heureux qu'en affligeant les autres.</p>
-        <p>Notre Sénateur mit donc tout en uſage pour arracher la Courtiſanne au Marquis; il lui fit faire
+          ſont heureux qu'en affligeant les autres.
+    </p>
+    <p>
+     Notre Sénateur mit donc tout en uſage pour arracher la Courtiſanne au Marquis; il lui fit faire
           des propoſitions qui euſſent ébranlé la vertu la plus affermie; l'or, les préſens ne furent point
-          épargnés, on employa les négociations les plus adroites.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          étoit dans une ſituation des plus violentes; elle balançoit, elle ne s'arrêtoit à aucun choix; mais
-          elle balançoit, &amp; c'étoit aſſez pour que l'amour fut vaincu.</p>
-        <p>Le Marquis s'apperçut de ſon trouble; elle ne pouvoit même à ſa vûe retenir ſes larmes: lorſqu'il
-          vouloit eſſuyer ſes pleurs, la prendre dans ſes bras, elle baiſſoit les yeux, elle le repouſſoit.</p>
-        <p>“Ah! diſoit-elle, votre amour me déſeſpere; faut-il que je ſois indigne de votre tendreſſe?
+          épargnés, on employa les négociations les plus adroites.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     étoit dans une ſituation des plus violentes; elle balançoit, elle ne s'arrêtoit à aucun choix; mais
+          elle balançoit, &amp; c'étoit aſſez pour que l'amour fut vaincu.
+    </p>
+    <p>
+     Le Marquis s'apperçut de ſon trouble; elle ne pouvoit même à ſa vûe retenir ſes larmes: lorſqu'il
+          vouloit eſſuyer ſes pleurs, la prendre dans ſes bras, elle baiſſoit les yeux, elle le repouſſoit.
+    </p>
+    <p>
+     “Ah! diſoit-elle, votre amour me déſeſpere; faut-il que je ſois indigne de votre tendreſſe?
           Pouvez-vous m'aimer? vous ne le devez point, haïſſez-moi plûtôt; je ſuis une malheureuſe, qui ne
-          mérite pas même vos regards.</p>
-        <p>“Eh! pourquoi ces pleurs, répliquoit le Marquis? ma chere
-          <hi rend="italic">Florella</hi>
-          auroit-elle changé de ſentimens? Je tremble, je frémis; ne ſerois-je plus aimé? car je ne cache
+          mérite pas même vos regards.
+    </p>
+    <p>
+     “Eh! pourquoi ces pleurs, répliquoit le Marquis? ma chere
+     <hi rend="italic">
+      Florella
+     </hi>
+     auroit-elle changé de ſentimens? Je tremble, je frémis; ne ſerois-je plus aimé? car je ne cache
           rien, je connois trop ton ſexe, ce ſexe ſi perfide; je ſçai que ce n'eſt ſouvent que la trahiſon
           ſeule qui fait couler ſes larmes, qu'il ne paroît jamais ſi tendre que lorſqu'il cherche à nous
           tromper, ſes remords naiſſent de ſa foibleſſe. Parle, quels ſont tes ſentimens? qu'eſt-ce qui ſe
-          paſſe dans ton cœur? ſois ſincere, m'aimes-tu?</p>
-        <p>“Si je vous aime, reprenoit la
-          <hi rend="italic">Florella</hi>
-          en tenant toujours les yeux baiſſés, &amp; de ce ton qui décele une ame inquiéte, “en pouvezvous
-          douter?</p>
-        <p>“Mais, continuoit le Marquis, d'où viennent cette mélancolie, ces chagrins qu'on refuſe de
-          répandre dans mon cœur? ſi tu „m'aimois, ton ame auroit-elle quelque ſentiment à me diſſimuler?</p>
-        <p>Ses larmes redoubloient à ces mots, mais elle s'obſtinoit toujours à ſe taire, &amp; le Marquis
+          paſſe dans ton cœur? ſois ſincere, m'aimes-tu?
+    </p>
+    <p>
+     “Si je vous aime, reprenoit la
+     <hi rend="italic">
+      Florella
+     </hi>
+     en tenant toujours les yeux baiſſés, &amp; de ce ton qui décele une ame inquiéte, “en pouvezvous
+          douter?
+    </p>
+    <p>
+     “Mais, continuoit le Marquis, d'où viennent cette mélancolie, ces chagrins qu'on refuſe de
+          répandre dans mon cœur? ſi tu „m'aimois, ton ame auroit-elle quelque ſentiment à me diſſimuler?
+    </p>
+    <p>
+     Ses larmes redoubloient à ces mots, mais elle s'obſtinoit toujours à ſe taire, &amp; le Marquis
           n'en arrachoit que quelque parole vague &amp; entrecoupée; enſin n'oſant ſe découvrir devant lui,
-          elle prit un jour la réſolution de lui écrire: voici quelle étoit ſa lettre.</p>
-        <p>
-          <hi rend="italic">Faut il que je ſois forcée à vous écrire, ce que je voudrois pouvoir me dérober à
+          elle prit un jour la réſolution de lui écrire: voici quelle étoit ſa lettre.
+    </p>
+    <p>
+     <hi rend="italic">
+      Faut il que je ſois forcée à vous écrire, ce que je voudrois pouvoir me dérober à
             moi-même? Vous le ſçavez, il n'y a que vous ſeul qui m'ayez fait connoître l'amour, &amp; vous me
             rendez malheureuſe: encore ſi j'étois aſſurée de votre conſtance, mais qui peut m'en répondre ? Ma
             fatale deſtinée m'entraîne malgré moi; on me propoſe une fortune ſi éclatante que je balance ſi je
@@ -633,25 +1031,37 @@
             amour, il aura l'équité de l'amitié. Songez qu'en quelque état que je ſois mon cœur ſera toujours à
             vous, &amp; qu'il ne ſera jamais que le prix de la tendreſſe: ne vous obſtinez point à me voir,
             après avoir reçu ma lettre; ſi je vous coûtois le moindre chagrin, votre vûe me feroit mourir de
-            douleur; aimez moi aſſez pour me plaindre, &amp; croyez que je ſouffre mille fois plus que vous...</hi>
-        </p>
-        <p>Elle en étoit à ces mots, lorſque le Marquis la ſurprit la plume à la main. Elle jetta un cri de
+            douleur; aimez moi aſſez pour me plaindre, &amp; croyez que je ſouffre mille fois plus que vous...
+     </hi>
+    </p>
+    <p>
+     Elle en étoit à ces mots, lorſque le Marquis la ſurprit la plume à la main. Elle jetta un cri de
           frayeur; ſon premier mouvement fut de vouloir déchirer la lettre, mais le Marquis ne lui avoit pas
           laiſſé le tems d'exécuter ſon projet, il s'en étoit emparé. Il crût dabord, conduit par un ſentiment
           de jalouſie, que la
-          <hi rend="italic">Florella</hi>
-          écrivoit à quelque Rival favoriſé. Il n'eut pas jetté les yeux ſur cette Lettre, que cet-te Femme
+     <hi rend="italic">
+      Florella
+     </hi>
+     écrivoit à quelque Rival favoriſé. Il n'eut pas jetté les yeux ſur cette Lettre, que cet-te Femme
           perfide ſe trouva mal. Les premiers tranſports de ſon Amant furent pour la ſecourir &amp; la faire
           revenir à elle, mais la jalouſie &amp; la défiance ne perdirent rien de leurs droits. Il eut aſſez
-          de tems pour parcourir ce funeſte écrit, &amp; n'avoit aucun doute ſur ſon malheur.</p>
-        <p>Nous n'avons toujours que trop de pénétration pour nous éclairer ſur ce qui peut nous affliger,
-          nous devinons nos chagrins bien plus que nos plaiſirs!</p>
-        <p>Le Marquis tomba comme frappé de la foudre: enfin il revint à lui, ſes yeux ne ſe leverent
+          de tems pour parcourir ce funeſte écrit, &amp; n'avoit aucun doute ſur ſon malheur.
+    </p>
+    <p>
+     Nous n'avons toujours que trop de pénétration pour nous éclairer ſur ce qui peut nous affliger,
+          nous devinons nos chagrins bien plus que nos plaiſirs!
+    </p>
+    <p>
+     Le Marquis tomba comme frappé de la foudre: enfin il revint à lui, ſes yeux ne ſe leverent
           qu'avec peine, &amp; ſes premiers regards ne virent que la
-          <hi rend="italic">Florella</hi>
-          qui fondoit en larmes; ſituation bien avantageuſe pour la beauté, &amp; qui lui fait gagner du côté
-          de l'intérêt de l'attendriſſement, ce qu'elle perd du côté de l'orgueil.</p>
-        <p>“Malheureuſe, s'écria le Marquis à travers ſes ſanglots, tu pleures? Encore ſi c'étoit l'amour
+     <hi rend="italic">
+      Florella
+     </hi>
+     qui fondoit en larmes; ſituation bien avantageuſe pour la beauté, &amp; qui lui fait gagner du côté
+          de l'intérêt de l'attendriſſement, ce qu'elle perd du côté de l'orgueil.
+    </p>
+    <p>
+     “Malheureuſe, s'écria le Marquis à travers ſes ſanglots, tu pleures? Encore ſi c'étoit l'amour
           qui t'arrachât ces larmes! Le voilà donc découvert ce ſecret plein d'horreur? voilà donc d'où
           naiſſoit ce trouble dont on me cachoit la cauſe? Tu as pû balancer? Tu as pû un ſeul inſtant te
           rendre à ta premiere baſſeſſe? La fortune a encore quelque éclatà tes yeux? Va, tu n'es point faite
@@ -671,16 +1081,25 @@
           ne jouiras pas de ton infidélité, tu ne rendras point un autre heureux. ... juſqu'au dernier ſoupir,
           malgré toi-même tu n'auras été qu'à moi: il faut que je meure, mais en mourant, je t'entraînerai
           avec moi au Tombeau, tes yeux ſe fermeront avec mes yeux, ton cœur ceſſera de ſentir avec le mien.
-          Oui, tu vas recevoir la mort, &amp; c'eſt moi qui vais te la donner....</p>
-        <p>Il n'eut pas achevé ces mots, qu'il courut l'épée nue à la main ſur
-          <hi rend="italic">Florella</hi>: elle étoit retombée évanouie à ſes pieds, il alloit lui percer le
+          Oui, tu vas recevoir la mort, &amp; c'eſt moi qui vais te la donner....
+    </p>
+    <p>
+     Il n'eut pas achevé ces mots, qu'il courut l'épée nue à la main ſur
+     <hi rend="italic">
+      Florella
+     </hi>
+     : elle étoit retombée évanouie à ſes pieds, il alloit lui percer le
           cœur, le coup étoit déja près de ſon ſein, il la regarde un ſeul inſtant, &amp; ce regard lui
           arrache ſon épée; du comble de la fureur, il paſſe tout à coup à l'excès de tendreſſe la plus vive;
           il ſe jet-te aux pieds de ſa Maîtreſſe, les arroſe de ſes larmes, la rappelle enfin à la vie, le
           moment après celui où il vouloit lui donner la mort.
-        </p>
-        <p>“Non, s'écria-t-il, Divine
-          <hi rend="italic">Florella</hi>: non, ton Amant n'eſt point fait pour être ton Bourreau; pardonne à
+    </p>
+    <p>
+     “Non, s'écria-t-il, Divine
+     <hi rend="italic">
+      Florella
+     </hi>
+     : non, ton Amant n'eſt point fait pour être ton Bourreau; pardonne à
           un amour réduit au déſeſpoir. Ah! que ne m'as-tu arraché le jour, avant de m'aſſaſſiner par un arrêt
           ſi cruel? Je céde donc tous mes droits à mon heureux Rival, mais l'amour eut-il jamais des droits?
           Je te pardonne tout: ſois heureuſe, c'eſt aſſez, il n'importe à quel prix; oui, puiſſes-tu trouver
@@ -688,81 +1107,140 @@
           inconſtance va me coûter la vie. Mais je ne te parle de mes jours; qui ne connoît point la
           tendreſſe, peutil connoître la pitié! Adieu, adieu donc pour jamais.... Vous ne me verrez plus,
           ſouvenez-vous que vous avez été aimée par l'homme le plus tendre &amp; le plus malheureux: peut-être
-          un jour me regreterez-vous. ... Vous n'avez rien à me dire? ... Ah je ne ſuis plus aimé....</p>
-        <p>Il ne put en dire davantage: il s'arrêta encore quelques momens à regarder la
-          <hi rend="italic">Florella</hi>, avec des yeux où l'on pouvoit lire tout l'amour &amp; le déſeſpoir.
+          un jour me regreterez-vous. ... Vous n'avez rien à me dire? ... Ah je ne ſuis plus aimé....
+    </p>
+    <p>
+     Il ne put en dire davantage: il s'arrêta encore quelques momens à regarder la
+     <hi rend="italic">
+      Florella
+     </hi>
+     , avec des yeux où l'on pouvoit lire tout l'amour &amp; le déſeſpoir.
           Elle pleuroit amérement; mais tout à coup s'armant d'une fermeté ſurnaturelle, il la quitta avec
-          précipitation, &amp; ſortit de Veniſe le même jour.</p>
-        <p>La Courtiſanne fit quelques pas pour aller après lui: combattue par divers mouvemens, elle paſſa
+          précipitation, &amp; ſortit de Veniſe le même jour.
+    </p>
+    <p>
+     La Courtiſanne fit quelques pas pour aller après lui: combattue par divers mouvemens, elle paſſa
           pluſieurs jours dans cette irréſolution; elle ne revit point ſon Amant, la fortune eut le deſſus,
-          Sandero en fut enfin poſſeſſeur.</p>
-        <p>Il l'accabla de préſens, cette ſoif de richeſſe fut bien-tôt aſſouvie. Bijoux, Maiſons de
+          Sandero en fut enfin poſſeſſeur.
+    </p>
+    <p>
+     Il l'accabla de préſens, cette ſoif de richeſſe fut bien-tôt aſſouvie. Bijoux, Maiſons de
           Campagne, Robes de prix. Revenus conſidérables, rien ne fut épargné pour la Sultane Favorite; mais
           les beaux jours du vieux Sénateur ſe ſont bien-tôt évanouis; laſſe de la fortune, raſſaſiée
           d'opulence, la Courtiſanne, le croiriez-vous, a ſenti la perte qu'elle avoit faite, ſon ame a revolé
           après l'amour. Ce qui va plus vous étonner, ſon jeune Amant eſt revenu dans ce Païsci. La
-          <hi rend="italic">Florella</hi>
-          a quitté Sandero avec éclat pour ſe rendre au Marquis, mais celui-ci l'a repouſſée; il s'obſtine à
+     <hi rend="italic">
+      Florella
+     </hi>
+     a quitté Sandero avec éclat pour ſe rendre au Marquis, mais celui-ci l'a repouſſée; il s'obſtine à
           l'accabler de mépris, &amp; même il ajoute à cette punition la jalouſie qui n'eſt pas le moindre
           ſupplice pour une Femme; il a affiché une nouvelle Conquête, il s'eſt déclaré l'Amant d'une jeune
           Venitienne, mariée depuis peu à un Commandant de Galere, il eſt ici au Bal avec elle. La
-          <hi rend="italic">Florella</hi>
-          le pourſuit partout, ſans pouvoir le toucher. Pour moi je penſe qu'il l'aime toujours, &amp; qu'il
+     <hi rend="italic">
+      Florella
+     </hi>
+     le pourſuit partout, ſans pouvoir le toucher. Pour moi je penſe qu'il l'aime toujours, &amp; qu'il
           reviendra dans ſes premieres chaînes: il ſe plaît trop à mortifier ſa vanité pour ne pas être
           inſpiré d'un eſprit de vengeance, &amp; ces ſortes de vengeanceslà menent au raccommodement. Sandero
           avec toutes ſes richeſſes ne peut rappeller la
-          <hi rend="italic">Florella</hi>, qui lui rend tous les dedains dont le Marquis l'accable; vous ne
+     <hi rend="italic">
+      Florella
+     </hi>
+     , qui lui rend tous les dedains dont le Marquis l'accable; vous ne
           devez pas douter qu'elle n'ajoute à la doſe. Voilà donc trois Perſonnages au Bal dans des ſituations
-          bien différentes.</p>
-        <p>Cette Hiſtoire me parut interreſſante: je ſouhaite, Madame, qu'elle vous faſſe le même plaiſir.</p>
-        <p>Le trait qui peut-être vous plaira davantage, c'eſt cette ſinguliere délicateſſe d'un homme qui
+          bien différentes.
+    </p>
+    <p>
+     Cette Hiſtoire me parut interreſſante: je ſouhaite, Madame, qu'elle vous faſſe le même plaiſir.
+    </p>
+    <p>
+     Le trait qui peut-être vous plaira davantage, c'eſt cette ſinguliere délicateſſe d'un homme qui
           pouvant jouir de ſa Conquête, recule le moment de ſes plaiſirs par un raffinement d'amour que peu de
           cœurs ſont à portée de ſentir. Sans doute que vous aimerez auſſi à voir une Coquette forcée de
           revenir à l'amour; l'intérêt que vous prenez à cette
-          <hi rend="italic">Florella</hi>, ne vous ſait-il pas déſirer de ſçavoir qu'elles ont été les ſuites
+     <hi rend="italic">
+      Florella
+     </hi>
+     , ne vous ſait-il pas déſirer de ſçavoir qu'elles ont été les ſuites
           de cette paſſion. Doutez-vous, Madame, qu'elle ſoit venue about de ramener à ſoi le Marquis, votre
-          ſexe eſt fait pour triompher.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          ne ſe rebuta point: elle tomba malade de chagrin; prête à perdre la vie, elle envoya chercher le
-          Marquis: c'étoit là que l'attendoit l'amour.</p>
-        <p>La beauté tire parti de tout: la maladie chez une jolie Femme a ſes graces &amp; ſon pouvoir,
-          comme la ſanté la plus brillante; &amp; puis la compaſſion eſt ſi voiſine de la tendreſſe.</p>
-        <p>La
-          <hi rend="italic">Florella</hi>
-          en cet état fut plus dangereuſe, plus rédoutable que jamais pour le Marquis: ce Spectacle fut pour
+          ſexe eſt fait pour triompher.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     ne ſe rebuta point: elle tomba malade de chagrin; prête à perdre la vie, elle envoya chercher le
+          Marquis: c'étoit là que l'attendoit l'amour.
+    </p>
+    <p>
+     La beauté tire parti de tout: la maladie chez une jolie Femme a ſes graces &amp; ſon pouvoir,
+          comme la ſanté la plus brillante; &amp; puis la compaſſion eſt ſi voiſine de la tendreſſe.
+    </p>
+    <p>
+     La
+     <hi rend="italic">
+      Florella
+     </hi>
+     en cet état fut plus dangereuſe, plus rédoutable que jamais pour le Marquis: ce Spectacle fut pour
           ſes yeux celui de l'amour même, il ne fallut que ce moment pour le vaincre &amp; le déſarmer. La
           tendreſſe la plus vive ſuivit bien-tôt la pitié. La
-          <hi rend="italic">Florella</hi>
-          qui ne vouloit revivre que pour ſon Amant, revint bien-tôt à la vie, dès qu'elle fut aſſurée du
+     <hi rend="italic">
+      Florella
+     </hi>
+     qui ne vouloit revivre que pour ſon Amant, revint bien-tôt à la vie, dès qu'elle fut aſſurée du
           retour de ſon cœur. Elle l'aime aujourd'hui au point, que ſon amour reſſemble à la dévotion: elle a
           renoncé au Rouge, aux Diamans, à la Parure. Elle ne voit perſonne, elle ne s'entretient que de ſa
           paſſion, elle en eſt pénetrée, &amp; j'apprends à l'inſtant que le Marquis en eſt plus amoureux que
-          jamais, &amp; qu'il eſt ſur le point de l'améner avec lui en France.</p>
-        <p>Le Chevalier continua à faire paſſer devant moi en revûe les autres Maſques. Je veux, me dit-il,
-          changer de ton, &amp; vous offrir des images plus riantes.</p>
-        <p>Voyez-vous, ajouta-t'il, là-bas ces trois hommes qui ſe tiennent non chalamment ſous les bras?
+          jamais, &amp; qu'il eſt ſur le point de l'améner avec lui en France.
+    </p>
+    <p>
+     Le Chevalier continua à faire paſſer devant moi en revûe les autres Maſques. Je veux, me dit-il,
+          changer de ton, &amp; vous offrir des images plus riantes.
+    </p>
+    <p>
+     Voyez-vous, ajouta-t'il, là-bas ces trois hommes qui ſe tiennent non chalamment ſous les bras?
           c'eſt un François, un Anglois, &amp; un Allemand. Ils ont tous trois la même Maîtreſſe: le François
           don ne les façons, les airs; l'Anglois enſeigne à raiſonner, &amp; l'Allemand montre à boire. L'un a
           tout l'eſprit imaginable &amp; n'a pas le ſens commun; l'autre penſe juſte, refléchit beaucoup, mais
           ne dit pas quatre paroles dans une journée; le troiſiéme perſonnage eſt une eſpéce d'homme qui ne
           penſe ni ne parle, il n'eſt propre qu'à la table. La Maîtreſſe en femme habile ſçait plaire à ces
           trois Rivaux, &amp; les accorder: elle écoute les fleurettes du François, parle raiſon avec
-          l'Anglois, &amp; boit avec l'Allemand.</p>
-        <p>Cette Femme qui boude dans un coin, &amp; paroît de trèsmauvaiſe humeur, eſt la petite
-          <hi rend="italic">Antonia</hi>, Coquette titrée. Vous ne devineriez pas le ſujet de cette morne
+          l'Anglois, &amp; boit avec l'Allemand.
+    </p>
+    <p>
+     Cette Femme qui boude dans un coin, &amp; paroît de trèsmauvaiſe humeur, eſt la petite
+     <hi rend="italic">
+      Antonia
+     </hi>
+     , Coquette titrée. Vous ne devineriez pas le ſujet de cette morne
           triſteſſe: regardez là-bas. Voyez vous un joli minois dont la phyſionomie reſpire le plaiſir? c'eſt
-          la Belle-ſœur d'<hi rend="italic">Antonia</hi>:elleeſt jeune, charmante, &amp; elle a la cruauté de ſe mettre en perſpective vis-à-vis elle, &amp;parconſéquent de faire ſortir ſon vieux viſage, qui porte écrie cinquante ans bien révolus. Voilàlacauſe de ce profond chagrin. Oh! qu'<hi rend="italic">Antonia</hi>
-          ne peut-elle l'enlaidir! On croit que la nature s'eſt épuiſée en Monſtres; l'imagination d'une Femme
+          la Belle-ſœur d'
+     <hi rend="italic">
+      Antonia
+     </hi>
+     :elleeſt jeune, charmante, &amp; elle a la cruauté de ſe mettre en perſpective vis-à-vis elle, &amp;parconſéquent de faire ſortir ſon vieux viſage, qui porte écrie cinquante ans bien révolus. Voilàlacauſe de ce profond chagrin. Oh! qu'
+     <hi rend="italic">
+      Antonia
+     </hi>
+     ne peut-elle l'enlaidir! On croit que la nature s'eſt épuiſée en Monſtres; l'imagination d'une Femme
           inſpirée par la jalouſie &amp; la vengeance, eſt capable d'en créer de nouveaux, il ne lui manque
-          que le pouvoir de l'exécution.</p>
-        <p>Cet homme là-bas déguiſé en Pierrot, a la folie de chanter continuellement: auſſi dit on de lui,
+          que le pouvoir de l'exécution.
+    </p>
+    <p>
+     Cet homme là-bas déguiſé en Pierrot, a la folie de chanter continuellement: auſſi dit on de lui,
           lorſqu'il ſe trouve avec quelque Femme, le Signor
-          <hi rend="italic">Mario</hi>
-          n'aime point la Signora une telle, mais il chante avec la Signora une telle.</p>
-        <p>Derriere
-          <hi rend="italic">Mario</hi>
-          eſt un fat d'Italien, que nous autres François nous avons achevé de gâter dans le voyage qu'il vient
+     <hi rend="italic">
+      Mario
+     </hi>
+     n'aime point la Signora une telle, mais il chante avec la Signora une telle.
+    </p>
+    <p>
+     Derriere
+     <hi rend="italic">
+      Mario
+     </hi>
+     eſt un fat d'Italien, que nous autres François nous avons achevé de gâter dans le voyage qu'il vient
           de faire à Paris: il eſt aimable, a quelques bonnes qualités, mais il eſt étourdi, indiſcret, &amp;
           pouſſe la hardieſſe juſqu'à l'impudence. Il a le talent, comme on dit en langage du monde, de mettre
           une Femme en réputation, ou plûtôt de la deshonorer. Il proclame par-tout qu'il eſt heureux, chéri,
@@ -771,9 +1249,14 @@
           pour réuſſir auprès d'elles, du jargon, de la vivacité, l'art de bruſquer une intrigue à peine
           ébauchée: on lui fait même des avances, on le lorgne, on l'agace, on ſe diſpute ſa Conquête, il eſt
           devenu un Amant de mode; il vient de lui arriver une avanture aſſez mortifiante pour ſon petit amour
-          propre.</p>
-        <p>Il s'étoit infinué dans la Maiſon du Signor
-          <hi rend="italic">Auguſtino</hi>, &amp; ſous le nom d'ami, il vouloit parvenir à être l'Amant de la
+          propre.
+    </p>
+    <p>
+     Il s'étoit infinué dans la Maiſon du Signor
+     <hi rend="italic">
+      Auguſtino
+     </hi>
+     , &amp; ſous le nom d'ami, il vouloit parvenir à être l'Amant de la
           Femme. Le Mari s'apperçut de quelque mouvement qui lui donna lieu de ſoupçonner la vertu de ſon
           Epouſe, &amp; en effet ſes ſoupçons étoient aſſez bien fondés: il ſçut enfin qu'elle avoit donné un
           rendez-vous à notre Italien, il la fit renfermer dans un autre appartement ſans lui apprendre la
@@ -782,35 +1265,53 @@
           trouver aucune lumiere indiſcre-te qui puiſſe decéler ſon apparition. Il vole au lit où l'amour
           l'appelle, il ſaiſit un bras qui s'offroit à ſes tranſports amoureux, &amp; le couvre de mille
           baiſers. Qu'une imagination enflammée par l'eſpoir du plaiſir fait de miracles! elle rendoit unie
-          comme un Satin, une peau rude &amp; bourgeonnée.</p>
-        <p>“Il eſt donc vrai, s'écria-t-il d'un ton vainqueur, “que tous ces Tréſors vont être à moi, on ne
+          comme un Satin, une peau rude &amp; bourgeonnée.
+    </p>
+    <p>
+     “Il eſt donc vrai, s'écria-t-il d'un ton vainqueur, “que tous ces Tréſors vont être à moi, on ne
           me répond point: quelque maudit ſcrupule viendroit-il gâter ce que l'Amour a commencé? je voudrois
           bien voir qu'on fît l'Agnès avec moi. Nous ne ſommes ici que pour jouir d'un inſtant qui fera notre
           bonheur: votre benet de Mari dort très-profondement, laiſſons-le ronfler tout à ſon aiſe,
-          rendez-vous donc.... Vous reculez? Oh! parbleu je ne vous ferai point de quartier.</p>
-        <p>Notre Amant n'a pas achevé ce cartel amoureux, qu'il ſe précipite dans les bras du Signor
-          <hi rend="italic">Auguſtino</hi>
-          qui ne répond à ces douceurs, que par cette galanterie: Ah! Traitre je te tiens.... à moi.</p>
-        <p>Au même inſtant quatre Eſtafiers entrent dans l'Appartement avec de la lumiere, &amp; s'emparent
+          rendez-vous donc.... Vous reculez? Oh! parbleu je ne vous ferai point de quartier.
+    </p>
+    <p>
+     Notre Amant n'a pas achevé ce cartel amoureux, qu'il ſe précipite dans les bras du Signor
+     <hi rend="italic">
+      Auguſtino
+     </hi>
+     qui ne répond à ces douceurs, que par cette galanterie: Ah! Traitre je te tiens.... à moi.
+    </p>
+    <p>
+     Au même inſtant quatre Eſtafiers entrent dans l'Appartement avec de la lumiere, &amp; s'emparent
           de l'Italien qui reconnoît, non ſans être ſaiſi d'effroi, quel étoit l'objet de ſes careſſes. On
           ajoute qu'il n'en fut pas quitte pour la mépriſe, &amp; que les quatre Eſtaſiers lui firent payer
-          cher la réputation d'homme à bonnes Fortunes.</p>
-        <p>Plus loin, pourſuivit le Chevalier, eſt un Turc qui a été le Favori de toutes les Femmes de ce
+          cher la réputation d'homme à bonnes Fortunes.
+    </p>
+    <p>
+     Plus loin, pourſuivit le Chevalier, eſt un Turc qui a été le Favori de toutes les Femmes de ce
           Pays: un Chinois a ſuccédé au Mahometan; on attend un Japponnois qui aſſurément les ſupplantera tous
-          deux, graces à l'amour du ſexe pour le ſingulier &amp; la nouveauté.</p>
-        <p>Tandis que le Chevalier me parloit, je remarquai trois Femmes qui paroiſſoient lier une
+          deux, graces à l'amour du ſexe pour le ſingulier &amp; la nouveauté.
+    </p>
+    <p>
+     Tandis que le Chevalier me parloit, je remarquai trois Femmes qui paroiſſoient lier une
           converſation animée; j'approchai pour les écouter, c'étoit une Françoiſe, une Eſpagnole, &amp; une
           Italienne. Elles diſſertoient ſçavamment ſur l'art d'aimer: l'une parloit de l'amour avec langueur,
           l'autre avec tranſport, &amp; la troiſiéme avec étourderie, avec cet-te vivacité, qui ne part point
-          du cœur, &amp; ne tient qu'à l'eſprit.</p>
-        <p>La Françoiſe ſoutenoit qu'il ne falloit jamais s'engager, que la conſtance dégenere en habitude
+          du cœur, &amp; ne tient qu'à l'eſprit.
+    </p>
+    <p>
+     La Françoiſe ſoutenoit qu'il ne falloit jamais s'engager, que la conſtance dégenere en habitude
           de paſſion, &amp; que la vanité eſt l'ame du plaiſir; elle ajoutoit qu'un ſeul Amant ne peut ſuffire
           à une jolie Femme, que la beauté ne doit point fixer le nombre de ſes Conquêtes, qu'elle doit
           partout impoſer le Tribut; qu'enfin c'eſt vivre pour un autre, que d'être attachée à un ſeul homme,
-          au lieu que c'eſt préciſément vivre pour ſoi, que de ſçavoir conſerver pluſieurs Amans.</p>
-        <p>“Nous ſommes, pourſuivoit-elle, des Divinités qui ne ſçauroient être comblées de trop d'hommages,
-          &amp; entourées de trop d'Adorateurs.</p>
-        <p>“Que vous connoiſſez peu l'amour, interrompit l'Eſpagnole! vous ne parlez là que de la
+          au lieu que c'eſt préciſément vivre pour ſoi, que de ſçavoir conſerver pluſieurs Amans.
+    </p>
+    <p>
+     “Nous ſommes, pourſuivoit-elle, des Divinités qui ne ſçauroient être comblées de trop d'hommages,
+          &amp; entourées de trop d'Adorateurs.
+    </p>
+    <p>
+     “Que vous connoiſſez peu l'amour, interrompit l'Eſpagnole! vous ne parlez là que de la
           galanterie: quel bonheur, quelle douce volupté de ſe dire à ſoimême, j'ai un Amant qui n'aime que
           moi, qui ne vit, qui ne reſpire que pour répéter ſans ceſſe qu'il m'adore; il trouve en moi tous ſes
           plaiſirs, ſes amis, ſon univers, je fais ſa félicité; il ſemble n'avoir une ame que lorſqu'il eſt à
@@ -823,9 +1324,17 @@
           les trouvent laides. Tandis que les vôtres dorment tranquillement, &amp; ſouvent dans les bras d'une
           autre ſe livrent entiérement à l'infidélité, les nôtres paſſent ſous nos fenêtres les nuits les plus
           longues à nous faire entendre les ſons des Guittarres, &amp; chaque ſon eſt un reſpectueux
-          <hi rend="italic">je vous aime</hi>, qu'ils nous rediſent. Hélas! je regreterai toujours mon cher
-          <hi rend="italic">Morales</hi>.</p>
-        <p>Je ne vous reſſemble point, dit à ſon tour l'Italienne, “je déſaprouve la coquetterie de l'une
+     <hi rend="italic">
+      je vous aime
+     </hi>
+     , qu'ils nous rediſent. Hélas! je regreterai toujours mon cher
+     <hi rend="italic">
+      Morales
+     </hi>
+     .
+    </p>
+    <p>
+     Je ne vous reſſemble point, dit à ſon tour l'Italienne, “je déſaprouve la coquetterie de l'une
           &amp; l'ennuieuſe &amp; uniforme conſtance de l'autre: je ſuis, il eſt vrai, ſujette au changement,
           mais je n'ai jamais qu'un Amant à la fois. Au moment que j'aime, mon amour n'eſt point un ſimple
           attachement: c'eſt une fureur, c'eſt un feu qui me brûle, qui me dévore. Les Billets doux, les
@@ -835,40 +1344,69 @@
           infidéle; dès que nos tranſports perdent de leur vivacité, nous n'attendons point le dégoût, nous le
           prévenons en changeant d'objet. Par-là nous conſervons dans nos plaiſirs le même degré, le même
           raviſſement; ainſi, ſans avoir à la fois pluſieurs Amans, ſans faire chorus de ſoupirs avec un
-          Galant doucereux, nous goûtons toutes les délices attachés à l'amour.</p>
-        <p>“Si l'on vous donnoit le choix de ces trois Femmes, dis-je au Chevalier, pour qui vous
-          décideriez-vous?</p>
-        <p>Je les prendrois toutes trois, reprit-il: l'Eſpagnole ſeroit ma Sultane favorite, ma Maîtreſſe de
+          Galant doucereux, nous goûtons toutes les délices attachés à l'amour.
+    </p>
+    <p>
+     “Si l'on vous donnoit le choix de ces trois Femmes, dis-je au Chevalier, pour qui vous
+          décideriez-vous?
+    </p>
+    <p>
+     Je les prendrois toutes trois, reprit-il: l'Eſpagnole ſeroit ma Sultane favorite, ma Maîtreſſe de
           cœur; l'Italienne dans ces momens de libertinage, où l'on eſt preſſé de la ſoif du plaiſir, me
           ſerviroit de ce qu'on nomme ici une amourette, une inclination; ce ſeroit, après le vin de
           Champagne, ce que j'aimerois le mieux. Pour la Françoiſe, continua-t'il, j'irois au Spectacle avec
           elle; nous minauderions enſemble, nous bavarderions du bon ton, nous nous entretiendrions de modes,
           de propos de ruelles, &amp; ſur-tout de médiſance. L'Italienne auroit donc mes ſens, la Françoiſe
-          mon eſprit, &amp; l'Eſpagnole mon cœur: je reviendrois toujours à la derniere.</p>
-        <p>Examinez bien ce Domino grisdelin: c'eſt une Femme de condition, qui née avec de gros biens,
+          mon eſprit, &amp; l'Eſpagnole mon cœur: je reviendrois toujours à la derniere.
+    </p>
+    <p>
+     Examinez bien ce Domino grisdelin: c'eſt une Femme de condition, qui née avec de gros biens,
           &amp; les avantages de la beauté, la deshonore cependant par un trafic honteux de ſes charmes.
           L'Amant le plus riche eſt toujours le mieux reçu; un jeune homme en devint amoureux dans l'Egliſe de
           S. Marc, &amp; auſſi-tôt aſpira à ſa conquête. Il n'ignoroit point que ce n'étoit que par le chemin
           de la fortune, qu'on parvenoit juſqu'à la Signora
-          <hi rend="italic">Iſabelle</hi>. L'Amour eſt fécond en inventions;
-          <hi rend="italic">Antonio</hi>
-          forma le deſſein de ſe rendre heureux à quelque prix que ce fût; la tromperie, les ſtratagêmes, les
+     <hi rend="italic">
+      Iſabelle
+     </hi>
+     . L'Amour eſt fécond en inventions;
+     <hi rend="italic">
+      Antonio
+     </hi>
+     forma le deſſein de ſe rendre heureux à quelque prix que ce fût; la tromperie, les ſtratagêmes, les
           ruſes ſont permiſes en tendreſſe comme en guerre.
-          <hi rend="italic">Antonio</hi>
-          aimable, jeune, bienfait, manquoit de tout aux yeux d'<hi rend="italic">Iſabella</hi>; iln'étoitpoint riche. Il prit donc le nom du parent d'un gros Négociant, deux ou trois viſites qu'ilfit chez
-          <hi rend="italic">Iſabella</hi>
-          lui aſſervirent bientôt ſon cœur. Enfin une Lettre de change de haute valeur fut le paſſeport de
+     <hi rend="italic">
+      Antonio
+     </hi>
+     aimable, jeune, bienfait, manquoit de tout aux yeux d'
+     <hi rend="italic">
+      Iſabella
+     </hi>
+     ; iln'étoitpoint riche. Il prit donc le nom du parent d'un gros Négociant, deux ou trois viſites qu'ilfit chez
+     <hi rend="italic">
+      Iſabella
+     </hi>
+     lui aſſervirent bientôt ſon cœur. Enfin une Lettre de change de haute valeur fut le paſſeport de
           notre Amant, il fut heureux. Notre Danaé attendoit avec impatience le jour marqué où la pluye d'or
           devoit ſe répandre dans ſon ſein. Mais quelles furent ſa douleur, &amp; ſes plaintes, lorſqu'elle
           apprit que ſon Jupiter n'étoit qu'un faux Jupiter, &amp; que la Lettre de change ne valoit pas le
-          dernier Billet doux! elle fut long-tems inconſolable.</p>
-        <p>Vous ſoupçonnez bien, me dit le Chevalier, que la perte de ſon honneur l'affligeoit peu: elle
+          dernier Billet doux! elle fut long-tems inconſolable.
+    </p>
+    <p>
+     Vous ſoupçonnez bien, me dit le Chevalier, que la perte de ſon honneur l'affligeoit peu: elle
           n'avoit d'autre chagrin que d'avoir prodigué gratis ſes charmes; cependant un vrai &amp; ſolvable
           Négociant l'a conſolée un peu de cette diſgrace: il eſt vrai qu'aujourd'hui elle s'eſt miſe en garde
-          contre toutes les friponneries, elle ſe fait payer d'avance.</p>
-        <p>A côté d'<hi rend="italic">Iſabella</hi>
-          eſt
-          <hi rend="italic">Cteſiphon</hi>, un de nos Compatriotes, arrivé ici depuis quelques jours: je l'ai
+          contre toutes les friponneries, elle ſe fait payer d'avance.
+    </p>
+    <p>
+     A côté d'
+     <hi rend="italic">
+      Iſabella
+     </hi>
+     eſt
+     <hi rend="italic">
+      Cteſiphon
+     </hi>
+     , un de nos Compatriotes, arrivé ici depuis quelques jours: je l'ai
           fort connu à Paris, ſa paſſion favorite ſont les Chevaux. Voulez-vous être ſon ami, entrer dans ſes
           ſecrets, lui devenir en un mot l'homme du monde le plus cher? parlez ſans ceſſe langage de Maquignon
           mêlés à tout propos, &amp; même mal adroitement, dans tous vos diſcours, l'éloge des Chevaux &amp;
@@ -880,58 +1418,111 @@
           n'y êtes point, il fait à la Dame une ſçavante diſſertation ſur le Cheval, ſur ſes qualités, ſes
           maladies. La Femme outragée lui ordonne de ſe retirer promptement, ſonne ſa Femme de chambre;
           Roſette vient:
-          <hi rend="italic">Conduiſez Monſieur</hi>, lui dit ſa Maîtreſſe,
-          <hi rend="italic">à mes Ecuries, il y verra mes Chevaux</hi>. Je ne ſçais quel ſujet peut avoir
+     <hi rend="italic">
+      Conduiſez Monſieur
+     </hi>
+     , lui dit ſa Maîtreſſe,
+     <hi rend="italic">
+      à mes Ecuries, il y verra mes Chevaux
+     </hi>
+     . Je ne ſçais quel ſujet peut avoir
           amené Cteſiphon à Veniſe; il offrit un jour de troquer une Actrice qu'il entretenoit, contre un joli
-          Cheval d'Eſpagne, que montoit un de ſes amis.</p>
-        <p>Je ne me trompe point, s'écria le Chevalier: c'eſt bien là la Signora
-          <hi rend="italic">Thereſa</hi>, elle eſt célébre par ſes avantures. Il y a quelques jours qu'elle
+          Cheval d'Eſpagne, que montoit un de ſes amis.
+    </p>
+    <p>
+     Je ne me trompe point, s'écria le Chevalier: c'eſt bien là la Signora
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     , elle eſt célébre par ſes avantures. Il y a quelques jours qu'elle
           vit à un Bal un jeune homme d'une très jolie figure, &amp; fait exprès pour l'amour.
-          <hi rend="italic">Thereſa</hi>
-          prompte dans ſes paſſions en devint ſubitement amoureuſe. Le lendemain elle fit remettre au jeune
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     prompte dans ſes paſſions en devint ſubitement amoureuſe. Le lendemain elle fit remettre au jeune
           homme un Billet, par lequel on l'engageoit à ſe trouver à une certaine heure dans une Gondole qu'on
           lui indiquoit. Il ſoupçonna que c'étoit une bonne fortune: il ne manqua donc point de ſe trouver
           dans la Gondole à l'heure marquée. On l'introduiſit dans un cabinet, où le premier objet qui vint le
           frapper, fut une Femme charmante, étendue mollement ſur une chaiſe longue, &amp; dans une attitude
           ſéduiſante qui eut réveillé la nature la plus endormie. Il parut étonné; il étoit timide, &amp; par
           conſéquent peu entreprenant:
-          <hi rend="italic">Thereſa</hi>
-          ſe vit obligée de parler la premiere.</p>
-        <p>“Monſieur, lui dit-elle, vous vous êtes bien fait attendre. Que direz-vous d'une Femme qui vous
-          eſt toute inconnue, &amp; qui cherche à vous voir; aſſeyez-vous, aſſeyez-vous.</p>
-        <p>“Je ſçais trop vous reſpecter, Madame, répartit notre Novice. Vous me reſpectez donc, répond
-          <hi rend="italic">Thereſa</hi>, avec un ſouris malin: Monſieur, ajouta-t'elle, en lui lançant un
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     ſe vit obligée de parler la premiere.
+    </p>
+    <p>
+     “Monſieur, lui dit-elle, vous vous êtes bien fait attendre. Que direz-vous d'une Femme qui vous
+          eſt toute inconnue, &amp; qui cherche à vous voir; aſſeyez-vous, aſſeyez-vous.
+    </p>
+    <p>
+     “Je ſçais trop vous reſpecter, Madame, répartit notre Novice. Vous me reſpectez donc, répond
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     , avec un ſouris malin: Monſieur, ajouta-t'elle, en lui lançant un
           regard qui diſoit bien des choſes, “faites-moi le plaiſir de me remettre ma mule qui m'échappe du
-          pié.</p>
-        <p>Le jeune homme ſe baiſſe, &amp; toujours avec reſpect approche de
-          <hi rend="italic">Thereſa</hi>, &amp; lui remet ſa mule d'une main tremblante, &amp; d'un air tout embarraſſé.</p>
-        <p>Je n'ai pas beſoin de vous faire ſentir ce que ſignifioit cette mule qui s'échapoit du pié.
-          <hi rend="italic">Thereſa</hi>
-          avoit un joli pié, la jambe parfaite, &amp; capable aſſurément de faire perdre le reſpect, &amp;
-          d'inſpirer l'amour le plus déterminé.</p>
-        <p>Notre Ecolier fut donc ſourd à ce langage muet; l'heure du Berger venoit de ſonner, &amp; il n'en
+          pié.
+    </p>
+    <p>
+     Le jeune homme ſe baiſſe, &amp; toujours avec reſpect approche de
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     , &amp; lui remet ſa mule d'une main tremblante, &amp; d'un air tout embarraſſé.
+    </p>
+    <p>
+     Je n'ai pas beſoin de vous faire ſentir ce que ſignifioit cette mule qui s'échapoit du pié.
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     avoit un joli pié, la jambe parfaite, &amp; capable aſſurément de faire perdre le reſpect, &amp;
+          d'inſpirer l'amour le plus déterminé.
+    </p>
+    <p>
+     Notre Ecolier fut donc ſourd à ce langage muet; l'heure du Berger venoit de ſonner, &amp; il n'en
           avoit point profité.
-          <hi rend="italic">Thereſa</hi>
-          étoit déconcertée, la mauvaiſe humeur l'avoit priſe, &amp; elle alloit avoir des vapeurs, lorſque ſa
-          Confidente vint l'avertir qu'un de ſes parens demandoit à la voir.</p>
-        <p>On fit paſſer le jeune homme dans un autre cabinet: il y demeura long-tems à s'entretenir avec la
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     étoit déconcertée, la mauvaiſe humeur l'avoit priſe, &amp; elle alloit avoir des vapeurs, lorſque ſa
+          Confidente vint l'avertir qu'un de ſes parens demandoit à la voir.
+    </p>
+    <p>
+     On fit paſſer le jeune homme dans un autre cabinet: il y demeura long-tems à s'entretenir avec la
           Femme de chambre de
-          <hi rend="italic">Thereſa</hi>
-          ſur des ſujets indifférens; elle le quitta pour quelques momens, &amp; revint lui dire qu'il pouvoit
-          ſe retirer.</p>
-        <p>“Monſieur, ajouta cette Femme de chambre qui étoit au fait des uſages du monde, vous méritez
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     ſur des ſujets indifférens; elle le quitta pour quelques momens, &amp; revint lui dire qu'il pouvoit
+          ſe retirer.
+    </p>
+    <p>
+     “Monſieur, ajouta cette Femme de chambre qui étoit au fait des uſages du monde, vous méritez
           qu'on s'intéreſſe à vous, vous êtes ſi jeune. Avant que de nous quitter, j'ai un conſeil d'amie à
           vous donner: ſi jamais il vous arrive de remettre la mule d'une Dame, ſongez à n'en pas reſter là;
-          m'entendez-vous, Monſieur.</p>
-        <p>Il ſe retira confus; je crois cependant qu'il a profité depuis de cette charitable remontrance. Pour
-          <hi rend="italic">Thereſa</hi>, elle a cherché des jeunes gens qui n'attendiſſent pas que ſa mule
-          tombât, pour deviner ce qu'elle demandoit; &amp; aſſûrément elle en a trouvé.</p>
-        <p>Cette autre Femme que nous voyons à quelques pas de
-          <hi rend="italic">Thereſa</hi>, eſt une de ces indifférentes qui ne ſe livrent point au plaiſir par
+          m'entendez-vous, Monſieur.
+    </p>
+    <p>
+     Il ſe retira confus; je crois cependant qu'il a profité depuis de cette charitable remontrance. Pour
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     , elle a cherché des jeunes gens qui n'attendiſſent pas que ſa mule
+          tombât, pour deviner ce qu'elle demandoit; &amp; aſſûrément elle en a trouvé.
+    </p>
+    <p>
+     Cette autre Femme que nous voyons à quelques pas de
+     <hi rend="italic">
+      Thereſa
+     </hi>
+     , eſt une de ces indifférentes qui ne ſe livrent point au plaiſir par
           la ſeule crainte de l'acheter trop cher aux dépens de leur tranquillité: elle n'a pas ſeulement la
           force de prononcer un oui ou un non; c'eſt chez elle un ſommeil continuel: lorſqu'elle ceſſera
-          d'être, on ne dira point qu'elle eſt morte, car elle n'a jamais vêcu.</p>
-        <p>Quel eſt, demandai-je à mon Conducteur, cet homme qui tient ſon maſque à la main, &amp; donne le
+          d'être, on ne dira point qu'elle eſt morte, car elle n'a jamais vêcu.
+    </p>
+    <p>
+     Quel eſt, demandai-je à mon Conducteur, cet homme qui tient ſon maſque à la main, &amp; donne le
           bras à une Femme aſſez jolie? Comment, me dit le Chevalier, c'eſt un de nos Marquis brillans; de ces
           aimables de profeſſion; je vais vous donner une ébauche de ſon portrait. Il eſt excellent Joueur de
           Paume, vigoureux Cocher, Poëte, Architecte, Muſicien. Voici le train de vie qu'il mene en France: il
@@ -942,37 +1533,56 @@
           qui pour la taille le diſputent aux Heyduques. Il paroît à la Comédie Françoiſe, de là à
           l'Italienne, enſuite il tombe à l'Opéra, où il arrange ſa partie de ſouper: il badine quel-que
           Actrice ſur ſa nouvelle conquête, enfin le Spectacle finit, il faut aller
-          <hi rend="italic">ſouper</hi>. Souper eſt un état parmiles gens du bel air: on dit fort élégamment,
-          <hi rend="italic">Je reviens de ma Terre, où le petit lait m'a raccommodé une poitrine que le vin de
-            Champagne avoit furieuſement dérangée; mais Dumoulin me fait eſpérer que je pourrai ſouper cet Hyver</hi>.</p>
-        <p>Voici donc notre Marquis à table: ſon génie malin &amp; fécond en Vaudevilles s'échauffe, &amp;
+     <hi rend="italic">
+      ſouper
+     </hi>
+     . Souper eſt un état parmiles gens du bel air: on dit fort élégamment,
+     <hi rend="italic">
+      Je reviens de ma Terre, où le petit lait m'a raccommodé une poitrine que le vin de
+            Champagne avoit furieuſement dérangée; mais Dumoulin me fait eſpérer que je pourrai ſouper cet Hyver
+     </hi>
+     .
+    </p>
+    <p>
+     Voici donc notre Marquis à table: ſon génie malin &amp; fécond en Vaudevilles s'échauffe, &amp;
           fait partir ſes ſaillies avec le bouchon du vin de Champagne; on applaudit,
-          <hi rend="italic">il eſt comblé</hi>. Il careſſe cette femme-ci de l'œil, marie ſon fauſſet avec la
+     <hi rend="italic">
+      il eſt comblé
+     </hi>
+     . Il careſſe cette femme-ci de l'œil, marie ſon fauſſet avec la
           voix caſſée de celle-là; montre ſa tabatiere à l'une, ſon diamant à l'autre; parle de ſes chevaux,
           de ſes chiens, de ſes habits, de ſes dentelles, de ſa petite maiſon; raconte à
-          <hi rend="italic">miracle</hi>
-          la calomnie du jour. Il s'enyvre enfin, ſort de table au petit jour, ſe trouve dans ſon caroſſe, y
+     <hi rend="italic">
+      miracle
+     </hi>
+     la calomnie du jour. Il s'enyvre enfin, ſort de table au petit jour, ſe trouve dans ſon caroſſe, y
           dort, eſt deshabillé, couché, &amp; ronfle, &amp; tout cela ſans s'en appercevoir. Il ſe réveille la
           tête encore remplie des vapeurs du vin &amp; d'une confuſion de liqueurs, il ſe plaint de
           l'eſtomach: quelquefois à ſon chevet il ſe fait lire par un Valet de chambre quelques Billets doux,
           qui lui ſont envoyés par des beautés ſurannées, ou des Bourgeoiſes entêtées d'avoir un Amant de
           condition. Il devint un jour amoureux d'une de ces Veſtales dont on achete à prix d'or le ſacrifice
           de la pudeur: il n'eſt pas avare de galanteries; il lui écrivit une Lettre des plus longues, où tous
-          les lieux communs du bon ton étoient employés. Voici la courte réponſe qu'on lui rendit.</p>
-        <p>
-          <hi rend="italic">Je ſuis très-flattée, Monſieur, d'avoir mérité vos éloges; mais vous n'ignorez
+          les lieux communs du bon ton étoient employés. Voici la courte réponſe qu'on lui rendit.
+    </p>
+    <p>
+     <hi rend="italic">
+      Je ſuis très-flattée, Monſieur, d'avoir mérité vos éloges; mais vous n'ignorez
             point qu'à nous autres Demoiſelles de l'Opera le langage de Roman eſt tout-à-fait étranger.
             J'entends parfaitement la Langue financiere; je ne connois point d'autre ton, ni d'autre ſtile que
             celui-là. C'eſt à donc vous à prendre là-deſſus vos arrangemens; ſongez que je n'aime point à
             crédit, &amp; que je ne veux pas augmenter le nombre de vos Créanciers. J'attends votre réponſe,
-            &amp;c.</hi>
-        </p>
-        <p>Vous vous attendez bien, me dit le Chevalier, à la réponſe. Le Marquis en reſta donc à ſes
+            &amp;c.
+     </hi>
+    </p>
+    <p>
+     Vous vous attendez bien, me dit le Chevalier, à la réponſe. Le Marquis en reſta donc à ſes
           avances: il étoit Ecolier des plus ignorans dans le jargon des Enfans de Plutus; il ſe conſola des
           cruautés de la Déeſſe, &amp; de dépit alla rabattre ſur une Infante ſeptuagenaire, qui payoit argent
           comptant les dépenſes qu'on faiſoit pour elle en amour. Le Marquis vient ſans doute à Veniſe, dans
-          l'intention de duper quelque femme.</p>
-        <p>Sans doute qu'un Domino vert avec des dentelles d'or n'échappe point à votre vûe, c'eſt la
+          l'intention de duper quelque femme.
+    </p>
+    <p>
+     Sans doute qu'un Domino vert avec des dentelles d'or n'échappe point à votre vûe, c'eſt la
           Marquiſe de Perville; elle eſt venue à Veniſe pour recueillir une groſſe ſucceſſion d'un des parens
           de ſa mere, qui eſt Vénitienne. C'eſt en France une de nos femmes à Petites-Maiſons: elle en a une
           dans le voiſinage des Porcherons, c'eſt là ſon iſle Caprée. Je l'ai connue amoureuſe folle de ſon
@@ -1008,7 +1618,10 @@
           de ſa beauté arrachés à ce peuple d'ennemies, &amp; le coloris brillant de la joye ſe répand ſur ſon
           front. Eſt-on venu au ſouper, elle joue la petite poitrine, l'appetit malade; elle ne s'amuſe à
           manger que des
-          <hi rend="italic">miſeres</hi>; elle laiſſe le vin de Bourgogne, pour boire à plein verre du
+     <hi rend="italic">
+      miſeres
+     </hi>
+     ; elle laiſſe le vin de Bourgogne, pour boire à plein verre du
           Champagne, &amp; des Liqueurs. Si elle fait aux Convives la grace de chanter, elle parle plutôt
           qu'elle ne chante. De la table a-t'on paſſé au jeu, elle y porte un air de diſtraction; elle perd
           comme ſans s'en appercevoir. Il eſt néceſſaire de dire que quelqu'un de ſes Adorateurs, qui eſt
@@ -1021,48 +1634,83 @@
           connoître: c'étoit un homme à deſhonorer cent femmes à un ſeul ſouper; &amp; il eſt d'une néceſſité
           indiſpenſable à Paris qu'une jolie femme ſoit connue, prônée, affichée; il lui faut des avantures
           d'éclat. Vous remarquerez, en paſſant, que le Marquis étoit l'homme de France le plus laid, le plus
-          imprudent, mais il étoit à la mode.</p>
-        <p>Cette Vénitienne qui la ſuit a un ridicule aſſez marqué: elle a pluſieurs Amans, pour qui elle ſe
+          imprudent, mais il étoit à la mode.
+    </p>
+    <p>
+     Cette Vénitienne qui la ſuit a un ridicule aſſez marqué: elle a pluſieurs Amans, pour qui elle ſe
           pique de ſenſibilité; mais elle triomphe dans ſes défaites; ſon amour propre a toujours l'avantage;
           elle fait entendre à ſes Amans qu'elle leur céde plutôt par complaiſance, que par tendreſſe; ils
           n'ont jamais la ſatisfaction de devoir leur victoire à l'amour; il ſemble que ce ſoit une eſpéce de
           compaſſion qui porte ce cœur là à être ſenſible; ce ne ſont pas des faveurs, mais des bienfaits
           qu'elle accorde; elle ne ſe livre point, elle ſe donne, ou plutôt elle ſe prête; le nom de Maîtreſſe
-          l'offenſe, celui ſeul d'amie la touche.</p>
-        <p>Voilà, me dit le Chevalier, un ſpectacle aſſez divertiſſant; le fils &amp; la mere ſe
+          l'offenſe, celui ſeul d'amie la touche.
+    </p>
+    <p>
+     Voilà, me dit le Chevalier, un ſpectacle aſſez divertiſſant; le fils &amp; la mere ſe
           reconnoiſſent, en croyant mutuellement ne point ſe rencontrer ici. L'une eſt de ces femmes, dont
           l'âge mûr annonce l'état de la dévotion; elle parle ſans ceſſe le jargon d'honneur, &amp; de vertu;
           elle eſt yvre d'un étourdi de petit Marquis, qui en vaut une douzaine pour l'indiſcrétion. Son fils
           eſt épris d'une Courtiſanne. il a pris ſa mere pour ſa Princeſſe, il lui a baiſé tendrement la main,
           l'a obligée enfin de ſe démaſquer. Quelle ſurpriſe pour nos deux perſonnages! La mere ſe retire la
           premiere au déſeſpoir d'avoir inſtruit ſon fils de ſon intrigue ſecrette; &amp; le fils n'eſt pas
-          moins furieux de la mépriſe.</p>
-        <p>Je trouve enfin la Signora
-          <hi rend="italic">Boranelli</hi>: oh! pour le coup, attendez-vous à apprendre une avanture des plus extraordinaires.</p>
-        <p>La Signora Boranelli, dès l'âge le plus tendre, a aimé à jouir de ſa liberté; le mariage ne put
+          moins furieux de la mépriſe.
+    </p>
+    <p>
+     Je trouve enfin la Signora
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     : oh! pour le coup, attendez-vous à apprendre une avanture des plus extraordinaires.
+    </p>
+    <p>
+     La Signora Boranelli, dès l'âge le plus tendre, a aimé à jouir de ſa liberté; le mariage ne put
           la fixer; ſon mari devint jaloux; elle ſe révolta contre le joug qu'il vouloit lui impoſer; ils en
-          ſont venus enfin à une ſéparation.</p>
-        <p>La Signora ne manquoit pas d'Adorateurs: le Signor
-          <hi rend="italic">Giacomo</hi>, étoit le favoriſé. Le mari de l'infidéle vint un matin chez
-          <hi rend="italic">Giacomo</hi>, &amp; demanda à lui parler: ſa viſite étonna l'Amant; il fut cependant introduit, &amp; pria
-          <hi rend="italci">Giacomo</hi>
-          de lui donner un moment d'entretien particulier, qui ne lui fut point refuſé.</p>
-        <p>“Monſieur, lui dit l'époux ma viſite, je l'avoue, a lieu de vous ſurprendre, &amp; votre
+          ſont venus enfin à une ſéparation.
+    </p>
+    <p>
+     La Signora ne manquoit pas d'Adorateurs: le Signor
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , étoit le favoriſé. Le mari de l'infidéle vint un matin chez
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , &amp; demanda à lui parler: ſa viſite étonna l'Amant; il fut cependant introduit, &amp; pria
+     <hi rend="italci">
+      Giacomo
+     </hi>
+     de lui donner un moment d'entretien particulier, qui ne lui fut point refuſé.
+    </p>
+    <p>
+     “Monſieur, lui dit l'époux ma viſite, je l'avoue, a lieu de vous ſurprendre, &amp; votre
           étonnement augmentera encore d'avantage, lorſque vous ſçaurez le ſujet qui m'amene ici. Je ſuis
           inſtruit, comme tout le monde, de votre intrigue avec ma femme; je ſçais qu'elle vous aime, &amp;
-          par conſéquent vous pouvez tout auprès d'elle.</p>
-        <p>“Mais, Monſieur, reprit
-          <hi rend="italic">Giacomo</hi>, je n'entends tien à ce que vous me faites la grace de me dire: j'ai
-          l'honneur de connoître Madame votre épouſe, &amp; ....</p>
-        <p>“Il eſt inutile, Monſieur, pourſuivit le mari, d'employer le déguiſement; je ne viens point ici
+          par conſéquent vous pouvez tout auprès d'elle.
+    </p>
+    <p>
+     “Mais, Monſieur, reprit
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , je n'entends tien à ce que vous me faites la grace de me dire: j'ai
+          l'honneur de connoître Madame votre épouſe, &amp; ....
+    </p>
+    <p>
+     “Il eſt inutile, Monſieur, pourſuivit le mari, d'employer le déguiſement; je ne viens point ici
           vous faire aucun reproche, vous n'en méritez point; je viens plutôt implorer votre pitié, exigez
-          enfin un ſervice qu'il n'y a que vous ſeul qui puiſſiez me rendre.</p>
-        <p>
-          “Expliquez-vous, Monſieur, répondit Giacomo “vous pouvez compter ſur une envie ſincere de vous
-          obliger, je ſerois trop heureux de pouvoir vous être utile....</p>
-        <p>“Vous le pouvez, Monſieur, continua l'époux, aſſeyons-nous, “je vous prie, &amp; daignez
-          m'accorder un moment d'attention.</p>
-        <p>“Vous voyez devant vous, Monſieur, le plus malheureux des hommes, &amp; l'Amant le plus
+          enfin un ſervice qu'il n'y a que vous ſeul qui puiſſiez me rendre.
+    </p>
+    <p>
+     “Expliquez-vous, Monſieur, répondit Giacomo “vous pouvez compter ſur une envie ſincere de vous
+          obliger, je ſerois trop heureux de pouvoir vous être utile....
+    </p>
+    <p>
+     “Vous le pouvez, Monſieur, continua l'époux, aſſeyons-nous, “je vous prie, &amp; daignez
+          m'accorder un moment d'attention.
+    </p>
+    <p>
+     “Vous voyez devant vous, Monſieur, le plus malheureux des hommes, &amp; l'Amant le plus
           maltraité; vous ne devineriez pas de quel objet je ſuis amoureux? de ma femme, oui, de ma femme,
           d'elle-même; la confidence, je l'avoue, peut vous déplaire; mais j'attends tout de votre générôſité,
           &amp; vous aurez quelque compaſſion de mon ſort; j'ai fait tous les efforts pour combattre cet amour
@@ -1074,19 +1722,31 @@
           nous entend ... Je voudrois donc, Monſieur, pouvoir paſſer une nuit avec ma femme, ſans me faire
           connoître... vous devoir enfin mon bonheur ... Je ſçais toute la ſingularité de ma demande, je ſçais
           ce qu'il doit vous en coûter, ſi vous aimez ma femme; mais ma vie eſt entre vos mains, c'eſt à vous
-          de décider; j'attends votre réponſe.</p>
-        <p>
-          <hi rend="italic">“Giacomo</hi>
-          étoit immobile d'étonnement. Ce ſont là de ces ſituations nouvelles: il aimoit aſſez ſa Maîtreſſe,
+          de décider; j'attends votre réponſe.
+    </p>
+    <p>
+     <hi rend="italic">
+      “Giacomo
+     </hi>
+     étoit immobile d'étonnement. Ce ſont là de ces ſituations nouvelles: il aimoit aſſez ſa Maîtreſſe,
           pour en être jaloux: or, quand il l'eût moins aimée, l'amour propre ſouffre toujours à faire le
-          bonheur d'un autre, aux dépens du ſien.</p>
-        <p>Il ne ſçavoit que répondre.</p>
-        <p>“Mais, Monſieur, répliqua-t'il, ſongez-vous bien à ce que „vous me demandez? Je ne vous le cache
+          bonheur d'un autre, aux dépens du ſien.
+    </p>
+    <p>
+     Il ne ſçavoit que répondre.
+    </p>
+    <p>
+     “Mais, Monſieur, répliqua-t'il, ſongez-vous bien à ce que „vous me demandez? Je ne vous le cache
           point, j'adore votre femme: je vous dirai plus, j'en ſuis aimé, &amp; je ne comprends point quel
           peut être votre deſſein. Quel ſacrifice exigez-vous de moi! mon honneur y eſt intéreſſé, comme mon
-          amour; demandez-moi les ſervices de la derniere importance.</p>
-        <p>“Non, s'écria le mari tout en pleurs, &amp; comme voulant ſe jetter aux genoux de
-          <hi rend="italic">Giacomo</hi>. “Vous ne me refuſerez point; ſongez que je meurs de douleur, &amp;
+          amour; demandez-moi les ſervices de la derniere importance.
+    </p>
+    <p>
+     “Non, s'écria le mari tout en pleurs, &amp; comme voulant ſe jetter aux genoux de
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     . “Vous ne me refuſerez point; ſongez que je meurs de douleur, &amp;
           que j'ai peu de jours à vivre. Un Rival tel que moi ne peut exciter que de la compaſſion. Je ne vous
           demande qu'une ſeule nuit avec ma femme. Voudriez-vous pour une nuit me faire perdre la vie,
           aſſaſſiner un homme, qui eſt forcé de secourir à ces extrêmités, &amp; à qui le mariage avoit acquis
@@ -1094,41 +1754,71 @@
           que vous exigiez de ma femme, pour preuve de ſa tendreſſe, qu'elle rende heureux un autre que vous:
           vous feindrez que je ſuis un de vos amis, qui ne veut point être connu, &amp; qui cependant oſe
           aſpirer à goûter des plaiſirs qu'on vous prodigue; je ne me découvrirai point. Eh bien, Monſieur,
-          mes larmes vous touchent-elles?</p>
-        <p>
-          <hi rend="italic">Giacomo</hi>
-          étoit dans un trouble inexprimable; il ſe promenoit à grands pas, il s'arrêtoit, des pleurs même lui
+          mes larmes vous touchent-elles?
+    </p>
+    <p>
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     étoit dans un trouble inexprimable; il ſe promenoit à grands pas, il s'arrêtoit, des pleurs même lui
           échapperent, il ſouffroit mille morts: l'état de ce mari infortuné l'attendriſſoit, mais il aimoit
           la femme éperduement. Enfin il donna à l'époux ſa parole de le ſervir dans ſon projet, &amp; le
           laiſſa ſortir avec cette douce eſpérance.
-          <hi rend="italic">Giacomo</hi>
-          ſeul, &amp; vis-à-vis luimême, ne pouvoit revenir de ſa ſurpriſe; il y avoit des momens qu'il étoit
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     ſeul, &amp; vis-à-vis luimême, ne pouvoit revenir de ſa ſurpriſe; il y avoit des momens qu'il étoit
           tenté de croire que tout ce qui venoit de ſe paſſer étoit un ſonge. En effet, être l'Amant d'une
           femme, &amp; ſe voir obligé de la mettre dans les bras d'un autre, de ſon mari. Peut-on imaginer une
-          ſituation plus cruelle!</p>
-        <p>La Signora
-          <hi rend="italic">Boranelli</hi>
-          aimoit trop
-          <hi rend="italic">Giacomo</hi>, pour que les moindres mouvemens qui ſe paſſoient dans le cœur de ſon
+          ſituation plus cruelle!
+    </p>
+    <p>
+     La Signora
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     aimoit trop
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , pour que les moindres mouvemens qui ſe paſſoient dans le cœur de ſon
           Amant échappaſſent à ſa tendreſſe; il ſentit en la voyant redoubler ſon embarras &amp; ſa douleur,
-          elle ne tarda pas à lui en demander le ſujet.</p>
-        <p>“Que ne puiſſiez-vous, s'écriat'il, l'ignorer pour toujours! que ne puis-je me le cacher à
+          elle ne tarda pas à lui en demander le ſujet.
+    </p>
+    <p>
+     “Que ne puiſſiez-vous, s'écriat'il, l'ignorer pour toujours! que ne puis-je me le cacher à
           moi-même! mais je ne ſuis que trop forcé de vous le réveler: m'eſt-il permis, ajouta-t'il, de
-          compter ſur votre amour?</p>
-        <p>“Eſt-ce à vous d'en douter, reprit ſa Maîtreſſe?</p>
-        <p>“Si vous m'aimez donc, pourſuivit
-          <hi rend="italic">Giacomo</hi>, “apprêtez vous à me ſacrifier plus que la fortune, que la vie; il
+          compter ſur votre amour?
+    </p>
+    <p>
+     “Eſt-ce à vous d'en douter, reprit ſa Maîtreſſe?
+    </p>
+    <p>
+     “Si vous m'aimez donc, pourſuivit
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , “apprêtez vous à me ſacrifier plus que la fortune, que la vie; il
           faut que pour m'obliger, vous m'enfonciez le poignard dans le cœur; que votre amour faſſe ce que
           feroit l'infidélité, l'ingratitude, votre haine; qu'enfin vous vous arrachiez de mes bras, que
           moi-même je vous mette dans les bras d'un autre, &amp; que je vous doive cet effort comme la
-          derniere preuve de tendreſſe.</p>
-        <p>
-          <hi rend="italic">Giacomo</hi>
-          ne put achever ces mots, ſans laiſſer éclatter ſon déſeſpoir.</p>
-        <p>“Que voulez-vous me dire, répondit la Signora
-          <hi rend="italic">Boranelli</hi>
-          étonnée? expliquez-vous: que me parlez-vous d'un autre...</p>
-        <p>Giacomo ſe jette à ſes pieds; “eh bien, lui dit-il tout en larmes „voyez quelle eſt ma ſituation,
+          derniere preuve de tendreſſe.
+    </p>
+    <p>
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     ne put achever ces mots, ſans laiſſer éclatter ſon déſeſpoir.
+    </p>
+    <p>
+     “Que voulez-vous me dire, répondit la Signora
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     étonnée? expliquez-vous: que me parlez-vous d'un autre...
+    </p>
+    <p>
+     Giacomo ſe jette à ſes pieds; “eh bien, lui dit-il tout en larmes „voyez quelle eſt ma ſituation,
           &amp; jugez de mon déſeſpoir. Un de mes amis vous a vûe, vous lui avez inſpiré l'amour le plus
           violent, il eſt prêt enfin à expirer, à mourir de douleur, s'il ne peut vous poſſéder: il ne veut
           jouir de tant de charmes qu'une ſeule nuit; &amp; cette nuit ne ſera-t-elle point pour lui une
@@ -1136,35 +1826,59 @@
           de le ſervir auprès de vous, &amp; c'eſt pour mon Rival que je viens vous prier, c'eſt moi qui vous
           demande comme une preuve d'amour, de rendre un autre heureux. Il faut que je vous engage à ne me
           point refuſer, qu'enfin vous m'aimez aſſez pour faire le bonheur de mon ami, &amp; me porter le coup
-          le plus mortel.</p>
-        <p>“Eſt-ce bien vous qui me parlez, interrompit la Signora
-          <hi rend="italic">Boranelli</hi>? c'eſt l'homme que j'aime le plus, c'eſt en un mot mon Amant, qui
+          le plus mortel.
+    </p>
+    <p>
+     “Eſt-ce bien vous qui me parlez, interrompit la Signora
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     ? c'eſt l'homme que j'aime le plus, c'eſt en un mot mon Amant, qui
           me propoſe de lui faire une infidélité; de prodiguer à un autre de ces tendres careſſes qui ne ſont
-          reſervées qu'à l'amour? Y penſezvous? ſentez-vous bien....</p>
-        <p>“Ah Madame, dit
-          <hi rend="italic">Giacomo</hi>, qu'ai-je beſoin que vous me mettiez ſous les yeux toute l'étendue de
+          reſervées qu'à l'amour? Y penſezvous? ſentez-vous bien....
+    </p>
+    <p>
+     “Ah Madame, dit
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , qu'ai-je beſoin que vous me mettiez ſous les yeux toute l'étendue de
           mon malheur; je ne le ſens que trop, le cruel ſacrifice qu'on exige de moi, mais mon ami va périr;
           je lui ai donné ma parole, il faut lui ſauver la vie. Vous m'aimez, ne voyez donc point couler mes
           larmes en ce moment, ne voyez que la néceſſité où je ſuis de m'immoler; &amp; dans un inſtant même
           où vous m'allez rendre le plus malheureux des hommes, il faut que je vous aye encore obligation de
           ce qui m'accable, me déchire le cœur. Oui, il faut que je vous remercie pour mon Rival, &amp; qu'à
-          mon amour j'ajoute la reconnoiſſance.</p>
-        <p>“Vous êtes un extravagant, répondit ſa Maîtreſſe, “on n'a jamais fait de pareilles demandes:
+          mon amour j'ajoute la reconnoiſſance.
+    </p>
+    <p>
+     “Vous êtes un extravagant, répondit ſa Maîtreſſe, “on n'a jamais fait de pareilles demandes:
           Quoi! vous qui connoiſſez mon cœur, qui ſçavez combien je vous aime, vous me propoſez de faire votre
           malheur, de me livrer aux tranſports d'un homme que je ne connois point, que „je déteſte ſans doute?
           puis-je en aimer un autre que vous? Eh bien, triomphez donc de moimême, je ne ſuis plus à moi, je
-          ſuis toute à vous; diſpoſez de moi. Peut-on aimer à ce point?</p>
-        <p>
-          <hi rend="italic">Giacomo</hi>, à chaque mot, reſſentoit mille coups de poignard, il étoit dans un
+          ſuis toute à vous; diſpoſez de moi. Peut-on aimer à ce point?
+    </p>
+    <p>
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , à chaque mot, reſſentoit mille coups de poignard, il étoit dans un
           état qu'on ne peut dépeindre. Il fallut convenir des faits: on décida que la Signora
-          <hi rend="italic">Boranelli</hi>
-          recevroit dans ſes bras l'Etranger, ſans vouloir le connoître, le voir; on exigea cela comme un
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     recevroit dans ſes bras l'Etranger, ſans vouloir le connoître, le voir; on exigea cela comme un
           nouveau ſacrifice de ſa part, on vouloit qu'elle immolât à la fois ſa tendreſſe, &amp; la curioſité,
-          qui eſt preſque auſſi forte que l'amour dans le cœur d'une Femme.</p>
-        <p>Le jour fixé pour les plaiſirs du Mari arriva:
-          <hi rend="italic">Giacomo</hi>
-          ſentoit augmenter ſon déſeſpoir, à meſure que l'inſtant fatal approchoit.</p>
-        <p>“Voilà donc, dit-il à ſa Maîtreſſe, “le moment de ma mort qui va arriver. Songez aumoins, puiſque
+          qui eſt preſque auſſi forte que l'amour dans le cœur d'une Femme.
+    </p>
+    <p>
+     Le jour fixé pour les plaiſirs du Mari arriva:
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     ſentoit augmenter ſon déſeſpoir, à meſure que l'inſtant fatal approchoit.
+    </p>
+    <p>
+     “Voilà donc, dit-il à ſa Maîtreſſe, “le moment de ma mort qui va arriver. Songez aumoins, puiſque
           je ſuis contraint à me percer le cœur, ſongez à rendre le moins heureux que vous pourrez, le cruel
           que je mets dans vos bras; ne goûtez, s'il ſe peut, aucun plaiſir avec lui; n'ayez point d'ame, de
           cœur: ſoyez inſenſible, inanimée ... peut-être hélas! ne partagerez-vous que trop ſes tranſports.
@@ -1174,85 +1888,152 @@
           j'idolâtre: ne lui en dérobera-t-on aucun? ne pourrez-vous vous refuſer toute entiere à ſes avides
           tranſports? Mais que dis-je? je connois ton ſexe perfide; je ſçais que dans l'amour il ne ſuit que
           l'attrait du plaiſir. Tu me trahiras, tu feras même naître de nouveaux deſirs, tu les irriteras ...
-          je ſuis bien malheureux: j'en mourrai de douleur, je ne puis vivre après un pareil coup.</p>
-        <p>“Courage, Monſieur, lui dit la
-          <hi rend="italic">Signora</hi>, pourſuivez à m'accabler d'outrages: je ne ſuis pas aſſez à plaindre,
+          je ſuis bien malheureux: j'en mourrai de douleur, je ne puis vivre après un pareil coup.
+    </p>
+    <p>
+     “Courage, Monſieur, lui dit la
+     <hi rend="italic">
+      Signora
+     </hi>
+     , pourſuivez à m'accabler d'outrages: je ne ſuis pas aſſez à plaindre,
           ſans que vous veniez encore m'inſulter, &amp; ſoupçonner ma tendreſſe. Vous oſez vous emporter en
           reproches, quand c'eſt vous qui êtes l'auteur de toutes mes peines, quand c'eſt pour vous qu'on ſe
           ſacrifie, &amp; qu'on donne plus que ſes jours; vous êtes bien ingrat. Eh puis-je goûter des
-          plaiſirs, être heureuſe dans les bras d'un autre?</p>
-        <p>Et en diſant cela, elle pleuroit amérement; ſes larmes augmentoient l'éclat de ſes charmes &amp;
+          plaiſirs, être heureuſe dans les bras d'un autre?
+    </p>
+    <p>
+     Et en diſant cela, elle pleuroit amérement; ſes larmes augmentoient l'éclat de ſes charmes &amp;
           faiſoient encore plus valoir ſa beauté aux yeux d'un Amant, que cet aſpect déſeſperoit, &amp; qui
           ſentoit tout le prix du bonheur dont ſon Rival lui alloit être redevable: il ne pouvoit quitter ſa
-          Maîtreſſe, il étoit égaré, furieux.</p>
-        <p>“Je veux bien, lui dit-il en ſe retirant, “vous faire une confidence dont vous n'abuſerez point:
+          Maîtreſſe, il étoit égaré, furieux.
+    </p>
+    <p>
+     “Je veux bien, lui dit-il en ſe retirant, “vous faire une confidence dont vous n'abuſerez point:
           je vous avertis que ce Barbare ami, eſt d'une laideur à faire peur
-        </p>
-        <p>Il eſt laid, s'écria la
-          <hi rend="italic">Signora</hi>, comme effrayée?</p>
-        <p>Elle revint de ce premier mouvement: “Eh bien, continua-t'elle changeant de ton, &amp; de viſage
+    </p>
+    <p>
+     Il eſt laid, s'écria la
+     <hi rend="italic">
+      Signora
+     </hi>
+     , comme effrayée?
+    </p>
+    <p>
+     Elle revint de ce premier mouvement: “Eh bien, continua-t'elle changeant de ton, &amp; de viſage
           “c'eſt avec plaiſir que j'apprends qu'il n'eſt point aimable; je voudrois qu'il fut un monſtre, le
           ſacrifice que je vous fais en auroit plus de valeur à vos yeux, &amp; les preuves de mon amour pour
-          vous &amp; de ma complaiſance, en ſercient plus fortes.</p>
-        <p>
-          <hi rend="italic">Giacomo</hi>
-          ſortit déſeſperé, en lui annonçant que ſon ami ſeroit introduit ſans lumiere dans ſon Appartement;
+          vous &amp; de ma complaiſance, en ſercient plus fortes.
+    </p>
+    <p>
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     ſortit déſeſperé, en lui annonçant que ſon ami ſeroit introduit ſans lumiere dans ſon Appartement;
           &amp; il n'oublia pas de lui recommander pluſieurs fois de ſe garder ſurtout, de prendre aucun
-          plaiſir.</p>
-        <p>Que les paſſions aveuglent l'eſprit!
-          <hi rend="italic">Giacomo</hi>
-          pouvoit-il en effet ſe diſſimuler, que dans certains momens les ſens ne peuvent ſe refuſer au
+          plaiſir.
+    </p>
+    <p>
+     Que les paſſions aveuglent l'eſprit!
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     pouvoit-il en effet ſe diſſimuler, que dans certains momens les ſens ne peuvent ſe refuſer au
           plaiſir; que le cœur eſt même ſouvent de la partie, &amp; que dans l'yvreſſe de la jouiſſance tous
           les objets ſont égaux, &amp; prennent à peu près les mêmes charmes? mais il ne ſe le diſſimuloit
           point; tout ce qu'il vouloit, c'étoit de s'en faire accroire, de s'en impoſer à lui-même ſans le
           pouvoir. Et voilà où ſont réduits la plûpart des hommes: leurs yeux cherchent à ſe fermer, mais
-          malgré leurs efforts ils entrevoyent toujours ce qu'ils craignent de contempler.</p>
-        <p>Le Mari ſe rendit chez l'Amant qui lui apprit ſon bonheur, en lui reprochant tous les tourmens
+          malgré leurs efforts ils entrevoyent toujours ce qu'ils craignent de contempler.
+    </p>
+    <p>
+     Le Mari ſe rendit chez l'Amant qui lui apprit ſon bonheur, en lui reprochant tous les tourmens
           qu'il lui faiſoit ſouffrir. L'Epoux ſe jetta à ſes pieds, verſa des larmes de joie, lui offrit ſes
-          biens &amp; ſa vie; pour acquitter ſa reconnoiſſance.</p>
-        <p>“Eh! Monſieur, lui dit
-          <hi rend="italic">Giacomo</hi>, “vos remercimens me déſeſperent, m'aſſaſſinent; vous me dechirez le
+          biens &amp; ſa vie; pour acquitter ſa reconnoiſſance.
+    </p>
+    <p>
+     “Eh! Monſieur, lui dit
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , “vos remercimens me déſeſperent, m'aſſaſſinent; vous me dechirez le
           cœur par morceaux. Qu'ai-je fait? allez, Monſieur, où vous êtes attendu, &amp; que je ne vous voye
           jamais: votre préſence m'eſt odieuſe; mais faiſons auparavant nos conditions. Je ne vous donne que
           deux heures avec votre Femme, &amp; pas une minute avec. Si vous me manquez d'une ſeconde, il faudra
           que l'un de nous deux s'egorge: c'eſt à vous d'employer le tems, vous avez une Montre à répétition
-          qui vous avertira du moment où il faudra vous ſéparer.</p>
-        <p>
-          <hi rend="italic">Giacomo</hi>
-          lui dit auſſi, de quelle façon il reſteroit inconnu à la Signora
-          <hi rend="italic">Boranelli</hi>: les conditions furent acceptées.</p>
-        <p>Voilà donc l'Epoux introduit dans l'Appartement de ſa Femme: il vole à ſon lit, il ſe précipite
+          qui vous avertira du moment où il faudra vous ſéparer.
+    </p>
+    <p>
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     lui dit auſſi, de quelle façon il reſteroit inconnu à la Signora
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     : les conditions furent acceptées.
+    </p>
+    <p>
+     Voilà donc l'Epoux introduit dans l'Appartement de ſa Femme: il vole à ſon lit, il ſe précipite
           dans ſes bras; elle verſoit quelques larmes, elle aimoit en effet Giacomo, &amp; puis je ne doute
           pas que la prétendue laideur de l'Inconnu, n'ajoutât beaucoup à ſon chagrin: je n'oſe dire que
-          c'étoit peut-être là la ſeule idée qui l'affligeoit.</p>
-        <p>
-          <hi rend="italic">Giacomo</hi>
-          tourmenté, dechiré par la jalouſie, &amp; voulant juger par lui-même, ſi la Signora lui tiendroit
+          c'étoit peut-être là la ſeule idée qui l'affligeoit.
+    </p>
+    <p>
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     tourmenté, dechiré par la jalouſie, &amp; voulant juger par lui-même, ſi la Signora lui tiendroit
           parole, &amp; ſeroit auſſi inſenſible qu'elle le lui avoit promis, avoit trouvé moyen de s'inſinuer
           dans la maiſon, &amp; de pénétrer juſqu'à l'Appartement le plus prochain de la Chambre à coucher, de
           façon qu'on pouvoit entendre tout ce que pourroient ſe dire la Signora &amp; ſon Mari: c'étoit venir
           de propos déliberé ſe préſenter à une cruelle vérité qu'il auroit dû fuir. Eh! que l'erreur ſouvent
-          nous eſt néceſſaire! que nous devons la cherir, l'entretenir!</p>
-        <p>C'eſt ce qu'aſſurément ne fit point
-          <hi rend="italic">Giacomo</hi>: il prêtoit donc une attention extraordinaire, vous pouvez croire
+          nous eſt néceſſaire! que nous devons la cherir, l'entretenir!
+    </p>
+    <p>
+     C'eſt ce qu'aſſurément ne fit point
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     : il prêtoit donc une attention extraordinaire, vous pouvez croire
           qu'il étoit toutoreilles: ſon ame étoit ſuſpendue, il avoit ſa montre à la main, &amp; comptoit les
           heures, les demieheures, les minuttes; il n'y avoit pas de ſeconde qui ne fût pour lui un ſiécle de
           tourmens, qui ne lui arrachât un ſoupir, une larme. Qu'il eut voulu de bon cœur avancer la montre du
-          Mari! il eut été avare des momens au point de lui en laiſſer à peine un.</p>
-        <p>La Signora de ſon côté, avec une entiére réſignation, recevoit les careſſes de l'Inconnu, dont
+          Mari! il eut été avare des momens au point de lui en laiſſer à peine un.
+    </p>
+    <p>
+     La Signora de ſon côté, avec une entiére réſignation, recevoit les careſſes de l'Inconnu, dont
           les tranſports n'euſſent pû jamais faire ſoupçonner, qu'ils partoient de la tendreſſe d'un Epoux,
           &amp; par parenthèſe, étoient autant de coups de poignard pour
-          <hi rend="italic">Giacomo</hi>, qui, bien loin de chercher dans ſon eſprit à leur faire perdre de
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , qui, bien loin de chercher dans ſon eſprit à leur faire perdre de
           leur vivacité, ſe les repréſentoit encore plus ardens, &amp; par conſéquent moins mortifians pour ſa
-          Maîtreſſe.</p>
-        <p>Les premieres paroles qui échapperent à la Signora furent, Ah!
-          <hi rend="italic">Giacomo, Giacomo</hi>, à quoi m'avez vous réduite?</p>
-        <p>Ces plaintes conſoloient un peu ſon Amant, &amp; ſembloient adoucir la ſituation déſeſperante où
-          il ſe trouvoit: mais de quels nouveaux coups ſon cœur fut-il percé, quand il entendit.</p>
-        <p>Oui, mon cher
-          <hi rend="italic">Giacomo</hi>, je n'aimerai que toi: c'eſt toi que je tiens dans mes bras.</p>
-        <p>“Ah! traîtreſſe, s'écria
-          <hi rend="italic">Giacomo</hi>, “tu prends du plaiſir, je vai te poignarder.... Elle croit la
+          Maîtreſſe.
+    </p>
+    <p>
+     Les premieres paroles qui échapperent à la Signora furent, Ah!
+     <hi rend="italic">
+      Giacomo, Giacomo
+     </hi>
+     , à quoi m'avez vous réduite?
+    </p>
+    <p>
+     Ces plaintes conſoloient un peu ſon Amant, &amp; ſembloient adoucir la ſituation déſeſperante où
+          il ſe trouvoit: mais de quels nouveaux coups ſon cœur fut-il percé, quand il entendit.
+    </p>
+    <p>
+     Oui, mon cher
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , je n'aimerai que toi: c'eſt toi que je tiens dans mes bras.
+    </p>
+    <p>
+     “Ah! traîtreſſe, s'écria
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , “tu prends du plaiſir, je vai te poignarder.... Elle croit la
           perfide m'en impoſer &amp; s'en impoſer à elle-même, en prononçant mon nom; &amp; par cette
           impoſture, elle penſe s'acquitter de ſa parole, &amp; elle ne ſatisfait que ſon inſatiable avidité
           pour le plaiſit. Ah! les Femmes, les Femmes.... quels monſtres! Faut-il que j'aie accordé tant de
@@ -1261,70 +2042,125 @@
           n'y puis tenir, j'en mourrai; il faut que je me tue. Ah! malheureux, quelle rage, quel Démon t'a
           pouſſé à venir être le témoin de leur bonheur? ne connoiſſois-tu pas les Femmes, cette indigne
           nature qui ne ſe laiſſe conduire que par les ſens, &amp; qui écoute ſi peu le cœur? miſérable,
-          qu'ai-je fait!</p>
-        <p>La Signora ne pouvoit s'empêcher de laiſſer échapper de ces ſoupirs, qui dénoncent le plaiſir le
-          plus obſtiné à ſe taire.</p>
-        <p>“Soupire, diſoit
-          <hi rend="italic">Giacomo</hi>
-          furieux? “ſoupire, Monſtre d'ingratitude. Ah! tu es ſenſible dans les bras d'un autre? ſes careſſes
+          qu'ai-je fait!
+    </p>
+    <p>
+     La Signora ne pouvoit s'empêcher de laiſſer échapper de ces ſoupirs, qui dénoncent le plaiſir le
+          plus obſtiné à ſe taire.
+    </p>
+    <p>
+     “Soupire, diſoit
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     furieux? “ſoupire, Monſtre d'ingratitude. Ah! tu es ſenſible dans les bras d'un autre? ſes careſſes
           te touchent, arrachent ta perfide ame à tes ſermens? tu partages ſes tranſports? tu ne jouiras pas
           long-tems de ton bonheur, tu ne me trahiras pas longtems: je t'ôterai la vie, tu mourras de ma main;
           je percerai ce traître cœur qui m'oublie, qui brûle pour un autre; vous périrez tous deux, Barbares,
           qui m'aſſaſſinez ſi impitoyablement. Eh quoi! ſes deux heures ne ſont point expirées, elles ne
           s'écouleront jamais: j'ai à ſouffrir un ſiécle, toute une éternité; ô tems, tems cruel, que tu es
-          lent au gré de mon impatience.</p>
-        <p>Le Mari bien différent de
-          <hi rend="italic">Giacomo</hi>, dans le fond de ſon cœur reprochoit au tems ſa rapidité: à chaque
-          inſtant il faiſoit ſonner ſa Montre, &amp; il s'écrioit.</p>
-        <p>“Quoi, il y a déja une heure, une heure d'écoulée! je n'ai plus qu'une heure à être heureux,
+          lent au gré de mon impatience.
+    </p>
+    <p>
+     Le Mari bien différent de
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , dans le fond de ſon cœur reprochoit au tems ſa rapidité: à chaque
+          inſtant il faiſoit ſonner ſa Montre, &amp; il s'écrioit.
+    </p>
+    <p>
+     “Quoi, il y a déja une heure, une heure d'écoulée! je n'ai plus qu'une heure à être heureux,
           qu'un moment? Ah! faut-il que je ne puiſſe paſſer ma vie dans vos bras, ô Divine
-          <hi rend="italic">Boranelli</hi>, y expirer d'amour? Que vous êtes
-          <corr>charmante</corr>, adorable! Et que mes plaiſirs ſont empoiſonnés! Ne puis-je me faire
-          connoître; Ah! vous me déteſteriez.</p>
-        <p>Vous êtes donc bien affreux, reprit la Signora, en jettant un ſoupir moitié chagrin, moitié volupté.</p>
-        <p>“Si vous ſçaviez qui je ſuis, pour ſuivoit l'Epoux.... “que je ſuis à plaindre, &amp; que mon
-          bonheur dans ce moment même me coûte de larmes!</p>
-        <p>Il redoubloit ſes careſſes; ſes tranſports, loin de s'affoiblir; devenoient plus tendres, plus
+     <hi rend="italic">
+      Boranelli
+     </hi>
+     , y expirer d'amour? Que vous êtes
+     <corr>
+      charmante
+     </corr>
+     , adorable! Et que mes plaiſirs ſont empoiſonnés! Ne puis-je me faire
+          connoître; Ah! vous me déteſteriez.
+    </p>
+    <p>
+     Vous êtes donc bien affreux, reprit la Signora, en jettant un ſoupir moitié chagrin, moitié volupté.
+    </p>
+    <p>
+     “Si vous ſçaviez qui je ſuis, pour ſuivoit l'Epoux.... “que je ſuis à plaindre, &amp; que mon
+          bonheur dans ce moment même me coûte de larmes!
+    </p>
+    <p>
+     Il redoubloit ſes careſſes; ſes tranſports, loin de s'affoiblir; devenoient plus tendres, plus
           preſſans: la Signora de plus en plus écartoit l'idée de
-          <hi rend="italic">Giacomo</hi>, &amp; ſe livroit toute entiére au plaiſir que l'Inconnu lui faiſoit
-          goûter, en lui diſant d'un ton enchanteur &amp; voluptueux.</p>
-        <p>Que je ſçache donc qui vous êtes? ne craignez rien, non.... je ne vous haïrez point, je ne le
-          ſçaurois, ni je ne le dois pas.</p>
-        <p>Juſqu'à ce moment,
-          <hi rend="italic">Giacomo</hi>
-          avoit quelquefois balancé ſur ce qu'il devoit croire de ce qu'il entendoit, &amp; de ce que ſon
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , &amp; ſe livroit toute entiére au plaiſir que l'Inconnu lui faiſoit
+          goûter, en lui diſant d'un ton enchanteur &amp; voluptueux.
+    </p>
+    <p>
+     Que je ſçache donc qui vous êtes? ne craignez rien, non.... je ne vous haïrez point, je ne le
+          ſçaurois, ni je ne le dois pas.
+    </p>
+    <p>
+     Juſqu'à ce moment,
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     avoit quelquefois balancé ſur ce qu'il devoit croire de ce qu'il entendoit, &amp; de ce que ſon
           imagination lui faiſoit voir; il y avoit des inſtans où il vouloit ſe flatter, s'abuſer au point de
           trouver ſa Maîtreſſe moins ſenſible aux careſſes de l'Inconnu qu'elle l'étoit réellement. Il n'y eut
           donc plus de reſſource pour l'amour: il fallut qu'il ceſſât de ſe déguiſer la vérité, &amp; de ſe
           faire illuſion; il fut bien plus pénétré de la certitude de ſon malheur, lorſqu'il entendit, ſans
           pouvoir recourir à aucun doute, la Signora qui répondoit avec reconnoiſſance aux tranſports de ſon
           Mari, le ſerroit dans ſes bras, &amp; lui demandoit même de nouvelles careſſes, loin de le
-          repouſſer, &amp; que ces mots furent ajoutés aux careſſes.</p>
-        <p>Je me meurs .... Tu es le plus charmant des hommes.... arrête donc.... tu me fais mourir ... Ah!
-          que je t'adore.</p>
-        <p>Ah! ma chere Femme, s'écria l'Epoux.... Je ſuis perdu, s'écria à ſon tour
-          <hi rend="italic">Giacomo</hi>, entrant dans la Chambre de ſa Maîtreſſe, l'épée nue d'une main,
+          repouſſer, &amp; que ces mots furent ajoutés aux careſſes.
+    </p>
+    <p>
+     Je me meurs .... Tu es le plus charmant des hommes.... arrête donc.... tu me fais mourir ... Ah!
+          que je t'adore.
+    </p>
+    <p>
+     Ah! ma chere Femme, s'écria l'Epoux.... Je ſuis perdu, s'écria à ſon tour
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , entrant dans la Chambre de ſa Maîtreſſe, l'épée nue d'une main,
           &amp; une bougie de l'autre. Mon Mari! ...
-          <hi rend="italic">Giacomo</hi>!... dit la Signora en jettant un grand cri. Eh! quoi, Monſieur, y a
-          encore ſix minutes, dit l'Epoux, en regardant ſa Montre.</p>
-        <p>Ces ſortes de ſituations, pourſuivit le Chevalier, ne peuvent ſe rendre dans la préciſion, la
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     !... dit la Signora en jettant un grand cri. Eh! quoi, Monſieur, y a
+          encore ſix minutes, dit l'Epoux, en regardant ſa Montre.
+    </p>
+    <p>
+     Ces ſortes de ſituations, pourſuivit le Chevalier, ne peuvent ſe rendre dans la préciſion, la
           vivacité qui les accompagne. La Signora, dès l'inſtant qu'elle avoit reconnu ſon Mari, l'avoit
           repouſſé de ſes bras avec horreur;
-          <hi rend="italic">Giacomo</hi>
-          avoit ouvert les rideaux du lit, comme un furieux, &amp; cauſoit à la fois deux ſurpriſes à la
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     avoit ouvert les rideaux du lit, comme un furieux, &amp; cauſoit à la fois deux ſurpriſes à la
           Signora, en lui montrant ſon Mari, &amp; ſon Amant qu'elle ne croyoit point ſi proche d'elle.
           L'Epoux ne retrouvoit plus dans la Signora, cette Femme ſi rendre, qui un moment auparavant
           s'abandonnoit à ſes tranſports. Pour
-          <hi rend="italic">Giacomo</hi>, il fit mille extravagances, il vouloit immoler à ſa fureur le Mari
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     , il fit mille extravagances, il vouloit immoler à ſa fureur le Mari
           &amp; la Femme, il accabla de reproches ſa Maîtreſſe, &amp; la laiſſa vis-à-vis ſon malheureux
           Epoux, à qui elle rendit avec uſure les emportemens de ſon Amant: il fut congédié impitoiablement,
           ſans qu'on voulût ſeulement ſe donner la peine de le regarder &amp; de l'entendre, &amp;
-          <hi rend="italic">Giacomo</hi>
-          revint auprès de la Signora plus amoureux, c'eſt-à-dire plus trompé que jamais. Elle trouva le moyen
+     <hi rend="italic">
+      Giacomo
+     </hi>
+     revint auprès de la Signora plus amoureux, c'eſt-à-dire plus trompé que jamais. Elle trouva le moyen
           de lui perſuader qu'il l'avoit accuſée injuſtement d'être ſenſible pour une autre, elle n'eut pas
           beaucoup de peine à l'abuſer à ce point. Quelle raiſon ne céde pas à l'amour! l'eſprit eſt bien
-          foible, lorſque le cœur eſt contre lui.</p>
-        <p>Dites après cela, Madame, que je ne cherche point à vous amuſer? Ne voilà-t-il pas des avantures
+          foible, lorſque le cœur eſt contre lui.
+    </p>
+    <p>
+     Dites après cela, Madame, que je ne cherche point à vous amuſer? Ne voilà-t-il pas des avantures
           qui ont tout le mérite de la nouveauté? un Mari qui eſt forcé de recourir à l'Amant de ſa Femme,
           pour jouir d'un droit que l'Hymen devroit cependant lui avoit acquis; un Amant qui eſt contraint de
           ſervir les intérêts d'un Mari, &amp; de lui céder ſa Maîtreſſe, qui eſt, pour ainſi dire, le témoin
@@ -1332,15 +2168,25 @@
           toutes les formes: une Femme enfin qui ſe trouve entre ſon Amant &amp; ſon Mari, qui eſt au
           déſeſpoir d'avoir prodigué ſes careſſes les plus vives, à l'homme qu'elle déteſte le plus, à ſon
           Epoux; &amp; pour comble de douleur, qui ſe voit priſe ſur le fait, après avoir révelé
-          <hi rend="italic">le ſecret des Femmes</hi>, ce goût qui les flatte également, dès que leurs ſens
+     <hi rend="italic">
+      le ſecret des Femmes
+     </hi>
+     , ce goût qui les flatte également, dès que leurs ſens
           ſont intéreſſés dans la ſéduction: toutes ces attitudes formoient des tableaux différens, &amp;
-          parfaits dans leur eſpéce.</p>
-        <p>Le Chevalier en reſta à cette Hiſtoire, le Bal finit, &amp; nous nous retirâmes dans la
+          parfaits dans leur eſpéce.
+    </p>
+    <p>
+     Le Chevalier en reſta à cette Hiſtoire, le Bal finit, &amp; nous nous retirâmes dans la
           très-ferme intention de ne point laiſſer
-          <corr>échapper</corr>
-          la moindre avanture de galanterie qui s'offriroit à notre médiſance.</p>
-        <trailer>FIN.</trailer>
-      </div>
-    </body>
-  </text>
+     <corr>
+      échapper
+     </corr>
+     la moindre avanture de galanterie qui s'offriroit à notre médiſance.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+ </text>
 </TEI>

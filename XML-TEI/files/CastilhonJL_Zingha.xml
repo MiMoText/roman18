@@ -2,102 +2,171 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="CastilhonJL_Zingha" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:69.23 wikidata:0">Zingha, reine d'Angola: MiMoText edition</title>
-        <author ref="viaf:27107566 wikidata:Q3166691">Jean-Louis Castilhon(1721-1798)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>gallica</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">42489</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k85830z"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Zingha, reine d'Angola. Histoire Africaine, en deux parties.</title>
-          <author>Jean-Louis Castilhon</author>
-          <pubPlace>Paris</pubPlace>
-          <publisher>Lacombe</publisher>
-          <date>1769</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1769</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1"><p/></encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            heterodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-04-25">Initial ELTeC level-1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>ZINGHA, REINE D'ANGOLA. HISTOIRE AFRICAINE, EN DEUX PARTIES.</p>
-        <p>PAR Mr. L. Castilhon.</p>
-        <p>PREMIERE PARTIE.</p>
-        <p>A Bouillon &amp; ſe trouve, A PARIS, chez Lacombe, Libraire, rue Chriſtine. M. DCC. LXIX.</p>
-      </div>
-      <div type="titlepage">
-        <p>ZINGHA,</p>
-        <p>REINE</p>
-        <p>D'ANGOLA.</p>
-        <p>HISTOIRE AFRICAINE, EN DEUX PARTIES.</p>
-        <p>PAR M. L. CASTILHON.</p>
-        <p>A BOUILLON, &amp; ſe trouve, A PARIS, chez Lacombe, Libraire, rue Chriſtine. MDCC. LXIX.</p>
-      </div>
-    </front>
-    <body>
-      <div type="group">
-        <head>PREFACE.</head>
-        <p>
-          <hi rend="italic">LE caractère de Zingha m'a paru mériter d'être développé. D'après l'hiſtorien
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:69.23 wikidata:0">
+     Zingha, reine d'Angola: MiMoText edition
+    </title>
+    <author ref="viaf:27107566 wikidata:Q3166691">
+     Jean-Louis Castilhon(1721-1798)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     42489
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k85830z"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2007
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Zingha, reine d'Angola. Histoire Africaine, en deux parties.
+     </title>
+     <author>
+      Jean-Louis Castilhon
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Lacombe
+     </publisher>
+     <date>
+      1769
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1769
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-04-25">
+    Initial ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     ZINGHA, REINE D'ANGOLA. HISTOIRE AFRICAINE, EN DEUX PARTIES.
+    </p>
+    <p>
+     PAR Mr. L. Castilhon.
+    </p>
+    <p>
+     PREMIERE PARTIE.
+    </p>
+    <p>
+     A Bouillon &amp; ſe trouve, A PARIS, chez Lacombe, Libraire, rue Chriſtine. M. DCC. LXIX.
+    </p>
+   </div>
+   <div type="titlepage">
+    <p>
+     ZINGHA,
+    </p>
+    <p>
+     REINE
+    </p>
+    <p>
+     D'ANGOLA.
+    </p>
+    <p>
+     HISTOIRE AFRICAINE, EN DEUX PARTIES.
+    </p>
+    <p>
+     PAR M. L. CASTILHON.
+    </p>
+    <p>
+     A BOUILLON, &amp; ſe trouve, A PARIS, chez Lacombe, Libraire, rue Chriſtine. MDCC. LXIX.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="group">
+    <head>
+     PREFACE.
+    </head>
+    <p>
+     <hi rend="italic">
+      LE caractère de Zingha m'a paru mériter d'être développé. D'après l'hiſtorien
             Anglois, j'en ai rapporté quelques traits dans le Journal Encyclopédique, &amp; j'ai ſenti que les
             faits même que je tranſcrivois m'intéreſſoient pour cette ſouveraine moitié ſauvage &amp; moitié
             policée. Perſuadé que bien des gens penſeroient comme moi, j'ai raſſemblé ces faits, &amp; je n'ai
@@ -152,13 +221,19 @@
             utilement leur patrie &amp; de gagner en même temps la confiance des ennemis de leur patrie &amp;
             c'eſt-là toutefois l'important &amp; pénible rôle que l'induſtrieux P. Antoine a rempli avec
             diſtinction à Loando, à Mapongo, &amp; à Métamba, ainſi qu'on l'apprendra dans la ſeconde Partie de
-            cette intéreſſante hiſtoire.</hi>
-        </p>
-      </div>
-      <div type="chapter">
-        <head>ZINGHA, REINE D'ANGOLA.</head>
-        <head>PREMIERE PARTIE.</head>
-        <p>Loin des brûlantes régions où le héros d'Utique ranimant le courage de ſes amis vaincus,
+            cette intéreſſante hiſtoire.
+     </hi>
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     ZINGHA, REINE D'ANGOLA.
+    </head>
+    <head>
+     PREMIERE PARTIE.
+    </head>
+    <p>
+     Loin des brûlantes régions où le héros d'Utique ranimant le courage de ſes amis vaincus,
           raſſembla ſous ſes étendarts les reſtes malheureux de la journée de Pharſale; loin des ſables arides
           &amp; des féroces habitans de la triſte Nubie, la nature plus riante offre aux voyageurs effrayés du
           ſilence des ſolitudes où ils viennent d'errer, les payſages enchanteurs, les champs féconds, les
@@ -168,8 +243,10 @@
           l'étendue de l'Éthiopie; enſorte que, quoique bazannés ou même noirs, les peuples qui l'habitent, y
           cultivent ſous l'influence d'un climat tempéré des ſols fertiles, également affranchis des rigueurs
           des frimats de l'Europe &amp; de l'Aſie, &amp; des feux dévorans qui rendent preſque inabitables la
-          plûpart des autres pays ſitués ſous la zone torride.</p>
-        <p>L'Éthiopie ne jouit pourtant pas des mêmes avantages dans tou-te ſon immenſité. L'Abiſſinie
+          plûpart des autres pays ſitués ſous la zone torride.
+    </p>
+    <p>
+     L'Éthiopie ne jouit pourtant pas des mêmes avantages dans tou-te ſon immenſité. L'Abiſſinie
           preſqu'entiere eſt infertile, déſerte, par l'extrême chaleur qui brûle juſques aux racines du petit
           nombre de végétaux que la nature languiſſan-te produit de loin en loin au milieu des ſables
           enflammés qui couvrent cette région. C'eſt au-delà de ce pays inculte, &amp; dans la baſſe Ethiopie
@@ -186,8 +263,10 @@
           trois royaumes de Cacombo, &amp; avec ceux d'Angra, de Gabom &amp; de Congo, qui renferme ſeul plus
           de villes, d'habitans, de métaux, &amp; de richeſſes naturelles de toutes les eſpeces, qu'il n'y en
           a dans tout le reſte des états de l'Afrique, ou même dans les mines du riche Potoſi, &amp; dans les
-          plus vaſtes empires de l'Europe &amp; de l'Aſie.</p>
-        <p>A ne conſidérer que l'étendue de ſa domination, le nombre preſque infini de ſes ſujets,
+          plus vaſtes empires de l'Europe &amp; de l'Aſie.
+    </p>
+    <p>
+     A ne conſidérer que l'étendue de ſa domination, le nombre preſque infini de ſes ſujets,
           l'entaſſement prodigieux de ſes tréſors &amp; de ſes revenus, l'Empereur de Congo devroit être
           ſans-doute regardé comme le plus puiſſant de tous les ſouverains. Les rois de Lovango, de Pango, de
           Batta, reſpectent ſon autorité; ceux de Songo, de Sunda, de Pemba, de Bamba, ſont ſoumis à ſes
@@ -200,14 +279,23 @@
           couverts dans toutes les ſaiſons ou de fleurs ou de fruits. Les titres de la plûpart des ſouverains
           ſont faſtueux, outrés; ceux du roi de Congo ſont modeſtes: il pourroit ſans bleſſer la vérité en
           prendre de plus impoſans, il ſe contente de ſe dire
-          <hi rend="italic">Mani</hi>, ou
-          <hi rend="italic">Seigneur de Congo, par la grace de Dieu, roi de Manicuma, d'Ocanga, de Cumba, de
+     <hi rend="italic">
+      Mani
+     </hi>
+     , ou
+     <hi rend="italic">
+      Seigneur de Congo, par la grace de Dieu, roi de Manicuma, d'Ocanga, de Cumba, de
             Lulla, de Zouza, Seigneur des Duchés de Batta, de Sunda, de Bamba, Comte de Songo, d'Angoy, de
-            Cacongo, Deſpote des Amboudes &amp; ſupréme Dominateur du grand fleuve de Zaire</hi>.
+            Cacongo, Deſpote des Amboudes &amp; ſupréme Dominateur du grand fleuve de Zaire
+     </hi>
+     .
           Mais ſi ce prince dédaigne d'ajouter à ces titres ceux de pluſieurs autres royaumes &amp; de
           beaucoup de ſouverainetés qu'il poſſede réellement, il affecte en même temps par une étrange
           biſarrerie de prendre la qualité de Roi de
-          <hi rend="italic">Mazingan &amp; d'Angola</hi>, quoiqu'il n'ait aucune ſorte de droit ſur ces deux
+     <hi rend="italic">
+      Mazingan &amp; d'Angola
+     </hi>
+     , quoiqu'il n'ait aucune ſorte de droit ſur ces deux
           royaumes poſſédés par des Princes auſſi indépendans qu'il peut l'être lui-même dans ſes vaſtes
           états. Il eſt vrai qu'autrefois la ſouveraineté de Congo s'étendoit ſur toutes les contrées de la
           baſſe Ethiopie, &amp; qu'alors Angola formoit ſous le gouvernement d'un Sava ou ViceRoi, la plus
@@ -245,8 +333,10 @@
           concitoyens établis dans la délicieuſe province de Cambamba, où la nature ſemble prendre plaiſir à
           raſſembler tous les avantages que ſes mains bienfaiſantes n'accordent que ſéparément dans les autres
           contrées, &amp; que l'on ne trouve point également réunis dans la province d'Emvaca, dont le ſol eſt
-          pourtant de la plus étonnante fertilité.</p>
-        <p>Quoique noirs, les habitans du royaume d'Angola ſont en général fort adroits, d'une vigueur peu
+          pourtant de la plus étonnante fertilité.
+    </p>
+    <p>
+     Quoique noirs, les habitans du royaume d'Angola ſont en général fort adroits, d'une vigueur peu
           commune dans nos climats, &amp; trèsingénieux: en un mot, pour être des hommes, il ne leur manque
           qu'une ſage légiſlation, un ſouverain qui les chériſſe, &amp; l'eſpoir de la liberté: mais abattus
           comme ils le ſont ſous les chaînes du plus dur eſclavage, aſſujettis au deſpotiſme le plus cruel,
@@ -255,8 +345,10 @@
           ailleurs des troupeaux &amp; des bêtes de ſomme, les malheureux habitans d'Angola, ne poſſédant
           rien, &amp; n'ayant que des jouiſſances précaires, ſont lâches, pareſſeux; ils ſont même perfides,
           par l'habitude que leur fait contracter la néceſſité où ils ſont de diſſimuler les injures &amp; les
-          outrages qu'ils reçoivent de leur prince, de ſes favoris inſolens, ou de ſes avides miniſtres.</p>
-        <p>Au centre de la province d'Ilamba, s'éleve juſqu'aux nues un rocher eſcarpé, le ſourcilleux
+          outrages qu'ils reçoivent de leur prince, de ſes favoris inſolens, ou de ſes avides miniſtres.
+    </p>
+    <p>
+     Au centre de la province d'Ilamba, s'éleve juſqu'aux nues un rocher eſcarpé, le ſourcilleux
           Mapongo; ſon circuit eſt de deux lieues, &amp; dans ſa partie inférieure, il eſt de toutes parts
           entouré d'un côteau d'une pente douce &amp; facile, qui ſe termine en une vaſte plaine agréablement
           variée de bois, de champs, de vignobles, &amp; de prairies arroſées par mille ruiſſeaux &amp;
@@ -280,8 +372,10 @@
           humanité: ſenſible en apparence aux cris de ceux qu'il égorgeoit, il les exhortoit à ſouffrir avec
           conſtance la mort qu'il leur donnoit, &amp; qu'il rendoit auſſi lente qu'il le pouvoit par ſa fauſſe
           pitié, &amp; auſſi douloureuſe qu'il lui étoit poſſible par les coups mal aſſurés que leur portoit
-          ſa feinte compaſſion.</p>
-        <p>Déja le féroce Ben-di avoit ſacrifié ſa famille &amp; les amis de ſes parens à ſa noire défiance;
+          ſa feinte compaſſion.
+    </p>
+    <p>
+     Déja le féroce Ben-di avoit ſacrifié ſa famille &amp; les amis de ſes parens à ſa noire défiance;
           déjà ſes parricides mains teintes du ſang de ſes oncles, de leurs enfans &amp; de ſon frere,
           aiguiſoient le poignard qu'il avoit juré d'enfoncer dans le ſein de Zingha, la plus jeune de ſes
           ſœurs, qu'il redoutoit, qu'il vouloit immoler, dont il n'ignoroit point les ambitieux projets, &amp;
@@ -307,8 +401,10 @@
           ſignalée que par des actes d'héroiſme. En effet, dans le temps même que la noirceur de ſes forfaits
           la faiſoit abhorrer, ſes ennemis les plus irréconciliables ne pouvoient s'empêcher d'avouer &amp; de
           publier qu'elle étoit née généreuſe, le cœur ſenſible, l'ame grande, digne, en un mot, du rang
-          ſuprême, ſi on lui eût permis de choiſir pour y monter des voies légitimes.</p>
-        <p>Iſſue d'une longue ſuite de rois, Zingha n'ignoroit point les droits que ſa naiſſance lui donnoit
+          ſuprême, ſi on lui eût permis de choiſir pour y monter des voies légitimes.
+    </p>
+    <p>
+     Iſſue d'une longue ſuite de rois, Zingha n'ignoroit point les droits que ſa naiſſance lui donnoit
           à l'autorité ſouveraine; elle n'ignoroit pas que, placée ſi près du trône de ſes peres, elle étoit
           indépendante, &amp; que tous les ſouverains réunis ne pourroient ſans la plus énorme injuſtice
           attenter à ſa liberté: cependant elle ſe vit contrariée, gênée, preſque eſclave dans le palais de
@@ -316,8 +412,10 @@
           courage des chaînes qu'elle ne pouvoit rompre, que tenter d'inutiles efforts contre le tyrannique
           joug &amp; l'outrageante inſolence de N-Gola Ben-di, ſon frere, de ce cruel deſpote qui, par ſes
           injuſtices &amp; ſes atrocités, jetta enfin dans le cœur de Zingha un levain de férocité, qui des
-          lors ne fit plus qu'y fermenter, s'accroître &amp; ſe développer.</p>
-        <p>Les premiers jours du regne de N-Gola avoient été marqués par le meurtre de ſon neveu, par le
+          lors ne fit plus qu'y fermenter, s'accroître &amp; ſe développer.
+    </p>
+    <p>
+     Les premiers jours du regne de N-Gola avoient été marqués par le meurtre de ſon neveu, par le
           barbare aſſaſſinat du jeune fils de Zingha, que le roi d'Angola avoit fait maſſacrer ſous ſes yeux,
           dans la crainte qu'un jour cet enfant ne voulût lui diſputer le trône. Trop foible encore pour
           venger le ſang de ſon malheureux ſils, Zingha jura la perte de ſon lâche aſſaſſin: mais pour mieux
@@ -327,8 +425,10 @@
           auſſi aiſé de ſacrifier la mere, qu'il lui avoit été facile de poignarder le fils; &amp; il ſe
           préparoit à cet acte de barbarie, quand l'intêret le plus preſſant, le deſir de conſerver le ſceptre
           qui s'échappoit de ſes mains, arrêta ſon bras ſanguinaire, &amp; le força de recourir à la médiation
-          de cette même princeſſe qu'il vouloit égorger.</p>
-        <p>Le perfide Ben-di qui haiſſoit les Portugais autant qu'il déteſtoit ſes proches, avoit armé
+          de cette même princeſſe qu'il vouloit égorger.
+    </p>
+    <p>
+     Le perfide Ben-di qui haiſſoit les Portugais autant qu'il déteſtoit ſes proches, avoit armé
           contr'eux, &amp;, ſans leur déclarer la guerre, il avoit ravagé en brigand quelquesunes de leurs
           poſſeſſions: mais bientôt, il ſe vit arrêté dans ſa courſe: inveſti de toutes parts, il combattit en
           lâche, il fut battu, ſon armée fut miſe en fuite, &amp; les deux ſœurs de ſa femme, ainſi que cette
@@ -353,25 +453,28 @@
           d'autre moyen de conſerver ſon ſceptre &amp; ſes états, que d'envoyer vers la nation qu'il avoit
           irritée, ſa ſœur Zingha, cette même Zingha dont il avoit aſſaſſiné le fils, &amp; dont il s'étoit
           propoſé d'abattre également la tête. Le lâche tombant à ſes genoux qu'-il tenoit embraſſés:
-          <hi rend="italic">O ma ſœur!</hi>
-          lui dit-il,
-          <hi rend="italic">vous que j'aimai dès ma plus tendre enfance, &amp; que j'adore encore juſqu'à
+     <hi rend="italic">
+      O ma ſœur!
+     </hi>
+     lui dit-il,
+     <hi rend="italic">
+      vous que j'aimai dès ma plus tendre enfance, &amp; que j'adore encore juſqu'à
             l'idolâtrie; vous, qui euſſiez régné ſur mes peuples &amp; leur prince, ſi les nœuds déteſtables qui
             nous uniſſent, ne m'euſſent point défendu de vous offrir le moitié de mon trône! je vous ai
             offenſée, belle Zingha, je vous ai outragée: vous étes généreuſe, &amp; je ſuis malheureux. Mes
             parricides mains ont répandu le ſang de votre fils; il m'étoit odieux; ſa préſence importune
             ranimoit ſans ceſſe dans mon cœur le déſeſpoir &amp; la fureur que m'inſpira ce jour, ce jour
             affreux où le chef de nos Gangas
-            <ref target="#N01"/>
-            vous unit irrévocablement à un autre qu'à moi. Je me ſuis exercé depuis à vous hair, à vous
+      <ref target="#N01"/>
+      vous unit irrévocablement à un autre qu'à moi. Je me ſuis exercé depuis à vous hair, à vous
             rerſécuter: peut-être même, ſi j'en euſſe eu la force, ô Zingha! vous ne ſeriez plus, &amp; du méme
             poignard qui vous eût arraché la vie, je me ſerois percé le ſein. Irrité par vos froideurs,
             déſeſpéré de votre indiſſérence à quels excès d'horreur votre ſarouche ament ne ſe ſeroit-il pas
             porté, ſi le ciel depuis quelques jours n'eût éclairé ſon ame, &amp; ramené ſon cœur à des ſentimens
             plus humains! Mon amour éperdu ne ſe ſignalera plus deſormais par des crimes; il ne va me dicter que
             des vertus; belle Zingha, je veux vous imiter: j'en atteſte nos
-            <ref target="#N02"/>
-            Moquiſies; je le jure à vos pieds, il ne me reſte plus de mes forfaits paſſés, de mes affreux
+      <ref target="#N02"/>
+      Moquiſies; je le jure à vos pieds, il ne me reſte plus de mes forfaits paſſés, de mes affreux
             complots, de mes aſſaſſinats que la dévorante amertume de les avoir commis. Ma ſœur ne ſera point
             inſenſible à mes larmes, ſa grandeur d'ame oubliera les injuſtices de N-Gola, pour ne ſonger qu'à
             l'honneur de ſon frere. Soyez l'appui de mon trône; allez en qualité de mon ambaſſadrice, offrir la
@@ -380,9 +483,11 @@
             Zingha, qu'en embraſſant ou feignant d'adopter la religion de ce peuple, vous puiſſiez le rendre
             plus facile à m'accorder la paix, abjurez hautement le culte de nos peres, le ciel vous le permet,
             nos Moquiſies vous l'ordonnent; ne balancez pas un inſtant, &amp; faitez pour ma gloire tout ce qui
-            dépendra de vous.</hi>
-        </p>
-        <p>Les dangers qui menaçoient Zingha, le ſouvenir des perſécutions qu'elle avoit eſſuyées, l'affreux
+            dépendra de vous.
+     </hi>
+    </p>
+    <p>
+     Les dangers qui menaçoient Zingha, le ſouvenir des perſécutions qu'elle avoit eſſuyées, l'affreux
           tableau de ſes oncles, de ſes freres &amp; de ſon fils expirans ſous le fer des bourreaux, ou ſous
           le poignard de Ben-di, la fureur de ce monſtre toujours altéré de carnage prê-te à ſe ranimer, la
           rendirent attentive aux prieres du tyran; &amp; elle conſentit d'autant plus volontiers à ſe charger
@@ -397,8 +502,10 @@
           avoit vécu en eſclave dans le palais de Mapongo, partit en ſouveraine, &amp; ſe rendit accompagnée
           d'une brillante ſuite, à Loando San-Paulo, auprès du ViceRoi Portugais qui la reçut avec
           diſtinction, &amp; lui rendit tous les honneurs qu'il crut devoir à la hau-te naiſſance d'une telle
-          ambaſſadrice.</p>
-        <p>Ce Vice-Roi, Dom Jean Corréa, Da Souza, étoit un gentilhomme diſtingué par ſa valeur, ſa probité,
+          ambaſſadrice.
+    </p>
+    <p>
+     Ce Vice-Roi, Dom Jean Corréa, Da Souza, étoit un gentilhomme diſtingué par ſa valeur, ſa probité,
           rempli d'excellentes qualités; mais ſes vertus étoient ternies par une vanité outrée, &amp; qui lui
           faiſoit trop ſouvent oublier les devoirs de la bienſéance. Cet orgueil le dirigea dans la premiere
           audience qu'il donna à Zingha: cette princeſſe fut introduite dans une ſalle, où elle fut
@@ -411,18 +518,25 @@
           mettre à genoux &amp; ſur ſes mains, à côté du couſſin, &amp; le plus près qu'il ſeroit poſſible du
           trône. Cette femme obéit, &amp; Zingha s'aſſéyant ſur ce ſiege vivant, dit à Dom Corréa qu'il
           pouvoit maintenant propoſer les conditions du traité de paix &amp; d'alliance qu'elle étoit venu
-          négocier.</p>
-        <p>Le Vice-Roi qui s'attendoit à des excuſes pour Ben-di &amp; à d'humbles ſupplications, fut étonné
+          négocier.
+    </p>
+    <p>
+     Le Vice-Roi qui s'attendoit à des excuſes pour Ben-di &amp; à d'humbles ſupplications, fut étonné
           de ce ton de fierté; mais ſe remettant bientôt, il exigea que pour réparer ſon audace &amp; les
           dommages cauſés dans ſes dernieres invaſions, N-Gola ſe reconnût vaſſal des Portugais, &amp; qu'il
           s'obligeât pour lui &amp; ſes ſucceſſeurs à un tribut annuel. Zingha, frémiſſant de colere à ces
-          propoſitions, &amp; regardant le Vice-Roi avec indignation: „<hi rend="italic">Sava</hi>
-          chrétien, lui dit-elle, cherche ailleurs tes vaſſaux: cherche tes tributaires parmi les ennemis que
+          propoſitions, &amp; regardant le Vice-Roi avec indignation: „
+     <hi rend="italic">
+      Sava
+     </hi>
+     chrétien, lui dit-elle, cherche ailleurs tes vaſſaux: cherche tes tributaires parmi les ennemis que
           tu pourras ſoumettre les armes à la main: mais n'eſpere jamais de contraindre à de telles baſſeſſes
           un monarque puiſſant, jaloux de ſon indépendance, &amp; qui ne m'envoie ici que pour te demander ton
           amitié, &amp; pour t'offrir avec la ſienne ſes forces redoutables, &amp; juſqu'à ce jour
-          invincibles."</p>
-        <p>Cette réponſe prononcée d'un ton ferme &amp; impoſant, fit une ſi forte impreſſion ſur les
+          invincibles."
+    </p>
+    <p>
+     Cette réponſe prononcée d'un ton ferme &amp; impoſant, fit une ſi forte impreſſion ſur les
           Portugais, que ſuppoſant au prince d'Angola des reſſources qu'ils ne lui connoiſſoient pas, &amp;
           une armée prête à fondre ſur Loando, ils ſe hâterent d'accepter la paix qui leur étoit offerte aux
           conditions les plus honorables pour Ben-di. Zingha ſatisfaite de ce premier ſuccès, prit congé de
@@ -431,8 +545,10 @@
           ſouveraine. “Dans ſon palais, répondit la princeſſe, une femme telle que moi, ne ſe ſert jamais deux
           fois du même ſiege: la vue de cette malheureuſe me reprocheroit ſans ceſſe l'eſpece d'humiliation,
           &amp; le manque d'égards que j'ai eſſuyés ici; qu'elle évite déſormais ma préſence, &amp; que mes
-          yeux ne puiſſent jamais tomber ſur elle“.</p>
-        <p>La hauteur de ces reparties, l'intrépidité de Zingha &amp; l'air de majeſté qu'elle mettoit dans
+          yeux ne puiſſent jamais tomber ſur elle“.
+    </p>
+    <p>
+     La hauteur de ces reparties, l'intrépidité de Zingha &amp; l'air de majeſté qu'elle mettoit dans
           ſes propos comme dans ſes actions, en impoſerent à l'orgueil de Corréa, qui cherchant à réparer ſes
           torts, parvint à force d'honêteté, de prévenances &amp; de diſtinctions, à faire oublier à Zingha
           les mécontentemens qu'elle croyoit avoir reçus lors de ſa premiere viſite. Flattée de la
@@ -442,8 +558,10 @@
           crut devoir feindre du zele pour la religion chrétienne, demanda d'être inſtruite, &amp; parut ſi
           convaincue de la vérité des dogmes que quelques miſſionnaires chargés de l'éclairer, lui
           expliquerent, que ceux-ci ne doutant point de la ſincérité de ſa converſion, l'admirent au baptême
-          qu'elle reçut trèsſolemnellement en 1622, vers le commencement de la quarantieme année de ſon âge.</p>
-        <p>Mais tandis que Zingha ne paroiſſoit occupée que des intérêts ſacrés de la religion qu'elle
+          qu'elle reçut trèsſolemnellement en 1622, vers le commencement de la quarantieme année de ſon âge.
+    </p>
+    <p>
+     Mais tandis que Zingha ne paroiſſoit occupée que des intérêts ſacrés de la religion qu'elle
           venoit d'embraſſer, elle ne ſongeoit qu'aux moyens de captiver la confiance de la nation Portugaiſe,
           &amp; de s'aſſurer du zele &amp; de l'attachement de Corréa. Les confidences adroites qu'elle lui
           avoit faites du caractere ſoupçonneux &amp; cruel de ſon frere, des injures qu'elle en avoit reçues,
@@ -474,8 +592,10 @@
           d'Angola ſe protegent eux-mêmes; ils n'ont &amp; ne veulent avoir que des alliés: des protecteurs
           quelque puiſſans qu'ils fuſſent, aviliroient la majeſté de leur couronne. Si le ſort m'éleve quelque
           jour au trône de mes peres, je recevrai avec reconnoiſſance l'amitié du Roi votre maître; je lui
-          donnerai la mienne, &amp; chacun de nous deux protégera les ſujets du ſouverain ſon allié".</p>
-        <p>Satisfaite des heureuſes diſpoſitions des Portugais, raſſurée ſur l'avenir, &amp; n'ayant plus
+          donnerai la mienne, &amp; chacun de nous deux protégera les ſujets du ſouverain ſon allié".
+    </p>
+    <p>
+     Satisfaite des heureuſes diſpoſitions des Portugais, raſſurée ſur l'avenir, &amp; n'ayant plus
           d'affaires qui la retinſſent à LoandoSanPaulo, Zingha, quelques inſtances que lui fit Corréa, ne
           voulut point différer plus long-temps ſon départ; &amp; craignant qu'une plus longue abſence ne la
           rendît enfin ſuſpecte au prince d'Angola, elle reprit la route de Mapongo, où elle ne fut pas plutôt
@@ -484,8 +604,10 @@
           importans qu'elle avoit rendus à l'état, lui donna devant ſes courtiſans les marques les plus
           diſtinguées de ſa reconnoiſſance, &amp; en particulier, les preuves les plus tendres &amp; les moins
           équivoques de ſon amitié: le fourbe pouſſa plus loin la perfidie, &amp; déclara que depuis quelques
-          jours, il ſe ſentoit enflamme du deſir d'embraſſer la religion chrétienne.</p>
-        <p>Informé par Zingha de ces ſentimens reſpectables, Dom Jean Corréa ſe hâta d'envoyer à Mapongo, un
+          jours, il ſe ſentoit enflamme du deſir d'embraſſer la religion chrétienne.
+    </p>
+    <p>
+     Informé par Zingha de ces ſentimens reſpectables, Dom Jean Corréa ſe hâta d'envoyer à Mapongo, un
           prêtre negre de Métamba, &amp; un des principaux officiers de Loando, pour ſervir de parrein à
           Ben-di qui ne pouvoit plus, diſoit-il, réſiſter aux vives impulſions de la grace, &amp; au deſir
           preſſant dont il ſe ſentoit embraſé. N-Gola fit aux deux députés, l'accueil le plus honnête: le
@@ -499,34 +621,44 @@
           Crois-tu que je conſente à fléchir les genoux devant toi, devant toi qui n'es que le fils de
           quelqu'un de mes eſclaves? Malheureux! ſi je n'écoutois que la voix de mon reſſentiment, la mort
           ſeroit le prix de ta préſomption: mais j'excuſe ton inſolence, &amp; veux bien t'accorder la vie, à
-          condition que demain le lever de l'aurore ne te trouvera point dans mes états'.</p>
-        <p>Zingha, quelque éclairée qu'elle fût ſur le caractere faux &amp; perfide de Ben-di, ne
+          condition que demain le lever de l'aurore ne te trouvera point dans mes états'.
+    </p>
+    <p>
+     Zingha, quelque éclairée qu'elle fût ſur le caractere faux &amp; perfide de Ben-di, ne
           s'attendoit point du tout à cette nouvelle preuve de ſa duplicité: elle tenta tous les moyens
           poſſibles de le ramener: il étoit lâche; elle chercha à l'ébranler en lui peignant les ſuites du
           reſſentiment de Dom Jean Corréa qui ſe croyant offenſé, &amp; l'étant en effet, ne manqueroit pas de
           ſoulever la nation Portugaiſe. Ces avis, ces menaces, ne firent qu'irriter le farouche N-Gola qui,
           changeant en fureur le feint attachement qu'il avoit juré à ſa ſœur, la traita avec indignité, la
           fit charger de chaînes, &amp; jetter au fond d'une des priſons du palais, où il lui promit d'aller
-          dans peu de jours la voir pour ſe donner le plaiſir de l'embraſſer encore, &amp; de la poignarder.</p>
-        <p>Ce même jour Ben-di refuſa hautement d'exécuter aucun des articles de paix qu'il avoit ratifiés;
+          dans peu de jours la voir pour ſe donner le plaiſir de l'embraſſer encore, &amp; de la poignarder.
+    </p>
+    <p>
+     Ce même jour Ben-di refuſa hautement d'exécuter aucun des articles de paix qu'il avoit ratifiés;
           il fit en même-temps égorger tous les Portugais qui ſe trouverent à Mapongo, &amp; ne doutant point
           du ſuccès de ſes complots, il ſe mit à la tête d'une formidable armée, réſolu d'aller ſaccager
-          LoandoSanPaulo, &amp; d'immoler à ſa vengeance Dom Jean Corréa.</p>
-        <p>Mais pendant que ce monſtre regardoit déjà les Portugais comme vaincus &amp; maſſacrés; pendant
+          LoandoSanPaulo, &amp; d'immoler à ſa vengeance Dom Jean Corréa.
+    </p>
+    <p>
+     Mais pendant que ce monſtre regardoit déjà les Portugais comme vaincus &amp; maſſacrés; pendant
           qu'il ſe réjouiſſoit par avance du plaiſir qu'il auroit à ſe baigner dans des torrens de ſang, il
           ignoroit que dans l'armée qu'il commandoit, &amp; qui le déteſtoit, Zingha, ſa ſœur, avoit une
           faction puiſſante, qui au premier ſignal avoit juré de mettre à mort ſon ſouverain, ou de
           l'abandonner aux traits des ennemis: il ignoroit que Bar-ba, ſa belle-ſœur, avoit déjà rendu la
           liberté à Zingha qui, maitreſſe du palais de Mapongo, avoit pris les plus ſages meſures pour
-          s'emparer du trône.</p>
-        <p>L'armée de N-Gola n'eut pas plutôt joint celle des Portugais, que feignant d'être frappée d'une
+          s'emparer du trône.
+    </p>
+    <p>
+     L'armée de N-Gola n'eut pas plutôt joint celle des Portugais, que feignant d'être frappée d'une
           terreur ſoudaine, elle fuit &amp; ſe diſperſa, laiſſant Ben-di ſeul, entouré de quelques eſclaves,
           &amp; expoſé au feu de l'armée Portugaiſe. Celle-ci mépriſant un ſi foible ennemi, entra dans le
           royaume d'Angola, s'empara des plus riches provinces, &amp; ôta tout eſpoir de retraite à N-Gola
           qui, ſe voyant preſſé de toutes parts, &amp; à l'inſtant d'être fait priſonnier &amp; puni de ſes
           crimes, s'empoiſonna lui-même, ou, comme le bruit s'en répandit, par les ſoins de Zingha qui, dans
-          la ſuite, dédaigna de ſe juſtifier de s'être rendue maîtreſſe des derniers inſtans de ſon frere.</p>
-        <p>Il eſt dans la partie intérieure de l'Afrique, loin des frontieres de Congo, quelques lieues
+          la ſuite, dédaigna de ſe juſtifier de s'être rendue maîtreſſe des derniers inſtans de ſon frere.
+    </p>
+    <p>
+     Il eſt dans la partie intérieure de l'Afrique, loin des frontieres de Congo, quelques lieues
           au-delà de la riviere de Cuança, une nation guerriere, féroce, antropophage, l'effroi de tous les
           peuples qui habitent ces régions barbares: ce ſont les terribles Giagues ou Jagas, célebres par
           leurs crimes, par leurs goûts déteſtables &amp; les excès de leur atrocité. Les Jagas raſſemblés ne
@@ -544,8 +676,10 @@
           prendre autant qu'ils peuvent, &amp; ſe nourrir de la chair des malheureux qu'ils ont fait
           priſonniers, qu'ils gardent quelques jours, pour s'amuſer de la terreur qu'ils tâchent de jetter
           dans leur ame; ils les déchirent enſuite lentement, les mangent à demi-vivans, &amp; s'abreuvent de
-          leur ſang; nourriture exquiſe pour eux, &amp; qu'ils préferent à tout autre genre d'alimens.</p>
-        <p>Les Jagas ont eu pluſieurs chefs qui tous ſe ſont rendus célebres par l'excès de leur férocité;
+          leur ſang; nourriture exquiſe pour eux, &amp; qu'ils préferent à tout autre genre d'alimens.
+    </p>
+    <p>
+     Les Jagas ont eu pluſieurs chefs qui tous ſe ſont rendus célebres par l'excès de leur férocité;
           mais dans le nombre de ces chefs, on compte quelques femmes qui les ont ſurpaſſés en noirceur. Telle
           fut l'infernale Ten-ban-dumba qui, par l'aſſaſſinat de ſa mere, acquit des droits inconteſtables au
           commandement ſuprême, &amp; qui jugée digne de gouverner ſes concitoyens, leur donna la légiſlation
@@ -562,13 +696,17 @@
           admirer leur reine, &amp; ſe ſentant à ſon exemple, tranſportés de la même fureur, allerent chercher
           leurs enfans, les porterent au même lieu où venoit de ſe paſſer cette ſanglante ſcene, les
           maſſacrerent, &amp; imiterent la monſtrueuſe Ten-ban-dumba, auſſi exactement que le leur permettoit
-          la rage qui les agitoit.</p>
-        <p>Cette abominable coutume s'eſt ſcrupuleuſement perpétuée chez ce peuple qui, à chaque occaſion
+          la rage qui les agitoit.
+    </p>
+    <p>
+     Cette abominable coutume s'eſt ſcrupuleuſement perpétuée chez ce peuple qui, à chaque occaſion
           importante, ne manque point de l'obſerver. Ce maſſacre preſque perpétuel d'enfans anéantiroit, pour
           le bonheur du reſte de l'Afrique, la race des Giagues, s'ils n'avoient ſoin de réparer ces pertes
           par l'attention qu'ils ont de conſerver tous les enfans qu'ils prennent dans le ours de leurs
-          brigandages; enfans qui, élevés parmi ce peuple, ſe forment aiſément à ſes mœurs &amp; à ſa cruauté.</p>
-        <p>Cette loi ſeule étoit capable de remplir les vues ſanguinaires de Ten-ban-dumba, &amp; de briſer
+          brigandages; enfans qui, élevés parmi ce peuple, ſe forment aiſément à ſes mœurs &amp; à ſa cruauté.
+    </p>
+    <p>
+     Cette loi ſeule étoit capable de remplir les vues ſanguinaires de Ten-ban-dumba, &amp; de briſer
           chez cette nation, tous les liens de la ſociété: mais l'affreuſe légiſlatrice ne la crut point
           encore ſuffiſante: elle ordonna par un réglement digne d'elle, aux Jagas de préférer la chair des
           hommes, celle des femmes exceptée, à toute autre nourriture; &amp; elle eut peu de peine à ſe faire
@@ -580,12 +718,16 @@
           les Giagues excluſivement à toute autre chair dans les boucheries publiques. Par une troiſieme loi,
           Ten-ban-dumba voulut que les Jagas réſervaſſent les femmes ſtériles, pour être ſacrifiées lors des
           obſeques des grands de la nation, à moins que les maris n'aimaſſent mieux les égorger pour s'en
-          nourrir.</p>
-        <p>Afin de réunir dans ſon code, la plus révoltante impudence à la plus horrible cruauté,
+          nourrir.
+    </p>
+    <p>
+     Afin de réunir dans ſon code, la plus révoltante impudence à la plus horrible cruauté,
           Tenbandumba voulut que les Jagas avant que de partir pour une expédition militaire, fuſſent tenus de
           ſe raſſembler tous, chacun avec ſes femmes, dans la plaine conſacrée à cet uſage; &amp; là de
-          remplir en préſence les uns des autres, les obligations les plus ſecretes du devoir conjugal.</p>
-        <p>Quant à la religion, les dogmes des Giagues étoient en petit nombre, ils conſiſtoient à regarder
+          remplir en préſence les uns des autres, les obligations les plus ſecretes du devoir conjugal.
+    </p>
+    <p>
+     Quant à la religion, les dogmes des Giagues étoient en petit nombre, ils conſiſtoient à regarder
           tous les uſages nationnaux comme autant de loix ſacrées venues des enfers, &amp; avouées par les
           dieux; à porter dans une boëte ſuſpendue au col, quelque partie du corps de ſon pere; d'offrir de
           temps en temps à cette boëte des victimes humaines, &amp; de l'arroſer du ſang des hommes que l'on
@@ -594,15 +736,19 @@
           hécatombes humaines les obſeques des guerriers qui ſe ſont illuſtrés: outre tous leurs eſclaves
           &amp; leurs principaux officiers que l'on enterre vivans dans le même tombeau, on choiſit auſſi deux
           de leurs femmes les plus chéries, qui n'étant pointe ſclaves, ni deſtinées à ſervir l'ombre de leur
-          époux, ne ſont enterrées vivantes qu'après que leurs plus proches parens leur ont caſſé les bras.</p>
-        <p>De tous les peuples de l'Afrique, N-Gola n'aimoit que les Giagues dont les mœurs, les uſages
+          époux, ne ſont enterrées vivantes qu'après que leurs plus proches parens leur ont caſſé les bras.
+    </p>
+    <p>
+     De tous les peuples de l'Afrique, N-Gola n'aimoit que les Giagues dont les mœurs, les uſages
           &amp; la férocité lui inſpiroient la plus profonde vénération: auſſi avoit-il fait bien des efforts
           pour introduire leur légiſlation dans ſon royaume; mais le caractere moins dur de ſes ſujets, ayant
           rendu toujours ſes tentatives inutiles, il ſe flatta qu'un jour ſon fils opéreroit cet-te
           révolution. Ce fut dans cette vue que peu de temps avant ſa mort, il avoit envoyé ſon fils au chef
           des Giagues, ſon ami, qui s'étoit engagé à inſpirer à ſon éleve toute la rage &amp; toute la
-          noirceur de l'ancienne Ten-ban-dumba.</p>
-        <p>Outre le deſir de rendre ſon ſucceſſeur le plus féroce des hommes, N-Gola avoit été déterminé par
+          noirceur de l'ancienne Ten-ban-dumba.
+    </p>
+    <p>
+     Outre le deſir de rendre ſon ſucceſſeur le plus féroce des hommes, N-Gola avoit été déterminé par
           un autre motif à éloigner pour quelque temps, ſon fils de Mapongo; &amp; il ne le croyoit en ſureté
           que parmi les Jagas contre les attentats de Zingha dont il n'ignoroit point les projets de
           vengeance. Il ne ſe trompoit pas dans ſes ſoupçons; mais ſes précautions devinrent inutiles. Le
@@ -620,8 +766,10 @@
           perdre de temps en vaines délibérations, ſans s'arrêter à punir les factieux, à diſſiper des
           troubles que ſa rigueur n'eû peut-être fait qu'augmenter, ne s'attacha qu'à la principale cauſe du
           déſordre &amp; des révolutions qu'elle avoit à redouter, sûre de voir renaître le calme dans ſa
-          cour, lorsqu'elle ſe ſeroit délivrée du rival odieux, qui ſuſcitoit ces troubles.</p>
-        <p>Dans ces vues qui, pour être avouées par les principes &amp; les regles de l'injuſte politique,
+          cour, lorsqu'elle ſe ſeroit délivrée du rival odieux, qui ſuſcitoit ces troubles.
+    </p>
+    <p>
+     Dans ces vues qui, pour être avouées par les principes &amp; les regles de l'injuſte politique,
           n'en ſont pas moins proſcrites par les loix de la nature &amp; de l'humanité, Zingha feignit un
           dégoût invincible pour l'autorité ſuprême, &amp; affectant une tendreſſe extrême pour le fils de
           N-Gola, elle lui fit dire qu'elle n'attendoit pour deſcendre du trône, que de le ſçavoir aux
@@ -642,16 +790,20 @@
           que j'ai abhorré, lui dit-elle, meurs du même poignard qui a tué mon fils, &amp; va dans les enfers,
           lui dire que ſa mere le venge. En achevant de prononcer ces terribles paroles, Zingha perça le cœur
           de ſa victime, &amp; ſortant ſans donner la plus légere marque d'émotion, elle ordonna froidement à
-          ſes gardes de jetter le cadavre de ſon neveu dans les eaux de Calucala.</p>
-        <p>Les Portugais furent bientôt inſtruits de cet acte d'atrocité, &amp; rallumant les feux mal
+          ſes gardes de jetter le cadavre de ſon neveu dans les eaux de Calucala.
+    </p>
+    <p>
+     Les Portugais furent bientôt inſtruits de cet acte d'atrocité, &amp; rallumant les feux mal
           éteints de la guerre, ils ravagerent les provinces qu'ils avoient déjà conquiſes, &amp; porterent la
           déſolation juſqu'au pied de Mapongo. Zingha n'avoit qu'un ſeul moyen de détourner l'orage, &amp;
           elle s'en ſervit. L'aſſaſſinat du jeune Prince étoit trop affreux, trop horrible pour n'avoir pas
           fait la plus forte impreſſion ſur les Giagues: c'étoit un titre fort puiſſant pour obtenir leur
           confiance &amp; même leur vénération; auſſi Zingha eut peu de peine à ſe reconcilier avec le chef de
           cette nation, &amp; beaucoup moins à obtenir l'amitié des Jagas qui ne parloient qu'avec admiration
-          de l'ame ſanguinaire de la Reine d'Angola.</p>
-        <p>Formidable par la terreur qu'une telle alliance inſpiroit aux peuples Africains, Zingha ne tarda
+          de l'ame ſanguinaire de la Reine d'Angola.
+    </p>
+    <p>
+     Formidable par la terreur qu'une telle alliance inſpiroit aux peuples Africains, Zingha ne tarda
           point à former une puiſſante ligue contre les Portugais, avec toutes les nations voiſines, &amp;
           dans laquelle elle eut l'adreſſe de faire entrer les Hollandois par un traité ſecret. Les Princes
           Africains preſque toujours armés les uns contre les autres, ſuſpendirent leurs querelles, &amp;
@@ -663,8 +815,10 @@
           Mapongo, &amp; par leurs victoires multipliées, réduiſirent dès la ſeconde campagne, la Reine
           d'Angola à une telle extrémité, qu'abandonnée de ſes alliés, trompée par ſes Généraux, &amp; trahie
           par ſes ſujets, elle fut obligée de s'éloigner de ſes états, &amp; d'aller ſeule &amp; déguiſée, ſe
-          cacher dans les déſerts les plus inacceſſibles.</p>
-        <p>Dans la partie la plus méridionale de l'Éthiopie, au-delà des plaines embraſées du Zanguebar, eſt
+          cacher dans les déſerts les plus inacceſſibles.
+    </p>
+    <p>
+     Dans la partie la plus méridionale de l'Éthiopie, au-delà des plaines embraſées du Zanguebar, eſt
           un vaſte pays, aride, inhabité. Depuis la formation du globe, ces contrées, l'effroi des hommes
           &amp; des animaux, ſont couvertes de ſable perpétuellement ſoulevé par les vents. L'ame plus agitée
           par la haine &amp; par la fureur, que les ſables de ces ſyrthes ne le ſont par les vents, Zingha ſe
@@ -691,8 +845,10 @@
           ton intrépide retraite? Quel conquérant eût effacé ta gloire? Cette fuite courageuſe au milieu des
           déſerts, ſeroit pour toi plus glorieuſe mille fois qu'une marche triomphale, ſi l'infortune &amp;
           non le crime eût cauſé ta diſgrace, &amp; ſi la rage, la fureur, l'eſpoir de la vengeance, la haine
-          des Dieux &amp; des hommes ne ſoutenoient ta féroce valeur dans ces lieux iſolés!</p>
-        <p>Cependant Zingha reſpire un air moins embraſé; la terre s'affermit ſous ſes pas, les vents n'ont
+          des Dieux &amp; des hommes ne ſoutenoient ta féroce valeur dans ces lieux iſolés!
+    </p>
+    <p>
+     Cependant Zingha reſpire un air moins embraſé; la terre s'affermit ſous ſes pas, les vents n'ont
           plus de violence, la nature ſe ranime; Zingha croit même appercevoir dans le lointain &amp; au-dela
           des ſables, qu'elle acheve de parcourir, des plaines verdoyantes &amp; des forêts ombragées. Ce
           tableau inattendu adoucit pour quelques momens, les penſéès ſiniſtres &amp; les pojets criminels qui
@@ -715,8 +871,10 @@
           renferme de plus venimeux &amp; de plus féroce, ſe diſputent l'empire de cette région. Mais plus
           farouche encore,, Zingha porte ſes pas au milieu de ces monſtres, terraſſe à coups de fleches les
           plus audacieux, &amp; preſſée par la faim, ſe nourrit de la chair crue des tigres qu'elle a mis à
-          mort.</p>
-        <p>Excédée de fatigue, &amp; le crépuſcule du ſoir annonçant les ombres de la nuit, elle cherche des
+          mort.
+    </p>
+    <p>
+     Excédée de fatigue, &amp; le crépuſcule du ſoir annonçant les ombres de la nuit, elle cherche des
           yeux un azile, où elle puiſſe réparer ſes forces abbatues: elle apperçoit bientôt au pied d'une
           coline une large caverne; elle y vole, elle eſt prête à y pénétrer, lorſqu'un lion énorme,
           s'élançant du fond de cet antre, vient à Zingha les yeux étincelans &amp; la criniere hériſſée:
@@ -730,8 +888,10 @@
           ſépare de Mapongo &amp; qu'elle a parcouru, la rapidité de ſa courſe, les dangers qu'elle a
           rencontrés, les animaux féroces qu'elle a bravés &amp; combattus, ont envain épuiſé ſes forces;
           vainement le ſilence qui regne dans cette caverne, ſemble l'inviter au repos; le ſouvenir des revers
-          qui l'y ont conduite, remplit ſon ame d'amertume, &amp; la livre au trouble les plus accablant.</p>
-        <p>“Dieux cruels &amp; barbares, s'écrietelle, déteſtables miniſtres des arrêts du deſtin! votre
+          qui l'y ont conduite, remplit ſon ame d'amertume, &amp; la livre au trouble les plus accablant.
+    </p>
+    <p>
+     “Dieux cruels &amp; barbares, s'écrietelle, déteſtables miniſtres des arrêts du deſtin! votre
           injuſte courroux n'eſt-il point encore aſſouvi? Vous reſte-t-il des traits plus accablans à lancer
           ſur ma tête? Dieux impuiſſans, tonnez: l'intrépide Zingha ne craint ni votre foudre, ni les horreurs
           de l'infortune où vous l'avez plongée: elle ne redoutoit que les fers de la ſervitude, &amp; la
@@ -756,14 +916,18 @@
           courtiſans. Traîtres! vous tomberez ſous le glaive de ma colere, &amp; vos baſſes adulations ne
           ſerviront qu'à aigrir ma vengeance. Hâte tes pas tardifs, ô temps! amene-le, ce jour, ce jour de
           vengeance &amp; d'horreur; il ſera le plus beau, le plus glorieux, le plus doux de ma vie: dut mon
-          dernier ſoupir accompagner ſa derniere heure.“</p>
-        <p>Tandis que livrée à ſon reſſentiment Zingha par ces imprécations exhaloit les impies tranſports
+          dernier ſoupir accompagner ſa derniere heure.“
+    </p>
+    <p>
+     Tandis que livrée à ſon reſſentiment Zingha par ces imprécations exhaloit les impies tranſports
           dont elle étoit agitée, l'accablante lenteur de l'aſſoupiſſement, appeſantiſſoit par dégrés ſa tête
           criminelle. Ce n'étoient point les doux pavots d'un ſommeil agréable qui s'étendoient ſur ſes yeux;
           c'étoit l'épuiſement de la fureur qui alloit pour quelques heures, lui procurer un pénible
           engourdiſſement; elle ne goûta point les charmes du repos; elle ne fit que s'endormir dans les bras
-          de la rage.</p>
-        <p>Telle que l'antique Diane qui, devançant dans les forêts les premiers feux de l'aurore, avant le
+          de la rage.
+    </p>
+    <p>
+     Telle que l'antique Diane qui, devançant dans les forêts les premiers feux de l'aurore, avant le
           lever du ſoleil, avoit atteint déjà de ſes fleches meurtrieres les dams &amp; les ſangliers, que
           leur fatale deſtinée avoit entramés dans ſes toiles: ou, pour comparer entr'eux des objets moins
           diſſemblables, telle que le ſublime Homere peint l'infernale Até, s'élançant des bords du Cocyte,
@@ -793,8 +957,10 @@
           te céder l'inutile avantage d'engager le combat, que de t'immoler en traître. Hâte-toi, digne ſœur
           du plus ſcélérat des tyrans. Que n'eſt-il à ta place, le barbare N-Golà! Quelle joie j'aurois à
           répandre ſon ſang! ſon ſang que je déteſte, &amp; que le tien verſé par mon bras impitoyable ne
-          ſçauroit ſuppléer.“</p>
-        <p>Plus étonnée de s'entendre nommer dans ces lieux éloignés d'Angola, que ſurpriſe de l'intrépidité
+          ſçauroit ſuppléer.“
+    </p>
+    <p>
+     Plus étonnée de s'entendre nommer dans ces lieux éloignés d'Angola, que ſurpriſe de l'intrépidité
           de ce défi, Zingha ſent le deſir de connoître ce fier negre qui l'intéreſſe par ſa férocité,
           ſuccéder dans ſon ame à limpatiente fureur qui l'avoit agitée en le voyant paroître. “Homme libre,
           ou vil eſclave, lui dit-elle, la journée eſt à nous, &amp; ta valeur m'aſſure qu'une fuite prudente,
@@ -803,8 +969,10 @@
           es-tu? Quel eſt ton pays? Où as-tu vu Zingha? Le ſon de ta voix ne m'eſt point inconnu; mais je ne
           me ſouviens pas que jamais tes yeux farouches &amp; le hideux enſemble de tes traits aient frappé
           mes regards. Approche, malheureux, &amp; inſtruis-moi ſans crainte de ton nom, de ta patrie, de ton
-          ſort, des malheurs ou des crimes qui t'ont forcé de t'exiler dans cette ſolitude“.</p>
-        <p>A ces mots, le Caffre s'avance: “Comment, répond-il, trois années d'abſence ont-elles pu me
+          ſort, des malheurs ou des crimes qui t'ont forcé de t'exiler dans cette ſolitude“.
+    </p>
+    <p>
+     A ces mots, le Caffre s'avance: “Comment, répond-il, trois années d'abſence ont-elles pu me
           rendre auſſi méconnoiſſable? Tes provinces, Zingha, tes provinces que mon avidité a tant de fois
           ravagées par ordre du tyran; les familles qui peuplent les états de ton frere, tous ſes ſujets que
           mes mains homicides ont plongés ſi ſouvent dans le deuil, n'oublieront jamais l'inflexible Dron-co,
@@ -818,8 +986,10 @@
           penchant irréſiſtible que la nature &amp; l'habitude m'ont donné pour le carnage, &amp; dévoré d'un
           ſeul regret, de n'avoir pu avant que de m'éloigner d'Angola, maſſacrer le tyran, &amp; ſon fils,
           &amp; toi-même. Tu ne fus pas témoin de ma diſgrace, &amp; tu en ignores la cauſe; je vais la
-          dévoiler: écoute &amp; tremble.</p>
-        <p>Un meurtre qui eût du me rendre pluscher que je ne l'avois été juſqu'alors à l'ingrat que je
+          dévoiler: écoute &amp; tremble.
+    </p>
+    <p>
+     Un meurtre qui eût du me rendre pluscher que je ne l'avois été juſqu'alors à l'ingrat que je
           ſervois; un ſimple aſſaſſinat que le traître eût du récompenſer, détermina ma chûte. Depuis deux
           mois, Ben-di qui m'avoit confié ſes projets inceſtueux, ſes vues &amp; l'irrévocable deſſein qu'il
           avoit pris de t'immoler à la ſureté de ſon regne, après qu'il auroit aſſouvi ſa passion déteſtable,
@@ -839,8 +1009,10 @@
           malheur d'irriter ſa voracité. Je dérobai cette proie à N-Gola; je la gardai pour moi. Zirca me
           déteſtoit; mais la captivité où je l'avois réduite, ma force &amp; mon inſenſibilité à ſes pleurs, à
           ſes cris me répondoient de ſon obéiſſance; j'étois heureux à ma maniere: qu'importe à mes pareils le
-          moyen qu'ils choiſiſſent, pourvu qu'ils contentent leurs goûts?</p>
-        <p>Cependant la trahiſon vint troubler mes plaiſirs. Un eſclave inſolent que j'avois menacé de
+          moyen qu'ils choiſiſſent, pourvu qu'ils contentent leurs goûts?
+    </p>
+    <p>
+     Cependant la trahiſon vint troubler mes plaiſirs. Un eſclave inſolent que j'avois menacé de
           mettre à mort, &amp; dont j'avois eu la foibleſſe d'épargner les perfides jours, alla découvrir à
           Ben-di le tréſor que j'avois eu l'audace de lui ravir, &amp; que je récelois dans ma maiſon. A ce
           récit, la noire jalouſie s'empara de N-Gola qui, bouillant de colere &amp; enflammé du deſir de
@@ -851,8 +1023,10 @@
           qu'il paroiſſoit avoir d'être inveſti dans ſon palais, furent le prétexte qu'il prit pour m'envoyer
           au pied du Mapongo porter ſes ordres aux chefs de ſon armée. Le trajet étoit court, &amp; j'obéis
           avec d'autant plus de zele, que je ne pouvois ſoupçonner la véritable cauſe de la commiſſion que
-          j'avois à remplir.</p>
-        <p>Mais j'étois à-peine parti, que ſuivi de ſes gardes, Ben-di entrant chez moi, en fit ſortir mes
+          j'avois à remplir.
+    </p>
+    <p>
+     Mais j'étois à-peine parti, que ſuivi de ſes gardes, Ben-di entrant chez moi, en fit ſortir mes
           enfans, mes eſclaves, &amp; laiſſant ſa ſuite à ma porte, il reſta ſeul avec Zirca. Rempli
           d'impatience d'aller oublier dans les bras de ma jeune captive les fatigues de la journée, j'eus
           bientôt exécuté les ordres du tyran, &amp; remontant au faîte du Mapongo, je goûtois par avance les
@@ -883,8 +1057,10 @@
           Maintenant, ô Zingha, tu ſais tout, &amp; ſi la ſoif de la vengeance t'a conduite dans ces lieux,
           bénis le ſort, ou plutôt, femme infortunée, maudis le funeſte moment qui t'a offerte à mes regards.
           Prends tes armes, recommençons le combat homicide que nous deſirons l'un &amp; l'autre, &amp; que ta
-          curioſité n'a que trop longtemps différé“.</p>
-        <p>Zingha étoit bien éloignée de le haſarder, ce combat, &amp; d'attenter aux jours du Caffre: non
+          curioſité n'a que trop longtemps différé“.
+    </p>
+    <p>
+     Zingha étoit bien éloignée de le haſarder, ce combat, &amp; d'attenter aux jours du Caffre: non
           que l'atrocité du monſtre ne la fit frémir d'horreur; mais à cauſe des reſſources que pouvoient lui
           fournir ſon ame abandonnée au crime &amp; ſon eſprit fertile en noirceurs &amp; en perfidies. A
           peine il eut fini ſon abominable récit, que Zingha tournant ſur lui des yeux dépouillés de colere,
@@ -908,20 +1084,26 @@
           puiſſance; ton intrépidité, tes rigueurs inflexibles &amp; la terreur de ton nom rétabliront mes
           droits: ſois mon époux, je ſuis ta femme; le jour baiſſe, allons dans mon antre, cimenter par nos
           ſermens &amp; nos imprécations cette union fatale à nos communs ennemis; demain je te ſuivrai dans
-          la caverne ou la cabane qui te ſert de palais„.</p>
-        <p>Ebloui d'une auſſi brillante propoſition, Dron-co, ſoit que pour la premiere fois il ſentit les
+          la caverne ou la cabane qui te ſert de palais„.
+    </p>
+    <p>
+     Ebloui d'une auſſi brillante propoſition, Dron-co, ſoit que pour la premiere fois il ſentit les
           tendres émotions de la reconnoiſſance, ſoit qu'accoutumé à feindre, il cherchât à paroître ſenſible,
           ſe précipita aux pieds de Zingha qui jettant ſur lui de ſéveres regards: “Laiſſe-là, lui dit-elle,
           tes manieres d'eſclave. Roi d'Angola, ſois flatté, ſi tu peux l'être, du rang ſuprême où je t'éleve;
           mais épargne moi l'ennui dé tes froids remerciemens. Ce n'eſt point de la reconnoiſſance, ni les
           expreſſions des vulgaires amans que j'exige de toi; c'eſt de l'activité, du zele, de la valeur,
-          &amp; les plus héroiques efforts pour conquérir nos États uſurpés.</p>
-        <p>Suivie de ſon hideux époux, Zingha fut bientôt rendue auprès de ſa caverne; ils y entrerent l'un
+          &amp; les plus héroiques efforts pour conquérir nos États uſurpés.
+    </p>
+    <p>
+     Suivie de ſon hideux époux, Zingha fut bientôt rendue auprès de ſa caverne; ils y entrerent l'un
           &amp; l'autre. Couple affreux! ce ne fut point le brillant flambeau de l'amour qui éclaira votre
           hyménée; ce fut à la pâle clarté de la torche des Euménides, que vos embraſſemens ſuſpendirent pour
           quelques momens, la fureur &amp; la rage qui dévoroient vos cœurs. Les rugiſſemens des lions &amp;
-          les ſifflemens des couleuvres furent les cris d'allégreſſe qui célébrerent vos plaiſirs.</p>
-        <p>Les rayons du ſoleil perçoient déjà au fond de la caverne, quand Zingha s'éveillant, conſidéra
+          les ſifflemens des couleuvres furent les cris d'allégreſſe qui célébrerent vos plaiſirs.
+    </p>
+    <p>
+     Les rayons du ſoleil perçoient déjà au fond de la caverne, quand Zingha s'éveillant, conſidéra
           aveshorreur le Cafſre étendu auprès d'elle; mais renfermant dans ſon ſein, le dégoût &amp; l'effroi
           qu'un tel époux lui inſpiroit: „Dron-co, dit-elle, en l'arrachant aux douceurs du ſommeil, eſt-ce
           pour végéter dans un lâche repos que nous ſommes unis? Levetoi, ſortons de cet antre; ſonge que les
@@ -929,8 +1111,10 @@
           hâtons nos pas, conduis-moi dans ton habitation, &amp; allons y former des complots dignes de nous.
           Le Caffre ouvrant les yeux, regarda la belle Zingha, &amp; rappellant dans ſa vile ame, la
           délectable nuit qu'il venoit de paſſer, il voulut ſourire à ſon épouſe; mais ſon affreux ſourire le
-          rendit mille fois plus effroyable encore.</p>
-        <p>Au-delà de la plaine où Dron-co, &amp; Zingha s'étoient rencontrés la veille, eſt une fondriere,
+          rendit mille fois plus effroyable encore.
+    </p>
+    <p>
+     Au-delà de la plaine où Dron-co, &amp; Zingha s'étoient rencontrés la veille, eſt une fondriere,
           vaſte, immenſe, profonde; abyme qu'à ſa. deſcente on prendroit pour l'une des iſſues du ténébreux
           Cocyte: le jour le plus éclatant n'y envoie qu'un foible crépuſcule; les animaux les plus féroces
           n'oſent y pénétrer. Le ſilence &amp; la terreur qui regnent ſur les bords de cet énorme précipice en
@@ -951,8 +1135,10 @@
           racines, Dron-co a pratiqué à deux pieds de profondeur, une trape connue de lui ſeul, &amp; qui ſert
           de porte à un ſouterrein étroit d'une longueur prodigieuſe, mais d'une pente douce &amp; facile, qui
           aboutit au centre de la double enceinte du précipice, où arrivent après une pénible marche, les deux
-          nouveaux époux.</p>
-        <p>Le premier ſoin du Caffre, après s'être félicité de la brillante compagne qu'l amene dans ce
+          nouveaux époux.
+    </p>
+    <p>
+     Le premier ſoin du Caffre, après s'être félicité de la brillante compagne qu'l amene dans ce
           tombeau, eſt de jetter du bois dans le foyer, &amp; de le rallumer par la vigueur de ſon haleine. A
           la lueur de la flamme il montre d'un air ſatisfait à Zingha, tout ce que récele cette noire
           habitation: un large lit de mouſſe qu'il a cueillie dans la forêt voiſine, &amp; qu'il peut chaque
@@ -962,8 +1148,10 @@
           il écrit en caracteres caffres, les projets infernaux qu'il a jadis exécutés, &amp; les complots
           encore plus affreux que ſa noirceur médite, les pieges deſtructeurs qu'il tend aux lions &amp; aux
           léopards, pieges terribles, d'une telle induſtrie que la preſſion la plus légere en fait mouvoir les
-          reſſorts, &amp; d'une telle force qu'ils briſent &amp; partagent les pierres les plus dures.</p>
-        <p>A la ſuite d'un repas auſſi ſomptueux qu'il pouvoit l'être dans ce lieu ſauvage, Dron-co après
+          reſſorts, &amp; d'une telle force qu'ils briſent &amp; partagent les pierres les plus dures.
+    </p>
+    <p>
+     A la ſuite d'un repas auſſi ſomptueux qu'il pouvoit l'être dans ce lieu ſauvage, Dron-co après
           avoir englouti un tigre qu'il n'avoit fait que préſenter au feu, entraîna Zingha ſur le lit nuptial,
           où bientôt il s endormit, tandis que la ſœur de Bendi livrée aux réflexions les plus inquiétantes,
           rouloit dans ſon ame agitée, les moyens qu'elle auroit à choiſir, pour ſe ſervir le plus utilement
@@ -1014,16 +1202,20 @@
           que je ne me ſuis éloignée de mes états, qu'afin d'aller moi-même ſoulever contre mes ennemis les
           nations voiſines. Va, cher Dron-co, &amp; reviens le plutôt qu'il te ſera poſſible auprès de ton
           épouſe qui, après ſon trône &amp; le deſir de ſe venger, ne connoît rien ſur la terre de plus digne
-          d'elle que toi".</p>
-        <p>L'ambition du noir Caffre enflammée par l'eſpoir du ſuccès, &amp; ſon cœur vil enorgueilli par le
+          d'elle que toi".
+    </p>
+    <p>
+     L'ambition du noir Caffre enflammée par l'eſpoir du ſuccès, &amp; ſon cœur vil enorgueilli par le
           titre peu fait pour ſes pareils, de confident &amp; d'époux d'une reine, il ſe leva avec
           précipitation, prit ſon arc &amp; ſes fleches, &amp; ſans ſonger dans ſon empreſſement à donner
           avant que de partir les plus légeres marques de tendreſſe à Zingha qui, ſatisfaite de ſon
           obéiſſance, excitoit ſon zele, il ſortit avec elle des ténebres de ſa caverne, traverſa la route
           ſouterraine, &amp; plus rapide que l'éclair dirigea ſa route vers Congo, laiſſant Zngha livrée à ſes
           penſées, &amp; au ſilence de cette ſolitude, moins affreuſe pour elle depuis qu'elle n'y voyoit plus
-          cet objet d'épouvante &amp; d'horreur.</p>
-        <p>Les tourmens de l'incertitude, l'obſcurité des événemens, la crain-te d'échouer, l'eſpoir de
+          cet objet d'épouvante &amp; d'horreur.
+    </p>
+    <p>
+     Les tourmens de l'incertitude, l'obſcurité des événemens, la crain-te d'échouer, l'eſpoir de
           réuſſir, le ſouvenir amer du rang &amp; des honneurs dont elle avoit joui, le regret de ſa gloire
           paſſée, l'image des revers qu'elle avoit eſſuyés, le deſir de ſe venger des outrages qu'elle croyoit
           avoir reçus des Portugais &amp; de ſes peuples, le reſſentiment, la rage, la fureur, &amp; la
@@ -1037,9 +1229,14 @@
           alors armée de ſes fleches, &amp; rempliſſant les bois &amp; les vallées des cris de ſa fureur,
           malheur aux animaux féroces que le haſard conduiſoit ſur ſes pas! Plus formidable mille fois que les
           Bacchantes armées de leurs tyrſes &amp; pleines du puiſſant
-          <hi rend="italic">Evohé</hi>, elle frappoit d'une main aſſurée tout ce qui s'offroit devant elle,
-          &amp; l'inflexible Parque conduiſoit tous ſes coups.</p>
-        <p>Déjà les ombres de la nuit avoient fui pour la neuvieme fois, depuis le départ de Dron-co devant
+     <hi rend="italic">
+      Evohé
+     </hi>
+     , elle frappoit d'une main aſſurée tout ce qui s'offroit devant elle,
+          &amp; l'inflexible Parque conduiſoit tous ſes coups.
+    </p>
+    <p>
+     Déjà les ombres de la nuit avoient fui pour la neuvieme fois, depuis le départ de Dron-co devant
           la riante aurore; précédée de la déſolation, de la terreur &amp; de la mort, Zingha ſortoit de ſa
           ténébreuſe caverne pour aller détruire les hôtes de la forêt des environs, lorſqu'elle entendit ſon
           nom retentir dans les rochers qui formoient l'enceinte de l'abyme: elle s'arrête étonnée, regarde,
@@ -1065,16 +1262,22 @@
           le croire, ſi le Roi de Congo ne m'eût chargé de t'aſſurer de ſes vœux, de ſon zele &amp; de ſon
           amitié, comme je penſe qu'il t'en donne lui-même ſa parole royale dans cette lettre qu'il t'adreſſe,
           que j'ai reçue de ſes mains, écrite en caracteres qui me ſont inconnus
-          <ref target="#N03"/>, &amp; qui contient ſans doute les preuves &amp; la certitude que tu demades“.
+     <ref target="#N03"/>
+     , &amp; qui contient ſans doute les preuves &amp; la certitude que tu demades“.
             Zingha ouvrit la lettre, &amp; lut avec étonnement ces propoſitions bien différentes des nouvelles
-            que Dron-co venoit d'annoncer.</p>
-        <p>ZILET-ZAEB, MENI CONGO,
-          <hi rend="italic">Par la vertu du ciel &amp; le décret de Dieu, Roi de Congo, d'Angola, de Manicumba
+            que Dron-co venoit d'annoncer.
+    </p>
+    <p>
+     ZILET-ZAEB, MENI CONGO,
+     <hi rend="italic">
+      Par la vertu du ciel &amp; le décret de Dieu, Roi de Congo, d'Angola, de Manicumba
             &amp;c. &amp;c. dominateur du grand fleuve de Zaïre, à Zingha Ben-di, Sava de Mapongo, d'Ilamba
-            &amp; d'Angola, notre alliée &amp; fidelle ſujette.</hi>
-        </p>
-        <p>
-          <hi rend="italic">Le confident de tes projets, miniſtre de tes ordres, ou, comme il nous l'a dit,
+            &amp; d'Angola, notre alliée &amp; fidelle ſujette.
+     </hi>
+    </p>
+    <p>
+     <hi rend="italic">
+      Le confident de tes projets, miniſtre de tes ordres, ou, comme il nous l'a dit,
             ton époux, l'ancien miniſtre de N-Gola Ben-di ton frere, notre ſujet &amp; allié, s'eſt rendu de ta
             part aux pieds de notre trône pour implorer en ta faveur notre puiſſante protection contre tes
             ennemis. La peinture qu'il nous a faite de tes malheurs &amp; de ta triſte ſituaon, a touché notre
@@ -1092,9 +1295,11 @@
             enfin que tu n'entreprendras aucune guerre ſans nous avoir fait part des motifs qui t'auront engagée
             à l'entreprendre, &amp; que tu ne contracteras aucune ſorte d'alliance qui puiſſe bleſſer
             directement ou indirectement nos intéréts. Si tu remplis ces conditions, tu peux compter, Zingha,
-            ſur notre généroſité, comme ſur la protection de Dieu même, que nous prions de conſerver tes jours.</hi>
-        </p>
-        <p>L'impétuoſité des vents déchaînés ſur la mer, en agite les flots avec moins de violence, que
+            ſur notre généroſité, comme ſur la protection de Dieu même, que nous prions de conſerver tes jours.
+     </hi>
+    </p>
+    <p>
+     L'impétuoſité des vents déchaînés ſur la mer, en agite les flots avec moins de violence, que
           l'ame de Zingha ne le fut en liſant cette lettre: mais renfermant avec effort les mouvemens de ſa
           colere dans ſon cœur ulcéré:“ Tu ne m'as point trompée, dit-elle au Caffre ſatisfait, le Meni de
           Congo m'inſtruit de ſes bontés &amp; des ſoins que tu as pris pour le déterminer à nous être
@@ -1110,8 +1315,10 @@
           ne peut, ſans ſe manquer eſſentiellement à elle-même, ſe montrer dans les états de ce bon ſouverain,
           avant que de l'avoir informé de ſes ſuprêmes intentions. Un départ auſſi précipité bleſſeroit ma
           dignité, &amp; déceleroit en nous une ſituation déſeſpérée, qui bien loin de nous procurer les
-          reſſources &amp; les ſecours que nous voulons nous procurer, tourneroit à notre honte.</p>
-        <p>Quelque impatientant que Dronco trouvât ce délai ſur lequel il n'avoit pas compté, les raiſons de
+          reſſources &amp; les ſecours que nous voulons nous procurer, tourneroit à notre honte.
+    </p>
+    <p>
+     Quelque impatientant que Dronco trouvât ce délai ſur lequel il n'avoit pas compté, les raiſons de
           Zingha lui parurent ſi lumineuſes, que n'ayant pour les affoiblir aucune objection à faire, il
           attendit la réponſe que la Reine faiſoit à l'inſultante lettre qu'elle venoit de lire. Enorgueilli
           du ſuccès de ſont ambaſſade, jugeant à la tranquillté apparente de ſon épouſe, qu'el le ne tarderoit
@@ -1120,13 +1327,18 @@
           tête d'une formidable armée, il ſe promit d'accélérer ſa courſe, &amp; d'abréger autant qu'il le
           pourroit, le tems qu'il avoit mis dans ſon premier voyage pour ſe rendre à la cour du Prince, où il
           ne comptoit pas de recevoir l'acqueil que Zingha lui préparoit par cette réponſe écrite en
-          caracteres Congois, &amp; qu'elle remit entre les mains du Caffre.</p>
-        <p>ZINGHA Ben-di,
-          <hi rend="italic">Par le droit &amp; la force Reine d'Angola, d'Ilamba, de Calucala &amp;c. ſuprême
-            &amp; invincible dominatrice de Mapongo; à Zilat-Zaeb, Roi de Congo.</hi>
-        </p>
-        <p>
-          <hi rend="italic">Nous n'avons point envoyé de miniſtre auprès de ta perſonne. Celui que tu as eu
+          caracteres Congois, &amp; qu'elle remit entre les mains du Caffre.
+    </p>
+    <p>
+     ZINGHA Ben-di,
+     <hi rend="italic">
+      Par le droit &amp; la force Reine d'Angola, d'Ilamba, de Calucala &amp;c. ſuprême
+            &amp; invincible dominatrice de Mapongo; à Zilat-Zaeb, Roi de Congo.
+     </hi>
+    </p>
+    <p>
+     <hi rend="italic">
+      Nous n'avons point envoyé de miniſtre auprès de ta perſonne. Celui que tu as eu
             l'imprudence d'écouter &amp; la ſoibleſſe de charger d'une lettre pour nous, eſt un vil impoſteur
             auquel nous n'avons confié aucune ſorte de négociation à ta cour, ni ailleurs. S'il a eu l'inſolence
             de ſe dire notre époux à Congo, il a porté plus loin encore l'effronterie ici, par l'impudent récit
@@ -1154,9 +1366,11 @@
             voulons bien reconnoître des égaux parmi les rois indépendans, mais nulle part des maîtres, ni des
             ſupérieurs. Punis par la violence des châtimens l'audace de l'eſclave qui t'a fait tomber dans de ſi
             honteuſes erreurs; &amp; compte ſur l'oubli que nous voulons bien faire de ta lettre &amp; des
-            propoſitions outrageantes qu'elle renferme.</hi>
-        </p>
-        <p>Dron-co, ſans ſe douter qu'il voloit au ſupplice, &amp; qu'il portoit lui-même l'arrêt fatal de
+            propoſitions outrageantes qu'elle renferme.
+     </hi>
+    </p>
+    <p>
+     Dron-co, ſans ſe douter qu'il voloit au ſupplice, &amp; qu'il portoit lui-même l'arrêt fatal de
           ſa condamnation, s'éloigna de Zingha, qui le voyant partir: „Que l'enfer t'accompagne,
           s'écria-t-elle, en lançant vers le ciel un regard de fureur! monſtre odieux! puiſſe-je ne jamais te
           revoir, ou du moins ne te voir qu'accablé de tous les maux que ma haine &amp; mon cœur te
@@ -1168,8 +1382,10 @@
           &amp; n'emporte pas chez les morts la conſolation de ſavoir que Zingha plus inhumaine, plus féroce
           que toi, eſt allée toute entiere à ſa rage, continuer le cours de ſes atrocités chez la plus
           déteſtable nation de la terre, chez le ſeul peuple qui fût digne de nous recevoir l'un &amp;
-          l'autre“.</p>
-        <p>Après ces mots, la Reine d'Angola rentra dans la caverne, &amp; prenant tous les poiſons que
+          l'autre“.
+    </p>
+    <p>
+     Après ces mots, la Reine d'Angola rentra dans la caverne, &amp; prenant tous les poiſons que
           Dronco y avoit raſſemblés pour en imbiber ſes fleches, elle les répandit dans la fontaine, afin que
           chaque goutte d'eau portât une mort aſſurée dans le ſein de ſon époux: enſuite elle tendit de
           diſtance en diſtance, tous les pieges deſtinés à détruire les tigres, les lions &amp; les bêtes
@@ -1186,8 +1402,10 @@
           reſpectés &amp; les plus recommandables. Ce fut le chef des Giagues luimême, celui dont la ſœur de
           Bendi avoit aſſaſſiné l'éleve, qui la reçut avec le plus d'empreſſement, &amp; qui par ſes éloges
           inſpira à ſes concitoyens, autant d'admiration pour la férocité de Zingha, qu'ils en avoient pour la
-          mémoire de leur légiſlatrice.</p>
-        <p>Par une ancienne coutume des Giagues, mais que leur férocité ne leur permet d'obſerver que fort
+          mémoire de leur légiſlatrice.
+    </p>
+    <p>
+     Par une ancienne coutume des Giagues, mais que leur férocité ne leur permet d'obſerver que fort
           rarement, les étrangers que le haſard, l'infortune ou la force des armes ont malheureuſement fait
           tomber dans leurs mains, ſont libres, lorſque les boucheries ſont d'ailleurs abondamment fournies,
           de ſe faire adopter par l'état: mais dans ce cas, l'indiſpenſable obligation de celui qui ſe fait
@@ -1205,16 +1423,20 @@
           contrarié par ceux qui avoient dépoſé le ſceptre dans ſes mains, n'avoit régné que peu de temps,
           &amp; étoit mort de chagrin, laiſſant ſes états aux Portugais qui lui avoient donné pour ſucceſſeur
           un autre prince qui avoit régné plus long-temps, &amp; tout auſſi tranquillement que le lui
-          permettoit la dépendance où il étoit du Vice-Roi de Loando.</p>
-        <p>Furieuſe à ces nouvelles, la reine d'Angola couvrant du prétexte infernal de la haine implacable
+          permettoit la dépendance où il étoit du Vice-Roi de Loando.
+    </p>
+    <p>
+     Furieuſe à ces nouvelles, la reine d'Angola couvrant du prétexte infernal de la haine implacable
           dont elle ſe diſoit enflammée contre l'eſpece humaine, le déſeſpoir où elle étoit de ſe voir
           arracher le ſceptre, embraſſa dans tou-te leur horreur, &amp; les loix &amp; les mœurs des Giagues,
           abjura publiquement le Chriſtianiſme &amp; tous les ſentimens de pudeur &amp; d'humanité. Afin de
           s'élever au rang que ſon ambition deſiroit d'obtenir, &amp; qu'elle occupa bientôt chez cette
           nation, elle s'attacha à mériter à force de noirceurs &amp; de ſcélérateſſe, la vénération publique,
           &amp; elle y parvint en ſe livrant ſans retenue à tout ce que le crime &amp; la férocité ont de plus
-          exécrable.</p>
-        <p>J'ai dit que les Giagues ſont de tous les Ethiopiens les plus barbares, les plus impitoyables
+          exécrable.
+    </p>
+    <p>
+     J'ai dit que les Giagues ſont de tous les Ethiopiens les plus barbares, les plus impitoyables
           &amp; les plus intrépides: j'ai dit d'après la vérité des faits, que perpétuellement altérés de ſang
           &amp; de butin, le plaiſir de déchirer &amp; de manger leurs ennemis, ou quand ils ne ſont point en
           guerre, leurs propres concitoyens, a un attrait pour eux irréſiſtible, &amp; qui les porte à ſe
@@ -1228,8 +1450,10 @@
           publiques égorgeoit les victimes humaines. Elle affectoit ſur-tout un éloignement extrême pour les
           plaiſirs ſéduiſans de l'amour, ou plutôt pour la ſatiété de la débauche; cependant un penchant
           effréné l'entraînoit vers la volupté, ſi l'on peut donner ce nom aux excès &amp; à l'impudence du
-          plus ſale libertinage.</p>
-        <p>Le deſir de ſe ſatisfaire, la crain-te de paſſer parmi les Singhillos, monſtres voués au crime,
+          plus ſale libertinage.
+    </p>
+    <p>
+     Le deſir de ſe ſatisfaire, la crain-te de paſſer parmi les Singhillos, monſtres voués au crime,
           &amp; qui ſemblables aux antiques Dactyles, feignoient de ne connoître d'autre vertu, ſi c'en eſt
           une, que la loi d'une auſtere continence, &amp; la privation totale du commerce des femmes; la
           crainte de paſſer au jugement de ces impitoyables miniſtres des idoles, pour une femme ordinaire; le
@@ -1245,8 +1469,10 @@
           feſtins antropophages, la dévorante ardeur dont elle ſe ſentoit conſumée: c'étoit alors qu'on la
           voyoit multiplier les hécatombes, immoler avec avidité les captifs des Giagues, enfoncer lentement
           le poignard dans leur ſein, &amp; ſe venger en outrageant la nature, des feux que la nature allumoit
-          dans ſon cœur corrompu.</p>
-        <p>La terreur que les loix ſanguinaires de Zingha répandoient dans ces accès de délire &amp; de
+          dans ſon cœur corrompu.
+    </p>
+    <p>
+     La terreur que les loix ſanguinaires de Zingha répandoient dans ces accès de délire &amp; de
           rage, ſur tous ceux qui l'environnoient, les meurtres &amp; les aſſaſſinats qu'elle ordonnoit, les
           nouveaux genres de ſupplices qu'elle inventoit, euſſent fini peut-être par la rendre un objet
           d'épouvante &amp; d'horreur aux yeux mêmes des Giagues qui, exercés au crime dès leur plus tendre
@@ -1259,8 +1485,10 @@
           ardemment la jouiſſance, elle n'eût découvert par les conſeils d'une exécrable confidente, les
           moyens d'aſſouvrir ſes deſirs, &amp; de s'abandonner aux excès de la plus impudente proſtitution,
           ſans qu'elle eût jamais à craindre l'indiſcrétion d'aucun des complices, ou plutôt, d'aucune des
-          victimes de ſa perverſité.</p>
-        <p>De toutes les femmes Giagues qui s'étoient attachées à la Reine d'Angola, celle qui s'empreſſoit
+          victimes de ſa perverſité.
+    </p>
+    <p>
+     De toutes les femmes Giagues qui s'étoient attachées à la Reine d'Angola, celle qui s'empreſſoit
           avec le plus de zele à lui donner des preuves d'eſtime, de reſpect &amp; de vénération, étoit la
           cruelle Run-lan; Run-lan qu'à ſes actions barbares, à ſon eſprit de haine &amp; de diſcorde, au
           trouble &amp; à la confuſion que ſa voix ſéditieuſe répandoit dans tous les lieux où le deſir de
@@ -1279,8 +1507,10 @@
           meurtre, l'inhumanité, &amp; qui nous interdiſent le plus doux charme de la vie, la paſſion la moins
           condamnable, &amp; de tous les penchans que nous tenons de la nature, le plus irréſiſtible. Allons
           les ſatisfaire, ces monſtres reſpectés, &amp; que l'effroi qu'inſpireront nos efforts réunis,
-          s'étende juſqu'à eux“.</p>
-        <p>A ces mots, l'infernale Run-lan ſouriant à Zingha d'une affreuſe maniere:“Reine d'Angola, lui
+          s'étende juſqu'à eux“.
+    </p>
+    <p>
+     A ces mots, l'infernale Run-lan ſouriant à Zingha d'une affreuſe maniere:“Reine d'Angola, lui
           dit-elle, n'impute qu'à toi-même la violence des tranſports qui t'agitent, &amp; les tourmens d'une
           contrainte dont je t'aurois affranchie, ſi tu avois eu pour moi autant de confiance que je crois en
           mériter par mon attachement &amp; l'exacte reſſemblance de nos inclinations. J'approuve ton humeur
@@ -1292,8 +1522,10 @@
           après celui de nuire. Tu ne connois que la cruelle rigidité de nos loix, &amp; tu ne ſais point
           encore les moyens de les pouvoir enfreindre. Le chef de nos concitoyens t'a fort mal inſtruite,
           Zingha; je te plains, &amp; je ſens par moi-même, combien la privation où je te vois réduite doit
-          t'être inſupportable. Ecoute, je vais t'éclairer.</p>
-        <p>Ces Singhillos qui t'en impoſent par des dehors auſteres, ne ſont intérieurement rien moins
+          t'être inſupportable. Ecoute, je vais t'éclairer.
+    </p>
+    <p>
+     Ces Singhillos qui t'en impoſent par des dehors auſteres, ne ſont intérieurement rien moins
           qu'irréconciliables ennemis des plaſirs qu'ils condamnent en public avec tant de rigueur. Dévoués
           comme nous au ſervice des Dieux, ils ont promis de paſſer leur vie dans les langueurs d'une ſévere
           continence; mais ces promeſſes ſi ſolennelles ne ſont pour eux qu'un moyen de plus de tromper le
@@ -1308,8 +1540,10 @@
           les bras de ces prêtres mêmes qui, après leur avoir perſuadé qu'elles ne mourront point, &amp;
           qu'ils viendront les rendre à la lumiere, préſident à leur enterrement, &amp; trompent leurs
           eſpérances, en les faiſant étouffer ſous le poids de la terre &amp; des pierres qui comblent la
-          foſſe profonde où ils les ont fait deſcendre.</p>
-        <p>Conſacrée, comme les Singhillos, au culte de nos Dieux, penſestu que je ſois plus fidelle qu'ils
+          foſſe profonde où ils les ont fait deſcendre.
+    </p>
+    <p>
+     Conſacrée, comme les Singhillos, au culte de nos Dieux, penſestu que je ſois plus fidelle qu'ils
           ne le ſont eux-memes à la loi de continence que mon état m'impoſe? Lorſque jugée digne de remplir
           les fonctions du ſacré miniſtere, j'allai, ſuivant l'uſage, ſur la tombe redoutée de Tem-ba-dumba,
           jurer de reſter inſenſible aux vœux de la nature, d'éteindre mes deſirs, de vivre dans le célibat,
@@ -1329,8 +1563,10 @@
           de leur inſpirer la chaleur des deſirs que leur préſence a excitée en nous. C'eſt alors que nous
           recevons les preuves de leur reconnoiſſance: leurs ſoins empreſſés, la vigueur de leurs ſens, les
           aſſurances qu'ils nous donnent juſqu'à l'épuiſement, de la force &amp; de l'ardeur de leur
-          ſenſibilité, ſont le prix enchanteur des bontés que nous leurs témoignons.</p>
-        <p>Par un ancien uſage religieuſement obſervé parmi nous, depuis le rétabliſſement de nos loix &amp;
+          ſenſibilité, ſont le prix enchanteur des bontés que nous leurs témoignons.
+    </p>
+    <p>
+     Par un ancien uſage religieuſement obſervé parmi nous, depuis le rétabliſſement de nos loix &amp;
           de notre culte, dans le nombre des victimes dévouées aux Dieux, &amp; que nous devons égorger, il
           nous eſt ordonné de n'en épargner qu'une à laquelle nous n'accordons la vie avec la liberté, qu'à
           l'inſtant même où notre bras armé du funeſte poignard, eſt prêt à lui percer le ſein. Le captif
@@ -1355,8 +1591,10 @@
           inattendue, &amp; d'autant plus aſſurée, qu'il eſt pour nous du plus grand intérêt qu'ils ne
           puiſſent, avant que de mourir, nous accuſer de perfidie, divulguer les promeſſes que nous leur avons
           faites, le prix acquitté par leur reconnoiſſance, &amp; que nous avions mis à la vie &amp; à la
-          liberté que nous nous étions engagées de leur procurer.</p>
-        <p>De ces deux moyens, Zingha, le premier t'eſt interdit: tes vues d'ambition, &amp; l'eſpérance
+          liberté que nous nous étions engagées de leur procurer.
+    </p>
+    <p>
+     De ces deux moyens, Zingha, le premier t'eſt interdit: tes vues d'ambition, &amp; l'eſpérance
           fondée que tu as de ſuccéder un jour au chef de la nation, ne te permettent point de t'attacher aux
           Sighillos; non que celui d'entr'eux ſur qui ton choix s'arrêteroit, ne fût infiniment flatté de tes
           bontés &amp; de la préférence que tu lui donnerois; mais à cauſe de l'invincible réſiſtance que tu
@@ -1370,8 +1608,10 @@
           avec adreſſe la paſſion que tu aſſouviras, du voile ſéduiſant que tu auras étendu ſur tes victimes,
           &amp; que tu feras durer juſqu'au moment où rendue à toimême, &amp; aux terribles fonctions de ton
           miniſtere, la mort que tu leur donneras, ſoit en public, ſoit en ſecret, &amp; toujours au nom des
-          Dieux, &amp; ſous prétexte de pourvoir à la ſubſiſtance du peuple, te réponde de leur ſilence.</p>
-        <p>L'atrocité de ces conſeils fit horreur à Zingha; non pas que ſon bras ſanguinaire ſe refuſât au
+          Dieux, &amp; ſous prétexte de pourvoir à la ſubſiſtance du peuple, te réponde de leur ſilence.
+    </p>
+    <p>
+     L'atrocité de ces conſeils fit horreur à Zingha; non pas que ſon bras ſanguinaire ſe refuſât au
           meurtre &amp; aux aſſaſſinats; mais parce que ſon ame ne pouvoit ſe réſoudre à acheter le plaiſir au
           prix d'une perfidie, &amp; qu'il lui paroiſſoit indigne d'elle de violer la foi qu'elle auroit jurée
           aux captifs, &amp; de les égorger après leur avoir promis de leur accorder la vie. Accoutumée dès
@@ -1389,20 +1629,26 @@
           de leur vie &amp; de leur liberté. Je ferai plus, aſin qu'il ne te reſte aucune ſorte de crainte, je
           les immolerai moi-même, à meſure que leurs forces épuiſées te paroîtront exiger que de nouvelles
           victimes aillent attendre dans tes bras, le ſort que mon glaive &amp; nos loix auront fait éprouver
-          à leurs prédéceſſeurs.</p>
-        <p>Calmée par la certitude d'une vie moins iſolée, &amp; qu'elle ſe propoſoit de donner tour-à-tour
+          à leurs prédéceſſeurs.
+    </p>
+    <p>
+     Calmée par la certitude d'une vie moins iſolée, &amp; qu'elle ſe propoſoit de donner tour-à-tour
           au crime &amp; aux plaiſirs, Zingha dès ce moment ſe livra ſans retenue à ce genre nouveau de
           perfidie &amp; de débauche. Run-lan fidelle à ſes promeſſes, faiſoit parmi les priſonniers de guerre
           des levées de jeunes hommes, les plus robuſtes qu'elle pouvoit trouver, leur juroit qu'ils ne
           ſeroient point ſacrifiés, les faiſoit enfermer dans l'habitation de la Reine d'Angola, &amp; chaque
           jour, à proportion que l'incontinence de Zingha énervoit leur vigueur, Run-lan les poignardoit &amp;
-          leur ſubſtituoit de nouvelles victimes.</p>
-        <p>Cependant le chef des Giagues, le formidable Tre-benda, celui-là même qui avoit élevé le fils de
+          leur ſubſtituoit de nouvelles victimes.
+    </p>
+    <p>
+     Cependant le chef des Giagues, le formidable Tre-benda, celui-là même qui avoit élevé le fils de
           N-Gola Ben-di, mourut aſſaſſiné dans un tumulte que ſon inhumanité portée dans un moment d'ivreſſe,
           aux excès les plus féroces avoit ſuſcité; il périt égorgé par deux Jagas qu'il vouloit immoler à ſon
           reſſentiment, &amp; qui plus forts que lui, déchirerent ſes membres, &amp; lui firent ſubir la mort
-          la plus douloureuſe, telle qu'il l'avoit méritée par ſa ſcélérateſſe.</p>
-        <p>Le commandement de Giagues n'eſt point héreditaire; ce n'eſt pas non plus la nation aſſemblée qui
+          la plus douloureuſe, telle qu'il l'avoit méritée par ſa ſcélérateſſe.
+    </p>
+    <p>
+     Le commandement de Giagues n'eſt point héreditaire; ce n'eſt pas non plus la nation aſſemblée qui
           ſe donne des chefs: c'eſt la force réunie à la férocité qui ſeule peut donner des droits au plus
           barbare, à celui qui ſe ſent l'ambition &amp; le courage d'aſpirer à cette dignité. Auſſi-tôt que le
           chef ceſſe de reſpirer l'autorité ſuprême réſide tou-te entiere entre les mains de Singhillos; c'eſt
@@ -1411,7 +1657,10 @@
           l'enterrement du chef: car, dès la veille de cette pompe funebre, tous les Giagues qui prétendent à
           la ſouveraineté, pourvu que leur nombre n'excede pas celui de quatre cens, ſe rendent nuds, &amp;
           chacun un poignard à la main dans la
-          <hi rend="italic">plaine des morts</hi>, champ conſacré à cette horrible ſcene. Là, ſéparés en deux
+     <hi rend="italic">
+      plaine des morts
+     </hi>
+     , champ conſacré à cette horrible ſcene. Là, ſéparés en deux
           troupes égales, ils s'élancent, ſemblables aux enfans de l'antique Cadmus, les uns ſur les autres,
           &amp; ils ſe portent en ſilence les coups les plus affreux. Le ſang ruiſſelle, la mort moiſſonne
           avec une incroyable rapidité les combattans qui, acharnés à leur deſtruction, ne ſont ſenſibles
@@ -1428,8 +1677,10 @@
           des trois ait mis à mort ſes deux compétiteurs. Pour gage de ſa victoire, il jette au milieu de la
           foule aſſemblée la tête de chacun de ſes deux adverfaires. Souvent ce combat ſe termine par la mort
           des trois concurrens, &amp; alors, une nouvelle troupe de quatre cens Giagues va ſubir la premiere
-          épreuve, &amp; joncher de funérailles le champ des morts.</p>
-        <p>Lorſque l'événement du ſecond combat eſt heureux, &amp; que l'un des trois rivaux ſurvit à ſes
+          épreuve, &amp; joncher de funérailles le champ des morts.
+    </p>
+    <p>
+     Lorſque l'événement du ſecond combat eſt heureux, &amp; que l'un des trois rivaux ſurvit à ſes
           compétiteurs, il ne lui reſte plus pour obtenir le ſuprême commandement, que deux épreuves à ſubir,
           épreuves très-légeres pour une ame Giague: la premiere conſiſte à célébrer ſon triomphe par des
           chants de victoire, &amp; à ne donner aucun ſigne de douleur, tandis que deux Singhllos le
@@ -1440,16 +1691,20 @@
           d'égorger un priſonnier de guerre, de lui ouvrir la poitrine, d'en arracher le cœur &amp; de le
           dévorer. A ce trait de férocité, ſes preuves ſont complettes, le peuple ſe proſterne; il eſt
           proclamé chef par les Singhillos, &amp; il jouit de tous les honneurs &amp; de toute la puiſſance de
-          la ſouveraineté.</p>
-        <p>Les ſervices que Ten-ba-dumba avoit rendus jadis à ſes compatriotes, l'éclat de ſes exploits,
+          la ſouveraineté.
+    </p>
+    <p>
+     Les ſervices que Ten-ba-dumba avoit rendus jadis à ſes compatriotes, l'éclat de ſes exploits,
           l'énormité de ſes crimes, l'atrocité connue de ſon ame, ſa fureur homicide &amp; la terreur qu'elle
           inſpiroit, avoient ſuffi pour l'élever au ſuprême pouvoir, ſans qu'elle eût été obligée de s'expoſer
           aux périls &amp; à l'incertitude des deux premieres épreuves: nul Giague n'avoit été aſſezhardi pour
           diſputer contre elle de rage &amp; d'inhumanité: ſes droits acquis par un horrible parricide ſuivi
           d'un incroyable nombre d'aſſaſſinats &amp; de noirceurs, la placerent ſans concurrence au rang de
           chef des Jagas, &amp; la nation qui l'avoit proclamée, n'a point ceſſé depuis de regarder cette
-          élection comme l'ouvrage des Dieux mêmes.</p>
-        <p>Les titres de Zingha n'avoient ni l'évidence, ni la force de ceux de Ten-ba-dumba: bien des
+          élection comme l'ouvrage des Dieux mêmes.
+    </p>
+    <p>
+     Les titres de Zingha n'avoient ni l'évidence, ni la force de ceux de Ten-ba-dumba: bien des
           raiſons au contraire ,paroiſſoient s'oppoſer à ſon élévation, &amp; l'exclure du rang où elle
           deſiroit de monter. Etrangere, ſoupçonnée, &amp; accuſée même par ceux d'entre les Giagues qui
           aſpiroient à la domination, de n'avoir qu'une feinte férocité, &amp; de chercher par des actions
@@ -1459,8 +1714,10 @@
           apparence invincibles, que ſes rivaux lui oppoſoient, ſi ſa conſtance &amp; ſon courage,
           merveilleuſement ſecondés par l'activité de Runlan &amp; la protection décidée des Singhillos,
           n'euſſent forcé ſes concurrens eux-mêmes à lever les difficultés qu'ils avoient ſuſcitées, &amp; à
-          ſacrifier leurs vues à ſes projets ambitieux.</p>
-        <p>Zingha, quoique digne par la noirceur de ſon caractere d'avoir reçu la naiſſance parmi les
+          ſacrifier leurs vues à ſes projets ambitieux.
+    </p>
+    <p>
+     Zingha, quoique digne par la noirceur de ſon caractere d'avoir reçu la naiſſance parmi les
           Giagues, leur étoit étrangere; mais ils l'avoient adoptée: née d'ailleurs de peres ſouverains, elle
           n'étoit tombée du trône d'Ángola que par le meurtre du fils de Ben-di ſon frere: meurtre qui joint à
           l'empoiſonnement de N-Gola, équivaloit au parricide de l'ancienne Tenbadumba. Run-lan étayoit ces
@@ -1475,8 +1732,10 @@
           étendu, &amp; reſſerré par l'antique forêt qui l'environne de toutes parts, inſpire la terreur par
           ſon aridité, ſa lugubre ſituation, &amp; la prodigieuſe quantité d'oſſemens qui y ſont entaſſés. Au
           milieu de ce ſol funebre, eſt un large tombeau, preſque chaque jour arroſé du ſang des victimes
-          humaines: c'eſt la tombe de Ten-ba-dumba.</p>
-        <p>Déjà le peuple proſterné attendoit en ſilence l'effet des magiques évocations. Déja par leurs
+          humaines: c'eſt la tombe de Ten-ba-dumba.
+    </p>
+    <p>
+     Déjà le peuple proſterné attendoit en ſilence l'effet des magiques évocations. Déja par leurs
           cris forcenés, leurs geſtes convulſifs, &amp; leurs imprécations, les Singhillos avoient diſpoſé les
           eſprits aux plus ſuperſtitieuſes cérémonies, &amp; au ſpectacle de terreur que l'impoſture réunie à
           l'inhumanité alloit offrir. Les captifs n'attendoient plus pour recevoir la mort, que le ſignal du
@@ -1497,8 +1756,10 @@
           dit-elle, oſera me diſputer la dignité ſuprême, que Tem-ba-dumba elle-même vient de me conſier?
           Qu'il ſe montre, qu'il approche, qu'il vienne, qu'il me ſuivre dans les ténebres du tombeau de notre
           légiſlatrice, &amp; bientôt ſes concurrens m'en verront ſortir victorieuſe, couverte de ſon ſang,
-          &amp; traînant après moi ſes membres déchirés„.</p>
-        <p>Des quatre cens Giagues qui s'étoient propoſés de ſuccéder à Trebenda, nul n'oſa ſeulement jetter
+          &amp; traînant après moi ſes membres déchirés„.
+    </p>
+    <p>
+     Des quatre cens Giagues qui s'étoient propoſés de ſuccéder à Trebenda, nul n'oſa ſeulement jetter
           les yeux ſur la fiere Zingha qui, retournant vers le tombeau: Manes de Ten-ba-dumba, dit-elle, en
           s'inclinant, ô vous, qui ſatisfaits des flots de ſang que j'ai verſés; ô vous, qui pour prix de mon
           zele, avez daigné remettre dans mes mains les renes du gouvernement! écoutez mes ſermens; &amp; ſi
@@ -1522,14 +1783,18 @@
           inflexibles &amp; plus impitoyables: enfin, pour me lier encore plus étroitement, ô Ten-ba -dumba!
           je promets &amp; je jure de te ſurpaſſer toi-même, autant qu'il me ſera poſſible, dans ma conduite,
           mes actions, ma valeur, mon intrépidité, mes vengeances, mon inſatiabilité dans les combats, dans
-          les proſcriptions, les meurtres, &amp; les dévaſtations„.</p>
-        <p>Zingha eut à peine fini de prononcer ces terribles ſermens, ſermens auxquels elle ne fut que trop
+          les proſcriptions, les meurtres, &amp; les dévaſtations„.
+    </p>
+    <p>
+     Zingha eut à peine fini de prononcer ces terribles ſermens, ſermens auxquels elle ne fut que trop
           fidelle dans les premiers mois de ſon regne, qu'il s'éleva dans l'aſſemblée un murmure d'aprobation,
           ſuivi de cris tumultueux d'acclamation &amp; d'applaudiſſement. La nouvelle Ten-ba-dumba fut portée
           en triomphe du champ des morts dans le temple des Jagas, où l'ancien des Singhillos la revêtit,
           ſuivant l'ancien uſage, d'une peau de léopard récemment égorgé; c'étoit-là le manteau des ſouverains
-          ou des chefs des Giagues.</p>
-        <p>Dès ce moment Zingha ne ſongea plus, quoiqu'il en coûtât à ſon ame, moins ſanguinaire &amp; moins
+          ou des chefs des Giagues.
+    </p>
+    <p>
+     Dès ce moment Zingha ne ſongea plus, quoiqu'il en coûtât à ſon ame, moins ſanguinaire &amp; moins
           féroce qu'elle ne deſiroit de le paroître, qu'aux moyens d'en impoſer au peuple par la crainte, la
           terreur &amp; l'effroi qu'inſpireroient les loix nouvelles qu'elle publieroit, par le ſpectacle
           chaque jour répété des malheureux qu'elle livreroit aux ſacrificateurs, par les horreurs de la plus
@@ -1539,15 +1804,19 @@
           troupe de barbares exécuteurs de ſes volontés, elle ne faiſoit que leur indiquer les victimes, ils
           ſe jettoient ſur elles, &amp; ſous fes yeux, les monſtres les maſſacroient, &amp; ſe raſſaſioient de
           leur ſang &amp; de leur chair. Ces abominations la faiſoient reſpecter, &amp; la rendoient d'autant
-          plus chere au peuple, qu'il la croyoit animée de l'eſprit meme de la féroce Ten-ba-dumba.</p>
-        <p>Zingha auſſi cruelle envers les femmes qu'elle l'étoit envers les hommes, affectoit une rigueur
+          plus chere au peuple, qu'il la croyoit animée de l'eſprit meme de la féroce Ten-ba-dumba.
+    </p>
+    <p>
+     Zingha auſſi cruelle envers les femmes qu'elle l'étoit envers les hommes, affectoit une rigueur
           extrême à l'égard de celles qui avant le temps preſcrit par les loix nationales, s'étoient laiſſé
           ſéduire, &amp; qui avoient le malheur de porter les marques de leur foibleſſe. L'implacable
           ſouveraine faiſoit traîner ces malheureuſes à ſes pieds, leur ôtoit elle-même leurs vêtemens, les
           attachoit étendues aux pieds de ſon trône, les faiſoit violer par ſes ſatellites, &amp; quand la
           brutalité de cette nombreuſe cohorte étoit aſſouvie, elle leur fendoit les entrailles, en arrachoit
-          l'enfant, &amp; le fouloit aux pieds.</p>
-        <p>Afin de commettre impunément ces crimes dont l'atrocité même lui donnoit tant d'autorité, Zingha,
+          l'enfant, &amp; le fouloit aux pieds.
+    </p>
+    <p>
+     Afin de commettre impunément ces crimes dont l'atrocité même lui donnoit tant d'autorité, Zingha,
           de concert avec les principaux d'entre les Singhillos, avoit eu l'art de perſuader aux ſtupides
           Giagues qu'elle liſoit tout ce qui ſe paſſoit dans les cœurs, &amp; que ſupérieure à l'ancienne
           Ten-ba-dumba, elle égaloit en prévoyance la Divinité même. Cette ſuperſtition étayée de toutes les
@@ -1559,8 +1828,10 @@
           invulnérable. Elle étoit âgée alors de cinquante quatre ans, &amp; comme elle etoit trop vieille
           pour eſpérer malgré l'excès de ſes proſtitutions d'avoir jamais un fils, elle adopta un enfant de
           deux ans, fit aſſembler le peuple, égorgea cette jeune victime, la broya dans un mortier, en compoſa
-          une eſpece de pâte, ſe dépouilla publiquement, &amp; s'oignit tout le corps de cet affreux onguent.</p>
-        <p>Abrégeons la révoltante hiſtoire des crimes de cette furie: quel homme aſſez barbare, aſſez
+          une eſpece de pâte, ſe dépouilla publiquement, &amp; s'oignit tout le corps de cet affreux onguent.
+    </p>
+    <p>
+     Abrégeons la révoltante hiſtoire des crimes de cette furie: quel homme aſſez barbare, aſſez
           dénaturé pourroit entendre ſans frémir le récit de toutes les actions d'horreur &amp; de férocité,
           qui marquerent preſque tous les inſtans des premieres années du ſéjour de Zingha chez les Giagues?
           Quel tyran pourroit ſupporter l'affligeante lecture des loix de ſang qu'elle ajouta à l'ancienne
@@ -1575,16 +1846,26 @@
           Zingha qui, ces jours exceptés, affichoit une pudeur ſévere, &amp; puniſſoit avec atrocité la plus
           légere apparence de relâchement dans les mœurs. Quand on lui dénonçoit deux jeunes perſonnes de ſexe
           différent, amoureuſes l'une l'autre, elle les faiſoit conduire devant elle, &amp; les forçoit de ſe
-          plonger mutuellement un poignard dans le ſein.</p>
-        <p>Tel fut le regne de Zingha, juſqu'à ce que raſſaſiée de crimes &amp; de ſang, elle ſe fut aſſurée
+          plonger mutuellement un poignard dans le ſein.
+    </p>
+    <p>
+     Tel fut le regne de Zingha, juſqu'à ce que raſſaſiée de crimes &amp; de ſang, elle ſe fut aſſurée
           de la terreur, du zele &amp; de la vénération des Giagues, de leur empreſſement à ſervir ſes projets
-          de conquête, &amp; les complots que ſon cœur ulcéré méditoit contre les Portugais.</p>
-        <trailer>Fin de la premiere Partie.</trailer>
-      </div>
-      <div type="group">
-        <head>ZINGHA, REINE D'ANGOLA.</head>
-        <head>SECONDE PARTIE.</head>
-        <p>Si l'énormité des crimes &amp; les excès les plus outrés de la dépravation pouvoient rendre
+          de conquête, &amp; les complots que ſon cœur ulcéré méditoit contre les Portugais.
+    </p>
+    <trailer>
+     Fin de la premiere Partie.
+    </trailer>
+   </div>
+   <div type="group">
+    <head>
+     ZINGHA, REINE D'ANGOLA.
+    </head>
+    <head>
+     SECONDE PARTIE.
+    </head>
+    <p>
+     Si l'énormité des crimes &amp; les excès les plus outrés de la dépravation pouvoient rendre
           heureux les tyrans, la cruelle &amp; perverſe Zingha n'auroit eu d'autre deſir à former que celui de
           raſſembler, s'il eût été poſſible, dans l'étendue de ſa domination l'eſpece humaine entiere, afin de
           s'aſſurer que jamais les alimens ne manqueroient à ſa férocité: car ſes proſcriptions, ſon fanatiſme
@@ -1600,8 +1881,10 @@
           ulcéré ſon cœur qui peut-être eût été généreux &amp; compatiſſant, ſi la rigueur du ſort, le malheur
           des circonſtances, les projets de ſon ambition &amp; la nécefſité où elle étoit réduite de flatter
           le caractere des Giagues, n'euſſent pas inſenſiblement accoutumé cette fiere princeſſe aux plus
-          infernales noirceurs.</p>
-        <p>Mais en vain cette ſouveraine étoit-elle parvenue à ſurpaſſer en barbarie &amp; en ſcélérateſſe
+          infernales noirceurs.
+    </p>
+    <p>
+     Mais en vain cette ſouveraine étoit-elle parvenue à ſurpaſſer en barbarie &amp; en ſcélérateſſe
           le plus féroce des Jagas; en vain inſpiroit-elle à ſon intrépide nation plus de terreur que ne put
           lui en inſpirer durant ſon regne affreux l'antique Ten-ba-dumba; vainement elle paroiſſoit avide de
           carnage, toujours prête à frapper, à maſſacrer &amp; à détruire; elle n'avoit pu encore éteindre
@@ -1612,15 +1895,19 @@
           perpétuellement contre l'aiguillon du remords qui déchiroit ſon ame. L'inutilité même des efforts
           qu'elle faiſoit pour ſe dérober à la force &amp; à la continuité des accuſations de ce juge
           intérieur, ne ſervoit qu'à ajouter encore au trouble &amp; à l'effroi de ſon imagination juſtement
-          allarmée.</p>
-        <p>Son ambition exceptée, Zingha eût tout ſacrifié au bonheur de goûter cette tranquillité d'eſprit
+          allarmée.
+    </p>
+    <p>
+     Son ambition exceptée, Zingha eût tout ſacrifié au bonheur de goûter cette tranquillité d'eſprit
           qu'elle avoit cru trouver dans la ſuprême autorité, &amp; qu'elle avoit perdue en ſe livrant au
           crime: mais l'impoſſibilité où elle étoit de s'en impoſer au point de vivre dans l'abyme du vice,
           auſſi paiſiblement qu'elle eût vécu dans le ſein de la vertu; l'impoſſibilité où elle étoit
           d'éteindre dans des torrens de ſang la lumiere de la raiſon, flambeau perçant &amp; plus cruel pour
           les ames criminelles, que celui des furies ne l'eſt aux ſcélérats dévoués à leur tyrannie,
-          accroiſſoit la violence des ſoucis qui la dévoroient.</p>
-        <p>Triſte, ſombre, inquiete, tantôt Zingha s'abandonnoit au plus vif déſeſpoir, &amp; tantôt
+          accroiſſoit la violence des ſoucis qui la dévoroient.
+    </p>
+    <p>
+     Triſte, ſombre, inquiete, tantôt Zingha s'abandonnoit au plus vif déſeſpoir, &amp; tantôt
           honteuſe des larmes que le repentir lui avoit arrachées, elle cherchoit à ſe diſtraire par des
           crimes nouveaux, du ſouvenir amer de ſes atrocités paſſées. Quelquefois tendre &amp; généreuſe, elle
           déroboit aux ſupplices les malheureux qu'elle avoit condamnés; mais plus ſouvent encore forcenée,
@@ -1644,8 +1931,10 @@
           ſous ſes coups: tout étoit prêt: pour inonder de ſang les autels des divinités, on n'attendoit plus
           que Zingha: mais violemment entraînée par ſa fureur &amp; ſes remords, Zingha ne ſe ſouvenant plus
           des décrets qu'elle avoit promis de publier, avoit été cacher ſon déſordre &amp; ſes pleurs dans la
-          nuit du tombeau de Ten-ba-dumba, ou dans l'épaiſſeur des forêts.</p>
-        <p>Là, ſeule &amp; toute entiere aux horreurs de ſa ſituation, elle couroit &amp; s'arrêtoit
+          nuit du tombeau de Ten-ba-dumba, ou dans l'épaiſſeur des forêts.
+    </p>
+    <p>
+     Là, ſeule &amp; toute entiere aux horreurs de ſa ſituation, elle couroit &amp; s'arrêtoit
           tour-à-tour, au gré de ſon délire &amp; de la véhémence des tranſports qui l'agitoient. Comme une
           formidable hyenne errante autour des cimetieres, &amp; qui cherche à ſe nournr de cadavres, au
           défaut d'hommes vivans &amp; d'animaux qu'elle n'a pu trouver, glace par la férocité de ſes regards,
@@ -1657,8 +1946,10 @@
           avoit faits pour étouffer ſes remords. Malheur dans ce moment à quiconque, Giague ou étranger, oſoit
           être le témoin de ſon trouble &amp; de ſes larmes! Plus funeſtes encore que les traits d'Apollon,
           ſes fleches ne quittoient ſon arc que pour aller porter la mort dans le ſein de tous ceux contre qui
-          la main de la Parque elle-même ſembloit les diriger.</p>
-        <p>Mais à peine Zingha voyoit les malheureux qu'elle venoit d'immoler à ſa rage, tomber &amp;
+          la main de la Parque elle-même ſembloit les diriger.
+    </p>
+    <p>
+     Mais à peine Zingha voyoit les malheureux qu'elle venoit d'immoler à ſa rage, tomber &amp;
           expirer, que la pitié ſuccédant à ſa rage une terreur ſoudaine s'emparoit de ſon ame, une ſueur
           froide couloit de ſes membres tremblans, ſes ſoupirs, ſes regrets, &amp; ſes gémiſſemens exprimoient
           le repentir qui pénétroit ſon cœur. C'étoit pour s'épargner de nouvelles noirceurs qu'elle s'étoit
@@ -1666,8 +1957,10 @@
           ſoit que pendant la durée de ces accès de délire périodiques &amp; fréquens, la Reine d'Angola eût
           répandu le ſang de l'innocence, ſoit que ſans recourir à de nouveaux aſſaſſinats, ſon farouche
           déſeſpoir ſe fût exhalé en plaintes, en ſoupirs, en imprécations, ſon ame étoit toujours également
-          tourmentée, également en proie aux plus inquiétantes agitations.</p>
-        <p>Trop inſtruite, trop éclairée pour pouvoir ſe diſſimuler l'horreur de ſa conduite, mais auſſi
+          tourmentée, également en proie aux plus inquiétantes agitations.
+    </p>
+    <p>
+     Trop inſtruite, trop éclairée pour pouvoir ſe diſſimuler l'horreur de ſa conduite, mais auſſi
           trop ambitieuſe &amp; trop fortement attachée à ſes complots de vengeance pour renoncer à des
           noirceurs qui la rendoient ſeule plus redoutable que tous les monſtres de l'Afrique reunis, Zingha
           flottoit perpétuellement entre le crime &amp; le deſir de retourner à la vertu, ou plutôt entre
@@ -1675,8 +1968,10 @@
           flétriſſoient. Inquiete, incertaine, elle étoit tour à tour impie &amp; pénétrée de la crainte des
           Dieux, ſacrilege &amp; ſuperſtitieuſe: elle inventoit, elle ordonnoit, ou pour braver le ciel, ou
           pour déſarmer ſon courroux, des cérémonies abſurdes, ſcandaleuſes, révoltantes, &amp; toujours
-          ſanguinaires.</p>
-        <p>Elles ſont trop odieuſes, ces barbares cérémonies, pour que je puiſſe conſentir à les décrire
+          ſanguinaires.
+    </p>
+    <p>
+     Elles ſont trop odieuſes, ces barbares cérémonies, pour que je puiſſe conſentir à les décrire
           ici, je craindrois d'offenſer les mœurs ſi je me permettois de tracer, quoique d'après la vérité,
           d'auſſi affreux tableaux. Je dirai ſeulement que l'une des inſtitutions religieuſes de Zingha
           conſiſtoit à raſſembler, ſoit de gré, ſoit de force, le plus de jeunes filles que les promeſſes
@@ -1686,8 +1981,10 @@
           cruels après avoir aſſouvi leurs infâmes deſirs, les déchiroient à coups de fouet, pendant que
           Zingha, ranimant de la voix &amp; des yeux la force des bourreaux, exhortoit ces jeunes malheureuſes
           à ſoutenir ſans ſe plaindre, &amp; quelquefois juſqu'à la mort, la brutalité outrée des cruels
-          exécuteurs des ordres de leur ſouveraine.</p>
-        <p>Moins ſévere à l'égard des Singhillos, Zingha qui connoiſſoit leur impudence &amp; leur
+          exécuteurs des ordres de leur ſouveraine.
+    </p>
+    <p>
+     Moins ſévere à l'égard des Singhillos, Zingha qui connoiſſoit leur impudence &amp; leur
           dépravation, les obligeoit à certains jours fixés par le culte Giague, de paroître tout nuds &amp;
           une baguette à la main dans les places publiques; là, de ſe diviſer, de courir de tous côtés, de
           frapper de leurs baguettes toutes les jeunes femmes ou filles qu'ils trouvoient ſur leurs pas, &amp;
@@ -1698,13 +1995,17 @@
           aux Dieux, &amp; ſon corps ſervoit d'aliment à ceux d'entre les Singhillos qui pouvoient avoir
           coopéré à ſa fécondité. Zingha que ſon âge mettoit à l'abri des rigueurs de la loi, s'étoit ſoumiſe
           à cette inſtitution, &amp; ne manquoit point de ſortir pendant ces jours, &amp; de ſe rencontrer ſur
-          le paſſage des Singhillos.</p>
-        <p>Toutefois, ces horreurs, ces abominations loin d'adoucir les chagrins de Zingha, ne faiſoient au
+          le paſſage des Singhillos.
+    </p>
+    <p>
+     Toutefois, ces horreurs, ces abominations loin d'adoucir les chagrins de Zingha, ne faiſoient au
           contraire qu'ajouter au poids de ſes remords, qui l'euſſent à la fin ou conſumée, ou rendue
           entiérement furieuſe, ſans eſpoir de réſipiſcence, ſi un nouvel aſſaſſinat qu'elle ne méditoit pas,
           &amp; que les ſuites rendirent excuſable, n'étoit venu fixer ſes irréſolutions, l'arracher pour
-          jamais au crime, &amp; la déterminer à marcher déſormais dans la route de la vertu.</p>
-        <p>Run-lan qui ne prenoit d'autre intérêt à la ſituation &amp; aux inquiétudes de ſa ſouveraine, que
+          jamais au crime, &amp; la déterminer à marcher déſormais dans la route de la vertu.
+    </p>
+    <p>
+     Run-lan qui ne prenoit d'autre intérêt à la ſituation &amp; aux inquiétudes de ſa ſouveraine, que
           celui de profiter de l'accablement où elle la voyoit pour régner avec empire ſur les Jagas, &amp;
           arracher de la foibleſſe, de la ſuperſtition &amp; de l'impiété de Zingha les ordres les plus
           inhumains, ne ſongeoit qu'à accroître par ſes conſeils &amp; ſes inſpirations, le repentir &amp; les
@@ -1715,35 +2016,45 @@
           cérémonies, des ſuperſtitions cruelles, &amp; les plus infernales inſtitutions. C'étoit à elle que
           les Jagas devoient la plus grande partie des loix religieuſes ajoutées au culte établi depuis deux
           ou trois ſiecles par la célebre Ten-ba-dumba: c'étoit à elle auſſi que la Reine d'Angola devoit les
-          plus affreux aſſaſſinats dont ſes mains s'étoient ſouillées.</p>
-        <p>Témoin de la douleur, des ſoupirs &amp; des pleurs de Zingha, Runlan, ſoit dans la vue de
+          plus affreux aſſaſſinats dont ſes mains s'étoient ſouillées.
+    </p>
+    <p>
+     Témoin de la douleur, des ſoupirs &amp; des pleurs de Zingha, Runlan, ſoit dans la vue de
           diſtraire ſa ſouveraine, ſoit pour lui préparer de nouveaux repentirs, lui dit un jour qu'afin de
           faire diverſion à ſa profonde triſteſſe, elle avoit imaginé une délicieuſe partie de plaiſir pour la
           nuit ſuivante, dans le temple même, où ſeule elle devoit braver les forces réunies de douze d'entre
           les plus jeunes des Singhillos, &amp; ſur-tout la valeur éprouvée de celui qui juſqu'alors avoit
           montré le plus d'empreſſement à ſervir les amoureux deſirs de Zingha qui, au reſte ſeroit libre de
           prendre telle part qu'elle voudroit à cette débauche, ou d'y aſſiſter ſeulement comme ſimple
-          ſpectatrice.</p>
-        <p>Peut-être dans un autre temps Zingha eût écouté ſans colere cet-te propoſition: mais, ſoit
+          ſpectatrice.
+    </p>
+    <p>
+     Peut-être dans un autre temps Zingha eût écouté ſans colere cet-te propoſition: mais, ſoit
           qu'elle eût dévoilé la perfidie de Run-lan &amp; ſon horrible caractere, ſoit que la jalouſie
           enflammât ſon couroux, elle prit à l'inſtant même une réſolution cruelle, &amp; prononçant dans ſon
           ame l'arrêt de ſon odieuſe rivale:“Tu m'y verras, dit-elle, Run-lan; tes plaiſirs me diſtrairont de
           mes ſombres penſées, tu ne te trompes pas: prépare toi à recevoir Zingha qui, ſenſible autant
           qu'elle doit l'être au ſpectacle que tu veux lui offrir, ſe diſpoſe à t'accorder auſſi le prix que
-          ſa juſte reconnoiſſance te réſervoit depuis longtems.</p>
-        <p>Ces paroles prononcées d'un ton à inſpirer de la terreur à toute autre qu'à Run-lan, ne lui
+          ſa juſte reconnoiſſance te réſervoit depuis longtems.
+    </p>
+    <p>
+     Ces paroles prononcées d'un ton à inſpirer de la terreur à toute autre qu'à Run-lan, ne lui
           donnerent aucune défiance. Familiariſée dès ſa plus tendre enfance avec les plus féroces
           abominations, elle étoit fort éloignée de ſuppoſer qu'il y eût rien de repréhenſible dans les excès
           de ſes proſtitutions, &amp; il eſt vrai que c'étoit là l'une de ſes moins criminelles occupations.
           D'ailleurs, la faveur diſtinguée dont elle jouiſſoit, &amp; les confidences affreuſes que Zingha lui
           avoit faites, ne lui permettoient pas de ſoupçonner dans l'ame de cette princeſſe du zele pour les
-          mœurs.</p>
-        <p>Impatiente de goûter les flétriſſans plaiſirs de la ſatiété qui lui étoient promis, Run-lan, ſans
+          mœurs.
+    </p>
+    <p>
+     Impatiente de goûter les flétriſſans plaiſirs de la ſatiété qui lui étoient promis, Run-lan, ſans
           prévoir la tragique cataſtrophe qui devoit mettre fin à ſes honteux débordemens, ne ſongea qu'à
           s'abandonner ſous les yeux de ſa ſouveraine, aux plus ſcandaleux excès, tandis que vivement ulcérée
           d'une impudence auſſi outrée, Zingha ne penſoit qu'aux moyens les plus sûrs &amp; les plus prompts
-          de délivrer la nation Giague de cette effroyable furie.</p>
-        <p>Déja depuis deux heures les voiles de la nuit couvroient l'Ethiopie, lorſque renvoyant ſur la
+          de délivrer la nation Giague de cette effroyable furie.
+    </p>
+    <p>
+     Déja depuis deux heures les voiles de la nuit couvroient l'Ethiopie, lorſque renvoyant ſur la
           terre une foible partie de la maſſe de lumiere qu'elle reçoit du ſoleil, la lune vint avertir Zingha
           de remplir la promeſſe trompeuſe qu'elle avoit faite à Run-lan, ou plutôt, d'aller exécuter le
           projet de vengeance, ou l'acte de juſtice qu'elle avoit médité: c'étoit l'inſtant fixé par Run-lan
@@ -1753,8 +2064,10 @@
           temple s'entr'ouvre; la Reine entre; le Singhillo qui l'attendoit, veut refermer, les gardes &amp;
           le chef des armées pouſſent avec effort, pênetrent dans l'intérieur &amp; juſques dans le
           ſanctuaire, où Runlan, nue &amp; entourée des complices de ſon libertinage, ſe livroit ſans retenne
-          à la brutalité de leurs deſirs, &amp; à ſes goûts effrénés pour la licence &amp; la proſtitution.</p>
-        <p>A l'aſpect inattendu de cette troupe armée, au feu de la colere qui brilloit dans les yeux de
+          à la brutalité de leurs deſirs, &amp; à ſes goûts effrénés pour la licence &amp; la proſtitution.
+    </p>
+    <p>
+     A l'aſpect inattendu de cette troupe armée, au feu de la colere qui brilloit dans les yeux de
           Zingha, les Singhillos épouvantés quittant leur ſale proie, s'enfuient, ſe diſperſent, &amp; glacés
           par la crainte du châtiment que leur impiété mérite, ils vont ſe refugier aux pieds de ces mêmes
           idoles qu'ils viennent d'outrager. Run-lan ſeule intrépide à la vue du danger, &amp; furieuſe
@@ -1763,8 +2076,10 @@
           dévoiler, à la honte de ſa ſouveraine, un infâme tiſſu d'horreurs &amp; de proſtitutions, ſi Zingha
           prévenant ſes reproches, ſes injures &amp; ſes indiſcrétions, n'eût fait ſigne à l'un de ſes gardes,
           qui d'un coup de cimeterre abattit la tête criminelle de Run-lan, dont la vile ame alla dans les
-          enfers ſe réunir aux Euménides.</p>
-        <p>Depuis environ trente années Zingha ſe ſignaloit par des aſſaſſinats, &amp; chacun de ſes jours,
+          enfers ſe réunir aux Euménides.
+    </p>
+    <p>
+     Depuis environ trente années Zingha ſe ſignaloit par des aſſaſſinats, &amp; chacun de ſes jours,
           durant cet eſpace de temps, avoit été marqué par quelque action de barbarie, par un meurtre, ou le
           ſacrifice de quelques malheureux: mais ſes mains homicides ne s'étoient jamais teintes du ſang de
           l'innocence, qu'elle n'eût auſſi-tôt reſſenti dans ſon cœur l'aiguillon du remords: le repentir
@@ -1773,12 +2088,16 @@
           trouble, ni regrets dans l'eſprit de Zingha qui ſentoit au contraire l'amour de la vertu, des mœurs,
           &amp; de l'humanité renaître dans ſon cœur, à meſure que ſes yeux ſatisfaits de la juſte punition
           qu'ils avoient dirigée, conſidéroient le cadavre de cette irréconciliable ennemie de toutes les
-          vertus.</p>
-        <p>Zingha paſſa le reſte de la nuit dans le temple, fit approcher les douze Singhillos, leur
+          vertus.
+    </p>
+    <p>
+     Zingha paſſa le reſte de la nuit dans le temple, fit approcher les douze Singhillos, leur
           reprocha leur inconduite, leur licence effrénée, leur lâche hypocriſie, les menaçant des plus cruels
           ſupplices ſi jamais ils la contraignoient par leurs égaremens, leurs impoſtures ou leur dépravation,
-          à réprimer leur audace &amp; leur libertinage.</p>
-        <p>L'aurore commençoit à répandre ſur les nuages l'éclat de ſes couleurs, quand Zingha, ſuivie de
+          à réprimer leur audace &amp; leur libertinage.
+    </p>
+    <p>
+     L'aurore commençoit à répandre ſur les nuages l'éclat de ſes couleurs, quand Zingha, ſuivie de
           ſes gardes, &amp; précédée du cadavre de Run-lan, qu'elle fit porter ſur la place publique,
           raſſembla les principaux Giagues, fit venir ſes miniſtres, les chefs de Singhillos, leur rendit
           compte de la perfide hypocriſie de Run-lan, de ſes atrocités, &amp; des crimes qui avoient attiré
@@ -1798,15 +2117,19 @@
           jour expoſé aux plus affreux tourmens, juſqu'à ce que la mort, qu'il aura tant de fois implorée,
           vienne enfin terminer l'horreur de ſon ſupplice. Tremblez, indociles Jagas, s'il en eſt parmi vous
           qui méditent de rejetter les loix que je preſcris! les Dieux m'ont remis leur puiſſance, leur foudre
-          eſt dans mes mains„.</p>
-        <p>Quelque révoltans que paruſſent ces nouveaux réglemens aux farouches Giagues, l'empire que
+          eſt dans mes mains„.
+    </p>
+    <p>
+     Quelque révoltans que paruſſent ces nouveaux réglemens aux farouches Giagues, l'empire que
           donnoit à Zingha l'idée qu'ils avoient de ſa divinité, de ſa toute-puiſſance, étouffa leurs
           murmures; ils ſe ſoumirent ſans ſe plaindre: la crainte &amp; la vénération qu'elle leur inſpiroit,
           étoient telles qu'ils reçurent avec une joie apparente ces loix qu'ils abhorroient intérieurement,
           &amp; qui leur paroiſſoient d'autant plus tyranniques, qu'elles contrarioient leurs goûts, leurs
           penchans, leurs uſages, leurs vices &amp; leur attachement à l'inhumanité des anciennes inſtitutions
-          qu'ils regardoient comme ſacrées.</p>
-        <p>Cependant la Reine d'Angola ſatisfaite du conſentement des Jagas, ne ſongea plus qu'à réunir dans
+          qu'ils regardoient comme ſacrées.
+    </p>
+    <p>
+     Cependant la Reine d'Angola ſatisfaite du conſentement des Jagas, ne ſongea plus qu'à réunir dans
           la légiſlation qu'elle leur avoit annoncée, les principes &amp; les préceptes les plus propres à
           adoucir leurs mœurs, &amp; à leur inſpirer la bien-faiſance &amp; les vertus. Revenue elle-même de
           ſes égaremens, elle ne s'occupa que du ſoin d'éclairer la nation qu'elle gouvernoit: ce n'étoit plus
@@ -1816,8 +2139,10 @@
           que hâter ſes diſgraces. Irrités de ſa férocité, les Portugais avoient envahi ſes états, &amp; elle
           étoit abandonnée de tous ſes alliés; enſorte qu'il ne lui reſtoit plus que les Giagues dont elle
           mépriſoit la ſtupidité, &amp; dont malgré la barbarie de ſes actions, elle avoit toujours déteſté
-          l'infâme caractere.</p>
-        <p>Accablée par les pertes qu'elle avoir eſſuyées, cette fiere Princeſſe en voyant plus d'autre
+          l'infâme caractere.
+    </p>
+    <p>
+     Accablée par les pertes qu'elle avoir eſſuyées, cette fiere Princeſſe en voyant plus d'autre
           reſſource que celle de paſſer ſes jours à a tête d'un tel peuple, elle voulut du moins rendre utile
           à l'humanité le reſte de ſon regne. Dégoûtée de crimes, &amp; peut-être affoiblie par l'âge, car
           elle étoit déjà plus que ſeptuagénaire, elle crut qu'il étoit temps encore d'effacer par la ſageſſe
@@ -1836,8 +2161,10 @@
           Hollandois, en un mot de tous les étrangers qu'ils prendroient, &amp; ſur-tout des prêtres &amp; des
           moines. Zingha fit plus, elle deſira d'avoir auprès d'elle quelques-uns de ces mêmes prêtres
           qu'auparavant elle ne vouloit voir que pour aſſiſter aux ſupplices auxquels elle les avoit
-          condamnés, ou pour les maſſacrer elle-même.</p>
-        <p>Le Vice-Roi de Portugal informé de la révolution inattendue qui venoit de ſe paſſer chez les
+          condamnés, ou pour les maſſacrer elle-même.
+    </p>
+    <p>
+     Le Vice-Roi de Portugal informé de la révolution inattendue qui venoit de ſe paſſer chez les
           Jagas, des progrès que les mœurs, la modération, l'amour de la ſageſſe &amp; les vertus ſociales
           faiſoient chez cette nation ſauvage, corrompue, antropophage juſqu'alors, &amp; du grand changement
           qui s'étoit opéré dans la conduite &amp; le caractere de Zingha, députa vers cette ſouveraine
@@ -1894,22 +2221,28 @@
           d'Angola m'eſt rendu, alors je donnerai aux Portugais ma foi royale, que non-ſeulement je me hâterai
           de rentrer dans le ſein du catholiciſme, mais que je ferai même tout ce qui dépendra de moi, de ma
           puiſſance, de mon zele, pour que vous puiſſiez étendre la lumiere de l'évangile ſur toutes les
-          terres de ma domination".</p>
-        <p>Quelque candeur qu'il parût y avoir dans ces promeſſes &amp; les larmes de la reine des Giagues,
+          terres de ma domination".
+    </p>
+    <p>
+     Quelque candeur qu'il parût y avoir dans ces promeſſes &amp; les larmes de la reine des Giagues,
           les capucins qui ne s'attendoient point à trouver autant de réſiſtance dans une femme de cet âge,
           &amp; qui s'avouoit elle-même coupable &amp; abattue ſous le poids des remords, comprirent qu'il n'y
           avoit preſque rien à eſpérer de ſa converſion; &amp; ne jugeant point à-propos de l'irriter une
           ſeconde fois par d'indiſcretes menaces, ils prirent congé d'elle après avoir, dirent-ils à Loando,
-          refuſé les riches préſens qu'elle leur avoit offerts.</p>
-        <p>Le Vice-Roi connoiſſoit les deſirs de vengeance que la Reine d'Angola nourriſſoit dans ſon cœur;
+          refuſé les riches préſens qu'elle leur avoit offerts.
+    </p>
+    <p>
+     Le Vice-Roi connoiſſoit les deſirs de vengeance que la Reine d'Angola nourriſſoit dans ſon cœur;
           il ignoroit l'avilſſante chaîne qui l'avoit unie à Dron-co, les tentatives de ce Caffre audacieux
           auprès du Méni de Congo, la réponſe outrageante que cette princeſſe offenſée avoit faite aux offres
           de ce ſouverain: le gouverneur de Loando ne connoiſſoit que le grand intérêt que cet empereur avoit
           d'éloigner les Portugais des frontieres de ſon empire, &amp; jugeant néceſſaire de s'aſſurer de ſa
           fidélité, il raſſembla, dans la vue de l'empêcher de s'unir à Zingha, une puiſſante armée, &amp; fit
           enſuite annoncer au Roi de Congo, que s'il vouloit prévenir la ruine totale de ſes états, il eût à
-          réparer tout le mal qu'il avoit fait aux Portugais, en s'alliant avec les Hollandois.</p>
-        <p>Quoique cette alliance n'eût jamais exiſté, &amp; que le Méni de Congo n'eût ſongé dans aucun
+          réparer tout le mal qu'il avoit fait aux Portugais, en s'alliant avec les Hollandois.
+    </p>
+    <p>
+     Quoique cette alliance n'eût jamais exiſté, &amp; que le Méni de Congo n'eût ſongé dans aucun
           temps à inſulter les poſſeſſions des Portugais qui n'avoient eu aucune guerre offenſive ni défenſive
           à ſoutenir contre lui; ce Prince cependant intimidé par ces menaces, promit de réparer tous les
           dommages qu'on jugeoit à propos de lui imputer, &amp; de donner à la nation portugaiſe toutes les
@@ -1921,8 +2254,10 @@
           que ces conditions ne ſeroient pas acceptées, à moins qu'elles ne fuſſent appuyées par la force,
           elle garda ſon armée, &amp; ne diſcontinua point les hoſtilités, quoique le ViceRoi ne ceſſât de lui
           repréſenter, ſoit par les miſſionnaires qu'il lui envoyoit, ſoit par les preſſantes lettres qu'il
-          lui adreſſoit, les motifs de religion qu'il croyoit les plus propres à la perſuader.</p>
-        <p>Plus éloquentes que ces miſſionnaires zélés, &amp; que ces édifiantes lettres, les réflexions de
+          lui adreſſoit, les motifs de religion qu'il croyoit les plus propres à la perſuader.
+    </p>
+    <p>
+     Plus éloquentes que ces miſſionnaires zélés, &amp; que ces édifiantes lettres, les réflexions de
           Zingha agiſſoient plus efficacement que tout ce qu'on eût pu faire pour l'émouvoir &amp; la
           convaincre. Le remords de ſa vie paſſée opéroit fortement ſur ſon cœur. Ce n'étoit plus cette Reine
           barbare, altérée du ſang des hommes: c'étoit une femme ſenſible, en proie au repentir. Ce changement
@@ -1931,8 +2266,10 @@
           l'effroi que lui inſpiroit l'orage qui ſe formoit contre elle, ſe crut indiſpenſablement obligée de
           recourir à l'uſage infernal des Giagues, lorsqu'ils ont à prouver leur attachement à la férocité
           nationnale; c'eſt-à-dire, qu'elle ſacrifia à la religion du pays un nombre très-conſidérable
-          d'enfans mâles, qu'elle maſſacra impitoyablement devant le peuple aſſemblé.</p>
-        <p>Le Vice-Roi inſtruit de cet acte de cruauté, mais informé auſſi des motifs qui avoient engagé la
+          d'enfans mâles, qu'elle maſſacra impitoyablement devant le peuple aſſemblé.
+    </p>
+    <p>
+     Le Vice-Roi inſtruit de cet acte de cruauté, mais informé auſſi des motifs qui avoient engagé la
           Reine à cet horrible ſacrifice, feignit de l'ignorer, &amp; lui envoyant une ambaſſade ſolemnelle
           avec de riches préſens, il lui propoſa une alliance offenſive &amp; défenſive, à des conditions ſi
           flatteuſes pour Zingha, qu'elle ne balança plus à rendre toute ſa confiance à la nation Portugaiſe.
@@ -1976,12 +2313,16 @@
           que l'eſprit de ſon frere l'ayant informée des mauvaiſes diſpoſitions des Giagues &amp; des
           Chrétiens à ſon égard, ſon deſſein étoit de conſulter, ſuivant l'uſage pratiqué dans les plus
           preſſantes occaſions, les mânes de ſes ancêtres, afin de ſçavoir ſi le ciel vouloit qu'elle reçût le
-          Dieu des Chrétiens, ou qu'elle le bannît pour jamais du pays.</p>
-        <p>Le conſeil civil ſuppoſant que les Singhillos ne manqueroient pas de proſcrire le Chriſtianiſme,
+          Dieu des Chrétiens, ou qu'elle le bannît pour jamais du pays.
+    </p>
+    <p>
+     Le conſeil civil ſuppoſant que les Singhillos ne manqueroient pas de proſcrire le Chriſtianiſme,
           applaudit aux intentions de Zingha; mais il fut trompé dans ſon attente: après de nombreux
           ſacrifices humains pratiqués en ſemblable occaſion, les Singhillos déclarerent que le ciel ordonnoit
-          aux Giagues de reſpecter &amp; d'adorer le Dieu crucifié des Chrétiens.</p>
-        <p>Afin de donner plus de poids à ce grand changement, Zingha qui avoit à craindre dans ces inſtans
+          aux Giagues de reſpecter &amp; d'adorer le Dieu crucifié des Chrétiens.
+    </p>
+    <p>
+     Afin de donner plus de poids à ce grand changement, Zingha qui avoit à craindre dans ces inſtans
           critiques une révolution, avoit eu ſoin de faire ranger ſon armée devant le lieu où les Singhillos
           ſe tenoient aſſemblés. Lorſque ceux-ci eurent fait parler le ciel, Zingha ſortant d'un air
           tranquille &amp; ſatisfait, s'avança à la tê-te de l'armée, &amp; lançant une fleche à une
@@ -2009,8 +2350,10 @@
           barbarie, je vous conjure &amp; vous exhorte de ſuivre mon exemple, &amp; de recevoir à la place de
           vos fêtes impies, les préceptes ſacrés de l'évangile. Si parmi vous il reſte quelque homme endurci
           qui refuſe d'adopter cet-te douce religion, qu'il quitte mes états; qu'il m'abandonne; je ne lui
-          ferai point de mal, je le protégerai dans ſa retraite, &amp; plaindrai ſon aveuglement“.</p>
-        <p>Zingha, malgré l'aſſurance avec laquelle elle venoit de prononcer ſon abjuration, étoit fort peu
+          ferai point de mal, je le protégerai dans ſa retraite, &amp; plaindrai ſon aveuglement“.
+    </p>
+    <p>
+     Zingha, malgré l'aſſurance avec laquelle elle venoit de prononcer ſon abjuration, étoit fort peu
           tranquille; le ſilence de l'armée l'étonnoit, &amp; plus encore le goût effréné des Giagues pour le
           ſang humain. Cependant elle eut à peine ceſſé de parler, qu'il s'éleva un murmure d'approbation de
           tous les rangs de l'armée, ſurpriſe &amp; tranſportée de la majeſté de Zingha de ſa mâle aſſurance
@@ -2018,8 +2361,10 @@
           d'inquiétude, d'embarras ou de crainte elle eût vu ſe ſoulever contre elle ces mêmes ſoldats qui lui
           jurérent tous l'attachement le plus conſtant, ſoit à ſon trone, ſoit pour la religion qu'elle
           vouloit leur perſuader d'embraſſer. Les peuples les plus ſauvages, comme les nations les plus
-          policées reſpectent l'autorité des Rois, lorſqu'elle eſt ſoutenue par la fermeté du courage.</p>
-        <p>Zingha ſe hâta de faire part de cet heureux événement au ViceRoi de Portugal, auquel elle fit
+          policées reſpectent l'autorité des Rois, lorſqu'elle eſt ſoutenue par la fermeté du courage.
+    </p>
+    <p>
+     Zingha ſe hâta de faire part de cet heureux événement au ViceRoi de Portugal, auquel elle fit
           demander l'amitié de ſon maître, la liberté de la Princeſſe Bar-ba, ſœur de Zingha, &amp; quelques
           capucins miſſionnaires, afin qu'elle pût faire entre leurs mains une plus ſolemnelle abjuration.
           Toutes ſes demandes lui furent accordées: les Portugais qui ſe flattoient que Zingha convertie
@@ -2059,8 +2404,10 @@
           auſſitôt vers eux le Pere Antoine, dont la préſenée &amp; les diſcours diſſipoient ſans êffort les
           ligues les plus formidables, tant il poſſedoit l'art de ſe concilier l'eſtime, le reſpect &amp;
           l'amitié de tous ceux qui l'entendoient, &amp; des ennemis mêmes les plus envenimés de ſes
-          concitoyens.</p>
-        <p>Il y avoit environ vingt années que la Reine d'Angola avoit eu occaſion de connoître ce capucin à
+          concitoyens.
+    </p>
+    <p>
+     Il y avoit environ vingt années que la Reine d'Angola avoit eu occaſion de connoître ce capucin à
           Loando, &amp; elle avoit conçu pour lui la plus profonde vénération. Depuis ce temps, le Pere
           Antoine de Gaëte, quoiqu'éloigné de cette ſouveraine, avoit conſervé ſur elle un tel empire, qu'elle
           ne pouvoit ſonger à lui ſans ſe ſentir pénétrée d'eſtime &amp; de reſpect pour ſes vertus, &amp;
@@ -2079,8 +2426,10 @@
           déterminer à céder ſon royaume au Roi de Portugal. La Princeſſe Bar-ba arriva, &amp; fut reçue avec
           la plus grande magnificence; Zingha alla au devant d'elle, ſe jetta à ſes pieds, la remercia de ſes
           bontés, &amp; la preſſant contre ſon ſein, répandit un torrent de larmes. Il y eut à ce ſujet des
-          fêtes ſomptueures qui durerent huit jours.</p>
-        <p>Mais ces fêtes n'exprimerent que l'amitié des deux ſœurs, l'allégreſſe publique, &amp; le tendre
+          fêtes ſomptueures qui durerent huit jours.
+    </p>
+    <p>
+     Mais ces fêtes n'exprimerent que l'amitié des deux ſœurs, l'allégreſſe publique, &amp; le tendre
           intérêt que les Jagas prenoient au bonheur de leur ſouveraine &amp; à la joie naturelle des deux
           princeſſes. La licence, la débauche &amp; le libertinage furent bannis pour lapremierefois des
           divertiſſemens &amp; des jeux auxquels les Giagues ſe livrerent ſinon avec beaucoup de modération,
@@ -2101,16 +2450,20 @@
           eſclaves &amp; même ſes ſoldats travaillerent à la conſtruction de ce bâtiment qui fut dédié à la
           Vierge, &amp; qu'on appella depuis l'égliſe de Sainte Marie de Metomba. Ce fut là que furent
           baptiſés, à l'exemple de la Reine, &amp; par les mains du Pere Antoine, une foule de Giagues qui
-          jurerent ſur l'évangile de ne jamais retomber dans l'idolâtrie.</p>
-        <p>Quelques jours après cette folemnité, Zingha fit publier un édit par lequel elle défendoit, ſous
+          jurerent ſur l'évangile de ne jamais retomber dans l'idolâtrie.
+    </p>
+    <p>
+     Quelques jours après cette folemnité, Zingha fit publier un édit par lequel elle défendoit, ſous
           peine de la vie, à tous ſes ſujets d'invoquer les démons, &amp; de ſacrifier aux idoles; elle
           défendoit auſſi aux femmes groſſes d'expoſer leurs enfans, &amp; plus ſévérement encore de les
           immoler, leur ordonnant au contraire de les faire baptiſer auſſi-tôt qu'elles les auroient mis au
           monde: cet édit renouvelloit avec beaucoup de force la défenſe qui avoit été faite depuis quelques
           mois, &amp; aſſez inexactement obſervée, de l'uſage antropophage que l'on avoit fait juſqu'alors de
           la chair humaine. La loi fut rigoureuſement exécutée, &amp; tous ceux qui la tranſgreſſerent furent
-          découverts par les eſpions de Zingha, &amp; ſévérement punis.</p>
-        <p>Il reſtoit encore quelques anciens uſages à réformer, tels que la pluralité des femmes &amp;
+          découverts par les eſpions de Zingha, &amp; ſévérement punis.
+    </p>
+    <p>
+     Il reſtoit encore quelques anciens uſages à réformer, tels que la pluralité des femmes &amp;
           l'eſclavage des vaſſaux. Plus nuiſibles qu'utiles, ces uſages devoient être abrogés ſans doute; mais
           les moyens que Zingha prit pour engager les Giagues à y renoncer d'eux-mêmes, ne furent point auſſi
           généralement approuvés qu'elle s'en étoit flattée, &amp; il faut avouer que les motifs qui la
@@ -2153,8 +2506,10 @@
           inſolent &amp; injuſte, il maltraita cruellement ſon épouſe, à laquelle Zingha ne promit pour toute
           conſolation, que de ne plus ſe mêler de faire des mariages. Cependant elle réuſſit à proſcrire
           entiérement la polygamie: elle eut plus de peine à faire conſentir les Seigneurs à adoucir la
-          condition de leurs vaſſaux: mais le peuple étoit pour elle, &amp; bientôt les vaſſaux furent libres.</p>
-        <p>Zingha ne formoit plus que des projets heureux; le ſuccès couronnoit, même au-delà de ſon
+          condition de leurs vaſſaux: mais le peuple étoit pour elle, &amp; bientôt les vaſſaux furent libres.
+    </p>
+    <p>
+     Zingha ne formoit plus que des projets heureux; le ſuccès couronnoit, même au-delà de ſon
           attente, toutes ſes entrepriſes; elle avoit deſiré de voir le Chriſtianiſme ſuccéder dans ſes états
           à l'antique &amp; barbare idolatrie, &amp; malgré les efforts, les impoſtures &amp; les propos
           audacieux des Singhillos, qui avoient à la vérité un ſi grand intérêt à défendre l'ancien culte, le
@@ -2165,8 +2520,10 @@
           plus chez la plûpart d'entr'eux un penchant indomptable; leurs cœurs ſenſibles à la voix de la
           tendre humanité, ſentoient déjà le prix des vertus que Zingha leur avoit fait connoître, &amp; la
           reconnoiſſance que leur inſpiroient ſes bienfaits aſſuroit d'autant plus ſa puiſſance &amp; ſon
-          autorité.</p>
-        <p>Tout étoit calme dans l'empire; les Giagues &amp; leur Reine ne s'attendoient point aux malheurs,
+          autorité.
+    </p>
+    <p>
+     Tout étoit calme dans l'empire; les Giagues &amp; leur Reine ne s'attendoient point aux malheurs,
           aux déſaſtres, à l'orage qui bientôt changea ces beaux jours en des jours de terreur. Une
           épouvantable tempête annonça ces calamités, &amp; les annales de l'empire aſſurent que cette tempête
           fut précédée de l'apparition d'une longue come-te dont l'aſpect étoit effrayant. Par lui-même, ce
@@ -2177,8 +2534,10 @@
           ouragan ſi violent, que les maiſons dans les villes, &amp; les forêts dans les campagnes en furent
           renverſées: l'épaiſſeur des nuages étoit telle que la nuit fut prolongée pendant vingt-quatre
           heures, &amp; le feu des éclairs qui embraſoit l'athmoſphere, fut la ſeule clarté dont on jouit
-          pendant ce trop long intervalle.</p>
-        <p>L'orage paroiſſoit ſe calmer, quand tout-à-coup un affreux tremblement de terre vint ajouter à la
+          pendant ce trop long intervalle.
+    </p>
+    <p>
+     L'orage paroiſſoit ſe calmer, quand tout-à-coup un affreux tremblement de terre vint ajouter à la
           terreur publique, &amp; renverſer les édifices que limpétuoſité des vents &amp; le feu de la foudre
           avoient épargnés: ſes ſecouſſes réitérées furent ſi violentes qu'elles fendirent les rochers les
           plus durs, &amp; que des bourgs &amp; des plaines entieres avec leurs habitans furent engloutis dans
@@ -2207,24 +2566,30 @@
           yeux des ſages: c'eſt par-là qu'épurés de tout ce qui reſtoit en vous de méchant &amp; de corrompu,
           vous paſſez de cette vie mépriſable au bonheur de l'immortalité. Ce ne ſera que dans ce monde que
           vous expierez les crimes de vos peres, &amp; votre ancienne perverſité: béniſſez la main qui vous
-          frappe, &amp; ne voyez que des ſujets de joie &amp; de félicité dans ces douces corrections“.</p>
-        <p>Quelqu'eſtimable que pût être le motif de ces bons miſſionnaires, les Giagues abattus ſous le
+          frappe, &amp; ne voyez que des ſujets de joie &amp; de félicité dans ces douces corrections“.
+    </p>
+    <p>
+     Quelqu'eſtimable que pût être le motif de ces bons miſſionnaires, les Giagues abattus ſous le
           poids des revers, ne trouvoient ces raiſonnemens rien moins que conſolans; bien loin de ſe rendre à
           la force &amp; au zele de ces exhortations, ils étoient ébranlés par les fanatiques tranſports des
           Singhillos, &amp; peut-être ils euſſent fini par retourner aux pratiques meurtrieres de leur
           ancienne idolatrie, ſi Zingha ſecondée par les conſeils &amp; par les ſoins du P. Antoine de Gaëte
           ne ſe fût hâtée d'appaiſer les eſprits, en ordonnant également aux Singhillos &amp; aux
           miſſionnaires de garder le ſilence, &amp; en donnant elle-même à ſon peuple l'exemple d'une
-          généreuſe conſtance, d'une ſage réſignation &amp; de la plus fervente piété.</p>
-        <p>Cependant les fléaux qui venoient de ravager ſes états, avoient fait périr ſon armée, &amp; lui
+          généreuſe conſtance, d'une ſage réſignation &amp; de la plus fervente piété.
+    </p>
+    <p>
+     Cependant les fléaux qui venoient de ravager ſes états, avoient fait périr ſon armée, &amp; lui
           avoient ôté juſqu'à l'eſpoir de raſſembler aſſez de ſoldats pour pouvoir s'oppoſer aux invaſions des
           nations voiſines qui n'avoient ſuſpendu le cours de leurs hoſtilités qu'à la faveur d'une trêve qui
           alloit expirer. Zingha ne comptoit pas non plus ſur l'amitié des Portugais; poſſeſſeurs de ſon
           royaume d'Angola, ils paroiſſoient l'avoir abandonnée, &amp; ne &amp; ne prendre aucun intérêt à ſes
           malheurs: Zingha ſe trompoit cependant; le Vice-Roi de Portugal ne l'avoit point oubliée; ce fut au
           contraire au moment où retirée au fond de ſon palais, elle s'abandonnoit aux plus vives allarmes
-          qu'il envoya vers elle des députés cnargés de lui préſenter le projet d'un traité de paix.</p>
-        <p>Toutefois les conditions que la nation Portugaiſe impoſoit à Zingha, étoient ſi dures &amp; ſi
+          qu'il envoya vers elle des députés cnargés de lui préſenter le projet d'un traité de paix.
+    </p>
+    <p>
+     Toutefois les conditions que la nation Portugaiſe impoſoit à Zingha, étoient ſi dures &amp; ſi
           humiliantes, qu'elle jura de s'enſévelir plutôt ſous les débris de ſon trône, que de les accepter.
           Le Vice-Roi profitoit de ces circonſtances pour donner des loix à cette infortunée Reine. Ce n'étoit
           plus de Souverain à Souverain qu'il prétendoit traiter: il fit dire à Zingha, 1o. qu'auſſi-tôt que
@@ -2238,8 +2603,10 @@
           pu faire, &amp; quelques dommages qu'ils euſſent cauſés pendant la derniere guerre ſur les terres de
           Métomba. 5. Que Zingha rendroit au Vice-Roi tous les eſclaves Portugais qui ſe ſeroient refugiés
           dans ſes états. 6. Qu'enfin la Reine livreroit le Giague Colanda qui s'étoit révolté contre les
-          Portugais pendant la derniere trêve.</p>
-        <p>L'Afrique entiere n'avoit point d'habitant plus cruel, ni de guerrier en même temps plus
+          Portugais pendant la derniere trêve.
+    </p>
+    <p>
+     L'Afrique entiere n'avoit point d'habitant plus cruel, ni de guerrier en même temps plus
           redoutable &amp; plus perfide que ce Giague Co-landa; il avoit tour-à-tour vendu ſes ſervices à ſa
           patrie &amp; aux ennemis de ſa patrie qu'il haïſſoit &amp; déteſtoit également: il vivoit depuis
           quelques mois aux environs de Loando; mais fatigué du joug des Portugais, il s'étoit mis à la tê-te
@@ -2257,8 +2624,10 @@
           policée, qui ne préférât la gloire de s'agrandir à la gloire ſterile de reſpecter une princeſſe
           infortunée, &amp; de la ſecourir dans ſes calamités. Ces affligentes réflexions accablerent Zingha
           qui, le cœur rempli d'amertume &amp; l'ame pénétrée des plus cuiſans chagrins, fut attaquée d'une
-          fievre violente, qui fit craindre pour ſes jours.</p>
-        <p>Le Vice-Roi de Loando ne fut pas plutôt informé de la malacdie de Zingha, que prévoyant la mort
+          fievre violente, qui fit craindre pour ſes jours.
+    </p>
+    <p>
+     Le Vice-Roi de Loando ne fut pas plutôt informé de la malacdie de Zingha, que prévoyant la mort
           prochaine de cette Souveraine, &amp; voulant profiter de la foibleſſe de ſes derniers momens, il
           écrivit au Pere Antoine de mettre tout en œuvre pour diſpoſer cette Reine mourante à accepter pour
           ſes peuples toutes les conditions qui lui avoient été propoſées. Le Capuein Antoine plus attaché à
@@ -2286,8 +2655,10 @@
           deſirs pour une couronne qui ne vous appartient plus, hâtez-vous de les étouſſer ces coupables
           deſirs, afin que le mérite du ſacrifice que vous en ferez, ajoute un nouveau prix au ſacrifice que
           le ciel, votre grand âge &amp; votre maladie vous obligent de faire d'une vie que la mort va
-          bien-tôt vous ravir“.</p>
-        <p>Quoiqu'abattue par la violence du mal, &amp; affoibhie par le poids des années, Zingha regardant
+          bien-tôt vous ravir“.
+    </p>
+    <p>
+     Quoiqu'abattue par la violence du mal, &amp; affoibhie par le poids des années, Zingha regardant
           avec des yeux ſéveres le P. Antoine, &amp; rappellant toute ſa fermeté: “Vos prédictions, dit-elle,
           ne ſont rien moins que prêtes à s'accomplir, &amp; malgré mon grand âge, qui ne me laiſſe guere
           eſpérer de vivre encore pluſieurs années, je ſens que cette maladie ne me conduira point au tombeau;
@@ -2323,15 +2694,19 @@
           le lui offrir, perſuadée de ſa généroſité, de ſes nobles ſentimens &amp; de ſa reconnoiſſance. Quant
           aux autres articles qui m'ont été propoſés; dites à votre maître que je deſire ſi ſincérement la
           paix, que j'accepterai volontiers tous ceux qui ne bleſſeront ni l'indépendance de mon ſceptre, ni
-          les loix de mon royaume, ni la liberté de mes ſujets".</p>
-        <p>Cette proteſtation fort peu ſatisfaiſante pour le conſeil de Loando, qui regardoit déjà la
+          les loix de mon royaume, ni la liberté de mes ſujets".
+    </p>
+    <p>
+     Cette proteſtation fort peu ſatisfaiſante pour le conſeil de Loando, qui regardoit déjà la
           ſouveraine d'Angola comme tributaire du Roi de Portugal, affligea le bon P. Antoine; mais il devoit
           s'y attendre, &amp; elle ne l'auroit point ſurpris pour peu qu'il eût réfléchi ſur les preuves
           multipliées qu'il avoit de ſa fermeté. Après une telle déclaration, il ne reſta plus au P. Antoine
           de Gaëte qu'à écrire au ice-Roi qu'il n'obtiendroit rien de plus, &amp; qu'on verroit plutot la
           terre s'écrouler, que lngha changer de ſentimens. Le conſei &amp; le Vice-Roi penſerent comme leur
-          Agent, &amp; la paix fut conclue aux conditions que cette ſouveraine voulut accepter.</p>
-        <p>Quelques dures que paruſſent à Lingha les condinions propoſées par le conſeil de Loando, la
+          Agent, &amp; la paix fut conclue aux conditions que cette ſouveraine voulut accepter.
+    </p>
+    <p>
+     Quelques dures que paruſſent à Lingha les condinions propoſées par le conſeil de Loando, la
           ſupériorité des Portugais, leurs ſuccès, leurs conquêtes ne lui permirent point de rejetter, comme
           elle eut fait dans d'autres circonſtances, les loix que ſes vainqueurs lui impoſoient. Elle imagina
           cependant, un moyen de dérober Co-landa à la rigueur des châtimens que la nation portugaiſe lui
@@ -2349,8 +2724,10 @@
           téte de ceue amée peu nombreuſe, mais formidable, ſur les terres de ſes voiſins, les dévaſta, porta
           le fer &amp; la flamme, le ravage &amp; la mort dans tous les environs, maſſacrant ſans pitié, ſans
           diſtinction de ſexe ni d'âge, tous les Portugais que leur fatale deſtinée faiſoit tomber entre ſes
-          mains.</p>
-        <p>Les Portugais qui n'avoient point ſans fondement ſoupçonné la Reine Zingha d'avoir favoriſé la
+          mains.
+    </p>
+    <p>
+     Les Portugais qui n'avoient point ſans fondement ſoupçonné la Reine Zingha d'avoir favoriſé la
           fuite de ce féroce brigand, ſe plaignirent hautement, &amp; lui demanderent compte des flots de ſang
           qu'il répandoit. Zingha, ſans s'arrêter à ſe juſtifier, répondit que la nation Portugaiſe auroit
           bientôt des preuves de ſon exactitude à remplir ſes engagemens &amp; de ſa ſévérité à punir les
@@ -2365,8 +2742,10 @@
           tant de facilité quoique preſque octogénaire, que le Capucin Antoine qui n'étoit guere fait pour ſe
           trouver au mileu d'une armée, émerveillé des yeux étincelans, de la vigueur &amp; de l'air impoſant
           de la Reine, lui dit ingégénieuſement qu'il croyoit voir la guerriere Pallas elle-même à la tê-te
-          des Grecs confédérés contre l'adultere Paris.</p>
-        <p>Zingha ſatisfaite de la bonne diſpoſition de ſon armée, partit &amp; la mena contre le Giague
+          des Grecs confédérés contre l'adultere Paris.
+    </p>
+    <p>
+     Zingha ſatisfaite de la bonne diſpoſition de ſon armée, partit &amp; la mena contre le Giague
           Co-landa qui l'attendoit tranquillement, &amp;qui ne ſavoit pas que la veille, la Reine s'étoit
           aſſurée de tous les défilés &amp; de tous les paſſages qui pouvoient favoriſer ſa fuite ou ſa
           retraite, dans le cas où il ſuccomberoit. Le lendemain, le camp du Giague rebelle fut inveſti de
@@ -2388,8 +2767,10 @@
           l'envoya à Loando SanPaulo, afin que le Vice-Roi pût juger de la fidélité de Zingha à tenir ſa
           parole, &amp; de la ſévérité de ſon reſſentiment contre les ſujets infideles qui oſoient lui
           manquer. Cette expédition glorieuſe fut terminée par une marche triomphale de l'armée vers la
-          capitale, Ste. Marie de Métomba.</p>
-        <p>La deſtinée de la Reine d'Angola étoit de vivre perpétuellement agitée par les viciſſitudes de la
+          capitale, Ste. Marie de Métomba.
+    </p>
+    <p>
+     La deſtinée de la Reine d'Angola étoit de vivre perpétuellement agitée par les viciſſitudes de la
           fortune. Le calme &amp; les douceurs de la paix régnoient dans ſes états; admirée de ſes voiſins,
           redoutée de ſes ennemis, chérie &amp; reſpectée de ſes peuples, elle commençoit à goûter les charmes
           de la tranquillité, quand le zele indiſcret d'un ſeul homme, l'entêtement fort déplacé d'un capucin
@@ -2401,8 +2782,9 @@
           toutes les fois qu'elle ne l'avoit plus ſous ſes yeux, elle avoit beaucoup de peine à réſiſter à ſes
           penchans, &amp; à ne point s'abandonner à ſes anciens goûts, à ſes goûts ſi déteſtables &amp; ſi
           cruellement ſuperſtitieux.
-        </p>
-        <p>Salvador avoit cru que le titre d'époux de la Reine des Giagues lui donneroit le droit de
+    </p>
+    <p>
+     Salvador avoit cru que le titre d'époux de la Reine des Giagues lui donneroit le droit de
           commander en maître à cette nation. La paſſion qu'il avoit inſpirée à Zingha, ſa jeuneſſe, les ſoins
           &amp; les attentions qu'il avoit pour ſa vieille épouſe autoriſant en quelque ſor-te ſes projets
           d'ambition, il s'étoit perſuadé que le ſceptre des Jagas ſeroit inévitablement remis entre ſes
@@ -2433,14 +2815,18 @@
           ma bienfaiſance; mais ne te flatte point de voir jamais Zingha ſe dépouiller en ta faveur de la plus
           petite partie de la ſouveraine puiſſance. Tout ce que je puis faire, c'eſt de t'écouter ſans
           courroux, de pardonner à ton audace, en un mot, de ne me ſouvenir de tes hardis deſſeins, que pour
-          mettre d'éternelles &amp; d'inſurmontables barrieres entre mon trône &amp; toi“.</p>
-        <p>Trop impatient de régner &amp; trop préſomptueux pour avoir pu prévoir le refus de Zingha,
+          mettre d'éternelles &amp; d'inſurmontables barrieres entre mon trône &amp; toi“.
+    </p>
+    <p>
+     Trop impatient de régner &amp; trop préſomptueux pour avoir pu prévoir le refus de Zingha,
           Salvador s'irrita de cette réſiſtance; &amp; l'ingrat dans la vue de ſe venger, ou peut-être dans
           l'eſpérance d'amener ſon épouſe au but qu'il s'étoit propoſé, changea de conduite avec elle, la
           négligea, ceſſa preſqu'entiérement de la voir, &amp; ſe livra ſans retenue à toute la brutalité de
           ſes goûts pour la débauche &amp; le libertinage. Peu ſenſible à ces procédés, procédés, la Reine
-          d'Angola n'eut ou du moins feignit de ne conſerver pour lui que la plus froide indifférence.</p>
-        <p>Salvador plus furieux encore du mépris qu'il inſpiroit à ſon épouſe qu'il ne l'avoit été de ſes
+          d'Angola n'eut ou du moins feignit de ne conſerver pour lui que la plus froide indifférence.
+    </p>
+    <p>
+     Salvador plus furieux encore du mépris qu'il inſpiroit à ſon épouſe qu'il ne l'avoit été de ſes
           refus, ne ſongea plus qu'aux moyens d'obtenir par la force le rang ſuprême que ſa feinte tendreſſe
           n'avoit pu lui procurer. Dans cette vue, il ſe la avec tout ce qu'il y avoit de plus corrompu parmi
           les Jagas; il feignit un zele ardent pour le rétabliſſement du culte récemment proſcrit, &amp; qu'il
@@ -2458,8 +2844,10 @@
           ſaiſit des coupables. Salvador fut conduit dans une étroite priſon; les Singhillos qui ne trouverent
           point dans le peuple le ſecours qu'ils en avoient attendu, furent enchaînés &amp; traînés devant le
           conſeil aſſemblé de la nation, accuſés, convaincus, jugés, condamnés à périr du ſupplice des
-          traîtres, &amp; exécutés dans la même journée.</p>
-        <p>A l'égard de Salvador, Zingha ne voulut point permettre qu'on inſtruiſit ſon procès: elle lui
+          traîtres, &amp; exécutés dans la même journée.
+    </p>
+    <p>
+     A l'égard de Salvador, Zingha ne voulut point permettre qu'on inſtruiſit ſon procès: elle lui
           accorda la vie; mais dès le lendemain elle fit publier qu'il étoit mort dans ſa priſon, ſoit de
           chagrin, ſoit d'une violente maladie qu'il s'étoit attirée par l'excès de ſes débauches: le peuple
           crut ce qu'il voulut; on devina ſans peine la véritable cauſe de cette mort ſi prompte; mais comme
@@ -2472,8 +2860,10 @@
           rentrer dans le ſein du Catholiciſme, &amp; que ce n'étoit point de ſa faute s'il étoit mort ſans
           avoir pu ſe reconcilier avec l'égliſe: qu'ainſi ce défaut de conſeſſion occaſionné par la violence
           du mal beaucoup plus que par la négligence ou l'impiété du malade, n'empêchoit en aucune maniere de
-          l'enterrer parmi les Chrétiens, &amp; avec toute la pompe des cérémonies funebres.</p>
-        <p>Un moine dur, le Pere Bennet, Capucin ſoi-diſant indigne, ſeul Prêtre de ſon Ordre qu'il y eût
+          l'enterrer parmi les Chrétiens, &amp; avec toute la pompe des cérémonies funebres.
+    </p>
+    <p>
+     Un moine dur, le Pere Bennet, Capucin ſoi-diſant indigne, ſeul Prêtre de ſon Ordre qu'il y eût
           alors à Métomba, refuſa d'une maniere peut-être fort pieuſe en elle-même, mais auſſi trèsoffenſante
           pour la Reine, de permettre qu'on inhumât Salvador, &amp; dit décidément qu'on l'enterreroit plutôt
           lui-même, que de le faire conſentir à cette cérémonie. Ligha irritée du ton impérieux &amp; de la
@@ -2486,43 +2876,69 @@
           qu'accompagnée de ſa cour, elle ſe rendit à l'endroit deſtiné pour aſſiſter à l'infernale cérémonie.
           déjà ſa voix terrible avoit annoncé la mort aux victimes, &amp; ſa main armée d'un glaive homicide,
           alloit en égorger quelques unes, tandiſque ſes courtiſans maſſacreroient les autres, quand
-          l'accident le plus heureux &amp; le plus inattendu vint arrêter la ſuite de ces horreurs.</p>
-        <p>Il y avoit auprès du rigide Bennet un frere capucin, homme doux, indulgent &amp; plein
+          l'accident le plus heureux &amp; le plus inattendu vint arrêter la ſuite de ces horreurs.
+    </p>
+    <p>
+     Il y avoit auprès du rigide Bennet un frere capucin, homme doux, indulgent &amp; plein
           d'humanité; frerelgnace, (c'étoit ſon nom), avoit fait les plus grands efforts pour adoucir dans
           cette occaſion l'amertume de Bennet; mais vainement, dans cette vûe, il avoit peint le caractere
           altier de la Reine, &amp; les excès auxquels il étoit vraiſemblable qu'une telle réſiſtance la
           porteroit. L'inflexible Bennet répondit ce qu'il avoit déjà répondu, qu'on pouvoit l'enterrer
           luimême, &amp; non l'engager à permettre l'enterrement canonique d'un homne erconmuniée rrrrre lence
           in ſiſta, Bennet le menaça des plus ſéveres punitions &amp; de toute l'autorité que ſa qualité de
-          Pere lui donnoit ſur la ſimple condition de Frere.</p>
-        <p>Ignace garda le ſilence; mais informé du départ de la Reine, des ordres qu'elle avoit donnés,
+          Pere lui donnoit ſur la ſimple condition de Frere.
+    </p>
+    <p>
+     Ignace garda le ſilence; mais informé du départ de la Reine, des ordres qu'elle avoit donnés,
           &amp; de l'exécution prochaine du maſſacre preſcrit, il ſe ſaiſit d'un grand cruciſix, &amp; le
           tenant entre ſes bras, il prit avec empreſſement la route de la forêt, criant à haute voix:
-          <hi rend="italic">S'il eſt parmi les hommes quelqu'un qui ait à cœur les intérêts de Dieu, qu'il
-            ſuive cette image de ſon fils crucifié</hi>.
+     <hi rend="italic">
+      S'il eſt parmi les hommes quelqu'un qui ait à cœur les intérêts de Dieu, qu'il
+            ſuive cette image de ſon fils crucifié
+     </hi>
+     .
           Sur ſon chemin, le reſpectable Ignace rencontra le ſecrétaire de la Reine qui alloit, accompagné
           d'un miniſtre d'état, tâcher d'obtenir par la voie de la douceur, de la menace ou de la force, le
           conſentement de Bennet. La viſion du frere capucin, ſurchargé d'une lourde croix, les étonna
           beaucoup, &amp; ils lui demanderent où il alloit:
-          <hi rend="italic">Servir Dieu &amp; l'humanité</hi>, leur répondit Ignace,
-          <hi rend="italic">empécher la mort des victimes, &amp; fléchir l'ame de Zingha</hi>. Le ſecrétaire
+     <hi rend="italic">
+      Servir Dieu &amp; l'humanité
+     </hi>
+     , leur répondit Ignace,
+     <hi rend="italic">
+      empécher la mort des victimes, &amp; fléchir l'ame de Zingha
+     </hi>
+     . Le ſecrétaire
           &amp; le miniſtre trouvant plus de bon ſens dans ce frere qu'ils n'eſpéroient trouver de douceur
           &amp; d'aménité dans le cœur de Bennet, ils changerent d'avis, &amp; ſuivirent le frere, l'un à ſa
           droite &amp; l'autre à ſa gauche, imitant ſon zele autant qu'ils le pouvoient, &amp; invitant à les
           ſuivre tous ceux qu'ils rencontroient. Bientôt ils arriverent auprès de la pompe funebre &amp; des
-          victimes qu'on alloit immoler aux mânes de l'époux de la Reine.</p>
-        <p>Arrêté par l'innombrable foule des ſpectateurs qui ſe preſſant les uns les autres pour voir cette
+          victimes qu'on alloit immoler aux mânes de l'époux de la Reine.
+    </p>
+    <p>
+     Arrêté par l'innombrable foule des ſpectateurs qui ſe preſſant les uns les autres pour voir cette
           ſcene d'horreur, gardoient tous un morne ſilence, le frere Ignace groſſiſſant de toutes ſes forces
           le ſon de ſa voix,
-          <hi rend="italic">fug-am mena</hi>, s'écria-t-il, ce qui veut dire en langue caffre,
-          <hi rend="italic">mettez-vous à genoux</hi>. A ces paroles inattendues les ſpectateurs ſe tournent,
+     <hi rend="italic">
+      fug-am mena
+     </hi>
+     , s'écria-t-il, ce qui veut dire en langue caffre,
+     <hi rend="italic">
+      mettez-vous à genoux
+     </hi>
+     . A ces paroles inattendues les ſpectateurs ſe tournent,
           &amp; frappés du ton de frere Ignace, de ſon air impoſant, de cette croix qu'il portoit entre ſes
           bras, &amp; ſurtout de le voir entre le ſécretaire &amp; le miniſtre de leur Souveraine, ils ſe
           précipiterent à genoux, &amp; lui ouvrirent un paſſage. Ignace pénétra juſqu'à la garde de Zingha,
           criant toujours
-          <hi rend="italic">fug-am mena, fug-am mena</hi>: ſes cris ne firent pas la même impreſſion ſur cette
-          troupe que ſur le reſte des ſpectateurs, &amp; elle refuſa de laiſſer paſſer le Capucin.</p>
-        <p>La Reine d'Angola qui étoit ſous un portique, le couteau à la main, au centre des victimes
+     <hi rend="italic">
+      fug-am mena, fug-am mena
+     </hi>
+     : ſes cris ne firent pas la même impreſſion ſur cette
+          troupe que ſur le reſte des ſpectateurs, &amp; elle refuſa de laiſſer paſſer le Capucin.
+    </p>
+    <p>
+     La Reine d'Angola qui étoit ſous un portique, le couteau à la main, au centre des victimes
           placées en cercle autour d'elle, enchaînées &amp; la poitrine découverte, prêtes à recevor le coup
           fatal, entendit cette rumeur, &amp; reconnoiſſant la voix d'Ignace, elle courut à lui, fort iritée
           d'une telle hardieſſe: mais quand elle le vit armé d'un crucifix, frappée d'étonnement, de crainte
@@ -2533,8 +2949,10 @@
           de ſes états. Zingha prononça ce ſerment, promit d'abolir à jamais ces affreux ſacrifices, rendit la
           liberté aux victimes, fit combler la tombe qui alloit les engloutir, &amp; ſuivit Ignace accompagnée
           de tous les ſpectateurs, qui euſſent applaudi à la barbarie homicide de cet enterrement, &amp; qui
-          par des cris de joie témoignerent combien ils étoient enchantés de cet heureux dénouement.</p>
-        <p>Le changement qui s'opéroit dans les mœurs des Giagues, les liens de la concorde qui les uniſſoit
+          par des cris de joie témoignerent combien ils étoient enchantés de cet heureux dénouement.
+    </p>
+    <p>
+     Le changement qui s'opéroit dans les mœurs des Giagues, les liens de la concorde qui les uniſſoit
           avec les Portugais, les douceurs de la paix qui avoit ſuccédé aux déſordres d'une longue &amp;
           funeſte guerre; tout ſecondoit les vues de Zingha, tout ſembloit concourir au ſuccès de ſes
           entrepriſes &amp; de ſes généreux projets: elle n'attendoit plus pour voir s'étendre avec rapinité
@@ -2548,11 +2966,15 @@
           ce pays, &amp; d'une égliſe aſſez vaſte pour contenir tous les Chrétiens qu'il y avoit dans cette
           capitale. Juſqu'à ce jour, l'architecture avoit été de tous les arts le plus profondément ignoré
           dans cette région; ainſi la conſtruction de la ville, du palais &amp; de l'égliſe fut très-ſimple,
-          &amp; même fort groſſiere; l'égliſe fut dédiée à Ste. Anne, dont elle porta le nom.</p>
-        <p>Dans la ſuite, Zingha fit venir à grand fraix, un jeune peintre d'Italie pour faire en grand le
+          &amp; même fort groſſiere; l'égliſe fut dédiée à Ste. Anne, dont elle porta le nom.
+    </p>
+    <p>
+     Dans la ſuite, Zingha fit venir à grand fraix, un jeune peintre d'Italie pour faire en grand le
           portrait de Ste. Anne, &amp; ce tableau qui fut fait ſous les yeux &amp; au grand étonnement de la
-          Reine d'Angola, paroit le maître autel de cette égliſe.</p>
-        <p>A cet ornement, la Reine ajouta les plus riches de ſes tapiſſeries, ſes joyaux les plus précieux,
+          Reine d'Angola, paroit le maître autel de cette égliſe.
+    </p>
+    <p>
+     A cet ornement, la Reine ajouta les plus riches de ſes tapiſſeries, ſes joyaux les plus précieux,
           &amp; une lampe d'argent d'une groſſeur démeſurée. Le P. Antoine avoit un tel empire ſur l'eſprit de
           Zingha qu'ilobtenoit de cette Reine tout ce qu'il demandoit: il lui ordonna de la part de Dieu même
           de conſacrer à l'égliſe tous ſes joyaux, ſes pierres précieuſes, ſes riches bracelets, ſes bagues,
@@ -2564,8 +2986,10 @@
           Antoine qui, dans cette circonſtance, eut pû, ſans preſque qu'il y eût paru, s'enrichir en ornemens,
           lui &amp; tout ce qu'il y a de Capucins au monde; mais il déclare dans ſesmémoires, &amp; l'on doit
           s'en rapporter à lui, qu'il fut de la plus grande fidélité, &amp; que toutes ces pierres précieuſes
-          furent fort exactement diſtribuées dans l'égliſe de Ste. Anne.</p>
-        <p>La piété ſolide de Zingha, les marques réitérées qu'elle donnoit du repentir de ſa vie paſſée,
+          furent fort exactement diſtribuées dans l'égliſe de Ste. Anne.
+    </p>
+    <p>
+     La piété ſolide de Zingha, les marques réitérées qu'elle donnoit du repentir de ſa vie paſſée,
           ſon zele pour le Catholiciſme, &amp; les dons multipliés qu'elle prodiguoit à l'égliſe &amp; à ſes
           miniſtres, lui valurent enfin la récompenſe après lar quelle elleſoupiroit depuis quelques années.
           Le Capucin Antoine la ju geant digne d'être admiſe au ſacrement de l'euchariſtie, cette ſolemnité
@@ -2592,8 +3016,10 @@
           ſeroit morte, &amp; cela dans la vue d'effacer de la mémoire des hommes, les idées d'orgueil qu'elle
           avoit ſi long-temps nourries dans ſon cœur, &amp; ſur-tout l'impiété qu'elle avoit eue de paſſer
           parmi les Giagues pour un être au-deſſus de l'humanité: en effet, quel vêtement plus capable que ce
-          froc, de pénétrer Zingha de toute l'abjection &amp; de toute l'humilité de la condition humaine!</p>
-        <p>Le P. Antoine de Gaëte donna généreuſement l'un de ſes vieux habits à Zingha qui le fit
+          froc, de pénétrer Zingha de toute l'abjection &amp; de toute l'humilité de la condition humaine!
+    </p>
+    <p>
+     Le P. Antoine de Gaëte donna généreuſement l'un de ſes vieux habits à Zingha qui le fit
           envelopper dans une étoffe précieuſe; il conſacra la nouvelle égliſe, &amp; partit pour Loando,
           laiſſant auprès de la Reine le Pere Jean, &amp; ce même Frere Ignace dont nous avons parlé. Afin de
           ſe conſoler de la perte qu'elle venoit de faire, Zingha imagina de recevoir plus ſolemnellement
@@ -2609,8 +3035,10 @@
           mit à genoux devant le PrJean, &amp; reçut de lui la lettre, après lui avoir baiſé la main. Enſuite
           Frere Ignace lui préſentant le livre de l'évangile, Zingha fit hautement ſa profeſuon de foi, jura
           un attachement inviolable au St. Siege, baiſa la lettre, la plia, la remit dans la bourſe, &amp;
-          retourna dans ſon palais au bruit des acclamations du peuple émerveillé.</p>
-        <p>Cette ſolemnité fut ſuivie d'un feſtin ſomptueux que la Reine des Giagues donna au député des
+          retourna dans ſon palais au bruit des acclamations du peuple émerveillé.
+    </p>
+    <p>
+     Cette ſolemnité fut ſuivie d'un feſtin ſomptueux que la Reine des Giagues donna au député des
           Portugais &amp; aux premiers officiers de ſa cour. Deux portiques trèsvaſtes &amp; récemment
           conſtruits, ſervirent de falle à manger; &amp; Zingha conſentit à être ſervie à l'europeanne pour la
           premiere ſois de ſa vie, c'eſt-à-dire, aſſiſe dans un fauteuil, la table couverte d'une nappe, &amp;
@@ -2651,8 +3079,10 @@
           faveur du Catholiciſme, &amp; contre les abominables ſuperſtitions de l'ancien culte. Elle donnoit
           tous ſes ſoins à les détruire, ces horribles cérémonies; mais quel-que inflexible que fût ſa
           ſévérité ſur ce point, elle n'avoit pu encore anéantir ces affreuſes pratiques, &amp; chaque jour
-          elle avoit à punir les crimes de quelques infracteurs.</p>
-        <p>L'un de ces infracteurs fut découvert, pris ſur le fait, &amp; dans le moment même ou il
+          elle avoit à punir les crimes de quelques infracteurs.
+    </p>
+    <p>
+     L'un de ces infracteurs fut découvert, pris ſur le fait, &amp; dans le moment même ou il
           égorgeoit un enfant, pour rendre les enfers dociles à ſes évocations; il fut conduit aux pieds de
           Zingha, qui le condamna à être brulé vif ſur la place publique. Le capucin chargé de diſpoſer ce
           malheureux à recevoir la mort, alla conjurer Zingha de lui faire grace, perſuadé que cet acte de
@@ -2664,16 +3094,20 @@
           leur atrocité; la ſévérité les abat, la clémence les enhardit. Mais, afin que vous ſoyez convaincu
           par vous même de l'invincible obſtination de ces ames perverſes, je veux bien accorder la vie au
           malheureux auquel vous vous intéreſſez, quelque aſſurée que je ſois de le voir ſe replonger bientôt
-          dans toutes ſes anciennes abominations.“</p>
-        <p>Zingha ne ſe trompoit pas, ce ſcélérat n'eut pas plutôt reçu la nouvelle de la grace qui venoit
+          dans toutes ſes anciennes abominations.“
+    </p>
+    <p>
+     Zingha ne ſe trompoit pas, ce ſcélérat n'eut pas plutôt reçu la nouvelle de la grace qui venoit
           de lui être accordée, qu'indocile aux avis &amp; aux exhortations du miſſionnaire, il alla ſoulever
           quelquesuns de ſes pareils, &amp; ceux-ci ne doutant point que la Reine ne lescraignît, puiſqu'elle
           n'oſoitles punir, s'abandonnerent à toutes les anciennes ſuperſtitions, &amp; pouſſerent même
           l'audace juſques à demander hautement qu'on retablît &amp; le culte fondé par Ten-ba-dumba &amp;
           l'uſage des victimes humaines; enſorte que Zingha fut obligée, ainſi qu'elle l'avoit prévu, de
           recourir à la plus exemplaire ſévérité, &amp; d'effrayer les coupables que ſes bontés n'avoient pu
-          ramener.</p>
-        <p>Pendant que cette Souveraine conſacroit tous ſes ſoins au bonheur de ſon peuple, &amp; aux moyens
+          ramener.
+    </p>
+    <p>
+     Pendant que cette Souveraine conſacroit tous ſes ſoins au bonheur de ſon peuple, &amp; aux moyens
           d'étendre la lumiere de l'évangile, le Capucin qui avoit ſuccédé auprès d'elle au P. Antoine de
           Gaëte, fut obligé d'aller vifiter ſes catécumenes ſur les frontieres d'Angola; il en demanda la
           permiſſion à Zingha qui ne la lui ayant accordée que malgré elle, le vit avec douleur s'éloigner de
@@ -2693,8 +3127,10 @@
           des erreurs de l'ancien culte. Ces ſoins &amp; le zele de Zingha hâterent le progrès de
           l'inflammation, qui bientôt gagnant la poitrine, ne laiſſa plus à la Reine d'Angola que le temps de
           recevoir les derniers ſecours de l'égliſe: elle expira le 17 Décembre 1764, à l'âge de 82 ans,
-          laiſſant la nation Giague à démi policée, &amp; inconſolable de ſa perte.</p>
-        <p>Cependant le miniſtre Teudela n'avoit point attendu la mort de la Reine des Giagues; elle
+          laiſſant la nation Giague à démi policée, &amp; inconſolable de ſa perte.
+    </p>
+    <p>
+     Cependant le miniſtre Teudela n'avoit point attendu la mort de la Reine des Giagues; elle
           reſpiroit encore, quand dans la vue de prévenir tout déſordre &amp; toute confuſion, il fit
           raſſembler l'armée devant les portes du palais de la Souveraine expirante; il n'y avoit point
           d'autre moyen de contenir les eſclaves &amp; d'empêcher leur évaſion, effrayés comme ils l'étoient
@@ -2704,8 +3140,10 @@
           les priſonniers de guerre: elles allerent implorer la protection du Capucin Bennet &amp; lui faire
           part de leurs craintes; Bennet eût pu les raſſurer d'un mot; il eut la dureté d'ajouter à leur
           conſternation, par les ordres qu'il leur donna de ſe tenir renfermées dans le palais, dont il fit
-          fermer les portes &amp; garder toutes les iſſues par des ſoldats armés.</p>
-        <p>Pendant ces momens de terreur, le conſeil aſſemblé diſpoſa de la couronne en faveur de la
+          fermer les portes &amp; garder toutes les iſſues par des ſoldats armés.
+    </p>
+    <p>
+     Pendant ces momens de terreur, le conſeil aſſemblé diſpoſa de la couronne en faveur de la
           Princeſſe Bar-ba, Sœur de la Reine d'Angola. Dès que cette élection fut faite, on ouvrit la grande
           porte du palais, où les principaux officiers du royaume furent convoqués: on alla recevoir la
           Princeſſe Barba qui ſe montra au peuple les yeux baignés de larmes. Dans toute autre eirconſtance,
@@ -2714,8 +3152,10 @@
           douleur, Bar-ba n'entendit autour d'elle que des gémiſſemens: elle étoit elle-même trop pénétrée de
           la mort de ſa ſœur pour ſe livrer à quelqu'autre ſentiment qu'à celui de la triſteſſe, &amp; l'on
           mit entre ſes mains, &amp; ſans qu'elle parût y prendre aucune part, l'arc royal &amp; les fleches
-          ſacrées.</p>
-        <p>Tandis qu'on s'occupoit des cérémonies du couronnement devant la nation aſſemblée, les femmes de
+          ſacrées.
+    </p>
+    <p>
+     Tandis qu'on s'occupoit des cérémonies du couronnement devant la nation aſſemblée, les femmes de
           Zingha s'empreſſoient dans l'intérieur du palais à parer ſon corps des plus riches vêtemens; enſorte
           que quand le miſſionaire chargé de la direction de la pompe funebre arriva pour envelopper le
           cadavre d'un froc de Capucin, ſuivant les ordres de Zingha, il fut fort étonné de cette ſomptueuſe
@@ -2727,8 +3167,10 @@
           poitrine de l'une des femmes de la Reine. Le convoi fut fixé au lendemain matin; il fut pompeux; le
           corps porté par douze Dames Giagues, étoit accompagné de cent ſoldats ſans armes, précédés de toute
           la muſique militaire, qui faiſoit retentir les airs des ſons les plus plaintifs: ces ſoldats étoient
-          ſuivis de l'armée entiere rangée ſur quatre colomnes, &amp; commandée par le Général Y-venda.</p>
-        <p>Ce fut dans cet ordre que le convoi funebre ſe rendit à l'égliſe de Métomba, &amp; c'étoit à la
+          ſuivis de l'armée entiere rangée ſur quatre colomnes, &amp; commandée par le Général Y-venda.
+    </p>
+    <p>
+     Ce fut dans cet ordre que le convoi funebre ſe rendit à l'égliſe de Métomba, &amp; c'étoit à la
           premiere des Dames d'honneur de la Reine qu'Y-venda devoit, ſuivant l'uſage, remettre le corps de
           Zingha; mais à l'inſtant où celle qui devoit remplir cette cérémonie s'avançoit pour recevoir le
           corps, elle fut ſaiſie d'une telle terreur en jettant les yeux ſur la foſſe où la Reine Reine devoit
@@ -2744,12 +3186,18 @@
           force d'aſſiſter, tant ſon ame étoit abattue par la douleur. Ce ſervice étoit à peine fini, que
           pluſieurs d'entre les principaux Officiers de l'armée, vinrent dire au ſupérieur desmiſſionnaires
           qu'il convenoit de célébrer un
-          <hi rend="italic">Tom-ba</hi>
-          en mémoire de Zingha, que les ſoldats s'y attendoient, &amp; qu'il ſeroit très-dangereux de leur
-          refuſer ce ſpectacle.</p>
-        <p>Le
-          <hi rend="italic">Tom-ba</hi>
-          des Giagues conſiſte à immoler un très-grand nombre des victimes humaines, qui ſont préparées
+     <hi rend="italic">
+      Tom-ba
+     </hi>
+     en mémoire de Zingha, que les ſoldats s'y attendoient, &amp; qu'il ſeroit très-dangereux de leur
+          refuſer ce ſpectacle.
+    </p>
+    <p>
+     Le
+     <hi rend="italic">
+      Tom-ba
+     </hi>
+     des Giagues conſiſte à immoler un très-grand nombre des victimes humaines, qui ſont préparées
           enſuite, &amp; ſervies aux parens &amp; aux amis du chef en l'honneur duquel ces horribles
           ſacrifices ontlété faits; &amp; ce repas eſt ſuivi de danſes très-laſcives. Le bon religieux frémit
           d'horteur à cette étrange propoſition; mais le ton de ces Officiets lui faiſant juger que leur
@@ -2764,23 +3212,34 @@
           l'amour du peuple pour la mémoire de Zingha. Contens de la permiſſion qui leur étoit accordée les
           Officiers promirent d'épargner le ſang humain, &amp; cette fête qu'un refus abſolu n'eût point
           empêchée &amp; qu'il eût au contraire rendue abominable, ſe paſſa avec autant de décence que ſi
-          Zingha elle-même y eût préſidé.</p>
-        <p>Le Regne de Bar-ba fut trèscourt; elle avoit des vertus, mais beaucoup moins de talens que la
+          Zingha elle-même y eût préſidé.
+    </p>
+    <p>
+     Le Regne de Bar-ba fut trèscourt; elle avoit des vertus, mais beaucoup moins de talens que la
           Reine d'Angola; ce ne fut point elle, ce fut Y-venda qui régna; ce guerrier féroce n'étoit rien
           moins que propre à policer une nation ſauvage: auſſi les loix cruelles de Ten-ba-dumba ne tarderent
           que peu d'années à prévaloir ſur les ſages réglemens de Zingha, ou plutôt du Pere Antoine de Gaëte,
           qui eut avant ſa mort la douleur de voir les Giagues plongés dans tous les vices de leur ancienne
-          corruption &amp; dans l'affreuſe nuit de leur premiere idolâtrie.</p>
-        <trailer>FIN.</trailer>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N01">(1) Prêtres du Royaume d'Angola.</note>
-        <note xml:id="N02">(2) Ce ſont les Dieux du peuple d'Angola.</note>
-        <note xml:id="N03">(1) Les ſouverains d'Éthiopie connoiſſent tous la langue de Congo, quoique dans
-          chaque royaume on parle une langue particuliere &amp; dfférente du langage Congois.</note>
-      </div>
-    </back>
-  </text>
+          corruption &amp; dans l'affreuſe nuit de leur premiere idolâtrie.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (1) Prêtres du Royaume d'Angola.
+    </note>
+    <note xml:id="N02">
+     (2) Ce ſont les Dieux du peuple d'Angola.
+    </note>
+    <note xml:id="N03">
+     (1) Les ſouverains d'Éthiopie connoiſſent tous la langue de Congo, quoique dans
+          chaque royaume on parle une langue particuliere &amp; dfférente du langage Congois.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

@@ -2,79 +2,126 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Voisenon_Histoire" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:51.42"> Histoire de la Félicité: MiMoText edition </title>
-                <author ref="viaf:21146 wikidata:Q2976734"> Claude-Henri de Fusée de
-                    Voisenon(1708-1775)</author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-                <respStmt>
-                    <resp> editor </resp>
-                    <name> Julia Röttgermann </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 10820 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Histoire de la Félicité</title>
-                    <author>Claude Henri de Fusée de Voisenon</author>
-                    <date>1781</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1751 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> autodiegetic </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-15"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <p> La félicité est un être qui fait mouvoir tout l'univers; les poëtes la chantent,
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:51.42">
+     Histoire de la Félicité: MiMoText edition
+    </title>
+    <author ref="viaf:21146 wikidata:Q2976734">
+     Claude-Henri de Fusée de
+                    Voisenon(1708-1775)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     10820
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Histoire de la Félicité
+     </title>
+     <author>
+      Claude Henri de Fusée de Voisenon
+     </author>
+     <date>
+      1781
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1751
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      autodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-15">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <p>
+     La félicité est un être qui fait mouvoir tout l'univers; les poëtes la chantent,
                     les philosophes la définissent, les petits la cherchent bassement chez les
                     grands, les grands l'envient aux petits, les jeunes gens la défigurent, les
                     vieillards en parlent souvent sans l'avoir connue; les hommes, pour l'obtenir,
@@ -600,7 +647,11 @@
                     convaincu que nous sommes vus comme amans; et si nous nous voyons toujours, on
                     se persuadera que nous ne pouvons nous voir que comme amis. Mais il me semble,
                     lui répondis-je, qu'entre homme et femme on ne croit guere à l'amitié. Du moins,
-                    reprit-il, vous y croyez, madame. <hi rend="italic"> comme cela, </hi> lui
+                    reprit-il, vous y croyez, madame.
+     <hi rend="italic">
+      comme cela,
+     </hi>
+     lui
                     répliquai-je. Comment, s'écria-t-il, serois-je assez heureux pour que vous ne
                     fussiez pas mon amie? Voilà un bonheur d'une nouvelle espece, lui dis-je.
                     Madame, poursuivit-il, cela en seroit bien plus tendre. Vous êtes insupportable
@@ -677,8 +728,12 @@
                     connoissance aimable; nous ne nous estimions pas assez pour vivre ensemble: il
                     me disoit des choses galantes, qui cependant n'avoient aucun objet; en un mot,
                     il se conduisoit comme un homme qui n'a ni droits ni prétentions. Je me souviens
-                    qu'un jour il me trouva lisant une brochure, intitulée <hi rend="italic"> le je
-                        ne sais quoi </hi> . Je connois cet ouvrage, me dit-il; l'auteur y fait un
+                    qu'un jour il me trouva lisant une brochure, intitulée
+     <hi rend="italic">
+      le je
+                        ne sais quoi
+     </hi>
+     . Je connois cet ouvrage, me dit-il; l'auteur y fait un
                     grand éloge de ce je ne sais quoi, et l'auteur a tort; le je ne sais quoi est vu
                     en beau, et seroit toujours vu en laid si on le connoissoit bien. C'est à tort
                     que l'on nomme ainsi le trouble de deux coeurs qui voudroient s'unir. Qu'un
@@ -803,8 +858,11 @@
                     commençai à craindre qu'il n'eût été à portée d'entendre notre conversation, et
                     je n'en pus pas douter le lendemain, car il nous proposa une promenade, et nous
                     conduisit dans le même endroit, où nous trouvâmes un poteau nouvellement placé,
-                    sur lequel je vis ces mots écris en très-gros caracteres: <hi rend="italic">
-                        route de l'occasion perdue </hi> . Il y a peu d'allées couvertes, dit-il à
+                    sur lequel je vis ces mots écris en très-gros caracteres:
+     <hi rend="italic">
+      route de l'occasion perdue
+     </hi>
+     . Il y a peu d'allées couvertes, dit-il à
                     Alménidore, qui portent le nom de celle-là. Aménidore fut interdit, et je fus
                     confondue.Nous quittâmes la campagne le lendemain: je ne cessai pas de faire des
                     réflexions; je m'accablai moi-même de reproches; la certitude où j'étois que
@@ -824,8 +882,9 @@
                     Après ce récit, Aldine tint ce discoursà Zélamire. Ma mere, je vous suis
                     assurément bien obligée de vos instructions; j'espere que vos expériences me
                     suffiront; mais je ne puis m'empêcher de vous dire que vous l'avez échappé
-                    belle. </p>
-            </div>
-        </body>
-    </text>
+                    belle.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

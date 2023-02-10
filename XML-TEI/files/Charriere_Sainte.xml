@@ -1,113 +1,182 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Charriere_Sainte" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:98.35 wikidata:0">Sainte Anne: MiMoText edition</title>
-        <author ref="viaf:46755588 wikidata:Q123386">Isabelle de Charrière(1740-1805)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>wikisource</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">26209</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://fr.wikisource.org/wiki/Sainte_Anne"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Sainte Anne</title>
-          <author>Isabelle de Charrière</author>
-          <pubPlace>Leipzig</pubPlace>
-          <publisher>Pierre Philippe Wolf</publisher>
-          <date>1799</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1799</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-06-01">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>Sainte Anne</p>
-        <p>Isabelle de Charrière, 1740-1805</p>
-        <p>Pierre Philippe Wolf, Leipzig, 1799</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>SAINTE ANNE.</head>
-        <p>
-          <hi rend="caps">E</hi>lle ne sait pas lire Figurez vous qu'elle ne sait pas lire dirent toutes à la
+<TEI xml:id="Charriere_Sainte" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:98.35 wikidata:0">
+     Sainte Anne: MiMoText edition
+    </title>
+    <author ref="viaf:46755588 wikidata:Q123386">
+     Isabelle de Charrière(1740-1805)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      wikisource
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     26209
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Sainte_Anne"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2020
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Sainte Anne
+     </title>
+     <author>
+      Isabelle de Charrière
+     </author>
+     <pubPlace>
+      Leipzig
+     </pubPlace>
+     <publisher>
+      Pierre Philippe Wolf
+     </publisher>
+     <date>
+      1799
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1799
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-06-01">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     Sainte Anne
+    </p>
+    <p>
+     Isabelle de Charrière, 1740-1805
+    </p>
+    <p>
+     Pierre Philippe Wolf, Leipzig, 1799
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     SAINTE ANNE.
+    </head>
+    <p>
+     <hi rend="caps">
+      E
+     </hi>
+     lle ne sait pas lire Figurez vous qu'elle ne sait pas lire dirent toutes à la
           fois Mademoiselle de Rhedon, Madame de Rieux, Mademoiselle de Kerber à Ste. Anne, au moment où
           Mademoiselle d'Estival sortoit de l'avenue du château de Missillac, et prenant un sentier au travers
-          d'une prairie, retournoit à la métairie qu'elle habitoit.</p>
-        <p>Ste. Anne pressé par sa mere, avoit fui de France pendant le règne de Robespierre. Comme il avoit
+          d'une prairie, retournoit à la métairie qu'elle habitoit.
+    </p>
+    <p>
+     Ste. Anne pressé par sa mere, avoit fui de France pendant le règne de Robespierre. Comme il avoit
           toujours vécu en pays neutre, il n'eut pas de peine à pouvoir rentrer, et revint chez lui le 2
-          juillet 1797, à 9 heures du matin.</p>
-        <p>On l'attendoit avec impatience. Sa mere avoit rassemblé ses parentes pour le recevoir. Leurs
+          juillet 1797, à 9 heures du matin.
+    </p>
+    <p>
+     On l'attendoit avec impatience. Sa mere avoit rassemblé ses parentes pour le recevoir. Leurs
           peres, leurs maris, leurs fils avoient péri, ou vivoient encore dans cet exil auquel s'étoit
           condamnée une partie de la noblesse françoise ; exil si triste, qui de volontaire qu'il fut d'abord,
-          étoit devenu forcé, et dont on a tant déploré l'imprudence.</p>
-        <p>Toutes ces Dames pleurerent en revoyant Ste. Anne, et lui-même il étoit fort attendri : il venoit
+          étoit devenu forcé, et dont on a tant déploré l'imprudence.
+    </p>
+    <p>
+     Toutes ces Dames pleurerent en revoyant Ste. Anne, et lui-même il étoit fort attendri : il venoit
           de traverser la Vendée Sa mere lui présenta sa parente Mademoiselle de Rhedon, qui demeuroit chez
           elle. Elle étoit orpheline. La nation venoit de lui rendre le bien de son pere, et de deux oncles
-          dont elle étoit devenue l'héritiere unique dans des tems malheureux.</p>
-        <p>On prodigua d'abord à Ste. Anne des récits si lugubres, qu'il auroit voulu n'être point revenu.
+          dont elle étoit devenue l'héritiere unique dans des tems malheureux.
+    </p>
+    <p>
+     On prodigua d'abord à Ste. Anne des récits si lugubres, qu'il auroit voulu n'être point revenu.
           Celles qui les lui faisoient sembloient s'y plaire, et comme il répondoit peu, et ne se récrioit
           point, elles l'y croyoient presque insensible, de sorte qu'elles prolongeoient un supplice dont
           elles ne s'appercevoient pas. À midi, au moment où il alloit leur demander grace, il voit entrer
           Mademoiselle d'Estival. Sans presque savoir ce qu'il faisoit, il va à elle et la débarasse d'une
           corbeille de belles cerises qu'elle apportoit à Madame de Ste. Anne. Elle avoit extrêmement chaud.
           Elle ôte son chapeau, qu'il prend aussi. Ah mon cousin, dit-elle, vous voilà arrivé ; j'en suis en
-          vérité fort aise.</p>
-        <p>Il est fort égal au lecteur que Mademoiselle d'Estival eût les yeux bleus ou noirs, qu'elle eût
+          vérité fort aise.
+    </p>
+    <p>
+     Il est fort égal au lecteur que Mademoiselle d'Estival eût les yeux bleus ou noirs, qu'elle eût
           le visage rond ou ovale, qu'elle fût petite ou grande, belle ou seulement passable. Ste. Anne
           lui-même n'y prit presque pas garde, mais il sentit en la voyant ce qu'il n'avoit jamais senti. Il
           abandonna à deux ou trois survenans le soin d'entretenir et d'écouter ses autres parentes, et suivit
@@ -124,19 +193,25 @@
           du soir elle voulut retourner chez elle, et toutes les jeunes Dames avec leur cousin la conduisirent
           jusqu'au bout de l'avenue. Ste. Anne auroit voulu la conduire plus loin, mais il venoit de pleuvoir
           un peu, et ses compagnes craignirent pour leurs robes traînantes l'herbe légérement mouillée, le
-          long de laquelle il auroit fallu passer.</p>
-        <p>Elle ne sait pas lire, dirent-elles, quand elle eut disparu. Et rentré au château, la premiere
+          long de laquelle il auroit fallu passer.
+    </p>
+    <p>
+     Elle ne sait pas lire, dirent-elles, quand elle eut disparu. Et rentré au château, la premiere
           chose que Ste. Anne entendit dire à sa mere, fut : Elle ne sait pas lire. Et qu'importe ? dit Ste.
           Anne un peu impatienté. Chacun se récria. Il ne voulut d'abord rien répondre, mais se voyant
           presser, il dit à ses parentes : j'ai déjà jetté les yeux sur tout ce qu'il y a ici de livres épars,
           et je pense qu'il eût autant valu ne les savoir pas lire ; je doute même qu'en toute votre vie vous
-          ayez lu une ligne qu'il n'eut autant valu ne lire pas.</p>
-        <p>Ces Dames trouverent cette façon de penser si étrange, qu'elles l'attribuerent les unes à de
+          ayez lu une ligne qu'il n'eut autant valu ne lire pas.
+    </p>
+    <p>
+     Ces Dames trouverent cette façon de penser si étrange, qu'elles l'attribuerent les unes à de
           l'humeur contr'elles, d'autres à une disposition générale à la mauvaise humeur ; pas une ne se
           demanda à quoi il lui avoit servi de savoir lire. Madame de Ste. Anne qui avoit beaucoup d'esprit,
           vit que son fils étoit amoureux de Mademoiselle d'Estival, et Mademoiselle de Rhedon fut fâchée
-          qu'on lui eut montré à lire.</p>
-        <p>Le lendemain matin Ste. Anne ne vit déjà plus chez les habitantes du château cette teinte
+          qu'on lui eut montré à lire.
+    </p>
+    <p>
+     Le lendemain matin Ste. Anne ne vit déjà plus chez les habitantes du château cette teinte
           générale, cette disposition presque uniforme, qu'il avoit trouvée en arrivant. Les regrets du passé,
           le soin du présent se varient selon le caractere. Madame de Ste. Anne, ferme, froide, ambitieuse,
           s'occupoit en silence du soin de réparer sa fortune, ce qui étoit d'autant plus facile qu'elle avoit
@@ -145,8 +220,10 @@
           passées avec lui, mais déja cet espoir étoit presque détruit, et un peu d'aigreur se mêloit aux
           prévenances qu'elle lui montroit encore. Mademoiselle de Kerber, naturellement gaye et caustique,
           railloit Ste. Anne, et tournoit amèrement en ridicule ceux qui avoient renversé sa fortune et ses
-          espérances. Il n'y a de disposition générale que pour les mauvais observateurs.</p>
-        <p>Vous vous ennuyerez beaucoup ici, dit Mademoiselle de Kerber à Ste. Anne pendant qu'ils
+          espérances. Il n'y a de disposition générale que pour les mauvais observateurs.
+    </p>
+    <p>
+     Vous vous ennuyerez beaucoup ici, dit Mademoiselle de Kerber à Ste. Anne pendant qu'ils
           déjeunoient ensemble. Déja vous nous avez dit que vous nous trouviez d'assez mauvaise compagnie. ---
           Vous ai-je dit cela ? A peu près, dit Mademoiselle de Kerber, et puisque vous n'aimez pas la
           lecture, que ferez-vous ? Je n'aime pas la lecture s'écria encore Ste. Anne. Madame, dit-il aussitôt
@@ -184,11 +261,15 @@
           grande promenade dans les champs et les prés des environs. Mademoiselle d'Estival montra au jeune
           homme des plantes merveilleuses contre les maux d'yeux ; mais il ne faut les cueillir, dit-elle,
           qu'après le coucher du soleil. Dans toute leur conversation, Ste. Anne lui trouva un mélange de
-          science et de simplicité fort extraordinaire.</p>
-        <p>A l'heure du dîner ils rentrerent. Je ne pense pas que Mademoiselle d'Estival veuille dîner avec
+          science et de simplicité fort extraordinaire.
+    </p>
+    <p>
+     A l'heure du dîner ils rentrerent. Je ne pense pas que Mademoiselle d'Estival veuille dîner avec
           nous, dit Mademoiselle de Kerber ; nous serions treize à table. Mademoiselle d'Estival compta
-          attentivement. Non, dit-elle, nous ne serons que onze, et elle s'assit.</p>
-        <p>Un moment après Madame de Rieux voyant une araignée sur son fichu, fait un cri perçant.
+          attentivement. Non, dit-elle, nous ne serons que onze, et elle s'assit.
+    </p>
+    <p>
+     Un moment après Madame de Rieux voyant une araignée sur son fichu, fait un cri perçant.
           Mademoiselle de Kerber sa voisine se leve et s'enfuit. Mademoiselle d'Estival qui étoit assise à
           l'autre extrêmité de la table, se leve aussi, prend l'araignée et l'emporte. Voilà ce que c'est que
           certaines éducations, dit Mademoiselle de Kerber, on manie un crapaud tout comme on feroit le plus
@@ -204,15 +285,19 @@
           les airs qu'elle entendoit. Mademoiselle de Rhedon étoit délicate, et il ne lui convenoit pas de
           chanter, mais elle jouoit fort bien de plusieurs instrumens, elle dansoit fort bien aussi.
           Mademoiselle d'Estival n'avoit jamais dansé que le bal, la gavotte, et les autres danses des
-          paysannes du pays.</p>
-        <p>Voilà comment après le retour de Ste. Anne se passerent les deux premiers jours, et beaucoup
+          paysannes du pays.
+    </p>
+    <p>
+     Voilà comment après le retour de Ste. Anne se passerent les deux premiers jours, et beaucoup
           d'autres, avec cette différence que souvent Ste. Anne restoit seul dans sa chambre pendant quelques
           heures, soit à lire, soit à écrire à un ami intime qu'il avoit. Le soir il faisoit quelquefois une
           partie de trictrac avec sa mere, quelquefois aussi il alloit visiter ses voisins, mais la
           conversation avec eux étoit resserrée dans un si petit nombre d'objets, et l'esprit de parti y
           entravoit tellement tout autre esprit, que si la politesse l'avoit fait sortir de chez lui, l'ennui
-          l'y ramenait bien vite.</p>
-        <p>Les Dames avec qui il y vivoit n'étoient pas trop contentes de lui. On le trouvoit contredisant.
+          l'y ramenait bien vite.
+    </p>
+    <p>
+     Les Dames avec qui il y vivoit n'étoient pas trop contentes de lui. On le trouvoit contredisant.
           Evitant de se disputer avec elles sur les choses il se permettoit de les attaquer sur les mots, sur
           les phrases, trouvant ceux-ci impropres, celles-là incorrectes. Par quel hazard, Monsieur le
           puriste, lui dit un jour Mademoiselle de Kerber, ne critiquez-vous jamais le langage de Mademoiselle
@@ -238,8 +323,10 @@
           pendant la belle saison, et m'occuper en automne de la récolte des fruits, qui cette année sera
           assez abondante, à ce que j'espère. Ces paroles dites avec si peu d'intention, firent une profonde
           impression sur Ste. Anne. Sa mère secoua la tête, et Mademoiselle de Rhedon, plus émue
-          qu'auparavant, quitta le sallon.</p>
-        <p>Peu de jours après, Mademoiselle d'Estival n'étant pas venue au château de toute la journée, Ste.
+          qu'auparavant, quitta le sallon.
+    </p>
+    <p>
+     Peu de jours après, Mademoiselle d'Estival n'étant pas venue au château de toute la journée, Ste.
           Anne proposa le soir une promenade, et l'on juge bien de quel côté il la dirigea. C'étoit la
           premiere fois qu'il alloit à la ferme. Il marchoit le premier. Un gros chien de garde sort
           tout-à-coup de la maison, court à lui et le mord au bras jusqu'au sang. Les cris de ses compagnes
@@ -275,11 +362,15 @@
           bagues qu'on en rapporte, puis ayant remis son habit il entra dans la maison, demanda du lait, des
           cerises, du pain qu'il partageoit avec Castor. Si vous avez un jour quelque course un peu périlleuse
           à faire, nous vous le prêterons, dit Mademoiselle d'Estival, et vous verrez qu'il sera votre ami et
-          votre défenseur.</p>
-        <p>Que Mademoiselle d'Estival est heureuse dit Mademoiselle de Rhedon à Ste. Anne qui lui donnoit le
+          votre défenseur.
+    </p>
+    <p>
+     Que Mademoiselle d'Estival est heureuse dit Mademoiselle de Rhedon à Ste. Anne qui lui donnoit le
           bras en retournant au château. Ne savoir pas lire, avoir un chien qui mord, tout tourne à son
-          avantage. Il ne trouva rien à lui répondre, et elle s'étonna d'en avoir tant dit.</p>
-        <p>Le lendemain pendant le déjeuner Mademoiselle de Kerber demanda à Ste. Anne quel si grand
+          avantage. Il ne trouva rien à lui répondre, et elle s'étonna d'en avoir tant dit.
+    </p>
+    <p>
+     Le lendemain pendant le déjeuner Mademoiselle de Kerber demanda à Ste. Anne quel si grand
           avantage il trouvoit à ne savoir pas lire, car il est clair, dit-elle que c'est là le plus grand
           mérite de Mademoiselle d'Estival et que vous lui donnez une grande préférence sur nous. Vous dites
           trop de choses à la fois, dit Ste. Anne ; simplifions un peu votre question si vous voulez que je
@@ -303,8 +394,10 @@
           pouvoit l'aider. Reconduisons Mademoiselle au moins jusqu'à la grille de l'avenue, dit Mademoiselle
           de Rhedon. Ste. Anne ne demandoit pas mieux, et on seroit allé plus loin si l'on n'eût trouvé à
           cette grille la belle-mere de Madame de Rieux, et sa sœur qui étoit la mere de Mademoiselle de
-          Kerber.</p>
-        <p>Elles étoient à Missillac lorsque Ste. Anne y étoit arrivé, mais n'y étoient pas restées, et
+          Kerber.
+    </p>
+    <p>
+     Elles étoient à Missillac lorsque Ste. Anne y étoit arrivé, mais n'y étoient pas restées, et
           elles venoient chercher l'une sa bru l'autre sa fille, de sorte qu'il ne resta au château avec ses
           maîtres que Mademoiselle de Rhedon qui y demeuroit toujours depuis la mort tragique de ses parens.
           Mademoiselle d'Estival y venoit presque tous les jours ; souvent Mademoiselle de Rhedon l'alloit
@@ -312,8 +405,10 @@
           réunir sans cesse. L'une d'elles apportoit à cette réunion une imprévoyance totale, l'autre une
           générosité extrême. Madame de Ste. Anne observoit avec inquiétude : son fils aimoit Mademoiselle
           d'Estival. Il ne s'appercevoit ni des projets de sa mere, ni du penchant de l'autre jeune personne,
-          mais il voyoit bien que Mademoiselle d'Estival l'aimoit.</p>
-        <p>Un soir on avoit parlé de revenans, et Ste. Anne qui laissoit aller communément toute opinion
+          mais il voyoit bien que Mademoiselle d'Estival l'aimoit.
+    </p>
+    <p>
+     Un soir on avoit parlé de revenans, et Ste. Anne qui laissoit aller communément toute opinion
           indifférente, venoit de combattre des terreurs fâcheuses. Il étoit tard, la soirée étoit très-belle,
           la lune sembloit s'amuser à créer des fantômes dans le parc où l'on étoit assis. Je vous reconduirai
           chez vous, dit Ste. Anne, à Mademoiselle d'Estival, vous auriez peur si vous étiez seule. Sortis du
@@ -337,23 +432,37 @@
           pourtant vous aimiez beaucoup votre précepteur. Ste. Anne embrassa sa cousine, et peu s'en fallut
           qu'il ne s'oubliât davantage. Votre cœur bat sous mon épaule, dit-elle. Auriez-vous peur ?
           Peut-être, dit-il, et en effet l'auguste présence des morts s'étoit fait sentir à lui ; leur voix
-          s'étoit fait entendre et lui avoit dit : profane arrêtez.</p>
-        <p>Un peu revenu de deux émotions si opposées Ste. Anne se souvint que les tombeaux étoient jadis
-          respectés à l'égal des autels, et après un moment de silence il récita tout haut,</p>
-        <p>Aux portes de Trezene et parmi les tombeaux</p>
-        <p>Des princes de ma race antique sépulture ---</p>
-        <p>Que dites-vous, s'écria Mademoiselle d'Estival ? sont-ce des prières ? j'espére</p>
-        <p>que la peur ne vous fait pas délirer. Non, dit Ste. Anne. Pour moi, dit-elle, je suis
+          s'étoit fait entendre et lui avoit dit : profane arrêtez.
+    </p>
+    <p>
+     Un peu revenu de deux émotions si opposées Ste. Anne se souvint que les tombeaux étoient jadis
+          respectés à l'égal des autels, et après un moment de silence il récita tout haut,
+    </p>
+    <p>
+     Aux portes de Trezene et parmi les tombeaux
+    </p>
+    <p>
+     Des princes de ma race antique sépulture ---
+    </p>
+    <p>
+     Que dites-vous, s'écria Mademoiselle d'Estival ? sont-ce des prières ? j'espére
+    </p>
+    <p>
+     que la peur ne vous fait pas délirer. Non, dit Ste. Anne. Pour moi, dit-elle, je suis
           parfaitement tranquille, et en un besoin je vous rassurerois. Ces morts, quand ils le pourroient, ne
           voudraient pas nous faire du mal, ni même nous faire peur ; à quoi cela leur serviroit-il ? Vous le
           disiez tantôt, à-présent je le crois comme vous. Vous le dites beaucoup mieux que moi, dit Ste.
-          Anne.</p>
-        <p>Mademoiselle d'Estival se remit à parler, mais Ste. Anne ne l'écoutoit pas. Voulez-vous devenir
+          Anne.
+    </p>
+    <p>
+     Mademoiselle d'Estival se remit à parler, mais Ste. Anne ne l'écoutoit pas. Voulez-vous devenir
           ma femme ? dit Ste. Anne. Ma mere, dit Mademoiselle d'Estival, m'a déja demandé si je souhaiterois
           de vous épouser, et je lui ai répondu que non. Mais à propos de ma mere je crains qu'elle ne prenne
           de l'inquiétude, il se fait tard, il faut s'en aller au logis ; nous ne marcherons pas bien vîte, et
-          chemin faisant je vous dirai ce qui me fit répondre comme j'ai fait à ma mere.</p>
-        <p>Il y a, continua-t-elle, dans le mariage quelque chose que je ne comprends pas du tout. J'ai vu à
+          chemin faisant je vous dirai ce qui me fit répondre comme j'ai fait à ma mere.
+    </p>
+    <p>
+     Il y a, continua-t-elle, dans le mariage quelque chose que je ne comprends pas du tout. J'ai vu à
           Estival une famille de paysans dans laquelle une fille aînée, méchante, acariâtre, qui tourmentoit
           son mari, battoit ses enfans, et n'avoit point d'égards pour pere ni mere, étoit soufferte et même
           considérée. On la voyoit toujours grosse, et on ne l'en ménageoit que plus. Sa sœur cadette, bonne,
@@ -404,15 +513,19 @@
           cousin --- donne-lui la patte --- l'autre patte. Voilà qui est bien. Ste. Anne, quoiqu'il ne fût
           guere en état de prendre plaisir à cet enfantillage, caressa le chien de son mieux, après quoi
           Mademoiselle d'Estival, avec une clef qu'elle avoit dans sa poche, ouvrit la porte de la maison, et
-          tendant la main à Ste. Anne serra la sienne et lui souhaita le bon soir.</p>
-        <p>On l'attendoit au château avec une extrême impatience. Où avez-vous été si longtems ? lui dit
+          tendant la main à Ste. Anne serra la sienne et lui souhaita le bon soir.
+    </p>
+    <p>
+     On l'attendoit au château avec une extrême impatience. Où avez-vous été si longtems ? lui dit
           assez sèchement Madame de Ste. Anne. Sur le cimetiere du village, répondit le jeune homme. --- Seul,
           ou avec Mademoiselle d'Estival ? Ste. Anne fit semblant de ne pas entendre, et comme s'il eût oublié
           quelque chose sortit de la chambre, rentra, se mit à table, affectant une contenance aisée et une
           entiere liberté d'esprit. Une demi-heure après on lui remit une lettre : il reconnut l'écriture de
           Mademoiselle de Kerber, rompit le cachet, et après avoir parcouru des yeux toute la lettre, il lut
-          haut ce qui suit.</p>
-        <p>« Vous allez triompher, mon cousin, et j'en suis fâchée. Mais l'histoire est trop bonne pour ne
+          haut ce qui suit.
+    </p>
+    <p>
+     « Vous allez triompher, mon cousin, et j'en suis fâchée. Mais l'histoire est trop bonne pour ne
           me pas donner le plaisir de la raconter. Nous lisions ce matin un roman sublime. L'héroïne
           supportoit avec une patience angélique des malheurs inouïs. À la mort d'un mari adoré, elle coupe
           les plus beaux cheveux du monde, et les dépose dans le cercueil. Nous pleurions Madame de Rieux et
@@ -437,14 +550,18 @@
           ensuite nous faisons ce qui nous convient. Vouliez-vous que je me montrasse échevelée ? --- C'est
           trop fort cela ; mais moi si j'ai moins mal raisonné sur ma lecture, je n'en ai pas mieux profité,
           ni ma mere non plus. Bref, il se pourroit bien que vous eussiez raison, et qu'il valût autant pour
-          nous ne savoir pas lire. »</p>
-        <p>Je ne crois pas, dit Mademoiselle de Rhedon, que de petits accidens me fissent oublier les
+          nous ne savoir pas lire. »
+    </p>
+    <p>
+     Je ne crois pas, dit Mademoiselle de Rhedon, que de petits accidens me fissent oublier les
           conseils que viendroit de me donner un livre ; ils sont comme ceux d'un ami ; mais il y a des peines
           qui rendroient inutiles pour moi tout ce que j'aurois pu lire ou entendre dire de plus raisonnable.
           Ses yeux en disant cela se remplirent de larmes. Votre enfance a été assaillie par l'infortune, dit
           Ste. Anne ; malheur à qui désormais vous affligeroit volontairement Volontairement ce n'est pas ce
-          que je crains, dit Mademoiselle de Rhedon. Mais elle parloit à un homme qui ne pouvoit l'entendre.</p>
-        <p>Madame de Ste. Anne les ayant quittés pendant qu'on lisoit la lettre de Mademoiselle de Kerber,
+          que je crains, dit Mademoiselle de Rhedon. Mais elle parloit à un homme qui ne pouvoit l'entendre.
+    </p>
+    <p>
+     Madame de Ste. Anne les ayant quittés pendant qu'on lisoit la lettre de Mademoiselle de Kerber,
           Mademoiselle de Rhedon crut qu'il falloit se retirer aussi. Vingt fois avant de quitter Ste. Anne
           elle fut sur le point de répéter la question de sa mere : étiez-vous sur le cimetiere seul ou avec
           Mademoiselle d'Estival ? Il lui sembloit que s'il avoit arrêté dans cet endroit lugubre cette fille
@@ -452,21 +569,27 @@
           répondre à sa mere, craignant de voir s'établir une surveillance inquisitive et importune, mais à
           moi il me répondra. Si mon sort est décidé que je le sache. Je supporterai tout --- mieux que
           l'incertitude. Vingt fois elle ouvrit la bouche, mais les mots qu'il falloit prononcer expiroient
-          sur ses lèvres.</p>
-        <p>Retiré dans sa chambre, Ste. Anne, après beaucoup de réflexions et de rêveries, voyant qu'il ne
+          sur ses lèvres.
+    </p>
+    <p>
+     Retiré dans sa chambre, Ste. Anne, après beaucoup de réflexions et de rêveries, voyant qu'il ne
           pourroit dormir voulut écrire. Il commença une lettre à son ami Tonquedec, à qui il avoit rendu
           compte très-régulièrement de lui-même et de tout ce qui l'entouroit, depuis le moment de son retour
           à Missillac ; mais cette fois il se sentit embarrassé à lui écrire, et il auroit beaucoup mieux aimé
-          le voir et lui parler.</p>
-        <p>Un homme de sens et de cœur ne s'avoue qu'avec répugnance qu'il est amoureux, c'est-à-dire,
+          le voir et lui parler.
+    </p>
+    <p>
+     Un homme de sens et de cœur ne s'avoue qu'avec répugnance qu'il est amoureux, c'est-à-dire,
           subjugué et privé d'une partie de sa raison. L'aveu en est encore plus difficile à faire à un autre,
           et sur-tout à un ami qu'on estime et dont on a besoin d'être estimé pour s'honorer soi-même. On sent
           bien que cet aveu ne nous fera rien gagner dans son opinion, et on ne sait pas au juste combien il
           peut nous y faire perdre. D'ailleurs l'amitié pourra être jalouse de l'amour. Que faire donc ? Ste.
           Anne se détermina à répondre à Mademoiselle de Kerber ; il se flatta qu'en attachant son esprit à
           une question vraîment intéressante, il réussiroit à se distraire et à calmer l'agitation qu'il avoit
-          rapportée du cimetiere et de la ferme. Voici sa lettre.</p>
-        <p>« Où avez-vous pris, ma très-aimable cousine, votre candeur et votre excellent esprit ? Si vous
+          rapportée du cimetiere et de la ferme. Voici sa lettre.
+    </p>
+    <p>
+     « Où avez-vous pris, ma très-aimable cousine, votre candeur et votre excellent esprit ? Si vous
           en devez la moindre partie à vos livres, je me réconcilie avec eux, et même je leur rends
           très-humblement hommage. Il ne s'agit que d'être ce qu'on peut être de mieux pour soi et les autres.
           N'importe alors d'où cela nous est venu, et si c'est de lire ou de réfléchir, de lire ou de voir et
@@ -481,13 +604,17 @@
           s'étendre à la lecture de toute pièce de théatre, et en général à presque toutes les lectures des
           femmes et des jeunes gens. Lisez cette lettre, ma cousine, puisqu'on vous a appris à lire, et
           qu'elle acheve de vous persuader que ce qui arriva hier matin chez vous arrive par-tout et à tout le
-          monde.</p>
-        <p>Quant aux livres de science, je ne les trouve guere plus utiles que les romans, pour quiconque
+          monde.
+    </p>
+    <p>
+     Quant aux livres de science, je ne les trouve guere plus utiles que les romans, pour quiconque
           n'en fait qu'une étude superficielle ou qui ne se borne pas à étudier des sciences analogues à sa
           profession, et quand je vois un homme de loi s'occuper des beaux arts, un sculpteur de la politique,
           un médecin de la guerre, s'il parle mal je leve les épaules, s'il parle bien je désire qu'il change
-          d'état.</p>
-        <p>Ma cousine, je ne suis point fâché de voir s'anéantir les anciennes écoles, et les nouvelles ne
+          d'état.
+    </p>
+    <p>
+     Ma cousine, je ne suis point fâché de voir s'anéantir les anciennes écoles, et les nouvelles ne
           s'établir point. Que la science soit de difficile accès. Que le talent la viole pour ainsi dire. Que
           ce soit le feu du ciel dérobé courageusement par quelque Prométhée. Que ce soit la toison d'or,
           l'objet des vœux et des efforts des vaillans Argonautes, et qu'il faille pour la conquérir des
@@ -543,15 +670,21 @@
           d'ailleurs où m'adresser mieux ? Tonquedec n'est pas ici, Mademoiselle de Rhedon est trop jeune.
           J'ai d'honnêtes gens de voisins --- Mais si je dispense de la science, je ne dispense pas de
           l'esprit --- je crains par-dessus tout la sottise. Venez donc, car vous êtes pleine d'esprit, et si
-          vous voulez me servir vous y réussirez. »</p>
-        <p>Le jour venu, Ste. Anne alla courir les champs et vint se reposer dans le parc, où il resta
-          jusqu'à ce qu'une cloche l'appellât au déjeuner.</p>
-        <p>Sa mere remarqua que depuis la veille il ne s'etoit pas déshabillé, et lui fit quelques questions
+          vous voulez me servir vous y réussirez. »
+    </p>
+    <p>
+     Le jour venu, Ste. Anne alla courir les champs et vint se reposer dans le parc, où il resta
+          jusqu'à ce qu'une cloche l'appellât au déjeuner.
+    </p>
+    <p>
+     Sa mere remarqua que depuis la veille il ne s'etoit pas déshabillé, et lui fit quelques questions
           qui l'embarasserent. C'est assez l'usage des autorités que de questionner. Si les réponses
           articulées sont mensongeres, les yeux plus vrais disent communément tout ce qu'on veut savoir. Après
           déjeuner Madame de Ste. Anne dit à son fils de la suivre dans un endroit du jardin où elle étoit
-          sûre que leur conversation ne seroit pas interrompue.</p>
-        <p>Ne pensez pas, dit-elle, que rien de ce qui s'est passé dans votre esprit m'ait échappé.
+          sûre que leur conversation ne seroit pas interrompue.
+    </p>
+    <p>
+     Ne pensez pas, dit-elle, que rien de ce qui s'est passé dans votre esprit m'ait échappé.
           J'espérais qu'un premier écart de votre jugement n'auroit pas des conséquences si longues, et que
           vous trouvant sans cesse entre l'esprit brut et l'esprit cultivé, entre une nature rude et grossiere
           et les talens rendus plus agréables par l'étude et le goût, vous choisiriez enfin comme vous le
@@ -582,9 +715,11 @@
           ne lui fut pas possible de proférer une parole de reconnoissance. J'en ai dit assez sur Mademoiselle
           d'Estival, continua Madame de Ste. Anne, parlons de Mademoiselle de Rhedon, qui depuis longtems vous
           est destinée. Son pere, près d'aller à la mort, me la fit recommander, et exprima le vœu qu'elle
-          devînt ma fille. Pourrois-je ne pas remplir un vœu que tout me rend sacré ?<ref target="#N1"/>
-        </p>
-        <p>Ste. Anne se tut, quoique sa mere, ayant rendu son ton imposant à la fois et pathétique,
+          devînt ma fille. Pourrois-je ne pas remplir un vœu que tout me rend sacré ?
+     <ref target="#N1"/>
+    </p>
+    <p>
+     Ste. Anne se tut, quoique sa mere, ayant rendu son ton imposant à la fois et pathétique,
           s'attendît à une réponse. Le silence qu'il garda disoit : Si vous pouviez sans moi remplir ce vœu,
           vous pourriez le regarder comme entierement obligatoire ; mais actuellement ne pouvant que
           m'exhorter, vos obligations ne vont pas plus loin, et de ce moment vous les pouvez tenir pour
@@ -609,8 +744,10 @@
           tendre, et depuis longtems votre mariage avec elle est l'objet de tous mes vœux. Elle est belle,
           bien née, bien élevée et très-riche. Elle me plaît et me convient. Vous l'épouserez, si vous voulez
           que je ne me repente pas des soins et des sacrifices que je vous ai prodigués, et que ma tendresse
-          ne se change pas en froideur et dégoût.</p>
-        <p>En disant ces derniers mots Madame de Ste. Anne, qui s'étoit levée, ne regardoit déja plus son
+          ne se change pas en froideur et dégoût.
+    </p>
+    <p>
+     En disant ces derniers mots Madame de Ste. Anne, qui s'étoit levée, ne regardoit déja plus son
           fils. Elle s'éloigna le laissant dans une situation d'esprit impossible à décrire. Treve de logique
           --- Laissons-là votre casuisterie --- répétoit-il tout haut. Mais si ce qu'on venoit de lui dire ne
           faisoit sur lui qu'une impression fâcheuse d'aigreur et de mécontentement, ce qu'on avoit fait pour
@@ -625,8 +762,10 @@
           l'amour, c'est à l'ambition maternelle ou à l'ambition personnelle, que le sacrifice a été fait.
           D'ailleurs demandois-je ce sacrifice ? Ma mere, que n'épousiez-vous Monsieur de Rhedon, et que ne me
           laissez-vous épouser Mademoiselle d'Estival ? Mais sans doute vous n'aimiez pas beaucoup votre
-          amant, et peut-être n'aimez vous guere plus votre fils.</p>
-        <p>Le dîner étoit presque fini quand Ste. Anne vint se mettre à table. Heureusement on avoit du
+          amant, et peut-être n'aimez vous guere plus votre fils.
+    </p>
+    <p>
+     Le dîner étoit presque fini quand Ste. Anne vint se mettre à table. Heureusement on avoit du
           monde ; les excuses qu'il fit, furent reçues, et il n'eut point à supporter des regards trop
           attentifs de la part de sa mere. Mais Mademoiselle de Rhedon changea de couleur lorsqu'elle le vit,
           et qu'elle lui demanda d'où vient il étoit pâle, et s'il étoit malade. Il l'assura qu'il se portoit
@@ -640,23 +779,36 @@
           sache pas lire. Ces derniers mots étoient devenus si importans pour Mademoiselle de Rhedon et pour
           Ste. Anne, ils renfermoient tant d'idées ; ils rappelloient des souvenirs d'un intérêt si vif, que
           l'un rougit en les prononçant, et l'autre en les entendant prononcer. Madame de Ste. Anne qui vit
-          qu'il y avoit entre eux un entretien assez animé, se flatta de n'avoir pas parlé en vain.</p>
-        <p>Vers le soir, Ste. Anne se résolut à aller à Tonquedec chez son ami.</p>
-        <p>Le fidelle Herfrey, Gaulois ou non Gaulois,<ref target="#N2"/>
-          mais bas Breton de la meilleure étoffe, ayant été chargé de différens ordres devoit rester à
+          qu'il y avoit entre eux un entretien assez animé, se flatta de n'avoir pas parlé en vain.
+    </p>
+    <p>
+     Vers le soir, Ste. Anne se résolut à aller à Tonquedec chez son ami.
+    </p>
+    <p>
+     Le fidelle Herfrey, Gaulois ou non Gaulois,
+     <ref target="#N2"/>
+     mais bas Breton de la meilleure étoffe, ayant été chargé de différens ordres devoit rester à
           Missillac jusqu'au lendemain à la pointe du jour, et partir alors pour Ste. Anne où seroit son
-          maître.</p>
-        <p>C'étoit le berceau de sa famille que Ste. Anne alloit visiter.</p>
-        <p>Dans une des dépendances d'un vieux château dégradé et tombant en ruines, demeuroit un Fermier
+          maître.
+    </p>
+    <p>
+     C'étoit le berceau de sa famille que Ste. Anne alloit visiter.
+    </p>
+    <p>
+     Dans une des dépendances d'un vieux château dégradé et tombant en ruines, demeuroit un Fermier
           avec sa femme et son fils. La lune et les brillantes étoiles avoient éclairé les pas du voyageur, et
           le soleil commençoit à les effacer du ciel, quand il arriva au gîte. Il heurta. Personne n'étoit
           encore levé, et comme dans ces tems malheureux tout dispose à la défiance, on eut peur ; mais il dit
           son nom et on ouvrit. Ces gens étoient parens de Herfrey. Un mauvais lit lui fut d'abord préparé. On
           eut pourtant des draps bien blancs à y mettre, et Ste. Anne, fatigué par deux nuits de veille et par
-          une course assez longue, s'y coucha et dormit, comme s'il n'avoit eu ni amour ni chagrin.</p>
-        <p>Quand il fut réveillé, sa premiere pensée fut pour sa maîtresse --- Mais retournons sur nos pas,
-          c'est-à-dire, à Missillac et au moment du départ de Ste. Anne.</p>
-        <p>Mademoiselle de Rhedon le vit partir. Il pouvoit bien n'aller faire qu'une promenade. Peut-être
+          une course assez longue, s'y coucha et dormit, comme s'il n'avoit eu ni amour ni chagrin.
+    </p>
+    <p>
+     Quand il fut réveillé, sa premiere pensée fut pour sa maîtresse --- Mais retournons sur nos pas,
+          c'est-à-dire, à Missillac et au moment du départ de Ste. Anne.
+    </p>
+    <p>
+     Mademoiselle de Rhedon le vit partir. Il pouvoit bien n'aller faire qu'une promenade. Peut-être
           alloit-il voir Mademoiselle d'Estival ; mais quelque chose d'un peu plus grave dans sa démarche, des
           pas plus égaux, un maintien plus composé qu'à l'ordinaire, je ne sais quoi enfin de presque
           indéfinissable, avertit Mademoiselle de Rhedon qu'il se mettoit en voyage. Si elle n'en fut pas
@@ -666,23 +818,31 @@
           quitté le château, et elle fut rassurée. Mademoiselle de Rhedon en fut plus inquiete, pensant qu'il
           voyageoit seul et de nuit. Elle prétexta un grand mal de tête, et dit qu'elle s'alloit coucher.
           Herfrey l'attendoit au passage. Sans que sa femme de chambre le vît, il lui remit adroitement une
-          lettre.</p>
-        <p>Mademoiselle de Rhedon ordonna qu'on la laissât seule, et, ouvrant la lettre d'une main
-          tremblante, elle lut ce qui suit.</p>
-        <p>« Je pars ma belle cousine, je pars, il le faut ; ma mere a pour moi des projets, auxquels dans
+          lettre.
+    </p>
+    <p>
+     Mademoiselle de Rhedon ordonna qu'on la laissât seule, et, ouvrant la lettre d'une main
+          tremblante, elle lut ce qui suit.
+    </p>
+    <p>
+     « Je pars ma belle cousine, je pars, il le faut ; ma mere a pour moi des projets, auxquels dans
           ce moment je ne puis souscrire. Que ne suis-je assuré que vous les avez ignorés, ou que vous les
           avez regardés avec indifférence Vos dédains, quoique peut-être je ne les eusse pas mérités,
           m'affligeroient moins que des regrets trop flatteurs. Je vous recommande Mademoiselle d'Estival ;
           daignez lui dire qu'elle ne soit pas en peine de moi, que je suis allé voir un ami, et n'ai pu
           prendre congé d'elle. Quand elle pourroit lire ma lettre, je ne lui écrirois pas. Elle n'aura de mes
           nouvelles que par vous. J'ai pris vingt fois la plume pour écrire à Madame de Ste. Anne, ma main n'a
-          pas pu tracer un seul mot. Adieu, ma belle, mon aimable, ma généreuse cousine, adieu. »</p>
-        <p>Herfrey n'eut pas plutôt remis la lettre, qu'il sortit du château et s'en alla chez le Jardinier
+          pas pu tracer un seul mot. Adieu, ma belle, mon aimable, ma généreuse cousine, adieu. »
+    </p>
+    <p>
+     Herfrey n'eut pas plutôt remis la lettre, qu'il sortit du château et s'en alla chez le Jardinier
           ; de sorte que lorsque Madame de Ste. Anne l'envoya chercher, on ne le trouva pas, et il échappa à
           toutes les questions qu'elle se proposoit de lui faire. Le lendemain à la pointe du jour, il partit,
           après avoir chargé le Jardinier de faire dire à Madame de Ste. Anne, que son fils alloit voir un
-          ami, et seroit absent pendant quelques jours.</p>
-        <p>Peu s'en fallut que dans sa colere Madame de Ste. Anne ne fît dire à Mademoiselle d'Estival de ne
+          ami, et seroit absent pendant quelques jours.
+    </p>
+    <p>
+     Peu s'en fallut que dans sa colere Madame de Ste. Anne ne fît dire à Mademoiselle d'Estival de ne
           pas remettre les pieds au château ; et elle l'auroit fait, sans égard pour le malheur et
           l'innocence, si elle n'avoit craint de faire connoître par-là à Mademoiselle de Rhedon son chagrin
           et la passion de son fils. Elle savoit d'ailleurs que les humiliations qu'on attire à l'objet aimé
@@ -696,8 +856,10 @@
           obstacle à ce qu'il pût rechercher sa main ; mais elle n'y voyoit pas clairement que cet obstacle
           fût Mademoiselle d'Estival. Mademoiselle de Rhedon, sans être vaine, connoissoit ses avantages, et
           voyoit bien que Madame de Ste. Anne ne vouloit pas de Mademoiselle d'Estival pour sa bru. D'ailleurs
-          l'amour, s'il a ses craintes mal fondées, est encore plus fécond en douces erreurs.</p>
-        <p>Ste. Anne, éloigné de Missillac, ne laissoit pas de voir ce qui s'y passoit, comme s'il y eut
+          l'amour, s'il a ses craintes mal fondées, est encore plus fécond en douces erreurs.
+    </p>
+    <p>
+     Ste. Anne, éloigné de Missillac, ne laissoit pas de voir ce qui s'y passoit, comme s'il y eut
           été. Il se souvenoit des menaces de sa mere relativement à Madame et à Mademoiselle d'Estival ; il
           se souvenoit aussi des froideurs qui, pendant un tems, avoient rendu pénibles, pour la jeune
           personne, ses visites au château. Si ma mere étoit froide et hautaine avant qu'aucun ressentiment
@@ -721,8 +883,10 @@
           nom de la loi, soit contre une multitude forte de son audace. Je suis fâché, familles antiques de
           chouettes et de chats-huans, dit Ste. Anne, je suis fâché de devoir détruire vos demeures ; mais
           tout de même vous n'y pourriez rester ; vous effrayeriez par vos cris celle à qui je veux offrir un
-          asyle riant et agréable.</p>
-        <p>Herfrey n'étant point arrivé encore, Ste. Anne courut à Auray, et trouva un homme entendu qu'il
+          asyle riant et agréable.
+    </p>
+    <p>
+     Herfrey n'étant point arrivé encore, Ste. Anne courut à Auray, et trouva un homme entendu qu'il
           chargea de visiter son château, et de voir ce qu'on en pourroit conserver, après avoir abattu les
           vieilles tours et tous les vestiges surannés de la féodalité détruite. Cet examen fait avec soin, il
           devoit ensuite faire un plan et un devis, que Ste. Anne verroit à son retour de Tonquedec, et
@@ -733,8 +897,10 @@
           actes de cruauté. Qu'importe qu'on sacrifie ses semblables à un Dieu qu'on a mal conçu, ou à
           soi-même, à ses propres ressentimens, à sa propre cupidité ? Le paganisme eut ses victimes. Le
           christianisme eut les siennes, et la philosophie n'épargne pas ceux qu'elle regarde comme ses
-          ennemis.</p>
-        <p>Ste. Anne, pour méditer plus à son aise, s'étoit assis à l'entrée d'un bois sur le tronc d'un
+          ennemis.
+    </p>
+    <p>
+     Ste. Anne, pour méditer plus à son aise, s'étoit assis à l'entrée d'un bois sur le tronc d'un
           arbre abattu. Deux hommes se promenoient près de lui, à l'ombre de quelques vieux chênes, et comme
           si le lieu eût inspiré à chacun des réflexions à-peu-près semblables, il entendit l'un de ces hommes
           dire à l'autre : Nos curés avoient des nieces, mais qu'on aille voir si nos Solons n'ont pas des
@@ -761,11 +927,15 @@
           celui-là sur-tout qui espéroit quelque chose de son séjour dans le canton. C'est lui, dit l'autre.
           Je l'avois à demi reconnu à sa ressemblance avec son pere ; mais l'air dont-il vous a salué m'assure
           que c'est lui. Tant mieux, dit son ami, car il a une physionomie excellente et à laquelle je me suis
-          d'abord affectionné.</p>
-        <p>Herfrey arrivoit à Ste. Anne, au même moment où son maître y revenoit. Il rendit compte de ce
+          d'abord affectionné.
+    </p>
+    <p>
+     Herfrey arrivoit à Ste. Anne, au même moment où son maître y revenoit. Il rendit compte de ce
           qu'il avoit fait à Missillac, et dit que Mademoiselle de Rhedon avoit pâli, et que sa main avoit
-          tremblé, en prenant la lettre qu'il lui avoit remise. Du reste il ne savoit rien.</p>
-        <p>Le soir même les deux voyageurs prirent la route de Tonquedec, où ils arriverent sans accident.
+          tremblé, en prenant la lettre qu'il lui avoit remise. Du reste il ne savoit rien.
+    </p>
+    <p>
+     Le soir même les deux voyageurs prirent la route de Tonquedec, où ils arriverent sans accident.
           Il étoit nuit ; un vieux domestique, avec un chien et une lanterne, faisoit la ronde autour du
           château, pour lever ensuite le pont. Qui va là ? cria-t-il aux voyageurs. Ste. Anne et Herfrey, lui
           répondit une voix bien connue. Ah mon Dieu soyez les bien-venus, s'écria le vieux Duval. Mais que je
@@ -776,8 +946,10 @@
           Marie-Ursule ? où êtes-vous ? vîte un rôti à la broche, une salade et des œufs. Puis des draps, et
           que la chambre de feu Madame de Tonquedec, qui est la plus belle, soit bien balayée, avant qu'on y
           fasse le lit de l'ami de mon maître. --- Honnête et simple hospitalité des vieux tems, combien je
-          vous respecte</p>
-        <p>Le serein, tombé ce soir là avec abondance, avoit rendu humide le vêtement des voyageurs. Duval
+          vous respecte
+    </p>
+    <p>
+     Le serein, tombé ce soir là avec abondance, avoit rendu humide le vêtement des voyageurs. Duval
           alluma un feu clair et pétillant dont il les obligea de s'approcher ; et tout en rassemblant sur le
           foyer les éclats qui s'éparpilloient, il raconta les histoires du pays, et comment son maître, après
           sa longue absence, avoit été accueilli de ses domestiques et de ses anciens vassaux, qui n'avoient
@@ -788,14 +960,18 @@
           quoiqu'à-présent il soit riche et parfaitement son propre maître, il s'ennuye ici. Aussi le
           pressons-nous tous de se marier ; et puisse-t-il trouver une femme qui ressemble à sa mere Duval
           pour le moment en resta là, et fut presser les préparatifs du souper, qui, à son gré, se faisoient
-          trop lentement.</p>
-        <p>Le lendemain, après une nuit comme on n'en a guere que dans un voyage pédestre, Ste. Anne alla
+          trop lentement.
+    </p>
+    <p>
+     Le lendemain, après une nuit comme on n'en a guere que dans un voyage pédestre, Ste. Anne alla
           revoir des lieux chers à son souvenir. Son pere avoit été le meilleur ami de Monsieur de Tonquedec,
           et Monsieur de Tonquedec qui l'aimoit autant que son propre fils, l'avoit souvent chez lui avec son
           précepteur. L'enfant y étoit plus heureux qu'à Missillac, car Madame de Ste. Anne étoit plus
           imposante que caressante, et elle avoit toujours pris plus de soin de la fortune de son fils, que de
-          son plaisir.</p>
-        <p>Quand Ste. Anne se fut bien promené autour du château, et se fut baigné dans la petite riviere
+          son plaisir.
+    </p>
+    <p>
+     Quand Ste. Anne se fut bien promené autour du château, et se fut baigné dans la petite riviere
           qui passe tout auprès, il revint s'établir dans la chambre de son ami, et se mit à lui écrire. En
           venant chez lui, il avoit eu le double motif de le voir et de s'éloigner de Missillac. L'y aller
           trouver tout de suite ne lui paroissoit pas raisonnable. L'obliger à revenir chez lui tout de suite
@@ -807,10 +983,14 @@
           qu'il seroit bien doux de faire renaître ; mais le plus souvent il faut se contenter de se les
           rappeller. Donnons-leur l'habitude de venir souvent se présenter à nous. Ils égayeront notre
           existence, et éloigneront d'autres souvenirs qui nous hantent comme de lugubres fantômes,
-          s'attachant à nous pour nous tourmenter.</p>
-        <p>La lettre de Ste. Anne n'étoit pas encore achevée, quand Duval vint lui dire que son dîner
-          l'attendoit.</p>
-        <p>Ste. Anne ne put engager Duval à s'asseoir auprès de lui, mais rien ne fut si aisé que de le
+          s'attachant à nous pour nous tourmenter.
+    </p>
+    <p>
+     La lettre de Ste. Anne n'étoit pas encore achevée, quand Duval vint lui dire que son dîner
+          l'attendoit.
+    </p>
+    <p>
+     Ste. Anne ne put engager Duval à s'asseoir auprès de lui, mais rien ne fut si aisé que de le
           faire parler. Herfrey qui servoit son maître, sourioit quelquefois de la loquacité de ce Nestor des
           laquais. Je disois hier au soir que nous souhaitions tous que notre maître se mariât, dit Duval,
           pourvu toute fois qu'il trouvât une femme qui valût sa défunte mere, excellente Dame pieuse,
@@ -831,8 +1011,10 @@
           vous ? d'une Mademoiselle d'Estival ? A ce mot Ste. Anne devint pâle comme la mort. Duval qui étoit
           presque derrière lui, la main posée sur sa chaise, ne le vit pas ; mais Herfrey le vit si bien,
           qu'il se hâta de présenter un verre de vin à son maître. Buvez, Monsieur, buvez, dit-il d'un ton qui
-          surprit Ste. Anne. Il regarda Herfrey, rougit et sourit.</p>
-        <p>Ce fut, reprit Duval, un mot que mon maître jetta dans le discours, qui me donna cette idée que
+          surprit Ste. Anne. Il regarda Herfrey, rougit et sourit.
+    </p>
+    <p>
+     Ce fut, reprit Duval, un mot que mon maître jetta dans le discours, qui me donna cette idée que
           je viens de vous dire. Je la ruminai à part-moi jusqu'au lendemain, et alors je lui dis : mais,
           Monsieur, peut-être que votre ami prendra pour lui cette Demoiselle. Bon dit mon maître, sa mere
           n'est pas femme à lui laisser épouser une orpheline ruinée. Elle a chez elle une fille fort riche,
@@ -870,8 +1052,10 @@
           revenir à lui, il se leva brusquement, et, la main sur le front, pour cacher son trouble, il courut
           prendre l'air. Duval lui porta du café dans le jardin, et ne soupçonnant pas ce qu'il lui avoit fait
           éprouver de mortelle peine, il lui conseilla de se reposer dans un endroit bien ombragé, qu'il lui
-          montra, jusqu'à ce que le mal de tête qu'il paroissoit avoir se fût dissipé.</p>
-        <p>Rentré au château, Ste. Anne déchira sa lettre. Vingt projets différens se présenterent à son
+          montra, jusqu'à ce que le mal de tête qu'il paroissoit avoir se fût dissipé.
+    </p>
+    <p>
+     Rentré au château, Ste. Anne déchira sa lettre. Vingt projets différens se présenterent à son
           esprit. Il repoussa tout ce qui n'étoit pas digne d'une ame ferme et généreuse, et celui qui auroit
           voulu être porté à Missillac sur les aîles du vent, résolut d'y retourner à pied, et de passer,
           comme il l'avoit fait en venant, par Ste. Anne et par Auray. Il ne faut pas, se disoit-il, manquer
@@ -885,8 +1069,10 @@
           Tonquedec ne pouvoit déplaire, il valoit mieux que lui ; un peu plus froid, il étoit plus
           raisonnable. Mademoiselle d'Estival ne viendroit donc point habiter Ste. Anne, mais, lui, il y
           viendroit demeurer, et s'y trouveroit moins malheureux qu'à Missillac, quand elle s'en seroit
-          éloignée.</p>
-        <p>L'architecte venoit de le quitter, et il se promenoit devant le château n'attendant que Herfrey
+          éloignée.
+    </p>
+    <p>
+     L'architecte venoit de le quitter, et il se promenoit devant le château n'attendant que Herfrey
           pour partir. Il craignoit son retour chez lui et cependant il auroit voulu le hâter. Peut-être
           arriverai-je, se disoit-il, avant que Tonquedec se soit décidé. --- Il alloit donc se mettre en
           chemin, quand les deux hommes dont on a déja parlé se présentèrent, et lui dirent, en se nommant,
@@ -926,22 +1112,30 @@
           l'informant de leurs occupations actuelles et des choses auxquelles ils s'entendoient le mieux, ils
           lui offrirent, l'un sa surveillance sur son bâtiment, l'autre son secours pour une meilleure culture
           de ses terres. Ste. Anne accepta tout avec une obligeante confiance, sachant que la discrétion n'est
-          point ce qui fait plaisir à un homme officieux de bonne foi.</p>
-        <p>Amenez-nous, dirent ces deux hommes à Ste. Anne en le quittant, une femme qui vous ressemble,
+          point ce qui fait plaisir à un homme officieux de bonne foi.
+    </p>
+    <p>
+     Amenez-nous, dirent ces deux hommes à Ste. Anne en le quittant, une femme qui vous ressemble,
           dont le maintien et la conduite lui attirent autant d'égards que d'affection, et qui ne soit, pour
           ainsi dire, d'aucun siecle, afin de mieux convenir à tous, depuis l'âge d'or jusqu'au nôtre. Hélas
           dit Ste. Anne, j'avois presque espéré vous l'amener. Sentant son visage changer et ses yeux se
           remplir de larmes, il s'excusa de sa foiblesse. Pourquoi s'excuser ? pourquoi ? s'écrierent les deux
           hommes. Cet aimable abandon nous attache à vous, et dans ces tems d'égoïsme et de défiance, les
-          affections particulieres sont de quelque prix : elles font la douceur et la consolation de la vie.</p>
-        <p>Ste. Anne quitta le Fermier et sa famille, le vieux manoir et les chouettes condamnées à un
-          triste bannissement ; il les quitta onze jours après son départ de Missillac.</p>
-        <p>Il y en avoit cinq que son ami y étoit. Voyageant à cheval, ainsi que Franc son filleul, son
+          affections particulieres sont de quelque prix : elles font la douceur et la consolation de la vie.
+    </p>
+    <p>
+     Ste. Anne quitta le Fermier et sa famille, le vieux manoir et les chouettes condamnées à un
+          triste bannissement ; il les quitta onze jours après son départ de Missillac.
+    </p>
+    <p>
+     Il y en avoit cinq que son ami y étoit. Voyageant à cheval, ainsi que Franc son filleul, son
           éleve, qui l'avoit accompagné déja dans de plus grands voyages, il n'avoit pas fallu deux jours à
           Tonquedec, pour traverser obliquement la péninsule dans toute sa largeur. Déja en chemin il avoit
           appris qu'il ne trouveroit pas Ste. Anne ; mais ce contretems n'étoit pas si fâcheux qu'il
-          l'empêchât d'éprouver du plaisir en arrivant à Missillac.</p>
-        <p>Il vit dans l'avenue les deux jeunes personnes dont son ami lui avoit parlé, et il n'eut pas de
+          l'empêchât d'éprouver du plaisir en arrivant à Missillac.
+    </p>
+    <p>
+     Il vit dans l'avenue les deux jeunes personnes dont son ami lui avoit parlé, et il n'eut pas de
           peine à reconnoître chacune d'elles. Mademoiselle d'Estival tiroit son charme de sa fraîcheur et de
           sa physionomie ; Mademoiselle de Rhedon, de la délicate régularité de ses traits. La taille de
           Mademoiselle d'Estival étoit plus haute, celle de Mademoiselle de Rhedon plus élégante. Dans les
@@ -953,8 +1147,10 @@
           fâcheux, dit Tonquedec, qu'il ne me trouve pas chez moi : il ne sera pas dédommagé comme je le suis.
           Mademoiselle de Rhedon fit à ce compliment une réponse polie et modeste. On ramena Mademoiselle
           d'Estival à la ferme, puis Mademoiselle de Rhedon revint au château avec Tonquedec. Chemin faisant
-          ils louerent Mademoiselle d'Estival.</p>
-        <p>Après les premiers discours d'usage entre Tonquedec et Madame de Ste. Anne, Tonquedec parla de
+          ils louerent Mademoiselle d'Estival.
+    </p>
+    <p>
+     Après les premiers discours d'usage entre Tonquedec et Madame de Ste. Anne, Tonquedec parla de
           Mademoiselle d'Estival ; et Madame de Ste. Anne, soit qu'elle entrevît le motif qui l'avoit amené,
           soit qu'elle imaginât tout à coup le parti qu'elle pourroit tirer de son voyage, loua Mademoiselle
           d'Estival encore plus que n'avoit fait Mademoiselle de Rhedon. Celle-ci fut surprise, ayant toujours
@@ -962,13 +1158,17 @@
           Rhedon ignoroit qu'à dessein on s'abstient de louer, qu'on loue aussi à dessein et pour qu'il en
           résulte telle ou telle chose, non pas parce qu'on approuve ou admire. Elle avoit loué sans dessein,
           et ne devina pas le but des éloges de Madame de Ste. Anne ; mais comme Madame de Ste. Anne, elle
-          souhaita que Mademoiselle d'Estival plût à Tonquedec.</p>
-        <p>Le lendemain, sous prétexte de concerter avec Mademoiselle d'Estival une visite qu'elle imagina
+          souhaita que Mademoiselle d'Estival plût à Tonquedec.
+    </p>
+    <p>
+     Le lendemain, sous prétexte de concerter avec Mademoiselle d'Estival une visite qu'elle imagina
           de lui faire faire avec Mademoiselle de Rhedon chez ses parentes, Madame de Ste. Anne la fit inviter
           à dîner au château, ce qu'elle n'avoit point fait encore. Madame d'Estival devina tout de suite les
           intentions de Madame de Ste. Anne, et pour cette fois elle en fut contente. Ces deux femmes ne
-          différoient que par l'éducation, et il y avoit en chacune de quoi lui faire deviner l'autre.</p>
-        <p>Ma mere est flattée sans doute, dit Mademoiselle d'Estival à Madame de Ste. Anne, de la faveur
+          différoient que par l'éducation, et il y avoit en chacune de quoi lui faire deviner l'autre.
+    </p>
+    <p>
+     Ma mere est flattée sans doute, dit Mademoiselle d'Estival à Madame de Ste. Anne, de la faveur
           que vous m'avez faite aujourd'hui, car elle m'a obligée de m'habiller avec plus de soin qu'à
           l'ordinaire, et m'a dit de faire tout ce que je pourrois pour me rendre digne de vos bontés. Madame
           de Ste. Anne sourit en regardant Mademoiselle d'Estival, qui étoit en effet très-bien mise. Elle
@@ -989,8 +1189,10 @@
           réglant sur ce que lui disoit Tonquedec, louant ce qu'il louoit, et prévenant ses objections pour
           mieux ensuite les combattre. Enfin ce ne fut pas un panégirique qu'elle fit ni un conseil qu'elle
           donna ; elle se prêtoit à un entretien, et encourageoit doucement une résolution qu'on étoit tout
-          disposé à prendre.</p>
-        <p>Le jour suivant, Tonquedec ne voyant ni l'une ni l'autre jeune personne, car Madame de Ste. Anne
+          disposé à prendre.
+    </p>
+    <p>
+     Le jour suivant, Tonquedec ne voyant ni l'une ni l'autre jeune personne, car Madame de Ste. Anne
           les avoit envoyées de grand matin chez Madame de Kerber, s'ennuya un peu, et fut fâché sur-tout de
           l'absence de Mademoiselle d'Estival. Seriez-vous amoureux déjà ? lui dit en souriant Madame de Ste.
           Anne. Non, dit-il, mais il me convient de me marier. J'aurois pu hésiter entre vos deux parentes, si
@@ -1007,15 +1209,19 @@
           voir ? --- Je ne sais, répondit Madame de Ste. Anne, mais je ne serois pas bien surprise que vous
           vous déterminassiez à faire tout de suite la demande de fille à sa mere. Ce seroit bien prompt, dit
           Tonquedec, Mademoiselle d'Estival ne dissimule pas, dit Madame de Ste. Anne. Telle vous l'avez vue,
-          telle elle est ; d'ailleurs vous la connoissez parfaitement par mon fils.</p>
-        <p>Madame d'Estival ne montra pas, quand ils entrerent chez elle, une grande surprise, et se garda
+          telle elle est ; d'ailleurs vous la connoissez parfaitement par mon fils.
+    </p>
+    <p>
+     Madame d'Estival ne montra pas, quand ils entrerent chez elle, une grande surprise, et se garda
           bien de dire que c'étoit la premiere fois qu'elle voyoit de près son orgueilleuse voisine. Madame
           d'Estival avoit, ainsi que sa fille, de l'esprit, de la sagacité, du tact même ; mais autrement
           employées, ces qualités avoient pris une allure fort différente. Plus on voyoit la fille, plus on
           l'aimoit ; pour être content de la mere, il ne falloit la voir ni bien long-tems de suite, ni dans
           l'abandon de la familiarité : sur-tout il ne falloit pas la voir fort aise ou fort fâchée, car alors
-          le mince vernis qui couvroit une ame et des habitudes extrêmement vulgaires tomboit entierement.</p>
-        <p>La conversation, assez froide d'abord, devint peu à peu intéressante. Madame d'Estival parla de
+          le mince vernis qui couvroit une ame et des habitudes extrêmement vulgaires tomboit entierement.
+    </p>
+    <p>
+     La conversation, assez froide d'abord, devint peu à peu intéressante. Madame d'Estival parla de
           ses malheurs avec modération et courage. Elle plaignit sa fille, car pour elle, avoit-elle des
           droits à un meilleur sort ? d'ailleurs sa vie étoit bien avancée, et ce qu'elle avoit souffert
           devoit naturellement en hàter la fin. Mais sa fille Elle n'avoit pas dix-sept ans Tonquedec s'émut
@@ -1028,8 +1234,10 @@
           voulez-vous me donner votre fille ? D'après ce que j'ai entendu dire de vous, Monsieur, répondit
           Madame d'Estival, qui contenoit sa joie sous un air de réflexion, et non-seulement ce que j'ai
           entendu dire de vous, mais aussi ce que je vois, ma fille ne sauroit tomber dans de meilleures
-          mains, et rien ne pourroit me rendre plus tranquille et plus contente.</p>
-        <p>Tonquedec jetta les yeux sur Madame de Ste. Anne, et ne vit dans les siens qu'une légere
+          mains, et rien ne pourroit me rendre plus tranquille et plus contente.
+    </p>
+    <p>
+     Tonquedec jetta les yeux sur Madame de Ste. Anne, et ne vit dans les siens qu'une légere
           approbation, sans aucune surprise. On trouvera peut-être que je vais bien vîte, lui dit Tonquedec,
           mais le sort de Mademoiselle d'Estival m'a vivement touché ; d'ailleurs, d'après ce que votre fils
           m'a dit, je crois la connoître, et il me semble que je fais mon propre bonheur, en m'engageant à
@@ -1045,8 +1253,10 @@
           Tonquedec, et, sous prétexte de profiter d'une belle soirée pour lui montrer les environs de
           Missillac, elle fit durer la promenade jusqu'à heure où Mademoiselle d'Estival seroit certainement
           rentrée chez elle ; car elle trouvoit fort important que ce fût sa mere qui lui parlât la premiere
-          de son mariage, et non Tonquedec, à qui elle auroit pu répondre de maniere à tout gâter.</p>
-        <p>Mademoiselle de Rhedon étoit donc seule au château, lorsque Madame de Ste. Anne et Tonquedec
+          de son mariage, et non Tonquedec, à qui elle auroit pu répondre de maniere à tout gâter.
+    </p>
+    <p>
+     Mademoiselle de Rhedon étoit donc seule au château, lorsque Madame de Ste. Anne et Tonquedec
           rentrerent. Elle raconta sa journée avec plaisir et intérêt, disant que Mademoiselle d'Estival en
           avoit fait le charme, par les questions et les réflexions pleines de finesse et de justesse, qu'elle
           avoit faites sur tous les objets qui lui étoient nouveaux. Nous avons trouvé chez Madame de Kerber,
@@ -1063,8 +1273,10 @@
           détermination, content de son choix, mais avec ce mélange d'une prévoyance craintive, que tout homme
           raisonnable doit éprouver dans une pareille position, Tonquedec fut et devoit être fort aise de
           n'avoir pas été prévenu auprès de Madame d'Estival, qui auroit agréé un autre gendre tout aussi
-          volontiers que lui.</p>
-        <p>Madame d'Estival, voyant sa fille fatiguée de sa course et de la vue de beaucoup d'objets
+          volontiers que lui.
+    </p>
+    <p>
+     Madame d'Estival, voyant sa fille fatiguée de sa course et de la vue de beaucoup d'objets
           nouveaux, attendit au lendemain à lui parler de la grande affaire qu'elle venoit de conclure, sans
           l'intervention de celle que cette affaire intéressoit le plus. --- Remercie-moi, dit-elle, je t'ai
           mariée hier, et très-bien mariée. --- Ste. Anne n'est pourtant pas revenu, dit la jeune personne,
@@ -1096,8 +1308,10 @@
           pas, et voilà bien le comble du malheur pour moi, dit Mademoiselle d'Estival. Il me faudra quitter
           ce lieu, où pour la premiere fois de ma vie je fus heureuse. Il y a quelques semaines que je ne
           connoissois pas le bonheur ; actuellement j'étois heureuse, et déjà il faut que cela finisse, ou
-          plutôt déja cela est fini ; et ses larmes coulerent plus abondamment qu'auparavant.</p>
-        <p>Vous êtes une ingrate, lui dit sa mere ; oui, une ingrate. Vous n'aimez que vous ; vous ne vous
+          plutôt déja cela est fini ; et ses larmes coulerent plus abondamment qu'auparavant.
+    </p>
+    <p>
+     Vous êtes une ingrate, lui dit sa mere ; oui, une ingrate. Vous n'aimez que vous ; vous ne vous
           souciez point d'une mere qui s'est sacrifiée pour votre bonheur. Pensez-vous que ce fût pour moi que
           j'ai pressé votre pere de m'épouser ? Que pouvois-je y gagner pour moi ? la haine de ma famille qui
           me l'a bien montrée, et le mépris de la sienne qui m'en donne des marques tous les jours. Je ne
@@ -1122,8 +1336,10 @@
           Mais ne croyez pas que les poires et les pommes de notre verger me donnent de quoi vous faire dire :
           j'en porte comme vous. C'est au moyen de quelques anciennes épargnes, que j'ai pu vous tenir sur le
           pied où l'on vous a toujours vue ; j'espérois d'amener la bonne fortune qui enfin m'est venue hier,
-          et que je n'ai garde de laisser échapper.</p>
-        <p>Mademoiselle d'Estival, plus humiliée que reconnoissante, regardoit ses vêtemens avec chagrin
+          et que je n'ai garde de laisser échapper.
+    </p>
+    <p>
+     Mademoiselle d'Estival, plus humiliée que reconnoissante, regardoit ses vêtemens avec chagrin
           quand sa mere ajouta : mais ce n'est pas tout que des robes et des fichus honnêtes, des bonnets, un
           chapeau, avec lesquels on ose se montrer, il faut surtout avoir de quoi manger et boire, et il
           suffiroit d'une année ou deux de mauvaise récolte de foin et de fruits pour que nous eussions manqué
@@ -1134,8 +1350,10 @@
           mes vœux. Il est nécessaire pour mon repos d'assurer notre subsistance. Il me convient de m'éloigner
           d'un lieu où je suis méprisée, d'une femme, d'une famille qui me traite avec dédain. Considere bien
           cela, et témoigne à l'homme qui te recherche, que tu l'épouses avec joie, si tu ne veux pas perdre
-          la tendresse de ta mere, et t'attirer son aversion.</p>
-        <p>Ainsi le discours de Madame d'Estival, qui avoit ressemblé presque en tout point à celui de
+          la tendresse de ta mere, et t'attirer son aversion.
+    </p>
+    <p>
+     Ainsi le discours de Madame d'Estival, qui avoit ressemblé presque en tout point à celui de
           Madame de Ste. Anne, finit de même, et presque dans les mêmes termes. Les deux meres avoient
           beaucoup fait, l'une pour son fils, l'autre pour sa fille, et vouloient actuellement s'en
           récompenser beaucoup, se servant pour cela de l'objet de leurs soins, de maniere à faire douter si
@@ -1147,12 +1365,16 @@
           aimer comme il est agréable d'être aimé, il faut des organes presque semblables et modifiés par des
           habitudes presque semblables. Deux freres, deux jumeaux doivent s'aimer de cette douce et heureuse
           tendresse, et, sans une malédiction particuliere, la fable des enfans d'Oedipe seroit mal imaginée,
-          au lieu que celle de Castor et Pollux l'est fort bien<ref target="#N3"/>.
+          au lieu que celle de Castor et Pollux l'est fort bien
+     <ref target="#N3"/>
+     .
           Disons que des deux meres la plus raisonnable étoit Madame d'Estival, et que ses motifs étoient tout
           autrement puissans, que ceux de Madame de Ste. Anne ; aussi firent-ils beaucoup plus d'effet.
           D'ailleurs la jeune fille, plus jeune que son amant, ne connoissoit pas comme lui les bornes de
-          l'autorité d'une mere.</p>
-        <p>Cette conversation entre Madame et Mademoiselle d'Estival avoit eu lieu le matin. L'après-dîné,
+          l'autorité d'une mere.
+    </p>
+    <p>
+     Cette conversation entre Madame et Mademoiselle d'Estival avoit eu lieu le matin. L'après-dîné,
           Tonquedec, accompagné de Mademoiselle de Rhedon, vint a la ferme. Avez-vous parlé à votre fille,
           dit-il à la mere en l'abordant. Je n'y ai pas manqué, répondit-elle. Vous allez la trouver un peu
           pensive. C'est une grande affaire pour une fille de changer d'état, et le hazard a voulu qu'elle
@@ -1167,8 +1389,10 @@
           aucune raison de les craindre. Vos craintes m'affligeroient sensiblement, dit Tonquedec en lui
           baisant la main. Mademoiselle d'Estival attendrie, sourioit et pleuroit. Ne parlons de rien que de
           gai, dit sa mere. Nous avons assez pleuré quand il y avoit de quoi ; à présent que nous avons tout
-          sujet d'être contentes, sachons nous réjouir.</p>
-        <p>Tonquedec alors, regardant autour de lui, loua la propreté et l'arrangement de tout ce qu'il
+          sujet d'être contentes, sachons nous réjouir.
+    </p>
+    <p>
+     Tonquedec alors, regardant autour de lui, loua la propreté et l'arrangement de tout ce qu'il
           voyoit. Vous avez, dit-il, une jolie demeure ; vos prés sont beaux, vos arbres sont chargés de
           fruits. Cette habitation m'est chere, dit Mademoiselle d'Estival. Nous y viendrons quand vous
           voudrez, dit Tonquedec. J'aime beaucoup mieux ces sortes de maisons, que des demeures plus vastes.
@@ -1215,11 +1439,15 @@
           trouva heureux ; et, attentif à tout ce qui pouvoit plaire dans celle qui lui faisoit éprouver un
           sentiment si agréable, qui lui donnoit pour l'avenir de si douces espérances, il admira la vivacité
           de ses yeux, l'éclat de son teint, la beauté de ses cheveux ; il vit même qu'elle avoit le pied
-          petit, et la main extrêmement belle.</p>
-        <p>Dans ce moment on lui apporta une lettre. Madame de Ste. Anne attentive à tout ce qui se passoit,
+          petit, et la main extrêmement belle.
+    </p>
+    <p>
+     Dans ce moment on lui apporta une lettre. Madame de Ste. Anne attentive à tout ce qui se passoit,
           vit la lettre, et crut voir qu'elle étoit de son fils. Elle n'osa pourtant le lui demander, et il
-          sortit pour la lire.</p>
-        <p>Comme il rentroit, Mddame de Ste. Anne alla à sa rencontre. J'ai, dit-elle, par le plus grand
+          sortit pour la lire.
+    </p>
+    <p>
+     Comme il rentroit, Mddame de Ste. Anne alla à sa rencontre. J'ai, dit-elle, par le plus grand
           hazard du monde, un notaire dans ma maison. Voulez-vous qu'après qu'il aura écrit l'acte pour lequel
           il est venu, il dresse votre contrat de mariage ? Cela sera bientôt fait. Vous savez sans doute les
           avantages que vous voulez faire à votre future ; pour elle, ses charmes sont sa seule dot. Et voyant
@@ -1236,13 +1464,17 @@
           caractere dont il la connoissoit, eût eu tant de bonté pour Mademoiselle d'Estival et pour sa mere.
           Il se rappella ce qu'il avoit dit à Duval dans cette conversation, que celui-ci rapporta à Ste.
           Anne. L'homme le plus pénétrant ne s'apperçoit du piege que lui tend une femme adroite, que
-          lorsqu'il y est pris plus qu'à moitié.</p>
-        <p>Peiné par ses reflexions, Tonquedec pour se distraire proposa à mes Demoiselles de Rhedon et
+          lorsqu'il y est pris plus qu'à moitié.
+    </p>
+    <p>
+     Peiné par ses reflexions, Tonquedec pour se distraire proposa à mes Demoiselles de Rhedon et
           d'Estival une promenade, qui finit par la ferme où Tonquedec et Mademoiselle de Rhedon resterent
           jusqu'à la nuit. Le reste de la compagnie n'avoit pas encore quitté le château. L'on jouoit dans un
           sallon qui donnoit sur l'avenue ; mais comme l'appartement étoit fort éclairé, on n'y voyoit rien de
-          ce qui se passoit dehors, et l'avenue paroissoit tout-à-fait sombre.</p>
-        <p>Les deux voyageurs, Ste. Anne et Herfrey, purent donc entrer au château sans être du tout
+          ce qui se passoit dehors, et l'avenue paroissoit tout-à-fait sombre.
+    </p>
+    <p>
+     Les deux voyageurs, Ste. Anne et Herfrey, purent donc entrer au château sans être du tout
           apperçus. C'est ce que Ste. Anne avoit désiré, et il avoit fait ensorte d'arriver le plus tard
           possible. Avec quel battement de cœur ne monta-t-il pas l'escalier Ses yeux, trompés par l'amour et
           la crainte, lui avoient fait voir dans deux hommes parlant politique sur le balcon, Tonquedec et sa
@@ -1263,22 +1495,30 @@
           son maître, qu'il ne le verroit que le lendemain. Je l'entends qui revient de la promenade avec
           Mademoiselle de Rhedon, dit Franc ; il sera bien fâché que vous ne lui permettiez pas de vous
           embrasser tout de suite. Qu'il entre donc, dit Ste. Anne, un peu soulagé par la pensée qu'il n'étoit
-          pas avec Mademoiselle d'Estival.</p>
-        <p>Tonquedec, averti par son jeune domestique, entra ; mais il trouva à Ste. Anne la voix si altérée
+          pas avec Mademoiselle d'Estival.
+    </p>
+    <p>
+     Tonquedec, averti par son jeune domestique, entra ; mais il trouva à Ste. Anne la voix si altérée
           et la peau si brûlante, qu'il jugea qu'il falloit le laisser reposer. Il convint même avec Herfrey
-          et Franc, qu'on ne diroit à personne, pas même à Madame de Ste. Anne, que son fils fût revenu.</p>
-        <p>La nuit fut fâcheuse pour les deux amis ; mais tous deux penserent ce que des amis doivent
+          et Franc, qu'on ne diroit à personne, pas même à Madame de Ste. Anne, que son fils fût revenu.
+    </p>
+    <p>
+     La nuit fut fâcheuse pour les deux amis ; mais tous deux penserent ce que des amis doivent
           penser. Je ne troublerai pas la félicité de Tonquedec, se dit Ste. Anne. Si Ste. Anne aime sa
-          cousine, je renonce à elle, pensoit Tonquedec.</p>
-        <p>Le matin, Tonquedec vint doucement auprès de Ste. Anne. Il dormoit. Tonquedec fut un peu rassuré,
+          cousine, je renonce à elle, pensoit Tonquedec.
+    </p>
+    <p>
+     Le matin, Tonquedec vint doucement auprès de Ste. Anne. Il dormoit. Tonquedec fut un peu rassuré,
           et, s'étant assis au chevet de son lit, il y attendit son réveil. Ce fut un plaisir pour Ste. Anne,
           quand il ouvrit les yeux, de voir son ami. La jalousie, dans un bon cœur, n'est point amere ni
           injuste ; l'amour n'y étouffe pas l'amitié. Ste. Anne pria Tonquedec de dire son retour à sa mere et
           à Mademoiselle de Rhedon, et de les prier de permettre qu'il se reposât toute cette matinée et ne
           les vît que l'après-dîné. Quant à toi, dit-il en serrant la main à Tonquedec, si tu n'as pas mieux à
           faire... Si tu le peux sans te gêner... --- Mieux à faire interrompit Tonquedec. Reviens donc passer
-          la matinée avec moi, dit Ste. Anne.</p>
-        <p>Pendant le sommeil de Ste. Anne et ce moment de conversation, les rideaux des fenêtres avoient
+          la matinée avec moi, dit Ste. Anne.
+    </p>
+    <p>
+     Pendant le sommeil de Ste. Anne et ce moment de conversation, les rideaux des fenêtres avoient
           été fermés, et le lit étoit placé de maniere que Tonquedec n'avoit pu voir le visage de son ami. Il
           fut frappé, quand il revint auprès de lui, de son air pâle et défait ; mais il ne le lui témoigna
           pas ; et Ste. Anne ne se plaignit d'aucun mal ni d'aucun chagrin. Leur conversation ne fut pas fort
@@ -1302,8 +1542,10 @@
           privilégiés, disoit dernièrement : cela ne peut pas durer ; un siecle ne peut pas être contemporain
           d'un autre siècle, dans des pays sur-tout qui se touchent. Tonquedec et Ste. Amie disoient l'un et
           l'autre : je n'attaquerai ni les hommes nouveaux ni les opinions nouvelles. Si l'on m'attaque ou si
-          l'on t'attaque, je défendrai et toi et moi.</p>
-        <p>Après, une heure ou deux de pareils discours, et un quart d'heure de silence, Tonquedec dit à son
+          l'on t'attaque, je défendrai et toi et moi.
+    </p>
+    <p>
+     Après, une heure ou deux de pareils discours, et un quart d'heure de silence, Tonquedec dit à son
           ami : ne t'auroit-on pas dit que je me marie ? d'où vient que tu ne m'en parles pas ? Franc me l'a
           dit, répondit Ste. Anne, en baissant les yeux, et les fixant sur le plan de son architecte, qu'il
           avoit montré à son ami, et je ne savois pas si cette autorité étoit suffisante pour que je dusse le
@@ -1315,13 +1557,17 @@
           mots sa voix n'avoit pas trahi son cœur. Il parla d'autres choses, et Tonquedec le quitta n'étant
           encore sûr de rien ; cependant il résolut que la journée ne s'acheveroit pas sans qu'il fût instruit
           des sentimens de Ste. Anne et de la jeune fille. Si elle le préfére et qu'elle en soit aimée, tout
-          est dit, se disoit-il.</p>
-        <p>D'abord après-dîné, il alla chercher Mademoiselle d'Estival, qui se fit presser, tant elle avoit
+          est dit, se disoit-il.
+    </p>
+    <p>
+     D'abord après-dîné, il alla chercher Mademoiselle d'Estival, qui se fit presser, tant elle avoit
           pris d'éloignement pour le château et pour Madame de Ste. Anne ; mais cet éloignement rassurant sa
           mere sur les imprudences qu'auparavant elle craignoit, elle l'obligea à aller avec Tonquedec. Madame
           d'Estival étoit encore plus contente ce jour-là, et plus obligeante avec lui que les jours
-          précédens.</p>
-        <p>Ils trouverent au château Mademoiselle de Kerber qui venoit d'arriver, et à qui l'on n'avoit
+          précédens.
+    </p>
+    <p>
+     Ils trouverent au château Mademoiselle de Kerber qui venoit d'arriver, et à qui l'on n'avoit
           point encore dit le retour de Ste. Anne. Madame de Ste. Anne et Mademoiselle de Rhedon ne l'avoient
           point encore vu, et n'étoient pas sans inquiétude sur son compte ; et quoique cette inquiétude fût
           la même chez toutes deux, elles ne se la disoient pas. Elles virent l'une et l'autre, que Tonquedec
@@ -1329,8 +1575,10 @@
           qui, chez Madame de Ste. Anne, datoit de la veille, c'est-à-dire du moment où Tonquedec, après avoir
           lu la lettre de son ami, s'étoit obstiné à l'attendre pour la signature du contrat. Rien de tout
           cela n'échappoit à Tonquedec, depuis qu'il étoit entré en quelque défiance, et sa défiance en étoit
-          augmentée.</p>
-        <p>Tout le monde donc étoit assez silencieux, et Mademoiselle de Kerber comme les autres. Elle avoit
+          augmentée.
+    </p>
+    <p>
+     Tout le monde donc étoit assez silencieux, et Mademoiselle de Kerber comme les autres. Elle avoit
           appris le mariage de Tonquedec, et savoit par la lettre que Ste. Anne lui avoit écrite la veille de
           son départ, combien il en seroit fâché ; de sorte qu'elle redoutoit extrêmement pour lui le moment
           de son retour, qu'elle pensoit devoir être prochain. Mademoiselle d'Estival étoit celle qui avoit
@@ -1350,24 +1598,34 @@
           confiance en vous, ajouta Mademoiselle d'Estival, s'adressant toujours à Mademoiselle de Rhedon,
           voudriez-vous prendre la lettre et la lire après que vous aurez mis vos gants. Donnez, dit
           Mademoiselle de Rhedon ; je ne suis pas aussi délicate que vous le croyez. Elle prit donc la lettre
-          qu'elle vit être de Herfrey, écrivant de Tonquedec, et dont voici le contenu.</p>
-        <p>Mademoiselle,</p>
-        <p>« Je ne sais pas si mon maître vous a parlé de son amour, mais en tout cas je prends la liberté
+          qu'elle vit être de Herfrey, écrivant de Tonquedec, et dont voici le contenu.
+    </p>
+    <p>
+     Mademoiselle,
+    </p>
+    <p>
+     « Je ne sais pas si mon maître vous a parlé de son amour, mais en tout cas je prends la liberté
           de vous en instruire. Je le soupçonnois bien depuis assez long-tems, à-présent j'en suis sûr. Il a
           été si troublé, en apprenant que son ami étoit allé à Missillac avec quelqu'intention de vous faire
           la cour, que j'ai cru qu'il en mourroit. Je vous avertis que si vous épousez, soit Monsieur de
           Tonquedec, soit tout autre, excepté mon maître c'est un homme mort, de quoi vous seriez, je crois,
           bien fâchée, et moi je ne survivrois pas à ce malheur. Je suis, Mademoiselle, mais à condition que
-          vous n'épouserez que mon bon maître, votre très-humble serviteur. Pierre Herfrey. »</p>
-        <p>P. S. « Je connois mon maître. Il ne diroit peut-être rien. Il aime tendrement son ami, et veut
-          d'ailleurs qu'un homme soit ferme et courageux dans le malheur. Mais ne vous y fiez pas. »</p>
-        <p>Mademoiselle de Rhedon fut extrêmement troublée, mais elle dissimula son trouble. Mademoiselle
+          vous n'épouserez que mon bon maître, votre très-humble serviteur. Pierre Herfrey. »
+    </p>
+    <p>
+     P. S. « Je connois mon maître. Il ne diroit peut-être rien. Il aime tendrement son ami, et veut
+          d'ailleurs qu'un homme soit ferme et courageux dans le malheur. Mais ne vous y fiez pas. »
+    </p>
+    <p>
+     Mademoiselle de Rhedon fut extrêmement troublée, mais elle dissimula son trouble. Mademoiselle
           d'Estival la pria de lui dire ce qu'elle avoit lu. Non pas dans ce moment, lui dit son amie, d'une
           voix extrêmement changée, pour l'amour de vous-même ne l'exigez pas. Madame de Ste. Anne fit un
           mouvement, pour prendre des mains de Mademoiselle de Rhedon la lettre qui donnoit tant d'émotion,
           mais Mademoiselle de Rhedon en fit un qui la refusoit. Après quelques instans de réflexion, ayant
-          fait un signe à Tonquedec, elle le conduisit hors de la chambre et lui donna la lettre.</p>
-        <p>Elle vint ensuite reprendre sa place, et Tonquedec ne tarda pas à rentrer. Madame de Ste. Anne
+          fait un signe à Tonquedec, elle le conduisit hors de la chambre et lui donna la lettre.
+    </p>
+    <p>
+     Elle vint ensuite reprendre sa place, et Tonquedec ne tarda pas à rentrer. Madame de Ste. Anne
           paroissoit extrêmement mécontente. Je m'apperçois, dit-elle, que personne n'a chez moi moins
           d'autorité que moi. Un homme que l'on connoit depuis trois jours, m'est préféré par une personne
           pour qui je fais tout au monde, et m'expose à mille désagremens. Mademoiselle de Rhedon lui dit avec
@@ -1390,13 +1648,17 @@
           monde ; et en effet ma mere regrette toujours Estival. Quand elle est gaie, elle parle le patois
           d'Estival, et fait des histoires d'Estival : quand elle est de mauvaise humeur, il n'y a rien de bon
           qu'à Estival ; elle n'aime rien de ce qu'on peut avoir à Nantes, Vannes, Brest ni même à la ferme,
-          où moi en revanche j'ai trouvé tout fort bon et fort agréable... pendant un tems sur-tout.</p>
-        <p>Madame de Ste. Anne dit à Tonquedec : je vous féliciterois bien de cet arrangement --- ajoutant
+          où moi en revanche j'ai trouvé tout fort bon et fort agréable... pendant un tems sur-tout.
+    </p>
+    <p>
+     Madame de Ste. Anne dit à Tonquedec : je vous féliciterois bien de cet arrangement --- ajoutant
           plus bas --- il vous débarrasseroit d'un fardeau --- C'est vous peut-être, Madame, qu'il en faudroit
           féliciter, interrompit Tonquedec. Moi dit Madame de Ste. Anne. Vous, répéta Tonquedec. Madame de
           Ste. Anne ne le comprit pas ; mais ce mot mystérieux, se joignant à d'autres mysteres, acheva de la
-          troubler.</p>
-        <p>Un moment aprés Mademoiselle d'Estival, tournant par hazard les yeux du côté de la fenêtre, vit
+          troubler.
+    </p>
+    <p>
+     Un moment aprés Mademoiselle d'Estival, tournant par hazard les yeux du côté de la fenêtre, vit
           Herfrey sortir du château. Herfrey s'écria-t-elle. Je vois Herfrey vous ne saviez donc pas que mon
           fils fût revenu ? dit Madame de Ste. Anne. Je ne le savois pas non plus, dit Mademoiselle de Kerber,
           pourquoi ne pas nous le dire ? Il est indisposé, dit Tonquedec, on a craint de vous faire de la
@@ -1406,8 +1668,10 @@
           demandez-vous sérieusement. --- Sans doute, et je serai d'autant plus flattée d'un peu de confiance,
           que personne depuis quelque tems ne m'en accorde plus... Lisez donc, lui dit Mademoiselle de Kerber,
           en lui donnant la lettre que Ste. Anne lui avoit écrite la veille de son départ, et lui montrant du
-          doigt la dernière période.</p>
-        <p>Mademoiselle d'Estival souffroit visiblement. Ste. Anne est malade, dit-elle en soupirant à
+          doigt la dernière période.
+    </p>
+    <p>
+     Mademoiselle d'Estival souffroit visiblement. Ste. Anne est malade, dit-elle en soupirant à
           Tonquedec. Je ne m'étonne plus de l'air abattu que je vous ai trouvé aujourd'hui. Au moment où vous
           êtes venu à la ferme cela m'a frappé, et je l'ai dit à ma mere ; mais elle m'a répondu que je me
           trompois, et que j'étois une folle qui m'inquiétois à propos de rien. Qui vous inquiétiez, répéta
@@ -1441,8 +1705,10 @@
           violent, qu'il demanda qu'on retardât d'une heure cette visite. Pendant ce tems-là on lut à
           Mademoiselle d'Estival la lettre de Herfrey, et Ste. Anne alla trouver Herfrey pour l'embrasser et
           lui apprendre son mariage. À son retour il se trouva assez bien pour aller à la ferme. Sa mère avoit
-          fait mettre les chevaux à sa calèche qui les y mena doucement.</p>
-        <p>On comprend bien ce qui se dit à la ferme, et combien fut puissante sur Madame d'Estival la
+          fait mettre les chevaux à sa calèche qui les y mena doucement.
+    </p>
+    <p>
+     On comprend bien ce qui se dit à la ferme, et combien fut puissante sur Madame d'Estival la
           proposition que Ste. Anne se hâta de faire, d'acheter pour elle ou de bâtir une maison dans le
           village où elle étoit née. L'idée en venoit de Mademoiselle d'Estival, et convenoit à tout le monde.
           Madame d'Estival en fut si charmée, qu'indiquant la maison qu'elle aimeroit le mieux et qui se
@@ -1461,11 +1727,17 @@
           l'impatience. Mademoiselle d'Estival qui en avoit eu la première idée, en recevoit pourtant plus de
           chagrin que de plaisir. Cette séparation d'avec sa mere, vue de près, l'affectoit sensiblement. Pour
           Ste. Anne, il ne faisoit dans tout cela qu'obéir, car avoir Babet avec ou sans sa mere lui étoit
-          presque égal. Ce que les autres aimoient le mieux, étoit ce qui lui convenoit davantage.</p>
-        <p>On fut donc fort long-tems à la ferme, et les trois personnes restées au château eurent tout le
-          tems de s'entretenir.</p>
-        <p>D'abord la conversation fut presque nulle, puis contrainte, et enfin intéressante.</p>
-        <p>Mademoiselle de Kerber qui lisoit dans le cœur de Mademoiselle de Rhedon, lui dit tout-à-coup :
+          presque égal. Ce que les autres aimoient le mieux, étoit ce qui lui convenoit davantage.
+    </p>
+    <p>
+     On fut donc fort long-tems à la ferme, et les trois personnes restées au château eurent tout le
+          tems de s'entretenir.
+    </p>
+    <p>
+     D'abord la conversation fut presque nulle, puis contrainte, et enfin intéressante.
+    </p>
+    <p>
+     Mademoiselle de Kerber qui lisoit dans le cœur de Mademoiselle de Rhedon, lui dit tout-à-coup :
           Rien n'est ennuyeux comme d'assister à un mariage, à moins de se marier aussi. De deux choses l'une
           ; vous viendrez avec moi chez ma mere ou vous me permettrez d'écrire au pauvre Ville-Dieu. Qui est
           Ville-Dieu ? dit Tonquedec. --- Un humble et tendre adorateur de Mademoiselle de Rhedon, que Madame
@@ -1512,8 +1784,10 @@
           romanesques folies qui n'ont rien coûté à l'auteur, on sacrifioit des sentimens plus vrais, plus
           naturels, et qui sont parfaitement honnêtes. Laissons quelques admirateurs de Werther se tuer, et
           quelques folles pleurer toute leur vie ce qu'elles n'ont peut-être jamais eu sujet d'aimer. Il ne
-          faut pas dans la vie véritable imiter un invraisemblable roman.</p>
-        <p>C'est la veille de son mariage que Ste. Anne tint ce discours à Madame de Rieux. Il n'avoit pas
+          faut pas dans la vie véritable imiter un invraisemblable roman.
+    </p>
+    <p>
+     C'est la veille de son mariage que Ste. Anne tint ce discours à Madame de Rieux. Il n'avoit pas
           osé parler aussi franchement à Mademoiselle de Rhedon ; cependant il lui dit : Si demain vous
           promettiez à mon ami de remplacer le bien qu'il m'a cédé, vous mettriez le comble à mon bonheur.
           Faut-il, dit Mademoiselle de Rhedon en rougissant beaucoup, faire tout ce que vous voulez ? Vous
@@ -1522,8 +1796,10 @@
           lui amena Tonquedec. Vous vouliez que ce fût demain, dit Mademoiselle de Rhedon. --- Pourquoi ne
           seroit-ce pas ce soir, dit Ste. Anne, si, comme je le vois, vous êtes décidée ? Puis s'adressant à
           son ami, il lui dit : Je te dois mon bonheur, souffre que je me vante d'avoir hâté le tien. Ce qu'il
-          disoit fit tant de plaisir à Tonquedec, que Mademoiselle de Rhedon ne voulut pas l'en dédire.</p>
-        <p>Madame de Ste. Anne étoit visiblement la personne la moins contente de tous ceux qui étoient
+          disoit fit tant de plaisir à Tonquedec, que Mademoiselle de Rhedon ne voulut pas l'en dédire.
+    </p>
+    <p>
+     Madame de Ste. Anne étoit visiblement la personne la moins contente de tous ceux qui étoient
           rassemblés chez elle. Cependant Madame d'Estival s'éloignoit, c'étoit quelque chose ; la maison
           étoit déja achetée, et Ste. Anne d'après le conseil de sa mere, avoit assuré à sa future belle-mere
           une pension assez considérable, qui lui seroit payée tant qu'elle ne se remarieroit pas. Une
@@ -1537,8 +1813,10 @@
           l'idée toute entiere étoit de sa mere. Vous aviez, lui dit-il, un droit si naturel à ma fortune et à
           celle de votre fille, que je n'aurois jamais songé à vous rien donner par un contrat spécial.
           Mademoiselle d'Estival prit l'acte dans ses mains, puis, le rendant à Ste. Anne, dit avec quelque
-          dépit : Lisez-le haut encore une fois, je vous en prie, je n'ai pas écouté la premiere fois. Il lut.</p>
-        <p>N'est-il pourtant pas un peu triste, reprit-elle, de ne savoir pas lire ? Mais non, il est bon
+          dépit : Lisez-le haut encore une fois, je vous en prie, je n'ai pas écouté la premiere fois. Il lut.
+    </p>
+    <p>
+     N'est-il pourtant pas un peu triste, reprit-elle, de ne savoir pas lire ? Mais non, il est bon
           que je n'aye pas pu lire la lettre de Herfrey. Je n'aurois osé la donner à Tonquedec comme fit
           Mademoiselle de Rhedon. À l'avenir pourtant il me seroit plus agréable de savoir lire, et vous
           m'apprendrez, vous me l'avez promis ; j'espére que vous m'apprendrez aussi à écrire. Je ne vous le
@@ -1547,14 +1825,22 @@
           j'aye jamais su. Mon oncle le maître d'école me les a assez repétés pour que je m'en souvienne toute
           ma vie. Il ne voulut pas seulement m'apprendre l'A B C, quelque priere que je lui en fisse. Une
           femme, disoit-il, qui connoîtroit les lettres, voudroit apprendre à lire ; et sachant lire, elle
-          pourroit apprendre toute seule à écrire ; or, et je tiens ceci d'un sage :</p>
-        <p>Dans ses meubles, dût-elle en avoir de l'ennui,</p>
-        <p>Il ne faut écritoire, encre, papier ni plumes.</p>
-        <p>
-          Le mari doit dans les bonnes coutumes</p>
-        <p>
-          Écrire tout ce qui s'écrit chez lui.</p>
-        <p>Ste. Anne trouva plaisant que Moliere eût été entendu de la sorte par le magister. Il m'est assez
+          pourroit apprendre toute seule à écrire ; or, et je tiens ceci d'un sage :
+    </p>
+    <p>
+     Dans ses meubles, dût-elle en avoir de l'ennui,
+    </p>
+    <p>
+     Il ne faut écritoire, encre, papier ni plumes.
+    </p>
+    <p>
+     Le mari doit dans les bonnes coutumes
+    </p>
+    <p>
+     Écrire tout ce qui s'écrit chez lui.
+    </p>
+    <p>
+     Ste. Anne trouva plaisant que Moliere eût été entendu de la sorte par le magister. Il m'est assez
           égal, dit-il à sa future, que vous sachiez lire et écrire ou que vous ne le sachiez pas ; ce qui ne
           m'est point égal, c'est que vous vous défassiez de toute crainte chimérique. Après-demain quand nous
           irons à l'église ou que nous en reviendrons, il seroit possible que vous rencontrassiez quelqu'objet
@@ -1567,30 +1853,41 @@
           gens qu'on est à table, c'est fini, je n'y crois déja plus. Voilà vraiment qui est pour moi de bon
           augure, dit Ste. Anne, en se permettant de l'embrasser. Doucement, doucement, dit la mere ;
           après-demain est bien proche, vous pouvez attendre. Mademoiselle d'Estival se souvint du cimetiere,
-          regarda Ste. Anne, et sourit.</p>
-        <p>Le grand jour vint, ce jour pour lequel Madame d'Estival vouloit qu'on réservât tous les
+          regarda Ste. Anne, et sourit.
+    </p>
+    <p>
+     Le grand jour vint, ce jour pour lequel Madame d'Estival vouloit qu'on réservât tous les
           priviléges de l'hymen et toutes les jouissances de l'amour. Elle mena sa fille à l'autel, et,
           d'abord après la cérémonie, l'ayant embrassée, elle s'éloigna sans rien dire ; puis se retournant
           elle lui cria, adieu Babet. Une voiture l'attendoit devant la porte de l'église ; elle y monta et se
-          fit aussitôt conduire à Estival.</p>
-        <p>La ferme revit ce soir-là l'heureuse Babet, accompagnée de son heureux époux qui, peu de jours
+          fit aussitôt conduire à Estival.
+    </p>
+    <p>
+     La ferme revit ce soir-là l'heureuse Babet, accompagnée de son heureux époux qui, peu de jours
           après, la mena à Auray, pour la présenter aux deux amis, et hâter les réparations du vieux manoir de
-          ses peres.</p>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N1">Que de fois ce noble pathos a été employé à couvrir les passions et les intentions
+          ses peres.
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N1">
+     Que de fois ce noble pathos a été employé à couvrir les passions et les intentions
           les moins nobles Que de fois il a été mis à la place de la bonté et de la raison On respecte, on
           adore, les manes d'un ami ou d'un pere, et on est sourd à la voix vivante d'une femme ou d'un fils.
           Depuis trente ans sur-tout chacun a pris la teinte des drames et des romances, on en prodigue
           par-tout le fade et hypocrite langage, et c'est à des urnes cinéraires, à des élegies et des
-          épitaphes que se borne notre humanité.</note>
-        <note xml:id="N2">On prétend que les habitans de l'Armorique ou Basse-Bretagne sont descendus des anciens Gaulois.</note>
-        <note xml:id="N3">Un homme qui joint à des organes déliés, de la sagacité, de la réflexion, une
+          épitaphes que se borne notre humanité.
+    </note>
+    <note xml:id="N2">
+     On prétend que les habitans de l'Armorique ou Basse-Bretagne sont descendus des anciens Gaulois.
+    </note>
+    <note xml:id="N3">
+     Un homme qui joint à des organes déliés, de la sagacité, de la réflexion, une
           expérience variée, une bonne mémoire, ne sauroit être un homme de parti ; il sent pour tout ce qui
-          souffre, il gémit sur toutes sortes de maux.</note>
-      </div>
-    </back>
-  </text>
+          souffre, il gémit sur toutes sortes de maux.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

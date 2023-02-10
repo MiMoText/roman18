@@ -1,129 +1,205 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Duvernet_Retraite" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:90.34 wikidata:Q98125600">La retraite, les tentations et les confessions de madame la marquise de
-          Montcornillon: MiMoText edition</title>
-        <author ref="viaf:34456162 wikidata:Q94885583">Théophile Imarigeon Duvernet(1734-1796)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>wikisource</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">13040</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref
-            target="https://fr.wikisource.org/wiki/Les_d%C3%A9votions_de_Mme_de_Bethzamooth_;_La_retraite,_les_tentations_et_les_confessions_de_la_marquise_de_Montcornillon/06"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la marquise de Montcornillon</title>
-          <author>Théophile Imarigeon Duvernet</author>
-          <pubPlace>Paris</pubPlace>
-          <publisher>Bibliothèque des curieux (éditions Briffaut)</publisher>
-          <date>1913</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1790</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-06-02">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la
-          marquise de Montcornillon (1790)</p>
-        <p>Abbé Duvernet</p>
-        <p>Bibliothèque des curieux (éditions Briffaut), Paris, 1913</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>LA RETRAITE</head>
-        <p>LES TENTATIONS ET LES CONFESSIONS DE
-          <hi rend="italic">Mme DE MONTCORNILLON</hi>
-        </p>
-        <p>J'aime les histoires de dévotion : je me suis toujours plu à raconter celles qui parlent. En
+<TEI xml:id="Duvernet_Retraite" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:90.34 wikidata:Q98125600">
+     La retraite, les tentations et les confessions de madame la marquise de
+          Montcornillon: MiMoText edition
+    </title>
+    <author ref="viaf:34456162 wikidata:Q94885583">
+     Théophile Imarigeon Duvernet(1734-1796)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      wikisource
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     13040
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Les_d%C3%A9votions_de_Mme_de_Bethzamooth_;_La_retraite,_les_tentations_et_les_confessions_de_la_marquise_de_Montcornillon/06"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2020
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la marquise de Montcornillon
+     </title>
+     <author>
+      Théophile Imarigeon Duvernet
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Bibliothèque des curieux (éditions Briffaut)
+     </publisher>
+     <date>
+      1913
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1790
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-06-02">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la
+          marquise de Montcornillon (1790)
+    </p>
+    <p>
+     Abbé Duvernet
+    </p>
+    <p>
+     Bibliothèque des curieux (éditions Briffaut), Paris, 1913
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     LA RETRAITE
+    </head>
+    <p>
+     LES TENTATIONS ET LES CONFESSIONS DE
+     <hi rend="italic">
+      Mme DE MONTCORNILLON
+     </hi>
+    </p>
+    <p>
+     J'aime les histoires de dévotion : je me suis toujours plu à raconter celles qui parlent. En
           voici une qui est édifiante et même morale ; les jeunes veuves me sauront gré de la bonne
           instruction qu'elles y trouveront. Elle déplaira peut-être à ceux qui n'aiment qu'à lire des romans,
           mais que m'importe de plaire à des gens qui repaissent leur imagination de sales intrigues et
           d'amour profane ? Ce n'est pas leur suffrage que j'ambitionne ; c'est celui des gens de bien, et ils
           me l'accorderont lorsqu'ils auront lu ce que je vais leur raconter d'une jeune veuve et d'un jeune
-          prophète dont l'histoire naguère est arrivée à Paris dans le faubourg Saint-Denis.</p>
-        <p>Brantôme, le vilain Brantôme n'en a jamais conté de semblable ; il n'a parlé qu'à des femmes
+          prophète dont l'histoire naguère est arrivée à Paris dans le faubourg Saint-Denis.
+    </p>
+    <p>
+     Brantôme, le vilain Brantôme n'en a jamais conté de semblable ; il n'a parlé qu'à des femmes
           galantes, et qui
-          <hi rend="italic">gorgiassaient</hi>
-          <ref target="#N1"/>, des femmes qui, sans motif honnête et sans dévotion quelconque, faisaient leurs
+     <hi rend="italic">
+      gorgiassaient
+     </hi>
+     <ref target="#N1"/>
+     , des femmes qui, sans motif honnête et sans dévotion quelconque, faisaient leurs
             maris cocus et cornards ; et, s'il faut l'en croire, toutes les bêtes que saint Jean l'Apocalypse
             vit dans le ciel (toutefois avant son voyage dans la lune) n'eurent point sur leurs têtes autant de
             cornes que de son temps nos belles et honnêtes dames françaises en plantèrent sur le front de leurs
-            maris.</p>
-        <p>Je n'aime point ce Brantôme, mais tous les honnêtes gens aimeront l'histoire de ma jeune veuve et
+            maris.
+    </p>
+    <p>
+     Je n'aime point ce Brantôme, mais tous les honnêtes gens aimeront l'histoire de ma jeune veuve et
           de mon prophète : c'est aussi la dernière histoire que je leur conterai, car dès que je l'aurai
           achevée, je veux me tuer. Oui, me tuer, et pourquoi ne me tuerais-je pas, si j'en ai envie ? Qui
           pourra m'en empêcher ? Ce ne sera certes ni l'ami Dorat, ni l'ami Baudeau, ni l'ami Louis, ni l'ami
-          Le Blanc, ni l'ami qui se dit l'<hi rend="italic">ami des hommes</hi>
-          <ref target="#N2"/>
-          et qui, dit-on, n'est que l'ami des moines et l'ennemi de toute sa famille. Tous ces amis-là se
+          Le Blanc, ni l'ami qui se dit l'
+     <hi rend="italic">
+      ami des hommes
+     </hi>
+     <ref target="#N2"/>
+     et qui, dit-on, n'est que l'ami des moines et l'ennemi de toute sa famille. Tous ces amis-là se
           trouvent bien en ce monde, la cage leur plaît ; ils peuvent y rester ; moi, je m'y ennuie et j'en
-          veux sortir au plus tôt.</p>
-        <p>Tant que j'ai été un peu utile au genre humain, je me suis assez plu dans cette cage. J'y
+          veux sortir au plus tôt.
+    </p>
+    <p>
+     Tant que j'ai été un peu utile au genre humain, je me suis assez plu dans cette cage. J'y
           travaillais aux
-          <hi rend="italic">Éphémérides du citoyen</hi>. En vérité, en vérité, c'est bien le meilleur ouvrage
+     <hi rend="italic">
+      Éphémérides du citoyen
+     </hi>
+     . En vérité, en vérité, c'est bien le meilleur ouvrage
           qu'on ait jamais imaginé pour le bonheur des hommes. On a supprimé cet ouvrage ; depuis ce
           moment-là, soit que les choses aient perdu de leur qualité, soit que mon goût soit changé, je ne
           trouve rien de bon. Le pain ne me paraît plus aussi savoureux ; la volaille me semble mal engraissée
           ; les comédiens me paraissent mauvais, les prédicateurs insolents et les philosophes poltrons. En
           dix ans je n'ai vu qu'un ouvrage utile ; et quelques malheureux robinocrates qui font les entendus
           en parlant au nom du roi, ont brûlé l'ouvrage et levraudé son auteur, l'abbé Raynal : tout cela me
-          dégoûte de ce monde et j'en veux sortir.</p>
-        <p>L'Opéra, me dit-on, est meilleur qu'il n'a jamais été. Cela peut être ; mais le fracas de ce
+          dégoûte de ce monde et j'en veux sortir.
+    </p>
+    <p>
+     L'Opéra, me dit-on, est meilleur qu'il n'a jamais été. Cela peut être ; mais le fracas de ce
           spectacle m'assourdit, et je n'aime pas assez la musique pour ne pas préférer un bon et tranquille
           sommeil à tous les accords des divins Piccini et des divins Gluck. D'ailleurs, cet opéra a beau être
           bon et la musique excellente, sa salle n'en sent pas moins mauvais, ainsi que tous les endroits où
@@ -132,44 +208,66 @@
           planètes. Je n'aime pas demeurer dans un privé et j'en sortirai, ainsi que le conseille Marc-Aurèle,
           non en me frottant les yeux comme on sort d'une chambre qui fume, mais en me bouchant le nez comme
           on sort d'un lieu infect. Ce ne sera, à la vérité, qu'après que j'aurai fini de raconter l'histoire
-          de ma jeune veuve.</p>
-        <p>Son nom de famille était du Poil-Doré ; ainsi donc notre veuve avant son mariage s'appelait Mlle
+          de ma jeune veuve.
+    </p>
+    <p>
+     Son nom de famille était du Poil-Doré ; ainsi donc notre veuve avant son mariage s'appelait Mlle
           du Poil-Doré. Ce beau nom du Poil-Doré faisait un contraste charmant avec ses cheveux qui étaient
           couleur d'ébène. À l'âge de dix-huit ans on la maria avec M. le marquis de Montcornillon. Le ciel
           semblait avoir formé ce jeune homme pour la rendre heureuse. Dans la figure, dans le caractère et
           dans l'esprit, il avait tout ce qu'une femme peut désirer : tout ce qui peut plaire même à une
           reine. Beauté, force, grâces, adresse, talents, rien ne lui manquait. Tant d'avantages étaient
           encore embellis par le double don de savoir plaire et de le
-          <hi rend="italic">savoir faire</hi>. Il n'avait qu'une passion : c'était celle d'aimer sa femme ; au
+     <hi rend="italic">
+      savoir faire
+     </hi>
+     . Il n'avait qu'une passion : c'était celle d'aimer sa femme ; au
           monde il ne connaissait qu'un seul et unique plaisir : c'était celui de le lui procurer. Hélas hélas
-          il le lui prouva si souvent et si bien qu'il en mourut.</p>
-        <p>Oh qu'une telle mort, m'a souvent dit l'ami Dorat, est douce et désirable L'ami a raison ; ni la
+          il le lui prouva si souvent et si bien qu'il en mourut.
+    </p>
+    <p>
+     Oh qu'une telle mort, m'a souvent dit l'ami Dorat, est douce et désirable L'ami a raison ; ni la
           sienne, ni la mienne ne seront point agréables. Lui dans peu mourra étique, et moi d'un coup de
-          pistolet. Continuons l'histoire de notre veuve.</p>
-        <p>Comme bien on peut le penser, cette veuve faillit mourir de chagrin ; elle n'en mourut pourtant
+          pistolet. Continuons l'histoire de notre veuve.
+    </p>
+    <p>
+     Comme bien on peut le penser, cette veuve faillit mourir de chagrin ; elle n'en mourut pourtant
           pas, mais sa douleur fut grande, et sainte Geneviève, si à grands coups de pieds au cul on la
           chassait du ciel et qu'on la renvoyât à Nanterre garder les moutons, ne serait pas plus affligée de
           perdre son Dieu, son paradis et toutes ses félicités, que la jeune dame de Montcornillon le fut de
-          perdre son mari, et avec lui toutes les félicités du mariage.</p>
-        <p>Le monde ne lui parut plus qu'une vaste et ennuyeuse solitude : dans son désespoir, vingt fois
+          perdre son mari, et avec lui toutes les félicités du mariage.
+    </p>
+    <p>
+     Le monde ne lui parut plus qu'une vaste et ennuyeuse solitude : dans son désespoir, vingt fois
           elle appela la mort pour la délivrer de la vie, et la mort ne venant pas, elle... s'en alla à
-          l'Église.</p>
-        <p>C'est là qu'aux pieds des autels, déplorant la perte qu'elle a faite, et cherchant une
+          l'Église.
+    </p>
+    <p>
+     C'est là qu'aux pieds des autels, déplorant la perte qu'elle a faite, et cherchant une
           consolation que le monde lui refuse, son âme, telle qu'une eau qui fuit un vase fêlé, s'en allait en
-          pleurs, en sanglots et en gémissements.</p>
-        <p>Du pied des autels elle se jette aux pieds d'un confesseur qui, pour la consoler, commence par
+          pleurs, en sanglots et en gémissements.
+    </p>
+    <p>
+     Du pied des autels elle se jette aux pieds d'un confesseur qui, pour la consoler, commence par
           dire que Dieu, plein de miséricorde et de bonté, n'a fait mourir son mari pendant qu'il était jeune
           qu'afin qu'il ne devînt pas méchant quand il sera vieux.
-          <hi rend="italic">Raptus est ne malitia mutaret intellectum ejus</hi>. Il lui dit encore ce que
+     <hi rend="italic">
+      Raptus est ne malitia mutaret intellectum ejus
+     </hi>
+     . Il lui dit encore ce que
           Moïse disait souvent aux Juifs, que le Seigneur est un Dieu jaloux, que lui seul et sans partage
           voulait régner sur son cœur ; qu'il l'appelait à lui dans la retraite ; que c'est là qu'il
           l'attendait pour lui faire goûter des consolations et des jouissances préférables à tous les vains
-          plaisirs qu'une femme peut trouver avec un mari de vingt ans.</p>
-        <p>Notre jeune veuve, dans la douleur qui la presse et dans l'inexpérience où elle est, croyant
+          plaisirs qu'une femme peut trouver avec un mari de vingt ans.
+    </p>
+    <p>
+     Notre jeune veuve, dans la douleur qui la presse et dans l'inexpérience où elle est, croyant
           entendre les ordres de Dieu dans la voix du saint qui lui parle, s'abandonne aveuglément à ses
           conseils, et renonçant entièrement au monde, elle quitte Paris et va sur le chemin de Saint-Denis
-          s'enterrer dans une petite maison dont, pendant longtemps, le saint confesseur eut seul le secret.</p>
-        <p>Tous les maux qui sont à craindre pour une femme pleine de douleur, de suc et de santé, ne
+          s'enterrer dans une petite maison dont, pendant longtemps, le saint confesseur eut seul le secret.
+    </p>
+    <p>
+     Tous les maux qui sont à craindre pour une femme pleine de douleur, de suc et de santé, ne
           tardèrent pas à fondre sur notre veuve. Cette sève divine qui sert à la reproduction de l'espèce
           humaine, aigrie et corrompue par un trop long séjour, se convertit en un poison très actif, et
           refluant dans la masse des liquides, porta le ravage dans toutes les parties du corps. Bientôt en
@@ -178,18 +276,26 @@
           l'appétit, les insomnies, les hémorragies, l'amaigrissement, les lassitudes, les suppressions, la
           prostration des forces, l'embarras de la respiration, l'obscurcissement de la vue, les déchirements
           d'entrailles, les tiraillements d'estomac, les étouffements, les anxiétés, les défaillances, le
-          dégoût des aliments, et l'ennui de la vie.</p>
-        <p>Tant de maux réunis altérèrent entièrement les traits et la forme de son visage, et elle enlaidit
+          dégoût des aliments, et l'ennui de la vie.
+    </p>
+    <p>
+     Tant de maux réunis altérèrent entièrement les traits et la forme de son visage, et elle enlaidit
           prodigieusement : son beau front d'ivoire devint jaune, ses dents noircirent, ses paupières
           s'éraillèrent, ses yeux s'éteignirent, ses joues s'enfoncèrent ; ses mains, naguère blanches,
           charnues, potelées, colorées et parsemées de vingt petits ruisseaux de pourpre, se desséchèrent
           entièrement, et ses beaux doigts ne ressemblèrent plus qu'aux longues pattes de ces vieilles
           araignées qu'on voyait dans la
-          <hi rend="italic">basiniere</hi>
-          de la bastille<ref target="#N3"/>. Une femme morte et exhumée est un objet moins affreux et moins
+     <hi rend="italic">
+      basiniere
+     </hi>
+     de la bastille
+     <ref target="#N3"/>
+     . Une femme morte et exhumée est un objet moins affreux et moins
             pénible à voir que ne l'était l'infortunée Mme de Montcornillon. Funeste et terrible effet, encore
-            moins d'une douleur immodérée que d'une retraite et d'une sagesse qui contrarieraient la nature</p>
-        <p>La maladie n'avait encore fait que peu de progrès lorsqu'on appela les plus habiles médecins. Le
+            moins d'une douleur immodérée que d'une retraite et d'une sagesse qui contrarieraient la nature
+    </p>
+    <p>
+     La maladie n'avait encore fait que peu de progrès lorsqu'on appela les plus habiles médecins. Le
           premier qui vint : C'est, dit-il, le foie qui est embarrassé : qu'on saigne Madame du bras droit Le
           docteur qui vint après : C'est, dit-il, la rate qui est attaquée ; qu'on saigne Madame du bras
           gauche Le troisième médecin ne parut que pour assurer que tous les viscères du bas ventre étaient
@@ -197,50 +303,68 @@
           l'estomac avec les eaux de Châteldon. C'est à elles seules que doivent céder les obstructions de
           Madame, quelque part et quelque récalcitrantes qu'elles soient. Le second docteur ne revint que pour
           changer les eaux de Châteldon qui n'opéraient aucun bien, dans les eaux de Cransac dont il fit un
-          grand éloge, et qui malgré l'éloge augmentèrent la maladie.</p>
-        <p>« Foin des eaux de Cransac, s'écrie le premier médecin en reparaissant ; c'est de l'eau de veau
+          grand éloge, et qui malgré l'éloge augmentèrent la maladie.
+    </p>
+    <p>
+     « Foin des eaux de Cransac, s'écrie le premier médecin en reparaissant ; c'est de l'eau de veau
           qu'il faut à Madame, pour détruire et vapeurs et constipation ; il s'agit de donner de la souplesse
           aux fibres de l'estomac, de lubrifier les parois des intestins qui sont secs, tendus, rigides, sans
           jeu et sans mouvement. C'est ce que doit faire mon eau de veau. C'est aussi ce que nous lui
           enjoignons ». Ce docteur eut d'abord raison ; il détruisit en effet la constipation, mais il donna
-          un dévoiement pire que la constipation.</p>
-        <p>Enfin nos trois habiles médecins, pleins de zèle pour leur malade qui était très riche,
+          un dévoiement pire que la constipation.
+    </p>
+    <p>
+     Enfin nos trois habiles médecins, pleins de zèle pour leur malade qui était très riche,
           employèrent tour à tour les fondants et les anodins, les calmants et les toniques, les stimulants et
           les emménagogues, les fortifiants et les béchiques, les carminatifs et les apéritifs, et après que
           tantôt en s'accordant et tantôt en se contrariant, ils eurent en bols, en opiats, en sirops, en
           juleps, en électuaires, en apozèmes, en émulsions, en lochs, en tisanes, en pilules et surtout en
           galbanum fait passer par le corps de Madame la boutique de deux apothicaires, ils l'abandonnèrent
-          sous prétexte que son état était désespéré.</p>
-        <p>Ô mon bon lecteur, vous qui avez une âme sensible et qui compatissez aux douleurs de notre veuve,
+          sous prétexte que son état était désespéré.
+    </p>
+    <p>
+     Ô mon bon lecteur, vous qui avez une âme sensible et qui compatissez aux douleurs de notre veuve,
           ne vous alarmez point de cet abandon. C'est tout ce qui peut lui arriver de plus heureux. La nature,
           dont les ressources sont infinies dans la jeunesse, n'étant plus contrariée par les expériences des
-          grands médecins, le danger disparut.</p>
-        <p>Notre veuve recouvra peu à peu ses forces. Ses os se recouvrirent insensiblement de chair,
+          grands médecins, le danger disparut.
+    </p>
+    <p>
+     Notre veuve recouvra peu à peu ses forces. Ses os se recouvrirent insensiblement de chair,
           l'émail de ses belles dents reprit sa blancheur et ses joues leur incarnat ; ses lèvres redevinrent
           vermeilles, et ses yeux, reparaissant à fleur de tête, reprirent leur feu et leur vivacité. Ses
           seins se tuméfièrent et se raffermirent de nouveau. Leur aréole, qui se recolora, redevint aussi
-          brillante que dans les beaux jours du printemps peuvent l'être les boutons de deux roses de Provins.</p>
-        <p>Avant d'être malade notre veuve n'était que jolie, après sa convalescence elle devint belle, car
+          brillante que dans les beaux jours du printemps peuvent l'être les boutons de deux roses de Provins.
+    </p>
+    <p>
+     Avant d'être malade notre veuve n'était que jolie, après sa convalescence elle devint belle, car
           elle eut de l'embonpoint sans lequel il n'y a point de vraie beauté et n'en eut que ce qu'il fallait
-          à des traits fins et délicats.</p>
-        <p>Le confesseur était le seul homme que dans sa retraite vît la jeune veuve devenue belle, fraîche
+          à des traits fins et délicats.
+    </p>
+    <p>
+     Le confesseur était le seul homme que dans sa retraite vît la jeune veuve devenue belle, fraîche
           et bien portante. Le saint ministère de cet homme en faisait à ses yeux un personnage sacré : les
           soins officieux qu'elle en recevait chaque jour lui inspiraient à son égard des sentiments tendres,
           mais honnêtes. Elle croyait devoir à ses conseils son salut, et à ses prières une santé que les
           médecins n'avaient pu lui donner. Elle le regardait comme cet esprit divin qui conduisit Jésus dans
           le désert pour y jeûner. « Il m'a menée, disait-elle, dans la solitude pour m'y sanctifier ; j'y
-          jeûne aussi de tous les vains plaisirs que le monde recherche avec avidité. »</p>
-        <p>Un mois entier se passa dans ce calme de la conscience et des sens. Calme heureux S'il était
+          jeûne aussi de tous les vains plaisirs que le monde recherche avec avidité. »
+    </p>
+    <p>
+     Un mois entier se passa dans ce calme de la conscience et des sens. Calme heureux S'il était
           durable, il serait une vraie félicité sur la terre. Mais, hélas ses sens, qu'elle croyait
           entièrement morts, n'étaient que mal éteints : avec la santé ils se rallumèrent impétueusement et,
           comme le fils de Dieu dans le désert, elle entra en tentation ; comme lui, après un long jeûne, elle
           eut faim, mais une faim dévorante, une faim d'autant plus affreuse qu'elle avait jeûné plus
-          longtemps, et qu'en reprenant ses forces elle avait recouvré un grand appétit.</p>
-        <p>--- Et de quoi, me demandera-t-on, eut-elle faim ? --- De ce qu'elle n'avait pas de ce mets tant
+          longtemps, et qu'en reprenant ses forces elle avait recouvré un grand appétit.
+    </p>
+    <p>
+     --- Et de quoi, me demandera-t-on, eut-elle faim ? --- De ce qu'elle n'avait pas de ce mets tant
           délicieux dont pendant deux ans elle s'était rassasiée avec son mari. Les idées des plaisirs passés,
           toujours chassées et toujours renaissantes, la poursuivaient partout, soit qu'elle fût chez elle,
-          soit qu'elle fût à l'église, soit qu'elle veillât, soit qu'elle dormit.</p>
-        <p>L'amitié qu'elle avait pour son confesseur était confiante. Un jour qu'ils étaient seuls, elle
+          soit qu'elle fût à l'église, soit qu'elle veillât, soit qu'elle dormit.
+    </p>
+    <p>
+     L'amitié qu'elle avait pour son confesseur était confiante. Un jour qu'ils étaient seuls, elle
           lui ouvre son cœur, lui fait connaître les illusions de son imagination et les révoltes de ses sens.
           --- Je conviens, madame, lui dit l'homme de Dieu, que cette maladie est terrible ; mais elle n'est
           pas sans remède ; il s'agirait de prendre de temps en temps quelques doses du suc de la plante
@@ -250,22 +374,30 @@
           parlez, est-ce un amer ou un béchique ? --- Non, madame, répond l'homme de Dieu, c'est un apéritif ;
           la nature n'a pas de plus grand calmant. La plante même est très commune, et comme alors qu'on y
           pense le moins, on peut être dans le cas de s'en servir, et de faire quelque bonne œuvre, j'en porte
-          toujours sur moi.</p>
-        <p>--- Quoi mon cher confesseur, reprit notre veuve, vous savez le mal qui me dévore, vous avez un
+          toujours sur moi.
+    </p>
+    <p>
+     --- Quoi mon cher confesseur, reprit notre veuve, vous savez le mal qui me dévore, vous avez un
           remède à ce mal affreux, et vous ne m'en parlez pas Que vous avez peu d'attachement pour votre
           pénitente Au nom de Dieu, donnez-m'en vite, que je m'en rassasie et que je mette fin à cette guerre
-          cruelle que jour et nuit me font mes sens.</p>
-        <p>Ô crime affreux et l'eût-on cru, que ce saint confesseur qui, pendant la maladie de sa pénitente,
+          cruelle que jour et nuit me font mes sens.
+    </p>
+    <p>
+     Ô crime affreux et l'eût-on cru, que ce saint confesseur qui, pendant la maladie de sa pénitente,
           pour la consoler, ne lui montra jamais que le Dieu du ciel, eût eu l'effronterie, pour la guérir de
           ses tentations, de lui montrer la plante du diable ? Rien pourtant n'est plus vrai que cet excès
-          d'audace et d'impudence.</p>
-        <p>À l'aspect de cet horrible objet, la vertueuse dame de Montcornillon pousse un cri effroyable, en
+          d'audace et d'impudence.
+    </p>
+    <p>
+     À l'aspect de cet horrible objet, la vertueuse dame de Montcornillon pousse un cri effroyable, en
           disant : « Retirez-vous, esprit tentateur, éloignez-vous, plante du diable ... » Mais le saint, qui
           était en rut, n'obéissant qu'à sa luxure, d'un baiser impudique lui ferme la bouche ; tel que le
           diable empoigna Jésus pour le porter sur le pinacle du temple, tel le confesseur empoigne sa
           pénitente, et de ses deux mains musculeuses la porte sur son lit. Qu'on imagine voir, non un vautour
-          dévorant une jeune colombe, mais un démon affamé qui mange goulûment un ange.</p>
-        <p>En vain notre veuve, d'une voix étouffée par la crainte et l'horreur, crie et crie : « Non, je
+          dévorant une jeune colombe, mais un démon affamé qui mange goulûment un ange.
+    </p>
+    <p>
+     En vain notre veuve, d'une voix étouffée par la crainte et l'horreur, crie et crie : « Non, je
           n'y consens pas ; mon Dieu, secourez-moi » Dieu semble ne pas l'entendre. C'était pourtant lui, et
           il n'en faut pas douter, qui, pour la sauver de l'outrage qu'on fait à sa vertu et de l'affront
           qu'un prêtre violeur veut faire à son devant, avait embarrassé sous son derrière le cordon de la
@@ -274,8 +406,10 @@
           laquais, cuisinière, accourent. Mais le confesseur qui les entend, met vite à couvert la plante du
           diable : sous une paupière à demi fermée, cachant une prunelle lubrique, il recompose son visage
           dévot, et tout en poussant un soupir sanctifié, il sort, après avoir, d'une voix d'élu, recommandé
-          aux soins des domestiques leur bonne maîtresse.</p>
-        <p>La vertueuse dame de Montcornillon, revenue de sa frayeur, remercie ses gens et ne leur fait
+          aux soins des domestiques leur bonne maîtresse.
+    </p>
+    <p>
+     La vertueuse dame de Montcornillon, revenue de sa frayeur, remercie ses gens et ne leur fait
           point connaître que l'homme de Dieu l'a assaillie : elle était pieuse et n'était point imprudente.
           Mais telle qu'une personne qui a échappé à un grand naufrage entend pendant longtemps mugir les
           vagues de la mer, telle notre veuve ne put de très longtemps éloigner le danger qu'elle a couru.
@@ -284,8 +418,10 @@
           communions, austérités, aumônes, tout fut employé pour se délivrer de cette affliction, et tout cela
           eut le même effet que les remèdes pendant sa maladie. Plus elle en avait fait, plus son mal avait
           empiré. Il en était de même de ses bonnes œuvres ; plus elle les multipliait, plus son affliction
-          semblait croître et s'élever.</p>
-        <p>Ce qui mit le comble à ce tourment affreux, c'est que cette plante du diable, qu'elle avait
+          semblait croître et s'élever.
+    </p>
+    <p>
+     Ce qui mit le comble à ce tourment affreux, c'est que cette plante du diable, qu'elle avait
           trouvée horrible, épouvantable, lorsque son confesseur la lui montra, lui paraissait alors belle,
           charmante et même magnifique. Dieu le voulait ainsi, comme autrefois il voulut que saint Antoine
           dans ses tentations vit des femmes qui effrayaient sans cesse sa pudeur. L'une superbement parée,
@@ -295,8 +431,10 @@
           non moins beaux en leur genre, mais beaucoup plus immodestes, et celle-là dans une nudité entière,
           voulant, malgré les répugnances du père Antoine, travailler avec lui à l'œuvre de la génération. Par
           de semblables tentations, Dieu éprouvait la vertu de son serviteur, et il n'éprouve, comme la Foi
-          nous l'enseigne, que ceux qu'il aime.</p>
-        <p>C'est ainsi que, pour éprouver et sanctifier notre jeune veuve, il tint pendant longtemps élevée
+          nous l'enseigne, que ceux qu'il aime.
+    </p>
+    <p>
+     C'est ainsi que, pour éprouver et sanctifier notre jeune veuve, il tint pendant longtemps élevée
           dans sa tête la plante du confesseur. Un jour, se promenant dans son jardin et cherchant à se
           distraire de cette affliction, elle se mit à s'entretenir avec Richard, son jardinier. Ce Richard
           était un de ces hommes qui, croyant n'être que francs et joyeux, sont grossiers et indécents dans
@@ -306,155 +444,213 @@
           souvent. Il est des choux et des fleurs comme des jeunes femmes : on doit être continuellement après
           elles, autrement elles languissent, sèchent et périssent. Un bon jardinier, comme un bon mari, doit
           toujours avoir l'arrosoir à la main. » À ce propos, Mme de Montcornillon rougit, mais en femme bien
-          apprise, faisant semblant de ne pas entendre ce qu'elle entend très bien, elle se retire.</p>
-        <p>La comparaison de Richard, au fond très juste, était peu décente et surtout peu respectueuse.
+          apprise, faisant semblant de ne pas entendre ce qu'elle entend très bien, elle se retire.
+    </p>
+    <p>
+     La comparaison de Richard, au fond très juste, était peu décente et surtout peu respectueuse.
           Elle opéra pourtant un bien : elle fit ce que n'avaient encore pu faire les prières et les oraisons,
           car elle fit disparaître de l'imagination de notre jeune veuve la plante du confesseur ; mais ce
           bien devint lui-même un mal ; car en lieu et place de cette plante parut tout à coup l'arrosoir du
           jardinier. S'endormait-elle ? cet arrosoir était le dernier objet qui s'offrait à sa pensée.
           Sommeillait-elle ? elle ne voyait dans tous ses songes que ce seul instrument. Se réveillait-elle ?
-          l'image du bel arrosoir de Richard se présentait à son esprit avant même l'idée de Dieu.</p>
-        <p>Toutes les prières et bonnes œuvres que fit la jeune veuve pour chasser cette nouvelle tentation
+          l'image du bel arrosoir de Richard se présentait à son esprit avant même l'idée de Dieu.
+    </p>
+    <p>
+     Toutes les prières et bonnes œuvres que fit la jeune veuve pour chasser cette nouvelle tentation
           furent en pure perte, du moins elles semblaient l'être. C'est alors que la parole de Dieu lui parut
           en défaut. Priez et veillez, a-t-il dit : elle faisait l'un et l'autre, elle priait, elle veillait,
           se macérait, et la tentation ne faisait qu'augmenter : l'arrosoir de son jardinier lui paraissait de
-          jour en jour plus beau et plus merveilleux.</p>
-        <p>Il en est des tentations comme des passions. Une nouvelle prend toujours la place d'une ancienne,
+          jour en jour plus beau et plus merveilleux.
+    </p>
+    <p>
+     Il en est des tentations comme des passions. Une nouvelle prend toujours la place d'une ancienne,
           et tel était le malheur de cette jeune veuve, c'est que l'arrosoir du jardinier ne disparut plus de
-          son imagination que pour faire place à la flûte de son cousin.</p>
-        <p>Le cousin dont il s'agit ici était un écolier âgé de seize ans, honnête, attentif, caressant,
+          son imagination que pour faire place à la flûte de son cousin.
+    </p>
+    <p>
+     Le cousin dont il s'agit ici était un écolier âgé de seize ans, honnête, attentif, caressant,
           d'une vivacité qui plaît toujours, lorsqu'elle n'est pas de l'étourderie. Elle ne l'avait point vu
           depuis trois ans et elle le revit avec un très grand plaisir. « J'ai apporté, dit-il, ma flûte,
           parce que je n'ai pas oublié que ma cousine aime de cet instrument. » La cousine, en effet, fut très
           sensible à cette attention ; elle trouva aussi qu'il avait fait de très grands progrès, et il avoua
           que ces progrès sur la flûte avaient un peu nui à des études plus nécessaires. C'était de la raison
-          jointe à une grande franchise.</p>
-        <p>Le moment arrivé de repartir pour sa pension, il sent des mouvements de fièvre ; cette fièvre
+          jointe à une grande franchise.
+    </p>
+    <p>
+     Le moment arrivé de repartir pour sa pension, il sent des mouvements de fièvre ; cette fièvre
           augmente, le délire survint ; une garde malade veilla toute la nuit auprès de son lit. Le lendemain,
           la cousine, inquiète et affligée, entre dans sa chambre pour savoir quel est son état. Elle le
           trouve endormi, très agité, tout en sueur, entièrement découvert et tenant sa flûte à la main. Son
           premier mouvement fut un sentiment de pudeur qui la fit reculer ; mais un sentiment d'humanité la
           ramène, en baissant les yeux, vers le cousin flûteur pour le couvrir. Il se réveille en sursaut et
-          la prenant par le bras, il la tire sur lui en disant : --- Oh pour le coup, je tiens ma Nanette<ref target="#N4"/>.
+          la prenant par le bras, il la tire sur lui en disant : --- Oh pour le coup, je tiens ma Nanette
+     <ref target="#N4"/>
+     .
           Elle ne m'échappera pas. --- À quoi pensez-vous donc ? s'écrie-t-elle tout effrayée. Il ouvre les
           yeux et voit la cousine dans ses bras. La honte des deux côtés fut égale. Une femme moins vertueuse
           eût voulu savoir quelle était cette Nanette qui l'occupait si fortement. La cousine, au contraire,
           se borne à lui demander comment il se trouve et il répond sagement : « Très fatigué d'un mauvais
-          rêve. » Elle l'exhorte à garder le lit, se rendormir et à ne plus rêver.</p>
-        <p>Tout le temps que dura sa maladie, rien ne lui manqua. La cousine regardait les soins qu'elle lui
-          accordait comme devoir de parenté ; mais quel fut le fruit d'un devoir si religieusement rempli ?</p>
-        <p>Une nouvelle affliction d'esprit, une nouvelle tentation. Cette flûte, qu'elle avait vue à cru,
+          rêve. » Elle l'exhorte à garder le lit, se rendormir et à ne plus rêver.
+    </p>
+    <p>
+     Tout le temps que dura sa maladie, rien ne lui manqua. La cousine regardait les soins qu'elle lui
+          accordait comme devoir de parenté ; mais quel fut le fruit d'un devoir si religieusement rempli ?
+    </p>
+    <p>
+     Une nouvelle affliction d'esprit, une nouvelle tentation. Cette flûte, qu'elle avait vue à cru,
           se plaça tout à coup à travers de sa tête et se mit à jouer toute seule les airs les plus obscènes.
           Rien ne fut négligé pour se délivrer de ce nouveau tourment et rien ne réussit. Au risque de passer
           pour une parente dure, elle renvoya à la pension son cousin, qui n'était pas encore bien rétabli ;
           mais elle croyait que Dieu, pour mettre fin à sa tentation, exigeait ce sacrifice. La flûte du
           cousin, à la vérité, sortit de sa tête, mais ce fut pour se placer ailleurs, et ce déplacement fut
-          un surcroît d'affliction.</p>
-        <p>La santé de la jeune veuve, qui jusqu'alors avait résisté à tant de tribulations, commença à
+          un surcroît d'affliction.
+    </p>
+    <p>
+     La santé de la jeune veuve, qui jusqu'alors avait résisté à tant de tribulations, commença à
           s'altérer. Son esprit devint triste et chagrin. L'accablement de son âme se répandit sur son visage.
           Ses domestiques, qui lui étaient sincèrement attachés, la voyaient affligée et ignoraient le sujet
-          de son affliction. Ils étaient plongés dans la douleur et la crainte qu'elle ne retombât malade.</p>
-        <p>Dans un de ses mouvements de tristesse où notre veuve s'abandonnait entièrement, Joachim entre
+          de son affliction. Ils étaient plongés dans la douleur et la crainte qu'elle ne retombât malade.
+    </p>
+    <p>
+     Dans un de ses mouvements de tristesse où notre veuve s'abandonnait entièrement, Joachim entre
           dans la chambre pour faire son service. Il la regarde, et ses yeux se mouillent de pleurs. ---
           Qu'avez-vous, Joachim ? lui demande sa maîtresse avec douceur ; dites-moi vos peines, et s'il dépend
           de moi de les diminuer, je m'en ferai un plaisir. --- Il est vrai, madame, j'ai un chagrin, et ce
-          chagrin est très grand : c'est celui de vous voir affligée. C'est là ma peine et toutes mes peines.</p>
-        <p>Joachim fut remercié de ses bons sentiments et renvoyé de la chambre. Cependant l'attachement de
+          chagrin est très grand : c'est celui de vous voir affligée. C'est là ma peine et toutes mes peines.
+    </p>
+    <p>
+     Joachim fut remercié de ses bons sentiments et renvoyé de la chambre. Cependant l'attachement de
           cet honnête garçon inspira à la belle affligée de l'intérêt pour lui et cet intérêt devint très
           grand lorsqu'elle apprit par ses femmes que Joachim était le frère de lait de monsieur son mari et
-          qu'il ne lui avait pas parlé de cette fraternité pour ne pas rouvrir la blessure de son cœur.</p>
-        <p>Joachim était sage, soigneux, retiré ; de jour en jour il devint plus cher à sa maîtresse qui,
+          qu'il ne lui avait pas parlé de cette fraternité pour ne pas rouvrir la blessure de son cœur.
+    </p>
+    <p>
+     Joachim était sage, soigneux, retiré ; de jour en jour il devint plus cher à sa maîtresse qui,
           dans les habitudes de ce jeune homme, croyait voir celles du défunt. S'il parlait, elle croyait
           l'entendre. Elle fit du bien à cet honnête Joachim, mais pour ne point faire de jaloux, elle ne lui
-          donna jamais des marques de sa bienveillance qu'après en avoir donné à tous ceux qui l'entouraient.</p>
-        <p>Cet événement, dont notre veuve s'occupa vivement, fit ce qu'il n'avait point encore plu à Dieu
+          donna jamais des marques de sa bienveillance qu'après en avoir donné à tous ceux qui l'entouraient.
+    </p>
+    <p>
+     Cet événement, dont notre veuve s'occupa vivement, fit ce qu'il n'avait point encore plu à Dieu
           d'accorder à ses prières ; il fit diversion à sa tentation et la flûte, du cousin s'évanouit
           entièrement de son imagination, comme au réveil un songe léger s'évanouit du souvenir. Son visage
           reprit sa sérénité et ses belles couleurs ; le calme rentra dans son âme. Hélas ce calme était
           trompeur. C'était une de ces bonaces qui sont les infaillibles avant-coureurs d'orages affreux. En
-          effet, à cette paix intérieure dont elle jouit quelques jours succéda bientôt une tempête horrible.</p>
-        <p>Un jour Joachim entre chez sa maîtresse (c'était sur les onze heures du matin) et lui présente
+          effet, à cette paix intérieure dont elle jouit quelques jours succéda bientôt une tempête horrible.
+    </p>
+    <p>
+     Un jour Joachim entre chez sa maîtresse (c'était sur les onze heures du matin) et lui présente
           respectueusement une magnifique branche de bouton d'or. « Je n'aime pas les fleurs, lui dit-elle, ni
           dans les chambres ni sur moi. Reprenez votre bouton d'or et venez m'accompagner à l'église. » On y
           fut à pied ; madame eut besoin de son bras pour traverser la rue. Un pied mal assuré qu'elle pose
           sur une pierre chancelante lui cause un faux pas. Ce faux pas en fait faire un à Joachim, elle tombe
-          et il tombe avec elle et sur elle.</p>
-        <p>Le bruit d'un cabriolet qui, avec une rapidité étonnante, vient à eux les fait frémir ; de peur
+          et il tombe avec elle et sur elle.
+    </p>
+    <p>
+     Le bruit d'un cabriolet qui, avec une rapidité étonnante, vient à eux les fait frémir ; de peur
           d'être écrasée et n'osant se remuer, elle se tapit sous Joachim qui, ne craignant rien pour lui et
           craignant tout pour sa maîtresse, de son corps nerveux couvre son corps délicat. Dans ce pressant
           danger leurs deux visages se touchèrent souvent, leurs bouches même se rencontrèrent quelquefois ;
           mais ce qui incommoda le plus fortement notre jeune veuve, fut le bouton d'or de Joachim. Tout cela
-          était dans les desseins de Dieu.</p>
-        <p>Ce n'est pas sans raison qu'ils avaient craint : Joachim eut un bras déchiré par une des roues du
-          cabriolet. Le mal n'était pas bien grand, mais il prouvait le danger.</p>
-        <p>Il est bon que tous les honnêtes gens qui marchent à pied dans Paris sachent que le cabriolet en
+          était dans les desseins de Dieu.
+    </p>
+    <p>
+     Ce n'est pas sans raison qu'ils avaient craint : Joachim eut un bras déchiré par une des roues du
+          cabriolet. Le mal n'était pas bien grand, mais il prouvait le danger.
+    </p>
+    <p>
+     Il est bon que tous les honnêtes gens qui marchent à pied dans Paris sachent que le cabriolet en
           question était celui du jeune comte de ***, aussi imprudent que mauvais conducteur. Lorsqu'il est
           dans les rues en cabriolet et qu'on en est instruit, on doit se tenir sur ses gardes, et autant
           qu'il est possible éviter de se trouver sur son passage. Au reste, dans cette histoire pleine de
           sens et de morale, nous ne parlons de la maladresse de cet étourdi que pour donner à notre jeune
-          veuve et au sage Joachim le temps de se relever et de se rajuster.</p>
-        <p>Le danger passé, on se regarde, on rougit ; on est embarrassé, on entre dans l'église pour
+          veuve et au sage Joachim le temps de se relever et de se rajuster.
+    </p>
+    <p>
+     Le danger passé, on se regarde, on rougit ; on est embarrassé, on entre dans l'église pour
           remercier Dieu. Cependant ces baisers involontaires que la jeune veuve avait donnés et reçus ne
           tardèrent pas à troubler son repos, et Joachim, sans en rien savoir, devint, ainsi que son bouton
-          d'or, le sujet d'une grande tentation.</p>
-        <p>Un laquais n'est qu'un laquais, mais quand on vit dans la retraite et que Dieu le veut, un
+          d'or, le sujet d'une grande tentation.
+    </p>
+    <p>
+     Un laquais n'est qu'un laquais, mais quand on vit dans la retraite et que Dieu le veut, un
           laquais est un homme, et un homme aussi à craindre pour la vertu d'une femme et veuve que dans le
           monde le sont, lorsqu'ils veulent en prendre la peine, vingt charmants vauriens que nous connaissons
-          tous.</p>
-        <p>Mille pensées déshonnêtes assiégèrent d'abord l'esprit de la jeune veuve ; elle avait beau prier
+          tous.
+    </p>
+    <p>
+     Mille pensées déshonnêtes assiégèrent d'abord l'esprit de la jeune veuve ; elle avait beau prier
           et les chasser, ces pensées entraient dans son imagination comme en automne les mouches entrent dans
           un appartement ouvert de toutes parts. Elle fit avec ses yeux un pacte, celui de ne jamais les lever
           sur Joachim. Ce pacte, que la vertu lui avait suggéré, fut insuffisant. Alors elle l'exclut du
           service de table et de tout le service dans la chambre ; mais ce sage et honnête garçon, que sa
           maîtresse ne voulait plus voir pendant le jour, s'offrait toutes les nuits à son esprit avec son
-          bouton d'or.</p>
-        <p>Un soir, avant de se mettre au lit, prosternée devant un crucifix, elle fit cette prière : « Ma
+          bouton d'or.
+    </p>
+    <p>
+     Un soir, avant de se mettre au lit, prosternée devant un crucifix, elle fit cette prière : « Ma
           douleur, ô mon Dieu, est au-dessus de toute douleur ; je suis un faible roseau agité par les vents
           et qu'ils briseront si vous ne le garantissez de leur fureur. Vous me présentez un calice plein
           d'horreur. Le calice de la mort me serait moins amer. Toutes choses vous sont possibles ; éloignez
           de moi ce calice affreux. Néanmoins, que votre volonté s'accomplisse et non la mienne. Effacez
           surtout de mon imagination tant d'objets obscènes qui la faiblissent malgré moi. Purifiez toutes mes
           pensées ; faites qu'en dormant je n'en aie que de chastes et d'honnêtes, afin que demain à mon
-          réveil, la joie et la paix dans le cœur, je puisse bénir votre saint nom »</p>
-        <p>Cette prière fut moins une oraison vocale que l'élan d'une âme pleine d'amertume, de ferveur et
-          de confiance. Lorsque Mme de Montcornillon eut fait à Dieu sa demande, elle se coucha et s'endormit.</p>
-        <p>Que croit-on qu'il advint à notre jeune veuve pendant son sommeil ? Le contraire de ce qu'elle
+          réveil, la joie et la paix dans le cœur, je puisse bénir votre saint nom »
+    </p>
+    <p>
+     Cette prière fut moins une oraison vocale que l'élan d'une âme pleine d'amertume, de ferveur et
+          de confiance. Lorsque Mme de Montcornillon eut fait à Dieu sa demande, elle se coucha et s'endormit.
+    </p>
+    <p>
+     Que croit-on qu'il advint à notre jeune veuve pendant son sommeil ? Le contraire de ce qu'elle
           avait demandé à Dieu. Toute la nuit elle se crut dans les bras de Joachim, comme autrefois elle
           pouvait être dans ceux de son mari, se prêtant à tous ses désirs et à tous ses transports, recevant
           amoureusement ses baisers et lui prodiguant les siens, ne pouvant se rassasier de ses caresses, ni
           se lasser de lui en faire, ne finissant une lutte d'amour que pour en commencer une nouvelle. Jamais
           illusion ne ressembla autant à la réalité. J'ai connu bien des dévotes qui, après un pareil songe,
           eussent remercié Dieu de leur avoir fait goûter, et cela sans pécher, du fruit de l'arbre défendu.
-          Il n'en fut pas ainsi de notre veuve ; elle était vertueuse et n'était point dévote.</p>
-        <p>À son réveil, et toute baignée de sueur, elle se jette hors du lit et le front contre terre : «
+          Il n'en fut pas ainsi de notre veuve ; elle était vertueuse et n'était point dévote.
+    </p>
+    <p>
+     À son réveil, et toute baignée de sueur, elle se jette hors du lit et le front contre terre : «
           Vous êtes, ô mon Dieu, dit-elle dans son désespoir, vous êtes un Dieu ou trompeur ou barbare. Vous
           avez promis d'exaucer ceux qui, dans leur affliction, s'adresseraient à vous. Du fond de ma misère,
           j'élève avec confiance ma faible voix vers vous, comme à la source unique de toute consolation, et
           vous ne m'écoutez pas. J'implore vos bontés et je n'éprouve que vos rigueurs. Vous m'enivrez d'un
           plaisir que je déteste, puisqu'il vous offense. La mort m'est préférable à une vie que vous
-          remplissez de tant de tourments.</p>
-        <p>« Enfin, ô mon Dieu, que voulez-vous de moi ? Parlez, votre servante vous écoute. Pour éloigner
+          remplissez de tant de tourments.
+    </p>
+    <p>
+     « Enfin, ô mon Dieu, que voulez-vous de moi ? Parlez, votre servante vous écoute. Pour éloigner
           la tentation, exigez-vous que j'en éloigne l'objet ? Vous allez être obéi, et que mon sacrifice vous
-          soit aussi agréable que l'odeur d'un holocauste de béliers, de taureaux et de mille agneaux gras. »</p>
-        <p>Joachim fut appelé sur-le-champ : « Je suis, lui dit sa maîtresse, très contente de vous. En
+          soit aussi agréable que l'odeur d'un holocauste de béliers, de taureaux et de mille agneaux gras. »
+    </p>
+    <p>
+     Joachim fut appelé sur-le-champ : « Je suis, lui dit sa maîtresse, très contente de vous. En
           sagesse, en fidélité, en zèle, en attachement, vous avez tout ce qu'on peut désirer dans une
           personne de votre état. Si vous m'en croyez, vous embrasserez une profession honnête. Cela vaudra
           beaucoup mieux que de servir. Voilà douze cents francs dont je vous fais présent pour commencer un
           petit établissement. » Joachim, pétrifié, se jette aux genoux de sa maîtresse, la suppliant de
-          reprendre son argent : elle ne lui dit que peu de paroles pour le consoler et le congédier.</p>
-        <p>Dieu, qui aimait Mme de Montcornillon, ne fit que rire de son sacrifice et laissa encore agir les
+          reprendre son argent : elle ne lui dit que peu de paroles pour le consoler et le congédier.
+    </p>
+    <p>
+     Dieu, qui aimait Mme de Montcornillon, ne fit que rire de son sacrifice et laissa encore agir les
           causes secondes : la nuit suivante elle eut un nouveau songe, pendant lequel elle s'imagina avoir
           épousé Joachim, se glorifiant publiquement d'être Mme Joachim et mêlant sans cesse aux caresses dont
-          elle l'enivrait les tendres noms d'époux, de mon roi, et ses protestations d'un amour éternel.</p>
-        <p>Entre nous honnêtes gens, le mal de ces songes est qu'ils ne durent pas, et s'ils duraient, me
+          elle l'enivrait les tendres noms d'époux, de mon roi, et ses protestations d'un amour éternel.
+    </p>
+    <p>
+     Entre nous honnêtes gens, le mal de ces songes est qu'ils ne durent pas, et s'ils duraient, me
           disait autrefois dans sa verte jeunesse le saint évêque de ***, ils seraient, ma foi, préférables à
           ce qu'on appelle le songe de la vie. Celui de notre veuve se dissipa avec le réveil et son esprit se
           remplit d'amertume. Les dégoûts et l'ennui s'emparèrent de son âme. La retraite lui devint odieuse,
           elle tomba dans le découragement. C'est dans ces moments de tristesse qu'elle alla à l'église des
           Récollets et demanda un confesseur. Celui qui se présenta était un de ces bons religieux qui, à une
           ignorance profonde, joignent un grand bon sens : qui ne se piquent pas de dire des choses très
-          fines, mais qui en disent de très raisonnables.</p>
-        <p>Lorsque l'infortunée Mme de Montcornillon eut confessé ce qu'elle croyait être ses péchés, elle
+          fines, mais qui en disent de très raisonnables.
+    </p>
+    <p>
+     Lorsque l'infortunée Mme de Montcornillon eut confessé ce qu'elle croyait être ses péchés, elle
           fit connaître l'état où se trouvait son esprit, ses tentations, ses peines spirituelles et finit par
           demander des conseils. --- Madame, répond le confesseur, me fait honneur. Je m'appelle le père
           Bonhomme, je dis ce que je pense, mais je ne conseille personne. Avant tout, je demanderai à Madame
@@ -464,7 +660,10 @@
           --- Le monde un ennemi dangereux ? Cela peut être ; je n'en sais rien. Il ne m'a jamais fait de mal,
           à moi ; mais je sais qu'un ennemi plus dangereux encore que le monde, c'est nous-mêmes. C'est
           celui-là qu'il faut fuir, surtout quand on est jeune :
-          <hi rend="italic">experto crede Roberto</hi>. Croyez-en le père Bonhomme ; là-dessus il en sait
+     <hi rend="italic">
+      experto crede Roberto
+     </hi>
+     . Croyez-en le père Bonhomme ; là-dessus il en sait
           autant qu'un autre. Je me fis récollet dans un âge où j'ignorais ce qu'il devait m'en coûter.
           Pendant vingt ans j'ai souffert comme un malheureux. Comme vous, madame, j'étais continuellement
           tenté ; vous voyez des hommes en rêvant, et moi je voyais des femmes jour et nuit. Si je chassais
@@ -501,62 +700,88 @@
           son derrière. Hem cette histoire-là n'est pas trop jolie ; mais c'est comme dans tous les livres, il
           y en a de bonnes et de mauvaises. On lit les unes et on laisse les autres. En un mot, madame,
           craignez Dieu, réjouissez-vous un peu. Saint Paul le conseille et moi aussi, et surtout ne demeurez
-          pas seule.</p>
-        <p>Après cette exhortation grossière et brusquement prononcée, le père Bonhomme donna l'absolution à
-          la jeune veuve qui, confessée, absoute et même un peu consolée, se retira chez elle.</p>
-        <p>Le jeune marquis de Confolans, capitaine de hussards, qui venait de chasser dans la plaine de
+          pas seule.
+    </p>
+    <p>
+     Après cette exhortation grossière et brusquement prononcée, le père Bonhomme donna l'absolution à
+          la jeune veuve qui, confessée, absoute et même un peu consolée, se retira chez elle.
+    </p>
+    <p>
+     Le jeune marquis de Confolans, capitaine de hussards, qui venait de chasser dans la plaine de
           Saint-Denis, passa devant l'église des Récollets au moment où la belle confessée en sortait. Il
           l'aperçoit, et un mot fort énergique exprime sa surprise de voir une pareille beauté. Tout aussitôt
           il se mit en quête. Avec moins d'ardeur un jeune chien suit au fumet une compagnie de perdreaux : il
           ne quitte le faubourg qu'après avoir su quelle était cette jeune veuve, où elle demeurait et quels
           étaient son nom, ses habitudes et ses alentours. Il juge que c'est un trésor enfoui. Son projet fut
           de le mettre en valeur et de le rendre à la société. Jamais plus noble projet n'entra dans la tête
-          d'un jeune seigneur français.</p>
-        <p>Le lendemain il revint observer cet éclatant phénomène et fut assez heureux pour le découvrir.
+          d'un jeune seigneur français.
+    </p>
+    <p>
+     Le lendemain il revint observer cet éclatant phénomène et fut assez heureux pour le découvrir.
           MM. du Séjour et Messier, à l'apparition d'une nouvelle comète, ont moins de joie que le jeune
           hussard n'en ressentit en voyant la jeune veuve sortir de chez elle pour aller à la messe. Il lui
           arriva même tout le contraire de ce qui arrive aux astronomes à l'égard de Vénus. Plus ils observent
-          cette planète, qui nous paraît si brillante, plus ils la trouvent difforme<ref target="#N5"/>
-          ; le jeune hussard, au contraire, plus il observe Mme de Montcornillon, plus il la trouve belle, et
+          cette planète, qui nous paraît si brillante, plus ils la trouvent difforme
+     <ref target="#N5"/>
+     ; le jeune hussard, au contraire, plus il observe Mme de Montcornillon, plus il la trouve belle, et
           il avait raison. Son visage, par la forme et la régularité des traits, l'emporte en perfection sur
           celui de Mme de Fezensac : ses yeux sont presque aussi beaux que ceux de notre souveraine ; à la
           vérité, elle a moins d'éclat, son front est moins auguste, mais sa taille n'est ni moins élégante,
-          et sa démarche ni moins noble, ni moins aisée.</p>
-        <p>Le marquis de Confolans, pour l'accomplissement de ses beaux desseins, tenta diverses voies, et
+          et sa démarche ni moins noble, ni moins aisée.
+    </p>
+    <p>
+     Le marquis de Confolans, pour l'accomplissement de ses beaux desseins, tenta diverses voies, et
           elles furent toutes inutiles. On ne vient pas toujours à bout de ce qu'on entreprend. En amour comme
           à la guerre, un hussard n'est heureux que quand Dieu le veut et dans le temps qu'il veut. Notre
           marquis, quoique Français et militaire, malgré la vivacité de ses désirs, se résigne, et comme un
           bon chrétien mettant en Dieu, et surtout dans les circonstances, toute sa confiance, continue
           d'observer Mme de Montcornillon, cet astre du faubourg Saint-Denis qui doit briller un jour sur le
           théâtre du grand monde. Il était jeune, mais il était persuadé que lorsqu'on veut bien fortement une
-          chose. Dieu permet toujours qu'elle arrive.</p>
-        <p>Mme de Montcornillon, qui ne se doute ni qu'elle est un astre, ni qu'elle est observée, mais
+          chose. Dieu permet toujours qu'elle arrive.
+    </p>
+    <p>
+     Mme de Montcornillon, qui ne se doute ni qu'elle est un astre, ni qu'elle est observée, mais
           soumise aux avis du père Bonhomme, a déjà fait acheter une Bible et plusieurs histoires pieuses et
           récréatives, telles que les vies de sainte Thérèse, de Marie Agrado, de Marie Alacoque et des Pères
           du désert. La lecture devint sa grande occupation. Ses deux femmes de chambre furent admises à
           partager avec elle ce saint amusement. Elles s'édifiaient mutuellement et s'extasiaient de bonne foi
-          sur chaque merveille qu'elles lisaient.</p>
-        <p>La lecture de la Bible avait la préférence sur toutes les autres histoires. Si elles y trouvaient
+          sur chaque merveille qu'elles lisaient.
+    </p>
+    <p>
+     La lecture de la Bible avait la préférence sur toutes les autres histoires. Si elles y trouvaient
           quelques actes de barbarie, elles ne faisaient pas les raisonneuses, mais elles se contentaient de
           dire : « Dieu, qui est le maître de tout, le voulait ainsi. » Si c'était un trait de simplicité des
           temps patriarchaux, elles disaient : « Les hommes d'alors n'y regardaient pas de si près, ils
           étaient moins méchants que ceux de nos jours. » Si elles lisaient quelque figure des prophètes,
           elles s'écriaient de concert : « Cela doit être bien beau, car nous ne le comprenons pas. » On ne
-          quittait une lecture que pour en prendre une autre.</p>
-        <p>Cette sainte occupation, ainsi que le père Bonhomme l'avait prévu, dissipa les tentations de la
+          quittait une lecture que pour en prendre une autre.
+    </p>
+    <p>
+     Cette sainte occupation, ainsi que le père Bonhomme l'avait prévu, dissipa les tentations de la
           jeune veuve et lui donna des visions. Ses femmes de chambre en eurent aussi. C'était à qui des trois
           ferait les plus jolis songes. Parmi ceux de Mme de Montcornillon, il y en eut un qui décida de son
-          sort : il lui sembla voir, à l'exemple de Jérémie, une belle verge qui veillait<ref target="#N6"/>,
-          <hi rend="italic">virgulam vigilantem</hi>, et entendre Dieu qui, en lui montrant cette singularité,
-          lui demandait ; « Que voyez-vous, madame ? »</p>
-        <p>À la suite de cette vision elle s'imagina être grosse, ainsi que ses deux demoiselles, des œuvres
+          sort : il lui sembla voir, à l'exemple de Jérémie, une belle verge qui veillait
+     <ref target="#N6"/>
+     ,
+     <hi rend="italic">
+      virgulam vigilantem
+     </hi>
+     , et entendre Dieu qui, en lui montrant cette singularité,
+          lui demandait ; « Que voyez-vous, madame ? »
+    </p>
+    <p>
+     À la suite de cette vision elle s'imagina être grosse, ainsi que ses deux demoiselles, des œuvres
           d'un saint ermite, qui, au nom de Dieu, était venu chez elle et qui, réunissant en lui les
           personnages de Jacob, d'Isaïe et d'Osée, avait passé plusieurs nuits avec elle et ensuite avec ses
-          deux demoiselles.</p>
-        <p>Une semblable vision, qui autrefois eût affligé son esprit et alarmé sa pudeur, ne lui parut,
+          deux demoiselles.
+    </p>
+    <p>
+     Une semblable vision, qui autrefois eût affligé son esprit et alarmé sa pudeur, ne lui parut,
           d'après les lectures de la sainte Bible, qu'un événement qui pouvait entrer dans les décrets de
-          Dieu, dont les desseins sont impénétrables.</p>
-        <p>Avant de raconter cette vision à ses femmes, notre veuve crut devoir en faire part au père
+          Dieu, dont les desseins sont impénétrables.
+    </p>
+    <p>
+     Avant de raconter cette vision à ses femmes, notre veuve crut devoir en faire part au père
           Bonhomme. --- Puisque madame revient, elle est donc contente de moi ? lui dit-il, en la trouvant
           dans le confessionnal. Comment se trouve-t-elle des recettes du père Bonhomme ? S'ennuie-t-elle
           toujours ? A-t-elle encore des tentations ? --- Non, mon père ; mais, en revanche, j'ai des visions.
@@ -571,8 +796,10 @@
           l'orient, vers l'occident, vers le midi et vers le septentrion. Ensuite je lui ai fait apporter à
           déjeuner ; il a pris une figue qu'il a enveloppée d'un morceau de linge et l'a jetée au feu en
           disant : « Le maître maudit le figuier, le serviteur maudit le fruit. Périssent ainsi ceux qui
-          résistent aux volontés de Dieu »</p>
-        <p>Ensuite prenant une seconde figue, il l'a partagée et en a jeté une moitié par la fenêtre et
+          résistent aux volontés de Dieu »
+    </p>
+    <p>
+     Ensuite prenant une seconde figue, il l'a partagée et en a jeté une moitié par la fenêtre et
           divisant l'autre moitié en deux parts, il m'en a donné une et partageant en trois le morceau qui
           restait, il en a donné deux à mes femmes et a mangé l'autre en disant : « C'est ainsi que les rosées
           du ciel seront répandues sur la maison de madame. » Il est resté quinze jours chez moi, méditant,
@@ -605,85 +832,114 @@
           jolie reine. Il n'en fut pourtant rien. Chacun a ses rêves. --- Mais, mon père, si l'ermite que j'ai
           vu en rêvant venait chez moi, le recevrais-je ? --- Oui, madame, recevez-le. C'est une bonne action
           de recevoir un ermite ; surtout faites-lui bonne chère. Je ne risque rien de dire cela, parce que je
-          suis bien sûr qu'il ne viendra point.</p>
-        <p>Pendant que Mme de Montcornillon contait ses visions au père Bonhomme, où pense-ton qu'était le
+          suis bien sûr qu'il ne viendra point.
+    </p>
+    <p>
+     Pendant que Mme de Montcornillon contait ses visions au père Bonhomme, où pense-ton qu'était le
           jeune marquis de Confolans ? À la chasse et sur les brisées de Tayau relançant un cerf ? Non. Au jeu
           de paume et le disputant en adresse à tous nos princes ? Non. Autour d'une table de jeu, attendant
           d'un as ou d'un valet le gain de mille louis d'or ? Non. Au spectacle de Mme de Montesson et
           applaudissant des deux mains en voyant paraître sur la scène la jeune marquise de Brisai ? Point du
           tout. Au foyer de la Comédie-Française et prononçant étourdiment sur le sort d'une tragédie nouvelle
-          ? Point du tout. Où était-il donc ? Tout auprès de la jeune veuve.</p>
-        <p>Tel qu'un jeune et superbe onagre, qui sentant l'objet de ses amours, sans que rien ne l'arrête,
-          le poursuit avec ardeur<ref target="#N7"/>
-          ; tel notre jeune colonel de hussards : il a vu entrer à l'église notre belle veuve et la suivant à
+          ? Point du tout. Où était-il donc ? Tout auprès de la jeune veuve.
+    </p>
+    <p>
+     Tel qu'un jeune et superbe onagre, qui sentant l'objet de ses amours, sans que rien ne l'arrête,
+          le poursuit avec ardeur
+     <ref target="#N7"/>
+     ; tel notre jeune colonel de hussards : il a vu entrer à l'église notre belle veuve et la suivant à
           la piste, il est entré avec elle ; tapi derrière le confessionnal, il était tout oreilles. Aucune
           circonstance de la charmante vision que la jeune veuve a racontée au père Bonhomme, n'a échappé à
           son esprit attentif. Il ne sort de l'église que pour voler chez lui ; et vite une Bible qu'il dévore
           pour savoir ce que c'est qu'un Osée, un Isaïe, une Gomer, une Bala, une Lia, une Roma, une Zelpha.
           Et vite un habit d'ermite et une belle barbe blanche, et vite il répète son rôle de prophète qu'il
-          fait bientôt à merveille.</p>
-        <p>On était au vingt-sept du mois d'avril, et c'était le premier jour de mai qu'il voulait se
+          fait bientôt à merveille.
+    </p>
+    <p>
+     On était au vingt-sept du mois d'avril, et c'était le premier jour de mai qu'il voulait se
           présenter, au nom de Dieu, chez Mme de Montcornillon. Mon lecteur voudrait-il me dire lequel des
           deux, ou de ce jeune colonel ou de cette jeune veuve, appelait ce jour avec plus d'impatience ? Nous
           avons sur cette matière importante entendu bien des bavards. Aucun d'eux n'a pu nous satisfaire. Ce
           problème, en effet, ne peut être résolu que par les probabilités et nous laissons à M. le marquis de
-          Condorcet, l'ami du célèbre d'Alembert, l'honneur de la solution.</p>
-        <p>Enfin arrive ce jour si désiré, et à sept heures du matin, le jeune colonel de hussards, en habit
+          Condorcet, l'ami du célèbre d'Alembert, l'honneur de la solution.
+    </p>
+    <p>
+     Enfin arrive ce jour si désiré, et à sept heures du matin, le jeune colonel de hussards, en habit
           d'ermite, se présenta à la porte de la belle visionnaire. Il veut monter dans son appartement ; une
-          femme de chambre le rudoie et il se retire en poussant trois cris affreux.</p>
-        <p>Mme de Montcornillon, déjà éveillée, entend ces cris et sonne. On arrive en hâte pour lui dire
+          femme de chambre le rudoie et il se retire en poussant trois cris affreux.
+    </p>
+    <p>
+     Mme de Montcornillon, déjà éveillée, entend ces cris et sonne. On arrive en hâte pour lui dire
           quel est le personnage qui a paru. --- Comment est-il habillé ? demanda-t-elle d'une voix oppressée.
           --- Comme un religieux qui est ermite, répondent les deux demoiselles. --- Est-il jeune ? leur
           demande-t-on encore. Là dessus, grande dispute. L'une dit oui et l'autre dit non. --- Il a, répond
           la première, le visage du Salomon de la Bible. --- Je n'ai pas bien vu le visage, repart la seconde,
           mais il a la barbe de Samuel, qui est aussi dans la Bible. --- Puisqu'il en est ainsi, réplique leur
           maîtresse, s'il revient, vous le conduirez ici, car il faut que les desseins de Dieu
-          s'accomplissent.</p>
-        <p>Cet ordre fut donné d'un ton assez calme ; mais l'agitation était dans le cœur et le trouble dans
+          s'accomplissent.
+    </p>
+    <p>
+     Cet ordre fut donné d'un ton assez calme ; mais l'agitation était dans le cœur et le trouble dans
           toutes les idées. Ensuite elle raconte à ses deux suivantes la vision qu'elle a eue, ajoutant
-          qu'elle en a conféré avec le père Bonhomme et qu'il est d'avis qu'on reçoive le père ermite.</p>
-        <p>Ce récit, fait en tremblant, fut écouté avec admiration et grand étonnement. La plus âgée des
+          qu'elle en a conféré avec le père Bonhomme et qu'il est d'avis qu'on reçoive le père ermite.
+    </p>
+    <p>
+     Ce récit, fait en tremblant, fut écouté avec admiration et grand étonnement. La plus âgée des
           deux suivantes dit que Dieu autrefois permettait des choses comme cela pour glorifier son saint nom.
           --- Si je ne me trompe, reprit la plus jeune, j'ai vu aussi ce bon ermite en rêvant. Je n'ose
           l'assurer, mais il ressemble beaucoup à celui que j'ai vu dans mon sommeil. Toute la journée se
           passa en prières, en conjectures et en pieuses réflexions pour se préparer à recevoir l'envoyé du
-          Ciel.</p>
-        <p>Le lendemain, dans l'attente de revoir l'homme de Dieu, les deux demoiselles se trouvèrent de
+          Ciel.
+    </p>
+    <p>
+     Le lendemain, dans l'attente de revoir l'homme de Dieu, les deux demoiselles se trouvèrent de
           grand matin à la porte de la maison. À peine parut-il que la plus jeune, laissant à son aînée le
           soin de l'accompagner, court l'annoncer à sa maîtresse, ajoutant : « C'est le même ermite que j'ai
           vu en songe. Son visage, comme celui d'un ange, est également vénérable par sa beauté et par sa
           vieillesse. --- Qui êtes-vous, mon père ? lui demanda madame lorsqu'il entra dans la chambre. --- Je
           suis, répondit-il d'un ton grave et doux, celui que Dieu envoie pour la consolation des âmes qui ont
-          souffert de tentation. »</p>
-        <p>Après ce peu de mots, il se met à genoux et fait en style prophétique quatre prières vers les
+          souffert de tentation. »
+    </p>
+    <p>
+     Après ce peu de mots, il se met à genoux et fait en style prophétique quatre prières vers les
           quatre points cardinaux. Rien ne fut oublié, ni la figue maudite et jetée au feu, ni la figue
           partagée en divers morceaux, ni les paroles mystérieuses qui accompagnèrent ce partage. Et maîtresse
           et suivantes étaient grandement émerveillées de voir que la vision de madame s'accomplissait jusque
-          dans ses moindres circonstances.</p>
-        <p>Nous ne ferons point le récit de tout ce qui se passa et se dit de pieux dans cette première
+          dans ses moindres circonstances.
+    </p>
+    <p>
+     Nous ne ferons point le récit de tout ce qui se passa et se dit de pieux dans cette première
           journée. Nous nous bornerons à dire que le hussard ermite ne dit et ne fit rien qui ne fût digne de
           son rôle de prophète. Ce n'est pas non plus ce que nos lecteurs sont le plus curieux de savoir ; Ils
           le sont bien davantage d'apprendre comment se termina cette première journée. C'est aussi ce que
-          nous allons leur raconter.</p>
-        <p>L'heure du coucher étant arrivée, le jeune et vénérable ermite se met à genoux. À son exemple, la
+          nous allons leur raconter.
+    </p>
+    <p>
+     L'heure du coucher étant arrivée, le jeune et vénérable ermite se met à genoux. À son exemple, la
           jeune veuve en fait autant. La prière qu'il fit fut une oraison à la judaïque, c'est-à-dire une
           invitation au ciel, au soleil, à la lune, aux étoiles, aux éléments, aux arbres, aux plantes, aux
           oiseaux, aux rochers, aux animaux, à bénir Dieu et à l'adorer. Ces invitations furent terminées,
           conformément à l'esprit des juifs, par des malédictions horribles contre les pécheurs et en
           particulier contre ceux qui sont sourds à la voix des prophètes et qui rejettent les visions du
-          Seigneur.</p>
-        <p>Après ces imprécations, le saint ermite s'approche du lit de madame, le bénit à plusieurs fois en
+          Seigneur.
+    </p>
+    <p>
+     Après ces imprécations, le saint ermite s'approche du lit de madame, le bénit à plusieurs fois en
           disant : « Cette nuit sera la nuit de Jacob et de Lia qui n'est point Lia. Demain sera la nuit de
           Rachel qui n'est point Rachel et qui est plus que Rachel. » Les deux femmes de chambre, toujours
           témoins, admirent, s'étonnent, et sur un signe mystérieux que fait le saint ermite avec le bras
-          droit, elles sortent de la chambre et laissent leur maîtresse seule avec lui.</p>
-        <p>Qu'on n'imagine pas voir un jeune homme qui, pour dénouer une scène amoureuse, se Jetant aux
+          droit, elles sortent de la chambre et laissent leur maîtresse seule avec lui.
+    </p>
+    <p>
+     Qu'on n'imagine pas voir un jeune homme qui, pour dénouer une scène amoureuse, se Jetant aux
           pieds de sa maîtresse, embrassant ses genoux, ses deux mains pressant les siennes, les couvrant de
           pleurs et de baisers, et dans les transports d'une passion toute charnelle, pour mériter son pardon
           et obtenir ses faveurs, lui prodigue les serments d'adoration, d'amour et de fidélité ; non, ce
           n'est point ici un amant ordinaire, c'est un prophète qui parle au nom du Ciel, au nom de celui qui
-          l'envoie, et qui se met au lit.</p>
-        <p>En ce monde la femme, ainsi que l'homme, est toujours conduite par l'opinion ou par les
+          l'envoie, et qui se met au lit.
+    </p>
+    <p>
+     En ce monde la femme, ainsi que l'homme, est toujours conduite par l'opinion ou par les
           circonstances. Mme de Montcornillon en est une preuve frappante. Naguère elle eût cru offenser
           mortellement Dieu si elle eût regardé un homme en face. Sa pudeur délicate était toujours en
           alarmes. En ce moment elle craindrait de déplaire à Dieu si, pour l'accomplissement de sa vision,
@@ -692,18 +948,24 @@
           avait été étonnée des merveilles de la journée, elle fut encore plus surprise des prodiges de la
           nuit. Pendant le jour il avait montré la douceur d'un ange ; pendant la nuit ce fut un vrai hussard
           au milieu de Cythère, pillant, ravageant, fourrageant tout, ne respectant rien, ne laissant de la
-          susdite île ni coin, ni recoin sans le mettre à contribution.</p>
-        <p>La journée du lendemain, à peu de chose près, ne fut qu'une répétition de la veille, et la nuit
+          susdite île ni coin, ni recoin sans le mettre à contribution.
+    </p>
+    <p>
+     La journée du lendemain, à peu de chose près, ne fut qu'une répétition de la veille, et la nuit
           qui suivit fut celle de Rachel. Vint ensuite la nuit d'Isaïe et de la prophétesse ; s'ensuivirent
-          enfin les nuits de Bala et de Zelpha, c'est-à-dire des deux suivantes.</p>
-        <p>La plus âgée avait vingt-deux ans, c'était une grande fille blonde, bien faite, d'un grand éclat,
+          enfin les nuits de Bala et de Zelpha, c'est-à-dire des deux suivantes.
+    </p>
+    <p>
+     La plus âgée avait vingt-deux ans, c'était une grande fille blonde, bien faite, d'un grand éclat,
           mais d'une indolence extrême, sans passions et sans désirs. Ses yeux pleins d'une douce langueur
           étaient grands et très fendus ; on n'en avait jamais vu toute la beauté, elle les tenait toujours à
           demi fermés, tant elle craignait le léger effort qu'il eût fallu faire pour les ouvrir extrêmement.
           La paresse la rendait indifférente sur les faveurs et les embrassements du prophète ; rien que la
           peur d'offenser Dieu la retint. C'est le seul embarras, disait-elle à sa compagne, de faire une
-          chose que je n'ai point encore faite et la crainte de ne pas le savoir faire.</p>
-        <p>Sa compagne, âgée de dix-huit ans, était une brune très piquante, d'une taille médiocre, mais
+          chose que je n'ai point encore faite et la crainte de ne pas le savoir faire.
+    </p>
+    <p>
+     Sa compagne, âgée de dix-huit ans, était une brune très piquante, d'une taille médiocre, mais
           d'une vivacité prodigieuse, soit qu'elle parlât, soit qu'elle agit. --- Ma chère amie, dit-elle à
           son aînée, Dieu se contente de ce que l'on sait faire. La soumission et l'obéissance, voilà ce qu'il
           demande de nous : si nous devons craindre quelque chose, c'est de lui déplaire en désobéissant à la
@@ -715,40 +977,56 @@
           les saints exemples qui sont dans la sainte Bible ? Faites encore attention, ma chère amie, à tous
           les maux dont sont menacés ceux qui ne se soumettent pas aux volontés de Dieu et de ses prophètes.
           Je vous avoue que je passerai deux à quatre nuits avec le saint ermite plutôt que de m'exposer à de
-          pareils malheurs.</p>
-        <p>Ce discours était persuasif ; il n'y avait rien à répondre et les vingt-deux ans cédèrent aux
+          pareils malheurs.
+    </p>
+    <p>
+     Ce discours était persuasif ; il n'y avait rien à répondre et les vingt-deux ans cédèrent aux
           raisons des dix-huit. Ce que nous observerons ici pour l'instruction des jeunes demoiselles, c'est
           que l'indifférence qu'on avait pour dormir avec un prophète se changea en une véritable passion et
           qu'on finit par convenir qu'il en est de cet exercice comme des jeux qui déplaisent et qui ennuient
           lorsqu'on les ignore, mais qu'on ne peut se lasser de jouer quand une fois on en connaît les
-          premières règles. En ce monde, dit souvent l'abbé du Vernet, tout est habitude.</p>
-        <p>Les dix-huit ans eurent aussi leur tour, et leurs deux nuits furent remplies avec cette gaieté et
+          premières règles. En ce monde, dit souvent l'abbé du Vernet, tout est habitude.
+    </p>
+    <p>
+     Les dix-huit ans eurent aussi leur tour, et leurs deux nuits furent remplies avec cette gaieté et
           cette résignation chrétienne qu'on doit toujours avoir lorsqu'on fait une action qui plaît à Dieu
-          ou, ce qui revient au même, qu'on croit devoir lui plaire.</p>
-        <p>Cependant le temps s'écoulait, et déjà le devoir appelait le jeune colonel à la tête de son
+          ou, ce qui revient au même, qu'on croit devoir lui plaire.
+    </p>
+    <p>
+     Cependant le temps s'écoulait, et déjà le devoir appelait le jeune colonel à la tête de son
           régiment. Ce régiment devait passer dans peu de jours par Paris, non pour en faire le pillage ainsi
           qu'on l'avait projeté en ces derniers temps, mais pour se rendre sur le Rhin et aller repousser les
           ennemis qui menaçaient la frontière. Ayant tout disposé pour une évasion subite, il parla ainsi à la
-          jeune veuve et à ses deux suivantes. C'était sur les deux heures du soir :</p>
-        <p>« Tout mystère est consommé en madame et dans la maison de madame, vous le voyez et bientôt vous
+          jeune veuve et à ses deux suivantes. C'était sur les deux heures du soir :
+    </p>
+    <p>
+     « Tout mystère est consommé en madame et dans la maison de madame, vous le voyez et bientôt vous
           ne le verrez plus. Car selon ce qui est écrit dans le ciel, il s'en va pour revenir. Celles qui
           l'ont vu le reverront dans sa gloire, et le jour de la gloire n'est pas loin. Bénies soient à jamais
           celles en qui et par qui les œuvres du Seigneur se sont accomplies ; je le dis, en vérité, que dans
           tous les endroits de Paris où l'on racontera ces merveilles, ce sera à la louange de celui par qui
-          elles ont été opérées et de celles en qui elles se sont opérées. »</p>
-        <p>Après que, d'un ton prophétique, notre ermite eut prononcé ce petit discours, il passa dans
-          l'antichambre et aussi prompt qu'un éclair, il descend dans le jardin et disparaît.</p>
-        <p>Cette évasion mystérieuse et inattendue plongea nos trois recluses dans une profonde rêverie. Mme
+          elles ont été opérées et de celles en qui elles se sont opérées. »
+    </p>
+    <p>
+     Après que, d'un ton prophétique, notre ermite eut prononcé ce petit discours, il passa dans
+          l'antichambre et aussi prompt qu'un éclair, il descend dans le jardin et disparaît.
+    </p>
+    <p>
+     Cette évasion mystérieuse et inattendue plongea nos trois recluses dans une profonde rêverie. Mme
           de Montcornillon était inconsolable. Sa première demoiselle pleurait amèrement. --- Pourquoi nous
           affliger ? dit la brunette. Ne nous a-t-il pas bénies et avec la bénédiction d'un prophète peut-on
           manquer de quelque chose ? N'a-t-il pas dit que nous le reverrions ? S'il revient dans sa gloire,
           comme il l'a annoncé, je conseille à madame de l'épouser ; elle sera la femme d'un prophète et je
-          lui promets de rester toute ma vie à son service.</p>
-        <p>Mais bientôt arrivèrent les nausées, les maux de cœur, les vomissements et tous les symptômes qui
+          lui promets de rester toute ma vie à son service.
+    </p>
+    <p>
+     Mais bientôt arrivèrent les nausées, les maux de cœur, les vomissements et tous les symptômes qui
           sont les accompagnements de la grossesse. Elles n'en furent pas plus tristes, car cet état leur
           paraissait selon les desseins de Dieu. La jeune veuve s'empressa d'aller faire part au père Bonhomme
-          d'un événement qui justifiait sa vision et dont le père Bonhomme avait douté.</p>
-        <p>Après la formule d'usage, lorsqu'on est aux pieds d'un confesseur : Mon père, dit-elle, ce qui
+          d'un événement qui justifiait sa vision et dont le père Bonhomme avait douté.
+    </p>
+    <p>
+     Après la formule d'usage, lorsqu'on est aux pieds d'un confesseur : Mon père, dit-elle, ce qui
           devait venir est venu. --- Encore des sornettes Eh bien, madame, puisqu'il est venu, en êtes-vous un
           peu contente ? --- Oui, mon père, et même beaucoup, si Dieu lui-même est content. --- Dieu c'est un
           bon père. Il n'est pas difficile à contenter. Il serait à souhaiter que les hommes ne le fussent pas
@@ -808,86 +1086,127 @@
           vous amusera. Dans votre situation il faut vous tenir joyeuse afin de ne pas faire un enfant
           pleureur et rechigné. C'est avec le jeune colonel de ce régiment que je voulais vous marier. Rien
           pourtant, si après vos couches vous vous conduisez bien, n'empêchera que je mette en train ce
-          mariage ; mais nous parlerons de cela une autre fois.</p>
-        <p>Cette exhortation simple et grossière en valait bien une plus fleurie. Malgré l'incrédulité du
+          mariage ; mais nous parlerons de cela une autre fois.
+    </p>
+    <p>
+     Cette exhortation simple et grossière en valait bien une plus fleurie. Malgré l'incrédulité du
           père Bonhomme, la jeune veuve n'en fut pas moins persuadée d'avoir opéré avec l'envoyé de Dieu.
           Cependant, conformément à ses avis, elle alla avec ses deux femmes voir manœuvrer les hussards.
           Malgré la foule et l'embarras, elle se trouva toujours à portée de voir les évolutions. Le colonel,
           qui l'avait fait observer, avait pourvu à sa curiosité. Tout le régiment dédia en sa présence. Il
           serait difficile de peindre son ébahissement et celui de ses deux femmes de chambre lorsqu'elles
-          reconnurent leur prophète dans le colonel qui commandait les hussards.</p>
-        <p>Mme de Montcornillon ne pouvait croire ce qu'elle voyait, tant son cœur était ému. L'aînée des
+          reconnurent leur prophète dans le colonel qui commandait les hussards.
+    </p>
+    <p>
+     Mme de Montcornillon ne pouvait croire ce qu'elle voyait, tant son cœur était ému. L'aînée des
           deux demoiselles ouvrait pour la première fois entièrement ses grands yeux et ne pouvait se lasser
           de regarder et d'admirer le père ermite en habit de héros, escadronnant à la tête de six cents
           hussards. La jeune riait de plaisir. --- Ma foi, disait-elle, tout mystère est accompli. Nous le
           voyons dans sa gloire, ainsi qu'il nous l'avait prédit. Il est en effet plus glorieux de commander à
           des guerriers que de vivre en ermite, de servir l'État, que de gueuser. Nous pensions avoir des
-          enfants d'un prophète ; ils seront ceux d'un héros et vaudront peut-être davantage.</p>
-        <p>Pendant ces moments d'admiration et d'un profond étonnement, elles aperçurent le père Bonhomme
+          enfants d'un prophète ; ils seront ceux d'un héros et vaudront peut-être davantage.
+    </p>
+    <p>
+     Pendant ces moments d'admiration et d'un profond étonnement, elles aperçurent le père Bonhomme
           dans la foule. Mme de Montcornillon le fait appeler et monter dans sa voiture. Elle lui demande le
           nom du colonel. --- C'est, répondit-il, le marquis de Confolans. Il a de l'amitié pour moi, ainsi
           que son père. Je les ai vus l'un et l'autre pendant la dernière guerre. J'étais un des aumôniers de
           l'armée. Le père Bonhomme, comme on peut le penser, n'a pas toujours resté dans son couvent à
           chanter vêpres et à bêcher son parterre. Ensuite, s'approchant de l'oreille de la jeune veuve, il
           lui dit : « C'est là ce même colonel dont je vous ai parlé. Ne soyez pas affligée ; après vos
-          couches, je vous marierai avec lui. »</p>
-        <p>Le père Bonhomme fut ramené en voiture et retenu à dîner. On s'en fit un ami. Ce n'était ni un
+          couches, je vous marierai avec lui. »
+    </p>
+    <p>
+     Le père Bonhomme fut ramené en voiture et retenu à dîner. On s'en fit un ami. Ce n'était ni un
           moine à prétention, ni, ce qui est encore pis, un moine intrigant. Tous les jours, il allait voir
           les trois recluses, et sa société leur était d'autant plus agréable que leur situation les forçait à
           une plus grande retraite. Il les amusait par sa simplicité, par sa franchise autant que par son
           ignorance, et les étonnait toujours par son bon sens, ainsi que par l'intelligence avec laquelle il
-          remplissait auprès d'elles le triple office d'agent, de confesseur et d'oracle.</p>
-        <p>Un des premiers cas de conscience qu'on soumit à ses lumières fut de savoir si, étant à la foire
+          remplissait auprès d'elles le triple office d'agent, de confesseur et d'oracle.
+    </p>
+    <p>
+     Un des premiers cas de conscience qu'on soumit à ses lumières fut de savoir si, étant à la foire
           de Saint-Laurent, il y aurait un grand péché, à aller aux spectacles soit de Nicolet, soit
           d'Audinot. « Il n'y a de défendu, répond le père Bonhomme, que ce que l'Évangile défend. Or
           l'Évangile n'a jamais parlé ni de M. Nicolet, ni de M. Audinot, ni de leurs petites comédies, d'où
           je conclus qu'on peut y aller en toute sûreté de conscience. Le joug du Seigneur est léger, et ceux
           qui font l'Évangile plus difficile qu'il n'est, qui disent ce qu'il ne dit pas sont des jansénistes
           que l'Église a condamnés, et qui iraient à tous les diables si Dieu, qui est bon, n'avait pitié
-          d'eux. »</p>
-        <p>Quand le temps des couches fut arrivé, ce fut encore le père Bonhomme qui pourvut aux nourrices
-          et à l'accoucheur, et qui après les couches amena son ami le fameux chirurgien Lebas<ref target="#N8"/>
-          pour remettre les choses dans leur premier état, qu'il convient, en cas d'événement, qu'elles
-          paraissent toujours.</p>
-        <p>Tous ces offices d'amitié furent remplis avec autant de prudence que de zèle, et lorsqu'il en fut
+          d'eux. »
+    </p>
+    <p>
+     Quand le temps des couches fut arrivé, ce fut encore le père Bonhomme qui pourvut aux nourrices
+          et à l'accoucheur, et qui après les couches amena son ami le fameux chirurgien Lebas
+     <ref target="#N8"/>
+     pour remettre les choses dans leur premier état, qu'il convient, en cas d'événement, qu'elles
+          paraissent toujours.
+    </p>
+    <p>
+     Tous ces offices d'amitié furent remplis avec autant de prudence que de zèle, et lorsqu'il en fut
           temps, il proposa le mariage du marquis de Confolans avec la marquise de Montcornillon. L'aventure,
           qui s'était passée dans la retraite et qui fut entièrement ignorée des parents, loin d'être un
           obstacle à ce mariage, fut de la part du jeune et honnête colonel une raison de plus pour en
           accélérer la conclusion. Ce mariage, fait depuis dix ans, est un des meilleurs qu'on ait encore vus
-          à Paris, rue du Bac.</p>
-        <p>La première femme de chambre, qui avait retenu les traits les plus édifiants de la Bible,
+          à Paris, rue du Bac.
+    </p>
+    <p>
+     La première femme de chambre, qui avait retenu les traits les plus édifiants de la Bible,
           regretta d'abord la simplicité des anciens temps où les Abraham, les Nachor, les Jacob et autres,
-          après avoir travaillé avec leurs femmes, travaillaient ensuite avec leurs suivantes.</p>
-        <p>--- Oui, dit la demoiselle aux dix-huit ans, ces temps étaient bons ; mais j'aimerais encore
+          après avoir travaillé avec leurs femmes, travaillaient ensuite avec leurs suivantes.
+    </p>
+    <p>
+     --- Oui, dit la demoiselle aux dix-huit ans, ces temps étaient bons ; mais j'aimerais encore
           mieux avoir un mari à moi toute seule que d'attendre pour le repas de l'après-souper la desserte
-          d'une maîtresse, laquelle desserte, quelque bonne qu'elle soit, doit toujours laisser de l'appétit.</p>
-        <p>La jeune veuve, devenue marquise de Confolans, ne tarda pas à adoucir leurs regrets. Elle leur
+          d'une maîtresse, laquelle desserte, quelque bonne qu'elle soit, doit toujours laisser de l'appétit.
+    </p>
+    <p>
+     La jeune veuve, devenue marquise de Confolans, ne tarda pas à adoucir leurs regrets. Elle leur
           procura à chacune un fort bon établissement ; je les vois de temps en temps faire part à leur
           maîtresse du bonheur dont elles jouissent dans leur ménage : elle les reçoit tous les jours avec
-          bonté, se plaît à verser ses bienfaits sur leurs enfants et ne les voit jamais sans leur dire à</p>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N1">C'est-à-dire qui montraient leur gorge. Catherine de Médicis mit à la mode ces
+          bonté, se plaît à verser ses bienfaits sur leurs enfants et ne les voit jamais sans leur dire à
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N1">
+     C'est-à-dire qui montraient leur gorge. Catherine de Médicis mit à la mode ces
           appas. C'est ce que Brantôme appelle
-          <hi rend="italic">gorgiasser</hi>. Le mot a vieilli et la mode est restée.</note>
-        <note xml:id="N2">Le marquis de Mirabeau.</note>
-        <note xml:id="N3">C'est dans cette tour que fut enfermé Pélisson, ce courageux défenseur de l'infortuné Fouquet.</note>
-        <note xml:id="N4">Nanette était une jeune chambrière de la pension.</note>
-        <note xml:id="N5">Vénus n'est qu'un rocher très aride et par là mime très propre à réfléchir la
+     <hi rend="italic">
+      gorgiasser
+     </hi>
+     . Le mot a vieilli et la mode est restée.
+    </note>
+    <note xml:id="N2">
+     Le marquis de Mirabeau.
+    </note>
+    <note xml:id="N3">
+     C'est dans cette tour que fut enfermé Pélisson, ce courageux défenseur de l'infortuné Fouquet.
+    </note>
+    <note xml:id="N4">
+     Nanette était une jeune chambrière de la pension.
+    </note>
+    <note xml:id="N5">
+     Vénus n'est qu'un rocher très aride et par là mime très propre à réfléchir la
           lumière ; c'est pour cela que Fontenelle disait ingénieusement que Vénus n'était belle de loin que
-          parce qu'elle était très laide de près.</note>
-        <note xml:id="N6">Saint Jérôme dit que cette verge était de noyer. Le texte hébreu ne le dit pas. Il
+          parce qu'elle était très laide de près.
+    </note>
+    <note xml:id="N6">
+     Saint Jérôme dit que cette verge était de noyer. Le texte hébreu ne le dit pas. Il
           eût bien mieux valu que saint Jérôme nous dit comment une verge veille. Nous prions nos sages
           maîtres de la Sorbonne de nous l'apprendre. C'est à eux que nous nous en rapporterons. Là-dessus ils
-          en savent tout autant que saint Jérôme.</note>
-        <note xml:id="N7">Onager in desiderio animæ attraxit ventum amoris sui, nullus averlet eam. Jérémie, ch. 28, v. 24.</note>
-        <note xml:id="N8">Lebas, chirurgien très connu et très employé. Beaucoup de femmes se sont bien
+          en savent tout autant que saint Jérôme.
+    </note>
+    <note xml:id="N7">
+     Onager in desiderio animæ attraxit ventum amoris sui, nullus averlet eam. Jérémie, ch. 28, v. 24.
+    </note>
+    <note xml:id="N8">
+     Lebas, chirurgien très connu et très employé. Beaucoup de femmes se sont bien
           trouvées de s'être adressées à lui. Son art est admirable pour faire paraître neuf ce qui a déjà
           servi ; avec ce secret qui n'en est peut-être pas un, il a maintenu dans la paix et la concorde un
-          grand nombre de ménages.</note>
-      </div>
-    </back>
-  </text>
+          grand nombre de ménages.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

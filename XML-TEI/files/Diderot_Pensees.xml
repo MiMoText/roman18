@@ -1,124 +1,175 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Diderot_Pensees" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:77.33 wikidata:Q3374872">Pensées philosophiques: MiMoText edition</title>
-        <author ref="viaf:54146831 wikidata:Q448">Denis Diderot(1713-1784)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Hub18cFrench</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">9631</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://intertextual-hub.uchicago.edu/philologic/hub18thcfrench/navigate/274/"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Pensées philosophiques</title>
-          <author>Denis Diderot</author>
-          <pubPlace>Genève</pubPlace>
-          <publisher>R. Niklaus</publisher>
-          <date>1746</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1777</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-05-17">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="chapter">
-        <head>[Pensees Philosophiques]</head>
-        <p>
-          <hi rend="italic">J'écris de Dieu ; je compte sur peu de lecteurs, et n'aspire qu'à quelques
+<TEI xml:id="Diderot_Pensees" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:77.33 wikidata:Q3374872">
+     Pensées philosophiques: MiMoText edition
+    </title>
+    <author ref="viaf:54146831 wikidata:Q448">
+     Denis Diderot(1713-1784)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Hub18cFrench
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     9631
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://intertextual-hub.uchicago.edu/philologic/hub18thcfrench/navigate/274/"/>
+     <publisher>
+      The Intertextual Hub
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Pensées philosophiques
+     </title>
+     <author>
+      Denis Diderot
+     </author>
+     <pubPlace>
+      Genève
+     </pubPlace>
+     <publisher>
+      R. Niklaus
+     </publisher>
+     <date>
+      1746
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1777
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-05-17">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     [Pensees Philosophiques]
+    </head>
+    <p>
+     <hi rend="italic">
+      J'écris de Dieu ; je compte sur peu de lecteurs, et n'aspire qu'à quelques
             suffrages. si ces pensées ne plaisent à personne, elles pourront n'être que mauvaises ; mais je les
             tiens pour détestables, si elles plaisent à tout le monde.
-          </hi>
-          1.
-        </p>
-        <p>
-          On déclame sans fin contre les passions ; on leur impute toutes les peines de l'homme, et l'on
+     </hi>
+     1.
+    </p>
+    <p>
+     On déclame sans fin contre les passions ; on leur impute toutes les peines de l'homme, et l'on
           oublie qu'elles sont aussi la source de tous ses plaisirs. C'est dans sa constitution, un élément
           dont on ne peut dire ni trop de bien ni trop de mal. Mais ce qui me donne de l'humeur, c'est qu'on
           ne les regarde jamais que du mauvais côté. On croiroit faire injure à la raison, si l'on disoit un
           mot en faveur de ses rivales. Cependant il n'y a que les passions et les grandes passions qui
           puissent élever l'ame aux grandes choses. Sans elles, plus de sublime, soit dans les moeurs, soit
           dans les ouvrages ; les beaux arts retournent en enfance, et la vertu devient minutieuse. Ü.
-        </p>
-        <p>
-          Les passions sobres font les hommes communs. Si j'attends l'ennemi, quand il s'agit du salut de ma
+    </p>
+    <p>
+     Les passions sobres font les hommes communs. Si j'attends l'ennemi, quand il s'agit du salut de ma
           patrie, je ne suis qu'un citoyen ordinaire. Mon amitié n'est que circonspecte, si le péril d'un ami
           me laisse les yeux ouverts sur le mien. La vie m'est-elle plus chere que ma maîtresse? Je ne suis
           qu'un amant comme un autre. 3.
-        </p>
-        <p>
-          Les passions amorties dégradent les hommes extraordinaires. La contrainte anéantit la grandeur et
+    </p>
+    <p>
+     Les passions amorties dégradent les hommes extraordinaires. La contrainte anéantit la grandeur et
           l'énergie de la nature. Voyez cet arbre ; c'est au luxe de ses branches que vous devez la fraîcheur
           et l'étendue de ses ombres : vous en jouirez jusqu'à ce que l'hyver vienne le dépouiller de sa
           chevelure. Plus d'excellence en poësie, en peinture, en musique, lorsque la superstition aura fait
           sur le tempérament l'ouvrage de la vieillesse. 4.
-        </p>
-        <p>
-          Ce seroit donc un bonheur, me dira-t-on, d'avoir les passions fortes. Oui, sans doute, si toutes
+    </p>
+    <p>
+     Ce seroit donc un bonheur, me dira-t-on, d'avoir les passions fortes. Oui, sans doute, si toutes
           sont à l'unisson. Établissez entre elles, une juste harmonie, et n'en appréhendez point de
           désordres. Si l'espérance est balancée par la crainte, le point d'honneur par l'amour de la vie, le
           penchant au plaisir par l'intérêt de la santé; vous ne verrez ni libertins, ni téméraires, ni
           lâches.
-        </p>
-        <p>
-          5. C'est le comble de la folie que de se proposer la ruine des passions. Le beau projet que celui
+    </p>
+    <p>
+     5. C'est le comble de la folie que de se proposer la ruine des passions. Le beau projet que celui
           d'un dévot qui se tourmente comme un forcené pour ne rien desirer, ne rien aimer, ne rien sentir, et
           qui finiroit par devenir un vrai monstre, s'il réussissoit!
-        </p>
-        <p>
-          6. Ce qui fait l'objet de mon estime dans un homme, pourroit-il être l'objet de mes mépris dans un
+    </p>
+    <p>
+     6. Ce qui fait l'objet de mon estime dans un homme, pourroit-il être l'objet de mes mépris dans un
           autre? Non, sans doute. Le vrai indépendant de mes caprices doit être la regle de mes jugemens ; et
           je ne ferai point un crime à celui-ci de ce que j'admirerai dans celui-là comme une vertu.
           Croirai-je qu'il étoit réservé à quelques-uns, de pratiquer des actes de perfection que la nature et
@@ -134,32 +185,40 @@
           crimes ont commis tous ces malheureux? Les uns se frappent la poitrine avec des cailloux ; d'autres
           se déchirent le corps avec des ongles de fer ; tous ont les regrets, la douleur et la mort dans les
           yeux. Qui les condamne à ces tourmens? ...
-          <hi rend="italic">Le dieu qu'ils ont</hi>
-          <hi rend="italic">offensé...</hi>
-          quel est donc ce dieu? ...
-          <hi rend="italic">Un</hi>
-          <hi rend="italic">dieu plein de bonté...</hi>
-          un dieu plein de bonté trouveroit-il du plaisir à se baigner dans les larmes? Les frayeurs ne
+     <hi rend="italic">
+      Le dieu qu'ils ont
+     </hi>
+     <hi rend="italic">
+      offensé...
+     </hi>
+     quel est donc ce dieu? ...
+     <hi rend="italic">
+      Un
+     </hi>
+     <hi rend="italic">
+      dieu plein de bonté...
+     </hi>
+     un dieu plein de bonté trouveroit-il du plaisir à se baigner dans les larmes? Les frayeurs ne
           feroient-elles pas injure à sa clémence? Si des criminels avoient à calmer les fureurs d'un tyran,
           que feroient-ils de plus?
-        </p>
-        <p>
-          8. Il y a des gens dont il ne faut pas dire qu'ils craignent Dieu ; mais bien qu'ils en ont peur. 9.
-        </p>
-        <p>
-          Sur le portrait qu'on me fait de l'être suprême, sur son penchant à la colere, sur la rigueur de ses
+    </p>
+    <p>
+     8. Il y a des gens dont il ne faut pas dire qu'ils craignent Dieu ; mais bien qu'ils en ont peur. 9.
+    </p>
+    <p>
+     Sur le portrait qu'on me fait de l'être suprême, sur son penchant à la colere, sur la rigueur de ses
           vengeances, sur certaines comparaisons qui nous expriment en nombres le rapport de ceux qu'il laisse
           périr, à ceux à qui il daigne tendre la main, l'ame la plus droite seroit tentée de souhaiter qu'il
           n'existât pas. L'on seroit assez tranquille en ce monde, si l'on était bien assuré que l'on n'a rien
           à craindre dans l'autre : la pensée qu'il n'y a point de dieu n'a jamais effrayé personne ; mais
           bien celle qu'il y en a un, tel que celui qu'on me peint.
-        </p>
-        <p>
-          10. Il ne faut imaginer Dieu ni trop bon ni méchant. La justice est entre l'excès de la clémence et
+    </p>
+    <p>
+     10. Il ne faut imaginer Dieu ni trop bon ni méchant. La justice est entre l'excès de la clémence et
           la cruauté; ainsi que les peines finies sont entre l'impunité et les peines éternelles. 11.
-        </p>
-        <p>
-          Je sçais que les idées sombres de la superstition sont plus généralement approuvées que suivies;
+    </p>
+    <p>
+     Je sçais que les idées sombres de la superstition sont plus généralement approuvées que suivies;
           qu'il est des dévots qui n'estiment pas qu'il faille se haïr cruellement pour bien aimer Dieu , et
           vivre en désespérés pour être réligieux : leur dévotion est enjouée ; leur sagesse est fort humaine
           : mais d'où naît cette différence de sentimens entre des gens qui se prosternent aux pieds des mêmes
@@ -167,21 +226,21 @@
           Son influence ne se remarque que trop sensiblement dans le même dévot : il voit, selon qu'il est
           affecté, un dieu vengeur ou miséricordieux ; les enfers ou les cieux ouverts : il tremble de
           frayeur, ou il brule d'amour : c'est une fiévre qui a ses accès froids et chauds.
-        </p>
-        <p>
-          12. Oui, je le soutiens ; la superstition est plus injurieuse à Dieu que l'athéisme. J'aimerois
+    </p>
+    <p>
+     12. Oui, je le soutiens ; la superstition est plus injurieuse à Dieu que l'athéisme. J'aimerois
           mieux, dit Plutarque , qu'on pensât qu'il n'y eût jamais de Plutarque au monde, que de croire que
           Plutarque est injuste, colére, inconstant, jaloux, vindicatif, et tel qu'il seroit bien fâché
           d'être.
-        </p>
-        <p>
-          13. Le déïste seul peut faire tête à l'athée. Le superstitieux n'est pas de sa force. Son dieu n'est
+    </p>
+    <p>
+     13. Le déïste seul peut faire tête à l'athée. Le superstitieux n'est pas de sa force. Son dieu n'est
           qu'un être d'imagination. Outre les difficultés de la matiére, il est exposé à toutes celles qui
           résultent de la fausseté de ses notions. Un C un S auroient été mille fois plus embarrassans pour un
           Vanini , que tous les Nicoles et les Pascals du monde. 14.
-        </p>
-        <p>
-          Pascal avoit de la droiture ; mais il étoit peureux et crédule. Élégant écrivain et raisonneur
+    </p>
+    <p>
+     Pascal avoit de la droiture ; mais il étoit peureux et crédule. Élégant écrivain et raisonneur
           profond, il eût sans doute éclairé l'univers ; si la providence ne l'eût abandonné à des gens qui
           sacrifiérent ses talens à leurs haines. Qu'il seroit à souhaiter qu'il eût laissé aux théologiens de
           son tems le soin de vuider leurs querelles; qu'il se fût livré à la recherche de la vérité, sans
@@ -203,24 +262,31 @@
           étoit impossible d'atteindre au même but, sans user des mêmes moyens? Permettre des vices, pour
           relever l'éclat des vertus, c'est un bien frivole avantage pour un inconvénient si réel. Voilà, dit
           l'athée, ce que je vous objecte? Qu'avez-vous à répondre? ...
-          <hi rend="italic">Que je suis un scélérat ; et que</hi>
-          <hi rend="italic">si je n'avois rien à craindre de Dieu , je n'en</hi>
-          <hi rend="italic">combattrois pas l'éxistence.
-          </hi>
-          " Laissons cette phrase aux déclamateurs: elle peut choquer la vérité; l'urbanité la défend, et elle
+     <hi rend="italic">
+      Que je suis un scélérat ; et que
+     </hi>
+     <hi rend="italic">
+      si je n'avois rien à craindre de Dieu , je n'en
+     </hi>
+     <hi rend="italic">
+      combattrois pas l'éxistence.
+     </hi>
+     " Laissons cette phrase aux déclamateurs: elle peut choquer la vérité; l'urbanité la défend, et elle
           marque peu de charité. Parce qu'un homme a tort de ne pas croire en Dieu , avons-nous raison de
           l'injurier? On n'a recours aux invectives, que quand on manque de preuves. Entre deux
           controversistes, il y a cent à parier contre un que celui qui aura tort se fâchera. Tu prends ton
           tonnerre au lieu de répondre, dit Ménippe à Jupiter ; tu as donc tort. 16.
-        </p>
-        <p>
-          On demandoit un jour à quelqu'un, s'il y avoit de vrais athées. Croyez-vous, répondit-il, qu'il y
+    </p>
+    <p>
+     On demandoit un jour à quelqu'un, s'il y avoit de vrais athées. Croyez-vous, répondit-il, qu'il y
           ait de vrais chrétiens?
-        </p>
-        <p>
-          17. Toutes les billevezées de la métaphysique ne valent pas un argument
-          <hi rend="italic">ad hominem</hi>
-          . Pour convaincre, il ne faut quelquefois que réveiller le sentiment, ou physique ou moral. C'est
+    </p>
+    <p>
+     17. Toutes les billevezées de la métaphysique ne valent pas un argument
+     <hi rend="italic">
+      ad hominem
+     </hi>
+     . Pour convaincre, il ne faut quelquefois que réveiller le sentiment, ou physique ou moral. C'est
           avec un bâton qu'on a prouvé au pirrhonien qu'il avoit tort de nier son éxistence. Cartouche , le
           pistolet à la main, auroit pu faire à Hobbs une pareille leçon. La bourse ou la vie : nous sommes
           seuls : je suis le plus fort ; et il n'est pas question entre nous d'équité. 18. Ce n'est pas de la
@@ -231,9 +297,9 @@
           d'Hartzoeker , et de Nieuwentit qu'on a trouvé des preuves satisfaisantes de l'éxistence d'un être
           souverainement intelligent. Graces aux travaux de ces grands hommes, le monde n'est plus un dieu :
           c'est une machine qui a ses roues, ses cordes, ses poulies, ses ressorts et ses poids. 19.
-        </p>
-        <p>
-          Les subtilités de l'ontologie ont fait tout au plus des sceptiques : c'est à la connoissance de la
+    </p>
+    <p>
+     Les subtilités de l'ontologie ont fait tout au plus des sceptiques : c'est à la connoissance de la
           nature qu'il étoit réservé de faire de vrais déïstes. La seule découverte des germes a dissipé une
           des plus puissantes objections de l'athéïsme. Que le mouvement soit essentiel ou accidentel à la
           matiére, je suis maintenant convaincu que ses effets se terminent à des développemens : toutes les
@@ -244,9 +310,9 @@
           cens ans, qu'on verroit peut-être un jour des hommes sortir tout formés des entrailles de la terre,
           comme on voit éclore une foule d'insectes, d'une masse de chair échauffée ; je voudrois bien sçavoir
           ce qu'un métaphysicien auroit eu à lui répondre.
-        </p>
-        <p>
-          20. C'étoit en vain que j'avois essayé contre un athée les subtilités de l'école : il avoit même
+    </p>
+    <p>
+     20. C'étoit en vain que j'avois essayé contre un athée les subtilités de l'école : il avoit même
           tiré de la foiblesse de ces raisonnemens une objection assez forte." Une multitude de vérités
           inutiles me sont démontrées sans replique, disoit-il ; et l'éxistence de dieu, la réalité du bien et
           du mal moral, l'immortalité de l'ame sont encore des problêmes pour moi : quoi donc! Me seroit-il
@@ -289,9 +355,9 @@
           dictée dans les écoles. C'est sur ce raisonnement, et quelques autres de la même simplicité, que
           j'admets l'éxistence d'un dieu, et non sur ces tissus d'idées seches et métaphysique, moins propres
           à dévoiler la vérité, qu'à lui donner l'air du mensonge.
-        </p>
-        <p>
-          21. J'ouvre les cahiers d'un professeur célébre, et je lis : athées, je vous accorde que le
+    </p>
+    <p>
+     21. J'ouvre les cahiers d'un professeur célébre, et je lis : athées, je vous accorde que le
           mouvement est essentiel à la matiére ; qu'en concluez-vous? ... Que le monde résulte du jet fortuit
           des atômes? J'aimerois autant que vous me dissiez que l'iliade d'Homere , ou la henriade de Voltaire
           est un résultat de jets fortuits de caracteres. Je me garderai bien de faire ce raisonnement à un
@@ -309,43 +375,56 @@
           d'engendrer fortuitement l'univers est très-petite, mais que la quantité des jets est infinie,
           c'est-à-dire, que la difficulté de l'événement est plus que suffisamment compensée par la multitude
           des jets.
-        </p>
-        <p>
-          Donc si quelque chose doit répugner à la raison, c'est la supposition que la matiére s'étant mue de
+    </p>
+    <p>
+     Donc si quelque chose doit répugner à la raison, c'est la supposition que la matiére s'étant mue de
           toute éternité, et qu'y ayant peut-être dans la somme infinie des combinaisons possibles, un nombre
           infini d'arrangemens admirables, il ne se soit rencontré aucun de ces arrangemens admirables dans la
           multitude infinie de ceux qu'elle a pris successivement. Donc l'esprit doit être plus étonné de la
           durée hypothétique du cahos, que de la naissance réelle de l'univers.
-        </p>
-        <p>
-          22. Je distingue les athées en trois classes. Il y en a quelques-uns qui vous disent nettement qu'il
+    </p>
+    <p>
+     22. Je distingue les athées en trois classes. Il y en a quelques-uns qui vous disent nettement qu'il
           n'y a point de dieu, et qui le pensent,
-          <hi rend="italic">ce sont les</hi>
-          <hi rend="italic">vrais athées:</hi>
-          un assez grand nombre qui ne sçavent qu'en penser, et qui décideroient volontiers la question à
+     <hi rend="italic">
+      ce sont les
+     </hi>
+     <hi rend="italic">
+      vrais athées:
+     </hi>
+     un assez grand nombre qui ne sçavent qu'en penser, et qui décideroient volontiers la question à
           croix ou pile,
-          <hi rend="italic">ce sont</hi>
-          <hi rend="italic">les athées sceptiques;</hi>
-          beaucoup plus qui voudroient qu'il n'y en eût point, qui font semblant d'en être persuadés, qui
+     <hi rend="italic">
+      ce sont
+     </hi>
+     <hi rend="italic">
+      les athées sceptiques;
+     </hi>
+     beaucoup plus qui voudroient qu'il n'y en eût point, qui font semblant d'en être persuadés, qui
           vivent comme s'ils l'étoient,
-          <hi rend="italic">ce sont les fanfarons du parti</hi>
-          . Je déteste les fanfarons, ils sont faux : je plains les vrais athées, toute consolation me semble
+     <hi rend="italic">
+      ce sont les fanfarons du parti
+     </hi>
+     . Je déteste les fanfarons, ils sont faux : je plains les vrais athées, toute consolation me semble
           morte pour eux ;
-          <hi rend="italic">et je prie Dieu
-          </hi>
-          pour les sceptiques, ils manquent de lumieres. 23.
-        </p>
-        <p>
-          Le déïste assure l'éxistence d'un dieu, l'immortalité de l'ame et ses suites : le sceptique n'est
+     <hi rend="italic">
+      et je prie Dieu
+     </hi>
+     pour les sceptiques, ils manquent de lumieres. 23.
+    </p>
+    <p>
+     Le déïste assure l'éxistence d'un dieu, l'immortalité de l'ame et ses suites : le sceptique n'est
           point décidé sur ces articles : l'athée les nie. Le sceptique a donc pour être vertueux un motif de
           plus que l'athée, et quelque raison de moins que le déïste. Sans la crainte du législateur, la pente
           du tempérament, et la connoissance des avantages actuels de la vertu, la probité de l'athée
           manqueroit de fondement, et celle du sceptique seroit fondée sur un
-          <hi rend="italic">peut-être</hi>
-          . 24.
-        </p>
-        <p>
-          Le scepticisme ne convient pas à tout le monde. Il suppose un examen profond et désinteressé: celui
+     <hi rend="italic">
+      peut-être
+     </hi>
+     . 24.
+    </p>
+    <p>
+     Le scepticisme ne convient pas à tout le monde. Il suppose un examen profond et désinteressé: celui
           qui doute, parce qu'il ne connoît pas les raisons de crédibilité, n'est qu'un ignorant. Le vrai
           sceptique a compté et pesé les raisons. Mais ce n'est pas une petite affaire que de peser des
           raisonnemens. Qui de nous en connoît exactement la valeur? Qu'on apporte cent preuves de la même
@@ -356,17 +435,17 @@
           Sont-ce mes lunettes qui péchent ou les vôtres ; si donc il est si difficile de peser des raisons,
           et s'il n'est point de questions qui n'en ayent pour et contre, et presque toujours à égale mesure,
           pourquoi tranchons-nous si vîte? D'où nous vient ce ton si décidé?
-        </p>
-        <p>
-          N'avons-nous pas éprouvé cent fois que la suffisance dogmatique révolte." On me fait haïr les choses
+    </p>
+    <p>
+     N'avons-nous pas éprouvé cent fois que la suffisance dogmatique révolte." On me fait haïr les choses
           vraisemblables, dit l'auteur des essais,... etc." 25.
-        </p>
-        <p>
-          Qu'est-ce que Dieu ? Question qu'on fait aux enfans et à laquelle les philosophes ont bien de la
+    </p>
+    <p>
+     Qu'est-ce que Dieu ? Question qu'on fait aux enfans et à laquelle les philosophes ont bien de la
           peine à répondre.
-        </p>
-        <p>
-          On sçait à quel âge un enfant doit apprendre à lire, à chanter, à danser, le latin, la géométrie. Ce
+    </p>
+    <p>
+     On sçait à quel âge un enfant doit apprendre à lire, à chanter, à danser, le latin, la géométrie. Ce
           n'est qu'en matiére de religion qu'on ne consulte point sa portée : à peine entend-il, qu'on lui
           demande, qu'est-ce que Dieu ? C'est dans le même instant, c'est de la même bouche qu'il apprend
           qu'il y a des esprits follets, des revenans, des loups-garoux et un Dieu . On lui inculque une des
@@ -382,22 +461,30 @@
           qu'il lui en couteroit peut-être moins pour devenir athée que pour s'en distraire. Au lieu de lui
           citer l'exemple d'un autre homme qu'il connoît quelquefois pour plus méchant que lui ; je lui dirois
           brusquement,
-          <hi rend="italic">
-            Dieu t'entend, et tu</hi>
-          <hi rend="italic">ments</hi>
-          . Les jeunes gens veulent être pris par les sens : je multiplirois donc autour de lui les signes
+     <hi rend="italic">
+      Dieu t'entend, et tu
+     </hi>
+     <hi rend="italic">
+      ments
+     </hi>
+     . Les jeunes gens veulent être pris par les sens : je multiplirois donc autour de lui les signes
           indicatifs de la présence divine. S'il se faisoit, par exemple, un cercle chez moi, j'y marquerois
           une place à Dieu ; et j'accoutumerois mon élève à dire, "nous étions quatre, Dieu , mon ami, mon
           gouverneur, et moi." 27.
-        </p>
-        <p>
-          L'ignorance et l'<hi rend="italic">incuriosité</hi>
-          sont deux oreilliers fort doux ; mais pour les trouver tels, il faut avoir
-          <hi rend="italic">la tête aussi bienfaite</hi>
-          que Montagne .
-        </p>
-        <p>
-          28. Les esprits bouillants, les imaginations ardentes ne s'accommodent pas de l'indolence du
+    </p>
+    <p>
+     L'ignorance et l'
+     <hi rend="italic">
+      incuriosité
+     </hi>
+     sont deux oreilliers fort doux ; mais pour les trouver tels, il faut avoir
+     <hi rend="italic">
+      la tête aussi bienfaite
+     </hi>
+     que Montagne .
+    </p>
+    <p>
+     28. Les esprits bouillants, les imaginations ardentes ne s'accommodent pas de l'indolence du
           sceptique. Ils aiment mieux hazarder un choix que de n'en faire aucun ; se tromper que de vivre
           incertains: soit qu'ils se méfient de leurs bras, soit qu'ils craignent la profondeur des eaux, on
           les voit toujours suspendus à des branches dont ils sentent toute la foiblesse, et auxquelles ils
@@ -414,80 +501,80 @@
           connoissances que je n'ai pu me procurer, et qui sans doute ne me sont pas fort nécessaires, puisque
           j'en suis privé. J'aimerois autant, a dit un des premiers génies de notre siécle, m'affliger
           sérieusement de n'avoir pas quatre yeux, quatre pieds et deux ailes.
-        </p>
-        <p>
-          29. On doit éxiger de moi que je cherche la vérité, mais non que je la trouve. Un sophisme ne
+    </p>
+    <p>
+     29. On doit éxiger de moi que je cherche la vérité, mais non que je la trouve. Un sophisme ne
           peut-il pas m'affecter plus vivement qu'une preuve solide? Je suis nécessité de consentir au faux
           que je prens pour le vrai, et de rejetter le vrai, que je prens pour le faux : mais, qu'ai-je à
           craindre, si c'est innocemment que je me trompe? L'on n'est point récompensé dans l'autre monde pour
           avoir eu de l'esprit dans celui-ci ; y seroit-on puni pour en avoir manqué? Damner un homme pour de
           mauvais raisonnemens, c'est oublier qu'il est un sot pour le traiter comme un méchant.
-        </p>
-        <p>
-          30. Qu'est-ce qu'un sceptique? C'est un philosophe qui a douté de tout ce qu'il croit, et qui croit
+    </p>
+    <p>
+     30. Qu'est-ce qu'un sceptique? C'est un philosophe qui a douté de tout ce qu'il croit, et qui croit
           ce qu'un usage légitime de sa raison et de ses sens lui a démontré vrai : voulez-vous quelque chose
           de plus précis? Rendez sincère le pirrhonien, et vous aurez le sceptique. 31.
-        </p>
-        <p>
-          Ce qu'on n'a jamais mis en question n'a point été prouvé. Ce qu'on n'a point examiné sans
+    </p>
+    <p>
+     Ce qu'on n'a jamais mis en question n'a point été prouvé. Ce qu'on n'a point examiné sans
           prévention, n'a jamais été bien examiné. Le scepticisme est donc le premier pas vers la vérité. Il
           doit être général, car il en est la pierre de touche. Si pour s'assurer de l'éxistence de Dieu , le
           philosophe commence par en douter, y a-t'il quelque proposition qui puisse se soustraire à cette
           épreuve?
-        </p>
-        <p>
-          32. L'incrédulité est quelque fois le vice d'un sot, et la crédulité le défaut d'un homme d'esprit.
+    </p>
+    <p>
+     32. L'incrédulité est quelque fois le vice d'un sot, et la crédulité le défaut d'un homme d'esprit.
           L'homme d'esprit voit loin dans l'immensité des possibles; le sot ne voit gueres de possible que ce
           qui est. C'est-là peut-être ce qui rend l'un pusillanime, et l'autre téméraire.
-        </p>
-        <p>
-          33. On risque autant à croire trop, qu'à croire trop peu. Il n'y a ni plus ni moins de danger à être
+    </p>
+    <p>
+     33. On risque autant à croire trop, qu'à croire trop peu. Il n'y a ni plus ni moins de danger à être
           polithéïste qu'athée ; or, le scepticisme peut seul garantir également, en tout tems et en tout
           lieu, de ces deux excès opposés. 34.
-        </p>
-        <p>
-          Un sémi-scepticisme est la marque d'un esprit foible : il décele un raisonneur pusillanime qui se
+    </p>
+    <p>
+     Un sémi-scepticisme est la marque d'un esprit foible : il décele un raisonneur pusillanime qui se
           laisse effrayer par les conséquences ; un superstitieux qui croit honorer son dieu par les entraves
           où il met sa raison ; une espece d'incrédule qui craint de se démasquer à lui-même ; car si la
           vérité n'a rien à perdre à l'examen, comme en est convaincu le sémi-sceptique, que pense-t'il au
           fond de son ame de ces notions privilegiées qu'il appréhende de sonder, et qui sont placées dans un
           recoin de sa cervelle, comme dans un sanctuaire dont il n'ose approcher?
-        </p>
-        <p>
-          35. J'entens crier de toute part à l'impiété. Le chrétien est impie en Asie , le musulman en Europe
+    </p>
+    <p>
+     35. J'entens crier de toute part à l'impiété. Le chrétien est impie en Asie , le musulman en Europe
           , le papiste à Londres , le calviniste à Paris , le janseniste au haut de la rue s Jacques , le
           moliniste au fond du fauxbourg s Médard . Qu'est-ce donc qu'un impie? Tout le monde l'est-il, ou
           personne?
-        </p>
-        <p>
-          36. Quand les dévots se déchaînent contre le scepticisme, il me semble qu'ils entendent mal leur
+    </p>
+    <p>
+     36. Quand les dévots se déchaînent contre le scepticisme, il me semble qu'ils entendent mal leur
           intérêt, ou qu'ils se contredisent. S'il est certain qu'un culte vrai pour être embrassé, et qu'un
           faux culte pour être abandonné, n'ont besoin que d'être bien connus ; il seroit à souhaiter qu'un
           doute universel se répandît sur la surface de la terre, et que tous les peuples voulussent bien
           mettre en question la vérité de leurs religions : nos missionnaires trouveroient la bonne moitié de
           leur besogne faite. 37.
-        </p>
-        <p>
-          Celui qui ne conserve pas par choix, le culte qu'il a reçu par éducation, ne peut non plus se
+    </p>
+    <p>
+     Celui qui ne conserve pas par choix, le culte qu'il a reçu par éducation, ne peut non plus se
           glorifier d'être chrétien ou musulman, que de n'être point né aveugle ou boiteux. C'est un bonheur
           et non pas un mérite.
-        </p>
-        <p>
-          38. Celui qui mourroit pour un culte dont il connoîtroit la fausseté, seroit un enragé. Celui qui
+    </p>
+    <p>
+     38. Celui qui mourroit pour un culte dont il connoîtroit la fausseté, seroit un enragé. Celui qui
           meurt pour un culte faux, mais qu'il croit vrai ; ou pour un culte vrai, mais dont il n'a point de
           preuves, est un fanatique. Le vrai martyr est celui qui meurt pour un culte vrai, et dont la vérité
           lui est démontrée. 39.
-        </p>
-        <p>
-          Le vrai martyr attend la mort. L'enthousiaste y court.
-        </p>
-        <p>
-          40. Celui qui se trouvant à la Mecque , iroit insulter aux cendres de Mahomet , renverser ses autels
+    </p>
+    <p>
+     Le vrai martyr attend la mort. L'enthousiaste y court.
+    </p>
+    <p>
+     40. Celui qui se trouvant à la Mecque , iroit insulter aux cendres de Mahomet , renverser ses autels
           et troubler toute une mosquée, se feroit empaler à coup sûr, et ne seroit peut-être pas canonisé. Ce
           zèle n'est plus à la mode. Polieucte ne seroit de nos jours qu'un insensé.
-        </p>
-        <p>
-          41. Le tems des révélations, des prodiges et des missions extraordinaires est passé. Le
+    </p>
+    <p>
+     41. Le tems des révélations, des prodiges et des missions extraordinaires est passé. Le
           christianisme n'a plus besoin de cet échafaudage. Un homme qui s'aviseroit de jouer parmi nous le
           rôle de Jonas , de courir les rues en criant, "encore trois jours et Paris ne sera plus; parisiens,
           faites pénitence, couvrez-vous de sacs et de cendres, ou dans trois jours vous périrez, seroit
@@ -496,32 +583,38 @@
           que lui? " On ne s'amuseroit point à lui répondre, et pour le traiter en visionnaire, on
           n'attendroit pas le terme de sa prédiction. Élie peut revenir de l'autre monde quand il voudra ; les
           hommes sont tels, qu'il fera de grands miracles, s'il est bien accueilli dans celui-ci.
-        </p>
-        <p>
-          42. Lorsqu'on annonce au peuple un dogme qui contredit la réligion dominante, ou quelque fait
+    </p>
+    <p>
+     42. Lorsqu'on annonce au peuple un dogme qui contredit la réligion dominante, ou quelque fait
           contraire à la tranquillité publique ; justifiât-on sa mission par des miracles, le gouvernement a
           droit de sévir, et le peuple de crier :
-          <hi rend="italic">crucifige</hi>
-          . Quel danger n'y auroit-il pas à abandonner les esprits aux séductions d'un imposteur, ou aux
+     <hi rend="italic">
+      crucifige
+     </hi>
+     . Quel danger n'y auroit-il pas à abandonner les esprits aux séductions d'un imposteur, ou aux
           rêveries d'un visionnaire? Si le sang de Jesus -Christ a crié vengeance contre les juifs; c'est
           qu'en le répandant, ils fermoient l'oreille à la voix de Moyse et des prophètes qui le déclaroient
           le messie. Un ange vînt-il à descendre des cieux, appuyât-il ses raisonnemens par des miracles, s'il
           prêche contre la loi de Jesus -Christ , Paul veut qu'on lui dise anathême. Ce n'est donc pas par les
           miracles qu'il faut juger de la mission d'un homme ; mais c'est par la conformité de sa doctrine
           avec celle du peuple auquel il se dit envoyé,
-          <hi rend="italic">sur-tout lorsque</hi>
-          <hi rend="italic">la doctrine de ce peuple est démontrée vraie</hi>
-          . 43.
-        </p>
-        <p>
-          Toute innovation est à craindre dans un gouvernement. La plus sainte et la plus douce des religions,
+     <hi rend="italic">
+      sur-tout lorsque
+     </hi>
+     <hi rend="italic">
+      la doctrine de ce peuple est démontrée vraie
+     </hi>
+     . 43.
+    </p>
+    <p>
+     Toute innovation est à craindre dans un gouvernement. La plus sainte et la plus douce des religions,
           le christianisme même ne s'est pas affermi sans causer quelques troubles. Les premiers enfans de
           l'église sont sortis plus d'une fois de la modération et de la patience qui leur étoient prescrites.
           Qu'il me soit permis de rapporter ici quelques fragmens d'un édit de l'empereur Julien , ils
           caractériseront à merveille le génie de ce prince philosophe, et l'humeur des zèlés de son tems.
-        </p>
-        <p>
-          J'avois imaginé, dit Julien , que les chefs des galiléens sentiroient combien mes procédés sont
+    </p>
+    <p>
+     J'avois imaginé, dit Julien , que les chefs des galiléens sentiroient combien mes procédés sont
           différens de ceux de mon prédécesseur, et qu'ils m'en sçauroient quelque gré: ils ont souffert sous
           son regne l'éxil et les prisons ; et l'on a passé au fil de l'épée une multitude de ceux qu'ils
           appellent entr'eux hérétiques... sous le mien, on a rappelé les éxilés, élargi les prisonniers, et
@@ -545,15 +638,15 @@
           concitoyens, dont l'ignorance est encore plus à plaindre que la méchanceté n'est à blâmer... c'est
           par la raison et non par la violence qu'il faut ramener les hommes à la vérité. Nous vous enjoignons
           donc à vous tous nos fidèles sujets de laisser en repos les galiléens.
-        </p>
-        <p>
-          Tels étoient les sentimens de ce prince, à qui l'on peut reprocher le paganisme, mais non
+    </p>
+    <p>
+     Tels étoient les sentimens de ce prince, à qui l'on peut reprocher le paganisme, mais non
           l'apostasie : il passa les premiéres années de sa vie sous différens maîtres et dans différentes
           écoles, et fit dans un âge plus avancé un choix infortuné: il se décida malheureusement pour le
           culte de ses ayeux et les dieux de son païs. 44.
-        </p>
-        <p>
-          Une chose qui m'étonne, c'est que les ouvrages de ce sçavant empereur soient parvenus jusqu'à nous.
+    </p>
+    <p>
+     Une chose qui m'étonne, c'est que les ouvrages de ce sçavant empereur soient parvenus jusqu'à nous.
           Ils contiennent des traits qui ne nuisent point à la vérité du christianisme ; mais qui sont assez
           désavantageux à quelques chrétiens de son tems, pour qu'ils se sentissent de l'attention singuliére
           que les peres de l'église ont eu de supprimer les ouvrages de leurs ennemis. C'est apparemment de
@@ -563,9 +656,9 @@
           écrivains, entre les mains d'un homme qui solécisoit par principe de religion ; qui s'imaginoit
           qu'observer les regles de la grammaire, c'étoit soumettre Jesus -Christ à Donat , et qui se crut
           obligé en conscience de combler les ruines de l'antiquité. 45.
-        </p>
-        <p>
-          Cependant la divinité des écritures n'est point un caractere si clairement empreint en elles que
+    </p>
+    <p>
+     Cependant la divinité des écritures n'est point un caractere si clairement empreint en elles que
           l'autorité des historiens sacrés soit absolument indépendante du témoignage des auteurs profanes. Où
           en serions-nous, s'il falloit reconnoître le doigt de Dieu dans la forme de notre bible? Combien la
           version latine n'est-elle pas misérable? Les originaux mêmes ne sont pas des chefs-d'oeuvres de
@@ -577,9 +670,9 @@
           avoir été peints par des anges et par la divinité même : si ces morceaux étoient sortis de la main
           de Le Sueur ou de Le Brun , que pourrois-je opposer à cette tradition immémoriale? Rien du tout,
           peut-être.
-        </p>
-        <p>
-          Mais quand j'observe ces célestes ouvrages et que je vois à chaque pas les regles de la peinture
+    </p>
+    <p>
+     Mais quand j'observe ces célestes ouvrages et que je vois à chaque pas les regles de la peinture
           violées dans le dessein et dans l'exécution ; le vrai de l'art abandonné par tout, ne pouvant
           supposer que l'ouvrier étoit un ignorant, il faut bien que j'accuse la tradition d'être fabuleuse.
           Quelle application ne ferois-je point de ces tableaux aux saintes écritures, si je ne sçavois
@@ -589,9 +682,9 @@
           conséquence n'étoit-il pas de conserver des auteurs profanes qui ne pouvoient manquer de s'accorder
           avec les auteurs sacrés, au moins sur l'éxistence et les miracles de Jesus -Christ , sur les
           qualités et le caractere de Ponce -Pilate , et sur les actions et le martyre des premiers chrétiens.
-        </p>
-        <p>
-          46. Un peuple entier, me direz-vous, est témoin de ce fait ; oserez-vous le nier? Oui, j'oserai,
+    </p>
+    <p>
+     46. Un peuple entier, me direz-vous, est témoin de ce fait ; oserez-vous le nier? Oui, j'oserai,
           tant qu'il ne me sera pas confirmé par l'autorité de quelqu'un qui ne soit pas de votre parti, et
           que j'ignorerai que ce quelqu'un étoit incapable de fanatisme et de séduction. Il y a plus. Qu'un
           auteur d'une impartialité avouée, me raconte qu'un goufre s'est ouvert au milieu d'une ville ; que
@@ -601,14 +694,18 @@
           tems et des travaux considérables pour le combler. Moins un fait a de vraisemblance, plus le
           témoignage de l'histoire perd de son poids. Je croirois sans peine un seul honnête-homme qui
           m'annonceroit
-          <hi rend="italic">que sa majesté vient de remporter une victoire</hi>
-          <hi rend="italic">complette</hi>
-          sur les alliés ; mais tout Paris m'assureroit qu'un mort vient de ressusciter à Passy , que je n'en
+     <hi rend="italic">
+      que sa majesté vient de remporter une victoire
+     </hi>
+     <hi rend="italic">
+      complette
+     </hi>
+     sur les alliés ; mais tout Paris m'assureroit qu'un mort vient de ressusciter à Passy , que je n'en
           croirois rien. Qu'un historien nous en impose ou que tout un peuple se trompe; ce ne sont pas des
           prodiges.
-        </p>
-        <p>
-          47. Tarquin projette d'ajouter de nouveaux corps de cavalerie à ceux que Romulus avoit formés. Un
+    </p>
+    <p>
+     47. Tarquin projette d'ajouter de nouveaux corps de cavalerie à ceux que Romulus avoit formés. Un
           augure lui soutient que toute innovation dans cette milice est sacrilége, si les dieux ne l'ont
           autorisée. Choqué de la liberté de ce prêtre, et résolu de le confondre et de décrier en sa personne
           un art qui croisoit son autorité, Tarquin le fait appeller sur la place publique, et lui dit,
@@ -630,9 +727,9 @@
           de l'église qui voyoient sans doute de grands inconvéniens à se servir des principes de Ciceron ,
           ont mieux aimé convenir de l'aventure de Tarquin et attribuer l'art de Navius au diable. C'est une
           belle machine que le diable!
-        </p>
-        <p>
-          48. Tous les peuples ont de ces faits, à qui pour être merveilleux, il ne manque que d'être vrais ;
+    </p>
+    <p>
+     48. Tous les peuples ont de ces faits, à qui pour être merveilleux, il ne manque que d'être vrais ;
           avec lesquels on démontre tout, mais qu'on ne prouve point ; qu'on n'ose nier sans être impie, et
           qu'on ne peut croire sans être imbécille. 49. Romulus frappé de la foudre ou massacré par les
           sénateurs, disparoît d'entre les romains. Le peuple et le soldat en murmurent. Les ordres de l'état
@@ -645,47 +742,53 @@
           de la foudre ; les sénateurs ne s'en étoient point défaits à la faveur d'un tems orageux : mais il
           s'étoit élevé dans les airs au milieu des éclairs et au bruit du tonnerre, à la vue de tout un
           peuple ; et cette avanture se
-          <hi rend="italic">calfeutra</hi>
-          avec le tems d'un si grand nombre de piéces, que les esprits forts du siécle suivant devoient en
+     <hi rend="italic">
+      calfeutra
+     </hi>
+     avec le tems d'un si grand nombre de piéces, que les esprits forts du siécle suivant devoient en
           être fort embarrassés.
-        </p>
-        <p>
-          50. Une seule démonstration me frappe plus que cinquante faits. Grace à l'extrême confiance que j'ai
+    </p>
+    <p>
+     50. Une seule démonstration me frappe plus que cinquante faits. Grace à l'extrême confiance que j'ai
           en ma raison, ma foi n'est point à la merci du premier saltimbanque. Pontife de Mahomet , redresse
           des boiteux ; fais parler des muets ; rens la vue aux aveugles ; guéris des paralitiques; ressuscite
           des morts ; restitue même aux estropiés les membres qui leur manquent, miracle qu'on n'a point
           encore tenté: et à ton grand étonnement, ma foi n'en sera point ébranlée. Veux-tu que je devienne
           ton prosélyte ; laisse tous ces prestiges, et raisonnons. Je suis plus sûr de mon jugement que de
           mes yeux.
-        </p>
-        <p>
-          Si la religion que tu m'annonces est vraie ; sa vérité peut être mise en évidence et se démontrer
+    </p>
+    <p>
+     Si la religion que tu m'annonces est vraie ; sa vérité peut être mise en évidence et se démontrer
           par des raisons invincibles. Trouve-les ces raisons. Pourquoi me harceler par des prodiges, quand tu
           n'as besoin pour me terrasser que d'un syllogisme. Quoi donc, te seroit-il plus facile de redresser
           un boiteux que de m'éclairer?
-        </p>
-        <p>
-          51. Un homme est étendu sur la terre sans sentiment, sans voix, sans chaleur, sans mouvement. On le
+    </p>
+    <p>
+     51. Un homme est étendu sur la terre sans sentiment, sans voix, sans chaleur, sans mouvement. On le
           tourne, on le retourne, on l'agite, le feu lui est appliqué, rien ne l'emeut : le fer chaud n'en
           peut arracher un symptôme de vie ; on le croit mort : l'est-il? Non. C'est le pendant du prêtre de
           Calame . Si certaines gens avoient rencontré de nos jours un pareil sujet ; ils en auroient tiré bon
           parti. On nous auroit fait voir un cadavre se ranimer sur la cendre d'un prédestiné: le recueil du
           magistrat janseniste se seroit enflé d'une résurrection ; et le constitutionnaire se tiendroit
           peut-être pour confondu.
-        </p>
-        <p>
-          52. Il faut avouer, dit le logicien de port-royal, que saint Augustin a eu raison de soutenir avec
+    </p>
+    <p>
+     52. Il faut avouer, dit le logicien de port-royal, que saint Augustin a eu raison de soutenir avec
           Platon que le jugement de la vérité et la régle pour discerner n'appartiennent pas aux sens ; mais à
           l'esprit :
-          <hi rend="italic">non est veritatis judicium in</hi>
-          <hi rend="italic">sensibus</hi>
-          . Et même que cette certitude que l'on peut tirer des sens ne s'étend pas bien loin et qu'il y a
+     <hi rend="italic">
+      non est veritatis judicium in
+     </hi>
+     <hi rend="italic">
+      sensibus
+     </hi>
+     . Et même que cette certitude que l'on peut tirer des sens ne s'étend pas bien loin et qu'il y a
           plusieurs choses que l'on croit sçavoir par leur entremise, et dont on n'a point une pleine
           assurance. Lors donc que le témoignage des sens contredit, ou ne contrebalance point l'autorité de
           la raison ; il n'y a pas à opter : en bonne logique, c'est à la raison qu'il faut s'en tenir.
-        </p>
-        <p>
-          53. Un fauxbourg retentit d'acclamations : la cendre d'un prédestiné y fait en un jour plus de
+    </p>
+    <p>
+     53. Un fauxbourg retentit d'acclamations : la cendre d'un prédestiné y fait en un jour plus de
           prodiges que Jesus -Christ n'en fit en toute sa vie. On y court ; on s'y porte ; j'y suis la foule.
           J'arrive à peine que j'entens crier, miracle! Miracle! J'approche, je regarde, et je vois un petit
           boiteux qui se promene à l'aide de trois ou quatre personnes charitables qui le soutiennent, et le
@@ -694,9 +797,9 @@
           miracles, comme il en est toujours des esprits. Je jurerois bien que tous ceux qui ont vu des
           esprits les craignoient d'avance, et que tous ceux qui voyoient là des miracles, étoient bien
           résolus d'en voir.
-        </p>
-        <p>
-          54. Nous avons toutefois, de ces miracles prétendus un vaste recueil qui peut braver l'incrédulité
+    </p>
+    <p>
+     54. Nous avons toutefois, de ces miracles prétendus un vaste recueil qui peut braver l'incrédulité
           la plus déterminée. L'auteur est un sénateur, un homme grave, qui faisoit profession d'un
           matérialisme assez mal entendu à la vérité; mais qui n'attendoit pas sa fortune de sa conversion:
           témoin oculaire des faits qu'il raconte, et dont il a pu juger sans prévention et sans intérêt, son
@@ -704,15 +807,15 @@
           l'autenticité possible : les actes originaux en sont conservés dans les archives publiques. Que
           répondre à cela? Que répondre? Que ces miracles ne prouvent rien ; tant que la question de ses
           sentimens ne sera point décidée. 55.
-        </p>
-        <p>
-          Tout raisonnement qui prouve pour deux partis, ne prouve ni pour l'un ni pour l'autre. Si le
+    </p>
+    <p>
+     Tout raisonnement qui prouve pour deux partis, ne prouve ni pour l'un ni pour l'autre. Si le
           fanatisme a ses martyrs, ainsi que la vraie religion, et si entre ceux qui sont morts pour la vraie
           religion, il y a eu des fanatiques : ou comptons, si nous le pouvons, le nombre des morts, et
           croyons ; ou cherchons d'autres motifs de crédibilité.
-        </p>
-        <p>
-          56. Rien n'est plus capable d'affermir dans l'irréligion, que de faux motifs de conversion. On dit
+    </p>
+    <p>
+     56. Rien n'est plus capable d'affermir dans l'irréligion, que de faux motifs de conversion. On dit
           tous les jours à des incrédules : qui êtes-vous pour attaquer une religion que les Pauls , les
           Tertulliens , les Athanases , les Chrysostômes , les Augustins , les Cypriens , et tant d'autres
           illustres personnages ont si courageusement défendue. Vous avez sans doute apperçu quelque
@@ -728,20 +831,20 @@
           ces oracles que l'univers entier vient interroger? " Quelle que soit ta réponse, j'admirerai ton
           orgueil ou ta témérité... les chrétiens ne sentiront-ils jamais toute leur force? Et
           n'abandonneront-ils point ces malheureux sophismes à ceux dont ils sont l'unique ressource?
-        </p>
-        <p>
-          L'exemple, les prodiges et l'autorité peuvent faire des dupes ou des hypocrites. La raison seule
+    </p>
+    <p>
+     L'exemple, les prodiges et l'autorité peuvent faire des dupes ou des hypocrites. La raison seule
           fait des croyans.
-        </p>
-        <p>
-          57. On convient qu'il est de la derniere importance de n'employer à la défense d'un culte que des
+    </p>
+    <p>
+     57. On convient qu'il est de la derniere importance de n'employer à la défense d'un culte que des
           raisons solides ; cependant on persécuteroit volontiers ceux qui travaillent à décrier les
           mauvaises. Quoi donc? N'est-ce pas assez que l'on soit chrétien? Faut-il encore l'être par de
           mauvaises raisons? Dévots, je vous en avertis ; je ne suis pas chrétien parce que saint Augustin
           l'étoit ; mais je le suis, parce qu'il est raisonnable de l'être. 58.
-        </p>
-        <p>
-          Je connois les dévots : ils sont prompts à prendre l'alarme. S'ils jugent une fois que cet écrit
+    </p>
+    <p>
+     Je connois les dévots : ils sont prompts à prendre l'alarme. S'ils jugent une fois que cet écrit
           contient quelque chose de contraire à leurs idées, je m'attens à toutes les calomnies qu'ils ont
           répandues sur le compte de mille gens qui valoient mieux que moi. Si je ne suis qu'un déïste et
           qu'un scélérat, j'en serai quitte à bon marché. Il y a long-tems qu'ils ont damné Descartes ,
@@ -753,18 +856,18 @@
           n'a jamais été témoin d'aucun miracle. Voilà ma profession de foi : je suis presque sûr qu'ils en
           seront mécontens, bien qu'il n'y en ait peut-être pas un entr'eux qui soit en état d'en faire une
           meilleure. 59.
-        </p>
-        <p>
-          J'ai lu quelquefois Abadie , Huet , et les autres. Je connois suffisamment les preuves de ma
+    </p>
+    <p>
+     J'ai lu quelquefois Abadie , Huet , et les autres. Je connois suffisamment les preuves de ma
           religion, et je conviens qu'elles sont grandes; mais le seroient-elles cent fois davantage, le
           christianisme ne me seroit point encore démontré. Pourquoi donc éxiger de moi que je croye qu'il y a
           trois personnes en Dieu , aussi fermement, que je crois que les trois angles d'un triangle sont
           égaux à deux droits. Toute preuve doit produire en moi une certitude proportionnée à son dégré de
           force ; et l'action des démonstrations géométriques, morales et physiques sur mon esprit, doit être
           différente, ou cette distinction est frivole.
-        </p>
-        <p>
-          60. Vous présentez à un incrédule un volume d'écrits, dont vous prétendez lui démontrer la divinité.
+    </p>
+    <p>
+     60. Vous présentez à un incrédule un volume d'écrits, dont vous prétendez lui démontrer la divinité.
           Mais avant que d'entrer dans l'éxamen de vos preuves, il ne manquera pas de vous questionner sur
           cette collection. A-t-elle toujours été la même, vous demandera-t-il? Pourquoi est-elle à présent
           moins ample qu'elle ne l'étoit il y a quelques siécles? De quel droit en a-t-on banni tel et tel
@@ -777,15 +880,15 @@
           recueil d'écrits mutilés que tomberont vos preuves, et que j'établirai ma croyance. Or qui
           chargerez-vous de cette réforme? L'église. Mais je ne peux convenir de l'infaillibilité de l'église,
           que la divinité des écritures ne me soit prouvée. Me voilà donc dans un scepticisme nécessité.
-        </p>
-        <p>
-          On ne répond à cette difficulté, qu'en avouant que les premiers fondemens de la foi sont purement
+    </p>
+    <p>
+     On ne répond à cette difficulté, qu'en avouant que les premiers fondemens de la foi sont purement
           humains ; que le choix entre les manuscrits, que la restitution des passages, enfin que la
           collection s'est faite par des regles de critique; et je ne refuse point d'ajouter à la divinité des
           livres sacrés, un dégré de foi proportionné à la certitude de ces regles.
-        </p>
-        <p>
-          61. C'est en cherchant des preuves, que j'ai trouvé des difficultés. Les livres qui contiennent les
+    </p>
+    <p>
+     61. C'est en cherchant des preuves, que j'ai trouvé des difficultés. Les livres qui contiennent les
           motifs de ma croyance, m'offrent en même-tems les raisons de l'incrédulité. Ce sont des arsenaux
           communs. Là j'ai vu le déïste s'armer contre l'athée ; le déïste et l'athée lutter contre le juif ;
           l'athée, le déïste et le juif se liguer contre le chrétien; le chrétien, le juif, le déïste et
@@ -796,9 +899,9 @@
           pencha du côté du chrétien, mais avec le seul excès de sa pésanteur, sur la résistance du côté
           opposé. Je me suis témoin à moi-même de mon équité. Il n'a pas tenu à moi que cet excès m'ait paru
           fort grand. J'atteste Dieu de ma sincérité.
-        </p>
-        <p>
-          62. Cette diversité d'opinions a fait imaginer aux déïstes un raisonnement plus singulier peut-être
+    </p>
+    <p>
+     62. Cette diversité d'opinions a fait imaginer aux déïstes un raisonnement plus singulier peut-être
           que solide. Ciceron ayant à prouver que les romains étoient les peuples les plus belliqueux de la
           terre, tire adroitement cet aveu de la bouche de leurs rivaux. Gaulois à qui le cédez-vous en
           courage, si vous le cédez à quelqu'un? Aux romains. Parthes, après vous, quels sont les hommes les
@@ -810,8 +913,8 @@
           quelle est la vraie religion, si le judaïsme est faux? Le naturalisme. Or ceux, continue Ciceron , à
           qui l'on accorde la seconde place d'un consentement unanime, et qui ne cedent la premiere à
           personne, méritent incontestablement celle-ci.
-        </p>
-      </div>
-    </body>
-  </text>
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

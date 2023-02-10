@@ -2,87 +2,133 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Marchand_Avis" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:51.37 wikidata:0">Les avis d'un père à son fils: MiMoText edition</title>
-        <author ref="viaf:27092576 wikidata:Q95343645">Jean-Henri Marchand(xxxx-1785)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Münchener DigitalisierungsZentrum</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">19081</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2021</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://www.digitale-sammlungen.de/de/view/bsb10094142"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Les avis d'un père à son fils</title>
-          <author>Jean-Henri Marchand</author>
-          <pubPlace>Amsterdam</pubPlace>
-          <publisher/>
-          <date>1751</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1751</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1"><p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            autodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-06-01">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="chapter">
-        <head>EPITRE A MON CONFESSEUR.</head>
-        <p>
-          <hi rend="italic">MON REVEREND PERE, La plus grande partie des Evénemens de ma vie, mes écarts, mes
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:51.37 wikidata:0">
+     Les avis d'un père à son fils: MiMoText edition
+    </title>
+    <author ref="viaf:27092576 wikidata:Q95343645">
+     Jean-Henri Marchand(xxxx-1785)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Münchener DigitalisierungsZentrum
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     19081
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.digitale-sammlungen.de/de/view/bsb10094142"/>
+     <publisher>
+      Bayerische Staatsbibliothek
+     </publisher>
+     <date>
+      2009
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Les avis d'un père à son fils
+     </title>
+     <author>
+      Jean-Henri Marchand
+     </author>
+     <pubPlace>
+      Amsterdam
+     </pubPlace>
+     <publisher/>
+     <date>
+      1751
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1751
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      autodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-06-01">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     EPITRE A MON CONFESSEUR.
+    </head>
+    <p>
+     <hi rend="italic">
+      MON REVEREND PERE, La plus grande partie des Evénemens de ma vie, mes écarts, mes
             foibleſſes, ma réſipiſcence ne ſont point une nouveauté pour vous. Les publier moi-même, c'eſt vous
             diſpenſer de la néceſſité du ſecret. Je ne me ſuis jamais méfié de votre diſcrétion, mais j'ai cru
             que des ridicules publics éxigeoient une Confeſſion qui le fût également. Je conviens que c'eſt une
@@ -90,17 +136,23 @@
             n'enlevent pas la conſidération qu'on peut d'ailleurs mériter dans le monde. Je vous ai fait des
             confidences beaucoup plus graves &amp; plus importantes; mais vous ſerez toujours à cet égard le
             ſeul dans mon intimité. C'eſt la preuve la plus indubitable d'une diſtinction marquée, &amp; du
-            profond reſpect avec lequel je ſuis, &amp;c.</hi>
-        </p>
-        <p>J'apprends dans l'inſtant que le Révérend Pere B... eſt mort de la ſuite des fatigues qu'il a
+            profond reſpect avec lequel je ſuis, &amp;c.
+     </hi>
+    </p>
+    <p>
+     J'apprends dans l'inſtant que le Révérend Pere B... eſt mort de la ſuite des fatigues qu'il a
           éprouvées pendant le Jubilé. Je conſerve à ſa mémoire le gage que je lui donnois de ma
           reconnoiſſance; mais j'aime à converſer avec les vivans, &amp; il ne trouvera pas mauvais que je lui
-          ſubſtitue un ami en vie.</p>
-      </div>
-      <div type="chapter">
-        <head>A MONSIEUR DE LA B.</head>
-        <p>
-          <hi rend="italic">L'Amuſement de Campagne que je vous dédie eſt un tribut déſintéreſſé de l'amitié.
+          ſubſtitue un ami en vie.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     A MONSIEUR DE LA B.
+    </head>
+    <p>
+     <hi rend="italic">
+      L'Amuſement de Campagne que je vous dédie eſt un tribut déſintéreſſé de l'amitié.
             Mon eſprit s'eſt diverti à le faire &amp; mon cœur s'applaudit de vous le préſenter. Vous n'y
             trouverez ni la Critique de vos mœurs ni des préceptes pour leur réformation. Vous aimez les Arts,
             les plaiſirs; vous en jouiſſez avec volupté, mais vous connoiſſez en même temps tout le prix de
@@ -111,12 +163,16 @@
             &amp; vous concourez au bonheur de ceux qui vous environnent, ſouffrez donc que je rende un hommage
             public à des vérités dont je ſuis ſouvent le témoin &amp; l'admirateur. Aucun motif ne peut faire
             ſuſpecter la ſincérité de l'hommage que je vous rends. Il n'a de principe que la conviction intime
-            de ce que vous méritez, &amp; la réalité des tendres ſentimens avec leſquels je ſuis, &amp;c.</hi>
-        </p>
-      </div>
-      <div type="chapter">
-        <head>LES AVIS D'UN PERE A SON FILS.</head>
-        <p>LA qualité de Pere, &amp; la tendreſſe qui doit en être inſéparable, inſpirent à tous les hommes
+            de ce que vous méritez, &amp; la réalité des tendres ſentimens avec leſquels je ſuis, &amp;c.
+     </hi>
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LES AVIS D'UN PERE A SON FILS.
+    </head>
+    <p>
+     LA qualité de Pere, &amp; la tendreſſe qui doit en être inſéparable, inſpirent à tous les hommes
           le deſir de faire la félicité des enfans dont ils ſont les auteurs. Ce Sentiment eſt dans la nature:
           il eſt auſſi dans le préjugé. On accorde ſes ſoins, ſon amour, ſa prévoyance également à ceux dont
           on eſt Pere, &amp; à ceux dont on croit l'être. C'eſt une affaire de pure confiance, &amp; dans
@@ -129,9 +185,10 @@
           l'amour propre. On ſe flatte qu'un être dont on eſt le créateur ne peut manquer d'être
           avantageuſement compoſé, &amp; l'on ſe ſatisfait en penſant à lui procurer l'entiere perfection.
           De-là cette multitude de préceptes dont l'affection paternelle &amp; maternelle ont enrichi la
-          ſociété civile. Chacun les a propoſés dans le goût qui lui étoit propre.</p>
-        <p>
-          Un recueil de préceptes, n'eſt pas une matiere neuve; elle eſt même uſée, j'en conviens, mais dans
+          ſociété civile. Chacun les a propoſés dans le goût qui lui étoit propre.
+    </p>
+    <p>
+     Un recueil de préceptes, n'eſt pas une matiere neuve; elle eſt même uſée, j'en conviens, mais dans
           le nombre de ceux qui ont paru, il y a toujours eu du nouveau, malgré le caractere d'uniformité
           qu'on y remarquoit. La raiſon en eſt ſenſible, les hommes penſent, s'expriment différemment, &amp;
           leurs ouvrages ſe reſſentent de la diverſité de leur caractere &amp; de leur ſtile. Auſſi
@@ -148,14 +205,23 @@
           en retirer toute l'utilité qu'ils jugeront à propos. On y trouvera ſans doute de la ſingularité,
           mais il n'en faut point être étonné; l'Auteur, comme tous les autres hommes, avoit un caractere qui
           lui étoit particulier; il ne ſongeoit qu'à me procurer une vie gratieuſe. Il pouvoit ſe tromper,
-          mais c'étoit toujours de bonne foi, avec probité &amp; ſans s'en appercevoir.</p>
-        <p>Je dois à préſent inſtruire mes Lecteurs des circonſtances dans leſquelles mon Pere me remit le
-          dépôt que ſa tendreſſe lui avoit fait journellement amaſſer pour mon profit.</p>
-        <p>L'auteur de ma naiſſance étoit un très-bon Gentilhomme, qui avoit ſervi avec diſtinction juſqu'à
+          mais c'étoit toujours de bonne foi, avec probité &amp; ſans s'en appercevoir.
+    </p>
+    <p>
+     Je dois à préſent inſtruire mes Lecteurs des circonſtances dans leſquelles mon Pere me remit le
+          dépôt que ſa tendreſſe lui avoit fait journellement amaſſer pour mon profit.
+    </p>
+    <p>
+     L'auteur de ma naiſſance étoit un très-bon Gentilhomme, qui avoit ſervi avec diſtinction juſqu'à
           cinquante ans. Il avoit vécu à Paris
-          <hi rend="italic">en homme de condition</hi>, &amp; ſe diſoit,
-          <hi rend="italic">homme de qualité</hi>
-          toutes les fois qu'il revenoit de Verſailles, où il ſe montroit paſſagérement. Sa fortune étoit des
+     <hi rend="italic">
+      en homme de condition
+     </hi>
+     , &amp; ſe diſoit,
+     <hi rend="italic">
+      homme de qualité
+     </hi>
+     toutes les fois qu'il revenoit de Verſailles, où il ſe montroit paſſagérement. Sa fortune étoit des
           mieux établie, &amp; il s'étoit livré au plus grand monde, dont il connoiſſoit à fond les uſages.
           Quelques mécontentemens lui avoient fait quitter le ſervice, &amp; s'enveloppant alors du vernis de
           la Philoſophie, il avoit conſacré ſon temps à la retraite, à la lecture &amp; aux réfléxions. La vie
@@ -168,8 +234,10 @@
           cependant de temps en temps dans deux ou trois Maiſons aſſez fréquentées, où ſon emploi étoit de
           s'ennuyer &amp; d'ennuyer les autres. Il y rencontroit forcément cinq ou ſix fats du haut ſtile, ſon
           occupation étoit de les regarder &amp; d'étudier leur ton &amp; leur maniere, pour en faire la
-          Critique en ſon particulier.</p>
-        <p>Mon Pere avoit une Sœur riche, veuve &amp; ſans enfans. Elle lui propoſa d'égayer ſa ſolitude par
+          Critique en ſon particulier.
+    </p>
+    <p>
+     Mon Pere avoit une Sœur riche, veuve &amp; ſans enfans. Elle lui propoſa d'égayer ſa ſolitude par
           l'acquiſition d'une femme. Cette propoſition révolta d'abord mon trèshonoré Pere. Il ſe livra à une
           déclamation véhémente contre les femmes de ſon temps; mais à force de voir renouveller ſans ceſſe
           les mêmes tentatives par tous ceux qui l'approchoient, il ſentit moins le poids de leurs
@@ -186,8 +254,10 @@
           encore de quelques nuances le cerveau atrabilaire de mon cher Papa; on ne pouvoit le tirer de la
           rêverie profonde où il étoit ſans ceſſe abſorbé. Cependant comme les momens étoient prétieux, il ſe
           livra ſérieuſement aux devoirs du mariage, &amp; je fus au bout d'un an le doux fruit de ſon zèle
-          &amp; de ſon activité.</p>
-        <p>La nouvelle de ma naiſſance arracha quelques ſourires à mon Pere, vraiſemblablement il s'en
+          &amp; de ſon activité.
+    </p>
+    <p>
+     La nouvelle de ma naiſſance arracha quelques ſourires à mon Pere, vraiſemblablement il s'en
           acquitta de mauvaiſe grace; depuis plus de douze ans il en avoit totalement oublié l'uſage; mais ſa
           joye fut bientôt empoiſonnée par un accident imprévu. Une révolution ſubite emporta ma mere au bout
           de quelques jours. Son tendre Epoux fut accablé de la douleur la plus amere; l'on s'en apperçut
@@ -195,13 +265,17 @@
           attentions, il me fit élever ſous ſes yeux, &amp; j'eus le privilége de le diſtraire quelquefois de
           ſes ſombres rêveries. Lorſque j'eus atteint ma quatriéme année, il voulut ſe charger en titre du
           ſoin de mon éducation. Pour cet effet, il m'arracha aux doucereuſes careſſes de ma Gouvernante, dans
-          la crainte qu'une vie lâche &amp; efféminée n'amollît mon eſprit &amp; n'énervât mon courage.</p>
-        <p>Un Valet de Chambre renforcé, fut conſtitué mon ſous Gouverneur, on m'attacha auſſi un ancien
+          la crainte qu'une vie lâche &amp; efféminée n'amollît mon eſprit &amp; n'énervât mon courage.
+    </p>
+    <p>
+     Un Valet de Chambre renforcé, fut conſtitué mon ſous Gouverneur, on m'attacha auſſi un ancien
           Laquais de la Maiſon; &amp; on lui donna pour ſubalterne un fils de ma nourrice, âgé de quelques
           années plus que moi. J'appris dès-lors à commander; c'eſt une des choſes qu'on apprend le plus
           naturellement: auſſi m'en acquittois-je avec un ton auſſi abſolu qu'un Régent en Chaire. J'avois en
-          revanche l'air fort mauſſade pour obéir.</p>
-        <p>Mon Pere me faiſoit conduire tous les matins dans ſa chambre dès ſix heures. Je n'y paroiſſois
+          revanche l'air fort mauſſade pour obéir.
+    </p>
+    <p>
+     Mon Pere me faiſoit conduire tous les matins dans ſa chambre dès ſix heures. Je n'y paroiſſois
           que tout habillé. Il m'expliquoit les Proverbes du Sage, les regles de la Syntaxe; enſuite il me
           donnoit des leçons de lecture dans les Eſſais de Montagne, dont il paraphraſoit les beaux endroits.
           Il vouloit auſſi que ma mémoire fut cultivée, &amp; pour aſſurer le ſuccès de ſon projet, il me
@@ -218,17 +292,25 @@
           Laquais, comme il étoit ſans crédit, &amp; livré, pour ainſi dire, à mes menus plaiſirs, j'en
           faiſois le jouet de mes mauvaiſes humeurs. Il étoit ſans ceſſe la victime de mes caprices, de mes
           emportemens. Je le battois de mon mieux, &amp; ſouvent je lui procurois encore la diſgrace d'être
-          grondé &amp; menacé pour les torts que j'avois avec lui.</p>
-        <p>On penſe aiſément que je me plaiſois plus dans mon intérieur que dans la compagnie de mon Pere.
+          grondé &amp; menacé pour les torts que j'avois avec lui.
+    </p>
+    <p>
+     On penſe aiſément que je me plaiſois plus dans mon intérieur que dans la compagnie de mon Pere.
           Ma chambre étoit mon Empire, &amp; chez lui, j'étois le modeſte ſujet d'un Souverain des plus
           ſévéres. Je me délectois dans mon appartement à n'entendre autour de moi que des acclamations de la
           part de mes ſurveillans &amp; de deux anciennes Domeſtiques de ma Mere, qui paſſoient la plus grande
           partie de la journée à me faire des complimens &amp; à m'appuyer des baiſers de Mie.
-          <hi rend="italic">M. le Marquis, un homme comme vous, un homme de condition, qu'il eſt joli! qu'il a
-            d'eſprit! vous aurez des Terres, des Chevaux</hi>,
+     <hi rend="italic">
+      M. le Marquis, un homme comme vous, un homme de condition, qu'il eſt joli! qu'il a
+            d'eſprit! vous aurez des Terres, des Chevaux
+     </hi>
+     ,
           &amp;c. C'étoient les fadeurs éternelles dont mes oreilles retentiſſoient &amp; qui ſe faiſoient
           route juſqu'à mon cœur. Je ſavourois avidement ces propos, &amp; ſûrement
-          <hi rend="italic">M. le Marquis, un homme comme moi</hi>, étoit un petit homme fort ſot &amp;
+     <hi rend="italic">
+      M. le Marquis, un homme comme moi
+     </hi>
+     , étoit un petit homme fort ſot &amp;
           trèsridicule. J'ignore quels auroient été les fruits d'une éducation ſi bien entendue, mais un
           contre-temps vint en déranger le progrès. Mon Pere fut attaqué d'une maladie violente, dont il ne ſe
           tira qu'aux dépens de ſes oreilles. Il perdit preſque totalement l'uſage de l'ouie &amp; n'en fut
@@ -239,13 +321,18 @@
           Pere, par la multitude de certificats qu'il lui préſentât. Les Principaux de College, les Supérieurs
           de Séminaires, les Curés, enfin, je crois que tout y avoit ſigné juſqu'aux Marguilliers de la
           Paroiſſe. Je partis ſous la direction de ce nouveau Mentor, qui, quoiqu'ignorant, yvrogne &amp;
-          pareſſeux, n'étoit pas ſans bonnes qualités d'ailleurs. Le College fut pour moi un nouveau monde.</p>
-        <p>L'encens qu'on m'y préſenta, ne dura que deux jours, après leſquels il fallut me ſoumettre à la
+          pareſſeux, n'étoit pas ſans bonnes qualités d'ailleurs. Le College fut pour moi un nouveau monde.
+    </p>
+    <p>
+     L'encens qu'on m'y préſenta, ne dura que deux jours, après leſquels il fallut me ſoumettre à la
           regle générale. Cet état de contrainte me parut dur, &amp; je fus tout étonné de trouver des gens
           vêtus au plus ſimplement, qui au bout de trois heures de connoiſſance me nommoient familiérement par
           mon nom, &amp; portoient même la licence juſqu'à me tutoyer. Je leur dis très-ſérieuſement que
           j'étois
-          <hi rend="italic">un Marquis</hi>, &amp; ce terme leur parut une bouffonnerie qui excita leur
+     <hi rend="italic">
+      un Marquis
+     </hi>
+     , &amp; ce terme leur parut une bouffonnerie qui excita leur
           raillerie. Ils s'en autoriſerent pour me ridiculiſer par des ſobriquets; ma bile s'enflâma, &amp; je
           voulus venger ma dignité outragée. Un Roturier plus fort que moi eut l'audace de me donner vingt
           coups de pied dans le derriere, un autre m'arracha quelques poignées de cheveux, &amp; je fus obligé
@@ -255,7 +342,10 @@
           prendre à mes yeux. Je communiquai mes chagrins à un de mes Camarades dont la douceur avoit captivé
           ma confiance, je lui marquai vivement la ſurpriſe où j'étois de voir l'irrévérence avec laquelle on
           traitoit
-          <hi rend="italic">un Marquis, un homme comme moi</hi>. Il me rit poliment au nez, &amp; il m'apprit
+     <hi rend="italic">
+      un Marquis, un homme comme moi
+     </hi>
+     . Il me rit poliment au nez, &amp; il m'apprit
           qu'il avoit été, comme moi, un enfant gâté, mais que depuis un an, ou environ, la correction
           fraternelle l'avoit rendu plus humain. Le College, me dit-il, dans d'autres termes, eſt une eſpece
           de République où l'on vit aſſez ſur le ton de l'égalité. C'eſt une image du monde entier. L'on y
@@ -284,7 +374,10 @@
           contribua à me rendre ſociable. Je vis bien qu'il falloit s'humaniſer. Ainſi je dépoſai peu à peu le
           génie froid &amp; hautain. Je travaillai même à devenir prévenant, &amp; je parvins par degrés à
           être ce qu'on appelle
-          <hi rend="italic">un bon Garçon</hi>, au point qu'au bout de deux ou trois ans, je me rendois un des
+     <hi rend="italic">
+      un bon Garçon
+     </hi>
+     , au point qu'au bout de deux ou trois ans, je me rendois un des
           correcteurs de la morgue d'autrui. Ce dernier rôle me plaiſoit plus que le premier. J'avois une
           ſatisfaction infinie à rendre avec uſure ce qu'on m'avoit donné anciennement, &amp; pour m'autoriſer
           à payer largement, je faiſois ſans ceſſe l'éloge de la modeſtie, de l'humanité, de la douceur &amp;
@@ -313,8 +406,10 @@
           inclination, à la réſerve du Compagnon qu'on m'avoit aſſocié. Je ſentois bien que ſa miſſion étoit
           de reſtraindre ma liberté autant qu'il le pourroit; mais je me promettois d'exercer ſa patience,
           &amp; de lui jouer tous les tours que l'induſtrie ſeroit capable de me ſuggérer. Ce projet a été
-          complettement rempli.</p>
-        <p>Je pris un air merveilleux &amp; élégant. J'affectai d'être étourdi. Je devins fat, préſomptueux,
+          complettement rempli.
+    </p>
+    <p>
+     Je pris un air merveilleux &amp; élégant. J'affectai d'être étourdi. Je devins fat, préſomptueux,
           malhonnête; je me choiſis des ſociétés, des modéles les plus ridicules; &amp; livré totalement à la
           diſſipation, je ne ſongeai qu'à briller &amp; à faire des dettes. Mon pere en fut averti. Il me
           chapitra pluſieurs fois, mais j'étois plus ſourd que lui: je ne lui répondois pas, &amp; ne me
@@ -327,8 +422,10 @@
           prononcé d'une voix convenable à un ſourd. Ils ſe retirerent; &amp; lorſque nous fûmes tête à tête,
           il ſe récueillit comme un Prédicateur qui va prêcher ſur un Myſtère; j'attendois reſpectueuſement le
           réſultat d'un ſi touchant préambule. Enfin après quelques minutes, il rompit le ſilence, &amp; voici
-          le langage que le bon vieillard me tint preſqu'en pleurant:</p>
-        <p>Mon Fils, mon devoir &amp; mon inclination me portoient à veiller par moi-même aux ſoins de votre
+          le langage que le bon vieillard me tint preſqu'en pleurant:
+    </p>
+    <p>
+     Mon Fils, mon devoir &amp; mon inclination me portoient à veiller par moi-même aux ſoins de votre
           éducation; une infirmité incurable m'a enlevé cette ſatisfaction. J'en ai ſouvent gémi: un Pere eſt
           plus pénétrant que les autres ſur les avantages de ſon Fils, parce qu'il eſt plus intéreſſé qu'eux à
           les lui procurer; mais j'ai cherché depuis long-tems, autant qu'il m'a été poſſible, à réparer le
@@ -356,295 +453,465 @@
           extérieurs d'une véritable reconnoiſſance. Je voulus même lui marquer l'empreſſement que j'avois à
           profiter de ſes Leçons; mais il me dit de ſerrer prétieuſement le gage de ſon affection, pour le
           méditer à loiſir; je lui obéis, &amp; il fit rentrer dans l'Appartement ceux que notre entretien
-          avoit fait diſparoître; la converſation devint générale.</p>
-        <p>Nous dinâmes trèsphlegmatiquement, &amp; je m'empreſſai de très-bonne heure de prendre congé de
+          avoit fait diſparoître; la converſation devint générale.
+    </p>
+    <p>
+     Nous dinâmes trèsphlegmatiquement, &amp; je m'empreſſai de très-bonne heure de prendre congé de
           la Compagnie, pour ſatisfaire l'impatience que j'avois de viſiter à loiſir le tréſor dont mon Pere
           m'avoit enrichi. De retour à l'Académie, je n'eus rien de plus preſſé que de monter à ma Chambre;
           &amp; de m'y renfermer, pour dévorer une lecture qui devoit, ſuivant le rapport qu'on m'en avoit
           fait, me combler un jour de proſpérités &amp; de richeſſes. J'ouvris avec un ſaint reſpect le Cahier
           dont j'étois dépoſitaire, &amp; j'y lus avec avidité les réfléxions ſalutaires que j'ai tranſcrites
           ici. L'intitulé étoit:
-          <hi rend="italic">Avis importans que j'ai recueillis pour mon Fils.</hi>
-        </p>
-        <p>Si vous voulez paroître aimable, réuſſir dans le monde, &amp; paſſer pour un homme d'eſprit, ſans
+     <hi rend="italic">
+      Avis importans que j'ai recueillis pour mon Fils.
+     </hi>
+    </p>
+    <p>
+     Si vous voulez paroître aimable, réuſſir dans le monde, &amp; paſſer pour un homme d'eſprit, ſans
           qu'il vous en coûte la moindre peine, pratiquez les préceptes que je vous donne ici. Les études du
           Collége &amp; votre juſteſſe d'eſprit naturelle, doivent vous avoir mis en ſituation de faire un
-          uſage utile de mes leçons, ſans avoir beſoin d'en prendre d'autres.</p>
-        <p>Depuis plus de vingt ans, je m'applique à la lecture, mais c'eſt une peine inutile que je
+          uſage utile de mes leçons, ſans avoir beſoin d'en prendre d'autres.
+    </p>
+    <p>
+     Depuis plus de vingt ans, je m'applique à la lecture, mais c'eſt une peine inutile que je
           voudrois vous abréger. Je m'apperçois que je ſçavois, ou que j'aurois ſçû naturellement tout ce que
           je trouve dans les Livres. S'ils n'ont pas le ſens commun, il eſt inutile &amp; dangereux de les
           lire; ſi au contraire, ils ont de la raiſon, nous en avons autant qu'eux pour penſer ce qu'ils
-          diſent.</p>
-        <p>Les places, les honneurs, les dignités ſont rarement la récompenſe du travail &amp; de
+          diſent.
+    </p>
+    <p>
+     Les places, les honneurs, les dignités ſont rarement la récompenſe du travail &amp; de
           l'application. On ne dit point,
-          <hi rend="italic">Un tel a beaucoup étudié;</hi>
-          on ſe contente de dire,
-          <hi rend="italic">Un tel a beaucoup d'eſprit</hi>; de-là, l'on conclud qu'il eſt propre à tout; on l'employe, &amp; il réuſſit.</p>
-        <p>Nous n'avons point en France d'Ecoles de Droit public; nous n'avons point de Profeſſeurs qui
+     <hi rend="italic">
+      Un tel a beaucoup étudié;
+     </hi>
+     on ſe contente de dire,
+     <hi rend="italic">
+      Un tel a beaucoup d'eſprit
+     </hi>
+     ; de-là, l'on conclud qu'il eſt propre à tout; on l'employe, &amp; il réuſſit.
+    </p>
+    <p>
+     Nous n'avons point en France d'Ecoles de Droit public; nous n'avons point de Profeſſeurs qui
           enſeignent l'art de faire la guerre méthodiquement &amp; par principes; cependant nos Négociateurs
           &amp; nos Généraux comptent ne le céder en rien à ceux de nos voiſins, parce que le bon eſprit &amp;
-          l'expérience ſont ſupérieurs à toutes les régles.</p>
-        <p>La Phyſique, l'Aſtronomie &amp; d'autres Sciences, n'ont en grande partie rien de sûr &amp; de
+          l'expérience ſont ſupérieurs à toutes les régles.
+    </p>
+    <p>
+     La Phyſique, l'Aſtronomie &amp; d'autres Sciences, n'ont en grande partie rien de sûr &amp; de
           décidé. Chacun ſe croit autoriſé à forger des ſyſtêmes qui ſe combattent &amp; ſe détruiſent
           mutuellement; or quand il s'agit de deviner, les gens d'eſprit ont un grand avantage ſur les autres.
-          Ce ſont eux qui trouvent ordinairement le mot de l'énigme.</p>
-        <p>La Médecine, la Juriſprudence ſont également conjecturales &amp; arbitraires. Les Avocats, les
+          Ce ſont eux qui trouvent ordinairement le mot de l'énigme.
+    </p>
+    <p>
+     La Médecine, la Juriſprudence ſont également conjecturales &amp; arbitraires. Les Avocats, les
           Médecins ſont rarement d'un avis uniforme. Les Juges mêmes ſont preſque toujours diviſés d'opinions.
           Celles de Mrs ***, *** prévalent ordinairement. On convient cependant, qu'ils n'ont jamais ouvert un
           Livre de Droit, mais la juſteſſe &amp; l'uſage font plus chez eux, que la ſcience chez d'autres.
           Vous entendez dire par-tout qu'ils ſont bons Juges. Ils jouiſſent de leur réputation. On les écoute,
-          on les reſpecte, on les récompenſe.</p>
-        <p>L'on peut être ſon Avocat ſoimême. Une certaine juſteſſe d'idées doit nous conduire à diſcerner
+          on les reſpecte, on les récompenſe.
+    </p>
+    <p>
+     L'on peut être ſon Avocat ſoimême. Une certaine juſteſſe d'idées doit nous conduire à diſcerner
           ce qui eſt juſte, d'avec ce qui ne l'eſt pas. Il eſt poſſible qu'on ſe trompe, mais ne tombe-t'on
-          pas dans l'erreur avec un Conſeil accrédité? C'eſt du moins une dépenſe épargnée que de s'en paſſer.</p>
-        <p>Il en eſt de même de la Médecine. Avec un eſprit naturel, on peut être ſon Médecin ſoi-même.
+          pas dans l'erreur avec un Conſeil accrédité? C'eſt du moins une dépenſe épargnée que de s'en paſſer.
+    </p>
+    <p>
+     Il en eſt de même de la Médecine. Avec un eſprit naturel, on peut être ſon Médecin ſoi-même.
           Rarement un Malade meurt, ſans qu'on accuſe ſon Eſculape de l'avoir tué. Le ſeul inconvénient eſt
           qu'on vous attribue, ce qu'on auroit imputé à un autre. Vous vous en acquitterez auſſi bien que lui.
           La Nature nous indique à peu près ce qu'il faut à nos beſoins. L'eſprit ſert à le préparer &amp; à
           l'appliquer; la Médecine conſiſte dans l'art de modérer l'efferveſcence du ſang &amp; de la bile,
           &amp; d'en régler le volume; or le diſcernement doit nous faire décider lequel des deux eſt
           néceſſaire de la ſaignée ou de la purgation, &amp; celui de ces points fondamentaux de la faculté
-          qui doit précéder ou ſuivre.</p>
-        <p>On peut dire auſſi la même choſe de l'Architecture. Tous les gens d'eſprit ſont naturellement
+          qui doit précéder ou ſuivre.
+    </p>
+    <p>
+     On peut dire auſſi la même choſe de l'Architecture. Tous les gens d'eſprit ſont naturellement
           Avocats, Médecins, Architectes. Le goût &amp; l'eſprit ſont ſupérieurs aux régles qui varient ſelon
           l'opinion &amp; la mode. Tous les Propriétaires qui ont eux-mêmes bâti &amp; arrangé leur maiſon, ou
           deſſiné leur jardin, en paroiſſent contens. Ils s'applaudiſſent, &amp; montrent leur ouvrage avec
           complaiſanſe. Ceux au contraire qui ont employé les Maîtres de l'Art, ne laiſſent voir qu'une
           ſatisfaction médiocre; ſouvent ils critiquent; ils vous diſent:
-          <hi rend="italic">J'aurois tourné cela autrement, je ne voulois pas que cela fût ainſi, mon
-            Architecte l'a voulu abſolument.</hi>
-          Ils n'auroient pas fait eux-mêmes une ſeule faute, &amp; rejettent toutes celles qui ont été faites
+     <hi rend="italic">
+      J'aurois tourné cela autrement, je ne voulois pas que cela fût ainſi, mon
+            Architecte l'a voulu abſolument.
+     </hi>
+     Ils n'auroient pas fait eux-mêmes une ſeule faute, &amp; rejettent toutes celles qui ont été faites
           ſur le compte de leur conſeil. Ce n'étoit donc pas la peine d'en prendre un, pour avoir ſujet de
           s'en plaindre. Avec du goût naturel, on auroit fait ſoi-même des choſes plus belles, plus commodes,
-          à moins de frais, &amp; ſans mélange d'aucun défaut.</p>
-        <p>La Peinture, la Sculpture, &amp; les Arts Méchaniques ſont au-deſſous de votre condition: vous ne
-          devez les connoître &amp; en parler que comme un protecteur.</p>
-        <p>Par rapport aux Mathématiques, à la Géométrie, &amp; aux autres connoiſſances relevées, qu'il
+          à moins de frais, &amp; ſans mélange d'aucun défaut.
+    </p>
+    <p>
+     La Peinture, la Sculpture, &amp; les Arts Méchaniques ſont au-deſſous de votre condition: vous ne
+          devez les connoître &amp; en parler que comme un protecteur.
+    </p>
+    <p>
+     Par rapport aux Mathématiques, à la Géométrie, &amp; aux autres connoiſſances relevées, qu'il
           vous ſuffiſe de les connoître de nom, &amp; ſeulement aſſez pour en ſçavoir l'uſage. Diſtinguez
           auſſi les divers Inſtrumens qui y ont rapport. Peu de jours &amp; quelques Dictionnaires ſuffiront
           pour vous acquérir des notions générales &amp; ſuperficielles ſur ces différens objets, dont le nom
-          tombe ſouvent en converſation.</p>
-        <p>Le genre de propos qui convient à votre état, pour ſe mettre au ton d'à préſent, doit être de
+          tombe ſouvent en converſation.
+    </p>
+    <p>
+     Le genre de propos qui convient à votre état, pour ſe mettre au ton d'à préſent, doit être de
           Chiens, de Chevaux, de Chaſſe, d'Equipages, de Modes, de Bijoux, de Spectacles, de Galanterie, &amp;
           généralement de tout ce qui peut plaire &amp; amuſer. Si d'un côté, je vous invite à ne vous point
           livrer à l'étude des connoiſſances que l'on appelle utiles, &amp; qui coûtent de la peine, je vous
           exhorte d'un autre côté, à apprendre tout ce qui n'eſt qu'agréable, &amp; n'occaſionne aucune
-          fatigue d'eſprit.</p>
-        <p>Le talent d'amuſer vous ſervira cent fois plus qu'un mérite réel: il ſera plus agréable pour les
+          fatigue d'eſprit.
+    </p>
+    <p>
+     Le talent d'amuſer vous ſervira cent fois plus qu'un mérite réel: il ſera plus agréable pour les
           autres &amp; plus utile pour vous. C'eſt le point eſſentiel, pour vous lier avec les Grands
           Seigneurs, pour obtenir leur familiarité, leur confiance, &amp; les graces qui dépendent d'eux. Si
           vous n'êtes qu'un homme inſtruit, vous n'en recevez que des politeſſes ſtériles, ſur-tout, s'ils
-          vous croyent grave, car ſérieux &amp; ennuyeux ſont aujourd'hui regardés comme ſynonimes.</p>
-        <p>Attachez-vous à la Muſique, à la Danſe, &amp; à jouer de diverſes ſortes d'Inſtrumens. Un ſeul
+          vous croyent grave, car ſérieux &amp; ennuyeux ſont aujourd'hui regardés comme ſynonimes.
+    </p>
+    <p>
+     Attachez-vous à la Muſique, à la Danſe, &amp; à jouer de diverſes ſortes d'Inſtrumens. Un ſeul
           pourroit vous appliquer trop: ce ſeroit un ridicule à un homme comme vous que d'y exceller; il ne
           vous faut que des occupations auxquelles on vaque en ſe jouant. La multiplicité plaît plus que la
           perfection dans ce genre. Il eſt gracieux de diverſifier les plaiſirs des autres, &amp; de faire
-          dire qu'on eſt propre à tout.</p>
-        <p>Aimez le Bal, figurez-y, mais n'en donnez jamais chez vous, pour prévenir les tracaſſeries &amp;
-          les mauvaiſes plaiſanteries.</p>
-        <p>Une des choſes que vous ferez le plus dans le cours de votre vie, c'eſt de jouer. Je vous exhorte
+          dire qu'on eſt propre à tout.
+    </p>
+    <p>
+     Aimez le Bal, figurez-y, mais n'en donnez jamais chez vous, pour prévenir les tracaſſeries &amp;
+          les mauvaiſes plaiſanteries.
+    </p>
+    <p>
+     Une des choſes que vous ferez le plus dans le cours de votre vie, c'eſt de jouer. Je vous exhorte
           donc à prendre des Maîtres qui vous enſeignent tous les jeux. Outre que vous ſerez recherché, vous y
           trouverez au bout de chaque année un profit conſidérable. L'ignorance au jeu cauſe à la fin une
           perte réelle, qui par les négligences &amp; les fautes imperceptibles, forme un objet en ſe
           multipliant. L'habileté au contraire, met à profit les fautes des autres, &amp; c'eſt un double
-          avantage.</p>
-        <p>Vous ſeriez trop heureux d'avoir quelqu'un qui vint journellement vous apprendre les nouvelles du
+          avantage.
+    </p>
+    <p>
+     Vous ſeriez trop heureux d'avoir quelqu'un qui vint journellement vous apprendre les nouvelles du
           jour, &amp; les hiſtoires ſcandaleuſes de la Ville. C'eſt un moyen ſûr pour briller dans un cercle.
           Tâchez de ſçavoir auſſi quelques Paſſages de Tragédie, quelques Maximes d'Opéra. Quand on en fait
-          une application heureuſe, la converſation en devient plus ornée &amp; plus brillante.</p>
-        <p>Avec ces ſimples connoiſſances, ne vous abandonnez jamais à la diſpute ſur des matières élevées.
+          une application heureuſe, la converſation en devient plus ornée &amp; plus brillante.
+    </p>
+    <p>
+     Avec ces ſimples connoiſſances, ne vous abandonnez jamais à la diſpute ſur des matières élevées.
           On vous en fera honneur, comme d'un acte de douceur &amp; de politeſſe. La Compagnie qui ſçaura que
           vous avez de l'eſprit, ne vous ſoupçonnera point d'inſuffiſance, &amp; vous tiendra compte de votre
-          modération.</p>
-        <p>Soyez Déclamateur, frondez, critiquez généralement tout ce qui ſe fait; dites qu'il n'y a pas
-          <hi rend="italic">le ſens commun</hi>, on vous croira plus d'eſprit qu'à tous ceux dont vous
-          blâmerez les démarches, même ſans ſçavoir leurs raiſons.</p>
-        <p>Les talens &amp; l'eſprit d'amuſement ſont bien plus recherchés que le mérite &amp; les vertus.
+          modération.
+    </p>
+    <p>
+     Soyez Déclamateur, frondez, critiquez généralement tout ce qui ſe fait; dites qu'il n'y a pas
+     <hi rend="italic">
+      le ſens commun
+     </hi>
+     , on vous croira plus d'eſprit qu'à tous ceux dont vous
+          blâmerez les démarches, même ſans ſçavoir leurs raiſons.
+    </p>
+    <p>
+     Les talens &amp; l'eſprit d'amuſement ſont bien plus recherchés que le mérite &amp; les vertus.
           Un homme qui n'a que du ſçavoir, eſt négligé. L'aimable Chanteur, l'admirable Symphoniſte, l'homme
           qui dit joliment des riens, ſont fêtés, invités: on ſe les arrache. Ils ont cent ſoupers pour un,
           parce que le talent aimable flatte plus que le talent qu'on ſuppoſe utile. L'un parle aux ſens,
-          l'autre n'intéreſſe au plus que le bien général de la ſociété.</p>
-        <p>Mille bagatelles dites avec graces, vous gagneront cent fois plus de cœurs, qu'un raiſonnement
+          l'autre n'intéreſſe au plus que le bien général de la ſociété.
+    </p>
+    <p>
+     Mille bagatelles dites avec graces, vous gagneront cent fois plus de cœurs, qu'un raiſonnement
           ſuivi &amp; méthodique. Quelques tours de Cartes, de Gobelets, fixeront ſur vous l'attention d'un
           cercle, qu'une bonne Logique rebuteroit. Le ton amuſant, eſt le ton dominant, &amp; l'ennui eſt le
           plus redoutable des maux. Cependant on ne l'évite pas toujours; mais l'on tâche de ſe perſuader
           qu'on s'amuſe. Il y auroit même du ridicule à ne le pas faire croire aux autres. On penſe
           s'affranchir du ſoupçon, en attirant les gens à la mode. Ne vous attachez point à une femme ſeule,
-          quelque mérite qu'elle ait.</p>
-        <p>L'inconſtance, l'indiſcrétion, l'art même d'inventer, vous rendront un homme à la mode, &amp;
-          votre fortune ſera faite, ſi vous ne viſez qu'aux plaifirs.</p>
-        <p>Ne vous piquez pas d'avoir de la raiſon, mais parlez toujours, fût-ce inconſidérément. Ne doutez
+          quelque mérite qu'elle ait.
+    </p>
+    <p>
+     L'inconſtance, l'indiſcrétion, l'art même d'inventer, vous rendront un homme à la mode, &amp;
+          votre fortune ſera faite, ſi vous ne viſez qu'aux plaifirs.
+    </p>
+    <p>
+     Ne vous piquez pas d'avoir de la raiſon, mais parlez toujours, fût-ce inconſidérément. Ne doutez
           de rien, décidez ſouverainement. Bien des gens faits pour être dupes, ſe perſuadent qu'on a beaucoup
           d'eſprit, dès qu'on bavarde d'un air avantageux, &amp; qu'on eſt plein de confiance. Si l'on prétend
           appeller de vos déciſions, &amp; qu'on vous objecte votre jeuneſſe, votre peu d'expérience, offrez
-          toujours de parier gros; c'eſt un moyen sûr de faire taire les Contradicteurs.</p>
-        <p>Parlez quelquefois de vous, mais en faiſant toujours le myſtérieux ſur votre compte. Vous
+          toujours de parier gros; c'eſt un moyen sûr de faire taire les Contradicteurs.
+    </p>
+    <p>
+     Parlez quelquefois de vous, mais en faiſant toujours le myſtérieux ſur votre compte. Vous
           attirerez l'attention, ſi l'on vous ſuppoſe des intrigues de Cour, des aventures amoureuſes &amp; de
           bonnes fortunes cachées. Si vous êtes en Compagnie, tâchez de parler ſouvent à l'oreille des
           perſonnes les plus diſtinguées. Affectez un air de ſecret pour montrer une Lettre à quelqu'un. Ce
           ton myſtérieux répand un vernis d'importance qui en impoſe, &amp; imprime un certain reſpect. Toutes
-          les femmes brigueront l'honneur de votre confidence, aux dépens de la leur.</p>
-        <p>Le parti de la Guerre eſt le ſeul qui vous convienne; embraſſez-le: mais commencez de bonne heure
+          les femmes brigueront l'honneur de votre confidence, aux dépens de la leur.
+    </p>
+    <p>
+     Le parti de la Guerre eſt le ſeul qui vous convienne; embraſſez-le: mais commencez de bonne heure
           à figurer extérieurement avec faſte, &amp; ne paſſez pas un jour, ſans dire que vous êtes plus noble
           que riche, &amp; que le ſervice de l'Etat vous entraîne néceſſairement dans des dépenſes trois fois
           plus fortes que vos revenus. A force de vous entendre répéter que vous vous ruinez, on pourra vous
-          croire, &amp; l'Etat craindra d'être votre redevable.</p>
-        <p>Faites votre cour aux gens en place. Vivez ſans hauteur avec les Commis de leurs Bureaux;
-          ſur-tout ayez attention de ne jamais vous brouiller avec eux.</p>
-        <p>Tâchez d'avoir la réputation d'entretenir une fille de Théâtre; cent femmes du bel air vous
+          croire, &amp; l'Etat craindra d'être votre redevable.
+    </p>
+    <p>
+     Faites votre cour aux gens en place. Vivez ſans hauteur avec les Commis de leurs Bureaux;
+          ſur-tout ayez attention de ne jamais vous brouiller avec eux.
+    </p>
+    <p>
+     Tâchez d'avoir la réputation d'entretenir une fille de Théâtre; cent femmes du bel air vous
           feront des agaceries, pour avoir la gloire de vous faire revenir de votre égarement. Elles ſeront
           aſſez obligeantes pour ſe diſputer le mérite de votre converſion, aux dépens même de leur
-          réputation.</p>
-        <p>Prenez une petite Maiſon dans les Fauxbourgs, duſſiez-vous n'y aller que rarement, ou même point
+          réputation.
+    </p>
+    <p>
+     Prenez une petite Maiſon dans les Fauxbourgs, duſſiez-vous n'y aller que rarement, ou même point
           du tout. C'eſt un ton &amp; une dépenſe néceſſaire; affectez d'y conduire le plaiſir &amp; le
           myſtère. Souvent on n'y rencontre que l'ennui; mais le préjugé en rend la poſſeſſion honorable au
-          Propriétaire.</p>
-        <p>Payez fort cher pour l'utilité du Public, un Cuiſinier de diſtinction, qui faſſe journellement
+          Propriétaire.
+    </p>
+    <p>
+     Payez fort cher pour l'utilité du Public, un Cuiſinier de diſtinction, qui faſſe journellement
           des ſoupers en Ville, &amp; travaille par grace chez vous. Donnez des gages exhorbitans à un Cocher,
           qui ne vous mene que quand il le jugera à propos. Soyez auſſi excellent Cocher vous-même; mais n'en
-          débauchez point aux autres; cela peut devenir dangereux.</p>
-        <p>Ayez de beaux Chevaux pour la parade, &amp; pour reſter à l'Ecurie. Ayez auſſi des Courtes-queues
+          débauchez point aux autres; cela peut devenir dangereux.
+    </p>
+    <p>
+     Ayez de beaux Chevaux pour la parade, &amp; pour reſter à l'Ecurie. Ayez auſſi des Courtes-queues
           trèsleſtes pour courir. Ne roulez que dans les Equipages du goût le plus brillant. Ne portez jamais
-          de Meubles, s'ils ne ſont des Ouvriers les plus fameux &amp; les plus chers.</p>
-        <p>Quand vous paſſez dans les rues de Paris avec votre Equipage, ayez ſoin que votre Cocher à
+          de Meubles, s'ils ne ſont des Ouvriers les plus fameux &amp; les plus chers.
+    </p>
+    <p>
+     Quand vous paſſez dans les rues de Paris avec votre Equipage, ayez ſoin que votre Cocher à
           mouſtache &amp; à plumet, aille impudemment d'un train capable de répandre par-tout l'épouvante,
           qu'il riſque à tout inſtant d'écraſer les gens de pied, de briſer des Equipages, &amp; de culbuter
           des Chevaux: ſur-tout qu'il donne &amp; reçoive vingt coups de fouet, plutôt que de céder le pavé à
-          qui que ce ſoit.</p>
-        <p>Soyez des premiers à connoître &amp; à accréditer les nouvelles modes. C'eſt un mérite même que
+          qui que ce ſoit.
+    </p>
+    <p>
+     Soyez des premiers à connoître &amp; à accréditer les nouvelles modes. C'eſt un mérite même que
           d'être inventeur en ce genre. Vous ſeriez trop heureux qu'on pût donner votre nom à quelque
-          invention moderne.</p>
-        <p>Payez exactement &amp; fort cher les choſes ſuperflues &amp; de pur caprice. Changez-en
+          invention moderne.
+    </p>
+    <p>
+     Payez exactement &amp; fort cher les choſes ſuperflues &amp; de pur caprice. Changez-en
           journellement, mais ne vous preſſez pas d'acquitter les dépenſes néceſſaires. L'uſage eſt d'épargner
-          ſur la récompenſe des talens utiles pour ſacrifier davantage à ſes fantaiſies.</p>
-        <p>Ayez des Créanciers; c'eſt un moyen pour avoir du crédit. Un pere de famille rangé, eſt ſouvent
+          ſur la récompenſe des talens utiles pour ſacrifier davantage à ſes fantaiſies.
+    </p>
+    <p>
+     Ayez des Créanciers; c'eſt un moyen pour avoir du crédit. Un pere de famille rangé, eſt ſouvent
           embarraſſé pour emprunter dix mille livres. Un homme obéré, auquel on ne connoît ni biens ni
           reſſources, trouve en peu d'heures des ſommes trois fois plus fortes. L'expérience le démontre tous
-          les jours.</p>
-        <p>Payez exactement vos dettes du jeu, &amp; vendez tout pour y ſatisfaire. Par rapport à vos autres
+          les jours.
+    </p>
+    <p>
+     Payez exactement vos dettes du jeu, &amp; vendez tout pour y ſatisfaire. Par rapport à vos autres
           Créanciers, ne vous gênez point pour les contenter. Le pis aller eſt d'exciter leurs clameurs, &amp;
           qu'on diſe de vous, V..... eſt tout-à-fait aimable; il a fait l'honneur à dix ou douze Bourgeois de
           Paris de les ruiner. Pourquoi étoient-ils aſſez ſots, pour lui prêter leur bien &amp; la ſubſtance
-          de leur famille? C'eſt qu'ils vouloient trop gagner avec lui; ils n'ont que ce qu'ils méritent.</p>
-        <p>Quelques perfidies en amour, des emprunts ſubtils, des manques de parole d'honneur pour rendre,
+          de leur famille? C'eſt qu'ils vouloient trop gagner avec lui; ils n'ont que ce qu'ils méritent.
+    </p>
+    <p>
+     Quelques perfidies en amour, des emprunts ſubtils, des manques de parole d'honneur pour rendre,
           &amp; des méchancetés en propos ne ſerviront qu'à vous faire rechercher de bien des gens. L'on
           ménage plus ceux que l'on craint, que ceux qu'on eſtime; &amp; pourvû qu'on paſſe pour aimable, l'on
           eſt careſſé ſouvent par ceuxmêmes qui ont droit de nous mépriſer. L'on vous fêtera, ſi vous êtes
-          fat; l'on vous ſifflera, ſi vous n'êtes que ſot.</p>
-        <p>Ayez le ton libre &amp; aiſé avec vos ſupérieurs; léger &amp; délibéré avec vos égaux; froid,
+          fat; l'on vous ſifflera, ſi vous n'êtes que ſot.
+    </p>
+    <p>
+     Ayez le ton libre &amp; aiſé avec vos ſupérieurs; léger &amp; délibéré avec vos égaux; froid,
           civil, &amp; laconiquement complimenteur avec vos inférieurs, ſur-tout, ne leur parlez jamais, ſans
           joindre perpétuellement leur nom de famille à la ſuite de
-          <hi rend="italic">Monſieur</hi>; ce langage les fait reſſouvenir à chaque inſtant de votre
+     <hi rend="italic">
+      Monſieur
+     </hi>
+     ; ce langage les fait reſſouvenir à chaque inſtant de votre
           ſupériorité, &amp; vous donne le ton impoſant, quoiqu'ils en ſentent le ridicule &amp; ſouvent
-          l'impertinence.</p>
-        <p>Parlez toujours avec reſpect de votre état. Dédaignez les gens de robe, mépriſez la Finance, mais
+          l'impertinence.
+    </p>
+    <p>
+     Parlez toujours avec reſpect de votre état. Dédaignez les gens de robe, mépriſez la Finance, mais
           ménagezles, l'une pour les beſoins que vous en pouvez avoir, l'autre pour la manger &amp; l'honorer
-          de vos emprunts.</p>
-        <p>Meſurez moins vos politeſſes ſur l'eſtime qu'on doit accorder au mérite des hommes, que ſur les
-          noms qu'ils portent.</p>
-        <p>Si vous avez dit ou fait une premiere ſottiſe devant vos inférieurs, ne reculez jamais,
+          de vos emprunts.
+    </p>
+    <p>
+     Meſurez moins vos politeſſes ſur l'eſtime qu'on doit accorder au mérite des hommes, que ſur les
+          noms qu'ils portent.
+    </p>
+    <p>
+     Si vous avez dit ou fait une premiere ſottiſe devant vos inférieurs, ne reculez jamais,
           ſoutenez-la plutôt par dix autres conſécutives. Un des caractères de la dignité, eſt de ne point ſe
-          démentir, lors même qu'on a tort. On paſſe pour un homme ferme.</p>
-        <p>Ayez un Domeſtique ou Griſon de confiance, libertin, familier, yvrogne, inſolent, &amp; même qui
+          démentir, lors même qu'on a tort. On paſſe pour un homme ferme.
+    </p>
+    <p>
+     Ayez un Domeſtique ou Griſon de confiance, libertin, familier, yvrogne, inſolent, &amp; même qui
           vous vole, pourvû que d'ailleurs il ſoit sûr &amp; diſcret, l'étiquette eſt de le garder. Prenez un
           Coureur, dont le riche habillement &amp; l'entretien vous coûtent preſqu'autant que le vôtre. Vous
           n'aurez pas occaſion de l'employer utilement deux fois dans l'année, mais un Billet rendu de la main
-          d'un tel Commiſſionnaire fait en tout genre une impreſſion ſinguliére.</p>
-        <p>Prenez de grands Laquais, dont la magnificence &amp; l'effronterie révoltent les gens ſenſés
-          &amp; humilient la Bourgeoiſie.</p>
-        <p>Montrez-vous ſouvent aux Spectacles, quelquefois à trois en un même jour. L'on préſume qu'un
-          homme qui ſe reproduit pour paroître par-tout, a des raiſons eſſentielles pour le faire.</p>
-        <p>Ecoutez une Piéce de Théâtre en homme préoccupé, &amp; qui entend à demi mot. Rien n'eſt ſi
-          Bourgeois, que de paroître y donner toute ſon attention.</p>
-        <p>Si vous êtes à l'Opéra, cauſez beaucoup, ſortez &amp; rentrez fréquemment. N'écoutez le récitatif
+          d'un tel Commiſſionnaire fait en tout genre une impreſſion ſinguliére.
+    </p>
+    <p>
+     Prenez de grands Laquais, dont la magnificence &amp; l'effronterie révoltent les gens ſenſés
+          &amp; humilient la Bourgeoiſie.
+    </p>
+    <p>
+     Montrez-vous ſouvent aux Spectacles, quelquefois à trois en un même jour. L'on préſume qu'un
+          homme qui ſe reproduit pour paroître par-tout, a des raiſons eſſentielles pour le faire.
+    </p>
+    <p>
+     Ecoutez une Piéce de Théâtre en homme préoccupé, &amp; qui entend à demi mot. Rien n'eſt ſi
+          Bourgeois, que de paroître y donner toute ſon attention.
+    </p>
+    <p>
+     Si vous êtes à l'Opéra, cauſez beaucoup, ſortez &amp; rentrez fréquemment. N'écoutez le récitatif
           que derriere les Loges. Reparoiſſez un inſtant pour lorgner. Enfin ayez l'air affairé, il n'importe
-          de quoi.</p>
-        <p>Affectez dans les Spectacles de ſaluer toutes les jolies femmes d'un air libre &amp; avantageux;
+          de quoi.
+    </p>
+    <p>
+     Affectez dans les Spectacles de ſaluer toutes les jolies femmes d'un air libre &amp; avantageux;
           allez même cauſer familiérement dans leurs Loges, &amp; parlez-leur à l'oreille. L'on vous croira
-          favoriſé, &amp; vous ferez des jaloux.</p>
-        <p>Ne manquez jamais après l'Opéra, d'aller figurer ſur le Théâtre. L'on y eſt englouti par un
+          favoriſé, &amp; vous ferez des jaloux.
+    </p>
+    <p>
+     Ne manquez jamais après l'Opéra, d'aller figurer ſur le Théâtre. L'on y eſt englouti par un
           mélange d'odeurs inſupportables. L'on y riſque cent fois de ſe caſſer les membres, mais il
           n'importe. La mode eſt d'y paroître, quoiqu'on ne voulut jamais mettre le pied dans une Egliſe où
-          l'on trouveroit la vingtiéme partie des incommodités que l'on rencontre dans ce lieu obſcur.</p>
-        <p>Si l'on vous ſoupçonne d'intrigue avec une femme aimable, défendez-vous en d'un air myſtérieux,
-          &amp; en ricannant, c'eſt le moyen de perſuader que le fait eſt vrai.</p>
-        <p>Montrez-vous aux promenades dans les ſaiſons &amp; aux jours attitrés. Ayez des façons de ſaluer
-          proportionnées à l'état de tous ceux que vous rencontrerez.</p>
-        <p>Ne parlez qu'en paſſant aux beautés théâtrales, &amp; que ce que vous leur direz ſoit ſuivi d'un
-          long éclat de rire.</p>
-        <p>Jugez mal de la raiſon des femmes. Soutenez thèſe pour prouver qu'il n'en eſt point d'exactement
-          vertueuſes; l'on penſera que vous n'en avez jamais trouvé de cruelles.</p>
-        <p>Ne compoſez jamais rien, mais jugez de tout, même ſans l'avoir vû. Critiquez, parodiez, &amp; ſi
-          vous êtes aſſez heureux pour trouver le mot de l'Epigramme, ne le manquez pas.</p>
-        <p>Ne ridiculiſez pas ceux qui peuvent s'en venger &amp; vous le rendre. Mais pour ceux dont il n'y
+          l'on trouveroit la vingtiéme partie des incommodités que l'on rencontre dans ce lieu obſcur.
+    </p>
+    <p>
+     Si l'on vous ſoupçonne d'intrigue avec une femme aimable, défendez-vous en d'un air myſtérieux,
+          &amp; en ricannant, c'eſt le moyen de perſuader que le fait eſt vrai.
+    </p>
+    <p>
+     Montrez-vous aux promenades dans les ſaiſons &amp; aux jours attitrés. Ayez des façons de ſaluer
+          proportionnées à l'état de tous ceux que vous rencontrerez.
+    </p>
+    <p>
+     Ne parlez qu'en paſſant aux beautés théâtrales, &amp; que ce que vous leur direz ſoit ſuivi d'un
+          long éclat de rire.
+    </p>
+    <p>
+     Jugez mal de la raiſon des femmes. Soutenez thèſe pour prouver qu'il n'en eſt point d'exactement
+          vertueuſes; l'on penſera que vous n'en avez jamais trouvé de cruelles.
+    </p>
+    <p>
+     Ne compoſez jamais rien, mais jugez de tout, même ſans l'avoir vû. Critiquez, parodiez, &amp; ſi
+          vous êtes aſſez heureux pour trouver le mot de l'Epigramme, ne le manquez pas.
+    </p>
+    <p>
+     Ne ridiculiſez pas ceux qui peuvent s'en venger &amp; vous le rendre. Mais pour ceux dont il n'y
           a rien à craindre, allez juſqu'à être méchant ſur leur compte, pourvû que ce ſoit d'un ton badin
-          &amp; ironique. La méchanceté eſt moins choquante, &amp; porte des coups auſſi sûrs.</p>
-        <p>Ayez toujours dans votre poche les Piéces fugitives, les Vaudevilles nouveaux. Liſez exactement
+          &amp; ironique. La méchanceté eſt moins choquante, &amp; porte des coups auſſi sûrs.
+    </p>
+    <p>
+     Ayez toujours dans votre poche les Piéces fugitives, les Vaudevilles nouveaux. Liſez exactement
           les Romans, les Brochures courantes; ditesen affirmativement votre jugement, &amp; que ce ſoit
           toujours un jugement de condamnation. Vous paſſerez pour un amateur de BellesLettres, &amp; cette
           réputation ſeule, fortifiée de votre nom, &amp; du crédit des femmes, pourra vous mériter une place
           à l'Académie Françoiſe; les gens de qualité y ſont introduits à peu de frais, ſous le titre
-          d'Amateurs, pour accroître le profit légitime de ceux qui portent le poids du jour.</p>
-        <p>Formez-vous une Bibliothéque, mais n'y admettez que les Livres agréables &amp; modernes.
+          d'Amateurs, pour accroître le profit légitime de ceux qui portent le poids du jour.
+    </p>
+    <p>
+     Formez-vous une Bibliothéque, mais n'y admettez que les Livres agréables &amp; modernes.
           Banniſſez-en les vieux Médecins, Juriſconſultes, Philoſophes &amp; Théologiens qui ont déshonoré la
-          raiſon &amp; leur matière par un fatras d'inutilités que perſonne ne lit &amp; ne doit lire.</p>
-        <p>Attachez-vous à parler purement votre Langue. Vous ſerez ſouvent conſtitué Juge des conteſtations
+          raiſon &amp; leur matière par un fatras d'inutilités que perſonne ne lit &amp; ne doit lire.
+    </p>
+    <p>
+     Attachez-vous à parler purement votre Langue. Vous ſerez ſouvent conſtitué Juge des conteſtations
           qui s'élevent journellement dans la ſociété, ſur la valeur &amp; l'arrangement des mots. Cette
-          ſcience honore un homme de qualité. Beaucoup de gens ſçavent tout, excepté parler François.</p>
-        <p>Retenez tous les mots à la mode, &amp; parlez ſouvent
-          <hi rend="italic">du bon ton &amp; de la bonne Compagnie</hi>. L'on croira que vous en faites partie, quoique vous la voyiez, &amp; la ſoyez mauvaiſe.</p>
-        <p>Quoiqu'un homme de naiſſance ſoit noirci par cent actions plus déshonorantes les unes que les
+          ſcience honore un homme de qualité. Beaucoup de gens ſçavent tout, excepté parler François.
+    </p>
+    <p>
+     Retenez tous les mots à la mode, &amp; parlez ſouvent
+     <hi rend="italic">
+      du bon ton &amp; de la bonne Compagnie
+     </hi>
+     . L'on croira que vous en faites partie, quoique vous la voyiez, &amp; la ſoyez mauvaiſe.
+    </p>
+    <p>
+     Quoiqu'un homme de naiſſance ſoit noirci par cent actions plus déshonorantes les unes que les
           autres, ne ceſſez pas de le voir &amp; de l'accueillir, juſqu'à ce que vous ayez à vous en plaindre
           perſonnellement. L'on convient que les fats &amp; les fripons ſe multiplient dans le monde, par la
           façon dont les honnêtes gens ont la foibleſſe de vivre avec eux, mais vous n'êtes point le vengeur
-          de la ſociété civile, &amp; l'on peut avoir beſoin de tous les hommes.</p>
-        <p>Affectez quelquefois de paroître diſtrait, l'on vous croira occupé de projets intéreſſans. Dites
+          de la ſociété civile, &amp; l'on peut avoir beſoin de tous les hommes.
+    </p>
+    <p>
+     Affectez quelquefois de paroître diſtrait, l'on vous croira occupé de projets intéreſſans. Dites
           que vous avez de l'humeur, que vous êtes gourmand, l'on vous regardera comme un homme de bonne
-          ſociété; ces trois défauts ſont de mode aujourd'hui, &amp; l'on en tire vanité.</p>
-        <p>Soyez franc à l'extérieur, &amp; que l'on croye que vous penſez tout ce que vous dites, mais ne
-          dites pas tout ce que vous penſez.</p>
-        <p>Levez-vous journellement à midi. Prenez du Chocolat à deux heures; ſoupez abondamment à dix &amp;
+          ſociété; ces trois défauts ſont de mode aujourd'hui, &amp; l'on en tire vanité.
+    </p>
+    <p>
+     Soyez franc à l'extérieur, &amp; que l'on croye que vous penſez tout ce que vous dites, mais ne
+          dites pas tout ce que vous penſez.
+    </p>
+    <p>
+     Levez-vous journellement à midi. Prenez du Chocolat à deux heures; ſoupez abondamment à dix &amp;
           jouez juſqu'à trois heures du matin; craignez cependant de ruiner votre eſtomach, de gagner des
           vapeurs, la goute &amp; d'autres infirmités prématurées. C'eſt payer trop cher le plaiſir d'être
-          homme du bel air.</p>
-        <p>Donnez vos Audiences dans un déshabillé galand. Soyez plus long-tems à votre toilette que la
+          homme du bel air.
+    </p>
+    <p>
+     Donnez vos Audiences dans un déshabillé galand. Soyez plus long-tems à votre toilette que la
           Coquette la plus recherchée; &amp; chargez-vous des odeurs les plus fortes, au riſque d'incommoder
-          cent perſonnes dans la journée.</p>
-        <p>Prenez une femme, ſi l'envie vous en vient abſolument, mais mariez-vous par intérêt &amp;
+          cent perſonnes dans la journée.
+    </p>
+    <p>
+     Prenez une femme, ſi l'envie vous en vient abſolument, mais mariez-vous par intérêt &amp;
           nullement par goût. Ne ſacrifiez ni votre liberté, ni même votre complaiſance. Vivez avec votre
           femme ſans la moindre gêne. Ayez chacun votre Appartement. Voyez-vous, pour ainſi dire, en bonne
           fortune; &amp; ſoyez quelquefois huit jours ſans vous voir: c'eſt le moyen de ne pas s'ennuyer l'un
-          de l'autre.</p>
-        <p>Ne rendez point compte de vos actions à votre femme, &amp; ne vous informez point des ſiennes. Le
-          rôle de jaloux eſt aujourd'hui dans le plus ſouverain mépris.</p>
-        <p>Ayez des Maiſons, des Sociétés, des Campagnes différentes de celles où ira habituellement votre
+          de l'autre.
+    </p>
+    <p>
+     Ne rendez point compte de vos actions à votre femme, &amp; ne vous informez point des ſiennes. Le
+          rôle de jaloux eſt aujourd'hui dans le plus ſouverain mépris.
+    </p>
+    <p>
+     Ayez des Maiſons, des Sociétés, des Campagnes différentes de celles où ira habituellement votre
           Epouſe. Ne vous rencontrez que par hazard, &amp; alors témoignez en hautement votre ſurpriſe. Ne lui
-          donnez jamais que le nom de Madame, ſoit en public, ſoit en particulier.</p>
-        <p>Ne rendez nul compte de vos affaires à votre chere moitié. Payezlui ſeulement avec exactitude la
+          donnez jamais que le nom de Madame, ſoit en public, ſoit en particulier.
+    </p>
+    <p>
+     Ne rendez nul compte de vos affaires à votre chere moitié. Payezlui ſeulement avec exactitude la
           rente dont vous ſerez convenus. L'inconvénient eſt, qu'elle ſe regarde comme une étrangère, chez
           vous, &amp; qu'elle vous enviſage comme un Maître de Penſion. On pourra tout caſſer, tout diſſiper
           dans votre Maiſon ſans qu'elle y prenne le moindre intérêt; mais c'eſt un uſage reçu &amp; il faut
-          vous y ſoumettre.</p>
-        <p>Dès que vous aurez un ou deux enfans, prenez plutôt dix Maîtreſſes que de riſquer de toucher à
+          vous y ſoumettre.
+    </p>
+    <p>
+     Dès que vous aurez un ou deux enfans, prenez plutôt dix Maîtreſſes que de riſquer de toucher à
           votre Femme; ce ſeroit vous expoſer
-          <hi rend="italic">à faire des gueux</hi>.</p>
-        <p>Pratiquez, s'il eſt poſſible, la maxime, qui dit qu'il vaut mieux avoir un bon eſtomac qu'un bon
-          cœur. Le Proverbe n'eſt pas honorable, mais il eſt commode.</p>
-        <p>Prenez un Intendant pour vous diſpenſer de veiller à vos affaires. Lorſque votre peu d'économie
-          les aura dérangées, criez qu'<hi rend="italic">il eſt un fripon</hi>,auſſi-bienquetousceuxqu'ilaemployéà votre ſervice. Ce ſera un prétexte pour ne payer ni lesuns ni lesautres.Laméthodeeſtdenuiredoublement aux gens que l'on ne veut point ſatisfaire, 1.en ne lespayantpas,2.enlesdécréditant parle mal qu'on en publie.</p>
-        <p>Si vous avez mangé la moitié de votre bien, mettez à fonds perdu la moitié qui vous reſte, vous
+     <hi rend="italic">
+      à faire des gueux
+     </hi>
+     .
+    </p>
+    <p>
+     Pratiquez, s'il eſt poſſible, la maxime, qui dit qu'il vaut mieux avoir un bon eſtomac qu'un bon
+          cœur. Le Proverbe n'eſt pas honorable, mais il eſt commode.
+    </p>
+    <p>
+     Prenez un Intendant pour vous diſpenſer de veiller à vos affaires. Lorſque votre peu d'économie
+          les aura dérangées, criez qu'
+     <hi rend="italic">
+      il eſt un fripon
+     </hi>
+     ,auſſi-bienquetousceuxqu'ilaemployéà votre ſervice. Ce ſera un prétexte pour ne payer ni lesuns ni lesautres.Laméthodeeſtdenuiredoublement aux gens que l'on ne veut point ſatisfaire, 1.en ne lespayantpas,2.enlesdécréditant parle mal qu'on en publie.
+    </p>
+    <p>
+     Si vous avez mangé la moitié de votre bien, mettez à fonds perdu la moitié qui vous reſte, vous
           vous conſerverez le même revenu &amp; vous brillerez avec le même éclat. La méthode aujourd'hui eſt
           de ne ſonger qu'à ſatisfaire ſon luxe; ſans s'occuper de ſes enfans, ni de ceux qui doivent venir
-          après nous.</p>
-        <p>Telles ſont les réfléxions que la tendreſſe paternelle avoit ſuggérées à mon Pere, pour me rendre
+          après nous.
+    </p>
+    <p>
+     Telles ſont les réfléxions que la tendreſſe paternelle avoit ſuggérées à mon Pere, pour me rendre
           homme du monde, &amp; homme aimable. Le reſpect que j'avois pour leur auteur m'engagea à les
           imprimer dans ma tête. Elles ne ſont pas toutes réguliéres &amp; exemtes de critique. Mais ce
           n'étoit pas à moi à cenſurer un ouvrage qui partoit d'une main auſſi chere &amp; auſſi reſpectable.
           Mon Pere mourut, &amp; l'uſage du monde me fit croire que la plupart de ſes maximes étoient ſenſées,
           puiſque preſque tout le monde les adoptoit. Je crus devoir me ranger au ſentiment général. Je
           cherchai à pratiquer ce que l'auteur de mes jours m'avoit tendrement recommandé, &amp; je m'en
-          trouvai aſſez bien; j'étois fort content de moi.</p>
-        <p>Ces maximes me devinrent familieres &amp; j'en recueillois le fruit tous les jours, tout Paris
+          trouvai aſſez bien; j'étois fort content de moi.
+    </p>
+    <p>
+     Ces maximes me devinrent familieres &amp; j'en recueillois le fruit tous les jours, tout Paris
           m'invitoit, me recherchoit, &amp; j'étois réellement fort aimable, ou du moins je le croyois. Il me
           reſtoit encore aſſez de fortune, &amp; je ſongeois ſérieuſement à convertir en rentes viagéres ce
           que j'avois conſervé; mais un accident vint déranger mes projets &amp; ma façon de vivre.
@@ -710,7 +977,10 @@
           dans la tête. Je me propoſai d'être circonſpect, &amp; je devins entrepris. Après les premieres
           cérémonies, l'on parla de jouer, la Maîtreſſe de la maiſon dit en méditant ſon arrangement, qu'il ne
           falloit pas compter
-          <hi rend="italic">ſur un beau comme moi</hi>, &amp; que j'avois ſans doute de grands projets. Cette
+     <hi rend="italic">
+      ſur un beau comme moi
+     </hi>
+     , &amp; que j'avois ſans doute de grands projets. Cette
           raillerie me piqua à l'excès, cependant je me contrefis pour lui dire avec douceur que je ſerois
           trop heureux de faire ſa partie. Elle me railla agréablement ſur ma complaiſance, &amp; en reporta
           tout l'honneur aux Dames qui étoient chez elles. Je ne m'en défendis que médiocrement, je pris même
@@ -736,26 +1006,35 @@
           &amp; de la Fille avec un regret véritable. On me retint à ſouper dans la maiſon où j'étois. Nous ne
           parlâmes que des agrémens de Mademoiſelle de V... Je m'exhalai délicieuſement en louanges ſur ſon
           chapitre, &amp; la Maîtreſſe du logis, charmée de la ſincérité de mes éloges, s'engagea de me
-          procurer quelquefois le bonheur de la voir.</p>
-        <p>Je lui rendis compte de la propoſition que j'avois faite à la Mere, &amp; de la maniére dont elle
+          procurer quelquefois le bonheur de la voir.
+    </p>
+    <p>
+     Je lui rendis compte de la propoſition que j'avois faite à la Mere, &amp; de la maniére dont elle
           y avoit répondu. Nous décidâmes que ſi elle n'avoit témoigné aucun empreſſement pour me recevoir, il
           n'y avoit, au moins de ſa part, aucun refus déterminé, &amp; nous réglâmes que dans les choſes
           douteuſes, il falloit ſaiſir le côté qui étoit le plus à notre avantage, ainſi il fut réſolu que je
-          pourrois ſans indiſcrétion me préſenter chez Mademoiſelle de V...</p>
-        <p>Nous convînmes cependant que ma Protectrice la diſpoſeroit favorablement en ma faveur, &amp;
+          pourrois ſans indiſcrétion me préſenter chez Mademoiſelle de V...
+    </p>
+    <p>
+     Nous convînmes cependant que ma Protectrice la diſpoſeroit favorablement en ma faveur, &amp;
           qu'elle lui annonceroit ma viſite comme une choſe décidée, ſans la conſulter ſur l'autoriſation de
           cette démarche. En effet, deux jours après, elle remplit ſa miſſion avec une exactitude
           recommandable, mais elle trouva l'eſprit de la Mere &amp; de la Fille armé contre moi de la plus
           haute prévention. Elles me prodiguerent les qualifications
-          <hi rend="italic">de Petit-Maître, d'Homme du bel air, d'Homme dangereux</hi>; ce fut uniquement par
+     <hi rend="italic">
+      de Petit-Maître, d'Homme du bel air, d'Homme dangereux
+     </hi>
+     ; ce fut uniquement par
           honnêteté pour mon Ambaſſadrice qu'elles me firent grace des noms de fat &amp; d'impertinent. Ma
           Protectrice avec les meilleures intentions du monde étoit fort embarraſſée de me juſtifier ſur le
           fond des imputations. Elle ſe retrancha ſur la forme, ſur ma jeuneſſe, ſur le mauvais goût du temps;
           enfin elle employa ſa rhétorique à ſoutenir que j'avois de l'eſprit, &amp; qu'un peu de maturité me
           feroit revenir des erreurs &amp; des travers où le ſot exemple entraînoit toute la jeuneſſe
           d'aujourd'hui. Malgré toute la répugnance qu'on témoignoit à me voir, il n'y eut point encore
-          d'interdiction abſolue, &amp; ma charitable amie en tira un augure favorable.</p>
-        <p>Elle m'apprit que ma réputation avoit devancé ma viſite dans la maiſon de Madame de V... &amp;
+          d'interdiction abſolue, &amp; ma charitable amie en tira un augure favorable.
+    </p>
+    <p>
+     Elle m'apprit que ma réputation avoit devancé ma viſite dans la maiſon de Madame de V... &amp;
           que je n'en devois pas tirer avantage. Elle me rendit avec quelques adouciſſemens les diſpoſitions
           où l'on étoit ſur mon compte, &amp; elle me laiſſa entrevoir que ce n'étoit pas tout-à-fait ſans
           raiſon. J'avoue que mon amour propre fut étrangement révolté de la juſtice qu'on me rendoit. Je
@@ -763,14 +1042,18 @@
           marqué dès la premiere occaſion, où mon cœur avoit été ſérieuſement affecté. Cette humiliation me
           fit faire des réfléxions ſérieuſes; je fus trois ou quatre jours ſans dormir, occupé uniquement à
           bâtir un plan de réforme qui put me garantir des ſuites d'un déſagrément auquel je ſentois bien que
-          je ne pourrois réſiſter.</p>
-        <p>J'inſiſtai auprès de mon agente pour l'engager à renouveller ſes tentatives. Elle fit naître les
+          je ne pourrois réſiſter.
+    </p>
+    <p>
+     J'inſiſtai auprès de mon agente pour l'engager à renouveller ſes tentatives. Elle fit naître les
           occaſions de parler de moi &amp; de mentir obligeamment. Elle peignit mon reſpect, mon empreſſement
           pour être préſenté, &amp; elle annonça réſolument que je lui donnerois le bras lors de ſa premiere
           viſite. Cette déciſion n'éprouva point de contradiction formelle, enſorte que ma fidelle amie
           m'apprit d'un air triomphant le ſuccès de ſes ſervices, &amp; nous prîmes jour au ſur-lendemain pour
-          faire notre entrée ſolemnelle.</p>
-        <p>J'attendis l'heure du rendez-vous avec l'impatience d'un enfant ou plutôt d'un Amoureux. Mon
+          faire notre entrée ſolemnelle.
+    </p>
+    <p>
+     J'attendis l'heure du rendez-vous avec l'impatience d'un enfant ou plutôt d'un Amoureux. Mon
           Introductrice me préſenta avec des graces, &amp; mon abord parut contraint, parce que je ſentois que
           j'avois de forts préjugés à vaincre. Cependant je m'enhardis. Je pris le ton délibéré, &amp; ſans
           hardieſſe je tâchai de donner un tour de franchiſe à tous mes diſcours. Je m'obſervois néanmoins
@@ -778,61 +1061,86 @@
           plaire par un air ouvert &amp; par une prévenance ſans oſtentation. Nous paſsâmes la ſoirée
           agréablement; je pris congé des Dames à l'heure du ſouper, &amp; je fis mes remercîmens à Madame de
           V... en la priant d'autoriſer le renouvellement de la liberté que j'avois priſe. Mon compliment
-          parut ne lui point déplaire, &amp; je me retirai le plus ſatisfait de tous les hommes.</p>
-        <p>Mon premier ſoin fut le lendemain d'aller remercier ma bienfaitrice. Je l'engageai à me continuer
+          parut ne lui point déplaire, &amp; je me retirai le plus ſatisfait de tous les hommes.
+    </p>
+    <p>
+     Mon premier ſoin fut le lendemain d'aller remercier ma bienfaitrice. Je l'engageai à me continuer
           ſes bons offices; ma reconnoiſſance lui parut ſi naturelle &amp; ſi vive, qu'elle me ſoupçonna,
           dès-lors, d'être attaché à la maiſon de Madame de V... par des liens plus forts que ceux de la
-          ſimple civilité.</p>
-        <p>Trois jours après, je retournai où l'amour m'appelloit, &amp; ſans faire l'aimable, je ne
+          ſimple civilité.
+    </p>
+    <p>
+     Trois jours après, je retournai où l'amour m'appelloit, &amp; ſans faire l'aimable, je ne
           négligeai rien pour l'être. Je regardois furtivement Mademoiſelle de V... avec une avidité ſans
           égale. Ses yeux modeſtes &amp; chaque parole qui ſortoit de ſa bouche, m'enflâmoient de l'ardeur la
-          plus ſéditieuſe.</p>
-        <p>Enfin je continuai d'aller fréquemment chez Madame de V... où je reſtois quelquefois à ſouper.
+          plus ſéditieuſe.
+    </p>
+    <p>
+     Enfin je continuai d'aller fréquemment chez Madame de V... où je reſtois quelquefois à ſouper.
           J'y vivois librement ſans familiarité. La Mere avoit des attentions pour moi, &amp; m'honoroit même
           de quelque confiance. La Fille uſoit perpétuellement d'une retenue qui me perſuadoit qu'elle
           n'ignoroit pas ce que mes yeux &amp; mes attentions lui avoient dit mille fois. Je l'en aimois
           davantage, &amp; je m'applaudiſſois d'avoir diſſipé par ma conduite, les nuages dont j'avois trouvé
           les eſprits offuſqués. Peu à peu mon aſſiduité devint ſi grande, que je crus ne pouvoir, ſans
-          choquer la bienſéance, différer à m'expliquer ſur la pureté de mes vûes.</p>
-        <p>Je fis agir mon Ange tutélaire, à qui j'avois fait confidence des mouvemens ſecrets de mon ame.
+          choquer la bienſéance, différer à m'expliquer ſur la pureté de mes vûes.
+    </p>
+    <p>
+     Je fis agir mon Ange tutélaire, à qui j'avois fait confidence des mouvemens ſecrets de mon ame.
           Après quelques préliminaires convenables au ſujet, elle fit part de mes diſpoſitions à Madame de
           V... Cette Dame ne parut point étonnée, mais elle fit réponſe que j'étois encore jeune, &amp; que ma
           fortune jointe à celle de ſa fille, ne nous mettroit pas en état de vivre commodément, relativement
-          à ma façon de penſer.</p>
-        <p>J'augurai que c'étoit une défaite pour m'éprouver plus long-tems. En effet, j'avois près de
+          à ma façon de penſer.
+    </p>
+    <p>
+     J'augurai que c'étoit une défaite pour m'éprouver plus long-tems. En effet, j'avois près de
           vingt-ſept ans: il me reſtoit encore un revenu honnête, &amp; j'étois héritier d'une Tante dont j'ai
           déja parlé. Elle avoit quatrevingt neuf ans, &amp; ſe trouvoit hors d'état, par ſon imbécillité, de
           faire un Teſtament, en ſorte qu'il étoit difficile que ſa ſucceſſion m'échappât, &amp; me fît
-          languir dans une ennuyeuſe attente.</p>
-        <p>Je communiquai auſſi mes ſentimens à Mademoiſelle de V... Elle m'écouta ſans colére, &amp;
+          languir dans une ennuyeuſe attente.
+    </p>
+    <p>
+     Je communiquai auſſi mes ſentimens à Mademoiſelle de V... Elle m'écouta ſans colére, &amp;
           prenant un air affable, à la fin de ma peroraiſon: “Vous êtes encore
-          <hi rend="italic">trop aimable pour moi</hi>, me dit-elle; votre renommée m'a fait une peur, dont je
+     <hi rend="italic">
+      trop aimable pour moi
+     </hi>
+     , me dit-elle; votre renommée m'a fait une peur, dont je
           ne ſuis pas entiérement remiſe. Je vois pourtant avec plaiſir qu'on fera quelque choſe de vous, ſi
           vous daignez répondre aux ſoins que nous prenons pour vous former à notre maniére de penſer.„ Je vis
           bien que mon bonheur n'étoit pas encore à ſa perfection. J'en murmurai tout bas, mais l'amour étoit
-          plus fort que le dépit. Je pris le parti de m'armer d'une patience involontaire.</p>
-        <p>Je travaillai auſſi avec aſſiduité à me dépouiller de mes anciens préjugés, &amp; des faux airs
+          plus fort que le dépit. Je pris le parti de m'armer d'une patience involontaire.
+    </p>
+    <p>
+     Je travaillai auſſi avec aſſiduité à me dépouiller de mes anciens préjugés, &amp; des faux airs
           que la mauvaiſe habitude m'avoit fait contracter. S'il m'en échappoit un, mon adorable Maîtreſſe
           m'en faiſoit impitoyablement la guerre, &amp; ma confuſion prouvoit tout l'empire qu'elle exerçoit
           ſur mon cœur. Je me ſéqueſtrai de toutes les ſociétés, dont la contagion m'avoit gâté l'eſprit &amp;
           tourné la tête. Un fat commençoit à me paroître un automate odieux. Je craignois même de me montrer
           en public avec un être portant des talons rouges. Mais deux incidens acheverent d'aſſurer le ſuccès
-          de mes réfléxions, &amp; m'adminiſtrerent, à mes propres dépens, un ſouverain correctif.</p>
-        <p>Il me reſtoit en Anjou une Terre dans laquelle il y avoit une douzaine de Fiefs, plus ou moins
+          de mes réfléxions, &amp; m'adminiſtrerent, à mes propres dépens, un ſouverain correctif.
+    </p>
+    <p>
+     Il me reſtoit en Anjou une Terre dans laquelle il y avoit une douzaine de Fiefs, plus ou moins
           conſidérables. J'en avois toujours joui avec la certitude qu'elle relevoit nuëment du Roi en
           totalité. Un Gentilhomme de mes voiſins prétendit qu'un de ces Fiefs étoit dans ſa Mouvance, &amp;
           il me fit ſaiſir féodalement. Je négligeai ce Procès pendant pluſieurs années, parce qu'on m'avoit
           mandé que le Fief en ſon entier ne valoit pas quarante piſtoles. Un beau jour je fus tout étonné de
           recevoir une Lettre de mon Receveur, qui me mandoit que mon Procès avoit été jugé à Angers, que
           j'étois déclaré Vaſſal de mon voiſin, &amp; qu'on m'avoit condamné aux dépens qui ſe montoient à
-          près de cent piſtoles.</p>
-        <p>Ce terme de Vaſſal bleſſa mon orgueil. Je ne pus ſouffrir qu'un Gentilhomme de Campagne
+          près de cent piſtoles.
+    </p>
+    <p>
+     Ce terme de Vaſſal bleſſa mon orgueil. Je ne pus ſouffrir qu'un Gentilhomme de Campagne
           revendiquât ſur moi la ſupériorité. J'écrivis ſur les Lieux, pour qu'on employât le ſeul remède qui
-          me fut applicable. C'étoit celui de l'appel au Parlement.</p>
-        <p>Mon Procès arriva bientôt; je vis un volume monſtrueux dont l'aſpect me fit peur, &amp; dont le
+          me fut applicable. C'étoit celui de l'appel au Parlement.
+    </p>
+    <p>
+     Mon Procès arriva bientôt; je vis un volume monſtrueux dont l'aſpect me fit peur, &amp; dont le
           port me coûta conſidérablement. Je m'étonnai de le trouver ſi engraiſſé à mon inſçu. Il fut bientôt
-          ſuivi de mon Adverſaire, dont le nom ſeul m'étoit connu.</p>
-        <p>C'étoit un Gentilhomme fort à ſon aiſe qui figuroit dans le Pays. Son occupation ordinaire étoit
+          ſuivi de mon Adverſaire, dont le nom ſeul m'étoit connu.
+    </p>
+    <p>
+     C'étoit un Gentilhomme fort à ſon aiſe qui figuroit dans le Pays. Son occupation ordinaire étoit
           de plaider ſes Vaſſaux &amp; ſon voiſinage. Pour le faire plus commodément, &amp; à moins de frais,
           il avoit pris à gages un Valet de Chambre Huiſſier, comme d'autres Seigneurs ont un Valet de Chambre
           Chirurgien ou Tapiſſier. Ce Domeſtique ne lui étoit point inutile. Il exploitoit journellement les
@@ -843,17 +1151,23 @@
           me ſouvins des avis de défunt mon Pere. Je crus que mon diſcernement ſuffiroit pour me guider. Je
           voulus faire mes Ecritures moimême. J'y obmis tout ce qui étoit eſſentiel. J'avançai témérairement
           ce qu'il falloit ſupprimer; enfin, je fis ſi bien, que j'embrouillai mon affaire au point que
-          perſonne, ni moi-même n'y entendoit plus rien.</p>
-        <p>On la jugea cependant, &amp; mon Adverſaire, plus habile que moi, fut décidé mon Suzerain. Il me
+          perſonne, ni moi-même n'y entendoit plus rien.
+    </p>
+    <p>
+     On la jugea cependant, &amp; mon Adverſaire, plus habile que moi, fut décidé mon Suzerain. Il me
           fit payer les frais de ſon voyage &amp; les dépens de mon ignorance, en ſorte que j'appris, à mon
           détriment, que tous les conſeils de mon très-honoré Pere n'étoient pas des régles infaillibles de
-          conduite.</p>
-        <p>Madame de V... &amp; ſa Fille s'empreſſerent à me conſoler de mon accident. Elles me firent une
+          conduite.
+    </p>
+    <p>
+     Madame de V... &amp; ſa Fille s'empreſſerent à me conſoler de mon accident. Elles me firent une
           petite morale, pour me faire ſentir qu'il ne falloit pas s'en rapporter à ſes lumiéres ſur ſes
           propres affaires, parce que les plus intelligens étoient ſujets à s'aveugler, mais qu'il falloit
           conſulter, &amp; s'en rapporter à des gens éclairés, qui par état avoient acquis des connoiſſances
-          ſupérieures aux nôtres. Cette petite Leçon me rendit honteux de ma ſottiſe.</p>
-        <p>Cependant l'agitation que m'avoit cauſé mon Procès, la honte d'avoir ſuccombé, mon amour &amp;
+          ſupérieures aux nôtres. Cette petite Leçon me rendit honteux de ma ſottiſe.
+    </p>
+    <p>
+     Cependant l'agitation que m'avoit cauſé mon Procès, la honte d'avoir ſuccombé, mon amour &amp;
           mes inquiétudes ſur les ſuites qu'il devoit avoir, m'occaſionnerent une maladie violente. Mes gens
           voulurent inutilement faire venir un Médecin, je m'obſtinai &amp; je me mis dans des emportemens
           furieux pour n'en point voir. Je prétendis me traiter moimême, &amp; je débutai par prendre deux
@@ -866,30 +1180,38 @@
           de l'état dangereux où mon imprudence m'avoit précipité. Revenu à moi-même, je ſentis les
           conſéquences de mon étourderie, &amp; j'en conclus que c'étoit ſans doute par ironie, que mon Pere
           m'avoit donné des préceptes qu'il ne me croyoit pas aſſez ſot, pour ſuivre à la lettre, puiſqu'ils
-          m'expoſoient à perdre ma fortune &amp; ma vie.</p>
-        <p>Madame de V... s'intéreſſa comme une Mere &amp; une bonne amie au rétabliſſement de ma ſanté.
+          m'expoſoient à perdre ma fortune &amp; ma vie.
+    </p>
+    <p>
+     Madame de V... s'intéreſſa comme une Mere &amp; une bonne amie au rétabliſſement de ma ſanté.
           Elle me viſitoit ſouvent, &amp; m'amena pluſieurs fois Mademoiſelle ſa Fille pendant ma
           convaleſcence. Je lui en témoignai toute ma ſenſibilité, &amp; lui fis connoître avec quelle ardeur
           je deſirois lui appartenir par des liens indiſſolubles. Son affabilité flatta mes eſpérances; mes
           forces ſe rétablirent, mais je tombai inſenſiblement dans un fond de mélancolie que rien ne pouvoit
           diſſiper. J'étois abſorbé dans des rêveries noires, &amp; je me rappellois ſans ceſſe l'illuſion
           dans laquelle j'avois vécu, pour me reprocher mes égaremens. Je devins auſſi le Cenſeur du genre
-          humain, &amp; j'étois autant frondeur du ton dominant, que j'en avois été le zélé ſectateur.</p>
-        <p>Les caractères vifs ſe portent volontiers aux extrêmes, &amp; ne ſaiſiſſent rien modérément. Je
+          humain, &amp; j'étois autant frondeur du ton dominant, que j'en avois été le zélé ſectateur.
+    </p>
+    <p>
+     Les caractères vifs ſe portent volontiers aux extrêmes, &amp; ne ſaiſiſſent rien modérément. Je
           ſentis un dégoût décidé pour tout ce qui m'avoit flatté; la Compagnie, les Spectacles, la Muſique me
           parurent inſipides &amp; même ennuyeux. Mes mœurs ſe reſſentirent du changement de mes inclinations;
           je devins ſolitaire, moroſe, négligé à l'excès dans mon ajuſtement, &amp; ménager juſqu'à l'avarice.
           Madame de V.... &amp; ſa Fille avoient ſeules conſervé des droits portoit quelquefois, au point de
           ſur mon cœur, mais la vapeur m'emmanquer de reſpect pour elles. Elles avoient la bonté d'attribuer
           ma mauvaiſe humeur à l'effet de la maladie, &amp; elles faiſoient grace à mes caprices, en tâchant
-          de les calmer par la raiſon &amp; la douceur.</p>
-        <p>Mademoiſelle de V... étoit particuliérement affectée de ma métamorphoſe. L'amour ne lui parloit
+          de les calmer par la raiſon &amp; la douceur.
+    </p>
+    <p>
+     Mademoiſelle de V... étoit particuliérement affectée de ma métamorphoſe. L'amour ne lui parloit
           point en ma faveur, mais l'eſtime qu'elle avoit conçue pour moi &amp; l'habitude de nous voir, lui
           faiſoient deſirer que je fuſſe ſon Mari, préférablement à un autre avec qui elle auroit eû à faire
           connoiſſance. Elle étoit allarmée de me voir paſſer d'une extrémité à l'autre. Mes premiers travers
           l'avoient épouvantée: elle avoit coopéré à m'en guérir, &amp; la diſpoſition où j'étois actuellement
-          ne lui promettoit pas un avenir plus heureux, que celle dont elle m'avoit tiré.</p>
-        <p>La Mere &amp; la Fille eurent cependant la généroſité de ne point m'abandonner. J'allois
+          ne lui promettoit pas un avenir plus heureux, que celle dont elle m'avoit tiré.
+    </p>
+    <p>
+     La Mere &amp; la Fille eurent cependant la généroſité de ne point m'abandonner. J'allois
           journellement les fatiguer, &amp; elles redoublerent de ſoins pour m'arracher à la Conſomption qui
           me ſubjuguoit. Mes diſcours ne rouloient que ſur la ſimplicité de nos Ancêtres, dont je faiſois
           l'apologie perpétuelle. Je rappellois à chaque inſtant tout ce que j'avois lû ou entendu dire à ce
@@ -898,8 +1220,10 @@
           vivre dans une Terre écartée, ſi l'amour qui me poſſédoit ne m'eût retenu à Paris. Je ne diſſimulois
           pas même que je n'aſpirois à me marier, que pour me confiner dans la ſolitude avec la Compagne de
           mon ſort. Cette perſpective n'étoit nullement tentante pour une jeune perſonne, &amp; l'on cherchoit
-          à combattre ma miſantropie, ſans ſe preſſer de rien conclure ſur le mariage.</p>
-        <p>Les Médecins opinerent que je devois aller aux Eaux, &amp; que la diſſipation étoit pour moi le
+          à combattre ma miſantropie, ſans ſe preſſer de rien conclure ſur le mariage.
+    </p>
+    <p>
+     Les Médecins opinerent que je devois aller aux Eaux, &amp; que la diſſipation étoit pour moi le
           remède le plus ſouverain. On décida pour les Eaux de Forges, ſauf à me faire voyager plus loin
           l'année ſuivante, au cas que les premiéres opérations ne fuſſent point efficaces. Je partis pour ce
           Pays, que je trouvai auſſi incommode que déteſtable. La diverſité des figures, des Nations, des
@@ -914,38 +1238,58 @@
           une Hiſtoriette dont elle eût la modeſtie de ne pas vouloir s'avouer l'auteur. Elle me marqua
           qu'elle l'avoit trouvée dans des Papiers de Monſieur ſon Pere, &amp; qu'elle m'engageoit à y
           réfléchir pour en faire mon profit. Je lus ce badinage avec plaiſir, &amp; pour la gloire de
-          l'invention, je conſens de le rapporter ici.</p>
-      </div>
-      <div type="chapter">
-        <head>Hiſtoire de JADIS, Seigneur d'Autrefois.</head>
-        <p>Rien n'eſt plus utile, &amp; en même tems plus glorieux, que de ſçavoir l'Hiſtoire en général,
+          l'invention, je conſens de le rapporter ici.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     Hiſtoire de JADIS, Seigneur d'Autrefois.
+    </head>
+    <p>
+     Rien n'eſt plus utile, &amp; en même tems plus glorieux, que de ſçavoir l'Hiſtoire en général,
           &amp; de poſſéder la connoiſſance particuliére des faits qui intéreſſent les grands hommes que l'on
-          entend tous les jours citer dans la ſociété.</p>
-        <p>Un des Héros dont on parle le plus, &amp; dont les avantures ſont le moins connues, eſt celui
+          entend tous les jours citer dans la ſociété.
+    </p>
+    <p>
+     Un des Héros dont on parle le plus, &amp; dont les avantures ſont le moins connues, eſt celui
           dont j'entreprends de retracer en peu de mots quelques traits d'Hiſtoire. On le cite à tous propos.
           On en fait l'éloge. On le vante aux dépens des Héros d'à préſent. Il eſt donc néceſſaire de le faire
           connoître plus particuliérement. Je veux parler de
-          <hi rend="italic">Jadis</hi>, Seigneur
-          <hi rend="italic">d'Autrefois</hi>. On ignore préciſément en quelle année il nâquit: on ſçait
+     <hi rend="italic">
+      Jadis
+     </hi>
+     , Seigneur
+     <hi rend="italic">
+      d'Autrefois
+     </hi>
+     . On ignore préciſément en quelle année il nâquit: on ſçait
           ſeulement qu'il y a long-tems. Tous les Pays revendiquent l'honneur de lui avoir donné la naiſſance.
           Pour moi, après d'exactes recherches, je me détermine à croire qu'ill vint au monde dans un ancien
           Château ſitué auprès de Paris. Son Pere étoit un Seigneur d'importance, &amp; perſonne n'ignore
           qu'alors tous les gens de qualité vivoient dans leur Terre, &amp; qu'ils ne paroiſſoient que
-          très-rarement à la Cour, ou à la Ville.</p>
-        <p>Le Pere de notre Héros ſe nommoit le Seigneur du Vieux Temps. Il avoit quarante ans paſſés,
+          très-rarement à la Cour, ou à la Ville.
+    </p>
+    <p>
+     Le Pere de notre Héros ſe nommoit le Seigneur du Vieux Temps. Il avoit quarante ans paſſés,
           lorſqu'il épouſa Sara l'Antiquaire, qui en avoit au moins trente-deux, lors de ſon mariage. L'âge
           mûr &amp; le tempérament formé des deux Epoux ne contribuerent pas peu à donner au fruit de leur
           mariage une conſtitution robuſte. Jadis vint au monde au bout de neuf mois juſtes; &amp; il apporta
-          en naiſſant un air vigoureux &amp; formé, comme un enfant de trois ans.</p>
-        <p>Ce qui acheva de lui donner une bonne complexion, fut le ſoin avec lequel ſa Mere l'allaita
+          en naiſſant un air vigoureux &amp; formé, comme un enfant de trois ans.
+    </p>
+    <p>
+     Ce qui acheva de lui donner une bonne complexion, fut le ſoin avec lequel ſa Mere l'allaita
           elle-même. Il tetta admirablement juſqu'à près de quatre ans, &amp; on l'eût pris en ſortant de
-          Nourrice pour un Etudiant en Droit de nos jours.</p>
-        <p>L'enfance de Jadis ſe paſſa dans les amuſemens propres à ſon âge. Ses Pere &amp; Mere eurent
+          Nourrice pour un Etudiant en Droit de nos jours.
+    </p>
+    <p>
+     L'enfance de Jadis ſe paſſa dans les amuſemens propres à ſon âge. Ses Pere &amp; Mere eurent
           grand ſoin de former ſon cœur à la religion. Les Roſaires, les Chapelets lui furent prodigués. On
           lui en montra tout l'uſage. Sa Mere même, accompagnée de quelques anciens Domeſtiques, eût ſoin de
           le mener ſur un Cheval à un ancien Pélérinage à vingt lieues de chez elle, &amp; il n'en revint que
-          voué à un Bienheureux, ſous la protection duquel il grandit à vûe d'œil.</p>
-        <p>Par rapport à ſon eſprit, le Seigneur du Vieux Tems, en homme prudent, prétendit qu'il falloit le
+          voué à un Bienheureux, ſous la protection duquel il grandit à vûe d'œil.
+    </p>
+    <p>
+     Par rapport à ſon eſprit, le Seigneur du Vieux Tems, en homme prudent, prétendit qu'il falloit le
           laiſſer ſe fortifier &amp; non pas le ſurcharger; il penſoit que les fruits précoces énervoient le
           corps de l'arbre, &amp; avoient moins de ſaveur; dans ce principe, il ſe contenta de former le goût
           &amp; la mémoire de ſon Fils par la narration des exploits de la vieille guerre. Sa femme n'étoit
@@ -953,20 +1297,29 @@
           différens Preux dont la mémoire s'étoit rendue recommandable; elle aſſaiſonnoit cette inſtruction de
           quelques Contes de Fées. Jadis avoit une facilité merveilleuſe à retenir les endroits qui lui
           paroiſſoient touchans; &amp; tous les ſoirs, il s'endormoit aux récits que lui faiſoient ſes
-          Gouvernantes de quelques Hiſtoires véritables de Sorciers, de Sorciéres, ou de Revenans.</p>
-        <p>Enfin à l'âge de douze ans, Jadis fut décidé aſſez formé pour apprendre à lire. Il s'appliqua
+          Gouvernantes de quelques Hiſtoires véritables de Sorciers, de Sorciéres, ou de Revenans.
+    </p>
+    <p>
+     Enfin à l'âge de douze ans, Jadis fut décidé aſſez formé pour apprendre à lire. Il s'appliqua
           pendant trois ans ſans relâche à ce pénible exercice, en ſorte qu'à quinze ans, il liſoit courament
-          en Latin, &amp; épelloit paſſablement le François.</p>
-        <p>Le deſſein de ſes Parens, étoit d'en faire un des Sçavans de ſon ſiécle; pour y parvenir, on
+          en Latin, &amp; épelloit paſſablement le François.
+    </p>
+    <p>
+     Le deſſein de ſes Parens, étoit d'en faire un des Sçavans de ſon ſiécle; pour y parvenir, on
           confia le ſoin de ſon inſtruction à un célébre Moine, nommé Revaſſius, qui, pendant cinq ou ſix
           années, lui apprit avec grand ſoin quelques vieilles Chroniques, d'anciens Martyrologes, &amp;
-          quelque choſe de la Philoſophie d'Ariſtote.</p>
-        <p>On n'eût pas moins d'attention à lui former le corps que l'eſprit. On l'exerçoit à la Chaſſe, à
+          quelque choſe de la Philoſophie d'Ariſtote.
+    </p>
+    <p>
+     On n'eût pas moins d'attention à lui former le corps que l'eſprit. On l'exerçoit à la Chaſſe, à
           l'Eteuf, à la Paulme, &amp; autres jeux alors uſités pour l'amuſement de la Nobleſſe. On eût ſoin en
           même tems de lui inſpirer une grande ſimplicité de mœurs, ſoutenue d'un ton de dignité qui ne lui
           permit jamais de ſe compromettre. Aucun de ſes Vaſſaux n'eût oſé lui parler qu'avec reſpect, le
           chapeau bas, dans une poſture humiliée, &amp; toujours en le qualifiant de
-          <hi rend="italic">Monſeigneur</hi>; ſes Domeſtiques mêmes étoient dans l'uſage de ſe tenir toujours
+     <hi rend="italic">
+      Monſeigneur
+     </hi>
+     ; ſes Domeſtiques mêmes étoient dans l'uſage de ſe tenir toujours
           debout devant lui, &amp; dans la plus grande circonſpection, mais il rendoit avec uſure à ſes Pere
           &amp; Mere les reſpects qu'on lui temoignoit. Son premier ſoin étoit tous les matins de les aller
           voir. Il ne parloit que lorſqu'ils l'interrogeoient, &amp; ne s'aſſeyoit que lorſqu'ils lui en
@@ -978,8 +1331,10 @@
           jour des Rois, de S. Martin, &amp; quelques autres jours diſtingués où le Curé du lieu étoit invité
           au Château. Le Seigneur du Vieux Tems lui donnoit l'exemple de la noble frugalité; les Entées, les
           Ragoûts meurtriers étoient bannis de ſa table, mais on y voyoit à profuſion la viande de Boucherie,
-          les Dindons, les Canards, Gibier &amp; autres mets auſſi ſains que naturels.</p>
-        <p>L'élégante ſimplicité ne ſe faiſoit pas moins remarquer dans les habillemens, que ſur la table de
+          les Dindons, les Canards, Gibier &amp; autres mets auſſi ſains que naturels.
+    </p>
+    <p>
+     L'élégante ſimplicité ne ſe faiſoit pas moins remarquer dans les habillemens, que ſur la table de
           ce bon Seigneur. Il s'attachoit plus à la commodité, qu'à la fineſſe des étoffes &amp; aux
           ſuperfluités. Il aimoit un haut-de-chauſſe fort large, &amp; des chemiſes preſque juſtes. Une vaſte
           plume obombroit ſon chapeau, &amp; lui garantiſſoit la tête des ardeurs du ſoleil. Un large baudrier
@@ -989,8 +1344,10 @@
           dans le même goût, &amp; c'étoit un très-beau ſpectacle que de les voir le jour de Pâques aller à la
           Parroiſſe, accompagnés d'un cortége de gens bien vêtus, &amp; eſcortés de Pages de trente ans &amp;
           de Laquais de ſoixante-dix, qui, par leur ancienneté dans la maiſon, faiſoient l'éloge du bon
-          caractère des Maîtres.</p>
-        <p>Lorſque Jadis eût atteint l'âge de vingt ans, ſes Pere &amp; Mere le conſulterent ſur ſa vocation
+          caractère des Maîtres.
+    </p>
+    <p>
+     Lorſque Jadis eût atteint l'âge de vingt ans, ſes Pere &amp; Mere le conſulterent ſur ſa vocation
           &amp; le choix de ſon état; il parut incliner du côté des Armes, &amp; alors on le plaça en qualité
           de Page auprès d'un des premiers Seigneurs du Royaume. Cet état entraîne de la diſſipation, en ſorte
           que Jadis perdit peu à peu le goût dominant qu'il avoit marqué pour l'étude: la fréquentation des
@@ -1002,15 +1359,21 @@
           Les Elégies, les tendres Complimens, les Lettres, les Chanſons polies, dont même il nous reſte
           encore quelques-unes, faiſoient l'unique occupation de leurs loiſirs. Comme ils s'eſtimoient, ils
           s'aimerent ſagement, reſpectueuſement, conſtamment, &amp; ils s'aimeroient encore de même, s'ils
-          n'étoient pas morts.</p>
-        <p>Jadis, après avoir paſſé dix années dans ce noble emploi, fut placé à la guerre. Ses premiers
+          n'étoient pas morts.
+    </p>
+    <p>
+     Jadis, après avoir paſſé dix années dans ce noble emploi, fut placé à la guerre. Ses premiers
           faits d'armes, furent les exploits ſignalés d'un Héros. On l'arma Chevalier, il déconfit tout ce qui
           voulut réſiſter à ſon courage, &amp; il obtint par ſes ſervices de commander en chef une Compagnie
-          de cent hommes.</p>
-        <p>C'eſt alors que l'on vit briller dans tout ſon jour la valeur martiale, &amp; la prudence qui ont
+          de cent hommes.
+    </p>
+    <p>
+     C'eſt alors que l'on vit briller dans tout ſon jour la valeur martiale, &amp; la prudence qui ont
           toujours diſtingués les Grands Capitaines. Il eût le bonheur de s'attirer la confiance de ſon
-          Souverain, &amp; il en obtint les diſtinctions dûes à ſon rang &amp; à ſa naiſſance.</p>
-        <p>Par malheur pour lui, la Paix vint l'arrêter au milieu de ſa brillante carrière; il chercha à
+          Souverain, &amp; il en obtint les diſtinctions dûes à ſon rang &amp; à ſa naiſſance.
+    </p>
+    <p>
+     Par malheur pour lui, la Paix vint l'arrêter au milieu de ſa brillante carrière; il chercha à
           s'en conſoler, en offrant ſes ſervices aux Princes voiſins; ceux qui les refuſerent, eurent lieu de
           s'en repentir; il paſſa en Angleterre, &amp; après s'être diſtingué par quelques faits héroïques, il
           donna le plan d'une Croiſade plus utile &amp; plus glorieuſe que les autres; mais la méſintelligence
@@ -1022,8 +1385,10 @@
           ans: il apprit en arrivant chez lui que Monſieur ſon Pere étoit mort depuis deux années, &amp; que
           Madame ſa Mere alloit trépaſſer. Cette triſte nouvelle lui perça l'ame. Il reçut, en bon fils, ſes
           derniers ſoupirs, &amp; après lui avoir rendu les devoirs convenables, il prit le parti de ſe
-          conſacrer tout entier à la méditation &amp; à la retraite.</p>
-        <p>Mais il ſe vit troublé par ſes voiſins dans l'exécution d'un ſi beau projet. Pluſieurs Seigneurs
+          conſacrer tout entier à la méditation &amp; à la retraite.
+    </p>
+    <p>
+     Mais il ſe vit troublé par ſes voiſins dans l'exécution d'un ſi beau projet. Pluſieurs Seigneurs
           avoient profité de la caducité du Seigneur du Vieux Tems &amp; de l'abſence de ſon Fils, pour
           s'emparer d'une grande partie de ſes Terres. D'un autre côté, les Moines d'une Abbaye voiſine
           avoient uſurpé une grande quantité de Domaines, ſous prétexte d'une Fondation faite à leur profit
@@ -1034,8 +1399,10 @@
           s'entendre, il fallut en venir à une guerre ouverte; on mit de part &amp; d'autre ſes vaſſaux ſur
           pied: ce fut alors que Jadis ſentit renaître cette ardeur martiale, dont il avoit été tant de fois
           animé. Il fit des Siéges, il en ſoutint, il extermina la plupart des vaſſaux de ſes voiſins, &amp;
-          preſque tous les ſiens y périrent généreuſement.</p>
-        <p>Un jour il pénétra à main armée dans l'Abbaye: il en brûla les Chartres, &amp; ſaccagea juſqu'au
+          preſque tous les ſiens y périrent généreuſement.
+    </p>
+    <p>
+     Un jour il pénétra à main armée dans l'Abbaye: il en brûla les Chartres, &amp; ſaccagea juſqu'au
           dernier Moine; mais il en ſurvint bientôt une nouvelle Colonie, &amp; la guerre ſe ralluma plus
           vivement que jamais; il ſe forma des ligues contre Jadis, mais auſſi grand politique que guerrier,
           il ſçut les diſſiper à propos. Cependant au bout d'une douzaine d'années, les Parties belligérantes
@@ -1044,8 +1411,10 @@
           un ſaint Hermite, qui depuis plus de quarante ans avoit ſa retraite dans une Forêt des Environs.
           Faute de ſçavoir lire, il entendit les Parties, &amp; après un grand nombre de pourparlers, l'homme
           de Dieu engagea Jadis, pour le bien de la paix, à ſacrifier la meilleure partie de ſes prétentions.
-          Il eut le bon eſprit d'y conſentir, &amp; peu à peu le calme ſe rétablit dans la Contrée.</p>
-        <p>Ce fut alors que Jadis ſongea ſérieuſement à faire ce qu'on appelle une fin. Deux partis
+          Il eut le bon eſprit d'y conſentir, &amp; peu à peu le calme ſe rétablit dans la Contrée.
+    </p>
+    <p>
+     Ce fut alors que Jadis ſongea ſérieuſement à faire ce qu'on appelle une fin. Deux partis
           s'offroient à lui avec des agrémens égaux. L'état du mariage lui paroiſſoit à deſirer pour la
           tranſmiſſion de ſa gloire &amp; de ſon nom; mais, d'un autre côté, ſa conſcience ſe ſentoit ſouvent
           déchirée par le remords des maux que ſa fureur avoit occaſionnés dans les petites guerres qu'il
@@ -1057,9 +1426,10 @@
           parentes qu'il avoit élevé lui-même dans la religion &amp; la ſimplicité. Il s'y porta d'autant plus
           volontiers, qu'il n'avoit eû qu'un frere, dont la vie n'eſt pas moins intéreſſante que la ſienne,
           &amp; qui après avoir pris le parti de la Magiſtrature, paſsât dans l'Etat Eccléſiaſtique ſans avoir
-          eû d'enfans.</p>
-        <p>
-          Jadis avoit alors près de quatre-vingt ans, mais malgré ſes fatigues, il étoit encore frais &amp;
+          eû d'enfans.
+    </p>
+    <p>
+     Jadis avoit alors près de quatre-vingt ans, mais malgré ſes fatigues, il étoit encore frais &amp;
           robuſte, comme à la fleur de ſon âge. Le Mariage ſe célébra ſans pompes, &amp; Jadis eut bientôt
           lieu de s'applaudir de la continence dans laquelle il avoit toujours vécu. Sa femme devint groſſe
           &amp; mit au monde un enfant mâle qui devint l'objet de la complaiſance &amp; des eſpérances de ſon
@@ -1079,8 +1449,10 @@
           dans l'ennui, &amp; il en mourut âgé de cent un ans, comblé de bénédictions &amp; couvert de bonnes
           œuvres, pour leſquelles on l'eût canoniſé, s'il en eût laiſſé le moyen. Sa femme fut ſi ſenſible à
           cet événement, qu'elle ſe retira dans un Monaſtére qu'elle avoit bâti, &amp; dont l'Abbé, ce
-          généreux parent qui l'avoit marié, étoit Directeur.</p>
-        <p>Par rapport au Fils, ſon ſort parut plus embarraſſant. Jadis avoit diſpoſé par Teſtament du peu
+          généreux parent qui l'avoit marié, étoit Directeur.
+    </p>
+    <p>
+     Par rapport au Fils, ſon ſort parut plus embarraſſant. Jadis avoit diſpoſé par Teſtament du peu
           de bien que ſa pieuſe généroſité lui avoit permis de conſerver. Si-tôt qu'il fut mort, toutes les
           Maiſons Religieuſes ſe mirent en poſſeſſion de ce qui leur revenoit encore, enſorte que l'héritier
           ſe trouva réduit à manquer même du néceſſaire; mais la Providence vint à ſon ſecours pour lui faire
@@ -1088,22 +1460,45 @@
           ouvrirent leur ſein, ſon inclination ſe trouva d'accord avec le ſacrifice que les circonſtances
           ſembloient rendre néceſſaires. Il avoit alors vingt ans, &amp; ſa vocation avoit été préparée dès
           long-tems; Ainſi il ſe détermina ſans peine à entrer dans le Cloître, &amp; à manger avec les autres
-          ſa part d'un bien dans lequel il avoit un droit ſi légitime.</p>
-        <p>C'eſt ce ſacrifice méritoire, qui a interrompu le cours d'une poſtérité, dont la mémoire ſera
-          toujours reſpectable.</p>
-        <p>En effet, quel homme a mérité &amp; a obtenu une réputation mieux ſoutenue que celle de Jadis?
+          ſa part d'un bien dans lequel il avoit un droit ſi légitime.
+    </p>
+    <p>
+     C'eſt ce ſacrifice méritoire, qui a interrompu le cours d'une poſtérité, dont la mémoire ſera
+          toujours reſpectable.
+    </p>
+    <p>
+     En effet, quel homme a mérité &amp; a obtenu une réputation mieux ſoutenue que celle de Jadis?
           Eſt-il des talens &amp; des vertus qu'ils ne poſſédât pas? Son ame, ſon cœur, ſon eſprit, ſon corps
           même l'ont rendu à jamais recommandable. Auſſi le voyons-nous citer chaque jour avec éloge, &amp;
           même à tous propos; l'on ne penſe plus, dit-on, l'on n'agit plus comme
-          <hi rend="italic">Jadis</hi>; l'on n'aime plus ſi bien que
-          <hi rend="italic">Jadis</hi>; l'on boit plus comme
-          <hi rend="italic">Jadis</hi>; l'on ne donne plus aux Moines comme
-          <hi rend="italic">Jadis</hi>; l'on n'a plus de tête, d'eſtomach, d'amis, ni de Domeſtiques comme
-          <hi rend="italic">Jadis</hi>; enfin, l'on ne fait plus rien de bien comme Jadis, &amp;c.</p>
-        <p>C'eſt en vérité dommage que ſa poſtérité ſoit éteinte; mais les meilleurs fruits dégénérent,
+     <hi rend="italic">
+      Jadis
+     </hi>
+     ; l'on n'aime plus ſi bien que
+     <hi rend="italic">
+      Jadis
+     </hi>
+     ; l'on boit plus comme
+     <hi rend="italic">
+      Jadis
+     </hi>
+     ; l'on ne donne plus aux Moines comme
+     <hi rend="italic">
+      Jadis
+     </hi>
+     ; l'on n'a plus de tête, d'eſtomach, d'amis, ni de Domeſtiques comme
+     <hi rend="italic">
+      Jadis
+     </hi>
+     ; enfin, l'on ne fait plus rien de bien comme Jadis, &amp;c.
+    </p>
+    <p>
+     C'eſt en vérité dommage que ſa poſtérité ſoit éteinte; mais les meilleurs fruits dégénérent,
           &amp; ſi ſa deſcendance n'eût pas été interrompue, l'on n'en eût peut-être pas parlé, ou l'on en
-          auroit parlé mal.</p>
-        <p>Cette Hiſtoire m'amuſa, &amp; fit même quelque impreſſion ſur moi. Tous les traits qui partent
+          auroit parlé mal.
+    </p>
+    <p>
+     Cette Hiſtoire m'amuſa, &amp; fit même quelque impreſſion ſur moi. Tous les traits qui partent
           d'une main chérie, ſont aſſurés de nous plaire. Je me fis violence pour triompher de ma mélancolie;
           ce fut vainement: elle avoit ſon principe dans le ſang. Mon eſprit n'étoit malade que parce que mon
           corps l'étoit. Cependant le ſecours des remédes rétablit peu-à-peu les fibres relâchés de mon
@@ -1111,8 +1506,10 @@
           commençai à jouir d'une meilleure ſanté, &amp; conſéquemment je penſois plus raiſonnablement,
           lorſque j'appris par un Exprès la mort de ma Tante, qu'on avoit ſoupçonnée d'être éternelle. J'avois
           fini ma ſaiſon des Eaux; ainſi je n'eus qu'à partir précipitament, pour venir recueillir une
-          ſucceſſion conſidérable.</p>
-        <p>Madame de V... &amp; ſa Fille avoient preſſenti mon rétabliſſement. Mes Lettres étoient un
+          ſucceſſion conſidérable.
+    </p>
+    <p>
+     Madame de V... &amp; ſa Fille avoient preſſenti mon rétabliſſement. Mes Lettres étoient un
           Thermométre sûr, qui annonçoit le dégré de ma ſanté. J'y peignois l'état de mon ame, &amp; elles y
           remarquoient à la teinte de mes idées, le progrès ou la déclinaiſon de ma maladie. Elles furent
           charmées de me voir de retour, &amp; je leur attribuai avec reconnoiſſance une grande partie de
@@ -1121,12 +1518,16 @@
           l'arrangement de laquelle je conſultai exactement Madame de V... &amp; ſa chere Fille que j'adorois
           de plus en plus. J'éprouvai en toute occaſion l'utilité de leurs conſeils. Le régime &amp;
           l'obſervation rétablirent pleinement en moi l'équilibre des liqueurs, &amp; je me trouvai jouiſſant
-          d'une ſanté parfaite &amp; d'une fortune conſidérable.</p>
-        <p>J'inſiſtai alors fermement pour la concluſion du mariage où mes vœux tendoient depuis long-tems.
+          d'une ſanté parfaite &amp; d'une fortune conſidérable.
+    </p>
+    <p>
+     J'inſiſtai alors fermement pour la concluſion du mariage où mes vœux tendoient depuis long-tems.
           Je fis valoir ma perſévérance &amp; la longueur du ſéminaire qu'on m'avoit fait éprouver. Madame de
           V... m'accorda ſon conſentement de la meilleure grace du monde, mais ſa Fille vouloit avoir une
-          converſation préliminaire avec moi. Je me ſoumis à ſa volonté.</p>
-        <p>Il me ſeroit inutile, dit-elle, de diſſimuler que je vous préfére à tous ceux qui voudroient
+          converſation préliminaire avec moi. Je me ſoumis à ſa volonté.
+    </p>
+    <p>
+     Il me ſeroit inutile, dit-elle, de diſſimuler que je vous préfére à tous ceux qui voudroient
           aſpirer à ma poſſeſſion. Votre probité, votre franchiſe, vous ont aſſuré mon affection, mon eſtime
           &amp; tous les ſentimens qu'on accorde à un Mari, dont on deſire faire le bonheur. Votre unique
           malheur eſt d'avoir été trop tôt votre Maître, &amp; d'avoir reçu l'empreinte d'une mauvaiſe
@@ -1143,27 +1544,37 @@
           chaque âge a ſes défauts &amp; ſes vertus; l'homme de mérite n'excéde rien, &amp; renfermé dans un
           juſte milieu, il trouve le moyen, ſans art, de ſe faire aimer &amp; reſpecter de tous ceux avec
           leſquels il vit. Je m'eſtimerai heureuſe, ſi ma ſociété &amp; mes exemples peuvent vous fortifier
-          dans ces principes, &amp; aſſurer dans tous les inſtans la félicité de votre vie.</p>
-        <p>Je ne pus entendre ce propos, ſans être touché d'admiration pour une perſonne qui conſentoit
+          dans ces principes, &amp; aſſurer dans tous les inſtans la félicité de votre vie.
+    </p>
+    <p>
+     Je ne pus entendre ce propos, ſans être touché d'admiration pour une perſonne qui conſentoit
           d'être ma femme &amp; ma ſolide amie; un tranſport de vivacité &amp; de tendreſſe me fit bruſquement
           jetter à ſon col; je l'embraſſai pour la premiére fois de mes jours, avec un délice qui m'en
-          promettoit encore de plus doux.</p>
-        <p>Nous nous expliquâmes amicalement, &amp; de concert avec Madame de V... nous reglâmes tous les
+          promettoit encore de plus doux.
+    </p>
+    <p>
+     Nous nous expliquâmes amicalement, &amp; de concert avec Madame de V... nous reglâmes tous les
           apprêts de notre Mariage, qui fut célébré peu de jours après ſans pompe &amp; ſans éclat; l'amour
           fit les honneurs de la cérémonie, &amp; nous l'inſtallâmes à perpétuité dans la Maiſon. Il nous y a
           juſqu'à préſent tenu fidelle compagnie, avec tout le cortége aimable qui l'environne, quand
-          l'intelligence &amp; l'harmonie des cœurs s'attachent à le fixer.</p>
-        <p>J'éprouve chaque jour, avec volupté, le doux effet du pouvoir légitime qu'une femme ſenſée exerce
-          ſur un Mari qui connoît &amp; chérit lui-même la raiſon.</p>
-        <p>Ma femme deſire que je ſois ſa compagnie la plus fidelle. Je forme les mêmes vœux, mais nous
+          l'intelligence &amp; l'harmonie des cœurs s'attachent à le fixer.
+    </p>
+    <p>
+     J'éprouve chaque jour, avec volupté, le doux effet du pouvoir légitime qu'une femme ſenſée exerce
+          ſur un Mari qui connoît &amp; chérit lui-même la raiſon.
+    </p>
+    <p>
+     Ma femme deſire que je ſois ſa compagnie la plus fidelle. Je forme les mêmes vœux, mais nous
           ménageons nos plaiſirs, &amp; nous nous ſéqueſtrons ſouvent l'un de l'autre pour trouver une
           nouvelle ſatisfaction à nous revoir. Elle a formé des liaiſons avec très-peu de femmes, &amp; je lui
           en ſçais intérieurement bon gré. Les Filles à Paris ſont élevées tout au mieux, dans l'état honnête
           &amp; mitoyen. L'éducation mauvaiſe ou négligée eſt le partage du très-haut &amp; du très-bas état.
           Les Filles du dernier rang pratiquent la débauche avant de la connoître; celles qui ſont deſtinées à
           figurer dans le plus grand monde, paſſent rapidement du Couvent à la débauche, dont leurs Maris ſe
-          contentent de leur donner les premiéres Leçons.</p>
-        <p>Ce ſont d'autres femmes qui les perfectionnent. Celles-ci ſe permettent tout, &amp; n'aſpirent
+          contentent de leur donner les premiéres Leçons.
+    </p>
+    <p>
+     Ce ſont d'autres femmes qui les perfectionnent. Celles-ci ſe permettent tout, &amp; n'aſpirent
           qu'à en former d'autres qui leur reſſemblent. Elles croyent que leurs foibleſſes deviennent moins
           choquantes &amp; moins ſenſibles, par le nombre de celles qui les partagent; ſemblables en ce point
           aux Religieuſes, qui, lors même qu'elles ſont mécontentes de leur état, cherchent à faire des
@@ -1177,8 +1588,10 @@
           Inſtituteurs, qui arrivent à la perſuaſion par les diſcours &amp; par l'exemple. Ma femme m'a
           ſoulagé de ce genre d'inquiétude, &amp; ſa vertu me paroît plus aſſurée dans la ſociété de dix
           hommes, que dans la confidence de deux femmes, qui ne l'admettroient dans leur intimité, que pour
-          affoiblir la nôtre.</p>
-        <p>Notre tendreſſe mutuelle a été récompenſée de la naiſſance de deux enfans qui ſont l'objet de nos
+          affoiblir la nôtre.
+    </p>
+    <p>
+     Notre tendreſſe mutuelle a été récompenſée de la naiſſance de deux enfans qui ſont l'objet de nos
           attentions &amp; de nos plaiſirs. L'aînée, eſt une Fille âgée de ſept ans qui apprend ſous les yeux
           de ſa Mere à être l'imitatrice des vertus de ſa Famille maternelle. Le ſecond eſt un Fils d'environ
           ſix ans, qui ſe diſpoſe à aller inceſſamment au Collége. Mon projet eſt de veiller à ſon éducation,
@@ -1188,8 +1601,10 @@
           travaille déja à une collection de préceptes, dont je veux à mon tour gratifier mon Fils, lorſqu'il
           ſera en âge d'en faire uſage. Mon Pere m'avoit donné des avis très-oppoſés à tout ce qu'il avoit
           pratiqué. Ceux que je prépare, ſeront auſſi diamétralement contraires à tout ce que j'ai dit, fait
-          &amp; penſé pendant plus de dix ans de ma vie.</p>
-        <p>Mais pour donner des principes juſtes &amp; accommodés au tems, je ne ſuis pas médiocrement
+          &amp; penſé pendant plus de dix ans de ma vie.
+    </p>
+    <p>
+     Mais pour donner des principes juſtes &amp; accommodés au tems, je ne ſuis pas médiocrement
           embaraſſé. Plus j'étudie les hommes, plus je m'apperçois qu'il eſt difficile de leur plaire, en
           faiſant uſage d'une exacte probité. On eſt forcé de donner dans tous leurs excès, leurs travers
           &amp; leurs ridicules. La ſeule reſſource de l'homme ſenſé eſt de demander acte de ce qu'il adopte
@@ -1198,15 +1613,22 @@
           néceſſairement dans des extravagances. On ſe les reproche les uns aux autres, on les condamne de
           ſens froid, &amp; ce ſont ceux même qui ſçavent ſi bien les blâmer, qui nous entraînent par leurs
           exemples &amp; leurs diſcours à ce que nous déteſtons le plus au fond de l'ame. La demonſtration en
-          eſt ſenſible.</p>
-        <p>Un homme eſt placé par la Providence ſur un grand Théâtre. Le ſouverain lui a confié une partie
+          eſt ſenſible.
+    </p>
+    <p>
+     Un homme eſt placé par la Providence ſur un grand Théâtre. Le ſouverain lui a confié une partie
           eſſentielle de ſon autorité. Il aime les honnêtes gens. Attentif aux intérêts de la ſociété, il
           cherche à prévenir des abus, à réparer des maux &amp; des déſordres. Pour y parvenir, il conſulte
           les Loix, il étudie les principes. La prudence éclaire ſes démarches &amp; l'intégrité les ſuſpend;
           c'eſt, ſe dira-t'on tout bas, un génie étroit &amp; borné il va terre à terre; il ignore l'art de
           penſer en grand &amp; de trancher.
-          <hi rend="italic">Le plus grand ennemi du bien c'eſt le mieux</hi>; eh, s'il étoit inconſidérément déciſif, que n'en diroit-on pas!</p>
-        <p>Un Magiſtrat, jaloux de rendre la juſtice aux Sujets du Roi, regarde une récommandation comme une
+     <hi rend="italic">
+      Le plus grand ennemi du bien c'eſt le mieux
+     </hi>
+     ; eh, s'il étoit inconſidérément déciſif, que n'en diroit-on pas!
+    </p>
+    <p>
+     Un Magiſtrat, jaloux de rendre la juſtice aux Sujets du Roi, regarde une récommandation comme une
           inſulte. Il croit que c'eſt lui faire injure que de le ſolliciter. S'il a beſoin de quelques
           inſtructions, il entend les Parties promptement, &amp; ſimplement pour en tirer les éclairciſſemens
           qui lui ſont néceſſaires. C'eſt, dira-t'on, un homme ſingulier, &amp; qui ne cherche pas le vrai,
@@ -1214,58 +1636,107 @@
           il répond laconiquement pour perdre moins de tems, &amp; vous ramene au point déciſif; il eſt,
           dit-on, bruſque &amp; impoli. Il ne veut voir que la raiſon &amp; le bon droit, il ſupprime de
           vaines cérémonies, des ſuperfluités, on le trouve intraitable,
-          <hi rend="italic">c'eſt un fagot d'épines, on ne ſçait par quel bout le prendre</hi>. Enfin, il a le
+     <hi rend="italic">
+      c'eſt un fagot d'épines, on ne ſçait par quel bout le prendre
+     </hi>
+     . Enfin, il a le
           courage de s'élever contre des abus, il eſt révolté &amp; s'affranchit des uſages reçus, ſi ſa
           conſcience en eſt bleſſée,
-          <hi rend="italic">c'eſt un cauſtique qui veut s'ériger en réformateur du genre humain</hi>, le voilà condamné &amp; en butte à ſes propres Confreres.</p>
-        <p>Clidamas eſt agréé pour un Mariage, mais il redoute d'aller pendant un mois entier faire
+     <hi rend="italic">
+      c'eſt un cauſtique qui veut s'ériger en réformateur du genre humain
+     </hi>
+     , le voilà condamné &amp; en butte à ſes propres Confreres.
+    </p>
+    <p>
+     Clidamas eſt agréé pour un Mariage, mais il redoute d'aller pendant un mois entier faire
           doucereuſement l'aimable aux pieds de la beauté qui lui eſt deſtinée. Il craint de ſe montrer en
           ſpectacle aux regards curieux d'une Famille qui s'apprête à le dévorer des yeux. On obſervera ſes
           propos &amp; juſqu'à ſon ſilence. Il redoute ce déluge d'obſervations,
-          <hi rend="italic">il eſt aſſez bien fait, il ſe préſente mal, il ne ſe met pas bien, il eſt timide, il parle trop</hi>;
+     <hi rend="italic">
+      il eſt aſſez bien fait, il ſe préſente mal, il ne ſe met pas bien, il eſt timide, il parle trop
+     </hi>
+     ;
           cet inventaire de ſes perfections &amp; de ſes défauts l'épouvante, il ne peut ſe contraindre
           juſqu'à s'y ſoumettre, &amp; propoſe une prompte concluſion, puiſque les points principaux ſont
           d'accord; non,
-          <hi rend="italic">c'eſt un original avec lequel il ſeroit imprudent de terminer une affaire</hi>. Un défaut de cérémonial lui fait perdre le mérite de ſes bonnes qualités.</p>
-        <p>Liſidor, plus complaiſant, le remplace auprès de la future: mais il craint de pendre aux oreilles
+     <hi rend="italic">
+      c'eſt un original avec lequel il ſeroit imprudent de terminer une affaire
+     </hi>
+     . Un défaut de cérémonial lui fait perdre le mérite de ſes bonnes qualités.
+    </p>
+    <p>
+     Liſidor, plus complaiſant, le remplace auprès de la future: mais il craint de pendre aux oreilles
           de ſa femme mille livres de Rente qui feroient l'aiſance de ſa maiſon. Il réfuſe de lui mettre au
           col mille autres livres de Rente qui lui ſeroient ailleurs plus utiles. Il eſt fâché de voir
           abſorber ſa dot en habillemens, en meubles inutiles &amp; en repas, dont il ne lui reſtera que des
           indigeſtions, dès-lors, le voilà décidé un avare complet, qui va faire pour jamais le malheur de la
-          vie de ſon Epouſe.</p>
-        <p>Cleon eſt marié. Il a vécu dans le monde, &amp; guéri de ſes erreurs, il veut goûter les douceurs
+          vie de ſon Epouſe.
+    </p>
+    <p>
+     Cleon eſt marié. Il a vécu dans le monde, &amp; guéri de ſes erreurs, il veut goûter les douceurs
           d'une ſociété douce &amp; raiſonnable. Il commence par écarter de chez lui les élégans diſeurs de
           rien, dont les propos frivoles ne ſerviroient qu'à gâter le cœur &amp; l'eſprit de ſa jeune Epouſe.
-          <hi rend="italic">Fi donc, quoi ſeriez-vous jaloux mon Gendre</hi>, s'écrie le Beau-pere,
-          <hi rend="italic">de quel ſiécle êtes-vous donc, ſe méfie-t'on d'une Fille bien élevée</hi>. Il oublie qu'elles l'ont été preſque toutes.</p>
-        <p>Cleon, fidéle à ſes principes, refuſe de ſe lier avec ces petites Maîtreſſes qui ſouffleroient
+     <hi rend="italic">
+      Fi donc, quoi ſeriez-vous jaloux mon Gendre
+     </hi>
+     , s'écrie le Beau-pere,
+     <hi rend="italic">
+      de quel ſiécle êtes-vous donc, ſe méfie-t'on d'une Fille bien élevée
+     </hi>
+     . Il oublie qu'elles l'ont été preſque toutes.
+    </p>
+    <p>
+     Cleon, fidéle à ſes principes, refuſe de ſe lier avec ces petites Maîtreſſes qui ſouffleroient
           ſans ceſſe aux oreilles de ſa femme,
-          <hi rend="italic">qu'il faut mettre tout d'un coup un Mari ſur le bon ton</hi>, que la diſſipation
+     <hi rend="italic">
+      qu'il faut mettre tout d'un coup un Mari ſur le bon ton
+     </hi>
+     , que la diſſipation
           eſt l'appanage de la jeuneſſe, &amp; l'indépendance, l'attribut des jolies femmes d'aujourd'hui; il
           ſubſtitue à ces maximes des conſeils vertueux, ſalutaires, &amp; dictés par la tendreſſe. Il les
           place ſans affectation &amp; dans des circonſtances favorables pour être écouté, c'eſt, dira-t'on,
-          <hi rend="italic">un Hypocondre, un Pédant ennuyeux, un Pédagogue impitoyable, qui du matin au ſoir
+     <hi rend="italic">
+      un Hypocondre, un Pédant ennuyeux, un Pédagogue impitoyable, qui du matin au ſoir
             prêche faſtidieuſement la plus aimable perſonne du monde, &amp; qui l'arrache aux meilleures
-            compagnies qui en auroient certainement fait un ſujet accompli</hi>.
+            compagnies qui en auroient certainement fait un ſujet accompli
+     </hi>
+     .
           Il ſouléve contre lui le Beau-pere, la Belle-mere, le Petit-Frere, les Couſins, ArriéreCouſins &amp;
           toute la ſequelle féminine qui le couvre de ridicule, &amp; lui fait une réputation démentie, mais
-          non réfutée par la ſolidité de ſes réfléxions ſur le bonheur de ſa femme &amp; ſur le ſien.</p>
-        <p>Ce même Cleon perſuadé, comme Mari &amp; comme Citoyen, que les enfans ſont un lien du Mariage
+          non réfutée par la ſolidité de ſes réfléxions ſur le bonheur de ſa femme &amp; ſur le ſien.
+    </p>
+    <p>
+     Ce même Cleon perſuadé, comme Mari &amp; comme Citoyen, que les enfans ſont un lien du Mariage
           &amp; la force de l'Etat à qui l'on ſe doit, ſe livre ſans partage à la tendreſſe qu'il a pour ſon
           Epouſe, vous entendez crier de toute part,
-          <hi rend="italic">qu'il la tue par des inclinations viles &amp; animales, &amp; que ſon emploi eſt
-            de faire des miſérables</hi>.</p>
-        <p>Damis a une Epouſe qui n'a aucunes maladies réelles. Elle eſt même d'une complexion robuſte,
+     <hi rend="italic">
+      qu'il la tue par des inclinations viles &amp; animales, &amp; que ſon emploi eſt
+            de faire des miſérables
+     </hi>
+     .
+    </p>
+    <p>
+     Damis a une Epouſe qui n'a aucunes maladies réelles. Elle eſt même d'une complexion robuſte,
           &amp; ſupporte une groſſeſſe ſans incommodités capables d'allarmer. Il exige qu'elle marche, qu'elle
           ſe promene comme à l'ordinaire. Il eſt convaincu que la Nature ſage a pourvû à tout, &amp; qu'elle
           n'a pas beſoin de tant de précautions recherchées qui ôtent à la machine ſon jeu &amp; ſon aiſance,
           en la privant de la liberté de ſon opération, de-là, le voilà devenu
-          <hi rend="italic">un homme dur, un homme à ſyſtêmes</hi>. Les ſectateurs de l'opinion oppoſée vont le caractériſer ſans ménagement.</p>
-        <p>Polémon craint de faire des dépenſes qui excédent ſes forces. Il aime à ſatisfaire exactement à
+     <hi rend="italic">
+      un homme dur, un homme à ſyſtêmes
+     </hi>
+     . Les ſectateurs de l'opinion oppoſée vont le caractériſer ſans ménagement.
+    </p>
+    <p>
+     Polémon craint de faire des dépenſes qui excédent ſes forces. Il aime à ſatisfaire exactement à
           ſes engagemens. Il cherche même à épargner annuellement quelque ſomme pour l'établiſſement de ſa
           famille. C'eſt dans nos mœurs
-          <hi rend="italic">un homme ſerré au-delà des bornes</hi>. La ſage œconomie eſt ſuſpecte de parcimonie outrée.</p>
-        <p>Cléobule ſe perſuade &amp; ſoutient que l'aſpect des hommes laids &amp; contrefaits ne peut
+     <hi rend="italic">
+      un homme ſerré au-delà des bornes
+     </hi>
+     . La ſage œconomie eſt ſuſpecte de parcimonie outrée.
+    </p>
+    <p>
+     Cléobule ſe perſuade &amp; ſoutient que l'aſpect des hommes laids &amp; contrefaits ne peut
           échauffer l'imagination de ſon Epouſe, juſqu'au point d'en faire naître des enfans difformes. Il
           penſe que la Nature a pourvû à ces inconvéniens qui ſont rares; ſa propoſition eſt univerſellement
           combattue, &amp; on le taxe d'entêtement. Le lendemains, il propoſe de bannir des cheminées de ſa
@@ -1273,8 +1744,13 @@
           contradiction. En vain, allégue-t'il que relativement à la thèſe propoſée, il craint pour ſa femme
           enceinte ces groteſques fruits d'une imagination déréglée qui ſeroient ſans ceſſe ſous ſes yeux, on
           lui répond vivement
-          <hi rend="italic">qu'il y en a par-tout, &amp; qu'on ne voit point de femmes mettre au monde des Chinois ou des Bonzes</hi>. Sa Logique eſt pulvériſée, &amp; il n'en retire que le vernis d'un Philoſophe hétéroclite.</p>
-        <p>Philogenor eſt un homme de probité qui veut penſer à ſa fortune; il obtient par ſon crédit un
+     <hi rend="italic">
+      qu'il y en a par-tout, &amp; qu'on ne voit point de femmes mettre au monde des Chinois ou des Bonzes
+     </hi>
+     . Sa Logique eſt pulvériſée, &amp; il n'en retire que le vernis d'un Philoſophe hétéroclite.
+    </p>
+    <p>
+     Philogenor eſt un homme de probité qui veut penſer à ſa fortune; il obtient par ſon crédit un
           traité de fournitures ſur un pied avantageux. On lui propoſe de le rétrocéder à un prix beaucoup
           plus bas, &amp; par ce moyen, on lui ouvre la voye de faire une fortune conſidérable ſans ſoins,
           ſans riſque, ſans peine; mais une délicateſſe le retient; je m'enrichirai, dit-il, &amp; celui à qui
@@ -1282,12 +1758,22 @@
           l'exactitude convenables. Les infortunés à qui la ſubſiſtance doit être fournie, riſquent de devenir
           les victimes d'une ceſſion dont toute l'utilité tourne à ſon profit. Ces réfléxions l'arrêtent,
           &amp; il céde à ſes ſcrupules;
-          <hi rend="italic">oh le nigaud</hi>, s'écriera-t'on,
-          <hi rend="italic">il a pu s'enrichir en moins de rien &amp; ſans aucun riſque; le ſot qu'il eſt, a
-            laiſſé échapper une ſi belle occaſion; c'eſt un homme à interdire</hi>.</p>
-        <p>Liſimaque n'eſt dominé ni par l'intérêt ni par l'ambition. Il ſçait borner ſes deſirs; ſa
-          modération &amp; ſon déſintéreſſement ſont taxés de non-chalance &amp; de puſillanimité.</p>
-        <p>Metaſtus aime la retraite &amp; chérit le commerce des Muſes, on l'accuſe de ſingularité. Eſt-on
+     <hi rend="italic">
+      oh le nigaud
+     </hi>
+     , s'écriera-t'on,
+     <hi rend="italic">
+      il a pu s'enrichir en moins de rien &amp; ſans aucun riſque; le ſot qu'il eſt, a
+            laiſſé échapper une ſi belle occaſion; c'eſt un homme à interdire
+     </hi>
+     .
+    </p>
+    <p>
+     Liſimaque n'eſt dominé ni par l'intérêt ni par l'ambition. Il ſçait borner ſes deſirs; ſa
+          modération &amp; ſon déſintéreſſement ſont taxés de non-chalance &amp; de puſillanimité.
+    </p>
+    <p>
+     Metaſtus aime la retraite &amp; chérit le commerce des Muſes, on l'accuſe de ſingularité. Eſt-on
           délicat dans le procédé, l'on paſſe pour trop ſcrupuleux? Veut-on être prudent, l'on vous ſoupçonne
           d'être timide; enfin, la malignité &amp; les jugemens précipités ſur ceux dont on ne connoît ni
           l'intérieur ni les poſitions, transforment ſouvent en ridiculités ce qui dans le fond eſt vertu. Les
@@ -1298,13 +1784,17 @@
           même des gens à qui quelquefois l'on fait un reproche de leur délicateſſe en fait de probité: eh
           pourquoi, c'eſt qu'on croit en France n'avoir aucun ſcrupule à ſe faire, quand on ne vole que le Roi
           &amp; le Public. Il ſemble en effet que la honte &amp; le danger ne ſoient que pour ceux qui
-          prennent ſur le Particulier.</p>
-        <p>Ces mêmes réfléxions pourroient s'appliquer à une multitude d'autres circonſtances, mais elles
+          prennent ſur le Particulier.
+    </p>
+    <p>
+     Ces mêmes réfléxions pourroient s'appliquer à une multitude d'autres circonſtances, mais elles
           doivent ſuffire pour faire ſentir qu'un homme avec les meilleures intentions du monde, avec des
           mœurs épurées, de la raiſon &amp; de la droiture peut paſſer dans l'eſprit de ſes Concitoyens pour
           être ſingulier, groſſier, infléxible, original, propre à rendre une femme malheureuſe, jaloux,
-          pédant, mauvais Philoſophe, hypocondre, enfin avare, ſot &amp; traître.</p>
-        <p>Convenons donc que ce ſont nos uſages qui gâtent tout dans le monde, &amp; que pour vivre avec
+          pédant, mauvais Philoſophe, hypocondre, enfin avare, ſot &amp; traître.
+    </p>
+    <p>
+     Convenons donc que ce ſont nos uſages qui gâtent tout dans le monde, &amp; que pour vivre avec
           ſes ſemblables, l'on eſt dans la néceſſité d'adopter leurs erreurs &amp; leurs vices. L'on ſent le
           faux &amp; même la honte de certaines pratiques; mais réforme-t'on ſes mœurs, non, l'intérêt
           particulier eſt toujours préféré à celui de la ſociété; lorſqu'on propoſe des maximes, l'on auroit
@@ -1321,9 +1811,12 @@
           imprimer que tous ces avantages ne ſeront réels, que par l'uſage modéré qu'il en ſçaura faire. Je
           fais d'avance des vœux ſincères pour que mes inſtructions &amp; ſon caractère le conduiſent à une
           félicité auſſi ſolide que celle dont je jouis dans la ſociété d'une Epouſe adorable, &amp; d'une
-          Belle-mere digne de mes reſpects.</p>
-        <trailer>FIN.</trailer>
-      </div>
-    </body>
-  </text>
+          Belle-mere digne de mes reſpects.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+ </text>
 </TEI>

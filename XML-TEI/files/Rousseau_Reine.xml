@@ -1,97 +1,163 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Rousseau_Reine" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:58.18 wikidata:0">La Reine Fantasque: MiMoText edition</title>
-        <author ref="viaf:100184045 wikidata:Q6527">Jean-Jacques Rousseau(1712-1778)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>rousseauonline</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">5796</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://www.rousseauonline.ch/Text/la-reine-fantasque-conte.php"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>La Reine Fantasque</title>
-          <author>Jean-Jacques Rousseau</author>
-          <pubPlace>Amsterdam</pubPlace>
-          <publisher/>
-          <date>1769</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1758</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-04-29"/>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>Jean-Jacques Rousseau</p>
-        <p>Collection complète des oeuvres</p>
-        <p>17 vol., in-4º, Genève, 1780-1789</p>
-        <p>www.rousseauonline.ch</p>
-        <p>JEAN JACQUES ROUSSEAU</p>
-        <p>LA REINE FANTASQUE,</p>
-        <p>CONTE</p>
-        <p>ca. 1754; Bibliothèque Publique de Neuchâtel ms. R. 37; 15 juin, 1758 Journal encyclopédique
+<TEI xml:id="Rousseau_Reine" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:58.18 wikidata:0">
+     La Reine Fantasque: MiMoText edition
+    </title>
+    <author ref="viaf:100184045 wikidata:Q6527">
+     Jean-Jacques Rousseau(1712-1778)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      rousseauonline
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     5796
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.rousseauonline.ch/Text/la-reine-fantasque-conte.php"/>
+     <publisher>
+      Rousseau Online
+     </publisher>
+     <date>
+      2012
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      La Reine Fantasque
+     </title>
+     <author>
+      Jean-Jacques Rousseau
+     </author>
+     <pubPlace>
+      Amsterdam
+     </pubPlace>
+     <publisher/>
+     <date>
+      1769
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1758
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-04-29"/>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     Jean-Jacques Rousseau
+    </p>
+    <p>
+     Collection complète des oeuvres
+    </p>
+    <p>
+     17 vol., in-4º, Genève, 1780-1789
+    </p>
+    <p>
+     www.rousseauonline.ch
+    </p>
+    <p>
+     JEAN JACQUES ROUSSEAU
+    </p>
+    <p>
+     LA REINE FANTASQUE,
+    </p>
+    <p>
+     CONTE
+    </p>
+    <p>
+     ca. 1754; Bibliothèque Publique de Neuchâtel ms. R. 37; 15 juin, 1758 Journal encyclopédique
           (extraits); Oeuvres de Jean Jaques Rousseau, Amsterdam, 1769; le Pléiade édition, t. II, pp.
-          1177-1192. == Du Peyrou/Moultou 1780-89 quarto Édition, t. VII, pp.199-220.\]</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <p>LA REINE FANTASQUE,
-          <hi rend="italic">CONTE</hi>.</p>
-        <p>Il y avoit autrefois un Roi qui aimoit son peuple...... Cela commence comme un conte de Fée,
+          1177-1192. == Du Peyrou/Moultou 1780-89 quarto Édition, t. VII, pp.199-220.\]
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <p>
+     LA REINE FANTASQUE,
+     <hi rend="italic">
+      CONTE
+     </hi>
+     .
+    </p>
+    <p>
+     Il y avoit autrefois un Roi qui aimoit son peuple...... Cela commence comme un conte de Fée,
           interrompit le Druide? C'en est un aussi, répondit Jalamir. Il y avoit donc un Roi qui aimoit son
           peuple, &amp; qui, par conséquent, en étoit adoré. Il avoit fait tous ses efforts pour trouver des
           Ministres aussi bien intentionnés que lui; mais ayant enfin reconnu la folie d'une pareille
@@ -99,8 +165,10 @@
           leur mal-faisante activité. Comme il étoit fort entêté du bizarre projet de rendre ses sujets
           heureux, il agissoit en conséquence, &amp; une conduite si singuliere lui donnoit parmi les Grands
           un ridicule ineffaçable. Le peuple le bénissoit, mais à la Cour il passoit pour un fou. A cela près,
-          il ne manquoit pas de mérite; aussi s'appelloit-il Phénix.</p>
-        <p>Si ce Prince étoit extraordinaire, il avoit une femme qui l'étoit moins. Vive, étourdie,
+          il ne manquoit pas de mérite; aussi s'appelloit-il Phénix.
+    </p>
+    <p>
+     Si ce Prince étoit extraordinaire, il avoit une femme qui l'étoit moins. Vive, étourdie,
           capricieuse, folle par la tête, sage par le cœur, bonne par tempérament, méchante par caprice; voilà
           en quatre mots le portroit de la Reine. Fantasque étoit son nom: nom célèbre qu'elle avoit reçu de
           ses ancêtres en ligne féminine, &amp; dont elle soutenoit dignement l'honneur. Cette personne si
@@ -110,8 +178,10 @@
           aucun fruit de leur union. Le Roi en étoit pénétré de chagrin, &amp; la Reine s'en mettoit dans des
           impatiences dont ce bon Prince ne se ressentoit pas tout seul: elle s'en prenoit à tout le monde, de
           ce qu'elle n'avoit point d'enfans; il n'y avoit pas un courtisan à qui elle ne demandât étourdiment
-          quelque secret pour en avoir, &amp; qu'elle ne rendît responsable du mauvais succès.</p>
-        <p>Les médecins ne furent point oubliés; car la Reine avoit pour eux une docilité peu commune, &amp;
+          quelque secret pour en avoir, &amp; qu'elle ne rendît responsable du mauvais succès.
+    </p>
+    <p>
+     Les médecins ne furent point oubliés; car la Reine avoit pour eux une docilité peu commune, &amp;
           ils n'ordonnoient pas une drogue qu'elle ne fît préparer très-soigneusement, pour avoir le plaisir
           de la leur jetter au nez, à l'instant qu'il faloit prendre. Les Derviches eurent leur tour; il falut
           recourir aux neuvaines, aux vœux, sur-tout aux offrandes; &amp; malheur aux desservans des Temples
@@ -121,16 +191,20 @@
           équipages: tantôt c'étoit un cordon blanc, tantôt une ceinture de cuir, tantôt un capuchon, tantôt
           un scapulaire; il n'y avoit sorte de mascarade monastique dont sa dévotion ne s'avisât; &amp; comme
           elle avoit un petit air éveillé qui la rendoit charmante sous tous ses déguisemens, elle n'en
-          quittoit aucun sans avoir eu soin de s'y faire peindre.</p>
-        <p>Enfin à force de dévotions si bien faites, à force de médecines si sagement employées, le ciel
+          quittoit aucun sans avoir eu soin de s'y faire peindre.
+    </p>
+    <p>
+     Enfin à force de dévotions si bien faites, à force de médecines si sagement employées, le ciel
           &amp; la terre exaucèrent les vœux de la Reine; elle devint grosse au moment qu'on commençoit à en
           désespérer. Je laisse à deviner la joie du Roi &amp; celle du peuple. Pour la sienne, elle alla,
           comme toutes ses passions jusqu'à l'extravagance: dans ses transports, elle cassoit &amp; brisoit
           tout; elle embrassoit indifféremment tout ce qu'elle rencontroit, hommes, femmes, courtisans,
           valets; c'étoit risquer de se faire étouffer que se trouver sur son passage. Elle ne connoissoit
           point, disoit-elle, de ravissement pareil à celui d'avoir un enfant à qui elle pût donner le fouet
-          tout à son aise, dans ses momens de mauvaise humeur.</p>
-        <p>Comme la grossesse de la Reine avoit été long-tems inutilement attendue, elle passoit pour un de
+          tout à son aise, dans ses momens de mauvaise humeur.
+    </p>
+    <p>
+     Comme la grossesse de la Reine avoit été long-tems inutilement attendue, elle passoit pour un de
           ces événemens extraordinaires, dont tout le monde veut avoir l'honneur. Les médecins l'attribuoient
           à leurs drogues, les moines à leurs reliques, le peuple à ses prières, &amp; le Roi à son amour.
           Chacun s'intéressoit à l'enfant qui devoit naître comme si c'eût été le sien, &amp; tous faisoient
@@ -138,17 +212,23 @@
           Grands &amp; le Roi réunissoient leurs desirs sur ce point. La Reine trouva fort mauvais qu'on
           s'avisât de lui prescrire de qui elle devoit accoucher, &amp; déclara qu'elle prétendoit avoir une
           fille; ajoutant qu'il lui paroissoit assez singulier que quelqu'un osât lui disputer le droit de
-          disposer d'un bien qui n'appartenoit incontestablement qu'à elle seule.</p>
-        <p>Phénix voulut en vain lui faire entendre raison; elle lui dit nettement que ce n'étoient point-là
+          disposer d'un bien qui n'appartenoit incontestablement qu'à elle seule.
+    </p>
+    <p>
+     Phénix voulut en vain lui faire entendre raison; elle lui dit nettement que ce n'étoient point-là
           ses affaires, &amp; s'enferma dans son cabinet pour bouder; occupation chérie à laquelle elle
           employoit régulièrement au moins six mais de l'année. Je dis six mais, non de suite; c'eût été
-          autant de repos pour son mari, mais pris dans des intervalles propres à le chagriner.</p>
-        <p>Le Roi comprenoit fort bien que les caprices de la mère ne détermineroient pas le sexe de
+          autant de repos pour son mari, mais pris dans des intervalles propres à le chagriner.
+    </p>
+    <p>
+     Le Roi comprenoit fort bien que les caprices de la mère ne détermineroient pas le sexe de
           l'enfant; mais il étoit au désespoir qu'elle donnât ainsi ses travers en spectacle à toute la Cour.
           Il eût sacrifié tout au monde pour que l'estime universelle eût justifié l'amour qu'il avoit pour
           elle, &amp; le bruit qu'il fit mal-à-propos en cette occasion ne fut pas la seule folie que lui eût
-          fait faire le ridicule espoir de rendre sa femme raisonnable.</p>
-        <p>Ne sachant plus à quel Saint se vouer, il eut recours à la Fée Discrète son amie, &amp; la
+          fait faire le ridicule espoir de rendre sa femme raisonnable.
+    </p>
+    <p>
+     Ne sachant plus à quel Saint se vouer, il eut recours à la Fée Discrète son amie, &amp; la
           protectrice de son royaume. La Fée lui conseilla de prendre les voies de la douceur, c'est-à-dire de
           demander excuse à la Reine. Le seul but, lui dit-elle, de toutes les fantaisies des femmes est de
           désorienter un peu la morgue masculine, &amp; d'accoutumer les hommes à l'obéissance qui leur
@@ -160,8 +240,10 @@
           son avis, s'étant rendu au cercle de la Reine, il la prit à part, lui dit tout bas qu'il étoit fâché
           d'avoir contesté contre elle mal-à-propos, &amp; qu'il tâcheroit de la dédommager à l'avenir par sa
           complaisance de l'humeur qu'il pouvoit avoir mise dans ses discours, en disputant impoliment contre
-          elle.</p>
-        <p>Fantasque qui craignit que la douceur de Phénix ne la couvrît seule de tout le ridicule de cette
+          elle.
+    </p>
+    <p>
+     Fantasque qui craignit que la douceur de Phénix ne la couvrît seule de tout le ridicule de cette
           affaire, se hâta de lui répondre que sous cette excuse ironique elle voyoit encore plus d'orgueil
           que dans les disputes précédentes, mais que puisque les torts d'un mari n'autorisoient point ceux
           d'une femme elle se hâtoit de céder en cette occasion comme elle avoit toujours fait: Mon prince
@@ -171,24 +253,32 @@
           guère moins la nuit que le jour; je dois imiter un si noble désintéressement, &amp; je vois demander
           au Divan un mémoire instructif du nombre &amp; du sexe des enfans qui conviennent à la famille
           Royale; mémoire important au bonheur de l'Etat &amp; sur lequel toute Reine doit apprendre à régler
-          sa conduite pendant la nuit.</p>
-        <p>Ce beau soliloque fut écouté de tout le cercle avec beaucoup d'attention &amp; je vous laisse à
+          sa conduite pendant la nuit.
+    </p>
+    <p>
+     Ce beau soliloque fut écouté de tout le cercle avec beaucoup d'attention &amp; je vous laisse à
           penser combien d'éclats de rire furent assez maladroitement étouffés. Ah dit tristement le Roi en
           sortant &amp; haussant les épaules; je vois bien que quand on a une femme folle on ne peut éviter
-          d'être un sot.</p>
-        <p>La Fée Discrète dont le sexe &amp; le nom contrastoient quelques fois plaisamment dans son
+          d'être un sot.
+    </p>
+    <p>
+     La Fée Discrète dont le sexe &amp; le nom contrastoient quelques fois plaisamment dans son
           caractère, trouva cette querelle si réjouissante qu'elle résolut de s'en amuser jusqu'au bout. Elle
           dit publiquement au Roi qu'elle avoit consulté les Comètes qui prédisent à la naissance des Princes,
           &amp; qu'elle pouvoit lui répondre que l'Enfant qui naîtroit de lui seroit un garçon; mais en secret
-          elle assura la Reine qu'elle auroit une fille.</p>
-        <p>Cet avis rendit tout-à-coup Fantasque aussi raisonnable qu'elle avoit été capricieuse
+          elle assura la Reine qu'elle auroit une fille.
+    </p>
+    <p>
+     Cet avis rendit tout-à-coup Fantasque aussi raisonnable qu'elle avoit été capricieuse
           jusqu'àlors. Ce fut avec une douceur &amp; une complaisance infinies qu'elle prit toutes les mesures
           possibles pour désoler le Roi &amp; toute la Cour. Elle se hâta de faire faire une layette des plus
           superbes, affectant de la rendre si propre à un garçon qu'elle devînt ridicule à une fille; il falut
           dans ce dessein changer plusieurs modes; mais tout cela ne lui coûtoit rien. Elle fit préparer un
           beau collier de l'ordre tout brillant de pierreries, &amp; voulut absolument que le Roi nommât
-          d'avance le Gouverneur &amp; le Précepteur du jeune Prince.</p>
-        <p>Si-tôt qu'elle fut sûre d'avoir une fille elle ne parla que de son fils, &amp; n'omit aucune des
+          d'avance le Gouverneur &amp; le Précepteur du jeune Prince.
+    </p>
+    <p>
+     Si-tôt qu'elle fut sûre d'avoir une fille elle ne parla que de son fils, &amp; n'omit aucune des
           précautions inutiles qui pouvoient faire oublier celles qu'on auroit dû prendre. Elle rioit aux
           éclats en se peignant la contenance étonnée &amp; bête qu'auroient les Grands &amp; les Magistrats
           qui devoient orner ses couches de leur présence. Il me semble, disoit-elle à la Fée, voir d'un c ôté
@@ -196,43 +286,57 @@
           l'autre sa sacrée Majesté baisser les yeux, &amp; dire en balbutiant: je croyois...... la Fée
           m'avoit pourtant dit...... Messieurs, ce n'est pas ma faute; &amp; d'autres apophtegmes aussi
           spirituels recueillis par les savans de la Cour &amp; bien tôt portés jusqu'aux extrémités des
-          Indes.</p>
-        <p>Elle se représentoit avec un plaisir malin le désordre &amp; la confusion que ce merveilleux
+          Indes.
+    </p>
+    <p>
+     Elle se représentoit avec un plaisir malin le désordre &amp; la confusion que ce merveilleux
           événement alloit jetter dans toute l'assemblée. Elle se figuroit d'avance les disputes, l'agitation
           de toutes les Dames du Palois pour réclamer, ajuster, concilier en ce moment imprévu les droits de
-          leurs importantes charges, &amp; toute la Cour en mouvement pour un béguin.</p>
-        <p>Ce fut aussi dans cette occasion qu'elle inventa le décent &amp; spirituel usage de faire
+          leurs importantes charges, &amp; toute la Cour en mouvement pour un béguin.
+    </p>
+    <p>
+     Ce fut aussi dans cette occasion qu'elle inventa le décent &amp; spirituel usage de faire
           haranguer par les Magistrats en robe, le Prince nouveau-né. Phénix voulut lui représenter que
           c'étoit avilir la Magistrature à pure perte &amp; jetter un comique extravagant sur tout le
           cérémonial de la Cour, que d'aller en grand appareil étaler du phébus à un petit Marmot avant qu'il
-          le pût entendre, ou du moins y répondre.</p>
-        <p>Eh tant mieux reprit vivement la Reine, tant mieux pour votre fils Ne seroit-il pas trop heureux
+          le pût entendre, ou du moins y répondre.
+    </p>
+    <p>
+     Eh tant mieux reprit vivement la Reine, tant mieux pour votre fils Ne seroit-il pas trop heureux
           que toutes les bêtises qu'ils ont à lui dire fussent épuisées avant qu'il les entendît, &amp;
           voudriez-vous qu'on lui gardât pour l'âge de raison des discours propres à le rendre fou? Pour Dieu
           laissez-les haranguer tout leur bien-aise, tandis qu'on est sûr qu'il n'y comprend rien &amp; qu'il
           en a l'ennui de moins: vous devez savoir de reste qu'on n'en est pas toujours quitte à si bon
           marché. Il en falut passer par-là, &amp; de l'ordre exprès de sa Majesté les Présidens du Sénat
           &amp; des Académies commencèrent à composer, étudier, raturer, &amp; feuilleter leur Vaumorière
-          &amp; leur Démosthène pour apprendre à parler à un Embryon.</p>
-        <p>Enfin le moment critique arriva. La Reine sentit les premières douleurs avec des transports de
+          &amp; leur Démosthène pour apprendre à parler à un Embryon.
+    </p>
+    <p>
+     Enfin le moment critique arriva. La Reine sentit les premières douleurs avec des transports de
           joie dont on ne s'avise gueres en pareille occasion. Elle se plaignoit de si bonne grâce &amp;
-          pleuroit d'un air si riant qu'on eût cru que le plus grand de ses plaisirs étoit celui d'accoucher.</p>
-        <p>Aussi-tôt ce fut dans tout le Palois une rumeur épouvantable. Les uns couroient chercher le Roi,
+          pleuroit d'un air si riant qu'on eût cru que le plus grand de ses plaisirs étoit celui d'accoucher.
+    </p>
+    <p>
+     Aussi-tôt ce fut dans tout le Palois une rumeur épouvantable. Les uns couroient chercher le Roi,
           d'autres les Princes, d'autres les Ministres, d'autres le Sénat, le plus grand nombre &amp; les plus
           pressés alloient pour aller &amp; roulant leur tonneau comme Diogène avoient pour toute affaire de
           se donner un air affairé. Dans l'empressement de rassembler tant de gens nécessaires, la dernière
           personne à qui l'on songea fut l'accoucheur, &amp; le Roi que son trouble mettoit hors de lui ayant
           demandé par mégarde une sage-femme, cette inadvertance excita parmi les Dames du Palois des ris
           immodérés qui joints à la bonne humeur de la Reine, firent l'accouchement le plus gai dont on eut
-          jamais entendu parler.</p>
-        <p>Quoique Fantasque eût gardé de son mieux le secret de la Fée, il n'avoit pas laissé de transpirer
+          jamais entendu parler.
+    </p>
+    <p>
+     Quoique Fantasque eût gardé de son mieux le secret de la Fée, il n'avoit pas laissé de transpirer
           parmi les femmes de sa maison, &amp; celles-ci le gardèrent si soigneusement elles-mêmes, que le
           bruit fut plus de trois jours à s'en répandre par toute la Ville, de sorte qu'il n'y avoit depuis
           long-tems que le Roi seul qui n'en sût rien. Chacun étoit donc attentif à la scène qui se préparoit;
           l'intérêt public fournissant un prétexte à tous les curieux de s'amuser aux dépens de la Famille
           Royale, ils se faisoient une fête d'épier la contenance de leurs Majestés, &amp; de voir comment
-          avec deux promesses contradictoires, la Fée pourroit se tirer d'affaire &amp; conserver son crédit.</p>
-        <p>Oh çà, Monseigneur, dit Jalamir au Druide en s'interrompant; convenez qu'il ne tient qu'à moi de
+          avec deux promesses contradictoires, la Fée pourroit se tirer d'affaire &amp; conserver son crédit.
+    </p>
+    <p>
+     Oh çà, Monseigneur, dit Jalamir au Druide en s'interrompant; convenez qu'il ne tient qu'à moi de
           vous impatienter dans les règles: car vous sentez bien que voici le moment des digressions, des
           portraits, &amp; de cette multitude de belles choses que tout auteur homme d'esprit ne manque jamais
           d'employer à propos dans l'endroit le plus intéressant pour amuser ses lecteurs Comment, par Dieu,
@@ -251,8 +355,10 @@
           d'égayer mon récit par un peu de métaphysique, j'en vois tout bêtement reprendre le fil; mais conter
           pour conter est d'un ennui: vous ne savez pas combien de belles choses vous allez perdre Aidez-moi,
           je vous prie, à me retrouver; car l'essentiel m'a tellement emporté, que je ne sois plus à quoi j'en
-          étois du conte.</p>
-        <p>A cette Reine, dit le Druide impatienté, que tu as tant de peine à faire accoucher &amp; avec
+          étois du conte.
+    </p>
+    <p>
+     A cette Reine, dit le Druide impatienté, que tu as tant de peine à faire accoucher &amp; avec
           laquelle tu me tiens depuis une heure en travail. Oh, oh reprit Jalamir; croyez-vous que les enfans
           des Rois se pondent comme des œufs de grive? Vous allez voir si ce n'étoit pas bien la peine de
           pérorer. La Reine donc, après bien des cris &amp; des ris, tira enfin les curieux de peine &amp; la
@@ -262,8 +368,11 @@
           Majesté pour se rendre à la nature, fit des extravagances qu'en d'autres tems il n'eût pas laissé
           faire à la Reine, &amp; le plaisir d'avoir des Enfans le rendoit si enfant lui même, qu'il courut
           sur son balcon crier à pleine tête.
-          <hi rend="italic">Mes amis, réjouissez-vous tous; il vient de me naître un Fils, &amp; à vous un
-            Père, &amp; une Fille à ma Femme</hi>.
+     <hi rend="italic">
+      Mes amis, réjouissez-vous tous; il vient de me naître un Fils, &amp; à vous un
+            Père, &amp; une Fille à ma Femme
+     </hi>
+     .
           La Reine, qui se trouvoit pour la première fois de sa vie à pareille fête, ne s'apperçut pas de tout
           l'ouvrage qu'elle avoit fait, &amp; la Fée qui connoissoit son esprit fantasque se contenta,
           conformément à ce qu'elle avoit désiré, de lui annoncer d'abord une Fille. La Reine se la fit
@@ -279,21 +388,27 @@
           jeune Prince. La Reine revenue de sa surprise, trouva l'expédient si plaisant, qu'elle en fit des
           éclats de rire dangereux dans l'état où elle étoit. Elle se trouva mal. On eut beaucoup de peine à
           la faire revenir, &amp; si la Fée n'eût répondu de sa vie, la douleur la plus vive alloit succéder
-          aux transports de joie dans le cœur du Roi &amp; sur les visages des Courtisans.</p>
-        <p>Mais voici ce qu'il y eut de plus singulier dans toute cette aventure: le regret sincère qu'avoit
+          aux transports de joie dans le cœur du Roi &amp; sur les visages des Courtisans.
+    </p>
+    <p>
+     Mais voici ce qu'il y eut de plus singulier dans toute cette aventure: le regret sincère qu'avoit
           la Reine d'avoir tourmenté son mari, lui fit prendre une affection plus vive pour le jeune Prince
           que pour sa sœur, &amp; le Roi de son c ôté qui adoroit la Reine, marqua la même préférence à la
           Fille qu'elle avoit souhaitée. Les caresses indirectes que ces deux uniques Epoux se faisoient ainsi
           l'un à l'autre devinrent bientôt un goût très-décidé, &amp; la Reine ne pouvoit non plus se passer
-          de son Fils que le Roi de sa Fille.</p>
-        <p>Ce double événement fit un grand plaisir à tout le Peuple, &amp; le rassura du moins pour un tems
+          de son Fils que le Roi de sa Fille.
+    </p>
+    <p>
+     Ce double événement fit un grand plaisir à tout le Peuple, &amp; le rassura du moins pour un tems
           sur la frayeur de manquer de maîtres. Les esprits-forts qui s'étoient moqués des promesses de la Fée
           furent moqués à leur tour. mais ils ne se tinrent pas pour battus, disant qu'ils n'accordoient pas
           même à la Fée l'infaillibilité du mensonge ni à ses prédictions la vertu de rendre impossibles les
           choses qu'elle annonçoit. D'autres, fondés sur la prédilection qui commençoit à se déclarer,
           poussèrent l'impudence jusqu'à soutenir qu'en donnant un Fils à la Reine &amp; une Fille au Roi,
-          l'événement avoit de tout point démenti la prophétie.</p>
-        <p>Tandis que tout se disposoit pour la pompe du baptême des deux nouveaux nés, &amp; que l'orgueil
+          l'événement avoit de tout point démenti la prophétie.
+    </p>
+    <p>
+     Tandis que tout se disposoit pour la pompe du baptême des deux nouveaux nés, &amp; que l'orgueil
           humain se préparoit à briller humblement aux autels des Dieux...... Un moment, interrompit le
           Druide; tu me brouilles d'une terrible façon. Apprends-moi je te prie, en quel lieu nous sommes.
           D'abord, pour rendre la Reine enceinte, tu la promenois parmi des reliques &amp; des capuchons.
@@ -309,12 +424,16 @@
           vous devez vous ressouvenir que nous sommes dans un pays de Fées, où l'on n'envoie personne en enfer
           pour le bien de son âme, où l'on ne s'avise point de regarder au prépuce des gens pour les damner ou
           les absoudre, &amp; où la Mitre &amp; le Turban verd couvrent également les têtes sacrées pour
-          servir de signalement aux yeux des sages, &amp; de parure à ceux des sots.</p>
-        <p>Je sois bien que les loix de la Géographie qui règlent toutes les Religions du monde, veulent que
+          servir de signalement aux yeux des sages, &amp; de parure à ceux des sots.
+    </p>
+    <p>
+     Je sois bien que les loix de la Géographie qui règlent toutes les Religions du monde, veulent que
           les deux nouveau-nés soient Musulmans, mais on ne circoncit que les mâles, &amp; j'ai besoin que mes
           jumeaux soient administrés tous deux; ainsi trouvez bon que je les baptise. Fois, fois, dis le
-          Druide; voilà, foi de Prêtre, un choix le mieux motivé dont j'aye entendu parler de ma vie.</p>
-        <p>La Reine qui se plaisoit à bouleverser toute l'étiquette, voulut se lever au bout de six jours,
+          Druide; voilà, foi de Prêtre, un choix le mieux motivé dont j'aye entendu parler de ma vie.
+    </p>
+    <p>
+     La Reine qui se plaisoit à bouleverser toute l'étiquette, voulut se lever au bout de six jours,
           &amp; sortir le septième, sous prétexte qu'elle se portoit bien; en effet, elle nourrissoit ses
           enfans. Exemple odieux dont toutes les femmes lui représentèrent très-fortement les conséquences.
           mais Fantasque qui craignoit les ravages du lait répandu, soutint qu'il n'y a point de tems plus
@@ -323,12 +442,16 @@
           belle gorge aux yeux d'un mari, que celle d'une mère qui nourrit ses enfans. Cette intervention des
           maris, dans les soins qui les regardent si peu, fit beaucoup rire les dames, &amp; la Reine, trop
           jolie pour l'être impunément, leur parut dès-lors, malgré ses caprices, presque aussi ridicule que
-          son Epoux, qu'elles appeloient par dérision, le Bourgeois de Vaugirard.</p>
-        <p>Je te vois venir, dit aussi-tôt le Druide, tu voudrois me donner insensiblement le rôle de
+          son Epoux, qu'elles appeloient par dérision, le Bourgeois de Vaugirard.
+    </p>
+    <p>
+     Je te vois venir, dit aussi-tôt le Druide, tu voudrois me donner insensiblement le rôle de
           Schah-bahan, &amp; me faire demander s'il y a aussi un Vaugirard aux Indes, comme un Madrid au Bois
           de Boulogne, un Opéra dans Paris, &amp; un Philosophe à la Cour. mais poursuis ta rapsodie, &amp; ne
-          me tends plus ces pièges; car n'étant ni marié, ni Sultan, ce n'est pas la peine d'être un sot.</p>
-        <p>Enfin, dit Jalamir sans répondre au Druide, tout étant prêt, le jour fut pris pour ouvrir les
+          me tends plus ces pièges; car n'étant ni marié, ni Sultan, ce n'est pas la peine d'être un sot.
+    </p>
+    <p>
+     Enfin, dit Jalamir sans répondre au Druide, tout étant prêt, le jour fut pris pour ouvrir les
           portes du Ciel aux deux nouveau-nés. La Fée se rendit de bon matin au Palois, &amp; déclara aux
           augustes Epoux qu'elle alloit faire à chacun de leurs enfans un présent digne de leur naissance
           &amp; de son pouvoir. Je veux, dit-elle, avant que l'eau magique les dérobe à ma protection, les
@@ -337,16 +460,20 @@
           comme vous devez connoître mieux que moi les qualités qui conviennent au bonheur de votre famille
           &amp; de vos peuples, choisissez vous-mêmes &amp; faites ainsi d'un seul acte de volonté sur chacun
           de vos deux enfans, ce que vingt ans d'éducation font rarement dans la jeunesse, &amp; que la raison
-          ne fait plus dans un âge avancé.</p>
-        <p>Aussi-tôt grande altercation entre les deux Epoux. La Reine prétendoit seule régler à sa
+          ne fait plus dans un âge avancé.
+    </p>
+    <p>
+     Aussi-tôt grande altercation entre les deux Epoux. La Reine prétendoit seule régler à sa
           fantaisie le caractère de toute sa famille; &amp; le bon Prince qui sentoit toute l'importance d'un
           pareil choix, n'avoit garde de l'abandonner au caprice d'une femme dont il adoroit les folies sans
           les partager. Phénix vouloit des enfans qui devinssent un jour des gens raisonnables; Fantasque
           aimoit mieux avoir de jolis enfans, &amp; pourvu qu'ils brillassent à six ans, elle s'embarrassoit
           fort peu qu'ils fussent des sots à trente. La Fée eut beau s'efforcer de mettre leurs Majestés
           d'accord; bientôt le caractère des nouveau-nés ne fut plus que le prétexte de la dispute, &amp; il
-          n'étoit pas question d'avoir raison, mais de se mettre l'un l'autre à la raison.</p>
-        <p>Enfin Discrète imagina un moyen de tout ajuster, sans donner le tort à personne, ce fut que
+          n'étoit pas question d'avoir raison, mais de se mettre l'un l'autre à la raison.
+    </p>
+    <p>
+     Enfin Discrète imagina un moyen de tout ajuster, sans donner le tort à personne, ce fut que
           chacun disposât à son gré de l'enfant de son sexe. Le Roi approuva un expédient qui pourvoyoit à
           l'essentiel, en mettant à couvert des bizarres souhaits de la Reine, l'héritier présomptif de la
           couronne, &amp; voyant les deux enfans sur les genoux de leur gouvernante, il se hâta de s'emparer
@@ -368,8 +495,10 @@
           une impétuosité sans égale, que le Roi, désespéré de son étourderie les eût bien voulu retenir; mais
           c'en étoit fait, &amp; les deux enfans étoient doués sans retour des caractères demandés. Le garçon
           reçut le nom de Prince Caprice, &amp; la fille s'appella la Princesse Raison, nom bizarre qu'elle
-          illustra si bien qu'aucune femme n'osa le porter depuis.</p>
-        <p>Voilà donc le futur successeur au trône orné de toutes les perfections d'une jolie femme, &amp;
+          illustra si bien qu'aucune femme n'osa le porter depuis.
+    </p>
+    <p>
+     Voilà donc le futur successeur au trône orné de toutes les perfections d'une jolie femme, &amp;
           la Princesse sa sœur destinée à posséder un jour toutes les vertus d'un honnête homme, &amp; les
           qualités d'un bon Roi; partage qui ne paraissoit pas des mieux entendus, mais sur lequel on ne
           pouvoit plus revenir. Le plaisant fut que l'amour mutuel des deux Epoux agissant en cet instant avec
@@ -386,8 +515,10 @@
           cause qu'ils ne feront que nous ressembler. Au moins, dit-elle aussi-tôt, en sautant au cou de son
           mari, je suis sûre qu'ils s'aimeront autant qu'il est possible. Phénix touché de ce qu'il y avoit de
           tendre dans cette saillie, se consola par cette réflexion qu'il avoit si souvent occasion de faire
-          qu'en effet la bonté naturelle, &amp; un cœur sensible suffisent pour tout réparer.</p>
-        <p>Je devine si bien tout le reste, dit le Druide à Jalamir en l'interrompant, que j'achèverois le
+          qu'en effet la bonté naturelle, &amp; un cœur sensible suffisent pour tout réparer.
+    </p>
+    <p>
+     Je devine si bien tout le reste, dit le Druide à Jalamir en l'interrompant, que j'achèverois le
           conte pour toi. Ton Prince Caprice fera tourner la tête à tout le monde, &amp; sera trop bien
           l'imitateur de sa mère pour n'en pas être le tourment. Il bouleversera le Royaume en le voulant
           réformer. Pour rendre ses sujets heureux, il les mettra au désespoir, s'en prenant toujours aux
@@ -412,17 +543,23 @@
           répliques de la part des séditieux, dans lesquelles Dieu soit comme on verra briller ta sophistique
           éloquence; car je te connois; c'est sur-tout à médire de ce qui se fait, que ta bile s'exhale avec
           volupté, &amp; ton amere franchise semble se réjouir de la méchanceté des hommes, par le plaisir
-          qu'elle prend à la leur reprocher.</p>
-        <p>Tubleu, Père Druide, comme vous y allez, dit Jalamir tout surpris; quel flux de paroles Où diable
+          qu'elle prend à la leur reprocher.
+    </p>
+    <p>
+     Tubleu, Père Druide, comme vous y allez, dit Jalamir tout surpris; quel flux de paroles Où diable
           avez vous pris de si belles tirades? Vous ne prêchâtes de votre vie aussi bien dans le bois sacré,
           quoique vous n'y parliez pas plus vrai. Si je vous laissois faire, vous changeriez bientôt un conte
           de Fées en un traité de politique, &amp; l'on trouveroit quelque jour dans les cabinets des Princes
           Barbe-bleue ou Peau-d'âne au lieu de Machiavel. mais ne vous mettez point tant en frais pour deviner
-          la fin de mon Conte.</p>
-        <p>Pour vous montrer que les dénouemens ne manquent pas au besoin, j'en vois dans quatre mots
+          la fin de mon Conte.
+    </p>
+    <p>
+     Pour vous montrer que les dénouemens ne manquent pas au besoin, j'en vois dans quatre mots
           expédier un non pas aussi savant que le vôtre, mais peut-être aussi naturel, &amp; à coup sûr plus
-          imprévu.</p>
-        <p>Vous saurez donc que les deux enfans jumeaux étant, comme je l'ai remarqué, fort semblables de
+          imprévu.
+    </p>
+    <p>
+     Vous saurez donc que les deux enfans jumeaux étant, comme je l'ai remarqué, fort semblables de
           figure &amp; de plus habillés de même, le Roi croyant avoir pris son fils tenoit sa fille entre ses
           bras au moment de l'influence, &amp; que la Reine trompée par le choix de son mari ayant aussi pris
           son fils pour sa fille, la Fée profita de cette erreur pour douer les deux enfans de la manière qui
@@ -437,11 +574,14 @@
           enfin mariée à un Roi voisin qu'elle préféra, parce qu'il portoit la plus longue moustache &amp;
           sautoit le mieux à cloche-pied. Pour Fantasque elle mourut d'une indigestion de pieds de Perdrix en
           ragoût qu'elle voulut manger avant de se mettre au lit où le Roi se morfondoit à l'attendre, un soir
-          qu'à force d'agaceries elle l'avoit engagé à venir coucher avec elle.</p>
-        <trailer>
-          <hi rend="italic">FIN.</hi>
-        </trailer>
-      </div>
-    </body>
-  </text>
+          qu'à force d'agaceries elle l'avoit engagé à venir coucher avec elle.
+    </p>
+    <trailer>
+     <hi rend="italic">
+      FIN.
+     </hi>
+    </trailer>
+   </div>
+  </body>
+ </text>
 </TEI>

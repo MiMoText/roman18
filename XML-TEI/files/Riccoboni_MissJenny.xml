@@ -2,77 +2,122 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Riccoboni_MissJenny" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:64.39"> Histoire de Miss Jenny: MiMoText edition </title>
-                <author ref="viaf:41845684 wikidata:Q3087936"> Marie Jeanne
-                    Riccoboni(1713-1792)</author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 94338 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Histoire de Miss Jenny, écrite et envoyée par elle à Miladi, comtesse de
-                        Roscomond</title>
-                    <author>Marie-Jeanne Riccoboni</author>
-                    <date> 1818 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1764 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> autodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-21"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head> PARTIE 1 </head>
-                <p> Je me vois obligée, madame, de justifier ma conduite à vos yeux, ou de vous
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:64.39">
+     Histoire de Miss Jenny: MiMoText edition
+    </title>
+    <author ref="viaf:41845684 wikidata:Q3087936">
+     Marie Jeanne
+                    Riccoboni(1713-1792)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     94338
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Histoire de Miss Jenny, écrite et envoyée par elle à Miladi, comtesse de
+                        Roscomond
+     </title>
+     <author>
+      Marie-Jeanne Riccoboni
+     </author>
+     <date>
+      1818
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1764
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      autodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-21">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     PARTIE 1
+    </head>
+    <p>
+     Je me vois obligée, madame, de justifier ma conduite à vos yeux, ou de vous
                     laisser croire qu'elle est très-singulière, peut-être très-blâmable. Par leurs
                     propositions brillantes, deux personnes attirent actuellement sur moi
                     l'attention d'une foule de spectateurs. Chacun me juge au gré de ses idées, et
@@ -92,20 +137,41 @@
                     empressement; il est jeune encore; on le trouve aimable; il m'aime depuis
                     long-temps. Une passion conservée près de cinq années, semble le mettre en droit
                     d'attendre, de demander, d'espérer le prix de sa constance. Je refuse de le lui
-                    accorder, on s'en étonne, et vous-même, madame, vous <hi rend="italic">
-                        n'approuvez point ce refus obstiné </hi> . Milord Alderson appuie les voeux
+                    accorder, on s'en étonne, et vous-même, madame, vous
+     <hi rend="italic">
+      n'approuvez point ce refus obstiné
+     </hi>
+     . Milord Alderson appuie les voeux
                     de cet amant. Le bruit s'est répandu qu'il vouloit m'adopter. à la vérité, il se
                     propose de déshériter en ma faveur Sir Henri Lindsey, son parent. D' immenses
                     richesses me sont offertes: on n'exige de moi qu'une seule démarche. Celui qui
                     me presse de la faire, a le pouvoir d'en rendre le succès certain... ah! Madame,
                     quelle démarche! Quel époux veut-on me donner! Et quel protecteur ose me
                     demander de la tendresse et du respect! Quand vous m'exhortez par vos lettres à
-                    ne pas négliger <hi rend="italic"> si grands avantages </hi> , savez-vous quel
+                    ne pas négliger
+     <hi rend="italic">
+      si grands avantages
+     </hi>
+     , savez-vous quel
                     est mon sort? Qui je suis? Connoissez-vous ceux dontles sentimens vous
-                    paroissent <hi rend="italic"> généreux </hi> ? Je m'oppose <hi rend="italic">
-                        durement </hi> , dites-vous, <hi rend="italic"> aux tendres intentions d'un
-                        vieillard vénérable </hi> . Je ne veux point consentir à <hi rend="italic">
-                        cette adoption </hi> qui le combleroit de joie. Ah! C'est de tout mon coeur
+                    paroissent
+     <hi rend="italic">
+      généreux
+     </hi>
+     ? Je m'oppose
+     <hi rend="italic">
+      durement
+     </hi>
+     , dites-vous,
+     <hi rend="italic">
+      aux tendres intentions d'un
+                        vieillard vénérable
+     </hi>
+     . Je ne veux point consentir à
+     <hi rend="italic">
+      cette adoption
+     </hi>
+     qui le combleroit de joie. Ah! C'est de tout mon coeur
                     que je méprise aujourd'hui et le titre de sa fille et le motif qui l' engage à
                     vouloir me le donner. Ce vieillard fut sourd à mes cris, quand ma profonde
                     misère me fit tomber à ses pieds. Il fut insensible à mes larmes dans un temps
@@ -162,15 +228,26 @@
                     reconnoître, à me presser de l'attaquer à la chancellerie. Ce lord, dont l'amour
                     obstiné ne se rebute point par mes longs mépris, lui promet le titre de duc, à
                     l'instant où il me recevra de ses mains: ainsi l'ambition et la vengeance
-                    tiennent, dans l'ame de Milord Alderson, la place de ces <hi rend="italic">
-                        sentimens généreux </hi> que vous lui supposez. Mais l'infortunée qu'il
+                    tiennent, dans l'ame de Milord Alderson, la place de ces
+     <hi rend="italic">
+      sentimens généreux
+     </hi>
+     que vous lui supposez. Mais l'infortunée qu'il
                     abandonna si long-temps, ne peut s'y tromper. Non, je ne priveraipoint Sir Henri
                     d'un brillant héritage; les projets de Milord Alderson ne peuvent ni
                     m'intéresser, ni s'accorder avec les miens. Je ne veux rien de lui; je ne veux
                     ni le voir, ni entrer dans aucune négociation sur ses desseins. Par ce que je
                     vais vous apprendre, vous jugerez, madame, si mes refus sont fondés, et
-                    peut-être cesserez-vous de m'accuser de <hi rend="italic"> bizarrerie </hi> et
-                    de <hi rend="italic"> dureté </hi> . Milord Alderson, un des plus riches pairs
+                    peut-être cesserez-vous de m'accuser de
+     <hi rend="italic">
+      bizarrerie
+     </hi>
+     et
+                    de
+     <hi rend="italic">
+      dureté
+     </hi>
+     . Milord Alderson, un des plus riches pairs
                     de la Grande-Bretagne, passa ses premières années à Londres. Il étoit bien fait,
                     d'une figure charmante. Après avoir visité les différentes cours de l'Europe, il
                     reparut dans sa patrie avec mille nouveaux agrémens. Ses voyages et de longues
@@ -499,7 +576,10 @@
                     alliance pût déshonorer personne. Vous n'avez pas réfléchi sur vos expressions,
                     milord; au moins je le suppose. Mais si Edouard consent à mes désirs, êtes-vous
                     déterminé à lui retirer votre amitié, à le priver de vos bienfaits, même à le
-                        <hi rend="italic"> mépriser </hi> ?-oui, reprit le comte d'un ton ferme; si
+     <hi rend="italic">
+      mépriser
+     </hi>
+     ?-oui, reprit le comte d'un ton ferme; si
                     vous l'avez prévenu, s'il se soumet à vos volontés, il a déjà perdu un père en
                     moi, et je ne le connois plus " . " c'est assez, dit Milord Alderson; Edouard ne
                     sait rien, et vous pouvez lui continuer vos bontés. J'ouvre les yeux, je vous
@@ -564,8 +644,12 @@
                     d'Edouard. Ce nom et la vue de cette écriture, réveillèrent ses sens assoupis
                     par le saisissement de son coeur. Ses larmes commencèrent à couler, à ralentir
                     les mouvemens intérieurs dont elle étoit agitée. Elle ouvrit en tremblant cette
-                    lettre, et y trouva ce qui suit: <hi rend="italic"> lettre de Milord Edouard à
-                        Ladi Sara. </hi> " ô, ma chère Sara, quel doit être le trouble de votre
+                    lettre, et y trouva ce qui suit:
+     <hi rend="italic">
+      lettre de Milord Edouard à
+                        Ladi Sara.
+     </hi>
+     " ô, ma chère Sara, quel doit être le trouble de votre
                     coeur! Le mien est percé d'un trait mortel. Quoi, nous sommes séparés! Quoi, on
                     m'a entraîné, trompé, arraché d'auprès de vous! Quel affreux revers! Puis-je
                     vivre et penser! ... mon désespoir, mes larmes ne me laissent pas la liberté
@@ -580,8 +664,12 @@
                     caractères tracés avec difficulté, dont l'oeil pouvoit à peine discerner les
                     traits, que des larmes avoient effacés, firent une douloureuse impression sur le
                     coeur de Ladi Sara. Elle pleura amèrement, et se disposoit à écrire quand on lui
-                    remit cette seconde lettre d'Edouard. <hi rend="italic"> Milord Edouard à Ladi
-                        Sara. </hi> " une cruelle impatience me dévore. J'attends en tremblant votre
+                    remit cette seconde lettre d'Edouard.
+     <hi rend="italic">
+      Milord Edouard à Ladi
+                        Sara.
+     </hi>
+     " une cruelle impatience me dévore. J'attends en tremblant votre
                     réponse. Je la crains, mais je la désire avec ardeur. Hélas! Que va-t-elle
                     m'apprendre? Vous êtes pénétrée d'une douleur égale à la mienne; vous répandez
                     des larmes; mais, ma chère Sara, les donnez-vous toutes à l'amour? Peut-être...
@@ -600,7 +688,11 @@
                     haïssez pas: ah, je vous adore! Hâtez-vous de me dire, de me répéter, que vous
                     m'aimez, que vous m'aimerez toujours " ! Après avoir baigné de ses pleurs les
                     deux lettres d'Edouard, Ladi Sara s'efforça de lui répondre; elle écrivit ce
-                    billet: <hi rend="italic"> Ladi Sara Alderson à Milord Edouard. </hi> " dans
+                    billet:
+     <hi rend="italic">
+      Ladi Sara Alderson à Milord Edouard.
+     </hi>
+     " dans
                     l'ignorance où je suis des motifs de votre éloignement, je ne sais si je dois me
                     plaindre de vous, et n'accuse encore que moi de la plus vive de mes peines.
                     Conservez vos jours; ma vie et mon honneur y sont attachés. Je ne vous hais
@@ -683,8 +775,12 @@
                     yeux qu'il lui plaisoit toujours, sans lui entendre prononcer encore l'assurance
                     flatteuse d'être à lui, de lui conserver son coeur et sa foi; c'étoit pour
                     Edouard une peine insupportable. La veille de son départ, il lui envoya son
-                    portrait, et lui écrivit cette lettre. <hi rend="italic"> lettre de Milord
-                        Edouard à Ladi Sara. </hi> " je pars, ma chère Sara. Hélas! Je pars. Avec
+                    portrait, et lui écrivit cette lettre.
+     <hi rend="italic">
+      lettre de Milord
+                        Edouard à Ladi Sara.
+     </hi>
+     " je pars, ma chère Sara. Hélas! Je pars. Avec
                     quel regret je m'arrache des lieux où vous restez; quel espace immense va nous
                     séparer, et dans quel temps un cruel devoir me force à m'éloigner de vous.
                     Puisse mon idée vous être toujours présente; ce portrait offrira sans cesse à
@@ -716,8 +812,12 @@
                     la réparation qu'elle se devoit à elle-même, lui paroissoit bien au-dessus des
                     vaines considérations qui pouvoient l'arrêter dans le projet d'épouser Edouard.
                     Son inquiétude la toucha sans l'offenser; et voulant calmer le trouble de son
-                    coeur, elle lui fit cette réponse. <hi rend="italic"> Ladi Sara à Milord
-                        Edouard. </hi> " est-il nécessaire que des sermens vous rassurent sur mes
+                    coeur, elle lui fit cette réponse.
+     <hi rend="italic">
+      Ladi Sara à Milord
+                        Edouard.
+     </hi>
+     " est-il nécessaire que des sermens vous rassurent sur mes
                     sentimens. Eh! Mon cher Edouard, les perfides en font. Vous est-il permis de
                     douter? Comment renoncerois-je à celui qui s'est acquis tant de droits sur mon
                     coeur, et se montre si digne de mon attachement? Edouard, mon cher Edouard, nous
@@ -1152,7 +1252,14 @@
                     sans faire le moindre mouvement, ni retirer ses mains qui pressoient le portrait
                     d'Edouard contre sa bouche. Combien de fois la mienne y a cherché la trace de
                     ses pleurs. ô Sara! ô ma mère! Vous avez souhaitéque la mémoire d'Edouard me fût
-                        <hi rend="italic"> chère </hi> et <hi rend="italic"> respectable </hi> ;
+     <hi rend="italic">
+      chère
+     </hi>
+     et
+     <hi rend="italic">
+      respectable
+     </hi>
+     ;
                     vous n'osâtes exiger mon respect pour vous-même, puissé-je mourir malheureuse,
                     et méprisée à l'instant où la mémoire de Ladi Sara cessera de m'être chère et
                     respectable! ... pardonnez, madame, ah! Pardonnez à une fille attendrie des
@@ -1335,8 +1442,11 @@
                     les plus ardens?Miss Clifford vouloit deviner lequel des deux frères s'étoit
                     trouvé dans le bosquet. La figure de la personne que nous avions vue annonçoit
                     plus de dix-neuf ans, et son air vif et enjoué ne convenoit point à Milord
-                    Clare: trois jours après notre promenade, cette lettre éclaircit nos doutes: <hi
-                        rend="italic"> lettre de Sir James Hantley, à Miss Jenny Glanville. </hi> "
+                    Clare: trois jours après notre promenade, cette lettre éclaircit nos doutes:
+     <hi rend="italic">
+      lettre de Sir James Hantley, à Miss Jenny Glanville.
+     </hi>
+     "
                     madame, depuis un mois que je suis chez Milord Clare, contemplant avec effroi
                     les tristes effets d'un amour malheureux, je croyois m'être affermi par mes
                     réflexions contre un penchant qui m'a toujours paru redoutable; mais un trait
@@ -1530,7 +1640,11 @@
                     ses pleurs; perdue, ruinée, abîmée! Abandonnée dans l'immensité du monde! Sans
                     parens, sans amis, sans bien, sans appui. ô Ladi Sara! ô ma chère maîtresse,
                     veillez du haut du ciel sur votre malheureuse fille! " je sentis un frémissement
-                    terrible à ces mots d' <hi rend="italic"> abîmée, perdue </hi> ; j'étois bien
+                    terrible à ces mots d'
+     <hi rend="italic">
+      abîmée, perdue
+     </hi>
+     ; j'étois bien
                     éloignée pourtant d'en envisager toute l'horreur. Je pressois Lidy de
                     s'expliquer; j'attendois en tremblant qu'elle parlât; maisses cris, ses pleurs,
                     son saisissement, suspendoient en elle la faculté de s'énoncer. Elle ne
@@ -1795,11 +1909,15 @@
                     découvrir un moyen de réussir, que nos vues bornées ne peuvent même entrevoir "
                     . Je consentis sans peine à l'accompagner. Le lendemain, nous partîmes toutes
                     trois pour Windsor. La terre de milord tenoit à la forêt; et comme Mistriss
-                    Hammon l'avoit annoncé, elle offroit un aspect charmant. </p>
-            </div>
-            <div type="chapter">
-                <head> PARTIE 2 </head>
-                <p> La situation riante de cette maison, me rappela les jardins de Milord Clare, et
+                    Hammon l'avoit annoncé, elle offroit un aspect charmant.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     PARTIE 2
+    </head>
+    <p>
+     La situation riante de cette maison, me rappela les jardins de Milord Clare, et
                     la différence que si peu de temps venoit de mettre dans mon sort. Cependant la
                     pureté de l'air, la beauté des promenades, les soins tendres et attentifs de
                     Mistriss Hammon, modérèrent un peu mon affliction. Les chagrins embarrassans que
@@ -1898,9 +2016,14 @@
                     Milord Alderson. J'obtenois déjà des grâces légères. à laprière de son
                     chapelain, je lui présentois les humbles requêtes de ses vassaux ou de ses
                     fermiers. J'obligeois toute sa maison; le respect de ses gens pour moi croissoit
-                    avec les distinctions du maître. On commençoit à se dire en secret: <hi
-                        rend="italic"> Miss Jenny </hi>
-                    <hi rend="italic"> sera bientôt Miladi Alderson. </hi> on croyoit milord fort
+                    avec les distinctions du maître. On commençoit à se dire en secret:
+     <hi rend="italic">
+      Miss Jenny
+     </hi>
+     <hi rend="italic">
+      sera bientôt Miladi Alderson.
+     </hi>
+     on croyoit milord fort
                     attaché à ma personne. Ceux qui le pensoient, ne savoient pas combien celui dont
                     la complaisance amuse un grand, peut séduire son esprit sans intéresser son
                     coeur. Je vécus plus d'un mois dans cette espèce d'intimité avec milord;
@@ -2431,10 +2554,17 @@
                     Le ministre, son clerc, Lidy, le valet-de-chambre du baronnet, la femme qui nous
                     avoit introduites, et ce jeune cavalier, furent les seuls témoins de nos mutuels
                     engagemens. Mon désordre contraignit Lidy à répondre pour moi aux interrogations
-                    du ministre. Je ne pus retenir mes larmes quand à la question: <hi rend="italic"
-                        > qui donne cette femme à cet homme? </hi> celui qui venoit de parler à Sir
+                    du ministre. Je ne pus retenir mes larmes quand à la question:
+     <hi rend="italic">
+      qui donne cette femme à cet homme?
+     </hi>
+     celui qui venoit de parler à Sir
                     James, et m'étoit inconnu, prit ma main, et la présentant au baronnet, dit tout
-                    haut <hi rend="italic"> moi. </hi> que ma situation me sembla triste, madame!
+                    haut
+     <hi rend="italic">
+      moi.
+     </hi>
+     que ma situation me sembla triste, madame!
                     Comparée à celle d'une fille élevée dans le sein de ses parens, sous les yeux
                     d'un tendre père: pompeusement conduite par lui-même au pied des autels, pour y
                     prendre le nom d'un amant, fier de recevoir sa main, d'acquérir le droit d'en
@@ -3043,7 +3173,11 @@
                     choisie vous-même, j'en augurerai très-bien de votre caractère. Mais dites-moi
                     depuis quel temps vous enchaînez le coeur de ce lord? " " je répète à miladi,
                     repris-je, que sa pitié m'étonne. Plus je m'examine, moins je crois pouvoir
-                    devenir l'objet d'un <hi rend="italic"> juste dédain </hi> . Jamais je ne vis
+                    devenir l'objet d'un
+     <hi rend="italic">
+      juste dédain
+     </hi>
+     . Jamais je ne vis
                     Milord Danby, et n'imagine point ce qui me soumet à entendre de pareils
                     discours, ou à répondre à des interrogations si choquantes. " " je vous l'ai
                     déjà dit, miss, repartit miladi, ces grands airs ne vous conviennent point.
@@ -3133,7 +3267,11 @@
                     Je puis devenir votre amie, votre protectrice. Vous m'intéressez. Je commence à
                     vous excuser. Vous êtes jeune, Milord Danby est aimable, il vous a plu; le
                     sentiment prépare à la confiance. Mais comment est-il parvenu à vous en imposer,
-                    quelles sont ces <hi rend="italic"> intrigues adroites </hi> que vous lui
+                    quelles sont ces
+     <hi rend="italic">
+      intrigues adroites
+     </hi>
+     que vous lui
                     reprochez? " " ni l'amour, ni l'imprudence, n'ont causé mon malheur,
                     m'écriai-je: on ne m'a point séduite; on m'a trompée, madame, indignement
                     trompée! C'est par une cérémonie sainte, des sermens sacrés, qu'un inhumain
@@ -3143,8 +3281,11 @@
                     mouvement de surprise, se leva, ordonna à sa femme de chambre d'aller l'attendre
                     chez Mistriss Roberts, rêva, se promena avec assez de vivacité, et revenant à
                     moi: " songez-vous bien, miss, me dit-elle, à ce que vous voulez me faire
-                    entendre? <hi rend="italic"> des sermens sacrés? Une cérémonie sainte? </hi>
-                    comment expliquer ces étranges discours? Je le vois; la douleur vous égare.
+                    entendre?
+     <hi rend="italic">
+      des sermens sacrés? Une cérémonie sainte?
+     </hi>
+     comment expliquer ces étranges discours? Je le vois; la douleur vous égare.
                     Calmez vos sens trop agités; revenez à vous-même, cessez de me craindre. Une
                     folle passion ne m'attache point à Milord Danby. Ma curiosité vient de changer
                     d'objet. La tendre compassion que vous m'inspirez, l'excite seule en ce moment.
@@ -3162,7 +3303,11 @@
                     toi! " miladi laissa couler quelques larmes, aida avec bonté à me relever, et
                     s'adressant à Lidy: " quecette jeune infortunée me touche, lui dit-elle! Vous
                     paroissez avoir sa confiance, expliquez-moi ce langage qui m'étonne: elle est
-                    mariée, et <hi rend="italic"> n'a point d'époux! </hi> quel est donc ce mari
+                    mariée, et
+     <hi rend="italic">
+      n'a point d'époux!
+     </hi>
+     quel est donc ce mari
                     distingué? ... assurément ce ne peut être? ... j'espère que ce n'est point...
                     elle s'arrêta. " " Sir James Huntley est le seul homme que le malheur de Miss
                     Jenny approcha d'elle, madame, répondit cette fille; elle n'en connoît point
@@ -3442,11 +3587,15 @@
                     maison. Milord Danby, en lui avouant le crime de Palmer, la prévint sur
                     l'innocence de sa femme, et la conjura de ne point l'instruire d'un funeste
                     secret, dont la découverte, inutile à mes intérêts, détruiroit à jamais le
-                    bonheur et la paix d'une personne estimable. </p>
-            </div>
-            <div type="chapter">
-                <head> PARTIE 3 </head>
-                <p> Une sombre mélancolie, une extrême répugnance à prendre des alimens,
+                    bonheur et la paix d'une personne estimable.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     PARTIE 3
+    </head>
+    <p>
+     Une sombre mélancolie, une extrême répugnance à prendre des alimens,
                     entretenoient ma foiblesse; Lidy renfermoit au fond de son coeur une partie de
                     ses chagrins, elle craignoit d'irriter les miens. Nous gardions souvent un
                     triste silence; mais nos regards ne se rencontroient point sans exciter nos
@@ -3483,8 +3632,12 @@
                     voudrez; mais voyez sa lettre, continua-t-elle; son inquiétude et l'agitation de
                     ses esprits ont peut-être changé ses idées. " Lidy ne put me persuader de fixer
                     mes regards sur des caractères devenus si odieuxpour moi. à ma prière elle
-                    rompit le cachet, et lut ce qui suit: <hi rend="italic"> lettre de Milord Danby,
-                        à Miss Jenny Glanville. </hi> " après avoir profané les noms sacrés d'ami,
+                    rompit le cachet, et lut ce qui suit:
+     <hi rend="italic">
+      lettre de Milord Danby,
+                        à Miss Jenny Glanville.
+     </hi>
+     " après avoir profané les noms sacrés d'ami,
                     d'époux, de protecteur; avili celui d'amant, abusé de tous! Sous quel titre
                     oserai-je encore me montrer attaché à vous, à vos intérêts, fille charmante;
                     objet de ma profonde vénération, de mon immortelle tendresse! Ah! Punissez-moi,
@@ -3525,7 +3678,11 @@
                     pourrai recevoir au pied des autels le nom délicieux que j'avois usurpé. Une
                     simple promesse écrite de votre main, satisfera tous les désirs que le plus
                     malheureux des hommes ose encore former. Dès demain, dès ce soir, on vous
-                    conduira dans votre terre. " <hi rend="italic"> p. S. </hi> " au nom du ciel,
+                    conduira dans votre terre. "
+     <hi rend="italic">
+      p. S.
+     </hi>
+     " au nom du ciel,
                     n'écoutez plus cette fierté cruelle, source de tous nos maux. Ne me désespérez
                     point par un refus méprisant: eh! Grand dieu, qui peut prévoir où m'entraîneroit
                     la crainte de vous savoir errante dans le monde, exposée à mille dangers, celle
@@ -3890,8 +4047,11 @@
                     il me pria de ne point m'abandonner à la tristesse, et me répéta plusieurs fois
                     que mes qualités estimables me procureroient de tendres et de puissans amis. Le
                     lendemain il fut exact, et me remit en entrant, un billet de Miladi D'Anglesey.
-                    Je l'ouvris avec une vive émotion, et j'y lus ces paroles consolantes: <hi
-                        rend="italic"> Miladi D'Anglesey à Miss Jenny. </hi> " chère miss, j'ai
+                    Je l'ouvris avec une vive émotion, et j'y lus ces paroles consolantes:
+     <hi rend="italic">
+      Miladi D'Anglesey à Miss Jenny.
+     </hi>
+     " chère miss, j'ai
                     chargé M Jennisson de vous expliquer mes intentions. Le mérite qu'il a découvert
                     en vous, m'attache à vos intérêts. Si des soins indispensables ne me retenoient
                     ici, je me ferois un plaisir véritable d'aller vous voir, vous consoler, et vous
@@ -4150,8 +4310,11 @@
                     leur bonheur entre nos mains. D' une idée si dangereuse, trop fortement imprimée
                     dans nos ames, naît cette pitié généreuse et cette tendre condescendance pour
                     leurs désirs, que les ingrats nomment foiblesse quand elle cesse de les rendre
-                    heureux. " oui, ma chère Jenny, continua la comtesse, j'ai <hi rend="italic">
-                        éprouvé des disgrâces </hi> . Je trouvai dans l'accomplissement de mes voeux
+                    heureux. " oui, ma chère Jenny, continua la comtesse, j'ai
+     <hi rend="italic">
+      éprouvé des disgrâces
+     </hi>
+     . Je trouvai dans l'accomplissement de mes voeux
                     les plus ardens, la juste punition d'une démarche hardie et cruelle, puisqu'elle
                     accabloit de douleur deux familles illustres, à l' instant même où elles
                     s'occupoient du soin de m'assurer une grande fortune. Je lis dans vos yeux,
@@ -4170,8 +4333,12 @@
                     paroître excusable. Tous ceux qu'elle honore de sa familiarité, rendent une
                     justice due aux qualités respectables de son coeur. Lisez donc ici, madame, le
                     récit sincère qu' elle me fit; elle parle elle-même, et je vous prie de
-                    l'entendre avec indulgence. <hi rend="italic"> histoire de miladi, Comtesse
-                        D'Anglesey. </hi> les Comtes D'Arundel et De Lattimer, amis depuis leur
+                    l'entendre avec indulgence.
+     <hi rend="italic">
+      histoire de miladi, Comtesse
+                        D'Anglesey.
+     </hi>
+     les Comtes D'Arundel et De Lattimer, amis depuis leur
                     enfance, épousèrent en même temps les deux filles du dernier Lord D'Anglesey.
                     L'aînée n'apporta à Milord Arundel qu'un titre pour le second de ses fils. La
                     cadette, fort riche par l'héritage d'une de ses tantes, augmenta
@@ -4320,8 +4487,14 @@
                     dont il les prononça, l'expression de ses regards et la vue du papier qu'il me
                     présentoit, portèrent le trouble et l'agitation dans mon ame. Je pris la lettre
                     et la serrai promptement. Quand je fus seule, je l' ouvris avec vivacité, et j'y
-                    lus ces paroles: <hi rend="italic"> lettre de milord, Comte D'Anglesey, à Miss </hi>
-                    <hi rend="italic"> Adeline Hymore. </hi> " si Miss Adeline n'avoit point oublié
+                    lus ces paroles:
+     <hi rend="italic">
+      lettre de milord, Comte D'Anglesey, à Miss
+     </hi>
+     <hi rend="italic">
+      Adeline Hymore.
+     </hi>
+     " si Miss Adeline n'avoit point oublié
                     un temps, toujours présent à mon idée, si elle entendoit encore le langage de
                     mes yeux; si, comme autrefois,les siens daignoient me parler, je ne serois pas
                     forcé de lui rappeler une amitié éteinte dans son coeur, mais vive et ardente au
@@ -4339,8 +4512,12 @@
                     m'expliquer? Miss Adeline détourne ses regards. Elle liroit dans les miens que
                     mon coeur l'adore! Mais l'ingrate ne veut plus m'entendre. " je recommençai
                     plusieurs fois cette lettre, si émue en la parcourant, que j'avois peine à en
-                    comprendre le sens. Je répétois avec transport: <hi rend="italic"> elle y liroit
-                        que mon coeur l'adore! </hi> j'ignorois encore l'espèce de mes sentimens
+                    comprendre le sens. Je répétois avec transport:
+     <hi rend="italic">
+      elle y liroit
+                        que mon coeur l'adore!
+     </hi>
+     j'ignorois encore l'espèce de mes sentimens
                     pour le Comte D' Anglesey. Cette tendre expression fut un trait de lumière qui
                     m'en découvrit la nature et la force. Livrée à ce trouble enchanteurdont le
                     premier aveu d'une passion inspirée et sentie remplit notre ame, j'écrivis au
@@ -4585,8 +4762,11 @@
                     femmes, retenant seulement Bénédicte, qui couchoit près de moi. Alors elle me
                     donna une lettre: " milord vous prie de lire attentivement, miss, me dit-elle;
                     hâtez-vous,le temps presse, et votre détermination est d'une importance extrême.
-                    " j'ouvris la lettre en tremblant, et j'y lus ces paroles: <hi rend="italic">
-                        lettre de Milord D'Anglesey, à Miss Adeline. </hi> " c'est en ce moment que
+                    " j'ouvris la lettre en tremblant, et j'y lus ces paroles:
+     <hi rend="italic">
+      lettre de Milord D'Anglesey, à Miss Adeline.
+     </hi>
+     " c'est en ce moment que
                     vous tenez véritablement dans vos mains ma vie ou ma mort. Je serai à trois
                     heures précises à la petite porte du parc. Une chaise pour vous et Bénédicte
                     vous y attendra; mes chevaux sont prêts. Un ministre, parti par mes ordres, nous
@@ -4722,8 +4902,11 @@
                     amis, tous ceux dont les qualités apparentes promettent un amusement momentané.
                     Milord D'Anglesey, doux, complaisant et foible, adopta aisément les faux
                     préjugés de ses nouvelles connoissances; de mauvais conseils, de plus mauvais
-                    exemples séduisirent son esprit, l'emportèrent sur ses principes. <hi
-                        rend="italic"> faire comme les autres </hi> est une dangereuse leçon; trop
+                    exemples séduisirent son esprit, l'emportèrent sur ses principes.
+     <hi rend="italic">
+      faire comme les autres
+     </hi>
+     est une dangereuse leçon; trop
                     souvent elle conduit à renoncer aux inspirationsde son coeur, à contracter sans
                     goût des habitudes, à les conserver, même en se les reprochant, par la
                     difficulté d'en reprendre de conformes à ses premiers penchans. Si le comte ne
@@ -5093,7 +5276,10 @@
                     moi, c'est dans mes bras que vous vous livrez à la crainte.Je croyois vous
                     inspirer plus de confiance. Que pensez-vous donc? Qu'osez-vous imaginer? Malgré
                     les plus fortes apparences, le Comte D'Arundel n'est point, il ne peut être le
-                        <hi rend="italic"> complice </hi> de Milord Danby, et vous deviez...-ah! Ne
+     <hi rend="italic">
+      complice
+     </hi>
+     de Milord Danby, et vous deviez...-ah! Ne
                     vous offensez pas, madame, interrompis-je, pénétrée de ce reproche, ne vous
                     offensez pas d'un mouvement involontaire, ou d'une expression indiscrète; tout
                     ce qui me rappelle l'instant où je fus cruellement séduite, tout ce qui me
@@ -5116,11 +5302,15 @@
                     intervalle, l'effet que Miladi D'Anglesey désiroit. Je me rappelai tout ce
                     qu'elle m'avoit dit de ce frère aimable et vertueux; je condamnai mes craintes,
                     mes soupçons, et je me disposai à l'écouter avec toute la confiance qu'il
-                    méritoit de m'inspirer. </p>
-            </div>
-            <div type="chapter">
-                <head> PARTIE 4 </head>
-                <p> Quand les femmes de miladi furent retirées, milord prit la parole, et
+                    méritoit de m'inspirer.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     PARTIE 4
+    </head>
+    <p>
+     Quand les femmes de miladi furent retirées, milord prit la parole, et
                     s'adressant à moi: " pendant le cours de mes premiers voyages, dit-il, je connus
                     Sir James Huntley; nous nous rencontrâmes en France, et parcourûmes ensemble
                     l'Allemagne et une partie de l'Italie. Mille qualités solides, de l'esprit, une
@@ -5558,13 +5748,21 @@
                     traite de partialité. Tenez, ajouta-t-elle en me donnant une lettre de Milord
                     Arundel, voyez sa réponse: si je n'ai pas pénétré plus loin que lui-même dans
                     son coeur, je n'entends point le sens de ses expressions. " je pris la lettre de
-                    milord, et j'y trouvai ces paroles: <hi rend="italic"> lettre de Milord Arundel,
-                        à Miladi D'Anglesey. </hi> " je n'écrirai point à Miss Jenny: non, madame,
+                    milord, et j'y trouvai ces paroles:
+     <hi rend="italic">
+      lettre de Milord Arundel,
+                        à Miladi D'Anglesey.
+     </hi>
+     " je n'écrirai point à Miss Jenny: non, madame,
                     il m'est impossible de lui écrire dans cette occasion. Si j'osois lui donner un
                     conseil, je craindrois de me repentir, le reste de ma vie, de n'y avoirpoint
                     assez réfléchi. Je croyois le sort de Nevil décidé. Quand je partis, Miss Jenny
                     ne l'aimoit pas; si, depuis mon absence, ses sentimens ont changé, n'est-elle
-                    pas libre? La <hi rend="italic"> presser </hi> , moi! Eh, pourquoi? Son coeur me
+                    pas libre? La
+     <hi rend="italic">
+      presser
+     </hi>
+     , moi! Eh, pourquoi? Son coeur me
                     paroissoit paisible; pendant deux ans je me suis plu à penser que l'amitié le
                     remplissoit tout entier; mais si Nevil l'a touché, Miss Jenny est maîtresse de
                     ses volontés. Que lui dirois-je? J'apprends par Madame Montfort que Miladi
@@ -5580,8 +5778,11 @@
                     relisant votre lettre, il me paroît moins sûr que Miss Jenny partage la
                     tendresse de Nevil. Elle se refuse à ses voeux, dites-vous. Eh! D'où vient, d'où
                     vient donc marquer de l'empressement pour une union qu'elle ne désire pas?
-                    Pourquoi me prier de <hi rend="italic"> vous aider à vaincre sa résistance </hi>
-                    ? Eh, mon dieu, quelle partialité en faveur de Nevil! LaissezMiss Jenny disposer
+                    Pourquoi me prier de
+     <hi rend="italic">
+      vous aider à vaincre sa résistance
+     </hi>
+     ? Eh, mon dieu, quelle partialité en faveur de Nevil! LaissezMiss Jenny disposer
                     d'elle-même; vous avez tant de pouvoir sur son esprit, craignez d' en abuser; la
                     position de Miss Jenny nous impose tant d'égards! La conseiller, c'est la
                     contraindre peut-être. Je sens une sorte de peine, dont j'expliquerois
@@ -5660,9 +5861,13 @@
                     convenoit plus à la Comtesse D'Anglesey de traiter comme sa parente, comme son
                     amie, une personne dont l'infortune connue exigeoit la retraite. Sans doute elle
                     cherchoit, avec Milord Arundel, les moyens de me préparer à cette dure
-                    séparation. J'entendis un soir miladi s'écrier: <hi rend="italic"> non, mon
+                    séparation. J'entendis un soir miladi s'écrier:
+     <hi rend="italic">
+      non, mon
                         frère, non, Miss Jenny ne pourra point y consentir, elle ne m'abandonnera
-                        jamais volontairement. </hi> frappée de ces expressions, je passai la nuit
+                        jamais volontairement.
+     </hi>
+     frappée de ces expressions, je passai la nuit
                     dans la plus triste inquiétude.Agitée, troublée, hors de moi-même, je courus le
                     matin à l'appartement de la comtesse, et me jetant entre ses bras: " ah!
                     Parlez-moi, madame, lui dis-je en pleurant, parlez-moi! Je dois vous quitter, je
@@ -5776,8 +5981,12 @@
                     la main de Miss Jenny, comme un bien à lui, déjà possédé et dont la réclamation
                     lui paroît juste. Mais écoutez-le lui-même. " prenant alors deux lettres sur la
                     cheminée, malgré mes oppositions et mes prières, elle en ouvrit une, et me força
-                    d'entendre ces paroles: <hi rend="italic"> lettre de Milord Comte Danby, à
-                        Milord Comte D'Arundel. </hi> " le souvenir toujours vif des justes
+                    d'entendre ces paroles:
+     <hi rend="italic">
+      lettre de Milord Comte Danby, à
+                        Milord Comte D'Arundel.
+     </hi>
+     " le souvenir toujours vif des justes
                     reproches que j'ai mérités de vous, milord, me feroit craindre de vous trouver
                     peu favorable à mes intentions, si, dans une démarche où l'honneur s'accorde
                     avec mon penchant, je n'étois sûr de votre approbation. Je puis enfin réparer
@@ -5828,8 +6037,11 @@
                     de la complaisance de Miss Jenny, qu'elle entende sa lettre, si elle ne peut se
                     déterminer à la lire elle-même.-voyons donc, dit miladi en rompant le cachet,
                     comment il croit justifier une conduite si basse, et engager Miss Jenny à la lui
-                    pardonner. Et tout de suite elle lut à haute voix ces paroles: <hi rend="italic"
-                        > lettre de Milord Danby, à Miss Jenny De Salisbury. </hi> " j'ai gardé le
+                    pardonner. Et tout de suite elle lut à haute voix ces paroles:
+     <hi rend="italic">
+      lettre de Milord Danby, à Miss Jenny De Salisbury.
+     </hi>
+     " j'ai gardé le
                     silence pénible que je m'étois imposé. Je l'ai gardé sans me plaindre: j' ai
                     souffert loin de vous; j'ai respecté votre juste colère. Mais quand je puis
                     reprendre un titre si long-temps regretté, me sera-t-il permis d'espérer mon
@@ -5999,8 +6211,11 @@
                     exact de toutes nos démarches; elle s'efforçoit de le dissiper par des récits
                     amusans, et pendant plusieurs jours les fêtes que donnoit la duchesse pour
                     célébrer le retour de son neveu, devinrent l'objet de mille plaisanteries
-                    légères. Elle prioit le comte de lui aider à découvrir quelle étoit cette <hi
-                        rend="italic"> femme parfaite </hi> , destinée par Miladi Surrey au bonheur
+                    légères. Elle prioit le comte de lui aider à découvrir quelle étoit cette
+     <hi rend="italic">
+      femme parfaite
+     </hi>
+     , destinée par Miladi Surrey au bonheur
                     d'être sa nièce. Elle en parloit en badinant: cependant elle ne cachoit point un
                     désir curieux de la connoître. Ce désir m'occupoit aussi; mais par une
                     bizarrerie dont j'ignorois le principe, je ne pouvois me persuader qu'ellefût
@@ -6055,7 +6270,11 @@
                     différence des chagrins qu'un autre nous cause, au malheur véritable de se
                     plaindre de soi, de son injustice, de sa propre imprudence: en lisant cette
                     fatale lettre, je crus sentir pour la première fois les traits aigus de la
-                    douleur. <hi rend="italic"> lettre de Milord Arundel, à Miss Jenny. </hi> " ma
+                    douleur.
+     <hi rend="italic">
+      lettre de Milord Arundel, à Miss Jenny.
+     </hi>
+     " ma
                     confiance m'engage à vous découvrir un projet formé depuis long-temps entre la
                     Duchesse De Surrey et moi. Vous pouvez, mon aimable amie, servir à la fois
                     toutes les personnes qu'il intéresse. Vous avez eu le temps de connoître,
@@ -6141,7 +6360,11 @@
                     auprès de miladi, l'entendre lui parler de ses sentimens; j'imaginois que ma
                     présence en avoit retardé l'aveu. Appuyé de l'approbation de Milord Arundel,
                     rien ne devoit plus gêner son coeur: eh! Qui pouvoit l'engager à se taire, si
-                    miladi <hi rend="italic"> le voyoit avec plaisir </hi> ? Ces mouvemens
+                    miladi
+     <hi rend="italic">
+      le voyoit avec plaisir
+     </hi>
+     ? Ces mouvemens
                     tumultueux ne cessoient qu'à l'instant où la comtesse montoit chez moi. Je
                     l'examinois timidement, avec une attention mêlée de crainte; jecherchois à
                     pénétrer si rien n'occupoit son ame; je lui faisois des questions sur ses
@@ -6295,12 +6518,18 @@
                     moi excitoient-ils le chagrin du Comte De Clare? Que lui importoit le choix du
                     frère de Miladi D'Anglesey? N' étoit-il pas uniquement attaché à la comtesse? Sa
                     tante ignoroit-elle le penchant véritable de son coeur, pouvoit-elle se tromper
-                    à ses sentimens? <hi rend="italic"> il ne vit, il ne respire point absent de
-                        Miladi D'Anglesey, il attend impatiemment l'heure de la voir, </hi>
-                    disoit-elle; mais avant mon indisposition, il nous voyoit toujours ensemble:
+                    à ses sentimens?
+     <hi rend="italic">
+      il ne vit, il ne respire point absent de
+                        Miladi D'Anglesey, il attend impatiemment l'heure de la voir,
+     </hi>
+     disoit-elle; mais avant mon indisposition, il nous voyoit toujours ensemble:
                     combien de fois ses regards passionnés avoient semblé me faire entendre qu'il ne
-                    cherchoit, ne désiroit que moi! Il ne vouloit rien presser, il craignoit la <hi
-                        rend="italic"> médiation de ses amis </hi> , il se taisoit avec la comtesse:
+                    cherchoit, ne désiroit que moi! Il ne vouloit rien presser, il craignoit la
+     <hi rend="italic">
+      médiation de ses amis
+     </hi>
+     , il se taisoit avec la comtesse:
                     sur quoi donc le jugeoit-on si sensible pour elle? Peut-être étoit-il
                     actuellement dans la même position où Milord D'Anglesey se trouvoit entre elle
                     et Ladi Sophie. Cette idée m'attendrit sur le sort de mon aimable amie; elle
@@ -6484,8 +6713,12 @@
                     Livrée à ces réflexions, je m'affligeois; mes larmes trompèrent M Williams, il
                     se méprit au sujet de mon attendrissement; et me présentant la lettre de Milord
                     Alderson, il me pressa de la lire. Je l'ouvris avec beaucoup d'émotion. Ah,
-                    madame! Que devins-je, en y voyant ces paroles: <hi rend="italic"> lettre de
-                        Milord Alderson, à Miss Jenny De Salisbury. </hi> " si Miss Salisbury veut
+                    madame! Que devins-je, en y voyant ces paroles:
+     <hi rend="italic">
+      lettre de
+                        Milord Alderson, à Miss Jenny De Salisbury.
+     </hi>
+     " si Miss Salisbury veut
                     trouver un père en moi, si elle désire que ma bénédiction, ma tendresse et mes
                     biens soient son partage, qu' elle quitte à l'instantla maison du Comte
                     D'Arundel; qu'elle la quitte pour toujours, et renonce à l'union projetée. J' ai
@@ -6561,8 +6794,11 @@
                     avec ardeur: " Jenny, ma chère Jenny, répéta-t-il plusieurs fois! " il
                     s'éloigna, fit quelques pas, revint à moi, me pressa dans ses bras, soupira,
                     s'attendrit: enfin me présentant un paquet cacheté de ses armes, dont
-                    l'enveloppe étoit sans adresse, et un plus petit, où il avoit écrit, <hi
-                        rend="italic"> pour Miss Jenny: </hi> " daignez garder le dépôt que je vous
+                    l'enveloppe étoit sans adresse, et un plus petit, où il avoit écrit,
+     <hi rend="italic">
+      pour Miss Jenny:
+     </hi>
+     " daignez garder le dépôt que je vous
                     confie, me dit-il; si je ne vous le redemande point aujourd'hui, en ouvrant ma
                     lettre vous connoîtrez instamment d'attendre, pour vous en instruire, que vous
                     ayez de mes nouvelles. " en finissant de parler, il m'embrassa encore, sortit,
@@ -6572,7 +6808,11 @@
                     s'en emparer. Je passai plus d'une heure dans cette situation pénible, les yeux
                     attachés sur ces papiers: j'allois chercher Miladi D'Anglesey, lui apprendre la
                     cause de mon agitation, quand des cris perçans et redoublés frappèrent mes
-                    oreilles. <hi rend="italic"> il est mort! </hi> il est mort! Répétoient
+                    oreilles.
+     <hi rend="italic">
+      il est mort!
+     </hi>
+     il est mort! Répétoient
                     plusieurs voix. Je courus, je volai où ce bruit terrible se faisoit entendre...
                     ah, madame! Quel spectacle! Milord Arundel, pâle, sanglant, sans mouvement,
                     soutenu, environné de ses gens qui poussoient vers le ciel d'affreux
@@ -6595,7 +6835,11 @@
                     Elles me la présentèrent; malgré mon saisissement et l'accablement de mes
                     esprits, je voulus connoître ses intentions pour m'y conformer. J'ouvris en
                     tremblant cette lettre fatale; et les yeux baignés de larmes, j'y lus ces
-                    paroles: <hi rend="italic"> Milord Arundel à Miss Jenny. </hi> " mon testament
+                    paroles:
+     <hi rend="italic">
+      Milord Arundel à Miss Jenny.
+     </hi>
+     " mon testament
                     est dans le paquet que vous avez reçu de moi. Remettez-le à Milord Morgan.
                     Consolez-vous, consolez Miladi D'Anglesey. J'ai renfermé sous la même enveloppe
                     les dernières expressions de ma tendresse; puisse-t-elle vous persuader, toucher
@@ -6618,8 +6862,11 @@
                     tendre, firent d'impression sur mon ame! Qu'elle m'est chère cette lettre, que
                     je l'ai souvent arrosée de mes larmes! Dans aucun temps de ma vie, elle ne
                     frappera mes regards, sans ranimer tous les sentimens que je dois à la mémoire
-                    de Milord Arundel. <hi rend="italic"> lettre du Comte D'Arundel, à Miss Jenny.
-                    </hi> " à l'instant où vous lirez cette lettre, un homme qui vous adore
+                    de Milord Arundel.
+     <hi rend="italic">
+      lettre du Comte D'Arundel, à Miss Jenny.
+     </hi>
+     " à l'instant où vous lirez cette lettre, un homme qui vous adore
                     n'existera plus. Il tremble, il frémit en songeant aux larmes qu'il va peut-être
                     faire couler. ô ma chère Jenny! Ne me pleurez point. Que jamais le coeur de ma
                     sensible amie ne se livre à la douleur, à des regrets trop amers; mais qu'il
@@ -6633,12 +6880,20 @@
                     l' accomplissement de sa promesse. Consolez-vous ensemble, ne m'oubliez pas: que
                     ma mémoire vive dans vos coeurs, mais qu'elle n'en trouble point la paix. Adieu,
                     ma chère Jenny, adieu pour jamais. " pour jamais! Ah dieu! Aimable et cher
-                    Arundel! Non je ne <hi rend="italic"> t'oublierai point </hi> . Tu seras sans
+                    Arundel! Non je ne
+     <hi rend="italic">
+      t'oublierai point
+     </hi>
+     . Tu seras sans
                     cesse présent à mon idée, sans cesse la tienne remplira mon coeur; pour les
                     autres tu ne vis plus, tu vivras toujours pour moi. Tes amis t'oublieront, ta
                     soeur se consolera, le temps t'effacera de la mémoire des hommes, moi seule je
                     conserverai ton souvenir, j'agirai comme si tes yeux éclairoient encore mes pas;
-                    et si ton ame <hi rend="italic"> erre autour de moi </hi> , je ne l'attristerai
+                    et si ton ame
+     <hi rend="italic">
+      erre autour de moi
+     </hi>
+     , je ne l'attristerai
                     point en donnant à un autre la main que tu daignois recevoir. En quittant la
                     Duchesse De Surrey, miladi l'avoit priée de lui permettre de ne recevoir ni les
                     visites, ni les lettres de Milord Clare. Elle lui dit adieu à Suttoncourt, et le
@@ -6653,8 +6908,11 @@
                     étendu sur la poussière, respirant à peine, ayant déjà perdu ses forces par
                     l'effusion de son sang. On soutenoit celui contre lequel milord venoit d'avoir
                     affaire: il étoit fort blessé, se débattoit dans les bras de ses gens, tendoit
-                    les siens vers Milord Arundel. Hébert l'entendit s'écrier: <hi rend="italic">
-                        qu'ai-je fait? Ah, malheureux! Qu'ai-je fait? </hi> il ne connut ni lui, ni
+                    les siens vers Milord Arundel. Hébert l'entendit s'écrier:
+     <hi rend="italic">
+      qu'ai-je fait? Ah, malheureux! Qu'ai-je fait?
+     </hi>
+     il ne connut ni lui, ni
                     les hommes qui l'emportoient. Il s'empressa d'arrêter le sang de Milord Arundel;
                     des paysans l'aidèrent à le transporter au château. Le comte y expira au moment
                     où Miladi D'Anglesey, attirée par les cris de ses femmes, entroit dans la
@@ -6676,7 +6934,11 @@
                     j'ai su depuis, qu'un gentilhomme du Comte Danby passoit en ce lieu pour lui. Le
                     rapport d'Hébert détruisit les soupçons de la comtesse; il auroit peut-être
                     affoibli les miens, si, peu de jours après son arrivée, cette lettre ne les eût
-                    confirmés. <hi rend="italic"> lettre de Milord Danby, à Miss Salisbury. </hi> "
+                    confirmés.
+     <hi rend="italic">
+      lettre de Milord Danby, à Miss Salisbury.
+     </hi>
+     "
                     ne me reprochez rien, cruelle, vous m'avez rendu si malheureux, qu'il n'est plus
                     en votre pouvoir d'ajouter à la rigueur de mon sort. Qui veut donc, qui prétend
                     ici conserver malgré moi mes jours? Ah! Je déteste la vie! Pourquoi la main
@@ -6732,18 +6994,47 @@
                     se rétablit, obtint son rappel, et fixa son séjour à Londres. Il m'écrivoit, il
                     me faisoit parler; je lui renvoyois ses lettres sans les ouvrir, j'imposois
                     silence à ceux qui prononçoient son nom devant moi. Milord Alderson, inspiré par
-                    lui, attaché à ses intérêts, entreprit de me <hi rend="italic"> soumettre </hi>
-                    , de me <hi rend="italic"> ramener sous son obéissance </hi> . On m'annonça de
-                    sa part qu'il porteroit au pied du trône ses <hi rend="italic"> plaintes </hi>
-                    et ses <hi rend="italic"> justes prétentions </hi> ; qu'il me forceroit à
-                    reconnoître, à <hi rend="italic"> respecter son autorité </hi> . Je méprisai ses
+                    lui, attaché à ses intérêts, entreprit de me
+     <hi rend="italic">
+      soumettre
+     </hi>
+     , de me
+     <hi rend="italic">
+      ramener sous son obéissance
+     </hi>
+     . On m'annonça de
+                    sa part qu'il porteroit au pied du trône ses
+     <hi rend="italic">
+      plaintes
+     </hi>
+     et ses
+     <hi rend="italic">
+      justes prétentions
+     </hi>
+     ; qu'il me forceroit à
+                    reconnoître, à
+     <hi rend="italic">
+      respecter son autorité
+     </hi>
+     . Je méprisai ses
                     vaines menaces; mais tant de démarches ne purent se faire en secret. Le bruit se
                     répandit que j'étois proche parente de Milord Alderson, engagée par ma promesse
                     au Comte Danby, avant son mariage avec la Duchesse De Rutland. Un caprice
                     incompréhensible m'avoit portée, disoit-on, à rompre cet engagement, à me
-                    soustraire à l' autorité de Milord Alderson. Ce parent <hi rend="italic">
-                        indulgent </hi> vouloit me <hi rend="italic"> pardonner </hi> , me rappeler
-                    auprès de lui, m' <hi rend="italic"> adopter </hi> , m'assurer sa fortune,
+                    soustraire à l' autorité de Milord Alderson. Ce parent
+     <hi rend="italic">
+      indulgent
+     </hi>
+     vouloit me
+     <hi rend="italic">
+      pardonner
+     </hi>
+     , me rappeler
+                    auprès de lui, m'
+     <hi rend="italic">
+      adopter
+     </hi>
+     , m'assurer sa fortune,
                     m'élever au rang de duchesse en me donnant son nom, ses armes, ses titres, un
                     époux! Insensible à ses bontés, dédaignant de si grands avantages, je refusois
                     de lui prouver ma reconnoissance en devenant la consolation de sa vieillesse.
@@ -6792,9 +7083,19 @@
                     Cette lettre le ranima.Un mouvement flatteur, un plaisir vif, enchanteur!
                     Plaisir senti pour la première fois, éloigna de mon esprit tout autre objet.
                     L'assurance d'être aimée, porta au fond de mon ame une douce joie. Quoi, Milord
-                    Clare m'aime! Répétois-je tout bas; quoi, je suis aimée de Milord Clare! Il <hi
-                        rend="italic"> m'adore </hi> , il <hi rend="italic"> renoncera à tout </hi>
-                    s'il peut <hi rend="italic"> toucher mon coeur, si j'accepte le sien </hi> .
+                    Clare m'aime! Répétois-je tout bas; quoi, je suis aimée de Milord Clare! Il
+     <hi rend="italic">
+      m'adore
+     </hi>
+     , il
+     <hi rend="italic">
+      renoncera à tout
+     </hi>
+     s'il peut
+     <hi rend="italic">
+      toucher mon coeur, si j'accepte le sien
+     </hi>
+     .
                     Rappelée bientôt à moi-même, je soupirai, je pleurai. Ah! Pourquoi, m'écriai-je,
                     pourquoi le sort nous fit-il rencontrer si tard, aimable Edmond! Que ne
                     t'offrit-il à mes regards dans les jardins de ton frère! D'où vient qu'un
@@ -6817,15 +7118,22 @@
                     d'un amant passionné; tout ce qu'il veut lui paroît possible. Mais comment la
                     Comtesse De Belmont a-t-elle pu approuver un pareil dessein? Engager Milord
                     Clare à vous écrire? Le peu de mots qu'elle a mis dans cette imprudente lettre,
-                    me révoltent contre elle. <hi rend="italic"> la fortune de Miss Jenny est égale
+                    me révoltent contre elle.
+     <hi rend="italic">
+      la fortune de Miss Jenny est égale
                         à celle de la Comtesse D'Anglesey; la Duchesse De Surrey estime, chérit Miss
                         Jenny; pourquoi ne consentiroit-elle pas au bonheur de Milord Clare? Edmond
                         n'est point aimé de Miladi D'Anglesey, elle l'épousoit par complaisance pour
                         son frère. Sa longue retraite, le délai de trois mois qu'elle a exigé à son
                         retour d'Anglesey, prouvent son indifférence. Elle saisiroit avec joie le
-                        plus léger prétexte de rompre ses engagemens. elle ne l'aime point! </hi>
-                    quoi, Miladi D'Anglesey n'a pu donner des larmes à son frère, à son ami, sans se
-                    montrer <hi rend="italic"> indifférente. Nos fortunes sont égales </hi> ! Quelle
+                        plus léger prétexte de rompre ses engagemens. elle ne l'aime point!
+     </hi>
+     quoi, Miladi D'Anglesey n'a pu donner des larmes à son frère, à son ami, sans se
+                    montrer
+     <hi rend="italic">
+      indifférente. Nos fortunes sont égales
+     </hi>
+     ! Quelle
                     idée votre amie et la mienne a-t-elle de mes sentimens, si elle me croit capable
                     d'employer les dons de Milord Arundel à percer d'un trait cruel le coeur de sa
                     soeur, à lui ravir l'époux qu'il lui destinoit? Moi, je recevrois une main qui
@@ -6860,8 +7168,12 @@
                     le secret de ma naissance, à exposer la réputation de ma mère; craignant sans
                     cesse les fureurs de Milord Danby... grand dieu! S'il pénétroit dans mon coeur,
                     s'il savoit que le Comte De Clare... ah! Du moins, qu'un des voeux de ma mère
-                    soit exaucé! <hi rend="italic"> que je n'expire point pénétrée de la même
-                        douleur qui lui ravit le jour! ... </hi> mais l'heure me presse, M Peters
+                    soit exaucé!
+     <hi rend="italic">
+      que je n'expire point pénétrée de la même
+                        douleur qui lui ravit le jour! ...
+     </hi>
+     mais l'heure me presse, M Peters
                     m'attend, il remettra ce manuscrit à votre courrier. Le jour commence à
                     paroître, sa foible lueur semble augmenter le trouble affreux de mon coeur. ô
                     Miladi D'Anglesey! ô ma tendre amie! Je vous laisse donc pour jamais. Il ne
@@ -6872,8 +7184,11 @@
                     Mes véritables motifs cachés sous d'apparens prétextes... ah! Si elle me croyoit
                     ingrate! ... n'importe, qu'elle cesse de m'aimer; mais qu'elle soit heureuse!
                     Adieu, madame, adieu; je vous écrirai bientôt du lieu de ma retraite, si
-                    pourtant je survis à l'extrême douleur dont je me sens oppressée. <hi
-                        rend="italic"> lettre de Miss Jenny, à Miladi Roscomond. </hi> " un long
+                    pourtant je survis à l'extrême douleur dont je me sens oppressée.
+     <hi rend="italic">
+      lettre de Miss Jenny, à Miladi Roscomond.
+     </hi>
+     " un long
                     temps s'est passé, madame, avant qu'il m'ait été possible de vous écrire. Malade
                     en arrivant à Paris, j'y ai resté deux mois dans l'attente d'un événement que je
                     prévoyois sans le craindre. Convalescente, mais foible, je suis venue à la
@@ -6901,8 +7216,9 @@
                     des livres, des souvenirs tristes, mais chers, mais précieux à mon coeur,
                     occuperont mes jours... adieu, madame; n'oubliez point une amie qui vous aime,
                     vous respecte, et met au nombre de ses idées consolantes la douceur de penser
-                    que vous la plaignez. " </p>
-            </div>
-        </body>
-    </text>
+                    que vous la plaignez. "
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

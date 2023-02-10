@@ -5,42 +5,88 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title ref="bgrf:99.62 wikidata:Q2975140"> Claire d'Albe: MiMoText edition </title>
-    <author ref="viaf:27159707 wikidata:Q464409"> Sophie Ristaud Cottin(1770-1807) </author>
+    <title ref="bgrf:99.62 wikidata:Q2975140">
+     Claire d'Albe: MiMoText edition
+    </title>
+    <author ref="viaf:27159707 wikidata:Q464409">
+     Sophie Ristaud Cottin(1770-1807)
+    </author>
     <respStmt>
-     <resp> data capture </resp>
-     <name> Wikisource contributors </name>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Wikisource contributors
+     </name>
     </respStmt>
     <respStmt>
-     <resp> encoding </resp>
-     <name> Amelie Probst </name>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Amelie Probst
+     </name>
     </respStmt>
     <respStmt>
-     <resp> editor </resp>
-     <name> Julia Röttgermann </name>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
     </respStmt>
    </titleStmt>
    <extent>
-    <measure unit="words"> 39110 </measure>
+    <measure unit="words">
+     39110
+    </measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-    <distributor ref="https://github.com/MiMoText/roman18"> GitHub </distributor>
-    <date> 2020 </date>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/MiMoText/roman18">
+     GitHub
+    </distributor>
+    <date>
+     2020
+    </date>
     <availability>
      <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
     </availability>
    </publicationStmt>
    <sourceDesc>
-    <bibl type="digitalSource"> <ref target="https://fr.wikisource.org/wiki/Claire_d%E2%80%99Albe"/> </bibl>
-    <bibl type="printSource">
-      <title>Claire d'Albe</title>
-      <author>Sophie Cottin</author>
-      <pubPlace>Paris</pubPlace>
-      <publisher>Ménard et Desène fils</publisher>
-      <date>1824</date>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Claire_d%E2%80%99Albe"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2022
+     </date>
     </bibl>
-    <bibl type="firstEdition"> <date> 1798 </date> </bibl>
+    <bibl type="printSource">
+     <title>
+      Claire d'Albe
+     </title>
+     <author>
+      Sophie Cottin
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Ménard et Desène fils
+     </publisher>
+     <date>
+      1824
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1798
+     </date>
+    </bibl>
    </sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
@@ -52,9 +98,15 @@
    </langUsage>
    <textClass>
     <keywords>
-     <term type="form"> epistolary </term>
-     <term type="spelling"> modern </term>
-     <term type="data-capture"> semi-automatic transcription </term>
+     <term type="form">
+      epistolary
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
     </keywords>
    </textClass>
    <textDesc>
@@ -65,90 +117,211 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
-   <change when="2020-10-16"> Initial ELTeC level-1 </change>
+   <change when="2020-10-16">
+    Initial ELTeC level-1
+   </change>
   </revisionDesc>
  </teiHeader>
  <text>
   <front>
    <div type="titlepage">
-    <head> Claire d'Albe </head>
-    <p> Sophie Cottin </p>
-    <p> Ménard et Desène fils, Paris, 1824 </p>
-    <p> Exporté de Wikisource le 6 octobre 2020 </p>
+    <head>
+     Claire d'Albe
+    </head>
+    <p>
+     Sophie Cottin
+    </p>
+    <p>
+     Ménard et Desène fils, Paris, 1824
+    </p>
+    <p>
+     Exporté de Wikisource le 6 octobre 2020
+    </p>
    </div>
    <div type="liminal">
-    <p> Préface de l'Auteur </p>
-    <p> Lettre première. Claire d'Albe à Élise Biré </p>
-    <p> Lettre II. Claire à Élise </p>
-    <p> Lettre III. Claire à Élise </p>
-    <p> Lettre IV. Claire à Élise </p>
-    <p> Lettre V. Claire à Élise </p>
-    <p> Lettre VI. Claire à Élise </p>
-    <p> Lettre VII. Claire à Élise </p>
-    <p> Lettre VIII. Claire à Élise </p>
-    <p> Lettre IX. Claire à Élise </p>
-    <p> Lettre X. Claire à Élise </p>
-    <p> Lettre XI. Claire à Élise </p>
-    <p> Lettre XII. Claire à Élise </p>
-    <p> Lettre XIII. Claire à Élise </p>
-    <p> Lettre XIV. Claire à Élise </p>
-    <p> Lettre XV. Claire à Élise </p>
-    <p> Lettre XVI. Claire à Élise </p>
-    <p> Lettre XVII. Claire à Élise </p>
-    <p> Lettre XVIII. Claire à Élise </p>
-    <p> Lettre XIX. Claire à Élise </p>
-    <p> Lettre XX. Frédéric à Claire </p>
-    <p> Lettre XXI. Claire à Frédéric </p>
-    <p> Lettre XXII. Claire à Élise </p>
-    <p> Lettre XXIII. Claire à Élise </p>
-    <p> Lettre XXIV. Claire à Frédéric </p>
-    <p> Lettre XXV. Frédéric à Claire </p>
-    <p> Lettre XXVI. Claire à Élise </p>
-    <p> Lettre XXVII. Claire à Élise </p>
-    <p> Lettre XXVIII. Frédéric à Claire </p>
-    <p> Lettre XXIX. Frédéric à Claire </p>
-    <p> Lettre XXX. Claire à Frédéric </p>
-    <p> Lettre XXXI. Frédéric à Claire </p>
-    <p> Lettre XXXII. Claire à Élise </p>
-    <p> Lettre XXXIII. Claire à Élise </p>
-    <p> Lettre XXXIV. Élise à M. d'Albe </p>
-    <p> Lettre XXXV. Élise à M. d'Albe </p>
-    <p> Lettre XXXVI. Claire à Élise </p>
-    <p> Lettre XXXVII. Claire à Élise </p>
-    <p> Lettre XXXVIII. Claire à Élise </p>
-    <p> Lettre XXXIX. Claire à Élise </p>
-    <p> Lettre XL. Claire à Élise </p>
-    <p> Lettre XLI. Élise à M. d'Albe </p>
-    <p> Lettre XLII. Claire à Élise </p>
-    <p> Lettre XLIII. Claire à Élise </p>
-    <p> Lettre XLIV. Élise à M. d'Albe </p>
-    <p> Lettre XLV. Élise à M. d'Albe </p>
+    <p>
+     Préface de l'Auteur
+    </p>
+    <p>
+     Lettre première. Claire d'Albe à Élise Biré
+    </p>
+    <p>
+     Lettre II. Claire à Élise
+    </p>
+    <p>
+     Lettre III. Claire à Élise
+    </p>
+    <p>
+     Lettre IV. Claire à Élise
+    </p>
+    <p>
+     Lettre V. Claire à Élise
+    </p>
+    <p>
+     Lettre VI. Claire à Élise
+    </p>
+    <p>
+     Lettre VII. Claire à Élise
+    </p>
+    <p>
+     Lettre VIII. Claire à Élise
+    </p>
+    <p>
+     Lettre IX. Claire à Élise
+    </p>
+    <p>
+     Lettre X. Claire à Élise
+    </p>
+    <p>
+     Lettre XI. Claire à Élise
+    </p>
+    <p>
+     Lettre XII. Claire à Élise
+    </p>
+    <p>
+     Lettre XIII. Claire à Élise
+    </p>
+    <p>
+     Lettre XIV. Claire à Élise
+    </p>
+    <p>
+     Lettre XV. Claire à Élise
+    </p>
+    <p>
+     Lettre XVI. Claire à Élise
+    </p>
+    <p>
+     Lettre XVII. Claire à Élise
+    </p>
+    <p>
+     Lettre XVIII. Claire à Élise
+    </p>
+    <p>
+     Lettre XIX. Claire à Élise
+    </p>
+    <p>
+     Lettre XX. Frédéric à Claire
+    </p>
+    <p>
+     Lettre XXI. Claire à Frédéric
+    </p>
+    <p>
+     Lettre XXII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXIII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXIV. Claire à Frédéric
+    </p>
+    <p>
+     Lettre XXV. Frédéric à Claire
+    </p>
+    <p>
+     Lettre XXVI. Claire à Élise
+    </p>
+    <p>
+     Lettre XXVII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXVIII. Frédéric à Claire
+    </p>
+    <p>
+     Lettre XXIX. Frédéric à Claire
+    </p>
+    <p>
+     Lettre XXX. Claire à Frédéric
+    </p>
+    <p>
+     Lettre XXXI. Frédéric à Claire
+    </p>
+    <p>
+     Lettre XXXII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXXIII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXXIV. Élise à M. d'Albe
+    </p>
+    <p>
+     Lettre XXXV. Élise à M. d'Albe
+    </p>
+    <p>
+     Lettre XXXVI. Claire à Élise
+    </p>
+    <p>
+     Lettre XXXVII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXXVIII. Claire à Élise
+    </p>
+    <p>
+     Lettre XXXIX. Claire à Élise
+    </p>
+    <p>
+     Lettre XL. Claire à Élise
+    </p>
+    <p>
+     Lettre XLI. Élise à M. d'Albe
+    </p>
+    <p>
+     Lettre XLII. Claire à Élise
+    </p>
+    <p>
+     Lettre XLIII. Claire à Élise
+    </p>
+    <p>
+     Lettre XLIV. Élise à M. d'Albe
+    </p>
+    <p>
+     Lettre XLV. Élise à M. d'Albe
+    </p>
    </div>
    <div type="liminal">
-    <head> <hi rend="italic"> PRÉFACE DE L'AUTEUR. </hi> </head>
-    <p> Le dégoût, le danger ou l'effroi du monde ayant fait naître en moi le besoin de me retirer dans un monde idéal, déjà j'embrassais un vaste
+    <head>
+     <hi rend="italic">
+      PRÉFACE DE L'AUTEUR.
+     </hi>
+    </head>
+    <p>
+     Le dégoût, le danger ou l'effroi du monde ayant fait naître en moi le besoin de me retirer dans un monde idéal, déjà j'embrassais un vaste
      plan qui devait m'y retenir long-temps, lorsqu'une circonstance imprévue, m'arrachant à ma solitude et à mes nouveaux amis, me transporta sur les
-     bords de la Seine, aux environs de Rouen, dans une superbe campagne, au milieu d'une société nombreuse. </p>
-    <p> Ce n'est pas là où je pouvais travailler, je le savais ; aussi avais-je laissé derrière moi tous mes essais. Cependant la beauté de
+     bords de la Seine, aux environs de Rouen, dans une superbe campagne, au milieu d'une société nombreuse.
+    </p>
+    <p>
+     Ce n'est pas là où je pouvais travailler, je le savais ; aussi avais-je laissé derrière moi tous mes essais. Cependant la beauté de
      l'habitation, le charme puissant des bois et des eaux, éveillèrent mon imagination et remuèrent mon cœur ; il ne me fallait qu'un mot pour tracer
      un nouveau plan : ce mot me fut dit par une personne de la société, et qui a joué elle-même un rôle assez important dans cette histoire. Je lui
      demandai la permission d'écrire son récit : elle me l'accorda ; j'obtins celle de l'imprimer, et je me hâte d'en profiter. Je me hâte, c'est le
      mot ; car ayant écrit tout d'un trait, et en moins de quinze jours, l'ouvrage qu'on va lire, je ne me suis donné ni le temps, ni la peine d'y
      retoucher. Je sais bien que pour le public le temps ne fait rien à l'affaire : aussi il fera bien de dire du mal de mon ouvrage s'il l'ennuie ;
-     mais s'il m'ennuyait encore plus de le corriger, j'ai bien fait de le laisser tel qu'il est. </p>
-    <p> Quant à moi, je sens si bien tout ce qui lui manque, que je ne m'attends pas que mon âge ni mon sexe me mettent à l'abri des critiques, et mon
+     mais s'il m'ennuyait encore plus de le corriger, j'ai bien fait de le laisser tel qu'il est.
+    </p>
+    <p>
+     Quant à moi, je sens si bien tout ce qui lui manque, que je ne m'attends pas que mon âge ni mon sexe me mettent à l'abri des critiques, et mon
      amour-propre serait assez mal à son aise s'il n'avait une sorte de pressentiment que l'histoire que je médite le dédommagera peut-être de
-     l'anecdote qui vient de m'échapper. </p>
+     l'anecdote qui vient de m'échapper.
+    </p>
    </div>
    <div type="liminal">
-    <p> <hi rend="italic"> CLAIRE D'ALBE. </hi> </p>
+    <p>
+     <hi rend="italic">
+      CLAIRE D'ALBE.
+     </hi>
+    </p>
    </div>
   </front>
   <body>
    <div type="letter">
-    <head> LETTRE PREMIÈRE. </head>
-    <p> CLAIRE D'ALBE À ÉLISE DE BIRÉ. </p>
-    <p> Non, mon Élise, non, tu ne doutes pas de la peine que j'ai éprouvée en te quittant ; tu l'as vue : elle a été telle, que M. d'Albe proposait
+    <head>
+     LETTRE PREMIÈRE.
+    </head>
+    <p>
+     CLAIRE D'ALBE À ÉLISE DE BIRÉ.
+    </p>
+    <p>
+     Non, mon Élise, non, tu ne doutes pas de la peine que j'ai éprouvée en te quittant ; tu l'as vue : elle a été telle, que M. d'Albe proposait
      de me laisser avec toi, et que j'ai été près d'y consentir. Mais alors le charme de notre amitié n'eût-il pas été détruit ? aurions-nous pu être
      contentes d'être ensemble, en ne l'étant pas de nous-mêmes ? aurais-tu osé parler de vertu, sans craindre de me faire rougir, et remplir des
      devoirs qui eussent été un reproche tacite pour celle qui abandonnait son époux, et séparait un père de ses enfans ? Élise, j'ai dû te quitter,
@@ -178,16 +351,28 @@
      pour être uni ; tu viendras rendre à mon cœur la plus chère portion de lui-même ; nous retrouverons ces instans si doux, et dont l'existence
      fugitive a laissé de si profondes traces dans ma mémoire ; nous reprendrons ces éternelles conversations que l'amitié savait rendre si courtes ;
      nous jouirons de ce sentiment unique et cher qui éteint la Privalité et enflamme l'émulation ; enfin, l'instant heureux où Claire te reverra sera
-     celui où il lui sera permis de dire <hi rend="italic"> pour toujours ! </hi> et puisse le génie tutélaire qui présida à notre naissance et nous
+     celui où il lui sera permis de dire
+     <hi rend="italic">
+      pour toujours !
+     </hi>
+     et puisse le génie tutélaire qui présida à notre naissance et nous
      fit naître au même moment afin que nous nous aimassions davantage, mettre le sceau à ses bienfaits, en n'envoyant qu'une seule mort pour toutes
-     deux ! </p>
+     deux !
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE II. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> J'ai tort, en effet, mon amie, de ne t'avoir rien dit de l'asile qui bientôt doit être le tien, et qui d'ailleurs mérite qu'on le décrive ;
-     mais que veux-tu ? quand je prends la plume, je ne puis m'occuper que de toi, et peut-être pardonneras-tu un oubli dont mon amitié est la cause. </p>
-    <p> L'habitation où nous sommes est située à quelques lieues de Tours, au milieu d'un mélange heureux de coteaux et de plaines, dont les uns sont
+    <head>
+     LETTRE II.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     J'ai tort, en effet, mon amie, de ne t'avoir rien dit de l'asile qui bientôt doit être le tien, et qui d'ailleurs mérite qu'on le décrive ;
+     mais que veux-tu ? quand je prends la plume, je ne puis m'occuper que de toi, et peut-être pardonneras-tu un oubli dont mon amitié est la cause.
+    </p>
+    <p>
+     L'habitation où nous sommes est située à quelques lieues de Tours, au milieu d'un mélange heureux de coteaux et de plaines, dont les uns sont
      couverts de bois et de vignes, et les autres de moissons dorées et de riantes maisons ; la rivière du Cher embrasse le pays de ses replis, et va
      se jeter dans la Loire ; les bords du Cher, couverts de bocages et de prairies, sont rians et champêtres ; ceux de la Loire, plus majestueux,
      s'ombragent de hauts peupliers, de bois épais et de riches guérets : du haut d'un roc pittoresque qui domine le château, on voit ces deux
@@ -195,36 +380,54 @@
      quelques îles verdoyantes s'élèvent de leurs lits ; un grand nombre de ruisseaux grossissent leur cours ; de tous côtés on découvre une vaste
      étendue de terre riche de fruits, parée de fleurs, animée par les troupeaux qui paissent dans les pâturages. Le laboureur courbé sur la charrue,
      les berlines roulant sur le grand chemin, les bateaux glissant sur les fleuves, et les villes, bourgs et villages surmontés de leurs clochers,
-     déploient la plus magnifique vue que l'on puisse imaginer. </p>
-    <p> Le château est vaste et commode, les bâtiments dépendans de la manufacture que M. d'Albe vient d'établir, sont immenses : je m'en suis
+     déploient la plus magnifique vue que l'on puisse imaginer.
+    </p>
+    <p>
+     Le château est vaste et commode, les bâtiments dépendans de la manufacture que M. d'Albe vient d'établir, sont immenses : je m'en suis
      approprié une aile, afin d'y fonder un hospice de santé, où les ouvriers malades et les pauvres paysans des environs puissent trouver un asile ;
      j'y ai attaché un chirurgien et deux gardes-malades ; et, quant à la surveillance, je me la suis réservée ; car il est peut-être plus nécessaire
      qu'on ne croit de s'imposer l'obligation d'être tous les jours utile à ses semblables : cela tient en haleine, et même pour faire le bien nous
-     avons besoin souvent d'une force qui nous pousse. </p>
-    <p> Tu sais que cette vaste propriété appartient depuis long-temps à la famille de M. d'Albe : c'est là que, dans sa jeunesse, il connut mon père
+     avons besoin souvent d'une force qui nous pousse.
+    </p>
+    <p>
+     Tu sais que cette vaste propriété appartient depuis long-temps à la famille de M. d'Albe : c'est là que, dans sa jeunesse, il connut mon père
      et se lia avec lui ; c'est là qu'enchantés d'une amitié qui les avait rendus si heureux, ils se jurèrent d'y venir finir leurs jours et d'y
      déposer leurs cendres ; c'est là, enfin, ô mon Élise ! qu'est le tombeau du meilleur des pères ; sous l'ombre des cyprès et des peupliers repose
      son urne sacrée ; un large ruisseau l'entoure, et forme comme une île où les élus seuls ont le droit d'entrer. Combien je me plais à parler de
      lui avec M. d'Albe ! combien nos cœurs s'entendent et se répondent sur un pareil sujet ! « Le dernier bienfait de votre père fut de m'unir à
      vous, me disait mon mari : jugez combien je dois chérir sa mémoire ! » Et moi, Élise, en considérant le monde, et les hommes que j'y ai connus,
-     ne dois-je pas aussi bénir mon père de m'avoir choisi un si digne époux ? </p>
-    <p> Adolphe se plaît beaucoup plus ici que chez toi ; tout y est nouveau, et le mouvement continuel des ouvriers lui paraît plus gai que le
+     ne dois-je pas aussi bénir mon père de m'avoir choisi un si digne époux ?
+    </p>
+    <p>
+     Adolphe se plaît beaucoup plus ici que chez toi ; tout y est nouveau, et le mouvement continuel des ouvriers lui paraît plus gai que le
      tête-à-tête des deux amies : il ne quitte point son père : celui-ci le gronde et lui obéit ; mais qu'importe, quand l'excès de sa complaisance
-     rendrait son fils mutin et volontaire dans son enfance, ne suis-je pas sûre que ses exemples le rendront bienfaisant et juste dans sa jeunesse ? </p>
-    <p> Laure ne jouit point, comme son frère, de tout ce qui l'entoure : elle ne distingue que sa mère, et encore veut-on lui disputer cet éclair
+     rendrait son fils mutin et volontaire dans son enfance, ne suis-je pas sûre que ses exemples le rendront bienfaisant et juste dans sa jeunesse ?
+    </p>
+    <p>
+     Laure ne jouit point, comme son frère, de tout ce qui l'entoure : elle ne distingue que sa mère, et encore veut-on lui disputer cet éclair
      d'intelligence ; M. d'Albe m'assure qu'aussitôt qu'elle a tété, elle ne me connaît pas plus que sa bonne, et je n'ai pas voulu encore en faire
-     l'expérience, de peur de trouver qu'il n'eût raison. </p>
-    <p> M. d'Albe part demain ; il va au-devant d'un jeune parent qui arrive du Dauphiné : uni à sa mère par les liens du sang, il lui jura, à son lit
+     l'expérience, de peur de trouver qu'il n'eût raison.
+    </p>
+    <p>
+     M. d'Albe part demain ; il va au-devant d'un jeune parent qui arrive du Dauphiné : uni à sa mère par les liens du sang, il lui jura, à son lit
      de mort, de servir de guide et de père à son fils, et tu sais si mon mari sait tenir ses sermens ; d'ailleurs il compte le mettre à la tête de sa
      manufacture, et se soulager ainsi d'une surveillance trop fatigante pour son âge ; sans ce motif je ne sais si je verrais avec plaisir l'arrivée
-     de Frédéric : dans le monde, un convive de plus n'est pas même une différence ; dans la solitude, c'est un événement. </p>
-    <p> Adieu, mon Élise ; il règne ici un air de prospérité, de mouvement et de joie, qui te fera plaisir ; et pour moi, je crois bien qu'il ne me
-     manque que toi pour y être heureuse. </p>
+     de Frédéric : dans le monde, un convive de plus n'est pas même une différence ; dans la solitude, c'est un événement.
+    </p>
+    <p>
+     Adieu, mon Élise ; il règne ici un air de prospérité, de mouvement et de joie, qui te fera plaisir ; et pour moi, je crois bien qu'il ne me
+     manque que toi pour y être heureuse.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE III. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Je suis seule, il est vrai, mon Élise, mais non pas ennuyée ; je trouve assez d'occupation auprès de mes enfans, et de plaisir dans mes
+    <head>
+     LETTRE III.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Je suis seule, il est vrai, mon Élise, mais non pas ennuyée ; je trouve assez d'occupation auprès de mes enfans, et de plaisir dans mes
      promenades, pour remplir tout mon temps : d'ailleurs M. d'Albe devant trouver son cousin à Lyon, sera de retour ici avant dix jours ; et puis,
      comment me croire seule, quand je vois la terre s'embellir chaque jour d'un nouveau charme ? Déjà le premier né de la nature s'avance, déjà
      j'éprouve ses douces influences, tout mon sang se porte vers mon cœur, qui bat plus violemment à l'approche du printemps : à cette sorte de
@@ -251,12 +454,18 @@
      paresseux et fait vivre les pauvres ; les femmes, les enfans, tout travaille : les malheureux se rattachent à lui ; il est comme le centre et la
      cause de tout le bien qui se fait à dix lieues à la ronde, et cette vue le rajeunit. Ah ! mon amie, eussé-je autant d'attrait pour le monde qu'il
      m'inspire d'aversion, je resterais encore ici ; car une femme qui aime son mari, compte les jours où elle a du plaisir comme des jours
-     ordinaires, et ceux où elle lui en fait, comme des jours de fête. </p>
+     ordinaires, et ceux où elle lui en fait, comme des jours de fête.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE IV. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> J'ai passé bien des jours sans t'écrire, mon amie, et au moment où j'allais prendre la plume, voilà M. d'Albe qui arrive avec son parent. Il
+    <head>
+     LETTRE IV.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     J'ai passé bien des jours sans t'écrire, mon amie, et au moment où j'allais prendre la plume, voilà M. d'Albe qui arrive avec son parent. Il
      l'a rencontré bien en deçà de Lyon ; c'est pourquoi leur retour a été plus prompt que je ne comptais. Je n'ai fait qu'embrasser mon mari et
      entrevoir Frédéric. Il m'a paru bien, très-bien. Son maintien est noble, sa physionomie ouverte ; il est timide, et non pas embarrassé. J'ai mis
      dans mon accueil toute l'affabilité possible, autant pour l'encourager que pour plaire à mon mari. Mais j'entends celui-ci qui m'appelle, et je
@@ -264,9 +473,14 @@
     </p>
    </div>
    <div type="letter">
-    <head> LETTRE V. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Combien j'aime mon mari, Élise ! combien je suis touchée du plaisir qu'il trouve à faire le bien ! Toute son ambition est d'entreprendre des
+    <head>
+     LETTRE V.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Combien j'aime mon mari, Élise ! combien je suis touchée du plaisir qu'il trouve à faire le bien ! Toute son ambition est d'entreprendre des
      actions louables, comme son bonheur est d'y réussir. Il aime tendrement Frédéric, parce qu'il voit en lui un heureux à faire. Ce jeune homme, il
      est vrai, est bien intéressant. Il a toujours habité les Cévennes, et le séjour des montagnes a donné autant de souplesse et d'agilité à son
      corps, que d'originalité à son esprit et de candeur à son caractère. Il ignore jusqu'aux moindres usages : si nous sommes à une porte, et qu'il
@@ -287,18 +501,30 @@
      mécaniques, n'est content que lorsqu'il les comprend, les imite quelquefois, et les brise plus souvent, saute au cou de son père quand celui-ci
      le gronde, et se fait aimer de chacun en faisant enrager tout le monde. Il plaît beaucoup à Frédéric ; mais ma fille n'a pas tant de bonheur : je
      lui demandais s'il ne la trouvait pas charmante, s'il n'avait pas de plaisir à baiser sa peau douce et fraîche. « Non, m'a-t-il répondu
-     naïvement, elle est laide, et elle sent <hi rend="italic"> le lait aigre </hi> . » </p>
-    <p> Adieu, mon Élise, je me fie à ton amitié pour rapprocher ces jours charmans que nous devons passer ici. Je sais que l'état d'une veuve qui a
+     naïvement, elle est laide, et elle sent
+     <hi rend="italic">
+      le lait aigre
+     </hi>
+     . »
+    </p>
+    <p>
+     Adieu, mon Élise, je me fie à ton amitié pour rapprocher ces jours charmans que nous devons passer ici. Je sais que l'état d'une veuve qui a
      le bien de ses enfans à conserver, demande beaucoup de sacrifices ; mais, si le plaisir d'être ensemble est un aiguillon pour ton indolence, il
      doit nécessairement accélérer les affaires. Mon ange, M. d'Albe me disait ce matin que si l'établissement de sa manufacture, et l'instruction de
      Frédéric ne nécessitaient pas impérieusement sa présence, il quitterait femme et enfans pendant trois mois, pour aller expédier tes affaires, et
      te ramener ici trois mois plus tôt. Excellent homme ! il ne voit de bonheur que dans celui qu'il donne aux autres, et je sens que son exemple me
-     rend meilleure. Adieu, cousine. </p>
+     rend meilleure. Adieu, cousine.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE VI. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Ce matin, comme nous déjeûnions, Frédéric est accouru tout essoufflé. Il venait de jouer avec mon fils ; mais, prenant tout à coup un air
+    <head>
+     LETTRE VI.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Ce matin, comme nous déjeûnions, Frédéric est accouru tout essoufflé. Il venait de jouer avec mon fils ; mais, prenant tout à coup un air
      grave, il a prié mon mari de vouloir bien, dès aujourd'hui, lui donner les premières instructions relatives à l'emploi qu'il lui destine dans sa
      manufacture. Ce passage subit de l'enfance à la raison m'a paru si plaisant, que je me suis mise à rire immodérément. Frédéric m'a regardée avec
      surprise. « Ma cousine, m'a-t-il dit, si j'ai tort, reprenez-moi ; mais il est mal de se moquer.---Frédéric a raison, a repris mon mari ; vous
@@ -309,8 +535,14 @@
      pardon ; il l'a saisie avec vivacité, il l'a baisée, j'ai senti ses pleurs... En vérité, Élise, ce n'était pas là un mouvement de politesse. M.
      d'Albe a souri. « Pauvre enfant, m'a-t-il dit, comment se défendre de l'aimer, si naïf et si caressant ! Allons, ma Claire, pour cimenter votre
      paix, menez-le promener vers ces forêts qui dominent la Loire. Il retrouvera là un site de son pays. D'ailleurs, il faut bien qu'il connaisse le
-     séjour qu'il doit habiter. Pour aujourd'hui j'ai des lettres à écrire. Nous travaillerons demain, jeune homme. » </p>
-    <p> Je suis partie avec mes enfans. Frédéric portait ma fille, quoiqu'elle sentît le <hi rend="italic"> lait aigre </hi> . Arrivés dans la forêt,
+     séjour qu'il doit habiter. Pour aujourd'hui j'ai des lettres à écrire. Nous travaillerons demain, jeune homme. »
+    </p>
+    <p>
+     Je suis partie avec mes enfans. Frédéric portait ma fille, quoiqu'elle sentît le
+     <hi rend="italic">
+      lait aigre
+     </hi>
+     . Arrivés dans la forêt,
      nous avons causé. Causé n'est pas le mot, car il a parlé seul. Le lieu qu'il voyait, en lui rappelant sa patrie, lui a inspiré une sorte
      d'enthousiasme. J'ai été surprise que les grandes idées lui fussent aussi familières, et de l'éloquence avec laquelle il les exprimait. Il
      semblait s'élever avec elles. Je n'avais point vu encore autant de feu dans son regard. Ensuite, revenant à d'autres sujets, j'ai reconnu qu'il
@@ -321,17 +553,29 @@
      touches larges et vigoureuses dont l'homme dut être formé en sortant des mains de la Divinité ; on y pressent ces nobles et grandes passions qui
      peuvent égarer sans doute, mais qui, seules, élèvent à la gloire et à la vertu. Loin de lui ces petits caractères sans vie et sans couleur, qui
      ne savent agir et penser que comme les autres, dont les yeux délicats sont blessés par un contraste, et qui, dans la petite sphère où ils se
-     remuent, ne sont pas même capables d'une grande faute. </p>
+     remuent, ne sont pas même capables d'une grande faute.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE VII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> J'aurais été bien surprise si l'éloge très-mérité que j'ai fait de Frédéric ne m'eût attiré le reproche d'enthousiasme de la part de ma
+    <head>
+     LETTRE VII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     J'aurais été bien surprise si l'éloge très-mérité que j'ai fait de Frédéric ne m'eût attiré le reproche d'enthousiasme de la part de ma
      très-judicieuse amie ; car je ne puis dire les choses telles que je les vois, ni les exprimer comme je les sens, que sa censure ne vienne
-     aussitôt mettre le <hi rend="italic"> véto </hi> sur mes jugemens. Il se peut, mon Élise, que je n'aie vu encore que le côté favorable du
+     aussitôt mettre le
+     <hi rend="italic">
+      véto
+     </hi>
+     sur mes jugemens. Il se peut, mon Élise, que je n'aie vu encore que le côté favorable du
      caractère de Frédéric ; et, pour ne lui avoir pas trouvé de défauts, je ne prétends pas affirmer qu'il en soit exempt ; mais je veux, par le
-     récit suivant, te prouver qu'il n'y a du moins aucun intérêt personnel dans ma manière de le juger. </p>
-    <p> Hier, nous nous promenions ensemble assez loin de la maison. Tout à coup Adolphe lui demande étourdiment : « Mon cousin, qui aimes-tu mieux,
+     récit suivant, te prouver qu'il n'y a du moins aucun intérêt personnel dans ma manière de le juger.
+    </p>
+    <p>
+     Hier, nous nous promenions ensemble assez loin de la maison. Tout à coup Adolphe lui demande étourdiment : « Mon cousin, qui aimes-tu mieux,
      mon papa ou maman ? » Je t'assure que c'est sans hésiter qu'il a donné la préférence à mon mari. Adolphe a voulu en savoir la raison. « Ta maman
      est beaucoup plus aimable, a-t-il répondu ; mais je crois ton papa meilleur, et, à mes yeux, un simple mouvement de bonté l'emporte sur toutes
      les grâces de l'esprit.---Eh bien ! mon cousin, tu dis comme maman ; elle ne m'embrasse qu'une fois quand j'ai bien étudié, et me caresse
@@ -345,13 +589,17 @@
      aimez donc beaucoup ma femme, Frédéric ? lui a-t-il dit.---Beaucoup ? non.---La quitteriez-vous sans regret ?---Elle me plaît : mais je crois
      qu'au bout de peu de jours je n'y penserais plus.---Et moi, mon ami ?---Vous ! s'est-il écrié en se levant, et courant se jeter dans ses bras, je
      ne m'en consolerais jamais.---C'est bien, c'est bien, mon Frédéric, lui a dit M. d'Albe tout ému ; mais je veux pourtant qu'on aime ma Claire
-     comme moi-même.---Non, mon père, a repris l'autre en me regardant, je ne le pourrais pas. » </p>
-    <p> Tu vois, Élise, que je suis un objet très secondaire dans les affections de Frédéric. Cela doit être : je ne lui pardonnerais pas d'aimer un
+     comme moi-même.---Non, mon père, a repris l'autre en me regardant, je ne le pourrais pas. »
+    </p>
+    <p>
+     Tu vois, Élise, que je suis un objet très secondaire dans les affections de Frédéric. Cela doit être : je ne lui pardonnerais pas d'aimer un
      autre à l'égal de son bienfaiteur. Je crains de t'ennuyer en te parlant sans cesse de ce jeune homme. Cependant il me semble que c'est un sujet
      aussi neuf qu'intéressant. Je l'étudie avec cette curiosité qu'on porte à tout ce qui sort des mains de la nature. Sa conversation n'est point
      brillante d'un esprit d'emprunt ; elle est riche de son propre fonds. Elle a surtout le mérite, inconnu de nos jours, de sortir de ses lèvres
-     telle que la pensée la conçoit. La vérité n'est pas au fond du puits, mon Élise : elle est dans le cœur de Frédéric. </p>
-    <p> Cette après-midi nous étions seuls, je tenais ma fille sur mes genoux, et je cherchais à lui faire répéter mon nom. Ce titre de mère m'a
+     telle que la pensée la conçoit. La vérité n'est pas au fond du puits, mon Élise : elle est dans le cœur de Frédéric.
+    </p>
+    <p>
+     Cette après-midi nous étions seuls, je tenais ma fille sur mes genoux, et je cherchais à lui faire répéter mon nom. Ce titre de mère m'a
      rappelé ce qui s'était dit la veille, et j'ai demandé à Frédéric pourquoi il donnait le nom de père à M. d'Albe. « Parce que j'ai perdu le mien,
      a-t-il répondu, et que sa bonté m'en tient lieu.---Mais votre mère est morte aussi, il faut que je devienne la vôtre.---Vous ? Oh !
      non.---Pourquoi donc ?---Je me souviens de ma mère, et ce que je sentais pour elle ne ressemblait en rien à ce que vous m'inspirez.---Vous
@@ -362,16 +610,24 @@
      pas naturelle ; d'ailleurs mes plaisanteries amusent M. d'Albe, et souvent il les excite. Cependant, ne crois pas pour cela que j'aie mis de côté
      mes fonctions moraliste ; je donne souvent des avis à Frédéric, qu'il écoute avec docilité et dont il profite ; et je sens qu'outre le plaisir
      qu'éprouve M. d'Albe à me voir occupée de son élève, j'en trouverai moi-même un bien réel à éclairer son esprit sans nuire à son naturel, et à le
-     guider dans le monde en lui conservant sa franchise. </p>
-    <p> Non, mon Élise, je n'irai point passer l'hiver à Paris. Si tu y étais, peut-être aurais-je hésité, et j'aurais eu tort ; car mon mari, tout
+     guider dans le monde en lui conservant sa franchise.
+    </p>
+    <p>
+     Non, mon Élise, je n'irai point passer l'hiver à Paris. Si tu y étais, peut-être aurais-je hésité, et j'aurais eu tort ; car mon mari, tout
      entier aux soins de son établissement, ferait un bien grand sacrifice en s'en éloignant. Frédéric nous sera d'une grande ressource pour les
      longues soirées ; il a une très-jolie voix, il ne manque que de méthode. Je fais venir plusieurs partitions italiennes. Quel dommage que tu ne
-     sois pas ici ! Avec trois voix il n'y a guère de morceaux qu'on ne puisse exécuter, et nous aurions mis notre bon vieux ami dans l'Élysée. </p>
+     sois pas ici ! Avec trois voix il n'y a guère de morceaux qu'on ne puisse exécuter, et nous aurions mis notre bon vieux ami dans l'Élysée.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE VIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Cela t'amuse donc beaucoup que je te parle de Frédéric ? et par une espèce de contradiction je n'ai presque rien à t'en dire aujourd'hui.
+    <head>
+     LETTRE VIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Cela t'amuse donc beaucoup que je te parle de Frédéric ? et par une espèce de contradiction je n'ai presque rien à t'en dire aujourd'hui.
      Depuis plusieurs jours je ne le vois guère qu'aux heures des repas ; encore, pendant tout ce temps, s'occupe-t-il à causer avec mon mari de ce
      qu'ils ont fait ou de ce qu'ils vont faire. Je suis même plus habituellement seule qu'avant son arrivée, parce que M. d'Albe, se plaisant
      beaucoup avec lui, sent moins le besoin de ma société. Pendant les premiers jours cela m'a attristée. Pour être avec eux, j'avais rompu le cours
@@ -391,12 +647,18 @@
      notre entourage est plus borné et plus près de nous, on ne court risque, ni de se tromper, ni de ne pouvoir tout faire : si le but est moins
      grand, du moins laisse-t-il l'espoir de l'atteindre. Ah ! si chacun se chargeait ainsi d'embellir son petit horizon, la misère disparaîtrait de
      dessus la terre, l'inégalité des fortunes s'éteindrait sans efforts et sans secousses, et la charité serait le nœud céleste qui unirait tous les
-     hommes ensemble ! </p>
+     hommes ensemble !
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE IX. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Tu connais le goût de M. d'Albe pour les nouvelles politiques. Frédéric le partage. Un sujet qui embrasse le bonheur des nations entières lui
+    <head>
+     LETTRE IX.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Tu connais le goût de M. d'Albe pour les nouvelles politiques. Frédéric le partage. Un sujet qui embrasse le bonheur des nations entières lui
      paraît le plus intéressant de tous : aussi chaque soir, quand les gazettes et journaux arrivent, M. d'Albe se hâte d'appeler son ami pour les
      lire et les discuter avec lui. Comme cette occupation dure toujours près d'une heure, je profite assez souvent de ce moment pour me retirer dans
      ma chambre, soit pour écrire ou pour être avec mes enfans. Durant les premiers jours, Frédéric me demandait où j'allais, et voulait que je fusse
@@ -411,8 +673,10 @@
      ensemble. C'est aux hommes qu'appartiennent les grandes et vastes conceptions ; c'est à eux à créer le gouvernement et les lois : c'est aux
      femmes à leur en faciliter l'exécution, en se bornant strictement aux soins qui sont de leur ressort. Leur tâche est facile ; car, quel que soit
      l'ordre des choses, pourvu qu'il soit basé sur la vertu et la justice, elles sont sûres de concourir à sa durée, en ne sortant jamais du cercle
-     que la nature a tracé autour d'elles ; car, pour qu'un tout marche bien, il faut que chaque partie reste à sa place. » </p>
-    <p> Élise, je recueille bien le fruit d'avoir rempli mon devoir en accompagnant M. d'Albe ici. Je m'y sens plus heureuse que je ne l'ai jamais été
+     que la nature a tracé autour d'elles ; car, pour qu'un tout marche bien, il faut que chaque partie reste à sa place. »
+    </p>
+    <p>
+     Élise, je recueille bien le fruit d'avoir rempli mon devoir en accompagnant M. d'Albe ici. Je m'y sens plus heureuse que je ne l'ai jamais été
      ; je n'éprouve plus ces momens de tristesse et de dégoût dont tu t'inquiétais quelquefois. Sans doute c'était le monde qui m'inspirait cet ennui
      profond, dont la vue de la nature m'a guérie. Mon amie, rien ne peut me convenir davantage que la vie de la campagne, au milieu d'une nombreuse
      famille. Outre l'air de ressemblance avec les mœurs antiques et patriarcales, que je compte bien pour quelque chose, c'est là seulement qu'on
@@ -421,12 +685,18 @@
      services qu'ils peuvent nous rendre, une figure étrangère annonce toujours un plaisir, et le cœur s'ouvre pour la recevoir ; mais lorsque, dans
      la société, on se voit entouré d'une foule d'oisifs qui viennent nous accabler de leur inutilité, qui, loin d'apprendre à bien employer le temps,
      forcent à en faire un mauvais usage, il faut, si on ne leur ressemble pas, être avec eux ou froide ou fausse : et c'est ainsi que la
-     bienveillance s'éteint dans le grand monde, comme l'hospitalité dans les grandes villes. </p>
+     bienveillance s'éteint dans le grand monde, comme l'hospitalité dans les grandes villes.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE X. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Ce matin on est venu m'éveiller, avant cinq heures, pour aller voir la bonne mère Françoise, qui avait une attaque d'apoplexie. J'ai fait
+    <head>
+     LETTRE X.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Ce matin on est venu m'éveiller, avant cinq heures, pour aller voir la bonne mère Françoise, qui avait une attaque d'apoplexie. J'ai fait
      appeler sur-le-champ le chirurgien de la maison, et nous avons été ensemble porter des secours à cette pauvre femme. Peu à peu les symptômes sont
      devenus moins alarmans, elle a repris connaissance ; et son premier mouvement, en me voyant auprès de son lit, a été de remercier le ciel de lui
      avoir rendu une vie à laquelle sa bonne maîtresse s'intéressait. Nous avons vu qu'une des causes de son accident venait d'avoir négligé la plaie
@@ -453,19 +723,27 @@
      écriée vivement.---Je vous raconte mon erreur, a-t-il répondu avec tranquillité ; j'avais cru jusqu'à présent qu'il ne pouvait y avoir qu'une
      femme comme vous ; sans doute je me suis trompé, car j'ai besoin d'en trouver une qui vous ressemble. » Tu vois, Élise, que la fin de son
      discours a dû éloigner tout-à-fait les idées que le commencement avait pu faire naître. Puissé-je, ô mon amie ! lui aider à découvrir celle qu'il
-     attend ! celle qu'il desire ! elle sera heureuse, bienheureuse ; car Frédéric saura aimer ! </p>
-    <p> Il faut donc m'y résigner, chère amie : encore six mois d'absence ! six mois éloignée de toi ! Que de temps perdu pour le bonheur ! Le
+     attend ! celle qu'il desire ! elle sera heureuse, bienheureuse ; car Frédéric saura aimer !
+    </p>
+    <p>
+     Il faut donc m'y résigner, chère amie : encore six mois d'absence ! six mois éloignée de toi ! Que de temps perdu pour le bonheur ! Le
      bonheur, cet être si fugitif que plusieurs le croient chimérique, n'existe que par la réunion de tous les sentimens auxquels le cœur est
      accessible, et par la présence de ceux qui en sont les objets ; un vide l'empêche de naître, l'absence d'un ami le détruit. Aussi ne suis-je
      point heureuse, Élise, car tu es loin de moi, et jamais mon cœur n'eut plus besoin de t'aimer et de jouir de ta tendresse. Je sais que, si
      l'amitié t'appelle, le devoir te retient, et je t'estime trop pour t'attendre ; mais combien mes vœux aspirent à ce moment qui, les accordant
      ensemble, te ramènera dans mes bras ! Il me serait si doux de pleurer avec toi ; cela soulagerait mon cœur d'un poids qui l'oppresse, et que je
-     ne puis définir ! Adieu. </p>
+     ne puis définir ! Adieu.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XI. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Tu me demandes si j'aurais été bien aise que mon mari eût été témoin de ma dernière conversation avec Frédéric ? Assurément, Élise, elle
+    <head>
+     LETTRE XI.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Tu me demandes si j'aurais été bien aise que mon mari eût été témoin de ma dernière conversation avec Frédéric ? Assurément, Élise, elle
      n'avait rien qui pût lui faire de la peine : cela est si vrai, que je la lui ai racontée d'un bout à l'autre. Peut-être bien ne lui ai-je pas
      rendu tout-à-fait l'accent de Frédéric ; mais qui le pourrait ? M. d'Albe a mis à ce récit plus d'indifférence que moi-même ; il n'y a vu que le
      signe d'une tête exaltée ; et, a-t-il ajouté, c'est le partage de la jeunesse. « Mon ami, lui ai-je répondu, je crois que Frédéric joint à une
@@ -477,22 +755,34 @@
      amie, je vous connais trop pour vous ôter le plaisir de faire du bien à mon élève ; je crois d'ailleurs vos observations à son égard très-vraies,
      et vos projets très-bien conçus. Voyons : qui inviterez-vous ? J'ai nommé Adèle de Raincy : elle a seize ans, elle est belle, remplie de talens ;
      je la demanderai pour un mois... » Je pense, mon Élise, que ce plan, ainsi que ma confiance en M. d'Albe, répondent aux craintes bizarres que tu
-     laisses percer dans ta lettre. Ne me demande donc plus s'il est bien prudent, à mon âge, de m'ensevelir à la campagne avec <hi rend="italic"> cet
-     aimable, cet intéressant jeune homme : </hi> ce serait outrager ton amie que d'en douter ; ce serait l'avilir que d'exiger d'elle des précautions
+     laisses percer dans ta lettre. Ne me demande donc plus s'il est bien prudent, à mon âge, de m'ensevelir à la campagne avec
+     <hi rend="italic">
+      cet
+     aimable, cet intéressant jeune homme :
+     </hi>
+     ce serait outrager ton amie que d'en douter ; ce serait l'avilir que d'exiger d'elle des précautions
      contre un semblable danger. Où il y a un crime, Élise, il ne peut y avoir de danger pour moi, et il est des craintes que l'amitié doit rougir de
      concevoir. Élise, Frédéric est l'enfant adoptif de mon mari ; je suis la femme de son bienfaiteur : ce sont de ces choses que la vertu grave en
-     lettres de feu dans les âmes élevées, et qu'elles n'oublient jamais. Adieu. </p>
+     lettres de feu dans les âmes élevées, et qu'elles n'oublient jamais. Adieu.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Il se peut, mon aimable amie, que j'aie appuyé trop vivement sur l'espèce de soupçon que tu m'as laissé entrevoir : mais que veux-tu ? il
+    <head>
+     LETTRE XII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Il se peut, mon aimable amie, que j'aie appuyé trop vivement sur l'espèce de soupçon que tu m'as laissé entrevoir : mais que veux-tu ? il
      m'avait révolté, et je n'adopte pas davantage l'explication que tu lui donnes. Tu ne craignais que pour mon repos, et non pour ma conduite,
      dis-tu ? Eh bien ! Élise, tu as tort ; il n'y a d'honnêteté que dans un cœur pur, et on doit tout attendre de celle qui est capable d'un
      sentiment criminel. Mais laissons cela ; aussi bien j'ai honte de traiter si long-temps un pareil sujet ; et, pour te prouver que je ne redoute
      point tes observations, je vais te parler de Frédéric, et te citer un trait qui, par rapport à lui, serait fait pour appuyer tes remarques, si tu
-     l'estimais assez peu pour y persister. </p>
-    <p> En sortant de table, j'ai suivi mon mari dans l'atelier, parce qu'il voulait me montrer un modèle de mécanique qu'il a imaginé, et qu'il doit
+     l'estimais assez peu pour y persister.
+    </p>
+    <p>
+     En sortant de table, j'ai suivi mon mari dans l'atelier, parce qu'il voulait me montrer un modèle de mécanique qu'il a imaginé, et qu'il doit
      faire exécuter en grand. Je n'en avais pas encore vu tous les détails, lorsqu'il a été détourné par un ouvrier. Pendant qu'il lui parlait, un
      vieux bon-homme qui portait un outil à la main, passe près de moi, et casse par mégarde une partie du modèle. Frédéric, qui prévoit la colère de
      mon mari, s'élance prompt comme l'éclair, arrache l'outil des mains du vieillard, et par ce mouvement paraît être le coupable. M. d'Albe se
@@ -519,25 +809,40 @@
      ! Ne nous quittez jamais, Frédéric ! votre société est devenue un besoin pour moi.---Je le jure, ô mon père ! a répondu le jeune homme avec
      véhémence, et en mettant un genou en terre ; je le jure à la face de ce ciel que ma bouche ne souilla jamais d'un mensonge, et au nom de cette
      femme plus angélique que lui... Moi, vous quitter ! Ah Dieu ! il me semble que, hors d'ici, il n'y a plus que mort et néant.---Quelle tête !
-     s'est écrié mon mari. » Ah ! mon Élise, quel cœur ! </p>
-    <p> Le soir, m'étant trouvée seule avec Frédéric, je ne sais comment la conversation est tombée sur la scène de l'atelier. « J'ai bien souffert de
+     s'est écrié mon mari. » Ah ! mon Élise, quel cœur !
+    </p>
+    <p>
+     Le soir, m'étant trouvée seule avec Frédéric, je ne sais comment la conversation est tombée sur la scène de l'atelier. « J'ai bien souffert de
      votre peine, lui ai-je dit.---Je l'ai vu, m'a-t-il répondu, et de ce moment la mienne a disparu.---Comment donc ?---Oui, l'idée que vous
      souffriez pour moi avait quelque chose de plus doux que le plaisir même ; et puis, quand avec un accent pénétrant vous avez prononcé mon nom :
-     <hi rend="italic"> Pauvre Frédéric ! </hi> disiez-vous ; tenez, Claire, ce mot s'est écrit dans mon cœur, et je donnerais toutes les jouissances
-     de ma vie entière pour vous entendre encore : il n'y a que la peine de mon père qui a gâté ce délicieux moment ». </p>
-    <p> Élise, je l'avoue, j'ai été émue : mais qu'en concluras-tu ? Qui sait mieux que toi combien l'amitié est loin d'être un sentiment froid !
+     <hi rend="italic">
+      Pauvre Frédéric !
+     </hi>
+     disiez-vous ; tenez, Claire, ce mot s'est écrit dans mon cœur, et je donnerais toutes les jouissances
+     de ma vie entière pour vous entendre encore : il n'y a que la peine de mon père qui a gâté ce délicieux moment ».
+    </p>
+    <p>
+     Élise, je l'avoue, j'ai été émue : mais qu'en concluras-tu ? Qui sait mieux que toi combien l'amitié est loin d'être un sentiment froid !
      N'a-t-elle pas ses élans, ses transports ? Mais ils conservent leur physionomie, et quand on les confond avec une sensation plus passionnée, ce
      n'est pas la faute de celui qui les sent, mais de celui qui les juge. Frédéric éprouve de l'amitié pour la première fois de sa vie, et doit
      l'exprimer avec vivacité. Ne remarques-tu pas que l'image de mon mari est toujours unie à la mienne dans son cœur ? Quand je le vois si tendre,
      si caressant auprès d'un homme de soixante ans, quand je me rappelle les effusions que nous éprouvions toutes deux, puis-je m'étonner de la vive
-     amitié de Frédéric pour moi ? Dis, si tu veux, qu'il ne faut pas qu'il en éprouve, mais non qu'elle n'est pas ce qu'elle doit être. </p>
-    <p> Ma petite Laure commence à courir toute seule ; il n'y a rien de joli comme les soins d'Adolphe envers elle ; il la guide, la soutient, écarte
-     tout ce qui peut la blesser, et perd, dans cette intéressante occupation, toute l'étourderie de son âge. Adieu. </p>
+     amitié de Frédéric pour moi ? Dis, si tu veux, qu'il ne faut pas qu'il en éprouve, mais non qu'elle n'est pas ce qu'elle doit être.
+    </p>
+    <p>
+     Ma petite Laure commence à courir toute seule ; il n'y a rien de joli comme les soins d'Adolphe envers elle ; il la guide, la soutient, écarte
+     tout ce qui peut la blesser, et perd, dans cette intéressante occupation, toute l'étourderie de son âge. Adieu.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Pourquoi donc, mon Élise, viens-tu, par des mots entrecoupés, par des phrases interrompues, jeter une sorte de poison sur l'attachement qui
+    <head>
+     LETTRE XIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Pourquoi donc, mon Élise, viens-tu, par des mots entrecoupés, par des phrases interrompues, jeter une sorte de poison sur l'attachement qui
      m'unit à Frédéric ? Que n'es-tu témoin de la plupart de nos conversations, tu verrais que notre mutuelle tendresse pour M. d'Albe est le nœud qui
      nous lie le plus étroitement, et que le soin de son bonheur est le sujet inépuisable et chéri qui nous attire sans cesse l'un vers l'autre. J'ai
      passé la matinée entière avec Frédéric, et, durant ce long tête-à-tête, mon mari a été presque le seul objet de notre entretien. C'est dans trois
@@ -581,12 +886,18 @@
      me tienne lieu de tous ceux auxquels j'ai renoncé ; qu'il anime la nature ; que je le retrouve partout. Je l'écouterai dans les sons que je
      rendrai, et leur vibration aura son écho dans mon cœur : c'est lui qui fera couler mes larmes, et lui seul qui les essuiera. Amitié, tu es tout !
      la feuille qui voltige, la romance que je chante, la rose que je cueille, le parfum qu'elle exhale. Je veux vivre pour toi, et puissé-je mourir
-     avec toi ! </p>
+     avec toi !
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XIV. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Si mes deux dernières lettres ont ranimé tes doutes, cousine, j'espère que celle-ci les détruira tout-à-fait. Adèle de Raincy est arrivée
+    <head>
+     LETTRE XIV.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Si mes deux dernières lettres ont ranimé tes doutes, cousine, j'espère que celle-ci les détruira tout-à-fait. Adèle de Raincy est arrivée
      depuis trois jours, et déjà elle a fait une assez vive impression sur Frédéric. Je voulais lui laisser ignorer qu'elle dût venir, afin de le
      surprendre, et j'ai réussi. Aussitôt qu'Adèle fut arrivée, je la conduisis dans le pavillon que baigne la rivière, et je fis appeler Frédéric ;
      il accourut, mais, voyant Adèle près de moi, un cri lui échappe, et la plus vive rougeur couvre son visage ; il s'approche pourtant, mais avec
@@ -598,7 +909,11 @@
      les jours ; aussi répondait-elle fort peu ; mais son silence même enchantait Frédéric : il lui a paru une preuve de modestie et de timidité, et
      c'est ce qui lui plaît par-dessus tout dans une jeune personne. Adèle, de son côté, me paraît très-disposée en sa faveur. L'admiration qu'elle
      lui inspire la flatte, l'agrément de ses discours l'attire, et le feu de son imagination l'amuse. D'ailleurs la figure de Frédéric est charmante
-     ; s'il n'a pas ce qu'on appelle de <hi rend="italic"> la tournure </hi> , il a de la grâce, de l'adresse et de l'agilité : tout cela peut bien
+     ; s'il n'a pas ce qu'on appelle de
+     <hi rend="italic">
+      la tournure
+     </hi>
+     , il a de la grâce, de l'adresse et de l'agilité : tout cela peut bien
      faire impression sur un cœur de seize ans. Depuis un an que je n'avais vu Adèle, elle est singulièrement embellie ; ses yeux sont noirs, vifs et
      brillans ; sa brune chevelure tombe en anneaux sur un cou éblouissant ; je n'ai point vu de plus belles dents ni des lèvres si vermeilles, et,
      sans être amant ni poète, je dirai que la rose humide des larmes de l'aurore n'a ni la fraîcheur ni l'éclat de ses joues ; son teint est une
@@ -607,8 +922,10 @@
      leçons de politesse, et le sentiment qui l'inspire lui en a plus appris en une heure que tous mes conseils depuis trois mois. À la promenade, il
      est toujours empressé d'offrir son bras à Adèle, de la soutenir si elle saute un ruisseau, de ramasser un gant quand il tombe, car c'est un moyen
      de toucher sa main, et cette main est si blanche et si douce ! Je ne sais si je me trompe, Élise, mais il me semble que ce gant tombe bien
-     souvent. </p>
-    <p> Ce matin, Adèle examinait un portrait de Zeuxis qui est dans le salon : « Cela est singulier, a-t-elle dit, de quelque côté que je me mette,
+     souvent.
+    </p>
+    <p>
+     Ce matin, Adèle examinait un portrait de Zeuxis qui est dans le salon : « Cela est singulier, a-t-elle dit, de quelque côté que je me mette,
      je vois toujours les yeux de Zeuxis qui me regardent.---Je le crois bien, a vivement répondu Frédéric, ne cherchent-ils pas la plus belle ? » Tu
      vois, mon amie, comment le plus léger mouvement de préférence forme promptement un jeune homme, et j'espère que désormais tu ne seras plus
      inquiète de son amitié pour moi. Ce mot amitié est même trop fort pour ce que je lui inspire ; car, dans mes idées, l'amour même ne devrait pas
@@ -618,12 +935,18 @@
      éprouve, ils restent toujours les mêmes ; mais lui, dans l'âge des passions, pouvant être entraîné, subjugué par elles, peut-on compter de sa
      part sur un sentiment durable ! Non, l'amitié serait bientôt sacrifiée, et j'en ferais seule tous les frais. Malheur à moi, alors ! car, nous le
      savons, mon Élise, ce sentiment exige tout ce qu'il donne. Puissé-je voir Frédéric heureux ! Mais tranquillise-toi, cousine, il n'a pas besoin de
-     moi pour l'être. Adieu. </p>
+     moi pour l'être. Adieu.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XV. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Si je ne t'ai pas écrit depuis près de quinze jours, ma tendre amie, c'est que j'ai été malade. En finissant ma dernière lettre, je me sentais
+    <head>
+     LETTRE XV.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Si je ne t'ai pas écrit depuis près de quinze jours, ma tendre amie, c'est que j'ai été malade. En finissant ma dernière lettre, je me sentais
      oppressée, triste, sans savoir pourquoi, et faisant une très-maussade compagnie à la vive et brillante Adèle. Je remettais chaque jour à
      t'écrire, à cause de l'abattement qui m'accablait ; enfin la fièvre m'a prise. J'ai craint que le dérangement de ma santé ne nuisît à ma fille,
      j'ai voulu la sevrer. Le médecin, tout en convenant que je faisais bien pour elle, m'a objecté que j'avais tort pour moi, parce que, dans un
@@ -640,16 +963,24 @@
      êtes imposés envers vos enfans. Quoi ! vous croyez leur devoir le sacrifice de votre existence ! J'ai été si surprise quand vous l'avez dit, que
      j'ai été tentée de vous croire folle...---Folle ! s'est écrié Frédéric ; dites sublime, Mademoiselle.---Vous ne le croiriez pas, mon jeune ami, a
      interrompu M. d'Albe ; mais dans le monde ces deux mots sont presque synonymes ; vous y verrez taxé de bizarre et d'esprit systématique celui
-     dont l'âme élevée dédaigne de copier les copies qui l'entourent. » </p>
-    <p> Cela est bien vrai, mon Élise ! cette injustice est une suite de ce petit esprit du monde qui tend toujours à rabaisser les autres pour les
+     dont l'âme élevée dédaigne de copier les copies qui l'entourent. »
+    </p>
+    <p>
+     Cela est bien vrai, mon Élise ! cette injustice est une suite de ce petit esprit du monde qui tend toujours à rabaisser les autres pour les
      mettre à son niveau. Je me rappelle que dans ces assemblées insipides où l'oisiveté enfante la médisance, et où la futilité parvient à tout
      dessécher, j'ai souvent pensé que ce sot usage de s'asseoir en rond pour faire la conversation était la cause de tous nos torts et la source de
-     toutes nos sottises... Mais je sens ma tête trop faible pour en écrire davantage. Adieu, mon ange. </p>
+     toutes nos sottises... Mais je sens ma tête trop faible pour en écrire davantage. Adieu, mon ange.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XVI. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Adèle a voulu aller au bal ce soir, Frédéric lui donne la main, et mon mari leur sert de Mentor. Mes deux amis desiraient bien rester avec
+    <head>
+     LETTRE XVI.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Adèle a voulu aller au bal ce soir, Frédéric lui donne la main, et mon mari leur sert de Mentor. Mes deux amis desiraient bien rester avec
      moi, Frédéric surtout a insisté auprès d'Adèle pour l'empêcher de me quitter. Il a voulu lui faire sentir que, ne me portant pas bien, il était
      peu délicat à elle de me laisser seule ; mais l'amour de la danse a prévalu sur toutes ses raisons, et elle a déclaré que le bal étant son unique
      passion, rien ne pouvait l'empêcher d'y aller : d'ailleurs, a-t-elle ajouté avec un souris moqueur, vous savez que madame d'Albe n'aime pas qu'on
@@ -665,12 +996,18 @@
      qu'elle ne vaut pas la peine que l'on se donne pour la conserver. L'ennui d'agir est partout, le plaisir d'avoir agi nulle part. Je sais que le
      bien qu'on fait aux autres est une jouissance ; mais je le dis plus que je ne le sens, et si je n'étais souvent agitée d'émotions subites, je
      croirais mon âme prête à s'éteindre. Je n'ai plus assez de vie pour cette solitude absolue où il faut se suffire à soi-même. Pour la première
-     fois je sens le besoin d'un peu de société, et je regrette de n'avoir point été au bal. Adieu, la plume me tombe des mains. </p>
+     fois je sens le besoin d'un peu de société, et je regrette de n'avoir point été au bal. Adieu, la plume me tombe des mains.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XVII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Adèle peint supérieurement pour son âge ; elle a voulu faire mon portrait, et j'y ai consenti avec plaisir, afin de l'offrir à mon mari. Ce
+    <head>
+     LETTRE XVII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Adèle peint supérieurement pour son âge ; elle a voulu faire mon portrait, et j'y ai consenti avec plaisir, afin de l'offrir à mon mari. Ce
      matin, comme elle y travaillait, Frédéric est venu nous joindre. Il a regardé son ouvrage et a loué son talent, mais avec un demi-sourire qui n'a
      point échappé à Adèle, et dont elle a demandé l'explication. Sans l'écouter ni lui répondre, il a continué à regarder le portrait, et puis moi,
      et puis le portrait, ainsi alternativement. Adèle, impatiente, a voulu savoir ce qu'il pensait. Enfin, après un long silence : « Ce n'est pas là
@@ -698,22 +1035,32 @@
      ? De même qu'il est peu de matins sans nuages, on ne voit guère d'adolescence sans défauts ; mais elle s'en dégage tous les jours, surtout quand
      elle est guidée par une main aimée. C'est à vous qu'appartiendra ce soin touchant ; c'est à vous à former celle qui vous est destinée, et vous ne
      pourrez y réussir qu'en la choisissant dans l'âge où l'on peut l'être encore. Mais, ô Frédéric ! ai-je ajouté avec solennité, au nom de votre
-     repos, gardez-vous bien de lever les yeux sur toute autre. » En disant ces mots, je suis sortie de la chambre sans attendre sa réponse. </p>
-    <p> Élise, je n'ose te dire tout ce que je crains ; mais l'air de Frédéric m'a fait frémir : s'il était possible !... Mais, non, je me trompe
+     repos, gardez-vous bien de lever les yeux sur toute autre. » En disant ces mots, je suis sortie de la chambre sans attendre sa réponse.
+    </p>
+    <p>
+     Élise, je n'ose te dire tout ce que je crains ; mais l'air de Frédéric m'a fait frémir : s'il était possible !... Mais, non, je me trompe
      assurément ; inquiète de tes craintes, influencée par tes soupçons, je vois déjà l'expression d'un sentiment coupable où il n'y a que celle de
      l'amitié, mais ardente, mais passionnée, telle que doit l'éprouver une âme neuve et enthousiaste. Néanmoins, je vais l'examiner avec soin ; et
      quant à moi, ô mon unique amie ! bannis ton injurieuse inquiétude, fie-toi à ce cœur qui a besoin, pour respirer à son aise, de n'avoir aucun
-     reproche à se faire, et à qui le contentement de lui-même est aussi nécessaire que ton amitié. </p>
+     reproche à se faire, et à qui le contentement de lui-même est aussi nécessaire que ton amitié.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XVIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Élise, comment te peindre mon agitation et mon désespoir ? C'en est fait, je n'en puis plus douter, Frédéric m'aime. Sens-tu tout ce que ce
+    <head>
+     LETTRE XVIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Élise, comment te peindre mon agitation et mon désespoir ? C'en est fait, je n'en puis plus douter, Frédéric m'aime. Sens-tu tout ce que ce
      mot a d'affreux dans notre position ? Malheureux Frédéric ! mon cœur se serre, et je ne puis verser une larme. Ah Dieu ! pourquoi l'avoir appelé
      ici ? Je le connais, mon amie, il aime, et ce sera pour la vie : il traînera éternellement le trait dont il est déchiré, et c'est moi qui cause
      sa peine ! Ah ! je le sens ; il est des douleurs au-dessus des forces humaines. Comment te dire tout cela ? Comment rappeler mes idées ? dans le
-     trouble qui m'agite, je n'en puis retrouver aucune. Chère, chère Élise, que n'es-tu ici, je pourrais pleurer sur ton sein ! </p>
-    <p> Aujourd'hui, à peine avons-nous eu dîné, que mon mari a proposé une promenade dans les vastes prairies qu'arrose la Loire. Je l'ai acceptée
+     trouble qui m'agite, je n'en puis retrouver aucune. Chère, chère Élise, que n'es-tu ici, je pourrais pleurer sur ton sein !
+    </p>
+    <p>
+     Aujourd'hui, à peine avons-nous eu dîné, que mon mari a proposé une promenade dans les vastes prairies qu'arrose la Loire. Je l'ai acceptée
      avec empressement ; Adèle d'assez mauvaise grâce, car elle n'aime point à marcher ; mais n'importe, j'ai dû ne pas consulter son goût quand il
      s'agissait du plaisir de mon mari. J'ai pris mon fils avec moi, et Frédéric nous a accompagnés. Le temps était superbe ; les prairies, fraîches,
      émaillées, remplies de nombreux troupeaux, offraient le paysage le plus charmant ; je le contemplais en silence, en suivant doucement le cours de
@@ -737,8 +1084,10 @@
      promis secours et protection, et mes efforts ont réussi à calmer leur douleur. Le chirurgien est arrivé au bout d'une heure ; il a mis un
      appareil sur la blessure, et a assuré qu'elle n'était pas mortelle. Je l'ai prié de passer la nuit auprès du malade, et j'ai promis de revenir
      les visiter le lendemain. Alors, comme il commençait à faire nuit, j'ai craint que mon mari ne fût inquiet, et nous avons quitté ces bonnes gens,
-     Frédéric et moi, comblés de leurs bénédictions. </p>
-    <p> Le cœur plein de toutes les émotions que j'avais éprouvées, je marchais en silence, et en me retraçant le dévouement héroïque avec lequel
+     Frédéric et moi, comblés de leurs bénédictions.
+    </p>
+    <p>
+     Le cœur plein de toutes les émotions que j'avais éprouvées, je marchais en silence, et en me retraçant le dévouement héroïque avec lequel
      Frédéric s'était presque exposé à une mort certaine pour sauver son père : j'ai jeté les yeux sur lui ; la lune éclairait doucement son visage,
      je l'ai vu baigné de larmes. Attendrie, je me suis approchée, mon bras s'est appuyé sur le sien, il l'a pressé avec violence contre son cœur : ce
      mouvement a fait palpiter le mien. « Claire, Claire, a-t-il dit d'une voix étouffée, que ne puis-je payer de toute ma vie la prolongation de cet
@@ -805,63 +1154,121 @@
      rappellera mon trouble ; je ne pourrai plus être triste impunément, et dès lors toutes mes craintes seront réalisées. Non, non, que Frédéric
      reste et qu'il se taise ; j'éviterai soigneusement d'être seule avec lui, et quand je m'y trouverai malgré moi, mon extrême froideur lui ôtera
      tout espoir d'en profiter. Mais crois-tu qu'il le désire ? Ah ! mon amie, si tu connaissais comme moi l'âme de Frédéric, tu saurais que si la
-     violence des passions l'a subjuguée un moment, elle est trop noble pour y persister. </p>
-    <p> Pourquoi le ciel injuste l'a-t-il poussé vers une femme qui ne s'appartient pas ? Sans doute que celle qui eût été libre de faire son bonheur,
+     violence des passions l'a subjuguée un moment, elle est trop noble pour y persister.
+    </p>
+    <p>
+     Pourquoi le ciel injuste l'a-t-il poussé vers une femme qui ne s'appartient pas ? Sans doute que celle qui eût été libre de faire son bonheur,
      eût été trop heureuse... Mais je ne sais pas ce que je dis ; pardonne, Élise, ma tête n'est point à moi ; l'image de ce malheureux me poursuit ;
      j'entends encore ses accens, ils retentissent dans mon cœur. Hélas ! si sa peine venait d'une autre cause, l'humanité m'ordonnerait de l'adoucir
      par toute la tendresse que permet l'amitié. Et parce que c'est moi qu'il aime, parce que c'est moi qui le fais souffrir, il faut que je sois dure
      et barbare envers lui ! Combien une pareille conduite choque les lois éternelles de la justice et de la vérité !... Écris-moi, Élise, guide-moi,
-     je ne sais que vouloir ; je ne sais que résoudre, je me sens malade, je ne quitterai point ma chambre. Adieu. </p>
+     je ne sais que vouloir ; je ne sais que résoudre, je me sens malade, je ne quitterai point ma chambre. Adieu.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XIX. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Je n'ai point sorti encore de mon appartement, l'idée de voir Frédéric me fait frémir. J'ai dit que j'étais malade, je le suis en effet ; ma
+    <head>
+     LETTRE XIX.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Je n'ai point sorti encore de mon appartement, l'idée de voir Frédéric me fait frémir. J'ai dit que j'étais malade, je le suis en effet ; ma
      main tremble en t'écrivant, et je ne puis calmer l'agitation de mes esprits. Qu'est-ce donc que ce terrible sentiment d'amour, si sa vue, si la
      pitié qu'il inspire, jettent dans l'état où je suis ? Ah ! combien je bénis le ciel de m'avoir garantie de son pouvoir ! Va, mon amie, c'est bien
      à présent que je suis sûre d'être toujours indifférente ; je l'étais moins quand je croyais que les passions pouvaient être une source de
      félicité ; mais à présent que j'ai vu avec quelle violence elles entraînent à la folie et au crime, j'en ai un effroi qui te répond de moi pour
      la vie. Élise, ô mon Élise ! C'est lui, je l'ai vu, il vient d'entrouvrir la porte, il a jeté un billet et s'est retiré avec précipitation ; son
-     regard suppliant me disait : <hi rend="italic"> lisez </hi> . mais le dois-je ? Je n'ose ramasser ce papier... Cependant si on venait, qu'on le
+     regard suppliant me disait :
+     <hi rend="italic">
+      lisez
+     </hi>
+     . mais le dois-je ? Je n'ose ramasser ce papier... Cependant si on venait, qu'on le
      vît... Je l'ai lu, ah ! mon amie ! Voilà les premières larmes que j'ai versées depuis hier, j'en ai inondé ce billet, je vais tâcher de le
-     transcrire. </p>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> « Pourquoi vous cacher, pourquoi fuir le jour ? c'est à moi d'en avoir horreur : vous ! vous êtes aussi pure que lui. » </p>
-    <p> Adieu, Élise, j'entends mon mari, je vais m'entourer de mes enfans ; je ne sais si je répondrai, je ne sais ce que je répondrai. Non, il vaut
-     mieux se taire. Adieu. </p>
-    <p> BILLLET. </p>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Vous m'évitez, je le vois ; vous êtes malade, j'en suis cause ; je dissimule avec un père que j'aime, j'offense dans mon cœur le bienfaiteur
-     qui m'accable de ses bontés : Claire, le ciel ne m'a pas donné assez de courage pour de pareils maux. </p>
-    <p> BILLLET. </p>
-    <p> CLAIRE À FRÉDÉRIC. </p>
-    <p> Qu'osez-vous me faire entendre, malheureux ! une faiblesse nous a mis sur le bord de l'abîme, une lâcheté peut nous y plonger : vous aurai-je
-     trop estimé, en supposant que vous pouviez réparer vos torts ; et ne ferez-vous rien pour moi ? </p>
-    <p> BILLLET. </p>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Je ne suis pas maître de mon amour, je le suis de ma vie ; je ne puis cesser de vous offenser qu'en cessant d'exister, chaque battement de mon
-     cœur est un crime, laissez-moi mourir. » </p>
-    <p> BILLLET. </p>
-    <p> CLAIRE À FRÉDÉRIC. </p>
-    <p> Non, on n'est pas maître de sa vie quand celle d'un autre y est attachée. Malheureux ! frémis du coup que tu veux porter, il ne t'atteindrait
-     pas seul. </p>
-    <p> BILLLET. </p>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Je ne résiste point... Le ton de votre billet, ce que j'y ai cru voir... Ah ! Claire, s'il était possible... Puisque vous persistez à ne point
+     transcrire.
+    </p>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     « Pourquoi vous cacher, pourquoi fuir le jour ? c'est à moi d'en avoir horreur : vous ! vous êtes aussi pure que lui. »
+    </p>
+    <p>
+     Adieu, Élise, j'entends mon mari, je vais m'entourer de mes enfans ; je ne sais si je répondrai, je ne sais ce que je répondrai. Non, il vaut
+     mieux se taire. Adieu.
+    </p>
+    <p>
+     BILLLET.
+    </p>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Vous m'évitez, je le vois ; vous êtes malade, j'en suis cause ; je dissimule avec un père que j'aime, j'offense dans mon cœur le bienfaiteur
+     qui m'accable de ses bontés : Claire, le ciel ne m'a pas donné assez de courage pour de pareils maux.
+    </p>
+    <p>
+     BILLLET.
+    </p>
+    <p>
+     CLAIRE À FRÉDÉRIC.
+    </p>
+    <p>
+     Qu'osez-vous me faire entendre, malheureux ! une faiblesse nous a mis sur le bord de l'abîme, une lâcheté peut nous y plonger : vous aurai-je
+     trop estimé, en supposant que vous pouviez réparer vos torts ; et ne ferez-vous rien pour moi ?
+    </p>
+    <p>
+     BILLLET.
+    </p>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Je ne suis pas maître de mon amour, je le suis de ma vie ; je ne puis cesser de vous offenser qu'en cessant d'exister, chaque battement de mon
+     cœur est un crime, laissez-moi mourir. »
+    </p>
+    <p>
+     BILLLET.
+    </p>
+    <p>
+     CLAIRE À FRÉDÉRIC.
+    </p>
+    <p>
+     Non, on n'est pas maître de sa vie quand celle d'un autre y est attachée. Malheureux ! frémis du coup que tu veux porter, il ne t'atteindrait
+     pas seul.
+    </p>
+    <p>
+     BILLLET.
+    </p>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Je ne résiste point... Le ton de votre billet, ce que j'y ai cru voir... Ah ! Claire, s'il était possible... Puisque vous persistez à ne point
      me voir seul, permettez du moins que j'écrive pour m'expliquer, peut-être vous paraîtrai-je alors moins coupable. Demain matin, quand il me sera
-     permis d'entrer chez vous pour savoir de vos nouvelles, daignez recevoir ma lettre. </p>
+     permis d'entrer chez vous pour savoir de vos nouvelles, daignez recevoir ma lettre.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XX. </head>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Dans l'abîme de misère où je suis descendu, s'il est un lien qui puisse me rattacher à la vie, je le trouve dans l'espoir de regagner votre
+    <head>
+     LETTRE XX.
+    </head>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Dans l'abîme de misère où je suis descendu, s'il est un lien qui puisse me rattacher à la vie, je le trouve dans l'espoir de regagner votre
      estime ; en vous montrant mon cœur tel qu'il fut, tel qu'il est animé par vous, peut-être ne rougirez-vous pas de l'autel où vous serez adorée
-     jusqu'à mon dernier jour. </p>
-    <p> Vous le savez, Claire, je fus élevé par une mère qui s'était mariée malgré le vœu de toute sa famille ; l'amour seul avait rempli sa vie, et
+     jusqu'à mon dernier jour.
+    </p>
+    <p>
+     Vous le savez, Claire, je fus élevé par une mère qui s'était mariée malgré le vœu de toute sa famille ; l'amour seul avait rempli sa vie, et
      elle me fit passer son âme avec son lait. Sans cesse elle me parlait de mon père, du bonheur d'un attachement mutuel : je fus témoin du charme de
      leur union, et de l'excessive douleur de ma mère lors de la mort de son mari, douleur qui, la consumant peu à peu, la fit périr elle-même
-     quelques années après. </p>
-    <p> Toutes ces images me disposèrent de bonne heure à la tendresse, j'y fus encore excité par l'habitation des montagnes. C'est dans ces pays
+     quelques années après.
+    </p>
+    <p>
+     Toutes ces images me disposèrent de bonne heure à la tendresse, j'y fus encore excité par l'habitation des montagnes. C'est dans ces pays
      sauvages et sublimes que l'imagination s'exalte et allume dans le cœur un feu qui finit par le dévorer ; c'est là que je me créai un fantôme
      auquel je me plaisais à rendre une sorte de culte : souvent, après avoir gravi une de ces hauteurs imposantes où la vue plane sur l'immensité.
      Elle est là, m'écriai-je, dans une douce extase, celle que le ciel destine à faire la félicité de ma vie ! Peut-être mes yeux sont-ils tournés
@@ -869,8 +1276,10 @@
      alors je lui donnais des traits ; je la douais de toutes les vertus ; je réunissais sur un seul être toutes les qualités, tous les agrémens dont
      la société et les livres m'avaient offert l'idée ; enfin, épuisant sur lui tout ce que la nature a d'aimable, et tout ce que mon cœur pouvait
      aimer, j'imaginai Claire !... Mais non, ce regard, le plus puissant de tes charmes, ce regard que rien ne peut peindre ni définir, il
-     n'appartenait qu'à toi de le posséder : l'imagination même ne pouvait aller jusque-là. </p>
-    <p> Ma mère avait gravé dans mon âme les plus saints préceptes de morale et le plus profond respect pour les nœuds sacrés du mariage : aussi, en
+     n'appartenait qu'à toi de le posséder : l'imagination même ne pouvait aller jusque-là.
+    </p>
+    <p>
+     Ma mère avait gravé dans mon âme les plus saints préceptes de morale et le plus profond respect pour les nœuds sacrés du mariage : aussi, en
      arrivant ici, combien j'étais loin de penser qu'une femme mariée, que la femme de mon bienfaiteur, pût être un objet dangereux pour moi ! J'étais
      d'autant moins sur mes gardes, que, quoique votre premier regard eût fait évanouir toutes mes préventions, et que je vous eusse trouvée
      charmante, un souris fin, j'ai presque dit malin, qui effleure souvent vos lèvres, me faisait douter de l'excellence de votre cœur. Aussi
@@ -891,8 +1300,10 @@
      dont je ne voulais pas voir la véritable cause : ce fut sans doute le motif secret de la joie que je sentis à l'arrivée de mademoiselle de Raincy
      ; en la voyant brillante de tous vos charmes, je lui prêtai toutes vos vertus, et je me crus sauvé. Je fus plusieurs jours séduit par sa figure ;
      elle est plus régulièrement belle que vous ; j'osai vous comparer... Ah ! Claire, si la terre n'a rien de plus beau qu'Adèle, le ciel seul peut
-     m'offrir votre modèle ! </p>
-    <p> Vous m'estimez assez, j'espère, pour penser qu'il ne me fallut pas long-temps pour mesurer la distance qui sépare vos caractères ; je me
+     m'offrir votre modèle !
+    </p>
+    <p>
+     Vous m'estimez assez, j'espère, pour penser qu'il ne me fallut pas long-temps pour mesurer la distance qui sépare vos caractères ; je me
      rappelle qu'un jour où vous me fîtes son éloge, en me laissant entrevoir le dessein de nous unir, je fus humilié que vous pussiez penser qu'après
      vous avoir connue je pusse me contenter d'Adèle, et que vous m'estimassiez assez peu pour croire que si la beauté pouvait m'émouvoir, il ne me
      fallût pas autre chose pour me fixer. Ô Claire ! m'écriai-je souvent, en m'adressant à votre image, si vous voulez qu'on puisse aimer une autre
@@ -904,20 +1315,26 @@
      que j'aurais dû faire par raison. Cependant un jour... Claire, oserai-je vous le dire ? un jour vous me priâtes de dénouer les rubans de votre
      voile ; en y travaillant, mes yeux fixèrent vos charmes, un mouvement plus prompt que la pensée m'attira, j'osai porter mes lèvres sur votre cou
      : je tenais Adolphe entre mes bras, vous crûtes que c'était lui, je ne vous détrompai pas, mais j'emportai un trouble dévorant, une agitation
-     tumultueuse ; j'entrevis la vérité, et j'eus horreur de moi-même. </p>
-    <p> Enfin ce jour, ce jour fatal où ma lâche faiblesse vous a appris ce que vous n'auriez jamais dû entendre, combien j'étais éloigné de penser
+     tumultueuse ; j'entrevis la vérité, et j'eus horreur de moi-même.
+    </p>
+    <p>
+     Enfin ce jour, ce jour fatal où ma lâche faiblesse vous a appris ce que vous n'auriez jamais dû entendre, combien j'étais éloigné de penser
      qu'il dût finir ainsi ! Dès le matin j'avais été parcourir la campagne, et, m'élevant avec une piété sincère vers l'auteur de mon être, je
      l'avais conjuré de me garantir d'une séduction dont la cause était si belle et l'effet si funeste. Ces élans religieux me rendirent la paix ; il
-     me sembla que Dieu venait de se placer entre nous deux, et j'osai me rapprocher de vous. </p>
-    <p> De même qu'un calme parfait est souvent le précurseur des plus violentes tempêtes, un repos qui m'était inconnu depuis long-temps avait rempli
+     me sembla que Dieu venait de se placer entre nous deux, et j'osai me rapprocher de vous.
+    </p>
+    <p>
+     De même qu'un calme parfait est souvent le précurseur des plus violentes tempêtes, un repos qui m'était inconnu depuis long-temps avait rempli
      ma journée. J'acceptai avec empressement la promenade proposée par M. d'Albe, afin de revoir cette nature, dont la bienfaisante influence m'avait
      été si salutaire le matin : mais je la revis avec vous, et elle ne fut plus la même : la terre ne m'offrait que l'empreinte de vos pas ; le ciel,
      que l'air que vous respiriez ; un voile d'amour répandu sur toute la nature m'enveloppait délicieusement, et me montrait votre image dans tous
      les objets que je fixais. Enfin, Claire, à cet instant où je vous vis prête à sacrifier vos jours pour votre fils, et où je craignis pour votre
      vie, alors seulement je sentis tout ce que vous étiez pour moi. Témoin de la sensibilité courageuse qui vous fit étancher une horrible blessure,
      de cette inépuisable bonté qui vous indiquait tous les moyens de consoler des malheureux, je me dis que le plus méprisable des êtres serait celui
-     qui pourrait vous voir sans vous adorer, si ce n'était celui qui oserait vous le dire. </p>
-    <p> Ce fut dans ces dispositions, Claire, que je sortis de cette chaumière où vous aviez paru comme une déité bienfaisante : la faible lueur de la
+     qui pourrait vous voir sans vous adorer, si ce n'était celui qui oserait vous le dire.
+    </p>
+    <p>
+     Ce fut dans ces dispositions, Claire, que je sortis de cette chaumière où vous aviez paru comme une déité bienfaisante : la faible lueur de la
      lune jetait sur l'univers quelque chose de mélancolique et de tendre ; l'air doux et embaumé était imprégné de volupté ; le calme qui régnait
      autour de nous n'était interrompu que par le chant plaintif du rossignol ; nous étions seuls au monde... Je devinai le danger, et j'eus la force
      de m'éloigner de vous ; ce fut alors que vous vous approchâtes, je vous sentis et je fus perdu ; la vérité, renfermée avec effort, s'échappa
@@ -926,52 +1343,76 @@
      ingratitude, toute horrible qu'elle était, ne combattait que faiblement la puissance qui m'attirait vers vous, je vois mon père... Égaré, éperdu,
      je veux fuir ; vous m'ordonnez de rentrer et de feindre. Feindre, moi ! je crus qu'il était plus facile de mourir que d'obéir, je me trompai ;
      l'impossible n'est plus quand c'est Claire qui le commande ; son pouvoir sur moi est semblable à celui de Dieu même ; il ne s'arrête que là où
-     commence mon amour. </p>
-    <p> Claire, je ne veux pas vous tromper : si dans vos projets sur moi vous faites entrer l'espoir de me guérir un jour, vous nourrissez une erreur
+     commence mon amour.
+    </p>
+    <p>
+     Claire, je ne veux pas vous tromper : si dans vos projets sur moi vous faites entrer l'espoir de me guérir un jour, vous nourrissez une erreur
      ; je ne puis ni ne veux cesser de vous aimer ; non, je ne le veux point : il n'est aucune portion de moi-même qui combatte l'adoration que je te
      porte. Je veux t'aimer, parce que tu es ce qu'il y a de meilleur au monde, et que ma passion ne nuit à personne ; je veux t'aimer enfin, parce
-     que tu me l'ordonnes : ne m'as-tu pas dit de vivre ? </p>
-    <p> Écoutez, Claire, j'ai examiné mon cœur, et je crois ne point offenser mon père en vous aimant. De quel droit voudrait-il qu'on vous connût
+     que tu me l'ordonnes : ne m'as-tu pas dit de vivre ?
+    </p>
+    <p>
+     Écoutez, Claire, j'ai examiné mon cœur, et je crois ne point offenser mon père en vous aimant. De quel droit voudrait-il qu'on vous connût
      sans vous apprécier, et qu'est-ce que mon amour lui ôte ? Ai-je jamais conçu l'espoir, ai-je même le desir que vous répondiez à ma tendresse ? Ah
      ! gardez-vous de le croire ! j'en suis si loin, que ce serait pour moi le plus grand des malheurs ; car ce serait le seul, l'unique moyen de
      m'arracher mon amour ; Claire méprisable n'en serait plus digne ; Claire méprisable ne serait plus vous : cessez d'être parfaite, cessez d'être
-     vous-même, et de ce moment je ne vous crains plus. </p>
-    <p> D'après cette déclaration, étonnante peut-être, mais vraie, mais sincère, que risquez-vous en vous laissant aimer ? Permettez-moi de toujours
+     vous-même, et de ce moment je ne vous crains plus.
+    </p>
+    <p>
+     D'après cette déclaration, étonnante peut-être, mais vraie, mais sincère, que risquez-vous en vous laissant aimer ? Permettez-moi de toujours
      adorer la vertu, et de lui prêter vos traits pour m'encourager à la suivre ; alors il n'y a rien dont elle ne me rende capable. Ma raison, mon
      âme, ma conscience, ne sont plus qu'une émanation de vous ; c'est à vous qu'appartient le soin de ma conduite future. Je vous remets mon
      existence entière, et vous rends responsable de la manière dont elle sera remplie ; si votre cruauté me repousse, s'il m'est défendu de vous
      approcher, tous les ressorts de mon être se détendent, je tombe dans le néant. Éloigné de vous, je me perds dans un vague immense, où je ne
      distingue plus la vertu, l'humanité ni l'honneur. Ô céleste Claire ! laisse-moi te voir, t'entendre, t'adorer ! je serai grand, vertueux,
-     magnanime ; un amour chaste comme le mien ne peut offenser personne, c'est un enfant du ciel à qui Dieu permet d'habiter la terre. </p>
-    <p> Je ne quitterai point ce séjour, j'y veux employer chaque instant de ma vie à vous imiter, en faisant le bonheur de mon père. Ce digne homme
+     magnanime ; un amour chaste comme le mien ne peut offenser personne, c'est un enfant du ciel à qui Dieu permet d'habiter la terre.
+    </p>
+    <p>
+     Je ne quitterai point ce séjour, j'y veux employer chaque instant de ma vie à vous imiter, en faisant le bonheur de mon père. Ce digne homme
      se plaît avec moi, il m'a prié de diriger les études de son fils ; Claire, je m'attache à votre maison, à votre sort, à vos enfans, je veux
      devenir une partie de vous-même, en dépit de vous-même : c'est là mon destin, je n'en aurai point d'autre ; ne me parlez plus de liens, de
-     mariage, tout est fini pour moi, et ma vie est fixée. </p>
-    <p> Je vous promets de révérer en silence l'objet sacré de mon culte : dévoré d'amour et de desirs, ni mes paroles, ni mes regards ne vous
+     mariage, tout est fini pour moi, et ma vie est fixée.
+    </p>
+    <p>
+     Je vous promets de révérer en silence l'objet sacré de mon culte : dévoré d'amour et de desirs, ni mes paroles, ni mes regards ne vous
      dévoileront mon trouble ; vous finirez par oublier ce que j'ai osé vous dire, et je vous jure de ne jamais vous rappeler ce souvenir. Claire, si
      ma situation vous paraissait pénible, si votre tendre cœur était ému de compassion, ne me plaignez point ; il est dans votre dernier billet un
      mot !... Source d'une illusion ravissante, il m'a fait goûter un moment tout ce que l'humanité peut attendre de félicité ! Ô Claire ! Ne m'ôte
      point mon erreur ! qu'y gagnerais-tu ? Je sais que c'en est une ; mais elle m'enchante, me console ; c'est elle qui doit essuyer toutes mes
      larmes, laisse-moi ce bien précieux : ce n'était pas ta volonté de me le donner ; je l'ai saisi afin de pouvoir t'obéir quand tu m'as commandé de
-     vivre : aurais-tu la barbarie de me l'arracher ? </p>
+     vivre : aurais-tu la barbarie de me l'arracher ?
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXI. </head>
-    <p> CLAIRE À FRÉDÉRIC. </p>
-    <p> Votre lettre m'a fait pitié ; si ce n'était celle d'un malheureux qu'il faut guérir, ce serait celle d'un insensé que je devrais chasser de
+    <head>
+     LETTRE XXI.
+    </head>
+    <p>
+     CLAIRE À FRÉDÉRIC.
+    </p>
+    <p>
+     Votre lettre m'a fait pitié ; si ce n'était celle d'un malheureux qu'il faut guérir, ce serait celle d'un insensé que je devrais chasser de
      chez moi ; le délire de votre raison peut seul vous aveugler sur les contradictions dont elle est remplie. Ce mot que je devrais désavouer, ce
      mot qui seul vous a rattaché à la vie, n'est-il pas le même qui rendrait Claire méprisable à vos yeux, si elle osait le prononcer ? Et jamais
      amour chaste fut-il dévoré de désirs, et déroba-t-il de coupables faveurs ? Malheureux ! rentrez en vous-même ; votre cœur vous apprendra qu'il
      n'est point d'amour sans espoir, et que vous nourrissez le criminel desir de séduire la femme de votre bienfaiteur. Il se peut que la faiblesse
      que j'ai eue de vous écouter, de vous répondre, celle que j'ai de tolérer votre présence après l'inconcevable serment que vous faites de m'aimer
      toujours, autorise votre téméraire espoir ; mais sachez que quand même mon cœur m'échapperait, vous n'en seriez pas plus heureux, et que Claire
-     serait morte avant d'être coupable. </p>
-    <p> Je répondrai dans un autre moment à votre lettre, je ne le puis à présent. </p>
+     serait morte avant d'être coupable.
+    </p>
+    <p>
+     Je répondrai dans un autre moment à votre lettre, je ne le puis à présent.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Ah ! qu'as-tu dit, ma tendre amie ? de quelle horrible lumière viens-tu frapper mes yeux ? Qui ! moi ! j'aimerais ? Tu le penses, et tu me
+    <head>
+     LETTRE XXII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Ah ! qu'as-tu dit, ma tendre amie ? de quelle horrible lumière viens-tu frapper mes yeux ? Qui ! moi ! j'aimerais ? Tu le penses, et tu me
      parles encore ? et tu ne rougis pas de ce nom d'amie que j'ose te donner ? Quoi ! sous les yeux du plus respectable des hommes, mon époux,
      parjure à mes sermens, j'aimerais le fils de son adoption ? le fils que sa bonté a appelé ici, et que sa confiance a remis entre mes mains ? Au
      lieu des vertueux conseils dont j'avais promis de pénétrer son cœur, je lui inspirerais une passion criminelle ? Au lieu du modèle que je devais
@@ -985,18 +1426,26 @@
      demanda-t-elle jamais des victimes humaines ? Laisse, laisse-moi prendre des moyens plus doux ; pourquoi déchirer les plaies au lieu de les
      guérir ? Sans doute je veux qu'il s'éloigne ; mais il faut que mon amitié l'y prépare ; il faut trouver un prétexte ; le goût des voyages en est
      un : c'est une curiosité louable à son âge, et je ne doute pas que M. d'Albe ne consente à la satisfaire. Repose-toi sur moi, Élise, du soin de
-     me séparer de Frédéric. Ah ! j'y suis trop intéressée pour n'y pas réussir ! </p>
-    <p> Comment t'exprimer ce que je souffre ? Adèle est partie hier, et depuis ce moment mon mari, inquiet sur ma santé, me quitte le moins qu'il
+     me séparer de Frédéric. Ah ! j'y suis trop intéressée pour n'y pas réussir !
+    </p>
+    <p>
+     Comment t'exprimer ce que je souffre ? Adèle est partie hier, et depuis ce moment mon mari, inquiet sur ma santé, me quitte le moins qu'il
      peut ; il faut que je dévore mes larmes : je tremble qu'il n'en voie la trace et qu'il n'en devine la cause ; il s'étonne de ce que j'interdis ma
      chambre à tout le monde. « Ma bonne amie, me disait-il tout à l'heure, pourquoi n'admettre que moi et vos enfans auprès de vous ? Est-ce que mon
      Frédéric vous déplaît ? » Cette question si simple m'a fait tressaillir ; j'ai cru qu'il m'avait devinée et qu'il voulait me sonder. Ô tourmens
      d'une conscience agitée ! c'est ainsi que je soupçonne dans le plus vrai, le meilleur des hommes, une dissimulation dont je suis seule coupable ;
-     et je vois trop que la première peine du méchant est de croire que les autres lui ressemblent. </p>
+     et je vois trop que la première peine du méchant est de croire que les autres lui ressemblent.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Ce matin, pour la première fois, je me suis présentée au déjeûner ; j'étais pâle et abattue. Frédéric était là, il lisait auprès de la
+    <head>
+     LETTRE XXIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Ce matin, pour la première fois, je me suis présentée au déjeûner ; j'étais pâle et abattue. Frédéric était là, il lisait auprès de la
      cheminée : en me voyant entrer, il a changé de couleur, il a posé son livre et s'est approché de moi ; je n'ai point osé le regarder ; mon mari a
      avancé un fauteuil ; en le retournant, mes yeux se sont fixés sur la glace : j'ai rencontré ceux de Frédéric, et, n'en pouvant soutenir
      l'expression, je suis tombée sans force sur mon siége. Frédéric s'est avancé avec effroi. M. d'Albe, aussi effrayé que lui, m'a remise entre ses
@@ -1024,31 +1473,50 @@
     </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXIV. </head>
-    <p> CLAIRE À FRÉDÉRIC. </p>
-    <p> J'ignore jusqu'où la vertu a perdu ses droits sur votre âme, et si l'amour que je vous inspire vous a dégradé au point de n'être plus capable
+    <head>
+     LETTRE XXIV.
+    </head>
+    <p>
+     CLAIRE À FRÉDÉRIC.
+    </p>
+    <p>
+     J'ignore jusqu'où la vertu a perdu ses droits sur votre âme, et si l'amour que je vous inspire vous a dégradé au point de n'être plus capable
      d'une action courageuse et honnête ; mais je vous déclare que si dans deux jours vous n'avez pas exécuté ce que je vais vous prescrire, Claire
-     aura cessé de vous estimer. </p>
-    <p> Mon mari vous aime et en fait son bonheur ; j'ai voulu, et je veux encore lui laisser ignorer un égarement qui détruirait son repos, et
+     aura cessé de vous estimer.
+    </p>
+    <p>
+     Mon mari vous aime et en fait son bonheur ; j'ai voulu, et je veux encore lui laisser ignorer un égarement qui détruirait son repos, et
      peut-être son amitié ; mais, en lui taisant la vérité, j'ai dû m'imposer la loi d'agir comme il le ferait si elle lui était connue. Partez donc,
      Frédéric, quittez un lieu que vous remplissez de trouble : allez purifier votre cœur, et surtout oubliez une femme que les plus saints devoirs
-     vous ordonnaient de respecter : je ne vous reverrai qu'alors. </p>
-    <p> Le goût des voyages est un des plus vifs chez les jeunes gens : prenez ce prétexte pour vous éloigner d'ici ; exprimez à votre père le desir
+     vous ordonnaient de respecter : je ne vous reverrai qu'alors.
+    </p>
+    <p>
+     Le goût des voyages est un des plus vifs chez les jeunes gens : prenez ce prétexte pour vous éloigner d'ici ; exprimez à votre père le desir
      d'aller vous instruire en parcourant de nouvelles contrées : l'excellent homme que vous offensez s'affligera de votre absence, mais sacrifiera
      son propre plaisir à celui d'un ingrat qui l'en récompense si mal. Aussitôt que vous aurez obtenu sa permission, que je hâterai de tous mes
      efforts, vous vous éloignerez sans tarder. Je vous défends de me voir seule, je ne recevrai point vos adieux ; ne vous imaginez pas néanmoins que
      je croie cette précaution nécessaire à mon repos : non, l'honnêteté est un besoin pour moi, et non pas un effort ; et, si elle pouvait être
      jamais ébranlée, ce ne serait pas par l'homme qui, se laissant dominer par un penchant coupable, l'excuse au lieu de le combattre, et humilie
-     celle qui en est l'objet, en la rendant cause de l'avilissement où il est réduit. </p>
+     celle qui en est l'objet, en la rendant cause de l'avilissement où il est réduit.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXV. </head>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Qu'est-il nécessaire d'insulter avec froideur la victime qu'on dévoue à la mort ? Qu'aviez-vous besoin, pour me la donner, de me parler de
+    <head>
+     LETTRE XXV.
+    </head>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Qu'est-il nécessaire d'insulter avec froideur la victime qu'on dévoue à la mort ? Qu'aviez-vous besoin, pour me la donner, de me parler de
      votre haine ? L'ordre de mon départ suffisait ; il vous était doux de me montrer à quel point je vous suis odieux : je n'ai point reconnu Claire
-     à cette barbarie. </p>
-    <p> Vous le voyez, je suis de sang-froid ; votre lettre a glacé les terribles agitations de mon sang, et je suis en état de raisonner. </p>
-    <p> Pourquoi dois-je partir, Claire ? Si c'est pour votre époux, et que le sentiment que je porte en mon cœur soit un outrage pour lui, où
+     à cette barbarie.
+    </p>
+    <p>
+     Vous le voyez, je suis de sang-froid ; votre lettre a glacé les terribles agitations de mon sang, et je suis en état de raisonner.
+    </p>
+    <p>
+     Pourquoi dois-je partir, Claire ? Si c'est pour votre époux, et que le sentiment que je porte en mon cœur soit un outrage pour lui, où
      trouverez-vous un point de l'univers où je puisse cesser de l'offenser ? Sous les pôles glacés, sous le brûlant tropique, tant que mon cœur
      battra dans mon sein, Claire y sera adorée ; si c'est une froide pitié qui vous intéresse à moi, je la rejette ; ce n'est point elle qui trouvera
      les moyens d'adoucir mes maux, et vous me rendez trop malheureux pour que je vous laisse l'arbitre de mon sort. Claire, l'intérêt de votre repos
@@ -1056,9 +1524,14 @@
     </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXVI. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Où suis-je, Élise, et qu'ai-je fait ? Une effrayante fatalité me poursuit ; je vois le précipice où je me plonge, et il me semble qu'une main
+    <head>
+     LETTRE XXVI.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Où suis-je, Élise, et qu'ai-je fait ? Une effrayante fatalité me poursuit ; je vois le précipice où je me plonge, et il me semble qu'une main
      invisible m'y pousse malgré moi. C'était peu qu'un criminel amour eût corrompu mon cœur, il me manquait d'en faire l'aveu. Entraînée par une
      puissance contre laquelle je n'ai point de force, Frédéric connaît enfin l'excès d'une passion qui fait de ton amie la plus méprisable des
      créatures... Je ne sais pourquoi je t'écris encore ; il est des situations qui ne comportent aucun soulagement, et ta pitié ne peut pas plus
@@ -1066,23 +1539,37 @@
      je me perds, et je ne sais où poser les bornes de ma faiblesse... J'adore Frédéric, je ne vois plus que lui seul au monde ; il le sait, je me
      plais à le lui répéter ; s'il était là, je le lui dirais encore : car, dans l'égarement où je suis en proie, je ne me reconnais plus moi-même...
      Je voulais t'écrire tout ce qui vient de se passer ; mais je ne le puis : ma main tremblante peut à peine tracer ces lignes mal assurées... Dans
-     un instant plus calme, peut-être... Ah ! qu'ai-je dit ? le calme, la paix, il n'en est plus pour moi ! </p>
+     un instant plus calme, peut-être... Ah ! qu'ai-je dit ? le calme, la paix, il n'en est plus pour moi !
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXVII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Depuis trois jours, Élise, j'ai essayé en vain de t'écrire, ma main se refusait à tracer les preuves de ma honte ; je le ferai pourtant, j'ai
+    <head>
+     LETTRE XXVII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Depuis trois jours, Élise, j'ai essayé en vain de t'écrire, ma main se refusait à tracer les preuves de ma honte ; je le ferai pourtant, j'ai
      besoin de ton mépris, je le mérite et le demande, ton indulgence me serait odieuse ; ma faute ne doit pas rester impunie, et le pardon
      m'humilierait plus que les reproches. Songe, Élise, que tu ne peux plus m'aimer sans t'avilir, et laisse-moi la consolation de m'estimer encore
-     dans mon amie. </p>
-    <p> La lettre de Frédéric <ref target="#N1"/> , que tu trouveras ci-jointe, m'avait rendu une sorte de dignité ; je m'étonnais d'avoir pu craindre
+     dans mon amie.
+    </p>
+    <p>
+     La lettre de Frédéric
+     <ref target="#N1"/>
+     , que tu trouveras ci-jointe, m'avait rendu une sorte de dignité ; je m'étonnais d'avoir pu craindre
      un homme qui osait me dire qu'il dédaignait mon estime : impatiente de lui prouver qu'il l'avait perdue, j'ai vaincu ma faiblesse pour paraître à
      dîner : mon air était calme, froid et imposant ; j'ai fixé Frédéric avec hauteur, et, uniquement occupée de mon mari et de mes enfans, j'ai
      répondu à peine à deux ou trois questions qu'il m'a adressées, et je trouvais une jouissance cruelle à lui montrer le peu de cas que je faisais
      de lui. En sortant de table, Adolphe s'est assis sur mes genoux ; il m'a rendu compte des différentes études qui l'avaient occupé pendant mon
      indisposition ; c'était toujours son cousin Frédéric qui lui avait appris ceci, cela ; jamais une leçon ne l'ennuie quand c'est son cousin
      Frédéric qui la donne. « C'est si amusant de lire avec lui ! me disait mon fils, il m'explique si bien ce que je ne comprends pas ! Cependant, ce
-     matin, il n'a jamais voulu m'apprendre ce que c'était que <hi rend="italic"> la vertu : </hi> il m'a dit de te le demander, maman !---C'est la
+     matin, il n'a jamais voulu m'apprendre ce que c'était que
+     <hi rend="italic">
+      la vertu :
+     </hi>
+     il m'a dit de te le demander, maman !---C'est la
      force, mon fils, ai-je répondu, c'est le courage d'exécuter rigoureusement tout ce que nous sentons être bien, quelque peine que cela nous fasse
      ; c'est un mouvement grand, généreux, dont ton père t'offre souvent l'exemple, dont la seule idée m'attendrit, mais dont ton cousin ne pouvait
      pas te donner l'explication. » En disant ces derniers mots, que Frédéric seul a entendus, j'ai jeté sur lui un regard de dédain... Ô mon Élise !
@@ -1139,12 +1626,18 @@
      pourquoi, terrible et menaçant, venir nous reprocher une faute qui est la vôtre, et nous ordonner de l'expier par le plus douloureux supplice
      ?... Qu'ai-je dit, Élise ; c'est Frédéric que j'aime, et c'est mon époux que j'accuse ! Ce Frédéric, qui m'a vue entre ses bras, faible et sans
      défense, c'est lui que je veux garder ici ! ô Élise ! tu seras bien changée, si tu reconnais ton amie dans celle qu'une pareille situation peut
-     laisser incertaine sur le parti qu'elle doit prendre. </p>
+     laisser incertaine sur le parti qu'elle doit prendre.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXVIII. </head>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Femme, femme trop enchanteresse, qui es-tu pour faire entrer dans mon cœur les sentimens les plus opposés, pour me faire passer tout à coup de
+    <head>
+     LETTRE XXVIII.
+    </head>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Femme, femme trop enchanteresse, qui es-tu pour faire entrer dans mon cœur les sentimens les plus opposés, pour me faire passer tout à coup de
      l'excès du bonheur à celui de l'infortune ? Ces yeux si touchans, qu'il est impossible de regarder sans la plus vive émotion, ces yeux qui
      n'appartiennent qu'à Claire, l'idole chérie de mon cœur, la première femme que j'aie aimée, la seule que j'aimerai jamais ; ces yeux où elle me
      permettait hier de lire l'expression de la tendresse, sont voilés aujourd'hui par la douleur et la sévérité ; et mon âme, où tu règnes
@@ -1154,24 +1647,36 @@
      penser que la divinité qui te forma à son image, nous entraîne vers le vice par tout ce que la félicité a de plus doux ! Non, non ; ces élans,
      ces transports, ces émotions enchanteresses me rassurent contre le remords, et je me sens trop heureux pour me croire criminel. Ah ! laisse-moi
      retrouver ces instans où, t'enlaçant dans mes bras et respirant ton souffle, j'ai recueilli sur tes lèvres tout ce que l'immensité de l'univers
-     et de la vie peut donner de félicité à un mortel. </p>
-    <p> Claire, tu m'as éloigné de toi, mais je ne t'ai point quittée ; mon imagination te plaçait sur mon sein, je t'inondais de caresses et de
+     et de la vie peut donner de félicité à un mortel.
+    </p>
+    <p>
+     Claire, tu m'as éloigné de toi, mais je ne t'ai point quittée ; mon imagination te plaçait sur mon sein, je t'inondais de caresses et de
      larmes ; ma bouche avide pressait la tienne : Claire ne s'en défendait point, Claire partageait mes transports ; sans autre guide que son cœur et
      la nature, elle oubliait le monde, ne sentait que l'amour, ne voyait que son amant ; nous étions dans les cieux. Ah ! Claire, ce n'est pas là
-     qu'est le crime. </p>
-    <p> Claire, je t'idolâtre avec frénésie, ton image me dévore, ton approche me brûle ; trop de feux me consument : il faut mourir ou les
+     qu'est le crime.
+    </p>
+    <p>
+     Claire, je t'idolâtre avec frénésie, ton image me dévore, ton approche me brûle ; trop de feux me consument : il faut mourir ou les
      satisfaire. Laisse-moi te voir, je t'en conjure, ne me fuis point, laisse-moi te presser encore une fois entre mes bras, je les étends pour te
      saisir, mais c'est une ombre qui m'échappe. Je t'écris à genoux, mon papier est baigné de mes pleurs ! ô Claire ! un de tes baisers, un seul
-     encore ! Il est des plaisirs trop vifs pour pouvoir les goûter deux fois sans mourir. </p>
+     encore ! Il est des plaisirs trop vifs pour pouvoir les goûter deux fois sans mourir.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXIX. </head>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> Je ne puis dormir ; j'erre dans ta maison, je cherche la dernière place que tu as occupée ; ma bouche presse ce fauteuil où ton bras reposa
+    <head>
+     LETTRE XXIX.
+    </head>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     Je ne puis dormir ; j'erre dans ta maison, je cherche la dernière place que tu as occupée ; ma bouche presse ce fauteuil où ton bras reposa
      long-temps ; je m'empare de cette fleur échappée de ton sein ; je baise la trace de tes pas, je m'approche de l'appartement où tu dors, de ce
      sanctuaire qui serait l'objet de mes ardens desirs, s'il n'était celui de mon profond respect. Mes larmes baignent le seuil de ta porte ;
      j'écoute si le silence de la nuit ne me laissera pas recueillir quelqu'un de tes mouvemens... J'écoute... Ô Claire ! Claire ! je n'en doute pas,
-     j'ai entendu des sanglots. Mon amie, tu pleures ! qui peut donc causer ta peine <ref target="#N2"/> ? Quand je te dois un bonheur dont le reste
+     j'ai entendu des sanglots. Mon amie, tu pleures ! qui peut donc causer ta peine
+     <ref target="#N2"/>
+     ? Quand je te dois un bonheur dont le reste
      du monde ne peut concevoir l'idée, puisque nul mortel ne fut aimé de toi, qui peut t'affliger encore ? Claire, que ton amour est faible, s'il te
      laisse une pensée ou un sentiment qui ne soit pas pour lui, et si sa puissance n'a pas anéanti toutes les autres facultés de ton âme ! Pour moi,
      il n'est plus de passé ni d'avenir : absorbé par toi, je ne vois que toi, je n'ai plus un instant de ma vie qui ne soit à toi ; tous les autres
@@ -1189,14 +1694,22 @@
      et l'adoration de tes perfections ; toute autre pensée que la tienne s'évanouit ; en vain je cherche à les fixer, à les rassembler, à les
      éclaircir ; en vain je cherche à tracer quelques lignes qui te peignent ce que je sens : les termes me manquent, ma plume se traîne péniblement,
      et si mon premier besoin n'était pas de verser dans ton cœur tous les sentimens qui m'oppressent, effrayé de la grandeur de ma tâche, je me
-     tairais, accablé sous ta puissance, et sentant trop pour pouvoir penser. </p>
+     tairais, accablé sous ta puissance, et sentant trop pour pouvoir penser.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXX. </head>
-    <p> CLAIRE À FRÉDÉRIC. </p>
-    <p> Non, je ne vous verrai point ; trop de présomption m'a perdue, et je suis payée pour n'oser plus me fier à moi-même. Je vous écris, parce que
-     j'ai beaucoup à vous dire, et qu'il faut un terme enfin à l'état affreux où nous sommes. </p>
-    <p> Je devrais commencer par vous ordonner de ne plus m'écrire, car ces lettres si tendres, malgré moi je les presse sur mes lèvres, je les pose
+    <head>
+     LETTRE XXX.
+    </head>
+    <p>
+     CLAIRE À FRÉDÉRIC.
+    </p>
+    <p>
+     Non, je ne vous verrai point ; trop de présomption m'a perdue, et je suis payée pour n'oser plus me fier à moi-même. Je vous écris, parce que
+     j'ai beaucoup à vous dire, et qu'il faut un terme enfin à l'état affreux où nous sommes.
+    </p>
+    <p>
+     Je devrais commencer par vous ordonner de ne plus m'écrire, car ces lettres si tendres, malgré moi je les presse sur mes lèvres, je les pose
      contre mon cœur ; c'est du poison qu'elles respirent... Frédéric, je vous aime, je n'ai jamais aimé que vous ; l'image de votre bonheur, de ce
      bonheur que vous me demandez, et que je pourrais faire, égare mes sens et trouble ma raison ; pour le satisfaire, je compterais pour rien la vie,
      l'honneur et jusqu'à ma destinée future : vous rendre heureux et mourir après, ce serait tout pour Claire, elle aurait assez vécu ; mais acheter
@@ -1219,8 +1732,10 @@
      et la vertu te sont chères, fuis sans tarder davantage : quelles que soient tes résolutions, de quelque force que l'honneur les soutienne, elles
      ne résisteraient point à l'occasion ni à l'amour ; songe, Frédéric, qu'un instant peut faire de toi le dernier des hommes, et me faire mourir
      déshonorée, et que si, après y avoir pensé, il était nécessaire de te répéter encore de fuir, tu serais si vil à mes yeux, que je ne te
-     craindrais plus. </p>
-    <p> Je vous le répète, je suis sûre que mon mari a tout deviné ; ainsi je n'ai malheureusement plus à redouter les soupçons que votre départ peut
+     craindrais plus.
+    </p>
+    <p>
+     Je vous le répète, je suis sûre que mon mari a tout deviné ; ainsi je n'ai malheureusement plus à redouter les soupçons que votre départ peut
      occasionner. D'ailleurs, vous savez que les affaires d'Élise s'accumulent de plus en plus et lui donnent le besoin d'un aide ; soyez le sien,
      Frédéric, devenez utile à mon amie, allez mériter le pardon des maux que vous m'avez faits ; vous trouverez dans cette femme chérie une autre
      Claire, mais sans faiblesse et sans erreurs. Montrez-vous tel à ses yeux, qu'elle puisse dire qu'il n'y avait qu'une Élise ou un ange capable de
@@ -1238,24 +1753,38 @@
      L'idée de Claire livrée à l'opprobre ne glace-t-elle pas tous tes desirs, et ton amour n'a-t-il pas plus besoin encore d'estime que de jouissance
      ? Non, non ; je la connais bien cette âme qui s'est donnée à moi ; c'est parce que je la connais que je t'ai adoré. Je sais qu'il n'est point de
      sacrifice au-dessus de ton courage ; et quand je t'aurai rappelé que l'honneur commande que tu partes, et que le repos de Claire l'exige,
-     Frédéric n'hésitera pas. </p>
+     Frédéric n'hésitera pas.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXI. </head>
-    <p> FRÉDÉRIC À CLAIRE. </p>
-    <p> J'ai lu votre lettre, et la vérité, la cruelle vérité, a détruit les prestiges enchanteurs dont je me berçais ; les tortures de l'enfer sont
-     dans mon cœur, l'abîme du désespoir s'est ouvert devant moi : Claire ordonne que je m'y précipite, je partirai. </p>
-    <p> Ce sacrifice, que la vertu ne m'eût jamais fait faire, et que vous seule pouviez obtenir de moi, ce sacrifice auquel nul autre ne peut être
+    <head>
+     LETTRE XXXI.
+    </head>
+    <p>
+     FRÉDÉRIC À CLAIRE.
+    </p>
+    <p>
+     J'ai lu votre lettre, et la vérité, la cruelle vérité, a détruit les prestiges enchanteurs dont je me berçais ; les tortures de l'enfer sont
+     dans mon cœur, l'abîme du désespoir s'est ouvert devant moi : Claire ordonne que je m'y précipite, je partirai.
+    </p>
+    <p>
+     Ce sacrifice, que la vertu ne m'eût jamais fait faire, et que vous seule pouviez obtenir de moi, ce sacrifice auquel nul autre ne peut être
      comparé, puisqu'il n'y a qu'une Claire au monde, et qu'un cœur comme le mien pour l'aimer, ce sacrifice, dont je ne peux moi-même mesurer
      l'étendue, quel que soit le mal qu'il me cause, je te jure, ô ma Claire ! de ne jamais attenter à des jours qui te sont consacrés et qui
      t'appartiennent ; mais si la douleur, plus forte que mon courage, dessèche les sources de ma vie, me fait succomber sous le poids de ton absence,
      promets-moi, Claire, de me pardonner ma mort, et de ne point haïr ma mémoire. Sois sûre que l'infortuné qui t'adore eût préféré t'obéir, en se
-     dévouant à des tourmens éternels et inouïs, que de descendre dans la paix du tombeau que tu lui refuses. </p>
+     dévouant à des tourmens éternels et inouïs, que de descendre dans la paix du tombeau que tu lui refuses.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Élise, il me quitte demain, et c'est chez toi que je l'envoie ; en le remettant dans tes bras, je tiens encore à lui, et, près de mon amie, il
+    <head>
+     LETTRE XXXII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Élise, il me quitte demain, et c'est chez toi que je l'envoie ; en le remettant dans tes bras, je tiens encore à lui, et, près de mon amie, il
      ne m'aura pas perdue tout-à-fait. Soulage sa douleur ; conserve-lui la vie, et, s'il est possible, fais plus encore, arrache-moi de son cœur.
      Élise, Élise, que l'objet de ma tendresse ne soit pas celui de ton inimitié ! Pourquoi le mépriserais-tu, puisque tu m'estimes encore ? pourquoi
      le haïr, quand tu m'aimes toujours ? pourquoi ton injustice l'accuse-t-elle plus que moi ? s'il a troublé ma paix, n'ai-je pas empoisonné son
@@ -1272,12 +1801,18 @@
      larmes. Songe qu'à dix-neuf ans il n'a connu des passions que les douleurs qu'elles causent et le vide qu'elles laissent ; qu'anéanti par ce
      coup, il aurait terminé ses jours, s'il n'avait craint pour les miens. Songe, Élise, que tu lui dois ma vie... Tu lui dois plus peut-être ; il
      m'a respectée quand je ne me respectais plus moi-même ; il a su contenir ses transports, quand je ne rougissais pas d'exhaler les miens ; enfin,
-     s'il n'était pas le plus noble des hommes, ton amie serait peut-être à présent la plus vile des créatures. </p>
+     s'il n'était pas le plus noble des hommes, ton amie serait peut-être à présent la plus vile des créatures.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Inexprimables mouvemens du cœur humain ! Il est parti, Élise, et je n'ai pas versé une larme ; il est parti, et il semble que ce départ m'ait
+    <head>
+     LETTRE XXXIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Inexprimables mouvemens du cœur humain ! Il est parti, Élise, et je n'ai pas versé une larme ; il est parti, et il semble que ce départ m'ait
      donné une nouvelle vie ; j'éprouve une force inconnue qui me commande une activité continuelle ; je ne puis rester en place, ni garder le
      silence, ni dormir ; le repos m'est impossible, et je sens que la gaieté même est plus près de moi que le calme. J'ai ri, j'ai plaisanté avec mon
      mari, j'étais montée sur un ton extraordinaire ; je ne savais pas ce que je faisais, je ne me reconnaissais plus moi-même. Si tu pouvais voir
@@ -1348,20 +1883,28 @@
      de les briser tous ? et cette secrète douceur que je trouve à penser qu'au milieu du néant qui nous entoure, nos âmes conserveront une sorte de
      communication, n'est-elle pas le dernier nœud qui m'attache à ma faiblesse ? Ah ! faut-il donc que mes barbares mains les anéantissent tous !
      Faut-il enfin cesser de penser à lui, et vivre étrangère à tout ce qui fait vivre ? Ô mon Élise ! quand le devoir me lie sur la terre et me
-     commande d'oublier Frédéric, que ne puis-je oublier aussi qu'on peut mourir ! </p>
+     commande d'oublier Frédéric, que ne puis-je oublier aussi qu'on peut mourir !
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXIV. </head>
-    <p> ÉLISE À M. D'ALBE. </p>
-    <p> Mon amie, en s'unissant à vous, m'ôta le droit de disposer d'elle. Je puis vous donner des avis ; mais je dois respecter vos volontés : vous
+    <head>
+     LETTRE XXXIV.
+    </head>
+    <p>
+     ÉLISE À M. D'ALBE.
+    </p>
+    <p>
+     Mon amie, en s'unissant à vous, m'ôta le droit de disposer d'elle. Je puis vous donner des avis ; mais je dois respecter vos volontés : vous
      m'ordonnez donc de lui taire l'état de Frédéric : j'obéirai. Cependant, mon cousin, s'il y a des inconvéniens à la vérité, il y en a plus encore
      à la dissimulation ; l'exemple de Claire en est la preuve : il nous apprend que celui qui se sert du mal, même pour arriver au bien, en est tôt
      ou tard la victime. Si dès le premier instant elle vous eût fait l'aveu de l'amour de Frédéric, cet infortuné aurait pu être arraché à sa
      destinée ; ma vertueuse amie serait pure de toute faiblesse, et vous-même n'auriez pas été déchiré par l'angoisse d'un doute ; et pourtant où
      fut-il jamais des motifs plus plausibles, plus délicats, plus forts que les siens pour se taire ? Le bonheur de votre vie entière lui semblait
      compromis par cet aveu : quel autre intérêt au monde était capable de lui faire sacrifier la vérité ? Qui saura jamais apprécier ce qu'il lui en
-     a coûté pour vous tromper ? Ah ! pour user de dissimulation, il lui a fallu toute l'intrépidité de la vertu. </p>
-    <p> Moi-même, lorsqu'elle me confia ses raisons, je les approuvai ; je crus qu'elle aurait le temps et la force d'éloigner Frédéric avant que vous
+     a coûté pour vous tromper ? Ah ! pour user de dissimulation, il lui a fallu toute l'intrépidité de la vertu.
+    </p>
+    <p>
+     Moi-même, lorsqu'elle me confia ses raisons, je les approuvai ; je crus qu'elle aurait le temps et la force d'éloigner Frédéric avant que vous
      eussiez soupçonné les feux dont il brûlait. J'espérais encore que le vœu unique et permanent de Claire, ce vœu de n'avoir été pour vous pendant
      sa vie qu'une source de bonheur, pouvait être rempli... Un instant a tout détruit : ces mots échappés à mon amie dans le délire de la fièvre,
      éveillèrent vos soupçons, l'état de Frédéric les confirma. Vous fûtes même plus malheureux que vous ne deviez l'être, puisque vous crûtes voir
@@ -1374,34 +1917,46 @@
      Frédéric ; que non-seulement il peut l'oublier, mais qu'une autre est prête à la remplacer ; si je lui montre léger et sans foi ce qu'elle a vu
      noble et grand ; enfin si j'éveille sa défiance sur un point où elle a mis tout son cœur, la vérité, l'honneur même ne seront plus pour elle
      qu'un problème. Si vous lui faites douter de Frédéric, craignez qu'elle ne doute de tout, et qu'en lui persuadant que son amour ne fut qu'une
-     erreur, elle ne se demande si la vertu aussi n'en est pas une. </p>
-    <p> Mon ami, il est des âmes privilégiées qui reçurent de la nature une idée plus exquise et plus délicate du beau moral ; elles n'ont besoin ni
+     erreur, elle ne se demande si la vertu aussi n'en est pas une.
+    </p>
+    <p>
+     Mon ami, il est des âmes privilégiées qui reçurent de la nature une idée plus exquise et plus délicate du beau moral ; elles n'ont besoin ni
      de raison, ni de principes pour faire le bien, elles sont nées pour l'aimer, comme l'eau pour suivre son cours, et nulle cause ne peut arrêter
      leur marche, à moins qu'on ne dessèche leur source ; mais si, remontant pour ainsi dire vers le point visuel de leur existence, vous parvenez, en
      l'effaçant entièrement, à ébranler l'autel qu'elles se sont créé, vous les précipitez dans un vague où elles se perdent pour jamais : car, après
      l'appui qu'elles ont perdu, elles ne peuvent plus en trouver d'autre : elles aimeront toujours le bien ; mais ne croyant plus à sa réalité, elles
      n'auront plus de forces pour le faire ; et cependant comme cet aliment seul était digne de les nourrir, et qu'après lui l'univers ne peut rien
-     offrir qui leur convienne, elles languissent dans un dégoût universel, jusqu'à l'instant où le Créateur les réunit à leur essence. </p>
-    <p> Mon cousin, je ne risque rien à vous montrer Claire telle qu'elle est ; dans aucun moment elle ne perdra à se laisser voir en entier, et il
+     offrir qui leur convienne, elles languissent dans un dégoût universel, jusqu'à l'instant où le Créateur les réunit à leur essence.
+    </p>
+    <p>
+     Mon cousin, je ne risque rien à vous montrer Claire telle qu'elle est ; dans aucun moment elle ne perdra à se laisser voir en entier, et il
      n'est point de faiblesse que ses angéliques vertus ne rachètent. J'oserai donc tout vous dire : le mépris qu'elle concevra pour Frédéric pourra
      lui arracher la vie ; mais le devoir seul peut lui ôter son amour. Fiez-vous à elle pour y travailler, personne ne le veut davantage ; si elle
      n'y réussit pas, nul n'aurait réussi : et du moins si tous les moyens échouent, réservez-vous la consolation de n'en avoir employé que de dignes
-     d'elle. </p>
-    <p> Je ne lui écris point aujourd'hui ; j'attends votre réponse pour lui parler de Frédéric. </p>
-    <p> Je le connais donc enfin cet étonnant jeune homme : jamais Claire ne me l'a peint comme il m'a paru : c'est la tête d'Antinoüs sur le corps de
+     d'elle.
+    </p>
+    <p>
+     Je ne lui écris point aujourd'hui ; j'attends votre réponse pour lui parler de Frédéric.
+    </p>
+    <p>
+     Je le connais donc enfin cet étonnant jeune homme : jamais Claire ne me l'a peint comme il m'a paru : c'est la tête d'Antinoüs sur le corps de
      l'Apollon, et le charme de sa figure n'est pas même effacé par le sombre désespoir empreint dans tous ses traits. Il ne parle point, il répond à
      peine ; enfin, jusqu'au nom de Claire, rien ne l'arrache à son morne silence : les grandes blessures de l'âme et du corps ne saignent point au
      moment qu'elles sont faites, elles n'impriment pas si tôt leurs plus vives douleurs, et dans les violentes commotions, c'est le contre-coup qui
-     tue. </p>
-    <p> La seule excuse de ce jeune homme, mon cousin, est dans l'excès même de sa passion : s'il n'en était pas tyrannisé au point de n'avoir pas une
+     tue.
+    </p>
+    <p>
+     La seule excuse de ce jeune homme, mon cousin, est dans l'excès même de sa passion : s'il n'en était pas tyrannisé au point de n'avoir pas une
      idée qui ne fût pour elle, si les desirs que Claire lui inspire n'étouffaient pas jusqu'au sentiment de ce qu'il vous doit, s'il pouvait, en
      l'aimant, se ressouvenir de vous, ce ne serait plus un malheureux insensé, mais un monstre. Vous avez tort, je crois, de ne point permettre que
      Claire lui écrive ; dans ce moment il ne peut entendre qu'elle ; elle seule l'a fait partir, seule elle peut pénétrer dans son âme, lui rappeler
      ses devoirs et le faire rougir des torts affreux dont il s'est rendu coupable. Mon ami, je ne crains point de le dire, en interceptant toute
      communication entre ces deux êtres, vous les isolez sur la terre ; aucune voix ne pourra ni les sauver ni les guérir, car nulle autre n'arrivera
      jusqu'à eux. Croyez-moi, pour un sentiment comme celui-là il faut d'autres moyens que ceux qui réussissent à tout le monde ; laissez-les déifier
-     leur amour, en le rendant la base de toutes les vertus, peu à peu la vérité saura briser l'idole et se substituer à sa place. </p>
-    <p> Frédéric est arrivé hier ; j'avais du monde chez moi, je me suis esquivée pour l'aller recevoir ; je voulais qu'il ne parût point, qu'il
+     leur amour, en le rendant la base de toutes les vertus, peu à peu la vérité saura briser l'idole et se substituer à sa place.
+    </p>
+    <p>
+     Frédéric est arrivé hier ; j'avais du monde chez moi, je me suis esquivée pour l'aller recevoir ; je voulais qu'il ne parût point, qu'il
      restât dans son appartement, parce que je sais que, dans les passions extrêmes, l'instinct dicte des cris, des mouvemens et des gestes qui
      donnent un cours aux esprits, et font diversion à la douleur ; mais il s'est refusé à tous ces ménagements. « Non, m'a-t-il dit, au milieu du
      monde, comme ici, partout je suis seul ; elle n'y est plus. » Il est descendu avec moi ; son regard avait quelque chose de si sinistre, que je
@@ -1410,16 +1965,24 @@
      perdais pas de vue : tout à coup je me suis aperçue qu'il pâlissait, sa tête a fléchi, et en un instant il a été couvert de sang ; des artères,
      comprimées par la violence de la douleur, s'étaient brisées dans sa poitrine. J'ai fait appeler des secours, et, d'après ce qu'on m'a dit, il est
      possible que cette crise de la nature, en l'affaiblissant beaucoup, contribue à le sauver : je réponds de lui si je peux l'amener à
-     l'attendrissement ; mais comment l'espérer, si un mot de Claire ne vient lui demander des larmes ? Car il ne peut plus en verser que pour elle. </p>
-    <p> Mon ami, en vous ouvrant tout mon cœur sur ce sujet, je vous ai donné la plus haute preuve d'estime qu'il soit possible de recevoir : de
+     l'attendrissement ; mais comment l'espérer, si un mot de Claire ne vient lui demander des larmes ? Car il ne peut plus en verser que pour elle.
+    </p>
+    <p>
+     Mon ami, en vous ouvrant tout mon cœur sur ce sujet, je vous ai donné la plus haute preuve d'estime qu'il soit possible de recevoir : de
      pareilles vérités ne pouvaient être entendues que par un homme assez grand pour se mettre au-dessus de ses propres passions, afin de juger celles
      des autres ; assez juste pour que ce qu'il y a de plus vif dans l'intérêt personnel ne dénature pas son jugement ; assez bon pour que le mal dont
-     il souffre n'endurcisse pas son cœur contre ceux qui le lui causent, et il n'appartenait qu'à l'époux de Claire d'être cet homme-là. </p>
+     il souffre n'endurcisse pas son cœur contre ceux qui le lui causent, et il n'appartenait qu'à l'époux de Claire d'être cet homme-là.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXV. </head>
-    <p> ÉLISE À M. D'ALBE. </p>
-    <p> Je gémis de votre erreur, et je m'y soumets ; puissiez-vous ne vous repentir jamais d'avoir assez peu apprécié votre femme, pour croire que ce
+    <head>
+     LETTRE XXXV.
+    </head>
+    <p>
+     ÉLISE À M. D'ALBE.
+    </p>
+    <p>
+     Je gémis de votre erreur, et je m'y soumets ; puissiez-vous ne vous repentir jamais d'avoir assez peu apprécié votre femme, pour croire que ce
      qui pouvait être bon pour une autre pouvait lui convenir. J'ai éprouvé une répugnance extrême à déguiser la vérité à mon amie : c'est la première
      fois que cela m'arrive ; mon cœur me dit que c'est mal, et il ne m'a jamais trompée. Croyez néanmoins que je sens toute la force de vos raisons,
      et que je n'ignore pas combien il est dangereux pour Claire de lui laisser croire qu'aimer Frédéric, c'est aimer la vertu. Ce coloris pernicieux
@@ -1433,8 +1996,10 @@
      indignation : non, elle ne redoute que votre douleur. Si elle ne pensait qu'à elle, elle parlerait ; il lui serait doux d'être punie comme elle
      croit le mériter, et les reproches d'un époux outragé l'aviliraient moins à son gré qu'une indulgence dont elle ne se sent pas digne ; mais elle
      croit ne pouvoir effacer sa faiblesse qu'en l'expiant, ni s'acquitter avec la justice, qu'en portant seule tout le poids des maux qu'elle vous a
-     faits. </p>
-    <p> Sa dernière lettre me dit qu'elle commence à soupçonner fortement que vous êtes instruit de tout ce qui se passe dans son cœur ; mais elle ne
+     faits.
+    </p>
+    <p>
+     Sa dernière lettre me dit qu'elle commence à soupçonner fortement que vous êtes instruit de tout ce qui se passe dans son cœur ; mais elle ne
      rompra le silence que quand elle en sera sûre. Croyez-moi, allez au-devant de sa confiance ; relevez son courage abattu, joignez à la délicatesse
      qui vous a fait attendre pour le départ de Frédéric qu'elle l'eût décidé elle-même, la générosité qui ne craint point de le montrer aussi
      intéressant qu'il l'est ; qu'elle vous voie enfin si grand, si magnanime, que ce soit sur vous qu'elle soit forcée d'attacher les yeux pour
@@ -1443,8 +2008,10 @@
      moyen petit et bas ; que vous la jugez digne de tout entendre, comme vous l'êtes de tout savoir. En l'élevant ainsi, vous la forcez à ne pas
      déchoir sans se dégrader ; en lui confiant toutes vos pensées, vous lui faites sentir qu'elle vous doit toutes les siennes ; et, pour vous les
      communiquer sans rougir, elle parviendra à les épurer. Ô mon cousin ! quand nos intérêts sont semblables, pourquoi nos opinions le sont-elles si
-     peu, et comment ne marche-t-on pas ensemble quand on tend au même but ? </p>
-    <p> Vous trouverez ci-joint la lettre que j'écris à Claire, et où je lui parle de Frédéric sous des couleurs si étrangères à la vérité. Depuis son
+     peu, et comment ne marche-t-on pas ensemble quand on tend au même but ?
+    </p>
+    <p>
+     Vous trouverez ci-joint la lettre que j'écris à Claire, et où je lui parle de Frédéric sous des couleurs si étrangères à la vérité. Depuis son
      accident il n'a pas quitté le lit ; au moindre mouvement le vaisseau se rouvre, une simple sensation produit cet effet. Hier, j'étais près de son
      lit, on m'apporte mes lettres ; il distingue l'écriture de Claire. À cette vue il jette un cri perçant, s'élance et saisit le papier, il le porte
      sur son cœur ; en un instant il est couvert de sang et de larmes. Une faiblesse longue et effrayante succède à cette violente agitation. Je veux
@@ -1457,20 +2024,28 @@
      d'échapper à eux-mêmes ! Quand tout tendait à les rapprocher, pouvaient-ils y rester impunément ? Il eût été beau de le pouvoir, il était insensé
      de le risquer, et vous deviez songer que toute force employée à combattre la nature, succombe tôt ou tard. Dans une pareille situation, il n'y
      avait qu'une femme supérieure à tout son sexe, qu'une Claire enfin, qui pût rester honnête ; mais, pour n'être pas sensible, ô mon imprudent ami
-     ! il fallait être un ange ! </p>
-    <p> En vous engageant à n'user d'aucune réserve avec Claire, je ne vous peins que les avantages qui doivent résulter de la franchise : mais qui
+     ! il fallait être un ange !
+    </p>
+    <p>
+     En vous engageant à n'user d'aucune réserve avec Claire, je ne vous peins que les avantages qui doivent résulter de la franchise : mais qui
      peut nombrer les terribles inconvéniens de la dissimulation, s'ils viennent à la découvrir ? et c'est ce qui arrivera infailliblement, quels que
      soient les moyens que nous emploierons pour les tromper ; deux cœurs animés d'une semblable passion ont un instinct plus sûr que notre adresse ;
      ils sont dans un autre univers, ils parlent un autre langage ; sans se voir ils s'entendent, sans se communiquer ils se comprennent ; ils se
      devineront et ne nous croiront pas. Prenez garde de mettre la vérité de leur parti, et de les approcher en leur faisant sentir que, hors eux,
      tout les trompe autour d'eux ; prenez garde enfin d'avoir un tort avec Claire : ce n'est pas qu'elle s'en prévalût, elle n'en a pas le droit, et
      ne peut en avoir la volonté ; mais ce n'est qu'en excitant dans son âme tout ce que la reconnaissance a de plus vif, et l'admiration de plus
-     grand, que vous pouvez la ramener à vous, et l'arracher à l'ascendant qui l'entraîne. </p>
+     grand, que vous pouvez la ramener à vous, et l'arracher à l'ascendant qui l'entraîne.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXVI. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> L'univers entier me l'eût dit, j'aurais démenti l'univers ! mais toi, Élise, tu ne me tromperais pas, et quelque changée que je sois, je n'ai
+    <head>
+     LETTRE XXXVI.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     L'univers entier me l'eût dit, j'aurais démenti l'univers ! mais toi, Élise, tu ne me tromperais pas, et quelque changée que je sois, je n'ai
      pas appris encore à douter de mon amie... Frédéric n'est point ce qu'il me paraissait être ; ardent et impétueux dans ses sensations, il est
      léger et changeant dans ses sentimens : on peut captiver son imagination, émouvoir ses sens, et non pénétrer son cœur. C'est ainsi que tu l'as
      jugé, c'est ainsi que tu l'as vu ; c'est Élise qui le dit, et c'est de Frédéric qu'elle parle ! Ô mortelle angoisse ! si ce sentiment profond,
@@ -1479,8 +2054,10 @@
      amie, tu aurais cessé d'être vraie avec moi ? Non, non ; en vain je m'efforce à le penser, en vain je voudrais justifier Frédéric aux dépens de
      l'amitié même ; la vertu outragée étouffe la voix de mon cœur, et m'empêche de douter d'Élise : ce mot terrible que tu as dit a retenti dans tout
      mon être, chaque partie de moi-même est en proie à la douleur, et semble se multiplier pour souffrir ; je ne sais où porter mes pas, ni où
-     reposer ma tête ; ce mot terrible me poursuit, il est partout, il a séché mon âme et renversé toutes mes espérances. </p>
-    <p> Hélas ! depuis quelques jours ma passion ne m'effrayait plus ; pour sauver Frédéric, je me sentais le courage d'en guérir. Déjà, dans un
+     reposer ma tête ; ce mot terrible me poursuit, il est partout, il a séché mon âme et renversé toutes mes espérances.
+    </p>
+    <p>
+     Hélas ! depuis quelques jours ma passion ne m'effrayait plus ; pour sauver Frédéric, je me sentais le courage d'en guérir. Déjà, dans un
      lointain avenir, j'entrevoyais le calme succéder à l'orage : déjà je formais des plans secrets pour une union qui, en le rendant heureux, lui
      aurait permis de se réunir à nous ; notre pure amitié embellissait la vie de mon époux, et nos tendres soins effaçaient la peine passagère que
      nous lui avions causée. Combien j'avais de courage pour un pareil but ! nul effort ne m'eût coûté pour l'atteindre, chacun devait me rapprocher
@@ -1488,15 +2065,23 @@
      évanouie avec l'erreur qui l'avait fait naître ? et que doit-il me rester d'elle, qu'un profond et douloureux repentir de l'avoir éprouvée ? Ô
      mon Élise, tu ne peux savoir combien il est affreux d'être un objet de mépris pour soi-même ? Quand je voyais dans Frédéric la plus parfaite des
      créatures, je pouvais estimer encore une âme qui n'avait failli que pour lui ; mais quand je considère pour qui je fus coupable, pour qui
-     j'offensais mon époux, je me sens à un tel degré de bassesse, que j'ai cessé d'espérer de pouvoir remonter à la vertu. </p>
-    <p> Élise, je renonce à Frédéric, à toi, au monde entier ; ne m'écris plus, je ne me sens plus digne de communiquer avec toi ; je ne veux plus
+     j'offensais mon époux, je me sens à un tel degré de bassesse, que j'ai cessé d'espérer de pouvoir remonter à la vertu.
+    </p>
+    <p>
+     Élise, je renonce à Frédéric, à toi, au monde entier ; ne m'écris plus, je ne me sens plus digne de communiquer avec toi ; je ne veux plus
      faire rougir ton front de ce nom d'amie que je te donne ici pour la dernière fois ; laisse-moi seule ; l'univers et tout ce qui l'habite n'est
-     plus rien pour moi : pleure ta Claire, elle a cessé d'exister. </p>
+     plus rien pour moi : pleure ta Claire, elle a cessé d'exister.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXVII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Hélas ! mon Élise ! tu as été bien prompte à m'obéir, et il t'en a peu coûté de renoncer à ton amie ! ton silence ne me dit que trop combien
+    <head>
+     LETTRE XXXVII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Hélas ! mon Élise ! tu as été bien prompte à m'obéir, et il t'en a peu coûté de renoncer à ton amie ! ton silence ne me dit que trop combien
      ce nom n'est plus fait pour moi, et cependant, tout en étant indigne de le porter, mon âme déchirée le chérit encore, et ne peut se résoudre à y
      renoncer. Il est donc vrai, Élise, toi aussi tu as cessé de m'aimer ? La misérable Claire se verra donc mourir dans le cœur de tout ce qui lui
      fut cher, et exhalera sa vie sans obtenir un regret ni une larme ! Elle qui se voyait naguère heureuse mère, sage épouse, aimée, honorée de tout
@@ -1508,16 +2093,24 @@
      mes yeux se ferment, et, dans l'accablement où je suis, j'ignore ce qui me reste à faire pour mourir... Mais, Élise, si mon trépas expie ma
      faute, et que ta sagesse daigne s'attendrir sur ma mémoire, souviens-toi de ma fille, c'est pour elle que je t'implore : que l'image de celle qui
      lui donna la vie ne la prive pas de ton affection ; recueille-la dans ton sein, et ne lui parle de sa mère que pour lui dire que mon dernier
-     soupir fut un regret de n'avoir pu vivre pour elle. </p>
+     soupir fut un regret de n'avoir pu vivre pour elle.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXVIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Pardonne, ô mon unique consolation ! mon amie, mon refuge, pardonne, si j'ai pu douter de ta tendresse ! Je t'ai jugée, non sur ce que tu es,
+    <head>
+     LETTRE XXXVIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Pardonne, ô mon unique consolation ! mon amie, mon refuge, pardonne, si j'ai pu douter de ta tendresse ! Je t'ai jugée, non sur ce que tu es,
      mais sur ce que je méritais ; je te trouvais juste dans ta sévérité, comme tu me parais à présent aveugle dans ton indulgence. Non, mon amie,
      non, celle qui a porté le trouble dans sa maison et la défiance dans l'âme de son époux, ne mérite plus le nom de vertueuse, et tu ne me nomme
-     ainsi que parce que tu me vois dans ton cœur. </p>
-    <p> Malgré tes conseils, je n'ai point parlé avec confiance à mon mari ; je l'aurais désiré, et plus d'une fois je lui ai donné occasion d'entamer
+     ainsi que parce que tu me vois dans ton cœur.
+    </p>
+    <p>
+     Malgré tes conseils, je n'ai point parlé avec confiance à mon mari ; je l'aurais désiré, et plus d'une fois je lui ai donné occasion d'entamer
      ce sujet ; mais il a toujours paru l'éloigner : sans doute il rougirait de m'entendre ; je dois lui épargner la honte d'un pareil aveu, et je
      sens que son silence me prescrit de guérir sans me plaindre. Élise, tu peux me croire, le règne de l'amour est passé ; mais le coup qu'il m'a
      porté a frappé trop violemment sur mon cœur, je n'en guérirai pas. Il est des douleurs que le temps peut user, on se résigne à celles émanées du
@@ -1530,12 +2123,18 @@
      devenait une vertu, et il remplit, en m'oubliant, un devoir que l'honneur et la reconnaissance lui imposaient également ; c'est ce que j'ai fait
      entendre à M. d'Albe, lorsqu'il est entré dans les détails de ce que tu lui écrivais. J'ai vu qu'il était étonné et ravi de ma réponse ; son
      approbation m'a ranimée, et l'image de son bonheur m'est si douce, que j'en remplirais encore tout mon avenir, si je ne sentais pas mes forces
-     s'épuiser, et la coupe de la vie se retirer de moi. </p>
+     s'épuiser, et la coupe de la vie se retirer de moi.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XXXIX. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Non, mon amie, je ne suis pas malade, je ne suis pas triste non plus, mes journées se déroulent et se remplissent comme autrefois : à
+    <head>
+     LETTRE XXXIX.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Non, mon amie, je ne suis pas malade, je ne suis pas triste non plus, mes journées se déroulent et se remplissent comme autrefois : à
      l'extérieur, je suis presque la même ; mais l'extrême foiblesse de mon corps et de mes esprits, le profond dégoût qui flétrit mon âme,
      m'apprennent qu'il est des chagrins auxquels on ne résiste pas. La vertu fut ma première idole, l'amour la détruisit ; il s'est détruit à son
      tour, et me laisse seule au monde : il faut mourir avec lui. Ah ! mon Élise ! je souffre bien moins du changement de Frédéric, que de l'avoir si
@@ -1544,8 +2143,10 @@
      expirait de mon absence ; il me semblait voir ce malheureux que j'avais envoyé vers toi pour reposer sa douleur sur ton sein, abusé par tes
      fausses larmes, confiant entre tes bras, tandis que tu le trahissais auprès de ton amie, enfin mon criminel amour, répandant son venin sur tes
      lettres et sur les discours de mon époux, m'y faisait trouver des signes nombreux de fausseté. Élise, conçois-tu ce qu'est une passion qui a pu
-     me faire douter de toi ? Ah ! sans doute, c'est là son plus grand forfait ! </p>
-    <p> Mon amie, le coup qui me tue est d'avoir été trompée sur Frédéric ; je croyais si bien le connaître ! il me semblait que mon existence eût
+     me faire douter de toi ? Ah ! sans doute, c'est là son plus grand forfait !
+    </p>
+    <p>
+     Mon amie, le coup qui me tue est d'avoir été trompée sur Frédéric ; je croyais si bien le connaître ! il me semblait que mon existence eût
      commencé avec la sienne, et que nos deux âmes, confondues ensemble, s'étaient identifiées par tous les points. On se console d'une erreur de
      l'esprit, et non d'un égarement du cœur : le mien m'a trop mal guidée pour que j'ose y compter encore, et je dois voir avec inquiétude jusqu'aux
      mouvemens qui le portent vers toi. Ô Frédéric ! mon estime pour toi fut de l'idolâtrie ; en me forçant à y renoncer, tu ébranles mon opinion sur
@@ -1553,12 +2154,18 @@
      main. Élise, tu peux me parler de Frédéric : Frédéric n'est point celui que j'aimais ; semblable au païen qui rend un culte à l'idole qu'il a
      créée, j'adorais en Frédéric l'ouvrage de mon imagination ; la vérité ou Élise ont déchiré le voile, Frédéric n'est plus rien pour moi ; mais
      comme je peux tout entendre avec indifférence, de même je peux tout ignorer sans peine, et peut-être devrais-je vouloir que tu continues à garder
-     le silence, afin de pouvoir consacrer entièrement mes dernières pensées à mon époux et à mes enfans. </p>
+     le silence, afin de pouvoir consacrer entièrement mes dernières pensées à mon époux et à mes enfans.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XL. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Je n'en puis plus, la langueur m'accable, l'ennui me dévore, le dégoût m'empoisonne ; je souffre sans pouvoir dire le remède ; le passé et
+    <head>
+     LETTRE XL.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Je n'en puis plus, la langueur m'accable, l'ennui me dévore, le dégoût m'empoisonne ; je souffre sans pouvoir dire le remède ; le passé et
      l'avenir, la vérité et les chimères ne me présentent plus rien d'agréable, je suis importune à moi-même ; je voudrais me fuir et je ne puis me
      quitter : rien ne me distrait, les plaisirs ont perdu leur piquant, et les devoirs leur importance. Je suis mal partout : si je marche, la
      fatigue me force à m'asseoir ; quand je me repose, l'agitation m'oblige à marcher. Mon cœur n'a pas assez de place, il étouffe et palpite
@@ -1575,35 +2182,51 @@
      fruit qu'un insecte dévore au cœur, je porte un mal invisible... et pourtant de vives et rapides émotions viennent souvent frapper mes sens ; je
      me sens frissonner dans tout mon corps, mes yeux se portent du même côté, s'attachent sur le même objet ; ce n'est qu'avec effort que je les en
      détourne. Mon âme, étonnée, cherche et ne trouve point ce qu'elle attend ; alors plus agitée, mais affaiblie par les impressions que j'ai reçues,
-     je succombe tout-à-fait, ma tête penche, je fléchis, et dans mon morne abattement je ne me débats plus contre le mal qui me tue. </p>
+     je succombe tout-à-fait, ma tête penche, je fléchis, et dans mon morne abattement je ne me débats plus contre le mal qui me tue.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XLI. </head>
-    <p> ÉLISE À M. D'ALBE. </p>
-    <p> Votre lettre m'a rassurée, mon cousin, j'en avais besoin, et je me féliciterais bien plus des changemens que vous avez observés chez Claire,
+    <head>
+     LETTRE XLI.
+    </head>
+    <p>
+     ÉLISE À M. D'ALBE.
+    </p>
+    <p>
+     Votre lettre m'a rassurée, mon cousin, j'en avais besoin, et je me féliciterais bien plus des changemens que vous avez observés chez Claire,
      si je ne craignais qu'abusé par votre tendresse, vous ne prissiez l'affaissement total des organes pour la tranquillité, et la mort de l'âme pour
-     la résignation. </p>
-    <p> Je ne m'étonne point de ce que vous inspire la conduite de Claire : je reconnais là cette femme dont chaque pensée était une vertu, et chaque
+     la résignation.
+    </p>
+    <p>
+     Je ne m'étonne point de ce que vous inspire la conduite de Claire : je reconnais là cette femme dont chaque pensée était une vertu, et chaque
      mouvement un exemple. Son cœur a besoin de vous dédommager de ce qu'il a donné involontairement à un autre, et elle ne peut être en paix avec
      elle-même qu'en vous consacrant tout ce qui lui reste de force et de vie. Vous êtes touché de sa constante attention envers vous, de l'expression
      tendre dont elle l'anime ; vous êtes surpris des soins continuels de son active bienfaisance envers tout ce qui l'entoure. Eh ! mon cousin,
      ignorez-vous que le cœur de Claire fut créé dans un jour de fête, qu'il s'échappa parfait des mains de la nature, et que son essence étant la
-     bonté, elle ne peut cesser de faire le bien qu'en cessant de vivre ? </p>
-    <p> Je ne vous peindrai point le mal que m'ont fait ses lettres ; je rejette avec effroi cette confiance sans bornes qui, lui faisant étouffer
+     bonté, elle ne peut cesser de faire le bien qu'en cessant de vivre ?
+    </p>
+    <p>
+     Je ne vous peindrai point le mal que m'ont fait ses lettres ; je rejette avec effroi cette confiance sans bornes qui, lui faisant étouffer
      jusqu'à l'instinct de son cœur, me rend responsable de sa vie ; elle se reproche, comme un forfait, d'avoir pu douter de son époux et de son
      amie, et ce forfait, il faut le dire, c'est nous qui l'avons commis, car c'en est un de tromper une femme comme elle ; ses torts furent
      involontaires, les nôtres sont calculés ; elle repousse les siens avec horreur, nous persistons dans les nôtres de sang-froid. Animée par un
      motif sublime, elle put se résoudre à taire la vérité : nous ! nous l'avons souillée par de méprisables détours, sans avoir même la certitude de
      réussir ; cependant je ne me reproche rien, et la vie de Claire dût-elle être le prix de l'exécution de vos volontés, en m'y soumettant, en la
      sacrifiant elle-même au moindre de vos désirs, je remplis son vœu, je ne fais que ce qu'elle m'eût prescrit, que ce qu'elle ferait elle-même avec
-     transport. </p>
-    <p> Ne pensez pas pourtant que je fusse d'avis de changer de plan ; non, à présent il faut le suivre jusqu'au bout, et il n'est plus temps de
+     transport.
+    </p>
+    <p>
+     Ne pensez pas pourtant que je fusse d'avis de changer de plan ; non, à présent il faut le suivre jusqu'au bout, et il n'est plus temps de
      reculer, une nouvelle secousse l'épuiserait ; mais n'attendez pas que je persiste à lui donner des détails imaginaires sur l'état de Frédéric :
-     non, elle-même ayant senti que la raison nous engageait à n'en parler jamais, je me bornerai à garder un silence absolu sur ce sujet. </p>
-    <p> Depuis que Frédéric commence à se lever, il m'a conjurée de lui donner le détail de mes affaires ; je l'ai fait avec empressement, dans
+     non, elle-même ayant senti que la raison nous engageait à n'en parler jamais, je me bornerai à garder un silence absolu sur ce sujet.
+    </p>
+    <p>
+     Depuis que Frédéric commence à se lever, il m'a conjurée de lui donner le détail de mes affaires ; je l'ai fait avec empressement, dans
      l'espérance de le distraire ; il les a saisies avec intelligence, il les suit avec opiniâtreté : comment s'en étonner ? Claire lui ordonna ce
-     travail. </p>
-    <p> Il a reçu hier votre lettre, celle où, sans lui parler directement de votre femme, vous la lui peignez à chaque page, gaie et tranquille.
+     travail.
+    </p>
+    <p>
+     Il a reçu hier votre lettre, celle où, sans lui parler directement de votre femme, vous la lui peignez à chaque page, gaie et tranquille.
      J'ignore l'effet que ces nouvelles ont produit sur lui, il ne m'en a rien dit ; j'observe seulement que son regard est plus sombre, et son
      silence plus absolu : il concentre toutes ses sensations en lui-même, rien ne perce, rien ne l'atteint, rien ne le touche. Ce matin, tandis qu'il
      travaillait auprès de moi, pour le tirer de sa morne stupeur, j'ai sorti le portrait de Claire de mon sein, et l'ai posé auprès de lui : son
@@ -1626,12 +2249,18 @@
      ses transports, pour l'entendre pousser des cris aigus, pour le voir se livrer à un désespoir forcené ! combien cet état serait moins effrayant
      que celui où il est ! Concentrant dans son sein toutes les furies de l'enfer, elles le déchirent par cent forces diverses, et ces blessures qu'il
      renferme, s'aigrissent, s'enveniment sur son cœur, et portent dans tout son être des germes de destruction. L'infortuné mérite votre pitié ; et
-     quelle que fût son ingratitude envers vous, son supplice l'expie et l'emporte sur elle. </p>
+     quelle que fût son ingratitude envers vous, son supplice l'expie et l'emporte sur elle.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XLII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Élise, je crois que le ciel a béni mes efforts, et qu'il n'a pas voulu me retirer du monde avant de m'avoir rendue à moi-même : depuis
+    <head>
+     LETTRE XLII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Élise, je crois que le ciel a béni mes efforts, et qu'il n'a pas voulu me retirer du monde avant de m'avoir rendue à moi-même : depuis
      quelques jours un calme salutaire s'insinue dans mes veines ; je souris avec satisfaction à mes devoirs ; la vue de mon mari ne me trouble plus,
      et je partage le contentement qu'il éprouve à se trouver près de moi ; je vois qu'il me sait gré de toute la tendresse que je lui montre, et
      qu'il en distingue bien toute la sincérité. Son indulgence m'encourage, ses éloges me relèvent, et je ne me crois plus méprisable quand je vois
@@ -1646,8 +2275,10 @@
      impossible d'oublier si vite l'amour dont tu prétendais être atteint ; tu as donc feint de le sentir ? L'artifice d'un homme ordinaire ne paraît
      qu'une faute commune ; mais Frédéric artificieux est un monstre : la distance de ce que tu es, à ce que tu feignais d'être, est immense, et il
      n'y a point de crime pareil au tien. Mon plus grand tourment est bien moins de renoncer à toi, que d'être forcée de te mépriser, et ta bassesse
-     était le seul coup que je ne pouvais supporter. </p>
-    <p> Mon amie, cette lettre-ci est la dernière où je te parlerai de lui ; désormais mes pensées vont se porter sur de plus dignes objets ; le seul
+     était le seul coup que je ne pouvais supporter.
+    </p>
+    <p>
+     Mon amie, cette lettre-ci est la dernière où je te parlerai de lui ; désormais mes pensées vont se porter sur de plus dignes objets ; le seul
      moyen d'obtenir la miséricorde céleste, est sans doute d'employer le reste de ma vie au bonheur de ce qui m'entoure : je visite mon hospice tous
      les jours ; je vois avec plaisir que ma longue absence n'a point interrompu l'ordre que j'y avais établi. Je léguerai à mon Élise le soin de
      l'entretenir ; c'est d'elle que ma Laure apprendra à y veiller à son tour : puisse cette fille chérie se former auprès de toi à toutes les vertus
@@ -1655,12 +2286,18 @@
      honorée, et que je t'aurais valu peut-être. Que ses tendres soins dédommagent son vieux père de tout le mal que je lui causai ; et pour payer
      tout ce qu'elle tiendra de toi, puisse-t-elle t'aimer comme Claire !... Adieu, mon cœur se déchire à l'aspect de tout ce que j'aime ; c'est au
      moment de quitter des objets si chers, que je sens combien ils m'attachent à la vie. Élise, tu consoleras mon digne époux, tu ne le laisseras pas
-     isolé sur la terre ; tu deviendras son amie, de même que la mère de mes enfans ; ils n'auront pas perdu au change. </p>
+     isolé sur la terre ; tu deviendras son amie, de même que la mère de mes enfans ; ils n'auront pas perdu au change.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XLIII. </head>
-    <p> CLAIRE À ÉLISE. </p>
-    <p> Ne t'afflige point, mon amie, la douce paix que Dieu répand sur mes derniers jours m'est un garant de sa clémence ; quelques instans encore,
+    <head>
+     LETTRE XLIII.
+    </head>
+    <p>
+     CLAIRE À ÉLISE.
+    </p>
+    <p>
+     Ne t'afflige point, mon amie, la douce paix que Dieu répand sur mes derniers jours m'est un garant de sa clémence ; quelques instans encore,
      et mon âme s'envolera vers l'éternité. Dans ce sanctuaire immortel, si j'ai à rougir d'un sentiment qui fut involontaire, peut-être l'aurai-je
      trop expié sur la terre pour en être punie dans le ciel. Chaque jour, prosternée devant la majesté suprême, j'admire sa puissance et j'implore sa
      bonté ; elle enveloppe de sa bienfaisance tout ce qui respire, tout ce qui sent, tout ce qui souffre : c'est là le manteau dont les malheureux
@@ -1675,34 +2312,56 @@
      pensées ; le silence absolu que tu gardes à ce sujet me dit assez que je devrais t'imiter ; mais avant de quitter cette terre que Frédéric habite
      encore, permets-moi du moins de lui adresser un dernier adieu, et de lui dire que je lui pardonne : s'il reste à cet infortuné quelques traits de
      ressemblance avec celui que j'aimai, l'idée d'avoir causé ma mort accélérera la sienne, et peut-être n'est-il pas éloigné l'instant qui doit nous
-     réunir sous la voûte céleste. Ah ! quand c'est là seulement que je dois le revoir, serais-je donc coupable de souhaiter cet instant ? </p>
+     réunir sous la voûte céleste. Ah ! quand c'est là seulement que je dois le revoir, serais-je donc coupable de souhaiter cet instant ?
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XLIV. </head>
-    <p> ÉLISE À M. D'ALBE. </p>
-    <p> Il est donc vrai, mon amie s'affaiblit et chancelle, et vous êtes inquiet sur son état ! Ces évanouissemens longs et fréquens sont un symptôme
+    <head>
+     LETTRE XLIV.
+    </head>
+    <p>
+     ÉLISE À M. D'ALBE.
+    </p>
+    <p>
+     Il est donc vrai, mon amie s'affaiblit et chancelle, et vous êtes inquiet sur son état ! Ces évanouissemens longs et fréquens sont un symptôme
      effrayant, et un obstacle au desir que vous auriez de lui faire changer d'air. Ah ! sans doute je volerai auprès d'elle : je confierai mes deux
      fils à Frédéric, c'est une chaîne dont je l'attacherai ici ; je dissimule ma douleur devant lui, car, s'il pouvait soupçonner le motif de mon
      voyage, s'il se doutait que tout ce que vous lui dites de Claire n'est qu'une erreur, s'il voyait ces terribles paroles que vous n'avez point
-     tracées sans frémir, et que je n'ai pu lire sans désespoir, <hi rend="italic"> déjà les ombres de la mort couvrent son visage </hi> , aucune
-     force humaine ne le retiendrait ici. </p>
-    <p> Non, mon ami, non, je ne vous fais pas de reproches, je n'en fais pas même à l'auteur de tous nos désastres. Dès qu'un être est atteint par le
+     tracées sans frémir, et que je n'ai pu lire sans désespoir,
+     <hi rend="italic">
+      déjà les ombres de la mort couvrent son visage
+     </hi>
+     , aucune
+     force humaine ne le retiendrait ici.
+    </p>
+    <p>
+     Non, mon ami, non, je ne vous fais pas de reproches, je n'en fais pas même à l'auteur de tous nos désastres. Dès qu'un être est atteint par le
      malheur, il devient sacré pour moi, et Frédéric est dans un état trop affreux pour que l'amertume de ma douleur tourne contre lui ; mais mon âme
      est brisée de tristesse, et je n'ai point d'expressions pour ce que j'éprouve. Claire était le flambeau, la gloire, le délice de ma vie ; si je
      la perds, tous les liens qui me restent me deviendront odieux ; mes enfans, oui, mes enfans eux-mêmes ne seront plus pour moi qu'une charge
      pesante : chaque jour, en les embrassant, je penserai que c'est eux qui m'empêchent de la rejoindre ; dans ma profonde douleur, je rejette et
      leurs caresses, et les jouissances qu'ils me promettaient, et tous les nœuds qui m'attachent au monde ; et mon âme désespérée déteste les
-     plaisirs que Claire ne peut plus partager. </p>
-    <p> Ah ! croyez-moi, laissez-lui remplir tous ses exercices de piété, ce ne sont point eux qui l'affaiblissent ; au contraire, les âmes
+     plaisirs que Claire ne peut plus partager.
+    </p>
+    <p>
+     Ah ! croyez-moi, laissez-lui remplir tous ses exercices de piété, ce ne sont point eux qui l'affaiblissent ; au contraire, les âmes
      passionnées comme la sienne ont besoin d'aliment, et cherchent toujours leurs ressources ou très loin ou très près d'elles, dans les idées
-     religieuses ou dans les idées sensibles, et le vide terrible que l'amour y laisse ne peut être rempli que par Dieu même. </p>
-    <p> Annoncez-moi à Claire ; je compte partir dans deux ou trois jours. Fiez-vous à ma foi, je saurai respecter votre volonté, ma parole et l'état
-     de mon amie, et elle ignorera toujours que son époux, cessant un moment de l'apprécier, la traita comme une femme ordinaire. </p>
+     religieuses ou dans les idées sensibles, et le vide terrible que l'amour y laisse ne peut être rempli que par Dieu même.
+    </p>
+    <p>
+     Annoncez-moi à Claire ; je compte partir dans deux ou trois jours. Fiez-vous à ma foi, je saurai respecter votre volonté, ma parole et l'état
+     de mon amie, et elle ignorera toujours que son époux, cessant un moment de l'apprécier, la traita comme une femme ordinaire.
+    </p>
    </div>
    <div type="letter">
-    <head> LETTRE XLV. </head>
-    <p> ÉLISE À M. D'ALBE. </p>
-    <p> Ô mon cousin ! Frédéric est parti, et je suis sûre qu'il est allé chez vous, et je tremble que cette lettre, que je vous envoie par un exprès,
+    <head>
+     LETTRE XLV.
+    </head>
+    <p>
+     ÉLISE À M. D'ALBE.
+    </p>
+    <p>
+     Ô mon cousin ! Frédéric est parti, et je suis sûre qu'il est allé chez vous, et je tremble que cette lettre, que je vous envoie par un exprès,
      n'arrive trop tard, et ne puisse empêcher les maux terribles qu'une explication entraînerait après elle. Comment vous peindre la scène qui vient
      de se passer ? Aujourd'hui, pour la première fois, Frédéric m'a accompagnée dans une maison étrangère : muet, taciturne, son regard ne fixait
      aucun objet, il semblait ne prendre part à rien de ce qui se faisait autour de lui, et répondait à peine quelques mots au hasard aux différentes
@@ -1712,8 +2371,10 @@
      s'écriant : « Non, vous m'avez trompé, je ne vous crois plus... » L'homme qui venait de parler, et qui n'avait été chez vous que pour des
      affaires relatives à votre commerce, étourdi de l'effet inattendu de ce qu'il a dit, hésite à répondre aux questions pressantes de Frédéric.
      Cependant, effrayé de l'accent terrible de ce jeune homme, il n'ose résister ni à son ton ni à son air. « Ma foi, dit-il, madame d'Albe se meurt,
-     et on assure que c'est à cause de l'infidélité d'un jeune homme qu'elle aimait, et que son mari a chassé de chez elle. » </p>
-    <p> À ces mots, Frédéric jette un cri perçant, renverse tout ce qui se trouve sur son passage, et s'élance hors de la chambre ; je me précipite
+     et on assure que c'est à cause de l'infidélité d'un jeune homme qu'elle aimait, et que son mari a chassé de chez elle. »
+    </p>
+    <p>
+     À ces mots, Frédéric jette un cri perçant, renverse tout ce qui se trouve sur son passage, et s'élance hors de la chambre ; je me précipite
      après lui, je l'appelle : c'est au nom de Claire que je le supplie de m'entendre, il n'écoute rien, nulle force ne peut le retenir, il écrase
      tout ce qui s'oppose à sa fuite ; je le perds de vue, je ne l'ai plus revu, et j'ignore ce qu'il est devenu ; mais je ne doute point qu'il n'ait
      porté ses pas vers l'asile de Claire, je tremble qu'elle ne le voie ; la surprise, l'émotion épuiseraient ses forces. Ô mon ami ! puisse ma
@@ -1727,11 +2388,15 @@
      contre la perte de l'estime publique ? Celle qui la respecta toujours, qui la regardait comme le plus bel ornement de son sexe, pourrait-elle
      vivre après l'avoir perdue ? Non, Claire, meurs, quitte une terre qui ne sut pas te connaître, et qui n'était pas digne de te porter : abreuvée
      de larmes et d'outrages, va demander au ciel le prix de tes douleurs, et que les anges, empressés auprès de toi, ouvrent leurs bras pour recevoir
-     leur semblable. </p>
-    <p> Ici finissent les lettres de Claire ; le reste est un récit écrit de la main d'Élise. Sans doute elle en aura recueilli les principaux traits
+     leur semblable.
+    </p>
+    <p>
+     Ici finissent les lettres de Claire ; le reste est un récit écrit de la main d'Élise. Sans doute elle en aura recueilli les principaux traits
      de la bouche de son amie, et elle les aura confiés au papier, pour que la jeune Laure, en les lisant un jour, pût se préserver des passions dont
-     sa déplorable mère avait été la victime. </p>
-    <p> Il était tard, la nuit commençait à s'étendre sur l'univers ; Claire, faible et languissante, s'était fait conduire au bas de son jardin, sous
+     sa déplorable mère avait été la victime.
+    </p>
+    <p>
+     Il était tard, la nuit commençait à s'étendre sur l'univers ; Claire, faible et languissante, s'était fait conduire au bas de son jardin, sous
      l'ombre des peupliers qui couvrent l'urne de son père, et où sa piété consacra un autel à la divinité. Humblement prosternée sur le dernier
      degré, le cœur toujours dévoré de l'image de Frédéric, elle implorait la clémence du ciel pour un être si cher, et des forces pour l'oublier.
      Tout à coup une marche précipitée l'arrache à ses méditations, elle s'étonne qu'on vienne la troubler ; et, tournant la tête, le premier objet
@@ -1778,18 +2443,28 @@
      craint de profaner tout ce qu'il y a de saint sur la terre, respecte au moins le ciel, et que ton impiété ne vienne pas m'outrager jusque dans ce
      dernier asile. C'est ici, ajouta-t-elle dans un transport prophétique, que je jure que cet instant où je te vois est le dernier où mes yeux
      s'ouvriront sur toi ; si tu demeures encore, je saurai trouver une mort prompte, et que le ciel m'anéantisse à l'instant où tu oserais reparaître
-     devant moi. » </p>
-    <p> Frédéric, terrassé par cette horrible imprécation, et frémissant que le moindre délai n'assassine son amante, s'éloigne avec impétuosité. Mais
+     devant moi. »
+    </p>
+    <p>
+     Frédéric, terrassé par cette horrible imprécation, et frémissant que le moindre délai n'assassine son amante, s'éloigne avec impétuosité. Mais
      à peine est-il hors de sa vue, qu'il s'arrête ; il ne peut sortir du bois épais qui les couvre, sans l'avoir entendue encore une fois, et élevant
      la voix, il s'écrie : « Ô toi que je ne dois plus revoir ! toi qui, d'accord avec le ciel, viens de maudire l'infortuné qui t'adorait ! toi qui,
      pour prix d'un amour sans exemple, le condamnes à un exil éternel ! toi, enfin, dont la haine l'a proscrit de la surface du monde, ô Claire !
      avant que l'immensité nous sépare à jamais, avant que le néant soit entre nous deux, que j'entende encore ton accent, et au nom du tourment que
      j'endure, que ce soit un accent de pitié !... » Il se tait, il ne respire pas, il étouffe les horribles battemens de son cœur pour mieux écouter
      ; il attend la voix de Claire... Enfin ces mots faibles, tremblans, et qui percent à peine le repos universel de la nature, viennent frapper ses
-     oreilles et calmer ses sens : <hi rend="italic"> Va, malheureux, je te pardonne </hi> . </p>
-    <p> L'indignation avait ranimé les forces de Claire, l'attendrissement les anéantit : subjuguée par l'ascendant de Frédéric, à l'instant où, en
-     lui pardonnant, elle sentit qu'elle l'aimait encore, elle tomba sans mouvement sur les degrés de l'autel. </p>
-    <p> Cependant M. d'Albe qui n'avait point reçu la lettre d'Élise, et qui était sorti pour quelques heures, apprend à son retour que Frédéric a
+     oreilles et calmer ses sens :
+     <hi rend="italic">
+      Va, malheureux, je te pardonne
+     </hi>
+     .
+    </p>
+    <p>
+     L'indignation avait ranimé les forces de Claire, l'attendrissement les anéantit : subjuguée par l'ascendant de Frédéric, à l'instant où, en
+     lui pardonnant, elle sentit qu'elle l'aimait encore, elle tomba sans mouvement sur les degrés de l'autel.
+    </p>
+    <p>
+     Cependant M. d'Albe qui n'avait point reçu la lettre d'Élise, et qui était sorti pour quelques heures, apprend à son retour que Frédéric a
      paru dans la maison ; il frémit, et demande sa femme ; on lui dit qu'elle est allée, selon son usage, se recueillir près du tombeau de son père.
      Il dirige ses pas de ce côté ; la lune éclairait faiblement les objets : il appelle Claire, elle ne répond point ; sa première idée est qu'elle a
      fui avec Frédéric ; la seconde, plus juste, mais plus terrible encore, est qu'elle a cessé d'exister. Il se hâte d'arriver ; enfin, à la lueur
@@ -1798,33 +2473,45 @@
      consternation universelle ! Cette femme céleste n'est plus, cette maîtresse adorée, cet ange de bienfaisance n'est plus qu'une froide poussière !
      La désolation s'empare de tous les cœurs : cependant un mouvement a ranimé l'espérance ; on se hâte, on la transporte, les secours volent de tous
      côtés. La nuit entière se passe dans l'incertitude ; mais le lendemain une ombre de chaleur renaît, ses yeux se rouvrent au jour, au moment même
-     où Élise arrivait auprès d'elle. </p>
-    <p> Cette tendre amie avait suivi sa lettre de près, mais sa lettre n'était point arrivée ; un mot de M. d'Albe l'instruit de tout, elle entre
+     où Élise arrivait auprès d'elle.
+    </p>
+    <p>
+     Cette tendre amie avait suivi sa lettre de près, mais sa lettre n'était point arrivée ; un mot de M. d'Albe l'instruit de tout, elle entre
      éperdue. Claire ne la méconnaît point, elle lui tend les bras. Élise se précipite, Claire la presse sur son cœur déjà atteint des glaces de la
      mort. Elle veut que l'amitié la ranime et lui rende la force d'exprimer ses dernières volontés : son œil mourant cherche son époux ; sa voix
      éteinte l'appelle ; elle prend sa main, et l'unissant à celle de son amie, elle les regarde tous deux avec tristesse, et dit : « Le ciel n'a pas
      voulu que je meure innocente : l'infortunée que vous voyez devant vous s'est couverte du dernier opprobre ; mes sens égarés m'ont trahie ; et un
      ingrat, abusant de ma faiblesse, a brisé les nœuds sacrés qui m'attachaient à mon époux. Je ne demande point d'indulgence, ni lui ni moi n'avons
      droit d'y prétendre : il est des crimes que la passion n'excuse pas, et que le pardon ne peut atteindre... » Elle se tait. En l'écoutant, l'âme
-     d'Élise se ferme à toute espérance, elle est sûre que son amie ne survivra pas à sa honte. </p>
-    <p> M. d'Albe, consterné de ce qu'il entend, ne repousse pas néanmoins la main qui l'a trahi. « Claire, lui dit-il, votre faute est grande sans
+     d'Élise se ferme à toute espérance, elle est sûre que son amie ne survivra pas à sa honte.
+    </p>
+    <p>
+     M. d'Albe, consterné de ce qu'il entend, ne repousse pas néanmoins la main qui l'a trahi. « Claire, lui dit-il, votre faute est grande sans
      doute ; mais il vous reste encore assez de vertus pour faire mon bonheur ; et le seul tort que je ne vous pardonne pas, est de souhaiter une mort
      qui me laisserait seul au monde. » À ces mots, sa femme lève sur lui un œil attendri et reconnaissant : « Cher et respectable ami, lui dit-elle,
      croyez que c'est pour vous seul que je voudrais vivre, et que mourir indigne de vous est ce qui rend ma dernière heure si amère. Mais je sens que
-     mes forces diminuent, éloignez-vous l'un et l'autre, j'ai besoin de me recueillir quelques momens, afin de vous parler encore. » </p>
-    <p> Élise ferme doucement le rideau, et ne profère pas une parole ; elle n'a rien à dire, rien à demander, rien à attendre : l'aveu de son amie
-     lui a appris que tout était fini, que l'arrêt du sort était irrévocable, et que Claire était perdue pour elle. </p>
-    <p> M. d'Albe, qui la connaît moins, s'agite et se tourmente ; plus heureux qu'Élise, il craint, car il espère ; il s'étonne de la tranquillité de
+     mes forces diminuent, éloignez-vous l'un et l'autre, j'ai besoin de me recueillir quelques momens, afin de vous parler encore. »
+    </p>
+    <p>
+     Élise ferme doucement le rideau, et ne profère pas une parole ; elle n'a rien à dire, rien à demander, rien à attendre : l'aveu de son amie
+     lui a appris que tout était fini, que l'arrêt du sort était irrévocable, et que Claire était perdue pour elle.
+    </p>
+    <p>
+     M. d'Albe, qui la connaît moins, s'agite et se tourmente ; plus heureux qu'Élise, il craint, car il espère ; il s'étonne de la tranquillité de
      celle-ci, sa muette consternation lui paraît de la froideur, il le dit et s'en irrite. Élise, sans s'émouvoir de sa colère, se lève doucement, et
      l'entraînant hors de la chambre : « Au nom de Dieu ! lui dit-elle, ne troublez pas la solennité de ces moments par de vains secours qui ne la
      sauveront point, et calmez un emportement qui peut rompre le dernier fil qui la retient à la vie. Craignez qu'elle ne s'éteigne avant de nous
      avoir parlé de ses enfans ; sans doute son dernier vœu sera pour eux ; tel qu'il soit, fût-il de lui survivre, je jure de le remplir. Quant à son
      existence terrestre, elle est finie ; du moment que Claire fut coupable, elle a dû renoncer au jour : je l'aime trop pour vouloir qu'elle vive,
      et je la connais trop pour l'espérer. » L'air imposant et assuré dont Élise accompagna ces mots, fut un coup de foudre pour M. d'Albe ; il lui
-     apprit que sa femme était morte. </p>
-    <p> Élise se rapprocha du lit de son amie : assise à son chevet, toujours immobile et silencieuse, il semblait qu'elle attendît le dernier souffle
-     de Claire pour exhaler le sien. </p>
-    <p> Au bout de quelques heures, Claire étendit la main, et prenant celle d'Élise : « Je sens que je m'éteins, dit-elle, il faut me hâter de parler
+     apprit que sa femme était morte.
+    </p>
+    <p>
+     Élise se rapprocha du lit de son amie : assise à son chevet, toujours immobile et silencieuse, il semblait qu'elle attendît le dernier souffle
+     de Claire pour exhaler le sien.
+    </p>
+    <p>
+     Au bout de quelques heures, Claire étendit la main, et prenant celle d'Élise : « Je sens que je m'éteins, dit-elle, il faut me hâter de parler
      ; fais sortir tout le monde, et que M. d'Albe reste seul avec toi. » Élise fait un signe, chacun se retire ; le malheureux époux s'avance, sans
      avoir le courage de jeter les yeux sur celle qu'il va perdre ; il se reproche intérieurement d'avoir peut-être causé sa mort en la trompant.
      Claire devine son repentir, et croit que son amie le partage ; elle se hâte de les rassurer. « Ne vous reprochez point, leur dit-elle, de m'avoir
@@ -1851,15 +2538,23 @@
      s'interrompre, en vain elle voulut achever sa pensée, ses idées se troublèrent, et sa langue glacée ne put articuler que des mots entrecoupés. Au
      bout de quelques instans elle demanda la bénédiction de son époux ; en la recevant, un éclair de joie ranima ses yeux. « À présent je meurs en
      paix, dit-elle, je peux paraître devant Dieu... Je vous offensai plus que lui, il ne sera pas plus sévère que vous. » Alors, jetant sur lui un
-     dernier regard, et serrant la main de son amie, elle prononça le nom de Frédéric, soupira et mourut. </p>
-    <p> Quelques jours après, M. d'Albe reçut ce billet écrit par Élise et dicté par Claire. </p>
-    <p> CLAIRE À M. D'ALBE. </p>
-    <p> « Je ne veux point faire rougir mon époux, en prononçant devant lui un nom qu'il déteste peut-être ; mais pourra-t-il oublier que cet
+     dernier regard, et serrant la main de son amie, elle prononça le nom de Frédéric, soupira et mourut.
+    </p>
+    <p>
+     Quelques jours après, M. d'Albe reçut ce billet écrit par Élise et dicté par Claire.
+    </p>
+    <p>
+     CLAIRE À M. D'ALBE.
+    </p>
+    <p>
+     « Je ne veux point faire rougir mon époux, en prononçant devant lui un nom qu'il déteste peut-être ; mais pourra-t-il oublier que cet
      infortuné voulait fuir cet asile, et que mon ordre seul l'y a retenu ; que, dans notre situation mutuelle, ses devoirs étant moindres, ses torts
      le sont aussi, et que mon amour fut un crime quand le sien n'était qu'une foiblesse ? Il est errant sur la terre, il a vos malheurs à se
      reprocher, il croira avoir causé ma mort, et son cœur est né pour aimer la vertu. Ô mon époux ! mon digne époux, la pitié ne vous dit-elle rien
-     pour lui, et n'obtiendra-t-il pas une miséricorde que vous ne m'avez pas refusée ? </p>
-    <p> Pour remplir les dernières volontés de sa femme, M. d'Albe s'informa de Frédéric dans tous les environs, il fit faire les perquisitions les
+     pour lui, et n'obtiendra-t-il pas une miséricorde que vous ne m'avez pas refusée ?
+    </p>
+    <p>
+     Pour remplir les dernières volontés de sa femme, M. d'Albe s'informa de Frédéric dans tous les environs, il fit faire les perquisitions les
      plus exactes dans le lieu de sa naissance ; tout fut inutile, ses recherches furent infructueuses ; jamais on n'a pu découvrir où il avait traîné
      sa déplorable existence, ni quand il l'avait terminée. Jamais nul être vivant n'a su ce qu'il était devenu : on dit seulement qu'aux funérailles
      de Claire, un homme inconnu, enveloppé d'une épaisse redingote, et couvert d'un large chapeau, avait suivi le convoi dans un profond silence ;
@@ -1870,8 +2565,12 @@
   </body>
   <back>
    <div type="notes">
-    <note xml:id="N1"> Lettre XXV. </note>
-    <note xml:id="N2"> S'il ne faisait pas cette question, il serait un monstre ; car la folie de l'amour ne serait pas complète. </note>
+    <note xml:id="N1">
+     Lettre XXV.
+    </note>
+    <note xml:id="N2">
+     S'il ne faisait pas cette question, il serait un monstre ; car la folie de l'amour ne serait pas complète.
+    </note>
    </div>
   </back>
  </text>

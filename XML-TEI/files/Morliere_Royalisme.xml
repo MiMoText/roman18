@@ -2,116 +2,189 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Morliere_Royalisme" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:70.56 wikidata:0">Le royalisme: MiMoText edition</title>
-        <author ref="viaf:7400912 wikidata:Q3159898">Charles Jacques Louis Auguste Rochette La Morlière(1719-1785)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Münchener Digitalisierungszentrum</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">19394</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://www.digitale-sammlungen.de/de/view/bsb10414089"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Le royalisme, ou mémoires de Du Barri de Saint Aunez et de Constance de Cézelli, sa femme</title>
-          <author>M. DE L....</author>
-          <pubPlace>Paris</pubPlace>
-          <publisher>Valade</publisher>
-          <date>1770</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1770</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            heterodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-07-06">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>LE ROYALISME, OU MEMOIRES DE DU BARRI DE SAINT AUNEZ, ET DE CONSTANCE DE CÉZELLI SA FEMME.</p>
-        <p>Anecdotes Héroïques sous Henrr IV.</p>
-        <p>Par M. DEL....</p>
-        <p>Nec ultimo ſive carceris, ſive crucis ſupplicio deformata Majeſtas, imo his omnibus admirabilior.
-          Flor. lib. li.</p>
-        <p>A PARIS.</p>
-        <p>Chez Valade, Libraire, rue S. Jacques, vis - à - vis la rue de la Parcheminerie.</p>
-        <p>M. DCC. LXX.</p>
-        <p>Avec Approbation, &amp; Privilége du Roi.</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>EPITRE DÉDICATOIRE A MADAME LA COMTESSE DU BARRI,</head>
-        <p>MADAME,
-          <hi rend="italic">Daignez accueillir avec bonté un hommage public de ſentiment, &amp; de
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:70.56 wikidata:0">
+     Le royalisme: MiMoText edition
+    </title>
+    <author ref="viaf:7400912 wikidata:Q3159898">
+     Charles Jacques Louis Auguste Rochette La Morlière(1719-1785)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Münchener Digitalisierungszentrum
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     19394
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.digitale-sammlungen.de/de/view/bsb10414089"/>
+     <publisher>
+      Bayerische Staatsbibliothek
+     </publisher>
+     <date>
+      2009
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Le royalisme, ou mémoires de Du Barri de Saint Aunez et de Constance de Cézelli, sa femme
+     </title>
+     <author>
+      M. DE L....
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Valade
+     </publisher>
+     <date>
+      1770
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1770
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-07-06">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     LE ROYALISME, OU MEMOIRES DE DU BARRI DE SAINT AUNEZ, ET DE CONSTANCE DE CÉZELLI SA FEMME.
+    </p>
+    <p>
+     Anecdotes Héroïques sous Henrr IV.
+    </p>
+    <p>
+     Par M. DEL....
+    </p>
+    <p>
+     Nec ultimo ſive carceris, ſive crucis ſupplicio deformata Majeſtas, imo his omnibus admirabilior.
+          Flor. lib. li.
+    </p>
+    <p>
+     A PARIS.
+    </p>
+    <p>
+     Chez Valade, Libraire, rue S. Jacques, vis - à - vis la rue de la Parcheminerie.
+    </p>
+    <p>
+     M. DCC. LXX.
+    </p>
+    <p>
+     Avec Approbation, &amp; Privilége du Roi.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     EPITRE DÉDICATOIRE A MADAME LA COMTESSE DU BARRI,
+    </head>
+    <p>
+     MADAME,
+     <hi rend="italic">
+      Daignez accueillir avec bonté un hommage public de ſentiment, &amp; de
             reconnoiſſance. Le zèle ſeul m'a dicté ce petit ouvrage; ſeul il oſe vous l'offrir. Je ſens qu'il
             eſt capable d'égarer dans une carrière qui demande des talents. Mais j'eſpére, Madame, que vos
             ſuffrages ſuppléeront à la médiocrité des miens. Les traits que je développe dans cet eſſai le
             rendent digne de paroître ſous vos auſpices. Ils ſont tous puiſés dans votre Maiſon; ils retracent
             la fidelité la plus héroique de deux Sujets pour leur Roi. Trop heureux ſi vous voulez bien me
-            pardonner une entrepriſe au - deſſus de mes forces, en faveur du motif qui me l'a inſpirée.</hi>
-        </p>
-        <p>
-          <hi rend="italic">Je ſuis avec un profond reſpect,</hi>
-          MADAME Votre très-humble &amp; très-obéiſſant ſerviteur.</p>
-        <p>DE L....</p>
-      </div>
-      <div type="chapter">
-        <head>AVERTISSEMENT.</head>
-        <p>Les principaux traits de ce petit ouvrage ſont puiſés dans l'Hiſtoire. Dom Vaiſſette,
+            pardonner une entrepriſe au - deſſus de mes forces, en faveur du motif qui me l'a inſpirée.
+     </hi>
+    </p>
+    <p>
+     <hi rend="italic">
+      Je ſuis avec un profond reſpect,
+     </hi>
+     MADAME Votre très-humble &amp; très-obéiſſant ſerviteur.
+    </p>
+    <p>
+     DE L....
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     AVERTISSEMENT.
+    </head>
+    <p>
+     Les principaux traits de ce petit ouvrage ſont puiſés dans l'Hiſtoire. Dom Vaiſſette,
           d'Aigrefeuille, qui ont écrit celle de Languedoc, &amp; preſque tous les Mémoires qui nous reſtent
           ſur la Ligue &amp; ſur les troubles qui agiterent la France pendant la minorité de Louis XIII, les
           rapportent avec les plus grands éloges. Ceux à qui ces Auteurs ſont familiers, ou qui voudront les
@@ -127,18 +200,28 @@
           Gouvernement toujours appliqué à maintenir la proſpérité nationale v apperçoit une lumiére qui
           ranime les cœurs engourdis, ou diſſipe leurs erreurs. C'eſt pourquoi il approuve, il enviſage ces
           eſſais. Nous n'eſpérons pas qu'il regarde celui-ci du même œil, il eſt trop peu conſidérable. Nous
-          ſerions trop heureux que le Public l'accueille favorablement.</p>
-        <p>Par un privilége qu'on accorde à l'imagination qui s'exerce ſur des faits hiſtoriques, nous en
+          ſerions trop heureux que le Public l'accueille favorablement.
+    </p>
+    <p>
+     Par un privilége qu'on accorde à l'imagination qui s'exerce ſur des faits hiſtoriques, nous en
           avons rapproché qui étoient trop éloignés: nous les avons liés de la maniére que nous avons jugée la
-          plus capable de les mettre dans un beau jour, &amp; de les rendre plus intéreſſans.</p>
-      </div>
-      <div type="chapter">
-        <head>LE ROYALISME, OU MÉMOIRES DE DU BARRI DE SAINT AUNEZ, ET DE CONSTANCE DE CÉZELLI SA FEMME.</head>
-        <head>CHAPITRE PREMIER.</head>
-        <p>
-          <hi rend="italic">Idée de la France pendant les troubles de la Ligue.</hi>
-        </p>
-        <p>La France étoit déchirée par une faction acharnée à ſa perte. On comprend que je veux parler de
+          plus capable de les mettre dans un beau jour, &amp; de les rendre plus intéreſſans.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LE ROYALISME, OU MÉMOIRES DE DU BARRI DE SAINT AUNEZ, ET DE CONSTANCE DE CÉZELLI SA FEMME.
+    </head>
+    <head>
+     CHAPITRE PREMIER.
+    </head>
+    <p>
+     <hi rend="italic">
+      Idée de la France pendant les troubles de la Ligue.
+     </hi>
+    </p>
+    <p>
+     La France étoit déchirée par une faction acharnée à ſa perte. On comprend que je veux parler de
           ces tems de déſaſtres &amp; de calamités, ſi connus ſous le nom de Ligue, &amp; conſignés en
           caractères de ſang dans nos Annales. L'ambitieuſe Maiſon de Guiſe, l'Evangile dans une main, le fer
           &amp; la flamme dans l'autre, ébranloit l'Empire François juſques dans ſes fondemens. Elle ſçavoit
@@ -151,23 +234,31 @@
           pour l'un &amp; pour l'autre, embraſſerent leur défenſe &amp; ſe dévouérent en apparence au ſervice
           de l'Etat. Qui n'eût été ſéduit par des dehors ſi impoſans? Les freres s'arment contre les freres.
           Le ſang coule à grands flots. D'un bout du Royaume à l'autre, la diſcorde &amp; la guerre
-          n'inſpirent que haines, que ravages, que meurtres, qu'embrâſements.</p>
-        <p>Un petit nombre de ſujets fideles, voyoit en gémiſſant l'ambition des chefs de la Ligue, fouler
+          n'inſpirent que haines, que ravages, que meurtres, qu'embrâſements.
+    </p>
+    <p>
+     Un petit nombre de ſujets fideles, voyoit en gémiſſant l'ambition des chefs de la Ligue, fouler
           aux pieds les droits du Trône, pour envahir la Monarchie. Le Roi, trompé luimême par leur faux
           dévouement, ne sentit le but de leur artificieuſe politique, que quand le fanatiſme fut porté à ſon
-          comble, que quand il ne fut plus poſſible de s'oppoſer à ſes excès.</p>
-        <p>On ſçait tous les malheurs, tous les fleaux, qui mirent alors la France à deux doigts de ſa
+          comble, que quand il ne fut plus poſſible de s'oppoſer à ſes excès.
+    </p>
+    <p>
+     On ſçait tous les malheurs, tous les fleaux, qui mirent alors la France à deux doigts de ſa
           perte. Le nom de Ligueur étoit brigué avec enthouſiaſme. Le titre de Royaliſte étoit un opprobre, un
           motif d'acharnement &amp; de perſécuton. La Ligue dominoit ſur les plus belles, &amp; les plus
           nombreuſes Provinces du Royaume. Elle y avoit appellé des Etrangers qui exerçoient toutes ſortes de
           barbarie. Ceux-ci ſoutenoient la faction par des vues bien différentes des ſiennes; mais ils
-          s'accordoient dans le projet de dépouiller la Maiſon des Bourbons, &amp; de dominer ſur ſes ruines.</p>
-        <p>Les Guiſes n'avoient plus qu'un pas pour monter ſur un Trône, où des monceaux de cadavres, où
+          s'accordoient dans le projet de dépouiller la Maiſon des Bourbons, &amp; de dominer ſur ſes ruines.
+    </p>
+    <p>
+     Les Guiſes n'avoient plus qu'un pas pour monter ſur un Trône, où des monceaux de cadavres, où
           celui du Roi même devoient leur ſervir de dégrés. Ce Prince infortuné n'avoit point d'héritier
           immédiat. L'amour perſévérant des François pour leurs Souverains légitimes, la diverſité des
           deſſeins de ſes Ennemis, mirent entre les Guiſes &amp; ce Trône ébranlé, un rempart puiſſant qui le
-          conſerva à ſes légitimes maîtres.</p>
-        <p>Il étoit né parmi les Rochers ſtériles du Bearn, ce Prince, qui, ſans ceſſer d'être le Pere de
+          conſerva à ſes légitimes maîtres.
+    </p>
+    <p>
+     Il étoit né parmi les Rochers ſtériles du Bearn, ce Prince, qui, ſans ceſſer d'être le Pere de
           ſes Sujets, devoit les ſubjuguer, conſoler la France, la relever de ſes ruines, &amp; lui inſpirer
           d'éternels regrets. Elevé parmi ſon Peuple, il en fit les délices dèsqu'il eût ouvert les yeux à la
           lumiére. Les Béarnois le portoient dans leurs bras. Il mangeoit à leur table, franchiſſoit les
@@ -180,16 +271,20 @@
           Grand? Celui-ci ne voile-t-il pas à la poſtérité le Pere des François, pour ne lui montrer que leur
           conquérant? Non, non, cette poſtérité plus juſte que l'hiſtoire, ne lui donne que le nom de Henri,
           &amp; veut qu'on y attache l'idée de toutes les qualités d'une âme paternelle, de préférence à celle
-          des victoires qui ont couté tant de larmes au Monarque.</p>
-        <p>Quoi qu'il en ſoit, à cette popularité qui lui captivoit les cœurs, à cette ſenſibilité qui
+          des victoires qui ont couté tant de larmes au Monarque.
+    </p>
+    <p>
+     Quoi qu'il en ſoit, à cette popularité qui lui captivoit les cœurs, à cette ſenſibilité qui
           caractériſa Henri, ce Prince joignoit les vues, le jugement, l'intrépidité, tous les talents qui
           font le grand Capitaine. Accoutumé dès le berceau à une vie dure &amp; active, dans ſon enfance
           même, il donna des préſages de ce qu'on devoit attendre de ſon courage infatigable. A douze ans
           l'Europe avoit déjà les yeux ſur lui. Les bons François le regardoient en ſecret comme le
           Reſtaurateur de leur Empire. La Navarre devançoit le terme où il lui donneroit des Loix, &amp;
           l'idolâtroit. Ce ſentiment franchit les limites de ce petit Etat, &amp; s'alluma de proche en proche
-          juſque dans les Provinces les plus reculées du Royaume.</p>
-        <p>Telle eſt, n'en doutons point, une des principales cauſes qui ſoutinrent la France au bord de
+          juſque dans les Provinces les plus reculées du Royaume.
+    </p>
+    <p>
+     Telle eſt, n'en doutons point, une des principales cauſes qui ſoutinrent la France au bord de
           l'abîme, creuſé par la Ligue pour l'engloutir. Tel fut le reſſort puiſſant qui éleva au-deſſus
           d'eux-mêmes le petit nombre de François qui avoient garanti leur cœur des piéges d'une aſſociation
           fatale aux légitimes héritiers du Trône; reſſort qui dans une longue ſuite de victoires, fit enfin
@@ -200,14 +295,20 @@
           dont on ne connoît plus que le nom. Que la mémoire du Prince, qui vous a ſauvé malgré vous d'une ſi
           cruelle cataſtrophe, doit vous être chere! Que ne devez-vous point à ceux d'entre vous, qui fidéles
           à ce Grand Roi, lui ont prêté leurs bras, &amp; ont verſé leur ſang ſous fes drapeaux pour la gloire
-          du Trône &amp; le ſalut de la Patrie!</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE II.</head>
-        <p>
-          <hi rend="italic">Etabliſſement de Du Barri en France, ſon éducation; exploits, &amp; mort de ſon Pere.</hi>
-        </p>
-        <p>L'attachement inviolable que les droits ſacrés de Henri, ſon ame héroïque, &amp; toutes ſes
+          du Trône &amp; le ſalut de la Patrie!
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE II.
+    </head>
+    <p>
+     <hi rend="italic">
+      Etabliſſement de Du Barri en France, ſon éducation; exploits, &amp; mort de ſon Pere.
+     </hi>
+    </p>
+    <p>
+     L'attachement inviolable que les droits ſacrés de Henri, ſon ame héroïque, &amp; toutes ſes
           vertus royales inſpiroient aux bons François, ſe manifeſtoit à meſure qu'on le connoiſſoit mieux
           &amp; qu'on le voyoit de plus près. Dans les Provinces éloignées ſa renommée lui faiſoit des
           Partiſans. Dans les Pays voiſins de la Navarre, ſes actions, le ſpectacle de ſes qualités
@@ -219,15 +320,23 @@
           furent le premier Théâtre de la Guerre. Il ſuffiſoit que les chefs de la Ligue connuſſent les
           diſpoſitions des habitants, en faveur du Prince qu'ils vouloient écarter du Trône, pour qu'ils
           fiſſent tous leurs efforts pour lui enlever ces Provinces, ou du moins pour l'y arrêter tant qu'ils
-          pourroient.</p>
-        <p>C'eſt dans ces malheureuſes circonſtances que du Barri ſe fit connoître en France. Son Père,
+          pourroient.
+    </p>
+    <p>
+     C'eſt dans ces malheureuſes circonſtances que du Barri ſe fit connoître en France. Son Père,
           d'une Maiſon d'Irlande, qui jouit encore du titre de Pair de ce Royaume, avoit abandonné ſa Patrie
-          dans le déſeſpoir de ne pouvoir briſer les fers ſous le poids deſquels elle gémiſſoit.</p>
-        <p>Le Languedoc fut ſa retraite
-          <ref target="#N01"/>.</p>
-        <p>Les troubles qui agitoient dès lors ſa nouvelle Patrie, n'empêcherent pas que la Cour ne lui
+          dans le déſeſpoir de ne pouvoir briſer les fers ſous le poids deſquels elle gémiſſoit.
+    </p>
+    <p>
+     Le Languedoc fut ſa retraite
+     <ref target="#N01"/>
+     .
+    </p>
+    <p>
+     Les troubles qui agitoient dès lors ſa nouvelle Patrie, n'empêcherent pas que la Cour ne lui
           donnât du ſervice &amp; des emplois convenables à ſon rang
-          <ref target="#N02"/>. Il ſervit l'Etat avec ce zèle &amp; ces lumiéres qui ſont les garants
+     <ref target="#N02"/>
+     . Il ſervit l'Etat avec ce zèle &amp; ces lumiéres qui ſont les garants
             preſqu'aſſurés des ſuccès. Le Languedoc, où il s'étoit fixé, ne tarda pas à le diſtinguer parmi la
             nombreuſe Nobleſſe qui faiſoit ſa gloire &amp; ſa ſûreté. Il n'avoit qu'un fils, il le nourrit, dès
             ſon bas âge, des ſentimens de fidélité &amp; de reconnoiſſance qu'il devoit à un Etat qui lui avoit
@@ -239,10 +348,12 @@
             cœur, il joignit l'exercice continuel des armes; leçons d'autant plus néceſſaires, &amp; d'autant
             plus faciles à pratiquer; qu'environnés d'ennemis de toutes parts, ils étoient forcés d'être ſans
             ceſſe ſur leurs gardes. Son premier ſéjour fut aux environs de Narbonne, cette poſition ſeconda
-            bientôt ſon zèle, pour ſe porter ſans ceſſe dans tous les endroits qui avoient beſoin de ſecours.</p>
-        <p>Par cette éducation guerriere, St. Aunez
-          <ref target="#N03"/>
-          devint un des plus fidéles, &amp; des plus zélés ſerviteurs du Roi. A peu près du même âge que
+            bientôt ſon zèle, pour ſe porter ſans ceſſe dans tous les endroits qui avoient beſoin de ſecours.
+    </p>
+    <p>
+     Par cette éducation guerriere, St. Aunez
+     <ref target="#N03"/>
+     devint un des plus fidéles, &amp; des plus zélés ſerviteurs du Roi. A peu près du même âge que
           Henri, il avoit fait, comme ce Prince, &amp; ſous ſes yeux, ſes premieres armes aux journées de
           Jarnac &amp; de Montcontour, célébres par la défaite des Huguenots, animés en ſecret par les
           ennemis, encore cachés du Roi, &amp; de l'Etat. Si St. Aunez, excité par l'exemple du jeune Prince,
@@ -254,30 +365,39 @@
           du tems font foi, que le Roi de Navarre ne s'étoit point jetté dans le parti Proteſtant, par haine
           du Roi ou de l'Etat; mais pour s'oppoſer à une foule de favoris, dont les conſeils cauſoient tous
           les troubles.
-        </p>
-        <p>Ainſi, inébranlable dans ſes devoirs, St. Aunez ſe contenta d'admirer le Héros Navarrois, &amp;
+    </p>
+    <p>
+     Ainſi, inébranlable dans ſes devoirs, St. Aunez ſe contenta d'admirer le Héros Navarrois, &amp;
           de ſouhaiter en ſecret à la France, un Prince que le Ciel deſtinoit pour la gouverner. Plus d'une
           fois même, le Gentilhomme fut contraint de marcher contre le Prince avec ce qu'il avoit pu ramaſſer
           de bons Royaliſtes. C'eſt dans ces occaſions, c'eſt par les obſtacles qu'il apportoit fréquemment
           aux entrepriſes des Proteſtans que Henri l'eſtima de plus en plus, &amp; nourrit pour m'exprimer
-          ainſi, cette bienveillance qui éclata dans la ſuite ſur le Gentil-homme &amp; ſur ſa famille.</p>
-        <p>Pour ne point anticiper ſur les événements, nous allons toucher légérement tout ce qui regarde S.
+          ainſi, cette bienveillance qui éclata dans la ſuite ſur le Gentil-homme &amp; ſur ſa famille.
+    </p>
+    <p>
+     Pour ne point anticiper ſur les événements, nous allons toucher légérement tout ce qui regarde S.
           Aunez juſqu'à cette époque. Il avoit vôlé avec ſon Pere, &amp; pluſieurs GentilsHommes du Canton, au
           ſecours d'Ouveillan
-          <ref target="#N04"/>
-          qu'une troupe de factieux ménaçoit d'inſulter. Les Royaliſtes cacherent ſi heureuſement leur marche,
+     <ref target="#N04"/>
+     qu'une troupe de factieux ménaçoit d'inſulter. Les Royaliſtes cacherent ſi heureuſement leur marche,
           que les Rebelles approcherent de la place, dans la confiance qu'elle ne pourroit leur réſiſter; mais
           ils tomberent dans une embuſcade, commandée par du Barri, où ils furent preſque tous taillés en
-          piéces, ou faits priſonniers.</p>
-        <p>La joie de ces ſuccès fut interrompue par une bleſſure mortelle qu'avoit reçu le Commandant de
+          piéces, ou faits priſonniers.
+    </p>
+    <p>
+     La joie de ces ſuccès fut interrompue par une bleſſure mortelle qu'avoit reçu le Commandant de
           l'entrepriſe. On le porta dans la Ville, ſuivi des priſonniers, &amp; au bruit des cris de Victoire.
           Son fils &amp; pluſieurs Officiers l'entourroient les larmes aux yeux. Le Chirurgien ſonda ſa plaie,
-          la déclara mortelle, &amp; ne lui promit que peu d'inſtants à vivre.</p>
-        <p>Le Vieillard, ſans s'émouvoir à une pareille nouvelle, embraſſa ſes amis, &amp; après avoir fait,
+          la déclara mortelle, &amp; ne lui promit que peu d'inſtants à vivre.
+    </p>
+    <p>
+     Le Vieillard, ſans s'émouvoir à une pareille nouvelle, embraſſa ſes amis, &amp; après avoir fait,
           &amp; reçu les adieux les plus touchans, il pria qu'on le laiſſât ſeul avec ſon fils. Il raſſemble
           toutes ſes forces, fait appeller ce digne objet de ſa tendreſſe, lui prend la main, &amp; lui parle
-          à peu près en ces termes.</p>
-        <p>“Eſſuyez vos larmes, mon fils. Ma vie eſt ſans reproche, &amp; je meurs en défendant ma Patrie,
+          à peu près en ces termes.
+    </p>
+    <p>
+     “Eſſuyez vos larmes, mon fils. Ma vie eſt ſans reproche, &amp; je meurs en défendant ma Patrie,
           &amp; mon Roi. Vous êtes jeune, mon fils, je ne demandois quelques années encore “au Ciel, que pour
           vous conduire “dans ce tems orageux. Ses Arrêts “ſont juſtes. Soumettons-nous &amp; “adorons. Gravez
           dans votre mémoire les dernieres paroles d'un “Pere. Puiſſent-elles vous préſerver de “toute eſpéce
@@ -297,31 +417,43 @@
           Que d'embuches il a évité! Que de combats “il a livré! Que de périls il a affronté “avant d'y
           monter!.... O ſurpriſe!... “il te ſourit, t'offre ſa confiance, “un commandement!.... j'entends des
           “gémiſſements, des cris lugubres. Des “perfides, des ſcélérats dénaturés.... “O mon cher fils! quel
-          deſtin glorieux! Il cauſera des regrets, des “ſoupirs au plus humain des Rois.“</p>
-        <p>Quelques larmes coulent de ſes yeux à un tableau ſi déchirant, ſes forces ſemblent l'avoir
+          deſtin glorieux! Il cauſera des regrets, des “ſoupirs au plus humain des Rois.“
+    </p>
+    <p>
+     Quelques larmes coulent de ſes yeux à un tableau ſi déchirant, ſes forces ſemblent l'avoir
           abandonné pour jamais. Il revient à lui, jette un regard d'attendriſſement ſur ſon fils, &amp;,
           comme ranimé par une inſpiration nouvelle, il continue: “Une Héroïne te diſputera la palme du
           courage. Elle triomphera de vos ennemis à force de valeur &amp; de magnanimité. Henri lui décernera
           la Couronne des ſerviteurs fideles.... Quelle “carriére s'ouvre pour nos Neveux!.... “Ciel! reçois
-          mon âme..... Le Livre du “deſtin.... la ſcene de la vie.... ſe ferment pour moi....Adieu.. mon cher“</p>
-        <p>A ces mots, il expire dans les bras de ſon fils. Je m'abſtiendrai d'inſiſter ſur l'excès de la
+          mon âme..... Le Livre du “deſtin.... la ſcene de la vie.... ſe ferment pour moi....Adieu.. mon cher“
+    </p>
+    <p>
+     A ces mots, il expire dans les bras de ſon fils. Je m'abſtiendrai d'inſiſter ſur l'excès de la
           douleur de St. Aunez, déſormais appellé Du Barri. Je me contenterai de dire que les regrets de cet
           infortuné répondirent à la vive tendreſſe qu'il avoit pour ſon pere, &amp; à l'eſtime que ce brave
-          Officier s'étoit acquiſe.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE III.</head>
-        <p>
-          <hi rend="italic">Du Barri ſauve Ouveillan où réſidoit Conſtance de Cézelli; ils font connoiſſance
-            en combattant à côté l'un de l'autre. Valeur, triomphe de Conſtance.</hi>
-        </p>
-        <p>Même avant que le tems eût pu calmer ſes regrets, le jeune du Barri eut plus d'une occaſion d'en
+          Officier s'étoit acquiſe.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE III.
+    </head>
+    <p>
+     <hi rend="italic">
+      Du Barri ſauve Ouveillan où réſidoit Conſtance de Cézelli; ils font connoiſſance
+            en combattant à côté l'un de l'autre. Valeur, triomphe de Conſtance.
+     </hi>
+    </p>
+    <p>
+     Même avant que le tems eût pu calmer ſes regrets, le jeune du Barri eut plus d'une occaſion d'en
           venger l'objet chéri. Le Pays étoit infeſté de troupes, qui, diviſées par détachements, ravageoient
           les campagnes, &amp; pilloient les Villes &amp; les Bourgs ſans défenſe. Il falloit ſans ceſſe
           attaquer &amp; pourſuivre les Rebelles, ſans ceſſe éclairer leurs pas, &amp; leurs deſſeins, &amp;
           défendre ſes propres foyers de leurs approches. Du Barri paſſa quelques années dans une perpétuelle
-          alternative de guerres &amp; d'armiſtices, auſſi-tôt rompus que publiés.</p>
-        <p>Dans une nouvelle expédition, pour la défenſe du poſte où ſon Pere avoit reçu le coup mortel, les
+          alternative de guerres &amp; d'armiſtices, auſſi-tôt rompus que publiés.
+    </p>
+    <p>
+     Dans une nouvelle expédition, pour la défenſe du poſte où ſon Pere avoit reçu le coup mortel, les
           ennemis étoient prêts de s'en emparer. Les Citoyens accourent ſur les murs, combattent avec tant de
           réſolution, qu'en peu d'inſtants les ennemis perdent leurs avantages, &amp; une proie qu'ils
           regardoient comme aſſurée. Ce ſecours étoit compoſé de jeuneſſe des deux ſexes. Le haſard voulut
@@ -332,13 +464,17 @@
           pourſuivons ces Brigands juſques dans leurs retraites, “exterminons-les juſqu'au dernier.„ Elle
           s'élance par une bréche dans le foſſé; du Barri la ſuit, &amp; lui-même eſt imité par tous les
           braves défenſeurs de la Ville. On fait un tel carnage des aſſiégeants, qu'en moins d'une heure on
-          n'en voit pas un ſeul en état de réſiſter.</p>
-        <p>Les Vainqueurs, chargés de leurs dépouilles, &amp; conduiſant un grand nombre de priſonniers,
+          n'en voit pas un ſeul en état de réſiſter.
+    </p>
+    <p>
+     Les Vainqueurs, chargés de leurs dépouilles, &amp; conduiſant un grand nombre de priſonniers,
           reprirent le chemin de la Ville. Du Barri n'avoit pas quitté Conſtance dans la mêlée, il
           l'accompagna de même au retour, lui rendit tous les ſervices dont elle avoit beſoin après un combat
           auſſi long que périlleux, &amp; lui adreſſa les éloges qu'elle méritoit. Conſtance attribua le peu
-          qu'elle avoit fait, aux exemples de bravoure qu'il lui avoit donnés.</p>
-        <p>Après ces honnêtetés réciproques, du Barri s'écria“ Hélas! il y a trois ans, “Mademoiſelle, que
+          qu'elle avoit fait, aux exemples de bravoure qu'il lui avoit donnés.
+    </p>
+    <p>
+     Après ces honnêtetés réciproques, du Barri s'écria“ Hélas! il y a trois ans, “Mademoiſelle, que
           votre réſidence “fut encore attaquée; que nous la “défendîmes avec le même bonheur, “&amp; que mon
           Pere fut bleſſé mortellement, en commandant une em“buſcade où les ennemis tomberent, “&amp; furent
           preſque tous maſſacrés.... “Quoi! vous êtes le fils de ce généreux Vieillard? Nous payâmes à ſes
@@ -350,19 +486,24 @@
           Ville, je réſolus de le remplacer, “&amp; ſans le prévenir de mon deſſein, “je vôlai ſur nos
           remparts. Que d'inquiétudes, que d'allarmes ma fuite “n'a-t'elle pas cauſé à ce tendre Pere? “avec
           quelle joie il va m'ouvrir ſon “ſein! votre courage, Monſieur, “a ſoutenu le mien. Voudrez - vous
-          “bien me préſenter à mon Pere, &amp; “lui demander grace pour une démarche qu'il condamne?„</p>
-        <p>Du Barri, ravi que Conſtance lui fournît elle-même le moyen de connoître une famille qui
+          “bien me préſenter à mon Pere, &amp; “lui demander grace pour une démarche qu'il condamne?„
+    </p>
+    <p>
+     Du Barri, ravi que Conſtance lui fournît elle-même le moyen de connoître une famille qui
           l'intéreſſoit déjà ſi vivement, lui offrit ſon entremiſe ſans balancer. Couverts de pouſſiére &amp;
           de ſang, ils ſe préſentent au lit de Monſieur de Cézelli
-          <ref target="#N05"/>. Ce Vieillard ſaiſi d'effroi pouſſe un cri, Conſtance ſe précipite dans ſes
+     <ref target="#N05"/>
+     . Ce Vieillard ſaiſi d'effroi pouſſe un cri, Conſtance ſe précipite dans ſes
             bras, &amp; lui dit que ſes habits ne ſont ſouillés que du ſang ennemi. A peine en croit - il ſes
             aſſurances réitérées. Il craint pour ſa fille &amp; l'admire à la fois. Il jette un œil inquiet ſur
             toute ſa perſonne.“ Oui, mon Pere, le Ciel “a protégé ma vie. Pluſieurs ennemis ſont tombés ſous mes
             coups, „&amp; leurs armes n'ont pu m'atteindre. Ce Chevalier a reçu une legére “contuſion au bras.
             Qu'il a néanmoins “terraſſé de Rebelles! ah! mon Pere, “que de courage il a montré! C'eſt à “lui que
             je dois les foibles efforts que “j'ai faits pour me rendre digne de “vous; c'eſt pour la ſeconde
-            fois “qu'il ſauve nos murs. Il a perdu ſon “Pere dans l'action où vous avez été “bleſſé.</p>
-        <p>Monſieur de Cézelli pleure de joie, tend les bras à du Barri, le preſſe ſur ſon ſein, &amp; ne
+            fois “qu'il ſauve nos murs. Il a perdu ſon “Pere dans l'action où vous avez été “bleſſé.
+    </p>
+    <p>
+     Monſieur de Cézelli pleure de joie, tend les bras à du Barri, le preſſe ſur ſon ſein, &amp; ne
           peut lui exprimer les ſentimens qu'il éprouve, que par des ſyllabes ſans ſuite, &amp; des
           embraſſements redoublés. Quand ces premiers tranſports furent un peu calmés, “Votre abſence, ma
           fille, m'a accablé d'inquiétude, &amp; de douleur, je “vous ai crue tombée entre les mains “de
@@ -372,22 +513,30 @@
           qu'utile dans un péril émi“nent. Que les larmes que vous m'avez ſait répandre, vous retiennent “à
           l'avenir dans les devoirs réſervés à “votre ſexe. Un mouvement de terreur de votre part, pouvoit
           jetter “le déſordre dans nos Troupes, &amp; “cette Place, par votre imprudence, “ſeroit en proie à
-          la fureur de ſes „ennemis.„</p>
-        <p>Du Barri fit un éloge ſi touchant de la valeur de Conſtance, peignit ſous des couleurs ſi vraies
+          la fureur de ſes „ennemis.„
+    </p>
+    <p>
+     Du Barri fit un éloge ſi touchant de la valeur de Conſtance, peignit ſous des couleurs ſi vraies
           ſa fermeté, la tranquillité de ſon ame au milieu des dangers, &amp; ſur-tout les bons effets
           qu'avoient produit la deſcente dans le foſſé, &amp; l'idée de pourſuivre l'ennemi, que le Vieillard
-          embraſſa ſa fille, &amp; excuſa ſon action en faveur du ſuccès.</p>
-        <p>Il étoit tard. Nos jeunes combattants étoient fatigués. On leur ſervit des rafraîchiſſements,
+          embraſſa ſa fille, &amp; excuſa ſon action en faveur du ſuccès.
+    </p>
+    <p>
+     Il étoit tard. Nos jeunes combattants étoient fatigués. On leur ſervit des rafraîchiſſements,
           &amp; du Barri fut prié d'accepter un lit dans la maiſon. Il ſe rendit ſans peine à la premiére
           inſtance de Mlle de Cézelli. Il avoit admiré ſon intrépidité dans le combat. A ce ſentiment ſuccéda
           bientôt une émotion plus douce. L'amour avoit choiſi le moment du carnage pour bleſſer ſon cœur
           juſqu'alors inſenſible. Toute la nuit Conſtance fut préſente à ſon eſprit, toute la nuit il s'occupa
           des moyens de faire connoître les exploits de la jeune Héroïne, dans la Province entiére. Elevé dès
           ſon enfance parmi le tumulte des armes, il connoiſſoit peu les tendres penchants du cœur humain. Il
-          croyoit rendre juſtice à la valeur de Conſtance quand il lui offroit l'hommage d'une vive tendreſſe.</p>
-        <p>La reconnoiſſance des Habitans envers Mlle de Cézelli, &amp; lui, va lui ôter, pour quelques
-          momens, la liberté de ſe connoître, &amp; de ſe convaincre de la nature de ſes ſentiments.</p>
-        <p>Le bruit s'étant répandu que c'étoit à l'exemple de Conſtance que pluſieurs filles du peuple,
+          croyoit rendre juſtice à la valeur de Conſtance quand il lui offroit l'hommage d'une vive tendreſſe.
+    </p>
+    <p>
+     La reconnoiſſance des Habitans envers Mlle de Cézelli, &amp; lui, va lui ôter, pour quelques
+          momens, la liberté de ſe connoître, &amp; de ſe convaincre de la nature de ſes ſentiments.
+    </p>
+    <p>
+     Le bruit s'étant répandu que c'étoit à l'exemple de Conſtance que pluſieurs filles du peuple,
           &amp; d'un ordre ſupérieur, oubliant la foibleſſe de leur ſexe, avoient vôlé à la défenſe des
           remparts; que Conſtance avoit beaucoup contribué à en chaſſer les ennemis, à les pourſuivre loin des
           murs, &amp; à les détruire entiérement. De plus on ſçavoit que du Barri avoit une grande part à
@@ -400,8 +549,10 @@
           Mouſqueterie, à la maiſon de Monſieur de Cézelli. On adreſſa à ſa fille, &amp; à leur jeune hôte,
           les complimens, &amp; les éloges les plus flateurs; on les invita a ſe mettre à la tête de la
           Bourgeoiſie juſqu'à l'Egliſe dans laquelle en alloit rendre grace au Ciel de la protection qu'il
-          avoit accordée aux armes de la Ville.</p>
-        <p>Conſtance embraſſe ſon Pere qui ſuccomboit à ſa joie; dans ce moment le Conſul poſe ſur ſa tête
+          avoit accordée aux armes de la Ville.
+    </p>
+    <p>
+     Conſtance embraſſe ſon Pere qui ſuccomboit à ſa joie; dans ce moment le Conſul poſe ſur ſa tête
           une Couronne de Laurlers, &amp; on prend le chemin de l'Egliſe. Le Peuple appelle, à grand cris,
           Conſtance, ſa libératrice. Le nom de du Barri eſt ſouvent mêlé dans ces acclamations flateuſes à
           celui de Mlle Cézelli; heureux préſages des liens qui uniront bientôt leurs cœurs. Un repas
@@ -409,14 +560,20 @@
           Monſieur de Cézelli qu'on y avoit tranſporté dans un fauteuil à bras. La fête fut terminée par des
           obſéques honorables, &amp; des éloges funébres de ceux qui avoient péri à la défenſe de la Place,
           &amp; par une Collecte en faveur des Habitans bleſſés qui étoient d'une fortune au-deſſous de la
-          médiocre.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE IV.</head>
-        <p>
-          <hi rend="italic">Amours de Du Barri pour Conſtance. Caractere de celle-ci. Le Patriotiſme de ſon Pere, &amp; le ſien.</hi>
-        </p>
-        <p>Du Barri fut moins touché de la part qu'il avoit eu à ces honneurs, que de celle que Conſtance y
+          médiocre.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE IV.
+    </head>
+    <p>
+     <hi rend="italic">
+      Amours de Du Barri pour Conſtance. Caractere de celle-ci. Le Patriotiſme de ſon Pere, &amp; le ſien.
+     </hi>
+    </p>
+    <p>
+     Du Barri fut moins touché de la part qu'il avoit eu à ces honneurs, que de celle que Conſtance y
           avoit méritée; il eût voulu qu'elle eût été le ſeul objet de la fête. Que ne lui fut-il poſſible
           d'attribuer à elle ſeule tout l'honneur de la défaite des Ennemis! Si ſes diſcours n'en perſuaderent
           pas l'aſſemblée, il eut du moins la ſatisfaction de la remettre ſouvent ſur les louanges de Mlle de
@@ -431,8 +588,10 @@
           croire qu'une âme ſi grande, ſi héroïque, permît quelqu'accès à la tendreſſe? Ne regardoitelle pas
           ce penchant comme une foibleſſe indigne d'elle? Il avoit vu dans ſes yeux une vive reconnoiſſance,
           des marques d'eſtime; mais inſenſible au feu qui animoit les ſiens, avoit-elle paru un inſtant
-          comprendre leur langage?</p>
-        <p>C'eſt ainſi que l'amour véritable eſt accompagné d'inquiétude &amp; de craintes. C'eſt ainſi que
+          comprendre leur langage?
+    </p>
+    <p>
+     C'eſt ainſi que l'amour véritable eſt accompagné d'inquiétude &amp; de craintes. C'eſt ainſi que
           du Barri à peine Amant ſe réputoit malheureux. Le jour le ſurprit dans ces triſtes réflexions. Ce
           tems n'étoit pas encore venu où la jeuneſſe préſomptueuſe, &amp; pleine de confiance, ne devoit
           point croire de Beautés inſenſibles à ſon mérite, &amp; à ſes attaques. Du Barri ne penſoit pas
@@ -444,8 +603,10 @@
           avec une ſorte de plaiſir Monſieur de Cézelli, l'inviter à le venir voir ſouvent, l'impreſſion de
           cette preuve d'amitié céda bientôt au regret de quitter un ſéjour où il avoit reçu, pour ainſi dire,
           des mains de Conſtance, le prix de ſon zèle. Il part en proie à ſon impatience &amp; à ſes
-          réflexions. Faiſons connoître plus particuliérement Mlle de Cézelli au Lecteur.</p>
-        <p>Elle n'avoit pas encore dix-huit ans; une taille bien priſe, le teint du plus grand éclat, un air
+          réflexions. Faiſons connoître plus particuliérement Mlle de Cézelli au Lecteur.
+    </p>
+    <p>
+     Elle n'avoit pas encore dix-huit ans; une taille bien priſe, le teint du plus grand éclat, un air
           intéreſſant, la beauté de ſes yeux, la nobleſſe de ſon front, ſon regard doux &amp; animé
           annonçoiént moins ce qu'on appelle communément de l'eſprit, qu'une douceur de caractere, que cette
           ſorte d'humanité qui s'attendrit ſur le ſort des malheureux. Elle étoit belle, mais de cette beauté,
@@ -453,23 +614,31 @@
           ſon port étoit noble &amp; dégagé, ſans étude, ſans contrainte; ſon ſourire attrayant ſembloit ne
           reſpirer que le deſir d'obliger: en un mot, ſi on eût pu ne conſidérer que ſa ſeule Perſonne, on
           l'eût priſe pour un ouvrage accompli de la Nature, ſi on n'eût vu que ſon âme, elle eût paſſé pour
-          l'aſſemblage des plus beaux dons de l'Intelligence ſuprême.</p>
-        <p>Son Pere, qui lui-même avoit veillé à ſon éducation, avoit nourri, &amp; fortifié en elle ces
+          l'aſſemblage des plus beaux dons de l'Intelligence ſuprême.
+    </p>
+    <p>
+     Son Pere, qui lui-même avoit veillé à ſon éducation, avoit nourri, &amp; fortifié en elle ces
           graces naïves &amp; piquantes qui diſtinguent ſon ſexe, &amp; le rendent les délices d'une ſociété
-          choiſie.</p>
-        <p>Les troubles qui agitoient ſa Province, &amp; tout le Royaume ne contribuerent pas peuà lui faire
+          choiſie.
+    </p>
+    <p>
+     Les troubles qui agitoient ſa Province, &amp; tout le Royaume ne contribuerent pas peuà lui faire
           une habitude de la réflexion &amp; du raiſonnement. Le bruit continuel des armes, les ravages, les
           dévaſtations, le pillage, les incendies; ſuites ordinaires des guerres civiles, firent des
           impreſſions profondes ſur ce jeune cœur: Son Pere, Royaliſte juſqu'à l'enthouſiaſme, lui expliqua
           avec ſoin les droits imperturbables du Souverain ſur ſes Sujets, &amp; les devoirs des Sujets envers
           leur Souverain. Il l'embrâſa de ce zèle ardent pour ſon Prince &amp; pour l'Etat dont il étoit
-          dévoré lui-même.</p>
-        <p>Imbue de ces principes ſolides, Conſtance, dans un corps charmant, montra une ame dévouée au Roi
+          dévoré lui-même.
+    </p>
+    <p>
+     Imbue de ces principes ſolides, Conſtance, dans un corps charmant, montra une ame dévouée au Roi
           &amp; à la Patrie pour eux-mêmes, &amp; une ardeur de courage qui alla juſqu'à l'intrépidité. Elle
           en donnera bientôt des preuves. Mais ces vertus tenoient de cette modération, de cette clémence qui
           faiſoient le fonds de ſon caractere. Son attachement pour l'Etat ne la porra jamais à ces violences
-          criantes, à ces excès qui ont terni la mémoire de plus d'un Grand homme.</p>
-        <p>Aux attraits ſéduiſans de ſa figure relevée encore par un habit d'amazône qu'elle avoit pris pour
+          criantes, à ces excès qui ont terni la mémoire de plus d'un Grand homme.
+    </p>
+    <p>
+     Aux attraits ſéduiſans de ſa figure relevée encore par un habit d'amazône qu'elle avoit pris pour
           combattre, eſt - il étonnant que du Barri ait ſenti les premiéres étincelles de l'amour, &amp; que
           tant de dons réunis l'aient en un moment ſoumis à leur empire? Sa paſſion augmentoit à meſure qu'il
           connoiſſoit plus Conſtance. Dans tous les objets qui s'offroient à ſa vue, il ne voyoit qu'elle.
@@ -479,19 +648,27 @@
           d'elle, bien réſolu de lui découvrir le fond de ſon cœur, &amp; d'apprendre du ſien ce qu'il avoit à
           craindre ou à eſpérer. C'étoit, ſe diſoit-il à luimême, mourir de mille ſupplices que de flotter
           dans une ſi longue incertitude de ſon ſort. Cependant quelque occaſion qu'il en eut, il n'oſa jamais
-          s'expliquer devant Mlle de Cézelli. Il s'en retourna ſans aucun éclairciſſement.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE V.</head>
-        <p>
-          <hi rend="italic">Mariage de ou Barri avec Conſtance, nouvelle preuve de ſon Patriotiſme.</hi>
-        </p>
-        <p>Il ne tarda pas d'imaginer un prétexte qui le ramena à la Ville. Conſtance le reçut avec une
+          s'expliquer devant Mlle de Cézelli. Il s'en retourna ſans aucun éclairciſſement.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE V.
+    </head>
+    <p>
+     <hi rend="italic">
+      Mariage de ou Barri avec Conſtance, nouvelle preuve de ſon Patriotiſme.
+     </hi>
+    </p>
+    <p>
+     Il ne tarda pas d'imaginer un prétexte qui le ramena à la Ville. Conſtance le reçut avec une
           certaine politeſſe mêlée d'embarras, qui l'interdit au point qu'il ſe fût encore retiré ſans
           annoncer le motif de ſes viſites; mais ſe défiant de ſoi-même, il avoit tracé ſes ſentimens ſur le
           papier. Il mit ce billet ſur le lit de Monſieur de Cézelli, dans un moment où il put le lire en
-          liberté. Le Vieillard l'apperçut, ſe douta de l'artifice, &amp; lut avec précipitation.</p>
-        <p>Un moment après, du Barri rentra dans ſa chambre, il l'aborde en tremblant, Cézelli ſourit, &amp;
+          liberté. Le Vieillard l'apperçut, ſe douta de l'artifice, &amp; lut avec précipitation.
+    </p>
+    <p>
+     Un moment après, du Barri rentra dans ſa chambre, il l'aborde en tremblant, Cézelli ſourit, &amp;
           lui parla ainſi“ Je n'aurois pas cru, Monſieur, “qu'un Chevalier courageux &amp; intrépide comme
           vous, eût tant de timidité pour déclarer qu'il aime. Raſurezvous, j'ai connu votre cœur “peut-être
           avant vous. Si j'euſſe déſaprouvé vos ſentimens, je vous aurois moins preſſé de m'accorder votre
@@ -505,39 +682,49 @@
           “un autre. La rougeur qui lui eſt montée au viſage chaque fois que je lui “ai parlé de vous depuis
           ce moment, “m'a preſque confirmé dans cette “idée; ainſi allez vous promener une “heure dans la
           Ville, je ſonderai le “cœur de ma fille, &amp; il ne dépendra “pas de moi qu'elle ne réponde à vos
-          “ſentimens.„</p>
-        <p>Ces lueurs d'eſpérance, je ne ſçai quel mouvement d'amour propre inſpirerent plus de confiance à
+          “ſentimens.„
+    </p>
+    <p>
+     Ces lueurs d'eſpérance, je ne ſçai quel mouvement d'amour propre inſpirerent plus de confiance à
           du Barri, il ſortit. Conſtance fut appellée; inſtruite de ſes deſſeins, elle avoua avec cette
           franchiſe, qui eſt le partage d'une ame élevée, que depuis qu'elle avoit vû du Barri dans le combat,
           elle éprouvoit des ſenſations qui lui avoient été juſqu'alors inconnues; qu'elle ne s'étoit pas
           long-tems diſſimulée à elle - même, que c'étoit l'effet d'un tendre penchant; qu'elle avoit
           fermement réſolu d'être unie à ce jeune Officier, ou de ne l'être à nul autre; &amp; que, ſi elle
           avoit, dans quelques entretiens dont il pourroit ſe reſſouvenir, témoigné un grand éloignement pour
-          le mariage, c'eſt qu'elle craignoit qu'il n'eût des vues ſur quelqu'autre jeune homme.</p>
-        <p>Monſieur de Cézelli ſourit à cette réponſe naïve, &amp; s'occupa juſques au retour de du Barri à
+          le mariage, c'eſt qu'elle craignoit qu'il n'eût des vues ſur quelqu'autre jeune homme.
+    </p>
+    <p>
+     Monſieur de Cézelli ſourit à cette réponſe naïve, &amp; s'occupa juſques au retour de du Barri à
           donner à ſa fille les conſeils que ſa ſageſſe lui dicta pour un engagement tel que celui qu'elle
           alloit former. Du Barri, impatient de ſçavoir le ſort qu'elle deſtinoit à ſes vœux, rentra bientôt.
           En l'apperçevant, Monſieur de Cézelli lui tendit les bras, &amp; lui communiqua les ſentimens de
           Conſtance auſſi ingénuement qu'elle les lui avoit confiés à lui-même. Il tombe aux genoux de ſa
           Maîtreſſe, &amp; ne peut lui marquer ſa reconnoiſſance que par ſes ſoupirs, &amp; qu'en preſſant une
-          de ſes mains ſur ſa bouche.</p>
-        <p>Après les tranſports que la certitude d'être aimés inſpira à ces jeunes cœurs, où néanmoins
+          de ſes mains ſur ſa bouche.
+    </p>
+    <p>
+     Après les tranſports que la certitude d'être aimés inſpira à ces jeunes cœurs, où néanmoins
           Conſtance mit un peu plus de retenue, on régla tout ce qui avoit rapport à la célébration du
           mariage. La ſituation de Monſieur de Cézelli, les malheurs qui accabloient la Province, empêcherent
           de faire cette cérémonie avec un certain éclat; mais ces circonſtances mêmes déterminerent la le
           retarder au-delà de quinze jours. Je gliſſe legérement ſur l'impatience avec laquelle du Barri
           attendit cet heureux moment, &amp; ſur les diſcours paſſionnés qu'il tint dans cet intervalle à ſon
           aimable Conſtance. Les événemens qui ſuivent leur mariage ſont trop intéreſſans pour ne pas me hâter
-          de les mettre ſous les yeux du Lecteur.</p>
-        <p>A peine ces Epoux jouiſſoient des plaiſirs qui ſont le prix d'une tendreſſe mutuelle, &amp; de la
+          de les mettre ſous les yeux du Lecteur.
+    </p>
+    <p>
+     A peine ces Epoux jouiſſoient des plaiſirs qui ſont le prix d'une tendreſſe mutuelle, &amp; de la
           ſatisfaction qu'une poſſeſſion chere &amp; certaine ne manque pas d'inſpirer, que le bruit ſe
           répandit que le Roi de Navarre, à la tête d'un corps de troupes, avoit pénétré dans le Querci, &amp;
           méditoit quelqu'entrepriſe d'éclat. Du Barri veut monter à cheval, ramaſſér ce qu'il pourra de
           ſoldats &amp; de Nobleſſe, &amp; tenter de s'oppoſer à ſa marche &amp; à ſes progrès; Conſtance lui
           déclare qu'il lui ſeroit honteux de n'être ſa compagne que dans les ſoins, &amp; les loiſirs
           domeſtiques.“ Cher Epoux “ ajoute-t'elle“ mon ſort eſt uni au vôtre “pour partager vos dangers comme
-          “votre bonheur; rien ne pourra me “détourner de la réſolution de mourir ou de vaincre avec vous.„</p>
-        <p>Pendant ce peu de mots, Monſieur de Cézelli fondoit en larmes. „Quoi! “Conſtance, s'écrie-t-il,
+          “votre bonheur; rien ne pourra me “détourner de la réſolution de mourir ou de vaincre avec vous.„
+    </p>
+    <p>
+     Pendant ce peu de mots, Monſieur de Cézelli fondoit en larmes. „Quoi! “Conſtance, s'écrie-t-il,
           tu m'abandonnerois ſur ce lit de douleur, &amp; “aux maux qui me conſument? Son gestu que tu ne peux
           t'éloigner ſans “me mettre au tombeau. L'honneur “appelle ton Epoux, il m'a parlé comme à lui. Mais
           le devoir exige de toi “que tu me conſoles dans les peines “que j'endure; que tu veilles à ce “reſte
@@ -553,21 +740,29 @@
           vaine audace? Ah! Conſtance, ta véritable gloire eſt de remplir tes devoirs auprès de l'auteur “de
           tes jours, d'un Pere qui ne “ſupporte les maux cruels qui le “déchirent, que parce qu'il trouve “de
           la conſolation dans le tendre “intérêt que tu y prends, que parce “qu'il s'il eſt expoſé pour ton
-          propre ſalut.</p>
-        <p>Du Barri joignit ſes repréſentations à celles de Monſieur de Cézelli, Conſtance les combattit
+          propre ſalut.
+    </p>
+    <p>
+     Du Barri joignit ſes repréſentations à celles de Monſieur de Cézelli, Conſtance les combattit
           avec toute la force du raiſonnement, dont ſon ardeur pour la gloire, &amp; ſon enthouſiaſme
           patriotique la rendoient capable. Mais la voix de la nature l'emporta enfin dans ſon cœur. Allez
           donc, cher “Epoux, reprit-elle d'un ton pénétré; allez ſans moi à l'ennemi. Puiſſiez-vous en
           triompher avec un éclat “proportionné aux ſacrifices que je “fais à mon Pere! Puiſſe le Ciel vous
-          “protéger, ſelon la juſtice de la cauſe “que vous défendez!</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE VI.</head>
-        <p>
-          <hi rend="italic">Du Barri ſe ſignale à la priſe de Cahors. Le Roi de avarre le rencontre par -
-            tout. Il eſt bleſſé &amp; fait priſonnier.</hi>
-        </p>
-        <p>Du Barri partit avec quelques gentilshommes de la ville &amp; des environs. Par des nouveaux
+          “protéger, ſelon la juſtice de la cauſe “que vous défendez!
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VI.
+    </head>
+    <p>
+     <hi rend="italic">
+      Du Barri ſe ſignale à la priſe de Cahors. Le Roi de avarre le rencontre par -
+            tout. Il eſt bleſſé &amp; fait priſonnier.
+     </hi>
+    </p>
+    <p>
+     Du Barri partit avec quelques gentilshommes de la ville &amp; des environs. Par des nouveaux
           avis, ils ſçurent en chemin que le Roi de Navarre étoit entré par ſurpriſe dans Cahors; que depuis
           un jour les habitans s'y défendoient de poſte en poſte avec une valeur incroyable, mais qu'il n'y
           avoit pas d'apparence qu'ils arrivaſſent à tems pour la ſecourir. A cette fâcheuſe nouvelle, ils
@@ -580,16 +775,20 @@
           diſtribua dans ces greniers les femmes, les vieillards, &amp; les enfans hors d'état de porter les
           armes. Il n'oublia pas d'exagérer aux citoyens le ſecours qui leur étoit venu, d'exciter leur
           courage par de courtes harangues, &amp; de preſcrire le plus grand ordre dans les opérations que
-          l'état des choſes exigeoit.</p>
-        <p>Après des meſures ſi propres à lui gagner la confiance, il raſſembla les principaux des Officiers
+          l'état des choſes exigeoit.
+    </p>
+    <p>
+     Après des meſures ſi propres à lui gagner la confiance, il raſſembla les principaux des Officiers
           &amp; des Citoyens, releva par des juſtes louanges, leur belle &amp; opiniâtre défenſe, &amp; leur
           déclara que le ſalut de leur ville dépendoit d'une attaque vigoureuſe &amp; imprévue des principaux
           poſtes occupés par les ennemis. „Fatigués d'un combat “de deux jours, ils ſe repoſent “maintenant
           dans l'idée que vous “n'êtes pas moins épuiſés qu'eux; “c'eſt ce que nous aſſurent leur “ſilence
           &amp; leur inaction: vers minuit, ils ſcront encore plus profondément enſevelis dans le ſommeil; ce
           ſera le tems favorable “de fondre ſur eux, de profiter de “leur confuſion, de les paſſer au “fil de
-          l'épée &amp; de les chaſſer de “vos murs.“</p>
-        <p>Ce projet fut approuvé de la plûpart des Officiers. Mais quelques Citoyens objecterent à du Barri
+          l'épée &amp; de les chaſſer de “vos murs.“
+    </p>
+    <p>
+     Ce projet fut approuvé de la plûpart des Officiers. Mais quelques Citoyens objecterent à du Barri
           qu'il ſeroit difficile d'engager des gens accablés de fatigue, &amp; découragés par le mauvais
           ſuccès de la nuit précédente, (car c'étoit pendant cette nuit que les aſſiégeans s'étoient établis
           dans la partie qu'ils occupoient;) qu'il ſeroit difficile, dis-je, de les porter à combattre une
@@ -603,15 +802,19 @@
           tirer Soldats &amp; Habitans qui lui montreroient de la réſolution, de les raſſembler dans les lieux
           les plus convenables, &amp; de leur ordonner de ſe tenir prêts à marcher au premier ſignal. Il en
           compoſa un petit corps d'environ ſix cents hommes. En attendant le moment fixé, on s'occupa à régler
-          tout ce qui pouvoit concourir au ſuccès de l'entrepriſe.</p>
-        <p>A minuit on ſe dirigea ſur l'Evêché &amp; le Séminaire, deux poſtes qui ſervoient de Place
+          tout ce qui pouvoit concourir au ſuccès de l'entrepriſe.
+    </p>
+    <p>
+     A minuit on ſe dirigea ſur l'Evêché &amp; le Séminaire, deux poſtes qui ſervoient de Place
           d'armes &amp; de point de ralliement aux ennemis. On y marcha avec tant de ſecret que les
           Sentinelles furent égorgées; &amp; les Portes enfoncées, avant que l'ennemi apperçût qu'il étoit
           attaqué. Ainſi ces poſtes furent repris ans preſque aucune perte. On y fit beaucoup de Priſonniers,
           qu'on garrotta &amp; enchaîna faute d'un endroit ſûr, où on pût les garder. Après avoir laiſſé cent
           hommes au Séminaire, &amp; autant à l'Evêché, le reſte alla fierement inſulter pluſieurs pelotons
-          des Aſſiégeans.</p>
-        <p>Mais le Prince inſtruit de ces avantages, travailla avec une ardeur incroyable à en arrêter les
+          des Aſſiégeans.
+    </p>
+    <p>
+     Mais le Prince inſtruit de ces avantages, travailla avec une ardeur incroyable à en arrêter les
           ſuites, &amp; à réparer ſes pertes. Les aſſiégés furent donc reçus avec beaucoup d'intrépidité. Les
           ſuccès qu'ils venoient d'avoir leur enfloient le cœur. Ils combattirent en déterminés, &amp;
           ſoutinrent long-tems l'impétuoſité des ennemis, avec un égal avantage. Le Prince ſe portoit ſans
@@ -619,8 +822,10 @@
           lui, &amp; de cauſer du déſordre parmi ceux qui combattoient à ſes côtés. Henri étonné de le
           rencontrer à chaque pas, lui cria enfin en s'avançant à lui: “Ventre ſingri, Chevalier, eſt„ce à moi
           que vous en voulez? Ne „me ménagez pas: je ne ſuis qu'un “Soldat comme vous... Sire, vous
-          “m'apprenez à faire mon devoir; „mourir pour mon Roi, eſt tout “ce que je veux.“</p>
-        <p>A ces mots, il ſe lance dans la mêlée, ſe fait jour juſques à un Drapeau, l'enleve, &amp; revient
+          “m'apprenez à faire mon devoir; „mourir pour mon Roi, eſt tout “ce que je veux.“
+    </p>
+    <p>
+     A ces mots, il ſe lance dans la mêlée, ſe fait jour juſques à un Drapeau, l'enleve, &amp; revient
           aux ſiens avec ce glorieux trophée. Le Prince qui embraſſoit tout d'un coup d'œil, vit bientôt que
           rien ne remuoit dans les autres quartiers de la Ville. En Capitaine habile, il y fit faire de
           fauſſes attaques. Cette diverſion diviſa les forces des Royaliſtes. Les Habitans qui combattoient
@@ -644,31 +849,45 @@
           repouſſée; elle l'abandonne, &amp; couvert de ſang, &amp; de pluſieurs bleſſures aſſez légeres, il
           eſt fait priſonnier, ſous les yeux de Henri. Ce Prince crie: „qu'on ménage ce Chevalier, qu'on
           “panſe ſes bleſſures, ventre-ſingri! “j'aimerois mieux gagner un Officier comme lui, qu'une Ville:
-          “qu'on me le repréſente quand “celle-ci ſera ſoumiſe.“</p>
-        <p>Elle tint encore pendant deux jours
-          <ref target="#N06"/>, mais ce ne fut que pour combler ſes malheurs, par une plus grande perte de ſes
+          “qu'on me le repréſente quand “celle-ci ſera ſoumiſe.“
+    </p>
+    <p>
+     Elle tint encore pendant deux jours
+     <ref target="#N06"/>
+     , mais ce ne fut que pour combler ſes malheurs, par une plus grande perte de ſes
             Habitans: les progrès du Prince releverent autant le courage des ſiens, qu'ils abbatirent celui des
             Aſſiégés. Henri les pouſſa de barricades en barricades, &amp; de rue en rue, avec moins de
             réſiſtance. Il crioit ſans ceſſe à ceuxci: rendez-vous; &amp; aux ſiens: épargnez leur ſang, ils
             ſont François comme nous. Mots ſublimes! &amp; qui caractériſent ſi bien la généroſité, la bonté
-            d'ame de ce grand Prince!</p>
-        <p>C'eſt ainſi que Louis XV, ce digne héritier de l'ame de Henri, &amp; de ſon Trône, rendit la
+            d'ame de ce grand Prince!
+    </p>
+    <p>
+     C'eſt ainſi que Louis XV, ce digne héritier de l'ame de Henri, &amp; de ſon Trône, rendit la
           journée de Laufeld célebre par le diſcours qu'il tint au Général Ligonier, qu'on lui amena
           priſonnier:
-          <hi rend="italic">„Ne vaudroit - il “pas mieux, lui dit-il, ſonger ſérieuſêment à la paix, que de
-            faire “périr tant de braves gens?“</hi>
-        </p>
-        <p>La Ville enfin ſoumiſe, Henri donna les ordres les plus ſéveres, pour défendre le pillage &amp;
+     <hi rend="italic">
+      „Ne vaudroit - il “pas mieux, lui dit-il, ſonger ſérieuſêment à la paix, que de
+            faire “périr tant de braves gens?“
+     </hi>
+    </p>
+    <p>
+     La Ville enfin ſoumiſe, Henri donna les ordres les plus ſéveres, pour défendre le pillage &amp;
           toute eſpece de violence; enſorte qu'au bout de quelques heures, la tranquillité fut rétablie, &amp;
-          que chacun fut auſſi libre, auſſi aſſuré chez ſoi qu'auparavant.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE VII.</head>
-        <p>
-          <hi rend="italic">Le Roi de avarre rend la liberté aux Priſonniers de marque, veut intimider du
-            Barri, fait ſon éloge, le renvoye, lui donne ſon Cheval &amp; ſon Epée.</hi>
-        </p>
-        <p>Après ce premier ſoin qu'exigeoit l'intérêt &amp; le bonheur de ſa conquête, Henri ſe fit amener
+          que chacun fut auſſi libre, auſſi aſſuré chez ſoi qu'auparavant.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Le Roi de avarre rend la liberté aux Priſonniers de marque, veut intimider du
+            Barri, fait ſon éloge, le renvoye, lui donne ſon Cheval &amp; ſon Epée.
+     </hi>
+    </p>
+    <p>
+     Après ce premier ſoin qu'exigeoit l'intérêt &amp; le bonheur de ſa conquête, Henri ſe fit amener
           les Priſonniers de marque. Il déplora en leur préſence la néceſſité où les ennemis du Roi &amp; de
           l'Etat le réduiſoient de ſoutenir un parti opprimé, les armes à la main; loua le zele &amp; la
           valeur de ces Officiers, donna des juſtes regrets à ceux qui étoient morts, voulut qu'on ſoignât les
@@ -686,8 +905,10 @@
           craignez-vous point ma “colere? .... Non, Prince, &amp; je “voudrois l'avoir méritée par la “défaite
           entière de vos Troupes.... “J'eſtime votre valeur, recevez „mon Cheval de bataille &amp; cette
           “Epée; l'un vous reconduira chez “vous, l'autre vous fera reſſouvenir que je ſçais m'en ſervir
-          auſſi; “voilà comme le Navarrois ſe venge d'un brave homme.“</p>
-        <p>Du Barri tombe aux pieds du Prince, &amp; lui marque, par ſon trouble, plus énergique que les
+          auſſi; “voilà comme le Navarrois ſe venge d'un brave homme.“
+    </p>
+    <p>
+     Du Barri tombe aux pieds du Prince, &amp; lui marque, par ſon trouble, plus énergique que les
           paroles, la vivacité des impreſſions &amp; des ſentimens dont il eſt pénétré. Henri le releve, le
           conduit en s'appuyant ſur ſon épaule dans une autre piece, &amp; l'engage, par les éloges &amp; les
           promeſſes les plus avantageuſes, à s'attacher à ſa perſonne &amp; à ſon parti: „Seigneur, répond du
@@ -720,28 +941,38 @@
           “favorable regard de votre Majeſté, “&amp; je ne deſire rien de plus au „monde..... „Continuez,
           Chevalier, je ne vous oublierai pas: ſi “j'étois plus riche, je récompenſerois mieux un ſi beau
           zelel „adieu, ſi les choſes changent, “venez me trouver; je tâcherai de “juſtifier la bonne opinion
-          que vous “avez de moi.“</p>
-        <p>Du Barri lui fit une inclination profonde, &amp; ſe retira. En ſortant, un Officier lui dit que
+          que vous “avez de moi.“
+    </p>
+    <p>
+     Du Barri lui fit une inclination profonde, &amp; ſe retira. En ſortant, un Officier lui dit que
           le Prince avoit ordonné une eſcorte pour lui &amp; pour tous les Royaliſtes, qui, n'étant pas de la
           Ville, deſircroient de s'en retourner. Cette nouvelle attention de la part de Henri, ne fit
           qu'accroître les ſentimens de reſpect, qu'il avoit depuis long-tems pour ce jeune Héros. On les
           accompagna en effet, juſqu'à ce qu'on s'imagina qu'il n'y avoit plus à craindre pour leurs
-          perſonnes.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE VIII.</head>
-        <p>
-          <hi rend="italic">Henri III nomme du Barri Gouverneur de Leucate; ſes ſervices dans ce poſte. Il met
-            la Frontiere de Rouſſillon à contribution.</hi>
-        </p>
-        <p>Si Barri avoit eu lieu de contempler de près les qualités héroïques, &amp; la clémence du
+          perſonnes.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VIII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Henri III nomme du Barri Gouverneur de Leucate; ſes ſervices dans ce poſte. Il met
+            la Frontiere de Rouſſillon à contribution.
+     </hi>
+    </p>
+    <p>
+     Si Barri avoit eu lieu de contempler de près les qualités héroïques, &amp; la clémence du
           vainqueur, il n'en déploroit pas moins la perte d'une Ville, qui ouvroit la Province de Languedoc
           aux Rebelles juſqu'à ſa Capitale. Si le parti du Roi avoit eu du deſſous dans cette rencontre, les
           prodiges de valeur, la réſiſtance opiniâtre qu'il avoit faite, lui laiſſoit la conſolation qu'il ne
           méritoit aucun reproche. Enfin, ſi Madame du Barri devoit apprendre la nouvelle de la priſe de
           Cahors, du moins il lui rapportoit les éloges dont le Roi de Navarre avoit honoré ſon courage &amp;
-          ſa conduite, &amp; les récompenſes qu'il avoit cru devoir lui accorder.</p>
-        <p>Ces conſidérations triſtes ou flateuſes, l'occuperent juſques chezlui. A ſon ſilence morne, à ſon
+          ſa conduite, &amp; les récompenſes qu'il avoit cru devoir lui accorder.
+    </p>
+    <p>
+     Ces conſidérations triſtes ou flateuſes, l'occuperent juſques chezlui. A ſon ſilence morne, à ſon
           air abbatu, Conſtance comprit ſans peine que les Royaliſtes avoient été vaincus. Leur malheur
           diminua la joie qu'elle avoit de voir ſon mari. Le Cheval, l'Epée, dont le Roi de Navarre avoit
           récompenſé ſon intrépidité, en étoient un témoignage bien flatteur. Conſtance fut ravie que ſon
@@ -756,8 +987,11 @@
           importans que lui rendoit ce brave ſerviteur, lui donna un Gouvernement dans la Province. Leucate,
           ville conſidérable alors, à ſix lieues de Narbonne, &amp; à pareille diſtance de Perpignan, étoit
           défendue par une bonne Citadelle
-          <ref target="#N07"/>.</p>
-        <p>C'étoit un poſte important, ſur les frontieres du Languedoc &amp; du Rouſſillon. Les Eſpagnols,
+     <ref target="#N07"/>
+     .
+    </p>
+    <p>
+     C'étoit un poſte important, ſur les frontieres du Languedoc &amp; du Rouſſillon. Les Eſpagnols,
           fauteurs des troubles, &amp; qui, comme je l'ai dit plus haut, ſoutenoient laLigue pour leurs
           intérêts propres, le regardoient avec raiſon comme une clef de la France. Henri III, pour le même
           motif, avoit à cœur de conſerver cette place: ainſi, il en donna le Gouvernement à du Barri, comme
@@ -770,8 +1004,10 @@
           ſurpris, ſi l'on fait attention que le nom de du Barri, connu dans la Province, y inſpiroit ſeul de
           la confiance; que tandis que toutes les Campagnes étoient dévaſtées &amp; pillées, celles qui
           étoient ſous la protection directe de Leucate, ne ſe reſſentoit preſque point de la Guerre; que le
-          Payſan enſemençoit ſes terres, dans la certitude d'en faire la récolte.</p>
-        <p>Tel fut le premier effet des ſorties, &amp; des patrouilles fréquentes ordonnées, &amp; ſouvent
+          Payſan enſemençoit ſes terres, dans la certitude d'en faire la récolte.
+    </p>
+    <p>
+     Tel fut le premier effet des ſorties, &amp; des patrouilles fréquentes ordonnées, &amp; ſouvent
           commandées par le gouverneur lui-même. Telle fut la terreur que ſa vigilance imprima, que l'ennemi
           n'oſa plus paroître dans l'étendue de ſon gouvernement. Barri n'ignoroit pas que la ſûreté dont on
           jouiſſoit autour de lui, inſpireroit une nonchalance, &amp; une ſécurité funeſte. Peu ſatisfait de
@@ -790,23 +1026,31 @@
           diſputoient, par intérêt, l'honneur d'en être. Ainſi non - ſeulement du Barri avoit mis le pays à
           couvert des incurſions des Ligueurs &amp; de leurs alliés; mais il avoit encore l'art de le faire
           ſubſiſter à leurs dépens. La fortune jalouſe de ces ſuccès fit bientôt ſuccéder, à la joie qu'en
-          reſſentoient nos époux, la douleur &amp; les regrets.</p>
-        <p>Monſieur de Cézelli, épuiſé par des infirmités contre leſquelles il luttoit depuis ltantd'années,
+          reſſentoient nos époux, la douleur &amp; les regrets.
+    </p>
+    <p>
+     Monſieur de Cézelli, épuiſé par des infirmités contre leſquelles il luttoit depuis ltantd'années,
           y ſuccomba enfin; ſes maux n'avoient point diminué les agrémens de ſon commerce, ni ralenti ſa
           tendreſſe pour ſes enfans. Ceux-ci furent dans une déſolation inexprimable de ſa mort. Preſque toute
           la ville n'y fût pas moins ſenſible. Monſieur de Cézelli jouiſſoit de l'eſtime générale; ce
           ſentiment ſi propre à le faire regretter davantage devint peu à peu un motif de conſolation pour
           Monſieur &amp; Madame du Barri. Il eſt ſi doux de voir la mémoire de nos proches honorée par nos
           concitoyens; cette ſeconde vie que leurs vertus leur ont procurée, dédommage en quelque ſorte leur
-          poſtérité de celle qu'ils ont perdue.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE IX.</head>
-        <p>
-          <hi rend="italic">Henri IV, parvenu à la Couronne, confire du Barri dans ſon Gouvernement. Leucate
-            aſſiégée; ſoins de du Barripour la défenfe de cette place.</hi>
-        </p>
-        <p>Tandis que, par ſon intelligence &amp; ſon intrépidité, Barri faiſoit reſpecter les armes de
+          poſtérité de celle qu'ils ont perdue.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE IX.
+    </head>
+    <p>
+     <hi rend="italic">
+      Henri IV, parvenu à la Couronne, confire du Barri dans ſon Gouvernement. Leucate
+            aſſiégée; ſoins de du Barripour la défenfe de cette place.
+     </hi>
+    </p>
+    <p>
+     Tandis que, par ſon intelligence &amp; ſon intrépidité, Barri faiſoit reſpecter les armes de
           Henri III, à une des extrémités du Royaume, ce Prince, au cœur de la France, au milieu de ſa Cour,
           environné d'ennemis, bravé, menacé de toutes parts par les chefs audacieux de la Ligue, avoit été
           contraint de ſe réconcilier avec le Roi de Navarre, &amp; d'implorer ſon ſecours. Henri, toujours
@@ -819,15 +1063,21 @@
           cœur gros de ſoupirs, il s'écrie „Les larmes ne le feront pas revivre. “Les vraies preuves
           d'affection, &amp; „de fidélité ſont de le venger. Pour “moi, j'y ſacrifierai ma vie: nous “ſommes
           tous François, &amp; il n'ya “rien qui nous diſtingue aux devoirs “que nous devons à notre Roi,
-          &amp; “au ſervice de notre Patrie.</p>
-        <p>A peine ce Prince eut-il été proclamé Roi de France par les troupes qu'il commandoit, &amp; par
+          &amp; “au ſervice de notre Patrie.
+    </p>
+    <p>
+     A peine ce Prince eut-il été proclamé Roi de France par les troupes qu'il commandoit, &amp; par
           le petit nombre des Seigneurs fidéles, qu'il fit écrire à du Barri qu'il étoit ſon Roi, qu'ils
           ſeroient amis déſormais, qu'il le confirmoit dans ſon gouvernement, juſqu'à ce qu'en poſſeſſion du
           Royaume ou de la plus grande partie, il lui fût poſſible de mieux récompenſer ſon courage &amp; ſa
-          fidélité.</p>
-        <p>Du Barri, au comble de ſa joie de voir ſes preſſentimens accomplis, répondit qu'il ne pouvoit que
-          ſacrifier ſa vie pour le nouveau Roi des François.</p>
-        <p>A peine cette nouvelle fut répandue dans la ville, qu'un événement non moins heureux pour du
+          fidélité.
+    </p>
+    <p>
+     Du Barri, au comble de ſa joie de voir ſes preſſentimens accomplis, répondit qu'il ne pouvoit que
+          ſacrifier ſa vie pour le nouveau Roi des François.
+    </p>
+    <p>
+     A peine cette nouvelle fut répandue dans la ville, qu'un événement non moins heureux pour du
           Barri, augmenta la joie publique. Depuis ſon mariage, il avoit deſiré en vain des fruits de ſon
           amour. Le Ciel touché de ſes ſoupirs, lui accorda enfin cette faveur ſi propre à reſſerrer les plus
           beaux nœuds. Le jour même qu'il reçut ſes proviſions, Conſtance donna le jour à un fils. Sa
@@ -841,27 +1091,37 @@
           ſes ſoupirs ſa vive tendreſſe &amp; ſes remercimens: „Chere compagne, “s'écrioit-il, après toi,
           voilà le “plus grand des bienfaits que le Ciel “m'ait accordé: nous recevons une “vie nouvelle....
           Nous nous aimerons encore davantage, répliquoit “Madame du Barri, cet enfant, “gage de ton amour,
-          ſera l'objet “de ta complaiſance, &amp; le garant “de notre commune felicité.“</p>
-        <p>Après ces douces effuſions de cœur, chacun retournoit à ſes devoirs. Car tel eſt l'effet d'une
+          ſera l'objet “de ta complaiſance, &amp; le garant “de notre commune felicité.“
+    </p>
+    <p>
+     Après ces douces effuſions de cœur, chacun retournoit à ſes devoirs. Car tel eſt l'effet d'une
           paſſion honnête, qu'elle n'eſt pleinement ſatisfaite que par notre exactitude à remplir tout ce que
           notre état nous impoſe d'obligations. Peut-on s'aimer véritablement, quand on a des reproches
           ſecrets à ſe faire? L'attachement mutuel de ces deux époux étoit une eſpece de flambeau qui les
           éclairoit dans les moindres détails confiés à leurs ſoins. Pendant les ſix mois qui ſuivirent la
           naiſſance de leurs fils, ſans incident fâcheux, dans une douce tranquillité, ils s'occupoient ainſi
           alternativement de ce qu'ils devoient à leur place, &amp; à euxmêmes. La plus furieuſe tempête
-          ſuccéda bientôt à ce calme profond.</p>
-        <p>Les Eſpagnols irrités des incurſions que le Gouverneur de Leucate avoit oſé faire dans un pays de
+          ſuccéda bientôt à ce calme profond.
+    </p>
+    <p>
+     Les Eſpagnols irrités des incurſions que le Gouverneur de Leucate avoit oſé faire dans un pays de
           leur domination, ſe joignirent aux Ligueurs répandus dans le Languedoc, &amp; cauſerent le dégat
           juſques ſous les murs de Leucate. Du Barri les repouſſa avec perte conſidérable des leurs; mais il
           comprit que leur deſſein étoit de faire le ſiége de Leucate. Il la munit de tout ce qui pouvoit lui
-          être néceſſaire; y fit entrer des forces ſuffiſantes, &amp; ſe prépara à un edéfen ſe opiniâtre.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE X.</head>
-        <p>
-          <hi rend="italic">Le Gouverneur eſt pris par les Ligueurs; ſa fermeté, celle de Conſtance: il eſt maſſacré.</hi>
-        </p>
-        <p>Les ennemis connoiſſoient trop ſon courage &amp; ſon activité, pour regarder Leucate comme une
+          être néceſſaire; y fit entrer des forces ſuffiſantes, &amp; ſe prépara à un edéfen ſe opiniâtre.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE X.
+    </head>
+    <p>
+     <hi rend="italic">
+      Le Gouverneur eſt pris par les Ligueurs; ſa fermeté, celle de Conſtance: il eſt maſſacré.
+     </hi>
+    </p>
+    <p>
+     Les ennemis connoiſſoient trop ſon courage &amp; ſon activité, pour regarder Leucate comme une
           conquête facile. Peu raſſurés par le nombre de leurs troupes, ils chercherent à joindre l'artifice à
           la force. Ils tenterent de corrompre la fidélité du Gouverneur &amp; de ſe procurer des
           intelligences dans la place qui puſſent les en défaire; mais il étoit trop affermi dans ſon devoir,
@@ -877,8 +1137,10 @@
           s'abouchât avec ce Général, ſoit qu'il ne connût perſonne autour de lui en état de s'ac quiter
           exactement de cette commiſſion; il n'écoute que ſon zèle, part, &amp; tombe malheureuſement entre
           les mains des Ligueurs. Ceux-ci marchent auſſi tôt avec les Eſpagnols ſur Leucate, l'inveſtiſſent
-          &amp; pouſſent les travaux du ſiége avec la derniere vigueur.</p>
-        <p>Conſtance informée du ſort de ſon mari, en avoit été conſternée, la douleur avoit ſuſpendu un
+          &amp; pouſſent les travaux du ſiége avec la derniere vigueur.
+    </p>
+    <p>
+     Conſtance informée du ſort de ſon mari, en avoit été conſternée, la douleur avoit ſuſpendu un
           moment dans l'ame de cette héroïne ſon intrépidité naturelle. Elle ne ſentoit que trop ce qu'elle
           avoit à redouter, pour une tête ſi chere, de la férocité des ennemis. Après avoir payé ce juſte
           tribut à la nature, le zèle patriotique, l'intérêt de l'état qui l'embraſoient, ſécherent peu-à-peu
@@ -919,12 +1181,16 @@
           tyrans, ils ne leur feront ſentir leur domination que pour les “rendre plus heureux; tels ſont “du
           moins les vœux que je fais “pour mes compatriotes &amp; pour “les vôtres. Telle eſt ma réponſe; vos
           menaces, ni leur effet, “ne m'en arracheront point d'autre; vous pouvez préparer vos “tortures...
-          Eſpagnol, bouillant “de colere, le fit charger de fers, “&amp; jetter dans un cachot.“</p>
-        <p>Le lendemain matin, les aſſiégeans envoyerent un trompêtte dans la ville; conduit chez Conſtance
+          Eſpagnol, bouillant “de colere, le fit charger de fers, “&amp; jetter dans un cachot.“
+    </p>
+    <p>
+     Le lendemain matin, les aſſiégeans envoyerent un trompêtte dans la ville; conduit chez Conſtance
           avec les précautions accoutumées, il lui déclara, de la part de ſes Généraux, qu'ils alloient faire
           mourir ſon mari dans les tourmens, ſi elle ne leur ouvroit les portes de la ville &amp; de la
-          citadelle.</p>
-        <p>Madame du Barri se fit violence pour ne point laiſſer appercevoir le déchirement que lui cauſoit
+          citadelle.
+    </p>
+    <p>
+     Madame du Barri se fit violence pour ne point laiſſer appercevoir le déchirement que lui cauſoit
           une pareille menace; elle répondit avec fermeté, que s'ils vouloient commettre un crime, elle ne
           croyoit pas devoir les arrêter par une lâcheté, &amp;qu'elle ne rachetera jamais la vie de ſon mari
           en livrant une fortereſſe pour la conſervation de laquelle il feroit gloire de mourir. Le trompette
@@ -935,8 +1201,10 @@
           ſeroit pas digne ni d'elle ni de moi, ſi elle “avoit la lâcheté de vous rendre “une Place que le Roi
           m'a confiée; “je remercie le Ciel de lui avoir “inſpiré le refus courageux dont “vous vous plaignez.
           Sûr qu'elle “s'enterrera ſous les ruines de Leucate, j'attends la mort ſans crainte; aſſouviſſez
-          votre rage, appellez vos bourreaux. Je ſurvivrai “à moi-même dans une chere “épouſe.</p>
-        <p>Les rebelles l'accablerent d'injures &amp; d'outrages, l'entraînerent ſur une éminence d'où il
+          votre rage, appellez vos bourreaux. Je ſurvivrai “à moi-même dans une chere “épouſe.
+    </p>
+    <p>
+     Les rebelles l'accablerent d'injures &amp; d'outrages, l'entraînerent ſur une éminence d'où il
           pouvoit être vu des aſſiégés, &amp; s'efforcent de l'émouvoir par tout ce que l'appareil des
           tourmens a de plus affreux. Ferme: il promene un regard tranquille ſur les inſtrumens, ſur les
           miniſtres de ſon ſupplice. Les barbares qui l'ordonnoient, déſeſpérant de vaincre ſon courage,
@@ -949,8 +1217,10 @@
           corps, quelques larmes coulent de ſes yeux, du Barri allarmé de ces premieres marques d'abbatement
           lui tend les bras &amp; s'écrie: „Chere Conſtance, tout “ce que tu vois eſt préparé pour “mon
           triomphe. Je vais recevoir “le digne prix de mon zele: ſois “ferme dans ton devoir, &amp; tout ce
-          “que la mort a de plus horrible “n'altérera pas la paix de mon ame.“</p>
-        <p>Ce peu de mots rendit à Conſtance toute ſa fermeté: „Non, reprend - elle, en s'adreſſant aux
+          “que la mort a de plus horrible “n'altérera pas la paix de mon ame.“
+    </p>
+    <p>
+     Ce peu de mots rendit à Conſtance toute ſa fermeté: „Non, reprend - elle, en s'adreſſant aux
           chefs des Rebelles,“ la mort de “mon mari ne me fera point changer de réſolution; il m'a inſpiré
           “ſon dévouement à la patrie; répandez, répandez mon ſang avec “le ſien; violer la trêve ne ſera “pas
           plus honteux pour vous, que “d'égorger un homme qui vous “force à l'eſtimer; ſi l'échange de “tous
@@ -962,8 +1232,10 @@
           “qui t'érige dans ſon cœur un trophée immortel! vois une épouſe “qui jure de verſer juſqu'à la
           derniere goutte de ſon ſang pour te “venger! vois dans tes bourreaux “mêmes les inſtrumens de la
           gloire! Embraſſons-nous pour la derniere fois; tu vivras toujours dans “le cœur de ton épouſe; tu
-          n'y auras “de rival que l'honneur“</p>
-        <p>A ces adieux déchirans, la plûpart des rebelles fondoient en larmes. Plus leurs chefs
+          n'y auras “de rival que l'honneur“
+    </p>
+    <p>
+     A ces adieux déchirans, la plûpart des rebelles fondoient en larmes. Plus leurs chefs
           remarquoient de grandeur d'ame dans ces époux, plus leur rage contre le Gouverneur s'envenimoit.
           Furieux de ſe voir bravés &amp; vaincus par un ſexe ſi foible, ſe flatant que la Viile tomberoit en
           leur pouvoir, dès qu'ils ſeroient délivrés de ſon généreux défenſeur, ils ſe déterminerent enfin à
@@ -978,23 +1250,31 @@
           “ton ſang: nous mourrions ſans “eſpoir d'être vengés; Leucate “tomberoit au pouvoir des rebelles: tu
           te dois à la Patrie plus “qu'à moi; ne m'envie point “la gloire de te le prouver, par “mon exemple;
           fuis... adieu... chere “Conſtance: tu reſtes à Leucate, “à mon fils; puiſſe cet enfant jouir “d'un
-          meilleur ſort:... adieu!“</p>
-        <p>Il fait ſigne à ceux qui avoient accompagné cette épouſe infortunée, de l'ôter de ſes bras,
+          meilleur ſort:... adieu!“
+    </p>
+    <p>
+     Il fait ſigne à ceux qui avoient accompagné cette épouſe infortunée, de l'ôter de ſes bras,
           baignés de larmes. Ceux-ci lançant ſur les rebelles des regards farouches &amp; menaçans,
           exécuterent l'ordre de leur Gouverneur; ils enlevent Conſtance: Barri la ſuit un moment des yeux, ſe
           tourne du côté des ennemis, &amp; provoque leur fureur d'un air tranquille &amp; aſſuré. Les
           Généraux donnent le fatal ſignal. Les miniſtres de leur barbarie ſe précipitent ſur lui, la hache à
           la main, &amp; il expire ſous leurs coups. Au bruit de cette ſanglante exécution, Conſtance,
           évanouie, ſembla ſe ranimer, tourna la tête, &amp; retomba ſans connoiſſance, &amp; preſque ſans
-          vie.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XI.</head>
-        <p>
-          <hi rend="italic">Conſtance obtient le Corps de du Barri. Les Aſſiégés veulent maſſacrer par
-            repreſailles les Priſonniers. Généroſité de Conſtance; elle leur rend la liberté.</hi>
-        </p>
-        <p>A PEINe l'eut on rentrée dans la Ville, que les Habitans s'arrachent les cheveux, &amp;
+          vie.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XI.
+    </head>
+    <p>
+     <hi rend="italic">
+      Conſtance obtient le Corps de du Barri. Les Aſſiégés veulent maſſacrer par
+            repreſailles les Priſonniers. Généroſité de Conſtance; elle leur rend la liberté.
+     </hi>
+    </p>
+    <p>
+     A PEINe l'eut on rentrée dans la Ville, que les Habitans s'arrachent les cheveux, &amp;
           rempliſſent l'air de cris lugubres &amp; d'exécration contre les ennemis, l'entourent, &amp; lui
           jurent de verſer leur ſang pour venger la mort de leur Gouverneur. Au mot de vengeance, Conſtance
           entr'ouvre une paupiere mourante, &amp; pouſſe un profond ſoupir. On lui donne tous les ſecours que
@@ -1010,13 +1290,17 @@
           déſolation, que la vue de ce corps enſanglanté, excita dans toute la Ville. L'eſtime, la réputation
           que le Gouverneur s'étoit acquiſe, les feront préſumer ſans peine au lecteur. Je me contenterai de
           dire que le deuil fut général, que le moindre des Habitans fondoit en larmes à ſes obſéques, &amp;
-          que ſon tombeau fut long-tems l'objet d'une ſorte de vénération &amp; de regrets publics.</p>
-        <p>J'ai déja fait entendre que Conſtance ne ſe livra pas tellement à ſa douleur, qu'elle oubliât les
+          que ſon tombeau fut long-tems l'objet d'une ſorte de vénération &amp; de regrets publics.
+    </p>
+    <p>
+     J'ai déja fait entendre que Conſtance ne ſe livra pas tellement à ſa douleur, qu'elle oubliât les
           ſoins qu'elle devoit à la conſervation de la place. Elle veilla en effet à ce que les ennemis ne
           puſſent tirer aucun avantage de l'eſpece de déſordre qu'un événement ſi tragique avoit jetté parmi
           les Habitans. Elle en viſita, dès le même jour, les fortifications, renforça les CorpsdeGardes,
-          &amp; pourvût à tout avec autant d'activité que de préſence d'eſprit.</p>
-        <p>Elle s'occupoit ainſi de la ſûreté d'une Place que le coup le plus cruel venoit d'abandonner à
+          &amp; pourvût à tout avec autant d'activité que de préſence d'eſprit.
+    </p>
+    <p>
+     Elle s'occupoit ainſi de la ſûreté d'une Place que le coup le plus cruel venoit d'abandonner à
           ſes ſoins, &amp; que l'intérêt de ſa vengeance, ainſi que le vœu unanime de ſa garniſon &amp; de ſes
           habitans, l'engagoit de plus en plus à défendre. Une foule de peuple s'étoit aſſemblée autour
           d'elle, la ſuivoit, tantôt dans un morne ſilence, tantôt en frappant l'air des cris de ſa douleur,
@@ -1062,8 +1346,10 @@
           n'imitez point “leur barbarie; ne partagez point “leur honte &amp; leurs remords; attaquons-les avec
           cette ſupériorité “que nous donne ſur eux la juſtice “de notre cauſe, &amp; que nous devons nous
           promettre de la nobleſſe des procédés. Le Ciel eſt pour “nous; cette Ville ſera à jamais, “pour les
-          rebelles, un objet de “déſeſpoir, comme elle eſt déja un “monument de leur cruauté.“</p>
-        <p>Les Habitans, pénétrés d'admiration pour Conſtance, célébrent ſa grandeur d'ame par mille
+          rebelles, un objet de “déſeſpoir, comme elle eſt déja un “monument de leur cruauté.“
+    </p>
+    <p>
+     Les Habitans, pénétrés d'admiration pour Conſtance, célébrent ſa grandeur d'ame par mille
           acclamations, mille promeſſes de verſer leur ſang pour ſes intérêts, &amp; de ſe laiſſer conduire
           par ſes conſeils &amp; par ſes ordres. Ils reconnoiſſent unanimement qu'une ardeur inconſidérée leur
           a ſuggéré un deſſein horrible, &amp; jurent à Conſtance, que l'obligation qu'ils lui ont de ne
@@ -1086,28 +1372,38 @@
           “m'y paroiſſent pas en ſûreté. Je “vous ai fait venir ici, pour vous “communiquer mes craintes,
           &amp; “vous dire que nos portes vous ſont “ouvertes. Vous pouvez donc retourner dès-à-préſent en
           votre “Camp, ou vous retirer ailleurs, “ſi vous le jugez à propos. Je vous “fournirai, ſi vous
-          prenez ce dernier parti, une eſcorte qui me “répondra de vous, &amp; de votre vie, “ſur la ſienne.“</p>
-        <p>Loupian confus d'une généroſité ſi héroïque, s'écrie: „Non, “Madame, je ne rejoindrai point “nos
+          prenez ce dernier parti, une eſcorte qui me “répondra de vous, &amp; de votre vie, “ſur la ſienne.“
+    </p>
+    <p>
+     Loupian confus d'une généroſité ſi héroïque, s'écrie: „Non, “Madame, je ne rejoindrai point “nos
           troupes; je ſerois indigne de “la grace que vous m'accordez, &amp; “du nom de François, ſi je
           reprenois les armes contre ma libératrice. J'irai déplorer dans la ſolitude, le plus long-tems que
           je “pourrai, le ſort de ma Patrie. “Je gémirai de ce que la religion ſainte, que nous ſoutenons
           contre des Peuples ſuperſtitieux, ne “nous inſpire que des violences &amp; “des meurtres, tandis que
           vous “nous donnez les plus grands exemples de courage &amp; d'humanité. “Je n'oublierai jamais,
           Madame, “que je vous dois la vie; que vous “pouviez me l'ôter avec un ombre “de juſtice, &amp; qu'en
-          m'accordant “ce rare bienfait, vous y avez “ajouté celui preſqu'auſſi eſtimable de la liberté.“</p>
-        <p>La converſation roula encore quelques momens ſur la nature des droits que chaque parti
+          m'accordant “ce rare bienfait, vous y avez “ajouté celui preſqu'auſſi eſtimable de la liberté.“
+    </p>
+    <p>
+     La converſation roula encore quelques momens ſur la nature des droits que chaque parti
           revendiquoit, &amp; ſur les motifs qui les armoient l'un contre l'autre. Le Ligueur étoit trop
           prévenu en faveur des Rebelles. La Gouvernante étoit trop attachée au ſervice du Roi, &amp; aux
           intérêts du Trône; ainſi, chacun perſiſta dans ſon opinion. Madame du Barri ſouhaita bien
           ſincerement que les Rebelles fuſſent enfin éclairés ſur leurs véritables devoirs, &amp; le
-          Gentilhomme prit congé d'elle, plein d'eſtime &amp; de reconnoiſſance pour une ame ſi héroïque.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XII.</head>
-        <p>
-          <hi rend="italic">Vigoureuſe ſortie ſur les Aſſiégeans; ils ſont battus, diſperſés, &amp; la Ville délivrée.</hi>
-        </p>
-        <p>Loupian fut conduit juſqu'à plus d'une lieue de la ville; quelquesautres priſonniers deſirerent
+          Gentilhomme prit congé d'elle, plein d'eſtime &amp; de reconnoiſſance pour une ame ſi héroïque.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Vigoureuſe ſortie ſur les Aſſiégeans; ils ſont battus, diſperſés, &amp; la Ville délivrée.
+     </hi>
+    </p>
+    <p>
+     Loupian fut conduit juſqu'à plus d'une lieue de la ville; quelquesautres priſonniers deſirerent
           de rejoindre les leurs, &amp; Conſtance le leur permit Après avoir ainſi pourvu à leur ſûreté, elle
           s'occupa des moyens d'affoiblir les aſſiégeans, &amp; de les forcer de lever le ſiége: ceux-ci
           frappés d'un eſprit de vertige, avoient paſſé la journée à ſe reprocher la mort du Gouverneur. Les
@@ -1120,8 +1416,10 @@
           raſſemblerent avec peine un petit corps de troupes capables de s'oppoſer aux aſſiégés, &amp; celui -
           ci ne pût ſoutenir long - tems leur impétuoſité; toute la tranchée fut abandonnée; l'artillerie
           démontée ou enclouée, &amp; les rebelles obligés de ſe ſauver dans leurs retranchemens &amp; leur
-          camp.</p>
-        <p>Conſtance ne jugea pas à propos de les y attaquer, elle rentra dans la ville avec ſix piéces de
+          camp.
+    </p>
+    <p>
+     Conſtance ne jugea pas à propos de les y attaquer, elle rentra dans la ville avec ſix piéces de
           canon des ennemis, pluſieurs drapeaux, &amp; plus de deux cents priſonniers. Au point du jour les
           ennemis voyant leurs tranchées jonchées de morts ou comblées, leur artillerie priſe, ou hors d'état
           de ſervir, le peu qu'il leur reſtoit de monde, aigri, conſterné, découragé, ſongerent à leur
@@ -1140,29 +1438,38 @@
           pour recueillir les fuyards; au bout d'environ une demi - heure on lui amena une trentaine de
           priſonniers, &amp; on lui apprit que les rebelles ſe retiroient avec la plus grande vîteſſe; alors
           elle raſſemble les charriots, les caiſſons &amp; les priſonniers, &amp; reprend le chemin de
-          Leucate.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XIII.</head>
-        <p>
-          <hi rend="italic">Elle eſt nommée Gouvernante de Leucate, &amp; la ſurvivance accordée à ſon fils.
-            Soins qu'elle prend pour aſſurer les travaux de la Campagne. Elle reçoit des lettres de Henri IV.</hi>
-        </p>
-        <p>Son entrée fut une eſpece de triomphe; l'air retentiſſoit des cris de victoire, d'éloges &amp; de
+          Leucate.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIII.
+    </head>
+    <p>
+     <hi rend="italic">
+      Elle eſt nommée Gouvernante de Leucate, &amp; la ſurvivance accordée à ſon fils.
+            Soins qu'elle prend pour aſſurer les travaux de la Campagne. Elle reçoit des lettres de Henri IV.
+     </hi>
+    </p>
+    <p>
+     Son entrée fut une eſpece de triomphe; l'air retentiſſoit des cris de victoire, d'éloges &amp; de
           bénédictions; cette héroïne fut reconduite chez elle au bruit des tambours, des inſtrumens
           militaires &amp; des acclamations publiques. Le jour fut conſacré aux réjouiſſances, &amp; aux
           actions de grace; Conſtance diſtribua le butin à la garniſon, &amp; aux braves habitans qui avoient
           pris les armes, parut aux cérémonies où elle ne pût ſe diſpenſer d'aſſiſter, &amp; ſe retira chez
-          elle pour ne point troubler la joie publique par des larmes qu'elle avoit peine à retenir.</p>
-        <p>Bien différente de ces héros de l'antiquité, qui ſe dévouoient au bien public par une eſpece
+          elle pour ne point troubler la joie publique par des larmes qu'elle avoit peine à retenir.
+    </p>
+    <p>
+     Bien différente de ces héros de l'antiquité, qui ſe dévouoient au bien public par une eſpece
           d'emportement frénétique, elle ſçavoit allier les droits de la nature, avec le zèle patriotique,
           combattre les ennemis de l'Etat, &amp; pleurer ſes pertes domeſtiques. Elle prit ſon fils entre ſes
           bras, le preſſa contre ſon ſein. „C'eſt “l'image vivante de ſon pere, dit-elle, en le mouillant de
           ſes larmes, “il aura ſon courage, ſon attachement inviolable pour ſon Souverain. Ciel! préſerve - le
           des attentats du fanatiſme; ſi ſon ſang doit “couler pour la France, du moins “qu'elle ne le répande
           pas elle-même.“
-        </p>
-        <p>Elle donna quelques jours à l'amertume de ſon regret &amp; à ſa juſte douleur; l'Officier qu'elle
+    </p>
+    <p>
+     Elle donna quelques jours à l'amertume de ſon regret &amp; à ſa juſte douleur; l'Officier qu'elle
           avoit envoyé au Roi pour lui apprendre la mort de ſon mari, la défaite des ennemis, &amp; la levée
           du ſiége, revint à Leucate avec une Lettre &amp; un Brévet de ce Prince; dans la premiere, il
           déploroit amérement la mort de du Barri, donnoit des juſtes regrets à ſa mémoire, faiſoit ſon éloge,
@@ -1171,29 +1478,39 @@
           péril de ce qu'elle avoit de plus cher, &amp; en aſſuroit la ſurvivance à ſon fils; à ces
           récompenſes Henri IV. joignit les témoignages de cette rare bienveillance qui accompagnoit ſes
           moindres actions, &amp; il chargea l'Officier d'aſſurer Madame du Barri que dès qu'il ſeroit en
-          poſſeſſion paiſible de ſa Couronne, il ne mettroit point de bornes à ſes bienfaits.</p>
-        <p>Nous ne pouvons nous réfuſer à comparer à cette lettre, à ces regrets de Henri, la douleur dont
+          poſſeſſion paiſible de ſa Couronne, il ne mettroit point de bornes à ſes bienfaits.
+    </p>
+    <p>
+     Nous ne pouvons nous réfuſer à comparer à cette lettre, à ces regrets de Henri, la douleur dont
           Louis XV fut pénétré dans une pareille circonſtance. Le cœur des bons Princes eſt preſque toujours
           le même, ainſi que leur hiſtoire. Louis écrit: „J'ai perdu un honnête-homme que j'eſtimois &amp; que
           j'aimois; je ſçai qu'il “a un frere dans l'état eccléſiaſtique: donnez - lui le premier Bé“néfice,
-          s'il en eſt digne, comme “je le crois.“</p>
-        <p>Ces promeſſes d'un Roi humain, généreux par caractere, ne contribuerent pas peu à diſſiper le
+          s'il en eſt digne, comme “je le crois.“
+    </p>
+    <p>
+     Ces promeſſes d'un Roi humain, généreux par caractere, ne contribuerent pas peu à diſſiper le
           noir chagrin de Conſtance. S'il lui reſta pendant pluſieurs années un fond de mélancolie qu'elle eut
           peine à vaincre dans le particulier, elle s'en rendit maîtreſſe en public. Après ce qu'elle devoit à
           ſa place, l'éducation de ſon fils l'occupa uniquement; le jeune enfant répondit à ſes ſoins, &amp;
           dès l'âge de huit ans il fut mis au nombre des Pages de S. M. Nous aurons occaſion d'en parler
-          encore plus bas.</p>
-        <p>Nous avons dit que le Languedoc avoit été une des premieres provinvinces où la guerre s'étoit
+          encore plus bas.
+    </p>
+    <p>
+     Nous avons dit que le Languedoc avoit été une des premieres provinvinces où la guerre s'étoit
           allumée, parce qu'il n'importoit pas moins aux deux partis de la retenir dans leur obéiſſance. Quand
           Henri IV fut monté ſur le Trône, il pourſuivit les Ligueurs dans le cœur de la France, &amp; juſques
           ſous les murs de la Capitale; ainſi le feu de la diſcorde ſembla ſe ralentir ſur les frontieres. Les
           ennemis preſſés vivement, ne purent renvoyer de nouvelles troupes ſur Leucate, &amp; cette ville
-          n'eut rien à redouter de leur part.</p>
-        <p>La Gouvernante employa ſa petite garniſon, pendant les années ſuivantes, à chaſſer des campagnes
+          n'eut rien à redouter de leur part.
+    </p>
+    <p>
+     La Gouvernante employa ſa petite garniſon, pendant les années ſuivantes, à chaſſer des campagnes
           voiſines diverſes troupes de brigands qui y cauſoient encore quelques ravages. Elle protégea
           l'agriculture, fit ſucceſſivement quelques levées de troupes, qu'elle envoya à l'Armée Royale, &amp;
-          n'oublia rien pour rendre le loiſir où elle ſe trouvoit, utile aux intérêts du Roi.</p>
-        <p>Ce Prince, ſi juſte appréciateur du mérite, &amp; de la fidélité à ſon ſervice, ſi ardent à les
+          n'oublia rien pour rendre le loiſir où elle ſe trouvoit, utile aux intérêts du Roi.
+    </p>
+    <p>
+     Ce Prince, ſi juſte appréciateur du mérite, &amp; de la fidélité à ſon ſervice, ſi ardent à les
           récompenſer, ſoupiroit après le moment d'effectuer ſes promeſſes à l'égard de la Gouvernante. Il ſe
           déroba quelquefois aux affaires, au tumulte des armes, pour peindre à Conſtance, dans quelques
           lignes tracées de ſa main, les embarras où il ſe trouvoit, le deſir qu'il avoit de reconnoître ſes
@@ -1210,21 +1527,31 @@
           ſouvent de ſon ſang! Qu'il lui ſeroit doux de jetter le déſordre &amp; l'effroi parmi les Ligueurs,
           &amp; de leur montrer leur devoir dans la perſévérance d'une femme à ſervir l'Etat! O préjugé cruell
           l'homme s'égare, oublie ce qu'il doit à ſa Patrie, à ſon Roi, &amp; il prodigue le ridicule à une
-          femme qui leur eſt fidele!</p>
-        <p>Cette réflexion retint ſon courage; elle ſe contenta de fatiguer le Ciel de ſes vœux, pour la
+          femme qui leur eſt fidele!
+    </p>
+    <p>
+     Cette réflexion retint ſon courage; elle ſe contenta de fatiguer le Ciel de ſes vœux, pour la
           proſpérité des armes de Henri; ſa cauſe étoit trop juſte; les deſſeins de ce Prince en faveur de ſon
           Peuple étoient trop dignes de la divinité, pour qu'elle ne l'aidât pas à vaincre tous ſes ennemis;
-          mais ce ne fut qu'après plus de onze ans de fatigues, de travaux &amp; de périls.</p>
-        <p>Conſtance n'attendit pas ſi long-tems à recevoir des marques de la bienveillance du Roi;
-          immédiatement après ſon mariage, ce Prince l'attacha à la Reine, en qualité de Dame d'honneur.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XIV.</head>
-        <p>
-          <hi rend="italic">Conſtance arrive à la Cour; n'uſe de ſa faveur que pour le bien publie:
-            converſation touchante qu'elle a avec le Roi.</hi>
-        </p>
-        <p>C'est donc à la Cour, ſur ce nouveau théatre, où nous allons la conſidérer encore quelques
+          mais ce ne fut qu'après plus de onze ans de fatigues, de travaux &amp; de périls.
+    </p>
+    <p>
+     Conſtance n'attendit pas ſi long-tems à recevoir des marques de la bienveillance du Roi;
+          immédiatement après ſon mariage, ce Prince l'attacha à la Reine, en qualité de Dame d'honneur.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIV.
+    </head>
+    <p>
+     <hi rend="italic">
+      Conſtance arrive à la Cour; n'uſe de ſa faveur que pour le bien publie:
+            converſation touchante qu'elle a avec le Roi.
+     </hi>
+    </p>
+    <p>
+     C'est donc à la Cour, ſur ce nouveau théatre, où nous allons la conſidérer encore quelques
           inſtans. Je ne doute point que l'élévation de ſes ſentimens &amp; ſon zèle héroïque, n'ayent aſſez
           intéreſſé le lecteur pour qu'il ſoit charmé de voir tout ce qui a rapport à une femme ſi digne
           d'éloges. La douceur de ſon caractère, ſa modération, ſon déſintéreſſement, l'uſage qu'elle fit
@@ -1237,14 +1564,20 @@
           leurs fades plaiſanteries. Ils ne s'étudient qu'à aiguiſer les traits de la ſatyre &amp; de
           l'épigramme, qu'à faire courir quelques prétendus bons mots, ſur les perſonnages les plus
           eſtimables. Miſérable talent, que la malignité humaine applaudit néanmoins trop ſouvent,parce qu'il
-          venge la médiocrité de l'éclat des qualités du cœur &amp; de la beauté.</p>
-        <p>Conſtance fut d'abord en butte aux pointes de ces mauvais plaiſans, mais où elle plaiſanta la
+          venge la médiocrité de l'éclat des qualités du cœur &amp; de la beauté.
+    </p>
+    <p>
+     Conſtance fut d'abord en butte aux pointes de ces mauvais plaiſans, mais où elle plaiſanta la
           premiere de leurs traits inſipides, où elle ſe contenta de les mépriſer, à l'exemple des gens
           ſenſés. Ces petits zoïles de Cour, car où n'y en a-t-il pas? honteux de ſe voir peu écoutés,
-          exercerent leurs talens ſur d'autres perſonnes.</p>
-        <p>Elle ne s'éleva pas moins heureuſement au-deſſus des déſagrémens d'une autre eſpece, que l'envie
-          tâcha de lui ſuſciter, &amp; elle n'eût le tems que d'être connue, pour jouir d'une eſtime générale.</p>
-        <p>La Reine avoit pour elle des bontés particulieres; le Roi l'honoroit de ſa bienveillance, &amp;
+          exercerent leurs talens ſur d'autres perſonnes.
+    </p>
+    <p>
+     Elle ne s'éleva pas moins heureuſement au-deſſus des déſagrémens d'une autre eſpece, que l'envie
+          tâcha de lui ſuſciter, &amp; elle n'eût le tems que d'être connue, pour jouir d'une eſtime générale.
+    </p>
+    <p>
+     La Reine avoit pour elle des bontés particulieres; le Roi l'honoroit de ſa bienveillance, &amp;
           même d'entretiens aſſez longs, enſorte qu'elle ne tarda pas à avoir toutes les apparences d'un grand
           crédit, &amp; une eſpece de cour, où pluſieurs de ceux qui l'avoient tournée en ridicule, ne furent
           pas les derniers à briguer l'honneur d'être admis. Elle ne leur marqua jamais le moindre
@@ -1265,8 +1598,10 @@
           triſtes momens: “ils pleurent, &amp; je ne puis eſſuyer “leurs larmes; je n'ai qu'une affection
           impuiſſante à leur offrir. “Ah! ſi le Ciel me prête des jours, “je parviendrai enfin à faire leur
           “bonheur; ſans la Ligue, mon “Peuple vivroit dans l'abondance... “Ses miſeres m'accablent de
-          douleur.“</p>
-        <p>Une autre fois, plein de la plus vive joie, il diſoit à la Reine en l'abordant: „Sully ſort
+          douleur.“
+    </p>
+    <p>
+     Une autre fois, plein de la plus vive joie, il diſoit à la Reine en l'abordant: „Sully ſort
           d'avec moi; il “m'a fait voir que l'on pouvoit “diminuer la taille d'une telle Généralité. Il ne
           portoit cette diminution qu'à cent mille francs; je “lui ai obſervé que c'étoit bien peu, “&amp; il
           en a encore retranché cent “mille. Il a murmuré, mais la diminution eſt faite. Ces pauvres “gens!
@@ -1278,8 +1613,10 @@
           pour moi; il y “a aſſez long - tems que je donne, malgré moi, à des gens “qui ne le méritent guere;
           il eſt “juſte que je m'acquite envers mes “bons ſerviteurs; je vous accorde „mille écus de penſion,
           &amp; cent „mille francs que Sully vous payera; c'eſt pour vous remplir des “avances que vous avez
-          faites dans “la défenſe de Leucate; quand je “ſerai plus riche, nous verrons...“</p>
-        <p>Madame du Barri ſe jette aux genoux de Henri, &amp; le conjure de vouloir bien l'écouter un
+          faites dans “la défenſe de Leucate; quand je “ſerai plus riche, nous verrons...“
+    </p>
+    <p>
+     Madame du Barri ſe jette aux genoux de Henri, &amp; le conjure de vouloir bien l'écouter un
           inſtant. Il la fait relever, &amp; ajoute qu'il veut qu'elle accepte.... „Sire, de grace, “un mot...
           j'écoute: parlez...“ Je “ne manque de rien ici; près “de vos Majeſtés, honorée de leurs “regards,
           &amp; de leurs entretiens, „eſt-il fortune que je préféraſſe à “mon ſort? J'admire dans vos ames
@@ -1288,12 +1625,16 @@
           goûte les “tranſports de votre joie, &amp; vous “n'en reſſentez pas de plus douce, “que lorſqu'il
           vous eſt permis d'étendre une main bienfaiſante ſur “votre Royaume; Sire, votre confiance me rend
           preſque l'égale de “mes maîtres, &amp; j'oſerois lui demander d'autres biens! je n'ai “qu'un fils,
-          qui ſera toujours aſſez “riche s'il mérite vos bontés.</p>
-        <p>“J'en ſuis content; hier au ſoir “il m'attendoit pour m'éclairer “en rentrant, il étoit accablé
+          qui ſera toujours aſſez “riche s'il mérite vos bontés.
+    </p>
+    <p>
+     “J'en ſuis content; hier au ſoir “il m'attendoit pour m'éclairer “en rentrant, il étoit accablé
           de “ſommeil; je dis pourquoi l'on “n'avoit pas fait coucher cet enfant? Voici ſa réponſe: „Le Sujet
           “dormira-t-il, quand le Souverain “veille... Elle me frappa; j'aurai “ſoin de lui, mais ſans déroger
-          à “ce que je dois à la mere. Vous “toucherez cent mille francs; je “le veux.“</p>
-        <p>Conſtance n'oſa repliquer; elle voulut ſe proſterner aux pieds de Henri, pour le remercier; il
+          à “ce que je dois à la mere. Vous “toucherez cent mille francs; je “le veux.“
+    </p>
+    <p>
+     Conſtance n'oſa repliquer; elle voulut ſe proſterner aux pieds de Henri, pour le remercier; il
           l'arrêta par la main, &amp; ſortit peu après de l'appartement de la Reine. Cette Princeſſe
           n'admiroit pas moins, que la Cour &amp; la Ville, cette bonté de caractere; ce penchant toujours
           actif à la bienfaiſance, qui étoient l'empreinte des moindres démarches de Henri. La Reine, &amp; ſa
@@ -1317,16 +1658,22 @@
           l'ame de Henri.... Que dis-je? Non, c'eſt celle de Louis; gardons-nous de la comparer qu'à elle -
           même. Cette courte digreſſion, ſur le meilleur des Rois à qui la France, d'accord avec l'Europe
           entiere, a donné le ſurnom de Bien-aimé, ne déplaira pas ſans doute. Quel cœur François ne
-          s'épanouiroit en payant le tribut de ſon amour à ſon Roi.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XV.</head>
-        <p>
-          <hi rend="italic">Uſage que Conſtance fait des bienfaits du Roi. Ce Prince s'en plaint, &amp; l'en
+          s'épanouiroit en payant le tribut de ſon amour à ſon Roi.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XV.
+    </head>
+    <p>
+     <hi rend="italic">
+      Uſage que Conſtance fait des bienfaits du Roi. Ce Prince s'en plaint, &amp; l'en
             eſtime davantage. Elle continue à n'employer ſon crédit que pour les malheureux. Mort de Henri IV,
-            elle ſe retire de la Cour.</hi>
-        </p>
-        <p>Constance, après s'être livrée à tout ce que la reconnoiſſance lui dictoit, ſongea à l'uſage
+            elle ſe retire de la Cour.
+     </hi>
+    </p>
+    <p>
+     Constance, après s'être livrée à tout ce que la reconnoiſſance lui dictoit, ſongea à l'uſage
           qu'elle devoit faire des bienfaits du Roi; elle venoit de lui dire que ſon ame s'élevoit à la vue de
           la ſienne. La réſolution qu'elle prit à l'égard des cent mille francs en eſt une preuve; elle les
           envoya en Languedoc à une perſonne dont elle connoiſſoit l'intégrité, &amp; lui écrivit que c'étoit
@@ -1347,8 +1694,10 @@
           point “fait paſſer d'argent dans ce pays, “mon ami, vous m'en croyez, débrouillez ce myſtère;
           ſçachez qui “a emprunté mon nom pour agir “ainſi. Qu'elle eſt la date? Elle ſe “rapporte aſſez au
           tems où vous “avez donné pareille ſomme à Madame du Barri; j'ai eu peine à la “lui faire accepter.
-          Je ne vois que “cette femme capable de ce trait: “je vais la gronder.“</p>
-        <p>Henri IV paſſe en effet chez la Reine. Après les politeſſes qu'il devoit à cette Princeſſe, il
+          Je ne vois que “cette femme capable de ce trait: “je vais la gronder.“
+    </p>
+    <p>
+     Henri IV paſſe en effet chez la Reine. Après les politeſſes qu'il devoit à cette Princeſſe, il
           fit venir la Gouvernante, &amp; d'un ton qui annonçoit plus d'attendriſſement que de colere, il lui
           dit: „Qu'avez-vous fait du Barri des cent mille “francs? En avez-vous acheté une “terre, dans votre
           pays?....Non, “Sire. Les gardez-vous? Vous ſeriez folle; il faut en tirer intérêt... “J'ai payé des
@@ -1362,49 +1711,63 @@
           tout “le bien qui ſe fait dans le monde, “ne pût être attribué qu'à Votre “Majeſté. Zèle outré, les
           Rois ſont “bornés comme les autres hommes “dans leurs ſoins, &amp; leurs deſirs les “plus chers. Je
           ne l'éprouve que “trop.... Pardonnez, Sire, à une “infortunée qui a pu vous déplaire. “J'oſe vous en
-          conjurer, par mes regrets, par mes larmes.“</p>
-        <p>Le Roi touché juſqu'au fond du cœur, &amp; craignant d'avoir trop affligé Conſtance pourune
+          conjurer, par mes regrets, par mes larmes.“
+    </p>
+    <p>
+     Le Roi touché juſqu'au fond du cœur, &amp; craignant d'avoir trop affligé Conſtance pourune
           action dont il ne vouloit que s'amuſer, lui tendit ſa main à baiſer; Madame du Barri un genou en
           terre, ſe précipite ſur cette main, l'heureux préſage de la grace qui lui étoit accordée. Le Prince
           eut la bonté de diſſiper ſes craintes, &amp; lui dire que ſa conduite ne l'avoit pas ſi fâché qu'il
           avoit paru l'être, &amp; qu'elle trouveroit toujours un libre accès auprès de lui quand il s'agiroit
           de lui découvrir des maux qui avoient échappé à ſa vigilance &amp; à celle de ſes Miniſtres. Ce
           Prince s'amuſa encore quelques momens du zèle de la Gouvernante, &amp; du dénuement où elle s'étoit
-          réduite, &amp; prit enſuite congé de la Reine.</p>
-        <p>Dès le lendemain on apporta à Madame du Barri, de la part de Sa Majeſté, la donation d'une
+          réduite, &amp; prit enſuite congé de la Reine.
+    </p>
+    <p>
+     Dès le lendemain on apporta à Madame du Barri, de la part de Sa Majeſté, la donation d'une
           ſeigneutie relevant de la Couronne, d'environ dix mille livres de rente. Quand elle en fit ſes
           remercimens au Roi, il lui dit: „Je ne crois pas que vous ovendiez cette terre, &amp; que vous en
           “envoyiez l'argent en Langucdoc; “votre fils en jouira, ventre-ſingri: “vous le mettriez à la
-          mendicité, “ſi vous pouviez......“</p>
-        <p>Conſtance ne fut ſenſible à ce reproche que parce qu'il étoit dicté par la bienveillance même,
+          mendicité, “ſi vous pouviez......“
+    </p>
+    <p>
+     Conſtance ne fut ſenſible à ce reproche que parce qu'il étoit dicté par la bienveillance même,
           &amp; s'appliqua avec une nouvelle ardeur à la mériter. Son crédit s'accrut de plus en plus, &amp;
           ne lui fit point de jaloux, parce qu'elle ſçût conſtamment s'abſtenir d'en abuſer pour elle &amp;
           pour les ſiens. Elle devint le refuge des provinces déſolées par la foudre ou par les inondations;
           des malheureux, que la main avoit rendu plus criminels que le cœur: des maiſons ruinées par des
           déſaſtres que la prudence humaine n'avoit pu éviter; des victimes que la grandeur tyrannique avoient
-          chargé de fers, &amp; jettées dans les cachots.</p>
-        <p>Elle étoit également eſtimée des Courtiſans &amp; des Miniſtres, parce qu'elle ne briguoit point
+          chargé de fers, &amp; jettées dans les cachots.
+    </p>
+    <p>
+     Elle étoit également eſtimée des Courtiſans &amp; des Miniſtres, parce qu'elle ne briguoit point
           de places au préjudice des uns, &amp; ne troubloit jamais les autres dans leurs fonctions par des
           importunités, par des demandes abuſives. Sans former des brigues, ſans s'immiſcer dans les affaires,
           elle ſe ſoutint avec éclat; ſa recommendation fut toujours reſpectée; elle n'eut jamais pour but que
           le bien public, que l'avancement du mérite, &amp; le ſoin des malheureux qui étoient dignes d'une
-          vraie compaſſion.</p>
-        <p>Son fils, d'un caractere ſolide, d'un génie peu commun, &amp; héritier de l'attachement de ſes
+          vraie compaſſion.
+    </p>
+    <p>
+     Son fils, d'un caractere ſolide, d'un génie peu commun, &amp; héritier de l'attachement de ſes
           pere &amp; mere pour ſes Souverains, parvint ſous ce régne &amp; le ſuivant, aux grades militaires,
           &amp; ne les dût point à la faveur de ſa mere.
-          <ref target="#N08"/>
-          Celle-ci partagea les regrets de toute la France quand Henri IVlui fut enlevé par un dernier effort
+     <ref target="#N08"/>
+     Celle-ci partagea les regrets de toute la France quand Henri IVlui fut enlevé par un dernier effort
           de fanatiſme expirant. Les troubles qui accompagnerent la minorité, les changemens qui ſurvinrent à
           la Cour firent ſonger Conſtance à la retraite; elle y porta cette grandeur d'ame, ces mœurs douces,
           ce fond d'humanité, ce zèle pour la proſpérité de l'Etat, qui avoient été la régle de toutes ſes
           actions. Elle fit juſqu'à ſa mort les délices d'un petit nombre d'amis, qui n'admiroient pas moins
-          la juſteſſe de ſon eſprit que les qualités de ſon cœur.</p>
-        <trailer>FIN</trailer>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N01">(a) Eliſabeth étoit montée ſur le Trône de la Grande Bretagne. “Maîtreſſe abſolue
+          la juſteſſe de ſon eſprit que les qualités de ſon cœur.
+    </p>
+    <trailer>
+     FIN
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (a) Eliſabeth étoit montée ſur le Trône de la Grande Bretagne. “Maîtreſſe abſolue
           de l'Angleterre, dit un de nos Hiſtoriens (le Chevalier de Méhégan) toute puiſſante en Ecoſſe, appui
           de la France, protectrice de la Hollande, redoutée de Philippe, &amp; révérée du reſte du monde;
           cette heureuſe Reine croit qu'il manque encore quelque choſe à ſon bonheur. L'Irlande étoit habitée
@@ -1427,16 +1790,29 @@
           la ſoumiſſion de ce brave Guerrier détruit toutes les eſpérances de ſa Nation. Pluſieurs de ſes
           courageux défenſeurs aimerent mieux vivre ſous une Domination étrangére, que de porter le joug des
           vainqueurs."
-          <hi rend="italic">Tab. de l'hiſt. Moderne.</hi>
-        </note>
-        <note xml:id="N02">(a) Il fut fait Capitaine de 150 hommes. Un Manuſcrit fait foi qu'il leva cette troupe à ſes dépens.</note>
-        <note xml:id="N03">(a) C'eſt ainſi que s'appelloient les aînés de la Maiſon.</note>
-        <note xml:id="N04">(a) Village alors mûré au Diocèſe de Narbonne.</note>
-        <note xml:id="N05">(a) Il étoit originaire de Montpellier.</note>
-        <note xml:id="N06">(a) Ce combat donné en 1580, dura cinq jours &amp; cinq nuits. Le Roi de Navarre
+     <hi rend="italic">
+      Tab. de l'hiſt. Moderne.
+     </hi>
+    </note>
+    <note xml:id="N02">
+     (a) Il fut fait Capitaine de 150 hommes. Un Manuſcrit fait foi qu'il leva cette troupe à ſes dépens.
+    </note>
+    <note xml:id="N03">
+     (a) C'eſt ainſi que s'appelloient les aînés de la Maiſon.
+    </note>
+    <note xml:id="N04">
+     (a) Village alors mûré au Diocèſe de Narbonne.
+    </note>
+    <note xml:id="N05">
+     (a) Il étoit originaire de Montpellier.
+    </note>
+    <note xml:id="N06">
+     (a) Ce combat donné en 1580, dura cinq jours &amp; cinq nuits. Le Roi de Navarre
           ne ſe repoſa pas un inſtant, fut toujours au fort de la mêlée; il ne lui reſtoit pas un morceau de
-          ſes habits quand il eut aſſuré ſa conquête.</note>
-        <note xml:id="N07">(a) Ou fortereſſe, ſituée ſur une Montagne, à l'extrémité du Dioceſe de Narbonne,
+          ſes habits quand il eut aſſuré ſa conquête.
+    </note>
+    <note xml:id="N07">
+     (a) Ou fortereſſe, ſituée ſur une Montagne, à l'extrémité du Dioceſe de Narbonne,
           vers le Rouſſillon. Cette Montagne, qui a quinze cents pas de front, du côté de la France, eſt
           preſque environnée de la mer, ou d'un étang qui porte ſon nom. Elle communique à la terre ferme, par
           une langue de terre qui ſépare cet étang de celui de la Palme, enſorte qu'elle forme une
@@ -1450,8 +1826,10 @@
           creuſer des foſſés, excepté devant les portes du Château. Du Barri y fit ajouter une ſeconde
           enceinte de murailles, en forme de fauſſes - brayes, pour couvrir la pointe des baſtions, avec
           quatre demi-lunes devant les courtines. L'ouvrage étoit de pierre, mais les murailles qui avoient
-          fort peu d'épaiſſeur, n'étoient pas terraſſées. Au bas de la fortereſſe étoit Leucate.</note>
-        <note xml:id="N08">(a) Il avoit pris poſſeſſion de ſon Gouvernement en 1615. En 1637, au mois
+          fort peu d'épaiſſeur, n'étoient pas terraſſées. Au bas de la fortereſſe étoit Leucate.
+    </note>
+    <note xml:id="N08">
+     (a) Il avoit pris poſſeſſion de ſon Gouvernement en 1615. En 1637, au mois
           d'août, les Eſpagnols aſſiégerent Leucate pour la ſeconde fois. Hercule les croyant aſſez occupés en
           Italie, en Flandre, en Allemagne, &amp; ſur les côtes de Provence, avoit négligé de renforcer ſa
           garniſon. Il n'avoit que deux Compagnies du Régiment de Languedoc, qui faiſoient so hommes, 4o
@@ -1471,8 +1849,8 @@
           l'attaque la plus difficile éde la plus périlleuſe. Il y reçut huit bleſſures dont il paroît qu'il
           mourut un an après. C'eſt dans cette action que l'on trouva parmi les morts douze filles Eſpagnoles
           armées &amp; vêtues en ſoldats.
-        </note>
-      </div>
-    </back>
-  </text>
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

@@ -1,108 +1,176 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="PigaultLebrun_Metusko" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:00.120 wikidata:0">Métusko, ou les polonais: MiMoText edition</title>
-                <author ref="viaf:68934303 wikidata:Q3388279"> Pigault-Lebrun(1753-1835)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>google</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">19289</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref
-                        target="https://www.google.de/books/edition/M%C3%A9tusko_ou_Les_Polonais_troisi%C3%A8me_nouv/Yk_ELfjh59IC"
-                    />
-                </bibl>
-                <bibl type="printSource">
-                    <title>Métusko, ou les polonais</title>
-                    <author>Charles Antoine Guillaume Pigault-Lebrun</author>
-                    <date>1802</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1800</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2022-03-29">Initial ELTeC level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <p>MÉTUSKO, ou LES POLONAIS.</p>
-                <p>MÉTUSKO,</p>
-                <p>OU</p>
-                <p>LES POLONAIS; TROISIÈME NOUVELLE.</p>
-                <p>PAR PIGAULT-LEBRUN.</p>
-                <p>A PARIS, Chez BARBA, Libraire, Maison-Égalité.</p>
-                <p>galerie derrière le théâtre de la République.</p>
-                <p>no. 51.</p>
-                <p>AN ONZE.-1802.</p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head>MÉTUSKO, OU LES POLONAIS.</head>
-                <p>Les Sarmates avaient perdu une partie de ces coutumes barbares, qui avaient rendu la moitié
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:00.120 wikidata:0">
+     Métusko, ou les polonais: MiMoText edition
+    </title>
+    <author ref="viaf:68934303 wikidata:Q3388279">
+     Pigault-Lebrun(1753-1835)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      google
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     19289
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.google.de/books/edition/M%C3%A9tusko_ou_Les_Polonais_troisi%C3%A8me_nouv/Yk_ELfjh59IC"/>
+     <publisher>
+      Google Books
+     </publisher>
+     <date>
+      2018
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Métusko, ou les polonais
+     </title>
+     <author>
+      Charles Antoine Guillaume Pigault-Lebrun
+     </author>
+     <date>
+      1802
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1800
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-03-29">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     MÉTUSKO, ou LES POLONAIS.
+    </p>
+    <p>
+     MÉTUSKO,
+    </p>
+    <p>
+     OU
+    </p>
+    <p>
+     LES POLONAIS; TROISIÈME NOUVELLE.
+    </p>
+    <p>
+     PAR PIGAULT-LEBRUN.
+    </p>
+    <p>
+     A PARIS, Chez BARBA, Libraire, Maison-Égalité.
+    </p>
+    <p>
+     galerie derrière le théâtre de la République.
+    </p>
+    <p>
+     no. 51.
+    </p>
+    <p>
+     AN ONZE.-1802.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     MÉTUSKO, OU LES POLONAIS.
+    </head>
+    <p>
+     Les Sarmates avaient perdu une partie de ces coutumes barbares, qui avaient rendu la moitié
                     de l'univers connu méprisable aux anciens Romains. Les Romains modernes, déchus de leur
                     antique splendeur, concentraient dans la capitale du monde chrétien les arts utiles ou
                     agréables, à l'ombre desquels s'élevèrent avec rapidité les préjugés religieux et
                     l'ignorance des principes, enfans dangereux de l'avilissement et de la langueur du corps
-                    politique.</p>
-                <p>Les papes régnaient par l'opinion; les empereurs d'Allemagne se soutenaient par la force
+                    politique.
+    </p>
+    <p>
+     Les papes régnaient par l'opinion; les empereurs d'Allemagne se soutenaient par la force
                     des armes, ou par les divisions qui agitaient l'Europe; les faibles souverains opposaient
                     l'intrigue à l'ambition; les grands vassaux foulaient les peuples, et le vulgaire
-                    naissait, travaillait et mourait pour des maîtres injustes et ingrats.</p>
-                <p>Les Sarmates, les Scandinaves, et les peuples du Nord se rappelaient à peine des ancêtres,
+                    naissait, travaillait et mourait pour des maîtres injustes et ingrats.
+    </p>
+    <p>
+     Les Sarmates, les Scandinaves, et les peuples du Nord se rappelaient à peine des ancêtres,
                     dont la valeur balança si long-temps la fortune des aigles romaines; mais les Sarmates,
                     devenus Polonais, conservaient, au milieu des orages qui bouleversaient l'Europe, cette
                     fierté nationale, ce courage fougueux, qui les distinguèrent toujours. Ils alliaient,
                     selon l'usage de ces temps, des vertus grossières, et quelquefois sublimes aux vices les
                     plus révoltans; les plus hauts faits s'accordaient avec les pratiques les plus
                     superstitieuses, et le christianisme avec des usages absurdes ou cruels, qu'avait
-                    consacrés la plus aveugle idolâtrie.</p>
-                <p>A la fin du douzième siècle, les Polonais étouffaient encore les enfans qui naissaient avec
+                    consacrés la plus aveugle idolâtrie.
+    </p>
+    <p>
+     A la fin du douzième siècle, les Polonais étouffaient encore les enfans qui naissaient avec
                     quelque imperfection; ils abrégeaient la vie des vieillards infirmes; les Palatins avaient
                     droit de vie et de mort sur leurs paysans, et ne pouvaient être arrêtés pour aucun crime
                     avant que d'en être juridiquement convaincus. Le viol, cet abus de la force, qui dépouille
@@ -110,32 +178,47 @@
                     n'était puni de mort que lorsque la femme, outragée dans son honneur et dans ses
                     affections, refusait d'effacer par le don de sa main la tache que lui avoit imprimée un
                     amour féroce. L'esprit chevaleresque balançait seul ces institutions monstrueuses, et
-                    maintenait une apparence d'ordre au milieu des germes de l'anarchie.</p>
-                <p>Cependant un état faible dont les membres étaient divisés d'intérêt ou d'inclination; des
+                    maintenait une apparence d'ordre au milieu des germes de l'anarchie.
+    </p>
+    <p>
+     Cependant un état faible dont les membres étaient divisés d'intérêt ou d'inclination; des
                     diètes où les affaires les plus importantes se discutaient le sabre à la main; le droit de
                     mourir pour la patrie réservé aux nobles, qui seuls en avaient une; des armées intrépides,
                     mais indisciplinables; tant de causes devaient mettre la Pologne sous le joug, et elle
-                    avoit subi celui des empereurs d'Allemagne.</p>
-                <p>Ces fiers Polonais étaient devenus tributaires d'une puissance étrangère, qui alla jusqu'à
+                    avoit subi celui des empereurs d'Allemagne.
+    </p>
+    <p>
+     Ces fiers Polonais étaient devenus tributaires d'une puissance étrangère, qui alla jusqu'à
                     nommer les maîtres qui devaient les gouverner. Rodolphe, que son mérite seul avait porté
                     au trône impérial, et qui fut le fondateur de cette maison d'Autriche, qui fait depuis des
                     siècles l'admiration et les malheurs du monde, Rodolphe appesantit le joug qui fatiguait
-                    les Polonais, mais qui n'avait pas éteint le caractère national.</p>
-                <p>Un Palatin brave, magnanime, mais emporté, mais jaloux de ses droits, puissant par ses
+                    les Polonais, mais qui n'avait pas éteint le caractère national.
+    </p>
+    <p>
+     Un Palatin brave, magnanime, mais emporté, mais jaloux de ses droits, puissant par ses
                     vassaux, par la considération dont il jouissait, instruit dans l'art de la guerre par
-                    vingt ans de travaux, Métusko fit entendre le premier le cri <hi rend="italic"
-                        >liberté</hi> toujours si cher aux Polonais.</p>
-                <p>Ce cri vole de Palatinat en Palatinat. Le nom de Métusko ranime l'espoir presque éteint et
+                    vingt ans de travaux, Métusko fit entendre le premier le cri
+     <hi rend="italic">
+      liberté
+     </hi>
+     toujours si cher aux Polonais.
+    </p>
+    <p>
+     Ce cri vole de Palatinat en Palatinat. Le nom de Métusko ranime l'espoir presque éteint et
                     commande la confiance. On se lève, on se rassemble, on marche sans ordre, et la valeur
                     tient lieu de discipline. Quelques détachemens de troupes impériales sont battus par des
                     gentilshommes sans chef, mais conduits par le noble orgueil d'affranchir leur patrie. Une
                     armée nombreuse se compose de cent corps qui viennent de toutes les parties de la Pologne
                     se réunir près de Canisco, et qui d'une voix unanime nomment pour les commander
-                    l'intrépide et ardent Métusko.</p>
-                <p>Le guerrier n'avait pas brigué l'honneur du premier rang. Il s'en sentait le plus digne, et
+                    l'intrépide et ardent Métusko.
+    </p>
+    <p>
+     Le guerrier n'avait pas brigué l'honneur du premier rang. Il s'en sentait le plus digne, et
                     il accepta avec une noble franchise le grade que lui conférait l'estime générale. Il jura
-                    de la justifier, et fut fidèle à son serment.</p>
-                <p>Parmi ceux qui s'étaient volontairement rangés sous ses étendards, on distinguait le jeune
+                    de la justifier, et fut fidèle à son serment.
+    </p>
+    <p>
+     Parmi ceux qui s'étaient volontairement rangés sous ses étendards, on distinguait le jeune
                     Sobieski, souche précieuse de cette famille, qui depuis illustra la Pologne. Il joignait
                     aux qualités qui font les grands hommes une modestie rare, une extrême sensibilité, et ces
                     agrémens personnels qui désarment jusqu'à l'envie. Elevé dans la haine des oppresseurs,
@@ -143,61 +226,83 @@
                     Moulnicza, où les exercices militaires occupaient la plus grande partie de son temps. Il
                     employait ce qu'il en pouvait dérober à ses inférieurs et à ses égaux à cultiver son
                     esprit en secret, de peur de se rendre ridicule aux yeux de ceux qui faisaient alors de
-                    l'ignorance un des attributs de la grandeur.</p>
-                <p>A quelques lieues de Moulnicza, vivait au château de Blonie le vieux Polinski, jadis
+                    l'ignorance un des attributs de la grandeur.
+    </p>
+    <p>
+     A quelques lieues de Moulnicza, vivait au château de Blonie le vieux Polinski, jadis
                     compagnon d'armes du père de Sobieski. Ils s'étaient couverts de lauriers ensemble dans
                     les guerres contre les Turcs et les Hongrois, et maintenant les glaces de l'âge les
                     réduisaient à ne former que des vœux pour la liberté de leur patrie. Les deux vieillards
                     se voyaient souvent; et les mêmes habitudes, les mêmes opinions politiques resserraient
-                    leur antique amitié.</p>
-                <p>Polinski avait une fille. Seize ans, une figure enchanteresse, une taille haute et bien
+                    leur antique amitié.
+    </p>
+    <p>
+     Polinski avait une fille. Seize ans, une figure enchanteresse, une taille haute et bien
                     prise, des formes déjà prononcées, la douceur d'un ange et un cœur tendre, voilà le
-                    portrait de Polinska.</p>
-                <p>Sobieski la vit pour la première fois à cet âge où, les organes se développant avec une
+                    portrait de Polinska.
+    </p>
+    <p>
+     Sobieski la vit pour la première fois à cet âge où, les organes se développant avec une
                     force entraînante, l'homme semble né uniquement pour aimer, où son cœur, semblable à un
                     foyer ardent, communique sa chaleur à tout ce qui l'approche; Sobieski vit Polinska et ne
                     vécut désormais que par elle et pour elle. Il n'avait pas déclaré son amour, et la beauté,
                     toujours observatrice, s'applaudissait de ne s'être pas prévenue en faveur d'un
-                    ingrat.</p>
-                <p>Dans une de ces fêtes où la gaieté s'allie à l'austère décence, où les jeux, les chants, la
+                    ingrat.
+    </p>
+    <p>
+     Dans une de ces fêtes où la gaieté s'allie à l'austère décence, où les jeux, les chants, la
                     danse, le tumulte, la clarté mystérieuse des flambeaux, échauffent une imagination déjà
                     exaltée, électrisent un cœur déjà tourmenté du besoin de s'épancher, Polinska, alarmée
                     d'un état si nouveau pour elle, s'échappe du milieu de la foule, et va chercher sous une
                     allée solitaire ce calme des sens que ramène la fraîcheur d'une belle nuit. Assise sur un
                     banc de gazon, elle rêvait, en effeuillant des lys dont pourtant elle effaçait la
-                    blancheur.</p>
-                <p>Rien n'échappe à l'œil attentif d'un amant. Sobieski l'avait vue sortir. Comme elle, il
+                    blancheur.
+    </p>
+    <p>
+     Rien n'échappe à l'œil attentif d'un amant. Sobieski l'avait vue sortir. Comme elle, il
                     était tourmenté par des desirs qui le pressaient sans qu'il eût cherché encore à les bien
                     définir. L'intimité qui venait de s'établir entr'eux et sur- tout les ténèbres
                     enhardissent l'aimable jeune homme; il est aux genoux de Polinska; il parle et elle
                     tressaille de plaisir; il fait l'aveu de sa tendresse avec cette candeur qui en atteste la
                     sincérité; Polinska avait toute son innocence, et l'innocence ne sait pas dissimuler: elle
-                    ne répondit rien; elle laissa tomber sa main dans celle de son amant.</p>
-                <p>Leurs pères virent naître avec transport une passion que chaque instant semblait accroître.
+                    ne répondit rien; elle laissa tomber sa main dans celle de son amant.
+    </p>
+    <p>
+     Leurs pères virent naître avec transport une passion que chaque instant semblait accroître.
                     Dès long-temps ils s'étaient proposé de ne plus former qu'une famille; ils se rendirent
-                    aux vœux impatiens de leurs enfans et fixèrent le jour qui devait les unir.</p>
-                <p>Sobieski et Polinska comptaient les heures, les minutes; mais ils les comptaient ensemble.
+                    aux vœux impatiens de leurs enfans et fixèrent le jour qui devait les unir.
+    </p>
+    <p>
+     Sobieski et Polinska comptaient les heures, les minutes; mais ils les comptaient ensemble.
                     Heureux temps de l'amour, où il se nourrit d'espérances, d'illusions, de caresses pures,
                     de riens charmans, moins piquans sans doute, mais plus doux que la jouissance, et qui
-                    comme elle n'amènent ni la satiété, ni les regrets.</p>
-                <p>Le couple aimable se promenait sous cette allée solitaire, témoin discret et chéri de ses
+                    comme elle n'amènent ni la satiété, ni les regrets.
+    </p>
+    <p>
+     Le couple aimable se promenait sous cette allée solitaire, témoin discret et chéri de ses
                     premiers sermens. Des bras entrelacés jouaient amoureusement; deux mains encore oisives se
                     cherchaient, se trouvaient, se caressaient. L'œil animé de Sobieski couvrait le front de
                     Polinska de l'incarnat de la pudeur; c'est un bouton de rose qui voudroit se développer,
                     qui attend et qui craint le rayon du soleil. Tout-à-coup la trompette se fait entendre
                     dans Blonie; le son aigu pénètre sous la voûte de feuillage, asyle paisible des amours.
                     Sobieski et Polinska frémissent sans savoir pourquoi; mais quand on touche au bonheur, on
-                    commence à sentir qu'il n'est qu'une ombre fugitive toujours prête à s'échapper.</p>
-                <p>Sobieski sort des jardins à pas précipités. Son père et Polinski le cherchaient; la joie
+                    commence à sentir qu'il n'est qu'une ombre fugitive toujours prête à s'échapper.
+    </p>
+    <p>
+     Sobieski sort des jardins à pas précipités. Son père et Polinski le cherchaient; la joie
                     qui brille sur leur visage dissipe un moment ses alarmes; un froid mortel glace son sang
                     lorsqu'il entend ces mots: „Réjouissez-vous, mon fils, la Pologne a trouvé des vengeurs,
                     et le nom de Métusko enfante des armées. Joignez-vous à la noblesse des environs, qui se
                     rassemble à Blonie. Allez, servez votre pays, comme vous savez plaire à la beauté; revenez
-                    libre, et les palmes de la gloire vous seront présentées par les mains de l'amour.“</p>
-                <p>Le jeune Sobieski soupire, et ses regards se portent sur son amante pâle, tremblante,
+                    libre, et les palmes de la gloire vous seront présentées par les mains de l'amour.“
+    </p>
+    <p>
+     Le jeune Sobieski soupire, et ses regards se portent sur son amante pâle, tremblante,
                     inanimée. Il ose dérober un baiser, il s'éloigne en silence, il saute à cheval, il tire
-                    son cimeterre et jure de se montrer digne de Polinska.</p>
-                <p>Rodolphe, adoré de ses troupes, estimé de ses sujets, confiant en sa puissance, sommeillait
+                    son cimeterre et jure de se montrer digne de Polinska.
+    </p>
+    <p>
+     Rodolphe, adoré de ses troupes, estimé de ses sujets, confiant en sa puissance, sommeillait
                     au sein des délices qui entourent le trône, et ne soupçonnait rien de l'orage qui grondait
                     dans le lointain. Avec la nouvelle de l'insurrection des Polonais, il apprit que Métusko
                     avait des forces supérieures aux siennes, qu'il venait de créer cette fameuse Pospolite,
@@ -208,33 +313,43 @@
                     vassaux suivaient leurs seigneurs à la guerre sans approvisionnemens, sans solde, et
                     rentraient dans leurs foyers quand des défaites, des fatigues excessives, le temps des
                     moissons, ou l'approche de l'hiver les y autorisaient, d'après un usage, dont l'origine se
-                    perdait dans les siècles les plus reculés.</p>
-                <p>Rodolphe, chef de l'Empire, mais sans états, sans autorité directe sur des souverains
+                    perdait dans les siècles les plus reculés.
+    </p>
+    <p>
+     Rodolphe, chef de l'Empire, mais sans états, sans autorité directe sur des souverains
                     indépendans, ne pouvait lever ni troupes ni impôts que de l'assentiment des cercles. Il
                     convoqua une diète à Ratisbonne; et pendant qu'on y délibérait sur les demandes de
                     l'empereur, Métusko prenait Varsovie, renversait du trône le fantôme de roi qu'avait nommé
                     Rodolphe, dispersait, dépouillait ses partisans, s'en faisait chaque jour de nouveaux, et
                     se préparait à repasser la Vistule pour marcher par Sandomir au-devant des troupes qu'on
-                    enverrait contre lui de l'Autriche par la haute Hongrie.</p>
-                <p>Un comte de Munich, fidèle au parti de l'empereur, avait rassemblé à la hâte les garnisons
+                    enverrait contre lui de l'Autriche par la haute Hongrie.
+    </p>
+    <p>
+     Un comte de Munich, fidèle au parti de l'empereur, avait rassemblé à la hâte les garnisons
                     de Lencici, d'Iezow et de Rava. Il avança à marches forcées vers Varsovie pour disputer à
                     Métusko le passage du fleuve, lui faire perdre du temps et donner aux forces réunies des
                     Cereles celui d'entrer en Pologne, avant que les Palatinats, contenus encore par les
                     troupes impériales, se déclarassent pour les insurgés. S'il avait du désavantage, il
                     comptait se retirer dans les places qu'il venait d'évacuer, devant lesquelles il pouvait
-                    arrêter long-temps Métusko.</p>
-                <p>Son plan était sagement conçu et pouvait réussir, si son adversaire ne l'eût pénétré. Le
+                    arrêter long-temps Métusko.
+    </p>
+    <p>
+     Son plan était sagement conçu et pouvait réussir, si son adversaire ne l'eût pénétré. Le
                     fier Polonais dompta un moment son caractère fougueux. Il paraissait craindre les
                     Impériaux; il se retirait dans la ville, dès que leurs archers se montraient à l'autre
                     rive de la Vistule; il entamait des négociations, les rompait, se présentait de nouveau
-                    pour passer la rivière, et fuyait aux premiers traits qui lui étaient lancés.</p>
-                <p>Le général allemand connaissait l'intrépidité de Métusko; ses manœuvres ne pouvaient être
+                    pour passer la rivière, et fuyait aux premiers traits qui lui étaient lancés.
+    </p>
+    <p>
+     Le général allemand connaissait l'intrépidité de Métusko; ses manœuvres ne pouvaient être
                     l'effet de la crainte: il voulait donc l'engager lui-même à passer la Vistule pour le
                     combattre avec plus d'avantage dans le désordre qu'entraîne une semblable opération.
                     Munich était trop inférieur en forces pour hasarder une tentative de cette nature.
                     L'irrésolution apparente des Polonais secondait ses secrets desseins: il prit aussi le
-                    parti de temporiser, et campa à deux traits d'arbalète de la rivière.</p>
-                <p>Métusko sentait bien qu'il passerait aisément malgré les Impériaux; mais il fallait perdre
+                    parti de temporiser, et campa à deux traits d'arbalète de la rivière.
+    </p>
+    <p>
+     Métusko sentait bien qu'il passerait aisément malgré les Impériaux; mais il fallait perdre
                     du monde, et il voulait encourager de nouvelles troupes par un avantage éclatant qui ne
                     leur coûta ni sang ni efforts. Il avait remarqué dans les combats partiels qui s'étaient
                     précédemment livrés, l'intelligence, la sagesse et la bravoure de Sobieski: lorsque le
@@ -244,56 +359,74 @@
                     venir en toute diligence prendre le comte de Munich à dos. Dès que Sobieski paraîtrait
                     dans la plaine, il devait, lui, se jeter dans le fleuve avec toute sa cavalerie, et
                     attaquer les Allemands avec fureur. Tels étaient les motifs de la conduite vague et
-                    incertaine qu'il affectait depuis quelques jours.</p>
-                <p>Cependant Munich était un vieux général qu'on ne surprenait pas facilement. Ses éclaireurs
+                    incertaine qu'il affectait depuis quelques jours.
+    </p>
+    <p>
+     Cependant Munich était un vieux général qu'on ne surprenait pas facilement. Ses éclaireurs
                     lui rapportèrent qu'un corps nombreux paraissait sur les derrières et se déployait en
                     avant de Sohaczow. Le comte conçut alors l'étendue du danger où il était exposé; il
                     ignorait quel était ce gros de cavalerie; il décampa aussitôt et marcha à Sobieski,
-                    espérant le battre avant que Métusko eût connaissance de son arrivée.</p>
-                <p>Les voltigeurs allemands n'avaient reconnu que l'avant-garde, et Munich fut étonné d'avoir
+                    espérant le battre avant que Métusko eût connaissance de son arrivée.
+    </p>
+    <p>
+     Les voltigeurs allemands n'avaient reconnu que l'avant-garde, et Munich fut étonné d'avoir
                     en tête un corps d'armée assez fort pour disputer long-temps la victoire. Il chercha à se
                     l'assurer par une position avantageuse. Il se rangea sur une hauteur, défendue d'un côté
                     par un marais inaccessible aux chevaux, et de l'autre par un bois épais où il cacha cinq
                     cents arbalétriers. Ses troupes, toutes composées d'infanterie, pouvaient se porter
-                    par-tout selon les circonstances et avec facilité.</p>
-                <p>Sobieski sentit tout l'avantage de cette position. Cependant une impétuosité naturelle à la
+                    par-tout selon les circonstances et avec facilité.
+    </p>
+    <p>
+     Sobieski sentit tout l'avantage de cette position. Cependant une impétuosité naturelle à la
                     jeunesse le portait à attaquer seul et à ne partager avec personne l'honneur de cette
                     journée: un moment de réflexion le ramena à des sentimens plus généreux. Il se reprocha
                     d'avoir voulu sacrifier à son ambition la vie de tant de braves gens. Il dépêcha quelques
                     ordonnances à Varsovie, dont l'accès était libre par la retraite de Munich; il informait
-                    Métusko de la position du compte et lui demandait ses ordres.</p>
-                <p>Cette retraite même annonçait trop clairement que les Impériaux avaient été avertis de
+                    Métusko de la position du compte et lui demandait ses ordres.
+    </p>
+    <p>
+     Cette retraite même annonçait trop clairement que les Impériaux avaient été avertis de
                     l'approche de Sobieski, pour que Métusko eût besoin de cet avis. Les envoyés du jeune
                     Palatin le trouvèrent déjà en avant de Varsovie, marchant en ordre de bataille, et
                     étendant sa gauche vers Czersko, pour empêcher l'ennemi de fuir du côté de Sandomir et de
                     Cracovie qui tenaient encore pour l'empereur: toute autre retraite lui était coupée par la
-                    position de Sobieski.</p>
-                <p>Métusko fit dire au jeune guerrier de mettre pied à terre avec tout son monde, de laisser
+                    position de Sobieski.
+    </p>
+    <p>
+     Métusko fit dire au jeune guerrier de mettre pied à terre avec tout son monde, de laisser
                     les chevaux à la garde des valets et d'attaquer à l'instant par le marais. Il comptait
                     arriver assez tôt pour seconder puissamment Sobieski, envelopper Munich de toutes parts;
-                    et passer au fil de l'épée ce qui refuserait de mettre bas les armes.</p>
-                <p>Sobieski exécuta les ordres de son général avec la valeur d'un soldat, et la prudence d'un
+                    et passer au fil de l'épée ce qui refuserait de mettre bas les armes.
+    </p>
+    <p>
+     Sobieski exécuta les ordres de son général avec la valeur d'un soldat, et la prudence d'un
                     vieux général. Il passa le marais à travers une grêle de flèches qui s'émoussaient à la
                     vérité sur les armures de ses hommes-d'armes: mais lorsqu'il tenta de gravir la hauteur,
                     les troncs d'arbres, les quartiers de pierres roulèrent sur ses troupes, et renversèrent
                     des pelotons entiers. Il jugea par l'intelligence et l'ordre que Munich mettait dans sa
                     défense, par ses efforts constamment dirigés contre lui, que Métusko n'avait point attaqué
                     encore. Il ne le croyait pas capable d'une trahison; mais, quelle que fût la cause de ce
-                    retard, il vit bien qu'il fallait vaincre seul; il s'en applaudit, et s'y prépara.</p>
-                <p>Il n'était pas possible que les Allemands eussent en aussi peu de temps garni toute la
+                    retard, il vit bien qu'il fallait vaincre seul; il s'en applaudit, et s'y prépara.
+    </p>
+    <p>
+     Il n'était pas possible que les Allemands eussent en aussi peu de temps garni toute la
                     crête du mont de troncs d'arbres et de pierres; ces masses ne pouvaient être facilement
                     transportées sur les différens points où il porterait son attaque: il descendit la
                     montagne, la tourna en partie avec célérité, monta d'un autre côté, sans avoir à redouter
                     que des flèches impuissantes, joignit les Allemands corps à corps; et le cimeterre, l'épée
                     à deux mains, la massue, cherchèrent dans la mêlée, pourfendirent, écrasèrent Impériaux et
-                    Polonais.</p>
-                <p>Métusko était arrivé à la lisière du bois que les arbalétriers défendaient pied à pied; ils
+                    Polonais.
+    </p>
+    <p>
+     Métusko était arrivé à la lisière du bois que les arbalétriers défendaient pied à pied; ils
                     avaient jeté leurs arcs, leurs carquois, s'étaient embusqués dans les broussailles,
                     derrière des arbres, et la hache-d'armes abattait les Polonais qui osaient s'approcher, et
                     qui recevaient le coup de la mort avant d'avoir vu leur ennemi. Métusko furieux, traitait
                     de lâches les Allemands, et les défiait, selon l'usage de ces temps, de combattre à
-                    découvert, voyait tomber ses plus braves gentilshommes, et n'avançait pas.</p>
-                <p>Cependant il entendait le cliquetis des armes, et les cris des combattans qui s'égorgeaient
+                    découvert, voyait tomber ses plus braves gentilshommes, et n'avançait pas.
+    </p>
+    <p>
+     Cependant il entendait le cliquetis des armes, et les cris des combattans qui s'égorgeaient
                     sur la montagne. Sobieski avait affaire à des forces trop supérieures, et devait
                     infailliblement succomber: Métusko, aussi généreux que brave, se décida à le dégager ou à
                     périr. Il prit l'élite de ses troupes, ne laissa dans les bois que ce qu'il falloit de
@@ -301,8 +434,10 @@
                     avec vivacité, et se jeta tête baissée entre les Impériaux et Sobieski: il était temps; il
                     ne restait au jeune héros et aux siens que l'espoir de mourir en braves. L'amant de
                     Polinska avait prononcé pour la dernière fois le nom chéri, et allait se précipiter sur
-                    les lances allemandes: un prodige seul pouvait le sauver; Métusko l'opéra.</p>
-                <p>Déjà les soldats de Munich poussaient des cris de victoire: ils sont étonnés de voir une
+                    les lances allemandes: un prodige seul pouvait le sauver; Métusko l'opéra.
+    </p>
+    <p>
+     Déjà les soldats de Munich poussaient des cris de victoire: ils sont étonnés de voir une
                     armée nouvelle qui se range entre eux et ce Sobieski qu'ils avaient cru accablé. Le combat
                     recommence avec fureur; mais les Allemands fatigués ne portent plus que des coups faibles
                     et incertains; un acharnement féroce, le mépris de la vie, une force de corps
@@ -310,20 +445,28 @@
                     d'une aussi longue résistance, imitent leur chef, et portent par-tout la terreur et la
                     mont. Les Polonais crient victoire à leur tour, et la fixent en effet. Ce qui reste
                     d'Impériaux jette ses armes et demande la vie. Métusko ajoute à sa gloire, en épargnant
-                    des ennemis dont l'opiniâtre résistance a rendu son triomphe plus éclatant.</p>
-                <p>Il ne restait qu'à déloger les arbalétriers du bois: il donna des ordres; Sobieski les
+                    des ennemis dont l'opiniâtre résistance a rendu son triomphe plus éclatant.
+    </p>
+    <p>
+     Il ne restait qu'à déloger les arbalétriers du bois: il donna des ordres; Sobieski les
                     avait prévenus. Tourmenté du desir d'être utile encore, il avait inspiré sa noble
                     émulation à ceux qui venaient de partager ses dangers; et lorsque Métusko parut, il
                     recevait la parole d'honneur du chef des arbalétriers qui, se voyant attaqué sur ses
-                    derrières, jugea que la bataille était perdue, et se rendit prisonnier avec sa troupe.</p>
-                <p>Deux guerriers, assez grands pour ne pas connaître la jalousie, doivent nécessairement
+                    derrières, jugea que la bataille était perdue, et se rendit prisonnier avec sa troupe.
+    </p>
+    <p>
+     Deux guerriers, assez grands pour ne pas connaître la jalousie, doivent nécessairement
                     s'aimer Sobieski adimirait Métuskot: Métusko voyait avec intérêt dans le jeune palatin
                     l'espoir de la Pologne et son digne successeur. Il le combla d'éloges sur le champ de
-                    bataille, et s'empressa de lui donner des marques réelles d'estime et de confiance.</p>
-                <p>Il le chargea d'aller attaquer et prendre les trois villes que Munich avoit évacuées, d'y
+                    bataille, et s'empressa de lui donner des marques réelles d'estime et de confiance.
+    </p>
+    <p>
+     Il le chargea d'aller attaquer et prendre les trois villes que Munich avoit évacuées, d'y
                     lever des contributions, et d'engager la noblesse du pays à se rallier à la cause
-                    commune.</p>
-                <p>La mission était honorable sans doute; mais Sobieski avait laissé à Blonie plus que sa
+                    commune.
+    </p>
+    <p>
+     La mission était honorable sans doute; mais Sobieski avait laissé à Blonie plus que sa
                     gloire, plus que sa vie. Avant de voler à de nouveaux exploits, il brûlait de recueillir
                     le prix le plus doux de ses premiers faits d'armes, un sourire, un mot flatteur de
                     Polinska. L'intérêt de sa patrie l'emporta sur les plus chers sentimens de son cœur.
@@ -334,39 +477,51 @@
                     cœur amoureux comme d'une source inépuisable. Son vieil écuyer Wilfrid, qui dans les
                     combats prodiguait sa vie pour veiller sur la sienne, partit avec le précieux paquet,
                     chargé de dire, de répéter ce qui n'était pas exprimé dans la lettre, qui pourtant disait
-                    tout.</p>
-                <p>Laissons Sobieski suivre le cours de ses conquêtes, s'enfoncer dans le nord de la Pologne,
+                    tout.
+    </p>
+    <p>
+     Laissons Sobieski suivre le cours de ses conquêtes, s'enfoncer dans le nord de la Pologne,
                     à la tête d'une armée que son courage, sa douceur, son extérieur séduisant, et son
                     éloquence, grossissaient à chaque pas; laissons-le couvrir la frontière, et tantôt
                     attaquant, tantôt se tenant sur la défensive, déjouer tous les projets de l'électeur de
                     Saxe, qui cherchait à pénétrer dans le pays par les marches de Blandebourg. Revenons à
                     Métusko, contre qui Rodolphe s'avançait en personne par l'Autriche, la Moravie et la
-                    Silésie.</p>
-                <p>L'art de vaincre est peu de chose sans celui de profiter de la victoire: Métusko ne voulut
+                    Silésie.
+    </p>
+    <p>
+     L'art de vaincre est peu de chose sans celui de profiter de la victoire: Métusko ne voulut
                     pas perdre un moment. Ses troupes reposèrent sur le champ de bataille; au point du jour on
                     se mit en marche, et cette marche fut un triomphe. Les Polonais accouraient de toutes
                     parts pour voir le héros de la patrie; les jeunes gens s'enrôlaient sous ses étendards;
                     les mères le montraient à leurs enfans, trop jeunes encore pour s'associer à sa gloire;
                     les vieillards le comblaient de bénédictions; les jeunes filles semaient de fleurs les
-                    chemins par où il devait passer.</p>
-                <p>Métusko s'avança ainsi jusqu'à Blonie; il en était à peu de distance lorsqu'il vit un grand
+                    chemins par où il devait passer.
+    </p>
+    <p>
+     Métusko s'avança ainsi jusqu'à Blonie; il en était à peu de distance lorsqu'il vit un grand
                     nombre d'habitans qui venaient au-devant de lui au son des fanfares. Ils étaient conduits
                     par Polinski, courbé sous son antique armure, qu'il avait voulu revêtir encore en ce jour
                     mémorable. Sa fille, parée de ce que l'art peut ajouter aux dons de la nature, marchait à
                     côté de lui, montée sur un superbe palefroi, qui paraissait fier du fardeau qu'il portait.
                     Polinska avait reçu la lettre de Sobieski: elle ne devait pas le voir; mais elle pouvait
                     au moins entendre son éloge de la bouche même de son général, et l'amour ne connaît pas de
-                    demi-jouissances.</p>
-                <p>Métusko reçut Polinski comme un homme doublement respectable par son âge et ses anciens
+                    demi-jouissances.
+    </p>
+    <p>
+     Métusko reçut Polinski comme un homme doublement respectable par son âge et ses anciens
                     exploits. Polinska, encouragée par cet accueil flatteur, allait parler de celui pour qui
                     seul elle respire: Métusko la regarde; son œil enflammé ne peut se détacher d'elle;
-                    Polinska rougit, baisse la vue, et le nom chéri expire sur ses lèvres.</p>
-                <p>Le fier Polonais avait passé sa vie dans les camps, et jusqu'alors il avait considéré
+                    Polinska rougit, baisse la vue, et le nom chéri expire sur ses lèvres.
+    </p>
+    <p>
+     Le fier Polonais avait passé sa vie dans les camps, et jusqu'alors il avait considéré
                     l'amour comme une faiblesse indigne d'un grand cœur. Il conservait à quarante ans les
                     forces de sa première jeunesse, et jamais il n'avait souri à la beauté. Il éprouva, à la
                     vue de Polinska, non ce trouble qui précède un amour vrai et délicat, mais le besoin
-                    d'être heureux: extrême en tout, il devait aimer comme il faisait la guerre.</p>
-                <p>Polinski lui avait offert son château, et le logeait avec ses principaux officiers. Sa
+                    d'être heureux: extrême en tout, il devait aimer comme il faisait la guerre.
+    </p>
+    <p>
+     Polinski lui avait offert son château, et le logeait avec ses principaux officiers. Sa
                     fille, intimidée par cet air farouche qui alarme toujours la pudeur, s'était retirée au
                     milieu de ses femmes. Elle seule manquait à un festin somptueux, où les éloges, les
                     honneurs, les marques de déférence et de respect, furent prodigués à Métusko. Uniquement
@@ -378,8 +533,10 @@
                     forcent une réponse positive. Il offrit sa main avec la franchise sauvage d'un soldat qui
                     sait aimer, et qui ne sait pas le dire; il prit et baisa celle de Polinska avec la
                     confiance d'un homme à qui rien ne doit résister, et qui pense honorer la femme, quelle
-                    qu'elle soit, qu'il daigne élever jusqu'à lui.</p>
-                <p>Polinska, frappée d'une proposition aussi brusque, sentit les dangers d'un refus: elle
+                    qu'elle soit, qu'il daigne élever jusqu'à lui.
+    </p>
+    <p>
+     Polinska, frappée d'une proposition aussi brusque, sentit les dangers d'un refus: elle
                     gardait un profond silence; et sa pâleur et ses yeux éteints auraient éclairé tout homme
                     qui aurait eu l'expérience qui manquait à Métusko. Il attribua à la seule modestie une
                     incertitude et des alarmes qui flattaient en secret son orgueil; il n'était pas dans son
@@ -390,8 +547,10 @@
                     m'a inspirée; mon nom, mon rang, ma fortune, je mets tout à ses pieds: que le ministre des
                     autels consacre à l'instant mes vœux et les siens; aux premiers rayons du soleil, je
                     m'arrache des bras de mon épouse, je marche contre Rodolphe, et de nouvelles victoires
-                    illustreront votre gen“dre et votre maison.“</p>
-                <p>Avec beaucoup d'usage du monde on peut être embarrassé, interdit. Il est aisé de pressentir
+                    illustreront votre gen“dre et votre maison.“
+    </p>
+    <p>
+     Avec beaucoup d'usage du monde on peut être embarrassé, interdit. Il est aisé de pressentir
                     l'état où se trouva un vieux chevalier qui ne connaissait que la loyauté franche des
                     siècles reculés: il se recueillit quelques minutes, et pensa que l'unique moyen d'éteindre
                     un amour qui s'annonçait avec cet emportement, était de dissiper jusqu'à l'espoir. Pour la
@@ -400,13 +559,17 @@
                     prévalut de l'inviolabilité de la parole d'un noble Polonais; il insista sur l'obligation
                     qu'impose la nature à un père d'assurer le bonheur de ses enfans; il déclara enfin avec
                     modération, avec des marques de déférence, qu'il regrettait qu'un amour consacré par son
-                    consentement unît Sobieski à Polinska.</p>
-                <p>Métusko se tut à son tour; mais il était aisé de juger, à l'altération de ses traits, de ce
+                    consentement unît Sobieski à Polinska.
+    </p>
+    <p>
+     Métusko se tut à son tour; mais il était aisé de juger, à l'altération de ses traits, de ce
                     qui se passait dans son ame. Furieux d'un refus qui l'humiliait en présence de ses
                     lieutenans, sa poitrine se gonflait, son air était menaçant, sa main pressait la poignée
                     de son cimeterre, il semblait défier Polinski: il se contint cependant, une victoire
-                    facile était au-dessous de lui; il se retira avec ses officiers.</p>
-                <p>Polinski ignorait que sa fille eût refusé les propositions de Métusko. Il passa dans son
+                    facile était au-dessous de lui; il se retira avec ses officiers.
+    </p>
+    <p>
+     Polinski ignorait que sa fille eût refusé les propositions de Métusko. Il passa dans son
                     appartement et la trouva dans un état difficile à décrire. Tout ce qui peut affliger,
                     alarmer l'amour malheureux, agitait, tourmentait l'amante de Sobieski; elle eût inspiré la
                     pitié à Métusko luimême, si un sentiment de plus eût pu trouver place dans soncœur. Elle
@@ -421,8 +584,10 @@
                     influât sur ses sentimens envers Sobieski, et lui fît sacrifier à une passion aveugle les
                     grands intérêts dont il s'était chargé. Sa fille parut se rendre à ces raisons; il la crut
                     tranquille, il l'embrassa, et fut invoquer le sommeil, qui de long-temps ne devait fermer
-                    ses paupières.</p>
-                <p>Métusko, renfermé avec ses officiers, s'entretenait de l'affront qu'il croyait avoir reçu.
+                    ses paupières.
+    </p>
+    <p>
+     Métusko, renfermé avec ses officiers, s'entretenait de l'affront qu'il croyait avoir reçu.
                     Il ne concevait pas qu'on pût lui préférer un enfant qui à peine avait tiré l'épée.
                     Cependant cet enfant, beau, brave, riche, aimable, n'était pas un rival à dédaigner, et la
                     seule idée d'avoir à lui disputer un cœur irritait son amour-propre blessé, ajoutait à des
@@ -431,15 +596,19 @@
                     plaire en le livrant aux Impériaux; il voulait traîner Polinska à l'autel et la forcer à
                     recevoir sa main; il voulait que son père, que le ministre des autels, se montrassent
                     comme lui insensibles à la résistance et aux pleurs de la beauté; il voulait.... Que ne
-                    voulait-il pas?</p>
-                <p>Un officier, un de ces hommes qui n'ont d'autre mérite que de savoir braver la mort,
+                    voulait-il pas?
+    </p>
+    <p>
+     Un officier, un de ces hommes qui n'ont d'autre mérite que de savoir braver la mort,
                     Ragotzi capable de tout sacrifier au desir de plaire à son chef, Ragotzi plus féroce que
                     lui peut-être, indiqua un moyen affreux qui tranchait les difficultés, qui mettait
                     Polinska dans la dure nécessité de se donner à Métusko, ou de rougir devant tous les
                     hommes. Qu'importait le don de son cœur, premier besoin d'un amour délicat? C'est sa
                     personne que le Palatin voulait, dont il pouvait s'assurer, et des gens à lui répondraient
-                    pendant son absence de la vertu et des moindres démarches de son épouse.</p>
-                <p>Ce conseil atroce devait flatter l'impatiente frénésie d'un homme accoutumé à tout voir
+                    pendant son absence de la vertu et des moindres démarches de son épouse.
+    </p>
+    <p>
+     Ce conseil atroce devait flatter l'impatiente frénésie d'un homme accoutumé à tout voir
                     ployer devant lui. Il n'envisagea point les suites de cet horrible attentat. Le souvenir
                     des charmes de Polinska, l'idée plus enivrante qu'il se formait de ses appas secrets, de
                     la facilité de se satisfaire, troublèrent sa raison, égarèrent ses sens. Il jette loin de
@@ -451,13 +620,17 @@
                     l'heure, le lieu, tout se réunit pour inspirer les plus vives alarmes. Elles accourent
                     au-devant de lui; elles espèrent défendre l'entrée du sanctuaire, où le seul Sobieski doit
                     pénétrer un jour: les bras nerveux de Métusko les saisissent, les rassemblent, les
-                    poussent; la porte est fermée sur elles, Polinska est sans défense.</p>
-                <p>La malheureuse victime pensait à son amant. Elle lui parlait comme s'il eût pu l'entendre;
+                    poussent; la porte est fermée sur elles, Polinska est sans défense.
+    </p>
+    <p>
+     La malheureuse victime pensait à son amant. Elle lui parlait comme s'il eût pu l'entendre;
                     elle lui jurait fidélité comme si Métusko devait respecter ses sermens........ Il paraît.
                     Les remontrances, les prières, les menaces, les pleurs, les sanglots de la beauté, rien ne
                     le ramène à la raison. Le désordre où il l'a mise porte son délire au comble, il ne se
-                    connaît plus, il ose tout, Polinska pousse un cri perçant........ Elle est déshonorée.</p>
-                <p>Ses femmes avaient couru à l'appartement de son père, et le vieillard s'avançait aussi
+                    connaît plus, il ose tout, Polinska pousse un cri perçant........ Elle est déshonorée.
+    </p>
+    <p>
+     Ses femmes avaient couru à l'appartement de son père, et le vieillard s'avançait aussi
                     promptement que le permettait son âge. Il était suivi de ses plus fidèles domestiques, et
                     il portait dans ses débiles mains cette épée jadis si redoutable aux Turcs et aux
                     Hongrois. Il entre........ Un spectacle affreux l'éclaire, le glaive est levé, il va
@@ -467,8 +640,10 @@
                     inutile et obscur; j'ai prétendu m'assurer la possession d'une femme sans laquelle je ne
                     pouvais vivre, et ses suivantes et mes officiers savent qu'elle est à moi: c'est à toi
                     d'achever. Fais venir ton chapelain, nomme-moi ton gendre, je suis heureux, et tout est
-                    réparé.“</p>
-                <p>Ce parti était en effet le seul que pût adopter un père. C'était peut-être aussi l'unique
+                    réparé.“
+    </p>
+    <p>
+     Ce parti était en effet le seul que pût adopter un père. C'était peut-être aussi l'unique
                     qui convînt à Polinska. Mais comment s'accoutumer à envisager sans horreur l'homme qui
                     venait d'élever une barrière éternelle entre elle et Sobieski? comment se prêter à
                     d'odieuses caresses? comment partager des transports qui lui rappelleraient à chaque
@@ -479,8 +654,10 @@
                     rangera point sous ses lois. Je pleurerai ma honte et la perte que j'ai faite; mais ce
                     barbare n'obtiendra pas un prix de son lâche attentat. Qu'il retourne à son camp, qu'il
                     verse le sang à flots, qu'il s'en abreuve, qu'il s'en gorge, ce sont là ses plaisirs, il
-                    n'en doit pas connaître d'autres.“</p>
-                <p>Polinski était chevalier, et par conséquent incapable de ces froids calculs de convenance
+                    n'en doit pas connaître d'autres.“
+    </p>
+    <p>
+     Polinski était chevalier, et par conséquent incapable de ces froids calculs de convenance
                     et d'intérêt qui dirigent la plupart des hommes. Il ne voyait dans Métusko qu'un infâme
                     qui avait violé les droits de l'hospitalité, avili une fille digne de ses respects, rompu
                     un hymen sur lequel reposait la consolation de ses derniers jours. Désespéré que la
@@ -488,8 +665,10 @@
                     il invoquait Sobieski, il marchait à grands pas, il s'arrêtait devant sa fille, il la
                     fixait douloureusement, il essuyait ses pleurs; et s'adressant enfin à Métusko: „Sors, lui
                     dit-il, fuis d'un asile que tu as profané; délivre-nous pour jamais de ton odieuse
-                    présence.“</p>
-                <p>Toute idée de morale ne s'éteint entièrement que dans l'homme profondément pervers.
+                    présence.“
+    </p>
+    <p>
+     Toute idée de morale ne s'éteint entièrement que dans l'homme profondément pervers.
                     Métusko, soumis à des passions indomptables, incapable de souffrir aucun frein, était loin
                     pourtant d'être un scélérat. Sa première effervescence fut à peine calmée que la raison
                     avait repris quelque empire, et les discours de Polinska et de son père lui firent sentir
@@ -501,8 +680,10 @@
                     d'un lâche. Choisis lequel des deux tu veux être. Mon bras va châtier le premier, ou
                     chasser l'autre d'une armée où il n'est pas digne de servir. -- Si celui qui conseille est
                     un tigre, que dira-t-on de celui qui exécute? -- Qu'il s'est repenti, et qu'il a su punir
-                    l'homme froidement atroce, à qui une passion désordonnée ne pouvait servir d'excuse.“</p>
-                <p>Ragotzi était brave; mais la force du corps décidait tout alors, et personne ne pouvait
+                    l'homme froidement atroce, à qui une passion désordonnée ne pouvait servir d'excuse.“
+    </p>
+    <p>
+     Ragotzi était brave; mais la force du corps décidait tout alors, et personne ne pouvait
                     résister à Métusko. Les deux guerriers sont à peine à cent toises de leurs escadrons,
                     qu'ils se chargent avec fureur. Ragotzi, frappé à la poitrine d'un coup de lance qui
                     fausse sa cuirasse, perd les arçons et roule sur la poussière. Métusko saute de cheval,
@@ -515,15 +696,19 @@
                     „réparé, dit Métusko en remontant à cheval, il est au moins lavé dans le sang du premier
                     coupable: il ne reste plus qu'à me rendre justice à moi-même, et je jure de me faire tuer
                     à la première rencontre“. Par-tout en effet il chercha la mort, et par-tout il trouva la
-                    victoire.</p>
-                <p>On sera étonné peut-être que Polinski, dont le courage était devenu impuissant, n'armât
+                    victoire.
+    </p>
+    <p>
+     On sera étonné peut-être que Polinski, dont le courage était devenu impuissant, n'armât
                     point les lois contre un criminel qui avait encouru la peine de mort. Mais faire retentir
                     les tribunaux de ses plaintes, c'était divulguer la honte de sa fille, et ce malheureux
                     secret était concentré entre les officiers de Métusko, qui s'éloignaient, et des femmes
                     dont le dévouement était éprouvé. D'ailleurs que peuvent les lois contre un guerrier à qui
                     tout est soumis et qu'environnent sans cesse l'amour et l'admiration aveugles de ses
-                    troupes?</p>
-                <p>L'infortunée Polinska restait abandonnée à l'horreur de son sort. Seule avec son père, qui
+                    troupes?
+    </p>
+    <p>
+     L'infortunée Polinska restait abandonnée à l'horreur de son sort. Seule avec son père, qui
                     lui-même avait besoin de consolation, elle se rappelait en pleurant ces rêves de bonheur
                     qui devaient être suivis de jours si sereins et si doux. C'est lorsqu'on a perdu sans
                     retour un amant adoré, qu'on cherche, qu'on détaille ses agrémens, ses qualités, ses
@@ -537,15 +722,19 @@
                     secours. Ses bras s'agitent, s'alongent; elle croit saisir ou écarter le monstre: ce sont
                     les colonnes de son lit qu'elle a frappées de ses mains délicates. Les contusions la
                     réveillent; elle est à demi renversée, ses longs cheveux flottent sur le marbre, une sueur
-                    froide mouille tout son corps.</p>
-                <p>Son malheureux père souffre d'autant plus qu'il s'efforce de renfermer son chagrin. Sa
+                    froide mouille tout son corps.
+    </p>
+    <p>
+     Son malheureux père souffre d'autant plus qu'il s'efforce de renfermer son chagrin. Sa
                     fille est-elle devant lui, le calme est sur son front et la mort dans son cœur. Souvent au
                     milieu de ces entretiens, où chacun croit éloigner de l'autre des idées insupportables,
                     Polinska s'échappe pour dérober ses sanglots à son père; elle rentre: le bon vieillard la
                     fuit à son tour. Elle l'appelle, elle le cherche, elle le trouve dans un coin reculé du
                     château, dans les jardins, sur les terrasses. Il s'essuie les yeux à son approche, et il
-                    s'efforce de lui sourire.</p>
-                <p>Les lettres de Sobieski ajoutaient encore, s'il est possible, à l'horreur de leur
+                    s'efforce de lui sourire.
+    </p>
+    <p>
+     Les lettres de Sobieski ajoutaient encore, s'il est possible, à l'horreur de leur
                     situation. Toujours tendre, toujours fidèle, il faisait des vœux pour la paix qui pouvait
                     seule le ramener auprès de son amante; il espérait forcer de son côté l'ennemi à
                     reconnaître l'indépendance de la Pologne, et il ne doutait pas qu'un aussi grand homme que
@@ -554,15 +743,19 @@
                     Il reconnaîtrait, il marquerait avec elle l'arbre sous lequel il l'avait trouvée assise;
                     ils cultiveraient ensemble ces lys qu'elle effeuillait en pensant à lui. C'est sous cette
                     allée solitaire que le premier gage de leur union essaierait ses premiers pas; c'est là
-                    que, des bras de sa mère chérie, il passerait dans ceux de son trop fortuné père.</p>
-                <p>Et c'est sous cette allée même, à la place que désignait Sobieski, que Polinska lisait,
+                    que, des bras de sa mère chérie, il passerait dans ceux de son trop fortuné père.
+    </p>
+    <p>
+     Et c'est sous cette allée même, à la place que désignait Sobieski, que Polinska lisait,
                     relisait, dévorait ces lettres désespérantes; c'est là que ses pleurs et ses baisers
                     effaçaient des caractères qui passaient du vélin dans son cœur. Alors elle laissait tomber
                     sa tête sur sa poitrine; un profond accablement succédait à la crise qui l'avait agitée;
                     et revenant tout-à-coup au sentiment de son malheur, elle s'écriait d'un ton de voix
                     lugubre: „Le crime m'a souillée; tu ne reverras plus l'allée solitaire, tu n'as plus
-                    d'épouse, tu n'embrasseras jamais ton fils.</p>
-                <p>Cet état violent durait depuis plusieurs mois; il avait ruiné les organes déjà usés du
+                    d'épouse, tu n'embrasseras jamais ton fils.
+    </p>
+    <p>
+     Cet état violent durait depuis plusieurs mois; il avait ruiné les organes déjà usés du
                     vieillard, et embrasé le sang de sa fille. Tous deux furent frappés en même temps d'une
                     maladie qui les conduisit rapidement aux portes du tombeau. Le père y trouva un asile
                     contre la douleur; la jeunesse de Polinska, les soins assidus de Clotilde, celle de ses
@@ -571,15 +764,19 @@
                     courage.... Hélas, elle n'en avait plus. Ses yeux se refermèrent, elle invoqua la mort,
                     elle eût fini par se la donner peutêtre... Des mouvemens prononcés l'avertissent que ses
                     jours ne sont plus à elle, et qu'elle est condamnée à vivre pour un être qui n'est pas
-                    coupable du crime de son père.</p>
-                <p>Les premières lettres qu'on avait répondues à Sobieski, portaient l'empreinte de la plus
+                    coupable du crime de son père.
+    </p>
+    <p>
+     Les premières lettres qu'on avait répondues à Sobieski, portaient l'empreinte de la plus
                     douce sensibilité et du charme de l'espérance. Celles qu'il avait fallu lui écrire après
                     le fatal événement étaient contraintes, obscures, froides quelquefois. On craignait d'y
                     laisser percer un sentiment qu'il fallait surmonter; on craignait sur-tout de flatter le
                     malheureux jeune homme d'un bonheur auquel ni l'un ni l'autre ne pouvaient plus prétendre:
                     on lui écrivait cependant. Pouvait-on se refuser cette triste consolation? Pouvait-on
-                    rompre sans ménagemens avec ce qu'on aimait, ce qu'on aimerait toute la vie.</p>
-                <p>De toutes les passions qui font la félicité ou le tourment de l'homme, il n'en est point
+                    rompre sans ménagemens avec ce qu'on aimait, ce qu'on aimerait toute la vie.
+    </p>
+    <p>
+     De toutes les passions qui font la félicité ou le tourment de l'homme, il n'en est point
                     qui s'alarme aussi facilement que l'amour. Sobieski ne retrouvait plus ce style animé,
                     enchanteur, qui l'aidait à supporter une longue séparation. L'absence l'aurait-elle déjà
                     changée? Irait-elle jusqu'à oublier des engagemens que la mort seule devait rompre? Un
@@ -594,16 +791,20 @@
                     de ses pensées à l'audacieux qui croit la lui ravir; il a donné ses ordres au fidèle
                     Wilfrid, qui sent les inconvéniens de cette démarche, mais qui est assez faible pour
                     préférer le repos de son maître à sa gloire; les chevaux sont tirés à l'écart; Sobieski se
-                    dérobe de son camp au milieu de la nuit.</p>
-                <p>A peine a-t-il fait quelques pas, qu'il s'arrête, effrayé de sa désertion. Que dira la
+                    dérobe de son camp au milieu de la nuit.
+    </p>
+    <p>
+     A peine a-t-il fait quelques pas, qu'il s'arrête, effrayé de sa désertion. Que dira la
                     Pologne entière qui a sur lui les yeux? que pensera la postérité qui juge sans passion?
                     Qu'il a sacrifié son honneur à l'amour, et sa patrie à une femme inconstante; qu'il a
                     livré pour elle au glaive des Impériaux la fleur de la noblesse polonaise. Il voit sa
                     mémoire flétrie, et son nomrangé parmi ceux des traîtres. Il frémit, il cache son visage
                     dans ses mains, comme si le soleil éclairait déjà sa honte, comme si trente mille témoins
                     la publiaient autour de lui.... „Non, dit-il, non jamais. Laissons la perfidie à un sexe
-                    astucieux, brisons d'indignes fers, et ne pensons plus qu'au salut de la Pologne.“</p>
-                <p>Il rentre dans sa tente, et passe le reste de cette nuit cruelle à combattre
+                    astucieux, brisons d'indignes fers, et ne pensons plus qu'au salut de la Pologne.“
+    </p>
+    <p>
+     Il rentre dans sa tente, et passe le reste de cette nuit cruelle à combattre
                     alternativement l'amour et le devoir. Il aimait trop, pour que Polinska ne conservât point
                     des droits, que sa raison s'efforçait en vain de proscrire. Il voulut s'assurer d'un
                     malheur, dont il croyait ne pouvoir plus douter; il voulut le connaître dans les moindres
@@ -611,8 +812,10 @@
                     „Pars, dit-il à Wilfrid, entre en secret à Blonie, informe-toi avec adresse de ce qu'elle
                     fait, de ce qu'elle dit, de ce qu'elle pense même, si cela est possible; sache sur-tout le
                     nom de celui que l'ingrate me préfère “. Wilfrid, également attaché et soumis, monte à
-                    cheval à l'instant, et promet à son maître de suivre fidèlement ses instructions.</p>
-                <p>C'était un vieillard simple et bon, à qui la ruse était étrangère, et qui n'était jamais
+                    cheval à l'instant, et promet à son maître de suivre fidèlement ses instructions.
+    </p>
+    <p>
+     C'était un vieillard simple et bon, à qui la ruse était étrangère, et qui n'était jamais
                     plus facile à pénétrer que lorsqu'il essayait la dissimulation. Son hôtelier, et tous ceux
                     à qui il parla à Blonie, jugèrent d'abord que les alarmes de Sobieski étaient la cause de
                     son voyage: mais le fatal événement n'avait pas percé au- delà des murs du château, et les
@@ -624,27 +827,39 @@
                     et n'avait prononcé que son nom. Wilfrid était rassuré par ces détails satisfaisans; mais
                     comment les accorder avec ces lettres glacées qui avaient d'abord blessé Sobieski, avec le
                     silence que gardait Polinska depuis sa convalescence? Un homme plus pénétrant que Wilfrid
-                    eût été embarrassé comme lui.</p>
-                <p>Il pensa que la jeune dame était conduite par des motifs qu'elle seule pouvait expliquer.
+                    eût été embarrassé comme lui.
+    </p>
+    <p>
+     Il pensa que la jeune dame était conduite par des motifs qu'elle seule pouvait expliquer.
                     Son maître ne lui avait pas défendu de l'approcher; et, puisqu'il était encore aimé, quel
                     inconvénient que son écuyer demandât un entretien qui devait justifier l'amante, dissiper
                     les soupçons de l'amant, et rétablir l'harmonie entre deux cœurs évidemment faits l'un
-                    pour l'autre?</p>
-                <p>Il arrive au château: personne aux portes. Il entre, il passe d'une piece dans une autre,
+                    pour l'autre?
+    </p>
+    <p>
+     Il arrive au château: personne aux portes. Il entre, il passe d'une piece dans une autre,
                     comme au temps où la beauté modeste allait au-devant de lui, souriait en recevant ses
                     messages, rougissait en lui confiant les siens. Il rencontre enfin Clotilde; il
                     s'attendait à l'accueil affectueux qu'il en recevait autrefois: elle fuit à son approche;
-                    les portes se ferment après elle. Il reste stupéfait, anéanti.</p>
-                <p>Une des compagnes de Clotilde entre dans la salle par une autre porte, lui dit deux mots
-                    seulement, <hi rend="italic">attendez ici</hi>, et se retire. Wilfrid s'assied et cherche
+                    les portes se ferment après elle. Il reste stupéfait, anéanti.
+    </p>
+    <p>
+     Une des compagnes de Clotilde entre dans la salle par une autre porte, lui dit deux mots
+                    seulement,
+     <hi rend="italic">
+      attendez ici
+     </hi>
+     , et se retire. Wilfrid s'assied et cherche
                     en vain à se rendre compte de cette conduite mystérieuse. Une heure s'écoule; une seconde
                     ensuite: Polinska, Clotilde, personne ne paraît. L'écuyer ne sait que penser, que faire,
                     que devenir. Fatigué d'attendre inutilement, il se lève, et il allait sortir lorsque
                     Clotilde rentre, lui remet une lettre, s'échappe et referme de nouveau les portes, sans
                     vouloir répondre à une seule des questions qui se succèdent avec rapidité. Wilfrid remonte
                     à cheval et reprend le chemin du camp, en prononçant que la raison de la jeune dame et
-                    celle de ses suivantes étaient indubitablement altérées.</p>
-                <p>Polinska avait appris l'arrivée de l'écuyer à Blonie, et sa présence inattendue ajoutait à
+                    celle de ses suivantes étaient indubitablement altérées.
+    </p>
+    <p>
+     Polinska avait appris l'arrivée de l'écuyer à Blonie, et sa présence inattendue ajoutait à
                     sa peine et à son embarras. Comment se défendre du desir de le le voir, et d'entendre de
                     sa bouche les moindres choses qui ont rapport à un homme adoré? Mais aussi comment
                     paraître devant lui dans l'état où le crime l'a mise? Depuis qu'elle en a la triste
@@ -660,8 +875,10 @@
                     écuyer; mais le laisser plus long-temps en proie aux alarmes qui le tourmentent sans doute
                     ..... Non, l'affreuse vérité sortira de ma plume; je romprai: le sacrifice est horrible;
                     mais il est indispensable. Je vais renoncer au bonheur de ma vie, et je la supporterai
-                    pour l'enfant..... Ah!“</p>
-                <p>Elle écrit; et l'amour dicte pour la dernière fois. Le commencement de sa lettre est
+                    pour l'enfant..... Ah!“
+    </p>
+    <p>
+     Elle écrit; et l'amour dicte pour la dernière fois. Le commencement de sa lettre est
                     brûlant; son cœur est un foyer d'où s'échappent par torrent des feux si long-temps
                     concentrés. Cependant ces phrases préliminaires ne disent rien encore. Il faut entamer
                     l'horrible récit..... Sa plume tombe de sa main; elle n'a pas la force de tracer ce
@@ -671,23 +888,31 @@
                     amours..... Et moi, je lui serai fidèle en secret. Seule avec cet enfant, le premier mot
                     qu'il apprendra à prononcer sera le nom de Sobieski. Cruel enfant, que tu coûtes cher à ta
                     malheureuse mère“! Elle écrit de nouveau: cette lettre, plusieurs autres, sont déchirées
-                    encore; celle-ci est enfin remise à Wilfrid.</p>
-                <p>„Nos affections ne dépendent pas de nous. Je vous ai beaucoup aimé; le temps et l'absence
+                    encore; celle-ci est enfin remise à Wilfrid.
+    </p>
+    <p>
+     „Nos affections ne dépendent pas de nous. Je vous ai beaucoup aimé; le temps et l'absence
                     ont changé mes sentimens. Je renonce à vous sans retour, et vous feriez de vains efforts
                     pour vous rapprocher de moi. Quelque opinion que vous ayez de mon inconstance, recevez ma
                     dernière et inviolable promesse, que jamais nul homme n'aura de droits sur mon cœur, ni de
-                    prétentions fondées à ma main.“</p>
-                <p>Ce billet devait jeter Sobieski dans le dernier désespoir; mais il fallait qu'il perdît
+                    prétentions fondées à ma main.“
+    </p>
+    <p>
+     Ce billet devait jeter Sobieski dans le dernier désespoir; mais il fallait qu'il perdît
                     totalement l'espérance; il fallait qu'il fût profondément blessé pour trouver le courage
                     de combattre son amour, et Polinska l'aimait assez pour désirer sincèrement qu'il pût se
-                    détacher d'elle.</p>
-                <p>Le jeune palatin entra en effet en fureur après avoir lu: mais ce qu'avait prévu son amante
+                    détacher d'elle.
+    </p>
+    <p>
+     Le jeune palatin entra en effet en fureur après avoir lu: mais ce qu'avait prévu son amante
                     arriva. Le dépit, l'amour-propre, toutes les petites passions qu'il partageait avec les
                     hommes ordinaires lui furent utiles cette fois, et commandèrent des efforts sur luimême,
                     qui le ramenèrent à un état supportable. Les travaux de la guerre éloignèrent son
                     imagination d'un objet qui lui fut constamment cher, mais qui du moins ne l'occupa plus
-                    que par intervalle.</p>
-                <p>Cependant Polinska supportait seule le poids de leurs malheurs communs; et souvent sa
+                    que par intervalle.
+    </p>
+    <p>
+     Cependant Polinska supportait seule le poids de leurs malheurs communs; et souvent sa
                     raison, qu'elle invoquait sans cesse, était insuffisante. Elle semblait s'être attachée
                     plus fortement encore à Sobieski, par le sacrifice qu'elle avait eu la force de consommer.
                     Quelquefois elle desirait qu'il revînt, qu'il lui arrachât son secret, qu'il fût convaincu
@@ -695,8 +920,10 @@
                     illusions qui ont toujours des charmes pour une femme sensible, et qui font trève à ses
                     douleurs: mais si ses yeux se portaient alors sur elle-même, si des tressaillemens
                     intérieurs se faisaient sentir, elle se réveillait aussitôt, le songe s'évanouissait, elle
-                    retrouvait sa misère, et devant elle se présentait le long et douloureux avenir.</p>
-                <p>Elle traîna ainsi son existence jusqu'au moment où elle devint mère. Ce moment si doux pour
+                    retrouvait sa misère, et devant elle se présentait le long et douloureux avenir.
+    </p>
+    <p>
+     Elle traîna ainsi son existence jusqu'au moment où elle devint mère. Ce moment si doux pour
                     l'épouse chérie qu'entourent une maman prudente et attentive, un époux qui attend le
                     premier cri de l'enfant desiré, la jeune amie qui elle-même est mère, et qui l'encourage à
                     supporter des douleurs que doivent suivre tant de jouissances nouvelles, ce moment fut
@@ -704,8 +931,10 @@
                     Clotilde et sa compagne, qui toutes deux ignoraient cet art bienfaiteur qui aide à la
                     nature, sans autre appui que leurs plaintes stériles, sans espérer qu'aucune consolation
                     succédera au mal aigu qui la déchire, elle donne le jour à un fils qui a causé tous ses
-                    malheurs, et que pourtant elle arrose de ses larmes maternelles.</p>
-                <p>La fidèle Clotilde avait éloigné les gens du château sous différens prétextes. Elle
+                    malheurs, et que pourtant elle arrose de ses larmes maternelles.
+    </p>
+    <p>
+     La fidèle Clotilde avait éloigné les gens du château sous différens prétextes. Elle
                     s'enveloppe dans sa cape; elle cache soigneusement l'enfant; elle sort de Blonie par les
                     rues les moins fréquentées; elle entre dans la campagne sans savoir à quelles mains elle
                     confiera le dépôt dont elle est chargée. La crainte d'être connue de quelquesuns des serfs
@@ -724,21 +953,27 @@
                     présenté à propos achève de persuader; l'innocent partage avec le nouveau né le lait et
                     les soins de la jeune femme, qui se félicite de pouvoir ménager ainsi quelques momens de
                     repos au père de ses enfans. C'est désormais dans ce bois que Polinska, déguisée en femme
-                    du peuple, ira avec mille précautions s'affliger et s'applaudir d'être mère.</p>
-                <p>Quatre ans s'écoulèrent; et les fléaux, enfans de la guerre, avaient alternativement pesé
+                    du peuple, ira avec mille précautions s'affliger et s'applaudir d'être mère.
+    </p>
+    <p>
+     Quatre ans s'écoulèrent; et les fléaux, enfans de la guerre, avaient alternativement pesé
                     sur les Polonais et les Impériaux. Les grands talens de Métusko, ceux qu'avait
                     insensiblement acquis Sobieski avaient enfin fixé la fortune. Rodolphe, forcé de renoncer
                     à ses prétentions, avait affranchi la Pologne du tribut qu'elle payait, et avait consenti
                     qu'elle se choisit des maîtres. Les Polonais se livraient à la joie et oubliaient au
-                    milieu des fêtes leurs sacrifices, leur misère et le sang qu'ils avaient versé.</p>
-                <p>Sobieski, rassasié d'honneurs et rendu au repos, retrouva dans l'oisiveté le germe des
+                    milieu des fêtes leurs sacrifices, leur misère et le sang qu'ils avaient versé.
+    </p>
+    <p>
+     Sobieski, rassasié d'honneurs et rendu au repos, retrouva dans l'oisiveté le germe des
                     sentimens qu'il avait crus éteints, et qui n'étaient que comprimés au fond de son cœur.
                     L'image de Polinska se reproduisait sans cesse telle qu'elle était lorsqu'elle répondait
                     avec des graces naïves aux expressions de son amour. Elle n'aimait plus, elle l'avait
                     écrit; cependant fidèle à sa promesse, elle évitait les regards de tous les hommes, et la
                     renommée ne parlait d'elle que pour rendre hommage aux vertus modestes qu'elle cultivait
-                    dans le recueillement.</p>
-                <p>Peut-être la présence de l'amant qui lui fut si cher ranimera ses premiers feux; peut-être
+                    dans le recueillement.
+    </p>
+    <p>
+     Peut-être la présence de l'amant qui lui fut si cher ranimera ses premiers feux; peut-être
                     sa résolution bizarre cédera aux prières, aux supplications, au besoin d'aimer, si naturel
                     à vingt ans. Il suffit d'espérer pour hasarder quel-que chose; et qu'a-t-on à ménager,
                     quand on a tout perdu? Sobieski part du Palatinat de Posnanie; il traverse les montagnes
@@ -750,11 +985,15 @@
                     continue de l'exciter machinalement de l'aiguillon; il entre dans ce bois où s'élevait le
                     fils de Métusko; il n'est plus qu'à deux lieues de Blonie: le soleil est sur son déclin;
                     mais avant que les ténèbres lui dérobent sa route, il sera aux pieds de celle qui a repris
-                    sur lui son premier empire.</p>
-                <p>Son cheval, excédé de fatigue, s'abat tout-à-coup sous lui, et il fait de vains efforts
+                    sur lui son premier empire.
+    </p>
+    <p>
+     Son cheval, excédé de fatigue, s'abat tout-à-coup sous lui, et il fait de vains efforts
                     pour le relever. Il regarde derrière lui: ses gens, moins avantageusement montés, n'ont pu
-                    le suivre que de loin. Il appelle: l'écho seul répond à sa voix.</p>
-                <p>On ne connaissait alors ni ces belles routes entretenues aux frais du public ni ces
+                    le suivre que de loin. Il appelle: l'écho seul répond à sa voix.
+    </p>
+    <p>
+     On ne connaissait alors ni ces belles routes entretenues aux frais du public ni ces
                     établissemens utiles où le voyageur reçoit en échange de quelque argent les soins de
                     l'hospitalité. Sobieski prévit bien que Wilfrid et ses valets se dirigeraient sur Blonie
                     par les premier sentiers qui se présenteraient à eux. Le hasard seul pouvait les mettre
@@ -768,45 +1007,59 @@
                     ou le flexible arbuste. Il entre dans une simple chaumière que décore la propreté. Une
                     femme, jeune encore, faisait souper trois enfans qu'appelaient la paille fraîche et le
                     sommeil. Elle est effrayée à l'aspect d'un guerrier, dont l'armure bronzée lui rappelle la
-                    gloire et les malheurs de la Pologne.</p>
-                <p>Sobieski lève la visière de son casque, et la douceur de ses traits rassure l'aimable
+                    gloire et les malheurs de la Pologne.
+    </p>
+    <p>
+     Sobieski lève la visière de son casque, et la douceur de ses traits rassure l'aimable
                     villageoise: il se décoiffe entièrement; ses longs cheveux blonds tombent en boucles sur
                     ses épaules, sans cacher le sourcil noir qui s'arrondit sur un œil bleu; et la jeune
                     hôtesse, tout-à-fait remise, lui demande, en souriant, à quoi elle peut lui être bonne? „A
                     me trouver quelqu'un qui veuille bien me conduire à Blonie, répond le jeune homme d'un son
-                    de voix argentin.“</p>
-                <p>Le mari de la paysanne est allé au-devant de deux dames qui ne doivent pas tarder à
+                    de voix argentin.“
+    </p>
+    <p>
+     Le mari de la paysanne est allé au-devant de deux dames qui ne doivent pas tarder à
                     arriver, qui s'en retourneront vers minuit, et qu'il reconduira encore. Le preux chevalier
                     pourra les accompagner, et les dames n'en seront pas fâchées, car elles sont peureuses. En
                     attendant, on offre de bon cœur du lait, des fruits, et la galette de farine de seigle.
                     Attendre était précisément ce que Sobieski voulait éviter. Mais comment faire? La jolie
-                    petite femme ne pouvait laisser ses enfans à euxmêmes; il fallut qu'il se résignât.</p>
-                <p>Quelque chagrin qui afflige un jeune chevalier, il n'est pas insensible aux graces simples
+                    petite femme ne pouvait laisser ses enfans à euxmêmes; il fallut qu'il se résignât.
+    </p>
+    <p>
+     Quelque chagrin qui afflige un jeune chevalier, il n'est pas insensible aux graces simples
                     d'une femme quelconque, et il n'est pas à table avec elle sans lui adresser la parole. On
                     est toujours bien aise de connaître le gentil damoisel à qui on s'attache par les services
                     même qu'on lui rend. La conversation s'engage, les questions suivent: Sobieski y répond
-                    franchement.</p>
-                <p>Le nom du jeune héros a pénétré jusque dans la forêt. La sensible villageoise, frappée
+                    franchement.
+    </p>
+    <p>
+     Le nom du jeune héros a pénétré jusque dans la forêt. La sensible villageoise, frappée
                     d'admiration et de respect, va prendre ses enfans, les amène à ses pieds et y tombe avec
                     eux. Sobieski les relève, les embrasse et prend sur ses genoux le plus beau des marmots.
                     Il lui parle, et il en reçoit des réponses satisfaisantes; il le caresse, et l'enfant
                     enhardi laisse échapper des traits qui annoncent de l'esprit naturel. La galette, le lait,
                     les fruits, tout devient commun entr'eux; et le petit, protégé, enchanté des procédés du
-                    chevalier, lui rend ses caresses avec usure.</p>
-                <p>Sobieski avait le dos tourné à la porte. Au moment où il recevait cent baisers de l'enfant,
+                    chevalier, lui rend ses caresses avec usure.
+    </p>
+    <p>
+     Sobieski avait le dos tourné à la porte. Au moment où il recevait cent baisers de l'enfant,
                     le maître du logis rentre, accompagné de deux femmes enveloppées dans de longues capes.
                     Une d'elles apperçoit le bambin dans les bras d'un homme qui sans doute ne la connaît pas,
                     et qui ne doit point lui inspirer de défiance. Elle s'avance avec vivacité, les bras
                     étendus en avant: „Mon fils! mon cher fils! s'écrie-t-elle, et fixant le Palatin, Dieu!
                     grand Dieu! c'est lui, c'est la foudre.... Seigneur, je ne suis pas coupable “; et elle
-                    tombe sans connaissance sur le carreau.</p>
-                <p>Sobieski a reconnu cette voix, qui si long-temps flatta son oreille. Il relève
+                    tombe sans connaissance sur le carreau.
+    </p>
+    <p>
+     Sobieski a reconnu cette voix, qui si long-temps flatta son oreille. Il relève
                     l'infortunée, par un mouvement involontaire; et, se rappelant aussitôt ces mots qui l'ont
                     frappé: „Mon fils!... mon fils... je ne suis pas coupable“: sa jalousie se rallume, sa
                     fierté se réveille; il sort déterminé à fuir tous les lieux où la femme perfide et
                     dissimulée pourrait s'offrir à ses regards. Il va se confiner dans ses terres, et y
-                    attendre le terme de ses jours douloureux.</p>
-                <p>Déjà il s'est détaché des bras de Polinka, qui ne saurait parler encore, mais qui a repris
+                    attendre le terme de ses jours douloureux.
+    </p>
+    <p>
+     Déjà il s'est détaché des bras de Polinka, qui ne saurait parler encore, mais qui a repris
                     ses sens, qui démêle sur son visage les passions qui l'agitent, et qui semble vouloir le
                     retenir pour lui faire entendre sa justification. Déjà il a franchi le seuil de la
                     chaumière; troublé, hors de lui, il marche au hasard; il s'éloigne d'elle, c'est assez.
@@ -814,8 +1067,10 @@
                     sur ses pas, elle veut l'éclairer et le rendre à la raison; un “mot, seigneur, un mot. --
                     J'en ai trop entendu. -- Les apparences vous abusent. -- Elle est mère, elle en a fait
                     l'aveu. -- Et pourtant elle est innocente. -- Impossible, impossible. -- Je le jure, et je
-                    vais le prouver.“</p>
-                <p>Clotilde lui raconte l'arrivée de Métusko, son amour et ses propositions, le refus de
+                    vais le prouver.“
+    </p>
+    <p>
+     Clotilde lui raconte l'arrivée de Métusko, son amour et ses propositions, le refus de
                     Polinska, l'action horrible qu'il a produite, les regrets, les larmes, la constance de sa
                     maîtresse, le sacrifice qu'elle a fait de son bonheur à l'homme qui aimait assez pour
                     l'épouser, chargée d'une infamie dont elle n'est pas complice, mais dont il partagerait la
@@ -830,8 +1085,10 @@
                     qu'elle ait goûté depuis quatre ans. Elle oublie, au sein du plus séduisant délire, son
                     enfant, son détestable père, et ses premières résolutions. Tout ce que peut accorder
                     l'innocence, elle le prodigue à son amant; toutes les sensations délicieuses qui
-                    appartiennent au cœur humain enivrent celui de Sobieski.</p>
-                <p>Céleste ivresse, qui nous élevez au-dessus de notre être, et qui semblez une émanation de
+                    appartiennent au cœur humain enivrent celui de Sobieski.
+    </p>
+    <p>
+     Céleste ivresse, qui nous élevez au-dessus de notre être, et qui semblez une émanation de
                     la divinité, pourquoi n'êtes-vous pas éternelle comme votre auteur? A-t-il voulu que nous
                     pussions pressentir l'étendue de sa félicité, et nous avertir, par un prompt retour sur
                     nous-mêmes, qu'elle n'est pas faite pour nous? Insensiblement le charme qui égarait
@@ -841,8 +1098,10 @@
                     expressions de l'amour le plus pur et le plus tendre; c'est un soldat blessé dans ce qu'il
                     a de plus cher, qui ne respire que le sang, qui en est altéré, qui brûle de le répandre.
                     Cent lieues le séparent de Métusko, il le croit au moins; mais il les franchira sur les
-                    ailes de la vengeance, et la sienne sera affreuse comme le crime qui l'a provoquée.</p>
-                <p>Ce n'est pas assez pour Polinska de ce qu'elle a déjà souffert; il faut encore qu'elle
+                    ailes de la vengeance, et la sienne sera affreuse comme le crime qui l'a provoquée.
+    </p>
+    <p>
+     Ce n'est pas assez pour Polinska de ce qu'elle a déjà souffert; il faut encore qu'elle
                     tremble pour les jours de son amant. Ce que l'éloquence a de plus fort, le sentiment de
                     plus persuasif, sont employés pour le détourner de son sinistre projet; il n'écoute, il
                     n'entend rien. Elle prend son fils, elle ose le lui présenter. „Il est innocent aussi, et
@@ -857,15 +1116,19 @@
                     vive, ce monstre que je déteste, que je méprise! Hé bien, madame, il vivra, je me sens
                     capable de cet effort. Mais si je vous immole ma haine, vous abjurerez vos préjugés. Soyez
                     mon épouse; j'adopte votre fils, et je suis assez généreux pour lui vouer la tendresse
-                    d'un père.“</p>
-                <p>Que pouvoit répondre Polinska? Exposerait-elle par une plus longue résistance les jours de
+                    d'un père.“
+    </p>
+    <p>
+     Que pouvoit répondre Polinska? Exposerait-elle par une plus longue résistance les jours de
                     Sobieski? Sa double proposition ne prouvait-elle pas l'excès de sa délicatesse, ne
                     devait-elle pas la rassurer sur les procédés à venir, et ne comblaitelle point ses vœux
                     les plus doux? Elle serait à l'homme qu'elle adorait; elle pourrait avouer un fils qui lui
                     était cher et à qui son époux donnerait son nom; ils iraient tous trois dans des terres
                     éloignées de Sobieski cacher leur félicité présente, et perdre le souvenir de leurs
-                    malheurs passés.</p>
-                <p>C'est par ces motifs que la raison de Polinska ne pouvait rejeter, que Sobieski et sa
+                    malheurs passés.
+    </p>
+    <p>
+     C'est par ces motifs que la raison de Polinska ne pouvait rejeter, que Sobieski et sa
                     fidèle Clotilde essayaient de la vaincre. Elle écoutait, elle applaudissait quelquefois,
                     elle balançait cependant encore, quoiqu'en secret elle brulât de se rendre, tant était
                     forte, dans ces temps qu'on appelle grossiers, l'opinion qu'avait une femme de la retenue
@@ -874,16 +1137,20 @@
                     l'aimable jeune homme et la bonne Clotilde, et le bûcheron et sa femme, et Wilfrid et les
                     valets, qui arrivent alors, unissent leurs vœux, leurs prières, et la pressent à genoux de
                     consentir à être heureuse. „Puisses-tu l'être toujours toi-même, répond-elle avec une
-                    modeste rougeur, et ne jamais oublier que je m'étais jugée indigne de toi.“</p>
-                <p>Ce fut dans la chaumière même du bûcheron, au milieu des transports d'une joie naïve et
+                    modeste rougeur, et ne jamais oublier que je m'étais jugée indigne de toi.“
+    </p>
+    <p>
+     Ce fut dans la chaumière même du bûcheron, au milieu des transports d'une joie naïve et
                     pure, que furent arrêtés les préparatifs d'un hymen si desiré. Polinska et Sobieski
                     s'aimaient, se le disaient, ne se lassaient pas de le dire, et ne s'occupaient point de ce
                     qui se passait autour d'eux: l'amour sait être solitaire par-tout. Mais Clotilde
                     ingénieuse et gaie réglait la marche et la succession des fêtes. Wilfrid, partisan de
                     l'antique cérémonial, prononçait sur les choses d'étiquette; les valets se permettaient de
                     glisser leur mot; le bûcheron et sa femme se félicitaient d'avoir trouvé dans leur belle
-                    inconnue la dame de leur canton.</p>
-                <p>Nuits de bonheur passent si vîte! L'aurore commence à dorer le faîte des arbres, et nos
+                    inconnue la dame de leur canton.
+    </p>
+    <p>
+     Nuits de bonheur passent si vîte! L'aurore commence à dorer le faîte des arbres, et nos
                     amans sont encore à la même place, dans la même attitude; leurs expressions ont le même
                     feu; leurs cœurs éprouvent la même satisfaction: ce sont deux ames candides qui ne se
                     lasseront jamais de s'épancher, de se confondre. Cependant le retour de la lumière amène
@@ -897,8 +1164,10 @@
                     seule beauté. Tous sont montés sur des palefrois dont les housses brodées d'argent
                     traînent dans la poussière. Ils entrent à Blonie au milieu des acclamations d'un peuple
                     empressé de revoir celui qui dès long-temps devait faire le bonheur de leur suzeraine, et
-                    dont le verbeux Wilfrid n'a pas manqué d'annoncer le retour.</p>
-                <p>On se demandait quel était ce bel enfant que Polinska regardait avec complaisance, quand
+                    dont le verbeux Wilfrid n'a pas manqué d'annoncer le retour.
+    </p>
+    <p>
+     On se demandait quel était ce bel enfant que Polinska regardait avec complaisance, quand
                     ses yeux se détachaient de ceux de Sobieski. Wilfrid était discret, il le croyait du
                     moins; mais, vous le savez, on le pénétrait aisément: quelques mots hasardés avaient
                     circulé et commençaient à voler de bouche en bouche. Bientôt on soupçonna un mystère que
@@ -907,16 +1176,20 @@
                     qu'elle fut jugée encore la femme la plus chaste, et Sobieski l'homme le plus délicat,
                     comme le plus heureux. Il ne lui manquait en effet que de rendre son digne père témoin de
                     la félicité qu'il lui avait préparée; il venait de payer à la nature le triste tribut que
-                    nous lui devons tous.</p>
-                <p>La noblesse des environs était convoquée, les lices disposées, les amphithéâtres dressés.
+                    nous lui devons tous.
+    </p>
+    <p>
+     La noblesse des environs était convoquée, les lices disposées, les amphithéâtres dressés.
                     Les chevaliers arrivaient à Blonie, parés des couleurs de leurs dames, superbement montés,
                     précédés de leurs bannières et suivis de leurs écuyers. Les rues étaient jonchées de
                     fleurs; des drapeaux flottaient à toutes les croisées; le peuple se pressait dans les
                     rues; Clotilde, Wilfrid, répandaient de tous côtés des gages de la magnificence et de
                     l'affection de leurs maîtres; de nombreux orchestres annonçaient l'allégresse générale, et
                     le son majestueux de l'airain, que le plus respectable des nœuds allait être formé sous
-                    les auspices de la religion.</p>
-                <p>Sobieski, radieux comme le soleil levant qui repousse les nuages, passe dans l'appartement
+                    les auspices de la religion.
+    </p>
+    <p>
+     Sobieski, radieux comme le soleil levant qui repousse les nuages, passe dans l'appartement
                     de sa Polinska. Elle l'attendait, embellie encore des charmes du desir. Elle se lève, et
                     lui présente la main; un cortége imposant et nombreux les précède et les suit; le pontife
                     et ses diacres, revêtus des habits sacerdotaux, les attendent sur les degrés du temple;
@@ -934,14 +1207,18 @@
                     formelle, et veut qu'elle prononce. Ce dernier coup du sort, cette horrible situation,
                     troublent ses sens; on la reporte au château mourante, inanimée; Sobieski, poussé au
                     dernier degré de la rage, insulte, brave, menace Métusko. „Si tu étais chargé de fers, je
-                    te ménagerais, lui répondit froidement le guerrier.“</p>
-                <p>Cet homme, dont la vie entière était une longue suite d'exploits, et à qui on ne pouvait
+                    te ménagerais, lui répondit froidement le guerrier.“
+    </p>
+    <p>
+     Cet homme, dont la vie entière était une longue suite d'exploits, et à qui on ne pouvait
                     reprocher que la tache dont il s'était couvert à Blonie avait oublié, au sein des plus
                     nobles travaux, les charmes de Polinska: le temps, à qui tout cède, avait insensiblement
                     affaibli le souvenir d'un attentat qu'avaient d'abord suivi des remords déchirans.
                     Métusko, depuis longtemps, ne vivait plus que pour la gloire, qui, fidèle à ses drapeaux,
-                    lui tenait lieu des jouissances du cœur.</p>
-                <p>Constamment opposé à Rodolphe, le plus grand général de son temps, presque toujours
+                    lui tenait lieu des jouissances du cœur.
+    </p>
+    <p>
+     Constamment opposé à Rodolphe, le plus grand général de son temps, presque toujours
                     inférieur en nombre, mais sachant multiplier ses forces par l'enthousiasme dont il animait
                     ses troupes, Métusko avait détruit successivement trois armées qui s'étaient présentées
                     devant lui. Son activité, sa valeur, sa prudence, forçaient le destin des batailles; sa
@@ -949,28 +1226,36 @@
                     épuisé par une guerre dont l'objet lui était étranger, refusa enfin à l'empereur les
                     nouvelles levées qu'il sollicitait encore: Rodolphe fut obligé de traiter avec cet homme,
                     qu'il n'avait d'abord regardé que comme un rebelle, et que les plus brillans succès
-                    mettaient au-dessus de lui.</p>
-                <p>La Pologne pacifiée pensait à se choisir un roi. Sobieski, qui joignait la douceur aux
+                    mettaient au-dessus de lui.
+    </p>
+    <p>
+     La Pologne pacifiée pensait à se choisir un roi. Sobieski, qui joignait la douceur aux
                     talens militaires, eût peut-être réuni les suffrages sans son extrême jeunesse, ou plutôt
                     sans cet amour qui le rendait insensible pour tout ce qui n'était point Polinska. Nous
                     l'a-vous vu poser les armes lorsqu'il ne lui resta plus d'ennemis à combattre, laisser les
                     Polonais se donner des lois et un maître, et, satisfait de régner sur un cœur qui étoit
-                    tout pour lui, ne s'occuper que du soin de le reconquérir.</p>
-                <p>Métusko ne doutait pas que la couronne ne fût le prix de ses services; et il avait
+                    tout pour lui, ne s'occuper que du soin de le reconquérir.
+    </p>
+    <p>
+     Métusko ne doutait pas que la couronne ne fût le prix de ses services; et il avait
                     l'ambition d'y prétendre après avoir su la mériter. Il ne dissimulait plus à quel but il
                     tendait; ses soldats, idolâtres de leur chef, n'attendaient que le moment de le seconder:
                     il montait sur le trône, si ses lieutenans, jaloux de sa gloire, n'avaient redouté autant
                     qu'elle une inflexibilité de caractère, un penchant marqué à l'autorité absolue, qui les
                     réduiraient à n'être que de vains ornemens de la cour d'un tel prince, et à n'y jouir que
-                    de la considération qu'il voudrait bien leur accorder.</p>
-                <p>Le concurrent le plus redoutable que Métusko eût à écarter était Jagellon, duc de
+                    de la considération qu'il voudrait bien leur accorder.
+    </p>
+    <p>
+     Le concurrent le plus redoutable que Métusko eût à écarter était Jagellon, duc de
                     Lithuanie, payen encore, ainsi que ses sujets, mais qui avait secouru la Pologne de ses
                     trésors, de ses troupes, et qui, pendant toute la guerre, avait commandé avec avantage un
                     corps d'armée, qui pourtant était subordonné à Métusko. Le due n'était pas sans qualités;
                     mais il était bon, facile, prodigue, défauts dangereux pour le peuple, et toujours utiles
                     aux courtisans. Les Palatins penchaient donc en secret pour Jagellon; mais comment exclure
-                    Métusko d'un rang où l'appelait le vœu de l'armée et du reste de la nation.</p>
-                <p>On sentait qu'il fallait d'abord détacher de lui la multitude. Mais quels moyens employer
+                    Métusko d'un rang où l'appelait le vœu de l'armée et du reste de la nation.
+    </p>
+    <p>
+     On sentait qu'il fallait d'abord détacher de lui la multitude. Mais quels moyens employer
                     sur des esprits trop prévenus? Son crime envers Polinska était un ressort sans force sur
                     des soldats disposés à excuser des excès auxquels ils sont toujours prêts à se livrer.
                     Métusko s'était ouvert à ses principaux officiers d'un dessein qu'il nourrissait depuis
@@ -983,8 +1268,10 @@
                     capital, qu'après en avoir été juridiquement convaineus; il voulait que la nation
                     s'adonnât au commerce, qu'un orgueil déplacé abandonnait aux étrangers, qui attiraient à
                     eux les richesses du pays; et l'armée, qui ne dépendrait que de lui seul, devait soutenir
-                    ces innovations, en réprimant les mécontens.</p>
-                <p>Ces vues étaient d'un prince digne d'un siècle plus éclairé; mais il fallait les renfermer
+                    ces innovations, en réprimant les mécontens.
+    </p>
+    <p>
+     Ces vues étaient d'un prince digne d'un siècle plus éclairé; mais il fallait les renfermer
                     jusqu'à ce que les circonstances en permissent l'exécution: l'envie et la malignité les
                     tournèrent contre lui. On répandit sourdement parmi la pauvre noblesse, qui composait
                     seule les escadrons, que Métusko comptait, s'il obtenait la couronne, lui associer des
@@ -998,16 +1285,20 @@
                     en un vil peuple de marchands la nation la plus belliqueuse et la plus honorée de
                     l'Europe; on le peignait enfin comme un homme emporté, entreprenant, qui abuserait de son
                     autorité, et ploierait ses sujets sous un despotisme inconnu, même sous les maîtres que
-                    les empereurs donnaient à la Pologne.</p>
-                <p>Ces insinuations étaient en partie appuyées de preuves qu'on avait eu l'art de surprendre à
+                    les empereurs donnaient à la Pologne.
+    </p>
+    <p>
+     Ces insinuations étaient en partie appuyées de preuves qu'on avait eu l'art de surprendre à
                     Métusko, trop généreux pour être défiant: elles produisirent plus d'effet que ne s'en
                     étaient promis leurs auteurs; elles aliénèrent à l'instant les Palatins et les nobles:
                     tous se détachèrent d'un homme qui prétendait leur ôter des prérogatives dont ils étaient
                     jaloux à l'excès, et cette liberté dont ils jouissaient à peine, et qui leur avait coûté
                     tant de sang. Les différens partis se réunirent en faveur de Jagellon; et, lors de la
                     convocation de la diète, Métusko était le seul qui ignorât qu'il n'avait plus rien à
-                    attendre que de la postérité.</p>
-                <p>Cependant son exclusion, quelqu'injuste qu'elle fût, produisit un bien réel. Les Palatins
+                    attendre que de la postérité.
+    </p>
+    <p>
+     Cependant son exclusion, quelqu'injuste qu'elle fût, produisit un bien réel. Les Palatins
                     résolurent unanimement de borner l'autorité du prince qu'ils allaient nommer, et de ceux
                     qui lui succéderaient; ils prononcèrent que le sceptre ne serait point héréditaire; que
                     les rois ne pourraient élever aucune forteresse; qu'ils ne disposeraient pas du trésor
@@ -1017,25 +1308,33 @@
                     institutions, proposées par les confidens intimes de Métusko, l'éclairèrent trop tard sur
                     les véritables desseins de la diète; mais elles empêchèrent la liberté publique de
                     recevoir aucune atteinte jusqu'au temps où trois puissances spoliatrices effacèrent de la
-                    carte d'Europe le nom de la Pologne.</p>
-                <p>Lorsqu'on eut posé ces bases fondamentales, le Palatin, qui présidait la diète, demanda à
+                    carte d'Europe le nom de la Pologne.
+    </p>
+    <p>
+     Lorsqu'on eut posé ces bases fondamentales, le Palatin, qui présidait la diète, demanda à
                     Jagellon s'il voulait embrasser le christianisme, et réunir à la Pologne son duché de
                     Lithuanie. Le prince se soumit sans résistance à ces conditions, et fut aussitôt proclamé
                     roi. On peut présumer de la tranquillité de cette élection, si différente de celles qui
-                    l'ont suivie, que tout était préparé, et même convenu d'avance.</p>
-                <p>Métusko, outré de la préférence que venait d'obtenir sur lui un étranger, n'eut pas la
+                    l'ont suivie, que tout était préparé, et même convenu d'avance.
+    </p>
+    <p>
+     Métusko, outré de la préférence que venait d'obtenir sur lui un étranger, n'eut pas la
                     prudence de cacher son ressentiment: il était révolté sur-tout que ceux qu'il avait
                     comblés de bienfaits, à qui il avait accordé sa confiance la plus intime, et dont les
                     suffrages lui devaient être acquis, eussent lâchement trahi sa cause. Incapable d'aucune
                     mesure, quand il se livrait à l'irascibilité de son caractère, il sortit de l'assemblée en
-                    menaçant hautement tous ceux dont il croyait avoir à se plaindre.</p>
-                <p>On connaissait sa valeur, sa force prodigieuse; on se rappelait son combatcontre Ragotzi;
+                    menaçant hautement tous ceux dont il croyait avoir à se plaindre.
+    </p>
+    <p>
+     On connaissait sa valeur, sa force prodigieuse; on se rappelait son combatcontre Ragotzi;
                     le duel était alors en honneur; aucun Palatin n'eût osé refuser le champ clos; et se
                     mesurer avec Métusko, c'était s'exposer à une mort presque assurée. L'intrépidité n'est,
                     dans la plupart des hommes, que la certitude, ou au moins l'espérance de la victoire, et
                     les Palatins, d'ailleurs, ne desiraient plus que ce calme si doux après de longs orages.
-                    Pour conserver leur honneur et assurer leurs jouissances, il fallait perdre Métusko.</p>
-                <p>On ne complota point contre lui. Il est des sentimens secrets qu'on s'avoue à soi-même, et
+                    Pour conserver leur honneur et assurer leurs jouissances, il fallait perdre Métusko.
+    </p>
+    <p>
+     On ne complota point contre lui. Il est des sentimens secrets qu'on s'avoue à soi-même, et
                     qu'on ne communique à personne. Aucun Palatin n'eût avoué sans rougir les motifs qui
                     l'animaient contre le héros de la Pologne; mais celui qui l'attaquerait, même
                     indirectement, pouvait compter sur l'assentiment des autres. Le Palatin de Rava s'exprima
@@ -1047,8 +1346,10 @@
                     ses vassaux, et sur-tout par son courage indomptable, pourrait lui disputer la couronne à
                     main armée, le renverser du trône, ou livrer au moins sa patrie aux horreurs d'une guerre
                     civile. Ces craintes, qui n'étaient pas sans fondement, furent exagérées encore par les
-                    autres Palatins, et le monarque crédule en parut vivement frappé.</p>
-                <p>Aucune loi cependant ne pouvait s'appliquer au cas dont il s'agissait. Souvent dans les
+                    autres Palatins, et le monarque crédule en parut vivement frappé.
+    </p>
+    <p>
+     Aucune loi cependant ne pouvait s'appliquer au cas dont il s'agissait. Souvent dans les
                     diètes précédentes le sabre avait tranché les discussions, sans qu'on vengeât le sang sur
                     ceux qui l'avaient versé. Métusko n'était pas de ces turbulens obscurs que l'autorité
                     s'immole avec impunité; il était à craindre que la Pologne opposât à des chefs
@@ -1056,8 +1357,10 @@
                     proscrire. Pour mettre de leur côté une apparence de justice, les Palatins rappellèrent
                     cet ancien crime perdu dans une foule d'exploits; ils en aggravèrent les circonstances. Le
                     roi signa l'ordre de s'assurer du coupable, et l'exécution en fut confiée à ses plus
-                    ardens ennemis.</p>
-                <p>On savait que l'amour unissoit Polinska à Sobieski. Elle ne devait voir dans Métusko que le
+                    ardens ennemis.
+    </p>
+    <p>
+     On savait que l'amour unissoit Polinska à Sobieski. Elle ne devait voir dans Métusko que le
                     plus odieux des hommes, et il n'était point vraisemblable qu'elle lui rachetât la vie par
                     le don de sa main. Le succès du plan formé contre lui paraissait donc certain: il ne
                     restait qu'une difficulté; c'était d'arrêter un guerrier qui mourrait plutôt que de
@@ -1065,8 +1368,10 @@
                     capable, poussé au dernier désespoir. On résolut de le surprendre pendant son sommeil; et,
                     pour qu'aucun de ses amis, s'il lui en restait encore, ne l'avertît du péril qui le
                     menaçait, on prolongea l'assemblée assez avant dans la nuit, et on défendit que personne
-                    sortît du lieu de ses séances.</p>
-                <p>Métusko ne reposait point. Tourmenté par la violence de ses passions, il marchait à grands
+                    sortît du lieu de ses séances.
+    </p>
+    <p>
+     Métusko ne reposait point. Tourmenté par la violence de ses passions, il marchait à grands
                     pas dans son appartement. Ses écuyers attendaient l'explosion qui allait suivre un silence
                     plus énergique que des mots, quels qu'ils soient. „Non, dit-il enfin en s'arrêtant, non,
                     ingrate patrie, je ne te trahirai point; je ne te remettrai pas sous le joug dont je t'ai
@@ -1075,13 +1380,17 @@
                     j'y formerai des vœux pour la prospérité publique. Qu'on prépare à l'instant mes équipages
                     et mes chevaux“. Ses écuyers allaient lui obéir; des valets annoncent que plusieurs
                     Palatins demandent à être introduits. Qu'ils entrent, répondit Métusko, et sa redoutable
-                    épée est à dix pas de lui.</p>
-                <p>Aux premiers qui paraissent en succèdent d'autres, et de nouveaux à ceux-ci. Métusko est
+                    épée est à dix pas de lui.
+    </p>
+    <p>
+     Aux premiers qui paraissent en succèdent d'autres, et de nouveaux à ceux-ci. Métusko est
                     entouré de traîtres, et ne soupçonne rien encore de leurs desseins. Ils se jettent sur lui
                     comme des bêtes féroces, le renversent, le chargent de liens, et le livrent à ses
                     lieutenans, qui, témoins du malheur de Polinska, consentent bassement à déposer contre
-                    celui qui les a toujours conduits à la victoire.</p>
-                <p>Ils s'attendaient à des emportemens, à des efforts qu'il leur serait peut-être difficile de
+                    celui qui les a toujours conduits à la victoire.
+    </p>
+    <p>
+     Ils s'attendaient à des emportemens, à des efforts qu'il leur serait peut-être difficile de
                     réprimer: jamais Métusko ne parut plus grand que dans son désastre. Il opposa le calme aux
                     orages, et sa grandeur aux mépris. Il marchait au milieu de ses gardes avec cet air de
                     supériorité qui annonçait qu'il avait été leur chef, et qu'il se sentait digne de l'être
@@ -1090,8 +1399,10 @@
                     parti. Fidèle à ses dernières résolutions, le guerrier eût continué à dédaigner également
                     l'ingratitude du peuple et la férocité de ses gardiens, si ceux-ci, craignant un mouvement
                     en sa faveur, n'eussent cherché à justifier la rigueur dont on usait envers lui, en
-                    l'accusant de crimes imaginaires.</p>
-                <p>La loyauté de Métusko ne lui permettait pas de dissimuler ses torts; et son austère
+                    l'accusant de crimes imaginaires.
+    </p>
+    <p>
+     La loyauté de Métusko ne lui permettait pas de dissimuler ses torts; et son austère
                     franchise devait s'irriter de ceux qu'on lui supposait. Il répondit à ces accusations
                     mensongères avec l'énergie qui le caractérisait; et, lorsqu'il eut franchi les bornes
                     qu'il avait imposées à son ressentiment, il s'y livra tout entier. Il reprocha à ses
@@ -1113,8 +1424,10 @@
                     cher. Montez à cheval, conduisez votre général à Blonie, qu'il paraisse devant le
                     tribunal, environné des témoins de sa gloire; que leur présence le justifie, et que ceux
                     qui m'ont traîné jusqu'ici se bornent désormais au vil rôle d'accusateurs: il convient à
-                    des ames de boue“.</p>
-                <p>Ces paroles ajoutent l'étonnement et le respect à l'admiration et à l'amour qu'inspirait
+                    des ames de boue“.
+    </p>
+    <p>
+     Ces paroles ajoutent l'étonnement et le respect à l'admiration et à l'amour qu'inspirait
                     déjà Métusko; on le sépare de son escorte; un rempart vivant se porte entre elle et lui;
                     c'est à qui touchera son habit, ses éperons, la housse de son cheval; chacun veut le
                     suivre, entendre sa justification, ou arracher sa grace de vive force, si en effet il est
@@ -1122,22 +1435,28 @@
                     criminel que de vils satellites traduisent devant ses juges; c'est un grand homme qui va
                     au milieu de ses amis braver l'injustice, et suocomber, s'il le faut, comme il a vécu. Ses
                     lieutenans confus se retirent à la queue du cortège; la rage et l'envie sont toujours dans
-                    leurs cœurs; mais ils n'osent lever les yeux sur les héros.</p>
-                <p>Tant de grandeur, tant de désintéressement étonneront sans doute de la part d'un guerrier
+                    leurs cœurs; mais ils n'osent lever les yeux sur les héros.
+    </p>
+    <p>
+     Tant de grandeur, tant de désintéressement étonneront sans doute de la part d'un guerrier
                     que la circonstance pouvait rendre à la liberté et venger de ses ennemis. Mais peut-être
                     était-il effectivement persuadé qu'il ne trouverait pas des juges qui osassent le
                     condamner; peut-être savait-il que Polinska était libre encore; peut-être se flattait-il
                     que le temps avait affaibli le sentiment de son outrage, et qu'elle mettrait quelque
                     gloire à sauver un homme tel que lui: il est au moins certain qu'il plaçait la sienne fort
-                    au-dessus de sa vie, et qu'il prétendait l'emporter sans tache dans sa tombe.</p>
-                <p>A peine il est entré à Blonie, à peine il a prononcé le nom de Polinska, et il sait qu'il
+                    au-dessus de sa vie, et qu'il prétendait l'emporter sans tache dans sa tombe.
+    </p>
+    <p>
+     A peine il est entré à Blonie, à peine il a prononcé le nom de Polinska, et il sait qu'il
                     est père. Un sentiment nouveau se fait jour dans son cœur, et remplace le mépris de la
                     vie. Il s'y attache, il y tient, et espère la devoir à son fils. Illettré, comme tous les
                     seigneurs de ce temps, il fait écrire à Polinska du palais, où sa parole seule le retient
                     prisonnier. Sa lettre n'exprimait rien de tendre; elle était dictée par la roideur de son
                     caractère. Il sollicitait simplement une entrevue que la loi l'autorisait à exiger, et
-                    dont le rang de Polinska ne la dispensait point.</p>
-                <p>Cette infortunée déplorait son sort: son fils essuyait ses larmes, et Sobieski était à ses
+                    dont le rang de Polinska ne la dispensait point.
+    </p>
+    <p>
+     Cette infortunée déplorait son sort: son fils essuyait ses larmes, et Sobieski était à ses
                     genoux, lorsqu'elle reçut cette lettre cruelle. Voir Métusko, l'entendre, lui parler,
                     était pour elle un supplice affreux: s'y refuser était impossible. Sobieski, combattu par
                     mille mouvemens opposés, essayait de la retenir dans son château; il voulait fuir avec
@@ -1149,14 +1468,18 @@
                     ardent défenseur, s'il, n'eût pas prétendu comme lui à la main de Polinska. L'abandonner
                     lui semblait affreux; lui sacrifier l'objet de sa vive tendresse était au-dessus de ses
                     forces; cette idée seule le ramenait à celle d'un crime qui lui paraissait impardonnable,
-                    et à l'animosité qu'il avait voudu à son auteur. </p>
-                <p>Il fallait se déterminer. Sobieski ne trouvait que des plaintes, des imprécations contre le
+                    et à l'animosité qu'il avait voudu à son auteur.
+    </p>
+    <p>
+     Il fallait se déterminer. Sobieski ne trouvait que des plaintes, des imprécations contre le
                     sort; et son amante, des soupirs, des pleurs et la promesse d'être toujours fidèle. Un
                     second message de Métusko annonce que le temps presse, et qu'il prétend jouir de la faveur
                     que lui accorde la loi. La malheureuse Polinska se lève, traverse ses appartemens,
                     soutenue par ses femmes et suivie par Sobieski, qui ne peut se détacher d'elle, et qui la
-                    suit encore des yeux, après l'avoir conjurée vingt fois de ne pas oublier ses sermens.</p>
-                <p>Les forces manquèrent tout-à-fait à Polinska lorsqu'elle entra dans la salle où l'attendait
+                    suit encore des yeux, après l'avoir conjurée vingt fois de ne pas oublier ses sermens.
+    </p>
+    <p>
+     Les forces manquèrent tout-à-fait à Polinska lorsqu'elle entra dans la salle où l'attendait
                     le coupable. La présence, l'air froid'et sévère des juges, assemblés pour recevoir
                     l'expression de sa volonté, ajoutèrent à sa confusion. Métusko fit quelques pas au-devant
                     d'elle et parut vouloir lui aider. Son crime, les malheurs qu'il avait causés, ce que
@@ -1167,8 +1490,10 @@
                     qu'il croyait propres à ramener Polinska; son trouble, sa pâleur, sa faiblesse,
                     l'agitèrent lui même fortement: ses remords se réveillèrent; et ce que n'avaient pu les
                     forces réunies de l'Empire, une femme timide l'opéra en un instant. Métusko, embarrassé,
-                    confus, sans courage et sans voix, était prêt à tomber à ses pieds.</p>
-                <p>Ils s'observèrent quelque temps dans un profond silence: les juges invitèrent Métusko à
+                    confus, sans courage et sans voix, était prêt à tomber à ses pieds.
+    </p>
+    <p>
+     Ils s'observèrent quelque temps dans un profond silence: les juges invitèrent Métusko à
                     parler. Plus maître de lui, il reprit le libre usage de ses sens. „Madame, dit-il, ne
                     rappelons pas le souvenir du passé; il serait cruel pour vous et humiliant pour moi:
                     occupons-nous du présent. Votre sort est tellement lié au mien, que ce que j'ai à vous
@@ -1185,8 +1510,10 @@
                     jure par l'honneur, vous savez si Métusko est capable d'y manquer, je jure de me séparer
                     de vous en descendant de l'autel, de vous laisser libre en quelque lieu qu'il vous plaise
                     choisir, de ne plus vous revoir, si vous l'ordonnez, et sur-tout de ne jamais penser à des
-                    droits dont je sens trop combien je suis indigne.“</p>
-                <p>Il attendit une réponse que Polinska était hors d'état de lui faire. Elle n'avait entendu
+                    droits dont je sens trop combien je suis indigne.“
+    </p>
+    <p>
+     Il attendit une réponse que Polinska était hors d'état de lui faire. Elle n'avait entendu
                     que des sons, dont son extrême désordre ne lui avait pas permis de saisir le sens, et elle
                     restait immobile et muette. Les juges, touchés de son pénible état, l'engagèrent à
                     terminer elle-même la séance, en déclarant si elle acceptait ou non Métusko pour époux.
@@ -1199,8 +1526,10 @@
                     ce penchant, auquel vous sacrifiez tout, sera éteint par le temps, et que vous pourrez
                     vous juger sans passion, vivrez-vous entre la haine de votre fils et le mépris de
                     vous-même? Songez-y, madame, vous êtes mère, vous l'êtes par un crime, mais ce titre ne
-                    vous impose pas moins des devoirs sacrés.“</p>
-                <p>Au nom de son fils, Polinska était devenue attentive; et le tableau que Métusko venait de
+                    vous impose pas moins des devoirs sacrés.“
+    </p>
+    <p>
+     Au nom de son fils, Polinska était devenue attentive; et le tableau que Métusko venait de
                     lui mettre sous les yeux, l'affectait profondément. Elle ne se sentait pas capable de
                     renoncer à l'estime publique, et sur-tout à la tendresse de son enfant, premier besoin
                     d'une bonne mère. Elle oublia un moment Sobieski; elle balançait..... Clotilde lui rappela
@@ -1208,8 +1537,10 @@
                     votre fils, je lui donne mon nom, et je lui voue les sentimens d'un père. Les raisonnemens
                     de Métusko l'avaient ébranlée: ces derniers mots de Clotilde la rendirent à l'amour; elle
                     ne vit plus que Sobieski; elle répéta à haute voix le refus de s'unir à Métusko, et
-                    sortit.</p>
-                <p>La force seule semblait pouvoir désormais sauver le grand homme; l'arrêt de mort allait
+                    sortit.
+    </p>
+    <p>
+     La force seule semblait pouvoir désormais sauver le grand homme; l'arrêt de mort allait
                     s'échapper de la bouche de ses juges: „Je ne vous demande qu'une heure, leur dit-il; et si
                     Polinska persiste dans sa résolution, je marche à la mort“. On ne refuse pas un délai
                     aussi court au coupable le plus obscur: on s'empressa d'accéder à la demande d'un héros.
@@ -1221,8 +1552,10 @@
                     fit saisir les moyens qu'on le pressait d'employer. Le geste, les inflexions de voix, les
                     expressions, tout lui fut répété plusieurs fois; et la conviction intérieure se joignant à
                     une mémoire sûre, la scène devait être énergique, déchirante, et l'effet n'en était plus
-                    douteux.</p>
-                <p>Polinska revenait s'applaudir de sa résistance auprès de Sobieski, et recevoir de lui le
+                    douteux.
+    </p>
+    <p>
+     Polinska revenait s'applaudir de sa résistance auprès de Sobieski, et recevoir de lui le
                     prix de tant d'amour. Elle était tranquille, heureuse même. Son fils l'apperçoit, il
                     court, il vole, il se jette en travers du pont-levis; et, le visage sur la poussière, et
                     pressant de ses mains innocentes les vêtemens de sa mère: „Jamais, dit-il, jamais je ne
@@ -1232,8 +1565,14 @@
                     refuse les bienfaits, et moi je cours près d'un grand homme, dont je suis fier de porter
                     le nom, je le console, je soutiens son courage, mes tendres caresses lui dérobent
                     l'approche du coup mortel, et je reviens, couvert de son sang, vous dire et vous répéter
-                    tous les jours: <hi rend="italic">Madame, voilà votre ouvrage</hi>“. </p>
-                <p>Rien de ce discours n'appartenait à l'enfant, que le ton pénétré avec lequel il le
+                    tous les jours:
+     <hi rend="italic">
+      Madame, voilà votre ouvrage
+     </hi>
+     “.
+    </p>
+    <p>
+     Rien de ce discours n'appartenait à l'enfant, que le ton pénétré avec lequel il le
                     prononça. Il n'était pas même d'âge encore à apprécier des menaces qu'il n'était pas en
                     droit d'adresser à sa mère, mais auxquelles il n'était pas possible qu'elle résistât. Elle
                     était presque vaincue: l'enfant acheva de la gagner par ces traits d'ingénuité et de
@@ -1241,8 +1580,10 @@
                     ne résiste jamais. „Qu'il vive, dit Polinska, que son fils lui apprenne que je me rends,
                     et que je suis prête à jurer le malheur du reste de ma vie“. L'enfant est enlevé dans les
                     bras de l'ami de son père; ils arrivent au lieu où on le garde; Polinska se renferme et
-                    défend sur-tout que Sobieski s'approche d'elle: si elle le revoit, Métusko est perdu.</p>
-                <p>Le jeune chevalier avait appris que son amante venait d'abandonner son rival à son sort. Il
+                    défend sur-tout que Sobieski s'approche d'elle: si elle le revoit, Métusko est perdu.
+    </p>
+    <p>
+     Le jeune chevalier avait appris que son amante venait d'abandonner son rival à son sort. Il
                     accourait plein de reconnaissance et d'amour. Clotilde lui déclare qu'il n'a plus rien à
                     espérer, et qu'il n'aura pas même la consolation de faire entendre ses plaintes à
                     Polinska. Il devait être accoutumé aux alternatives de malheur et d'espoir entre
@@ -1257,8 +1598,10 @@
                     l'inflexibilité aux instances, et le calme à l'emportement; elle ordonne à Sobieski de
                     sortir du château; elle lui défend d'y rentrer jamais, et se retire dans un cabinet
                     solitaire. Il était temps: elle avait épuisé ce que son sexe a de forces. Il fallait fuir,
-                    ou tomber dans les bras de Sobieski.</p>
-                <p>Resté seul, abandonné à ses pensées, le jeune homme se livra à tous les excès qui annoncent
+                    ou tomber dans les bras de Sobieski.
+    </p>
+    <p>
+     Resté seul, abandonné à ses pensées, le jeune homme se livra à tous les excès qui annoncent
                     la démence, ou qui du moins y conduisent. Les imprécations, les sanglots, font retentir la
                     salle que Polinska vient de quitter; ce qui tombe sous sa main est brisé ou en lambeaux.
                     Clotilde frémit, elle appelle Wilfrid... Sobieski avait tiré son épée, la pointe était
@@ -1266,8 +1609,10 @@
                     vieillard, des valets, lui arrachent le fer meurtrier, le saisissent, l'enlèvent, le
                     tirent de ce château où chaque objet lui rappelle Polinska, et ajoute à sa fureur. Ils se
                     flattent de le conduire hors de la ville, et de parvenir à calmer ses transports: il leur
-                    échappe dans la rue; il court au palais où on garde encore Métusko.</p>
-                <p>Le guerrier pressait pour la première fois son fils dans ses bras, et il oubliait sa
+                    échappe dans la rue; il court au palais où on garde encore Métusko.
+    </p>
+    <p>
+     Le guerrier pressait pour la première fois son fils dans ses bras, et il oubliait sa
                     brillante carrière et les disgraces qui l'avaient suivie. Un homme s'offre à lui dans un
                     désordre affreux et se jette à ses pieds. „Ils m'ont empêché d'attenter à ma vie,
                     arrachez-la moi, ou rendez-moi ce qui peut seul me la rendre supportable“. Sobieski ne
@@ -1282,8 +1627,10 @@
                     l'emporte dans un château voisin de la ville, où les secours de l'art lui sont prodigués,
                     et Wilfrid ne le perd pas de vue un moment. „Hélas! dit Métusko en le-voyant sortir, je
                     fais deux malheureux, qui constamment ont cultivé la vertu, et je n'ai de titre au bonheur
-                    et même à la vie que mon crime.“</p>
-                <p>Cependant les juges sont retirés, l'appareil de la captivité a disparu, et on vient avertir
+                    et même à la vie que mon crime.“
+    </p>
+    <p>
+     Cependant les juges sont retirés, l'appareil de la captivité a disparu, et on vient avertir
                     le guerrier que Polinska va se rendre à l'autel. Il prend son fils par la main: il faut
                     que cet enfant soit toujours entre lui et sa mère: lui seul peut affaiblir l'horreur que
                     sa présence inspire. Il rencontre l'infortunée au milieu de ses femmes. Leur abattement
@@ -1291,153 +1638,380 @@
                     lui présente la main. Métusko la prend, mais il n'ose la presser; il craint de lever les
                     yeux sur Polinska. Le dernier effort de la vertu était de rassurer l'homme qu'elle allait
                     prendre pour époux; cet effort était digne de Polinska; elle eut assez d'empire sur elle
-                    pour le faire.</p>
-                <p>La cérémonie commence; les paroles redoutables vont être proférées; la victime conserve sa
+                    pour le faire.
+    </p>
+    <p>
+     La cérémonie commence; les paroles redoutables vont être proférées; la victime conserve sa
                     fermeté. Elle jure à Métusko une fidélité qu'elle est incapable de violer, et un amour
                     qu'il ne dépend pas d'elle de sentir. Mais à peine le terrible serment est-il prononcé,
                     qu'elle tombe sur les marches de l'autel. „C'en est trop, dit Métusko, elle a rempli tous
                     ses devoirs, et elle m'apprend à connaître les miens; et s'adressant à Clotilde: Ramenez
                     votre maîtresse; quand elle reprendra ses sens, mettez son fils dans ses bras, dites-lui
-                    que Métusko veut qu'elle vive, et qu'il lui en donnera la possibilité.“</p>
-                <p>Elle rentre dans son château, la douleur sur le front et la mort dans le cœur. Les caresses
+                    que Métusko veut qu'elle vive, et qu'il lui en donnera la possibilité.“
+    </p>
+    <p>
+     Elle rentre dans son château, la douleur sur le front et la mort dans le cœur. Les caresses
                     de son fils la rendent au sentiment de son malheur. Ses regards s'étendent
                     douloureusement, lentement autour d'elle; elle ne nomme point son époux; mais on voit
                     qu'elle a remarqué son absence, et qu'elle lui sait gré de ses égards. Un écuyer se
-                    présente, triste, accablé, et remet un paquet. Polinska l'ouvre et lit:</p>
-                <p>„Je n'étais pas fait pour périr sur un échafaud, y porter l'idée d'un fils rejeté du sein
+                    présente, triste, accablé, et remet un paquet. Polinska l'ouvre et lit:
+    </p>
+    <p>
+     „Je n'étais pas fait pour périr sur un échafaud, y porter l'idée d'un fils rejeté du sein
                     de la société, d'une femme déshonorée, et d'un jeune homme épris au point de partager sa
                     honte. J'ai voulu être votre époux, j'ai dû le vouloir, vous avez dû y consentir; mais je
                     ne dois pas vous faire expier ma faute par un supplice qui durerait autant que votre vie.
                     Vous avez été juste envers votre fils et son père; je le suis envers vous et Sobieski. Je
                     vous laisse l'héritier de mon nom et de ma gloire; il vous apprendra à me plaindre, et mon
-                    dévouement me rendra votre estime.“</p>
-                <p>Métusko, en sortant du temple, s'était renfermé dans l'appartement que Polinsha lui avait
+                    dévouement me rendra votre estime.“
+    </p>
+    <p>
+     Métusko, en sortant du temple, s'était renfermé dans l'appartement que Polinsha lui avait
                     destiné. Fatigué de l'obscurité à laquelle le condamnait l'ingratitude des Polonais,
                     frappé du désespoir de Sobieski, de l'espèce d'héroisme de son épouse, il avait voulu la
                     surpasser en générosité. Un poison actif avait coulé dans ses veines, et il eut à peine la
                     force de dicter ses dernières expressions au ministre qu'il fit appeler pour l'aider à son
-                    dernier moment.</p>
-                <p>Dès qu'il eut cessé d'être entre Polinska et son amant, elle sentit les grandes qualités de
+                    dernier moment.
+    </p>
+    <p>
+     Dès qu'il eut cessé d'être entre Polinska et son amant, elle sentit les grandes qualités de
                     l'époux qu'elle n'avait plus, elle oublia son attentat, elle ne vit en lui que le père de
                     son enfant, et elle le regretta sincèrement. Ces regrets, cependant, ne pouvaient être
                     durables: Sobieski rentrait chaque jour dans des droits que le devoir n'eût pu que
                     restreindre, et qu'aucune puissance n'aurait anéantis. Une année, qui parut longue, malgré
                     les charmes d'un espoir que rien ne pouvait plus altérer, une année fut donnée aux
-                    bienséances, et le reste de leur vie à l'amour.</p>
-                <p>De cet hymen sortirent les ancêtres de ce fameux Sobieski, qui, n'étant encore que grand
+                    bienséances, et le reste de leur vie à l'amour.
+    </p>
+    <p>
+     De cet hymen sortirent les ancêtres de ce fameux Sobieski, qui, n'étant encore que grand
                     maréchal de la couronne, délivra la Pologne du joug des Turcs. La victoire de Chokzim lui
                     donna le sceptre qu'il illustra par la délivrance de Vienne, et par une réunion de talens
-                    qu'on trouve trop rarement dans les souverains.</p>
-            </div>
-            <div type="chapter">
-                <head>LE AGES.</head>
-                <l>Le premier homme existe. En ce moment suprême,</l>
-                <l>Il se cherche, il se trouve, il s'étonne lui-même;</l>
-                <l>Il se lève, il se meut, il devine ses sens,</l>
-                <l>Et sa langue incertaine a trouvé des accens.</l>
-                <l>D'un univers nouveau la beauté ravissante</l>
-                <l>Le séduit, le soumet, le subjugue, l'enchante;</l>
-                <l> Son ame toute entière a passé dans ses yeux;</l>
-                <l>Rien ne peut arrêter son vol impétueux;</l>
-                <l>Elle embrasse à la fois et le ciel et la terre.</l>
-                <l>Déjà l'homme prévoit, il compare, il préfère;</l>
-                <l>Il savoure des fruits les sucs délicieux,</l>
-                <l>Il respire des fleurs le parfum précieux;</l>
-                <l>Des habitans des airs le chant moelleux l'attire,</l>
-                <l> Et de ce qui l'entoure il se forme un empire;</l>
-                <l>La loi de l'univers est dans sa volonté;</l>
-                <l> L'homme jouit de tout avec avidité.</l>
-                <l>Mais bientôt l'éclat, la richesse,</l>
-                <l>Source de ses premiers desirs,</l>
-                <l>La pure et naïve alégresse,</l>
-                <l>Qui suivit ses premiers plaisirs,</l>
-                <l>S'évanouirent comme un songe</l>
-                <l> Qui trompe les rigueurs de l'aveugle destin,</l>
-                <l>Que la main de l'erreur prolonge,</l>
-                <l>Et que dissipe le matin.</l>
-                <l>L'homme n'a point ce qu'il desire;</l>
-                <l>Il s'est trompé dans son délire;</l>
-                <l>Rien encor n'a rempli son cœur.</l>
-                <l>Avec son sang, une nouvelle ardeur</l>
-                <l>Rapidement passe de veine en veine:</l>
-                <l>Un besoin inconnu le tourmente, l'entraîne;</l>
-                <l>Il n'en peut démêler l'objet.</l>
-                <l>Il vient, il va, cherche, s'agite;</l>
-                <l>Il ne trouve par-tout, interdit et muet,</l>
-                <l>Que son cœur, qui toujours palpite.</l>
-                <l>L'appétit, la gaîté, le sommeil, tout le fuit;</l>
-                <l>La nature a perdu ses charmes;</l>
-                <l>Le chagrin dévorant le suit,</l>
-                <l>Et son œil se mouille de larmes.</l>
-                <l>Egaré, hors de lui, sans haleine et sans voix,</l>
-                <l>L'infortuné cherche un asile:</l>
-                <l>Le myrte, le rosier, le coudrier facile</l>
-                <l>Unissant leurs rameaux, le couvrent tous les trois.</l>
-                <l>„Quel est le feu qui me dévore,</l>
-                <l>“Dit-il, qui pourra le calmer?</l>
-                <l>“J'appelle, j'attends et j'implore</l>
-                <l>“Un être qui doit m'aimer .....</l>
-                <l>“Ah! s'il n'existe pas encore,</l>
-                <l>“Quel farouche tyran se plut à m'animer!“</l>
-                <l>Il dit: Le souffle du zéphire</l>
-                <l>Agite le tendre rameau,</l>
-                <l>Et découvre un objet nouveau,</l>
-                <l>Qui sommeille et semble sourire.</l>
-                <l>Non, je ne la peindrai jamais</l>
-                <l>Cette touchante créature:</l>
-                <l>Innocence, graces, attraits,</l>
-                <l>Voilà son unique parure:</l>
-                <l>Elle met le comble aux bienfaits</l>
-                <l>Que l'homme doit à la nature.</l>
-                <l>Son œil dévore tant d'appas;</l>
-                <l>Sa fureur fait place à l'ivresse;</l>
-                <l>L'objet nouveau le fixe avec tendresse;</l>
-                <l>L'homme s'élance dans ses bras.</l>
-                <l>L'amour a prévu sa victoire:</l>
-                <l>Les premiers des mortels vont consacrer sa gloire...</l>
-                <l>Transports brûlans et vrais, que n'avilissent pas</l>
-                <l>Des airs étudiés, un factice embarras,</l>
-                <l> Ces moyens d'attirer, cet art de se défendre</l>
-                <l>Que méconnut toujours la beauté simple et tendre.</l>
-                <l>L'homme exprime en tremblant ses desirs amoureux:</l>
-                <l>Sa compagne soupire et lui dit: Sois heureux.</l>
-                <l>Je vais l'être avec toi. Ses lèvres demi-closes</l>
-                <l>Appellent le baiser .... L'homme meurt sur son sein,</l>
-                <l>Et ce bosquet de myrtes et de roses</l>
-                <l>Est le berceau du genre humain.</l>
-                <l>De nos heureux parens les nombreux sacrifices</l>
-                <l>Ont d'un siècle en un jour épuisé les délices;</l>
-                <l>Pleins de leur existence, ivres de leur bonheur,</l>
-                <l>Ils remontent tous deux vers un divin auteur.</l>
-                <l>Echappés de ses mains, ils l'ignoraient encore....</l>
-                <l>Chacun d'eux l'a trouvé dans l'objet qu'il adore.</l>
-                <l>L'excès de ses bienfaits le décèle en ce jour.....</l>
-                <l>Hé! quel autre qu'un Dieu put leur donner l'amour!</l>
-                <l>Tous deux, d'un même accord, célèbrent sa puissance,</l>
-                <l>Et leur culte est celui de la reconnaissance,</l>
-                <l>Culte qui n'a besoin de prêtres ni d'autels,</l>
-                <l>Et qu'ont défiguré les aveugles mortels.</l>
-                <l>Des antiques vertus, que cultivaient nos pères,</l>
-                <l>Il ne resta bientôt que des traces légères.</l>
-                <l>Sur les ailes du temps la superstition</l>
-                <l>Fondit comme un vautour sur la religion.</l>
-                <l>Le sacerdoce altier, fabricateur d'oracles,</l>
-                <l>Vit le peuple à genoux mendier ses miracles:</l>
-                <l> Imposteur insolent, dont la cupidité</l>
-                <l>Abrutit l'univers par la crédulité,</l>
-                <l>De tes flancs gangrenés sortit le fanatisme,</l>
-                <l>Et ses hideux serpens vomirent l'athéisme.</l>
-                <l>L'Eternel outragé proscrivit les humains;</l>
-                <l>L'homme contre lui-même arma ses propres mains;</l>
-                <l> Les amis, les parens se déclarent la guerre,</l>
-                <l>Et la vertu plaintive abandonne la terre.</l>
-                <l>Le crime audacieux y règne en souverain,</l>
-                <l>La nature est muette, et les cœurs sont d'airain.</l>
-                <l>Dieu, qui nous as formés, défends ton frèle ouvrage;</l>
-                <l>Parle à l'homme égaré, sauve-le de sa rage;</l>
-                <l>Viens te manifester par de nouveaux bienfaits,</l>
-                <l>Et nous réunir tous dans les bras de la paix.</l>
-            </div>
-        </body>
-    </text>
+                    qu'on trouve trop rarement dans les souverains.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LE AGES.
+    </head>
+    <l>
+     Le premier homme existe. En ce moment suprême,
+    </l>
+    <l>
+     Il se cherche, il se trouve, il s'étonne lui-même;
+    </l>
+    <l>
+     Il se lève, il se meut, il devine ses sens,
+    </l>
+    <l>
+     Et sa langue incertaine a trouvé des accens.
+    </l>
+    <l>
+     D'un univers nouveau la beauté ravissante
+    </l>
+    <l>
+     Le séduit, le soumet, le subjugue, l'enchante;
+    </l>
+    <l>
+     Son ame toute entière a passé dans ses yeux;
+    </l>
+    <l>
+     Rien ne peut arrêter son vol impétueux;
+    </l>
+    <l>
+     Elle embrasse à la fois et le ciel et la terre.
+    </l>
+    <l>
+     Déjà l'homme prévoit, il compare, il préfère;
+    </l>
+    <l>
+     Il savoure des fruits les sucs délicieux,
+    </l>
+    <l>
+     Il respire des fleurs le parfum précieux;
+    </l>
+    <l>
+     Des habitans des airs le chant moelleux l'attire,
+    </l>
+    <l>
+     Et de ce qui l'entoure il se forme un empire;
+    </l>
+    <l>
+     La loi de l'univers est dans sa volonté;
+    </l>
+    <l>
+     L'homme jouit de tout avec avidité.
+    </l>
+    <l>
+     Mais bientôt l'éclat, la richesse,
+    </l>
+    <l>
+     Source de ses premiers desirs,
+    </l>
+    <l>
+     La pure et naïve alégresse,
+    </l>
+    <l>
+     Qui suivit ses premiers plaisirs,
+    </l>
+    <l>
+     S'évanouirent comme un songe
+    </l>
+    <l>
+     Qui trompe les rigueurs de l'aveugle destin,
+    </l>
+    <l>
+     Que la main de l'erreur prolonge,
+    </l>
+    <l>
+     Et que dissipe le matin.
+    </l>
+    <l>
+     L'homme n'a point ce qu'il desire;
+    </l>
+    <l>
+     Il s'est trompé dans son délire;
+    </l>
+    <l>
+     Rien encor n'a rempli son cœur.
+    </l>
+    <l>
+     Avec son sang, une nouvelle ardeur
+    </l>
+    <l>
+     Rapidement passe de veine en veine:
+    </l>
+    <l>
+     Un besoin inconnu le tourmente, l'entraîne;
+    </l>
+    <l>
+     Il n'en peut démêler l'objet.
+    </l>
+    <l>
+     Il vient, il va, cherche, s'agite;
+    </l>
+    <l>
+     Il ne trouve par-tout, interdit et muet,
+    </l>
+    <l>
+     Que son cœur, qui toujours palpite.
+    </l>
+    <l>
+     L'appétit, la gaîté, le sommeil, tout le fuit;
+    </l>
+    <l>
+     La nature a perdu ses charmes;
+    </l>
+    <l>
+     Le chagrin dévorant le suit,
+    </l>
+    <l>
+     Et son œil se mouille de larmes.
+    </l>
+    <l>
+     Egaré, hors de lui, sans haleine et sans voix,
+    </l>
+    <l>
+     L'infortuné cherche un asile:
+    </l>
+    <l>
+     Le myrte, le rosier, le coudrier facile
+    </l>
+    <l>
+     Unissant leurs rameaux, le couvrent tous les trois.
+    </l>
+    <l>
+     „Quel est le feu qui me dévore,
+    </l>
+    <l>
+     “Dit-il, qui pourra le calmer?
+    </l>
+    <l>
+     “J'appelle, j'attends et j'implore
+    </l>
+    <l>
+     “Un être qui doit m'aimer .....
+    </l>
+    <l>
+     “Ah! s'il n'existe pas encore,
+    </l>
+    <l>
+     “Quel farouche tyran se plut à m'animer!“
+    </l>
+    <l>
+     Il dit: Le souffle du zéphire
+    </l>
+    <l>
+     Agite le tendre rameau,
+    </l>
+    <l>
+     Et découvre un objet nouveau,
+    </l>
+    <l>
+     Qui sommeille et semble sourire.
+    </l>
+    <l>
+     Non, je ne la peindrai jamais
+    </l>
+    <l>
+     Cette touchante créature:
+    </l>
+    <l>
+     Innocence, graces, attraits,
+    </l>
+    <l>
+     Voilà son unique parure:
+    </l>
+    <l>
+     Elle met le comble aux bienfaits
+    </l>
+    <l>
+     Que l'homme doit à la nature.
+    </l>
+    <l>
+     Son œil dévore tant d'appas;
+    </l>
+    <l>
+     Sa fureur fait place à l'ivresse;
+    </l>
+    <l>
+     L'objet nouveau le fixe avec tendresse;
+    </l>
+    <l>
+     L'homme s'élance dans ses bras.
+    </l>
+    <l>
+     L'amour a prévu sa victoire:
+    </l>
+    <l>
+     Les premiers des mortels vont consacrer sa gloire...
+    </l>
+    <l>
+     Transports brûlans et vrais, que n'avilissent pas
+    </l>
+    <l>
+     Des airs étudiés, un factice embarras,
+    </l>
+    <l>
+     Ces moyens d'attirer, cet art de se défendre
+    </l>
+    <l>
+     Que méconnut toujours la beauté simple et tendre.
+    </l>
+    <l>
+     L'homme exprime en tremblant ses desirs amoureux:
+    </l>
+    <l>
+     Sa compagne soupire et lui dit: Sois heureux.
+    </l>
+    <l>
+     Je vais l'être avec toi. Ses lèvres demi-closes
+    </l>
+    <l>
+     Appellent le baiser .... L'homme meurt sur son sein,
+    </l>
+    <l>
+     Et ce bosquet de myrtes et de roses
+    </l>
+    <l>
+     Est le berceau du genre humain.
+    </l>
+    <l>
+     De nos heureux parens les nombreux sacrifices
+    </l>
+    <l>
+     Ont d'un siècle en un jour épuisé les délices;
+    </l>
+    <l>
+     Pleins de leur existence, ivres de leur bonheur,
+    </l>
+    <l>
+     Ils remontent tous deux vers un divin auteur.
+    </l>
+    <l>
+     Echappés de ses mains, ils l'ignoraient encore....
+    </l>
+    <l>
+     Chacun d'eux l'a trouvé dans l'objet qu'il adore.
+    </l>
+    <l>
+     L'excès de ses bienfaits le décèle en ce jour.....
+    </l>
+    <l>
+     Hé! quel autre qu'un Dieu put leur donner l'amour!
+    </l>
+    <l>
+     Tous deux, d'un même accord, célèbrent sa puissance,
+    </l>
+    <l>
+     Et leur culte est celui de la reconnaissance,
+    </l>
+    <l>
+     Culte qui n'a besoin de prêtres ni d'autels,
+    </l>
+    <l>
+     Et qu'ont défiguré les aveugles mortels.
+    </l>
+    <l>
+     Des antiques vertus, que cultivaient nos pères,
+    </l>
+    <l>
+     Il ne resta bientôt que des traces légères.
+    </l>
+    <l>
+     Sur les ailes du temps la superstition
+    </l>
+    <l>
+     Fondit comme un vautour sur la religion.
+    </l>
+    <l>
+     Le sacerdoce altier, fabricateur d'oracles,
+    </l>
+    <l>
+     Vit le peuple à genoux mendier ses miracles:
+    </l>
+    <l>
+     Imposteur insolent, dont la cupidité
+    </l>
+    <l>
+     Abrutit l'univers par la crédulité,
+    </l>
+    <l>
+     De tes flancs gangrenés sortit le fanatisme,
+    </l>
+    <l>
+     Et ses hideux serpens vomirent l'athéisme.
+    </l>
+    <l>
+     L'Eternel outragé proscrivit les humains;
+    </l>
+    <l>
+     L'homme contre lui-même arma ses propres mains;
+    </l>
+    <l>
+     Les amis, les parens se déclarent la guerre,
+    </l>
+    <l>
+     Et la vertu plaintive abandonne la terre.
+    </l>
+    <l>
+     Le crime audacieux y règne en souverain,
+    </l>
+    <l>
+     La nature est muette, et les cœurs sont d'airain.
+    </l>
+    <l>
+     Dieu, qui nous as formés, défends ton frèle ouvrage;
+    </l>
+    <l>
+     Parle à l'homme égaré, sauve-le de sa rage;
+    </l>
+    <l>
+     Viens te manifester par de nouveaux bienfaits,
+    </l>
+    <l>
+     Et nous réunir tous dans les bras de la paix.
+    </l>
+   </div>
+  </body>
+ </text>
 </TEI>

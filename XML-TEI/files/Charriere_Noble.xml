@@ -1,87 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Charriere_Noble" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:63.21 wikidata:0">Le noble: MiMoText edition</title>
-        <author ref="viaf:46755588 wikidata:Q123386">Isabelle de Charrière(1740-1805)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Athena</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">7007</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://athena.unige.ch/athena/charriere/charriere-le-noble.html"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Le Noble (conte moral)</title>
-          <author>Madame de Charrière</author>
-          <!-- editor: Philippe Godet -->
-          <pubPlace>Genève</pubPlace>
-          <publisher>Jullien</publisher>
-          <date>1908</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1763</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-05-20">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="chapter">
-        <head>LE NOBLE</head>
-        <p>
-          <hi rend="italic">On ne suit pas toujours ses Aïeux, ni son Père</hi>
-          (La Fontaine)
-        </p>
-        <p>Il y avait dans une des provinces de France un château très ancien, habité par un vieux rejeton
+<TEI xml:id="Charriere_Noble" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:63.21 wikidata:0">
+     Le noble: MiMoText edition
+    </title>
+    <author ref="viaf:46755588 wikidata:Q123386">
+     Isabelle de Charrière(1740-1805)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Athena
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     7007
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://athena.unige.ch/athena/charriere/charriere-le-noble.html"/>
+     <publisher>
+      Athena: Pierre Perroud
+     </publisher>
+     <date>
+      1997
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Le Noble (conte moral)
+     </title>
+     <author>
+      Madame de Charrière
+     </author>
+     <!-- editor: Philippe Godet -->
+     <pubPlace>
+      Genève
+     </pubPlace>
+     <publisher>
+      Jullien
+     </publisher>
+     <date>
+      1908
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1763
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-05-20">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     LE NOBLE
+    </head>
+    <p>
+     <hi rend="italic">
+      On ne suit pas toujours ses Aïeux, ni son Père
+     </hi>
+     (La Fontaine)
+    </p>
+    <p>
+     Il y avait dans une des provinces de France un château très ancien, habité par un vieux rejeton
           d'une famille encore plus ancienne. Le baron d'Arnonville était très sensible au mérite de cette
           ancienneté, et il avait raison, car il n'avait pas beaucoup d'autres mérites. Mais son château se
           serait mieux trouvé d'être un peu plus moderne: une des tours comblait déjà une partie du fossé; on
@@ -93,8 +148,10 @@
           droit de pendre sur ses terres; et il ne lui serait jamais venu dans l'esprit qu'on pût faire un
           meilleur usage de son bien, ni laisser à ses enfants quelque chose de mieux que la haute et basse
           justice. L'argent de ses menus plaisirs, il le mettait à faire renouveler les écussons qui bordaient
-          tous les planchers, et à faire repeindre ses ancêtres.</p>
-        <p>La baronne d'Arnonville était morte depuis longtemps, et lui avait laissé un fils et une fille,
+          tous les planchers, et à faire repeindre ses ancêtres.
+    </p>
+    <p>
+     La baronne d'Arnonville était morte depuis longtemps, et lui avait laissé un fils et une fille,
           qui s'appelait Julie. Le jeune seigneur avait également à se plaindre de la nature et de
           l'éducation: cependant il ne se plaignait pas; content du nom d'Arnonville et de la connaissance de
           l'arbre généalogique de sa maison, il se passait de talents et de science. Il chassait quelquefois,
@@ -105,8 +162,10 @@
           de blason qu'elle ne goûtait guère, et elle avait lu en secret quelques romans qu'elle goûtait
           beaucoup. Le séjour qu'elle avait fait chez une dame de ses parentes, dans la capitale de la
           province, lui avait donné quelque usage du monde; il n'en faut pas beaucoup pour rendre polie une
-          personne qui a l'esprit pénétrant et le coeur bon.</p>
-        <p>Un peintre, qui copiait ses grands-pères et leurs quartiers, lui avait donné des leçons de
+          personne qui a l'esprit pénétrant et le coeur bon.
+    </p>
+    <p>
+     Un peintre, qui copiait ses grands-pères et leurs quartiers, lui avait donné des leçons de
           dessin; elle peignait des paysages et brodait des fleurs. Elle travaillait avec adresse, elle
           chantait avec goût, et comme sa figure n'avait besoin ni de beaucoup d'art, ni de beaucoup de
           magnificence, on la trouvait toujours bien parée. Elle était fort vive et fort gaie, quoique tendre,
@@ -121,9 +180,10 @@
           la date des diplômes; mais Julie ne consultait jamais les diplômes: elle cédait toujours à l'âge, et
           aurait mieux aimé qu'on la crût roturière qu'arrogante. Par étourderie elle aurait passé devant une
           princesse; par indifférence et par civilité elle eût laissé passer tout le monde devant elle.
-        </p>
-        <p></p>
-        <p>Julie ne voulait point avoir trop d'esprit, et voilà pourquoi ce qu'elle en avait plaisait
+    </p>
+    <p/>
+    <p>
+     Julie ne voulait point avoir trop d'esprit, et voilà pourquoi ce qu'elle en avait plaisait
           davantage. Elle savait peu, mais on voyait que c'était faute d'avoir eu occasion de pouvoir
           apprendre; son ignorance n'avait point l'air de la stupidité. Une physionomie vive, douce et riante
           approchait d'elle ceux qui la voyaient, et son accueil gracieux achevait la prévention qu'avait fait
@@ -131,8 +191,10 @@
           d'autant plus de pas en arrière que son air en avait fait faire en avant; nous voulons plaire
           d'abord à une personne qui nous plaît: si elle nous reçoit mal, elle nous mortifie; irrités contre
           elle, nous nommons dédain ce qui n'est peut-être que défaut d'usage et de politesse; elle nous a
-          souvent perdus pour toujours.</p>
-        <p>Julie avait beaucoup plu à une dame de Paris qui l'avait vue chez la parente dont j'ai parlé:
+          souvent perdus pour toujours.
+    </p>
+    <p>
+     Julie avait beaucoup plu à une dame de Paris qui l'avait vue chez la parente dont j'ai parlé:
           elle la pria de venir passer quelque temps chez elle à la campagne. Julie obtint la permission de
           son père: il lui recommanda de se souvenir de ce qu'elle était, et Julie partit. Cette dame était
           fort riche, elle avait un fils unique, qui cependant était aimable et bien élevé. Il était très bien
@@ -142,8 +204,10 @@
           disait souvent tout bas ou en mots couverts quelque tendresse à Julie; mais dès qu'ils étaient seuls
           et qu'il aurait pu tout dire, il ne lui parlait pas. Elle en était surprise, mais pourtant contente:
           elle avait lu ou elle devinait que l'amour est timide quand il est ardent et délicat; aucun discours
-          ne lui eût fait tant de plaisir que ceux de son amant, mais elle aimait bien autant son silence.</p>
-        <p>Valaincourt avait, outre les raisons que Julie sentait, un motif de se taire qu'elle ne savait
+          ne lui eût fait tant de plaisir que ceux de son amant, mais elle aimait bien autant son silence.
+    </p>
+    <p>
+     Valaincourt avait, outre les raisons que Julie sentait, un motif de se taire qu'elle ne savait
           pas. Elle avait vu qu'il avait les yeux grands, les cheveux blonds, les dents belles; elle lui avait
           trouvé beaucoup de douceur, d'esprit et de générosité; elle avait remarqué de l'ordre, de la décence
           et de l'opulence dans sa maison; mais elle avait oublié de demander lequel de ses ancêtres avait été
@@ -153,8 +217,10 @@
           glorieux d'un titre dont il est l'auteur; que le second vaut mieux que le vingtième, et qu'il y
           avait à présumer que Valaincourt ressemblait plus à son père que le baron Arnonville à son trentième
           aïeul; mais les sages ne sont pas juges compétents de l'ouvrage du préjugé. Valaincourt connaissait
-          le préjugé, il savait jusqu'où le portait le père de Julie.</p>
-        <p>Le temps du départ de Julie approchait; tous deux étaient affligés, et ils en étaient plus
+          le préjugé, il savait jusqu'où le portait le père de Julie.
+    </p>
+    <p>
+     Le temps du départ de Julie approchait; tous deux étaient affligés, et ils en étaient plus
           tendres. Comme chacun se retirait pour s'aller coucher, ils se trouvèrent seuls dans un corridor où
           il n'y avait point de lumière: Valaincourt prit la main de Julie et la baisa plus vivement qu'il
           n'avait encore fait; car il l'avait déjà baisée, et Julie, depuis plusieurs jours, ôtait ses gants
@@ -163,76 +229,101 @@
           pas à refuser ce qu'elle pouvait donner sans peine, le laissa prendre. Le lendemain, Julie fit en
           sorte de se trouver dans le corridor; il y avait de la lumière. Valaincourt l'éteignit; il lui donna
           un tendre baiser, et puis encore un; Julie aurait voulu les rendre... Heureusement c'était le
-          dernier soir... Le lendemain Julie partit.</p>
-        <p>Tant qu'elle avait été avec Valaincourt, elle n'avait songé qu'au plaisir de le voir et de
+          dernier soir... Le lendemain Julie partit.
+    </p>
+    <p>
+     Tant qu'elle avait été avec Valaincourt, elle n'avait songé qu'au plaisir de le voir et de
           l'entendre; quand elle ne le vit plus, elle sentit la douleur d'en être séparée: elle pensa aux
           moyens de le revoir et de le voir toujours. Je ne sais ce qu'elle sentit et pensa encore: mais par
-          bonheur le jeune homme pensait aux mêmes choses de son côté.</p>
-        <p>Un jour, comme elle brodait seule, il entra. Elle se souvint du corridor, et rougit. Valaincourt
+          bonheur le jeune homme pensait aux mêmes choses de son côté.
+    </p>
+    <p>
+     Un jour, comme elle brodait seule, il entra. Elle se souvint du corridor, et rougit. Valaincourt
           ne parut pas s'en souvenir, tant il mit de respect dans sa façon de l'aborder. Avec une femme qu'on
           estime, qui a l'air modeste et décent, un homme met presque en doute les faveurs qu'il en a reçues.
           Valaincourt ne pouvait croire qu'il eût osé toucher de ses lèvres le visage de cette divinité.
-        </p>
-        <p>Après les premiers compliments il retomba dans son silence; Julie ne se croyait plus du tout
+    </p>
+    <p>
+     Après les premiers compliments il retomba dans son silence; Julie ne se croyait plus du tout
           imposante; elle trouvait qu'elle en avait assez vu pour n'être plus si timide, et, pensant qu'il
           devait apercevoir une partie de ce qu'elle sentait, elle se fâcha de ce silence. A sa place, se
           dit-elle, il me semble que je parlerais. En même temps, elle se leva pour sonner, et comme le
           laquais allait entrer dans la chambre:
-        </p>
-        <p>- Vous êtes bien poli, Monsieur, dit-elle à Valaincourt, de venir de si loin, puisque vous n'avez
+    </p>
+    <p>
+     - Vous êtes bien poli, Monsieur, dit-elle à Valaincourt, de venir de si loin, puisque vous n'avez
           rien à me dire. Donnez le café, et si mon père est au logis, priez-le d'en venir prendre.
-        </p>
-        <p>- Ah! Mademoiselle, répondit Valaincourt, qu'il est difficile de parler quand on pense que de ce
+    </p>
+    <p>
+     - Ah! Mademoiselle, répondit Valaincourt, qu'il est difficile de parler quand on pense que de ce
           qu'on va dire dépend peut-être toute notre félicité, ou tout notre malheur!... Si je m'y prenais
           mal!... Ah! grand Dieu! Si je ne disais pas ces mots qui vous persuaderaient! Julie, adorable Julie,
           dites... que faut-il que je dise? Quels discours, quels motifs, quelles assurances pourraient vous
           engager à vous donner à moi?
-        </p>
-        <p>- Ah! Valaincourt... dit Julie avec un regard et un sourire qui promettaient tout, qui
-          répondaient oui à tout ce qu'il aurait voulu dire.</p>
-        <p>Valaincourt, qui les entendait, n'en demanda pas davantage: hors de lui-même, il prend ses mains
+    </p>
+    <p>
+     - Ah! Valaincourt... dit Julie avec un regard et un sourire qui promettaient tout, qui
+          répondaient oui à tout ce qu'il aurait voulu dire.
+    </p>
+    <p>
+     Valaincourt, qui les entendait, n'en demanda pas davantage: hors de lui-même, il prend ses mains
           et les baise avec transport; il ose même, il ose en plein jour presser sa bouche sur la sienne; le
           père eût pu entrer, mais ils n'y pensaient pas: qu'auraient-ils craint dans leur délire? Il fut
           court cependant: Julie s'alarma de l'ardeur de son amant et de sa propre complaisance:
-        </p>
-        <p>- Laissez, laissez-moi! dit-elle, Valaincourt, nous nous oublions.</p>
-        <p>Dans ce moment, ils entendirent du bruit, et se hâtèrent de se rasseoir. Julie baissa la tête sur
+    </p>
+    <p>
+     - Laissez, laissez-moi! dit-elle, Valaincourt, nous nous oublions.
+    </p>
+    <p>
+     Dans ce moment, ils entendirent du bruit, et se hâtèrent de se rasseoir. Julie baissa la tête sur
           son ouvrage pour cacher son désordre; le jeune homme alla au devant de M. d'Arnonville avec un air
           de soumission qui parut le prévenir en sa faveur.
-        </p>
-        <p>- J'ai pris, Monsieur, la liberté de venir voir Mademoiselle votre fille, avec qui mon bonheur
+    </p>
+    <p>
+     - J'ai pris, Monsieur, la liberté de venir voir Mademoiselle votre fille, avec qui mon bonheur
           m'a fait faire connaissance.
-        </p>
-        <p>- N'avez-vous jamais vu mon château?
-        </p>
-        <p>- Non, Monsieur, je n'avais jamais eu de prétexte pour oser venir vous rendre mes devoirs.
-        </p>
-        <p>- Il mérite bien qu'on le voie, dit le vieux seigneur; un baron d'Arnonville, dont le trisaïeul
+    </p>
+    <p>
+     - N'avez-vous jamais vu mon château?
+    </p>
+    <p>
+     - Non, Monsieur, je n'avais jamais eu de prétexte pour oser venir vous rendre mes devoirs.
+    </p>
+    <p>
+     - Il mérite bien qu'on le voie, dit le vieux seigneur; un baron d'Arnonville, dont le trisaïeul
           avait été créé chevalier sous Clovis, le fit bâtir en l'an 456. Il n'est pas étonnant qu'il le fit
           faire aussi vaste que vous le voyez: dans ce temps-là, la noblesse était respectée comme elle doit
           l'être, elle était riche et puissante; aussi était-elle bien plus pure et bien plus rare
           qu'aujourd'hui: à présent c'est une récompense ordinaire, rien n'est si commun, et je ne fais nul
           cas de ces petits nobles sans aïeux.
-        </p>
-        <p>- Nous en avons, dit Julie, depuis le grenier jusqu'à la cave...
-        </p>
-        <p>- Et la plupart des anciennes familles, continua le baron, se sont corrompues par des
+    </p>
+    <p>
+     - Nous en avons, dit Julie, depuis le grenier jusqu'à la cave...
+    </p>
+    <p>
+     - Et la plupart des anciennes familles, continua le baron, se sont corrompues par des
           mésalliances; il en est bien peu, j'ose le dire, qui se soient, comme les d'Arnonvilles, soutenues
           dans toute leur pureté; aussi j'espère bien que mes enfants...
-        </p>
-        <p>- C'est sans doute, interrompit le jeune homme, qui n'y pouvait plus tenir, c'est sans doute une
+    </p>
+    <p>
+     - C'est sans doute, interrompit le jeune homme, qui n'y pouvait plus tenir, c'est sans doute une
           satisfaction et un motif de plus pour être vertueux que de trouver dans ses ancêtres des exemples de
           vertu et d'amour pour la patrie, quand on joint à un grand nom un grand mérite, et qu'au lieu de la
           vanité...
-        </p>
-        <p>- Puisque vous n'avez jamais vu le château, vous n'avez jamais vu les portraits; il faut que je
+    </p>
+    <p>
+     - Puisque vous n'avez jamais vu le château, vous n'avez jamais vu les portraits; il faut que je
           vous les montre, cela ne pourra que vous être utile pour l'étude de l'histoire. Monsieur,
           voulez-vous me suivre?
-        </p>
-        <p>- Mademoiselle nous accompagne-t-elle? dit Valaincourt d'un ton affligé!
-        </p>
-        <p>- Non, répondit en riant Julie, j'ai assez vécu avec mes grands-pères, et je les connais bien.</p>
-        <p>Valaincourt suivit tristement le baron; celui-ci, à qui il plaisait, ne lui épargnait pas un
+    </p>
+    <p>
+     - Mademoiselle nous accompagne-t-elle? dit Valaincourt d'un ton affligé!
+    </p>
+    <p>
+     - Non, répondit en riant Julie, j'ai assez vécu avec mes grands-pères, et je les connais bien.
+    </p>
+    <p>
+     Valaincourt suivit tristement le baron; celui-ci, à qui il plaisait, ne lui épargnait pas un
           portrait, pas un écusson, pas une anecdote; chaque portrait, chaque écusson amenait une réflexion
           qui perçait le coeur du pauvre Valaincourt. Ce n'est pas qu'il fût mortifié d'une si ridicule
           ostentation: il n'aurait pas voulu tenir sa noblesse du roi Ninus à la charge d'être aussi vain et
@@ -241,65 +332,99 @@
           transmis à la postérité, Valaincourt parcourait des yeux l'ouvrage du goût de la fille. Il vit sur
           une table un paysage qu'elle avait fini, un autre commencé, et parmi ses pinceaux et ses couleurs,
           il vit un petit catéchisme, Segrais, Racine et
-          <hi rend="italic">Gil Blas</hi>. Il vit les belles estampes qu'elle préférait aux vieux portraits,
+     <hi rend="italic">
+      Gil Blas
+     </hi>
+     . Il vit les belles estampes qu'elle préférait aux vieux portraits,
           il vit des fleurs... Mais il ne vit plus rien de tout le reste quand il eut aperçu le portrait de
           Julie: il était crayonné en petit; il était ressemblant. Valaincourt ne songea plus qu'à détourner
           les yeux du père.
-        </p>
-        <p>- Quel est cet homme respectable, dit-il, qui est là, Monsieur, derrière vous?</p>
-        <p>Le baron se tourna:
-        </p>
-        <p>- C'est celui dont je vous ai tant parlé: n'avez-vous pas entendu?
-        </p>
-        <p>- Ah! Monsieur, pardon, je me le rappelle.</p>
-        <p>Valaincourt avait le portrait et ne désirait plus rien; mais voyant que le père recommençait, il
+    </p>
+    <p>
+     - Quel est cet homme respectable, dit-il, qui est là, Monsieur, derrière vous?
+    </p>
+    <p>
+     Le baron se tourna:
+    </p>
+    <p>
+     - C'est celui dont je vous ai tant parlé: n'avez-vous pas entendu?
+    </p>
+    <p>
+     - Ah! Monsieur, pardon, je me le rappelle.
+    </p>
+    <p>
+     Valaincourt avait le portrait et ne désirait plus rien; mais voyant que le père recommençait, il
           prit le joli paysage qui était à sa bienséance. Enfin, ils sortirent de cette chambre.
-        </p>
-        <p>- N'est-il pas vrai, dit Julie, lorsqu'ils la rejoignirent, que je suis riche en grands-pères?
+    </p>
+    <p>
+     - N'est-il pas vrai, dit Julie, lorsqu'ils la rejoignirent, que je suis riche en grands-pères?
           Mes grand'mères ne sont pas belles, mais cela ne fait rien, elles sont anciennes; je compte me faire
           peindre bien des fois, belle ou laide: dans trois cents ans mon portrait vaudra son pesant d'or.
-        </p>
-        <p>- Ah! Mademoiselle, lui dit Valaincourt, votre portrait ne sera pas si cher, si précieux qu'il
+    </p>
+    <p>
+     - Ah! Mademoiselle, lui dit Valaincourt, votre portrait ne sera pas si cher, si précieux qu'il
           l'est aujourd'hui; alors peut-être la vanité le vénérera; aujourd'hui l'amour l'adore.
-        </p>
-        <p>- L'avez-vous vu, Monsieur?
-        </p>
-        <p>- Oui, Mademoiselle, vous verrez que je l'ai vu comme je devais le voir; j'ai vu aussi vos livres
+    </p>
+    <p>
+     - L'avez-vous vu, Monsieur?
+    </p>
+    <p>
+     - Oui, Mademoiselle, vous verrez que je l'ai vu comme je devais le voir; j'ai vu aussi vos livres
           et vos paysages...
-        </p>
-        <p>- Ne vous êtes-vous pas fort amusé à voir mes ancêtres?
-        </p>
-        <p>- Non, Mademoiselle, je n'ai regardé que ce qui avait rapport à vous.</p>
-        <p>Ceci se disait à demi voix; Julie souriait, et Valaincourt était bien aise de voir que la fille
+    </p>
+    <p>
+     - Ne vous êtes-vous pas fort amusé à voir mes ancêtres?
+    </p>
+    <p>
+     - Non, Mademoiselle, je n'ai regardé que ce qui avait rapport à vous.
+    </p>
+    <p>
+     Ceci se disait à demi voix; Julie souriait, et Valaincourt était bien aise de voir que la fille
           n'eût pas le même respect pour l'ancienneté que son père... Il était tard, Valaincourt prit son
           congé d'eux et s'en alla.
-        </p>
-        <p>- Ce jeune homme est-il ton amant? dit le baron à sa fille.
-        </p>
-        <p>- Je crois qu'oui, mon père.
-        </p>
-        <p>- Pense-t-il à t'épouser?
-        </p>
-        <p>- Oui, mon père.
-        </p>
-        <p>- Est-il gentilhomme?</p>
-        <p>Julie n'en savait rien: elle le supposa, et dit encore oui.
-        </p>
-        <p>- D'une ancienne famille?
-        </p>
-        <p>- Oui, mon père.
-        </p>
-        <p>- D'où tirent-ils leur origine?
-        </p>
-        <p>- De Renaud de Montauban, répondit Julie par un mouvement de gaîté plutôt que par politique.
-        </p>
-        <p>- Quoi! ma fille, de Renaud de Montauban! Mon Dieu, que tu serais heureuse! Quelle joie pour moi
-          de te voir ainsi mariée!</p>
-        <p>En disant cela, il l'embrassa avec une tendresse qui la déconcerta. Elle se repentit de lui en
+    </p>
+    <p>
+     - Ce jeune homme est-il ton amant? dit le baron à sa fille.
+    </p>
+    <p>
+     - Je crois qu'oui, mon père.
+    </p>
+    <p>
+     - Pense-t-il à t'épouser?
+    </p>
+    <p>
+     - Oui, mon père.
+    </p>
+    <p>
+     - Est-il gentilhomme?
+    </p>
+    <p>
+     Julie n'en savait rien: elle le supposa, et dit encore oui.
+    </p>
+    <p>
+     - D'une ancienne famille?
+    </p>
+    <p>
+     - Oui, mon père.
+    </p>
+    <p>
+     - D'où tirent-ils leur origine?
+    </p>
+    <p>
+     - De Renaud de Montauban, répondit Julie par un mouvement de gaîté plutôt que par politique.
+    </p>
+    <p>
+     - Quoi! ma fille, de Renaud de Montauban! Mon Dieu, que tu serais heureuse! Quelle joie pour moi
+          de te voir ainsi mariée!
+    </p>
+    <p>
+     En disant cela, il l'embrassa avec une tendresse qui la déconcerta. Elle se repentit de lui en
           avoir imposé sur une chose qui lui paraissait si importante et craignit les conséquences de son
           badinage, s'il venait à se découvrir; elle s'indigna aussi de tant de folie; et tous ces sentiments
-          ensemble l'agitèrent si fort, qu'elle fut obligée de se retirer.</p>
-        <p>Elle s'assit dans sa chambre, les deux bras appuyés sur sa toilette, et la tête appuyée sur ses
+          ensemble l'agitèrent si fort, qu'elle fut obligée de se retirer.
+    </p>
+    <p>
+     Elle s'assit dans sa chambre, les deux bras appuyés sur sa toilette, et la tête appuyée sur ses
           mains. Mon père ne demande pas, disait-elle, s'il est sage, s'il a le coeur bon, il demande si sa
           famille est ancienne... Sur cette assurance il me donne à lui... Ah! si Valaincourt allait n'être
           pas si noble, il me le refuserait! il serait d'autant plus inflexible que je l'ai trompé. Mon Dieu!
@@ -320,8 +445,10 @@
           parvenir sa lettre, et je jurerais qu'elle aurait écrit en effet, si elle eût été sûre de son style
           et de son orthographe; mais Julie passa rapidement sur ses véritables motifs de ne point écrire;
           elle se persuada, en remettant tout cet attirail, que la prudence, la réserve, la modestie, le
-          respect des bienséances l'arrêtaient, et elle s'applaudit de ces vertus qu'elle n'avait pas.</p>
-        <p>On vint appeler Julie pour le souper: déjà son père avait fait part de ses espérances au jeune
+          respect des bienséances l'arrêtaient, et elle s'applaudit de ces vertus qu'elle n'avait pas.
+    </p>
+    <p>
+     On vint appeler Julie pour le souper: déjà son père avait fait part de ses espérances au jeune
           baron; à peine ils purent se contenir en présence des domestiques. Dès qu'ils furent renvoyés, on
           but à la santé du descendant de Renaud; mais Julie, ne pouvant supporter le spectacle de leur joie,
           se retira encore une fois également honteuse de sa faute et de leur extravagance: seule dans sa
@@ -338,8 +465,10 @@
           sensations diverses et intéressantes. Elle ne pouvait concevoir qu'elle eût senti et pensé tant de
           choses, qu'elle eût eu tant de joies et de chagrins en si peu de temps. Julie n'est pas la seule à
           qui le temps paraisse encore plus long dans la succession rapide d'impressions variées que dans la
-          langueur de l'inaction.</p>
-        <p>Julie s'endormit malgré la tendresse; ses songes ne lui annoncèrent rien de fâcheux; le lendemain
+          langueur de l'inaction.
+    </p>
+    <p>
+     Julie s'endormit malgré la tendresse; ses songes ne lui annoncèrent rien de fâcheux; le lendemain
           nul pressentiment ne la troubla; elle passa la moitié de la matinée à peindre dans sa chambre. Son
           père dînait au château voisin: ainsi, elle était seule. Combien de fois ne souhaita-t-elle pas que
           Valaincourt vînt troubler cette solitude et mettre à profit des moments qui coulaient pour rien!
@@ -347,35 +476,45 @@
           regardé le portrait de sa maîtresse une partie du jour, mais il voulut voir sa maîtresse elle-même:
           il se mit en chemin pour cela d'abord après dîner, et rencontra M. d'Arnonville qui retournait chez
           lui. Le baron ne tarda pas à lui parler de la chose qui occupait uniquement son coeur:
-        </p>
-        <p>- J'ai appris, Monsieur, lui dit-il, après lui avoir fait bien des révérences, j'ai appris que
-          vous aimiez ma fille et que vous songiez à l'épouser.</p>
-        <p>Valaincourt étonné ne répondit à ce début que par une profonde inclination. La surprise,
+    </p>
+    <p>
+     - J'ai appris, Monsieur, lui dit-il, après lui avoir fait bien des révérences, j'ai appris que
+          vous aimiez ma fille et que vous songiez à l'épouser.
+    </p>
+    <p>
+     Valaincourt étonné ne répondit à ce début que par une profonde inclination. La surprise,
           l'inquiétude étaient peintes sur son visage et le rendaient muet. "Mon sort va être décidé,
           disait-il en lui-même: bon Dieu, que va-t-il ajouter?"
-        </p>
-        <p>- Je suis décidé depuis longtemps, continua le baron d'un air gracieux, à ne donner ma fille qu'à
+    </p>
+    <p>
+     - Je suis décidé depuis longtemps, continua le baron d'un air gracieux, à ne donner ma fille qu'à
           un homme d'une naissance illustre: les d'Arnonville ne feront déshonneur à aucune famille, ils
           peuvent prétendre à tout; mes ancêtres...
-        </p>
-        <p>- Ah! Monsieur, s'écria imprudemment l'amoureux Valaincourt, je connais toute votre supériorité,
+    </p>
+    <p>
+     - Ah! Monsieur, s'écria imprudemment l'amoureux Valaincourt, je connais toute votre supériorité,
           je sais que je ne suis pas digne de votre alliance; mais si l'amour le plus tendre, le désir le plus
           vif de rendre heureuse votre aimable fille, pouvaient me tenir lieu d'une noblesse plus ancienne, si
-          l'honneur, la probité, mon dévouement pour vous...</p>
-        <p>Dans le moment Julie s'était approchée, elle avait entendu ce que disait Valaincourt, et sa
+          l'honneur, la probité, mon dévouement pour vous...
+    </p>
+    <p>
+     Dans le moment Julie s'était approchée, elle avait entendu ce que disait Valaincourt, et sa
           confusion expliqua tout le mystère. Valaincourt était tourné de façon qu'il ne voyait pas encore
           Julie; mais le père n'écoutait déjà plus Valaincourt: il jeta sur elle un regard qui la fit tomber à
           ses pieds. Valaincourt, interrompu par ce mouvement, regardait la fille et le père sans pouvoir
           comprendre ce qui occasionnait une scène si touchante. Il ne savait que penser ni que dire. Julie,
           les yeux baissés vers la terre, laissait couler ses pleurs et gardait le silence; le père, furieux,
           ne pouvait parler. Enfin, recouvrant la parole:
-        </p>
-        <p>- Fille indigne de moi et de vos aïeux, dit-il, vous avez donc voulu tromper votre père! Tout ce
+    </p>
+    <p>
+     - Fille indigne de moi et de vos aïeux, dit-il, vous avez donc voulu tromper votre père! Tout ce
           que vous m'avez dit de la naissance de votre amant n'est donc qu'une fable?
-        </p>
-        <p>- Ah! mon père, répondit Julie, je suis criminelle. Mais... mais jamais Valaincourt...
-        </p>
-        <p>- Quoi! Julie, c'est moi qui vous trahis! s'écria-t-il; je devais deviner, je devais me taire..
+    </p>
+    <p>
+     - Ah! mon père, répondit Julie, je suis criminelle. Mais... mais jamais Valaincourt...
+    </p>
+    <p>
+     - Quoi! Julie, c'est moi qui vous trahis! s'écria-t-il; je devais deviner, je devais me taire..
           Ah! c'est pour moi que vous êtes coupable, et c'est moi qui vous trahis! Monsieur, continua-t-il, en
           se mettant à genoux à côté de Julie, Monsieur, pardonnez une faute que l'amour a fait commettre et
           qu'ainsi nous partageons! Permettez-moi d'aimer votre fille; ses grâces, son esprit, la beauté de
@@ -383,26 +522,37 @@
           un roi ne serait pas plus tendre: jamais elle ne trouvera tant d'amour que dans mon coeur; jamais
           ses perfections ne seront mieux adorées... Encore une fois, permettez que je l'aime, que je la voie,
           que je vous voie, et votre propre jugement décidera de mon sort.
-        </p>
-        <p>- Renaud de Montauban! dit le père, sans paraître l'avoir entendu: depuis combien d'années votre
-          famille a-t-elle ses titres de noblesse?</p>
-        <p>Valaincourt ne répondit rien:
-        </p>
-        <p>- Parlez, lui dit Julie, soyez plus sincère et plus généreux que moi.
-        </p>
-        <p>- Depuis trente-cinq ans.
-        </p>
-        <p>- Trente-cinq ans! et je donnerais ma fille!... Allez, Mademoiselle, allez pleurer votre honte,
+    </p>
+    <p>
+     - Renaud de Montauban! dit le père, sans paraître l'avoir entendu: depuis combien d'années votre
+          famille a-t-elle ses titres de noblesse?
+    </p>
+    <p>
+     Valaincourt ne répondit rien:
+    </p>
+    <p>
+     - Parlez, lui dit Julie, soyez plus sincère et plus généreux que moi.
+    </p>
+    <p>
+     - Depuis trente-cinq ans.
+    </p>
+    <p>
+     - Trente-cinq ans! et je donnerais ma fille!... Allez, Mademoiselle, allez pleurer votre honte,
           et ne reparaissez point devant moi! Et vous, Monsieur, qu'on ne vous voie plus ici!... Otez-vous à
           l'instant de mes yeux! dit-il à Julie, qui continuait à pleurer à genoux; aurais-je cru que vous
           pussiez oublier jusque là votre origine? Vous méritez bien peu d'être ce que vous êtes!
-        </p>
-        <p>- Sans doute, dit Valaincourt, en aidant Julie à se relever, elle ne méritait pas un père tel que
-          vous...</p>
-        <p>Il en aurait dit davantage si un regard de Julie ne lui eût imposé silence. Et comme elle
+    </p>
+    <p>
+     - Sans doute, dit Valaincourt, en aidant Julie à se relever, elle ne méritait pas un père tel que
+          vous...
+    </p>
+    <p>
+     Il en aurait dit davantage si un regard de Julie ne lui eût imposé silence. Et comme elle
           prenait, en pleurant, le chemin du château, l'amant désespéré s'éloigna en maudissant son sort et la
-          noblesse.</p>
-        <p>Pour le baron d'Arnonville, outré, indigné, ne pouvant marcher tant il était ému, il s'assit sur
+          noblesse.
+    </p>
+    <p>
+     Pour le baron d'Arnonville, outré, indigné, ne pouvant marcher tant il était ému, il s'assit sur
           le même banc où quelques moments plus tôt lisait et rêvait paisiblement Julie. Ayant fait appeler sa
           ménagère par un ouvrier qui travaillait dans le jardin, il lui apprit l'aventure en peu de mots, et
           lui ordonna de veiller à ce que Julie ne pût sortir de sa chambre, ni recevoir des nouvelles de son
@@ -412,12 +562,16 @@
           haranguer sa jeune maîtresse. Julie, quoique naturellement douce, s'indigna d'un traitement si dur,
           et lorsque la vieille, ayant expliqué sa commission, commença à dire: "Pour une demoiselle de votre
           rang..."
-        </p>
-        <p>- Taisez-vous, lui dit-elle, j'en ai assez entendu de ces extravagances; enfermez-moi, mais sortez.
-        </p>
-        <p>Deux jours, Julie ne voulut écouter ni répondre: elle mangeait peu, elle ne dormait point, elle
-          pleurait beaucoup.</p>
-        <p>Le baron, resté seul sur le banc, disait: "Un petit noble de nouvelle date présume de s'allier à
+    </p>
+    <p>
+     - Taisez-vous, lui dit-elle, j'en ai assez entendu de ces extravagances; enfermez-moi, mais sortez.
+    </p>
+    <p>
+     Deux jours, Julie ne voulut écouter ni répondre: elle mangeait peu, elle ne dormait point, elle
+          pleurait beaucoup.
+    </p>
+    <p>
+     Le baron, resté seul sur le banc, disait: "Un petit noble de nouvelle date présume de s'allier à
           moi, et ma fille l'écoute! D'un côté quelle audace! de l'autre quelle lâcheté!" Il dit cela tout
           seul jusqu'à la nuit tombante, il le dit ensuite à son fils, il le dit la nuit dans ses rêves, et le
           lendemain, faisant le tour de ses portraits, il crut y voir le reproche et l'indignation. Le
@@ -428,15 +582,18 @@
           son lit d'un air consterné. Le baron s'éveillant en sursaut les pria d'apparaître à sa fille, mais
           leurs ombres antiques n'en firent rien. Julie, ayant reçu sur le soir un billet de Valaincourt,
           dormait tranquillement: ses songes étaient l'ouvrage de l'amour et de l'espérance.
-        </p>
-        <p>Valaincourt s'était adressé, pour lui faire tenir ce billet, à la fille du jardinier, que
+    </p>
+    <p>
+     Valaincourt s'était adressé, pour lui faire tenir ce billet, à la fille du jardinier, que
           l'affabilité de Julie lui avait attachée. Cette fille se chargea volontiers de la commission, et
           demanda à la vieille geôlière la permission de porter elle-même des fruits à Julie. Mme Dutour, qui
           n'était au fond pas méchante et à qui le chagrin de sa maîtresse commençait à inspirer de la pitié,
           y consentit; et la jeune fille, après avoir un peu causé avec Julie, lui dit tout bas qu'au fond du
           panier de fruit elle trouverait une lettre. Julie ne fut pas plus tôt seule qu'elle l'ouvrit, et
-          voici ce qu'elle lut:</p>
-        <p>"Belle et tendre Julie! Puisque vous connaissez l'Amour, il serait inutile de vous dire ce que je
+          voici ce qu'elle lut:
+    </p>
+    <p>
+     "Belle et tendre Julie! Puisque vous connaissez l'Amour, il serait inutile de vous dire ce que je
           sens et ce que je soupire; et comment ma plume pourrait-elle l'exprimer? Mon dessein est de vous
           assurer qu'il n'est rien que je n'entreprenne, rien que je ne hasarde, pour vous tirer des mains
           cruelles qui nous séparent... Pourriez-vous n'y pas consentir, Julie? Pourriez-vous adopter une
@@ -445,44 +602,60 @@
           vous épargner un regret... Dites, Mademoiselle, craignez-vous les regrets? Ma naissance... Pardon,
           Julie, vous m'aimez, et j'ose soupçonner votre coeur! Jugeriez-vous indigne de votre main celui que
           vous ne jugez pas indigne de votre tendresse? N'est-ce pas pour moi que vous souffrez!... Fiez-vous
-          à mon amour, charmante Julie: nous ne souffrirons pas longtemps."</p>
-        <p>Julie l'en crut sans trop savoir pourquoi. Elle lut et relut le charmant billet; en lisant,
+          à mon amour, charmante Julie: nous ne souffrirons pas longtemps."
+    </p>
+    <p>
+     Julie l'en crut sans trop savoir pourquoi. Elle lut et relut le charmant billet; en lisant,
           l'espoir, la gaîté même renaissaient dans son coeur. Elle mangea, elle dormit: le lendemain elle
           reprit son ouvrage et sa peinture. Mme Dutour la trouva douce et affable comme auparavant, et enfin
           elle eut le plaisir de haranguer sans être interrompue. Le jour suivant, la petite fille revint avec
           sa corbeille pendant que Mme Dutour disait:
-        </p>
-        <p>- De la naissance dont vous êtes, vous pouvez aspirer aux partis les plus nobles.
-        </p>
-        <p>- Cela se peut bien, répondit en souriant Julie.
-        </p>
-        <p>- Votre mari sera grand seigneur, vous aurez un grand château, et vous serez bien contente.
-        </p>
-        <p>- Cela se pourrait bien, dit Julie, d'un air encore plus doux et plus riant.</p>
-        <p>Mme Dutour, se croyant bien avancée, sortit en s'applaudissant pour dire au baron qu'il n'y avait
+    </p>
+    <p>
+     - De la naissance dont vous êtes, vous pouvez aspirer aux partis les plus nobles.
+    </p>
+    <p>
+     - Cela se peut bien, répondit en souriant Julie.
+    </p>
+    <p>
+     - Votre mari sera grand seigneur, vous aurez un grand château, et vous serez bien contente.
+    </p>
+    <p>
+     - Cela se pourrait bien, dit Julie, d'un air encore plus doux et plus riant.
+    </p>
+    <p>
+     Mme Dutour, se croyant bien avancée, sortit en s'applaudissant pour dire au baron qu'il n'y avait
           qu'à la laisser faire, et que dans deux jours Julie aurait oublié son amant. Mais elle ne trouva
           personne à qui communiquer son art et sa joie: le baron était sorti pour se distraire, et fit dire
           qu'il ne reviendrait que le lendemain. Julie se hâta de profiter de l'absence de sa gouvernante pour
           lire la lettre de Valaincourt. Il lui disait qu'ayant tout examiné, il jugeait son évasion facile,
           que sa fenêtre était basse, que cet endroit du fossé était presque comblé, qu'il l'attendrait dans
           l'avenue au milieu de la nuit, et qu'une voiture légère pourrait les mener avant le jour dans une
-          ville peu éloignée, où ils se jureraient un amour inviolable au pied de l'autel:</p>
-        <p>"Je ne doute plus de mon bonheur, continuait-il; puisqu'il dépend de vous, chère Julie, ce serait
+          ville peu éloignée, où ils se jureraient un amour inviolable au pied de l'autel:
+    </p>
+    <p>
+     "Je ne doute plus de mon bonheur, continuait-il; puisqu'il dépend de vous, chère Julie, ce serait
           vous faire injure; l'Amour vous donne à moi, ses droits sont sacrés. A minuit, quand la lune
           commencera à dissiper les ténèbres, quittez la triste prison où le barbare préjugé vous retient, et
           que l'Amour vous conduise dans les bras de votre amant. Je ne demande point de réponse: vous avez
-          dit que vous m'aimiez, c'était tout promettre. A minuit, Julie... quel moment! quels plaisirs!"</p>
-        <p>Julie laissa tomber la lettre et resta quelque temps immobile. Un sentiment mêlé de surprise et
+          dit que vous m'aimiez, c'était tout promettre. A minuit, Julie... quel moment! quels plaisirs!"
+    </p>
+    <p>
+     Julie laissa tomber la lettre et resta quelque temps immobile. Un sentiment mêlé de surprise et
           de joie, tel que le fait naître l'apparition inattendue d'un objet agréable, mais tout nouveau, tint
           quelque temps ses pensées comme suspendues. Un enlèvement! ce soir même! quitter la maison de son
-          père, et se donner à Valaincourt!</p>
-        <p>Julie se leva enfin, ouvrit la fenêtre, et sans s'avouer ses intentions, elle regarda si
+          père, et se donner à Valaincourt!
+    </p>
+    <p>
+     Julie se leva enfin, ouvrit la fenêtre, et sans s'avouer ses intentions, elle regarda si
           effectivement il était si facile d'en sortir. Voyant que de ce côté-là il n'y avait point
           d'objection à faire, elle releva la lettre et la lut encore une fois. "Il est vrai, dit-elle, que le
           préjugé qui me retient ici est aussi barbare qu'extravagant; il est vrai que j'ai dit que je
           l'aime... Valaincourt ne doute pas de mon consentement; ce serait, dit-il, m'offenser, je suis à
-          lui... Il m'attendra..."</p>
-        <p>Le même ton d'autorité qui rend un mari si odieux, combien n'est-il pas favorable à un amant!
+          lui... Il m'attendra..."
+    </p>
+    <p>
+     Le même ton d'autorité qui rend un mari si odieux, combien n'est-il pas favorable à un amant!
           Avec le même air qu'on élude les droits de l'un parce qu'on les hait, on grossit les droits de
           l'autre, parce qu'on les aime. On ne veut plus de sa liberté lorsqu'il faudrait l'employer contre le
           penchant; si Valaincourt eût supplié, s'il eût demandé un consentement, comme doutant de l'obtenir,
@@ -494,26 +667,34 @@
           larmes en pensant au père qu'elle abandonne, à ce séjour qui la vit naître, qui la vit croître, et
           qu'elle va quitter; mais elle pense à son amant, et ses pleurs se sèchent. "Je serai donc,
           s'écrie-t-elle, je serai donc à lui pour jamais!"
-        </p>
-        <p>Alors elle retourne à sa fenêtre, et examinant avec plus d'attention, elle voit que précisément à
+    </p>
+    <p>
+     Alors elle retourne à sa fenêtre, et examinant avec plus d'attention, elle voit que précisément à
           l'endroit où il faudrait descendre, il y avait un creux où l'eau de la pluie, qui était tombée ce
           jour-là, s'était arrêtée. Il fallait combler ce creux: de quoi se servir? Julie regarde autour
           d'elle, et voyant les portraits de ses aïeux: "Vous me rendrez, dit-elle, au moins ce service!" Et
           elle saute aussitôt en riant sur une chaise pour dépendre Jean-François-Alexandre d'Arnonville: le
           grand-père fut jeté dans la boue, et, celui-là ne suffisant pas, il fut suivi d'un second, puis d'un
-          troisième: jamais Julie n'avait cru qu'on pût tirer si bon parti des grands-pères.</p>
-        <p>Ce nouvel usage la divertissait. Cependant elle était fort agitée; et si, d'un côté, son coeur se
+          troisième: jamais Julie n'avait cru qu'on pût tirer si bon parti des grands-pères.
+    </p>
+    <p>
+     Ce nouvel usage la divertissait. Cependant elle était fort agitée; et si, d'un côté, son coeur se
           délectait dans l'espoir d'être à son amant, de l'autre il saignait pour son père. Ah! que les
           principes d'une bonne éducation eussent été puissants sur une âme naturellement vertueuse et encore
           incertaine! Mais les arguments pour le devoir qu'avait toujours employés le père, étaient encore
-          moins solides que ceux de l'amant pour l'amour.</p>
-        <p>La petite fille vint chercher son panier: ne sachant pas le contenu des lettres qu'elle avait
+          moins solides que ceux de l'amant pour l'amour.
+    </p>
+    <p>
+     La petite fille vint chercher son panier: ne sachant pas le contenu des lettres qu'elle avait
           portées, et voyant qu'une réponse de Julie faisait grand plaisir à Valaincourt, elle demanda si elle
           ne lui donnait point d'ordres. Julie hésita: c'était le moment de détruire les espérances de
           Valaincourt. Elle pâlit, elle rougit:
-        </p>
-        <p>- Non, dit-elle enfin d'une voix tremblante. Et puis elle fit un présent à la fille du jardinier.</p>
-        <p>A huit heures son frère vint la voir: c'était la première fois. Après quelques railleries assez
+    </p>
+    <p>
+     - Non, dit-elle enfin d'une voix tremblante. Et puis elle fit un présent à la fille du jardinier.
+    </p>
+    <p>
+     A huit heures son frère vint la voir: c'était la première fois. Après quelques railleries assez
           peu délicates, il lui raconta qu'il avait fait l'honneur à un petit parvenu de jouer avec lui un jeu
           qu'il entendait très bien et que l'autre n'entendait point du tout, et que charmé de trouver une
           dupe, il avait joué tout le jour et gagné une somme considérable. On n'est jamais plus sévère pour
@@ -523,13 +704,17 @@
           qu'on me condamnerait à passer ma vie, et encore me croirait-on trop heureuse s'il avait bien des
           quartiers. Oh! bien, qu'ils entrent dans l'ordre de Malte et dans les chapitres, ces grands
           seigneurs, cela leur est dû; Valaincourt ne s'y oppose point, il leur en cède, je pense, sans envie,
-          l'honneur et les voeux; mais mon coeur et ma main n'ont rien de commun avec toutes les croix."</p>
-        <p>Elle acheva de préparer sa sortie, jusqu'à ce que la ménagère vînt lui apporter à souper; elle se
+          l'honneur et les voeux; mais mon coeur et ma main n'ont rien de commun avec toutes les croix."
+    </p>
+    <p>
+     Elle acheva de préparer sa sortie, jusqu'à ce que la ménagère vînt lui apporter à souper; elle se
           coucha ensuite pour qu'on ne soupçonnât rien. Lorsque tout fut endormi, depuis le jeune baron
           jusqu'à ses meilleurs amis les chiens de chasse, elle se releva, elle s'habilla à la hâte et
           légèrement, sans lumière, et par conséquent sans miroir: elle pensait bien que de nuit, à la faible
-          lueur de la lune, Valaincourt ne s'amuserait pas à contempler son ajustement.</p>
-        <p>La lune paraît, minuit sonne; Julie jette un paquet qu'elle avait fait de ce qu'elle avait de
+          lueur de la lune, Valaincourt ne s'amuserait pas à contempler son ajustement.
+    </p>
+    <p>
+     La lune paraît, minuit sonne; Julie jette un paquet qu'elle avait fait de ce qu'elle avait de
           plus précieux; elle monte sur la fenêtre, elle redescend; elle monte encore... quelque chose la
           retient; elle croit entendre son père: mais que lui dit-il pour l'arrêter? Il lui parle de son nom,
           de sa naissance, de l'honneur de son origine qu'elle avait à soutenir. Julie trouva que tout cela ne
@@ -539,28 +724,37 @@
           pieds. Le bruit éveille la ménagère, qui ne couchait pas loin de là. Mais pensant que c'était
           quelqu'un de ces esprits qui honorent fréquemment de leurs visites les anciens châteaux, elle se
           contenta de dire un
-          <hi rend="italic">Ave Maria</hi>, en s'enfonçant dans ses couvertures, et cette fois les revenants furent bons à quelque chose.
-        </p>
-        <p>Julie s'avance à travers les ruines; elle entre dans la cour. Un chien s'éveille, mais il ne
+     <hi rend="italic">
+      Ave Maria
+     </hi>
+     , en s'enfonçant dans ses couvertures, et cette fois les revenants furent bons à quelque chose.
+    </p>
+    <p>
+     Julie s'avance à travers les ruines; elle entre dans la cour. Un chien s'éveille, mais il ne
           trahit point l'aimable maîtresse qui l'a caressé tant de fois. Elle veut sortir par une petite
           porte, qui malheureusement était fermée: elle revient sur ses pas en tremblant. "Dieu! que
           deviendrai-je, dit-elle, si je ne trouve point d'issue!" Un vieux petit mur la lui fermait: elle
           passe par dessus; la voilà dans l'avenue, la voilà avec son amant; ne nous mettons point en peine de
           ce qu'ils devinrent.
-        </p>
-        <p>Le lendemain, quand on porta la terrible nouvelle au vieux baron, il tomba sans connaissance. En
+    </p>
+    <p>
+     Le lendemain, quand on porta la terrible nouvelle au vieux baron, il tomba sans connaissance. En
           revenant à lui, après bien du temps et des drogues, il disait d'une voix presque éteinte:
-        </p>
-        <p>- Un nouveau noble! ô mes ancêtres! ô mon sang! éternel opprobre!</p>
-        <p>On craignait qu'il ne mourût de douleur. En vain un homme raisonnable qui se trouvait là lui
+    </p>
+    <p>
+     - Un nouveau noble! ô mes ancêtres! ô mon sang! éternel opprobre!
+    </p>
+    <p>
+     On craignait qu'il ne mourût de douleur. En vain un homme raisonnable qui se trouvait là lui
           représentait que tout au plus la noblesse était un préjugé pour le mérite, et qu'un mérite reconnu,
           comme celui de Valaincourt, n'avait pas besoin du préjugé; qu'on ne peut jamais s'attribuer le
           mérite d'autrui, et que quand on le pourrait, un noble ne s'en trouverait souvent pas plus qu'un
           autre, celui à qui on a donné primitivement son titre pouvant avoir été un malhonnête homme ou un
           sot... Ce discours blasphématoire fut interrompu par une seconde pâmoison plus longue encore que la
           première.
-        </p>
-        <p>C'en était fait, je pense, du baron, si une lettre bien consolante ne l'eût rappelé à la vie. Le
+    </p>
+    <p>
+     C'en était fait, je pense, du baron, si une lettre bien consolante ne l'eût rappelé à la vie. Le
           sort le dédommageait de l'acquisition d'un gendre riche et aimable, en lui offrant la bru la plus
           désagréable qu'on puisse imaginer. Il accepta avec joie cette compensation. Il rendit grâce au Ciel,
           et admira la sagesse de la Providence, qui dispense avec égalité les biens et les maux. Il n'est pas
@@ -569,16 +763,22 @@
           louche et bossue; mais l'honneur de joindre ses armes et ses quartiers aux siens le fit passer sur
           tous les désagréments du reste; il comptait bien d'ailleurs se consoler avec des créatures moins
           nobles et moins laides, et il avait trop de grandeur d'âme pour penser qu'il fallût aimer celle
-          qu'on épousait: le mariage fut donc bientôt conclu.</p>
-        <p>Julie, en ayant appris la nouvelle, s'informa du jour des noces. A la fin du repas, le père
+          qu'on épousait: le mariage fut donc bientôt conclu.
+    </p>
+    <p>
+     Julie, en ayant appris la nouvelle, s'informa du jour des noces. A la fin du repas, le père
           d'Arnonville, rappelant la vigueur de ses jeunes ans, célébra par vingt rasades une union si bien
           assortie. Lorsque le vin commençait à confondre dans sa tête l'ancienne et la nouvelle noblesse,
           Valaincourt et Julie entrèrent dans la salle et se jetèrent à ses pieds: ayant perdu une partie de
-          ce qu'il appelait sa raison, il ne sentit que sa tendresse, et pardonna.</p>
-        <p>Julie fut heureuse, et ses fils ne furent point chevaliers.
-        </p>
-        <trailer>Fin.</trailer>
-      </div>
-    </body>
-  </text>
+          ce qu'il appelait sa raison, il ne sentit que sa tendresse, et pardonna.
+    </p>
+    <p>
+     Julie fut heureuse, et ses fils ne furent point chevaliers.
+    </p>
+    <trailer>
+     Fin.
+    </trailer>
+   </div>
+  </body>
+ </text>
 </TEI>

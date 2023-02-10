@@ -2,77 +2,122 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Prevost_Monde" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:60.28"> Le monde moral,: ou mémoires pour servir à l'histoire du
-                    cœur humain: MiMoText edition </title>
-                <author ref="viaf:17228264 wikidata:Q311483"> Antoine François Prévost(1697-1763) </author>
-                <respStmt>
-                    <resp> data capture </resp>
-                    <name> frantext </name>
-                </respStmt>
-                <respStmt>
-                    <resp> encoding </resp>
-                    <name> Johanna Konstanciak </name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words"> 147640 </measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-                <date> 2020 </date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://www.frantext.fr/"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Le monde moral,: ou mémoires pour servir à l'histoire du cœur
-                        humain</title>
-                    <author>Antoine François Prévost</author>
-                    <date> 1766 </date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date> 1760 </date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> autodiegetic </term>
-                    <term type="spelling"> modern </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-01-14"> Initital ELTeC level-1 </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head> LIVRE 1 </head>
-                <p> Dans le commerce du monde, chacun a les yeux ouverts sur les vices et sur les
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:60.28">
+     Le monde moral,: ou mémoires pour servir à l'histoire du
+                    cœur humain: MiMoText edition
+    </title>
+    <author ref="viaf:17228264 wikidata:Q311483">
+     Antoine François Prévost(1697-1763)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     147640
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Le monde moral,: ou mémoires pour servir à l'histoire du cœur
+                        humain
+     </title>
+     <author>
+      Antoine François Prévost
+     </author>
+     <date>
+      1766
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1760
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      autodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-14">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     LIVRE 1
+    </head>
+    <p>
+     Dans le commerce du monde, chacun a les yeux ouverts sur les vices et sur les
                     ridicules d'autrui. Est-ce un sujet de reproche pour l'humanité? Non, suivant
                     mes plus saines lumières, si de bonne foi, c'est-à-dire, avec la mêmejustice et
                     la même attention, chacun ouvroit aussi les yeux sur les siens, on trouveroit
@@ -1271,12 +1316,26 @@
                     est interdit par état. Ce raisonnement, soutenu par une figure épaisse, le
                     conduisit à de grandes plaintes du luxe excessif des femmes, qui est capable de
                     ruiner la fortune la mieux établie,et de leurs caprices encore plus ruineux, qui
-                    déconcertent toutes les mesures d'un homme sage. Pour lui, qui méprisoit <hi
-                        rend="italic"> Cupidon et Vénus </hi> , et leur île de <hi rend="italic">
-                        Cythère </hi> , il vouloit tendre à la renommée. Il avoit lu dans
-                    l'histoire, qu'une nation, nommée les <hi rend="italic"> romains </hi> , prenoit
+                    déconcertent toutes les mesures d'un homme sage. Pour lui, qui méprisoit
+     <hi rend="italic">
+      Cupidon et Vénus
+     </hi>
+     , et leur île de
+     <hi rend="italic">
+      Cythère
+     </hi>
+     , il vouloit tendre à la renommée. Il avoit lu dans
+                    l'histoire, qu'une nation, nommée les
+     <hi rend="italic">
+      romains
+     </hi>
+     , prenoit
                     grand plaisir à voir en pleine terre des combats de mer, que les anciens
-                    appeloient des <hi rend="italic"> namachies </hi> . Il étoit dans la résolution
+                    appeloient des
+     <hi rend="italic">
+      namachies
+     </hi>
+     . Il étoit dans la résolution
                     d'achever la plaine de saint Denis, pour y donner ce spectacle aux parisiens.
                     Pendant que cette folle imagination et l'ignorance des termes faisoient rire les
                     plus éclairés, il prenoit leurs railleries pour des applaudissemens, et fier du
@@ -1334,11 +1393,15 @@
                     les maux, en les détournant à de pernicieuses fins! Jugeons-en par cet amant
                     d'une fille publique: il avoit une sale passion dans le coeur, avant les
                     apparences de fortune qui se présentent pour lui: à peine se croit-il sûr de
-                    l'opulence, qu'il la veut faire servir à gratifier sa passion. </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 2 </head>
-                <p> Une nuit si peu tranquille, et le retour des mêmes réflexions à mon réveil,
+                    l'opulence, qu'il la veut faire servir à gratifier sa passion.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 2
+    </head>
+    <p>
+     Une nuit si peu tranquille, et le retour des mêmes réflexions à mon réveil,
                     contribuèrent beaucoup sans doute aux mélancoliques impressions que j'éprouvai
                     pendant tout le jour. Mes premiers pas m'ayant reconduit à l'abbaye, je n'y
                     entrai point sans un nouveau sentiment de respect, qui fut même redoublé par le
@@ -2410,11 +2473,15 @@
                     d'étude, une source continuelle d' instruction, l'un pour l'autre. Quelle
                     carrière, pour une philosophie douce, qui ne me faisoit chercher effectivement
                     qu'à m'instruire, sans malignité dans mes recherches, et sans fiel dans ma
-                    censure! </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 3 </head>
-                <p> Ce n'étoit pas seulement dans le coeur et dans l'imagination, que je croyois
+                    censure!
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 3
+    </head>
+    <p>
+     Ce n'étoit pas seulement dans le coeur et dans l'imagination, que je croyois
                     découvrir de bizarres différences, et des singularités qui me surprenoient. Il
                     me sembloit que la raison même se ressentoit des illusions de l'une, et des
                     caprices de l'autre. Car, sans remonter plus loin que mes dernières scènes, je
@@ -3747,11 +3814,15 @@
                     m'attendoient dans la cour, pour me faire leurs adieux. Suivez-moi, leur dis-je
                     en passant; et m'étant jeté dans ma voiture, j'y reçus leur compliment. Quelques
                     regards d'Angélique me firent sentir encore une fois la différence de ses yeux
-                    et de ceux auxquels j'avois résisté plus heureusement. </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 4 </head>
-                <p> Loin de regretter mes hôtes, et de m'accuser d'un départ trop brusque, à peine
+                    et de ceux auxquels j'avois résisté plus heureusement.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 4
+    </head>
+    <p>
+     Loin de regretter mes hôtes, et de m'accuser d'un départ trop brusque, à peine
                     mes glaces furent levées, que je me soulageai par un grand soupir, comme si
                     j'étois sorti d'une longue oppression, dont la fin rendoit ma respiration plus
                     libre. Je croyois mes adieux faits pour long-tems à Mademoiselle De Créon; et
@@ -4919,11 +4990,15 @@
                     n'avoisaprès tout qu'un excès d'estime à reprocher pour moi, ni les craindre
                     sans foiblesse. Ainsi, je pris le parti de les attendre; assez sûr que les
                     offres du prieur ne changeroient rien à mes sentimens, et toujours libre de
-                    m'éloigner, si ses persécutions me devenoient incommodes. </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 5 </head>
-                <p> Quelque trouble que la nécessité de revoir le prieur et sa nièce, d'entendre
+                    m'éloigner, si ses persécutions me devenoient incommodes.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 5
+    </head>
+    <p>
+     Quelque trouble que la nécessité de revoir le prieur et sa nièce, d'entendre
                     apparemment leurs offres, m'eût causé dans le récit de leur confident, du moins
                     n'eus-je pas à craindre une guerre aussi voisine qu'elle auroit pu l'être.
                     L'appartement que le comte laissoit vide fut rempli presqu'aussitôt par un
@@ -6489,11 +6564,15 @@
                     craignis si fort qu'il ne prît envie à mes gens d'ouvrir et d' entrer, que je me
                     levai avec impatience, pour fermer intérieurement ma porte. Ensuite je rendis
                     toute mon attention au docteur qui continua de faire parler son abbé
-                    transilvain. </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 6 </head>
-                <p> Mon nom, qu'on parut entendre avec plus de joie que d'étonnement, ayant fait
+                    transilvain.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 6
+    </head>
+    <p>
+     Mon nom, qu'on parut entendre avec plus de joie que d'étonnement, ayant fait
                     quitter leur posture aux deux dames, je compris qu'elles étoient informées de
                     mon approche, et j'entrai sans attendre le retour de l'hermite. Mademoiselle
                     Tekely se précipita au-devant de moi, et prit une de mes mains qu'elle serra
@@ -8032,11 +8111,14 @@
                     les principaux étoient noblement invités. Ils restèrent sous la conduite du
                     général Sparre, et de quelques autres officiers de distinction, à la réserve
                     d'un petit nombre, qui retournèrent dans leur pays sans la permission du roi.
-                </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 7 </head>
-                <p> Les affaires, qui retenoient M Jeffreys à Bender, étant heureusement terminées,
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 7
+    </head>
+    <p>
+     Les affaires, qui retenoient M Jeffreys à Bender, étant heureusement terminées,
                     nous découvrîmes, en prenant congé du kan et du bacha, qu'ils avoient eu des
                     avis secrets de leur déposition, à laquelle ils s'étoient bien attendus, depuis
                     qu'ils avoient livré les douze cens bourses contre l'ordre du sultan; et malgré
@@ -8300,8 +8382,11 @@
                     qu'augmenter en rentrant dans son palais. Il ne dormit pas de toute la nuit
                     suivante. Ses discours et ses actions sembloient marquer le plus violent
                     délire.Il devint si furieux, qu'on fut obligé de le lier. Sa fureur parut encore
-                    plus vive, lorsqu'on éloigna de lui une jeune arménienne, qu'il appeloit <hi
-                        rend="italic"> figlia d'anima </hi> , sa fille d'ame, nom qu'on donne dans
+                    plus vive, lorsqu'on éloigna de lui une jeune arménienne, qu'il appeloit
+     <hi rend="italic">
+      figlia d'anima
+     </hi>
+     , sa fille d'ame, nom qu'on donne dans
                     le pays aux personnes adoptées de ce sexe, mais que tout le monde croyoit sa
                     fille, et qu'il aimoit jusqu'à ne pas faire un pas sans la tenir par la main. On
                     n'eut pas d'autre vue, en l'éloignant, que de la mettre à couvert des violences
@@ -9388,11 +9473,15 @@
                     libéralement payé; et nous le crûmes moins affligé de nous perdre, que satisfait
                     de joindre à ses fonds le prix de notre passage, et celui de quelques
                     marchandises dont il étoit chargé pour Nantes, qui faisoient partie de son
-                    commerce. </p>
-            </div>
-            <div type="chapter">
-                <head> LIVRE 8 </head>
-                <p> On comprend que Mademoiselle Tekely n'avoit pas eu d'autre vue, que de se
+                    commerce.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LIVRE 8
+    </head>
+    <p>
+     On comprend que Mademoiselle Tekely n'avoit pas eu d'autre vue, que de se
                     délivrer d'un observateur, aussi malin qu'incommode. Mais l' état de sa santé
                     l'obligeoit encore plus de quitter la mer. à peine fûmes-nous établis dans une
                     hôtellerie de Nantes, qu'elle y fut saisie d' une maladie fort dangereuse. Les
@@ -10514,8 +10603,9 @@
                     indications qu'il m'avoit laissées; et j'ajoutai naturellement à la prière que
                     je luifaisois pour Mademoiselle Tekely, que s'il conservoit un peu d'amitié pour
                     elle et pour moi, une occasion, qui n'étoit pas éloignée, nous en faisoit
-                    espérer d'autres effets. </p>
-            </div>
-        </body>
-    </text>
+                    espérer d'autres effets.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

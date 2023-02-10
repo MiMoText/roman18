@@ -1,83 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Tressan_Prince" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:80.33">Histoires du petit Jehan de Saintré, et de Gérard de Nevers: MiMoText edition</title>
-                <author ref="viaf:7657720 wikidata:Q219622"> Louis-Élisabeth de La Vergne de Tressan(1705-1783)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>gallica</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">29406</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2022</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9458079"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Histoire du petit Jehan de Saintré, et de Gérard de Nevers, par Tressan</title>
-                    <author>Louis-Elisabeth de Lavergne, comte de Tressan</author>
-                    <pubPlace>Paris</pubPlace>
-                    <publisher>Salmon</publisher>
-                    <date>1824</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1780</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2022-03-22">Initial ELTeC-level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head>AVANT-PROPOS.</head>
-                <p>Ce Roman, réimprimé en 1725, est enrichi de notes très-instructives. Ces notes eurent
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:80.33">
+     Histoires du petit Jehan de Saintré, et de Gérard de Nevers: MiMoText edition
+    </title>
+    <author ref="viaf:7657720 wikidata:Q219622">
+     Louis-Élisabeth de La Vergne de Tressan(1705-1783)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     29406
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9458079"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2015
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Histoire du petit Jehan de Saintré, et de Gérard de Nevers, par Tressan
+     </title>
+     <author>
+      Louis-Elisabeth de Lavergne, comte de Tressan
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Salmon
+     </publisher>
+     <date>
+      1824
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1780
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-03-22">
+    Initial ELTeC-level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="chapter">
+    <head>
+     AVANT-PROPOS.
+    </head>
+    <p>
+     Ce Roman, réimprimé en 1725, est enrichi de notes très-instructives. Ces notes eurent
                     beaucoup plus de mérite dans le temps de cette réimpression, qu'elles n'en auraient
                     aujourd'hui, cette branche de la littérature française ayant été éclairée depuis cette
                     époque par les belles et savantes recherches des MM. de Paulmy, de Sainte-Palaye, et de
                     plusieurs autres littérateurs d'un mérite supérieur: mais ce que nous avons acquis depuis
-                    en 1725 diminue point le prix de ce premier travail.</p>
-                <p>L'autographe de ce roman est aujourd'hui compris dans les manuscrits de la belle
+                    en 1725 diminue point le prix de ce premier travail.
+    </p>
+    <p>
+     L'autographe de ce roman est aujourd'hui compris dans les manuscrits de la belle
                     bibliothèque de monsieur le duc de la Vallière. Tout paraît se réunir à prouver qu'il est
                     très-ancien; cependant, quelques raisons portent à croire que l'imprimé d'après lequel
                     nous avons tiré cet extrait, peut avoir essuyé bien des altérations. C'est à monsieur
@@ -87,8 +139,10 @@
                     nouveau Roman, qu'il dédie à Charles de Clèves, comte de Nevers et d'Eu, devenu comte de
                     Rhétel par son mariage avec Marie d'Albret; et l'imprimé que nous avons sous les yeux nous
                     paraît devoir être plutôt la copie du Roman imprimé sous Charles VIII, que celle de
-                    l'autographe connu de monsieur le duc de la Vallière et de monsieur l'abbé Rive.</p>
-                <p>On a peine à pardonner à l'auteur de ce Roman plusieurs absurdités, dont le titre de son
+                    l'autographe connu de monsieur le duc de la Vallière et de monsieur l'abbé Rive.
+    </p>
+    <p>
+     On a peine à pardonner à l'auteur de ce Roman plusieurs absurdités, dont le titre de son
                     ouvrage est le plus inexcusable. Comment ose-t-il donner pour maîtresse à son héros Gerard
                     une princesse de la maison de Savoie, et surtout en plaçant la scène de son Roman sous le
                     règne de Louis-le-Gros? Louis VI, dit le Gros, épousa dans l'année 1115, Adélaïde de
@@ -97,31 +151,41 @@
                     reine de France pour en faire la mie de son héros? Gerard, il est vrai, finit par
                     l'épouser. Mais on n'en est pas moins révolté de l'attentat d'un auteur ignorant, qui
                     s'éloigne de toute espèce de vraisemblance; et je ne conçois pas même que l'on n'ait pas
-                    biffé le titre de ce Roman, lorsqu'en 1725 on en a permis la réimpression.</p>
-                <p>Je préviens donc les lecteurs que, non-seulement j'ai dû supprimer l'auguste nom de Savoie,
+                    biffé le titre de ce Roman, lorsqu'en 1725 on en a permis la réimpression.
+    </p>
+    <p>
+     Je préviens donc les lecteurs que, non-seulement j'ai dû supprimer l'auguste nom de Savoie,
                     et en substituer un autre, mais pour donner quelque vraisemblance à ce Roman, je me suis
                     trouvé forcé d'en changer le début. J'espère qu'on me pardonnera ce léger changement, qui
                     n'altère en rien la texture de l'ouvrage. Le récit des aventures de Gerard et d'Euriant
                     mérite d'être conservé; elles sont contées avec assez de grâces et de naïveté pour
                     intéresser. J'avoue, de plus, qu'il m'est agréable et cher de rappeler aux lecteurs que
                     les seigneurs de Nevers ont souvent mérité d'être estimés, aimés, célébrés par leurs
-                    contemporains; et je ne peux mieux prendre mon temps pour en rafraîchir la mémoire.</p>
-            </div>
-            <div type="chapter">
-                <head>HISTOIRE DE GERARD DE NEVERS ET DE LA BELLE EURIANT, SA MIE.</head>
-                <p>Le comte et la comtesse de Nevers, parens de la maison royale de France, n'habitaient plus
+                    contemporains; et je ne peux mieux prendre mon temps pour en rafraîchir la mémoire.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     HISTOIRE DE GERARD DE NEVERS ET DE LA BELLE EURIANT, SA MIE.
+    </head>
+    <p>
+     Le comte et la comtesse de Nevers, parens de la maison royale de France, n'habitaient plus
                     si souvent la cour de Louis-le-Gros, pour s'occuper avec assiduité de l'éducation du jeune
                     Gerard, leur fils unique; et la comtesse de Nevers prenait les mêmes soins de celles de la
                     belle Euriant, sa nièce, que son frère, le comte de Dammartin, l'avait priée en mourant de
                     regarder comme sa propre fille. Les deux aimables enfans étaient élevés ensemble; l'amour
                     semblait prendre plaisir à les embellir de jour en jour. Il présidait à tous les jeux de
-                    leur enfance; il épia bientôt le moment de leur donner ses plus charmantes leçons.</p>
-                <p>Le comte et la comtesse voyaient naître avec plaisir l'union de ces jeunes âmes qu'ils
+                    leur enfance; il épia bientôt le moment de leur donner ses plus charmantes leçons.
+    </p>
+    <p>
+     Le comte et la comtesse voyaient naître avec plaisir l'union de ces jeunes âmes qu'ils
                     désiraient unir pour toujours. Celles de Gerard était élevée, courageuse et passionnée;
                     celle d'Euriant était plus tranquille et plus douce en apparence, mais elle était ferme et
                     sensible. La jeune princesse avait pour gouvernante une vieille madame Gondrée, bien
-                    hypocrite, bien avaricieuse, et bien scélérate dans le fond du cœur.</p>
-                <p>Le seul défaut de la comtesse de Nevers était né du principe le plus respectable: pénétrée
+                    hypocrite, bien avaricieuse, et bien scélérate dans le fond du cœur.
+    </p>
+    <p>
+     Le seul défaut de la comtesse de Nevers était né du principe le plus respectable: pénétrée
                     des sentimens que la vraie religion inspire, elle ne soupçonnait pas même qu'aucun de ses
                     ministres put manquer à la sainteté de son état. Tout froc blanc, gris ou noir, était pour
                     elle un objet de vénération, et s'attirait son entière confiance. Un vieux directeur,
@@ -135,8 +199,10 @@
                     l'ancien chevalier qui veilla sur son éducation, lui donna, non-seulement tous les
                     principes dignes de sa naissance; mais, profitant de ses heureuses dispositions, il sut le
                     préparer, par les exercices et les instructions militaires, à devenir également redoutable
-                    dans les combats, et digne de commander ceux qui marcheraient sous ses ordres.</p>
-                <p>Le ciel avait fait naître la jeune Euriant avec une si belle âme, que la mauvaise éducation
+                    dans les combats, et digne de commander ceux qui marcheraient sous ses ordres.
+    </p>
+    <p>
+     Le ciel avait fait naître la jeune Euriant avec une si belle âme, que la mauvaise éducation
                     qu'elle courait risque de recevoir, ne pouvait altérer sa vertu, sa candeur et sa
                     modestie. Madame Gondrée essaya vainement de gagner la confiance de la jeune Euriant; elle
                     ne put en obtenir que la considération et l'obéissance. Gondrée était trop fine pour ne
@@ -148,8 +214,10 @@
                     d'Euriant tous les momens qu'il pouvait lui donner: elle résolut même d'interrompre leurs
                     jeux, de s'opposer durement à la douce familiarité qu'ils avaient contractée; et c'est en
                     les privant de celle qui règne entre un frère et sa sœur, qu'elle leur fit bien-tôt sentir
-                    qu'ils étaient amans.</p>
-                <p>Dès le premier jour que Gerard fut privé d'aller porter le matin des fleurs à sa chère
+                    qu'ils étaient amans.
+    </p>
+    <p>
+     Dès le premier jour que Gerard fut privé d'aller porter le matin des fleurs à sa chère
                     Euriant et de déjeûner avec elle, il se sentit le cœur serré; ses larmes coulèrent: il fut
                     distrait dans ses leçons, négligé dans son maintien, nonchalant dans ses exercices, son
                     gouverneur le crut malade. Euriant, de son côté, lorsqu'elle entendit madame Gondrée
@@ -162,17 +230,29 @@
                     redoubla le soir du môme jour. Les regards les plus tendres et quelquefois languissans de
                     ces aimables enfans pendant le dîner, auraient dû leur apprendre que leurs peines secrêtes
                     étaient les mêmes; mais Gerard n'en savait pas encore assez pour regarder celles d'Euriant
-                    comme une faveur. Euriant craignait seulement que Gerard n'eût été grondé.</p>
-                <p>Tous les deux avaient une voix charmante. Euriant jouait de la harpe; Gerard tirait les
+                    comme une faveur. Euriant craignait seulement que Gerard n'eût été grondé.
+    </p>
+    <p>
+     Tous les deux avaient une voix charmante. Euriant jouait de la harpe; Gerard tirait les
                     accords les plus doux d'une guitare, et faisait souvent de jolis vers. Ils recevaient
                     ensemble les leçons d'un ancien troubadour provençal que le comte de Nevers avait fixé
                     dans sa cour; et la comtesse aimait trop à les entendre chanter ensemble, pour perdre ce
                     temps de les écouter. Le vieux troubadour leur proposa vainement, ce jourlà, quelques
                     chansons vives et légères de son pays; l'un et l'autre ne voulurent chanter que quelques
-                    lays aussi plaintifs que touchans.</p>
-                <p>A peine eurent-ils chanté tous deux séparément les premiers couplets, qu'ils se regardèrent
-                    pour marier les accens de leur voix dans un <hi rend="italic">duo</hi>, qui leur servait
-                    de refrain. Ces couplets, ce <hi rend="italic">duo</hi> répondaient si bien à la situation
+                    lays aussi plaintifs que touchans.
+    </p>
+    <p>
+     A peine eurent-ils chanté tous deux séparément les premiers couplets, qu'ils se regardèrent
+                    pour marier les accens de leur voix dans un
+     <hi rend="italic">
+      duo
+     </hi>
+     , qui leur servait
+                    de refrain. Ces couplets, ce
+     <hi rend="italic">
+      duo
+     </hi>
+     répondaient si bien à la situation
                     présente de leurs âmes, qu'elles en furent également troublées, quelques grosses larmes
                     tombèrent sur les joues fleuries de Gerard; la voix d'Euriant expira sur ses lèvres, et
                     ses doigts légers, mais tremblans ne formèrent que de faux accords. Qu'avez-vous donc
@@ -182,8 +262,10 @@
                     genoux. Cette bonne maman mit ses mains sur leurs fronts, les trouva brûlans; et jamais
                     ils n'avaient baisé ses mains caressantes avec plus de tendresse. Ils se les disputaient,
                     et, par distraction, Gerard baisa plus d'une fois celles de sa jolie cousine, qui ne riait
-                    ni ne l'avertissait de sa méprise.</p>
-                <p>La comtesse ne s'en aperçut point: mais on imagine bien que rien ne put échapper aux
+                    ni ne l'avertissait de sa méprise.
+    </p>
+    <p>
+     La comtesse ne s'en aperçut point: mais on imagine bien que rien ne put échapper aux
                     observations de madame Gondrée. Contente de cette première épreuve, dès le lendemain matin
                     elle imagina d'en faire une autre. Ayant aperçu Gerard qui se promenait tristement dans un
                     parterre qu'il cultivait lui-même, elle observa qu'il ne s'occupait plus du soin d'arroser
@@ -236,19 +318,25 @@
                     Euriant trouvait si simple et si naturel de lui en accorder; elle avait d'ailleurs,
                     d'après les éloges de la comtesse, une si haute idée de la vertu de madame Gondrée, que la
                     sienne se trouvait assurée en la présence de sa bonne, et qu'elle regardait comme
-                    très-innocentes des caresses qui devenaient plus vives de jour en jour.</p>
-                <p>Les progrès de Gerard et d'Euriant, dans toutes les leçons qu'ils recevaient, furent aussi
+                    très-innocentes des caresses qui devenaient plus vives de jour en jour.
+    </p>
+    <p>
+     Les progrès de Gerard et d'Euriant, dans toutes les leçons qu'ils recevaient, furent aussi
                     rapides que ceux de leur ardeur naissante. La plus vive émulation les animait également;
                     et le désir de plaire naît toujours du bonheur d'aimer. Gerard devint le plus parfait des
                     damoiseaux; Euriant réunit tous les talens qui peuvent encore parer une beauté parfaite;
                     et, grâces aux bons soins de madame Gondrée, dont la haute prudence avait su ménager les
                     progrès de sa pupille, le même jour que Gerard reçut l'ordre de chevalerie, Euriant reçut
-                    de lui les dernières leçons de l'amour.</p>
-                <p>L'un et l'autre furent très-surpris de la grande découverte qu'ils avaient faite; ils se
+                    de lui les dernières leçons de l'amour.
+    </p>
+    <p>
+     L'un et l'autre furent très-surpris de la grande découverte qu'ils avaient faite; ils se
                     crurent aussi habiles qu'ils se trouvaient heureux: cependant ils la tinrent secrète; mais
                     madame Gondrée la devina bien aisément, et leur facilita plus que jamais le temps et les
-                    moyens de la perfectionner.</p>
-                <p>L'avide gouvernante ayant épuisé tous les petits présens qu'Euriant et Gerard étaient en
+                    moyens de la perfectionner.
+    </p>
+    <p>
+     L'avide gouvernante ayant épuisé tous les petits présens qu'Euriant et Gerard étaient en
                     état de lui faire, en espéra de nouveau de leur hymen. Elle fut trouver le comte et la
                     comtesse de Nevers; elle leur dit qu'il était temps d'accomplir l'union qu'ils avaient
                     projetée, et leur fit entendre même qu'une révélation qu'elle avait eue du ciel la forçait
@@ -260,25 +348,35 @@
                     ciel, qu'ils croyaient recevoir de sa bouche, ils firent fiancer le même jour Euriant et
                     Gerard. Ils firent publier des fêtes et des tournois dans leurs états et dans ceux des
                     princes leurs voisins, et le jour du mariage fut arrêté pour le premier du mois
-                    suivant.</p>
-                <p>Le jour de cet heureux mariage, hélas! était encore bien éloigné; l'amour et la constance
+                    suivant.
+    </p>
+    <p>
+     Le jour de cet heureux mariage, hélas! était encore bien éloigné; l'amour et la constance
                     de ces jeunes amans devaient essuyer de bien cruelles épreuves. Une maladie épidémique se
                     déclara tout-à-coup dans le comté de Nevers; le comte et la comtesse en furent frappés en
                     même temps: l'art des médecins ne put les sauver; Euriant et Gerard eurent la douleur de
-                    les voir mourir entre leurs bras.</p>
-                <p>On croira sans peine que leur désespoir fut extrême, en perdant deux têtes aussi chères; et
+                    les voir mourir entre leurs bras.
+    </p>
+    <p>
+     On croira sans peine que leur désespoir fut extrême, en perdant deux têtes aussi chères; et
                     quoique l'amour adoucît l'amertume des larmes qu'ils versaient ensemble, leurs cœurs
                     sensibles furent pénétrés de douleur d'être séparés pour toujours de ceux qui leur avaient
-                    fait jurer, en mourant, de s'aimer, et d'être à jamais fidèles l'un à l'autre.</p>
-                <p>Après avoir donné quelques jours à leur douleur, Gerard fut obligé d'aller à la cou de
+                    fait jurer, en mourant, de s'aimer, et d'être à jamais fidèles l'un à l'autre.
+    </p>
+    <p>
+     Après avoir donné quelques jours à leur douleur, Gerard fut obligé d'aller à la cou de
                     louis-le-Gros: non-seulement il fallait qu'il lui rendit hommage en personne de sou comté
                     de Nevers; mais ayant perdu son père et sa mère, il devait à Louis, comme au chef de sa
-                    maison, de lui demander son agrément pour accomplir son mariage avec sa cousine.</p>
-                <p>Jamais ces jeunes amans ne s'étaient quittés un seul jour; l'un et l'autre ne pouvaient
+                    maison, de lui demander son agrément pour accomplir son mariage avec sa cousine.
+    </p>
+    <p>
+     Jamais ces jeunes amans ne s'étaient quittés un seul jour; l'un et l'autre ne pouvaient
                     penser, sans frémir, qu'ils allaient se séparer pour quelque temps. Leurs fiançailles
                     fermaient la bouche à la médisance, et leur donnaient la liberté de ne pas perdre un des
-                    momens du jour, et même de quelque longues soirées.</p>
-                <p>La complaisance de madame Gondrée pour celui qu'elle regardait alors comme son maîstre, lui
+                    momens du jour, et même de quelque longues soirées.
+    </p>
+    <p>
+     La complaisance de madame Gondrée pour celui qu'elle regardait alors comme son maîstre, lui
                     facilitait le bonheur de les employer bien doucement. Ces familiarités, dans quelques
                     momens où la tendre Euriant était distraite et fermait ses beaux yeux, conduiduisirent
                     Gerard à découvrir un signe qu'Euriant avait toujours pris tant de soins à cacher, que
@@ -295,32 +393,51 @@
                     cacher avec tant de soin, que je me soumets à laisser croire que je t'ai manqué de foi, si
                     quelqu'un peut savoir qu'elle existe. Mille tendres badinages succédèrent à la découverte
                     de la violette; et (nous devons rendre justice à Gerard) toutes celles qu'il faisait alors
-                    avaient l'air d'être nouvelles pour lui.</p>
-                <p>Les adieux les plus tendres, la promesse la plus solennelle de revenir célébrer son mariage
+                    avaient l'air d'être nouvelles pour lui.
+    </p>
+    <p>
+     Les adieux les plus tendres, la promesse la plus solennelle de revenir célébrer son mariage
                     dès qu'il aurait prêté son serment, l'autorité la plus absolue que Gerard remit à sa
                     future épouse, mirent toute la cour du jeune comte dans le devoir de regarder sa mie comme
                     étant déjà la souveraine du comté de Nevers: la douceur et la bonté d'Euriant la firent
-                    adorer, et leur rappelèrent celle de la comtesse dont ils pleurait la mort.</p>
-                <p>Gerard, suivi de ses écuyers, arriva les fêtes de la Pentecôte au Pont-de-l'Arche, où
+                    adorer, et leur rappelèrent celle de la comtesse dont ils pleurait la mort.
+    </p>
+    <p>
+     Gerard, suivi de ses écuyers, arriva les fêtes de la Pentecôte au Pont-de-l'Arche, où
                     Louis-le-Gros tenait alors cour plénière. Malgré son grand deuil qui ne lui permettait
                     aucune parure, il avait l'air si noble, il était si beau, qu'il n'y eut ni dames ni
-                    demoiselles qui ne se dissent tout bas: <hi rend="italic">Bien heureuse la mie qui
-                        conquérera ce charmant chevalier!</hi> Louis regrettait le comte de Nevers, qui
+                    demoiselles qui ne se dissent tout bas:
+     <hi rend="italic">
+      Bien heureuse la mie qui
+                        conquérera ce charmant chevalier!
+     </hi>
+     Louis regrettait le comte de Nevers, qui
                     l'avait aidé de son bras et de tout son pouvoir dans les longues guerres qu'il avait déjà
                     soutenues contre ses vassaux ebelles; il fut charmé de voir le fils dans lequel ce comte
                     paraissait renaître. Il admit d'abord Gerard à ses genoux; il prit ses mains dans les
                     siennes, reçut son hommage; et, dès qu'il eut donné l'espèce de baiser que le vassal
                     reçoit de son seigneur, il le releva, l'embrassa tendrement, et le présenta lui-même à sa
                     cour comme un parent que la mémoire de son père lui faisait aimer et regarder comme son
-                    fils.</p>
-                <p>Gerard plut généralement aux chevaliers comme aux dames. Le seul Liziard, comte de Forest,
-                    sentit naître une noire envie contre lui. <hi rend="italic">Ce comte</hi>, dit l'auteur,
-                        <hi rend="italic">était grand, maigre, fort aux armes, mais plus felon et plus rempli
-                        de mal-engin et mauvais art, qu'oncques ne le fut Ganelon</hi>. Dès ce moment, il épia
+                    fils.
+    </p>
+    <p>
+     Gerard plut généralement aux chevaliers comme aux dames. Le seul Liziard, comte de Forest,
+                    sentit naître une noire envie contre lui.
+     <hi rend="italic">
+      Ce comte
+     </hi>
+     , dit l'auteur,
+     <hi rend="italic">
+      était grand, maigre, fort aux armes, mais plus felon et plus rempli
+                        de mal-engin et mauvais art, qu'oncques ne le fut Ganelon
+     </hi>
+     . Dès ce moment, il épia
                     l'occasion de nuire au jeune Gerard; mais il fut forcé de paraître se rendre à
                     l'admiration générale que le jeune comte de Nevers inspirait par sa figure, son maintien,
-                    et ses propos aussi nobles qu'inspirés par la courtoisie.</p>
-                <p>Gerard gagna le prix de tous le jeux; il triompha dans les tournois, et il était prêt à
+                    et ses propos aussi nobles qu'inspirés par la courtoisie.
+    </p>
+    <p>
+     Gerard gagna le prix de tous le jeux; il triompha dans les tournois, et il était prêt à
                     sortir victorieux de la lice, lorsqu'un grand chevalier se présenta contre lui dans la
                     dernière joûte consacrée à l'honneur des dames. Nul avantage ne put être remarqué dans les
                     deux premières courses; mais à la troisième, tous deux s'étant armés de plus fortes
@@ -330,15 +447,19 @@
                     rirent de le voir étendu sur l'arène, tandis que Gerard se jetait à terre pour l'aider à
                     se relever, et lui présentait la bride de son cheval qu'il avait arrêté. Liziard cacha de
                     dépit mortel qui l'agitait, et se confirma plus que jamais dans le dessein de nuire à
-                    l'aimable Gerard.</p>
-                <p>Les joûtes étant finies, les jeunes chevaliers allèrent se désarmer; et celle des jeunes et
+                    l'aimable Gerard.
+    </p>
+    <p>
+     Les joûtes étant finies, les jeunes chevaliers allèrent se désarmer; et celle des jeunes et
                     jolies dames et demoiselles de la cour commencèrent. Un bal est une espèce de joûte pour
                     elles: les grâces et la légèreté sont leurs armes, et ne les rendent que trop sûres de
                     leurs coups. Mais Gerard triompha d'elles comme des chevaliers. Il leur parut galant,
                     léger, infatigable; elles se trouvaient si bien dans ses bras quand il les faisait sauter,
                     qu'elles désiraient que leur tour revînt plus souvent. Ah! qu'elles portaient envie alors
-                    à sa mie!</p>
-                <p>La reine Adélaïde ne fit cesser le bal que pour faire apporter une collation superbe. On
+                    à sa mie!
+    </p>
+    <p>
+     La reine Adélaïde ne fit cesser le bal que pour faire apporter une collation superbe. On
                     fit entrer des ménétriers, des jongleurs, et ceux qui possédaient ce qu'on nommait alors
                     science gaie, le galoubet provençal, la guitare espagnole, la mandoline italienne, la
                     musette des bords du Lignon, et la flûte de Cologne, firent retenir le sallon. Chaque
@@ -356,16 +477,20 @@
                     criait que cet enfant avait brûlé ses lèvres par un baiser, dans le troisième, tous deux
                     se plaignaient que cet enfant, devenu bien plus fort qu'eux, les entraînait à son gré, dès
                     qu'il les tenait réunis dans ses bras. Le reste de la romance peignait avec feu tout ce
-                    que Gerard et sa mie avaient éprouvé de peines et de plaisirs.</p>
-                <p>Tous les spectateurs s'était insensiblement approchés du jeune comte, attirés par sa voix
+                    que Gerard et sa mie avaient éprouvé de peines et de plaisirs.
+    </p>
+    <p>
+     Tous les spectateurs s'était insensiblement approchés du jeune comte, attirés par sa voix
                     agréable et touchante: il finit par un hymne qu'il adressait à cet enfant dont il s'était
                     plaint d'abord, et qu'à ses bienfaits et à son pouvoir il avait reconnu pour être un dieu.
                     Gerard le remerciait d'avoir reçu de sa main la plus belle et la plus fidèle des mies; et
                     dans le dernier couplet de sa romance, sa voix devint plus éclatante, sa guitare rendit
                     des sons plus forts et plus perçans, lorsqu'il osa porter à toutes les belles le défi de
                     toucher son âme, et à tous les chevaliers de la terre celui de troubler son bonheur, et de
-                    réussir à plaire à celle qu'il adorait.</p>
-                <p>Le reine Adélaïde applaudit au défi de Gerard; quelques jeunes beautés soupirèrent en
+                    réussir à plaire à celle qu'il adorait.
+    </p>
+    <p>
+     Le reine Adélaïde applaudit au défi de Gerard; quelques jeunes beautés soupirèrent en
                     l'écoutant; Liziard seul en fut assez jaloux et assez irrité pour dire à plusieurs autres
                     chevaliers: ce Gerard, presque enfant encore, prouve bien quel est son peu d'expérience,
                     puisqu'il se croit si sûr de la fidélité de sa mie; je gagerais bien (si j'étais certain
@@ -383,16 +508,22 @@
                     je prends témoin toute la chevalerie française, que je parie mon comté de Nevers contre
                     celui de Forets, que vous n'ébranlerez pas la fidélité de ma mie, dans le terme du temps
                     que vous prenez pour séduire son jeune cœur. J'y consens, répondit Liziard, en tirant son
-                    gant, comme Gerard avait déjà tiré le sien.</p>
-                <p>Cette scène entre les deux comtes s'était passée avec tant de promptitude, que Louis et la
+                    gant, comme Gerard avait déjà tiré le sien.
+    </p>
+    <p>
+     Cette scène entre les deux comtes s'était passée avec tant de promptitude, que Louis et la
                     reine n'avaient pas eu le temps de s'opposer à ce pari, fait en leur présence au milieu de
-                    la chevalerie française, et pendant les fêtes solennelles de la cour plénière.</p>
-                <p>Louis ne put donc refuser de recevoir les gages que les deux comtes vinrent lui présenter;
+                    la chevalerie française, et pendant les fêtes solennelles de la cour plénière.
+    </p>
+    <p>
+     Louis ne put donc refuser de recevoir les gages que les deux comtes vinrent lui présenter;
                     et Gerard s'obligea par serment, à ne faire donner aucun avis à la belle Euriant de
                     l'audacieuse entreprise de Liziard. Il fut donc décidé que si Liziard ne pouvait réussir à
                     séduire Euriant, il perdrait son comté de Forest; et que, s'il pouvait prouver que la mie
-                    de Gerard était devenue infidèle, il entrerait en possession de celui de Nevers.</p>
-                <p>Dès le lendemain, Liziard partit, suivi de quelques écuyers. Il les chargea de beaucoup
+                    de Gerard était devenue infidèle, il entrerait en possession de celui de Nevers.
+    </p>
+    <p>
+     Dès le lendemain, Liziard partit, suivi de quelques écuyers. Il les chargea de beaucoup
                     d'or et de pierreries, et prit le chemin Nevers. Il arriva dans cette ville un matin,au
                     moment qu'Euriant, suivie de ses demoiselles, revenait de la messe. Dès que Liziard
                     l'aperçut, il descendit de cheval, et vint l'aborder avec l'air le plus respectueux.
@@ -407,8 +538,10 @@
                     annonça le festin, dès que Liziard fut entré; la belle Euriant en fit les honneurs avec
                     tant de grâces, qu'il fallait que Liziard eût le cœur bien pervers pour n'en être pas
                     véritablement touché, et pour s'occuper plus de gagner le comté de Nevers, que des désirs
-                    qu'elle était faite pour inspirer.</p>
-                <p>Lorsqu'ils sortirent de table, il lui dit: Madame, permettez-moi de m'acquitter d'une
+                    qu'elle était faite pour inspirer.
+    </p>
+    <p>
+     Lorsqu'ils sortirent de table, il lui dit: Madame, permettez-moi de m'acquitter d'une
                     commission secrète dont Gerard m'a chargé. -- Seigneur comte, lui dit modestement Euriant,
                     je peux tout écouter de sa part, dans les termes où je me trouve avec lui; mais je n'ai
                     point de secret pour madame Gondrée, et je ne peux ni ne dois vous parler qu'en sa
@@ -427,8 +560,10 @@
                     ferme dans ses principes pour qu'il pût espérer de la séduire; et son unique ressource fut
                     de chercher à parler en particulier à Gondrée. Le reste du jour et le souper se passèrent
                     très-sérieusement de part et d'autre; et lorsque Liziard fut prêt à se retirer, un second
-                    coup-d'œil de Gondrée l'avertit qu'elle avait à lui parler.</p>
-                <p>La vieille scélérate, qui savait, par expérience, que Liziard était homme à prodiguer ses
+                    coup-d'œil de Gondrée l'avertit qu'elle avait à lui parler.
+    </p>
+    <p>
+     La vieille scélérate, qui savait, par expérience, que Liziard était homme à prodiguer ses
                     dons pour réussir dans ses desseins, épia le moment de le tirer à part. Je vois, lui
                     dit-elle, que vous adorez ma pupille, et vous avez raison: je ne vous ai jamais procuré de
                     maîtresse aussi jolie; mais je connais trop l'humeur farouche d'Euriant pour oser vous
@@ -443,14 +578,18 @@
                     et une somme immense, si par quelque expédient elle pouvait le mettre en état de sauver sa
                     comté de Forest et de gagner celle de Nevers. Laissez-moi le temps d'y penser, lui
                     dit-elle, faites le malade, ne désespérez point de la réussite, et demain au soir vous
-                    aurez de mes nouvelles.</p>
-                <p>Liziard se retira chez son hôte, se plaignit d'un grand mal de tête. Le lendemain il envoya
+                    aurez de mes nouvelles.
+    </p>
+    <p>
+     Liziard se retira chez son hôte, se plaignit d'un grand mal de tête. Le lendemain il envoya
                     faire des complimens à la jeune princesse, s'excuser sur ce qu'il n'était pas en état de
                     lui rendre ses respects. Euriant en fut très-aise: la visite et les propos de Liziard lui
                     déplaisaient également. Elle fut très-gaie pendant son dîner; elle courut pendant tout le
                     jour dans ses jardins avec les jeunes personnes de sa cour, et revint le soir un peu
-                    fatiguée.</p>
-                <p>Gondrée essuya son beau front; et passant sa main sur son cou d'ivoire, elle s'aperçut
+                    fatiguée.
+    </p>
+    <p>
+     Gondrée essuya son beau front; et passant sa main sur son cou d'ivoire, elle s'aperçut
                     qu'il était humide, et que sa chemise était mouillée. Elle fit bien vîte apporter du
                     linge; et la jeune Euriant, à son ordinaire, passa dans un cabinet et s'enferma pour en
                     changer. Gondrée, lorsqu'elle reparut, lui fit les reproches les plus tendres sur cette
@@ -464,8 +603,10 @@
                     rend sacré; mais tout ne l'est-il pas pour un cœur bien tendre? Ne dois-je pas tenir à
                     l'époux que j'adore, jusqu'à la plus légère promesse? Apprenez donc... A ces mots, elle
                     lui confia ingénûment la découverte que Gerard avait faite d'un signe, qu'elle se garda
-                    bien de lui dépeindre, et finit par lui apprendre le serment qu'il avait exigé d'elle.</p>
-                <p>Gondrée était trop fine pour essayer de lui faire des questions plus pressantes; elle eut
+                    bien de lui dépeindre, et finit par lui apprendre le serment qu'il avait exigé d'elle.
+    </p>
+    <p>
+     Gondrée était trop fine pour essayer de lui faire des questions plus pressantes; elle eut
                     l'air, au contraire, d'approuver et le serment qu'elle avait fait, et la fidélité qui le
                     lui faisait respecter. Vous avez raison, ma fille, lui dit-elle, le plus léger badinage
                     devient sérieux entre deux personnes destinées à rester unies jusqu'au tombeau, lorsqu'il
@@ -478,8 +619,10 @@
                     pour le soir; et sachant bien que sa pupille s'enfermerait; comme à son ordinaire, pour le
                     prendre, elle fit un trou dans la cloison qui séparait sa chambre de celle où la princesse
                     se baignait. Le comte de Forest l'étant venu trouver sur la fin du jour, bien déguisé sous
-                    un manteau gris, elle le cacha dans une grande armoire.</p>
-                <p>La jeune Euriant, bien loin d'imaginer que la plus affreuse trahison se tramait alors
+                    un manteau gris, elle le cacha dans une grande armoire.
+    </p>
+    <p>
+     La jeune Euriant, bien loin d'imaginer que la plus affreuse trahison se tramait alors
                     contre elle, vint sur les huit heures du soir dans la chambre de Gondrée, où ses femmes la
                     déshabillèrent en partie, et, selon l'usage, elle passa seule dans sa chambre de bain, où,
                     se croyant bien a l'abri des regards indiscrets, elle acheva d'ôter jusqu'à sa chemise, et
@@ -502,22 +645,30 @@
                     comte de Forest l'avait évité, ce ne fut qu'en présence du roi qu'il put le joindre. On
                     imagine sans peine quelles durent être sa surprise et son indignation, lorsqu'il entendit
                     Liziard soutenir qu'il avait gagné la comté de Nevers. Il n'était plus temps de recourir
-                    aux armes; il fallait que le pari fût jugé.</p>
-                <p>Un juste dépit animait alors Gerard, et la certitude qu'il avait que le comte de Forest
+                    aux armes; il fallait que le pari fût jugé.
+    </p>
+    <p>
+     Un juste dépit animait alors Gerard, et la certitude qu'il avait que le comte de Forest
                     serait confondu, lui fit accepter la proposition qui lui fut faite d'envoyer chercher
                     Euriant par un écuyer, avec ordre de lui dire que la reine Adélaïde la priait de se rendre
                     à sa cour, et qu'il était assez vraisemblable que c'était pour y faire célébrer ses noces
                     avec Gerard, auquel le roi fit promettre de ne point écrire. Le franc et noble Gerard
                     obéit avec fidélité, d'autant plus facilement qu'il se croyait sûr que la petite violette
-                    lui servirait à convaincre de mensonge le comte de Forest.</p>
-                <p>Louis s'étant aperçu de la colère que colui de Nevers ne pouvait cacher, mit ces deux
+                    lui servirait à convaincre de mensonge le comte de Forest.
+    </p>
+    <p>
+     Louis s'étant aperçu de la colère que colui de Nevers ne pouvait cacher, mit ces deux
                     chevaliers aux arrêts chez deux hauts barons, qui se chargèrent de les garder jusqu'à ce
-                    que la gageûre fût jugée.</p>
-                <p>Euriant reçut l'écuyer et son message avec la joie la plus vive, et partit dès le lendemain
+                    que la gageûre fût jugée.
+    </p>
+    <p>
+     Euriant reçut l'écuyer et son message avec la joie la plus vive, et partit dès le lendemain
                     sur une belle haquenée, avec une suite convenable à sa naissance. La détestable Gondrée
                     eut l'air d'être bien affligée de son départ; mais elle s'excusa de la suivre, sur son âge
-                    et ses infirmités, lorsqu'Euriant lui proposa de l'accompagner.</p>
-                <p>Cette jeune et charmante princesse, parée de ses plus riches atours, embellie par la joie
+                    et ses infirmités, lorsqu'Euriant lui proposa de l'accompagner.
+    </p>
+    <p>
+     Cette jeune et charmante princesse, parée de ses plus riches atours, embellie par la joie
                     de revoir son amant, animée par l'espérance de lui donner la main en présence d'une cour
                     auguste, arrangea son voyage de façon à n'avoir qu'une lieue à faire le matin du jour
                     qu'elle devait arriver à Paris. L'écuyer avait ordre de la conduire au palais de Louis, et
@@ -526,13 +677,17 @@
                     entouré de ses pairs, et fut surprise de ce qu'on ne l'avait pas conduite d'abord chez la
                     reine. Elle le fut également de ne pas voir le comte de Nevers; et, malgré l'accueil
                     obligeant que lui fit son souverain, et les louanges qu'il donnait à sa beauté, ses yeux
-                    se remplirent de larmes.</p>
-                <p>Les huissiers de la chambre, selon l'ordre qu'ils en avaient reçu, firent entrer le comte
+                    se remplirent de larmes.
+    </p>
+    <p>
+     Les huissiers de la chambre, selon l'ordre qu'ils en avaient reçu, firent entrer le comte
                     de Nevers et celui de Forest, conduits par les deux barons qui les avaient sous leur
                     garde. Le pari fait entre les deux comtes fut lu publiquement, comme ayant la force d'un
                     traité, selon les lois de la chevalerie, qui donnait cette sanction à toute parole entre
-                    chevaliers, lorsque le gage avait été remis de part et d'autre.</p>
-                <p>La vertu donne du courage. Euriant, indignée, s'écria: Ah! Gerard, comment as-tu pu te
+                    chevaliers, lorsque le gage avait été remis de part et d'autre.
+    </p>
+    <p>
+     La vertu donne du courage. Euriant, indignée, s'écria: Ah! Gerard, comment as-tu pu te
                     résoudre à compromettre le nom de ta future épouse? La comté de Forest est à toi, mais
                     peut-elle nous dédommager de ce que tu me fais essuyer en ce moment? Et toi, Liziard,
                     qu'oserais-tu dire contre moi? -- Rien, répondit-il; car je vous ai trouvée trop belle,
@@ -553,8 +708,10 @@
                     Les pairs prononcèrent, quoiqu'à regret, qu'Euriant était coupable, et que Liziard était
                     en droit de s'emparer de la comté de Nevers. Ce traître ne perdit pas un moment pour en
                     rendre l'hommage lige; et, muni de l'acte qui lui fut expédié par le grand-référendaire,
-                    il partit sur-le-champ pour prendre possession du Nivernais.</p>
-                <p>Le malheureux Gerard, ayant la rage et le désespoir dans le cœur, courut à son palais, où
+                    il partit sur-le-champ pour prendre possession du Nivernais.
+    </p>
+    <p>
+     Le malheureux Gerard, ayant la rage et le désespoir dans le cœur, courut à son palais, où
                     plusieurs de ses proches voulurent le suivre. Laissez-moi, leur dit-il avec une sorte de
                     fureur; abandonnez, oubliez pour toujours un malheureux qui va fuir loin de sa patrie, et
                     qui craint les témoins de sa ruine et de son déshonneur. Les instances de ses proches et
@@ -563,19 +720,25 @@
                     quittant toute les marques extérieures de sa dignité, vêtu des habits les plus communs, il
                     ne conserva que son épée. Il monta sur le meilleur de ses chevaux, couvert du harnais le
                     plus simple, et partit en laissant baignés de larmes tous ceux qu'il s'était si tendrement
-                    attachés.</p>
-                <p>Il sortit de Paris à toute bride, et suivit au hasard le chemin qui conduisait à la forêt
+                    attachés.
+    </p>
+    <p>
+     Il sortit de Paris à toute bride, et suivit au hasard le chemin qui conduisait à la forêt
                     le Melun. A peine y fut-il entré, que, s'abandonnant à son désespoir, l'infidélité
                     d'Euriant occupa seule toute son âme: un torrent de larmes coula de ses yeux, il tomba
                     dans la plus sombre rêverie; et son cheval, ne se sentant plus pressé, s'arrêta de
                     lui-même pour arracher quelques brins d'herbe dans un des endroits les plus solitaires de
-                    cette forêt.</p>
-                <p>Pendant que Gerard s'éloignait, la malheureuse Euriant revenait de l'état de mort où la
+                    cette forêt.
+    </p>
+    <p>
+     Pendant que Gerard s'éloignait, la malheureuse Euriant revenait de l'état de mort où la
                     calomnie de Liziard l'avait plongée; mais en ouvrant les yeux, elles ne vit plus qu'une
                     fille du commun, qu'on avait par pitié laissé près d'elle, toutes les dames et les
                     chevaliers l'ayant abandonnée, la cour étant indignée de son infidélité, et de ce qu'elle
-                    avait causé la ruine du plus aimable des chevaliers.</p>
-                <p>Le crime découvert éteint toute espèce de courage dans les âmes viles capables de le
+                    avait causé la ruine du plus aimable des chevaliers.
+    </p>
+    <p>
+     Le crime découvert éteint toute espèce de courage dans les âmes viles capables de le
                     commettre; mais ce même courage anime celles qui n'ont aucun reproche secret à se faire.
                     Où Gerard est-il? qu'est devenu Gerard? s'écria-t-elle en regardant cette fille. Son cri
                     fut si douloureux, ses regards furent si touchans, que cette fille en fut attendrie.
@@ -584,8 +747,10 @@
                     dit Euriant en se traînant près d'elle et lui serrant les genoux, ayez pitié de moi. Louis
                     est trompé, Liziard est un scélérat, et j'atteste le ciel que je suis innocente. Ah!
                     Gerard, Gerard! comment peux-tu croire si légèrement que ta fidèle mie puisse être devenue
-                    coupable pour ce monstre?</p>
-                <p>La vérité porte un caractère sacré qui se peignait alors dans les yeux et sur les lèvres
+                    coupable pour ce monstre?
+    </p>
+    <p>
+     La vérité porte un caractère sacré qui se peignait alors dans les yeux et sur les lèvres
                     d'Euriant. La jeune fille commise à sa garde, en est touchée; elle consent à changer
                     d'habits avec cette infortunée. Elle la fait descendre par un escalier dérobé; elle court
                     lui chercher sa haquenée; et la tendre Euriant, baissant son couvre-chef sur son beau
@@ -594,8 +759,10 @@
                     un homme d'une figure distinguée, couvert de larmes, peuvent marquer la route qu'il a
                     suivie; et la fortune se lassant pour un moment de la persécuter, la conduit à l'entrée de
                     la forêt, où les traces récentes d'un cheval déterminent la route qu'elle doit suivre
-                    elle-même.</p>
-                <p>Euriant est conduite par ces traces jusqu'à l'entrée d'une espèce de fort; mais l'épaisseur
+                    elle-même.
+    </p>
+    <p>
+     Euriant est conduite par ces traces jusqu'à l'entrée d'une espèce de fort; mais l'épaisseur
                     des arbres et l'obscurité qui y règne les lui font perdre de vue. Elle descend de cheval
                     pour les remarquer mieux; l'herbe froissée qui les indique encore, le hennissement d'un
                     cheval achève de diriger sa marche. Elle entrevoit ce cheval attaché par la bride: elle
@@ -614,12 +781,16 @@
                     je ne vois que trop que j'ai perdu ton cœur, et qu'il s'est endurci pour moi. Achève donc
                     de m'arracher la vie: non, je ne peux supporter plus long-temps l'horreur de te paraître
                     coupable. Frappe, Gerard; éteins d'un seul coup mon amour et ma vie, et que mon dernier
-                    soupir soit pour toi.</p>
-                <p>Gerard ne peut s'empêcher d'être attendri; il porte enfin ses regards sur Euriant, dont il
+                    soupir soit pour toi.
+    </p>
+    <p>
+     Gerard ne peut s'empêcher d'être attendri; il porte enfin ses regards sur Euriant, dont il
                     les avait détournés jusqu'alors: il la voit se jeter à ses genoux. Transportée par son
                     désespoir, elle arrache sa collerette; elle ouvra sa robe, découvre son beau sein: Frappe,
-                    frappe, Gerard, s'écrie-t-elle de nouveau, en étendant les bras; Ah! Dieux!...</p>
-                <p>Gerard est agité dans ce terrible moment par l'amour et par les furies. L'action d'Euriant
+                    frappe, Gerard, s'écrie-t-elle de nouveau, en étendant les bras; Ah! Dieux!...
+    </p>
+    <p>
+     Gerard est agité dans ce terrible moment par l'amour et par les furies. L'action d'Euriant
                     l'émeut bien tendrement; mais ce malheureux voit la fatale violette, et cette vue ranime
                     toute sa rage. Il se relève furieux, court à son épée qu'il a jetée sur l'herbe, il la
                     tire, et, détournant les yeux, il revient, d'une démarche mal assurée, pour frapper son
@@ -627,8 +798,10 @@
                     Gerard. Gerard la regarde, frémit. Non, dit-il je ne peux me résoudre à t'arracher la vie;
                     mais n'espère pas me séduire: la violette, ton parjure te condamnent: je t'abandonne à ton
                     malheureux sort. A ces mots, sans écouter les cris d'Euriant, il court à son cheval, il le
-                    détache, s'élance et s'éloigne à toutes jambes.</p>
-                <p>Euriant voyant que Gerard s'éloigne d'elle, pousse des cris affreux, cherche en vain
+                    détache, s'élance et s'éloigne à toutes jambes.
+    </p>
+    <p>
+     Euriant voyant que Gerard s'éloigne d'elle, pousse des cris affreux, cherche en vain
                     quelque arme pour se donner la mort. Elle arrache ses beaux cheveux, se jette sur la
                     terre, appuie son visage sur l'herbe pour s'étouffer: mais la nature, même en succombant à
                     cette état horrible, la défend de la mort, et la laisse évanouie et sans mouvement sur
@@ -636,8 +809,10 @@
                     resté encore plus longtemps, et peut-être pour toujours, si le hasard n'avait conduit dans
                     ce lieu le duc de Metz, qui s'était écarté du grand chemin avec plusieurs de ses gens,
                     pour aller à la recherche de son chien qui s'était égaré dans le bois à la poursuite d'un
-                    chevreuil.</p>
-                <p>Le duc fut bien surpris en voyant une jeune personne dont la pâleur, et la mort qu'il
+                    chevreuil.
+    </p>
+    <p>
+     Le duc fut bien surpris en voyant une jeune personne dont la pâleur, et la mort qu'il
                     croyait l'avoir frappé, n'avaient pu défigurer les traits et la beauté; il dit à ses gens
                     de descendre, et de voir s'ils lui trouveraient quelque reste de vie. Ceux-ci répondirent,
                     après l'avoir examinée, qu'elle respirait encore, mais bien faiblement. Il descendit
@@ -645,8 +820,10 @@
                     esprits, fut effrayée de se voir entourée par un grand nombre de gens inconnus. Le duc de
                     Metz lui fit vainement des questions sur l'accident qui l'avait mise dans cet état cruel;
                     il ne put en tirer que de nouveaux gémissemens; et le peu de mots qu'elle prononça furent
-                    pour demander la mort.</p>
-                <p>Le duc de Metz, jeune et prompt à s'enflammer, trouva la belle Euriant charmante, et ne
+                    pour demander la mort.
+    </p>
+    <p>
+     Le duc de Metz, jeune et prompt à s'enflammer, trouva la belle Euriant charmante, et ne
                     douta point qu'il ne la consolât facilement, en lui déclarant qu'il la trouvait assez
                     jolie pour la conduire à Metz, et pour lui donner l'état le plus brillant; il fut même si
                     frappé de l'air de noblesse qu'elle conservait, malgré le désordre de son état présent,
@@ -683,21 +860,30 @@
                     d'être huit jours sans me demander à la voir. Le duc ne put pas refuser d'en prêter le
                     serment à sa sœur, d'autant plus qu'elle avait eu l'adresse de lui faire une proposition
                     si raisonnable en présence de son grand-référendaire et des principaux seigneurs de sa
-                    cour.</p>
-                <p>Nous verrons quel fut le succès des vues secrètes de la sœur du duc; et, puisque nous
+                    cour.
+    </p>
+    <p>
+     Nous verrons quel fut le succès des vues secrètes de la sœur du duc; et, puisque nous
                     laissons la jeune Euriant en de si bonnes mains, il est naturel de nous occuper du sort du
-                    malheureux Gerard.</p>
-                <p>Ah! qu'il est douloureux de s'éloigner de ce qu'on aime! qu'il est difficile de rompre une
+                    malheureux Gerard.
+    </p>
+    <p>
+     Ah! qu'il est douloureux de s'éloigner de ce qu'on aime! qu'il est difficile de rompre une
                     première chaîne! Entraîné par le désespoir et par le dépit, Gerard s'éloignait à toute
                     bride de celle qu'il croyait infidèle; mais il ne pouvait arracher de son cœur le trait
                     dont il était blessé. Suis-je donc le seul, se disait-il, qui se soit vu tromper par une
                     femme? Salomon, malgré toute la sagesse qu'il avait reçue de l'Eternel; Samson, malgré
                     tous les miracles que le Très- Haut faisait en sa faveur, furent souvent dupes dans leurs
-                    amours. <hi rend="italic">Celui qui se tient trop assuré dans ses amours doit pour fol
+                    amours.
+     <hi rend="italic">
+      Celui qui se tient trop assuré dans ses amours doit pour fol
                         estre tenu; bien plus fol encore est celui qui ose sa mie éprouver, Bien devais-je
                         laisser la mienne en paix; las! qu'ai-je fait quand par mal-engin ai-je mis la mienne
-                        à l'essay?</hi></p>
-                <p>A ces mots, il se rappelait les doux momens passés avec Euriant; toutes les perfections,
+                        à l'essay?
+     </hi>
+    </p>
+    <p>
+     A ces mots, il se rappelait les doux momens passés avec Euriant; toutes les perfections,
                     tous les charmes de sa mie; et, quoique la violette fut la cause de la perte de son comté
                     de Nevers, il ne pouvait penser sans émotion à la charmante place que cette violette
                     occupait. La tendresse, l'ingénuité, les sentimens d'Euriant se retraçaient dans son cœur,
@@ -705,8 +891,10 @@
                     capable des plus noires trahisons; des torrens de larmes coulaient de ses yeux il se
                     repentait d'avoir abandonné sa mie dans un désert. Aurait-elle si vivement senti ma perte,
                     aurait-elle suivi mes pas, se disaitil, si son cœur n'eût été toujours aussi sensible pour
-                    moi?</p>
-                <p>En s'occupant de ces idées si douloureuses, Gerard laissait marcher son cheval à
+                    moi?
+    </p>
+    <p>
+     En s'occupant de ces idées si douloureuses, Gerard laissait marcher son cheval à
                     l'aventure. Ce cheval, qui connaissait le chemin de Nevers, l'avait pris sur le soir, et
                     pendant toute la nuit, il avait marché si légèrement, qu'à la pointe du jour le comte
                     aperçu de loin un gros bourg qu'il reconnut pour être l'un de ceux de la frontière de ses
@@ -722,8 +910,10 @@
                     conçut l'espérance de parler en secret à la gouvernante de sa mie. Je ne peux résister
                     (disait-il) à la voix qui s'élève dans mon cœur, et qui me dit encore qu'Euriant n'est
                     point coupable; ce n'est que lorsque mon malheur me sera confirmé par Gondrée, que je peux
-                    prendre le parti d'oublier ma mie, ou de chercher la mort.</p>
-                <p>Gerard savait qu'un ancien ménétrel du duc son père, s'était retiré dans ce bourg avec sa
+                    prendre le parti d'oublier ma mie, ou de chercher la mort.
+    </p>
+    <p>
+     Gerard savait qu'un ancien ménétrel du duc son père, s'était retiré dans ce bourg avec sa
                     vieille femme, pour y jouir paisiblement des bienfaits de son ancien maître. Ce ménétrel
                     l'avait fait danser souvent avec sa mie, au son de sa vielle qu'il touchait mieux que tous
                     les autres jongleurs du pays. Il prit le parti de se confier à ce bon-homme, dont il
@@ -735,11 +925,17 @@
                     journée. Gerard fut tiré deux ou trois fois de sa profonde rêverie par le passage de
                     quelques laboureurs, qui causaient entre eux, chemin faisant; et deux fois il les entendit
                     déplorer la perte de leur ancien maître, maudire le jour qu'il les avait quittés, et celui
-                    de la prise de possession de Liziard. <hi rend="italic">Bien devons attendre, se
+                    de la prise de possession de Liziard.
+     <hi rend="italic">
+      Bien devons attendre, se
                         disaient-ils, maux et outrecuidance de la part de ce Liziard; il n'a pas plus de
                         conroy dans sa teste que dans son hôtel, où tout va de mal en pis, en perpétuel
-                        desroi</hi>.</p>
-                <p>Dès que le soleil fut caché sous l'horizon, Gerard se rendit chez le vieux ménétrel, après
+                        desroi
+     </hi>
+     .
+    </p>
+    <p>
+     Dès que le soleil fut caché sous l'horizon, Gerard se rendit chez le vieux ménétrel, après
                     avoir pris la précaution de couvrir ses traits et son teint avec un mélange de jus d'ache
                     et de safran; il connut avec plaisir que cette teinture le déguisait assez, pour que ses
                     serviteurs les plus familiers ne pussent le reconnaître. Il demanda l'hospitalité pour une
@@ -771,10 +967,14 @@
                     plus votre mort est certaine s'ils vous reconnaissent. Gerard lui remontra que dans son
                     état présent il n'avait plus rien à ménager; qu'il n'était point occupé de la perte de son
                     comté; mais qu'il ne pouvait survivre à l'infidélité de sa mie, et qu'il n'avait d'autre
-                    moyen pour s'éclaircir que d'aller lui-même à Nevers.</p>
-                <p>Le ménétrel, le voyant déterminé, se trouvant même persuadé que Gerard n'avait que cette
+                    moyen pour s'éclaircir que d'aller lui-même à Nevers.
+    </p>
+    <p>
+     Le ménétrel, le voyant déterminé, se trouvant même persuadé que Gerard n'avait que cette
                     ressource pour se tirer de son état affreux, prit toutes les précautions possibles pour
-                    achever de le bien déguiser. Il lui fit prendre ses houzettes<ref target="#N01"/>; il le
+                    achever de le bien déguiser. Il lui fit prendre ses houzettes
+     <ref target="#N01"/>
+     ; il le
                     couvrit de son vieux manteau; les beaux cheveux de Gerard furent enfermés sous un bonnet
                     fourré à moitié pelé. Il pendit sa vielle à son cou, avec sa mallette couverte de peau, et
                     parvint à lui donner tout l'air du plus pauvre et du plus misérable de tous les ménétrels.
@@ -782,8 +982,10 @@
                     pluie, pour se rendre à Nevers, où sur les onze heures du matin, il entra, le cœur bien
                     serré, mais plus animé que jamais à suivre son projet. C'était un jour de fête, et le
                     peuple commençait à se répandre dans les rues au sortir de l'office, le soleil ayant
-                    dissipé les nuages pluvieux qui l'obscurcissaient.</p>
-                <p>Gerard s'arrêta dans plusieurs carrefours differens et tira quelques sons de sa vielle,
+                    dissipé les nuages pluvieux qui l'obscurcissaient.
+    </p>
+    <p>
+     Gerard s'arrêta dans plusieurs carrefours differens et tira quelques sons de sa vielle,
                     selon l'usage des ménétrels, qui se servaient de ce moyen pour se faire appeler dans les
                     maisons. Il entendit plusieurs fois les bourgeois se dirent l'un à l'autre: Que vient
                     faire ce malheureux jongleur en cette ville, où nous sommes tous en tristesse? Passez plus
@@ -792,17 +994,23 @@
                     des larmes d'attendrissement en les écoutant: ils crurent qu'il partageait leur douleur,
                     et plusieurs lui donnèrent du pain et des gâteaux qu'il mit dans sa mallette avec une bien
                     vive reconnaissance. Ah! se disait-il, quels nouveaux regrets ne dois-je pas sentir
-                    d'avoir perdu par ma faute des sujets aussi fidèles!</p>
-                <p>Gerard, après avoir parcouru quelque temps la ville, s'approcha du palais, s'assit sur une
+                    d'avoir perdu par ma faute des sujets aussi fidèles!
+    </p>
+    <p>
+     Gerard, après avoir parcouru quelque temps la ville, s'approcha du palais, s'assit sur une
                     borne, et se mit à jouer de sa vielle. Personne ne l'avait encore appelé, lorsque,
                     heureusement, madame Gondrée ouvrit un balcon, l'entendit, et l'envoya chercher pour
                     amuser le nouveau comte de Nevers pendant son diner. Liziard, malgré son succès, était
-                    souvent plongé dans un sombre rêverie.</p>
-                <p>Les remords ne changent pas les âmes perfides et criminelles, mais du moins ils les
+                    souvent plongé dans un sombre rêverie.
+    </p>
+    <p>
+     Les remords ne changent pas les âmes perfides et criminelles, mais du moins ils les
                     tourmentent assez pour ne les laisser jamais jouir d'une douce tranquillité. Liziard
                     voyait sur les visages consternés de ses nouveaux sujets, à quel point il leur était
-                    odieux; il sentait qu'il méritait de l'être.</p>
-                <p>Dès qu'il fut à table, madame Gondrée introduisit le ménétrel, qui frémit d'horreur et de
+                    odieux; il sentait qu'il méritait de l'être.
+    </p>
+    <p>
+     Dès qu'il fut à table, madame Gondrée introduisit le ménétrel, qui frémit d'horreur et de
                     colère, en voyant Liziard assis paisiblement à la même table où son père, sa mère et sa
                     chère Euriant avaient fait si long-temps le charme et le bonheur de sa vie. Il prit
                     cependant sur lui d'accorder sa vielle, et de chanter une romance. Il en choisit une qui
@@ -812,8 +1020,10 @@
                     romance portait que le fils du grand Charles remettait l'accord de sa demande à la
                     décision de son conseil, et que Guillaume, indigné de son ingratitude, la lui reprochait
                     avec fierté, lui montrait ses blessures, lui disait qu'il renonçait à son service, à son
-                    vasselage, et qu'il ne voudrait pas même tenir de lui un seul éperon doré.</p>
-                <p>Liziard fait peu d'attention à la romance de Gerard, et celui-ci, voyant qu'on ne lui dit
+                    vasselage, et qu'il ne voudrait pas même tenir de lui un seul éperon doré.
+    </p>
+    <p>
+     Liziard fait peu d'attention à la romance de Gerard, et celui-ci, voyant qu'on ne lui dit
                     pas de continuer, se lève de son tabouret, et se sentant encore mouillé de la pluie du
                     matin, il s'approche de la grande cheminée de la salle, et se tient debout dans un des
                     coins de l'âtre pour se sécher. Personne ne fait attention au pauvre jongleur; les
@@ -844,12 +1054,16 @@
                     abandonnée dans la forêt. Gerard n'est plus occupé que de voler à sa recherche. Il essuie
                     les vilaines couleurs qui le défigurent; il reprend ses habits, se repose pendant quelques
                     heures, et part long-temps avant le jour pour retourner dans la forêt, où son injuste
-                    dépit l'a séparé de sa fidèle et charmante mie.</p>
-                <p>La nuit était très-obscure; et deux ou trois chemins différents se croisant à peu de
+                    dépit l'a séparé de sa fidèle et charmante mie.
+    </p>
+    <p>
+     La nuit était très-obscure; et deux ou trois chemins différents se croisant à peu de
                     distance du bourg dont il partait, il s'égara de celui qu'il aurait dû suivre. Ne
                     reconaissant plus le pays, à la pointe du jour il fut forcé de marcher à l'aventure, en
-                    priant le ciel de le conduire sur les traces d'Euriant.</p>
-                <p>Gerard marcha pendant trois jours sans oser entrer dans aucune ville, de peur d'être
+                    priant le ciel de le conduire sur les traces d'Euriant.
+    </p>
+    <p>
+     Gerard marcha pendant trois jours sans oser entrer dans aucune ville, de peur d'être
                     reconnu; quelques pauvres villageois, chez lesquels il s'arrêtait pendant la nuit, ne
                     purent lui donner aucune notion sur l'objet de sa recherche. Sur la fin du quatrième jour,
                     quelques cavaliers armés qu'il rencontra lui dirent qu'il était près de la forêt des
@@ -883,15 +1097,20 @@
                     éprouve plusieurs autres aventures, il en sort toujours avec gloire, et sans se fair
                     connaître pour l'ancien comte de Nevers: il ne porte d'autre nom que celui de chevalier à
                     l'Epervier; et c'est sous ce nom qu'il arrive chez Milon, duc de Cologne, qui rassemble de
-                    toutes parts des chevaliers pour soutenir la guerre qu'il a contre les Sesnes<ref
-                        target="N02"/>, qui viennent de faire une incursion dans ses états.</p>
-                <p>Gerard ne fut pas long-temps sans donner des preuves qu'il était un des premiers chevaliers
+                    toutes parts des chevaliers pour soutenir la guerre qu'il a contre les Sesnes
+     <ref target="N02"/>
+     , qui viennent de faire une incursion dans ses états.
+    </p>
+    <p>
+     Gerard ne fut pas long-temps sans donner des preuves qu'il était un des premiers chevaliers
                     de l'univers, le duc Milon l'ayant vu porter la terreur dans les rangs de ses ennemis,
                     enlever des étendards, et renverser le duc de Sesnes, qu'il aurait fait prisonnier, si
                     plusieurs escadrons ne fussent venus à son secours. Le duc Milon, après cette journée qui
                     fut à son avantage, emmena Gerard dans son palais, et voulut qu'il y fût logé
-                    désormais.</p>
-                <p>Si Gerard avait paru redoutable les armes à la main, il ne parut pas moins charmant à
+                    désormais.
+    </p>
+    <p>
+     Si Gerard avait paru redoutable les armes à la main, il ne parut pas moins charmant à
                     toutes les dames de la cour de Milon, lorsqu'il fut désarmé. La jeune Euglantine, fille du
                     duc, ne put s'empêcher d'être émue lorsqu'il fut amené par son père. On sait quelle était
                     l'espèce de salut que les dames du plus haut parage devaient aux chevaliers qui leur
@@ -903,19 +1122,38 @@
                     rougit et n'en parut que plus beau. La belle Euglantine regarda Florette (c'était le nom
                     de la jeune fille) avec une sorte de colère; et, dès qu'elle fut retirée dans son
                     appartement, elle la fit appeler pour lui faire des reproches très-vifs sur l'espèce de
-                    déclaration qu'elle avait osé faire à Gerard. <hi rend="italic">Dea maîtresse</hi>,
-                    répondit Florette, <hi rend="italic">serait-il doncque male jalousie vous poigne</hi>
-                    (pique) <hi rend="italic">déja pour le chevalier? se mesure-ton en amours? et si de moy
+                    déclaration qu'elle avait osé faire à Gerard.
+     <hi rend="italic">
+      Dea maîtresse
+     </hi>
+     ,
+                    répondit Florette,
+     <hi rend="italic">
+      serait-il doncque male jalousie vous poigne
+     </hi>
+     (pique)
+     <hi rend="italic">
+      déja pour le chevalier? se mesure-ton en amours? et si de moy
                         voulait-il faire sa mie, pensez-vous que je le refusasse? Taisezvous, petite sotte,
                         lui dit Euglantine avez-vous villes et fiefs à lui donner comme moi?-- Ah! ah! dame,
                         cuidez-vous donc que villes et fiefs fassent naître chauds désirs et fin amour? Bien à
                         foison avez-vous charmes pour plaire au chevalier: le peu que j'en ai, c'est tout mon
-                        bien; mais je ne dis pas que je ne les mette au jeu pour m'en faire aimer</hi>.</p>
-                <p>Euglantine fut très-couroucée de la réponse hardie de Florette; elle la renvoya dans sa
-                    chambre, s'enferma dans la sienne, et se mit penser <hi rend="italic">tant amoureusement,
+                        bien; mais je ne dis pas que je ne les mette au jeu pour m'en faire aimer
+     </hi>
+     .
+    </p>
+    <p>
+     Euglantine fut très-couroucée de la réponse hardie de Florette; elle la renvoya dans sa
+                    chambre, s'enferma dans la sienne, et se mit penser
+     <hi rend="italic">
+      tant amoureusement,
                         qu'elle semblait un bambin qui vient de manger du miel, et passait le bout de sa
-                        langue sur les lèvres, cuidant y sentir encore celles de Gerard</hi>.</p>
-                <p>Les Sesnes, rebutés par la grande perte qu'ils avaient faite dans cette dernière action;
+                        langue sur les lèvres, cuidant y sentir encore celles de Gerard
+     </hi>
+     .
+    </p>
+    <p>
+     Les Sesnes, rebutés par la grande perte qu'ils avaient faite dans cette dernière action;
                     furent quelques jours sans rien entreprendre, et s'occupèrent à construire des machines
                     pour battre la cité, tandis que le duc Milon employait ses soldats et les bourgeois à
                     fortifier ses remparts. Ces jours, que Gerard regardait comme perdus, parce qu'il n'était
@@ -926,65 +1164,120 @@
                     plaire à Gerard, ne négligèrent pas ce moyen de le toucher, et de lui faire entendre le
                     secret de leur âme. Euglantine prit un jour un tympanon; et, ses belles mains faisant
                     voltiger les deux baguettes avec grâces, elle chantait en regardant Gerard du coin de
-                    l'œil: </p>
-                <quote>
-                    <l>Amour m'a mis en grand mal-aise; </l>
-                    <l>Dolente suis par mal d'aimer.</l>
-                </quote>
-                <p>L'instant d'après, Florette prit un sistre, et pria Gerard de l'aider à tirer ses
-                    gants.</p>
-                <p>Elle eut l'adresse de les retenir assez pour que Gerard fût long-temps à lui rendre ce
+                    l'œil:
+    </p>
+    <quote>
+     <l>
+      Amour m'a mis en grand mal-aise;
+     </l>
+     <l>
+      Dolente suis par mal d'aimer.
+     </l>
+    </quote>
+    <p>
+     L'instant d'après, Florette prit un sistre, et pria Gerard de l'aider à tirer ses
+                    gants.
+    </p>
+    <p>
+     Elle eut l'adresse de les retenir assez pour que Gerard fût long-temps à lui rendre ce
                     service, et ne pût découvrir que peu-à-peu des bras et des mains d'albâtre que les Grâces
                     avaient arrondis. Elle tira quelques sons plaintifs en regardant d'abord Euglantine; elle
                     finit par chercher les yeux de Gerard au second vers de sa chanson; et sa voix douce, et
-                    comme retenue par une peine secrète, fit entendre ces mots:</p>
-                <quote>
-                    <l>Vous chantez et je meurs d'aimer; </l>
-                    <l>Trop vous est petit de mes maux.</l>
-                </quote>
-                <p>Euglantine ne put tenir au mouvement de jalousie qu'elle sentit alors. Elle interrompit
-                    Florette; et retirant assez brusquement le sistre de ses mains: <hi rend="italic"
-                        >Chevalier</hi>, dit-elle en se présentant à Gerard,<hi rend="italic"> tant bien
-                        nourri</hi> (élevé) <hi rend="italic">paraissez estre, qu'il n'est possible que ne
-                        sachiez ouvrer</hi> (vous servir) <hi rend="italic">de sistres et de chants, comme de
-                        lance et d'épée</hi>. Gerard ne pouvant s'en défendre, prit le sistre; il en tira
+                    comme retenue par une peine secrète, fit entendre ces mots:
+    </p>
+    <quote>
+     <l>
+      Vous chantez et je meurs d'aimer;
+     </l>
+     <l>
+      Trop vous est petit de mes maux.
+     </l>
+    </quote>
+    <p>
+     Euglantine ne put tenir au mouvement de jalousie qu'elle sentit alors. Elle interrompit
+                    Florette; et retirant assez brusquement le sistre de ses mains:
+     <hi rend="italic">
+      Chevalier
+     </hi>
+     , dit-elle en se présentant à Gerard,
+     <hi rend="italic">
+      tant bien
+                        nourri
+     </hi>
+     (élevé)
+     <hi rend="italic">
+      paraissez estre, qu'il n'est possible que ne
+                        sachiez ouvrer
+     </hi>
+     (vous servir)
+     <hi rend="italic">
+      de sistres et de chants, comme de
+                        lance et d'épée
+     </hi>
+     . Gerard ne pouvant s'en défendre, prit le sistre; il en tira
                     quelques accords, et fit un grand soupir. Euglantine et Florette espérèrent toutes deux
                     que ce soupir était pour elles; toutes deux cherchèrent à lire dans les yeux de Gerard:
                     mais bientôt elles soupirèrent aussi tristement que lui, en voyant ses regards fixés sur
                     les cordes de son sistre, et en l'entendant chanter:
-                    <quote>
-                        <l>Hélas! hélas! je ne vois pas ici</l>
-                        <l>Celle qui tient et mon âme et ma joie</l>
-                    </quote>
-                     Euglantine était très-vive, et n'étant plus la maîtresse de cacher le dépit que lui
-                    donnait cette chanson: <hi rend="italic">Sire chevalier</hi>, lui dit-elle tout bas, <hi
-                        rend="italic">faut que vous ayez le cœur bien failly, quand aimer n'osez où vous êtes
-                        aimé, bien m'apert que, par ces mots vous avez voulu m'éconduire</hi>. Gerard, se
-                    voyant aussi vivement pressé, crut pouvoir se tirer d'embarras par une feinte. <hi
-                        rend="italic">Belle damoiselle</hi>, lui dit-il, <hi rend="italic">il ne conviendrait
+     <quote>
+      <l>
+       Hélas! hélas! je ne vois pas ici
+      </l>
+      <l>
+       Celle qui tient et mon âme et ma joie
+      </l>
+     </quote>
+     Euglantine était très-vive, et n'étant plus la maîtresse de cacher le dépit que lui
+                    donnait cette chanson:
+     <hi rend="italic">
+      Sire chevalier
+     </hi>
+     , lui dit-elle tout bas,
+     <hi rend="italic">
+      faut que vous ayez le cœur bien failly, quand aimer n'osez où vous êtes
+                        aimé, bien m'apert que, par ces mots vous avez voulu m'éconduire
+     </hi>
+     . Gerard, se
+                    voyant aussi vivement pressé, crut pouvoir se tirer d'embarras par une feinte.
+     <hi rend="italic">
+      Belle damoiselle
+     </hi>
+     , lui dit-il,
+     <hi rend="italic">
+      il ne conviendrait
                         plus à si pauvre chevalier que je suis, de lever mes yeux en si haut lieu; j'avais une
                         mie qui m'etait sortable: foi de mariage nous nous étions donnée; un père cruel nous a
                         séparés, la tient en chartre privée, et ma mort a pourchassé de telle randon (de telle
                         force) que j'eusse été pendu ou décollé si je n'eusse fuit de sa vengeance. -- Ah!
                         dit-elle, si j'eusse été votre mie, j'eusse prévenu la colère de mon père, et je m'en
-                        serais enfuie avec vous.</hi></p>
-                <p>Florette prit le prétexte de dire à sa maitresse, que le duc Milon allait arriver, pour
+                        serais enfuie avec vous.
+     </hi>
+    </p>
+    <p>
+     Florette prit le prétexte de dire à sa maitresse, que le duc Milon allait arriver, pour
                     interrompre une conversation qui l'alarmait. Gerard descendit seul dans un jardin pour
                     penser à sa mie; et Florette l'observant sans cesse, descendit promptement dans une salle
                     basse du château qui donnait sur le jardin. Elle toussa plusieurs fois; et, dès que Gerard
                     regarda vers la fenêtre, elle se mit à chanter bien doucement:
-                    <quote>
-                        <l>Qui sait guérir du mal d'aimer,</l>
-                        <l>S'y viegne à moi, car d'aimer souffre.</l>
-                    </quote>
-                </p>
-                <p>Euglantine l'entendit répéter plusieurs fois ce refrain; et quoiqu'elle s'aperçut que
+     <quote>
+      <l>
+       Qui sait guérir du mal d'aimer,
+      </l>
+      <l>
+       S'y viegne à moi, car d'aimer souffre.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Euglantine l'entendit répéter plusieurs fois ce refrain; et quoiqu'elle s'aperçut que
                     Gerard ne faisait pas semblant de l'entendre, elle appela Florette, lui fit les reproches
                     les plus vifs; et Florette ne gardant plus aucune mesure, lui répondit avec hauteur, et
                     lui dit qu'elle était bien résolue de faire tout au monde pour gagner le cœur du
                     chevalier, et que les avances qu'elle pourrait lui faire seraient plus excusables que
-                    celles qu'une princesse osait risquer vis-à-vis de cet inconnu.</p>
-                <p>Euglantine n'osa porter plus loin sa dispute avec Florette, celle qui l'avait élevée étant
+                    celles qu'une princesse osait risquer vis-à-vis de cet inconnu.
+    </p>
+    <p>
+     Euglantine n'osa porter plus loin sa dispute avec Florette, celle qui l'avait élevée étant
                     arrivée dans ce moment. Cette ancienne gouvernante connaissait trop bien le caractère de
                     sa pupille, pour ne pas juger, à son émotion, qu'il se passait quelque chose d'étrange
                     dans son âme. Elle fit entrer Euglantine dans son cabinet, et s'y prit de la manière la
@@ -997,21 +1290,39 @@
                     pas joui d'un instant de repos, et ce poison a fait bien du ravage: je sens qu'il a passé
                     jusque dans mon cœur, et qu'il semble même se porter jusque dans mes veines. Ah dieux! que
                     faire, ma bonne? Si jeunette encore, faudra-t-il que je meure du mal d'aimer, tandis que
-                    cet état est si doux, dit-on, pour tout ce qui respire.</p>
-                <p>La gouvernante tenait un peu des mœurs de madame Gondrée: elle n'était pas aussi scélérate
-                    qu'elle, à la vérité, mais elle n'était pas plus sévère. Elle aimait Euglantine:<hi
-                        rend="italic"> Rassurez-vous, ma fille</hi>, lui dit-elle; <hi rend="italic">grand
+                    cet état est si doux, dit-on, pour tout ce qui respire.
+    </p>
+    <p>
+     La gouvernante tenait un peu des mœurs de madame Gondrée: elle n'était pas aussi scélérate
+                    qu'elle, à la vérité, mais elle n'était pas plus sévère. Elle aimait Euglantine:
+     <hi rend="italic">
+      Rassurez-vous, ma fille
+     </hi>
+     , lui dit-elle;
+     <hi rend="italic">
+      grand
                         dommage serail si gente creature et si noble princesse mourût de ce mal qu'il est si
                         doux et si facile de guérir. Par tout ce que vous venez de me dire, et par tout ce que
                         j'ai pu voir moi-même, je juge que ce chevalier est prévenu par quelque grande
                         passion, qui, jusqu'ici, lui donne pour vous l'air de l'indifférence; laissez-moi
                         faire; je sais la composition d'un breuvage qui lui fera bien-tôt oublier celle qu'il
                         regrette, et qui le fera tomber à vos genoux, si vous pouvez réussir à le lui faire
-                        partager avec vous.</hi> Euglantine sauta au cou de sa bonne et commode gouvernante,
-                    et la conjura de préparer ce boire amoureux.<hi rend="italic"> Pis ne peut m'advenir</hi>,
-                    lui dit-elle, <hi rend="italic">que male-mort; et mieux vaut l'encourir contente, que
-                        languissante et souffreteuse, telle qu'amour me tient.</hi></p>
-                <p>Pendant le complot qu'Euglantine et la gouvernante faisaient ensemble, Florette se dépitait
+                        partager avec vous.
+     </hi>
+     Euglantine sauta au cou de sa bonne et commode gouvernante,
+                    et la conjura de préparer ce boire amoureux.
+     <hi rend="italic">
+      Pis ne peut m'advenir
+     </hi>
+     ,
+                    lui dit-elle,
+     <hi rend="italic">
+      que male-mort; et mieux vaut l'encourir contente, que
+                        languissante et souffreteuse, telle qu'amour me tient.
+     </hi>
+    </p>
+    <p>
+     Pendant le complot qu'Euglantine et la gouvernante faisaient ensemble, Florette se dépitait
                     dans sa chambre; elle imaginait mille moyens de supplanter sa maîtresse, et de s'attacher
                     le chevalier inconnu. Le dernier de tous fut celui de l'aller trouver pendant la nuit. Je
                     pourrai, se disait-elle, causer à mon aise avec lui; je lui représenterai tous les périls
@@ -1039,8 +1350,10 @@
                     les glacis de Cologne et la première ligne de son armée. Le brave sénéchal, qui
                     connaissait la haute valeur de Milon, prit sur lui d'assurer Regiduf que son maître ne se
                     refuserait pas à ce cartel, et qu'il pouvait se préparer au combat pour le lendemain
-                    matin.</p>
-                <p>Milon, en effet, remercia son sénéchal de s'être aussi noblement acquitté de sa commission,
+                    matin.
+    </p>
+    <p>
+     Milon, en effet, remercia son sénéchal de s'être aussi noblement acquitté de sa commission,
                     et le choisit, avec Gerard, pour lui servir de second dans cette affaire. Le bruit s'en
                     répandit aussitôt dans le palais, et porta les plus vives alarmes dans le cœur des sujets
                     de Milon, dont ce prince était adoré; mais elles ne purent égaler celles d'Euglantine et
@@ -1049,14 +1362,18 @@
                     se tournaient souvent sur Gerard en lui demandant cette grâce. Milon les embrassa
                     tendrement, rit de leurs craintes, et leur dit que son honneur et l'amour qu'il avait pour
                     ses sujets, ne lui permettaient pas de rejeter un moyen aussi prompt de finir cette longue
-                    et cruelle guerre.</p>
-                <p>On croira sans peine que l'une et l'autre renoncèrent au projet qu'elle; avaient formés
+                    et cruelle guerre.
+    </p>
+    <p>
+     On croira sans peine que l'une et l'autre renoncèrent au projet qu'elle; avaient formés
                     qu'elles remirent à le suivre après l'événement d'un combat qu'elles ne pouvait empécher.
                     La crainte de perdre un amant adoré peut seule réunir deux rivales. Euglantine et Florette
                     se retirèrent ensemble, fondirent en larmes, et suivirent la foule du peuple, qui courait
                     remplir les temples, faire des vœux pour son souverain: on eut peine à les en arracher
-                    pour les ramener au palais.</p>
-                <p>L'aube du jour paraissait à peine lorsque les trois guerriers se couvrirent de leurs armes.
+                    pour les ramener au palais.
+    </p>
+    <p>
+     L'aube du jour paraissait à peine lorsque les trois guerriers se couvrirent de leurs armes.
                     Milon, le sénéchal et Gerard, montés sur de vigoureux coursiers, sortirent seuls de la
                     cité, dont ils firent fermer les portes, et s'avancèrent vers la prairie. Le peuple de
                     Cologne couvrit les remparts, pour être spectateur de ce combat; et les troupes du due se
@@ -1067,8 +1384,10 @@
                     Milon. Les six chevaliers étant en présence, un héraut s'avança de chaque côté portant
                     l'acte de la convention réciproque, Ils en firent l'échange; l'un d'eux reporta, celui qui
                     lui fut remis dans le camp des Sesnes, et celui de Milon rentra dans Cologne avec l'acte
-                    qu'il avait reçu.</p>
-                <p>Les combattans ne tardèrent pas à se charger, et jamais rencontre ne fut plus terrible. Le
+                    qu'il avait reçu.
+    </p>
+    <p>
+     Les combattans ne tardèrent pas à se charger, et jamais rencontre ne fut plus terrible. Le
                     duc Milon et Regiduf brisèrent leurs lances sans se blesser; mais leur chevaux s'étant
                     frappés de front comme deux taureaux en fureur, tombèrent morts sur l'herbe, et leurs
                     maîtres restèrent étendus sans connaissance. Le sénéchal fut percé d'outre en outre par le
@@ -1076,8 +1395,10 @@
                     plaie. Gerard heureusement eut le même avantage sur le Sesnes qu'il combattait; mais,
                     quoique ce dernier eût la gorge percée par la lance de Gerard, le choc du puissant cheval
                     qu'il montait fut si violent, que celui du comte de Nevers fut renversé sur son maître au
-                    même instant et le Sesne rendait le dernier soupir.</p>
-                <p>Gerard se débattit avec effort sous son cheval, avant que de parvenir à s'en débarrasser;
+                    même instant et le Sesne rendait le dernier soupir.
+    </p>
+    <p>
+     Gerard se débattit avec effort sous son cheval, avant que de parvenir à s'en débarrasser;
                     et, pendant ce temps, le Sesne qui venait de tuer le sénéchal, s'apercevant que Rogiduf et
                     Milon étaient étendus sans connaissance, il descendit de cheval, et courut sur ce dernier
                     l'épée haute, pour lui couper la tête ou pour le faire prisonnier. Il était déjà prêt à le
@@ -1095,25 +1416,33 @@
                     plonger son poignard dans la gorge; mais le coup ne porte que dans l'épaule qu'il lui
                     traverse. Le Sesne, épuisé par la perte de son sang, succombe enfin, jette un horrible
                     cri, perd ses forces, et meurt entre les bras de Gerard, qui se relève baigné dans son
-                    propre sang et dans celui de son ennemi.</p>
-                <p>Le cri du Sesne expirant avait été si terrible, qu'il avait rappelé Milon et Regiduf de
+                    propre sang et dans celui de son ennemi.
+    </p>
+    <p>
+     Le cri du Sesne expirant avait été si terrible, qu'il avait rappelé Milon et Regiduf de
                     leur étourdissement. Ce dernier se relève le premier en chancelant, tire son épée, et veut
                     s'élancer sur Gerard qu'il voit couvert de sang; mais celui-ci, malgré sa blessure,
                     prévient Regiduf, et d'un coup terrible qu'il lui porte sur le bras, il lui fait tomber
                     son épée: il le saisit, le terrasse, et lui fait crier merci. Milon se relève à son tour;
                     il prend l'épée de Regiduf, et reçoit ce prince, devenu son tributaire, des mains du brave
-                    Gerard.</p>
-                <p>Le combat étant terminé, quatre hauts barons furent appelés de chaque côté. Milon reçut la
+                    Gerard.
+    </p>
+    <p>
+     Le combat étant terminé, quatre hauts barons furent appelés de chaque côté. Milon reçut la
                     foi de Regiduf en leur présence, la paix fut jurée de part et d'autre, selon le traité
-                    précédemment signé.</p>
-                <p>Gerard, comme vainqueur, remit avec noblesse aux seigneurs Sesnes le corps, les armes et
+                    précédemment signé.
+    </p>
+    <p>
+     Gerard, comme vainqueur, remit avec noblesse aux seigneurs Sesnes le corps, les armes et
                     les cheveux de leurs compagnons. Regiduf se retira dès le même jour avec son armée; et
                     Milon, après avoir fait mettre le premier appareil à la profonde blessure de Gerard, le
                     fit emporter dans une litière, marchant à cheval à côté de lui. Ce prince le fit entourer
                     par sa baronnie; et, le faisant précéder par ses trompettes et par ses hérauts qui le
                     proclamaient comme le vainqueur de cette grande journée, il rentra triomphant dans
-                    Cologne.</p>
-                <p>Ce fut aux acclamations générales de l'armée et du peuple de Cologne, que Gerard traversa
+                    Cologne.
+    </p>
+    <p>
+     Ce fut aux acclamations générales de l'armée et du peuple de Cologne, que Gerard traversa
                     la cité; et la belle Euglantine accourut, suivie de ses femmes qui portaient des fleurs et
                     des couronnes de laurier. Milon les refusa toutes. C'est à ce brave chevalier qu'elles
                     sont dues, leur dit-il, en leur montrant Gerard; je lui dois et mon honneur et ma vie.
@@ -1125,13 +1454,17 @@
                     ces douces caresses, elles rallumèrent la jalousie d'Euglantine, et la déterminèrent plus
                     que jamais à recourir à l'art de sa gouvernante. Celle-ci passait pour être plus habile
                     que tous les mires de la Germanie pour guérir les grandes blessures, et Milon lui confia
-                    le soin de traiter celle de Gerard.</p>
-                <p>Le corps du sénéchal avait été emporté du champ de bataille avec tous les honneurs
+                    le soin de traiter celle de Gerard.
+    </p>
+    <p>
+     Le corps du sénéchal avait été emporté du champ de bataille avec tous les honneurs
                     militaires, et il fut déposé dans la basilique de Cologne, en attendant les magnifiques
                     obsèques que Milon ordonna de préparer. Sa charge, la plus noble de la cour, étant
                     vacante, le duc crut la devoir au chevalier qui venait de lui sauver la vie; et toute sa
-                    cour applaudit à son choix.</p>
-                <p>On imaginera sans peine quelles furent les alarmes d'Euglantine et de Florette, tant que
+                    cour applaudit à son choix.
+    </p>
+    <p>
+     On imaginera sans peine quelles furent les alarmes d'Euglantine et de Florette, tant que
                     les jours de Gerard furent en danger. Malgré le rang de la princesse, elle suivait souvent
                     sa gouvernante, lorsque celle-ci levait les appareils: souvent ses belles mains
                     s'occupaient de ce soin avec elle, sans que Gerard pût s'en apercevoir. Florette, de son
@@ -1139,8 +1472,10 @@
                     Ronde près de son lit, et choisissait toujours ceux qui pouvaient faire entendre à Gerard
                     que l'amour mérite d'être payé par l'amour. Mais plus elle rappelait cette douce idée,
                     plus le fidèle comte de Nevers s'occupait de sa chère Euriant; et rien ne pouvait le
-                    consoler d'être hors d'état de partir, et de voler à sa recherche.</p>
-                <p>Gerard commençait à reprendre des forces, et sa blessure était presque refermée, lorsqu'un
+                    consoler d'être hors d'état de partir, et de voler à sa recherche.
+    </p>
+    <p>
+     Gerard commençait à reprendre des forces, et sa blessure était presque refermée, lorsqu'un
                     songe affreux vint porter le trouble dans son âme. Il lui sembla voir Euriant entourée de
                     gens armés, qui la conduisaient en chemise vers un bûcher. Il lui sembla que sa mie lui
                     reprochait sa cruauté, qu'elle l'appelait à son secours; et l'impression que lui fit cette
@@ -1161,11 +1496,15 @@
                     rougi par du sang; elle jette de grands cris; on accourt; on relève celui que l'on croit
                     assassiné. La gouvernante reconduit Gerard, le fait porter dans son lit, lui rend l'usage
                     de ses sens, et lui fait les plus tendres reproches sur son imprudence, et sur le dessein
-                    qu'il a de quitter la cour de Milon.</p>
-                <p>Gerard, pénétré de son état présent, et touché des soins de la gouvernante, lui dévoile le
+                    qu'il a de quitter la cour de Milon.
+    </p>
+    <p>
+     Gerard, pénétré de son état présent, et touché des soins de la gouvernante, lui dévoile le
                     fond de son âme, lui raconte toutes ses aventures, la conjure de tâcher de hâter sa
-                    guérison, et lui demande un secret inviolable.</p>
-                <p>La gouvernante connut bien par ce récit, qu'elle n'avait d'autre ressource que celle d'un
+                    guérison, et lui demande un secret inviolable.
+    </p>
+    <p>
+     La gouvernante connut bien par ce récit, qu'elle n'avait d'autre ressource que celle d'un
                     pouvoir surnaturel. Elle fut d'ailleurs fort aise de savoir qu'il était, par sa naissance,
                     digne d'épouser Euglantine; et, craignant qu'emporté par une passion aussi vive, il
                     cherchât bientôt quelque nouveau moyen de s'échapper, elle n'hésita plus à composer un
@@ -1173,14 +1512,18 @@
                     Tristan avaient autrefois partagé. L'aventure de l'évasion que Gerard avait tentée, fut
                     tenue secrète; mais dès le même jour, la gouvernante employa tous les secours de son art
                     pour composer son philtre, qu'elle remit entre les mains d'Euglantine, en lui disant de
-                    l'apporter elle-même au moment où l'appareil du soir serait levé.</p>
-                <p>Ou croira sans peine qu'Euglantine fut exacte à se rendre près de Gerard à l'heure marquée.
+                    l'apporter elle-même au moment où l'appareil du soir serait levé.
+    </p>
+    <p>
+     Ou croira sans peine qu'Euglantine fut exacte à se rendre près de Gerard à l'heure marquée.
                     L'adroite gouvernante assura le blessé, que ce haume, pris intérieurement, hâterait sa
                     guérison; il n'osa le refuser, le vase étant présenté par la main d'Euglantine, et la
                     voyant elle-même en faire l'essai. Il but la liqueur dangereuse; et celle qui la lui
                     présentait ne put douter de sa puissance, lorsque reprenant le vase de sa main, elle
-                    sentit qu'il baisait tendrement la sienne.</p>
-                <p>La gouvernante voulant achever de tromper Gerard et ceux qui se trouvaient alors dans la
+                    sentit qu'il baisait tendrement la sienne.
+    </p>
+    <p>
+     La gouvernante voulant achever de tromper Gerard et ceux qui se trouvaient alors dans la
                     chambre, dit qu'il fallait laisser reposer le blessé, tira ses rideaux, et sortit avec sa
                     pupille, en l'abandonnant aux nouveaux sentimens qu'elle prévoyait devoir s'emparer de son
                     âme. Hélas! elle ne réussit que trop bien dans ses desseins; étourdi par la force de ce
@@ -1202,8 +1545,10 @@
                     de nos âmes, de ce sentiment profond qui peut apprécier les désirs comme un bienfait
                     nouveau de ce dieu, mais non comme le plus nécessaire. Occuponsnous plutôt de la tendre et
                     malheureuse Euriant; elle seule, en ce moment, doit intéresser une âme honnête et
-                    sensible.</p>
-                <p>Le duc de Metz, lorsqu'il remit Euriant entre les mains de sa sœur, n'avait pas prévu
+                    sensible.
+    </p>
+    <p>
+     Le duc de Metz, lorsqu'il remit Euriant entre les mains de sa sœur, n'avait pas prévu
                     l'obstacle qu'il apportait lui-même à ses désirs. L'aimable Alfrède (c'était le nom de
                     cette sœur) était une des princesses les plus vertueuses de l'univers. Élevée avec un de
                     ses cousins, comme Euriant avec le sien, elle avait été presque aussi sensible qu'elle:
@@ -1214,23 +1559,29 @@
                     vœu de consacrer le reste de sa vie au culte des autels. Son frère, qui l'aimait
                     tendrement, l'avait empêchée de prendre le voile, et la retenait dans son palais: mais,
                     quelque mariage sortable qu'il eût pu lui proposer, Alfrède était restée inébranlable dans
-                    la résolution de passer sa vie dans la retraite et dans la prière.</p>
-                <p>Le duc de Metz, en remettant Euriant entre ses mains, ne lui cacha rien de son aventure, ni
+                    la résolution de passer sa vie dans la retraite et dans la prière.
+    </p>
+    <p>
+     Le duc de Metz, en remettant Euriant entre ses mains, ne lui cacha rien de son aventure, ni
                     des propos étranges que cette jeune personne avait tenus dans les premiers momens de son
                     enlèvement. Alfrède en eut horreur, mais ayant jeté les yeux sur Euriant, qui tenait les
                     siens baissés en sa présence, elle la trouva si jeune, son air lui parut si doux et si
                     modeste, qu'elle se sentit émue par une tendre pitié. Elle chargea celle de ses femmes en
                     qui elle se confiait le plus, de veiller sur cette jeune fille, de la loger auprès d'elle,
                     et de lui rendre compte de sa conduite, et des propos qu'elle tiendrait lors qu'elle se
-                    trouverait en liberté.</p>
-                <p>C'est un ange, dit quelques jours après cette femme à la princesse, oui, Madame, c'est un
+                    trouverait en liberté.
+    </p>
+    <p>
+     C'est un ange, dit quelques jours après cette femme à la princesse, oui, Madame, c'est un
                     ange que vous m'avez confié. Depuis qu'elle est près de moi, la pauvre enfant passe sa vie
                     dans la prière et dans les larmes. Non, je ne peux la croire criminelle; je pense bien
                     plutôt que quelque grand malheur lui fait cacher son état et son nom. Je l'ai priée
                     vainement de m'ouvrir son cœur; peut-être, Madame, réussirez-vous mieux vous-même à
                     pénétrer ses secrets: permettez que je vous l'amène. Alfrède y consentit; et cette femme
-                    alla chercher Euriant, qui vint avec elle en tremblant.</p>
-                <p>En entrant dans la chambre d'Alfrède, elles trouvèrent la princesse en prières. Euriant se
+                    alla chercher Euriant, qui vint avec elle en tremblant.
+    </p>
+    <p>
+     En entrant dans la chambre d'Alfrède, elles trouvèrent la princesse en prières. Euriant se
                     mit à genoux derrière elle; elle s'aperçut qu'Alfrède poussait des soupirs douloureux, et
                     qu'elle versait des pleurs en levant ses bras vers le ciel. Hélas! se dit-elle, elle est
                     donc bien malheureuse! mais ses maux ne peuvent naître ni de l'injustice, ni de l'abandon
@@ -1245,12 +1596,16 @@
                     s'écria-t-elle, pardonnez à mon premier mouvement. Hélas! ce que vous venez de voir est la
                     cause de mes malheurs, et le sera bientôt de ma mort. Non, s'écria-t-elle une seconde fois
                     en se jetant à ses pieds, non, je ne peux résister à l'horreur de paraitre plus long-temps
-                    criminelle aux yeux de la vertu même! Hlélas!</p>
-                <p>Madame, vous rougirez peut-être de ma première faiblesse: mais vous êtes trop bonne pour
+                    criminelle aux yeux de la vertu même! Hlélas!
+    </p>
+    <p>
+     Madame, vous rougirez peut-être de ma première faiblesse: mais vous êtes trop bonne pour
                     n'être pas touchée de mes malheurs. A ces mots, elle allait commencer le récit de ses
                     aventures, lorsque Alfrède cédant à la douce sympathie, l'embrassa, la fit asseoir auprès
-                    d'elle; et l'ayant à la fin calmée, Euriant lui fit un récit fidèle de ses infortunes.</p>
-                <p>Alfrède ne put l'écouter sans verser bien des armes; elle l'embrassa tendrement. Hélas!
+                    d'elle; et l'ayant à la fin calmée, Euriant lui fit un récit fidèle de ses infortunes.
+    </p>
+    <p>
+     Alfrède ne put l'écouter sans verser bien des armes; elle l'embrassa tendrement. Hélas!
                     Madame, lui dit-elle, quelque malheureuse que vous soyez dans ce moment, l'espérance vous
                     reste; la justice et la bonté du ciel, peuvent vous réunir avec votre époux; et vous lui
                     prouverez votre innocence: mais moi, malheureuse, rien ne peut finir mes peines et mes
@@ -1266,8 +1621,10 @@
                     soupçonner ma foi? quel-que fortes que fussent les apparences, devaitil me condamner sans
                     m'entendre? Non, Madame, je n'espère plus rien: mon sort est aussi cruel que le vôtre; mon
                     seul espoir et mon seul désir, c'est de passer les restes d'une vie infortunée auprès de
-                    vous, et de mêler tous les jours mes larmes avec les vôtres.</p>
-                <p>Alfrède et la belle Euriant se jurèrent sur ce cœur l'amitié la plus fidèle. Dès ce moment,
+                    vous, et de mêler tous les jours mes larmes avec les vôtres.
+    </p>
+    <p>
+     Alfrède et la belle Euriant se jurèrent sur ce cœur l'amitié la plus fidèle. Dès ce moment,
                     Alfrède ne voulut plus qu'Euriant eût un autre appartement que le sien. Elles partagèrent
                     le même lit, les mêmes petits ouvrages, et tous les faibles moyens qu'elles imaginaient
                     pour se distraire de la douleur profonde qui les pénétrait. Alfrède aimait les oiseaux, et
@@ -1294,8 +1651,10 @@
                     gage qui lui restait de l'amour de Gerard. Ah! s'écriatelle douloureusement, cet anneau
                     m'est enlevé comme son cœur: quel pronostic pour moi! Son amie fit de vains efforts pour
                     la consoler; elle rentra consternée dans le palais, et passa toute la nuit dans les
-                    larmes.</p>
-                <p>Le lendemain matin on vint annoncer à la princesse Alfrède un des principaux chevaliers du
+                    larmes.
+    </p>
+    <p>
+     Le lendemain matin on vint annoncer à la princesse Alfrède un des principaux chevaliers du
                     duc de Metz, son frère. Ce prince, après avoir remis Euriant entre les mains de sa sœur,
                     avait été forcé de partir pour défendre ses frontières contre les comtes d'Alsace et de
                     Bitche, qui s'étaient réunis pour les attaquer. Le duc de Metz après quelques actions
@@ -1310,8 +1669,10 @@
                     Il fut trèssurpris de voir cette jeune personne dans une aussi grande faveur auprès de la
                     princesse, et d'apprendre même qu'elle n'avait plus d'autre lit que le sien; il fut frappé
                     de sa beauté dès qu'elle parut à ses yeux, dans cette simple parure du matin, qui sied si
-                    bien à la jeunesse.</p>
-                <p>Alfrède avait fait entrer Meliatir dans son appartement, peu de momens après être sortie de
+                    bien à la jeunesse.
+    </p>
+    <p>
+     Alfrède avait fait entrer Meliatir dans son appartement, peu de momens après être sortie de
                     son lit; et la belle Euriant n'avait eu que le temps de s'envelopper d'une robe et de
                     relever à moitié sous sa coiffure les boucles de cheveux qui s'en étaient échappées. Elle
                     parut charmante à ce présomptueux chevalier: mais ni la noblesse de la figure d'Euriant,
@@ -1341,13 +1702,17 @@
                     pour se défendre des attentats de ce scélérat, que de lui donner un coup de pied dans le
                     visage, assez violent pour lui briser la moitié des dents, le défigurer, et le mettre tout
                     en sang: il lui fut facile alors de s'échapper des bras de Meliatir, étourdi de la
-                    violence du coup, et de celle de la douleur.</p>
-                <p>Euriant retourna très-émue dans dans la chambre de la princesse; mais trop vertueuse pour
+                    violence du coup, et de celle de la douleur.
+    </p>
+    <p>
+     Euriant retourna très-émue dans dans la chambre de la princesse; mais trop vertueuse pour
                     tirer vanité d'un pareil triomphe, trop bonne pour accuser un lâche qu'elle avait puni,
                     elle garda le silence. Pour Meliatir, après avoir essuyé son sang, il se retira, la rage
                     dans le cœur, par un escalier dérobé, cherchant à cacher sa honte et son état, et alla se
-                    renfermer en méditant tous les projets de la plus noire vengeance.</p>
-                <p>Le traître connaissait les appartemens du palais; il se munit d'un poignard: et, sur la fin
+                    renfermer en méditant tous les projets de la plus noire vengeance.
+    </p>
+    <p>
+     Le traître connaissait les appartemens du palais; il se munit d'un poignard: et, sur la fin
                     du jour, il se cache, pendant le souper de la princesse, dans l'intérieur de son
                     anpartement: il attend qu'elle soit couchée, à son ordinaire, avec Euriant; il leur laisse
                     tout le temps nécessaire pour s'endormir, profondément. Sortant alors, avec des souliers
@@ -1356,8 +1721,10 @@
                     perce le cœur si rapidement, qu'elle expire sans jeter le moindre cri. Le scélérat, avec
                     la présence d'esprit qu'une âme atroce peut seule conserver dans le crime, prend doucement
                     la main d'Euriant, la pose sur le sein d'Alfrède, se retire, et sort du palais sans être
-                    aperçu.</p>
-                <p>Le duc de Metz, pendant cette même nuit avait profité de la clarté de la lune; il était
+                    aperçu.
+    </p>
+    <p>
+     Le duc de Metz, pendant cette même nuit avait profité de la clarté de la lune; il était
                     parti sur le soir de Nancy; avec des chevaux de relais, pris à Pout-à-Mousson, qui
                     l'avaient conduit aux portes de Metz, au lever du soleil: plus il s'était rapproché
                     d'Euriant, plus la passion qui l'animait pour elle s'était rallumée: il revenait
@@ -1365,8 +1732,10 @@
                     surprendre, recevoir les caresses d'une sœur tendrement aimée, voir celle dont il
                     conservait l'idée la plus charmante, annoncer lui-même et sa victoire et la paix à ses
                     sujets; et quand il entra dans Metz, il crut arriver au terme de la plus douce et de la
-                    plus paisible félicité: un rêve si flatteur allait être suivi du plus affreux réveil.</p>
-                <p>Il entre dans la cité; les gardes le reconnaissent, jettent des cris de joie; le peuple se
+                    plus paisible félicité: un rêve si flatteur allait être suivi du plus affreux réveil.
+    </p>
+    <p>
+     Il entre dans la cité; les gardes le reconnaissent, jettent des cris de joie; le peuple se
                     réveille, court aux portes, aux fenêtres, reconnaît son souverain; et les acclamations le
                     suivent, le précédent même jusqu'aux portes du palais. Les femmes d'Alfrède courent à la
                     porte de la princesse pour la réveiller; et le premier spectacle qui s'offre à leurs yeux,
@@ -1375,8 +1744,10 @@
                     premier objet qui s'offre à sa vue, c'est Alfrède poignardée, et Euriant qui s'éveille,
                     tenant encore sa main ensanglantée sur le sein de cette princesse. Des cris affreux
                     s'élèvent de toutes parts; Euriant jette le plus douloureux de tous; et se penchant sur le
-                    visage froid d'Alfrède, elle s'évanouit.</p>
-                <p>Toutes les apparences accusaient Euriant de ce meurtre horrible: les faux aveux qu'elle
+                    visage froid d'Alfrède, elle s'évanouit.
+    </p>
+    <p>
+     Toutes les apparences accusaient Euriant de ce meurtre horrible: les faux aveux qu'elle
                     avait fait au duc dans la forêt pour l'éloigner d'elle, la font paraître à ce prince
                     capable de ce noir forfait. Son amour s'éteint; il n'écoute que sa fureur; il fait
                     arracher Euriant du corps inanimé qu'elle embrasse encore, la fait enfermer dans une
@@ -1394,8 +1765,10 @@
                     se décider; et ce dernier prend ce moment pour lui rappeler que le comte de Bar, son
                     oncle, passe pour être l'oracle de son temps et le plus juste de tous les princes; il le
                     conjure de le faire appeler pour avoir son avis, et de suspendre l'arrêt d'Euriant
-                    jusqu'après son arrivée et sa décision.</p>
-                <p>Le duc de Metz, quoique fortement prévenu contre Euriant, craignit d'ensanglanter son
+                    jusqu'après son arrivée et sa décision.
+    </p>
+    <p>
+     Le duc de Metz, quoique fortement prévenu contre Euriant, craignit d'ensanglanter son
                     arrivée par un supplice injuste; et de peur qu'un jour il ne lui fût reproché, ce prince
                     suivit l'avis de son grand référendaire: il écrivit à son oncle, et se contenta d'ordonner
                     qu'Euriant fût gardée dans la prison; un reste de pitié pour elle lui fit même ordonner
@@ -1407,8 +1780,10 @@
                     belle Euriant, pour l croire capable d'un crime aussi détestable: elle courut à la prison;
                     elle eut peine à calmer son désespoir; elle la trouva dans un état affreux, les cheveux
                     épars, le sein meurtri, demandant la mort, et cherchant tous les moyens de se la
-                    donner.</p>
-                <p>Quelques sensibles que nous soyions aux nouveaux malheurs d'Euriant, nous sommes obligés de
+                    donner.
+    </p>
+    <p>
+     Quelques sensibles que nous soyions aux nouveaux malheurs d'Euriant, nous sommes obligés de
                     retourner à Gerard qu'elle adorait toujours, quoiqu'il fût cause de toutes les peines
                     mortelles qui l'accablaient, et quoique involontairement il fût alors bien coupable. Le
                     boire amoureux avait tellement troublé la raison de l'ancien comte de Nevers, qu'Euriant
@@ -1418,8 +1793,10 @@
                     L'auteur prétend même que Florette eut l'adresse de profiter quelquefois du trouble dans
                     lequel le philtre captivait tous les sens de Gerard; mais nous avons trop bonne opinion
                     des filles de dix-sept ans, pour croire qu'elles prodiguent leurs faveurs sans être sûres
-                    d'être véritablement aimées.</p>
-                <p>Les amours d'Euglantine et de Gerard devinrent si publiques, que la gouvernante craignit
+                    d'être véritablement aimées.
+    </p>
+    <p>
+     Les amours d'Euglantine et de Gerard devinrent si publiques, que la gouvernante craignit
                     que quelques vieilles scrupuleuses, ou quelques barbons bien tristes et bien fâchés de
                     n'être plus aimables n'allassent faire quelque rapport au duc Milon. Elle résolut de les
                     prévenir; et, s'enfermant avec le duc dans son cabinet, elle lui révéla les secrets que
@@ -1435,8 +1812,10 @@
                     déclara publiquement et la naissance de Gerard, et le choix qu'il avait fait de ce prince
                     pour être son gendre et son successeur: toute la baronnie de Milon applaudit à son choix,
                     et n'envisagea plus Gerard que comme son souverain présomptif. Quel événement en effet
-                    pouvait-on prévoir qui dût s'opposer à celui dont l'apparence était si forte?</p>
-                <p>Il était d'usage à Cologne que toutes les demoiselles de haut parage fissent une retraite
+                    pouvait-on prévoir qui dût s'opposer à celui dont l'apparence était si forte?
+    </p>
+    <p>
+     Il était d'usage à Cologne que toutes les demoiselles de haut parage fissent une retraite
                     de quelques jours avant la célébration de leurs noces, dans une abbaye de vierges
                     consacrées au culte du Seigneur; la fille du souverain n'en était point exempte; et,
                     quelque douloureux qu'il fût pour Euglantine de se séparer de Gerard pendant ce temps,
@@ -1444,8 +1823,10 @@
                     dans cette retraite: mais, craignant en son absence les effets du boire amoureux, presque
                     autant qu'elle les avait aimés jusqu'alors, elle eut grand soin d'exiger que Florette
                     s'enfermât avec elle jusqu'au moment heureux où cette rivale ne serait plus à craindre
-                    pour elle.</p>
-                <p>Ces huit jours parurent bien longs à Gerard; il cherchait à charme. son ennui; et ne
+                    pour elle.
+    </p>
+    <p>
+     Ces huit jours parurent bien longs à Gerard; il cherchait à charme. son ennui; et ne
                     pouvant plus aller les matins à la toilette de la princesse, il montait à cheval, prenait
                     son épervier sur le poing; et, suivi d'un jeune écuyer qu'il s'était attaché depuis
                     quelque temps, il parcourait la plaie, et s'amusait à prendre des alouettes et des
@@ -1458,8 +1839,10 @@
                     épervier: mais ce jour-là sa chasse fut trèsmalheureuse; il semblait que tous les
                     rougesgorges et tous les bec-figues du pays se fussent retirés dans le fond de la grande
                     forêt; et l'épervier, fatigué de battre l'air en vain, s'était venu reposer sur le poing
-                    de son maître.</p>
-                <p>Gerard était prêt à reprendre le chemin du palais, lorsqu'il entend une alouette chanter
+                    de son maître.
+    </p>
+    <p>
+     Gerard était prêt à reprendre le chemin du palais, lorsqu'il entend une alouette chanter
                     au-dessus de sa tête, mais élevée presque jusque dans la nue: le comte l'aperçoit à peine;
                     cependant il anime, il déchaperonne son oiseau, le lance après elle, et le voit s'élever
                     rapidement. Gerard n'espérait plus qu'il pût atteindre sa proie, et l'avait déjà presque
@@ -1469,8 +1852,10 @@
                     en voyant briller une pierre précieuse entre les plumes du cou de cette alouette; il le
                     fut encore bien davantage, lorsqu'il reconnut que cette pierre était montée pour former
                     une bagne, et qu'il ne put plus douter que ce ne fût la même qu'il avait mise lui-même au
-                    doigt d'Euriant le jour de ses fiançailles.</p>
-                <p>Il n'est aucune magie, aucun philtre qui puisse résister au pouvoir du véritable amour; il
+                    doigt d'Euriant le jour de ses fiançailles.
+    </p>
+    <p>
+     Il n'est aucune magie, aucun philtre qui puisse résister au pouvoir du véritable amour; il
                     n'est aucun prestige assez puissant pour ne pas se dissiper à la lueur de son flambeau. Le
                     charme du philtre perd sa force. Gerard baise mille fois cet anneau, l'attache sur son
                     cœur, qui déjà n'est plus occupé que de sa chère Euriant et du bonheur de la savoir
@@ -1481,23 +1866,36 @@
                     et garde-toi bien de me suivre. A ces mots, Gerard s'éloigne, gagne la forêt; et le jeune
                     écuyer, tout en larmes, retourne à Cologne, et porte la douleur la plus vive dans le cœur
                     de Milon, en lui racontant ce qui vient d'arriver à Gerard, et lui répétant ce que le
-                    chevalier l'a chargé de dire à sa fille.</p>
-                <p>Le premier mouvement de Milon fut d'être furieux de l'infidélité de Gerard; mais se
+                    chevalier l'a chargé de dire à sa fille.
+    </p>
+    <p>
+     Le premier mouvement de Milon fut d'être furieux de l'infidélité de Gerard; mais se
                     rappelant tout ce que lu gouvernante avait rapporté de l'éducation, des amours, des
                     fiançailles et des malheurs de ce chevalier, il convint en lui-même que, loin d'être
                     coupable, il n'avait fait qu'obéir aux lois de la religion et de la chevalerie, en
-                    retournant à la recherche d'Euriant, puisqu'il avait des preuves de son innocence.</p>
-                <p>On croira sans peine que le désespoir d'Euglantine et de Florette fut extrême en apprenant
+                    retournant à la recherche d'Euriant, puisqu'il avait des preuves de son innocence.
+    </p>
+    <p>
+     On croira sans peine que le désespoir d'Euglantine et de Florette fut extrême en apprenant
                     le départ de Gerard: mais elles étaient bien jolies, bien promptes à s'enflammer.
                     Espérons, avec l'auteur, qu'elles trouvèrent bientôt des consolateurs, et ne nous occupons
-                    plus que du fidèle et malheureux Gerard.</p>
-                <p>Ce prince, absolument revenu de l'égarement dans lequel le philtre l'avait jeté, ne pensait
+                    plus que du fidèle et malheureux Gerard.
+    </p>
+    <p>
+     Ce prince, absolument revenu de l'égarement dans lequel le philtre l'avait jeté, ne pensait
                     qu'à réparer le temps qu'il avait perdu dans la cour de Milon. Il traversa la forêt; et,
                     suivant le cours de la Sarre, il pénétra dans la Lorraine allemande. Nous ne raconterons
                     point toutes les aventures qu'il eut dans les pays montagneux et sauvages qu'il traversa.
-                    Il redressa des torts; il détruisit des brigands dans leur retraite; abolit <hi
-                        rend="italic">plusieurs mules coutumes</hi> établies dans quelques châteaux; il punit
-                    des chevaliers <hi rend="italic">outragieux et félons</hi> pour les belles; il se couvrit
+                    Il redressa des torts; il détruisit des brigands dans leur retraite; abolit
+     <hi rend="italic">
+      plusieurs mules coutumes
+     </hi>
+     établies dans quelques châteaux; il punit
+                    des chevaliers
+     <hi rend="italic">
+      outragieux et félons
+     </hi>
+     pour les belles; il se couvrit
                     de gloire: il fit plus, le tendre souvenir d'Euriant le rendit insensible à la
                     reconnaissance de plusieurs jeunes Lorraines qu'il avait sauvées d'un péril qu'elle
                     voulaient bien courir avec lui, et nous avouons même, en l'admirant, que nous sommes
@@ -1505,8 +1903,10 @@
                     gardez-vous de les laisser voyager en Lorraine, dans les Vosges, et principalement sur les
                     bords de la Meurthe et du Madon. Nous ne pourrions même croire que Gerard n'eût pas été
                     séduit sans l'anneau d'Euriant qu'il portait sur son cœur, et qu'il baisait à tout
-                    moment.</p>
-                <p>Sa dernière aventure l'avait conduit à Saint-Avold; il était descendu dans une riche abbaye
+                    moment.
+    </p>
+    <p>
+     Sa dernière aventure l'avait conduit à Saint-Avold; il était descendu dans une riche abbaye
                     de cette ville. L'abbé de ce monastère était homme de naissance; deux de ses frères
                     étaient chevaliers: il recevait magnifiquement tous ceux que le hasard conduisait à son
                     abbaye; et, quoiqu'il ne connut encore que sous le nom de chevalier l'épervier, Gerard
@@ -1517,8 +1917,10 @@
                     souverain a mandé tous les barons: les abbés et les maires de ses Etats pour y former son
                     parlement, auquel le comte de Bar, son oncle, doit présider; ce duc se trouvant intéressé
                     personnellement dans la grande affaire qu'on y doit juger, et n'ayant pas voulu porter
-                    aucun arrêt sans l'avis de ses premiers sujets.</p>
-                <p>L'abbé poursuivit, et lui raconta tout ce qui s'était dit sur le meurtre horrible de la
+                    aucun arrêt sans l'avis de ses premiers sujets.
+    </p>
+    <p>
+     L'abbé poursuivit, et lui raconta tout ce qui s'était dit sur le meurtre horrible de la
                     princesse Alfrède, et l'apparence qui déposait contre celle qu'elle avait admise dans son
                     lit. Il rendit à Gerard un compte fidèle de tout ce qui s'était passé lorsque le duc de
                     Metz avait trouvé cette jeune fille dans la forêt de Melun. L'un des frères de l'abbé, qui
@@ -1527,8 +1929,10 @@
                     ajout-t-il, notre duc la trouvait si jeune et si belle, qu'il ne put croire tout le mal
                     qu'elle disait d'elle-même; il la mena dans sa cité de Metz, et la remit entre les mains
                     de sa sœur Alfrède, tandis qu'il allait défendre sa bonne ville de Dieuze, contre les
-                    comtes d'Alsace et de Bitche, qui voulaient s'emparer de ses riches salines.</p>
-                <p>L'abbé poursuivait ainsi son récit, lorsqu'il s'aperçut que le chevalier à l'épervier
+                    comtes d'Alsace et de Bitche, qui voulaient s'emparer de ses riches salines.
+    </p>
+    <p>
+     L'abbé poursuivait ainsi son récit, lorsqu'il s'aperçut que le chevalier à l'épervier
                     fondait en larmes, levait les bras au ciel, et paraissait dans la plus violente agitation.
                     Gerard ne répondit point ses questions en présence de quelques religieux qui souhaitent
                     avec eux; mais, prenant le bras de l'abbé d'une main tremblante, il l'entraîna dans son
@@ -1536,16 +1940,20 @@
                     lui dit-il, daignez m'écouter et me secourir; mais ce n'est que sous le sceau de la
                     confession que je peux vous ouvrir mon cœur. Le bon et vertueux abbé l'embrassa
                     tendrement. Consolez-vous, mon fils; et puisse l'être suprême, qui vous amène au tribunal
-                    de ses miséricordes, m'éclairer dans les conseils que je pourrai vous donner!</p>
-                <p>Gerard lui dévoila son âme toute entière; et l'abbé, touché des dispositions dans
+                    de ses miséricordes, m'éclairer dans les conseils que je pourrai vous donner!
+    </p>
+    <p>
+     Gerard lui dévoila son âme toute entière; et l'abbé, touché des dispositions dans
                     lesquelles il trouvait cette âme si pleine de candeur, n'hésita point à répandre sur lui
                     ces grâces du ciel dont il était dépositaire, et lui conseilla de le suivre à Metz, assez
                     bien déguisé pour qu'on ne pût pas le reconnaître. Gerard suivit son conseil; il entra
                     dans Metz avec lui sans aucune arme, et ne conserva nulle marque extérieure de la
                     chevalerie que ses éperons d'or, qu'il eut soin même de noircir avec une cire qu'on
                     pouvait facilement enlever. Il cacha de plus sous son pourpoint une chaîne d'or enrichie
-                    de pierreries, que son père avait attachée à son cou en l'armant chevalier.</p>
-                <p>Le lendemain, le son des cloches, le bruit éclatant des clairons et des trompettes annonça
+                    de pierreries, que son père avait attachée à son cou en l'armant chevalier.
+    </p>
+    <p>
+     Le lendemain, le son des cloches, le bruit éclatant des clairons et des trompettes annonça
                     l'heure à laquelle le parlement devait s'assembler. Dès que ceux qui le composaient furent
                     dans leurs places, le grand chambellan parut au nom du duc, et dit, de sa part, qu'il
                     demandait justice du meurtre de sa sœur. Le comte de Bar ordonna de faire comparaître
@@ -1558,8 +1966,12 @@
                     toutes les apparences se réunissaient contre l'accusée; mais qu'étant parent de Meliatir
                     qui l'avait dénoncée, il se récusait de lui-même, et remettait la cause à la prudence du
                     parlement. Le seigneur d'Apremont qui le suivait, se leva vivement, et déclara que, malgré
-                    toutes les apparences, il regardait comme impossible <hi rend="italic">que si douce et si
-                        gente créature se fût portée à pareil excès</hi>. Quel avantage, s'écria-t-il,
+                    toutes les apparences, il regardait comme impossible
+     <hi rend="italic">
+      que si douce et si
+                        gente créature se fût portée à pareil excès
+     </hi>
+     . Quel avantage, s'écria-t-il,
                     pouvait-elle tirer de ce meurtre horrible? Son intérêt personnel n'était-il pas de
                     conserver les jours et l'amitié d'Alfrède? Comment n'eût-elle pas dérobé sa tête à la
                     punition certaine de ce meurtre, si sa main l'avait commis? Vous sentiriez-vous capable de
@@ -1585,8 +1997,10 @@
                     en regardant d'un air furieux les chevaliers qui venaient de parler. Oui, dit-il, je
                     persiste dans mon accusation; et je défie, tel qu'il puisse être, celui qui voudra prendre
                     la défense de cette meurtrière. A ces mots, il alla déposer son gant sur le bureau qu'on
-                    avait placé vis-à-vis du comte de Bar.</p>
-                <p>Quelques momens de silence succédèrent au défi que Meliatir venait de faire; nul chevalier
+                    avait placé vis-à-vis du comte de Bar.
+    </p>
+    <p>
+     Quelques momens de silence succédèrent au défi que Meliatir venait de faire; nul chevalier
                     des Trois-Evêchés, ni des deux Lorraines ne se présenta pour l'accepter; l'innocence
                     d'Euriant ne leur paraissait pas encore assez prouvée. Tout-à-coup un inconnu fend la
                     presse, s'avance au milieu de l'assemblée, montre ses éperons d'or, relève les pans de son
@@ -1595,8 +2009,10 @@
                     je suis chevalier; l'abbé de Saint-Avold répondra de moi. A l'instant l'abbé de
                     Saint-Avold se lève, porte la main sur sa poitrine; et jure qu'il connaît l'inconnu pour
                     être chevalier et pour être digne de lever le gage de Meliatir, et de lui faire recevoir
-                    le sien.</p>
-                <p>Le comte de Bar et les soigneurs qui se sont levés avec celui d'Apremont, décident tous que
+                    le sien.
+    </p>
+    <p>
+     Le comte de Bar et les soigneurs qui se sont levés avec celui d'Apremont, décident tous que
                     Meliatir doit soutenir son dire; qu'il y a juste cause de combat; et déclarent aux deux
                     tenants qu'ils aient à se tenir prêts pour le lendemain matin. Sur-le-champ on remmène la
                     prisonnière, qui pout à peine jeter un coup-d'œil sur son défenseur, lequel lui tournait
@@ -1604,8 +2020,10 @@
                     sans raison que la renommée publie vos vertus et votre haute prudhommie; j'atteste le ciel
                     que l'accusée es innocente: j'exposerais mille fois ma vie pour le soutenir; mais le
                     hasard m'a conduit dans ce lieu: je n'ai point d'arme, achevez d'être mon bienfaiteur en
-                    m'en procurant; j'espère les porter en votre présence avec honneur.</p>
-                <p>Jamais Gerard n'avait été plus beau; jamais son air et ses regards n'avaient porté
+                    m'en procurant; j'espère les porter en votre présence avec honneur.
+    </p>
+    <p>
+     Jamais Gerard n'avait été plus beau; jamais son air et ses regards n'avaient porté
                     l'empreinte de plus de noblesse et d'audace. Il venait de revoir celle qu'il adorait; il
                     était près de combattre pour elle: l'espérance et l'amour brillaient dans ses yeux. Le
                     seigneur d'Apremont en fut également surpris et touché; il le prit par la main: Je vais
@@ -1616,17 +2034,23 @@
                     jusqu'après l'issue du combat: un secret pressentiment me dit qu'il en sortira couvert de
                     gloire. L'abbé, qui ne pouvait savoir le comte de Nevers en de meilleures mains, se
                     contenta de lui répondre qu'il espérait que le ciel favoriserait un aussi loyal
-                    chevalier.</p>
-                <p>Le duc de Metz reçut Gerard avec un air d'intérêt et de bonté. L'air noble et la beauté de
+                    chevalier.
+    </p>
+    <p>
+     Le duc de Metz reçut Gerard avec un air d'intérêt et de bonté. L'air noble et la beauté de
                     Gerard firent sur lui la même impression que sur le comte d'Apremont. Chevalier, lui
                     dit-il, je demande au ciel de venger la mort de ma sœur, et je désire vivement qu'il vous
                     aide à prouver que vous défendez l'innocence. Je crois lire dans vos yeux que vous cachez
                     un chevalier d'illustre naissance sous ces habits simples: mais je diffère à satisfaire ma
-                    curiosité jusqu'au moment où je vous verrai revenir victorieux.</p>
-                <p>Le comte d'Apremont conduisit Gerard à son hôtel, lui donna le choix de ses plus belles
+                    curiosité jusqu'au moment où je vous verrai revenir victorieux.
+    </p>
+    <p>
+     Le comte d'Apremont conduisit Gerard à son hôtel, lui donna le choix de ses plus belles
                     armes et du meilleur cheval de son écurie, et prit les mesures nécessaires pour qu'il
-                    parût le lendemain avec éclat dans la lice que le comte de Bar faisait préparer.</p>
-                <p>L'appareil du combat entre Gerard et Meliatir avait un air si funèbre, qu'on ne pouvait le
+                    parût le lendemain avec éclat dans la lice que le comte de Bar faisait préparer.
+    </p>
+    <p>
+     L'appareil du combat entre Gerard et Meliatir avait un air si funèbre, qu'on ne pouvait le
                     regarder qu'avec horreur. A l'une des extrémités de la lice, on voyait un poteau de fer
                     entouré d'un bûcher d'épines: il était destiné pour Euriant, si son champion était vaincu.
                     A l'autre extrémité, des bourreaux élevaient une potence, et préparaient la claie sur
@@ -1634,8 +2058,10 @@
                     manteaux de deuil, occupaient un échafaud. Le grand pénitencier, placé vis-à-vis d'eux,
                     tenait deux livres; l'un était celui de l'Evangile, sur lequel les champions devaient
                     jurer; l'autre contenait les anathèmes et les imprécations que le ministre devait
-                    prononcer contre celui dont l'âme serait assez perverse pour faire un faux serment.</p>
-                <p>Ni les trompettes, ni les instrumens guerriers, n'annoncèrent ce combat au peuple. La
+                    prononcer contre celui dont l'âme serait assez perverse pour faire un faux serment.
+    </p>
+    <p>
+     Ni les trompettes, ni les instrumens guerriers, n'annoncèrent ce combat au peuple. La
                     cloche d'un béfroi, destinée à marquer l'heure des supplices, avertit une troupe de
                     pénitents, couverts, d'un long sac, d'aller chercher Euriant dans sa prison. Ils la
                     conduisirent, enveloppée de crêpes mêlés d'étoupes, aux pieds de l'échafaud du grand
@@ -1651,9 +2077,15 @@
                     occuper. Gerard prête son serment, abaisse la visière de son casque pour le prononcer à
                     haute voix. Le prêtre et les deux parrains croient voir briller un feu céleste dans ses
                     yeux; Meliatir en frémit: tous deux sont alors séparés, et conduits aux deux extrémités de
-                    la lice.</p>
-                <p>Les juges du camp ayant levé leurs bâtons blancs, en criant: <hi rend="italic">Laissez
-                        aller</hi>.... les deux chevaliers baissèrent leurs lances, et s'élancèrent avec
+                    la lice.
+    </p>
+    <p>
+     Les juges du camp ayant levé leurs bâtons blancs, en criant:
+     <hi rend="italic">
+      Laissez
+                        aller
+     </hi>
+     .... les deux chevaliers baissèrent leurs lances, et s'élancèrent avec
                     impétuosité l'un contre l'autre. Se rencontrant au milieu de la carrière, leurs lances
                     volèrent en éclats: la force de ce choc et celui des deux boucliers fut si violente, que
                     les deux chevaux mirent leur croupe en terre, et tombèrent avec leurs maîtres, qui
@@ -1670,9 +2102,15 @@
                     porte aux pieds d'Euriant, et retourne sur Meliatir pour lui fair avouer son crime. Je
                     meurs, dit-il; je revois une juste punition de mes forfaits: appelle les juges du camp.
                     Ils accourent; Meliatir avoue la trahison horrible qu'il a commis, et l'instant d'après il
-                    expire.</p>
-                <p>Il n'était point en usage que les combats livrés pour crime de félonie, et qui se
-                    décidaient par celui que l'on nommait alors <hi rend="italic">le jugement de Dieu</hi>,
+                    expire.
+    </p>
+    <p>
+     Il n'était point en usage que les combats livrés pour crime de félonie, et qui se
+                    décidaient par celui que l'on nommait alors
+     <hi rend="italic">
+      le jugement de Dieu
+     </hi>
+     ,
                     fussent honorés des regards du souverain; il se tenait ordinairement dans quelque maison
                     voisine, avec ses hauts barons, jusqu'à ce que les juges da camp vinssent lui rendre
                     compte de l'événement. Un des juges courut aussitôt avertir le duc de la mort et de l'aveu
@@ -1691,11 +2129,15 @@
                     expirer à tes yeux. Ah! Gerard, Gerard, tout est oublié, puisque tu me trouves digne de
                     toi. A ces mots, elle passe ses bras à son cou, confond ses larmes avec les siennes; et
                     tous les spectateurs attendris ne peuvent refuser les leurs à cette réunion si
-                    touchante.</p>
-                <p>Tandis que le duc aide Gerard à reconduire Euriant triomphante dans son palais, les juges
+                    touchante.
+    </p>
+    <p>
+     Tandis que le duc aide Gerard à reconduire Euriant triomphante dans son palais, les juges
                     du camp donnent au peuple le spectacle hideux du corps sanglant de Meliatir traîné sur une
-                    claie autour de la lice, et pendu ensuite par les pieds.</p>
-                <p>Le duc de Metz, trop noble et trop généreux pour rien déguiser à Gerard, lui fit part de la
+                    claie autour de la lice, et pendu ensuite par les pieds.
+    </p>
+    <p>
+     Le duc de Metz, trop noble et trop généreux pour rien déguiser à Gerard, lui fit part de la
                     rencontre qu'il avait faite d'Euriant dans la forêt: de l'amour qu'il avait senti naître
                     pour elle; des offres que cet amour l'avait forcé de lui faire; et du moyen étrange, mais
                     adroit, dont elle s'était servie pour arrêter ses transports, et pour porter ses barons à
@@ -1703,18 +2145,33 @@
                     jusqu'au service des personne pour rentrer dans le comté de Nevers, et pour obtenir
                     justice de la lâche trahison de Liziard. Le comte de Bar fit les mêmes offres à Gerard, et
                     les seigneurs lorrains offrirent de lever leurs bannières pour une guerre aussi juste. --
-                        <hi rend="italic">Belle</hi>, dit alors Gerard à sa mie, <hi rend="italic">ci voyez
+     <hi rend="italic">
+      Belle
+     </hi>
+     , dit alors Gerard à sa mie,
+     <hi rend="italic">
+      ci voyez
                         comme vertu reçoit guerdon de noblesse, et comme noblesse engendre toujours vertu.
-                        Oui, oh Sire</hi>, dit-il au duc de Metz, <hi rend="italic">bien est assez que vous
+                        Oui, oh Sire
+     </hi>
+     , dit-il au duc de Metz,
+     <hi rend="italic">
+      bien est assez que vous
                         m'ayiez rendu ma mie; point n'est juste qu'exposiez vos hommes pour moi: plaise à Dieu
                         et au bon roi Louis, justice me sera donnée. Je raurai ma comté de Nevers; et c'est de
-                        mon corps à celui du traitre Liziard que je la plaiderai</hi>.</p>
-                <p>Une fête magnifique suivit le triomphe de Gerard. Le duc le fit revêtir des habits les plus
+                        mon corps à celui du traitre Liziard que je la plaiderai
+     </hi>
+     .
+    </p>
+    <p>
+     Une fête magnifique suivit le triomphe de Gerard. Le duc le fit revêtir des habits les plus
                     superbes, et des marques de son ancienne dignité. Pour Euriant, quelle que fût la joie
                     qu'elle eût d'avoir retrouvé Gerard, elle ne voulut se couvrir que d'habits de deuil; et
                     ce ne fut pas sans verser bien de nouvelles larmes qu'elle s'assit à la table du duc, dans
-                    la place qu'elle avait vue souvent occupée par Alfrède.</p>
-                <p>Sur la fin du festin, on annonça l'écuyer du comte d'Alost au duc de Metz. Ce jeune écuyer,
+                    la place qu'elle avait vue souvent occupée par Alfrède.
+    </p>
+    <p>
+     Sur la fin du festin, on annonça l'écuyer du comte d'Alost au duc de Metz. Ce jeune écuyer,
                     d'une naissance illustre, reçut le meilleur accueil; il revenait de la cour de
                     Louis-le-Gros, qu'il avait laissé depuis quelques jours avec toute sa maison à Montargis:
                     Sire, dit-il, le comte d'Alost, votre cousin, m'envoie pour vous apprendre que le comte de
@@ -1729,8 +2186,10 @@
                     sans la détruire. J'y serai présent; et la reine Adélaïde couronnera de sa main le
                     vainqueur. Les comtes de Forest et de Montfort se sont soumis à cette décision; et le
                     comte d'Alost, mon maître, qui se prépare pour paraître à ce tournoi, m'envoie pour vous
-                    prier, seigneur, de vous joindre à lui pour soutenir le comte de Montfort.</p>
-                <p>Le duc de Metz, enchanté de cette occasion de servir Gerard, et de le mettre à portée de
+                    prier, seigneur, de vous joindre à lui pour soutenir le comte de Montfort.
+    </p>
+    <p>
+     Le duc de Metz, enchanté de cette occasion de servir Gerard, et de le mettre à portée de
                     punir le comte de Forest, assura le jeune écuyer qu'il serait prêt avant le temps marqué
                     pour le tournoi, et qu'il y marcherait, lui centième, avec les chevaliers lorrains et des
                     Trois-Evéchés. Il fit appeler le comte de Raijecourt, son grand sénéchal, lui commanda de
@@ -1739,8 +2198,10 @@
                     tournoi, de façon qu'aucun de ceux qui la composeraient ne pût être reconnu. Ses ordres
                     furent exécutés avec tant de promptitude, que, huit jours après, les cent chevaliers,
                     parmi lesquels le duc de Metz et Gerard étaient compris, se trouvèrent prêts pour marcher
-                    et prendre le chemin de Montargis.</p>
-                <p>Gerard passa la plus grande partie de ces huit jours aux genoux de sa chère Euriant; il ne
+                    et prendre le chemin de Montargis.
+    </p>
+    <p>
+     Gerard passa la plus grande partie de ces huit jours aux genoux de sa chère Euriant; il ne
                     pouvait se consoler de l'imprudence de l'avoir soupçonnée, et des périls qu'elle avait
                     courus. Je te pardonne, mon cher Gerard, disait-elle tendrement; tu n'eusses pas fait ce
                     pari, sans la bonne opinion que ton cœur avait de moi. Les apparences se sont toutes
@@ -1759,10 +2220,14 @@
                     petites aventures dont la chasse de son épervier avait été précédée: nous osons croire
                     qu'il les avait oubliées. Nous perdons bien facilement l'idée des plaisirs qui n'ont pas
                     effleuré notre cœur; et ces momens si vifs et si doux ne nous restent présens que
-                    loisqu'ils ont été le prix d'un véritable amour.</p>
-                <p>Tout étant préparé pour le départ du duc de Metz, ce prince choisit plusieurs dames de sa
+                    loisqu'ils ont été le prix d'un véritable amour.
+    </p>
+    <p>
+     Tout étant préparé pour le départ du duc de Metz, ce prince choisit plusieurs dames de sa
                     cour pour accompagner la belle Euriant: leurs parures, leurs haquenées furent semblables
-                    aux harnais des chevaliers. Des loups<ref target="#N03"/> de velours blanc couvraient leurs
+                    aux harnais des chevaliers. Des loups
+     <ref target="#N03"/>
+     de velours blanc couvraient leurs
                     traits; et lorsque cette belle troupe fut mêlée ensemble, il eût été bien difficile de
                     reconnaître ceux et celles qui la composaient. Le duc se mit en marche; il séjoura deux
                     jours à Bar-le-Duc; l'oncle du duc de Metz promit à Gerard de se rendre à Montargis, et de
@@ -1778,8 +2243,10 @@
                     puissant voisin de ses Etats, lui répondit que, quelque impatience qu'il eût d'embrasser
                     le plus renommé de ses alliés, il se conformerait à sa volonté. Cependant Louis eut soin
                     de faire préparer des logemens commodes pour le duc, et de les faire remplir de tout ce
-                    qui pouvait être agréable et utile.</p>
-                <p>Toute la belle compagnie blanche se rendit le lendemain à Montargis, c'était le jour que
+                    qui pouvait être agréable et utile.
+    </p>
+    <p>
+     Toute la belle compagnie blanche se rendit le lendemain à Montargis, c'était le jour que
                     Louis avait choisi pour faire la revue générale des chevaliers que le comte de Forets et
                     celui de Montfort avaient amenés pour tenir leur parti. Celui de ce dernier se trouva plus
                     nombreux que l'autre de moitié: il fut obligé de faire tirer au sort ceux qui paraîtraient
@@ -1787,15 +2254,21 @@
                     prince et sa troupe de ne devoir qu'au sort l'honneur de combattre. Les cent chevaliers
                     blanc furent d'abord choisis; et les cent autres qu'il fallait pour égaliser ceux du parti
                     du comte de Forets, furent tirés de différens quadrilles: les autres furent forcés de
-                    demeurer spectateurs.</p>
-                <p>Ces deux troupes s'étant mises en ordre de bataille l'après-midi, le roi, la reine, toutes
+                    demeurer spectateurs.
+    </p>
+    <p>
+     Ces deux troupes s'étant mises en ordre de bataille l'après-midi, le roi, la reine, toutes
                     les dames, et les anciens chevaliers de la cour se rendirent dans la plaine, où le premier
                     objet qui frappa leurs yeux fut la troupe brillante des cent chevaliers blancs. Le roi,
                     passant avec les dames dans les rangs de l'un et de l'autre parti, visita lui-même les
                     armes courtoises dont ils devaient se servir le lendemain, et leur fit jurer de n'en point
                     employer d'autres. La reine Adélaïde, lorsqu'elle se trouva dans les rangs de la belle
-                    troupe du due Metz, ne put s'empêcher de dire à ses dames, <hi rend="italic">que mieux
-                        semblaient-ils angelets issus de paradis, que chevaliers</hi>. Au moment où la reine
+                    troupe du due Metz, ne put s'empêcher de dire à ses dames,
+     <hi rend="italic">
+      que mieux
+                        semblaient-ils angelets issus de paradis, que chevaliers
+     </hi>
+     . Au moment où la reine
                     passait devant Gerard, un léger coup de vent fit tomber une plume mal attachée de sa
                     coiffure: Gerard sauta légèrement à terre, ramassa la plume, et se jetant à genoux: Grande
                     reine, s'écria-t-il, permettez-moi de l'attacher sur mon casque; j'espère que vous la
@@ -1807,8 +2280,10 @@
                     panache, l'attacha sur son casque, et alla reprendre son rang. Euriant ne parut point à
                     cette revue générale, le crainte d'être reconnue par le comte de Montfort, son oncle, et
                     d'être obligée de lever son masque en présence de la reine. Cette princesse s'étant
-                    retirée, les chevaliers rentrèrent, et se préparèrent au tournoi du lendemain.</p>
-                <p>Le son des trompettes annonça le lever du soleil. La seconde fois que le même son retentit
+                    retirée, les chevaliers rentrèrent, et se préparèrent au tournoi du lendemain.
+    </p>
+    <p>
+     Le son des trompettes annonça le lever du soleil. La seconde fois que le même son retentit
                     dans Montargis, les deux cents chevaliers de chaque parti montèrent à cheval, l'arrivée de
                     Louis et d'Adélaïde sur le balcon royal fut marquée par le même bruit de guerre; et les
                     deux partis entrèrent par deux barrières différentes dans les vastes lices que l'on avait
@@ -1837,8 +2312,10 @@
                     de la lice fut couvert de débris, de chevaliers et de chevaux renversés. Louis et
                     Adélaïde, suivant des yeux Gerard qu'ils reconnaissaient à la plume blanche comme à la
                     chaîne qu'il venait de recevoir, virent porter à terre trois autres chevaliers avant que
-                    d'avoir rompu sa lance.</p>
-                <p>Bientôt un nouveau bruit frappa l'air, et devint encore plus continu par la multiplicité
+                    d'avoir rompu sa lance.
+    </p>
+    <p>
+     Bientôt un nouveau bruit frappa l'air, et devint encore plus continu par la multiplicité
                     des coups que les chevaliers, l'épée à la main, se portaient sur les armes. Rien ne
                     pouvait résistr à celles de Gerard: on le voyait s'ouvrir un passage dans les rangs,
                     s'élancer au milieu des troupes les plus serrées, les mettre en désordre; et, touràtour,
@@ -1847,17 +2324,23 @@
                     considérables par la richesse de leurs armes, en fit dix d'entre eux prisonniers, qu'il
                     conduisit l'un après l'autre au balcon de la reine. L'usage des tournois ne permettait
                     point aux prisonniers de rentrer dans la mêlée, ils ne pouvaient plus s'éloigner du balcon
-                    royal, qu'ils ne fussent échangés.</p>
-                <p>Le parti de Liziard allait toujours en diminuant; bientôt celui du comte de Montfort eut
+                    royal, qu'ils ne fussent échangés.
+    </p>
+    <p>
+     Le parti de Liziard allait toujours en diminuant; bientôt celui du comte de Montfort eut
                     une si grande supériorité, que le roi jeta son bâton. A ce signal, les juges du camp et
                     les hérauts firent cesser le tournoi, et déclarèrent le parti du duc de Montfort
-                    vainqueur. </p>
-                <p>Les deux troupes s'étant séparées, allèrent se désarmer; et Louis ayant assemblé les
+                    vainqueur.
+    </p>
+    <p>
+     Les deux troupes s'étant séparées, allèrent se désarmer; et Louis ayant assemblé les
                     anciens chevaliers de s cour a ce les juges du camp, pour prendre leur avis, il fut décidé
                     tout d'une voix que le parti du comte de Montfort était vainqueur; et que le mieux faisant
                     de l'un et l'autre côté, et celui qui remportait le premier honneur de cette journée,
-                    était le chevalier au panache blanc et à la chaîne d'or.</p>
-                <p>Louis envoya deux hérauts et l'un de ses chevaliers faire compliment au comte de Montfort
+                    était le chevalier au panache blanc et à la chaîne d'or.
+    </p>
+    <p>
+     Louis envoya deux hérauts et l'un de ses chevaliers faire compliment au comte de Montfort
                     sur sa victoire, et le prier de se rendre le lendemain au palais, à la sortie de la messe,
                     et d'amener avec lui le chevalier au panache blanc, reconnu d'une voix unanime pour avoir
                     remporté l'honneur du tournoi. Le comte de Montfort répondit respectueusement au
@@ -1868,16 +2351,20 @@
                     celle qui paraissait la principale était conduite par le chevalier au panache blanc et par
                     l'un de ses compagnons: ils rangèrent en ordre dans un grand salon, et Louis avait fait
                     ordonner au comte de Forest de se rendre, voulant achever d'accommoder et de finir la
-                    querelle qu'il avait eue avec celui de Montfort.</p>
-                <p>Louis et la reine Adélaïde furent trêssurpris, en entrant dans le salon, de voir les cent
+                    querelle qu'il avait eue avec celui de Montfort.
+    </p>
+    <p>
+     Louis et la reine Adélaïde furent trêssurpris, en entrant dans le salon, de voir les cent
                     chevaliers blancs la visière baissée, et les dames qu'ils avaient conduites avec eux
                     couvertes de leur masque. Gerard avait tous ôté son panache blanc et sa chaine; il tenait
                     l'un et l'autre cachés sous son bouclier. Louis ayant appelé le comte de Montfort, lui
                     demanda l'explication de ce mystère, et le pria de lui faire connaître du moins celui de
                     ses chevaliers dont il avait admiré valeur. Permettez, Sire, dit-il, qu'aucun de cette
                     troupe ne se fasse connaître qu'en présence du comte de Forest; ils n'attendent que ce
-                    moment pour porter leurs hommages a vos pieds. </p>
-                <p>Louis fit aussitôt appeler Liziard, qui parut avec une suite peu nombreuse, presque tous
+                    moment pour porter leurs hommages a vos pieds.
+    </p>
+    <p>
+     Louis fit aussitôt appeler Liziard, qui parut avec une suite peu nombreuse, presque tous
                     ceux de ses compagnons ayant été trop maltraités la veille pour être en état devenir à la
                     cour. Euriant, en voyant ce scélérat dont la trahison avait causé tous ses malheurs, serra
                     la main de Gerard, chancela, serait même tombée, si celles qui l'accompagnaient ne
@@ -1903,22 +2390,30 @@
                     délacèrent leurs casques, s'écrièrent avec le comte de Montfort: Sire, nous répondons pour
                     le chevalier inconnu; sa naissance est égale à celle du comte de Forest, dont le cœur est
                     aussi lâche et perfide que celui de son adversaire est noble et généreux; ce que nous
-                    sommes prêts à prouver <hi rend="italic">de notre corps et de nos biens envers et contre
-                        tous</hi>. Louis, au moment que le duc de Metz et de Lorraine ôta son casque, se leva
+                    sommes prêts à prouver
+     <hi rend="italic">
+      de notre corps et de nos biens envers et contre
+                        tous
+     </hi>
+     . Louis, au moment que le duc de Metz et de Lorraine ôta son casque, se leva
                     de son siège, et vint l'embrasser: Mon frère, lui dit-il, l'honneur que vous faites à ce
                     chevalier le rend digne de mesurer son épée avec tous les souverains; et je tiendrais le
                     comte de Forest pour un lâche, ajoutatil en regardant Liziard, s'il balançait à défendre
                     son honneur contre le chevalier inconnu... Non, je ne balance plus, répondit Liziard avec
                     fureur; je vais le punir à vos yeux: mais je vous déclare en présence de tous, que je
                     renonce à l'hommage que je vous ai prêté, et que je ne voudrais pas tenir de vous un seul
-                    éperon.</p>
-                <p>La réponse audacieuse de Liziard excita parmi les chevaliers l'indignation et le murmure.
+                    éperon.
+    </p>
+    <p>
+     La réponse audacieuse de Liziard excita parmi les chevaliers l'indignation et le murmure.
                     Comte, lui répondit Louis, je ne vous regrette ni ne vous crains; il m'en coûtera peu pour
                     punir un rebelle de plus: mais songez vous laver en ce moment, ou bien votre dégradation
                     d'armes servira d'exemple à la chevalerie. Liviard furieux: Qui que tu sois, dit-il au
                     chevalier inconnu, ta mort vengera mon injure; attends-moi si tu l'oses.... Oui, je
-                    t'attends, répondit froidement Gerard.</p>
-                <p>Tandis que Liziard allait prendre ses armes, Louis et toute sa cour descendirent dans la
+                    t'attends, répondit froidement Gerard.
+    </p>
+    <p>
+     Tandis que Liziard allait prendre ses armes, Louis et toute sa cour descendirent dans la
                     vaste place du palais, avec le duc de Metz et toute sa suite. Adélaïde resta sur un balcon
                     qui dominait sur cette place: elle appela les dames blanches auprès d'elle, et prenant par
                     la main celle qu'elle avait déjà remarquée: Quoique je ne vous connaisse point encore, lui
@@ -1938,20 +2433,28 @@
                     plusieurs princesses qui l'auraient fait souverain. Toujours attentif à ce qui pouvait
                     intéresser Adélaïde, il s'avança près d'Euriant, et lui dit qu'il enviait au duc de Metz
                     l'honneur de l'avoir sous sa garde, et qu'il partagerait celui de la servir en toute
-                    occasion.</p>
-                <p>Une rumeur qui s'éleva vers l'une des extrémités de la place, fit tourner les yeux de ce
+                    occasion.
+    </p>
+    <p>
+     Une rumeur qui s'éleva vers l'une des extrémités de la place, fit tourner les yeux de ce
                     côté. Liziard parut à pied, couvert de ses armes, et se souvenant du désavantage qu'il
                     avait eu la veille en combattant à cheval contre le chevalier au panache blanc, il envoya
                     l'un de ses écuyers lui dire qu'ayant le choix des armes et de la manière de combattre, il
                     voulait que ce fût à pied avec la hache et le poignard; il fit porter en même temps deux
                     de ces espèces d'armes offensives, pour que juge du camp les visitât et les partageât
-                    entre eux.</p>
-                <p>Gerard fut conduit par le duc de Metz jusqu'au milieu de la place, et le comte de Briare
+                    entre eux.
+    </p>
+    <p>
+     Gerard fut conduit par le duc de Metz jusqu'au milieu de la place, et le comte de Briare
                     accompagna de même Liziard. Les deux parrains, ayant tous deux la visière levée, se mirent
                     à distance égale des combattans, appuyés sur le pommeau de leurs épées: les juges du camp
                     nommés par le roi s'étant approchés, leur firent prêter serment. Gerard répéta sa même
                     accusation, qui fut suivie du démenti de Liziard; et les juges se retirèrent en criant à
-                    leurs parrains: <hi rend="italic">Laissez aller les combattans</hi>. Tous deux
+                    leurs parrains:
+     <hi rend="italic">
+      Laissez aller les combattans
+     </hi>
+     . Tous deux
                     s'attaquèrent avec audace. Liziard, plus grand que Gerard, et redoutable, la hache à la
                     main, espérait l'abattre sous ses premiers coups guidés par la fureur, le sang-froid et
                     l'âme tranquille de l'amant d'Euriant lui faisaient attendre le moment de punir son
@@ -1974,8 +2477,10 @@
                     en sa présence, et le pria d'investir le comte de Nevers de la comté de Forets qu'il lui
                     remettait en réparation de son forfait. L'abbé Suger, qui se trouvait présent, fut assez
                     touché du repentir de Liziard pour courir le demander à son vainqueur, qui le remit entre
-                    ses bras, où peu d'heures après ce coupable comte expira.</p>
-                <p>Louis ramena Gerard triomphant près de sa chère Euriant. Adélaïde et lui prirent les mains
+                    ses bras, où peu d'heures après ce coupable comte expira.
+    </p>
+    <p>
+     Louis ramena Gerard triomphant près de sa chère Euriant. Adélaïde et lui prirent les mains
                     de ces deux tendres amans, les unirent; et Suger, qui venait de recevoir les derniers
                     soupirs de Liziard, leur fit renouveler le serment sacré de s'être à jamais fidèles. Leurs
                     noces furent célébrées avec une magnificence digne de la cour de Louis et d'Adélaïde. Le
@@ -1986,16 +2491,25 @@
                     constance de leur amour. Devenus maîtres de Montbrison, de Maisigly et des bords fleuris
                     du Lignon, ils les peuplèrent d'amans fidèles. C'est de Gerard et d'Euriant, sa mie,
                     qu'Astrée et Céladon sont descendus; et le sang des Châteaumorant, qui coule encore dans
-                    les veines de l'auteur de cet extrait, en donna tous les mœurs à toute sa race.</p>
-                <trailer>FIN.</trailer>
-            </div>
-        </body>
-        <back>
-            <div type="notes">
-                <note xml:id="N01">(1) Espèce de bottinet.</note>
-                <note xml:id="N02">(1) Saxons.</note>
-                <note xml:id="N03">(1) Masques.</note>
-            </div>
-        </back>
-    </text>
+                    les veines de l'auteur de cet extrait, en donna tous les mœurs à toute sa race.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (1) Espèce de bottinet.
+    </note>
+    <note xml:id="N02">
+     (1) Saxons.
+    </note>
+    <note xml:id="N03">
+     (1) Masques.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

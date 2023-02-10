@@ -2,118 +2,179 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Gimat_Voyage" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:53.17 wikidata:0">Le voyage de Mantes: MiMoText edition</title>
-        <author ref="viaf:160030 wikidata:Q28579440">Jean-Baptiste Jacques Gimat de Bonneval(1711-1783)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>Numelyo - Bibliothèque numérique de Lyon</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">0000</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100685200"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Le voyage de Mantes</title>
-          <author/>
-          <pubPlace/>
-          <publisher/>
-          <date/>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1753</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            autodiegetic
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-10-24">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>LE VOYAGE de MANTES, ou LES VACANCES De 17.....</p>
-        <p>Orné de Figures en Taille douce.</p>
-        <p>Parva leves capunt animos.</p>
-        <p>A AMSTERDAM, 1753. VOYAGE DE MANTES.</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>CHAPITRE PREMIER.</head>
-        <p>Réflexions ſans ſuite de ce qui a donné lieu au reſte.</p>
-        <p>DE tous les tems il y a eu des originaux. Les mêmes, quant au fond, la forme ſeule a changé.</p>
-        <p>Les bonnes gens dont je me propoſe de tracer les ridicules, reſſembloient par leurs travers à
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:53.17 wikidata:0">
+     Le voyage de Mantes: MiMoText edition
+    </title>
+    <author ref="viaf:160030 wikidata:Q28579440">
+     Jean-Baptiste Jacques Gimat de Bonneval(1711-1783)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      Numelyo - Bibliothèque numérique de Lyon
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     0000
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001100685200"/>
+     <publisher>
+      Bibliothèque numérique de Lyon
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Le voyage de Mantes
+     </title>
+     <author/>
+     <pubPlace/>
+     <publisher/>
+     <date/>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1753
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      autodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-10-24">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     LE VOYAGE de MANTES, ou LES VACANCES De 17.....
+    </p>
+    <p>
+     Orné de Figures en Taille douce.
+    </p>
+    <p>
+     Parva leves capunt animos.
+    </p>
+    <p>
+     A AMSTERDAM, 1753. VOYAGE DE MANTES.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     CHAPITRE PREMIER.
+    </head>
+    <p>
+     Réflexions ſans ſuite de ce qui a donné lieu au reſte.
+    </p>
+    <p>
+     DE tous les tems il y a eu des originaux. Les mêmes, quant au fond, la forme ſeule a changé.
+    </p>
+    <p>
+     Les bonnes gens dont je me propoſe de tracer les ridicules, reſſembloient par leurs travers à
           ceux d'apréſent. Inhabiles à les cacher, ils n'avoient pas beſoin d'impudence pour les ſoutenir;
           quand ils ſe voyoient découverts. Alors on rougiſſoit encore. Avouer ſa faute en bégayant, c'étoit
-          commencer à réparer ſes torts. Depuis le départ de la pudeur, tout a bien changé de face.</p>
-        <p>Partiſan né du plaiſir, cédant au torrent des paſſions, je ne pouvois manquer de me trouver au
+          commencer à réparer ſes torts. Depuis le départ de la pudeur, tout a bien changé de face.
+    </p>
+    <p>
+     Partiſan né du plaiſir, cédant au torrent des paſſions, je ne pouvois manquer de me trouver au
           même titre des contemporains de mon libertinage; c'étoit marchandiſe mêlée, comme on le verra dans
           la ſuite, &amp; je dois au hazard le bonheur de m'en rappeller la mémoire ſans être obligé d'en
           rougir. Que de gens en voudroient pouvoir dire autant; le ſouvenir des écarts de la jeuneſſe nous
           couvre ſouvent de honte, &amp; nous fuyons avec autant d'empreſſement les compagnons de nos plaiſirs
-          paſſés, que nous les recherchions autrefois.</p>
-        <p>Qu'il importe ou non de le ſçavoirj'ai pris naiſſance au fond d'une Province éloignée de la
-          Capitale. Où? Il m'importe beaucoup que l'on l'ignore, &amp; l'on ſçaura pourquoi.</p>
-        <p>Echapé de la férule, j'abuſai des premiers momens de ma liberté pour me livrer avec excès aux
-          plaiſirs, d'autant plus attrayans, qu'ils étoient nouveaux.</p>
-        <p>La raiſon dont la force n'étoit fondée que ſur la théorie de la volupté, pouvoitelle être une
+          paſſés, que nous les recherchions autrefois.
+    </p>
+    <p>
+     Qu'il importe ou non de le ſçavoirj'ai pris naiſſance au fond d'une Province éloignée de la
+          Capitale. Où? Il m'importe beaucoup que l'on l'ignore, &amp; l'on ſçaura pourquoi.
+    </p>
+    <p>
+     Echapé de la férule, j'abuſai des premiers momens de ma liberté pour me livrer avec excès aux
+          plaiſirs, d'autant plus attrayans, qu'ils étoient nouveaux.
+    </p>
+    <p>
+     La raiſon dont la force n'étoit fondée que ſur la théorie de la volupté, pouvoitelle être une
           barriere aſſez forte pour arrêter la fougue de mes deſirs? Le dégoût des plaiſirs a peut-être fait
           autant de ſages que les réflexions les plus prévoyantes, ſur-tout quand on vous les fait faire ſur
           des choſes que l'on ne vous fait entrevoir que pour vous détourner de les connoître. Le feu de l'âge
           me fit ſouhaiter de les approfondir; il me falloit des reſſources pour ſatisfaire mon goût, elles
           étoient légeres; mon pere me paroiſſoit trop économe, il me taxoit à ſon tour de prodigalité nous
-          avions tort tous les deux à regarder les choſes d'un certain côté; je l'ai ſenti depuis.</p>
-        <p>Pour arrêter le cours de mes caravanes, le papa réſolut de m'envoyer à Paris, il eſperoit en me
+          avions tort tous les deux à regarder les choſes d'un certain côté; je l'ai ſenti depuis.
+    </p>
+    <p>
+     Pour arrêter le cours de mes caravanes, le papa réſolut de m'envoyer à Paris, il eſperoit en me
           dépaïſant, &amp; flattant mon amour propre d'un établiſſement honorable, que le travail qu'il me
           faudroit faire pour m'en rendre digne, écarteroit entierement les idées de diſſipation qui lui
           paroiſſoient ſi oppoſées à celles qu'il avoit pour mon avancement &amp; la ſatisfaction de ſa
@@ -135,42 +196,64 @@
           ſatisfont pas mes Lecteurs, &amp; je le dis, malgré tout mon amour propre, s'il ſe trouve des
           Lecteurs d'un ouvrage que l'on ne doit qu'à mon oiſiveté, qu'ils ſe préparent ces Lecteurs à de plus
           grandes diſgreſſions. Mon goût, peut-être, pourra changer par intervale. Au reſte, comme j'écris par
-          ſacade, on peut me dire de même.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE.</head>
-        <p>Départ, arrivée, projets.</p>
-        <p>A mon départ, mon pere ſe juſtifia amicalement du paſſé, en m'alléguant des raiſons dont les
+          ſacade, on peut me dire de même.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE.
+    </head>
+    <p>
+     Départ, arrivée, projets.
+    </p>
+    <p>
+     A mon départ, mon pere ſe juſtifia amicalement du paſſé, en m'alléguant des raiſons dont les
           peres ne manquent jamais en pareilles rencontres. Il me fit une peinture de tous les périls que
           j'allois braver en homme qui les avoit vûs de près; je promis de profiter de ſes conſeils, &amp; lui
-          ai tenu parole en homme plus heureux que ſage.</p>
-        <p>A mon arrivée, je ſongeai ſérieuſement à me mettre en état de remplir es devoirs de la charge
+          ai tenu parole en homme plus heureux que ſage.
+    </p>
+    <p>
+     A mon arrivée, je ſongeai ſérieuſement à me mettre en état de remplir es devoirs de la charge
           qu'on me deſtinoit; elle demandoit une étude profonde, de la chicanne pour en ſçavoir démêler les
-          détours.</p>
-        <p>Un travail continuel auroit pû m'accabler. Mon eſprit qui s'y ſoutenoit plus par raiſon que par
+          détours.
+    </p>
+    <p>
+     Un travail continuel auroit pû m'accabler. Mon eſprit qui s'y ſoutenoit plus par raiſon que par
           goût, demandoit du relâche. Le cœur revendiquoit ſes droits; il lui falloit de l'amuſement, au moins
-          les ſens entroient pour leur part dans cet arrangement.</p>
-        <p>Faire l'amour au-dehors, je ſentis combien mon tems m'étoit précieux. Pour mettre tout d'accord,
+          les ſens entroient pour leur part dans cet arrangement.
+    </p>
+    <p>
+     Faire l'amour au-dehors, je ſentis combien mon tems m'étoit précieux. Pour mettre tout d'accord,
           &amp; n'être point diſtrait dans mes occupations, je réſolus d'adreſſer mes vœux a la fille du
           Procureur, par convenance d'abord, ou ſi l'on veut, par une eſpece de reconnoiſſance qui n'eſt que
-          trop d'uſage dans le monde envers ceux qui nous obligent.</p>
-        <p>Mademoiſelle Hugon reçût mes petits ſoins avec plaiſir, &amp; ſans s'éfaroucher du but que je
+          trop d'uſage dans le monde envers ceux qui nous obligent.
+    </p>
+    <p>
+     Mademoiſelle Hugon reçût mes petits ſoins avec plaiſir, &amp; ſans s'éfaroucher du but que je
           paroiſſois me propoſer. Dans une ſituation égale des deux parts, tout dépendoit de l'occaſion pour
           remplir nos vûes. Après s'être montré ſous les plus beaux dehors, la perfide s'échappoit au moment
-          que nous croyions la ſaiſir.</p>
-        <p>J'étois préparé à tout événement, &amp; dans l'âge où la témérité rend ſouvent heureux. Si
+          que nous croyions la ſaiſir.
+    </p>
+    <p>
+     J'étois préparé à tout événement, &amp; dans l'âge où la témérité rend ſouvent heureux. Si
           j'euſſe rencontré dans ma petite maîtreſſe un peu plus de réſolution, nous aurions profité d'inſtans
           courts à la vérité, qui ſont d'autant plus précieux, que leur peu de durée ne nous laiſſe que les
           moyens d'eſquiſſer le plaiſir. Le ſouvenir de ces inſtans &amp; l'eſpoir d'en retrouver de pareils,
           rempliſſent l'imagination de peintures voluptueuſes preſque égales au plaiſir,ſi elles ne le
           ſurpaſſent quelquefois. Je rencontrai malheureuſement pour moi une fille toute neuve; la bonne
           volonté n'étoit pas ce qui lui manquoit; les deſirs la dévoroient; mais le vent d'une mouche la
-          faiſoit trembler.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE III.</head>
-        <p>Motifs du Voyage.</p>
-        <p>L'Automne nous fut plus favorable que le Printems; M. Hugon, le plus laborieux &amp; le plus âpre
+          faiſoit trembler.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE III.
+    </head>
+    <p>
+     Motifs du Voyage.
+    </p>
+    <p>
+     L'Automne nous fut plus favorable que le Printems; M. Hugon, le plus laborieux &amp; le plus âpre
           des Procureurs, fe trouvant par un excès de travail preſque ſans affaire, ſe détermina pour la
           premiere fois à quitter ſon Etude pendant les vacances, &amp; à en aller paſſer le tems auprès d'une
           niéce qui réſidoit aux environs de Mantes. Soit pour obliger ſa niéce, ou par un principe
@@ -190,12 +273,18 @@
           Neuilly où la voiture arrêta. Aux cris du Perroquet, du jappement des chiens qui le ſecondoient par
           intervale, &amp; aux propos de deux femmes dont nous eſſuyâmes à ce ſujet la mauvaiſe humeur,
           ſuccéda une ſcêne capable d'attendrir un Lecteur facile à émouvoir, ſi ma plume étoit aſſez
-          éloquente pour la lui rendre.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE IV.</head>
-        <p>Combat de Neuilly.</p>
-        <p>LEs deux femmes à qui la compagnie des chiens &amp; du perroquet avoit tant déplû, ſauterent à
+          éloquente pour la lui rendre.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE IV.
+    </head>
+    <p>
+     Combat de Neuilly.
+    </p>
+    <p>
+     LEs deux femmes à qui la compagnie des chiens &amp; du perroquet avoit tant déplû, ſauterent à
           bas de la voiture à l'aide d'un gros garçon Boulanger qui leur tendit les bras. Notre Maître-Clerc
           préſenta l'épaule à Madame Hugon; j'enlevai la petite Hugon, lui ſaiſant ſaire demi tour à gauche.
           Le petit Hugon donna du pied en terre, &amp; M. Hugon en le grondant, &amp; voulant ſe débarraſſer
@@ -225,60 +314,89 @@
           avec un bas vert &amp; un ſoulier couleur de roſe; on m'aida à retirer une jeune fille, &amp;
           cependant avec toute la décence que l'on pût obſerver avec des jupes ſans deſſus deſſous. Suivit un
           jeune homme qui avoit un œil poché, &amp; un autre femme à tête chauve, à qui viſite faite, on ne
-          trouva que cinq ou ſix boſſes.</p>
-        <p>Le Fiacre fut la premiere victime du jeune homme, qui débuta par lui appliquer vingt coups de
+          trouva que cinq ou ſix boſſes.
+    </p>
+    <p>
+     Le Fiacre fut la premiere victime du jeune homme, qui débuta par lui appliquer vingt coups de
           cane, d'un bras vigoureux &amp; diſpos; ſe retournant comme un éclair vers le Mitron, qui le
           regardoit avec plaiſir, il lui en diſtribua autant.
-        </p>
-        <p>La juſtice rendue, l'on prévint les effets d'un emportement qui n'étoit plus tolérable; on ſe
+    </p>
+    <p>
+     La juſtice rendue, l'on prévint les effets d'un emportement qui n'étoit plus tolérable; on ſe
           jetta à la traverſe, &amp; la jeune Demoiſelle nous aida à calmer la furie du jeune homme. La
           vieille qui pendant la derniere expédition, s'étoit remiſe avec cinq à ſix verres de ratafia, voulut
           auſſi entrer en lice; &amp; commençant par des apoſtrophes qui la décélerent, elle alloit
           renouveller la querelle ſans deux Capucins qui arriverent à propos pour rétablir la tranquillité par
-          leur exhortation.</p>
-        <p>Les Boulangeres entraînerent leur Mitron, qui ne ceſſoit de faire des grimaces &amp; des geſtes.</p>
-        <p>Bien battu, bien payé; le Fiacre très-ſatisfait de ſa courſe, remontant de ſang froid ſur ſon
-          ſiége, s'en retourna preſque en triomphe.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE V.</head>
-        <p>Reconnoiſſance.</p>
-        <p>Panſé, eſſuyé, rafraîchi, chacun ſe mit en devoir de continuer la route. Les Capucins nous
+          leur exhortation.
+    </p>
+    <p>
+     Les Boulangeres entraînerent leur Mitron, qui ne ceſſoit de faire des grimaces &amp; des geſtes.
+    </p>
+    <p>
+     Bien battu, bien payé; le Fiacre très-ſatisfait de ſa courſe, remontant de ſang froid ſur ſon
+          ſiége, s'en retourna preſque en triomphe.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE V.
+    </head>
+    <p>
+     Reconnoiſſance.
+    </p>
+    <p>
+     Panſé, eſſuyé, rafraîchi, chacun ſe mit en devoir de continuer la route. Les Capucins nous
           honorerent de leur préſence; la ſoi-diſante mere, la jeune fille &amp; ſon prétendu mari monterent
           auſſi dans la voiture. A vingt pas de là, un inconnu demanda place, ce que le Cocher lui accorda
           ſans nous conſulter. Il monte, s'aſſeoit à une portiere, nous ſalue; le Cocher touche, &amp; nous
-          trottons.</p>
-        <p>Bien cahotés, bien preſſés &amp; mourans de chaud, on propoſa de baiſſer les portieres. Maudit
+          trottons.
+    </p>
+    <p>
+     Bien cahotés, bien preſſés &amp; mourans de chaud, on propoſa de baiſſer les portieres. Maudit
           expédient qui nous mit en proye à un conflit d'odeurs inſoutenables. Je l'avoue, les Capucins
-          devinrent intérieurement les victimes de ma mauvaiſe humeur.</p>
-        <p>Après un peu d'examen, je leur rendis juſtice, ils n'y étoient tout au plus que pour leur part.</p>
-        <p>Les portieres allant au gré des ſecouſſes de la cariolle, nous procuroient un peu d'air: triſte
-          ſituation où il falloit ſouhaiter d'être cahoté pour reſpirer.</p>
-        <p>Madame Hugon lia la converſation la premiere; elle fit l'éloge des Révérends Peres, qui donnerent
+          devinrent intérieurement les victimes de ma mauvaiſe humeur.
+    </p>
+    <p>
+     Après un peu d'examen, je leur rendis juſtice, ils n'y étoient tout au plus que pour leur part.
+    </p>
+    <p>
+     Les portieres allant au gré des ſecouſſes de la cariolle, nous procuroient un peu d'air: triſte
+          ſituation où il falloit ſouhaiter d'être cahoté pour reſpirer.
+    </p>
+    <p>
+     Madame Hugon lia la converſation la premiere; elle fit l'éloge des Révérends Peres, qui donnerent
           tout le tort au Fiacre. Etant trop près du jeune homme pour oſer dire ce qu'ils penſoient de ſa
           pétulance: le Pere,au nom de mes Révérends Peres, jugea à propos de fe faire connoître en
           apoſtrophant ſon Compagnon, dont il loua la charité avec la laquelle il avoit dérobé une partie des
           coups en les recevant lui-même. Frere Ambroiſe, s'écria-t'il ſéraphiquement, ſe croit toujours au
           milieu des combats; &amp; cette intrépidité qui lui fit affronter les plus grands périls pour
           ſoutenir la gloire de nos armes, ſe renouvelle en lui toutes les fois qu'il s'agit du bien du
-          prochain. Le Frere, tandis que l'on faiſoit ſon panégyrique, récitoit humblement ſes patenôtes.</p>
-        <p>Il faut l'avouer, Meſſieurs &amp; Meſdames, continua le Pere, que le Ciel ſemble nous avoir
+          prochain. Le Frere, tandis que l'on faiſoit ſon panégyrique, récitoit humblement ſes patenôtes.
+    </p>
+    <p>
+     Il faut l'avouer, Meſſieurs &amp; Meſdames, continua le Pere, que le Ciel ſemble nous avoir
           heureuſement envoyé pour empêcher Monſieur de ſe compromettre: il a daigné ſe rendre à mes
           repréſentations; je ne puis non plus paſſer ſous ſilence la ſaçon généreuſe avec laquelle l'épouſe
           de Monſieur s'eſt jointe à mes prieres. Ces malheureux ſont plutôt dignes de pitié que de colere. Ma
           foi, mon Pere, dit le jeune homme, quelque part qu'il vous trouve, il vous doit de grands
           remercîmens; vous lui avez épargné, &amp; à l'autre coquin, plus de vingt coups de canne. J'étois en
-          train, vous l'avez vû, &amp; ils n'en euſſent pas été quitte à ſi bon marché.</p>
-        <p>Ah! Monſieur, lui repliqua le Pere, d'un ton béat, paſſe pour un premier mouvement, il eſt des
+          train, vous l'avez vû, &amp; ils n'en euſſent pas été quitte à ſi bon marché.
+    </p>
+    <p>
+     Ah! Monſieur, lui repliqua le Pere, d'un ton béat, paſſe pour un premier mouvement, il eſt des
           cas où l'on nous force de nous oublier; mais continuer d'accabler de coups des gens que l'on doit ſe
           contenter de mépriſer quand ils nous manquent, permettez-moi de vous repréſenter que la charité en
           eſt bleſſée. Ah! vraiment, dit le jeune homme, vous me la baillez bonne; je voudrois vous y voir
-          dans un Fiacre renverſé par-deſſus tête, comment vous prendriez la choſe.</p>
-        <p>A Dieu ne plaiſe que j'aye aucun deſſein de vous offenſer, Monſieur, reprit le zélé Capucin;
+          dans un Fiacre renverſé par-deſſus tête, comment vous prendriez la choſe.
+    </p>
+    <p>
+     A Dieu ne plaiſe que j'aye aucun deſſein de vous offenſer, Monſieur, reprit le zélé Capucin;
           c'eſt une licence que ma robe autoriſe; conſervant toujours pour vous les déférences que vous
           mérités &amp; qui vous ſont dûes, ainſi qu'à Madame votre épouſe, ces Dames, &amp; toute la
-          compagnie.</p>
-        <p>Le Capucin n'auroit pas quitté priſe, ſi Madame Hugon ne lui avoit pas coupé la parole; &amp;
+          compagnie.
+    </p>
+    <p>
+     Le Capucin n'auroit pas quitté priſe, ſi Madame Hugon ne lui avoit pas coupé la parole; &amp;
           s'adreſſant à la vieille à qui l'on avoit mis quantité de compreſſes, ſans ce qu'elle avoit bû;
           &amp; qui pour mettre le comble à notre malheur, lui faiſoit lâcher de tems à autre, de colériques
           bouffées d'eau-de-vie. Mon Dieu, Madame, lui dit Madame Hugon, comment vous trouvez-vous de vos
@@ -286,8 +404,10 @@
           appellez-vous des boſſes des bleſſures? Si mieux ne voulez dire des écorchûres; je n'en ai qu'une un
           peu au-deſſus du genou, dit-elle, en nous la montrant; c'eſt lui auſſi qui, en ſe débattant, me l'a
           fait avec l'aiguillon de ſa boucle; mais cela ſe paſſera, j'en ai bien eu d'autres, &amp; plus
-          conſidérables, &amp; ſi, voyez-vous, je ne m'en ſuis pas plus émûe pour cela.</p>
-        <p>L'inconnu, qui juſqu'à ce moment, avoit gardé le ſilence, frappé par le ſon roque de la vieille:
+          conſidérables, &amp; ſi, voyez-vous, je ne m'en ſuis pas plus émûe pour cela.
+    </p>
+    <p>
+     L'inconnu, qui juſqu'à ce moment, avoit gardé le ſilence, frappé par le ſon roque de la vieille:
           eh! dit-il en ſe retournant, ou je me trompe fort, ou c'eſt Madame Laramée que je viens d'entendre:
           oui, repartit-elle, à votre ſervice: je ne me comptois pas en pays de connoiſſance, s'écria-t'il.
           C'eſt donc là votre fille, je ne vous en connoiſſois pas, elle eſt vraiment fort aimable; il me
@@ -299,41 +419,59 @@
           propos, comment ſe porte-t'il le bonhomme? Es-tu raccommodé avec lui? Quoi! te voilà tout
           décontenancé; &amp; tu ne te réjouiras jamais ſi jeune; voyager ſeul cela ennuye, il faut de la
           compagnie une fois, &amp; tu choiſis bien, paſſe pour cela: ſi tu veux venir à Poiſſy nous rirons;
-          j'y vais en emplette, nous boirons enfemble le vin du marché.</p>
-        <p>La vieille étoit accommodante, la partie fut liée en dépit du jeune homme, qui n'oſa s'y oppoſer
+          j'y vais en emplette, nous boirons enfemble le vin du marché.
+    </p>
+    <p>
+     La vieille étoit accommodante, la partie fut liée en dépit du jeune homme, qui n'oſa s'y oppoſer
           que foiblement. Le Boucher qui ſe fit connoître, auroit, ſi on l'en avoit crû, régalé toute la
           caroſſée; quand ces ſortes de gens ſe mettent en train, tout y va; c'eſt une effuſion de cœur dont
           la politeſſe eſt à charge quelqueſois; mais en l'examinant, ſa ſource eſt plus pure, &amp; vaut bien
-          le phantôme du ſçavoir vivre dont on eſt ſi ſouvent la dupe dans la ſociété des gens plus civiliſés.</p>
-        <p>Mademoiſelle Hugon &amp; moi nous occupions l'autre portiere; après avoir pris un gere part à
+          le phantôme du ſçavoir vivre dont on eſt ſi ſouvent la dupe dans la ſociété des gens plus civiliſés.
+    </p>
+    <p>
+     Mademoiſelle Hugon &amp; moi nous occupions l'autre portiere; après avoir pris un gere part à
           cette avanture, nous employâmes nos yeux à un meilleur uſage. Mademoiſelle Hugon, comme je l'ai déja
           remarqué, étoit de ces filles auſquelles il péſe furieuſement de l'être dans la derniere exactitude.
           Elle avoit dix-neuf ans, ſon tempéramment étoit formé, &amp; la chagrinoit de plus en plus depuis
           notre connoiſſance: une taille courte &amp; ramaſſée, de la gorge juſqu'au menton, &amp; des yeux
           qui, agités dans ce moment par la ſituation de ſon ame, poſſédoient cet attrait qui fait tant faire
-          de ſolie. Les gens qui ont vêcu m'entendent.</p>
-        <p>Nous étions à la gêne, un geſte nous eût trahit; les regards ne s'élançoient qu'à la dérobée,
+          de ſolie. Les gens qui ont vêcu m'entendent.
+    </p>
+    <p>
+     Nous étions à la gêne, un geſte nous eût trahit; les regards ne s'élançoient qu'à la dérobée,
           l'expreſſion en étoit plus vive: on ſe frottoit furtivement le bout des doigts, faveur unique dont
           l'inſtant formoit le prix; ce que c'eſt que la contrainte! loin de s'en plaindre, on devroit la
-          chérir; elle fait ſouvent valoir, ce que ſans elle on n'auroit pas recherché.</p>
-        <p>Après avoir eſſuyé maints quolibets, nous arrivâmes, &amp; chacun gagna l'auberge ſelon ſon goût;
-          nous nous rendîmes à celle que l'on nous avoit indiqué dès Paris.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE VI.</head>
-        <p>Réception à Saint Germain.</p>
-        <p>Un ſilence morne régnoit dans tout la maiſon; la maîtreſſe nous reçût d'un air abbatu, les
+          chérir; elle fait ſouvent valoir, ce que ſans elle on n'auroit pas recherché.
+    </p>
+    <p>
+     Après avoir eſſuyé maints quolibets, nous arrivâmes, &amp; chacun gagna l'auberge ſelon ſon goût;
+          nous nous rendîmes à celle que l'on nous avoit indiqué dès Paris.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VI.
+    </head>
+    <p>
+     Réception à Saint Germain.
+    </p>
+    <p>
+     Un ſilence morne régnoit dans tout la maiſon; la maîtreſſe nous reçût d'un air abbatu, les
           ſervantes avoient la phiſionomie renfrognée; l'hôte juroit quand nous entrâmes, ces carognes de
           filles nous portent toujours malheur, diſoit-il, ſans oublier pluſieurs expreſſions dont ces fortes
           de gens ſont ſeuls en poſſeſſion. C'eſt aſſez pleurer bégueule, le mal eſt fait, prensle en
           patience; la bégueule pleuroit avec grace, elle en devenoit plus intéreſſante; les larmes ne ſont
-          pas à toutes les femmes; auſſi quand elles leur ſiaient, elles en ſont plus dangereuſes.</p>
-        <p>Qui nous vient là, dit l'hôte, en nous appercevant, un perroquet, des chiens, des femmes, des
+          pas à toutes les femmes; auſſi quand elles leur ſiaient, elles en ſont plus dangereuſes.
+    </p>
+    <p>
+     Qui nous vient là, dit l'hôte, en nous appercevant, un perroquet, des chiens, des femmes, des
           enfans; bonne pratique: eh Catau, Margot, alertes donc, que faites-vous les bras croiſés, menez ces
           Dames à la chambre verte. Nous ſuivons Catau &amp; Margot pour aller reconnoître notre logement. En
           montant je demandai la cauſe du vacarme; oh! vraiment, dit l'une, c'eſt une hiſtoire: je n'ai pas le
-          tems de la faire; voilà la chambre, c'eſt ce qui nous reſte, choiſiſſez.</p>
-        <p>Quatre lits à colonne en occupoient les quatre coins; Madame Hugon après les avoir bien tâté, les
+          tems de la faire; voilà la chambre, c'eſt ce qui nous reſte, choiſiſſez.
+    </p>
+    <p>
+     Quatre lits à colonne en occupoient les quatre coins; Madame Hugon après les avoir bien tâté, les
           trouva fort mauvais; M. Hugon prit occaſion des quatre lits pour lui dire avec ce ton de mauvais
           plaiſant, qu'il s'étoit rendu ſi naturel: oh! parbleu, tu coucheras avec moi Babet, pour le coup, il
           n'y a pas moyen de s'en dédire. Toujours de vos coq-à-l'âne, mon mari, vous êtes incorrigible:
@@ -341,8 +479,10 @@
           garde celle-ci, nous dit-elle, s'il n'y en a point d'autre; arrangez-vous, &amp; tout de ſuite;
           allons donc, Meſſieurs, quelle jeuneſſe eſt-ce la? Deſcendez, n'avez-vous pas une langue? qu'en
           voulezvous faire? Pour vous, mon mari, lus de chanſon, elles m'ennuyent. Mérote, lui dit M. Hugon,
-          ſur quelle herbe avez-vous marché? Oh! mérote, écoutez-le, il a tout dit.</p>
-        <p>Je les laiſſai aux priſes; &amp; ſaiſiſſant l'ocaſion de mettre à exécution un projet qui me
+          ſur quelle herbe avez-vous marché? Oh! mérote, écoutez-le, il a tout dit.
+    </p>
+    <p>
+     Je les laiſſai aux priſes; &amp; ſaiſiſſant l'ocaſion de mettre à exécution un projet qui me
           paroiſſoit bien concû, j'allai, ſuivi de Dépêches, notre Maître-Clerc, m'adreſſer à l'hôteſſe, comme
           me paroiſſant plus accommodante; n'auriez vous pas d'autres lits? lui dis-je, en l'abordant, on les
           payera ce qu'il faut. Comment d'autres lits? ceux-là ſont bons, il ne loge ici que ce qu'il y a de
@@ -375,24 +515,34 @@
           occaſionnée. Le pauvre bon-homme a cauſé par entêtement ſon malheur &amp; celui de ſa fille. En
           ſçavez-vous quelque particularité, lui dis-je? Oui, répliqua-t'il, &amp; je puis vous faire part de
           ce que j'ai recueilli. Je paſſai avant tout ſur la gallerie, &amp; criai que l'on nous apportât de
-          quoi attendre le ſouper; après une légere collation, on invita l'Abbé à commencer ſon récit.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE VII.</head>
-        <p>Hiſtoire de Lolotte.</p>
-        <p>JE vais, nous dit l'Abbé, vous raconter tout naturellement la choſe, comme ſpectateur de la
+          quoi attendre le ſouper; après une légere collation, on invita l'Abbé à commencer ſon récit.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VII.
+    </head>
+    <p>
+     Hiſtoire de Lolotte.
+    </p>
+    <p>
+     JE vais, nous dit l'Abbé, vous raconter tout naturellement la choſe, comme ſpectateur de la
           cataſtrophe. Entre de meilleures mains elle ſeroit ſuſceptible d'ornemens qui vous la rendroient
           plus agréable; mais ce n'eſt point un Roman que je veux vous faire, le fait eſt ſimple, &amp; parle
           de luimême. Je n'ai pû m'empêcher d'être touché de la ſituation de la petite fille, &amp; de celle
           de ſon amant; elle méritoit un meilleur ſort; vous avez pû la voir, la nature l'a aſſez bien partagé
           de ſes dons, &amp; je puis vous aſſurer que ſon eſprit &amp; ſon cœur répondent aux graces
-          extérieures.</p>
-        <p>Depuis deux ans un jeune Commis réduit à un emploi des plus modique, en devint amoureux; il
+          extérieures.
+    </p>
+    <p>
+     Depuis deux ans un jeune Commis réduit à un emploi des plus modique, en devint amoureux; il
           trouva les moyens de plaire, ſes vûes étoient légitimes, ſa recherche ne pouvoit que faire honneur;
           il eſt de bonne famille, &amp; unique héritier d'un oncle à ſon aiſe qui l'aime beaucoup. Lolotte
           fut touchée de ſes ſoins, &amp; ſe livra au panchant qu'elle avoit à l'aimer, ne doutant pas que ſes
-          parens n'approuvaſſent la recherche du jeune Miron: c'étoit le nom de ſon amant.</p>
-        <p>L'oncle de Miron enviſageant que les richeſſes de Poitiers feroient de ſa fille un très-bon
+          parens n'approuvaſſent la recherche du jeune Miron: c'étoit le nom de ſon amant.
+    </p>
+    <p>
+     L'oncle de Miron enviſageant que les richeſſes de Poitiers feroient de ſa fille un très-bon
           parti, vint en faire la demande pour ſon neveu. Poitiers demanda du tems pour réflechir, l'oncle
           aſſuroit ſa ſucceſſion; mais en bon parent, ne vouloit rien retrancher de ſon uſufruit. La guerre
           ſurvint, Miron obtint un emploi dans les vivres. Le bonheur lui en voulut; il en écrivit à ſa
@@ -410,12 +560,18 @@
           ſuivi Miron, &amp; lui ai annoncé avec ménagement ce qui venoit d'arriver; le pauvre garçon eſt
           inconſolable; il arrivoit en homme aſſuré du ſuccès. Sa ſortune a ſurpaſſé ſes vœux; une maladie qui
           l'a réduit à l'extrêmité, a occaſionné la fauſſe nouvelle de ſa mort: je crains que dans la
-          ſituation où ſont les choſes, nos amans ne prennent conſeil que de leur paſſion.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE VIII.</head>
-        <p>Grande Nouvelle.</p>
-        <p>Des cris redoublés, nous attirerent ſur la galerie. Plus curieux que les autres, je deſcendis
+          ſituation où ſont les choſes, nos amans ne prennent conſeil que de leur paſſion.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE VIII.
+    </head>
+    <p>
+     Grande Nouvelle.
+    </p>
+    <p>
+     Des cris redoublés, nous attirerent ſur la galerie. Plus curieux que les autres, je deſcendis
           pour en ſçavoir la cauſe. Une vieille femme avoit pris au crein maman Poitiers, un homme tenoit
           Poitiers au colet, tout le monde ſuivit mon exemple; &amp; étant deſcendu, les ſépara. Miron que le
           Prieur me fit remarquer, parut auſſi ſur la ſcêne. Quelle ſurpriſe! quelle joye! la vieille étoit la
@@ -426,8 +582,10 @@
           Poitiers &amp; de ſa ſemme, la ſuffiſance de M. Hugon qui ſe jetta à travers, pour inſtruire le
           procès dont il enviſageoit les émolumens comme ſon bien propre, la ſatisfaction du Prieur &amp; la
           mienne, les hauſſemens d'épaule &amp; les hélas de Madame Hugon: tout cela formoit un tableau
-          inimitable.</p>
-        <p>Poitiers pleura la perte de ſon argent, ſa femme redevint mere, &amp; partagea le plaiſir de ſa
+          inimitable.
+    </p>
+    <p>
+     Poitiers pleura la perte de ſon argent, ſa femme redevint mere, &amp; partagea le plaiſir de ſa
           fille. M. Hugon voulut inſtrumenter avec ſon Clerc, pour dreſſer la plainte en caſſation à ce qu'il
           diſoit; étoit ſi tranſporté de l'événement, qu'il fallut tout le ſang froid de notre Maître-Clerc
           pour le faire déſiſter du projet. Nous accueillimes Miron, &amp; l'engageâmes lui &amp; ſa maîtreſſe
@@ -436,8 +594,10 @@
           paroiſſoient tous fiers de leur capture. Qu'a donc fait ce pauvre homme pour être ſi mal à ſon aiſe,
           dit Madame Hugon en s'adreſſant à un des Cavaliers? On l'a pris pour un autre, à ce qu'il prétend,
           Madame. Mépriſe ou non, nous pourions bien avoir rencontré l'équivalent de ce que nous cherchions.
-          Le priſonnier voulut parler, ils piquerent des deux, &amp; nous empêcherent de l'entendre.</p>
-        <p>Il a mauvaiſe phiſionomie, nous dit décidament M. Hugon, qui à peine avoit pû le diſtinguer. La
+          Le priſonnier voulut parler, ils piquerent des deux, &amp; nous empêcherent de l'entendre.
+    </p>
+    <p>
+     Il a mauvaiſe phiſionomie, nous dit décidament M. Hugon, qui à peine avoit pû le diſtinguer. La
           Juſtice eſt trop clair-voyante pour ſe tromper; nous fûmes très-heureux d'échapper à une longue
           ſuite d'exemples qu'il ſe mit en devoir de nous citer, &amp; pour leſquels il avoit la mémoire
           trèsprompte, aux circonſtances près qui étoient toujours fort embrouillées. Eh! mon mari, dit Madame
@@ -456,8 +616,10 @@
           oublier les maux de cœur dont elle s'étoit plainte à diverſes repriſes. Mettez-vous là, ma fille,
           dit-elle d'un air joyeux; prenez place mon mari; ici petit garçon, aſſeyez-vous donc, Meſſieurs,
           &amp; vous M. le Prieur, venez à côté de moi. L'on fit un cercle ſur l'herbe, il n'y eut plus que
-          des ſignes; l'on mangea, &amp; l'on but en ſilence.</p>
-        <p>Madame Hugon le rompit la premiere, il n'eſt rien tel que la campagne pour donner de l'apétit;
+          des ſignes; l'on mangea, &amp; l'on but en ſilence.
+    </p>
+    <p>
+     Madame Hugon le rompit la premiere, il n'eſt rien tel que la campagne pour donner de l'apétit;
           eh! mangez donc vous autres, diſoit-elle, en nous donnant l'exemple; ſa bouche &amp; ſon verre ne
           déſempliſſoient pas; perſonne ne me ſeconde, quelle eſpece eſt-ce la? Avouez M. le Prieur, que je
           réponds bien aux attentions que l'on a pour moi. Je vous admire, lui dit-il, &amp; me ſçais un gré
@@ -481,12 +643,16 @@
           harangs &amp; des mazettes. Vous vous trompez, dit le Prieur; eh! pardonnez-moi, non, dit Madame
           Hugon, je m'entends bien, c'eſt comme ſi l'on venoit par les chaſſesmarées, nombre de nos pratiques
           viennent comme cela; nous autres gens de Paris nous ſommes au fait, on ne nous en donne pas à
-          garder... Et puis un coup de fuſil lâché à vingt pas troubla l'entretien.</p>
-        <p>Madame &amp; Mademoiſelle Hugon s'évanouirent, le Procureur &amp; ſon fils gagnerent Poiſſy ſans
+          garder... Et puis un coup de fuſil lâché à vingt pas troubla l'entretien.
+    </p>
+    <p>
+     Madame &amp; Mademoiſelle Hugon s'évanouirent, le Procureur &amp; ſon fils gagnerent Poiſſy ſans
           débrider; l'arrivée de deux Chaſſeurs nous raſſura; on fit revenir Madame Hugon, les bouteilles
           furent viſitées; heureuſement que nos poliſſons ne s'effrayoient pas du bruit, ſans cela le bagage
-          nous ſeroit tombé ſur les bras.</p>
-        <p>En vérité, dit Madame Hugon, après s'être fortifié le cœur, il eſt bien diſgracieux d'être expoſé
+          nous ſeroit tombé ſur les bras.
+    </p>
+    <p>
+     En vérité, dit Madame Hugon, après s'être fortifié le cœur, il eſt bien diſgracieux d'être expoſé
           comme cela au milieu d'une forêt. Oh! voilà qui eſt fini, je ne voyage plus. Eh mais, où eſt donc ce
           M. Hugon, que je le gronde; à Poiſſy sûrement, dit le Prieur, la peur l'a pris, il alloit à tire
           d'ailes, &amp; ſon fils l'imitoit; nous les rejoindrons bien-tôt, allons, Madame, à ce détour, nous
@@ -499,31 +665,44 @@
           Enfans ſerrez de prés, les chevaux penſerent la fouler aux pieds; le Prieur mit le Brigadier au fait
           de l'aventure; M. Hugon étoit la cauſe de l'algaradet tour de badaud, dirent-ils, en nous quittant,
           &amp; éclatant de rire. Badaud, dit Madame Hugon, qui s'étoit un peu remiſe pendant le récit du
-          Prieur; voyez un peu ces viſages qui raiſonnent comme leur chevaux: en ont-ils?</p>
-        <p>c'eſt rimer ca, allons, allons, je ne vous laverai pas mal la tête, Monſieur Hugon.</p>
-        <p>Un orage qui nous menacoit fondit ſur notre troupe en ſuccès. Madame Hugon ne cria plus, mais
+          Prieur; voyez un peu ces viſages qui raiſonnent comme leur chevaux: en ont-ils?
+    </p>
+    <p>
+     c'eſt rimer ca, allons, allons, je ne vous laverai pas mal la tête, Monſieur Hugon.
+    </p>
+    <p>
+     Un orage qui nous menacoit fondit ſur notre troupe en ſuccès. Madame Hugon ne cria plus, mais
           elle heurla, devinez comme. Nous arrivâmes tout trempés &amp; bien haraſſés de tant de ſcênes.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE X.</head>
-        <p>Arrivée à Poiſſy.</p>
-        <p>Madame Hugon étoit rendue, elle demanda un lit en entrant dans l'hôtellerie; ne ſouhaitez-vous
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE X.
+    </head>
+    <p>
+     Arrivée à Poiſſy.
+    </p>
+    <p>
+     Madame Hugon étoit rendue, elle demanda un lit en entrant dans l'hôtellerie; ne ſouhaitez-vous
           pas vous rafraîchir auparavant, dit l'hôte, vous me paroiſſez avoir autant beſoin d'un verre de vin
           que d'un lit. Que parle-t'il de rafraîchiſſement ce ſot-là, dit Madame Hugon, me fait-on entrer ici
           pour m'inſulter? Il s'exprime mal, dit le Prieur, mais ſon intention eſt bonne; faites-nous monter
           du meilleur, notre Maître, &amp; qu'on nous allume un grand feu. Ma foi, dit l'hôteſſe, ſi les
           termes vous choquent, on n'y ſçauroit que faire, fâchez-vous ſi vous voulez, encore faut-il donner
           le tems de baſſiner vos lits; voilà bien de quoi ſe gendarmer, c'eſt une pluye d'Automne, que ne
-          veniez-vous en caroſſe, cela ne vous ſeroit pas arrivé; eſt-ce ma faute?</p>
-        <p>L'on étendit les jupes &amp; les manteaux devant un grand feu, qui ſecondé de quelques verres de
+          veniez-vous en caroſſe, cela ne vous ſeroit pas arrivé; eſt-ce ma faute?
+    </p>
+    <p>
+     L'on étendit les jupes &amp; les manteaux devant un grand feu, qui ſecondé de quelques verres de
           vin de Mantes, acheva de nous refaire. Madame Hugon ne ſçachant à qui s'en prendre, paſſa ſa
           mauvaiſe humeur ſur ſon fils &amp; ſon mari. Un Batelier offrit ſes ſervices, on les accepta pour
           partir après la dînée. Madame Hugon s'écria que l'on vouloit ſa mort; après bien des paroles
           inutiles, elle ſe rendit à nos inſtances, elle avoit beſoin de repos; ſa fille reſta auprès d'elle,
           Deſpêches, M. Hugon &amp; ſon fils allerent faire un tour à la cuifine; le Soleil étant venu à
-          reparoître, le Prieur &amp; moi nous ſortîmes pour nous promener en attendant le diné.</p>
-        <p>Nous nous mîmes à l'ombre de quelques ſaules d'où nous découvrions ce Poiſſy ſi fameux par ſes
+          reparoître, le Prieur &amp; moi nous ſortîmes pour nous promener en attendant le diné.
+    </p>
+    <p>
+     Nous nous mîmes à l'ombre de quelques ſaules d'où nous découvrions ce Poiſſy ſi fameux par ſes
           conférences &amp; la naiſſance d'un de nos Rois, qui ne nous offroit alors qu'une retraite de
           pêcheurs que l'on ne connoît aujourd'hui que par ſes marches; la décadence des lieux amena
           inſenſiblement à celle de la fortune des hommes; moi, qui vous parle, dit le Prieur, j'en ſuis un
@@ -531,9 +710,13 @@
           j'ai eſſuyé. Ce début excita ma curioſité, &amp; je le pri inſtamment de la ſatisfaire. Volontiers,
           me dit-il, je céde avec plaiſir à votre impatience; c'eſt adoucir ſa douleur que d'en expoſer la
           cauſe, &amp; l'on flatte les malheureux quand on les engage à faire le récit de leur infortune; puis
-          il comença de la ſorte.</p>
-        <p>Hiſtoire du Prieur.</p>
-        <p>La fortune de mon pere a été cauſe de tous nos malheurs; il avoir reçu le jour de parens aiſés,
+          il comença de la ſorte.
+    </p>
+    <p>
+     Hiſtoire du Prieur.
+    </p>
+    <p>
+     La fortune de mon pere a été cauſe de tous nos malheurs; il avoir reçu le jour de parens aiſés,
           bons Laboureurs de pere en fils, &amp; qui demeuroient depuis long-tems dans un Bourg auprès de
           Meulan. Mon grand-pere Cocq de ſon Village, ayant gardé deux ainés pour le labour, deſtina par
           prédilection mon pere ſon cadet à la Prêtriſe. Les payſans croyant attirer le bonheur dans leur
@@ -548,15 +731,21 @@
           s'adreſſa vainement à la ſamille, chacun avoit le mot, &amp; lui ferma impitoyablement la porte en
           le chaſſant avec mépris, &amp; feignant de le méconnoître. Un Laboureur des environs fut le ſeul qui
           lui tendit les bras, &amp; l'aucueillit dans ſon déſaſtre; quelques jours après, de concert avec mon
-          grandpere, il offrit de lui donner de quoi paſſer dans les Iſles.</p>
-        <p>Mon pere accepta l'offre, elle lui parut ſa reſſource unique, il ſe réſolut d'en profiter; la
+          grandpere, il offrit de lui donner de quoi paſſer dans les Iſles.
+    </p>
+    <p>
+     Mon pere accepta l'offre, elle lui parut ſa reſſource unique, il ſe réſolut d'en profiter; la
           ſéverité dont on uſoit, lui fit une ſi grande impreſſion, qu'elle le changea tout à coup; malgré
           toutes les promeſſes de ne rien négliger pour réparer ſes fautes, il ne pût obtenir de, tomber aux
-          genoux de ſon pere; le, bon-homme tint bon, &amp; ſe contenta d'augmenter ſous main la pacotille.</p>
-        <p>Dix ans paſſés ſans recevoir de ſes nouvelles, mon grand-pere ne préſumant pas que ce fils revint
+          genoux de ſon pere; le, bon-homme tint bon, &amp; ſe contenta d'augmenter ſous main la pacotille.
+    </p>
+    <p>
+     Dix ans paſſés ſans recevoir de ſes nouvelles, mon grand-pere ne préſumant pas que ce fils revint
           jamais, établit ſes autres freres en conſéquence; on le mit au rang de ces libertins dont on
-          n'entend plus parler.</p>
-        <p>Pluſieurs années après le bruit ſe, répandit que le Seigneur du Village dont mon grand: pere
+          n'entend plus parler.
+    </p>
+    <p>
+     Pluſieurs années après le bruit ſe, répandit que le Seigneur du Village dont mon grand: pere
           étoit Fermier principal, avoit vendu ſa terre avec toutes ſes dépendances ſans aucune réſerve; le
           contrat de vente avoit été paſſé à Meulan. Mon grand-pere impatient de voir arriver ſon nouveau
           maître, &amp; de renouveller ſes baux dans la crainte d'être traverſé, alloit monter à cheval pour
@@ -574,13 +763,19 @@
           &amp; le fils avec des tranſports qu'on ne ſçauroit exprimer, baiſoit &amp; rebaiſoit les mains de
           ſon pere. La famille qui accourut auſſi-tôt, fut témoin de la plus tendre des reconnoiſſances, &amp;
           partagea leurs plaiſirs &amp; leurs larmes; les Domeſtiques en eurent plus d'attachement &amp; de
-          reſpect pour leur maître.</p>
-        <p>Mon pere vit tous ſes parens du même œil; mon pardon obtenu, leur dit-il, il ne me reſte plus
+          reſpect pour leur maître.
+    </p>
+    <p>
+     Mon pere vit tous ſes parens du même œil; mon pardon obtenu, leur dit-il, il ne me reſte plus
           qu'à faire votre bonheur; c'eſt le premier uſage que je dois faire de mes richeſſes pour mieux
           cimenter ma fortune. Ses biens étoient immenſes, il ſatisfit ſon humeur généreuſe, &amp; donna à
-          chacun de quoi vivre dans une honnête aiſance.</p>
-        <p>Mon pere preſſa ſon fils de ſe marier, vous le dirai-je à ma honte? voilà l'époque de nos malheurs.</p>
-        <p>Mon pere céda d'autant plus volontiers aux inſtances du ſien, qu'il étoit devenu éperdûment
+          chacun de quoi vivre dans une honnête aiſance.
+    </p>
+    <p>
+     Mon pere preſſa ſon fils de ſe marier, vous le dirai-je à ma honte? voilà l'époque de nos malheurs.
+    </p>
+    <p>
+     Mon pere céda d'autant plus volontiers aux inſtances du ſien, qu'il étoit devenu éperdûment
           amoureux de la fille d'un Gentilhomme du voiſinage, alliance ſortable pour ſoutenir mon pere dans
           une Charge dont il s'étoit revêtu, &amp; convenable au Gentilhomme à qui il ne reſtoit qu'une
           carcaſſe de Château; &amp; beaucoup de préſomption de ſa naiſſance. Sa fille élevée dans ſes
@@ -593,8 +788,10 @@
           foibleſſe ou pour acheter la paix, mon pere acquieſça à toutes les fantaiſies de ſa femme; cette
           complaiſance ne la ſatisfit pas, &amp; les nouveaux perſonnages qu'elle introduiſit à ſon gré,
           acheverent de lui rendre mon pere odieux; il devint pour elle un objet de mépris; les marques les
-          plus inſultantes qu'elle lui en donna, le conduiſirent au tombeau.</p>
-        <p>Elle eût l'adreſſe de ſe raccommoder avec lui dans les derniers momens de ſa vie, &amp; ſe rendit
+          plus inſultantes qu'elle lui en donna, le conduiſirent au tombeau.
+    </p>
+    <p>
+     Elle eût l'adreſſe de ſe raccommoder avec lui dans les derniers momens de ſa vie, &amp; ſe rendit
           maîtreſſe abſolue de nos deſtinées. Nous étions quatre enfans de ce mariage mal aſſorti, trois
           garçons &amp; une fille; mon pere nous recommanda une obéiſſance aveugle: mérités par-là, nous
           dit-il, dans ces derniers inſtans; mérités de jouir de la fortune que je vous laiſſe votre mere en
@@ -603,18 +800,26 @@
           vûes. Un mariage dont elle s'étoit flattée comme d'un moyen sûr pour ſe réhabiliter, s'en alla en
           fûmée: elle ſe donna bien des travers à ce ſujet. Celui qui les occaſionna, ſut le premier à la
           tympaniſer, n'ayant pû réuſſir dans toutes ſes prétentions. Il a péri miférablement, je l'ai ſçu
-          depuis; qu'elle ſatisfaction! Hélas, je n'ai pû m'empêcher de le plaindre.</p>
-        <p>Mais, Monſieur, je ne m'apperçois pas qu'en abuſant de votre complaiſance le tems s'écoule, &amp;
+          depuis; qu'elle ſatisfaction! Hélas, je n'ai pû m'empêcher de le plaindre.
+    </p>
+    <p>
+     Mais, Monſieur, je ne m'apperçois pas qu'en abuſant de votre complaiſance le tems s'écoule, &amp;
           nous impatientons peut-être la pétulante, Madame lugon. Allons rejoindre notre Compagnie, vous
           apprendrez à loiſir un enchainement de malheurs, auſquels vous daignez vous intéreſſer par cette
           ſenſibilité naturelle à tous les honnêtes gens. Par politeſſe le Prieur ne me taxa pas de curioſité.
           Je ſouhaitois de ſçavoir la cataſtrophe, mais il fallut ſe rendre à ſes raiſons. Je lui fis
-          promettre de renouer l'entretien à la premiere occaſion.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XI.</head>
-        <p>Querelle de Chiens.</p>
-        <p>Nous regagnions tranquillement l'Hôtellerie, le Prieur &amp; moi, &amp; ne nous attendions pas à
+          promettre de renouer l'entretien à la premiere occaſion.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XI.
+    </head>
+    <p>
+     Querelle de Chiens.
+    </p>
+    <p>
+     Nous regagnions tranquillement l'Hôtellerie, le Prieur &amp; moi, &amp; ne nous attendions pas à
           de nouyelles ſcènes. Un tas de gens aſſemblé paroiſſoit aſſiéger la maiſon. Nous percâmes la ſoule,
           &amp; étant parvenus juſqu'à la porte, à l'aide de nos coudes, dont nous diſtribuâmes des coups
           libéralement à droite &amp; à gauche, nous trouvâmes cette porte gardée par deux Archers, qui nous
@@ -631,8 +836,10 @@
           dans un coin par les ſervantes, tenant un grand Chien par le collier, juroit par intervalle. Trois
           baſſets chargés du ſoin de faire aller le tourne-broche, que je n'aurois pas imaginé être preſque
           les auteurs du déſordre, la queue entre les jambes obſervoient un profond ſilence; nous nous
-          regardions le Prieur &amp; moi, ſans ſçavoir à quoi attribuer ce tapage.</p>
-        <p>Le Juge, juché ſur le Billot de Cuiſine, s'adreſſant à nous d'un ton magiſtral, vos noms &amp;
+          regardions le Prieur &amp; moi, ſans ſçavoir à quoi attribuer ce tapage.
+    </p>
+    <p>
+     Le Juge, juché ſur le Billot de Cuiſine, s'adreſſant à nous d'un ton magiſtral, vos noms &amp;
           qualités, Meſſieurs. Le Prieur voulut s'informer pour quoi. Répondez à la Juſtice, lui dit-on, &amp;
           préciſément. Qui êtes-vous, &amp; comment vous appellez-vous? Le Prieur de Belle-montre répondit mon
           compagnon; au nom du Prieur, le Juge quitte ſon air ſévere, ſe laiſſe couler de ſon ſiége, s'avance
@@ -644,8 +851,10 @@
           ſuffira pour accommoder le tout. Vous ne me remettez pas ſans doute, j'ai pourtant l'honneur de vous
           appartenir, dit-il en hauſſant la voix; je ſuis Nicolas Courtil, le fils de votre grand-couſin
           Pierre Courtil; auſſi-tôt embraſſades réciproques &amp; excuſes du Prieur de ne l'avoir pas d'abord
-          remis.</p>
-        <p>Moi, qui ſçavois mieux que perſonne, dequel bois ſe chauffoient ces ſortes de gens; je commençai
+          remis.
+    </p>
+    <p>
+     Moi, qui ſçavois mieux que perſonne, dequel bois ſe chauffoient ces ſortes de gens; je commençai
           à me raſſurer en nous trouvant en pays de connoiſſance. Mais enfin M. lui dis-je, dequoi s'agitril
           donc? Nous venons M. le Prieur &amp; moi de promener ſous ces ſaules, au bord de l'eau, nous avons
           laiſſé la Maiſon fort tranquille, qui peut avoir occaſionné tout ce déſordre? Vous avez reçu les
@@ -673,8 +882,10 @@
           ſervir qu'à faire un épouventail de cheneviere. Les Chiens s'étoient auſſi plus acharnés à lui
           qu'aux deux autres; mais en récompenſe il avoit caſſé la tête à l'Hôte, C'eſt ce qui rendoit le Juge
           perplexe. L'alliance décida en notre faveur; Nicolas Courtil fort alteré par ſon récit éloquent,
-          demanda du vin; il fut ſervit ſur le champ, &amp; nous bûmes à la nouvelle connoiſſance.</p>
-        <p>Les Archers eurent ordre d'écarter la populace, dont ils payerent la curioſité à coups de
+          demanda du vin; il fut ſervit ſur le champ, &amp; nous bûmes à la nouvelle connoiſſance.
+    </p>
+    <p>
+     Les Archers eurent ordre d'écarter la populace, dont ils payerent la curioſité à coups de
           bourades, pour mieux témoigner leur zéle. Par un eſprit de paix nous réſolûmes, tout bien conſideré,
           de payer les écritures du Greffier, qui n'auroit pas manqué, après notre départ, de revendiquer ſon
           ſalaire de notre Hôte. On fit donner un morceau aux Archers; &amp; nous priâmes à dîner M. le Juge
@@ -686,28 +897,40 @@
           amoncer à M. &amp; Madame Hugon notre accommodement, &amp; lui préſenter le Marchand de Mantes &amp;
           Nicolas Courtil, qui pour un Juge de Village ne manquoit pas de mauvaiſe mine; mais il étoit parent
           du Prieur, &amp; la parentée a ſouvent fait paſſer ſur bien des choſes. D'ailleurs ſon procédé nous
-          prévint en ſa faveur, &amp; nous le vîmes tous d'un très-bon œil.</p>
-        <p>Nous eſſuyâmes une rude veſperie de Madame Hugon, dont il fallut patiemment écouter
+          prévint en ſa faveur, &amp; nous le vîmes tous d'un très-bon œil.
+    </p>
+    <p>
+     Nous eſſuyâmes une rude veſperie de Madame Hugon, dont il fallut patiemment écouter
           les-remontrances. Je jugeai que M. Hugon n'avoit pas voulu ſe mêler dans cette affaire crainte de ſe
-          compromettre.</p>
-        <p>Quelque tems après l'on ſervit; &amp; puis de boire largement. Nicolas Courtil fit les frais de
+          compromettre.
+    </p>
+    <p>
+     Quelque tems après l'on ſervit; &amp; puis de boire largement. Nicolas Courtil fit les frais de
           la converſation. J'admirai, comment cet homme, mangeant beaucoup &amp; buvant de même, pût, ſans
           perdre un coup de dent, ſuffire à toutes nos queſtions; il nous regala de quantité de faits paſſés,
           depuis qu'il étoit en exercice. Nous le laiſſâmes enfin bien conditionné &amp; partîmes après avoir
-          promis de le revoir en paſſant.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XII.</head>
-        <p>Les Batelets.</p>
-        <p>LE Marchand de Mantes devant faire le voyage avec nous, il fallut partager les Chiens: le Prieur,
+          promis de le revoir en paſſant.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XII.
+    </head>
+    <p>
+     Les Batelets.
+    </p>
+    <p>
+     LE Marchand de Mantes devant faire le voyage avec nous, il fallut partager les Chiens: le Prieur,
           M. Hugon, ſon fils, Caniche avec les paquets ſe fourerent dans un Batelet qui alloit de conſerve
           avec le nôtre. Madame Hugon, ſa fille, le petit Guerdin, perroquet, Deſpêches &amp; moi, le grand
           Dogue, ſon Maître &amp; deux bas-Normand dans le nôtre. Nous nous arrangeâmes ſuivant l'uſage,
           couchés comme des harangs pieds entre tête. Malheureuſement pour moi; les pieds des deux bas Normand
           ſerroient ma tête de près: je ne crois pas que l'on puiſſe ſouffrir de ſupplice plus grand que
           celui-là. Je ſerois mort en chemin, je penſe, s'il n'eut plû à ces Meſſieurs de ſe faire deſcendre à
-          Meulan.</p>
-        <p>Je fis entendre aſſez clairement ce que j'avois ſouffert, quand il nous eurent quitté. Ma foi dit
+          Meulan.
+    </p>
+    <p>
+     Je fis entendre aſſez clairement ce que j'avois ſouffert, quand il nous eurent quitté. Ma foi dit
           le Marchand, vous avez bien fait de ne le pas témoigner plûtôt. Ces Meſſieurs avec l'eſprit
           proceſſif que je leur connois, vous euſſent infailliblement traduit en Juſtice. Bon, dis-je, je ſuis
           fâché de ne m'être pas expliqué plutôt; j'aurois donné lieu à une cauſe bien ſinguliere &amp; bien
@@ -747,25 +970,37 @@
           un équipage que Madame de Blemicourt envoye au-devant de vous, répondit la Servante. Un équipage,
           répondit Madame Hugon; vraiment mon mari, cela eſt fort honnête: je ne ſçavois pas que ma niéce eût
           des équipages à ſa diſpoſition. Que l'on ait bien ſoin du Cocher: ma fille, recommandezle bien à
-          votre Maîtreſſe lui &amp; ſes Chevaux.</p>
-        <p>Nous voulions partir de bonne heure. Le Marchand prit congé de nous, nous aſſurant qu'il nous
+          votre Maîtreſſe lui &amp; ſes Chevaux.
+    </p>
+    <p>
+     Nous voulions partir de bonne heure. Le Marchand prit congé de nous, nous aſſurant qu'il nous
           rejoindroit bien-tôt; il étoit de la connoiſſance de Madame de Blemicourt, &amp; ſon Commiſſionaire,
           &amp; s'appelloit Euſtache Babonin, à l'enſeigne du Veau pendu, EpicierMercier, près du Pont de
-          Mantes.</p>
-        <p>Je l'appris par une carte qu'il me gliſſa dans la main, en me diſant à Dieu.</p>
-        <p>Je n'avois pû joindre ma petite Maîtreſſe un ſeul inſtant; nous nous dîmes du coin de l'œuil un
+          Mantes.
+    </p>
+    <p>
+     Je l'appris par une carte qu'il me gliſſa dans la main, en me diſant à Dieu.
+    </p>
+    <p>
+     Je n'avois pû joindre ma petite Maîtreſſe un ſeul inſtant; nous nous dîmes du coin de l'œuil un
           bon ſoir des plus tendres. Je demandai à l'Hôte s'il y avoit loin de Mantes à Blemicourt, une bonne
           lieue, me répondit-il; &amp; tenez, voilà celui qui doit demain vous conduire. N'eſt-ce pas Jean,
           une demie lieue d'ici à Blemicour? oui repartit-il, en moins de deux heures je vous y mene; j'ai
           deux bons Chevaux. D'ailleurs je vous montrerai à la premiere métairie un ſentier qui vous
           racourcira de moitié, ſi vous voulez prendre les devants. Voilà pour m'en faire reſſouvenir, lui
           dis-je, en lui donnant un écu; Jean m'entendit, &amp; m'aſſura que je pouvois conter ſur ſa mémoire.
-          J'allai me mettre au lit l'imagination toute remplie de l'exécution du projet du lendemain.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XIII.</head>
-        <p>Intereſſant pour l'Auteur.</p>
-        <p>Des le grand matin, Madame Hugon n'eût qu'un cri pour l'équipage, elle penſa tomber de ſon haut,
+          J'allai me mettre au lit l'imagination toute remplie de l'exécution du projet du lendemain.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIII.
+    </head>
+    <p>
+     Intereſſant pour l'Auteur.
+    </p>
+    <p>
+     Des le grand matin, Madame Hugon n'eût qu'un cri pour l'équipage, elle penſa tomber de ſon haut,
           quand on lui montra une eſpece de Fourgon rempli de paille. Le Charretier arrangea les paquets tout
           de travers; j'engageai cependant tout le monde à ſe fourer dans la Voiture; nous étions mal à notre
           aiſe faute d'ordre; je l'empêchai pour remplir mes vûes à un petit Village où nous arrêtâmes pour
@@ -793,28 +1028,42 @@
           chaud, le vin l'a ſurpris, dis-je à l'Hôteſſe, que l'on en ait ſoin; le ſommeil reparera tout, voyez
           ce que vous pourrez nous donner; nous attendrons ici que la chaleur foit paſſée, il n'y a pas bien
           loin d'ici à Blemicourt; &amp; c'eſt-là où nous voulons nous rendre, tranquilliſez vous, me repliqua
-          l'Hôteſſe; en partant au déclin du jour, vous y ſerez de reſte.</p>
-        <p>J'ordonai le repas auſſi fin &amp; auſſi délicat que l'on peut l'eſpérer dans une Hôtellerie de
+          l'Hôteſſe; en partant au déclin du jour, vous y ſerez de reſte.
+    </p>
+    <p>
+     J'ordonai le repas auſſi fin &amp; auſſi délicat que l'on peut l'eſpérer dans une Hôtellerie de
           Vlllage. C'étoit un repas de Nôce, dont l'Amour devoit faire les honneurs &amp; nous tenir lieu de
-          parens, amis, témoins, &amp; de toute cette ennuyeuſe ſéquelle que de pareils Feſtins entraînent.</p>
-        <p>En attendant que l'on fût en état de nous ſervir, nous gagnâmes le fond du Jardin, dans l'eſpoir
+          parens, amis, témoins, &amp; de toute cette ennuyeuſe ſéquelle que de pareils Feſtins entraînent.
+    </p>
+    <p>
+     En attendant que l'on fût en état de nous ſervir, nous gagnâmes le fond du Jardin, dans l'eſpoir
           d'y trouver ce que nous cherchions depuis long-tems. Il étoit partagé par pluſieurs treilles, dont
           une partie formoit par intervalle des berceaux fort touffus. L'Hôteſſe me parut phiſionomiſte, point
-          d'incommode néceſſaire ne vint nous interompre de ſa part.</p>
-        <p>Mademoiſelle Hugon, dont toutes les réſolutions étoient priſes me ſuivit ſans héſiter; nous nous
+          d'incommode néceſſaire ne vint nous interompre de ſa part.
+    </p>
+    <p>
+     Mademoiſelle Hugon, dont toutes les réſolutions étoient priſes me ſuivit ſans héſiter; nous nous
           établîmes à l'ombre du berceau le plus éloigné. Je l'avoue, je n'ai jamais connu de fille plus
           pénétrante; elle comprit dès l'inſtant ce que je prétendois lui enſeigner. Après ce qui ſe ſent
-          mieux qu'on ne l'exprime; nous fûmes obligés d'appeller le ſommeil à notre ſecours.</p>
-        <p>L'Hôteſſe vint elle-même nous réveiller, nous nous mîmes joyeuſement à table, &amp; après un
+          mieux qu'on ne l'exprime; nous fûmes obligés d'appeller le ſommeil à notre ſecours.
+    </p>
+    <p>
+     L'Hôteſſe vint elle-même nous réveiller, nous nous mîmes joyeuſement à table, &amp; après un
           repas des plus prompt, où les yeux firent preſque tous les frais de la converſation; il fallut
           partir, l'heure preſſoit, je payai, &amp; promis de revenir pendant mon ſéjour. L'Hôteſſe m'en
           remercia, elle m'a été utile comme on l'aprendra. Le petit Hugon étant retabli, nous nous remîmes en
-          marche.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XIV.</head>
-        <p>Arrivée à Blemicourt.</p>
-        <p>Nous tardâmes peu à gagner Blemicourt le chemin nous ſut bien enſeigné, &amp; rien ne nous
+          marche.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIV.
+    </head>
+    <p>
+     Arrivée à Blemicourt.
+    </p>
+    <p>
+     Nous tardâmes peu à gagner Blemicourt le chemin nous ſut bien enſeigné, &amp; rien ne nous
           portoit à le manquer, Madame Hugon avec ſa Compagnie ne nous ayant pas trouvez au Château, y
           répandit l'allarme. Elle redoubla de moment en moment; tous les Manants du Hameau furent envoyés à
           la quête. L'un d'eux que nous rencontrâmes dans une eſpece d'avenue, ſe doutant avoir trouvé ce
@@ -829,20 +1078,30 @@
           concerté, Madame de Blemicourt vint à notre rencontre ſuivie de toute la Compagnie: vraiment M. me
           dit-elle; vous nous avez fort allarmé. Oh! je ne vais pas mal les ajuſter, dit Madame Hugon: cette
           petite coureuſe-là, en s'adreſſant à ſa fille, je voudrois bien ſçavoir ce que cela a fait toute la
-          journée.</p>
-        <p>Le petit Hugon lui coupa la parole. Oh dame! ma chere mere, ſi vous ſçaviez en vérité ... tiens
+          journée.
+    </p>
+    <p>
+     Le petit Hugon lui coupa la parole. Oh dame! ma chere mere, ſi vous ſçaviez en vérité ... tiens
           fripon, lui repliquat'elle, en lui appliquant deux ſoufflets: cela t'apprendra une autre fois à les
-          ſuivre; pour vous Monſieur, c'eſt bien malhonnête de nous mettre dans des trances pareilles.</p>
-        <p>Mademoiſelle Hugon eut recours aux larmes, &amp; je juſtifiai reſpectueuſement notre retard comme
-          j'en étois convenu.</p>
-        <p>L'on ſe contenta de mes excuſes, M. Hugon même ſe mêla du racommodement, Madame de Blemicourt
+          ſuivre; pour vous Monſieur, c'eſt bien malhonnête de nous mettre dans des trances pareilles.
+    </p>
+    <p>
+     Mademoiſelle Hugon eut recours aux larmes, &amp; je juſtifiai reſpectueuſement notre retard comme
+          j'en étois convenu.
+    </p>
+    <p>
+     L'on ſe contenta de mes excuſes, M. Hugon même ſe mêla du racommodement, Madame de Blemicourt
           nous prit ſous ſa protection, &amp; la paix faite on gagna la Maſure antique &amp; recrepie, dont
           les dedans me parurent aſſez commodes. On n'attendoit que nous pour ſe mettre à table, Madame de
           Blemicourt me plaça à côté d'elle; je fis l'aimable, mes ſaçons ne lui déplurent pas, tout ſe paſſa
-          gayement, &amp; l'eſcapade fut oublié.</p>
-        <p>Les Dames étoient fatiguées, elles ſe retirerent de bonne heure. Le Prieur &amp; moi nous
-          paſſâmes dans le Jardin pour jouir de la promenade au clair de la Lune.</p>
-        <p>Vous êtes un méchant garçon, me dit-il, doit-on inquiéter ſes amis de la ſorte? Je vous ſélicite
+          gayement, &amp; l'eſcapade fut oublié.
+    </p>
+    <p>
+     Les Dames étoient fatiguées, elles ſe retirerent de bonne heure. Le Prieur &amp; moi nous
+          paſſâmes dans le Jardin pour jouir de la promenade au clair de la Lune.
+    </p>
+    <p>
+     Vous êtes un méchant garçon, me dit-il, doit-on inquiéter ſes amis de la ſorte? Je vous ſélicite
           au reſte de la façon dont on a pris la choſe. Ne vous y riſquez pas une autre fois, ou ſçachez bien
           prendre vos meſures. La cauſe du retardement eſt comme je l'ai expoſé, lui repartis-je,
           très-naïvement. Je ſuis diſpoſé à vous croire, je le ſuis trop à être votre ami pour penſer
@@ -851,12 +1110,18 @@
           profitons de la promenade: c'eſt ma folie, &amp; le calme qui régne pendant la nuit me la rend plus
           agréable. A propos, lui dis-je, vous me devez; ſeriez vous d'humeur à vous acquitter? Vous me prenez
           par mon foible, repliqua-t'il, aſſeyons nous ſur ce banc, je vais achever de vous conter mes
-          malheurs &amp; mes folies; puiſſiez vous tirer quelque profit de l'exemple.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XV.</head>
-        <p>Suite de l'Hiſtoire du Prieur.</p>
-        <p>Ma mere, comme je vous ai dit, s'étoit donné bien des ridicules, elle ſe ſervit du manteau de la
+          malheurs &amp; mes folies; puiſſiez vous tirer quelque profit de l'exemple.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XV.
+    </head>
+    <p>
+     Suite de l'Hiſtoire du Prieur.
+    </p>
+    <p>
+     Ma mere, comme je vous ai dit, s'étoit donné bien des ridicules, elle ſe ſervit du manteau de la
           dévotion pour en cacher les traces. Que cette dévotion mal-entendue nous a cauſé de maux; elle donna
           l'entrée de la maiſon à des gens qui acheverent de bouleverſer notre fortune. Pour plaire à ma mere,
           ayant connu ſon foible, ils l'a flatterent, &amp; mirent tout en uſage pour ſatisfaire ſa vanité,
@@ -872,8 +1137,10 @@
           Maiſon où l'on m'avoit donné accès. Je ne l'eû pas plutôt vû, que je l'aimai à la folie: c'étoit ma
           premiere inclination. Je dis adieu à toutes les places dont on ne ceſſoit de m'entretenir. Que les
           premiéres impreſſions ſont dangereuſes! Je ne ſongeai qu'à trouver les moyens de détruire les
-          projets que l'on faiſoit pour mon avancement.</p>
-        <p>Mes aſſiduités me firent parvenir au point de tirer un aveu que je ne déplaiſois pas. Ce petit
+          projets que l'on faiſoit pour mon avancement.
+    </p>
+    <p>
+     Mes aſſiduités me firent parvenir au point de tirer un aveu que je ne déplaiſois pas. Ce petit
           Colet étoit un obſtacle, il paroiſſoit inſurmontable; je formai un deſſein que je ne pû mettre à
           exécution. L'on veilloit ſur mes démarches &amp; dans la crainte de me trouver trop engagé, quand on
           voudroit diſpoſer de moi, l'on m'anonça que je ne devois plus chercher à la voir. La tante d'Hélene
@@ -891,26 +1158,36 @@
           voilà l'abime où je l'aurois précipitée! Le crédit de leurs conoiſſances n'auroit pas manqué de me
           tirer d'affaire, &amp; ma Maîtreſſe eût été deshonorée; un heureux incident rompit les meſures que
           nous avions priſes. Je l'appelle ainſi, puiſqu'il m'épargna des chagrins que j'euſſe enviſagé comme
-          plus grands encore, que ceux que la perte d'Hélene m'eût cauſé.</p>
-        <p>Il faut d'abord que vous ſçachiez que ma mere avoit ſacrifié la meilleure partie de ſon bien,
+          plus grands encore, que ceux que la perte d'Hélene m'eût cauſé.
+    </p>
+    <p>
+     Il faut d'abord que vous ſçachiez que ma mere avoit ſacrifié la meilleure partie de ſon bien,
           pour faire entrer ma ſœur dans une famille dont elle a été la riſée &amp; le jouet tant qu'elle a
           vécu. Mon frere aîné eut un Régiment, il fit cent ſottiſes: fruit de la mauvaiſe éducation qu'il
           avoit reçû. On les repara à force d'argent; grande reſſource des ſots quand ils ſont riches. Il
           fallut néanmoins vendre le Régiment. On s'aviſa d'une Charge à la Cour; il y a de certains Sujets à
           qui l'agrément d'y être coûte bien chere. Je regarde ce Pays-là comme un Couvent, où certaines
-          perſonnes payent beaucoup, afin d'y pouvoir recevoir gratis pour ainſi dire les gens de talent.</p>
-        <p>Epuiſée par tant de dépenſes, ma mere voulut s'emparer de la légitime de mon frere &amp; de la
+          perſonnes payent beaucoup, afin d'y pouvoir recevoir gratis pour ainſi dire les gens de talent.
+    </p>
+    <p>
+     Epuiſée par tant de dépenſes, ma mere voulut s'emparer de la légitime de mon frere &amp; de la
           miene. Selon les premieres diſpoſitions de mon pere, cette légitime étoit conſidérable: pour nous en
           priver &amp; nous réduire à la penſion la plus modique, elle abuſa du pouvoir qui ne lui avoit été
-          confié qu'en cas de déſobéiſſance, qu'elle interprêta à ſon avantage.</p>
-        <p>On nous dit poſitivement qu'il falloit nous préparer à prendre les Ordres, malheureuſement nous
+          confié qu'en cas de déſobéiſſance, qu'elle interprêta à ſon avantage.
+    </p>
+    <p>
+     On nous dit poſitivement qu'il falloit nous préparer à prendre les Ordres, malheureuſement nous
           avions entrevû les charmes ſi ſéduiſant de ce monde pour qui n'en connoît pas le tuf. Nous
           réſiſtâmes: conſeils amicals, dévotes inſinuations, repréſentations des plus graves, ménaces; tout
           fut inutile, notre opiniâtreté en devenoit plus grande; on la traita de revolte, &amp; un ordre
-          ſupérieur que l'on ſurprit, nous renferma à titre de libertinage dans une Maiſon de force.</p>
-        <p>Nous voilà donc deshonorés, deshérités &amp; privés de la liberté, pour ſatisfaire l'orgueil de
-          la plus injuſte de toutes les femmes.</p>
-        <p>Pour ravoir cette liberté qui nous tenoit tant à cœur, nous réſolûmes en étourdis, mon frere
+          ſupérieur que l'on ſurprit, nous renferma à titre de libertinage dans une Maiſon de force.
+    </p>
+    <p>
+     Nous voilà donc deshonorés, deshérités &amp; privés de la liberté, pour ſatisfaire l'orgueil de
+          la plus injuſte de toutes les femmes.
+    </p>
+    <p>
+     Pour ravoir cette liberté qui nous tenoit tant à cœur, nous réſolûmes en étourdis, mon frere
           &amp; moi d'eſcalader les murs du jardin de notre Priſon, où l'on nous permettoit quelquefois de
           nous promener ſur le ſoir. Mon frere fut plus heureux que moi, il grimpa à l'aide d'une paliſſade,
           &amp; ſe laiſſa gliſſer ſans accident de l'autre côté. Je montai après lui, une barre qui rompit
@@ -952,8 +1229,10 @@
           la peur qui l'avoit fait éloigner de Paris, le conduiſit ſur le chemin de Lyon, dont il prit la
           route ſans la moindre reſſource, après avoir vendu le peu de hardes qui le couvroit, il tomba dans
           la derniere miſere. Il entra dans Lyon, dans un équipage affreux, la faim chaſſa ſa honte. Il offrit
-          de rendre les ſervices les plus vils: que ne fait-on pas quand il faut du pain?</p>
-        <p>Un Marchand à qui ſa phiſionomie revint, le retira chez lui, &amp; l'ayant ſait habiller le prit
+          de rendre les ſervices les plus vils: que ne fait-on pas quand il faut du pain?
+    </p>
+    <p>
+     Un Marchand à qui ſa phiſionomie revint, le retira chez lui, &amp; l'ayant ſait habiller le prit
           pour ſon Domeſtique. Tant de douceurs ineſperées lui firent bien-tôt perdre de vûe la ſituation dont
           il ſortoit. La fille de la Maiſon étoit fort aimable. Mon frere conçut de l'amour pour elle, les
           ſoins qu'un Domeſtique peut ſe permettre, des attentions &amp; du reſpect, furent les premiéres
@@ -964,8 +1243,10 @@
           vient de mourir, mon frere m'a avoué qu'il treſſaillit de joye. La réflexion en modéra l'excès,
           &amp; me faiſant ſentir la faute que je commettois, me dit-il, il eut beau me l'aſſurer, je préſumai
           facilement que le premier mouvement avoit prévalu. Je lui en repréſentai toute l'horreur, il en
-          convint avec moi, &amp; ne chercha plus à s'excuſer.</p>
-        <p>Mon frere ſe fit connoître au Marchand pour ce qu'il étoit; beaucoup d'excuſes du Marchand en ſe
+          convint avec moi, &amp; ne chercha plus à s'excuſer.
+    </p>
+    <p>
+     Mon frere ſe fit connoître au Marchand pour ce qu'il étoit; beaucoup d'excuſes du Marchand en ſe
           retranchant ſur ſon ignorance. Reproches obligeants au ſujet du peu de confiance, offre de ſervice
           réaliſés à l'inſtant même; &amp; ſans beaucoup d'examen, le Marchand reçut ſa demande pour ſa fille,
           &amp; le traita comme ſon gendre; à mon arrivée je preſſai la concluſion, &amp; après les avoir mis
@@ -978,16 +1259,23 @@
           ſouhaite que vous puiſſiez toujours regarder pareille choſe comme un Roman. Mille graces de
           l'attention que vous avez bien voulu prêter à mes diſcours. Nous nous ſouhaitâmes un grand bon ſoir,
           &amp; chacun de nous gagna ſa chambre.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XVI.</head>
-        <p>Chaſſe.</p>
-        <p>Je comptois dormir la grace matinée: je comptois mal, au levé de l'Aurore on fit un bruit du
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XVI.
+    </head>
+    <p>
+     Chaſſe.
+    </p>
+    <p>
+     Je comptois dormir la grace matinée: je comptois mal, au levé de l'Aurore on fit un bruit du
           diable à ma porte, je fus contraint de me lever pour voir ce que l'on vouloit de moi. Qui m'a donné
           des pareſſeux comme cela, s'écrioit-on, en frappant de plus belle: alerte jeuneſſe, tout le monde
-          eſt aux champs. Eſt-ce que l'on dort à la campagne? Ah vraiment! vous n'y êtes pas.</p>
-        <p>Je reconnus, en ouvrant, M. Babouin notre Marchand de Mantes, qui nous avoit quitté la ſurveille.
+          eſt aux champs. Eſt-ce que l'on dort à la campagne? Ah vraiment! vous n'y êtes pas.
+    </p>
+    <p>
+     Je reconnus, en ouvrant, M. Babouin notre Marchand de Mantes, qui nous avoit quitté la ſurveille.
           Je an manque pas à ma parole, me dit-il en entrant, &amp; en me ſautant au coû; je ſuis ponctuel à
           remplir ma promeſſe. Eh dame, me voilà! C'eſt bien moi. Allons habillez-vous, nous irons chercher du
           gibier; je viens de le dire à ces Dames, que j'ai été embraſſer dans leur lit. Sçavez-vous que cette
@@ -1001,8 +1289,10 @@
           plante. Je m'habillai promptement &amp; nous deſcendîmes à la cuiſine pour joindre ceux qui nous
           attendoient en déjeûnant. Je trouvai le Prieur &amp; trois grands Meſſieurs en habits de chaſſe. On
           me les préſenta comme voiſins, amis du Logis; Gentilhommes de création, &amp; Chaſſeurs déterminés
-          de proſeſſion. La connoiſſance ſe fit avec un reſte de Pâté &amp; quelques bouteilles de vin.</p>
-        <p>M. Hugon voulut être de la partie, on lui chercha des armes. Oh! point de fuſil, dit-il, il y a
+          de proſeſſion. La connoiſſance ſe fit avec un reſte de Pâté &amp; quelques bouteilles de vin.
+    </p>
+    <p>
+     M. Hugon voulut être de la partie, on lui chercha des armes. Oh! point de fuſil, dit-il, il y a
           ſi long-tems que je n'ai jamais manié de cà; car nous autres gens de Paris, nous n'allons à la
           chaſſe qu'à la Vallée. Si fait parbleu, je me trompe; on m'a mené une fois à l'affut au Lapin dans
           le Parc de Vincennes. Je fus ma foi deux grandes heures couché à plat-ventre par un brouillart des
@@ -1010,8 +1300,10 @@
           étions jeunes dans ce tems-là; mais cela ne me fait pas peur, je veux être des vôtres; &amp; puis
           j'irai bien à la Chaſſe ſans fuſil, cela me promenera d'autant: notre chaſſe fut des plus
           malheureuſes. Ces tireurs que l'on m'avoit tant prôné épouvanterent quelques Liévres qui nous
-          montrerent le derriere.</p>
-        <p>A trois quarts de lieue de la Maiſon une pluye affreuſe nous ſurprit, elle fut paſſablement
+          montrerent le derriere.
+    </p>
+    <p>
+     A trois quarts de lieue de la Maiſon une pluye affreuſe nous ſurprit, elle fut paſſablement
           longue: bien nous en prit de nous réfugier dans une Cenſe. Pour le coup j'y laiſſai ma liberté, la
           niéce du Metayer me tourna la cervelle dans le moment: c'eſt l'inſtant le plus critique de ma vie;
           &amp; ſans un évenement favorable, j'aurois payé cher ma folie. Nous demandâmes des œufs frais,
@@ -1020,14 +1312,18 @@
           impoſa: je fus la duppe, de l'air innocent qu'affectoit ſi parfaitement la jeune Fermiere, je la
           pris bonnement pour la fille la plus ſimple &amp; la plus ingenue; &amp; commençant à aimer
           véritablement, je ſentis des remords qui modererent ma vivacité; ainſi je réſolus de traiter
-          ſérieuſement la choſe.</p>
-        <p>C'étoit une de ces petites phiſionomies chiffonnées qui n'en ſont que plus extravagantes. Ses
+          ſérieuſement la choſe.
+    </p>
+    <p>
+     C'étoit une de ces petites phiſionomies chiffonnées qui n'en ſont que plus extravagantes. Ses
           cheveux étoient noués en touffe ſur ſa tête; un chapeau de paille mis négligeamment de côté &amp;
           rataché par-deſſous le menton; un petit cottillon blanc, une juſte de ſoye, une colerette qui au
           moindre mouvement laiſſoit échapper une gorge naiſſante. L'air naif, deux beaux yeux, tein frais,
           &amp; de ces propos dont on ne ſent le prix que quand on aime. Tout contribua à ma défaite, &amp; je
-          me crûs aſſervi pour jamais.</p>
-        <p>L'orage ceſſé, nous reprîmes le chemin du Château. Je regardai tendrement Colette, qui demeura
+          me crûs aſſervi pour jamais.
+    </p>
+    <p>
+     L'orage ceſſé, nous reprîmes le chemin du Château. Je regardai tendrement Colette, qui demeura
           ſur ſa por-te tant quelle pût nous appercevoir; j'augurai bien de cette façon, &amp; me promis de
           tourner ſouvent mes pas de ce côté. Comme nous étions prêt de rentrer, M. Hugon nous dit qu'il
           voyoit une compagnie de Perdrix dans un champ de ſaraſin: chacun ouvroit les yeux &amp; ne voyoit
@@ -1038,13 +1334,17 @@
           mais ils n'iront pas loin. Nous tous mîmes à entourer la piéce de ſaraſin le fuſil bandé; mais en
           nous rapprochant les uns des autres, qu'elle fut notre ſupriſe de voir des Barbotteux qui rendoient
           les derniers ſoupirs. On félicita M. le Procureur ſur la chaſſe, &amp; nous le chargeâmes du Gibier
-          en l'acompagnant en triomphe.</p>
-        <p>Un Payſan à qui les Canards appartenoient, vint tout courant en demander le payement. Il fallut
+          en l'acompagnant en triomphe.
+    </p>
+    <p>
+     Un Payſan à qui les Canards appartenoient, vint tout courant en demander le payement. Il fallut
           débourſer, &amp; nous les mîmes au plus haut prix, au grand regret de notre nouveau Chaſſeur, qui
           jura de ne tirer de ſa vie. Nos Dames étoient levées &amp; venoient en ſe promenant au-devant de
           nous. Je leur fis un détail très-circonſtancié des hauts ſaits de M. Hugon; mon récit lui attira de
-          nouveaux complimens qui redoublerent ſa mauvaiſe humeur.</p>
-        <p>Le Colombier &amp; la baſſe-Cour ſuppléerent au Gibier, ſans oublier les Canards que l'on mit à
+          nouveaux complimens qui redoublerent ſa mauvaiſe humeur.
+    </p>
+    <p>
+     Le Colombier &amp; la baſſe-Cour ſuppléerent au Gibier, ſans oublier les Canards que l'on mit à
           toute ſauſſe; à la Campagne l'apetit aſſaiſonne tous les mets &amp; les fait trouver excellens. Nos
           Chaſſeurs en fourniſſoient la preuve: qu'ils étoient expéditifs! ils me ravirent en extaſe. De la
           table qui dura long-tems, l'on paſſa à de petits jeux. On donna des gages, on impoſa des pénitences;
@@ -1057,12 +1357,18 @@
           ſuffiſant un vieux brouillon de la poche de ſon ſurtout. C'eſt du nouveau, nous dit-il, &amp; vous
           conviendrez, j'oſe le croire, que vous n'avez jamais rien entendu de pareil. Il y a environ
           quatre-vingt ans que cette hiſtoire parut avec un manteau gotique; mais je l'ai r'habillé de maniere
-          à la faire paſſer pour neuve.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XVII.</head>
-        <p>Converſation.</p>
-        <p>Ayant déroulé ſon papier, notre homme tira d'un deſſus d'Almanach qui lui ſervoit d'étui, une
+          à la faire paſſer pour neuve.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XVII.
+    </head>
+    <p>
+     Converſation.
+    </p>
+    <p>
+     Ayant déroulé ſon papier, notre homme tira d'un deſſus d'Almanach qui lui ſervoit d'étui, une
           vieille paire de lunettes qu'il eſſuya à diverſes repriſes. Après les avoir bien aſſurées,
           commençons par le titre, nous ditil. Oh oui! le titre, repartit Madame Hugon: c'eſt fort bien. C'eſt
           ce qui fait toujours juger d'un ouvrage. Le Parfait Ecuyer mes Dames, voilà le titre, pourſuivit
@@ -1075,13 +1381,17 @@
           ſimple &amp; dépouillé d'ornemen ſuperflus, n'eſt pas ce que l'on recherche le plus. Ma foi je ne
           ſçais ce que vous voulez me dire, repliqua M. Hugon; mais pour le Livre dont je vous parle, Il
           traite à ce que l'on m'a dit, de la ſaçon dont on monte à cheval, dont on dreſſe les Chevaux: que
-          ſçais-je? enfin on y parle de tout cela.</p>
-        <p>Eh non! répondit M. Deboiſcaré, c'étoit le nom du perſonage, eh non, Monſieur! c'eſt une
+          ſçais-je? enfin on y parle de tout cela.
+    </p>
+    <p>
+     Eh non! répondit M. Deboiſcaré, c'étoit le nom du perſonage, eh non, Monſieur! c'eſt une
           métaphore. Une métaphore; je ne vous entens point, reprit M. Hugon. Un titre allégorique dit notre
           Auteur. Auſſi peu l'un que l'autre, repartit le Procureur; ces termes-là me ſont inconnus &amp; nous
           n'en employons jamais de pareils, je n'ai pas lû au reſte tous les Procès-verbaux, ils s'y
-          pourroient bien trouver, &amp; j'en ai vû d'auſſi ſinguliers.</p>
-        <p>Trêve à vos diſgreſſions, dit Madame de Blemicourt. Diſgreſſions, Eh? que diable eſt cela,
+          pourroient bien trouver, &amp; j'en ai vû d'auſſi ſinguliers.
+    </p>
+    <p>
+     Trêve à vos diſgreſſions, dit Madame de Blemicourt. Diſgreſſions, Eh? que diable eſt cela,
           répondit M. Hugon. Auſſi mon mari vous parlez comme un Avocat, dit Madame Hugon, vous ne finiſſez
           point. Ne vous ai-je pas répété cent fois, que rien n'étoit ſi ennuyeux que de vous entendre
           bavarder à tout propos. Vous avez raiſon ma femme, repartit M. Hugon: voila qui eſt fini. Je ne dis
@@ -1091,35 +1401,51 @@
           repliqua Madame Hugon, nous n'avons qu'à nous bien tenir. Eh! paix donc ma femme, lui ditil, paix,
           reſpect à la Compagnie &amp; attention à M. Vous allez entendre comme il va parler de Chevaux: ſelon
           ce que l'on m'a dit, cela doit être fort amuſant, &amp; je m'aprête à bien rire; commencez Monſieur,
-          commencez: je ne vous interomprai pas.</p>
-        <p>Je commence dit Boiſcaré; mais c'eſt à condition que l'on me laiſſera continuer tout d'une
+          commencez: je ne vous interomprai pas.
+    </p>
+    <p>
+     Je commence dit Boiſcaré; mais c'eſt à condition que l'on me laiſſera continuer tout d'une
           haleine. Ah! mon Dieu, lui dit Madame Hugon; c'eſt pour vous étouffer, ne vous y jouez pas: eh non!
           reprit Boiſcaré, qui commençoit à ſe fâcher, c'eſt une métaphore. Auſſi, dit Madame Hugon, que
           n'avertiſſezvous, on ne s'attend point à cela; tout d'une haleine, une métaphore. Au moins, vous
           remarquerez, Meſſieurs, nous dit M. Hugon; que ce n'eſt pas moi qui parle Corbleu, dit Boiſcaré, qui
           que ce ſoit je quitte la partie; tous de concert obſerverent un profond ſilence; &amp; il commença
-          comme on peut le voir dans le Chapitre ſuivant.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XVIII.</head>
-        <p>Le Parfait Ecuyer.</p>
-        <p>Si le déſir inſatiable d'entaſſer connoiſſance ſur connoiſſance a été funeſte à ceux qui s'en
+          comme on peut le voir dans le Chapitre ſuivant.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XVIII.
+    </head>
+    <p>
+     Le Parfait Ecuyer.
+    </p>
+    <p>
+     Si le déſir inſatiable d'entaſſer connoiſſance ſur connoiſſance a été funeſte à ceux qui s'en
           ſont laiſſé ſéduire, la volupté inépuiſable dans ſes recherches n'a pas cauſé moins de maux à ſes
-          ſectateurs.</p>
-        <p>Prêtez, je vous prie une grande attention au commencement: car il renferme toute la morale dont
+          ſectateurs.
+    </p>
+    <p>
+     Prêtez, je vous prie une grande attention au commencement: car il renferme toute la morale dont
           on peut profiter en écoutant cette Hiſtoire. C'eſtàdire, que la morale eſt au commencement, dit
           Madame Hugon, que Boiſcaré pétrifia d'un coup d'œil; ces paſſions ſi néceſſaires pour nous rendre la
           vie agréable, deviennent les inſtrumens de notre malheur, quand nous ne ſçavons pas ſagement leur
           impoſer un frein, &amp; les empêcher de paſſer le but qu'il nous ſuffit d'atteindre pour jouir
           autant qu'il eſt en notre pouvoir d'une félicité parfaite. Cette phraſe eſt un peu longue, mais elle
-          renferme un très-grand ſens.</p>
-        <p>Ce ſeroit l'affoiblir, repartit judicieuſement Madame de Blemicourt, que d'ôter un de ſes
+          renferme un très-grand ſens.
+    </p>
+    <p>
+     Ce ſeroit l'affoiblir, repartit judicieuſement Madame de Blemicourt, que d'ôter un de ſes
           membres. Un de ſes membres, dit Madame Hugon avec vivacité, je ne ſçavois pas que les phraſes
           euſſent des membres, je m'imaginois. Eh! c'eſt par métaphore, reprit Boiſcaré. Foin de la métaphore
-          je m'y trompe toujours, dit la Hugon. Boiſcaré continuant.</p>
-        <p>De toutes les victimes de la curioſité, je n'en ai pas trouvé qui mérita mieux de l'être qu'un
-          jeune Médecin, dont je vais vous raconter l'aventure.</p>
-        <p>Après avoir mérité d'endoſſer la robe du vénérable Rabelais, il vint faire montre de ſon ſçavoir
+          je m'y trompe toujours, dit la Hugon. Boiſcaré continuant.
+    </p>
+    <p>
+     De toutes les victimes de la curioſité, je n'en ai pas trouvé qui mérita mieux de l'être qu'un
+          jeune Médecin, dont je vais vous raconter l'aventure.
+    </p>
+    <p>
+     Après avoir mérité d'endoſſer la robe du vénérable Rabelais, il vint faire montre de ſon ſçavoir
           dans la bonne Ville de Paris. Bien-tôt on n'entendit parler que de ſes cures merveilleuſes. Chacun
           couroit en foule chercher ſa guériſon auprès de lui; &amp; ſa réputation ſurpaſſa de beaucoup celle
           de ſes devanciers, la nouveauté autant que ſon mérite perſonnel lui procura ce concours prodigieux
@@ -1140,29 +1466,41 @@
           ils ne ſont pas rendus avec la même vivacité; à peine notre jeune Médecin étoit-il revenu de
           l'yvreſſe de ſes ſens, qu'il ſe trouvoit entre les bras d'une ſtatue froide &amp; inſenſible. Le
           marbre le plus dur vaincu par des cauſes auſſi preſſantes, ſe ſeroit plutôt animé que la jeune
-          Laure.</p>
-        <p>Mais dit Madame Hugon je n'entens pas cela. Je penſe que, ah! M. je vous demande excuſe: Boiſcaré
+          Laure.
+    </p>
+    <p>
+     Mais dit Madame Hugon je n'entens pas cela. Je penſe que, ah! M. je vous demande excuſe: Boiſcaré
           continuant; immobile &amp; toute honteuſe elle n'oſoit dire une ſeule parole, &amp; la pudeur dans
           l'inſtant même du plus beau déſordre ranimoit l'incarnat de ſes joues, &amp; lui fermoit les
           paupieres. Notre Docteur chagrin d'un plaiſir imparfait, en témoignoit ſa mauvaiſe humeur à ſa jeune
           épouſe; ainſi l'homme au ſein du bonheur ſe plaint encore de ſa deſtinée: quel mari n'eut pas envié
           la ſituation de celui-ci! Quel bien, le plus avare n'eût-il pas donné pour en jouir; tant la trop
-          grande ſenſibilité de leur épouſe leur est à charge.</p>
-        <p>La mauvaiſe étoile du Médecin le fit paſſer des plaintes aux reproches, &amp; aux reproches les
+          grande ſenſibilité de leur épouſe leur est à charge.
+    </p>
+    <p>
+     La mauvaiſe étoile du Médecin le fit paſſer des plaintes aux reproches, &amp; aux reproches les
           plus durs, auſſi déraiſonnables qu'ils étoient déplacés. Laure avoit recours aux pleurs: ſon époux
           attendri &amp; ranimé par ſes larmes, cherchoit envain à rendre Laure plus ſenſible: nouveau ſujet
-          de mauvaiſe humeur qui terminoit la ſcene la plus tendre.</p>
-        <p>Eh! reveillez-vous donc mon mari, dit Madame Hugon, en le pouſſant, il ſemble que vous...
+          de mauvaiſe humeur qui terminoit la ſcene la plus tendre.
+    </p>
+    <p>
+     Eh! reveillez-vous donc mon mari, dit Madame Hugon, en le pouſſant, il ſemble que vous...
           qu'eſt-ce qu'il y a, dit M. Hugon en ſe frottant les yeux? Ah! ma foi pardon Monſieur, j'écoutois
           avec tant d'attention, que cela ma un peu aſſoupi; mais cela eſt bien beau, il étoit donc queſtion
           d'une ſtatue qui étoit animée ſans l'être: c'eſt comme qui diroit le Fluteur automate. Voyez ſi je
           dors, n'eſt-ce pas que j'y ſuis: c'eſt trop fort, dit Boiſcaré, je n'y puis plus tenir: heureuſement
-          l'arrivée de nouveaux perſonnages d'empêcha d'éclater.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XIX.</head>
-        <p>Ouelles étoient les perſonnes anoncées</p>
-        <p>Eh! voilà ma belle-ſœur &amp; mon frere qui viennent à nous, ſi je ne me trompe, dit le Prieur;
+          l'arrivée de nouveaux perſonnages d'empêcha d'éclater.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XIX.
+    </head>
+    <p>
+     Ouelles étoient les perſonnes anoncées
+    </p>
+    <p>
+     Eh! voilà ma belle-ſœur &amp; mon frere qui viennent à nous, ſi je ne me trompe, dit le Prieur;
           mais je ne remets pas bien le Monſieur qui les accompagne; je crois cependant le connoître. Ils
           étoient à vingt pas de nous: le Prieur courut à ſa belle-ſœur &amp; l'embraſſa nous profitâmes de
           l'exemple, &amp; Madame Hugon de l'occaſion pour donner &amp; recevoir de ces gros baiſers,
@@ -1201,24 +1539,36 @@
           Prieur, fit beaucoup la guerre au Baron qui ſe déſendoit avec tant d'eſprit que Madame de Blemicourt
           en fut enchantée. Je m'apperçûs qu'il lui revenoit beaucoup. La Dame étoit prompte à s'enflâmer, le
           Baron s'en eſt amuſé quelque tems &amp; l'a abandonnée dans le moment le plus critique. La
-          concluſion du Roman devoitelle me regarder.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XX.</head>
-        <p>Suite du Parfait Ecuyer.</p>
-        <p>Monſieur de Boiſcaré par ſon attention à geſticuler avec ſon manuſcrit, nous fit aſſez connoître
+          concluſion du Roman devoitelle me regarder.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XX.
+    </head>
+    <p>
+     Suite du Parfait Ecuyer.
+    </p>
+    <p>
+     Monſieur de Boiſcaré par ſon attention à geſticuler avec ſon manuſcrit, nous fit aſſez connoître
           qu'il ne vouloit point ſe relâcher des droits que notre ſotte curioſité lui avoit donné ſur nous,
           pour nous en débarraſſer, je fus le premier à l'inviter à continuer ſa lecture. M. &amp; Madame
           Hugon s'imterrompant à l'envie l'un de l'autre, chercherent envain à mettre les nouveaux venus au
           fait de ce que l'on leur avoit déja lû. Le Baron rit beaucoup de leur galimathias, &amp; engagea
           Boiſcaré à recommencer. Il le fit, &amp; Boiſcaré donnoit carriere à ſon imagination libertine, la
           réflexion m'en fait ſupprimer la peinture; il ſuffit de ſçavoir que l'on lui prodigua des éloges
-          qu'il ne dut qu'à l'uſage établi de gâter les Auteurs par ignorance ou par malice.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXI.</head>
-        <p>Ce que l'on verra.</p>
-        <p>JE n'avois point oublié la petite Colette, il me falloit un prétexte pour autoriſer mes
+          qu'il ne dut qu'à l'uſage établi de gâter les Auteurs par ignorance ou par malice.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXI.
+    </head>
+    <p>
+     Ce que l'on verra.
+    </p>
+    <p>
+     JE n'avois point oublié la petite Colette, il me falloit un prétexte pour autoriſer mes
           abſcences, je prévoyois qu'elles ſeroient fréquentes. Je m'érigeai en Chaſſeur; &amp; afin de ne pas
           manquer de Gibier, je courus chez l'Hôteſſe où j'avois célebré mes Nôces clandeſtines avec la petite
           Hugon, pour concerter avec elle comment je pouvois ſaire pour m'en procurer. Quel bon vent vous
@@ -1232,8 +1582,10 @@
           ſi vous en voulez dès aujourd'hui vous n'en manquerez pas. Bon, lui dis-je, il eſt tout au plus cinq
           heures, &amp; je vais battre le buiſſon juſqu'à dix. Eh oui, battre le buiſſon: adieu le beau
           Monſieur: du vin frais au retour, &amp; voilà pour le déjeûner, lui dis-je, en lui jettant de
-          l'argent. Mais voyez un peu quelles façons: allez toujours &amp; comptez ſur moi.</p>
-        <p>Je gagnai la Ferme où j'eſperois trouver Colette. En effet, je la rencontrai à deux pas; où
+          l'argent. Mais voyez un peu quelles façons: allez toujours &amp; comptez ſur moi.
+    </p>
+    <p>
+     Je gagnai la Ferme où j'eſperois trouver Colette. En effet, je la rencontrai à deux pas; où
           allez-vous belle Collette, lui dis-je en l'abordant? Porter les ordres de mon oncle à ces ouvriers
           qui ſont là-bas vers ce taillis. Me ſeroit-il permis de vous accompagner? Ohl Monſieur, me
           répondit-elle, la candeur peinte ſur le viſage, que diroit-on devoir un Monſieur acompagner comme
@@ -1269,8 +1621,10 @@
           bien, bien, il ne tiendra pas à moi qu'elle ne ſoit bien-tôt contente. J'en veux parler, &amp; dès
           aujourd'hui, qu'en dites-vous. Ma foi je vous le conſeil, lui dis-je: quitte à être refuſé,
           repliqua-t'il; qui ne demande rien n'a rien: en tout cas je n'en mourrai point. Vous avez raiſon,
-          lui dis-je; mais je ſuis chargé, avançons.</p>
-        <p>Ah! vraiment, je n'y prenois pas garde, me répondit Babouin; diable, votre carnaciere eſt bien
+          lui dis-je; mais je ſuis chargé, avançons.
+    </p>
+    <p>
+     Ah! vraiment, je n'y prenois pas garde, me répondit Babouin; diable, votre carnaciere eſt bien
           pleine: comme vous y allez, il n'y a qu'à vous laiſſer faire. Dame excuſez, quand on a l'amour en
           tête, on ne croit que cela; qui auroit dit cela de moi, j'ai pourtant quarante-cinq bonnes années
           ſur la tête. Je ne l'aurois pas crû, lui dis-je, à vous voir le tein ſi frais &amp; ſi fleuri. Sans
@@ -1282,15 +1636,23 @@
           bagatelle: vous avez fort bien fait, lui dis-je, car la bagatelle nous mene bien loin; c'eſt ce que
           m'a toujours dit mon oncle le Chanoine, repliqua Babouin. La bagatelle l'avoit rendu ſi vieux lui;
           qu'à cinquante ans il en paroiſſoit quatrevingtdix, voyez vous. Que cette bagatelle change bien les
-          gens.</p>
-        <p>Mademoiſelle Hugon avoit annoncé mes ſuccès; l'on vint au-devant pourm'en féliciter. Ma foi c'eſt
+          gens.
+    </p>
+    <p>
+     Mademoiſelle Hugon avoit annoncé mes ſuccès; l'on vint au-devant pourm'en féliciter. Ma foi c'eſt
           à faire à vous, me dit M. Hugon. Oh! pour aujourd'hui nous ne mangerons pas de Canards, lui
-          répondis-je. Ne me parlez plus de ces vilains Canards, repliquat'il, je les ai encore ſur le cœur.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXII.</head>
-        <p>Arrangement.</p>
-        <p>Je partageai mon tems de façon, que je donnois les premiers momens du jour à Colette, le reſte de
+          répondis-je. Ne me parlez plus de ces vilains Canards, repliquat'il, je les ai encore ſur le cœur.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXII.
+    </head>
+    <p>
+     Arrangement.
+    </p>
+    <p>
+     Je partageai mon tems de façon, que je donnois les premiers momens du jour à Colette, le reſte de
           la matinée à la petite Hugon, &amp; l'aprèsdîné aux amuſemens de la Société: je devenois plus
           amoureux de la petite Fermiere; elle ne manquoit pas de m'attendre, tous les matins elle paroiſſoit
           me voir avec un nouveau plaiſir; mais à peine étions nous enſemble quelques inſtans, qu'elle
@@ -1326,8 +1688,10 @@
           établi Lingere au bas du Palais, en mémoire de ſon chere pere. Sa Boutique étoit le rendez-vous des
           beaux eſprits: cela a ſervi à cultiver ſon eſprit, &amp; a fait fort ſon commerce. M. de Blemicourt
           en fit connoiſſance, elle ſçût lui plaire, &amp; ſe trouve aujourd'hui par ſa mort uſufruitiere de
-          ce Château.</p>
-        <p>Je ſuis bien inſtruit comme vous voyez, me dit le Baron; auſſi-tôt que je m'établis dans un
+          ce Château.
+    </p>
+    <p>
+     Je ſuis bien inſtruit comme vous voyez, me dit le Baron; auſſi-tôt que je m'établis dans un
           endroit, je m'attache à connoître mes originaux. Je vous charge de tirer de Boiſcaré ce qu'il peut
           être lui-même, &amp; ce qu'il ſçait de la Blemicourt depuis ſon ſéjour en ce Pays; nous nous
           amuſerons faute de mieux. Il ne faut point de vuide dans la vie, les momens où l'eſprit &amp; le
@@ -1342,12 +1706,18 @@
           viendra où je m'expliquerai mieux, adieu, j'apperçois Babouin qui vient implorer ſans doute votre
           ſecours pour ſon futur mariage. Ne le traverſez pas, croyez moi; il eſt d'un galant homme de
           procurer un établiſſement à l'objet qu'il aime. On appelle cela un procédé; &amp; il eſt trop bien
-          établi pour ne pas s'y conformer.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXIII.</head>
-        <p>Mariage à la mode.</p>
-        <p>Impatient Babouin ne tarda pas à me joindre: les choſes ſont plus avancées, que vous ne croyez au
+          établi pour ne pas s'y conformer.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXIII.
+    </head>
+    <p>
+     Mariage à la mode.
+    </p>
+    <p>
+     Impatient Babouin ne tarda pas à me joindre: les choſes ſont plus avancées, que vous ne croyez au
           moins, me dit-il en m'abordant: j'en ai gliſſé deux mots à Madame de Blemicourt; elle eſt d'avis
           d'en parler à l'inſtant même, la voilà qui entraîne M. &amp; Madame Hugon. M. le Prieur qui ſçait
           mes intentions, eſt auſſi de la partie, &amp; je viens en raiſonner avec vous, &amp; vous prier
@@ -1368,25 +1738,35 @@
           ici près. Il n'y a que les harangues qui m'embarraſſeroient; croiriezvous bien que je n'ai jamais pû
           dire par cœur deux mots de ſuite, &amp; ſi je ne parle pas mal quand je m'y mets. Tout coup vaille,
           ſi la Fête arrive nous la chomerons; nous ferons comme bien d'autres, je ne ſerai pas le premier qui
-          ſera reſté court, cela me conſole.</p>
-        <p>Boiſcaré nous joignit: je vous laiſſe, me dit Babouin, en le voyant, ne m'oubliez pas, je rejoins
+          ſera reſté court, cela me conſole.
+    </p>
+    <p>
+     Boiſcaré nous joignit: je vous laiſſe, me dit Babouin, en le voyant, ne m'oubliez pas, je rejoins
           Monſieur &amp; Madame Hugon, &amp; puis il partit comme un éclair. Diable, dit Boiſcaré, quelle
           vivacité, comme il nous quitte; qu'a-t'il donc? Hé! ne le devinez-vous pas, lu dis-je: il eſt
           amoureux, le vieux ſou, reprit-il: je parie que c'eſt de la Blemicourt, en tout cas, c'eſt grand
           ſujet de m'en plaindre. Vous me prenez dans un bon moment, il faut que je vous faſſe part de mon
           Hiſtoire: je commencerai par celle de mon pere, j'aime l'ordre; le tout ne ſera pas long. Quoiqu'il
           en ſoit, vous êtes complaiſant; &amp; les évenemens m'en ont paru trop ſinguliers, pour craindre
-          d'abuſer de la patience de mes auditeurs.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXIV.</head>
-        <p>Hiſtoire de Boiſcaré.</p>
-        <p>Mon pere étoit un cadet de Normandie, conſéquemment peu riche. Son aîné l'aimoit beaucoup; mais
+          d'abuſer de la patience de mes auditeurs.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXIV.
+    </head>
+    <p>
+     Hiſtoire de Boiſcaré.
+    </p>
+    <p>
+     Mon pere étoit un cadet de Normandie, conſéquemment peu riche. Son aîné l'aimoit beaucoup; mais
           par malheur ſon aîné étoit honêtement gueux; huit cens livres de rente formoient ſon revenu; ſes
           ayeux l'empêchoient de l'augmenter: belle excuſe pour les pareſſeux. Il ſe confina dans ſa métairie,
           &amp; forma le grand deſſein de relever ſa famille: un cadet devenu ſon idole... une laborieuſe
-          œconomie ſoutenue par beaucoup de léſine, le mit en état de procurer une Lieutenance au cadet.</p>
-        <p>Mon pere tenoit de ſon Pays, il aimoit le bien; laſſé de faire la guerre en garniſon, il
+          œconomie ſoutenue par beaucoup de léſine, le mit en état de procurer une Lieutenance au cadet.
+    </p>
+    <p>
+     Mon pere tenoit de ſon Pays, il aimoit le bien; laſſé de faire la guerre en garniſon, il
           s'attacha à la niece d'un Receveur fort riche &amp; des plus roturiers. On m'a voulu aſſurer qu'elle
           étoit iſſue de parens nobles, vrai ou faux, elle étoit héritiere du Receveur: c'eſt le plus beau
           titre que je lui ai connu. Je me ſuis peu embarraſſé d'approfondir les autres: mon pere épouſa donc
@@ -1394,17 +1774,25 @@
           ſatisfaction des deux parties qui ne l'aimoient gueres. Sans ſon bien on lui auroit volontiers dit
           en face qu'il étoit un fort vilain homme; il n'a pas été le ſeul. Le frere de mon pere, bien loin de
           bénir cette alliance en créva de dépit; ce que c'eſt que certains préjugés, ſi l'on n'en revenoit
-          pas, que de gens à plaindre.</p>
-        <p>Heureuſement j'étois né avant cette mort &amp; je profitai des huit cens livres. Ma mere étoit
+          pas, que de gens à plaindre.
+    </p>
+    <p>
+     Heureuſement j'étois né avant cette mort &amp; je profitai des huit cens livres. Ma mere étoit
           ſans doute une de ces bonnes-femmes dont nous parlions tout à l'heure: car mon pere l'a long-tems
           regretté. Comme on ſe guérit de tout; à peine ſon veuvage étoit-il expiré, qu'il épouſa une fille de
-          condition: il ſembloit vouloir appaiſer par là les mânes de ſon frere.</p>
-        <p>Ma belle-mere après avoir ſurieuſement ravagé les biens du Receveur eut le chagrin d'enterrer ſon
-          cher époux.</p>
-        <p>Ce chagrin étoit fondé, non ſur la perte de ſon mari, mais du bien qui m'étoit ſubſtitué. Il
+          condition: il ſembloit vouloir appaiſer par là les mânes de ſon frere.
+    </p>
+    <p>
+     Ma belle-mere après avoir ſurieuſement ravagé les biens du Receveur eut le chagrin d'enterrer ſon
+          cher époux.
+    </p>
+    <p>
+     Ce chagrin étoit fondé, non ſur la perte de ſon mari, mais du bien qui m'étoit ſubſtitué. Il
           fallut ſe retirer dans une Communauté, ou plus par vanité que par bonne façon de penſer; on
-          m'engagea à lui continuer la petite penſion que les parens lui avoient alloué.</p>
-        <p>Juſqu'à la mort de mon pere on m'avoit laiſſé dans une Métairie. Une baſſecour &amp; les gens qui
+          m'engagea à lui continuer la petite penſion que les parens lui avoient alloué.
+    </p>
+    <p>
+     Juſqu'à la mort de mon pere on m'avoit laiſſé dans une Métairie. Une baſſecour &amp; les gens qui
           l'habitent ne forment pas une école bien inſtructive. Je paſſai de-là chez des Moines qui me
           farcirent de Grec &amp; de Latin: mon Tuteur, pour moins d'embarras me rendit le mauvais office de
           me faire émanciper. Jugez parce qu'il en reſte, du beau préſent que l'on fit au monde en m'y
@@ -1415,8 +1803,10 @@
           ſéduction de leurs filles, l'on m'avoit prévenu dès long-tems. Une aventure d'éclat m'écarta de ma
           Province: j'avois rendu des ſoins à une Demoiſelle; nous nous étions vûs de près; j'en craignis les
           ſuites, ne me ſentant point porté pour le mariage, je me croyois ſeul favoriſé; quelle fut ma
-          ſurpriſe, un autre s'en fit honneur, &amp; par probité crut reparer ſa faute.</p>
-        <p>Je me jettai du côté des femmes; après bien des aſſiduités &amp; des dépenſes qui me faiſoient
+          ſurpriſe, un autre s'en fit honneur, &amp; par probité crut reparer ſa faute.
+    </p>
+    <p>
+     Je me jettai du côté des femmes; après bien des aſſiduités &amp; des dépenſes qui me faiſoient
           ſervir de riſée, on m'accordoit ce dont les amans étoient las &amp; les maris ne vouloient plus. La
           guerre ſurvint, mon Régiment étoit en Flandres, je l'y joignis; nous reſtâmes quelque tems dans une
           des Villes de cette Province. Je filai le parfait amour auprès d'une ſemme fort aimable, &amp; qui
@@ -1434,8 +1824,10 @@
           ſurprend; l'homme prend la fuite, la femme alloit devenir la victime de ſon époux; je parois, jugez
           de leur étonnement en les ſéparant; mon récit fut vif, &amp; ma ſincérité me rendit ami du mari.
           Pour la femme elle prit ſans héſiter le parti qui lui convenoit, un prétexte autoriſat ſa retraite
-          &amp; tout ſe calma.</p>
-        <p>Je n'étois pas au bout, Patience, je tire à la fin. Je me marie, mariage de garniſon; belle
+          &amp; tout ſe calma.
+    </p>
+    <p>
+     Je n'étois pas au bout, Patience, je tire à la fin. Je me marie, mariage de garniſon; belle
           paſſion: femme que l'on ne voit qu'au retour de la campagne comme les Chaudronniers pour avoir des
           enfans. J'en ai eu trois, les enſans à un certain âge pouſſoient ma patience à bout par leur
           dépenſe. Ils ſe noyent tous les trois: j'ai pris mon parti, j'ai partagé mes revenus; me reſervant
@@ -1456,12 +1848,18 @@
           ſotiſe-là ſans moi, répondit Boiſcaré: il ne faut pas refuſer M. Babouin, lui dis-je: vous ſerez
           donc de moitié, reprit Boiſcaré. Je ne l'aurois pas ſoupçonné, je vous croyois amoureux de la petite
           fille. Oh! que non dit Babouin, j'y ai regardé, &amp; puis M. m'a bien aſſuré qu'il n'y prétendoit
-          pas. Tout en diſcourant nous rejoinimes la compagnie.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXV.</head>
-        <p>Situation.</p>
-        <p>Je ne pûs voir ſans quelque jalouſie, Babouin prêt de m'enlever ma conquête: comme on eſt peu
+          pas. Tout en diſcourant nous rejoinimes la compagnie.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXV.
+    </head>
+    <p>
+     Situation.
+    </p>
+    <p>
+     Je ne pûs voir ſans quelque jalouſie, Babouin prêt de m'enlever ma conquête: comme on eſt peu
           d'accord avec ſoi-même, j'enviois un bien dont je ne voulois pas m'aſſurer la poſſeſſion L'air
           interdit &amp; boudeur avet lequel Mademoitelle Hugon recevoit toutes les carefſes de ſon futur,
           réveilla ma paſſion pour elle; j'en devins tout rêveur. Madame de Blemicourt m'en fit la guerre;
@@ -1476,14 +1874,17 @@
           lui reſiſter. Nous jouâmes le ſentiment; je crûs en être quitte pour des mots: elle n'étoit pas
           femme à s'y tenir. Veillezvous quelquefois: me dit-elle? Eh mais! comme on vent: lui répondis-je.
           L'artifice étoit groſſier de ſa part, cependant j'ai été convaincu plus d'une fois, que quand une
-          ſemme a pris ſon parti, elle ne cherche plus à y entendre fineſſe.</p>
-        <p>
-          Venez me trouver à ma chambre quand nos gens ſe ſeront retirés, me dit la Blemicourt, nous paſſerons
+          ſemme a pris ſon parti, elle ne cherche plus à y entendre fineſſe.
+    </p>
+    <p>
+     Venez me trouver à ma chambre quand nos gens ſe ſeront retirés, me dit la Blemicourt, nous paſſerons
           quelmomens enſemble. Je promis; que faire? Je m'étois embarqué trop avant, il n'y avoit plus moyen
           de reculer. Je me rendis à l'appartement de la Dame, elle avoit fait retirer ſes Domeſtiques. Elle
           ne manqua pas de m'en faire appercevoir, pour que je n'en prétendiſſe cauſe d'ignorance. On a beau
-          bien penſer, dit-elle, ces ſortes de gens ne ſemblent pas être faits pour nous rendre juſtice.</p>
-        <p>Venez jeuneſſe, &amp; mettez-vous ſur ce canapé, nous allons bien dire des folies; n'eſt-ce pas?
+          bien penſer, dit-elle, ces ſortes de gens ne ſemblent pas être faits pour nous rendre juſtice.
+    </p>
+    <p>
+     Venez jeuneſſe, &amp; mettez-vous ſur ce canapé, nous allons bien dire des folies; n'eſt-ce pas?
           La Dame étoit ſous les armes; ſon deshabillé galant &amp; bien entendu. Un air libertin prit la
           place du maintien prude qu'elle affectoit ordinairement. Je remarquai que cet air libertin lui
           alloit mieux. Ce que c'eſt que le naturel! quand il en trouve l'occaſion, il revendique bien ſes
@@ -1493,20 +1894,28 @@
           coquette, qui malgré ſes yeux éperonnés, ſes rides &amp; ſon fard me parut une Déeſſe qui me tendoit
           les bras, pour me procurer l'immortalité. Ses careſſes me tinrent dans l'enchantement juſqu'au jour.
           L'aurore nous ſurprit, &amp; fit évanouir mon ſonge. J'en apperçus le vuide en m'éloignant. Quel
-          retour! il glaça mes ſens.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXVI.</head>
-        <p>Evenement ſingulier.</p>
-        <p>Sous prétexte de chaſſer, je m'éclipſois tout les matins, &amp; gagnois la Ferme. Mes affaires y
+          retour! il glaça mes ſens.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXVI.
+    </head>
+    <p>
+     Evenement ſingulier.
+    </p>
+    <p>
+     Sous prétexte de chaſſer, je m'éclipſois tout les matins, &amp; gagnois la Ferme. Mes affaires y
           prirent bien-tôt un aſſez bon train, l'oncle de Colette commença à n'y pas regarder de ſi près,
           &amp; j'eus tout le tems de m'entrenir avec elle. La petite me tenoit la dragée haute, je ne pus
           parvenir qu'aux plus légeres faveurs. On me témoignoit tant d'amour, que l'excès de ſa retenue me
           cauſa de la défiance. Je ne pouvois accorder cette retenue avec ſon ingénuité &amp; la paſſion
           violente, dont elle paroiſſoit épriſe. Je me mis en tête de découvrir ce qui pouvoit cauſer ſes
           refus, j'inſtruiſis mon fidele Braconnier; il me promit de m'en rendre compte, &amp; ne tint que
-          trop ſa parole comme on le verra. Voici ce qui ſe paſſa dans l'interval.</p>
-        <p>Dans un taillis voiſin de Blemicourt, la petite Hugon ſous prétexte de prendre l'air, m'attendoit
+          trop ſa parole comme on le verra. Voici ce qui ſe paſſa dans l'interval.
+    </p>
+    <p>
+     Dans un taillis voiſin de Blemicourt, la petite Hugon ſous prétexte de prendre l'air, m'attendoit
           au paſſage tous les matins au retour de ma chaſſe. Ses careſſes me conſoloient pour le moment, elles
           ſatisfaiſoient mon amour propre révolté contre Babouin. Que de gens ont récriminé contre leur
           ſucceſſeur? Le plaiſant droit que l'on veut s'arroger! L'idée de Colette troubloit toujours mes
@@ -1514,14 +1923,20 @@
           Babouin me ſervoit d'excuſe. L'on m'offroit une main que je n'étois pas en diſpoſition d'accepter,
           je faiſois naître des difficultés inſurmontables; quand l'amant raiſonne en cas pareil, la fille
           pleure. Celle-ci ſe réſolut de ſubir ſa deſtinée, &amp; ſe promit de faire répentir M. Babouin de la
-          témérité de ſa recherche.</p>
-        <p>Le Baron m'obſédoit, &amp; exigeoit de moi un détail des plus circonſtanciés &amp; des plus
+          témérité de ſa recherche.
+    </p>
+    <p>
+     Le Baron m'obſédoit, &amp; exigeoit de moi un détail des plus circonſtanciés &amp; des plus
           ſinceres de toutes mes intrigues; je ne ſçavois à quoi attribuer l'aſcendant qu'il avoit ſur moi. Je
           ſuis plus intéreſſé que vous ne penſez à tout ce qui vous regarde, me diſoit-il: continuez,
-          amuſez-vous. Il n'y a que cette Colette qui m'inquiette, je crains les engagemens ſérieux.</p>
-        <p>D'autre part, les agaceries continuelles de la Blemicourt m'embarraſſoient furieuſement à ce
-          qu'il me parut, j'avois tout à redouter, ſi elle venoit à découvrir ma double intrigue.</p>
-        <p>Cependant ce bois ſi favorable à entretenir mes premieres amours, penſa un jour m'être bien
+          amuſez-vous. Il n'y a que cette Colette qui m'inquiette, je crains les engagemens ſérieux.
+    </p>
+    <p>
+     D'autre part, les agaceries continuelles de la Blemicourt m'embarraſſoient furieuſement à ce
+          qu'il me parut, j'avois tout à redouter, ſi elle venoit à découvrir ma double intrigue.
+    </p>
+    <p>
+     Cependant ce bois ſi favorable à entretenir mes premieres amours, penſa un jour m'être bien
           fatal. Je vis le moment que ſans un bonheur imprévû, j'aurois été ſurpris avec la petite Hugon. Je
           revenois de ma chaſſe ordinaire, je trouvai la petite au rendez-vous qui m'attendoit comme de
           coutume. Après une converſation aſſez triſte, elle touloit toujours ſur ſon prochain mariage, pour
@@ -1536,20 +1951,28 @@
           Chiens nous nous levâmes, Mademoiſelle Hugon s'en fuit; j'apperçois le tremblant Animal qui ſe
           blotiſſoit à vingt pas. Pour me venger de ſon indiſcretion je le tire. Les Chiens &amp; les
           Chaſſeurs viennent au bruit. Deſpêches &amp; Madame Hugon décampent, je les appelle, ils
-          m'attendent; &amp; nous joignons les Chaſſeurs, en tête deſquels je trouve Babouin &amp; M. Hugon.</p>
-        <p>Je compris par leurs diſcours, qu'ils avoient batu le taillis un quart d'heure avant notre
+          m'attendent; &amp; nous joignons les Chaſſeurs, en tête deſquels je trouve Babouin &amp; M. Hugon.
+    </p>
+    <p>
+     Je compris par leurs diſcours, qu'ils avoient batu le taillis un quart d'heure avant notre
           arrivée; un quart plus tard c'étoit deux ménages au diable. M. Babouin donna le bras à ſa future. M.
           Hugon en fit de même; jamais le beau-pere &amp; le gendre ne furent mieux traités. Boiſcaré
           émerveillé de leur attention réciproque, ne ceſſa de me dire qu'il étoit enchanté du tableau.
           Deſpêches voulut me faire des contes: vous avez éclairci mes doutes, lui dis-je, je vous ai ſauvé la
           ſurpriſe, mon coup de ſuſil étoit le ſignal pour éviter le péril qui vous ménaçoit. Soyez diſcrets,
           ce ſera ma récompenſe; il m'entendit baiſſa la tête, &amp; j'eus lieu de me louer de leurs égards
-          pendant mon ſéjour.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPTIRE XXVII.</head>
-        <p>Eclairciſſement.</p>
-        <p>Colette, cette Colette que j'idolâtrois, &amp; dont j'avois attribué la retenue à un excès de
+          pendant mon ſéjour.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPTIRE XXVII.
+    </head>
+    <p>
+     Eclairciſſement.
+    </p>
+    <p>
+     Colette, cette Colette que j'idolâtrois, &amp; dont j'avois attribué la retenue à un excès de
           ſageſſe que je reſpectois; n'étoit point ce qu'elle me vouloit paroître. Je découvrois que l'on
           cherchoit à me tromper, l'amour la rendoit perfide; elle avoit lié depuis plus de ſix mois un
           commerce avec le Seigneur du Fermier ſon oncle. La fantaiſie du Seigneur étoit paſſée, il cherchoit
@@ -1560,8 +1983,10 @@
           communiquai ſur le champ mes idées, en modéra la vivacité; n'étant point amoureux, il enviſageoit
           tout de ſans froid, &amp; m'amena au point d'en faire de même. L'eſpoir de la vengeance ramena ma
           tranquillité; je réſolus de concert avec le Braconnier de faire avertir la femme du Marquis des
-          menées de ſon mari. La vieille jalouſe ſe diſpoſa à profiter de l'avis au premier ſignal.</p>
-        <p>Cependant Madame de Blemicourt qui ne s'accommodoit nullement de mes froideurs, cherchoit
+          menées de ſon mari. La vieille jalouſe ſe diſpoſa à profiter de l'avis au premier ſignal.
+    </p>
+    <p>
+     Cependant Madame de Blemicourt qui ne s'accommodoit nullement de mes froideurs, cherchoit
           l'occaſion de s'expliquer, je l'avois évité plus d'une fois. Un beau ſoir que je me retirois
           tranquillement, la Dame me ſaiſit par le bras, &amp; m'entraîna pour ainſi dire avec elle. Daignez
           me ſuivre me dit-elle: je le fis ſans réſiſtance, ne pouvant pas honnêtement m'en diſculper; quand
@@ -1580,12 +2005,17 @@
           très-utile. La Blemicourt perſuadée de m'avoir attaché par l'endroit le plus ſenſible, fut la
           premiere à m'avertir de me retirer. Je ne lui fit pas dire deux fois, &amp; la laiſſai auſſi
           ſatisfaite que j'avois peu lieu de l'être.
-        </p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXVIII.</head>
-        <p>Qui pourra ſervir au dénouement</p>
-        <p>J'attendois avec impatience des nouvelles de Colette. Le Baron m'aborde &amp; me tire de la
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXVIII.
+    </head>
+    <p>
+     Qui pourra ſervir au dénouement
+    </p>
+    <p>
+     J'attendois avec impatience des nouvelles de Colette. Le Baron m'aborde &amp; me tire de la
           rêverie où j'étois plongé en me queſtionnant ſur l'état de mes affaires. Eh! bien notre féal, me
           dit-il; nous en voilà donc réduit à la Blemicourt. Colette vous trompe, la petite Hugon ſe marie. La
           vanité vous guerira de Colette, le dégoût vous détachera de Madame Babouin. Je ne crains que l'ennui
@@ -1607,12 +2037,18 @@
           confidence. Je vais me retirer chez un ami connu à Paris, vous aurez de mes nouvelles, amuſezvous;
           mais point d'engagement ſérieux. Adieu, je m'en fuis. Le Prieur prendra mon adreſſe &amp; la vôtre à
           Paris. Je m'embarraſſai peu de tout cet arrangement, je promis toujours; mais je ne ſongeois qu'à
-          Colette.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXIX.</head>
-        <p>Racommodement.</p>
-        <p>Mon Braconier ſuivant ce dont nous étions convenus, vint m'avertir de m'aller mettre en
+          Colette.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXIX.
+    </head>
+    <p>
+     Racommodement.
+    </p>
+    <p>
+     Mon Braconier ſuivant ce dont nous étions convenus, vint m'avertir de m'aller mettre en
           ſentinelle prêt du Cabaret en queſtion, &amp; que je ne tarderois pas à voir arriver nos gens. La
           Marquiſe eſt-elle inſtruite, lui dis-je? Elle eſt en chemin pour les ſurprendre, répondit-il. Je
           vais prendre les devans pour vous faire ſigne d'avancer quand il en ſera tems. Le dépit de me voir
@@ -1621,8 +2057,10 @@
           mon rival, je n'étois pas porté à lui rendre juſtice, auſſi le trouvai-je bien peu digne d'entrer en
           concurence avec moi. La petite perfide le ſuivit de près. Jamais elle ne me parut plus belle, je
           penſai m'échaper &amp; courir lui reprocher ſa trahiſon, je me retins dans l'eſperance de la voir
-          bien-tôt confondue.</p>
-        <p>La vieille Marquiſe ne ſe fit pas attendre, elle étoit bien informée; elle alla droit à la
+          bien-tôt confondue.
+    </p>
+    <p>
+     La vieille Marquiſe ne ſe fit pas attendre, elle étoit bien informée; elle alla droit à la
           Chambre où ils étoient, je compris par un geſte que me fit mon homme, qu'il étoit tems d'arriver. Le
           Marquis le nez dans un manteau s'éloigne avec autant de précipitatlon, que j'en mets à arriver.
           Colette en proye aux invectives &amp; aux coups de la Marquiſe, eſt l'objet qui me frappe en
@@ -1632,19 +2070,27 @@
           naïvement mon hiſtoire en deux mots, &amp; redoublai la confuſion de Colette que mon récit ſembla
           anéantir: je vous plains, me dit la Marquiſe, vous êtes bien jeune, &amp; cette petite coquine bien
           aimable. Fuyez Monſieur, il en eſt tems encore; après cet avis je me retire, je ſouffrirois trop à
-          ne vous en voir pas profiter.</p>
-        <p>Que fis-je? je reſtai, mon triomphe ne me paroiſſoit pas complet. Je voulus jouir à plaiſir de
+          ne vous en voir pas profiter.
+    </p>
+    <p>
+     Que fis-je? je reſtai, mon triomphe ne me paroiſſoit pas complet. Je voulus jouir à plaiſir de
           l'embarras affreux où Colette étoit plongée, je parcourois toute ſa perſonne d'un air mépriſant,
-          &amp; reſſentois une joye maligne à la voir ainſi humiliée.</p>
-        <p>L'Hôteſſe d'une chambre voiſine avoit tout entendu, elle arriva ſur ces entrefaites &amp; ſe mit
-          à ſermoner Colette, qui ne repartit que par ſes larmes.</p>
-        <p>Il n'eſt pas queſtion de cela, dis-je à l'Hôteſſe: le Marquis collationne ordinairement quand il
+          &amp; reſſentois une joye maligne à la voir ainſi humiliée.
+    </p>
+    <p>
+     L'Hôteſſe d'une chambre voiſine avoit tout entendu, elle arriva ſur ces entrefaites &amp; ſe mit
+          à ſermoner Colette, qui ne repartit que par ſes larmes.
+    </p>
+    <p>
+     Il n'eſt pas queſtion de cela, dis-je à l'Hôteſſe: le Marquis collationne ordinairement quand il
           vient ici avec Mademoiſelle, ſervez-nous ce que vous lui avez reſervé, je vous payerai auſſi bien
           que lui. Oh! Monſieur, me dit l'Hôteſſe, je n'en doute pas, &amp; je vais vous obéir. C'eſt que je
           ne ſçaurois paſſer de pareiles choſes ſous ſilence, &amp; un galant homme agiſſant comme vous
           faites, méritoit plus de ménagement. Laiſſez-nous ſeuls, vous reviendrez quand je vous appellerai.
-          Soit, Monſieur, l'on ne vous fera plus attendre.</p>
-        <p>Eh! bien Colette, que dois-je penſer de tout ceci, lui dis-je. Hélas, Monſieur, je ne ſens que
+          Soit, Monſieur, l'on ne vous fera plus attendre.
+    </p>
+    <p>
+     Eh! bien Colette, que dois-je penſer de tout ceci, lui dis-je. Hélas, Monſieur, je ne ſens que
           mon tort, &amp; puis c'eſt tout. Voilà donc votre réponſe Colette. Qu'elle autre puis-je vous ſaire,
           Monſieur? &amp; de quel front vous êtes vous déterminée à me tromper: ce n'eſt pas ma faute M.
           Comment perfide, vous oſez me parler ſur ce ton? Vous êtes maître de mon ſort, &amp; vous pouvez
@@ -1656,21 +2102,29 @@
           pouvoient l'empêcher de continuer à me voir, &amp; les a mis dans la triſte néceſſité, en tenant
           tout de lui, &amp; pouvant changer leur ſort d'un quart d'heure à l'autre, de me contraindre à le
           recevoir. Il me flatoit de me donner de quoi paſſer le reſte de mes jours: voilà qu'elle étoit ma
-          ſituation avant de vous avoir connu.</p>
-        <p>Depuis le hazard vous amene à la Ferme, je vous vois, je vous aime; vous me dites que vous
+          ſituation avant de vous avoir connu.
+    </p>
+    <p>
+     Depuis le hazard vous amene à la Ferme, je vous vois, je vous aime; vous me dites que vous
           m'aimez, vous me le prouvez; vous me l'avez cent fois juré, que je me plaiſois à recevoir vos
           ſermens. Dans la poſition où j'étois je ne pouvois y répondre comme vous le ſouhaitiez. Oui j'étois
           capable de concevoir de l'eſtime. Je n'attendois que le moment de vous déclarer ma malheureuſe
-          ſituation, pour vous prier de m'en tirer.</p>
-        <p>Vous cherchez à m'abuſer, perfide: non me répondit-elle, après un aveu auſſi honteux, je n'ai
+          ſituation, pour vous prier de m'en tirer.
+    </p>
+    <p>
+     Vous cherchez à m'abuſer, perfide: non me répondit-elle, après un aveu auſſi honteux, je n'ai
           plus rien à eſperer. Souffrez pour la derniere fois que je vous diſe que je vous aime. Répondezmoi
           cent fois que vous me haiſſez; mépriſez-moi tout à plaiſir, chaſſez-moi avec ignominie: voilà ma
           Sentence, je la prononce, je profite du tems que vous croyez me contraindre à vous voir. Hélas!
-          c'eſt pour la derniere ſois, elle fondit en larmes, &amp; ſe trouva réellement très-mal.</p>
-        <p>L'excès de ſa douleur la juſtifia, tout fut pardonné, &amp; ſi je m'étois trouvé aſſez libre pour
+          c'eſt pour la derniere ſois, elle fondit en larmes, &amp; ſe trouva réellement très-mal.
+    </p>
+    <p>
+     L'excès de ſa douleur la juſtifia, tout fut pardonné, &amp; ſi je m'étois trouvé aſſez libre pour
           en faire la réflexion, j'aurois béni, je crois, le moment où j'avois tout découvert, tant la ſuite
-          me fit de plaiſir.</p>
-        <p>J'appellai du ſecours, l'Hôteſſe vint toute effarée; elle m'aida à la délaſſer, &amp; la porter
+          me fit de plaiſir.
+    </p>
+    <p>
+     J'appellai du ſecours, l'Hôteſſe vint toute effarée; elle m'aida à la délaſſer, &amp; la porter
           ſur un lit. Colette reſta plus de trois quarts d'heure ſans ſentiment; à force de ſoins elle revint
           à elle. En ouvrant les yeux elle me trouva à ſes genoux, la bouche colée fur ſa main: que
           faites-vous, me dit-elle, eſt-ce là votre place? Laiſſez-moi périr, c'eſt la ſeule grace que je vous
@@ -1679,19 +2133,27 @@
           qui me faites cette propoſition? Penſezvous à ce que vous m'offrez? Moi! partager votre fortune?
           Promettez-le moi, lui dis-je, &amp; je ſuis ſatisfait; à ce prix j'oublierai tout. Hélas! vous vous
           en ſouvenez encore, répliqua-t'elle, en pleurant, quel que ſoit mon ſort, pourvû que je ne vous
-          quitte pas, je me tiendrai très-heureuſe.</p>
-        <p>L'Hôteſſe fut d'abord ravie en extaſe d'entendre nos propos; puis elle ſe mit à pleurer auſſi en
+          quitte pas, je me tiendrai très-heureuſe.
+    </p>
+    <p>
+     L'Hôteſſe fut d'abord ravie en extaſe d'entendre nos propos; puis elle ſe mit à pleurer auſſi en
           nous baiſant les mains. J'eus bien de la peine à m'empêcher de rire de la part qu'elle prenoit à
           tout cela. Ah! le bon tems, s'écriat'elle, que celui où vous êtes. Oh! cà, çà, je vais faire ſervir
           la colation, vous prendrez bien quelque choſe &amp; la peti-te auſſi. J'engageai Colette à prendre
           un peu de nourriture. Notre réunion fut ſincere, la ſuite m'en parut unique: d'en entreprendre la
           peinture, j'y réuſſirois mal. Je m'arrachai des bras de Colette le lendemain, pour retourner à
-          Blemicourt; je la recommandai à l'Hôteſſe en lui laiſſant de quoi ſe reſſouvenir de mes ordres.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXX.</head>
-        <p>Les adieux de Blemicourt.</p>
-        <p>Lemicourt me parut ennuyeux dès que j'y arrivai. Je ne ſongeai qu'aux moyens d'en ſortir en
+          Blemicourt; je la recommandai à l'Hôteſſe en lui laiſſant de quoi ſe reſſouvenir de mes ordres.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXX.
+    </head>
+    <p>
+     Les adieux de Blemicourt.
+    </p>
+    <p>
+     Lemicourt me parut ennuyeux dès que j'y arrivai. Je ne ſongeai qu'aux moyens d'en ſortir en
           dérobant le motif de mon départ. Je trouvai tout le monde inquiet de mon abſence, &amp; chacun
           m'accabla de careſſe en me faiſant cent queſtions. J'y ſatisfis tant bien que mal. Madame de
           Blemicourt commençoit à perdre la tête, la petite Hugon ſe contenoit à peine; le Prieur qui étoit
@@ -1704,13 +2166,17 @@
           ce n'étoit pas aſſez, il falloit m'aſſurer de l'avenir juſqu'à nouvel ordre. Je regardai la choſe
           comme un emprunt, dont je ſentois bien devoir d'avance payer un intérêt bien dur, me promettant bien
           de rendre le capital, dès que je me verrois maître de ma fortune. Je calmai de cette façon ma
-          délicateſſe, elle céda par arrangement à mon amour.</p>
-        <p>J'appris que M. de Liſle &amp; ſon épouſe étoient partis avec le Baron. Le Prieur étoit revenu
+          délicateſſe, elle céda par arrangement à mon amour.
+    </p>
+    <p>
+     J'appris que M. de Liſle &amp; ſon épouſe étoient partis avec le Baron. Le Prieur étoit revenu
           muni de pleins pouvoirs, pour enchaîner à jamais M. Babouin &amp; Mademoiſelle Hugon. Ils furent
           fiancés dès le foir même. Boiſcaré me ménaça de leur épitalame, j'en eſquivai la lecture; je ne fus
           pas auſſi heureux avec la Blemicourt, il me fallut ſans délai renouer notre dernier entretien; mon
-          projet m'y portoit.</p>
-        <p>Que l'on me rende compte de la conduite que l'on a tenu pendant ſon abſcence libertin, me
+          projet m'y portoit.
+    </p>
+    <p>
+     Que l'on me rende compte de la conduite que l'on a tenu pendant ſon abſcence libertin, me
           dit-elle, en me donnant un petit coup ſur la joue. La Chaſſe a été toute mon occupation Madame, lui
           répondis-je, en affectant beaucoup d'ingénuité; la nuit m'a ſurpris, j'ai été trop heureux de
           trouver un azyle dans je ne ſçai quel Hameau, dont je ſuis ſorti au lever de l'Aurore: je vous le
@@ -1723,12 +2189,18 @@
           autant de part que la fatigue que je pris pour excuſe. Cela eſt décidé, ditelle, je ne veux plus que
           vous alliez à cette maudite Chaſſe; elle vous donne un air mauſſade qui ne me revient point,
           entendez-vous. Allez-vous repoſer, &amp; venez me trouver demain à mon lever. Quel ordre! je promis,
-          mon bonheur dépendoit de mon exactitude à le remplir.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXXI.</head>
-        <p>Départ.</p>
-        <p>Mon premier ſoin en m'éveillant fut de me dérober au plus vîte; j'allai tirer Colette de
+          mon bonheur dépendoit de mon exactitude à le remplir.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXXI.
+    </head>
+    <p>
+     Départ.
+    </p>
+    <p>
+     Mon premier ſoin en m'éveillant fut de me dérober au plus vîte; j'allai tirer Colette de
           l'inquiétude où je préſumois qu'elle devoit être plongée. Quelle abſence pour deux amans
           nouvellement unis, qu'un intervalle de douze heures? Mon retour diſſipa ſes craintes; &amp; ce qu'il
           y a de plus expreſſif confirma les ſermens réciproques d'être l'un à l'autre à jamais: pour ſe
@@ -1749,48 +2221,70 @@
           Colette, ou que n'en eut-elle eu les agrémens, je me ſerois fait conſcience de la tromper; mais
           auſſi je pouvois lui dire, comme on le répe-te à tant d'autres dans un ſens différent. Mon excuſe
           eſt dans vos yeux, ſi je ſuis encore dans votre ſouvenir, compenſez tout Madame de Blemicourt, vous
-          me rendez juſtice, nous n'étions pas faits l'un pour l'autre.</p>
-        <p>Que ne promet-on pas, quand on reſſent un véritable amour! que ne promet-on pas, quand on a des
+          me rendez juſtice, nous n'étions pas faits l'un pour l'autre.
+    </p>
+    <p>
+     Que ne promet-on pas, quand on reſſent un véritable amour! que ne promet-on pas, quand on a des
           raiſons indiſpenſables à feindre! Les ſermens les plus forts avoient été employés, pour perfuader à
           Colette que je n'épargnerois rien pour m'aſſurer ſa poſſeſſion. Je fis plus encore pour me
           débarraſſer de la Blemicourt, &amp; en tirer les ſecours qui m'étoient ſi néceſſaires. L'action
-          n'eſt pas louable, mais quand la mode en paſſerat'elle?</p>
-        <p>J'éblouis la Dame par mes exagérations, elle étoit trop aveuglée pour en ſentir le ridicule.
+          n'eſt pas louable, mais quand la mode en paſſerat'elle?
+    </p>
+    <p>
+     J'éblouis la Dame par mes exagérations, elle étoit trop aveuglée pour en ſentir le ridicule.
           L'Amour eſt la clef du coffre-fort, j'avois déja fait connoiſſance avec lui, la Blemicourt me preſſa
           de ſi bonne grace, que je me laiſſai vaincre, j'y pris une ſomme aſſez ſuffiſante, pour ne pas me
           mettre dans le cas de la récidive du contrat qu'il me fallut faire. Mes deſirs étoient au comble,
           j'étois aſſuré de Colette, l'image du bonheur que je me figurois, la préſence de la bienfaictrice
-          qui me le procuroit; tout concourut à rendre ma reconnoiſſance éclatante.</p>
-        <p>Je comptois reſter quelques jours encore, pour amener le dénouement; je ne ſçavois comment m'y
+          qui me le procuroit; tout concourut à rendre ma reconnoiſſance éclatante.
+    </p>
+    <p>
+     Je comptois reſter quelques jours encore, pour amener le dénouement; je ne ſçavois comment m'y
           prendre, les réflexions ne m'en ſourniſſoient aucun moyen. Le hazard me ſervit; une lettre de mon
           pere me tira d'embarras; il me marquoit de retourner à Paris ſur le champ pour affaire preſſante, un
           parent dont il me donnoit l'adreſſe, devoit me mettre au fait pour agir en conſéquence de ſes
           ordres. Je montrai ma lettre, &amp; quelques raiſons que l'on put me dire je fixai mon départ au
-          lendemain.</p>
-        <p>Babouin me témoigna combien il étoit mortifié de ne me pas voir un des témoins de ſon bonheur. La
+          lendemain.
+    </p>
+    <p>
+     Babouin me témoigna combien il étoit mortifié de ne me pas voir un des témoins de ſon bonheur. La
           petite Hugon voulut m'arrêter, je me fis honneur de la circonſtance; elle fut la dupe de ma
           prétendue ſenſibilité, je lui devois les apparences. La Blemicourt reçut mes adieux toute en larmes.
           Boiſcaré me fit préſent de ſes ouvrages, le Prieur m'aſſura de ſon amitié que je mettois bien
           au-deſſus. Je partis chéri de la Blemicourt, regretté de la petite Hugon; mais au grand contentement
           de ſa mere, qui vit mon éloignement avec bien du plaiſir ainſi que le MaîtreClerc. Pour M. Hugon, je
           ſuis sûr qu'il ne regretta que la penſion que l'on lui faiſoit pour moi. Je l'ai aſſez pratiqué pour
-          en juger moi-même.</p>
-        <p>Après mainte embraſſade je volai à Mantes rejoindre Colette, où le Braconier, inſtruit de
-          l'incident, s'étoit chargé de la conduire.</p>
-      </div>
-      <div type="chapter">
-        <head>CHAPITRE XXXII.</head>
-        <p>Qui tire à la fin.</p>
-        <p>Je paſſe la mauvaiſe nuit que nous eſſuyâmes dans la flotte, eſpece de galiote, qui remonte de
+          en juger moi-même.
+    </p>
+    <p>
+     Après mainte embraſſade je volai à Mantes rejoindre Colette, où le Braconier, inſtruit de
+          l'incident, s'étoit chargé de la conduire.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     CHAPITRE XXXII.
+    </head>
+    <p>
+     Qui tire à la fin.
+    </p>
+    <p>
+     Je paſſe la mauvaiſe nuit que nous eſſuyâmes dans la flotte, eſpece de galiote, qui remonte de
           Mantes à Poiſſi: l'incident des Nourrices que je pris pour un tas de linge ſale, la peur que me fit
           une d'elle en ſe retournant comme j'appuyois mon pied ſur ſa croupe; les cris des nourriſſons qui
           nous étourdirent à diverſes repriſes, l'inquiétode que me donnoit mon nouveau Domeſtique, que je
-          conduiſis enfin heureuſement juſqu'à Paris.</p>
-        <p>Les détails du petit ménage me procuroient chaque jour de nouveaux agrémens; il faut y avoir
-          paſſé pour ſentir le plaiſir que l'on y goûte.</p>
-        <p>Grace aux bontés de la Blemicourt, j'étois en état de me ſatisfaire. Colette dont je devenois
-          amoureux de plus en plus, me parut mériter que je me donnaſſe des ſoins pour ſon éducation.</p>
-        <p>Avant d'introduire les Maîtres, j'augmentai le train. Je m'aviſai d'une FemmedeChambre: meuble
+          conduiſis enfin heureuſement juſqu'à Paris.
+    </p>
+    <p>
+     Les détails du petit ménage me procuroient chaque jour de nouveaux agrémens; il faut y avoir
+          paſſé pour ſentir le plaiſir que l'on y goûte.
+    </p>
+    <p>
+     Grace aux bontés de la Blemicourt, j'étois en état de me ſatisfaire. Colette dont je devenois
+          amoureux de plus en plus, me parut mériter que je me donnaſſe des ſoins pour ſon éducation.
+    </p>
+    <p>
+     Avant d'introduire les Maîtres, j'augmentai le train. Je m'aviſai d'une FemmedeChambre: meuble
           critique en pareille ſituation, l'entretien en eſt à charge; &amp;.... mais, c'étoit une eſpece de
           compagnie; je crûs qu'il étoit même de la décence de l'introduire. Colette en fut flatée, cependant
           ſes talens ne tarderent pas à ſe développer; la Femme-de-Chambre ne ſe contenta pas de les admirer,
@@ -1801,8 +2295,10 @@
           il m'a fait de ces admirateurs autant d'envieux de mon ſort. Alors la Femme-de-Chambre joua un grand
           rôle. Plus adroite qu'intereſſée, elle m'inſtruiſoit des offres, j'allois à l'enchere, je vis
           bien-tôt la fin de mes finances, il me fallut céder la place, Colette m'honora de ſes regrets. Belle
-          conſolation.</p>
-        <p>Un jour que j'allois diſſiper mon chagrin, je rencontrai le Prieur, je ſuis charmé de vous voir:
+          conſolation.
+    </p>
+    <p>
+     Un jour que j'allois diſſiper mon chagrin, je rencontrai le Prieur, je ſuis charmé de vous voir:
           j'ai bien des choſes à vous apprendre, me dit-il. D'abord votre famille eſt fort irritée; mais
           tranquilliſez-vous, j'ai tout calmé par l'incident que vous allez ſçavoir. Le Baron m'a inſtruit de
           vos menées, il ne vous a pas perdu de vûe, gens appoſtés ne vous quittoient pas. C'eſt lui qui vous
@@ -1825,7 +2321,10 @@
           avec le voyage que je m'étois propoſé d'écrire, je n'entrerai pas dans ces détails. Il ſuffit au
           Lecteur le plus curieux de ſçavoir que j'épouſai la veuve; &amp; qu'après avoir rendu l'emprunt fait
           à la Blemicourt, j'oubliai tout le reſte. Béniſſant le ſort de m'être tiré heureuſement de toutes
-          les eſcapades.</p><p/></div>
-    </body>
-  </text>
+          les eſcapades.
+    </p>
+    <p/>
+   </div>
+  </body>
+ </text>
 </TEI>

@@ -1,88 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Pigault_Kinglin" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:00.122">Monsieur de Kinglin, ou la prescience: MiMoText edition</title>
-                <author ref="viaf:68934303 wikidata:Q3388279"> Pigault-Lebrun(1753-1835)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>gallica</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">21942</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5406165h"/>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Monsieur de Kinglin, ou la prescience.</title>
-                    <author>Pigault-Lebrun</author>
-                    <pubPlace>Paris</pubPlace>
-                    <publisher>J.-N. Barba</publisher>
-                    <date>1823</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1800</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2022-03-28">Initial ELTeC level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <p>MONSIEUR DE KINGLIN, OU LA PRESCIENCE.</p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head>MONSIEUR DE KINGLIN, OU LA PRESCIENCE.</head>
-                <p>DEUXIEME NOUVELLE.</p>
-                <p>L'avenir est au présent un peu moins que le passé, qui laisse au moins des souvenirs.
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:00.122">
+     Monsieur de Kinglin, ou la prescience: MiMoText edition
+    </title>
+    <author ref="viaf:68934303 wikidata:Q3388279">
+     Pigault-Lebrun(1753-1835)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     21942
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2021
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5406165h"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2008
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Monsieur de Kinglin, ou la prescience.
+     </title>
+     <author>
+      Pigault-Lebrun
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      J.-N. Barba
+     </publisher>
+     <date>
+      1823
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1800
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-03-28">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     MONSIEUR DE KINGLIN, OU LA PRESCIENCE.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     MONSIEUR DE KINGLIN, OU LA PRESCIENCE.
+    </head>
+    <p>
+     DEUXIEME NOUVELLE.
+    </p>
+    <p>
+     L'avenir est au présent un peu moins que le passé, qui laisse au moins des souvenirs.
                     Cependant, pour bien des gens, cet avenir est la région des illusions et de l'espérance;
                     et, à mesure qu'une minute succède à une autre, ces gens à chimères reculent les bornes de
                     ce pays, enfant de l'imagination. Ils meurent à cent ans, ayant toujours l'avenir devant
-                    eux, regrettant le passé, et se plaignant du présent, dont ils n'ont pas su jouir. </p>
-                <p>„Si j'avais lu dans l'avenir, me disait un homme, je n'aurais pas épousé ma femme. --
+                    eux, regrettant le passé, et se plaignant du présent, dont ils n'ont pas su jouir.
+    </p>
+    <p>
+     „Si j'avais lu dans l'avenir, me disait un homme, je n'aurais pas épousé ma femme. --
                     Pourquoi cela? -- Parce qu'elle me fait cocu. -- Une autre vous eût fait cocu comme elle.
                     -- Bah! -- Vous n'êtes pas beau, vous n'êtes pas aimable, vous êtes exigeant, brutal,
                     violent; malgré tout cela vous avez voulu une jolie femme, et avec tout cela on doit être
@@ -93,16 +149,22 @@
                     réel: on vous eût pendu pour vous apprendre qu'il ne faut pas tuer une jeune femme qui est
                     tentée de prendre ailleurs ce qu'elle ne trouve pas chez elle. Changez de manière d'être;
                     devenez doux, attentif, prévenant; ramenez votre femme, oubliez le passé, jouissez du
-                    présent, et laissez arriver l'avenir.“</p>
-                <p>„Ah! si j'avais connu l'avenir, me disait un autre, j'aurais empêché hier mon père de
+                    présent, et laissez arriver l'avenir.“
+    </p>
+    <p>
+     „Ah! si j'avais connu l'avenir, me disait un autre, j'aurais empêché hier mon père de
                     sortir de chez lui; il n'eût pas été tué par une tuile qui lui est tombée sur la tête.“ Le
                     lendemain mon homme est mort subitement, évènement que la prescience n'eût pas empêché;
-                    mais elle eût empêché le défunt de jouir de la vie jusqu'au dernier moment.</p>
-                <p>Un troisième me disait... Si je vous disais tout ce qu'on m'a dit, je ne finirais pas de
+                    mais elle eût empêché le défunt de jouir de la vie jusqu'au dernier moment.
+    </p>
+    <p>
+     Un troisième me disait... Si je vous disais tout ce qu'on m'a dit, je ne finirais pas de
                     dire. Les hommes sont des animaux bien bizarres: ils passent les deux tiers de leur vie à
                     faire des songes, et l'autre tiers à bâiller à côté des jouissances qui s'offrent
-                    continuellement à eux.</p>
-                <p>M. de Kinglin était très-homme sous ce rapport-là. Vous n'avez pas connu M. de Kinglin; je
+                    continuellement à eux.
+    </p>
+    <p>
+     M. de Kinglin était très-homme sous ce rapport-là. Vous n'avez pas connu M. de Kinglin; je
                     vais vous le faire connaître. C'était un gentilhomme bas-breton, qui cultivait de son
                     mieux quelques arpens dont il n'était pas même propriétaire; qui traçait fièrement son
                     sillon, son épée accrochée au manche de sa charrue; qui figurait aux États de Bretagne en
@@ -112,23 +174,37 @@
                     seigneur du village, qui lui permettait de tuer tous les dimanches un lièvre sur ses
                     terres; les paysans lui ôtaient le chapeau, parce qu'il descendait des anciens ducs de
                     Bretagne; les femmes lui faisaient la révérence par la même raison, et les jeunes filles
-                    ne prenaient pas garde à lui, parce qu'il n'était pas beau.</p>
-                <p>Il résulte de tout cela que M. de Kinglin était un homme fort ordinaire, excepté pourtant
+                    ne prenaient pas garde à lui, parce qu'il n'était pas beau.
+    </p>
+    <p>
+     Il résulte de tout cela que M. de Kinglin était un homme fort ordinaire, excepté pourtant
                     dans ses prétentions, qui étaient vraiment extraordinaires. Il lui semblait voir dans
                     l'avenir qu'un jour il présiderait les États de Bretagne, et qu'enfin il rétablirait, en
                     sa faveur, la souveraineté des anciens ducs. Il voulait, après cela, épouser une princesse
                     de France, qui lui apporterait la Normandie en dot, et alors il comptait bien manger de la
                     soupe à la graisse tous les jours, et aller vendre son blé en carrosse, car il n'était pas
-                    mal bête, M. de Kinglin, quoiqu'il fût excessivement noble.</p>
-                <p>Il avait fait cependant des efforts considérables pour se meubler le cerveau. Après avoir
+                    mal bête, M. de Kinglin, quoiqu'il fût excessivement noble.
+    </p>
+    <p>
+     Il avait fait cependant des efforts considérables pour se meubler le cerveau. Après avoir
                     arrosé de sa sueur, le jour, la terre qu'il prétendait gouverner, il lisait le soir, en
-                    grignotant son crouton, <hi rend="italic">Pierre de Provence, Jean de Calais, les Quatre
-                        Fils Aimon</hi>, et quelquefois un <hi rend="italic">Grand Albert</hi>, qu'une vieille
+                    grignotant son crouton,
+     <hi rend="italic">
+      Pierre de Provence, Jean de Calais, les Quatre
+                        Fils Aimon
+     </hi>
+     , et quelquefois un
+     <hi rend="italic">
+      Grand Albert
+     </hi>
+     , qu'une vieille
                     femme de chambre de la dame du lieu voulait bien lui prêter. Mais tous ces ouvrages
                     n'avaient servi qu'à le confirmer dans sa croyance aux fées, aux génies, aux sorciers et
                     aux diables, dont l'existence est incontestable, à ce que lui avait assuré madame sa nère,
-                    dans le temps où elle le promenait elle-même à la lisière, faute d'avoir une servante.</p>
-                <p>M. de Kinglin végéta jusqu'à l'âge de vingt-cinq ans, entre ses livres, ses sillons, ses
+                    dans le temps où elle le promenait elle-même à la lisière, faute d'avoir une servante.
+    </p>
+    <p>
+     M. de Kinglin végéta jusqu'à l'âge de vingt-cinq ans, entre ses livres, ses sillons, ses
                     projets et sa misère. L'avenir arrivait à chaque instant, et le trouvait toujours le même.
                     Comme on se lasse de tout, même d'espérer, M. de Kinglin résolut de prendre un parti
                     mitoyen entre la souveraineté de Bretagne, que l'avenir ne lui garantissait pas, et sa
@@ -145,28 +221,36 @@
                     préalablement le décrasser et faire son éducation; qu'il avait, incontestablement, le
                     droit d'être admis à l'école militaire; mais comme on ne recevait pas d'élèves de
                     vingt-cinq ans, le ministre décida, dans sa sagesse, que M. de Kinglin resterait dans son
-                    village.</p>
-                <p>M. de Kinglin, lui, avait décidé autrement. Comme il ne doutait pas que la sous-lieutenance
+                    village.
+    </p>
+    <p>
+     M. de Kinglin, lui, avait décidé autrement. Comme il ne doutait pas que la sous-lieutenance
                     lui fût accordée, il avait pris d'avance ses petits arrangemens: il avait vendu sa paire
                     de bœufs, sa charrue et sa herse, qui le nourrissaient tant bien que mal, et comme son
                     propriétaire était roturier, et qu'un gentilhomme ne doit pas d'égards à de telles gens,
                     Kinglin laissa à celui-ci ses terres à ensemencer, et partit sans lui rien faire dire. Le
                     voilà donc sur la route de Rennes, en sarrau de toile, en sabots, en bonnet de laine, et
                     l'épée au côté. Il portait sur le bras, avec un air de triomphe, un sac de toile qui
-                    renfermait cinq cent cinquante livres, la plus forte somme qu'il eût vue de sa vie.</p>
-                <p>Il se logea dans une assez bonne auberge, s'habilla assez proprement, et vécut assez bien,
+                    renfermait cinq cent cinquante livres, la plus forte somme qu'il eût vue de sa vie.
+    </p>
+    <p>
+     Il se logea dans une assez bonne auberge, s'habilla assez proprement, et vécut assez bien,
                     parce qu'on ne peut pas voir la fin de cinq cent cinquante livres. Il ne fit aucune
                     démarche auprès de l'intendant, parce que ce n'était que de la noblesse de robe: il lui
                     fit dire simplement qu'il attendait son brevet à l'auberge de la Licorne. Mais il se
                     présenta chez le président des Etats, et à tout ce qui tenait à l'épée. Partout on le
-                    reçut à cause de son nom, partout on se moqua de lui, et cela devait être.</p>
-                <p>Quand on ne sait ce qu'on fait, on voit en peu de temps la fin d'un million: un imbécille
+                    reçut à cause de son nom, partout on se moqua de lui, et cela devait être.
+    </p>
+    <p>
+     Quand on ne sait ce qu'on fait, on voit en peu de temps la fin d'un million: un imbécille
                     voit bien plus vite la fin d'un sac de cinq cents francs. Cependant, Kinglin ne s'alarmait
                     pas de la diminution de ses espèces: l'avenir consolateur était toujours devant lui. Mais
                     quand il eut mangé son dernier écu, il commença à s'occuper sérieusement du présent. Il
                     regretta d'avoir négligé l'intendant, et il se décida, en soupirant, à lui rendre une
-                    visite.</p>
-                <p>On n'apprend pas les usages du grand monde en conduisant une charrue. On s'accoutume, ce
+                    visite.
+    </p>
+    <p>
+     On n'apprend pas les usages du grand monde en conduisant une charrue. On s'accoutume, ce
                     qui vaut bien autant, à faire vivre des individus pleins de mépris pour leurs nourriciers.
                     Kinglin ignorait donc qu'on ne se présente pas chez un intendant à l'heure où il va se
                     mettre à table; il lui semblait, au contraire, que c'était le moment de le trouver plus
@@ -174,8 +258,10 @@
                     se rangeait, avec sa famille et quelques conseillers au parlement, autour d'un succulent
                     potage, flanqué de six entrées. Monseigneur, qui se piquait de savoir vivre, ne pouvait se
                     dispenser d'inviter M. de Kinglin à se mêler parmi ses convives, et M. de Kinglin ne se
-                    fit pas prier.</p>
-                <p>Au dessert, on apporta un énorme paquet que l'intendant décacheta avec l'agrément de
+                    fit pas prier.
+    </p>
+    <p>
+     Au dessert, on apporta un énorme paquet que l'intendant décacheta avec l'agrément de
                     l'honorable assemblée. Il était du ministre, et renfermait, entre autres choses, le rejet
                     du gentilhomme bas-Breton. Il était fort égal à monseigneur que Kinglin fût ou non
                     sous-lieutenant d'infanterie; mais un homme du bon ton annonce toujours une nouvelle
@@ -187,8 +273,10 @@
                     cousine. Comme les parlemens aimaient à médire du grand-conseil, le grand-conseil du
                     chancelier, le chancelier du monarque, le monarque de son valet de chambre, on laissa dire
                     Kinglin, qui s'en donna à cœur-joie, qui avait raison de se plaindre, mais à qui cette
-                    acrimonieuse sortie n'assurait pas un avenir plus heureux.</p>
-                <p>Il était à table à côté d'une jeune personne très-jolie, très-bien élevée, et qui,
+                    acrimonieuse sortie n'assurait pas un avenir plus heureux.
+    </p>
+    <p>
+     Il était à table à côté d'une jeune personne très-jolie, très-bien élevée, et qui,
                     pourtant, ne lui avait pas adressé quatre mots. Il avait saisi, dans le courant de la
                     conversation, que mademoiselle était fille unique de l'intendant, et il jugea, avec
                     beaucoup de sagacité, qu'on peut à toute force, après s'être borné à l'agrément d'une
@@ -203,8 +291,10 @@
                     d'assez mauvaise humeur. Il entendit de l'antichambre des éclats de rire dont il ne
                     soupçonnait pas qu'il fût l'objet, et en arrivant à la porte cochère, il trouva, sur ses
                     talons, un grand laquais qui le faisait remarquer au suisse, en lui disant: Désormais
-                    monseigneur n'est pas visible. Phrase banale, dont il ne comprit pas non plus le sens.</p>
-                <p>Pendant que Kinglin retournait à son auberge, une scène pathétique succédait, chez
+                    monseigneur n'est pas visible. Phrase banale, dont il ne comprit pas non plus le sens.
+    </p>
+    <p>
+     Pendant que Kinglin retournait à son auberge, une scène pathétique succédait, chez
                     l'intendant, aux ris immodérés. La jeune personne, qui haissait son président parce
                     qu'elle aimait beaucoup un joli capitaine de dragons, s'était jetée aux genoux de son
                     père, et l'avait supplié de renoncer à ses projets de mariage. Son père lui avait répondu
@@ -234,8 +324,10 @@
                     de quel-que temps, et il eut tort. La présidente s'en consola, et elle eut raison. Elle
                     revint chez son père, et eut tort. Il la chamailla, ils se chamaillèrent, et ils eurent
                     encore tort. Ils moururent tous deux de chagrin, et, pour la première fois, ils eurent
-                    raison tous deux.</p>
-                <p>Le beau conte à faire de cela, à l'aide de développemens qui n'ajouteraient rien à la
+                    raison tous deux.
+    </p>
+    <p>
+     Le beau conte à faire de cela, à l'aide de développemens qui n'ajouteraient rien à la
                     moralité! Il est incontestable qu'il était aussi facile de prouver, en deux cents pages
                     qu'en quarante lignes, qu'il ne faut jamais marier les filles contre leur gré, et que la
                     plus haute des sottises est de les épouser malgré elles. Revenons à ce pauvre Kinglin, que
@@ -254,59 +346,85 @@
                     maréchal-ferrant et de notre héros restèrent fièrement dans leur village, et, de
                     génération en génération, ces branches s'étaient tellement appauvries, qu'elles étaient
                     méconnues des parens suivant la cour, comme le cousin marmiton est ignoré du cousin
-                    empereur.</p>
-                <p>Le maréchal-ferrant, père de neuf enfans, pouvait très-peu de chose pour son cousin issu de
+                    empereur.
+    </p>
+    <p>
+     Le maréchal-ferrant, père de neuf enfans, pouvait très-peu de chose pour son cousin issu de
                     germain; mais, comme le sang ne peut mentir, il lui envoya six francs, avec une lettre
                     trèsamicale, écrite par Clotilde, la plus âgée, la plus spirituelle, et la plus jolie de
-                    ses filles.</p>
-                <p>Les cousins officiers-généraux voyaient les choses en grand, et demandèrent un régiment
+                    ses filles.
+    </p>
+    <p>
+     Les cousins officiers-généraux voyaient les choses en grand, et demandèrent un régiment
                     pour Kinglin. Le ministre leur répondit qu'il n'était pas même propre à faire un
                     sous-lieutenant. Or, comme l'église offrait une ressource sûre à ceux qui n'étaient
                     propres à rien, le maréchal de France dit un mot à une danseuse qui parlait de très-près à
                     l'évêque d'Orléans, et il fut décidé que le descendant des dues de Bretagne aurait
                     provisoirement un bénéfice simple, qui l'aiderait dans ses études, dont monsieur le
                     maréchal ne pouvait faire les frais, parce que, lorsqu'on vit à la cour, on a plus de
-                    dettes que d'argent comptant.</p>
-                <p>En conséquence de cet arrangement, Kinglin, qui n'avait pas de volontés, se rendit à pied
+                    dettes que d'argent comptant.
+    </p>
+    <p>
+     En conséquence de cet arrangement, Kinglin, qui n'avait pas de volontés, se rendit à pied
                     au séminaire de Saint-Sulpice, vivant frugalement de l'écu de six livres que lui avait
                     envoyé le cousin Brûle-Fer. En prenant ses maigres repas, et en longeant l'ennuyeuse
                     grande route, Kinglin voyait encore un avenir superbe devant lui: un canonicat mène à un
                     évêché, l'évêché au cardinalat, le cardinalat à la tiare; et, pourvu que le bas-Breton fût
-                    souverain, il n'était pas difficile sur le genre de la souveraineté.</p>
-                <p>En attendant la papauté, il fallait se mettre en état de dire la messe, et, pour cela, il
+                    souverain, il n'était pas difficile sur le genre de la souveraineté.
+    </p>
+    <p>
+     En attendant la papauté, il fallait se mettre en état de dire la messe, et, pour cela, il
                     faut savoir au moins un peu de latin, puisque c'est dans cette langue paienne, seulement,
                     qu'il est permis de parler au Dieu des chrétiens. On ne pouvait pas envoyer en sixième un
                     enfant de vingt-cinq ans, et un bon prêtre de Saint-Sulpice se chargea de dégrossir l'abbé
                     de Kinglin, moyennant une livre de tabac, une livre de café et une livre de sucre, que
                     l'écolier lui donnerait tous les mois, en échange de ses soins, sur le produit du
-                    bénéfice...</p>
-                <p>Voilà donc Kinglin tondu de la main de l'évêque d'Orléans, enfilé dans une soutane, et
-                    bégayant, <hi rend="italic">musa, la muse</hi>. Les choses allèrent assez bien pendant
+                    bénéfice...
+    </p>
+    <p>
+     Voilà donc Kinglin tondu de la main de l'évêque d'Orléans, enfilé dans une soutane, et
+                    bégayant,
+     <hi rend="italic">
+      musa, la muse
+     </hi>
+     . Les choses allèrent assez bien pendant
                     quelque temps, parce qu'à travers les momeries, les austérités, les privations, la
                     sècheresse de l'étude, l'abbé croyait entrevoir le Vatican et le Capitole. Une malheureuse
-                    ravaudeuse culbuta le néophyte de la chaire de Saint-Pierre.</p>
-                <p>Kinglin avait la robe de drap fin, le manteau de voile, la calotte luisante: en
+                    ravaudeuse culbuta le néophyte de la chaire de Saint-Pierre.
+    </p>
+    <p>
+     Kinglin avait la robe de drap fin, le manteau de voile, la calotte luisante: en
                     conséquence, il lui était permis d'aller quelquefois faire sa cour à monsieur le maréchal.
                     Il était le protégé de deux hommes puissans, et, en conséquence, on exigeait de lui moins
                     de régularité que de ses confrères. Il sortait le plus souvent qu'il pouvait, pour éviter
                     l'homme au rudiment, et, en sortant et en rentrant, il lorgnait la ravaudeuse, qui
-                    raccommodait, à la porte du séminaire, les bas de ces messieurs...</p>
-                <p>Elle n'était pas jolie, mais elle était jeune; elle était sotte, mais elle était facile.
-                    Kinglin avait vingt-cinq ans, et le sang chaud: la nature fit le reste.</p>
-                <p>La ravaudeuse n'était pas novice, mais les séminaristes étaient prudens. Kinglin, qui
+                    raccommodait, à la porte du séminaire, les bas de ces messieurs...
+    </p>
+    <p>
+     Elle n'était pas jolie, mais elle était jeune; elle était sotte, mais elle était facile.
+                    Kinglin avait vingt-cinq ans, et le sang chaud: la nature fit le reste.
+    </p>
+    <p>
+     La ravaudeuse n'était pas novice, mais les séminaristes étaient prudens. Kinglin, qui
                     voulait pénétrer l'avenir, ne soupçonnait pas à quoi peut être bonne la prudence en amour;
                     la ravaudeuse se trouva double, et accorda à notre abbé les honneurs de la paternité.
                     L'abbé, dégoûté de la ravaudeuse, l'envoya promener; la ravaudeuse demanda de l'argent;
                     l'abbé, en la refusant, fit une seconde imprudence; la ravaudeuse fit du bruit; l'abbé ne
                     prévit point que le cas viendrait aux oreilles du supérieur de Saint-Sulpice: ce fut
                     pourtant ce qui arriva, et comme le crime de faire un enfant est un crime irrémissible au
-                    séminaire, bien que Dieu ait dit, <hi rend="italic">croissez et multipliez</hi>, l'abbé de
+                    séminaire, bien que Dieu ait dit,
+     <hi rend="italic">
+      croissez et multipliez
+     </hi>
+     , l'abbé de
                     Kinglin fut impitoyablement chassé. Comme l'évéque d'Orléans devait maintenir publiquement
                     la pureté de l'église, dont il se moquait dans les boudoirs, il dépouilla l'abbé de son
                     bénéfice, et comme on est fort aise de trouver un prétexte pour abandonner des parens dans
                     l'indigence, le maréchal de France partagea la sainte colère de l'évêque: il interdit sa
-                    porte au cousin, et le livra à son malheureux sort.</p>
-                <p>Kinglin mangea sans regret sa soutane, sa calotte et son manteau, parce que l'avenir était
+                    porte au cousin, et le livra à son malheureux sort.
+    </p>
+    <p>
+     Kinglin mangea sans regret sa soutane, sa calotte et son manteau, parce que l'avenir était
                     toujours là. Cependant, un soir qu'il n'avait pas encore déjeuné, il fut ramené au présent
                     par la faim la plus pressante. Un gentilhomme n'a qu'un de ces trois partis à prendre:
                     l'épée, la robe, ou l'église. On l'avait chassé du sanctuaire; on lui avait refusé une
@@ -321,8 +439,10 @@
                     fallait simplement que ces messieurs s'assurassent qu'il eût cinq pieds deux pouces. Il
                     lui manquait douze ou quinze lignes. Il avait d'ailleurs les jambes arquées, une figure
                     plate, et on lui refusa le droit de végéter à la gamelle, à cinq sous par jour. Il y avait
-                    de quoi se donner au diable: il s'y donna en effet.</p>
-                <p>Vous riez? Il n'y a pas là de quoi rire. Demandez à nos dévotes si on ne va pas au sabbat;
+                    de quoi se donner au diable: il s'y donna en effet.
+    </p>
+    <p>
+     Vous riez? Il n'y a pas là de quoi rire. Demandez à nos dévotes si on ne va pas au sabbat;
                     et irait-on au sabbat, s'il n'y avait pas de diable; et serait-on bien reçu du diable, si
                     on ne se donnait pas à lui? D'ailleurs, révoquez-vous l'évangile en doute? Ne vous dit-il
                     pas qu'en Judée, où on ne mangeait pas de porc, le diable se mit dans un troupeau de
@@ -330,8 +450,10 @@
                     l'esprit malin, ce qui eût bien autant arrangé le propriétaire? Ne savez-vous pas que,
                     dans les temps modernes, on exorcisait des possédés à Besançon? N'exorcise-t-on pas tous
                     les jours dans toutes vos églises? Donc, il est un diable; donc, on se donne à lui: je
-                    vous le certifie, d'ailleurs, dans un livre moulé comme les autres.</p>
-                <p>Le jeûne allume l'imagination; l'imagination, allumée de cette manière, n'est pas riante du
+                    vous le certifie, d'ailleurs, dans un livre moulé comme les autres.
+    </p>
+    <p>
+     Le jeûne allume l'imagination; l'imagination, allumée de cette manière, n'est pas riante du
                     tout, et un cerveau frappé d'idées sinistres, conduit toujours à des excès. Kinglin,
                     rentré dans son taudis, ayant usé son dernier bout de chandelle, rêvait dans les ténèbres
                     à sa cruelle position. Il regrettait le séminaire, il regrettait ses bœufs et sa charrue;
@@ -340,8 +462,10 @@
                     rappelât point certain grimoire dont il faisait autrefois sa lecture favorite. Le
                     grimoire, vous le savez, nous met en relation avec l'esprit immonde. Ce commerce n'a rien
                     de satisfaisant pour un homme délicat; mais il ne fait pas déroger un gentilhomme, et ce
-                    n'est pas au sein de la misére qu'il faut se piquer de tant de délicatesse.</p>
-                <p>Kinglin descend son escalier en façon d'échelle; il entre dans sa cour de six pieds en
+                    n'est pas au sein de la misére qu'il faut se piquer de tant de délicatesse.
+    </p>
+    <p>
+     Kinglin descend son escalier en façon d'échelle; il entre dans sa cour de six pieds en
                     carré, où une bonne vieille nourrissait des poules qui lui fournissaient des œufs frais;
                     il ouvre doucement la porte du poulailler; il met la main sur une poule noire, tout-à-fait
                     propre aux conjurations; il l'emporte, malgré ses cris; il sort de l'allée, ouverte en
@@ -351,30 +475,44 @@
                     fait un cercle autour de lui, il met sa poule au milieu, et, à minuit très-précis, il
                     prononce trois mots que je ne vous apprendrai pas, parce que nous avons déja assez de
                     diables parmi nous, et que je ne veux pas vous donner la fantaisie d'en augmenter le
-                    nombre.</p>
-                <p>A peine les trois mots sont-ils prononcés, que la poule se débat et meurt en chantant les
+                    nombre.
+    </p>
+    <p>
+     A peine les trois mots sont-ils prononcés, que la poule se débat et meurt en chantant les
                     louanges de Dieu. A peine est-elle morte, que la terre tremble. A peine la terre a-t-elle
                     tremblé, que la lune, teinte de sang, descend sur le chemin de Neuilly. A peine est-elle
                     remontée à sa place, qu'un grand monsieur paraît au-dehors du cercle, dans lequel la vertu
-                    des paroles magiques l'empêche de pénétrer.</p>
-                <p>Le grand monsieur, plus grand que moi de toute la grandeur du bonnet de carton de
+                    des paroles magiques l'empêche de pénétrer.
+    </p>
+    <p>
+     Le grand monsieur, plus grand que moi de toute la grandeur du bonnet de carton de
                     Sganarelle, a des cornes de bélier sur la tête, une queue de singe, qui joue avec grace
                     entre ses jambes, des pieds de bouc, et, par-dessus tout cela, une perruque à bourse et un
                     habit écarlate, galonné en or, parce que c'est toujours dans cet appareil que le diable
                     paraît: demandez plutôt. Dès que Kinglin eut vu le grand monsieur, il eut peur, et il
                     n'est pas de héros qui n'eût eu peur comme lui. Dès que le grand monsieur eut parlé, il
                     eut plus de peur encore, parce que le diable a quelque chose de très-extraordinaire dans
-                    l'organe.</p>
-                <p>Dès que le grand monsieur se fut tu, Kinglin resta tout étourdi et très-embarrassé de
+                    l'organe.
+    </p>
+    <p>
+     Dès que le grand monsieur se fut tu, Kinglin resta tout étourdi et très-embarrassé de
                     répondre, parce qu'il n'était pas préparé à converser avec le diable. Cependant, la
                     question adressée à Kinglin était aussi simple que courte, et le membre de l'Institut le
-                    plus concis n'en eût pu rien retrancher: <hi rend="italic">Que veux-tu de moi?</hi> C'est
-                    toujours là ce que demande le diable à ceux qui le forcent de paraître.</p>
-                <p>Kinglin balança long-temps entre les mille et un dons qu'il pouvait obtenir, car il est
+                    plus concis n'en eût pu rien retrancher:
+     <hi rend="italic">
+      Que veux-tu de moi?
+     </hi>
+     C'est
+                    toujours là ce que demande le diable à ceux qui le forcent de paraître.
+    </p>
+    <p>
+     Kinglin balança long-temps entre les mille et un dons qu'il pouvait obtenir, car il est
                     encore de règle que le diable n'en accorde qu'un. Tantôt le Bas-Breton penchait pour une
                     chose; l'instant d'après, il inclinait pour une autre, et le grand monsieur attendait,
-                    d'un air soumis et révérend, qu'il lui plût de se décider.</p>
-                <p>Kinglin se rappela enfin que l'avenir, pour lui si riche, si beau, si séduisant, avait
+                    d'un air soumis et révérend, qu'il lui plût de se décider.
+    </p>
+    <p>
+     Kinglin se rappela enfin que l'avenir, pour lui si riche, si beau, si séduisant, avait
                     constamment abusé de son ignorance, et qu'il dépendait de lui d'y lire désormais aussi
                     facilement que dans le petit Office de la Vierge. Il jugea que le don de deviner était un
                     don dont les avantages s'étendaient à tout, qui réglerait sûrement sa conduite et ses
@@ -383,35 +521,45 @@
                     demandé la grêle sur tous les champs voisins du sien; un pauvre prêtre, le rétablissement
                     des biens du clergé; un rentier, la restauration de l'ancien régime; une vieille coquette,
                     le retour de ses appas; un vieux libertin, le retour de sa vigueur; un fournisseur,
-                    l'éternité de la guerre; et Despaze, l'immortalité, que le diable n'eût pu lui donner.</p>
-                <p>Kinglin ordonna donc au grand monsieur de lui dévoiler l'avenir à l'oreille, chaque fois
+                    l'éternité de la guerre; et Despaze, l'immortalité, que le diable n'eût pu lui donner.
+    </p>
+    <p>
+     Kinglin ordonna donc au grand monsieur de lui dévoiler l'avenir à l'oreille, chaque fois
                     qu'il l'interrogerait. Le grand monsieur y consentit avec beaucoup de politesse. Il tira
                     de sa poche un carré de papier marqué, sur lequel était une donation en bonne forme de
                     l'ame du demandeur; il piqua de son ergot le petit doigt de Kinglin, qui signa, de son
                     sang, la donation, et le grand monsieur disparut, après avoir fait une profonde
-                    révérence.</p>
-                <p>Kinglin pense d'abord au plus pressé; c'est de manger. Il demande à son démon familier où
+                    révérence.
+    </p>
+    <p>
+     Kinglin pense d'abord au plus pressé; c'est de manger. Il demande à son démon familier où
                     il trouvera, le lendemain, un bon repas qui n'appartienne à personne, car si Kinglin est
                     capable de s'être donné au diable, il ne l'est pas de rien dérober. „A quatre heures du
                     matin, lui dit tout bas l'esprit, sors de chez toi, marche au soleil levant, tu trouveras
-                    un tas de pierres; une d'elles est taillée en pilastre, tu la leveras.“</p>
-                <p>Kinglin ne comprenait pas trop comment il trouverait, sous une pierre, un repas tout
+                    un tas de pierres; une d'elles est taillée en pilastre, tu la leveras.“
+    </p>
+    <p>
+     Kinglin ne comprenait pas trop comment il trouverait, sous une pierre, un repas tout
                     apprêté qui n'appartiendrait à personne; mais comme le diable ne se trompe jamais, et
                     qu'un estomac vide commande la foi, il fit exactement ce que prescrivait l'oracle. Il
                     marcha long-temps sans trouver le tas de pierres. Enfin, il rencontra ce qu'il cherchait,
                     rue de l'Université, au coin de la rue du Bac. Il regarda autour de lui s'il n'était vu de
                     personne, et, comme personne à Paris e se lève à quatre heures du matin, il entra avec
                     sécurité dans ces pierres, qui dérobaient le trésor le plus précieux pour un homme
-                    affamé.</p>
-                <p>Après avoir fait quelques tours, il trouva le pilastre sous lequel était un levier; il
+                    affamé.
+    </p>
+    <p>
+     Après avoir fait quelques tours, il trouva le pilastre sous lequel était un levier; il
                     retourna la masse, sous laquelle étaient trois bouts de planches; il leva les planches,
                     sous lesquelles était un trou; dans le trou était un grand plat chargé d'un dindon, de
                     deux poulets et de six cailles rôtis; à côté du plat, deux pains au lait, deux biscuits de
                     Savoie, proprement enveloppés dans du papier, une bouteille de Clos-Vougeot, et une de
                     Madère. Kinglin, extasié à la vue de tant de belles choses, ôta son gilet, le seul qui lui
                     restât; il enveloppa dedans le contenu du bienheureux trou, et regagna son chenil à pas
-                    précipités.</p>
-                <p>Il ne mange pas, il dévore. Les poulets, les cailles, la moitié du dindon, et les deux
+                    précipités.
+    </p>
+    <p>
+     Il ne mange pas, il dévore. Les poulets, les cailles, la moitié du dindon, et les deux
                     bouteilles de vin, sont expédiés dans une demi-heure. Il se disposait à digérer
                     agréablement, et à consulter son démon sur des objets plus importans, quand le ventre
                     commença à lui gargouiller d'une étrange manière. Bientôt les maux de cœur s'ensuivirent,
@@ -419,8 +567,10 @@
                     diable, toujours pressé de jouir, espérait qu'il rendrait l'ame à la suite de tout cela;
                     mais il fut trompé pour cette fois. Kinglin en fut quitte pour quinze jours passés à
                     l'Hôtel-Dieu, à maudire le repas vraiment diabolique qu'il avait trouvé, et à se plaindre
-                    amèrement de l'esprit, qui n'était pour rien dans cette affaire. Voici le fait:</p>
-                <p>Vous avez sans doute entendu parler du marquis de Bagueville, qui s'est cassé une cuisse
+                    amèrement de l'esprit, qui n'était pour rien dans cette affaire. Voici le fait:
+    </p>
+    <p>
+     Vous avez sans doute entendu parler du marquis de Bagueville, qui s'est cassé une cuisse
                     sur un bateau de blanchisseuses, en essayant de voler d'un bord de la Seine à l'autre; qui
                     fit pendre, dans son écurie, un de ses chevaux qui avait cassé la jambe à son voisin, et
                     qui s'est enfin rendu célebre par d'autres originalités, ou sottises du même genre. Ce
@@ -429,8 +579,10 @@
                     tant de pierres au coin de la rue du Bac. Le marquis avait un cuisinier qui entretenait
                     une petite couturière aux dépens de son maître, qui lui portait ce qu'il avait de mieux
                     dans la desserte; et voici comment il arriva que le fameux repas fut déposé sous le
-                    pilastre, et y acquit la vertu purgative.</p>
-                <p>Malgré son insouciance, le marquis s'était aperçu des infidélités de son cuisinier; il
+                    pilastre, et y acquit la vertu purgative.
+    </p>
+    <p>
+     Malgré son insouciance, le marquis s'était aperçu des infidélités de son cuisinier; il
                     avait fait tapage, et n'y avait rien gagné. Un autre eût renvoyé ce domestique; mais le
                     marquis était gourmand, et cet homme lui faisait d'excellentes sauces. Bagueville prit le
                     parti d'examiner ses démarches de plus près, et de visiter, de temps à autre, son office
@@ -439,8 +591,10 @@
                     à établir son dépôt hors de l'hôtel. Il passa une nuit tout entière à arranger le trou que
                     vous connaissez. Il y faisait, dans le jour, plusieurs voyages à la dérobée, et, quand le
                     magasin était tout-à-fait rempli, il partait le soir avec un panier bien chargé, et allait
-                    faire bombance avec ses amis chez sa belle.</p>
-                <p>Le marquis avait donné un grand souper, ce qui avait retenu le cuisinier à l'hôtel plus
+                    faire bombance avec ses amis chez sa belle.
+    </p>
+    <p>
+     Le marquis avait donné un grand souper, ce qui avait retenu le cuisinier à l'hôtel plus
                     tard que de coutume. Après le départ de ses convives, le marquis, au lieu de dormir, passa
                     le temps à rêver à quelque mécanique propre à lui casser tout-à-fait le cou, et son
                     appartement donnait du côté de l'amas de pierres. Il entendit le bruit du levier. Sans
@@ -452,8 +606,10 @@
                     le pilastre. Le marquis ne savait que penser de ce trou qu'il n'avait pas vu la veille; il
                     sauta dedans, présenta sa lanterne de tous les côtés; un peu de fromage à la crême attaché
                     à la terre, quelques marrons glacés qui étaient tombés dans le fond, lui donnèrent la clé
-                    de l'énigme.</p>
-                <p>Il jugea que son cuisinier était incorrigible, et il se promit de lui faire, au moins, une
+                    de l'énigme.
+    </p>
+    <p>
+     Il jugea que son cuisinier était incorrigible, et il se promit de lui faire, au moins, une
                     niche dont il se souviendrait long-temps. La nuit même où Kinglin s'était donné au diable,
                     le marquis était retourné au dépot, qui était déja passablement garni, et qu'il retrouva
                     facilement, bien qu'il fût exactement fermé. Il saupoudra d'émétique et de rhubarbe,
@@ -464,8 +620,10 @@
                     dans tous ses points. Kinglin avait trouvé un magasin de vivres qui n'appartenait à
                     personne, puisque le cuisinier n'y avait aucun droit, et le marquis, en se ménageant le
                     petit plaisir de purger ceux qui tâteraient de ces mets, avait évidemment renoncé à sa
-                    propriété.</p>
-                <p>Laissons M. de Bagueville et son cuisinier s'arranger comme ils l'entendront, et retournons
+                    propriété.
+    </p>
+    <p>
+     Laissons M. de Bagueville et son cuisinier s'arranger comme ils l'entendront, et retournons
                     à l'Hôtel-Dieu. Kinglin, parfaitement purgé, prenait de la santé pour dix ans, à l'aide de
                     bons restaurans, seul remède que le médecin avait cru devoir lui prescrire, et qui avait
                     le double avantage d'être très-agréable à prendre, et de ne rien coûter au preneur.
@@ -487,8 +645,10 @@
                     n'auront jamais connaissance de ce trésor: ce soir donc, il ne sera à personne. -- Et où
                     est-il ce trésor-là? -- près de Bordeaux. -- Je serai mort de faim avant d'y arriver. --
                     Dame, arrange-toi. -- Va me chercher le trésor. Nous ne sommes pas convenus que j'irais:
-                    tu as demandé le don de deviner; tu l'as, mes obligations sont remplies.“</p>
-                <p>Diable! diable! disait Kinglin en se grattant l'oreille, ce qui ne l'avançait de rien, et
+                    tu as demandé le don de deviner; tu l'as, mes obligations sont remplies.“
+    </p>
+    <p>
+     Diable! diable! disait Kinglin en se grattant l'oreille, ce qui ne l'avançait de rien, et
                     il se promenait de long en large dans sa salle. Il se promena jusqu'à ce qu'on lui
                     rapportât sa chemise, son gilet et sa culotte, qu'on lui rendit en lui signifiant qu'il
                     fallait faire place à d'autres. Il sortit et regagna son grenier, qu'il trouva loué à un
@@ -497,8 +657,10 @@
                     étoile; mais l'avenir? C'était toujours là ce qui le tourmentait, et cet avenir devait
                     commencer le lendemain à l'heure du déjeuner. Il y rêva, dans les rues de Paris, jusqu'à
                     onze heures du soir, et, se trouvant alors sous les piliers des Halles, il se coucha, et
-                    s'endormit d'un profond sommeil.</p>
-                <p>Il fut réveillé assez tard par un colporteur de billets de loterie, qui criait d'une voix
+                    s'endormit d'un profond sommeil.
+    </p>
+    <p>
+     Il fut réveillé assez tard par un colporteur de billets de loterie, qui criait d'une voix
                     aigre On la tire aujourd'hui. „Voilà, dit Kinglin, une ressource qui me dispensera de
                     m'ensevelir dans les entrailles du Mont-Cénis, dans le fond de la mer; et de faire le
                     voyage de Bordeaux.“ Il entre chez un fripier, lui présente son gilet, en tire quinze
@@ -506,8 +668,10 @@
                     Et Kinglin court au prochain bureau: il met douze sous sur ce quine: le buraliste lui rit
                     au nez en faisant sa mise. „Rira bien qui rira le dernier, lui dit Kinglin, en prenant son
                     billet.“ Et avec les trois sous qui lui restent, il achète une livre de pain, qu'il
-                    humecte de deux verres de tisanne, se promettant bien de dîner comme un prince.</p>
-                <p>Midi sonne, la roue a tourné, l'aveugle déesse a rendu ses décrets, et le diable s'est
+                    humecte de deux verres de tisanne, se promettant bien de dîner comme un prince.
+    </p>
+    <p>
+     Midi sonne, la roue a tourné, l'aveugle déesse a rendu ses décrets, et le diable s'est
                     montré fidèle à tenir ses engagemens. Les cinq numéros sortis assurent, à Kinglin, environ
                     soixante-quinze mille livres. Il retourne au bureau; le buraliste ne rit plus; il avance
                     un fauteuil à l'enfant gâté de la fortune, et lui dit, en soupirant, que le lot est trop
@@ -519,8 +683,10 @@
                     l'envoie promener; il prend un fiacre, il trotte à l'administration, on lui pèse ses
                     espèces, les sacs s'amoncèlent dans la voiture, et il se fait conduire sous les piliers
                     des Halles, chez M. Rubit, le plus famé et le mieux fourni des fripiers de ce
-                    temps-là.</p>
-                <p>On ne laisse pas soixante-quinze mille livres à la garde d'un cocher de fiacre, bien qu'il
+                    temps-là.
+    </p>
+    <p>
+     On ne laisse pas soixante-quinze mille livres à la garde d'un cocher de fiacre, bien qu'il
                     s'en trouve de très-probes parfois, ce qui, pourtant, n'est pas commun. Kinglin envoie son
                     cocher faire une battue aux environs, il revient avec tailleur, lingère, chapelier,
                     cordonnier, perruquier et fourbisseur. Le fiacre est d'abord transformé en boutique de
@@ -530,7 +696,10 @@
                     blanc. La canaille et les imbécilles s'amassent autour du fiacre, selon l'usage de Paris,
                     où on semble n'avoir vu le monde qu'à travers le trou d'une bouteille; on hue, on siffle
                     le nouvel enrichi, qui jette une poignée d'écus à droite et à gauche, et pendant que la
-                        <hi rend="italic">gredinaille</hi> se gourme et se roule dans les ruisseaux pour un
+     <hi rend="italic">
+      gredinaille
+     </hi>
+     se gourme et se roule dans les ruisseaux pour un
                     écu de plus ou de moins, la lingère succède au coiffeur, à celle-ci le tailleur, à
                     celui-là le cordonnier, le chapelier, et enfin le fourbisseur. Tous font leur métier à
                     force de temps et dans la plus gênante des attitudes, et personne ne murmure, parce que
@@ -538,14 +707,18 @@
                     se prête à tout pendant les six jours de la semaine, pourvu que le dimanche il se
                     dédommage en prenant l'habit neuf, en cachant ses mains noires ou calleuses dans des gants
                     blancs tricotés, et en faisant, tant bien que mal, le monsieur dans la foule dont il est
-                    inconnu.</p>
-                <p>Un sac de douze cents francs vidé sur la place, Kinglin se fait conduire à un superbe hôtel
+                    inconnu.
+    </p>
+    <p>
+     Un sac de douze cents francs vidé sur la place, Kinglin se fait conduire à un superbe hôtel
                     garni qu'il avait remarqué en face de celui de son cousin le maréchal de France, qu'il
                     compte bien narguer complètement à son tour. Il loue le plus bel appartement sur la rue;
                     il arrête un remise en attendant qu'il ait un équipage; il prend un laquais que son hôte
                     lui présente, en attendant qu'on lui ait trouvé un valet de chambre:; et il se fait servir
-                    un dîner somptueux, où rien n'est apprêté à l'émétique ni à la rhubarbe.</p>
-                <p>On ne passe pas d'une position désespérée à un état brillant, sans perdre un peu la tête:
+                    un dîner somptueux, où rien n'est apprêté à l'émétique ni à la rhubarbe.
+    </p>
+    <p>
+     On ne passe pas d'une position désespérée à un état brillant, sans perdre un peu la tête:
                     Kinglin, qui l'avait plus faible qu'un autre, la perdit tout-à-fait. Il arrêta d'abord
                     qu'il satisferait toutes les fantaisies qui lui passeraient par le cerveau, et il lui en
                     passa mille pendant qu'il dînait. Celle qui le chatouillait davantage était la fantaisie
@@ -556,22 +729,30 @@
                     maréchal de France, qu'il était informé du dérangement de ses affaires, et qu'ayant besoin
                     d'un hôtel, il désirerait acquérir le sien, qui, depuis cent ans, appartenait à la
                     famille, et dont, par cette considération, il offrait cent mille francs au-delà de sa
-                    valeur.</p>
-                <p>Vous trouverez que le cousin Kinglin va vite pour un homme qui ne possede que
+                    valeur.
+    </p>
+    <p>
+     Vous trouverez que le cousin Kinglin va vite pour un homme qui ne possede que
                     soixantequinze mille francs; mais la loterie se tire deux fois par mois, et Kinglin se
-                    promettait bien de ne pas s'en tenir à jouer le quine à dix sous.</p>
-                <p>Une idée saugrenue en amène quelquefois une bonne. Après avoir écrit à son cousin le
+                    promettait bien de ne pas s'en tenir à jouer le quine à dix sous.
+    </p>
+    <p>
+     Une idée saugrenue en amène quelquefois une bonne. Après avoir écrit à son cousin le
                     maréchal de France, il écrivit à son cousin le maréchalferrant: „Vous m'avez envoyé six
                     francs quand j'étais pauvre, et c'était tout ce que vous pouviez. Moi, je vous envoie cent
                     louis, et c'est moins que je ne peux; mais ne vous gênez pas, mon coffre-fort est à votre
-                    service.“</p>
-                <p>La somme et les deux lettres expédiées, Kinglin se livra sans réserve à son goût favori.
+                    service.“
+    </p>
+    <p>
+     La somme et les deux lettres expédiées, Kinglin se livra sans réserve à son goût favori.
                     Or, comme il pressentait que Plutus ne doit pas trouver de cruelles, il ne se donna pas la
                     peine de chercher un objet intéressant à qui il pût plaire. Il demanda à son démon où il
                     trouverait une fille qui lui parût la plus jolie et la plus aimante. Le diable l'envoya à
                     la Comédie Française, dans la loge du roi, et avant de partir, Kinglin mit de l'or en
-                    quantité dans ses poches.</p>
-                <p>Il n'y avait encore dans cette loge que deux femmes, l'une sur le retour, l'autre dans tout
+                    quantité dans ses poches.
+    </p>
+    <p>
+     Il n'y avait encore dans cette loge que deux femmes, l'une sur le retour, l'autre dans tout
                     l'éclat de la jeunesse, et dont l'ensemble parut notre amoureux réunir ce qu'il pouvait
                     imaginer de plus séduisant. Il aborda ces dames avec la noble hardiesse que donne
                     l'opulence. La jeune personne lui parut timide, et il en augura bien: il se déclara, on
@@ -585,8 +766,10 @@
                     et il crut s'apercevoir que celle-ci devenait plus attentive. A la fin du spectacle, il
                     présenta le poignet. Un équipage simple, mais élégant, attendait les dames à la porte;
                     Kinglin renvoya son remise, et monta en carrosse avec elles; on le retint à souper, et il
-                    fut servi avec cette délicatesse qui annonce l'usage du plus grand monde.</p>
-                <p>Pendant le repas, il apprit que ses hôtesses étaient de province, que la tante venait
+                    fut servi avec cette délicatesse qui annonce l'usage du plus grand monde.
+    </p>
+    <p>
+     Pendant le repas, il apprit que ses hôtesses étaient de province, que la tante venait
                     solliciter, à Paris, un procès d'où dépendait sa fortune, et qu'elle avait saisi cette
                     occasion de faire voir la capitale à sa nièce. Kinglin avait ouï dire que le bon droit ne
                     suffit pas toujours, quelle que soit l'intégrité de nos juges; il pensa qu'un millier de
@@ -594,22 +777,28 @@
                     offrit franchement. On les refusa avec politesse, et certain air d'embarras lui fit
                     soupçonner qu'on n'était pas en argent comptant. Il insista; on se rendit, mais à
                     condition qu'il recevrait une reconnaissance en bonne forme. Madame Latour passa dans son
-                    cabinet pour la faire, et le laissa seul avec la charmante Rose.</p>
-                <p>A la suite d'un prêt de mille louis, on peut hasarder quelques libertés. Kinglin s'en
+                    cabinet pour la faire, et le laissa seul avec la charmante Rose.
+    </p>
+    <p>
+     A la suite d'un prêt de mille louis, on peut hasarder quelques libertés. Kinglin s'en
                     permit de très-prononcées, que l'innocence repoussa avec fermeté, mais sans aigreur: la
                     vertu est toujours assez forte pour imposer au vice. Cependant l'amour, le vin, les
                     liqueurs rendaient Kinglin entreprenant comme un page; il ne se possédait plus. Rose,
                     incapable de ces éclats qui nuisent toujours à la réputation d'une femme, se contentait
                     d'opposer des mains très-actives aux attaques multipliées du téméraire; en se défendant,
                     elle marcha, malheureusement, sur la queue de sa robe, et broncha; Kinglin la poussa: elle
-                    tomba sur une ottomane, et ma foi...</p>
-                <p>La pauvre petite pleura en se relevant, et Kinglin recueillit et essuya ses larmes. Effrayé
+                    tomba sur une ottomane, et ma foi...
+    </p>
+    <p>
+     La pauvre petite pleura en se relevant, et Kinglin recueillit et essuya ses larmes. Effrayé
                     de l'indignité de sa conduite, il supplia Rose de ne rien faire paraître devant sa tante;
                     il lui jura qu'il l'épouserait aussitôt qu'il aurait rempli les formalités d'usage. Rose
                     parut rassurée par cette promesse; ses jolis yeux se séchèrent; madame Latour rentra, ne
                     s'aperçut de rien, et Kinglin les invita, l'une et l'autre, à venir dîner chez lui le
-                    lendemain.</p>
-                <p>En rentrant à l'hôtel, il trouva un officier que son cousin, le maréchal de France, avait
+                    lendemain.
+    </p>
+    <p>
+     En rentrant à l'hôtel, il trouva un officier que son cousin, le maréchal de France, avait
                     chargé de répondre, verbalement, à sa lettre impertinente. La réponse fut excessivement
                     dure, et Kinglin était fier, surtout depuis qu'il était riche. Il ferma sa porte; mit
                     l'épée à la main, bien qu'il ne sût pas se mettre en garde, et reçut, à travers le bras,
@@ -617,12 +806,16 @@
                     parce qu'elle pouvait retarder un mariage dont la douce expectative lui tournait la tête.
                     Il ne changea pourtant rien à ses dispositions du lendemain, parce qu'on dîne très-bien
                     avec un bras en écharpe. C'est même un moyen à peu près sûr de paraître plus
-                    intéressant.</p>
-                <p>Le dîner fut tantôt gai, tantôt sentimental. Il faisait excessivement chaud, et madame
+                    intéressant.
+    </p>
+    <p>
+     Le dîner fut tantôt gai, tantôt sentimental. Il faisait excessivement chaud, et madame
                     Latour fut prendre l'air au jardin. Rose avait été surprise la veille, elle fut faible ce
                     jour-là, et cela devait être: elle aimait pour la première fois, et elle estimait trop
-                    Kinglin pour douter qu'il tint sa promesse.</p>
-                <p>Il en commença l'exécution au sein même des plus tendres caresses. L'aimable Rose voulut
+                    Kinglin pour douter qu'il tint sa promesse.
+    </p>
+    <p>
+     Il en commença l'exécution au sein même des plus tendres caresses. L'aimable Rose voulut
                     bien lui servir de secrétaire, et il dépêcha son laquais à l'officialité, avec une lettre
                     dans laquelle il exposait que sa conscience était engagée à rendre l'honneur à une jeune
                     personne respectable, et sa blessure pouvant avoir des suites funestes, il demanda une
@@ -632,8 +825,10 @@
                     célébration; Rose et Kinglin étaient dans l'enchantement. Madame Latour partageait
                     sincèrement leur satisfaction. On se quitta avec peine, on se promit de se réunir le
                     lendemain, et on passa le temps à monter, sur le meilleur ton, la maison de madame
-                    Kinglin.</p>
-                <p>Le futur époux, passionné pour sa belle, renonça, en sa faveur, aux projets d'élévation qui
+                    Kinglin.
+    </p>
+    <p>
+     Le futur époux, passionné pour sa belle, renonça, en sa faveur, aux projets d'élévation qui
                     l'avaient si long-temps occupé. Il ne voyait plus de bonheur que dans l'union de deux
                     cœurs bien assortis, et il ne désira connaître l'avenir que pour combler son épouse de
                     tous les dons de la fortune. Il devina les numéros du prochain tirage, et joua la plus
@@ -644,8 +839,10 @@
                     enfin, le jour trèslong, qui devait être suivi du jour le plus heureux, Kinglin, dont la
                     blessure allait bien, sortit, malgré les tendres prières de Rose, pour aller acheter un
                     riche écrin, qui devait ménager une agréable et dernière surprise, et le notaire fut mandé
-                    pour le soir.</p>
-                <p>Après avoir tout acheté, tout payé, Kinglin n'avait plus, chez lui, qu'une douzaine de
+                    pour le soir.
+    </p>
+    <p>
+     Après avoir tout acheté, tout payé, Kinglin n'avait plus, chez lui, qu'une douzaine de
                     mille francs; mais la loterie allait amener des millions, et il se promettait bien de
                     toujours prodiguer l'or, de combler de bienfaits continuels celle qui l'enivrait de
                     plaisirs. Il revint, son écrin en poche, pressé de voir Rose parée et embellie de ses
@@ -655,8 +852,10 @@
                     et il commence à entrevoir du galimatias. Il va à son armoire; sa caisse est partie avec
                     ces dames, et au lieu de son argent, il trouve un billet: „Quand une fille rencontre un
                     benêt, elle le dupe, c'est la règle. Puisse la leçon, M. de Kinglin, vous être
-                    profitable!“</p>
-                <p>Kinglin jure, tempête, tonne, écume; il n'est pas au bout: certaine incommodité se
+                    profitable!“
+    </p>
+    <p>
+     Kinglin jure, tempête, tonne, écume; il n'est pas au bout: certaine incommodité se
                     manifeste d'une manière effrayante, et il s'en prend au diable qui l'a si cruellement
                     trompé. „Je „t'ai répondu, lui dit l'esprit, et je te répon„drai toujours juste. --
                     T'avais-je demandé une catin? -- Tu m'as demandé où tu trouverais „une fille qui te
@@ -672,15 +871,19 @@
                     de quoi? Tu ne sais donc pas que dans un pays bien policé, il est permis de se ruiner pour
                     une gourgandine, mais qu'il est défendu de lui rien reprendre, eût-on mis à la mendicité,
                     pour elle, sa femme et dix enfans. -- La jolie méthode! -- C'est la vôtre, et vous vous
-                    croyez le peuple par excellence.</p>
-                <p>„Ah ça, puisque nous voilà en train de causer, fais-moi deviner les motifs de la conduite
+                    croyez le peuple par excellence.
+    </p>
+    <p>
+     „Ah ça, puisque nous voilà en train de causer, fais-moi deviner les motifs de la conduite
                     de cette fille-là, qui me paraît inexplicable. Elle m'a escroqué trente-quatre mille
                     francs; mais, en restant avec moi seulement un an, elle se fût gorgée d'or. -- Tu lui
                     étais insupportable. -- Bah! -- Et la signature du contrat ne laissait pas de
                     l'embarrasser. Pour conserver le nom sous lequel elle s'est annoncée à toi, il fallait
                     qu'elle fît un faux, et, pour ce délit-là, on est pendu. -- C'est ce que je lui souhaite.
-                    -- C'est ce qui lui arrivera quelque jour.“</p>
-                <p>Heureusement, Kinglin avait dans sa poche son billet de loterie, dont mademoiselle Rose fût
+                    -- C'est ce qui lui arrivera quelque jour.“
+    </p>
+    <p>
+     Heureusement, Kinglin avait dans sa poche son billet de loterie, dont mademoiselle Rose fût
                     sans doute devenue propriétaire; s'il eût jugé à propos de lui avouer son commerce avec le
                     diable, et ses moyens de se procurer de l'argent. Une indiscrétion de cette espèce l'eût
                     singulierement embarrassé, car il lui restait dix louis au plus, et l'habitude de gagner
@@ -688,39 +891,57 @@
                     facilité, lui eussent rendu bien dures des privations qu'il comptait ne plus connaître, et
                     qu'il eût fallu supporter jusqu'à un second tirage. Il attendit le premier en contractant
                     des dettes, et sans autre dissipation que la triste et utile société de son chirurgien,
-                    qui, parfaitement d'accord avec le diable, lui fit prendre des pilules par <hi
-                        rend="italic">picotins</hi>.</p>
-                <p>Le moment arriva où il devait monter à un degré d'opulence inconnu même à des princes du
+                    qui, parfaitement d'accord avec le diable, lui fit prendre des pilules par
+     <hi rend="italic">
+      picotins
+     </hi>
+     .
+    </p>
+    <p>
+     Le moment arriva où il devait monter à un degré d'opulence inconnu même à des princes du
                     sang royal. Plein de joie, il se rendit, pour la seconde fois, à l'administration
                     générale, conduit par sa confiance en la véracité de son démon. Il était attendu par
                     quelques-uns de ces messieurs à qui on marque beaucoup d'égards, et qu'on n'aime à
-                    rencontrer nulle part.</p>
-                <p>Les cinq numéros étaient à peine sortis, que le buraliste, effrayé de l'énormité du lot
+                    rencontrer nulle part.
+    </p>
+    <p>
+     Les cinq numéros étaient à peine sortis, que le buraliste, effrayé de l'énormité du lot
                     qu'avait gagné Kinglin, tira à part le lieutenant de police et les administrateurs
                     généraux. Il leur annonça qu'il y avait douze millions à payer à un homme à qui on venait
-                    de compter soixante-quinze mille livres, qui avait la manie de jouer le <hi rend="italic"
-                        >quine sec</hi>, et le bonheur de toujours gagner. Monseigneur de la police, qui
+                    de compter soixante-quinze mille livres, qui avait la manie de jouer le
+     <hi rend="italic">
+      quine sec
+     </hi>
+     , et le bonheur de toujours gagner. Monseigneur de la police, qui
                     devinait tout ce qu'on lui disait, sentit qu'en quatre mises un tel joueur devait écraser
                     la loterie, et épuiser le trésor de sa Majesté. En conséquence, il donna, avant de se
-                    retirer, des ordres précis à cinq ou six des messieurs ci-dessus mentionnés.</p>
-                <p>Kinglin avait un air triomphant en entrant dans les bureaux; il regardait, avec
+                    retirer, des ordres précis à cinq ou six des messieurs ci-dessus mentionnés.
+    </p>
+    <p>
+     Kinglin avait un air triomphant en entrant dans les bureaux; il regardait, avec
                     complaisance, douze à quinze crocheteurs, qui devaient, à trente sous par tête, ployer
-                    sous le poids de la plus forte somme qu'ait jamais palpée un particulier.</p>
-                <p>Il exhiba son billet d'un air tout-à-fait gracieux; l'administrateur qui le prit, le mit en
+                    sous le poids de la plus forte somme qu'ait jamais palpée un particulier.
+    </p>
+    <p>
+     Il exhiba son billet d'un air tout-à-fait gracieux; l'administrateur qui le prit, le mit en
                     pièces; les cinq à six messieurs le prirent par les bras et par les jambes, et, sans égard
                     pour ses clameurs et ses jurons, ils le portèrent dans un fiacre, en assurant, d'un ton de
                     bonhomie, aux gens qui se trouvèrent sur leur passage, que Kinglin était un fou, qui
                     prétendait qu'ou lui payât le quine, sans qu'il eût mis à la loterie, et qu'ils le
-                    conduisaient à Charenton.</p>
-                <p>Il fut traité, dans cet hôpital, d'après l'opinion que les gens de la police n'avaient pas
+                    conduisaient à Charenton.
+    </p>
+    <p>
+     Il fut traité, dans cet hôpital, d'après l'opinion que les gens de la police n'avaient pas
                     manqué de donner de lui. On lui prodigua douches et remèdes. Plus on le tourmenta, plus il
                     se répandit en injures contre les fripons qui déchirent les bons billets, et qui font
                     mettre les gagnans entre quatre murs. Plus il parlait de son quine, plus on augmentait les
                     douches et les remèdes. On les augmenta au point, que Kinglin, n'y pouvant plus tenir,
                     rossa complètement deux frères de la Charité. La communauté se rassembla à leurs cris, et
                     tomba en masse sur le pauvre Breton; on le saisit, on le lia, on le fouetta jusqu'au sang,
-                    et on le jeta, nu, dans un cul-de-basse-fosse.</p>
-                <p>„Il faut avouer, dit-il, que je suis bien à plaindre, et c'est moi qui l'ai voulu. Quand je
+                    et on le jeta, nu, dans un cul-de-basse-fosse.
+    </p>
+    <p>
+     „Il faut avouer, dit-il, que je suis bien à plaindre, et c'est moi qui l'ai voulu. Quand je
                     cultivais la terre, j'étais mécontent de mon sort; sans cesse heureux dans l'avenir, j'ai
                     eu la manie d'être duc de Bretagne, maréchal de France, intendant, pape. Je me suis fait
                     moquer de moi par la noblesse et la robe de Rennes; j'ai été obligé de vendre mes chemises
@@ -731,13 +952,19 @@
                     maladie que je n'ai pas, et où on me laisse celle que j'ai... C'était bien la peine de me
                     faire sorcier! Avais-je besoin de rien savoir sinon que la terre nourrit celui qui
                     travaille? Et ne suis-je pas fou, en effet, de n'avoir pas continué à manger, en paix, mon
-                    pain noir et mes féveroles?“</p>
-                <p>Ces réflexions très-sages, mais trop tardives, n'empêchaient pas Kinglin d'être fouetté
+                    pain noir et mes féveroles?“
+    </p>
+    <p>
+     Ces réflexions très-sages, mais trop tardives, n'empêchaient pas Kinglin d'être fouetté
                     deux fois par jour, et baigné quatre. Son corps n'était qu'une plaie, et sa tête
                     commençait à se déranger tout de bon. Cent fois il avait prié, supplié, conjuré son démon
-                    de le tirer de là, et son démon, très-laconique, lui avait toujours répondu: <hi
-                        rend="italic">Nous ne sommes pas convenus que j'agirais.</hi></p>
-                <p>„Puisque tu ne veux pas agir, dis-moi, du moins, quand je sortirai d'ici? -- Quand tu auras
+                    de le tirer de là, et son démon, très-laconique, lui avait toujours répondu:
+     <hi rend="italic">
+      Nous ne sommes pas convenus que j'agirais.
+     </hi>
+    </p>
+    <p>
+     „Puisque tu ne veux pas agir, dis-moi, du moins, quand je sortirai d'ici? -- Quand tu auras
                     écrit au lieutenant de police. -- Et que faut-il que je lui écrive? -- Que tu as eu, en
                     effet, le cerveau affecté, mais que les soins charitables des bons frères t'ont rendu à la
                     raison; que la preuve la plus sûre que tu en puisses donner, est de déclarer, et que tu
@@ -746,11 +973,15 @@
                     daignera te rendre la liberté. -- Quoi! il faut que celui qu'on vole, qu'on enferme, qu'on
                     maltraite, s'abaisse à demander grace! -- Ou continue à recevoir le fouet et des douches.
                     Ne vois-tu pas que tu es une victime que demande l'intérêt de l'état? -- Ecrivons, reprit
-                    Kinglin en soupirant.“ </p>
-                <p>Il n'est pas aisé à un fou, qu'on n'écoute jamais, d'obtenir du papier, des plumes et de
+                    Kinglin en soupirant.“
+    </p>
+    <p>
+     Il n'est pas aisé à un fou, qu'on n'écoute jamais, d'obtenir du papier, des plumes et de
                     l'encre. Kinglin fut fessé quatre jours encore, avant de trouver le moment de faire au
-                    supérieur la confession qu'il se proposait d'écrire au lieutenant de police.</p>
-                <p>Quand le supérieur vit ce pauvre diable doux comme un mouton, et renonçant à son quine, il
+                    supérieur la confession qu'il se proposait d'écrire au lieutenant de police.
+    </p>
+    <p>
+     Quand le supérieur vit ce pauvre diable doux comme un mouton, et renonçant à son quine, il
                     s'applaudit singulièrement de lui avoir donnéle fouet et des douches, et il regarda cette
                     cure comme la plus belle qu'on eût faite dans la maison. Il donna au patient ce qui était
                     nécessaire à la rédaction de son placet, et il y joignit une lettre pour le magistrat,
@@ -760,12 +991,16 @@
                     barbe, de la vanité et des talens prétendus du cher frère supérieur; il signa la sortie de
                     Kinglin, et il ordonna, à celui qu'il chargeait de l'aller mettre dehors, de lui défendre,
                     tout bas, de jamais jouer le quine sec, ni même le quaterne, à peine d'être mis à Bicêtre,
-                    et étranglé dans un cachot.</p>
-                <p>Ce n'est pas que le lieutenant de police, qui n'était pas sorcier, crût à l'existence de
+                    et étranglé dans un cachot.
+    </p>
+    <p>
+     Ce n'est pas que le lieutenant de police, qui n'était pas sorcier, crût à l'existence de
                     ceux qu'on disait tels. Il se défiait du bonheur du BasBreton, et comme la loterie doit
                     être tout à l'avantage du gouvernement, il faut faire en sorte que tous les pontes y
-                    perdent, ce qui arrive assez généralement.</p>
-                <p>La défense expresse du lieutenant de police était fort inutile. Kinglin était revenu de
+                    perdent, ce qui arrive assez généralement.
+    </p>
+    <p>
+     La défense expresse du lieutenant de police était fort inutile. Kinglin était revenu de
                     tous les jeux qui mènent à Charenton, et il pensa à monter assez haut pour n'avoir plus à
                     craindre l'autorité arbitraire des gens en place, qui ne s'exerce, communément, que sur
                     les gens qui n'ont pas de consistance dans le monde. D'abord il voulut être prince du
@@ -775,8 +1010,10 @@
                     voulut, au moins, être fermier-général; le diable lui répondit que rien n'était plus aisé,
                     moyennant un présent considérable au contrôleur-général, et un fort pot-de-vin à la
                     compagnie, qu'il pourrait payer avec le produit du premier quine. Kinglin fit la grimace,
-                    et se tut un moment.</p>
-                <p>„Parbleu, reprit-il, je suis bien bête de me borner aux rangs inférieurs, tandis qu'il ne
+                    et se tut un moment.
+    </p>
+    <p>
+     „Parbleu, reprit-il, je suis bien bête de me borner aux rangs inférieurs, tandis qu'il ne
                     m'est pas plus difficile d'occuper le premier. Un royaume ne s'achète pas; ainsi, pas de
                     difficultés à ce que je sois roi de France. Je serai le premier de ma race, car il y a
                     commencement à tout, et, une fois sur le trône, je jouerai à la loterie tant qu'il me
@@ -791,18 +1028,24 @@
                     couronne. -- Quoi! il en coûte la tête à ceux qui ne réussissent pas? C'est encore pis que
                     de gagner le quine. Dis-moi donc ce que j'entreprendrai, car tu sais bien qu'il faut que
                     je prenne un parti? -- Tu sais bien, toi, que je ne me suis pas plus engagé à conseiller
-                    qu'à agir.“</p>
-                <p>Kinglin employa quelques jours à passer en revue toutes les professions honorables ou
+                    qu'à agir.“
+    </p>
+    <p>
+     Kinglin employa quelques jours à passer en revue toutes les professions honorables ou
                     lucratives de la société, et son diable lui prouva, par des raisons aussi claires que
                     solides, qu'il n'en était pas une à laquelle il fût propre. Kinglin, entêté comme un
                     Breton, se fâchait contre son diable, qui soutenait son dire avec un opiniâtre et
-                    imperturbable sang-froid.</p>
-                <p>Kinglin ne réfléchissait pas, et ne voyait pas que ses dix louis diminuaient à chaque
+                    imperturbable sang-froid.
+    </p>
+    <p>
+     Kinglin ne réfléchissait pas, et ne voyait pas que ses dix louis diminuaient à chaque
                     projet nouveau, par le temps qu'il lui faisait perdre, et par la dépense que cause
                     l'oisiveté. Il ne pouvait tarder à vendre une montre et une assez jolie bague, tristes
                     restes d'un moment de splendeur, qu'on n'avait osé lui retenir à Charenton, et il ne se
-                    lassait pas de faire des châteaux en Espagne.</p>
-                <p>Comme il n'avait pas de quoi payer ses dettes, il n'était pas retourné à son hôtel garni,
+                    lassait pas de faire des châteaux en Espagne.
+    </p>
+    <p>
+     Comme il n'avait pas de quoi payer ses dettes, il n'était pas retourné à son hôtel garni,
                     et comme il n'est pas amusant de s'occuper les jours entiers à penser à ses revers ou à
                     s'entretenir avec le diable, Kinglin s'était lié avec un garçonimprimeur, qui imprimait
                     des almanachs de Liége à Paris, rue Saint-Jacques. L'imprimeur assurait qu'il s'en vendait
@@ -815,8 +1058,10 @@
                     rien à perdre, accepte les propositions de Kinglin, sans s'embarrasser s'il se couvrira de
                     ses frais, et voilà le ci-devant duc de Bretagne, connétable ou maréchal de France, pape,
                     intendant, prince du sang, fermier-général et roi, auteur et éditeur, dans un grenier,
-                    d'un almanach écrit sous la dictée du diable.</p>
-                <p>Indépendamment du chaud, du froid, de la pluie, du vent, de la grêle, des éclipses de lune
+                    d'un almanach écrit sous la dictée du diable.
+    </p>
+    <p>
+     Indépendamment du chaud, du froid, de la pluie, du vent, de la grêle, des éclipses de lune
                     ou de soleil, il prédit le tremblement de terre qui renversa Lisbonne, Sétubal, Fez et
                     Méquinez; il prédit la guerre qui allait ensanglanter ce globe qui s'écroulait sous nos
                     pieds; il annonça la perte du Canada, la prise du Port-Mahon, le supplice de l'amiral
@@ -824,18 +1069,26 @@
                     du comte de Gisors, la fin honorable du chevalier d'Assas, la blessure du prince de
                     Brunsvick, etc. Il n'en fallait pas tant pour mettre un almanach en réputation: cependant
                     celui-ci ne se vendait pas, parce qu'il n'était point couvert en papier bleu, qu'il
-                    n'était pas de la façon de maître <hi rend="italic">Mathieu Lœnsberg, célèbre
-                        astronome</hi>, qu'il n'offrait aucun de ses petits contes qui amusent les servantes
+                    n'était pas de la façon de maître
+     <hi rend="italic">
+      Mathieu Lœnsberg, célèbre
+                        astronome
+     </hi>
+     , qu'il n'offrait aucun de ses petits contes qui amusent les servantes
                     et les enfans, que la vérité y était présentée dans le style de Kinglin, c'estàdire,
                     dénuée des ornemens qui la font supporter à des gens qui ne sont pas sorciers; il ne se
-                    vendait pas enfin, parce qu'il n'était pas l'almanach à la mode.</p>
-                <p>Kinglin et son garçon-imprimeur se désolaient, parce qu'ils se voyaient à la veille de
+                    vendait pas enfin, parce qu'il n'était pas l'almanach à la mode.
+    </p>
+    <p>
+     Kinglin et son garçon-imprimeur se désolaient, parce qu'ils se voyaient à la veille de
                     manquer de tout. Kinglin demanda à son diable ce qu'il fallait faire pour débiter son
                     édition: „Attendre, lui répondit le démon. Tous les hommes courent au-devant du mensonge;
                     les sots craignent la lumière, les envieux la repoussent. Galilée est mort dans les
                     prisons de l'inquisition, pour avoir deviné le mouvement de la terre autour du
-                    soleil.“</p>
-                <p>Cependant un mitron qui apprenait à lire, et à qui il était indifférent de se servir d'un
+                    soleil.“
+    </p>
+    <p>
+     Cependant un mitron qui apprenait à lire, et à qui il était indifférent de se servir d'un
                     livre ou d'un autre, avait donné, à Kinglin, un petit pain pour un exemplaire de son
                     diabolique ouvrage. A mesure que les variations de l'atmosphère arrivaient à la minute,
                     ainsi qu'elles étaient prédites, le mitron était frappé d'étonnement et de respect. Il
@@ -843,8 +1096,16 @@
                     maître était un ivrogne, et que Kinglin annonçait que les vignes gèleraient; la maîtresse
                     tirait les cartes, et se croyait infiniment au-dessus de tous les faiseurs d'almanachs nés
                     et à naître. Mais, ma foi, l'incrédulité céda à l'évidence, quand la gazette de France
-                    donna les détails du désastre de Lisbonne. <hi rend="italic">La bourgeoise</hi> fit cadeau
-                    d'un <hi rend="italic">Kinglin</hi> à son bourgeois, le bourgeois le passa à son compère,
+                    donna les détails du désastre de Lisbonne.
+     <hi rend="italic">
+      La bourgeoise
+     </hi>
+     fit cadeau
+                    d'un
+     <hi rend="italic">
+      Kinglin
+     </hi>
+     à son bourgeois, le bourgeois le passa à son compère,
                     le compère à sa prétendue, la prétendue à son confesseur, et le confesseur à son
                     archevêque. L'archevêque, étonné de la conformité des prédictions avec les événemens, fit
                     défendre l'almanach au prône, comme une production de l'esprit malin, et lança les foudres
@@ -852,10 +1113,18 @@
                     premier homme, et courant, comme lui, après le fruit défendu, coururent en foule chez
                     Kinglin, et se moquèrent d'une religion qui tombait de vétusté, et que la persécution
                     révolutionnaire a étayée pour quelques années encore. Quatre éditions du fameux almanach
-                    s'épuisèrent en six semaines, et le public oublia, pendant quelque temps, maître <hi
-                        rend="italic">Mathieu Lœnsberg</hi>, et même maitre <hi rend="italic"
-                    >Nostradamus</hi>.</p>
-                <p>L'auteur et son associé préparaient gaiement l'almanach de l'année suivante. Déja Kinglin
+                    s'épuisèrent en six semaines, et le public oublia, pendant quelque temps, maître
+     <hi rend="italic">
+      Mathieu Lœnsberg
+     </hi>
+     , et même maitre
+     <hi rend="italic">
+      Nostradamus
+     </hi>
+     .
+    </p>
+    <p>
+     L'auteur et son associé préparaient gaiement l'almanach de l'année suivante. Déja Kinglin
                     avait écrit que M. de la Touche, officier trop peu connu, serait assiégé, dans Pondichéry,
                     par une armée de quatre-vingt mille hommes; que, suivi de trois cents Français, il
                     pénétrerait, la nuit, dans le camp des ennemis, leur tuerait douze cents hommes, n'en
@@ -866,15 +1135,24 @@
                     façon de Longueil, et d'en faire relier cinq cents exemplaires en maroquin rouge pour
                     l'usage de la cour, qui devait être très-flattée de ces prédictions, lorsqu'un incident
                     qu'il ne prévoyait pas, bien que devin, dérangea la glorieuse et lucrative
-                    spéculation.</p>
-                <p>Depuis la maréchale d'Ancre, qui était aussi sorcière que Kinglin, on n'avait pas brûlé de
+                    spéculation.
+    </p>
+    <p>
+     Depuis la maréchale d'Ancre, qui était aussi sorcière que Kinglin, on n'avait pas brûlé de
                     sorciers en France, quoique rien ne soit si agréable au ciel, et aussi propre à ranimer la
                     foi, que cette édifiante cérémonie. L'archevêque de Paris, ardent et zélé théologien,
                     celui qui refusait les sacremens et la sépulture à ses frères en Jésus-Christ qui
-                    n'acceptaient pas, à l'article de la mort, la bulle <hi rend="italic">Unigenitus</hi>
-                    qu'ils n'entendaient point, et le prélat pas beaucoup, cet archevêque imagina que rien
+                    n'acceptaient pas, à l'article de la mort, la bulle
+     <hi rend="italic">
+      Unigenitus
+     </hi>
+     qu'ils n'entendaient point, et le prélat pas beaucoup, cet archevêque imagina que rien
                     n'ajouterait autant à la considération du clergé, et ne mortifierait plus la cour, avec
-                    qui il était au plus mal, que de faire griller, <hi rend="italic">de par Dieu</hi>, un
+                    qui il était au plus mal, que de faire griller,
+     <hi rend="italic">
+      de par Dieu
+     </hi>
+     , un
                     faiseur d'almanachs. Il dressa, contre Kinglin, une dénonciation adressée aux chambres du
                     parlement assemblées. Cet écrit, absurde par le fond et la forme, ne pouvait être
                     accueilli que dans un temps où la magistrature affectait de braver l'autorité du roi, qui
@@ -882,23 +1160,29 @@
                     prétentions des cours de justice. Kinglin fut décrété de prise de corps, et il eût été
                     indubitablement rôti, si l'archevêque ne se fût pas avisé de faire imprimer sa
                     dénonciation, qu'il regardait comme un petit chef-d'œuvre, tout-à-fait propre à préparer
-                    les fidèles au spectacle dont il comptait les régaler.</p>
-                <p>Le frère du compagnon de Kinglin, imprimeur aussi de son métier, travaillait à l'imprimerie
+                    les fidèles au spectacle dont il comptait les régaler.
+    </p>
+    <p>
+     Le frère du compagnon de Kinglin, imprimeur aussi de son métier, travaillait à l'imprimerie
                     de l'officialité. Il courut avertir les associés du danger qui les menaçait: il était
                     temps; le décret venait d'être lancé; l'almanach indiquait le domicile de l'auteur, et les
                     limiers de la justice allaient se mettre à ses trousses. Kinglin et son ami partagerent
                     trois cents louis, et, comme un homme se cache plus aisément que deux, ils se séparèrent,
                     portant chacun leur petit paquet sous le bras, et ils furent chercher un autre gîte et
-                    prendre un autre nom.</p>
-                <p>Kinglin, après quelques momens de réflexion, frémit du supplice où l'avait exposé la
+                    prendre un autre nom.
+    </p>
+    <p>
+     Kinglin, après quelques momens de réflexion, frémit du supplice où l'avait exposé la
                     connaissance de l'avenir. Il adressa de nouveaux reproches à son démon, qui ne
                     l'avertissait jamais des accidens qui accompagnaient toutes ses entreprises, et le démon
                     lui répondit encore qu'il ne s'était pas plus engagé à conseiller qu'à agir. Et à quoi
                     donc, esprit infernal que tu es, me mène l'art de deviner? -- A faire des sottises, comme
                     en feront tous ceux qui voudront franchir les bornes que leur a prescrites la nature, et à
                     être plus malheureux que lorsque tu te conduisais d'après l'instinct qu'elle t'a
-                    donné.“</p>
-                <p>Kinglin, qui trouvait mauvais que le diable ne le prévînt pas sur les choses les plus
+                    donné.“
+    </p>
+    <p>
+     Kinglin, qui trouvait mauvais que le diable ne le prévînt pas sur les choses les plus
                     simples, ne pensa pas lui-même à l'interroger sur sa plus essentielle affaire. Au lieu de
                     désirer des choses inutiles ou funestes, il aurait pu demander les moyens de recouvrer la
                     paix de l'ame, premier bien dont les hommes s'occupent si peu. Il dut son salut à la
@@ -911,20 +1195,26 @@
                     remarqué. Il n'en était pas moins l'être le plus infortuné. Quand la grillade lui revenait
                     à l'esprit, il croyait voir des huissiers dans tous les passans; il regardait autour de
                     lui d'un œil inquiet; si on le fixait, il courait çà et là; le bruit du vent l'empêchait
-                    de s'endormir, et des songes affreux le réveillaient en sursaut.</p>
-                <p>Dans d'autres momens, semblable à l'autruche, qui croit que le chasseur l'a perdue de vue
+                    de s'endormir, et des songes affreux le réveillaient en sursaut.
+    </p>
+    <p>
+     Dans d'autres momens, semblable à l'autruche, qui croit que le chasseur l'a perdue de vue
                     quand elle s'est fourré la tête dans un trou, il se persuadait qu'il suffisait d'avoir
                     changé de domicile et de nom, pour n'être pas découvert. Il cherchait alors à s'étourdir
                     sur sa triste situation, fréquentait les spectacles, les bals, les promenades, où on ne
                     penserait pas à le chercher, parce que tout le monde sait que les plaisirs innocens font,
-                    sur le commun des sorciers, l'effet de l'eau sur un enragé.</p>
-                <p>Il était à la Comédie Française. On allait donner une nouveauté de l'auteur à la mode, car
+                    sur le commun des sorciers, l'effet de l'eau sur un enragé.
+    </p>
+    <p>
+     Il était à la Comédie Française. On allait donner une nouveauté de l'auteur à la mode, car
                     la mode en France s'étend jusqu'à l'esprit, et il y a long-temps qu'on n'y veut plus de
                     celui du Misanthrope. Quand cette pièce n'est pas jouée par l'acteur du jour, la bonne
                     compagnie va au boulevart, et les comédiens ont bien de la peine à faire accepter des
                     billets à leur tailleur, à leur marchande de modes, à leurs parens et à leurs
-                    créanciers.</p>
-                <p>Ce jour-là la foule était prodigieuse. Les amis de l'auteur, les femmes charmantes à qui il
+                    créanciers.
+    </p>
+    <p>
+     Ce jour-là la foule était prodigieuse. Les amis de l'auteur, les femmes charmantes à qui il
                     avait adressé des madrigaux, celles plus charmantes encore qui avaient écouté, avec
                     bienveillance, la lecture de l'ouvrage, les enthousiastes de la scène française, ceux qui
                     font métier de soutenir les pièces nouvelles, placés et groupés habilement dans toutes les
@@ -938,8 +1228,10 @@
                     discernement; plus, les auteurs jaloux, les auteurs tombés, qui, par des sarcasmes lancés
                     sous une enveloppe décente, préparent la chute de leurs confrères; enfin, les gens
                     étrangers à l'art, qui vont à la comédie pour y parler affaires, chasse, chevaux, y nouer
-                    une intrigue ou la conduire à sa fin.</p>
-                <p>Entre tant de personnes si diversement affectées, et parlant de la pièce nouvelle d'une
+                    une intrigue ou la conduire à sa fin.
+    </p>
+    <p>
+     Entre tant de personnes si diversement affectées, et parlant de la pièce nouvelle d'une
                     manière si différente, Kinglin ne savait quelle opinion adopter; mais l'amour-propre veut
                     qu'on en ait une qui soumette, qui entraîne les autres, et notre faiseur d'almanachs se
                     sentit chatouillé de l'idée de prononcer définitivement sur le sort d'un ouvrage
@@ -958,41 +1250,59 @@
                     de trop près, et s'esquiva; les autres tombèrent sur Kinglin, embarrassé dans les jambes
                     de ses voisins, lui meurtrirent de trente coups de bourrades l'estomac et les reins, le
                     traînèrent au corpsdegarde, dont un sergent lui notifia qu'il ne sortirait qu'à la fin du
-                    spectacle.</p>
-                <p>Kinglin trouvait fort extraordinaire qu'après avoir donné son argent, il ne pût s'amuser
+                    spectacle.
+    </p>
+    <p>
+     Kinglin trouvait fort extraordinaire qu'après avoir donné son argent, il ne pût s'amuser
                     qu'autant et de la manière dont les autres le trouveraient bon. Il trouva plus mauvais
                     encore, que des soldats, entretenus des deniers publies, assommassent, à tort et à
                     travers, des bourgeois rassemblés dans un lieu de plaisir. Il en demanda la raison à son
                     diable. „C'est que l'homme est né méchant, qu'il tend sans cesse à opprimer, et que le
                     sentiment de sa faiblesse le ramène seul à ces égards qui lui en méritent de la part des
                     autres. Or, des soldats, dont le métier est de tuer, des garçons brasseurs, vigoureux et
-                    grossiers, ne doivent connaître que le droit de la force.“</p>
-                <p>Pendant que le diable tranchait du philosophe, à propos d'un billet de comédie, Kinglin fut
+                    grossiers, ne doivent connaître que le droit de la force.“
+    </p>
+    <p>
+     Pendant que le diable tranchait du philosophe, à propos d'un billet de comédie, Kinglin fut
                     vengé et son humeur calmée par le bruit des huées et des sifflets, qui parvint jusqu'à
                     lui. Le parterre, à qui l'auteur n'avait pas adressé de madrigaux, ne permit pas que la
                     pièce finît, et en dépit des femmes charmantes, des amis, de souteneurs de nouveautés, qui
-                    criaient à tue- tête: <hi rend="italic">A bas la cabale</hi>; malgré la patience
+                    criaient à tue- tête:
+     <hi rend="italic">
+      A bas la cabale
+     </hi>
+     ; malgré la patience
                     imperturbable des comédiens, qui attendirent une demi-heure le moment de continuer, il
                     fallut que le génie se laissât rogner les ailes; le rideau tomba, Kinglin sortit du
                     corps-de-garde, et il oublia les gourmades qu'il avait reçues, en répétant, d'un air
-                    triomphant, à ceux qu'il rencontrait: Je l'avais dit.</p>
-                <p>Il filait le long de la rue Dauphine, sifflottant un petit air, faisant jabot d'une main,
+                    triomphant, à ceux qu'il rencontrait: Je l'avais dit.
+    </p>
+    <p>
+     Il filait le long de la rue Dauphine, sifflottant un petit air, faisant jabot d'une main,
                     se caressant le gros de la cuisse de l'autre, lorsqu'un homme lui dit à l'oreille: Entrez,
                     monsieur, la société est superbe. „Je viens d'être battu et arrêté en très-bonne
                     compagnie, se dit-il à lui-même; il pourrait m'arriver pis ici. Je veux désormais tout
                     prévoir, et interroger mon diable sur les conséquences de mes moindres démarches.“ Il lui
                     demanda donc ce qu'il trouverait dans cette maison. „-- La fortune. -- Et quand j'en
                     sortirai? -- Un sommeil paisible. Et demain? -- La fortune. -- A la bonne heure;
-                    entrons.“</p>
-                <p>Il entre. Il voit une salle très-bien décorée, très-bien éclairée, un buffet où les
-                    rafraîchissemens se distribuent <hi rend="italic">gratis</hi> et avec politesse, une
+                    entrons.“
+    </p>
+    <p>
+     Il entre. Il voit une salle très-bien décorée, très-bien éclairée, un buffet où les
+                    rafraîchissemens se distribuent
+     <hi rend="italic">
+      gratis
+     </hi>
+     et avec politesse, une
                     longue table couverte d'un tapis vert, près de laquelle sont rangés circulairement, assis
                     ou debout, un certain nombre de personnages de bonne ou mauvaise humeur. Au milieu de la
                     table est un monsieur qui a devant lui des piles d'argent, des rouleaux d'or, et des
                     cartes à la main. Kinglin regarde quelque temps, il conçoit la marche du jeu, et n'a pas
                     besoin de l'intervention du diable pour deviner la cause du chagrin et de la joie qui
-                    passent alternativement d'un visage à l'autre.</p>
-                <p>Un jeune homme d'une figure intéressante jouait avec acharnement, et perdait des sommes
+                    passent alternativement d'un visage à l'autre.
+    </p>
+    <p>
+     Un jeune homme d'une figure intéressante jouait avec acharnement, et perdait des sommes
                     considérables. Il souffrait d'autant plus qu'il s'efforçait de ne rien laisser paraître.
                     Cependant sa poitrine se gonflait, les muscles de son visage étaient agités de mouvemens
                     convulsifs, ses yeux enflammés ne cherchaient, ne fixaient que des cartes et de l'or:
@@ -1002,60 +1312,86 @@
                     pousses au meurtre, au suicide, à l'empoisonnement, au parricide, à tous les crimes enfans
                     d'une aveugle fureur? -- Quoi, tu es encore à reconnaître la main ennemie et puissante qui
                     entraîne le genre humain d'excès en excès! ce sont là nos jeux à nous, et tu n'es qu'un
-                    sot.“</p>
-                <p>Bien que choqué d'une apostrophe déplacée, surtout à l'égard d'un gentilhomme Bas -Breton,
+                    sot.“
+    </p>
+    <p>
+     Bien que choqué d'une apostrophe déplacée, surtout à l'égard d'un gentilhomme Bas -Breton,
                     Kinglin crut devoir en pardonner l'acrimonie pour sauver la fortune et, peut-être, la vie
                     de celui auquel il s'intéressait. Il s'approcha de lui, et interrogeant son diable, aussi
                     amicalement que s'il en eût reçu des complimens, il indiquait, à chaque coup, la couleur
                     gagnante au jeune homme qui levait les épaules, qui continuait à jouer de travers, qui
                     perdait toujours, et qui, excédé de s'entendre donner des conseils salutaires qui,
                     disaitil, dérangeaient ses combinaisons, quoiqu'il n'en eût suivi aucun, les fit
-                    brusquement cesser par un: Hé f....., monsieur, mêlez-vous de vos affaires!</p>
-                <p>Kinglin, stupéfait de l'entêtement de ce jeune homme, passa de l'autre côté sans lui
+                    brusquement cesser par un: Hé f....., monsieur, mêlez-vous de vos affaires!
+    </p>
+    <p>
+     Kinglin, stupéfait de l'entêtement de ce jeune homme, passa de l'autre côté sans lui
                     répliquer un mot. „Selon les apparences, se dit-il, je ne serais pas mieux reçu des
                     autres; ainsi, taisonsnous, et, pour passer le temps d'une manière utile et agréable,
                     voyons un peu ce qui se passe dans l'intérieur de certains individus, dont les figures
-                    annoncent une passion effrénée, et sachons comment ils doivent finir.“</p>
-                <p>A la fin de ce monologue, le jeune homme qui répondait si mal à la bienveillance qu'on lui
-                    marquait, se leva d'un air furieux, et sortit.</p>
-                <p>„Où va-t-il, demanda Kinglin au démon? -- Se „noyer. -- Je cours l'en empêcher. --
+                    annoncent une passion effrénée, et sachons comment ils doivent finir.“
+    </p>
+    <p>
+     A la fin de ce monologue, le jeune homme qui répondait si mal à la bienveillance qu'on lui
+                    marquait, se leva d'un air furieux, et sortit.
+    </p>
+    <p>
+     „Où va-t-il, demanda Kinglin au démon? -- Se „noyer. -- Je cours l'en empêcher. --
                     Gardet'en bien; c'est ce qu'il peut faire de mieux. -- Et pourquoi cela? La jeunesse a
                     toujours des ressources. -- Aucune, quand elle a perdu l'honneur.“ Et le diable conta à
                     Kinglin que ce jeune homme avait commencé par perdre ce qu'il possédait; que l'espoir de
                     rétablir ses affaires l'avait porté à risquer le montant de plusieurs lettres de change
                     que lui avait confiées un négociant dont il était le commis, et que la totalité venait de
                     passer dans les mains du banquier. „Tu as raison, dit Kinglin, qu'il se noie; la mort est
-                    le seul asile qui lui reste contre l'infamie.</p>
-                <p>„Quel est ce gros coquin qui rit également quand il perd et quand il gagne, qui ne sait sur
+                    le seul asile qui lui reste contre l'infamie.
+    </p>
+    <p>
+     „Quel est ce gros coquin qui rit également quand il perd et quand il gagne, qui ne sait sur
                     quelle épaule fixer la bourse de sa perruque, et qui embarrasse son épée dans les jambes
                     de ses voisins? -- C'est un chanoine de Notre-Dame, qui ne peut jouer dans son cloître,
                     qui se déguise pour venir ici, qui y perd tous les ans la moitié de sa prébende, et qui
                     mange gaiement l'autre avec deux gouvernantes, dont l'aînée a vingt-deux ans. -- Je
-                    croyais que la <hi rend="italic">bonne</hi> d'un ecclésiastique devait en avoir au moins
+                    croyais que la
+     <hi rend="italic">
+      bonne
+     </hi>
+     d'un ecclésiastique devait en avoir au moins
                     quarante. -- C'est ce que l'archevêque lui a fait observer; mais, le chanoine a répondu à
-                    son éminence qu'il avait pris une gouvernante en deux volumes.</p>
-                <p>„Et cet autre qui se ronge un poing et s'arrache un côté de cheveux? -- C'est un notaire
+                    son éminence qu'il avait pris une gouvernante en deux volumes.
+    </p>
+    <p>
+     „Et cet autre qui se ronge un poing et s'arrache un côté de cheveux? -- C'est un notaire
                     qui a reçu un dépôt qui devait être sacré pour lui. Il va le perdre en entier, et se
-                    brûlera la cervelle en rentrant dans son cabinet.</p>
-                <p>„Pourquoi cet officier de cavalerie déchire-t-il les paremens de son habit? -- On lui a
+                    brûlera la cervelle en rentrant dans son cabinet.
+    </p>
+    <p>
+     „Pourquoi cet officier de cavalerie déchire-t-il les paremens de son habit? -- On lui a
                     donné vingt-mille francs pour aller en remonte, et le banquier est sur le point de mettre
                     le régiment à pied. L'officier déshonoré se cachera, tombera dans la misère, se liera avec
-                    de mauvais sujets, volera, assassinera, et sera rompu vif. </p>
-                <p>„-- Que d'horreurs! Ah!... pourquoi cet adolescent est-il si calme et si froid? -- Celui-là
+                    de mauvais sujets, volera, assassinera, et sera rompu vif.
+    </p>
+    <p>
+     „-- Que d'horreurs! Ah!... pourquoi cet adolescent est-il si calme et si froid? -- Celui-là
                     commence à jouer, et ne perd encore que des bagatelles. Bientôt il volera son père, et
                     l'assassinera ensuite pour satisfaire librement une passion qui deviendra insurmontable.
                     Egaré, hors de lui, il ira se livrer à la justice, et dans un moment de honte, de douleur,
-                    de remords, il s'étranglera dans sa prison.</p>
-                <p>„Ces gens-là sont donc nés avec des qualités perverses? -- Pas du tout; ce sont des
+                    de remords, il s'étranglera dans sa prison.
+    </p>
+    <p>
+     „Ces gens-là sont donc nés avec des qualités perverses? -- Pas du tout; ce sont des
                     aveugles qui trouvent un abîme sous leurs pieds, et qui s'y précipitent. -- Et le
                     gouvernement laisse l'abîme ouvert? -- Il a besoin d'argent, le banquier en fournit. -- Ce
                     banquier est un „fripon. -- Et ceux qui l'autorisent? -- Que m'arrivera-t-il si je dis
-                    tout haut ce que j'en pense? -- Tu iras pourrir à la Bastille. -- Je me tais.</p>
-                <p>„Il me semble, reprit Kinglin, après quelques instans de méditation, que je ne ferais pas
+                    tout haut ce que j'en pense? -- Tu iras pourrir à la Bastille. -- Je me tais.
+    </p>
+    <p>
+     „Il me semble, reprit Kinglin, après quelques instans de méditation, que je ne ferais pas
                     mal de reprendre à ce coquin de banquier les dépouilles de ces malheureux, et de
                     m'enrichir, puisque je ne puis les empêcher de s'écraser: il n'est pas défendu de ramasser
-                    ce qu'un insensé jette par la fenêtre.</p>
-                <p>„Encore un mot avant que j'opère; j'ai le temps de faire passer cet or du tapis dans ma
+                    ce qu'un insensé jette par la fenêtre.
+    </p>
+    <p>
+     „Encore un mot avant que j'opère; j'ai le temps de faire passer cet or du tapis dans ma
                     poche, et plus on en perdra, plus je gagnerai. Quel est cet autre jeune homme qui hasarde
                     ses louis en tremblant, qui palpite de crainte pendant qu'on tire les cartes, qui paraît
                     si douloureusement affecté, et qui, cependant, a encore une forte somme devant lui? --
@@ -1068,10 +1404,15 @@
                     moment, son unique désir est de regagner ce qu'il a perdu. -- Et ne jouera-il plus, si je
                     rétablis la dot dans son entier? -- Il en est incapable. -- Faisons une bonne action. Ah!
                     le gouvernement ne veut pas fermer ces repaires! je les fermerai, moi; je ferai sauter
-                    toutes les banques. </p>
-                <p>„Ecoutez, monsieur, dit Kinglin au jeune homme, ce jeu-ci, que vous ne connaissez pas,
-                    ressemble infiniment à la loterie, que je connais beaucoup. Tous deux <hi rend="italic"
-                        >sont des impôts sur les mauvaises têtes</hi>. Vous êtes comptable à votre beau-père
+                    toutes les banques.
+    </p>
+    <p>
+     „Ecoutez, monsieur, dit Kinglin au jeune homme, ce jeu-ci, que vous ne connaissez pas,
+                    ressemble infiniment à la loterie, que je connais beaucoup. Tous deux
+     <hi rend="italic">
+      sont des impôts sur les mauvaises têtes
+     </hi>
+     . Vous êtes comptable à votre beau-père
                     de la fortune de sa fille; vous l'êtes de la vôtre à vos enfans à venir. Ne risquez plus
                     rien, et, en quelques coups, je ne vous laisserai que le souvenir de l'orage qui est prêt
                     à vous accabler.“ Le jeune homme, naturellement doux, ne prit pas ces conseils en mauvaise
@@ -1081,8 +1422,10 @@
                     fou; mais, comme il s'agissait de conserver ou de perdre l'objet le plus chéri, et que,
                     dans ce cas, rien ne pouvait lui paraître indifférent, il cessa de jouer, pour voir
                     comment Kinglin jouerait lui-même, et Kinglin, enchanté de sa docilité, conclut qu'en
-                    effet il n'était pas né joueur.</p>
-                <p>Le Bas-Breton a cinquante louis dans sa poche, il les joue à la fois. Il gagne, il double,
+                    effet il n'était pas né joueur.
+    </p>
+    <p>
+     Le Bas-Breton a cinquante louis dans sa poche, il les joue à la fois. Il gagne, il double,
                     triple, quadruple, quintuple, sextuple enfin, et enlève quatre mille six cents louis qui
                     étaient sur la table. Au dernier coup, le banquier chercha de mauvaises défaites pour se
                     dispenser de payer. Sept à huit joueurs, qui avaient perdu jusqu'à leurs montres, leurs
@@ -1090,18 +1433,24 @@
                     qu'ils ne pouvaient plus retirer, applaudirent à la ruine du banquier, qui ne leur rendait
                     rien, et jurèrent que s'il ne payait à l'instant, ils le jeteraient par la fenêtre.
                     Kinglin toucha ce qui lui était dû; il frappa sur l'épaule du futur époux, et sortit avec
-                    lui.</p>
-                <p>Quelques malheureux le suivirent: ils ne demandaient rien; mais ils avaient le teint
+                    lui.
+    </p>
+    <p>
+     Quelques malheureux le suivirent: ils ne demandaient rien; mais ils avaient le teint
                     livide, les yeux humides, et ils avançaient involontairement la main. Kinglin, élevé par
                     une mère d'une foi robuste, possédait son écriture sainte. Il en parodia un passage d'un
                     air de dignité, en donnant un rouleau à chacun de ces infortunés: „Allez, leur dit-il, et
-                    ne jouez plus.“</p>
-                <p>Il conduisit chez le meilleur restaurateur des environs celui à qui il allait rendre le
+                    ne jouez plus.“
+    </p>
+    <p>
+     Il conduisit chez le meilleur restaurateur des environs celui à qui il allait rendre le
                     plus signalé des services: „Un homme comme vous, lui dit-il, ne peut pas me tromper; je le
                     sais de quelqu'un qui ne ment jamais. Voyons, combien avez-vous perdu? -- Bien près de dix
                     mille francs. -- Les voilà. Soupons, et, pour l'intérêt de mon argent, je me prie de la
-                    noce.“</p>
-                <p>On ne trouve pas tous les jours des gens disposés à faire de pareils cadeaux. Si le jeune
+                    noce.“
+    </p>
+    <p>
+     On ne trouve pas tous les jours des gens disposés à faire de pareils cadeaux. Si le jeune
                     homme avait été frappé des discours de Kinglin, il admira son procédé si rare. „Oui,
                     certes, lui dit-il, vous serez de la noce; vous ferez plus, vous permettrez que je sois le
                     plus sincère et le plus chaud de vos amis.“ A ces mots, si flatteurs pour Kinglin,
@@ -1109,19 +1458,26 @@
                     circonstance. Le jeune homme voulait savoir qui l'avait obligé; comment l'homme obligeant
                     avait su qu'il se mariait et qu'il jouait la dot de sa future. A tout cela, Kinglin,
                     devenu prudent, à ce qu'il croyait, répondit vaguement, prit le nom et la demeure de M.
-                    Rousseau, s'informa du jour et de l'heure où le bienheureux <hi rend="italic">oui</hi>
-                    serait prononcé, et garda le plus profond silence sur ce qui le concernait
+                    Rousseau, s'informa du jour et de l'heure où le bienheureux
+     <hi rend="italic">
+      oui
+     </hi>
+     serait prononcé, et garda le plus profond silence sur ce qui le concernait
                     personnellement. Rousseau respecta son secret: on servit; le souper fut aussi intéressant
                     qu'il devait l'être entre deux hommes, dont l'un était reconnaissant, et l'autre sensible
                     au plaisir d'obliger. Ils se quittèrent tard; ils se promirent de se revoir bientôt.
                     Kinglin se retira chez lui, se coucha, et dormit d'un sommeil paisible, comme le diable le
                     lui avait promis. „Ah! ah! dit-il, les bonne actions rafraîchissent le sang, et raniment
-                    le cœur: j'en ferai tous les jours.“</p>
-                <p>Il s'était promis de fermer successivement par le plus lucratif des moyens, les maisons de
+                    le cœur: j'en ferai tous les jours.“
+    </p>
+    <p>
+     Il s'était promis de fermer successivement par le plus lucratif des moyens, les maisons de
                     jeu que le diable lui indiquerait. Ces maisons n'ouvrent qu'à midi, il n'était encore que
                     huit heures. Il sortit désœuvré et ne sachant à quoi il passerait le temps: on bâille
-                    assez communément quand on n'a que de l'argent et point d'occupation.</p>
-                <p>Les cafés commençaient à se garnir. Une foule d'une activité remarquable se pressait dans
+                    assez communément quand on n'a que de l'argent et point d'occupation.
+    </p>
+    <p>
+     Les cafés commençaient à se garnir. Une foule d'une activité remarquable se pressait dans
                     celui de la Régence; il était égal à Kinglin de déjeuner là ou ailleurs. En prenant sa
                     tasse de chocolat, il sentit quelque envie d'apprendre ce qui mettait en mouvement ce
                     peuple qui parlait un français qu'il n'entendait pas. C'étaient des agioteurs, qui ont, en
@@ -1132,8 +1488,10 @@
                     dévorer la substance, et qui engraissent ou maigrissent selon que la misère publique
                     augmente ou diminue.“ Pour rendre sa donnée plus claire, le démon raconta une gentillesse
                     qu'avait imaginée un de ces messieurs, et qui n'était qu'un de leurs tours de passe-passe
-                    assez ordinaires.</p>
-                <p>Les Anglais étaient débarqués en Bretagne; le due d'Aiguillon marchait contre eux, et un
+                    assez ordinaires.
+    </p>
+    <p>
+     Les Anglais étaient débarqués en Bretagne; le due d'Aiguillon marchait contre eux, et un
                     gazetier, de moitié avec l'agioteur, avait imprimé que les Français étaient battus, et
                     l'ennemi entré à Saint-Malo. De là, la grande agitation qui régnait parmi ces joueurs
                     d'une autre espèce. Ils s'empressaient de vendre leur papier à vil prix; l'auteur de la
@@ -1142,28 +1500,36 @@
                     considérablement quand la nouvelle de sa victoire se répandrait dans Paris. L'agioteur
                     comptait bien revendre alors, et Kinglin ne trouva pas le moindre inconvénient à profiter
                     de la baisse que venait d'amener l'intrigue. Il acheta aussi pour une somme considérable,
-                    et gagna effectivement le lendemain vingt-cinq à trente pour cent.</p>
-                <p>En sortant du café, il rencontra un malheureux étendu sur le pavé, exposant au public qu'il
+                    et gagna effectivement le lendemain vingt-cinq à trente pour cent.
+    </p>
+    <p>
+     En sortant du café, il rencontra un malheureux étendu sur le pavé, exposant au public qu'il
                     voulait attendrir, une plaie affreuse qui lui rongeait la jambe. Le premier mouvement de
                     Kinglin fut de lui faire l'aumône; mais il réfléchit que six francs mal donnés sont un vol
                     fait à l'honnête homme malheureux. „Pourquoi, demanda-t-il à son diable, la jambe de ce
                     culdejatte ne guérit-elle point? -- Il serait bien fâché qu'elle guérît, sa plaie est son
                     gagne-pain. C'est un fainéant à qui on donne beaucoup, qui s'enivre le soir, en se moquant
                     des dupes qu'il a faites dans la journée, et qui s'applaudit le matin en voyant sa jambe
-                    plus envenimée que la veille.</p>
-                <p>„Et cette femme entourée de ses quatre enfans couchés à terre sur des haillons? -- Autre
+                    plus envenimée que la veille.
+    </p>
+    <p>
+     „Et cette femme entourée de ses quatre enfans couchés à terre sur des haillons? -- Autre
                     coquine qui n'a jamais été mère, bien qu'elle ait fait plus qu'il ne faut pour cela. Elle
                     a volé ces enfans-là pour attirer la compassion, et elle les pince de temps eu temps pour
-                    les faire pleurer. </p>
-                <p>„Quel est donc celui qui mérite que je lui donne, car je veux continuer à donner, cela fait
+                    les faire pleurer.
+    </p>
+    <p>
+     „Quel est donc celui qui mérite que je lui donne, car je veux continuer à donner, cela fait
                     bien dormir? -- Vois-tu ce crocheteur qui plie sous le faix sans se plaindre? -- Il a
                     l'air gai et bien portant. -- Pour avoir droit à tes secours, faut-il n'avoir plus figure
                     humaine? Cet homme a une jolie petite femme, bien laborieuse et bien sage, qui l'a déja
                     rendu père de six enfans, et à qui il en fera encore six. Il n'a que du pain à leur
                     donner; mais il le mange gaiement avec eux. -- Courons, courons.“ Et Kinglin met deux
                     louis dans la main du crocheteur. „Je t'en donnerai autant tous les mois; ménage tes
-                    forces; fais des enfans à ta petite femme: les secours augmenteront avec ta famille.“</p>
-                <p>Il alla ensuite de tripot en tripot. Partout il vengea les victimes des banquiers, en leur
+                    forces; fais des enfans à ta petite femme: les secours augmenteront avec ta famille.“
+    </p>
+    <p>
+     Il alla ensuite de tripot en tripot. Partout il vengea les victimes des banquiers, en leur
                     enlevant jusqu'à leur dernier écu. Il se trouva à la fin du jour possesseur d'une somme
                     énorme; et, fidèle à la promesse qu'il s'était faite de ne rien entreprendre sans
                     interroger son diable, il lui demanda ce qui lui arriverait s'il cherchait à augmenter sa
@@ -1182,18 +1548,24 @@
                     si j'achète cette belle terre qui est à vendre dans ma province? -- Tu releveras l'éclat
                     de ta race, et, si tu te conduis comme tu le projetais tout à l'heure, tu auras, dans ta
                     vie, quelques momens de honheur pur: c'est tout ce que l'homme peut espérer. -- Achetons
-                    la terre.“ </p>
-                <p>Kinglin va chez le notaire chargé de vendre; il prend les renseignemens nécessaires, il
+                    la terre.“
+    </p>
+    <p>
+     Kinglin va chez le notaire chargé de vendre; il prend les renseignemens nécessaires, il
                     marchande, il conclut; il dépose ses fonds, il signe le contrat, et il ne pense plus qu'à
-                    la noce où il doit s'amuser le lendemain.</p>
-                <p>Une noce est une fête où on a un peu plus, un peu moins de plaisir, où on boit, danse et
+                    la noce où il doit s'amuser le lendemain.
+    </p>
+    <p>
+     Une noce est une fête où on a un peu plus, un peu moins de plaisir, où on boit, danse et
                     rit avec des gens qui se conviennent plus ou moins. Ce qui peut y arriver de pis, c'est de
                     se donner une entorse, et pour semblables niaiseries, ce n'est pas la peine de déranger le
                     diable de son enfer: ainsi pensait le prévoyant Kinglin. Il se mit comme un prince, et fut
                     prendre de bonne heure son ami Rousseau, qui le présenta à sa future et à son père, comme
                     le meilleur de ses amis, en observant pourtant un profond silence sur l'origine de leur
-                    amitié.</p>
-                <p>On partit pour l'église. Rousseau était enchanté: sa maîtresse était rayonnante. Leur joie
+                    amitié.
+    </p>
+    <p>
+     On partit pour l'église. Rousseau était enchanté: sa maîtresse était rayonnante. Leur joie
                     faisait, sur Kinglin, une impression qu'il n'avait pas encore éprouvée. Il pensa qu'une
                     femme qui l'aimerait comme madame Rousseau aimait son mari, ajouterait beaucoup aux
                     agrémens de sa terre. Il rêva à cela pendant la cérémonie, il y rêva en revenant, il y
@@ -1201,26 +1573,34 @@
                     de la mariée, qui lui parut aussi bien élevée que modeste et jolie. Il lui fit constamment
                     sa cour; il lui sembla qu'il ne déplaisait point, et il en fut d'autant plus flatté, que
                     la jeune personne ignorait qu'il eût une terre de quarante mille livres de rente, et qu'il
-                    fût de l'illustre maison de Kinglin.</p>
-                <p>Il dansa avec elle, et ne dansa pas mal pour quelqu'un qui n'a eu de maître que le désir de
+                    fût de l'illustre maison de Kinglin.
+    </p>
+    <p>
+     Il dansa avec elle, et ne dansa pas mal pour quelqu'un qui n'a eu de maître que le désir de
                     plaire. Un peu formé par l'usage du monde, et la société du diable, il entretint fort
                     agréablement mademoiselle Caroline, quand elle jugea à propos de se reposer. On soupa, et
                     il se trouva encore à côté d'elle, soit que ce fût l'effet du hasard, soit qu'elle eût
                     disposé les choses en conséquence. Beaucoup d'amour, un peu de vin, et un grain de vanité,
                     le portèrent à parler de son bien et à décliner son nom. Il comptait par-là avancer ses
                     affaires auprès de la demoiselle, et se concilier les bonnes graces du père, qui changea,
-                    en effet, de visage au moment où le BasBreton se nomma.</p>
-                <p>Ce beau-père était huissier au parlement; la plupart des convives l'étaient aussi. La
+                    en effet, de visage au moment où le BasBreton se nomma.
+    </p>
+    <p>
+     Ce beau-père était huissier au parlement; la plupart des convives l'étaient aussi. La
                     révolution des visages fut générale; les traits mignons de Caroline et ceux de Rousseau se
                     décomposèrent aussi. Kinglin était trop préoccupé, et avait un peu trop bu pour s'en
-                    apercevoir.</p>
-                <p>Ces messieurs sentaient quel mérite ils pouvaient se faire auprès de nos seigneurs de la
+                    apercevoir.
+    </p>
+    <p>
+     Ces messieurs sentaient quel mérite ils pouvaient se faire auprès de nos seigneurs de la
                     cour, en leur livrant un homme qu'on cherchait depuis si long-temps. Cependant, le plus
                     grand nombre pensait à part soi, qu'il serait inconvenant d'arrêter, au milieu d'une fête
                     de famille, un individu que semblaient défendre les droits sacrés de l'hospitalité. Un
                     d'eux, plus huissier que les autres, jugea que le devoir devait l'emporter sur les
-                    convenances; il sortit sans rien dire, et fut avertir ses gens.</p>
-                <p>L'honnête Rousseau se rappela, en apprenant le vrai nom de son ami, la manière prophétique
+                    convenances; il sortit sans rien dire, et fut avertir ses gens.
+    </p>
+    <p>
+     L'honnête Rousseau se rappela, en apprenant le vrai nom de son ami, la manière prophétique
                     dont il lui avait parlé au tripot de la rue Dauphine, l'assurance avec laquelle il avait
                     joué, et cette suite de prédictions accomplies ne lui paraissait pas tout-à-fait dans
                     l'ordre de la nature. Bien qu'il fût ce qu'on appelait alors un esprit fort, il ne put
@@ -1231,14 +1611,18 @@
                     pour sauver le pauvre Kinglin, celui-ci, impatient de valser avec mademoiselle Caroline,
                     sortit pour ramener les ménétriers, à qui on n'avait donné qu'une bouteille de vin par
                     tête, et qui achevaient de s'enivrer au cabaret en face, pendant que les gens de la noce
-                    finissaient de souper.</p>
-                <p>A peine a-t-il le pied dans la rue, que douze à quinze gredins le saisissent par les quatre
+                    finissaient de souper.
+    </p>
+    <p>
+     A peine a-t-il le pied dans la rue, que douze à quinze gredins le saisissent par les quatre
                     membres, lui ôtent son épée, le jettent dans un fiacre, et l'écrouent à la Conciergerie.
                     Le geôlier le fait descendre dans le plus profond des cachots, lui met les fers aux pieds
                     et aux mains, et l'attache au travers du corps, avec une chaîne de fer, à un poteau scellé
                     dans le pavé, parce qu'il est de notoriété publique que les sorciers s'échappent à travers
-                    les murs ou par le trou des serrures.</p>
-                <p>Kinglin passa une nuit bien différente de celle que lui promettaient les charmes et
+                    les murs ou par le trou des serrures.
+    </p>
+    <p>
+     Kinglin passa une nuit bien différente de celle que lui promettaient les charmes et
                     l'amabilité de mademoiselle Caroline. La tête appuyée sur une pierre, le corps étendu sur
                     un peu de paille infecte, il déplorait amèrement son sort. „Quoi, disait-il, je serai
                     brûlé pour avoir deviné qu'un honnête homme allait perdre son argent et sa maîtresse, pour
@@ -1246,32 +1630,42 @@
                     deux! Chienne de noce, où je croyais n'avoir à craindre qu'une entorse! Imbécille que je
                     suis, de n'avoir pas consulté mon démon! Mais pour prévoir que je me trouverais au milieu
                     de ceux mêmes qui me cherchaient, il aurait fallu être le diable en personne. Maudite
-                    manie de pénétrer l'avenir, tu me seras donc toujours fatale!“</p>
-                <p>Le lendemain on le conduisit à l'interrogatoire. Le juge marqua tant de passion, le procès
+                    manie de pénétrer l'avenir, tu me seras donc toujours fatale!“
+    </p>
+    <p>
+     Le lendemain on le conduisit à l'interrogatoire. Le juge marqua tant de passion, le procès
                     prit une tournure si vive, que l'accusé n'eut pas même le courage de consulter le diable
-                    sur son issue, qui n'était que trop claire.</p>
-                <p>Fort heureusement pour Kinglin, le roi, fatigué des tracasseries du parlement et de
+                    sur son issue, qui n'était que trop claire.
+    </p>
+    <p>
+     Fort heureusement pour Kinglin, le roi, fatigué des tracasseries du parlement et de
                     l'archevêque, exila le premier à Pontoise, et le second à Conflans. Le Châtelet fut chargé
                     de suivre les affaires civiles et criminelles. Les pièces relatives au Bas-Breton furent
                     examinées à leur tour, et ses nouveaux juges, jaloux de la suprématie que s'arrogeait le
                     parlement sur les autres tribunaux, enchantés de prouver à la cour par excellence qu'elle
                     faisait des sottises comme les autres, annulèrent la procédure par un décret qui portait
-                    que l'accusation roulant sur des chimères, l'accusé serait mis en liberté.</p>
-                <p>Kinglin, sorti de prison, oublia facilement, selon un usage heureux, ce qu'il avait
+                    que l'accusation roulant sur des chimères, l'accusé serait mis en liberté.
+    </p>
+    <p>
+     Kinglin, sorti de prison, oublia facilement, selon un usage heureux, ce qu'il avait
                     souffert. Il goûta même quelques momens d'un bonheur pur, en pensant que ses fonds,
                     déposés à propos chez le notaire, lui assuraient la paisible possession de sa terre, et il
                     fut agréablement trompé en retrouvant le reste de son argent, ses bijoux, ses effets les
                     plus précieux, qui avaient échappé à la rapacité et aux recherches des gens à scellés et à
                     saisies. Il en était redevable à Rousseau, qui les avait prévenus en courant à son
-                    domicile au moment de son arrestation.</p>
-                <p>Il ne manquait à sa satisfaction que de faire dame d'une terre à clocher, mademoiselle
+                    domicile au moment de son arrestation.
+    </p>
+    <p>
+     Il ne manquait à sa satisfaction que de faire dame d'une terre à clocher, mademoiselle
                     Caroline, qui ne demandait pas mieux. Le père, qui ne s'était pas prêté à son malheur
                     d'une manière directe, mais qui n'avait rien fait aussi pour le prévenir, fut au-devant de
                     lui quand il fut certain qu'il n'avait plus rien à craindre de la justice ecclésiastique
                     ou séculière. Il le ramena facilement par quelques démarches amicales et polies, et rejeta
                     tout ce qui s'était passé sur son confrère, qui n'était pas là pour lui répondre qu'il
-                    avait souvent fait pis.</p>
-                <p>Cependant, le souvenir de tant d'évènemens fâcheux avait rendu Kinglin extrêmement
+                    avait souvent fait pis.
+    </p>
+    <p>
+     Cependant, le souvenir de tant d'évènemens fâcheux avait rendu Kinglin extrêmement
                     circonspect. Toujours en garde contre cet avenir, dont la connaissance devait être pour
                     lui la félicité suprême, il vivait au milieu des craintes et des précautions. Jamais
                     diable ne fut aussi occupé que le sien: il ne cessait de voyager de l'enfer à Paris, et de
@@ -1287,16 +1681,20 @@
                     d'ananas dans le pays où on a écrit l'histoire véritable d'Adam; ainsi, il faudrait être
                     de bien mauvaise humeur pour reprocher au romancier de n'avoir pas donné la préférence à
                     ce fruit délicieux. Après tout, il ne serait pas plus gai d'être damné pour un ananas que
-                    pour une pomme. J'espère que nous ne le serons pas du tout.</p>
-                <p>Revenons. Le mariage de Kinglin était arrêté, et vous pensez bien que, toujours timoré, il
+                    pour une pomme. J'espère que nous ne le serons pas du tout.
+    </p>
+    <p>
+     Revenons. Le mariage de Kinglin était arrêté, et vous pensez bien que, toujours timoré, il
                     avait fait au diable toutes les questions possibles sur les qualités physiques et morales
                     de mademoiselle Caroline. L'aimait-elle véritablement? L'aimeraitelle long-temps? Ne
                     serait-elle pas tentée d'être infidèle? Conserverait-elle ses charmes autant que Ninon?
                     Lui donnerait-elle de beaux enfans? ses couches seraient-elles heureuses, son lait de
                     première qualité? Sa conversation serait-elle toujours vive et pourtant sensée, attachante
                     sans pédantisme, et variée sans prétention? Les réponses de l'esprit malin furent toutes à
-                    l'avantage de mademoiselle Caroline.</p>
-                <p>Il était enchanté, le bonhomme Kinglin. Cependant il connaissait le goût de son diable pour
+                    l'avantage de mademoiselle Caroline.
+    </p>
+    <p>
+     Il était enchanté, le bonhomme Kinglin. Cependant il connaissait le goût de son diable pour
                     les réticences qui lui étaient constamment fatales. La veille des fiançailles il craignit
                     d'avoir omis quelque chose d'important; et, pour forcer l'oracle à répondre
                     catégoriquement, il résuma, en quatre mots, toutes les interrogations faites et à faire.
@@ -1305,14 +1703,18 @@
                     exigeante, emportée; elle se contraint parce qu'elle veut un mari; mais quand tu seras le
                     sien, qu'elle n'aura plus d'intérêt à te ménager, le caractère percera, elle te désolera,
                     te tourmentera; tu la battras, elle t'empoisonnera. -- Ah, bon dieu!... Vite, écrivons au
-                    père que je lui rends sa parole, et que je retire la mienne.“</p>
-                <p>Kinglin rompit, en effet, et très-brusquement avec le papa, dont les procédés antérieurs
+                    père que je lui rends sa parole, et que je retire la mienne.“
+    </p>
+    <p>
+     Kinglin rompit, en effet, et très-brusquement avec le papa, dont les procédés antérieurs
                     dispensaient de ménagement. Il se jeta dans le grand monde, ce qui est toujours
                     très-facile quand on a de l'argent; il fut accueilli partout, ce qui ne manque pas
                     d'arriver quand on a de l'argent; et il s'ennuya souvent, parce que l'argent, les meubles,
                     les chevaux, les livrées ne sont pas le plaisir, qu'on croit fixer au milieu de tout cela,
-                    qui s'échappe et se réfugie quelquefois dans un grenier.</p>
-                <p>Kinglin ne rencontrait pas une jolie fille, qu'il ne sentît encore des démangeaisons de
+                    qui s'échappe et se réfugie quelquefois dans un grenier.
+    </p>
+    <p>
+     Kinglin ne rencontrait pas une jolie fille, qu'il ne sentît encore des démangeaisons de
                     mariage, et elles avaient toutes un défaut capital qui l'arrêtait au moment de conclure.
                     L'une était trop sensible pour n'aimer qu'un seul homme; l'autre avait un penchant décidé
                     à la prodigalité; celle-ci était une étourdie, incapable de gouverner sa maison; celle-là
@@ -1320,13 +1722,17 @@
                     régulièrement deux fois par jour, ce qui est pénible à la longue. Kinglin se fâcha, et il
                     eut tort: perfection et humanité, sont deux mots incohérens. Il ne réfléchit pas qu'il
                     était lui-même un composé d'imperfections; il déclama partout contre les femmes, qui,
-                    pourtant, nous valent bien, et il renonça au mariage, qui est quelquefois supportable.</p>
-                <p>Pour s'étourdir sur les désagrémens du célibat, il donna des dîners somptueux, après s'être
+                    pourtant, nous valent bien, et il renonça au mariage, qui est quelquefois supportable.
+    </p>
+    <p>
+     Pour s'étourdir sur les désagrémens du célibat, il donna des dîners somptueux, après s'être
                     assuré, selon sa coutume, qu'ils n'entraîneraient pas de suites fâcheuses. Il passait la
                     matinée à ordonner son repas, quatre heures à en faire les honneurs, et la soirée à dire
                     ou à écouter des sornettes, ou à remuer des cartes, ou à gober la poussière des
-                    Champs-Elysées: c'était autant de temps de passé.</p>
-                <p>Bâillant un jour au milieu de ses convives, qui cherchaient pourtant à lui plaire, et
+                    Champs-Elysées: c'était autant de temps de passé.
+    </p>
+    <p>
+     Bâillant un jour au milieu de ses convives, qui cherchaient pourtant à lui plaire, et
                     trouvaient charmantes les platitudes qui lui échappaient de temps en temps, comme à bien
                     d'autres qui passent pour avoir de l'esprit, il lui prit fantaisie de savoir ce que
                     pensaient précisément de lui ceux qui l'aidaient, de si bonne grace, à manger son revenu.
@@ -1359,94 +1765,178 @@
                     autres qu'en ce point; ils ne soupçonnent pas les atrocités qui les menacent, et tu sais
                     qu'on se moque de toi. -- On ne s'en moquera plus, du moins à ma table. Je ferai bonne
                     chère tout seul, ou avec Rousseau, qui, dis-tu, ne m'estime pas extraordinairement, mais
-                    qui a pour moi une sincère affection.“</p>
-                <p>Cependant Rousseau, très-attaché à sa petite femme et à ses affaires, n'était pas avec
+                    qui a pour moi une sincère affection.“
+    </p>
+    <p>
+     Cependant Rousseau, très-attaché à sa petite femme et à ses affaires, n'était pas avec
                     Kinglin aussi souvent que celui-ci l'eût désiré. La solitude, le désœuvrement, la
                     jeunesse, une forte nourriture, ne sont pas des calmans qui éteignent le vœu le plus
                     impérieux de la nature, et Kinglin jugea qu'il fallait lui opposer des occupations
                     suivies, ressource des Pères du Désert et des Trapistes, contre la tentation: le commun
-                    des moines l'éloigne en y succombant.</p>
-                <p>A quoi s'occupera notre homme? Il ne savait rien faire: il ne pouvait qu'être auteur. Les
+                    des moines l'éloigne en y succombant.
+    </p>
+    <p>
+     A quoi s'occupera notre homme? Il ne savait rien faire: il ne pouvait qu'être auteur. Les
                     belleslettres, d'ailleurs, ne lui étaient pas étrangères: n'avait-il pas rédigé un
-                    almanach, qui n'était pas plus soporatif que le <hi rend="italic">Fanal</hi>?</p>
-                <p>Il chercha quel genre de production lui convenait davantage, et lui ferait le plus
+                    almanach, qui n'était pas plus soporatif que le
+     <hi rend="italic">
+      Fanal
+     </hi>
+     ?
+    </p>
+    <p>
+     Il chercha quel genre de production lui convenait davantage, et lui ferait le plus
                     d'honneur. Le madrigal, l'idylle, les bouquets à Cloris, le ramèneraient à un sentiment
                     qu'il s'efforçait d'éteindre; le poème épique, la tragédie, la comédie, étaient au-dessus
                     de ses forces; il se décida pour la satire, genre facile, quand on se borne à une
                     nomenclature qui dispense d'avoir des idées, et qui donne des lecteurs, parce qu'il flatte
-                    la malignité.</p>
-                <p>Voilà mon Kinglin feuilletant son Richelet, broyant du noir, et croyant diffamer ceux dont
+                    la malignité.
+    </p>
+    <p>
+     Voilà mon Kinglin feuilletant son Richelet, broyant du noir, et croyant diffamer ceux dont
                     les noms s'arrangeaient, à tort et à travers, avec le rhythme. Son amour-propre gonfla à
                     mesure qu'il accouplait des vers, et il éprouva le besoin insurmontable de faire résonner
-                    ses rimes à l'oreille d'autrui.</p>
-                <p>Un jeune auteur, plein de génie, demeurait dans son voisinage. Il se présenta poliment chez
+                    ses rimes à l'oreille d'autrui.
+    </p>
+    <p>
+     Un jeune auteur, plein de génie, demeurait dans son voisinage. Il se présenta poliment chez
                     lui, son manuscrit à la main, et le força d'accorder quelque attention à la lecture de son
                     ouvrage Le jeune auteur voulut bien le trouver admirable, et le mot ne fut pas plutôt
-                    lâché, que Kinglin courut chez un imprimeur.</p>
-                <p>Il se modéra, pourtant, en arrivant à la porte Sa belle ardeur céda au désir assez naturel
+                    lâché, que Kinglin courut chez un imprimeur.
+    </p>
+    <p>
+     Il se modéra, pourtant, en arrivant à la porte Sa belle ardeur céda au désir assez naturel
                     de savoir, avant que d'entrer, ce que lui vaudrait sa diatribe. „Quelques coups de
                     pistolet, si tu es brave; des coups de bâton, si tu ne l'es pas. --Quoi! pour avoir fait
                     de bons vers?... -- Sur quoi les juges-tu tels? -- D'après le suffrage d'un homme d'un
                     mérite reconnu... -- Qui t'a loué, en reconnaissance du mal que tu n'as pas dit de lui, ou
                     par la crainte de celui qu'il te plairait en dire. Analysons quelques-uns de „es vers
-                    sublimes qui l'ont si vivement frappé.</p>
-                <p>„Qu'est-ce qu'un siècle <l>Qui commence sa brillante <hi rend="italic">carrière</hi>!</l></p>
-                <p>„Tu ne sais donc pas que le temps est la car„rière même que vous parcourez, vous autres
-                    „mortels! Qu'est-ce que des graces <l>Qui désertent par <hi rend="italic">essaim</hi>.</l></p>
-                <p>„Tu finiras, bourreau, par mettre trois abeilles „dans une ruche. Qu'est-ce que des femmes
+                    sublimes qui l'ont si vivement frappé.
+    </p>
+    <p>
+     „Qu'est-ce qu'un siècle
+     <l>
+      Qui commence sa brillante
+      <hi rend="italic">
+       carrière
+      </hi>
+      !
+     </l>
+    </p>
+    <p>
+     „Tu ne sais donc pas que le temps est la car„rière même que vous parcourez, vous autres
+                    „mortels! Qu'est-ce que des graces
+     <l>
+      Qui désertent par
+      <hi rend="italic">
+       essaim
+      </hi>
+      .
+     </l>
+    </p>
+    <p>
+     „Tu finiras, bourreau, par mettre trois abeilles „dans une ruche. Qu'est-ce que des femmes
                     qui étalent
-                    <l>Sur leurs <hi rend="italic">hideux appas</hi>, trop dignement ornés,</l>
-                    <l> Des lambeaux palpitans en <hi rend="italic">joyaux façonnés</hi>.</l>
-                </p>
-                <p>„Je ne connais d'appas que ce qui plaît, ce qui attire. Une femme hideuse est sans appas,
-                    et celle qui charme n'est pas hideuse. On <hi rend="italic">façonne</hi> en bagues, en
-                    bracelets, en boucles d'oreilles, en <hi rend="italic">joyaux</hi> enfin, l'or, la perle,
-                    le diamant. Quelle espèce de <hi rend="italic">joyaux</hi> peut-on faire de membres
-                    palpitans? L'ouvrier qui <hi rend="italic">façonne</hi>, doit se servir du terme <hi
-                        rend="italic">façonner</hi>; mais un poète!... barbare!... Il ne suffit pas de
+     <l>
+      Sur leurs
+      <hi rend="italic">
+       hideux appas
+      </hi>
+      , trop dignement ornés,
+     </l>
+     <l>
+      Des lambeaux palpitans en
+      <hi rend="italic">
+       joyaux façonnés
+      </hi>
+      .
+     </l>
+    </p>
+    <p>
+     „Je ne connais d'appas que ce qui plaît, ce qui attire. Une femme hideuse est sans appas,
+                    et celle qui charme n'est pas hideuse. On
+     <hi rend="italic">
+      façonne
+     </hi>
+     en bagues, en
+                    bracelets, en boucles d'oreilles, en
+     <hi rend="italic">
+      joyaux
+     </hi>
+     enfin, l'or, la perle,
+                    le diamant. Quelle espèce de
+     <hi rend="italic">
+      joyaux
+     </hi>
+     peut-on faire de membres
+                    palpitans? L'ouvrier qui
+     <hi rend="italic">
+      façonne
+     </hi>
+     , doit se servir du terme
+     <hi rend="italic">
+      façonner
+     </hi>
+     ; mais un poète!... barbare!... Il ne suffit pas de
                     chercher à étourdir par de grands mots. Pour qu'une image soit belle, il faut qu'elle ne
                     soit pas exagérée; il faut qu'elle soit vraie, surtout. Je ne finirais point, si je
-                    disséquais ceux de tes vers qui ne t'ont pas valu d'éloges.</p>
-                <p>„Quoique je ne me sois pas engagé à te donner d'avis, je veux bien te conseiller, pour
+                    disséquais ceux de tes vers qui ne t'ont pas valu d'éloges.
+    </p>
+    <p>
+     „Quoique je ne me sois pas engagé à te donner d'avis, je veux bien te conseiller, pour
                     cette fois, et sans tirer à conséquence. Fais des vers qui, peut-être, ne seront pas lus,
                     mais qui ne te feront pas d'ennemis. La satire, qui attaque des individus dont on n'a pas
                     à se plaindre, n'est qu'un libelle méprisable. Si Boileau n'eût parlé, dans les siennes,
                     que des bons et des mauvais écrivains de son siècle, il y a long-temps qu'on ne le lirait
                     plus. Ce n'est pas le coup de fouet qu'y reçoit Cottin, qui l'a fait mépriser, et
                     l'injustice du poète envers Perrault, n'empêche pas l'homme impartial d'admirer la
-                    colonnade du Louvre.“</p>
-                <p>La leçon était sage; Kinglin eut le bon esprit d'en profiter. Il brûla son manuscrit et son
-                    Richelet, et se remit à bâiller, ce qui ne le brouilla avec personne.</p>
-                <p>En bâillant, il pensa à son cousin, le maréchalferrant, qui l'avait aidé dans sa misère, et
+                    colonnade du Louvre.“
+    </p>
+    <p>
+     La leçon était sage; Kinglin eut le bon esprit d'en profiter. Il brûla son manuscrit et son
+                    Richelet, et se remit à bâiller, ce qui ne le brouilla avec personne.
+    </p>
+    <p>
+     En bâillant, il pensa à son cousin, le maréchalferrant, qui l'avait aidé dans sa misère, et
                     qu'il oubliait depuis long-temps. Il lui écrivit une lettre amicale, et il ne bâilla plus.
                     Il lui proposa de se charger de quelques-uns de ses enfans, et il retrouva sa belle
-                    humeur. Il joignit un cadeau honnête à la lettre, et il dîna de meilleur appétit.</p>
-                <p>Une santé robuste, jointe à une continence rigoureuse, doit désorganiser la machine.
+                    humeur. Il joignit un cadeau honnête à la lettre, et il dîna de meilleur appétit.
+    </p>
+    <p>
+     Une santé robuste, jointe à une continence rigoureuse, doit désorganiser la machine.
                     Kinglin, malgré sa prévoyance, fut attaqué, tout à coup, d'une fièvre violente,
                     accompagnée du transport au cerveau, qui ne lui permit plus de consulter l'oracle. L'ami
                     Rousseau mit auprès de lui une garde entendue, et lui amena les deux plus célèbres
-                    médecins de Paris: c'est beaucoup trop.</p>
-                <p>Les gazetiers ne disent rien, quand le gouvernement leur défend de parler, et n'en
+                    médecins de Paris: c'est beaucoup trop.
+    </p>
+    <p>
+     Les gazetiers ne disent rien, quand le gouvernement leur défend de parler, et n'en
                     remplissent pas moins leurs feuilles. Les dîners de inglin avaient fait quelque bruit, et
                     sa maladie fut annoncée comme une chose qui devait intéresser, sinon le public, du moins
                     les gourmets et les gourmands. Le cousin, maréchal de France, apprit que Kinglin était
                     riche et garçon; il envoya, régulièrement, demander de ses nouvelles, et, quand les
                     médecins eurent prononcé qu'il n'en reviendrait pas, il alla s'installer dans
                     l'appartement du mourant, qu'il n'approchait pas, parce que la maladie était contagieuse;
-                    mais il avait l'œil à ce que rien ne fût soustrait.</p>
-                <p>Le cousin, maréchal-ferrant, lisait la gazette chez son curé. Il se mit en route, à pied,
+                    mais il avait l'œil à ce que rien ne fût soustrait.
+    </p>
+    <p>
+     Le cousin, maréchal-ferrant, lisait la gazette chez son curé. Il se mit en route, à pied,
                     et se fit accompagner par sa fille Clotilde, parce qu'il fallait des soins au parent, et
                     il louait un âne d'un village à l'autre, quand la cousine était fatiguée de marcher et de
                     porter son petit paquet. Il avait laissé ses autres enfans à la maison, malgré
-                    l'invitation du malade, de peur de causer trop d'embarras.</p>
-                <p>Quand ils arrivèrent chez Kinglin, ils trouvèrent le maréchal de France donnant ses ordres
+                    l'invitation du malade, de peur de causer trop d'embarras.
+    </p>
+    <p>
+     Quand ils arrivèrent chez Kinglin, ils trouvèrent le maréchal de France donnant ses ordres
                     pour l'enterrement, et s'emparant des clés des armoires. Ils ôtèrent leurs souliers
                     ferrés, et s'approchèrent du lit sur la pointe du pied. Le maréchal de France, chamarré de
                     cordons et de ridicules, leur demanda, d'un ton arrogant, ce qu'ils voulaient. -- „Je
                     v'nons voir l'cousin. -- Il n'a pas de cousin de votre espèce. -- Il en a bien de la
                     vôtre. -- Qu'on sache que je suis son unique héritier, et qu'on se retire. -- Ah! héritez
-                    tant qu'il vous plaira; mais souffrez que je l'aidions jusqu'au dernier moment.“</p>
-                <p>A la fin de ce dialogue, que je n'ai pas écrit en bas-breton, parce que je ne le sais pas,
+                    tant qu'il vous plaira; mais souffrez que je l'aidions jusqu'au dernier moment.“
+    </p>
+    <p>
+     A la fin de ce dialogue, que je n'ai pas écrit en bas-breton, parce que je ne le sais pas,
                     la fièvre baissa considérablement; le délire se dissipa avec elle, et Kinglin reprit toute
                     sa connaissance. Il vit, devant son lit, le maréchal de France, l'œil sec et le teint
                     animé; le maréchal-ferrant, courbé au-dessus de sa tête, les mains jointes, retenant son
@@ -1457,76 +1947,106 @@
                     intéressé. Si je meurs, voilà mes seuls héritiers: qu'on m'aille chercher un notaire.“
                     L'officier général entreprit d'excuser la manière dont il avait traité monsieur l'abbé à
                     sa sortie du séminaire. Kinglin, malgré son extrême faiblesse, lui rit au nez en levant
-                    les épaules, et il fut obligé de sortir.</p>
-                <p>Après cet acte de justice, Kinglin se hâta de profiter du moment où il avait toute sa tête
+                    les épaules, et il fut obligé de sortir.
+    </p>
+    <p>
+     Après cet acte de justice, Kinglin se hâta de profiter du moment où il avait toute sa tête
                     pour connaître son sort. „Comment les médecins ont-ils pris ma maladie? -- Tout de
                     travers. -- Est-elle mortelle? -- Non. -- Que faut-il faire pour guérir? -- Congédier tes
                     deux docteurs, et laisser agir la nature: ils la secondent, quelquefois; mais il n'y a
-                    qu'elle qui guérisse.“</p>
-                <p>La nature, la diète et l'eau agirent, en effet, et si bien, que les accidens se calmèrent,
+                    qu'elle qui guérisse.“
+    </p>
+    <p>
+     La nature, la diète et l'eau agirent, en effet, et si bien, que les accidens se calmèrent,
                     et la fièvre disparut tout-à-fait. La convalescence fut longue; mais Kinglin eut le loisir
                     de connaître l'excellent cœur de la petite Clotilde, dont les soins ne se ralentirent pas.
-                    Ce n'était pas une fille <hi rend="italic">bien élevée</hi>, faite comme les graces, et
+                    Ce n'était pas une fille
+     <hi rend="italic">
+      bien élevée
+     </hi>
+     , faite comme les graces, et
                     folâtrant comme elles. C'était une femme sensible, franche, gaie, une femme, enfin, comme
                     il en faudrait beaucoup, car l'honnête homme a plus souvent affaire à la femme bonne qu'à
                     la femme aimable. Kinglin demanda au diable quelle preuve de reconnaissance la flatterait
                     davantage? „Ta main. -- Elle m'aime donc? -- Oui. -- Beaucoup? Comme on doit aimer pour
                     aimer long-temps. -- Et je ne me repentirai jamais de l'avoit épousée? -- Jamais. --
-                    J'épouse la cousine.“</p>
-                <p>Le maréchal-ferrant fut étonné et charmé de la demande; Clotilde y répondit avec la naive
+                    J'épouse la cousine.“
+    </p>
+    <p>
+     Le maréchal-ferrant fut étonné et charmé de la demande; Clotilde y répondit avec la naive
                     candeur de l'innocence. Une affaire qui convient à tout le monde est bientôt terminée. Le
                     mariage se fit à la grande satisfaction des parties intéressées, et on disposa tout pour
                     aller habiter la terre, où madame de Kinglin, étrangère au grand monde, et où son mari,
                     qui le connaissait trop, se proposaient de jouir librement d'eux-mêmes. Kinglin regretta
                     Rousseau; mais il éprouva bien-tôt qu'il n'est pas de perte dont une femme aimante ne
-                    console.</p>
-                <p>Le maréchal-ferrant s'établit au château avec sa famille, et s'accoutuma bientôt à faire le
+                    console.
+    </p>
+    <p>
+     Le maréchal-ferrant s'établit au château avec sa famille, et s'accoutuma bientôt à faire le
                     gros dos. Il avait du bon sens, ce qui vaut bien de l'esprit. La maman était une grosse
-                    réjouie, dont la tête était farcie de <hi rend="italic">rébus</hi>. Elle faisait rire son
+                    réjouie, dont la tête était farcie de
+     <hi rend="italic">
+      rébus
+     </hi>
+     . Elle faisait rire son
                     gendre, quand il ne caressait pas sa femme, ou qu'il n'épanchait pas son cœur dans le
                     sien, sous une allée solitaire. Les paysans du village aimaient beaucoup leur seigneur,
                     qui n'était pas fier, et leur faisait du bien. Toutes choses allaient déja à merveille, et
                     la grossesse de Clotilde les fit aller encore mieux. Kinglin était enchanté de son sort,
                     quand un souvenir assez désagréable lui rembrunit l'imagination et empoisonna tous ses
                     plaisirs. Il se rappela qu'il devait acheter de si douces jouissances par sa damnation:
-                    c'est payer le bonheur au plus haut intérêt.</p>
-                <p>Dès ce moment, plus de repos, plus de gaieté. Les soucis, la tristesse, remplirent l'ame de
+                    c'est payer le bonheur au plus haut intérêt.
+    </p>
+    <p>
+     Dès ce moment, plus de repos, plus de gaieté. Les soucis, la tristesse, remplirent l'ame de
                     Kinglin. Clotilde souffrait d'autant plus de ses peines, qu'elle en ignorait la cause. Les
                     plus tendres caresses, les plus instantes prières n'avaient pu lui arracher son
-                    secret.</p>
-                <p>Il voulut savoir, au moins, si l'éternel bûcher ne s'allumerait, pour lui, qu'à une extrême
+                    secret.
+    </p>
+    <p>
+     Il voulut savoir, au moins, si l'éternel bûcher ne s'allumerait, pour lui, qu'à une extrême
                     vieillesse. Il allait demander, au diable, quel jour il mourrait, et ajouter, par cette
                     fatale connaissance, aux maux que lui avait déja causés la sorcellerie, lorsque Clotilde
                     se présenta, inopinément, les larmes dans les yeux et la plainte à la bouche. Elle accusa
                     son mari de ne plus l'aimer. Se tairait-il s'il avait un autre secret? Ne le déposeraitil
                     pas dans le sein d'une épouse qui en partagerait, qui en adoucirait l'amertume? Kinglin ne
                     put résister à ces reproches. Il avoua, avec confusion, avec repentir, le pacte qui le
-                    perdait à jamais.</p>
-                <p>Clotilde, élevée chrétiennement, frémit, et n'osait plus vivre avec un réprouvé. Elle
+                    perdait à jamais.
+    </p>
+    <p>
+     Clotilde, élevée chrétiennement, frémit, et n'osait plus vivre avec un réprouvé. Elle
                     tremblait que la réprobation ne fût un mal contagieux qui se communiquât par la
                     cohabitation. Jeune, et sans expérience, elle confia sa position alarmante à sa mère, en
-                    qui son confesseur lui avait recommandé d'avoir toujours une confiance sans réserve. </p>
-                <p>La grosse maman, qui ne s'effrayait de rien, s'écria qu'il serait affreux qu'un si honnête
+                    qui son confesseur lui avait recommandé d'avoir toujours une confiance sans réserve.
+    </p>
+    <p>
+     La grosse maman, qui ne s'effrayait de rien, s'écria qu'il serait affreux qu'un si honnête
                     homme fût damné, et qu'elle n'entendait pas qu'il le fût. Elle arrêta que le bon curé du
                     lieu lui mettrait le bout de son étole sur la tête, et lui réciterait l'évangile de
                     St.-Jean, parce que l'évangile de St.-Jean et un bout d'étole ont une puissance
                     prodigieuse; qu'on y joindrait celle de trois ou quatre exorcismes, et que, bon gré mal
-                    gré, il faudrait bien que le diable rendît la donation.</p>
-                <p>Le diable est toujours aux aguets; il ne néglige pas des intérêts aussi majeurs, et il ne
+                    gré, il faudrait bien que le diable rendît la donation.
+    </p>
+    <p>
+     Le diable est toujours aux aguets; il ne néglige pas des intérêts aussi majeurs, et il ne
                     se laisse pas souffler une ame de sang-froid. Il dit à Kinglin que s'il se tournait
                     seulement vers l'église, il lui tordrait le cou. A cette menace, Kinglin jeta les hauts
                     cris, et vite la grosse maman lui glissa, dans la poche de côté de sa culotte, un petit
                     flacon rempli d'eau bénite, avec injonction expresse de ne pas se déculotter. Clotilde
                     observa, avec sa naïveté ordinaire, qu'il était bon que l'évangile fût dit à l'instant,
-                    parce qu'il ne serait pas commode, pour son mari, de coucher avec sa culotte.</p>
-                <p>On partit pour l'église. Le diable, furieux de se voir joué, tournait autour de Kinglin,
+                    parce qu'il ne serait pas commode, pour son mari, de coucher avec sa culotte.
+    </p>
+    <p>
+     On partit pour l'église. Le diable, furieux de se voir joué, tournait autour de Kinglin,
                     dont l'éloignait la vertu magique du flacon, et la grosse maman riait de sa colère
                     impuissante. Monsieur le curé se hâta d'opposer enchantemens à enchantemens. Kinglin écuma
                     un peu, se tordit un peu les bras et les jambes, rapprocha un peu les coins de sa bouche
                     de ses oreilles, et, à la suite de ces contorsions d'usage, la donation tomba aux pieds de
                     l'autel. On dit même que l'ange gardien de Kinglin parut un moment au-dessus de sa tête,
-                    avec ses cheveux blonds, ses ailes azurées et sa tunique blanche.</p>
-                <p>Le curé confessa l'exorcisé pour la forme, parce qu'il n'avait pas le droit de l'absoudre
+                    avec ses cheveux blonds, ses ailes azurées et sa tunique blanche.
+    </p>
+    <p>
+     Le curé confessa l'exorcisé pour la forme, parce qu'il n'avait pas le droit de l'absoudre
                     de son crime abominable. Il le renvoya au grand pénitencier, le pénitencier à l'évêque, et
                     l'évêque au pape. Clotilde, qui ne craignait plus la contagion, voulut faire le voyage de
                     Rome avec son mari. Par la grace de Dieu, elle revint, dans sa terre, grosse de son second
@@ -1534,8 +2054,9 @@
                     deviner ça, elle répondait pieusement: „Supportez le malheur que vous n'aurez pu éviter;
                     jouissez du présent quand il vous sera favorable, et laissez l'avenir au seul être qui
                     puisse en percer les voiles, sans compromettre sa gloire inaltérable, ni son éternelle
-                    béatitude.“</p>
-            </div>
-        </body>
-    </text>
+                    béatitude.“
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

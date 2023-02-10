@@ -1,97 +1,157 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Colombe_Plaisirs" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title ref="bgrf:64.41 wikidata:0">Les plaisirs d'un jour ou la journée d'une
-                    provinciale à Paris: MiMoText edition</title>
-                <author ref="viaf:0 wikidata:0">Etienne-Guillaume Sainte-Colombe(xxxx-xxxx)</author>
-                <respStmt>
-                    <resp>data capture</resp>
-                    <name>gallica</name>
-                </respStmt>
-                <respStmt>
-                    <resp>encoding</resp>
-                    <name>Johanna Konstanciak</name>
-                </respStmt>
-                <respStmt>
-                    <resp>editor</resp>
-                    <name>Julia Röttgermann</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">41910</measure>
-            </extent>
-            <publicationStmt>
-                <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-                <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-                <date>2023</date>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>Les Plaisirs d'un jour; ou La journée d'une provinciale à Paris</title>
-                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k3044876t"/>
-                    <publisher>Bibliothèque nationale de France</publisher>
-                    <date>2019</date>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Les plaisirs d'un jour; ou la journée d'une provinviale a Paris.</title>
-                    <author/>
-                    <pubPlace>Bruxelles</pubPlace>
-                    <publisher/>
-                    <date>1764</date>
-                </bibl>
-                <bibl type="firstEdition">
-                    <date>1764</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fra"/>
-            </langUsage>
-            <textClass>
-                <keywords>
-                    <term type="form"> heterodiegetic </term>
-                    <term type="spelling"> historical </term>
-                    <term type="data-capture"> semi-automatic transcription </term>
-                </keywords>
-            </textClass>
-            <textDesc>
-                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2023-01-18">Initial ELTeC level 1</change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <div type="titlepage">
-                <p>LES PLAISIRS D'UN JOUR.</p>
-                <p>LES PLAISIRS D'UN JOUR; OU LA JOURNÉE D'UNE PROVINCIALE A PARIS.</p>
-                <p>A BRUXELLES.</p>
-                <p>M. DCCLXIV.</p>
-            </div>
-        </front>
-        <body>
-            <div type="chapter">
-                <head>PREFACE.</head>
-                <p>AU titre de ce petit Rien, tout Lecteur judicieux ouvrira ſans doute le Livre
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:64.41 wikidata:0">
+     Les plaisirs d'un jour ou la journée d'une
+                    provinciale à Paris: MiMoText edition
+    </title>
+    <author ref="viaf:0 wikidata:0">
+     Etienne-Guillaume Sainte-Colombe(xxxx-xxxx)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     41910
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2023
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <title>
+      Les Plaisirs d'un jour; ou La journée d'une provinciale à Paris
+     </title>
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k3044876t"/>
+     <publisher>
+      Bibliothèque nationale de France
+     </publisher>
+     <date>
+      2019
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Les plaisirs d'un jour; ou la journée d'une provinviale a Paris.
+     </title>
+     <author/>
+     <pubPlace>
+      Bruxelles
+     </pubPlace>
+     <publisher/>
+     <date>
+      1764
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1764
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2023-01-18">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     LES PLAISIRS D'UN JOUR.
+    </p>
+    <p>
+     LES PLAISIRS D'UN JOUR; OU LA JOURNÉE D'UNE PROVINCIALE A PARIS.
+    </p>
+    <p>
+     A BRUXELLES.
+    </p>
+    <p>
+     M. DCCLXIV.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     PREFACE.
+    </head>
+    <p>
+     AU titre de ce petit Rien, tout Lecteur judicieux ouvrira ſans doute le Livre
                     &amp; le refermera. Il eſt bien vrai que l'on ne trouvera point ici ces
                     raiſonnemens géométriques, qui veulent ſubjuguer tous les eſprits &amp; qui
-                    prétendent les faire raiſonner en leur donnant des entraves.</p>
-                <p>C'eſt une aimable Provinciale que nous préſentons ici, ſon rolle eſt intéreſſant;
+                    prétendent les faire raiſonner en leur donnant des entraves.
+    </p>
+    <p>
+     C'eſt une aimable Provinciale que nous préſentons ici, ſon rolle eſt intéreſſant;
                     &amp; ſes Interlocuteurs ſont, comme on pourra le voir, gens du bon ton.
                     C'eſt-à-dire, qu'ils ſont pétillants, ſans s'embarraſſer beaucoup de ce bon ſens
                     qui ennuye tant aujourd'hui. Dorine, qui eſt à proprement parler l'Héroïne de
@@ -100,8 +160,10 @@
                     bonheur, que dans la mort d'un époux cacochime, &amp; par-là même dégoûtant pour
                     une jeune perſonne aimable, &amp; dont la fortune n'étoit point aſſez bornée
                     pour lui faire, par raiſon d'intérêt, contracter une union auſſi mal
-                    aſſortie.</p>
-                <p>L'Abbé, qui eſt le beaudiſeur, &amp; le croniqueur de cette aimable Société, eſt
+                    aſſortie.
+    </p>
+    <p>
+     L'Abbé, qui eſt le beaudiſeur, &amp; le croniqueur de cette aimable Société, eſt
                     un homme charmant, qui a paſſé les trois quarts de ſa vie, à recueillir toutes
                     les anecdottes ſcandaleuſes; ſon étude a été ſi fructueuſe pour lui, qu'il eſt
                     devenu la coqueluche des Cercles les mieux choiſis. Il jouit de très-bons
@@ -111,49 +173,67 @@
                     parens, qui ſe laiſſant facilement éblouir par les dehors d'une fauſſe ſageſſe,
                     confient leurs enfans, ce dépôt précieux, dont la nature les a chargés, à ces
                     femmes, que l'enfer à vomies dans ſa fureur pour troubler le bonheur des
-                    familles.</p>
-                <p>On voit dans le Marquis d'Amboiſiéres, un cœur tendre mais impatient: ſon amour
+                    familles.
+    </p>
+    <p>
+     On voit dans le Marquis d'Amboiſiéres, un cœur tendre mais impatient: ſon amour
                     eſt entreprénant &amp; ſi peu reſpectueux qu'il lui devient funeſte. Il met tout
                     en uſage pour ſe rendre maître de Dorine, &amp; l'enlever à ſon rival: mais le
                     véritable amour de celui-ci fait échouer ſes entrepriſes; &amp; la Fauſſe-prude,
                     qui s'eſt prétée par un intérêt bas &amp; ſordide à ſes vues eſt enfin
-                    démaſquée.</p>
-                <p>Les aventures de Julie, qui ne ſont que croquées ſont aſſûrement intéreſſantes.
+                    démaſquée.
+    </p>
+    <p>
+     Les aventures de Julie, qui ne ſont que croquées ſont aſſûrement intéreſſantes.
                     Je crois qu'on ne peut les lire ſans être ſenſible aux événements qui traverſent
                     ſa vie. Elle mérite cet intérêt à tous égards. Elle aime la vertu, ſans ſe
                     déclarer contre les plaiſirs; ſon cœur eſt guidé par les grandes connoiſſances
                     que ſon amour, décidé pour les Sciences &amp; pour les Belles-Lettres, a fait
-                    acquérir à ſon eſprit.</p>
-                <p>Le Préſident de R.... qui ſe diſtinguoit par tant de magnificence, ne figure ici
+                    acquérir à ſon eſprit.
+    </p>
+    <p>
+     Le Préſident de R.... qui ſe diſtinguoit par tant de magnificence, ne figure ici
                     que pendant huit jours. La fête qu'il donne eſt une preuve éclatante du goût
                     avec lequel il ſavoit faire choix des plaiſirs; Sylvie, ſa maîtreſſe, qui ne
                     paroît pas plus longtems que lui ſur la ſcéne, donne lieu de croire, que ſi elle
                     a parcouru toutes les claſſes du libertinage, ce n'a été qu'en cédant aux
                     caprices de la fortune. Le Préſident lui fait-il un ſort aſſez honnête, pour
                     n'avoir point à recevoir les hommages de ces gens qui ne ſavent qu'acheter le
-                    cœur des femmes? Elle devient une femme décente &amp; du bon ton.</p>
-                <p>Ainſi, l'on trouve dans cette petite bagatelle des moralités enveloppées de
-                    l'intérêt des événemens, qui peuvent être auſſi inſtructives qu'amuſantes.</p>
-                <p>Un Roman qui n'a que l'eſpace de neuf à dix heures, &amp; dont la lecture n'en
+                    cœur des femmes? Elle devient une femme décente &amp; du bon ton.
+    </p>
+    <p>
+     Ainſi, l'on trouve dans cette petite bagatelle des moralités enveloppées de
+                    l'intérêt des événemens, qui peuvent être auſſi inſtructives qu'amuſantes.
+    </p>
+    <p>
+     Un Roman qui n'a que l'eſpace de neuf à dix heures, &amp; dont la lecture n'en
                     demande pas trois, eſt certainement digne d'un accueil favorable s'il donne lieu
                     à quelques réflexions utiles. Il y en a tant où l'on auroit de la peine à
                     trouver cet avantage, qui ſont ſi étendus, &amp; que cependant le Public,
                     naturellement indulgent, reçoit avec quelque complaiſance, que celui-ci peut y
-                    avoir quelque droit.</p>
-                <p>Au reſte, je ne ſuis point Auteur, ni ne cherche à l'être: c'eſt un titre que je
+                    avoir quelque droit.
+    </p>
+    <p>
+     Au reſte, je ne ſuis point Auteur, ni ne cherche à l'être: c'eſt un titre que je
                     remplirois certainement fort mal. Je me ſuis amuſé à raſſembler ces trois ou
                     quatre Hiſtoriettes. Elles me ſont connues. Je ſouhaite que le Public s'en
                     amuſe. S'il les traite d'inepties c'eſt en pure perte; car je lui donne le défi
                     de me ſoupçonner. L'anonimité me ſervira de Bouclier contre les traits de ſa
-                    critique.</p>
-            </div>
-            <div type="chapter">
-                <head>LES PLAISIRS D'UN JOUR, OU LA JOURNÉE D'UNE PROVINCIALE A PARIS.</head>
-                <p>L'Aube du jour ne luiſoit point encore, quand Dorine s'éveilla en ſurſaut; “ſens
+                    critique.
+    </p>
+   </div>
+   <div type="chapter">
+    <head>
+     LES PLAISIRS D'UN JOUR, OU LA JOURNÉE D'UNE PROVINCIALE A PARIS.
+    </head>
+    <p>
+     L'Aube du jour ne luiſoit point encore, quand Dorine s'éveilla en ſurſaut; “ſens
                     perfides! s'écria-t-elle, cruelle “illuſion! ſommeil pourquoi m'échappe-tu, au
                     moment que tu me “fais gouter les plus ſenſibles plaiſirs? Clidamon, me
-                    ſerois-tu tou“jours fidele?</p>
-                <p>Madame Donval s'éveillant à ces mots mal articulés, voulut préter l'oreille,
+                    ſerois-tu tou“jours fidele?
+    </p>
+    <p>
+     Madame Donval s'éveillant à ces mots mal articulés, voulut préter l'oreille,
                     eſpérant de pénétrer par là dans les ſecrets du cœur de la belle Marquiſe. Elle
                     étoit venue avec elle à Paris pour guider ſes premiers pas dans le monde; &amp;
                     en qualité de ſurveillante, elle avoit juſques alors cherché à lire dans ſon
@@ -168,8 +248,10 @@
                     l'avoit vu, &amp; qu'elle en avoit fait la conquête. Tout raviſſoit en lui;
                     talens, ſincérité, amour. Il étoit l'image de l'aimable fils de Venus. Ce fut
                     auſſi dans ces charmantes penſées que la belle Provinciale égaya ſon ennui
-                    juſqu'au moment de ſon lever.</p>
-                <p>Madame Donval de ſon côté rouloit de grands deſſeins dans ſon eſprit. Il étoit de
+                    juſqu'au moment de ſon lever.
+    </p>
+    <p>
+     Madame Donval de ſon côté rouloit de grands deſſeins dans ſon eſprit. Il étoit de
                     ſon intérêt que la belle Marquiſe fût encore maîtreſſe de ſon cœur. Un premier
                     amour eſt rarement partagé. Auſſi ſe flatoit-elle de le lui inſpirer pour un
                     aimable homme qu'elle favoriſoit. Cependant l'inquiétude &amp; l'air réveur
@@ -180,8 +262,10 @@
                     de diſſimulation? Ah! je n'en puis douter. Seroit-elle la première qui eût
                     trompé les argus les plus ſurveillans? Du moins que nos artifices ne ſoient pas
                     inutiles. Dorine arrivée depuis hier perd ſa gayeté ordinaire; ſa tranquillité
-                    eſt troublée juſques dans les bras du ſommeil. Amour! amour!</p>
-                <p>Bientôt chacune fit grace à ſes reflexions. On ſe leva. Quel Dieu préſida à la
+                    eſt troublée juſques dans les bras du ſommeil. Amour! amour!
+    </p>
+    <p>
+     Bientôt chacune fit grace à ſes reflexions. On ſe leva. Quel Dieu préſida à la
                     toilette de Dorine? Que de graces parurent alors dans tout leur éclat! la nature
                     avoit pris plaiſir à donner en elle l'aſſemblage le plus parfait. De grands yeux
                     noirs pleins de feu. Une petite bouche. Un front des mieux coupé. Un petit nez
@@ -198,14 +282,18 @@
                     les rendre au moins ſupportables. Mais Dorine, belle comme l'aſtre du jour,
                     n'avoit beſoin que de ſa propre beauté. Au moment qu'elle alloit ainſi s'occuper
                     à ſe rendre encore plus belle, Clidamon, ce fortuné mortel, l'amant cheri
-                    arriva.</p>
-                <p>La joye de Dorine eût trop éclaté devant Madame Donval, ſi ſolinville n'étoit
+                    arriva.
+    </p>
+    <p>
+     La joye de Dorine eût trop éclaté devant Madame Donval, ſi ſolinville n'étoit
                     auſſi-tôt venu faire diverſion. Ce jeune homme, parent de notre belle
                     Provinciale, quoique iſſu d'une des meilleures familles de Normandie, n'avoit
                     cependant ni l'eſprit ni la fineſſe de ceux de ſon pays. Auſſi à ſon arrivée la
                     converſation, d'intéreſſente qu'elle étoit, devint-elle générale &amp; ennuyeuſe
-                    par les fadeurs dont il ſçut habilement aſſaiſonner ſes complimens.</p>
-                <p>L'arrivée d'un troiſième fut mille fois plus agréable à nos amans. C'étoit un de
+                    par les fadeurs dont il ſçut habilement aſſaiſonner ſes complimens.
+    </p>
+    <p>
+     L'arrivée d'un troiſième fut mille fois plus agréable à nos amans. C'étoit un de
                     ces perſonnages auquel le petit collet donne le privilège d'être beaucoup mieux
                     auprès des Dames que la plûpart de nos plumets; peut-être à cauſe de la
                     reſſemblance des intérêts. Il en eſt dans ce corps que l'on peut regarder comme
@@ -239,8 +327,10 @@
                     couroit, papillonnoit auprès de toutes, étoit à toutes &amp; n'étoit à aucune.
                     Toujours dans les couliſſes, il en ſcavoit toutes les galantes converſations.
                     Quelle riche moiſſon! pouvoit-il après cela ſe trouver jamais muet en belle
-                    compagnie.</p>
-                <p>D'Herbeval, informé de l'arrivée de la belle Provinciale, crut avec raiſon que
+                    compagnie.
+    </p>
+    <p>
+     D'Herbeval, informé de l'arrivée de la belle Provinciale, crut avec raiſon que
                     c'étoit beaucoup gagner de ſe montrer des premiers. Auſſi toute viſite fut elle
                     remiſe après cette premiere entrevue. Il comptoit être le premier. Mais l'amour
                     étoit de la partie. Les ſujets de ce Dieu ſont toujours en campagne. Solinville
@@ -266,8 +356,10 @@
                     auroient pu nuire à ſes nouveaux deſſeins. Dorine qui avoit commencé à goûter ſa
                     converſation, &amp; dont la gayeté s'accommodoit à merveille à la ſienne, fut
                     charmée du ſacrifice qu'il vouloit bien lui faire, &amp; lui en ſcut tout le gré
-                    imaginable.</p>
-                <p>En homme de regle, il offrit ſon caroſſe pour aller d'abord à la Meſſe, &amp; de
+                    imaginable.
+    </p>
+    <p>
+     En homme de regle, il offrit ſon caroſſe pour aller d'abord à la Meſſe, &amp; de
                     bon goût, il le fit tourner vers ce temple, rendez-vous, de toutes les beautés
                     coquêtes. Les Quinze-Vingts ſont les jours de fête d'un petit monde en beautés.
                     Celui-ci en étoit un. Auſſi quelle fut la ſurpriſe de Dorine! Si Clidamon eût
@@ -275,20 +367,26 @@
                     cet amant à qui l'abſence venoit de faire ſentir tout le prix de ſon nouvel
                     amour, cherchoit trop à lire ſon bonheur dans les yeux de ſa maîtreſſe pour
                     détourner les ſiens ſur tout autre objet. Eſt-on auprès de ce qu'on aime, le
-                    reſte du monde pour nous ne tient qu'au néant.</p>
-                <p>Il n'en étoit pas de même du doucereux Solinville. Il étoit maître de ſon cœur.
+                    reſte du monde pour nous ne tient qu'au néant.
+    </p>
+    <p>
+     Il n'en étoit pas de même du doucereux Solinville. Il étoit maître de ſon cœur.
                     Il quitta un inſtant ſa compagnie, pour s'informer de toutes les petites
                     minuties qu'on demande d'ordinaire à ces beautés de parade ſi fort à la mode
                     aujourd'hui. L'Abbé d'Herbeval en fit ſeulement remarquer quelques-unes dont il
-                    promit de dévoiler certaines annecdotes divertiſſantes.</p>
-                <p>Bientôt on ſortit pour aller embellir la promenade. Les Dames étoient déja toutes
+                    promit de dévoiler certaines annecdotes divertiſſantes.
+    </p>
+    <p>
+     Bientôt on ſortit pour aller embellir la promenade. Les Dames étoient déja toutes
                     rangées le long de l'allée. Mille amans leur faiſoient complimens ſur leurs
                     charmes. Ah! dans quel lieu me conduiſez-vous, cher Clidamon, lui dit l'aimable
                     Marquiſe. Eſt-ce dans un Palais enchanté. De quelque côté que je jette ici les
                     yeux, mille beautés toujours plus belles viennent ſe préſenter à ma vue. Ici
                     l'or &amp; les pierreries, là les ſeuls agrémens de la tendre jeuneſſe.
-                    Pouvez-vous m'être fidelle, au milieu de tant d'aimables objets.</p>
-                <p>Y penſez-vous, lui repondit Clidamon. Mon amour vous eſt-il ſuſpect. Me
+                    Pouvez-vous m'être fidelle, au milieu de tant d'aimables objets.
+    </p>
+    <p>
+     Y penſez-vous, lui repondit Clidamon. Mon amour vous eſt-il ſuſpect. Me
                     croyez-vous du nombre de ces cœurs volages qui ſacrifient tous les jours à de
                     nouvelles divinités. Ah! rendez-moi juſtice. Ai-je violé mes ſermens? Je ſuis
                     fidele. D'ailleurs toutes ces beautés que vous croyez telles, vous ſont mille
@@ -307,15 +405,19 @@
                     Solinville, étoit un peu trop négligée. Que trop d'attention pour l'objet de
                     notre amour nuiſoit quelquefois. On ſe rejoignit, on prit des chaiſes, &amp;
                     l'Abbé, pour remplir ſa promeſſe, leur raconta l'avanture de quelques-unes des
-                    plus apparentes d'entre les Dames aſſiſes proche d'elles.</p>
-                <p>Dorine eſt un peu ſur le retour. Elle n'a ni graces ni beauté. Croiriez-vous
+                    plus apparentes d'entre les Dames aſſiſes proche d'elles.
+    </p>
+    <p>
+     Dorine eſt un peu ſur le retour. Elle n'a ni graces ni beauté. Croiriez-vous
                     cependant qu'elle a un amant qui lui a aſſuré ſa fortune; ce jeune homme s'eſt
                     attaché à elle, vaincu par je ne ſcai quel charme, extrémement riche, il lui
                     prodigue chaque jour des fêtes &amp; des preſens. Il va toujours au-devant de
                     tous ſes déſirs. Cependant, quoiqu'il lui ait encore aſſuré près de quinze mille
                     livres de rente, elle lui ſcait aſſocier quelque Adonis muſqué, qui jouit
-                    paiſiblement des largeſſes de l'amant en titre.</p>
-                <p>Auprès d'elle eſt une aimable Demoiſelle, auſſi ſpirituelle qu'elle a de charmes.
+                    paiſiblement des largeſſes de l'amant en titre.
+    </p>
+    <p>
+     Auprès d'elle eſt une aimable Demoiſelle, auſſi ſpirituelle qu'elle a de charmes.
                     Son amant l'aime ſans partage. Il vient de refuſer un parti des plus avantageux,
                     pour ne ſe point voir arracher de ſes bras. Elle le merite, il eſt vrai, par ſes
                     ſentimens &amp; ſa conduite à ſon égard. C'eſt au moins pour lui une ſenſible
@@ -323,11 +425,15 @@
                     folie. Mais il n'en ſera pas moins blâmé de renoncer à ſa fortune, à ſon
                     avancement &amp; à la gloire de ſes ancêtres, pour un amour que chacun taxe
                     d'excès &amp; de libertinage. C'eſt cependant ce qui eſt le plus à la mode dans
-                    notre ſiécle.</p>
-                <p>Cette autre ayant perdu maintes fois tout credit dans l'eſprit de nos jeunes
+                    notre ſiécle.
+    </p>
+    <p>
+     Cette autre ayant perdu maintes fois tout credit dans l'eſprit de nos jeunes
                     gens, s'eſt toujours relevée de ſa chute, &amp; ne doit qu'à ſon babil les
-                    offrandes qu'on lui prodigue chaque jour.</p>
-                <p>Celle-ci eſt revenue depuis près de cinq ans d'Italie, où elle étoit à la ſuite
+                    offrandes qu'on lui prodigue chaque jour.
+    </p>
+    <p>
+     Celle-ci eſt revenue depuis près de cinq ans d'Italie, où elle étoit à la ſuite
                     d'un jeune Seigneur, qui la faiſoit paſſer pour ſon Secretaire. C'étoit en
                     apparence le plus aimable cavalier. Vif, gai, poli, il faiſoit l'amuſement &amp;
                     la conquête de toutes les Dames qu'il approchoit. Mais depuis, ayant un peu trop
@@ -337,8 +443,10 @@
                     ſorte, qui n'avoient rien perdu de leur empire ſur elle dans ſa première
                     métamorphoſe; elle eſt aujourd'hui ce qu'elle ſera toujours, coquette, volage,
                     aimant la dépenſe à l'excès, elle ruinera ſes amans. Ce qui m'étonne, c'eſt
-                    qu'elle puiſſe s'en donner de nouveaux.</p>
-                <p>Il faut tous les jours à celle-là de nouveaux amans. Glorieuſe même dans ſes
+                    qu'elle puiſſe s'en donner de nouveaux.
+    </p>
+    <p>
+     Il faut tous les jours à celle-là de nouveaux amans. Glorieuſe même dans ſes
                     baſſeſſes, elle reçoit avec dédain l'hommage des ſubalternes. Celui ſeul qui
                     donne le plus eſt bien acceuilli. Auſſi ſe plaît-on tous les jours à lui cauſer
                     quelques nouvelles mortifications. L'apas du gain l'a fait déja plus d'une fois
@@ -361,8 +469,10 @@
                     faiſoit ſentir toute l'avanie. Le Prince à ſon lever fut informé des
                     circonſtances de cette avanture. Elle éclata bientôt, fut la nouvelle du jour
                     &amp; le ſujet des divertiſſemens, &amp; de la riſée de tous les Seigneurs &amp;
-                    de tout Paris.</p>
-                <p>Mais voyez-vous bien cette Dame Elle a encore quelque jeuneſſe, &amp; un reſte de
+                    de tout Paris.
+    </p>
+    <p>
+     Mais voyez-vous bien cette Dame Elle a encore quelque jeuneſſe, &amp; un reſte de
                     beauté. Il y a quelques années, avant que ſes amours euſſent ſi fort éclaté,
                     c'étoit une des belles perſonnes de ***. Outre cela riche, &amp; avec de la
                     naiſſance. En falloit-il davantage pour être recherchée par l'élite de toute la
@@ -417,8 +527,10 @@
                     cher amant devant les yeux. Il lui paroiſſoit expirer dans ſes bras. Jamais
                     douleur ne fut plus vive. Ses ſoupirs étoient entrecoupés par des ſanglots.
                     Cruel deſtin pourquoi te plaît tu toujours à traverſer le bonheur des foibles
-                    humains?</p>
-                <p>Lucile crut ne trouver que dans la retraite un ſejour tranquille où elle pût
+                    humains?
+    </p>
+    <p>
+     Lucile crut ne trouver que dans la retraite un ſejour tranquille où elle pût
                     nourrir ſa douleur, en penſant continuellement à la cruauté du ſort qui lui
                     avoit enlevé ce qui lui étoit au monde de plus cher. L'azile qu'elle choiſit,
                     étoit gouverné par une des ſes tantes, c'eſt ce qui le lui fit préférer. Elle y
@@ -428,8 +540,10 @@
                     parente qui l'aimoit tendrement. Elle ſe flatoit donc de trouver auprès d'elle
                     quel-que eſpèce de conſolation. Peut-on épancher ſa douleur dans le ſein d'un
                     ami qui la partage, on eſt à demi ſoulagé. Tels étoient les avantages qu'elle
-                    alloit chercher dans cette retraite.</p>
-                <p>Mais eſt-il de ſolitude où l'amour &amp; l'intérêt ne puiſſent pénétrer. Ces deux
+                    alloit chercher dans cette retraite.
+    </p>
+    <p>
+     Mais eſt-il de ſolitude où l'amour &amp; l'intérêt ne puiſſent pénétrer. Ces deux
                     grands mobiles des actions des hommes agiſſent à peu-près dans la même force.
                     Auſſi Lucile y fut-elle bientôt en butte aux mêmes pourſuites qu'elle avoit déja
                     eſſuyées avant ſon déſaſtre. Les uns l'aſſiégerent, picqués pour elle du plus
@@ -438,8 +552,10 @@
                     auſſitôt perdues que goutées. La vie lui devenoit odieuſe. D'autres éguillonnés
                     par le déſir des grands biens qu'elle poſſedoit redoubloient leurs pourſuites.
                     Mais Lucile, à travers de leurs plus douces proteſtations, ſcavoit bien demêler
-                    la baſſeſſe de leurs vues, tous les hommes lui devenoient haïſſables.</p>
-                <p>La tante de Lucile faiſoit néanmoins tous ſes efforts pour diſſiper ſon chagrin,
+                    la baſſeſſe de leurs vues, tous les hommes lui devenoient haïſſables.
+    </p>
+    <p>
+     La tante de Lucile faiſoit néanmoins tous ſes efforts pour diſſiper ſon chagrin,
                     &amp; lui faire oublier le ſujet de ſa douleur. Elle favoriſoit un Baron, homme
                     riche &amp; des mieux titrés de la province, qui ſe trouvoit du nombre des
                     adorateurs de ſa niéce. Elle parloit ſans ceſſe de ce parti à Lucile, qui enfin
@@ -477,8 +593,10 @@
                     la laiſſer tranquillement vivre à ſa manière dans cette Ville. Qu'au ſurplus,
                     s'il faiſoit les moindres pourſuites pour la ravoir, elle fuiroit plutôt au bout
                     de la terre: qu'elle ſe vouoit pour toujours à la retraite &amp; au ſilence. Que
-                    du reſte, elle conſerveroit toujours une veritable eſtime pour ſa perſonne.</p>
-                <p>Le Baron, qui à la perte de celle qu'il comptoit deja être ſon épouſe, avoit
+                    du reſte, elle conſerveroit toujours une veritable eſtime pour ſa perſonne.
+    </p>
+    <p>
+     Le Baron, qui à la perte de celle qu'il comptoit deja être ſon épouſe, avoit
                     ſenti toute l'étendue de ſon malheur, en ſentit de nouveau toute l'amertume à la
                     lecture de cette lettre. Il comprit bien qu'une femme, qui juſque-là avoit
                     toujours agi avec une conſtance ſi mâle, &amp; une ſi grande fermeté, étoit
@@ -487,8 +605,10 @@
                     &amp; de nouveaux amours y contribuerent-ils. Quoi qu'il en ſoit tout reprit
                     chez lui, du moins en apparence, le calme &amp; la ſérénité. Il lui en reſta
                     néanmoins une triſteſſe &amp; une mélancolie, qui épuiſerent bientôt ſes forces,
-                    &amp; le conduiſirent peu à peu au tombeau.</p>
-                <p> Quant à Lucile, après avoir vêcu retirée toute la vie du Baron, libre alors de
+                    &amp; le conduiſirent peu à peu au tombeau.
+    </p>
+    <p>
+     Quant à Lucile, après avoir vêcu retirée toute la vie du Baron, libre alors de
                     tout engagement &amp; de toute contrainte; le temps ayant d'ailleurs un peu
                     calmé ſa douleur &amp; amorti ſes chagrins; elle voulut voir ce qu'il y avoit de
                     curieux &amp; d'agréable dans cette Ville. Peu à peu elle y prit gout. Son
@@ -515,8 +635,10 @@
                     rendue à elle-même, elle paroît démentir aujourd'hui par ſa conduite les
                     égaremens de ſa vie paſſée. Femme aimable elle eſt l'agrément de toutes les
                     converſations. Les compagnies où elle ſe trouve ne peuvent s'en ſéparer.
-                    Vertueuſe par goût, la ſolitude lui eſt un préſervatif inutile.</p>
-                <p>Il étoit tard. Dorine après avoir remercié l'Abbé de ſa complaiſance, crut devoir
+                    Vertueuſe par goût, la ſolitude lui eſt un préſervatif inutile.
+    </p>
+    <p>
+     Il étoit tard. Dorine après avoir remercié l'Abbé de ſa complaiſance, crut devoir
                     le prier de remettre au dîner les autres aventures des Lais de nos jours. On ſe
                     leva, cette aimable compagnie fit encore quelques tours d'allées avant de
                     quitter la promenade. Clidamon voulut employer le peu d'inſtans qui lui
@@ -542,8 +664,10 @@
                     des jeunes Demoiſelles de condition. Peu à peu, il étoit impoſſible qu'elles ne
                     tombaſſent pas dans le piege; c'étoit dans cette intention qu'elle s'étoit
                     appliquée à gagner l'affection de Dorine. Cette belle perſonne avoit inſpiré des
-                    tendres ſentimens à pluſieurs Seigneurs, qui l'avoient vue aux Etats de***.</p>
-                <p>Un d'entr'eux, qui avoit déja eu lieu de connoître Madame Donval, &amp; de ſe
+                    tendres ſentimens à pluſieurs Seigneurs, qui l'avoient vue aux Etats de***.
+    </p>
+    <p>
+     Un d'entr'eux, qui avoit déja eu lieu de connoître Madame Donval, &amp; de ſe
                     bien trouver de ſes merveilleux talens en intrigues amoureuſes, la vint encore
                     trouver, &amp; lui faire les plus belles promeſſes, s'il pouvoit par ſon moyen
                     gagner le cœur de cette aimable perſonne. Mais l'heureux Clidamon en étoit déja
@@ -585,16 +709,20 @@
                     candeur fort au-deſſus de ſon âge, ne parut pas plus long-temps ignorer ſon
                     amour &amp; dédaigner ſes hommages, qu'il ne lui en fallut pour connoître s'il
                     étoit digne d'elle; &amp; remarquer à cet effet que celui à qui elle donnoit ſon
-                    cœur méritoit tout ſon amour.</p>
-                <p>Qui peut ſe dépeindre le bonheur de ces deux jeunes amans, tous deux connurent
+                    cœur méritoit tout ſon amour.
+    </p>
+    <p>
+     Qui peut ſe dépeindre le bonheur de ces deux jeunes amans, tous deux connurent
                     alors l'amour pour la première fois. Car il n'y a aucun doute que la vertu ſeule
                     &amp; la reconnoiſſance avoient attaché Dorine à ſon premier époux, dont l'âge
                     étoit ſi diſproportionné au ſien. Ainſi ce ne fut qu'a la vue de Clidamon que le
                     jeune cœur de notre charmante veuve commença à reſſentir les traits de l'amour.
                     Dès que deux cœurs nés l'un pour l'autre, viennent enfin à s'approcher, que de
                     ſentimens n'ont-ils pas à ſe communiquer: le bonheur paroît inaltérable. Tel
-                    étoit celui de ces deux jeunes perſonnes, toutes deux faites pour l'amour.</p>
-                <p>Enfin Clidamon, après s'être aſſuré du cœur de ſa maîtreſſe, vit approcher le
+                    étoit celui de ces deux jeunes perſonnes, toutes deux faites pour l'amour.
+    </p>
+    <p>
+     Enfin Clidamon, après s'être aſſuré du cœur de ſa maîtreſſe, vit approcher le
                     fatal inſtant de leur ſeparation. Obligé malgré lui de retourner à Paris, il
                     quitta Dorine avec tous les regrets d'un amant au déſeſpoir, &amp; toutes les
                     proteſtations d'un amant cheri. Jamais ſeparation ne fut plus amère &amp; plus
@@ -608,21 +736,29 @@
                     fille, il crut ne pouvoir mieux choiſir que de jetter les yeux ſur Madame Donval
                     pour le remplacer en cette occaſion. Il étoit auſſi la duppe de cette femme
                     artificieuſe, qui s'occupant depuis long-temps de ce voyage, lui avoit déja fait
-                    entrevoir, qu'elle s'y prétéroit volontiers.</p>
-                <p>Clidamon n'ayant donc pu rien tirer de cette ingénieuſe femme, &amp; prêt
+                    entrevoir, qu'elle s'y prétéroit volontiers.
+    </p>
+    <p>
+     Clidamon n'ayant donc pu rien tirer de cette ingénieuſe femme, &amp; prêt
                     d'arriver à leur équipage, lui propoſa pour le ſoir, après le ſpectacle le
                     divertiſſement de la promenade au bois de Boulogne, où il comptoit leur donner à
                     ſouper, &amp; où à cet effet, il avoit fait préparer une fête complette. Madame
                     Donval aimoit trop le plaiſir, pour ne pas accepter tout ce qui pouvoit lui en
                     procurer. Cet offre de Clidamon augmenta ſa gayeté; toute cette aimable
-                    compagnie s'en reſſentit.</p>
-                <p>Arrivés chez l'Abbé d'Herbeval, on y trouva le Chevalier du Thieul &amp; le Comte
+                    compagnie s'en reſſentit.
+    </p>
+    <p>
+     Arrivés chez l'Abbé d'Herbeval, on y trouva le Chevalier du Thieul &amp; le Comte
                     de Kerville, tous deux amis de Clidamon, ils avoient déja ſalué Dorine à la
                     promenade; &amp; l'Abbé les avoit engagés à venir leur tenir compagnie le reſte
-                    du jour.</p>
-                <p>On ſe mit à table. Le dîner fut pouſſé le plus long temps qu'il fut poſſible, on
-                    y raiſonna beaucoup ſur tous les objets qu'on avoit vus à la promenade.</p>
-                <p>Avez-vous bien remarqué, dit Kerville à Dorine, cette Dame aſſiſe auprès de vous.
+                    du jour.
+    </p>
+    <p>
+     On ſe mit à table. Le dîner fut pouſſé le plus long temps qu'il fut poſſible, on
+                    y raiſonna beaucoup ſur tous les objets qu'on avoit vus à la promenade.
+    </p>
+    <p>
+     Avez-vous bien remarqué, dit Kerville à Dorine, cette Dame aſſiſe auprès de vous.
                     Elle tenoit tête à pluſieurs hommes. Elle a beaucoup d'eſprit, mais elle s'en
                     croit beaucoup davantage, auſſi ſa compagnie n'eſt-elle plus ſi agréable
                     qu'avant qu'elle ſe ſoit donnée pour auteur. Les ouvrages qui ont paru ſous ſon
@@ -643,21 +779,27 @@
                     d'amateur de belles lettres, ou peut-être même ſous celui d'auteur, ſouvent un
                     peu apocryphe, il entre dans le cabinet de Madame, &amp; paſſe dans un tête à
                     tête des heures entières au ſçu &amp; à la gloire du mari, qui ſouvent ſans
-                    talens ſe fait honneur de ceux qu'on veut bien ainſi prêter à ſa femme.</p>
-                <p>Vous vous plaiſez, Meſſieurs, à ſatyriſer ſur le chapitre des Dames, diſoit
+                    talens ſe fait honneur de ceux qu'on veut bien ainſi prêter à ſa femme.
+    </p>
+    <p>
+     Vous vous plaiſez, Meſſieurs, à ſatyriſer ſur le chapitre des Dames, diſoit
                     Madame Donval: cependant êtes-vous auprès d'elles, vous changés de ton; vous
                     êtes langoureux; perſonne à votre dire n'a plus d'eſprit; rien n'eſt ſi aimable;
                     il faudroit être bien peu ſenſé ou bien jaloux pour traiter leur merite de
                     talents empruntés. Voilà, Meſſieurs, ce que vous ne ceſſez de nous dire tous les
-                    jours.</p>
-                <p>La politeſſe, reprit l'Abbé d'Herbeval, cet artifice en uſage parmi nous, qui
+                    jours.
+    </p>
+    <p>
+     La politeſſe, reprit l'Abbé d'Herbeval, cet artifice en uſage parmi nous, qui
                     nous rend propres à la ſociété, nous oblige, il eſt vrai, de farder la vérité en
                     leur préſence. C'eſt un mal néceſſaire dans notre patrie, c'eſt le malheur du
                     temps, mais ne doutez pas qu'elles ne nous combattent des mêmes armes, ainſi
                     l'un rit de l'autre, &amp; nous nous amuſons ſottement tous les jours de ce qui
                     paroît ridicule en nous-mêmes. C'eſt la double beſace de la fable, mais toute
-                    morale à part.</p>
-                <p>Croyez-vous que cette Dame qui étoit proche de vous à la Meſſe, fût auſſi dévote
+                    morale à part.
+    </p>
+    <p>
+     Croyez-vous que cette Dame qui étoit proche de vous à la Meſſe, fût auſſi dévote
                     qu'elle le paroiſſoit. A peine levoit-elle les yeux; ſes prières paroiſſoient
                     ferventes. Jamais Italienne ne ſcut mieux jouer ſon rolle; la guimpe a ſouvent
                     ſervi de voile aux libertinages les plus ſcandaleux. La devotion eſt un voile
@@ -671,11 +813,15 @@
                     commodités &amp; aux plaiſirs de plus grands appareils. Ces faits ſont connus,
                     &amp; quelques ſecrettes que ſoient les menées de ces phantômes de devotions,
                     leurs avantures pénétrent pourtant quelquefois, par la trop grande précaution
-                    que l'on prend pour les tenir enſevelies dans le ſecret.</p>
-                <p>Mais, lui dit Dorine, tréve un moment ſur les Dames. Pourriez-vous me faire
+                    que l'on prend pour les tenir enſevelies dans le ſecret.
+    </p>
+    <p>
+     Mais, lui dit Dorine, tréve un moment ſur les Dames. Pourriez-vous me faire
                     connoître quel eſt ce grand Chevalier qui comptoit des fleurettes à deux pas de
-                    nous.</p>
-                <p>Qu'il ſe trouveroit heureux, Madame, s'il ſavoit qu'une auſſi belle bouche eût
+                    nous.
+    </p>
+    <p>
+     Qu'il ſe trouveroit heureux, Madame, s'il ſavoit qu'une auſſi belle bouche eût
                     demandé ſon nom, lui dit du Thieul. C'eſt le Chevalier de Senoncour. Comme
                     cadet, il fut conſacré à la religion de Malthe. Il remit le plus long-temps
                     qu'il put ſes caravanes, comptant que ſon frère aîné, d'une ſanté délicate, ou
@@ -712,8 +858,10 @@
                     le jugez à propos, vous en convaincre, au riſque de vous livrer bien-tôt au
                     ſommeil; c'eſt ce à quoi je le puis croire le plus convenable; &amp;
                     quelques-unes de ſes parolles ſeroient pour nous dans une inſomnie l'opium le
-                    plus ſpécifique.</p>
-                <p>Il eſt encore une autre eſpèce d'être auſſi fréquente qu'ennuyeuſe, reprit l'Abbé
+                    plus ſpécifique.
+    </p>
+    <p>
+     Il eſt encore une autre eſpèce d'être auſſi fréquente qu'ennuyeuſe, reprit l'Abbé
                     d'Herbeval. Ce ſont de ces précieuſes, qui ravies de ſe voir entourées de beaux
                     eſprits, ne cherchent qu'à en augmenter leur cour, demandent des vers aux uns
                     ſur tel perſonnage qui a eu le malheur de leur déplaire, des lettres aux autres
@@ -731,14 +879,18 @@
                     du nôtre. Ah! que nos Dames devroient mieux mettre à profit les attentions &amp;
                     les complaiſances infinies que nous avons pour elles en France. Faites pour
                     plaire que ne s'étudient-elles à faire l'agrément de toutes les ſociétés, autant
-                    par le charme de leurs diſcours, que par celui de leur beauté.</p>
-                <p>Mais, continua d'Herbeval, paſſons à quelques faits plus intéreſſans &amp; plus
+                    par le charme de leurs diſcours, que par celui de leur beauté.
+    </p>
+    <p>
+     Mais, continua d'Herbeval, paſſons à quelques faits plus intéreſſans &amp; plus
                     circonſtanciés, dont la ſingularité peut récréer ces Dames, tout caractèriſe
                     dans le plus grand jour les fureurs des paſſions qu'elles nous font reſſentir,
                     &amp; dont elles ſont bien ſouvent elles-mêmes les déplorables victimes. Voici
                     un trait unique du caprice &amp; de la jalouſie la plus terrible &amp; la plus
-                    funeſte.</p>
-                <p>Damon, homme riche &amp; de naiſſance, Capitaine de Cavalerie, &amp; bien établi
+                    funeſte.
+    </p>
+    <p>
+     Damon, homme riche &amp; de naiſſance, Capitaine de Cavalerie, &amp; bien établi
                     dans la province d'Anjou où il vivoit près de ſa femme &amp; de ſes enfans, tout
                     le temps qu'il ſe pouvoit exempter d'aller à ſon Régiment; avoit deux filles
                     jeunes, ſpirituelles, &amp; toutes deux aſſez belles. Il n'avoit rien négligé
@@ -800,8 +952,10 @@
                     démandée qu'au refus de ſon aînée. Le père ſe repréſentant la peine où ſon ami
                     ſe trouvoit à cet égard s'offrit de ſonder lui-même les intentions de ſa fille;
                     &amp; même s'il y trouvoit quelque jour d'hazarder la déclaration de ſes vues
-                    ſur elle.</p>
-                <p>Cephiſe aimoit Liſimon, autant que ſa ſœur ſembloit avoir pour lui
+                    ſur elle.
+    </p>
+    <p>
+     Cephiſe aimoit Liſimon, autant que ſa ſœur ſembloit avoir pour lui
                     d'indifférence. Irritée néanmoins de la préférence qu'il marquoit, elle avoit
                     ſoin de ſi bien déguiſer ſes ſentimens, qu'il n'en pouvoit échapper aucun
                     indice. Elle avoit ſi bien donné le change qu'un chacun s'y trompoit. D'autre
@@ -814,12 +968,16 @@
                     ſi long-temps recherché la main; il fit tout ſon poſſible pour engager ſon cœur
                     à changer d'objet. Ce ne fut pas ſans combats qu'il vint à remporter cette
                     victoire: enfin il y reuſſit, &amp; en peu de temps il ſe trouva plus heureux
-                    qu'il ne devoit eſpérer.</p>
-                <p>D'un autre côté, Damon en converſant avec Cephiſe ſur le ſujet de ſa ſœur, eut la
+                    qu'il ne devoit eſpérer.
+    </p>
+    <p>
+     D'un autre côté, Damon en converſant avec Cephiſe ſur le ſujet de ſa ſœur, eut la
                     conſolation de remarquer, qu'elle ne ſeroit guéres éloignée de ſe rendre aux
                     nouvelles vues de Liſimon, il s'apperçut avec plaiſir qu'elle n'étoit nullement
-                    indifférente à ſon ſujet: il en avertit auſſi-tôt ſon ami.</p>
-                <p>Notre nouvel amant vint en tremblant ſe préſenter à Céphiſe, &amp; lui offrir ſon
+                    indifférente à ſon ſujet: il en avertit auſſi-tôt ſon ami.
+    </p>
+    <p>
+     Notre nouvel amant vint en tremblant ſe préſenter à Céphiſe, &amp; lui offrir ſon
                     cœur &amp; ſa main. Mais quelle fut ſa ſurpriſe &amp; ſa joye, lorſque cette
                     aimable fille, loin de le rebuter, lui fit l'acceuil le plus tendre, &amp; le
                     reçut à bras ouverts; &amp; ſans faire attention à tout ce qu'il avoit fait pour
@@ -834,8 +992,10 @@
                     le plutôt qu'il lui ſeroit poſſible, pour éviter de nouveaux obſtacles. En effet
                     un caprice ne peut-il pas tout changer en un ſeul inſtant. Il connoiſſoit trop
                     l'amour pour ne pas craindre l'empire qu'une première maîtreſſe conſerve ſur le
-                    cœur d'un amant.</p>
-                <p>Enfin le jour arriva où ces nœuds ſi déſirés devoient être formés. Beliſe, ſous
+                    cœur d'un amant.
+    </p>
+    <p>
+     Enfin le jour arriva où ces nœuds ſi déſirés devoient être formés. Beliſe, ſous
                     prétexte de Maladie, ſe diſpenſa d'aſſiſter à cette cérémonie. Plus le moment
                     approchoit auquel Liſimon lui alloit être enlevé pour toujours, plus ſon cœur
                     s'attendriſſoit pour lui. Elle eût bien ſouhaité qu'il eût pu remarquer ce
@@ -858,8 +1018,10 @@
                     Cruelle ſœur, quel ſeroit ton déſeſpoir, &amp; ta honte de te voir ainſi
                     mépriſée. Mais quoi; quel ne ſeroit pas ſon triomphe, ſi l'ingrat, oubliant ſes
                     ſermens n'avoit plus d'yeux que pour elle. O jour le plus malheureux de mes
-                    jours. Quoi, ſerai-je à jamais ſeparée de ce que j'aime.</p>
-                <p>Beliſe s'occupoit encore de ces cruelles &amp; douloureuſes penſées, lorſque les
+                    jours. Quoi, ſerai-je à jamais ſeparée de ce que j'aime.
+    </p>
+    <p>
+     Beliſe s'occupoit encore de ces cruelles &amp; douloureuſes penſées, lorſque les
                     nouveaux époux, de retour des autels, rentrerent chez Damon. A la joye de ce
                     tendre père, de cet ami zèlé la malheureuſe Beliſe ne put plus douter de ſon
                     déſaſtre. C'en eſt donc fait, s'écria-t-elle; l'ingrat contre les ſermens qu'il
@@ -874,8 +1036,10 @@
                     ſon cœur, il eſt ſon époux. N'importe, vengeonsnous, plus il y a d'obſtacles,
                     plus j'aurai de ſatisfaction à les ſurmonter. Beliſe étoit dans cette
                     reſolution, lorſqu'elle entendit quelqu'un approcher de ſon appartement. Tout
-                    frémit en elle: C'étoit ſon amant.</p>
-                <p>Il étoit de la bienſéance que Liſimon, de retour de la cérémonie, vînt rendre
+                    frémit en elle: C'étoit ſon amant.
+    </p>
+    <p>
+     Il étoit de la bienſéance que Liſimon, de retour de la cérémonie, vînt rendre
                     viſite à ſa nouvelle belleſœur. Il eut l'imprudence d'y aller ſeul. L'habitude
                     &amp; le libre accès qu'il avoit de tout temps dans tous les endroits de la
                     maiſon, plutôt qu'aucun motif particulier, lui fit faire cette fauſſe démarche.
@@ -910,8 +1074,10 @@
                     Je m'en tiens à vos ſermens. Je ne vous puis croire parjure. Ah, Liſimon,
                     repondez; m'êtes-vous vraiment infidele. Avez-vous totalement oublié votre
                     amour. De nouveaux feux ſont-ils plus puiſſants? Ah! je n'en puis douter,
-                    ingrat; je ne vous cauſe pas la moindre émotion.</p>
-                <p>Liſimon, qui juſques-là étoit reſté immobile &amp; interdit, ſembla ſe reveiller
+                    ingrat; je ne vous cauſe pas la moindre émotion.
+    </p>
+    <p>
+     Liſimon, qui juſques-là étoit reſté immobile &amp; interdit, ſembla ſe reveiller
                     à ce reproche. Une paſſion mal étouffée n'en devient que plus forte. Semblable à
                     un feu caché qui cauſe un embraſement d'autant plus dangereux qu'il eſt plus
                     imprévu. Tel étoit l'état critique où ſe trouvoit Liſimon. Il ne s'étoit jamais
@@ -926,8 +1092,10 @@
                     odieux. Avec vous quel ne ſeroit pas mon bonheur. Ah! Beliſe, pourquoi
                     n'avez-vous jamais laiſſé échapper quelques étincelles de ce feu qui me conſume,
                     &amp; qui auroit conſolé mon amour. Vos rigueurs ont été inflexibles. Ah! que je
-                    ſuis malheureux.</p>
-                <p>Beliſe au moment qu'elle ſe comptoit mépriſée, ravie de reconnoître tant de
+                    ſuis malheureux.
+    </p>
+    <p>
+     Beliſe au moment qu'elle ſe comptoit mépriſée, ravie de reconnoître tant de
                     tendreſſe en ſon amant, ravie de le voir &amp; de l'embraſſer encore, penſe à ſe
                     livrer toute entière à ſes tranſports, bien plus qu'à ſuivre ſes projets de
                     vengeance. Elle oublie tout juſques à ſa colère. Liſimon étoit toujours immobile
@@ -944,14 +1112,20 @@
                     l'autre en vous perdant l'envie de vous appartenir en quelque ſorte, &amp; de
                     vous voir à chaque inſtant. Tels ſont les motifs qui m'ont fait céder contre mon
                     penchant. Infortuné que je ſuis, je déteſterai à jamais la cruelle démarche qui
-                    me prive de vous, vous qui euſſiez fait tout mon bonheur.</p>
-                <p>Conſolez-vous, lui repondit-elle, je n'en ſerai pas moins la maîtreſſe de votre
-                    cœur, &amp; je vous donne encore une fois le mien à jamais ſans réſerve.</p>
-                <p>Tous ces diſcours étoient accompagnés de baiſers les plus enflammés. Ces deux
+                    me prive de vous, vous qui euſſiez fait tout mon bonheur.
+    </p>
+    <p>
+     Conſolez-vous, lui repondit-elle, je n'en ſerai pas moins la maîtreſſe de votre
+                    cœur, &amp; je vous donne encore une fois le mien à jamais ſans réſerve.
+    </p>
+    <p>
+     Tous ces diſcours étoient accompagnés de baiſers les plus enflammés. Ces deux
                     amans, libres pour la première fois, vinrent enfin à s'oublier. Ah! dans quelle
                     fatale yvreſſe êtesvous, malheureux. Faut-il ſe perdre ainſi l'un &amp;
-                    l'autre.</p>
-                <p>A l'inſtant que Liſimon hors de lui, ſaiſiſſoit l'heure heureuſe, &amp; ſe payoit
+                    l'autre.
+    </p>
+    <p>
+     A l'inſtant que Liſimon hors de lui, ſaiſiſſoit l'heure heureuſe, &amp; ſe payoit
                     des ſoins qu'il avoit eu pour Beliſe, &amp; que cette amante ſacrifiée ſe
                     vengeoit ſi outrageuſement de ſa ſœur; cette nouvelle &amp; malheureuſe épouſe,
                     inquiette d'une ſi longue viſite, &amp; preſſentant ſon malheur, entre ſans
@@ -959,8 +1133,10 @@
                     perce du trait le plus vif. Elle tomba tout à coup évanouie, en jettant un cri
                     perçant, qui attira bien tôt tous ceux de la maiſon. Ainſi la déplorable Cephiſe
                     fut elle-même complice de ſa diſgrace. Elle-même ſe prive à jamais de ſon
-                    époux.</p>
-                <p>Notre couple amoureux, dérangé à ce cri, ſe ſépare plus ſatisfait que jamais. Ils
+                    époux.
+    </p>
+    <p>
+     Notre couple amoureux, dérangé à ce cri, ſe ſépare plus ſatisfait que jamais. Ils
                     ont peine l'un &amp; l'autre à démêler le ſujet des rumeurs qu'ils entendent.
                     Enfin, ils apperçoivent Cephiſe plus morte que vive; ils ne doutent plus qu'ils
                     n'ayent été découverts. Liſimon cherche à s'échapper. Mais au moment qu'il
@@ -969,8 +1145,10 @@
                     trouble de ſa fille &amp; la honte de ſa maiſon. Ah! père infortuné, ami trop
                     imprudent, t'attendois-tu à ce que tu viens à ſavoir? C'eſt celle que tu viens
                     de ramener de l'autel, qui au jour de ſon hymen change ſa joye en une douleur
-                    mortelle &amp; en un deuil éternel.</p>
-                <p>La Coupable Béliſe, plus morte que vive n'oſe ouvrir les yeux, Liſimon eſt
+                    mortelle &amp; en un deuil éternel.
+    </p>
+    <p>
+     La Coupable Béliſe, plus morte que vive n'oſe ouvrir les yeux, Liſimon eſt
                     interdit. Le père pâlit. Tous les ſpectateurs déconcertés s'entre-regardent.
                     Céphiſe eſt ſans vie. Quelle ſcéne plus tragique. Un prompt ſecours fait revenir
                     à elle la trop infortunée Céphiſe. Un torrent de larmes exprime ſa douleur, tout
@@ -1001,8 +1179,10 @@
                     ce coup imprévu eſt ſans remède. Rien ne le peut parer. Que doit-elle devenir?
                     Peut elle regarder Liſimon pour époux? Un peu remiſe de ſes foibleſſes, on
                     l'emporte pour lui dérober la vue d'un lieu terrible pour elle, qui lui rappelle
-                    ſans ceſſe ſon déſaſtre.</p>
-                <p>Si cette hiſtoire vous paroît attendriſſante, vous qui n'êtes que des auditeurs
+                    ſans ceſſe ſon déſaſtre.
+    </p>
+    <p>
+     Si cette hiſtoire vous paroît attendriſſante, vous qui n'êtes que des auditeurs
                     indifférents, que de larmes ne devons-nous pas penſer qu'a cauſé cette fatale
                     cataſtrophe à ſes principaux acteurs. Un père trop facile, aimant ſes enfans
                     ſans préférence, conſtant &amp; zélé dans ſon amitié, ſe voit outragé de la
@@ -1022,8 +1202,10 @@
                     ſon cœur, &amp; que Céphiſe, victime de ſa ſincérité, aille paſſer dans
                     l'amertume &amp; la douleur des jours, qui ſelon toute apparence devoient couler
                     dans le ſein des plaiſirs &amp; des amours? Après cet exemple, Meſdames, que ne
-                    doit-on pas redouter en fait d'amour?</p>
-                <p>Chacun faiſoit ſes réflexions ſur cette ſingulière aventure, lorſque Kerville,
+                    doit-on pas redouter en fait d'amour?
+    </p>
+    <p>
+     Chacun faiſoit ſes réflexions ſur cette ſingulière aventure, lorſque Kerville,
                     pour interrompre ces reveries, &amp; faire diverſions aux morales
                     philoſophiques, qu'il ſentoit bien qu'on en alloit tirer, prit la parolle, &amp;
                     s'adreſſant aux Dames: Voici, leur dit-il, bien des traits lancés ſur le beau
@@ -1031,8 +1213,10 @@
                     pardonnerez-vous de rapporter auſſi une autre aventure encore plus ſiniſtre,
                     &amp; d'un genre tout différent. C'eſt un fait aſſez nouveau qui caractèriſe
                     ſenſiblement &amp; votre pouvoir, &amp; notre foibleſſe. Vous y verrez dans tout
-                    ſon jour juſques où nous peut jetter la paſſion que vous nous inſpirez.</p>
-                <p>Duſſalon, ancien Officier d'infanterie, par ſa bravoure &amp; l'intégrité de ſa
+                    ſon jour juſques où nous peut jetter la paſſion que vous nous inſpirez.
+    </p>
+    <p>
+     Duſſalon, ancien Officier d'infanterie, par ſa bravoure &amp; l'intégrité de ſa
                     conduite, avoit mérité de la Cour le diſtinctif honorable affecté aux
                     militaires. Notre nouveau chevalier, entré de bonne heure au ſervice, n'avoit
                     guères que trente-cinq ans, lorſque la faveur du Miniſtre lui fit accorder cette
@@ -1066,8 +1250,10 @@
                     enjouement, beauté, eſprit, elle avoit tout en partage. Sa mère étoit au
                     contraire de ces figures, que d'autres que Duſſalon n'auroient jamais remarqué.
                     La cataſtrophe qu'elle occaſionna eſt trop forte pour ne la pas faire
-                    connoître.</p>
-                <p>Quant à l'enſemble de ſa figure &amp; de ſa taille, Araminte n'étoit rien moins
+                    connoître.
+    </p>
+    <p>
+     Quant à l'enſemble de ſa figure &amp; de ſa taille, Araminte n'étoit rien moins
                     qu'aimable. Petite, trèspuiſſante, le viſage aſſez rond, ſans front ni menton.
                     De grands yeux, un nez large &amp; épâté, une bouche aſſez belle mais un peu de
                     travers; le teint livide &amp; bilieux; par-deſſus tout cela les cheveux mal
@@ -1114,8 +1300,10 @@
                     perſonnage. Si elle n'eſt pas en commerce de lettres avec tous les gens de
                     lettres, ce n'eſt pas faute de l'avoir voulu lier. Elle ſeroit en correſpondance
                     avec les plus éloignés, s'ils avoient eu la facilité de condeſcendre à ſes
-                    vues.</p>
-                <p>A quel perſonnage s'alloit donc jouer Duſſalon? Que ne rendoit-il plutôt ſes
+                    vues.
+    </p>
+    <p>
+     A quel perſonnage s'alloit donc jouer Duſſalon? Que ne rendoit-il plutôt ſes
                     hommages à l'aimable Cydaliſe. Auſſi belle que ſpirituelle, elle avoit tout le
                     bon de ſa mère, ſans en avoir les foibles ni les travers. Bien plus, elle avoit
                     toute la délicateſſe d'eſprit, &amp; la vivacité d'imagination ſans le croire.
@@ -1125,8 +1313,10 @@
                     la fille, oublie qu'ils ont les premiers donné atteinte à ſon cœur, il n'eſt
                     épris que de la mère: Il ne la quitte plus. Sa converſation l'enchante: il n'eſt
                     plus maître de luimême. Chaque jour il s'enyvre à longs traits du funeſte poiſon
-                    de l'amour.</p>
-                <p>Araminte reconnoit aiſément les motifs des aſſiduités de Duſſalon; ravie de voir
+                    de l'amour.
+    </p>
+    <p>
+     Araminte reconnoit aiſément les motifs des aſſiduités de Duſſalon; ravie de voir
                     dans ſes fers un homme de ſon mérite, elle lui laiſſe entre-voir qu'il eſt payé
                     de quelque retour. Ils ſe plaiſent l'un &amp; l'autre dans de longues &amp;
                     fréquentes entrevues qu'ils ſavent faire naître l'une par orgueil, &amp; l'autre
@@ -1134,8 +1324,10 @@
                     ainſi que tu gardes tes ſermens? Devois-tu jamais penſer à de ſolides &amp;
                     éternels engagemens? Du moins ſi tu les viole, tes ſermens, que ne choiſis-tu un
                     objet plus digne de tes feux. Que ne tourne tu tes regards ſur la jeune
-                    Cydaliſe, elle t'aime, reconnois-le à ſes agaceries.</p>
-                <p>Duſſalon ſans yeux pour la beauté &amp; le charmant caractère de Cydaliſe,
+                    Cydaliſe, elle t'aime, reconnois-le à ſes agaceries.
+    </p>
+    <p>
+     Duſſalon ſans yeux pour la beauté &amp; le charmant caractère de Cydaliſe,
                     devenoit chaque jour plus épris de ſa mère. Eſt-on ſouvent auprès de ce qu'on
                     aime, on ne peut longtemps s'en tenir aux vues modérées de l'affection, on ſent
                     bien qu'il manque encore quelque choſe à notre bonheur. Tel étoit l'état de
@@ -1168,8 +1360,10 @@
                     dangers. Aimons-nous, cher Duſſalon, que ce ne ſoit que par rapport aux
                     ſentimens du cœur &amp; de l'eſprit que notre attachement ſubſiſte, &amp; non
                     pour un plaiſir momentané, après lequel le reſte des hommes ſoupire ſi
-                    ardemment.</p>
-                <p>Cet amour philoſophe &amp; ſpéculatif, n'étoit aucunement du gout de notre
+                    ardemment.
+    </p>
+    <p>
+     Cet amour philoſophe &amp; ſpéculatif, n'étoit aucunement du gout de notre
                     Chevalier: Il aimoit, &amp; ſoupiroit après la poſſeſſion de ſon amante.
                     Araminte, il eſt vrai, avoit pris trop d'empire ſur lui, pour ne pas faire un
                     peu ceſſer ſes pourſuites, mais non pas ſes plaintes &amp; ſa douleur. Il mit
@@ -1182,16 +1376,20 @@
                     importune tout le monde des rigueurs de ſon amante, &amp; veut qu'un chacun
                     s'intéreſſe pour lui auprès d'elle; mais toutes ſes plaintes, ſes
                     ſollicitations, les perſecutions de lui &amp; de ſes amis ne la purent faire
-                    changer de reſolutions. Elle demeure inflexible &amp; inébranlable.</p>
-                <p>Enfin tant de tentatives demeurées inutiles, bouleverſerent totalement
+                    changer de reſolutions. Elle demeure inflexible &amp; inébranlable.
+    </p>
+    <p>
+     Enfin tant de tentatives demeurées inutiles, bouleverſerent totalement
                     l'imagination de Duſſalon. Il ſaiſit l'arrivée du Miniſtre, &amp; croit en tirer
                     un avantage aſſûré. Ce Seigneur faiſoit ſa tournée dans la Province, &amp;
                     devoit demeurer quelques jours dans la Ville, tant pour en examiner les
                     fortifications, que pour donner certains ordres de ſon reſſort. Duſſalon
                     s'imagine qu'Araminte ne pourra refuſer de ſe rendre aux inſtances de ce
                     Seigneur, qui lui-même ſuivant ſon idée ne manquera pas de condeſcendre à ſes
-                    deſſeins. Du reſte, ſi ce moyen demeure ſans effet, il ſe réſout à la mort.</p>
-                <p>Dans cette penſée, à l'inſcu d'Araminte &amp; de tous ſes amis, il écrit au
+                    deſſeins. Du reſte, ſi ce moyen demeure ſans effet, il ſe réſout à la mort.
+    </p>
+    <p>
+     Dans cette penſée, à l'inſcu d'Araminte &amp; de tous ſes amis, il écrit au
                     Miniſtre, qu'étant à lui à maintenir le bon ordre dans le civil, &amp; à
                     procurer autant qu'il ſe pouvoit le bonheur des bons ſujets de Sa Majeſté, il
                     avoit recours à lui. Qu'il avoit toujours ſervi avec honneur; que tous les
@@ -1206,14 +1404,18 @@
                     étoit mille fois plus précieuſe qu'une vie, dont il ne pourroit partager les
                     momens avec cet objet de ſon amour. Il finiſſoit par avertir le Miniſtre, que ſi
                     dans deux jours Araminte ne ſe rendoit pas à ſes déſirs, il étoit reſolu d'aller
-                    enſevelir ſa honte &amp; ſa paſſion ſous les eaux.</p>
-                <p>Le Miniſtre ne fit dabord aucune attention à cette requête, la regardant comme un
+                    enſevelir ſa honte &amp; ſa paſſion ſous les eaux.
+    </p>
+    <p>
+     Le Miniſtre ne fit dabord aucune attention à cette requête, la regardant comme un
                     écart d'une perſonne inſenſée. Il en trouva néanmoins le tour &amp; la
                     concluſion ſi extravagante, que dès le lendemain il ſe fit un plaiſir de la lire
                     ſur la fin d'un repas où il ſe trouvoit, pour augmenter la joye de la compagnie,
                     &amp; fournir par-là quelque nouveau ſujet de plaiſanterie; mais avec la juſte
-                    précaution de taire le nom du ridicule ſuppliant.</p>
-                <p>Ce qu'il avoit prévu arriva. Ce placet d'un nouveau ſtyle aprêta beaucoup à rire.
+                    précaution de taire le nom du ridicule ſuppliant.
+    </p>
+    <p>
+     Ce qu'il avoit prévu arriva. Ce placet d'un nouveau ſtyle aprêta beaucoup à rire.
                     Chacun en plaiſanta à ſon gré. Enfin, après que la raillerie ſe fut épuiſée, une
                     Dame repréſenta ſagement à l'aſſemblée, que ces ſortes de folies avoient
                     d'ordinaire de fâcheuſes ſuites; qu'un amant dans ces moments de déſeſpoir étoit
@@ -1225,8 +1427,10 @@
                     plus marquée de ne pas prévenir un tel accident; qu'elle étoit donc d'avis
                     d'aller au-devant de l'accompliſſement des ménaces contenues dans cette lettre.
                     Dailleurs qu'en tout point il ſeroit fâcheux que l'amour ou toute autre paſſion
-                    fût cauſe de la perte d'un honnête homme.</p>
-                <p>Les réflexions de cette Dame furent infiniment goûtées; on convint qu'il ſe
+                    fût cauſe de la perte d'un honnête homme.
+    </p>
+    <p>
+     Les réflexions de cette Dame furent infiniment goûtées; on convint qu'il ſe
                     pourroit effectivement bien que cet infortuné tentât d'effectuer ſon funeſte
                     deſſein. De ſorte que le Miniſtre, regardant en cet inſtant l'avanture dans un
                     tout autre jour, promit de faire ſes diligences pour obvier aux fâcheuſes
@@ -1235,8 +1439,10 @@
                     notre amant déſeſpéré. On lui devoit laiſſer des gardes qui ne le quitteroient
                     jamais d'un inſtant, juſqu'à ce qu'on fût aſſuré de la parfaite guériſon de ſon
                     eſprit. Malgré la diligence qu'on apporta dans l'exécution de ces ordres, on
-                    arriva néanmoins trop tard.</p>
-                <p>Duſſalon étoit ſorti de grand matin ſans s'être fait ſuivre d'aucun domeſtique;
+                    arriva néanmoins trop tard.
+    </p>
+    <p>
+     Duſſalon étoit ſorti de grand matin ſans s'être fait ſuivre d'aucun domeſtique;
                     &amp; pour qu'on ne l'attendît point mal-à-propos, &amp; qu'on ne pût avoir
                     d'inquiétude à ſon ſujet, il avoit dit en s'en allant, qu'il ne reviendroit que
                     le lendemain. Au ſortir de chez lui, il étoit allé droit chez Araminte. Là, dans
@@ -1263,8 +1469,10 @@
                     été le plus précieux des biens, s'il m'eût été permis de la paſſer avec vous:
                     mais puiſque je ne ſuis digne que de vos refus, je préfére une mort qui me
                     délivrera de toutes peines, à une vie que le chagrin de ne vous pas poſſeder,
-                    changeroit en un ſupplice éternel.</p>
-                <p>Araminte qui avoit toujours reconnu en Duſſalon un grand fond d'eſprit &amp; de
+                    changeroit en un ſupplice éternel.
+    </p>
+    <p>
+     Araminte qui avoit toujours reconnu en Duſſalon un grand fond d'eſprit &amp; de
                     prudence, ce qui lui avoit tant fait priſer l'avantage de ſa connoiſſance, ne
                     put s'imaginer que de pareilles ménaces duſſent avoir leur effet. Elle le tourna
                     donc en raillerie, en ajoûtant qu'elle aimoit à le voir dans ces moments de
@@ -1277,8 +1485,10 @@
                     ſans avoir jamais eu de votre part le moindre ſoulagement à ma douleur. Adieu
                     pour la dernière ſois. Ce furent les derniers mots de Duſſalon; il quitta
                     bruſquement Araminte, &amp; ſe laiſſant emporter à ſon déſeſpoir, il courut
-                    s'immoler à ſon malheureux ſort.</p>
-                <p>Araminte étoit trop accoutumée aux foucades de Duſſalon, pour tirer quelques
+                    s'immoler à ſon malheureux ſort.
+    </p>
+    <p>
+     Araminte étoit trop accoutumée aux foucades de Duſſalon, pour tirer quelques
                     mauvaiſes conjectures de cette bruſque ſeparation. Elle comptoit le voir revenir
                     dans peu d'heures, auſſi tendre &amp; moins emporté. Il ne lui vint donc pas
                     dans la penſée de faire ſuivre ſes pas. Elle crut qu'il en ſeroit de même de ce
@@ -1289,8 +1499,10 @@
                     l'abyme dont il l'avoit ménacée. Ces fâcheuſes idées jettant Araminte dans les
                     plus terribles inquiétudes ſur le compte de Duſſalon, elle envoye chez lui
                     s'informer des raiſons qui l'avoient empêché, contre ſon ordinaire, de venir
-                    paſſer l'après-midi chez elle.</p>
-                <p>Celui qu'elle avoit chargé de cette commiſſion arriva chez Duſſalon, en même
+                    paſſer l'après-midi chez elle.
+    </p>
+    <p>
+     Celui qu'elle avoit chargé de cette commiſſion arriva chez Duſſalon, en même
                     temps que les Emiſſaires du Miniſtre. Il y ſçut d'eux le ſujet de leur venue,
                     &amp; la crainte où ils étoient d'être venus trop tard, &amp; de n'avoir pû par
                     conſéquent prévenir le facheux accident, dont le Chevalier devoit ſans doute
@@ -1312,8 +1524,10 @@
                     ſoi-même, cette victime de l'amour ſe précipite dans les eaux. Enfin ſes
                     domeſtiques, après l'avoir longtemps cherché, trouverent ſon corps à près de
                     trois lieues de la Ville ſur le bord de la rivière où les flots l'avoient
-                    rejetté ſur le ſable.</p>
-                <p>On avoit trouvé ſur la table de ſon cabinet deux lettres de ſa main, l'une pour
+                    rejetté ſur le ſable.
+    </p>
+    <p>
+     On avoit trouvé ſur la table de ſon cabinet deux lettres de ſa main, l'une pour
                     Araminte &amp; l'autre pour le Miniſtre. Dans celle d'Araminte, après lui avoir
                     reproché ſa rigueur, il lui faiſoit encore de nouvelles proteſtations d'amour,
                     l'aſſurant qu'il ne périſſoit point à regret, puiſqu'il ne pouvoit avoir le
@@ -1326,20 +1540,26 @@
                     l'avoit ſollicité. Que néanmoins il auroit cru qu'on eût dû avoir plus d'égard
                     pour des jours qu'il avoit ſi ſouvent hazardés pour le ſervice &amp; la gloire
                     de ſon Maître. Qu'au reſte, quoi qu'il en pût être, il lui renvoioit ſa croix,
-                    qui dans peu d'heures ſeroit pour lui un diſtinctif inutile. </p>
-                <p>Telle fut la mort de Duſſalon, regretté de tous ſes amis, &amp; amérement pleuré
+                    qui dans peu d'heures ſeroit pour lui un diſtinctif inutile.
+    </p>
+    <p>
+     Telle fut la mort de Duſſalon, regretté de tous ſes amis, &amp; amérement pleuré
                     de celle qui étoit la cauſe, quoique innocente, de ſa perte. En effet Araminte
                     en fut long-temps inconſolable; &amp; quoique ſon amour propre dût ſans doute
                     être flatté d'avoir des charmes aſſez puiſſans pour être dignes d'un pareil
                     ſacrifice, la victime fut ſincérement regrettée. On aſſoupit cette affaire,
                     qu'il étoit à pluſieurs égards de la prudence de tenir ſecrette. Auſſi à peine
-                    à-t-elle tranſpiré dans le public.</p>
-                <p>Quelle plus funeſte cataſtrophe. N'avois-je pas bien raiſon, mes Dames, d'avancer
+                    à-t-elle tranſpiré dans le public.
+    </p>
+    <p>
+     Quelle plus funeſte cataſtrophe. N'avois-je pas bien raiſon, mes Dames, d'avancer
                     en commençant, qu'on ne peut trop ſe mettre en garde contre les paſſions que vos
                     charmes ſeducteurs allument dans nos cœurs. Semblables aux ſirénes, vos
                     enchantemens ne nous ſont que trop ſouvent funeſtes, en peut-il être un exemple
-                    plus frappant?</p>
-                <p>Toute la compagnie remercia Kerville de ſon hiſtoire. Elle donna matière à bien
+                    plus frappant?
+    </p>
+    <p>
+     Toute la compagnie remercia Kerville de ſon hiſtoire. Elle donna matière à bien
                     des réflexions que l'amoureux Clidamon tournoit toujours à l'avantage de Dorine,
                     &amp; par-là manifeſtoit un peu trop ſon ſecret. L'Abbé d'Herbeval &amp;
                     Kerville, qui étoient encore plus ſes amis que les autres, l'interrompoient à
@@ -1347,8 +1567,10 @@
                     circonſpect, &amp; empêcher Madame Donval de trop pénétrer dans ſon cœur; mais
                     il en arriva tout autrement. Dorine &amp; Clidamon, à force d'être à la gêne,
                     trouvoient bien dur d'être obligés de ſe tant contraindre pour Madame Donval.
-                    Leur ennui gagna bientôt toute la compagnie.</p>
-                <p>Quelque intéreſſante que fut la converſation, ſur-tout par le ſel de la ſatyre,
+                    Leur ennui gagna bientôt toute la compagnie.
+    </p>
+    <p>
+     Quelque intéreſſante que fut la converſation, ſur-tout par le ſel de la ſatyre,
                     dont les convives déſintéreſſés ſavoient aſſaiſonner tous leurs propos dans le
                     deſſein d'égayer la belle Dorine, &amp; de dérider le front de Madame Donval,
                     qui à la vue des fréquens ſignes de nos amans, ne paroiſſoit nullement à ſon
@@ -1380,23 +1602,29 @@
                     ne fût depuis long-temps maître du cœur de Dorine; cette idée lui cauſoit les
                     plus vives appréhenſions. Un pareil amour pouvoit trop déranger ſes projets
                     particuliers; c'eſt ce qui lui fit prendre l'air rêveur, qui ne laiſſa pas
-                    d'embaraſſer Dorine, &amp; de diminuer la gayeté de tous les convives.</p>
-                <p>Cependant Madame Donval voulant agir à coup ſûr, eſſaya d'éclaircir ſes ſoupçons.
+                    d'embaraſſer Dorine, &amp; de diminuer la gayeté de tous les convives.
+    </p>
+    <p>
+     Cependant Madame Donval voulant agir à coup ſûr, eſſaya d'éclaircir ſes ſoupçons.
                     Fauſſement perſuadée que Dorine étoit trop jeune pour pouvoir longtemps déguiſer
                     ſes véritables ſentimens, elle reſolut de la preſſentir dans un tête à tête,
                     auquel elle trouva le moment de donner lieu: ſon deſſein étoit dans cette
                     entrevue de tâcher de la détourner de Clidamon; &amp; au cas qu'elle n'y pût
                     réuſſir, de ſe ſervir de tous les moyens, même des plus extrêmes, pour la faire
                     entrer dans ſes vues, &amp; ainſi pour rendre heureux le Marquis d'Ambuſſieres,
-                    de quelque manière que ce pût être.</p>
-                <p>Ce qui ne contribuoit pas peu à ſa mauvaiſe humeur, étoit l'inaction du Marquis;
+                    de quelque manière que ce pût être.
+    </p>
+    <p>
+     Ce qui ne contribuoit pas peu à ſa mauvaiſe humeur, étoit l'inaction du Marquis;
                     elle l'avoit fait avertir au moment de ſon arrivée, &amp; ne concevoit pas ce
                     qui le pouvoit arrêter ſi longtemps. Elle étoit dans la confuſion de ces
                     penſées, lorſqu'on lui vint remettre un billet qui lui rendit ſa première
                     gayeté; elle repondit au meſſager, qu'elle retournoit ſur l'heure chez elle,
                     &amp; qu'elle n'y ſeroit viſible que pour ſon maître; qu'elle le prioit de s'y
-                    rendre ſans différer.</p>
-                <p>Elle remit la converſation ſur des propos généraux; &amp; bien-tôt après, ſous
+                    rendre ſans différer.
+    </p>
+    <p>
+     Elle remit la converſation ſur des propos généraux; &amp; bien-tôt après, ſous
                     prétexte de quelque affaire de conſéquence qui la rappelloient néceſſairement à
                     ſon hôtel pour quelques inſtans, elle ſe leva de table, priant Dorine de trouver
                     bon qu'elle la laiſſât ſeule quelque temps; elle la chargea en partant de faire
@@ -1409,8 +1637,10 @@
                     d'Herbeval ſe ſervit de ſa liberté ordinaire, pour déſeſpérer cette intriguante
                     femme. Il la tourmenta par cent agaceries différentes, qui la pouſſerent ſi
                     loin, qu'elle ſe trouva forcée de couper court à tous ces propos, pour tirer
-                    inceſſamment parti de ſes deſſeins.</p>
-                <p>Elle tira donc la Marquiſe à l'écart, &amp; entra avec elle dans une converſation
+                    inceſſamment parti de ſes deſſeins.
+    </p>
+    <p>
+     Elle tira donc la Marquiſe à l'écart, &amp; entra avec elle dans une converſation
                     qui ſe ſentit un peu de la mauvaiſe humeur qu'on venoit de lui donner: Mon
                     inquiétude ſur vos penchans, eſt, on ne peut pas plus grande, lui dit-elle, du
                     ton le plus radouci dont elle fut capable. Vous ſavez avec quel plaiſir je me
@@ -1469,8 +1699,10 @@
                     &amp; peut-être même d'être contrainte de vous priver du plaiſir de le voir.
                     Ainſi, Madame, pour vous-même, voyez à rentrer dans la compagnie avec votre
                     gayeté ordinaire, de façon que les plus clair-voyans ne puiſſent s'apperçevoir
-                    de la petite explication qui vient de ſe paſſer entre nous. </p>
-                <p>Dorine, un peu embarraſſée de ce diſcours, peu accoutumée à un langage auſſi ſec,
+                    de la petite explication qui vient de ſe paſſer entre nous.
+    </p>
+    <p>
+     Dorine, un peu embarraſſée de ce diſcours, peu accoutumée à un langage auſſi ſec,
                     changeoit à chaque inſtant de viſage, &amp; mouroit d'impatience que Madame
                     Donval la délivrât de ſes importunités, en la laiſſant rentrer dans la
                     compagnie; ainſi ſans penſer à repondre aux différens chefs de ces
@@ -1480,15 +1712,19 @@
                     amant. Mais Madame Donval la prévint, en paſſant elle-même près de Clidamon, à
                     qui elle fit beaucoup plus d'amitié que de coutume, dans le deſſein de l'amuſer
                     &amp; de l'empêcher de ſe rapprocher de Dorine, où de s'appercevoir de ſon
-                    trouble, &amp; plus encore de l'augmenter.</p>
-                <p>Quelque aſſurée que fût Madame Donval de l'intelligence de nos deux amans, la
+                    trouble, &amp; plus encore de l'augmenter.
+    </p>
+    <p>
+     Quelque aſſurée que fût Madame Donval de l'intelligence de nos deux amans, la
                     rougeur &amp; l'embarras de Dorine venoient de la beaucoup mieux confirmer dans
                     ſes ſoupçons. Elle crut que Dorine, intimidée de cette connoiſſance de ſa part,
                     ſeroit à l'avenir plus circonſpecte à l'égard de Clidamon. Cette idée lui rendit
                     beaucoup de ſa première gayeté. D'ailleurs elle étoit déja fort ſatiſfaite des
                     meſures qu'elle avoit priſes avec le Marquis, &amp; elle auguroit un grand
-                    ſuccès de l'entrevue qu'elle venoit d'avoir avec lui.</p>
-                <p>Le Marquis d'Ambuſſieres étoit un jeune homme de près de trente ans, qui ſe
+                    ſuccès de l'entrevue qu'elle venoit d'avoir avec lui.
+    </p>
+    <p>
+     Le Marquis d'Ambuſſieres étoit un jeune homme de près de trente ans, qui ſe
                     trouvoit à la veille d'être Maréchal de Camp; il étoit l'un des plus riches
                     Seigneurs de la Cour, ſurtout depuis la mort de ſon frère aîné, qui n'avoit
                     point laiſſé d'enfans d'aucune des deux femmes qu'il avoit eues. Grand,
@@ -1511,8 +1747,10 @@
                     ruſe, la violence &amp; l'injuſtice pour tâcher d'en venir à ſes fins. Nous
                     verrons bien-tôt comment il s'y prendra, &amp; de quelle manière, étant ſecondé
                     par Madame Donval, Clidamon ſuccombera, du moins pour un temps, aux artifices de
-                    cette dangereuſe femme.</p>
-                <p>C'étoit du Marquis lui-même qu'étoit la lettre qu'on lui étoit venu remettre
+                    cette dangereuſe femme.
+    </p>
+    <p>
+     C'étoit du Marquis lui-même qu'étoit la lettre qu'on lui étoit venu remettre
                     pendant le dîner. Il lui marquoit qu'il arrivoit à l'inſtant de Verſailles, ce
                     qui l'avoit empêché de recevoir plutôt l'avis de ſon arrivée. Qu'il avoit mille
                     choſes à lui dire en reponſe aux deux mots de ſa lettre: Mais qu'il croyoit
@@ -1523,8 +1761,10 @@
                     qu'il ſouhaitoit d'avoir avec elle, il lui feroit part de toutes ſes vues: que
                     la réuſſite de ce qu'il méditoit étoit immanquable, &amp; que tout étoit diſpoſé
                     pour la facile exécution de ſes projets, au cas qu'elle les adoptât, &amp; qu'il
-                    fût néceſſaire de les mettre en uſage. </p>
-                <p>Effectivement l'arrivée du Marquis ſuivit de près celle de ſon domeſtique: Madame
+                    fût néceſſaire de les mettre en uſage.
+    </p>
+    <p>
+     Effectivement l'arrivée du Marquis ſuivit de près celle de ſon domeſtique: Madame
                     Donval ne faiſoit que rentrer chez elle lorſque le Marquis y arriva. Ils
                     paſſerent enſemble dans un cabinet reculé, &amp; dès qu'il s'y fut enfermé avec
                     elle, il commença par lui faire un préſent d'une très-grande conſéquence, moyen
@@ -1594,15 +1834,18 @@
                     l'eſſai qu'elle avoit fait du mariage ne lui avoit pas paru aſſez flatteur pour
                     voler ſitôt à un nouvel hymen: qu'au reſte elle m'étoit ſenſiblement obligée de
                     mes attentions; qu'elle s'en croyoit trèshonorée; mais qu'elle me prioit de ne
-                    point penſer à elle, ſur-tout de quelque temps.</p>
-                <p>Ce refus, quoique plein de politeſſe, aigrit mon cœur contre le rival, auquel je
+                    point penſer à elle, ſur-tout de quelque temps.
+    </p>
+    <p>
+     Ce refus, quoique plein de politeſſe, aigrit mon cœur contre le rival, auquel je
                     m'imaginois bien être ſacrifié ſans retour. Je reſolus cependant de faire aſſez
                     d'effort ſur moi pour oublier Dorine: mais je n'étois pas capable d'exécuter ce
                     projet. Ma foibleſſe pour la Marquiſe étoit trop forte, mon amour augmentoit
                     chaque jour; je cherchai à retrouver Dorine pour tacher de l'amener à moi, &amp;
                     de permettre que j'en fiſſe parler à ſon père. Dans ce deſſein, l'on ne voyoit
-                    que moi, ſoit au ſpectacle, ſoit au Canourgue, ſoit au Perou <ref target="#N01"
-                    />, je parcourois tous les jours les principales maiſons de la ville; je ne
+                    que moi, ſoit au ſpectacle, ſoit au Canourgue, ſoit au Perou
+     <ref target="#N01"/>
+     , je parcourois tous les jours les principales maiſons de la ville; je ne
                     manquois point de concerts: mais c'étoit toujours inutilement que je cherchois
                     la jeune Marquiſe, elle ſembloit fuir mes pas. A peine ſortoit-elle de chez
                     elle, on ne la voyoit plus qu'en compagnie de parens ou d'autres perſonnes, dont
@@ -1612,8 +1855,10 @@
                     formel de m'éviter, je ſentis que je ne gagnerois rien à reſter davantage à
                     Montpellier: qu'il falloit laiſſer au temps le ſoin de ſoumettre Dorine, ou
                     plutôt qu'il falloit l'oublier pour jamais. Je partis donc déſeſpéré, &amp; pour
-                    la première fois, mon cœur ne fut pas du voyage, il étoit près de Dorine.</p>
-                <p>Arrivé à Paris, j'eus bientôt occaſion de revoir Clidamon. Nous ſommes amis dès
+                    la première fois, mon cœur ne fut pas du voyage, il étoit près de Dorine.
+    </p>
+    <p>
+     Arrivé à Paris, j'eus bientôt occaſion de revoir Clidamon. Nous ſommes amis dès
                     l'enfance. La converſation ſe mit naturellement ſur notre commun ſejour aux
                     Etats; nous vînmes à parler des perſonnes qui nous le rendoient aimable: j'en
                     citai quelques-unes, &amp; enfin je nommai Dorine. A ce nom Clidamon ſe
@@ -1630,16 +1875,20 @@
                     n'étoit que trop facile de lire dans mon cœur, mon agitation en diſoit mille
                     fois plus que tout ce que je lui aurois pu dire: il me fut impoſſible de lui
                     repondre, je le quittai ſans dire mot, tout en lui jurant une haine
-                    immortelle.</p>
-                <p>Quelques jours après Clidamon me rejoignit aux Thuilleries. Il voulut reprendre
+                    immortelle.
+    </p>
+    <p>
+     Quelques jours après Clidamon me rejoignit aux Thuilleries. Il voulut reprendre
                     cette même converſation: Je fis tous mes efforts pour le déſabuſer de ſes
                     ſoupçons, il ne m'en parut pas perſuadé. Je rejettai l'inquiétude qu'il avoit
                     remarquée lors de notre précédente entre-vue ſur différentes cauſes. Enfin je me
                     ſurmontai, &amp; quelque furieux que je fuſſe en moi-même, j'eus néanmoins la
                     prudence de diſſimuler &amp; de taire mes véritables ſentimens. Nous nous
                     ſeparâmes bons amis en apparence, mais dans le fond nous défiant abſolument l'un
-                    de l'autre.</p>
-                <p>Dès cet inſtant je ſongeai aux moyens de lui enlever Dorine; &amp; ſi je ne la
+                    de l'autre.
+    </p>
+    <p>
+     Dès cet inſtant je ſongeai aux moyens de lui enlever Dorine; &amp; ſi je ne la
                     pouvois gagner de bon gré, du moins de l'avoir de force. J'achetai quelque temps
                     après une maiſon à Auteuil, où je m'enfermois preſque continuellement pour
                     flatter mon ennui &amp; mes déplaiſirs; mais, helas! qu'un amour malheureux eſt
@@ -1660,8 +1909,10 @@
                     C'eſt à la force ou à la ſurpriſe qu'il me faut avoir recours. Periſſons ou
                     devenons heureux. Auſſi-tôt la lecture de votre lettre je revins à Auteuil: j'y
                     préparai tout pour l'exécution du deſſein qui m'étoit venu à l'eſprit. Voici
-                    quel il eſt:</p>
-                <p> Ma maiſon d'Auteuil eſt diſpoſée de façon, que d'un côté, j'ai entrée dans le
+                    quel il eſt:
+    </p>
+    <p>
+     Ma maiſon d'Auteuil eſt diſpoſée de façon, que d'un côté, j'ai entrée dans le
                     bois de Boulogne, &amp; de l'autre, une iſſue du côté de la rivière: il m'eſt
                     d'ailleurs facile, à l'aide de bons chevaux &amp; de quelques relais, de gagner
                     du pays &amp; de faire bien du chemin par des routes détournées, avant qu'on
@@ -1677,8 +1928,10 @@
                     m'engagera vraiſemblablement d'être de la partie: je jouerai l'indifférent;
                     &amp; par-là, l'on ne ſe pourra douter que le coup puiſſe partir de moi: mais en
                     attendant ce jour, n'eſt il pas de la prudence que celui-ci ne ſe paſſe pas ſans
-                    que je rende ma viſite à l'aimable Marquiſe.</p>
-                <p>Mon cher Marquis, lui repondit Madame Donval, votre viſite eſt moins néceſſaire
+                    que je rende ma viſite à l'aimable Marquiſe.
+    </p>
+    <p>
+     Mon cher Marquis, lui repondit Madame Donval, votre viſite eſt moins néceſſaire
                     que jamais. Bien loin de vous détourner du deſſein où vous êtes d'enlever
                     Dorine; cet enlevement devient aujourd'hui abſolument néceſſaire. Au train que
                     je vois prendre aux choſes, vous ne pourrez jamais avoir la main de Dorine que
@@ -1719,8 +1972,10 @@
                     l'enlevement eût lieu, ou qu'il vînt à manquer; ce que néanmoins il ne devoit
                     aucunement craindre, vû la certitude de ſes meſures. Madame Donval remonta dans
                     ſon équipage, revint droit chez l'Abbé, &amp; rentra, ainſi qu'on l'a remarqué
-                    dans la ſalle, comme on ne faiſoit que ſe lever de table.</p>
-                <p>Clidamon &amp; ſes amis auroient ardemment ſouhaité que l'abſence de Madame
+                    dans la ſalle, comme on ne faiſoit que ſe lever de table.
+    </p>
+    <p>
+     Clidamon &amp; ſes amis auroient ardemment ſouhaité que l'abſence de Madame
                     Donval eût duré plus long-temps. Son arrivée dérangea les parties de jeu qu'on
                     avoit prémédité de faire en attendant l'heure du ſpectacle. L'air &amp; le ton
                     ſerieux prirent la place du badinage &amp; de l'enjouement. Tous, hors Madame
@@ -1747,8 +2002,10 @@
                     diſoit-elle, trouver ſur votre théatre le vrai peint dans tout ſon éclat &amp;
                     ſans aucun fard. Sans doute que vos Acteurs &amp; vos Actrices, outre qu'ils
                     ſont l'élite des provinces, s'étudient encore chaque jour à vous plaire par les
-                    naïves peintures de ce qu'ils repréſentent.</p>
-                <p>Vous jugez ſur ce qui devroit être, lui repondit Clidamon, &amp; non pas tout
+                    naïves peintures de ce qu'ils repréſentent.
+    </p>
+    <p>
+     Vous jugez ſur ce qui devroit être, lui repondit Clidamon, &amp; non pas tout
                     à-fait ſur ce qui en eſt; on peut, il eſt vrai, ſe flatter d'avoir le théatre le
                     plus complet de tous, j'en conviens; mais tous les ſujets n'ont pas cette
                     perfection qu'ils ſembloient promettre, lorſque nos ſuffrages &amp; nos
@@ -1790,8 +2047,9 @@
                     &amp; de l'émulation, on vient toujours à bout de plaire, c'eſt le principal
                     objet de ſon état: il plait infiniment dans les ſcenes muettes, talent
                     ordinairement peu connu au théatre, &amp; cependant extrêmement néceſſaire: ſans
-                    doute quelque correctif aſſiduement apporté dans ſes finales <ref target="#N02"
-                    />, &amp; plus de modérations dans ſa voix, feront paſſer par-deſſus les autres
+                    doute quelque correctif aſſiduement apporté dans ſes finales
+     <ref target="#N02"/>
+     , &amp; plus de modérations dans ſa voix, feront paſſer par-deſſus les autres
                     défauts, qu'il lui ſeroit impoſſible de corriger, quoique aſſurément avec la
                     meilleure volonté du monde. Quant au comique, Mademoiſelle Gauſſin, joint à des
                     talens décidés pour tous les roles de pure tendreſſe un viſage vainqueur des
@@ -1813,8 +2071,10 @@
                     reconnoiſſance pour les bontés du public leur impoſent. Mais vous allez être
                     bientôt en état d'en juger par vous-même, belle Dorine; heureux ceux qui auront
                     le bonheur de vous plaire, vos éloges ont toujours été dictés par le bon
-                    goût.</p>
-                <p>Ce n'eſt cependant pas toujours la faute des Acteurs, interrompit l'Abbé
+                    goût.
+    </p>
+    <p>
+     Ce n'eſt cependant pas toujours la faute des Acteurs, interrompit l'Abbé
                     d'Herbeval, ſi le théatre françois, loin de ſe ſoûtenir dans une heureuſe
                     ſupériorité, commence aujourd'hui à perdre de ſon ancien éclat. Ce dépériſſement
                     doit bien plutôt être imputé à nos Auteurs modernes; &amp; effectivement à peine
@@ -1865,8 +2125,10 @@
                     frappe ſans égard au nom ni au mérite. Combien d'Auteurs n'ont pas à ſe plaindre
                     de ſes cruels effets: c'eſt un hydre à ſept têtes, qu'il eſt preſque impoſſible
                     de dompter, comme Prothée, il ſe reproduit ſous mille formes différentes,
-                    preſque toujours au déſavantage du génie.</p>
-                <p>Quoi, vous voudriez me perſuader, repliqua Dorine, que ce même parterre, dont nos
+                    preſque toujours au déſavantage du génie.
+    </p>
+    <p>
+     Quoi, vous voudriez me perſuader, repliqua Dorine, que ce même parterre, dont nos
                     meilleurs Auteurs imploroient autrefois l'indulgence, &amp; dont ils craignoient
                     à bon droit la ſevére mais juſte critique, vous voudriez, dis-je, me faire
                     croire, que ce n'eſt plus aujourd'hui qu'un vain phantôme, dont tous les coups
@@ -1881,8 +2143,10 @@
                     que fût reſervée la gloire de le faire refleurir. Quelques Dames dans le ſiécle
                     précédent, avoient donné des aſſais de notre génie, qui nous firent bien des
                     jaloux: mais il étoit reſervé aux du Boccage &amp; aux Graffigny de nous vanger
-                    de votre tirannie.</p>
-                <p>Il eſt vrai, Meſdames, reprit l'Abbé d'Herbeval, notre ſiécle aura cet avantage
+                    de votre tirannie.
+    </p>
+    <p>
+     Il eſt vrai, Meſdames, reprit l'Abbé d'Herbeval, notre ſiécle aura cet avantage
                     ſur les précédens, d'avoir donné naiſſance à d'illuſtres Savantes. Le fuzeau
                     juſqu'ici fut le partage du beau ſexe. Nos pères, jaloux de leurs épouſes, les
                     tenoient renfermées dans les ſoins de leur famille, ſans leur permettre l'entrée
@@ -1906,7 +2170,9 @@
                     font-elles ſentir tout le prix de l'avantage que nous avons “ de voir
                     aujourd'hui l'aſtrolabe &amp; la lyre dans “cette même main, qu'un uſage jaloux
                     deſtinoit au fuſeau ſous les “loix d'un époux“. Quant à Madame de Graffigny, de
-                    qui l'un de nos plus élegants Ecrivains <ref target="#N03"/> a dit, d'après
+                    qui l'un de nos plus élegants Ecrivains
+     <ref target="#N03"/>
+     a dit, d'après
                     Saint-Evremont, qu'elle faiſoit infidélité à ſon ſexe, en uſurpant les talens du
                     nôtre; ſon eſprit, l'élegance &amp; la légéreté de ſon pinceau, ſe ſont déja
                     fait aſſez admirer dans ſes Lettres Peruviennes; tout s'anime &amp; prend les
@@ -1960,14 +2226,17 @@
                     force, que lorſqu'il s'agit de ſatyriſer leurs défauts: oui, Meſdames,
                     admirateur zèlé de vos charmes &amp; de vos talens divers, je ne ceſſerai jamais
                     d'en relever le mérite toutes les fois que j'en trouverai l'occaſion. Je dirois
-                    même alors volontiers, avec l'un de vos plus vifs défenſeurs <ref target="#N04"
-                    />, qu'il eſt moins impoſſible de trouver dans les femmes la ſaine raiſon des
+                    même alors volontiers, avec l'un de vos plus vifs défenſeurs
+     <ref target="#N04"/>
+     , qu'il eſt moins impoſſible de trouver dans les femmes la ſaine raiſon des
                     hommes, que dans ceux-ci, les agrémens des femmes, dont il ſemble cependant
                     aujourd'hui que nous prénions à tache de copier les minauderies, les airs, &amp;
                     pour ainſi-dire, juſqu'aux ajuſtemens. Mais ces digreſſions nous emportent trop
                     loin. Il eſt déja l'heure d'aller prendre place au ſpectacle; pour lequel vous
-                    décidez-vous?</p>
-                <p>Solinville, qui pour le bonheur de la compagnie, s'étoit preſque toujours tenu
+                    décidez-vous?
+    </p>
+    <p>
+     Solinville, qui pour le bonheur de la compagnie, s'étoit preſque toujours tenu
                     juſques-là dans le ſilence, le rompit en cet inſtant. Ce ſeroit fort à tort,
                     dit-il, en s'adreſſant aux Dames, que nous irions nous endormir aux François.
                     C'eſt du Corneille &amp; du Moliere qu'ils nous donnent aujourd'hui; on en eſt
@@ -2008,14 +2277,18 @@
                     enchantement n'allez-vous pas être, à la vue du jeu inimitable de ce nouveau
                     trio académique. Partons, que j'aurois de plaiſir à vous voir entraînée, comme
                     malgré vous, par tant de talens enchanteurs, &amp; confondre vos juſtes
-                    applaudiſſemens avec les nôtres.</p>
-                <p>Mais, dit Dorine, en ſe tournant vers Kerville, qui ne pouvoit ſe tenir de rire:
+                    applaudiſſemens avec les nôtres.
+    </p>
+    <p>
+     Mais, dit Dorine, en ſe tournant vers Kerville, qui ne pouvoit ſe tenir de rire:
                     Vraiment, Monſieur, il faut qu'il en ſoit quelque choſe, puiſque mon couſin en
                     eſt ſi fort épris, lui qui ſe prend à peine pour les choſes les plus
                     attrayantes. Ces Acteurs Italiens ſont ſans doute merveilleux. Ils ont les
                     talens les plus rares. Je connois le bon goût de Solinville. Seroit-il poſſible
-                    qu'il prît le faux; cela n'eſt pas croyable.</p>
-                <p>L'eſprit de mode, ou plutôt celui de vertige s'eſt emparé du pauvre Solinville,
+                    qu'il prît le faux; cela n'eſt pas croyable.
+    </p>
+    <p>
+     L'eſprit de mode, ou plutôt celui de vertige s'eſt emparé du pauvre Solinville,
                     reprit alors le Chevalier du Thieul. Cette phréneſie lui eſt commune avec une
                     bonne moitié de Paris. La nouveauté eſt un mérite de plus en cette Ville: il eſt
                     donc naturel que les bouffons ſoient des mieux accueillis; les paroles
@@ -2068,7 +2341,9 @@
                     de généroſité nous prouve, qu'il eſt encore des perſonnes de goût en France,
                     &amp; que nous ne devons pas perdre l'eſpérance de voir bientôt Paris dégoûté,
                     tant des Opéras que des Acteurs bouffons, dont tout l'art, à parler le langage
-                    d'un de nos plus beaux Eſprits <ref target="#N05"/> “conſiſte à miauler “dans
+                    d'un de nos plus beaux Eſprits
+     <ref target="#N05"/>
+     “conſiſte à miauler “dans
                     les hauts, &amp; japper dans les “bas“. Auſſi me joignant aux gens ſenſés, qui
                     ſont encore en cette Ville, adopterai-je auſſi cette autre penſée du même Poëte,
                     qui mettant une juſte diſtinction entre la bonne muſique de Pergoleſe, &amp; des
@@ -2083,8 +2358,10 @@
                     exacte &amp; parfaite connoiſſance de cauſe, il nous faut aller voir un de ces
                     intermèdes Italiens d'aujourd'hui. Vous y baillerez, vous vous y ennuyerez; mais
                     dès que la doze d'ennui ſera trop forte, nous prendrons notre eſſort &amp;
-                    volerons aux François.</p>
-                <p>Les Dames adopterent cette propoſition; elles monterent dans leur équipage avec
+                    volerons aux François.
+    </p>
+    <p>
+     Les Dames adopterent cette propoſition; elles monterent dans leur équipage avec
                     Clidamon &amp; Solinville; l'Abbé d'Herbeval prit du Chieul &amp; Kerville dans
                     le ſien, &amp; deſcendirent tous enſemble à la porte de l'Opéra. Il alloit
                     commencer; le premier coup d'archet fit ſur Dorine l'effet qu'elle devoit en
@@ -2148,8 +2425,10 @@
                     alloit ſe donner un ridicule de s'aller préſenter ſi tard au ſpectacle. Eſt-on
                     obligé de ſavoir, que nous ennuyant à l'Opéra, nous venons nous dérider le front
                     à la Comédie. Que penſera-t-on de nous? l'on nous va aſſûrement prendre pour des
-                    foux.</p>
-                <p>Il Falloit bien, Madame, lui repliqua en riant l'Abbé, que vous laiſſaſſiez enfin
+                    foux.
+    </p>
+    <p>
+     Il Falloit bien, Madame, lui repliqua en riant l'Abbé, que vous laiſſaſſiez enfin
                     échapper quelque trait, qui ſe reſſentît de la province. Vous étiez trop
                     parfaite. Se pouvoit-il, qu'il n'y eût pas la moindre priſe ſur vous? Je
                     craignois de n'avoir point à rabattre de mon admiration. Nous étions tous
@@ -2278,8 +2557,10 @@
                     lui eût donné des talens des Acteurs, elle la trouvoit encore de beaucoup
                     inférieure à la vérité: ce fut le témoignage qu'en rendit auſſi Madame Donval,
                     qui avoua en ſortant, que la Comédie avoit trop tôt fini au gré de ſes
-                    déſirs.</p>
-                <p>A la ſortie du ſpectacle, les Dames trouverent, au lieu de leur équipage la
+                    déſirs.
+    </p>
+    <p>
+     A la ſortie du ſpectacle, les Dames trouverent, au lieu de leur équipage la
                     caléche de Clidamon, elles y monterent avec ceux qui les accompagnoient,
                     Clidamon la conduiſit lui-même. On arriva bien-tôt à l'allée de Madrid. La
                     promenade étoit brillante, Dorine en parut enchantée. C'eſt ici, lui dit l'Abbé
@@ -2311,8 +2592,10 @@
                     où ne cherchent qu'à ſatisfaire leur paſſion. Enfin cette allée eſt comme le
                     rendez-vous de cette belle promenade. C'eſtlà que ſe rend chaque ſoirée dans les
                     beaux jours, tout ce que la Cour &amp; Paris raſſemblent de plus brillant &amp;
-                    de plus aimable. Tout y reſpire la liberté, le plaiſir &amp; l'amour.</p>
-                <p>A cet inſtant l'Abbé d'Herbeval apperçut ſa ſœur qui étoit avec une couſine de
+                    de plus aimable. Tout y reſpire la liberté, le plaiſir &amp; l'amour.
+    </p>
+    <p>
+     A cet inſtant l'Abbé d'Herbeval apperçut ſa ſœur qui étoit avec une couſine de
                     Clidamon, qui les avoit prié d'être de la partie. Elles avoient dû ſe trouver à
                     la Comédie; mais quelque choſe les en ayant empéché, elles avoient cru faire
                     plaiſir à la compagnie de la devancer à la promenade. Leur arrivée remit la
@@ -2362,8 +2645,10 @@
                     pourroit rompre ſes arrangemens; il tira parole de pouvoir ſe retirer de bonne
                     heure. Clidamon qui vouloit augmenter ſon triomphe du dépit de ſon rival, lui
                     accorda tout ce qu'il voulut, &amp; par politeſſe, retourna avec lui ſur ſes pas
-                    pour le préſenter lui-même à Dorine.</p>
-                <p>Tout ſe paſſoit ainſi, ſuivant les deſirs de Madame Donval. Cette artificieuſe
+                    pour le préſenter lui-même à Dorine.
+    </p>
+    <p>
+     Tout ſe paſſoit ainſi, ſuivant les deſirs de Madame Donval. Cette artificieuſe
                     femme, pour mieux cacher ſes piéges fit au Marquis l'accueil le plus
                     indifférent, à peine lui dit-elle quatre paroles. Dorine reçut ſes complimens
                     avec un air encore plus ſec &amp; diſtrait. La converſation en devint fort
@@ -2383,8 +2668,10 @@
                     malheur dont elle étoit prête d'être la victime. Auroit-elle pu penſer qu'à
                     chaque pas, Clidamon &amp; elle couroient au-devant du plus grand danger qui les
                     pouvoit jamais ménacer. Mais ils n'étoient hélas! que trop la duppe des
-                    artifices de Madame Donval.</p>
-                <p>Tels furent les ſentimens que cet incident fit naître dans l'eſprit de Dorine.
+                    artifices de Madame Donval.
+    </p>
+    <p>
+     Tels furent les ſentimens que cet incident fit naître dans l'eſprit de Dorine.
                     Clidamon ignoroit la déclaration que le Marquis lui avoit faite de ſon amour,
                     puiſqu'il n'en avoit eu l'occaſion qu'après ſon départ. Sûr du cœur de ſa
                     maîtreſſe, il s'étoit au contraire imaginé lui faire plaiſir en lui amenant un
@@ -2407,8 +2694,10 @@
                     d'aimables cavaliers offroient des rafraîchiſſemens à des Amazones, qui venoient
                     de mettre pied à terre, &amp; dont les chevaux étoient attachés auprès d'elles.
                     D'autres faiſoient retentir les airs de leurs concerts amoureux. Le jour étoit
-                    déja baiſſé, le ſilence de la nuit ſembloit favoriſer leurs accens.</p>
-                <p>Dorine, à la faveur de la lune qui éclairoit cette belle nuit, promenoit ſes
+                    déja baiſſé, le ſilence de la nuit ſembloit favoriſer leurs accens.
+    </p>
+    <p>
+     Dorine, à la faveur de la lune qui éclairoit cette belle nuit, promenoit ſes
                     regards ſur toute l'aſſemblée. Le Chevalier du Thieul, s'étudioit à ne laiſſer
                     échapper aucune occaſion de lui procurer quelque nouvelle ſatiſfaction, &amp; de
                     lui faire ſa cour. Ce jeune homme avoit conçu pour elle un amour dont il n'étoit
@@ -2425,8 +2714,10 @@
                     pour s'attirer ſa bienveillance, &amp; pouvoir enſuite dans quelqu'autre
                     occaſion plus avantageuſe ſonder ſes ſentimens, &amp; connoître par lui-même
                     quel cœur il avoit à ſoumettre, &amp; à quelles armes il lui faudroit
-                    recourir.</p>
-                <p>De toutes les perſonnes que vous voyez ici, belle Marquiſe, il n'en eſt aucune
+                    recourir.
+    </p>
+    <p>
+     De toutes les perſonnes que vous voyez ici, belle Marquiſe, il n'en eſt aucune
                     qui ne merite en quelque ſorte votre attention. Cette Dame un peu éloignée de
                     nous eſt une des premières de la Cour, ambitieuſe à l'excès, elle ſéchoit de
                     dépit d'être obligée de ceder le pas à celles d'un rang plus élevé. Elle
@@ -2434,20 +2725,26 @@
                     pour obtenir les mêmes privilèges dont elle envioit l'honneur; c'eſt à de
                     pareils reproches qu'elle doit aujourd'hui ſon triomphe &amp; la gloire de ſon
                     mari, qui par des actions, les unes plus belles que les autres, a enfin obtenu
-                    plus que ſon ambitieuſe épouſe n'avoit oſé demander.</p>
-                <p>Là eſt une autre Dame, dont la vivacité &amp; la pétulance ſont ſans égal.
+                    plus que ſon ambitieuſe épouſe n'avoit oſé demander.
+    </p>
+    <p>
+     Là eſt une autre Dame, dont la vivacité &amp; la pétulance ſont ſans égal.
                     Enjouée, aimant la bonne chere, elle paſſe dans les plaiſirs de l'amour &amp; de
                     la table, tout le temps qu'elle peut s'échapper de la Cour, où elle ſe regarde
-                    comme priſonniere.</p>
-                <p>Celle ci, ſous le maſque de la dévotion, cache la paſſion la plus ſordide. Elle a
+                    comme priſonniere.
+    </p>
+    <p>
+     Celle ci, ſous le maſque de la dévotion, cache la paſſion la plus ſordide. Elle a
                     un grand crédit en Cour, où elle eſt preſque ſûre d'obtenir tout ce qu'elle
                     demande. Intéreſſée à l'excès, elle vend bien cher les ſervices qu'elle rend à
                     ceux qui la viennent ſolliciter. Charges, emplois, recompenſes, tout s'obtient
                     par ſon canal. C'eſt par ce moyen qu'elle a ſçu relever ſa famille, qui n'avoit
                     bien-tôt plus que les armes &amp; le nom. Tous ceux qui le portent, alliés ou
                     non, ſont aſſûrés de trouver en elle une protection, à l'abri de laquelle ils
-                    font en peu d'années la fortune la plus rapide.</p>
-                <p>Les faits que vous rapportez là à Madame, lui dit Kerville, en l'interrompant
+                    font en peu d'années la fortune la plus rapide.
+    </p>
+    <p>
+     Les faits que vous rapportez là à Madame, lui dit Kerville, en l'interrompant
                     ſont, permettez-moi de vous le dire, cher ami, aſſez hors de ſaiſon.
                     Pourroient-ils être capable d'égayer ſon eſprit, ne vaudroit-il pas mieux
                     démaſquer ces autres Dames, qu'à leur atour, à leurs geſtes importans, à leur
@@ -2461,8 +2758,10 @@
                     tête à tête, rien de plus amuſant dans une petite compagnie bien triée, ou dans
                     toute autre partie de plaiſir. Ce ſont des Prothées dans les petites maiſons de
                     divertiſſemens, ou plutôt de débauches, qui ſont ſi fort à la mode de nos
-                    jours.</p>
-                <p>L'une de ces Dames que vous entre-voyez derrière nous, a été long temps applaudie
+                    jours.
+    </p>
+    <p>
+     L'une de ces Dames que vous entre-voyez derrière nous, a été long temps applaudie
                     du public ſur un de nos premiers théatres. Elle a infiniment d'eſprit; à des
                     traits reguliers, elle joint un teint fleuri, animé par de beaux yeux; elle a
                     d'ailleurs une voix des plus belles &amp; des plus ſonores que l'on ait jamais
@@ -2481,8 +2780,10 @@
                     enfin procuré un établiſſement des plus avantageux. Un de nos plus opulens
                     richards lui a depuis peu donné la main, &amp; ils vivent aujourd'hui dans
                     l'union la plus parfaite. Vrai ſymbôle de l'amour, leur ſort ne peut être plus
-                    heureux.</p>
-                <p>Ce mariage a lieu de vous ſurprendre, reprit alors du Thieul, en s'adreſſant à
+                    heureux.
+    </p>
+    <p>
+     Ce mariage a lieu de vous ſurprendre, reprit alors du Thieul, en s'adreſſant à
                     Madame Donval, ce n'eſt cependant rien encore en comparaiſon de ce que je vais
                     vous rapporter. Vous voyez ces trois Dames aſſiſes preſque vis-à-vis: voilà
                     peut-être le trio le plus remarquable. C'eſt bien à tort, que l'on nous dit
@@ -2633,29 +2934,37 @@
                     deux, du moins en apparence, dans l'union la plus parfaite, à mon avis, encore
                     bien plus ſenſés en ce point, que bien des époux qui font éclater leurs
                     diſſenſions, qui n'ont pas cependant, pour la plûpart, un fondement ſi
-                    légitime.</p>
-                <p>Clidamon étoit déja de retour; il ne ſavoit à quoi attribuer l'air demiréveur de
+                    légitime.
+    </p>
+    <p>
+     Clidamon étoit déja de retour; il ne ſavoit à quoi attribuer l'air demiréveur de
                     Dorine, l'accueil froid qu'il en avoit reçu à ſon arrivée, lui donnoit la plus
                     vive inquiétude; il ne pouvoit s'imaginer quel pouvoit être le ſujet de ce
                     réfroidiſſement. Il étoit trop ſûr du cœur de ſa Maîtreſſe, pour penſer que la
                     préſence du Marquis d'Ambuſſieres eût cauſé en elle quelque changement peu
                     favorable. Dans cette agitation, il interrompit au plutôt cette converſation,
                     pour annoncer aux Dames que tout étoit préparé, &amp; que l'on n'attendoit plus
-                    que leurs ordres. L'on ſe leva donc pour ſortir de la promenade. </p>
-                <p>Mais, dit Madame Donval, qui ne quittoit la promenade qu'à regret; quoique dans
+                    que leurs ordres. L'on ſe leva donc pour ſortir de la promenade.
+    </p>
+    <p>
+     Mais, dit Madame Donval, qui ne quittoit la promenade qu'à regret; quoique dans
                     le fond elle fût ravie que le moment approchât de fruſtrer l'imprudent Clidamon
                     de ſes plus cheres eſpérances: quelle eſt cette perſonne dont la figure, le
                     maintien &amp; la noble ſimplicité ſont ſi intéreſſants: ah! Madame, cette femme
                     eſt, à proprément parler, l'Aſpaſie moderne; c'eſt une ſçavante du premier
                     ordre, qui a toujours ſcu unir la galanterie la plus rafinée à la litterature la
                     plus exquiſe: ne marchons pas ſi vîte; ſi vous voulez avoir le plaiſir
-                    d'apprendre ſon hiſtoire avant de vous mettre à table.</p>
-                <p>Julie, eſt le nom de cette aimable perſonne, &amp; Ariſte celui de l'homme
+                    d'apprendre ſon hiſtoire avant de vous mettre à table.
+    </p>
+    <p>
+     Julie, eſt le nom de cette aimable perſonne, &amp; Ariſte celui de l'homme
                     charmant que vous voyez avec elle: c'eſt elle qui l'a créé, puiſque c'eſt elle
                     qui lui a appris l'uſage du cœur. Elle eſt de Périgueux, d'une naiſſance aſſez
                     diſtinguée; elle n'avoit pas ſept ans, qu'elle perdit dans ſix mois les Auteurs
-                    de ſes jours, qui lui laiſſerent une fortune très-délabrée.</p>
-                <p>Une de ſes tantes, qui étoit extrêmement riche, ſe chargea de ſon éducation:
+                    de ſes jours, qui lui laiſſerent une fortune très-délabrée.
+    </p>
+    <p>
+     Une de ſes tantes, qui étoit extrêmement riche, ſe chargea de ſon éducation:
                     veuve, retirée dans une de ſes terres, elle s'occupoit d'acquitter les dettes
                     dont la grande généroſité de ſon époux l'avoit chargée, &amp; s'attachoit à
                     l'éducation de deux garçons qu'elle deſtinoit aux armes: un précepteur auſſi
@@ -2667,8 +2976,10 @@
                     continuer l'étude de cette langue. Elle y fit des progrès ſi rapides, qu'ayant
                     obtenu la liberté de ſe livrer entiérement à ſon goût, elle ſe mit en peu de
                     tems en état de vaincre les difficultés des Auteurs Latins, reconnus pour les
-                    plus difficiles.</p>
-                <p>Sa Tante, qui avoit reçu l'éducation d'une fille de condition, ſavoit la muſique
+                    plus difficiles.
+    </p>
+    <p>
+     Sa Tante, qui avoit reçu l'éducation d'une fille de condition, ſavoit la muſique
                     parfaitement &amp; danſoit de même; la difficulté de trouver des maîtres dans
                     une campagne pour ces deux talents, la détermina à lui en donner, ainſi qu'à ſes
                     enfans, les principes: Julie étoit toujours ſupérieure en tout. En acquérant de
@@ -2676,8 +2987,10 @@
                     Nobleſſe des environs, qui abondoit aſſez dans cette maiſon; attendu que ſa
                     Tante y jouoit un fort beau rolle. Celui d'une jolie veuve de trente ans étoit
                     aſſez intéreſſant pour attirer chez elle tout ce qu'il y avoit de plus diſtingué
-                    dans le Périgord.</p>
-                <p>La Niéce qui grandiſſoit à vue d'œil, &amp; dont la ſenſibilité précoce ſe
+                    dans le Périgord.
+    </p>
+    <p>
+     La Niéce qui grandiſſoit à vue d'œil, &amp; dont la ſenſibilité précoce ſe
                     manifeſtoit dans les yeux, attiroit beaucoup de jeunes militaires. Un entre
                     autres trouva, après quelques ſoins marqués dans les yeux de Julie l'aſſurance
                     du progrès, que ſes attentions avoient fait dans ſon cœur; ſon rolle étoit
@@ -2709,31 +3022,41 @@
                     pour la diſtraire de cette idée, qui l'occupoit depuis qu'elle avoit perdu ſon
                     père &amp; ſa mère; qu'il n'y avoit qu'une perſonne à qui elle avoit communiqué
                     ſon deſſein ſous la parole d'honneur; qu'elle ne déclareroit qu'au bout de deux
-                    ans le Couvent où elle s'étoit retirée.</p>
-                <p>Ce parti fut accepté par Julie, le Chevalier lui donna tout l'argent qui pouvoit
+                    ans le Couvent où elle s'étoit retirée.
+    </p>
+    <p>
+     Ce parti fut accepté par Julie, le Chevalier lui donna tout l'argent qui pouvoit
                     lui être néceſſaire: elle ſe déroba pendant la nuit, n'emporta qu'une partie de
                     ſon linge, &amp; ſe jetta dans une chaiſe de poſte qui l'attendoit à la porte du
-                    jardin, &amp; que ce domeſtique affidé, nommé Saint-Jean, devoit conduire.</p>
-                <p>Vous vous imaginez, Meſdames, tous les mouvemens que dut occaſionner le lendemain
+                    jardin, &amp; que ce domeſtique affidé, nommé Saint-Jean, devoit conduire.
+    </p>
+    <p>
+     Vous vous imaginez, Meſdames, tous les mouvemens que dut occaſionner le lendemain
                     une telle évaſion. La Tante de Julie mit tous ſes domeſtiques en campagne; le
                     Chevalier lui-même, apprénant d'elle cette nouvelle dont il étoit l'auteur, ſut
                     ſi bien diſſimuler, que l'on accepta l'offre qu'il fit de monter à cheval &amp;
                     de faire des recherches. Il eut l'attention de ſe charger du ſoin de prendre des
                     informations dans la route qu'il ſavoit que ſa Maîtreſſe devoit avoir priſe. Par
                     cette adreſſe, toutes les recherches que les domeſtiques pouvoient faire
-                    devenoient inutiles.</p>
-                <p>Julie arriva à la terre du Chevalier. On avoit arrêté qu'on s'écriroit ſouvent,
+                    devenoient inutiles.
+    </p>
+    <p>
+     Julie arriva à la terre du Chevalier. On avoit arrêté qu'on s'écriroit ſouvent,
                     mais ſous des noms empruntés. Tout fut exécuté avec tant d'intelligence, que ſa
-                    Tante eſt morte, ſans jamais avoir pu ſavoir ce qu'étoit devenue ſa Niéce.</p>
-                <p>Au bout de ſix ſemaines, le Chevalier ſe rendit aux inſtances de Julie, qui le
+                    Tante eſt morte, ſans jamais avoir pu ſavoir ce qu'étoit devenue ſa Niéce.
+    </p>
+    <p>
+     Au bout de ſix ſemaines, le Chevalier ſe rendit aux inſtances de Julie, qui le
                     preſſoit vivement de ſe rendre auprès d'elle, attendu qu'elle touchoit au moment
                     de mettre au jour le gage de leur tendreſſe. Il prépara la Tante de Julie à ce
                     départ, prétextant que ſes Fermiers ne le payoient point, &amp; que ſa préſence
                     étoit abſolument néceſſaire; il prit congé d'elle, &amp; ſe rendit à ſa terre,
                     où Julie volant audevant de lui, fit voir par des tranſports les plus
                     expreſſifs, combien elle étoit ſatisfaite de ſe revoir dans les bras de ſon cher
-                    amant.</p>
-                <p>Peu de jours après, elle mit au jour ce fruit de la tendreſſe la plus vive de ſa
+                    amant.
+    </p>
+    <p>
+     Peu de jours après, elle mit au jour ce fruit de la tendreſſe la plus vive de ſa
                     part, mais la moins ſincére de la part du Chevalier; il le fit expoſer à la
                     porte d'un Couvent de Réligieuſes à Poitiers. Cette aventure donna occaſion aux
                     diſcours les plus calomnieux &amp; les plus humiliants que l'on tenoit ſur le
@@ -2741,8 +3064,10 @@
                     en tirer un perfide parti. Il attendoit la convaleſcence de Julie pour la
                     livrer, ſe propoſant d'arranger cette affaire avec l'Evêque, de façon que l'on
                     ne découvrît point qu'il étoit l'auteur de cet événement, &amp; qu'il pût à
-                    jamais ſe délivrer d'une amante qu'il n'aimoit plus.</p>
-                <p>Il communica ſon deſſein à SaintJean; celui-ci parut l'approuver: mais touché du
+                    jamais ſe délivrer d'une amante qu'il n'aimoit plus.
+    </p>
+    <p>
+     Il communica ſon deſſein à SaintJean; celui-ci parut l'approuver: mais touché du
                     ſort de Julie, &amp; plus encore preſſé par une cupidité dont vous verrez
                     bientôt les funeſtes ſuites, il l'avertit de ce qui ſe paſſoit contre-elle. Le
                     Chevalier, pour que Julie ne s'apperçût point de ſon réfroidiſſement, &amp; de
@@ -2754,8 +3079,10 @@
                     l'inſtruiſoit du motif des fréquens voyages que le Chevalier faiſoit, ſous
                     différents prétextes, à Poitiers. Ils ſe concertoient enſemble ſur les moyens
                     &amp; le tems qu'il falloit prendre pour ſe ſouſtraire aux perſecutions &amp; à
-                    l'eſclavage dont elle étoit ménacée.</p>
-                <p>Dès que Saint-Jean vit Julie en poſſeſſion des diamans &amp; des bijoux, il lui
+                    l'eſclavage dont elle étoit ménacée.
+    </p>
+    <p>
+     Dès que Saint-Jean vit Julie en poſſeſſion des diamans &amp; des bijoux, il lui
                     conſeilla de ſe tenir prête pour le lendemain à minuit, l'aſſurant qu'il ſe
                     trouveroit à la porte d'un petit boſquet avec un cheval, qu'il la remettroit
                     entre les mains d'un de ſes amis, qui auroit le ſoin de la conduire dans un lieu
@@ -2770,8 +3097,10 @@
                     diverſes routes détournées. Mais vers les deux heures après minuit, quelle fut
                     la ſurpriſe de cette jeune perſonne, lorſqu'elle vit ſon conducteur renverſé
                     d'un coup de fuſil, &amp; elle dépouillée de tout ce qu'elle pouvoit avoir; trop
-                    heureuſe de ce que le voleur lui laiſſa la vie.</p>
-                <p>Tombée de foibleſſe &amp; évanouie, elle reprit longtems après ſes ſens. Le jour
+                    heureuſe de ce que le voleur lui laiſſa la vie.
+    </p>
+    <p>
+     Tombée de foibleſſe &amp; évanouie, elle reprit longtems après ſes ſens. Le jour
                     commençoit à paroître. Elle ſe trouva dans un bois; errante &amp; incertaine,
                     elle ne ſavoit de quel côté porter ſes pas, de peur de retomber dans les mains
                     des voleurs, qui l'avoient déja dépouillée. Le bruit des voitures qu'elle
@@ -2810,8 +3139,10 @@
                     d'une ſoi diſant ſa parente, qui logeoit près de ſon Couvent. C'étoit une de ſes
                     dévotes qui n'ont de la piété que l'extérieur propre à maſquer une vie
                     licentieuſe &amp; infâme; c'étoit enfin la ſur-intendante des menus plaiſirs du
-                    béni Père.</p>
-                <p>Julie, qui ne cherchoit qu'à ſe mettre de plus en plus en ſûreté, accepta la
+                    béni Père.
+    </p>
+    <p>
+     Julie, qui ne cherchoit qu'à ſe mettre de plus en plus en ſûreté, accepta la
                     propoſition. Elle ſe rendit chez ladite parente; on ne parloit que piété,
                     manſuétude, béatitude, on eût dit enfin d'un paradis ſur la terre. Julie étoit
                     obligée d'aller tous les jours avec la prétendue dévote à la Meſſe du béni Père.
@@ -2827,8 +3158,10 @@
                     enfant, diſoit-elle à Julie, conſiſte à lui donner des témoins: mais n'y a-t-il
                     point de ſcandale? il n'y a plus de mal. En effet, eſt-il vrai-ſemblable,
                     continuoit-elle, que Dieu ait voulu que nous mortifiions tous nos déſirs, &amp;
-                    ſur-tout ceux qu'il a mis dans toute la nature afin qu'elle ſe perpétuât.</p>
-                <p>Père R.... alla un jour, après avoir prévenu ſa ſur-intendante &amp; réglé tout
+                    ſur-tout ceux qu'il a mis dans toute la nature afin qu'elle ſe perpétuât.
+    </p>
+    <p>
+     Père R.... alla un jour, après avoir prévenu ſa ſur-intendante &amp; réglé tout
                     avec elle, demander à parler à Julie. La dévote lui annonça un homme vêtu
                     ſuperbement l'épée au côté. Julie à cette annonce frémit, croyant que c'étoit
                     ſon perfide: mais quelle fut ſa ſurpriſe lorſqu'elle réconnut le Père R..... en
@@ -2845,19 +3178,25 @@
                     ſincère; qu'elle le croyoit trop délicat pour ne pas approuver cette conduite;
                     qu'elle s'eſtimeroit la plus malheureuſe des filles, ſi après avoir pris de
                     l'attachement pour lui elle ouvroit le tombeau à ſon amour en ſe rendant trop
-                    précipitamment à ſes tranſports.</p>
-                <p>Pendant qu'elle jouoit ainſi le nouveau cavalier, elle lui paſſoit certaines
+                    précipitamment à ſes tranſports.
+    </p>
+    <p>
+     Pendant qu'elle jouoit ainſi le nouveau cavalier, elle lui paſſoit certaines
                     libertés légéres &amp; qui ſont ſans conſéquence, &amp; ne ſe réfuſoit à ſes
                     empreſſemens que d'une manière foible pour lui laiſſer voir que ſes diſcours
-                    étoient d'accord avec ſon cœur.</p>
-                <p>Il n'étoit queſtion pour elle que de gagner du tems; parce qu'elle s'étoit
+                    étoient d'accord avec ſon cœur.
+    </p>
+    <p>
+     Il n'étoit queſtion pour elle que de gagner du tems; parce qu'elle s'étoit
                     apperçue depuis quelques jours, qu'un homme à équipage ſe trouvoit exactement à
                     la même Meſſe, &amp; que ſes regards lui rendoient un compte fidelle des progrès
                     qu'elle faiſoit dans ſon cœur. Le P. R.... enflâmé par l'eſpérance d'être
                     bientôt heureux, étoit de plus en plus exact dans ſes viſites &amp; attentif à
                     ordonner que les déſirs &amp; les fantaiſies de Julie ne trouvaſſent ni obſtacle
-                    ni retardement.</p>
-                <p>Julie de ſon côté, voyant qu'il étoit important pour elle de ſe dérober le plutôt
+                    ni retardement.
+    </p>
+    <p>
+     Julie de ſon côté, voyant qu'il étoit important pour elle de ſe dérober le plutôt
                     poſſible aux déſirs effrénés d'un tel perſonnage, reſolut de faire par ſes
                     regards connoître à ſon inconnu, qu'elle étoit dans l'eſclavage, &amp; qu'il
                     pouvoit tout entreprendre: le langage des yeux eſt bien aſſez expreſſif en
@@ -2867,23 +3206,29 @@
                     n'étoit pas bien facile. Cependant la pieuſe généroſité d'une Quêteuſe, animée
                     par l'eſpoir de la récompenſe, ce chargea de remettre la lettre pendant le
                     Meſſe. Cela fut exécuté avec toute l'adreſſe de la fauſſe piété, malgré la
-                    vigilance de l'argus, qui ne perdoit pas de vue Julie.</p>
-                <p>Dès qu'elle fut de retour, elle lut une lettre qui lui annonçoit ſa liberté &amp;
+                    vigilance de l'argus, qui ne perdoit pas de vue Julie.
+    </p>
+    <p>
+     Dès qu'elle fut de retour, elle lut une lettre qui lui annonçoit ſa liberté &amp;
                     la vie la plus heureuſe, pour peu qu'elle voulût le lendemain, qui étoit un
                     Dimanche, ſe prêter aux circonſtances: on lui dépeignoit le carroſſe qui ſeroit
                     le plus près de l'Egliſe; on lui annonçoit que deux domeſtiques à livrée la
                     prendroient dans la foule au ſortir de la Meſſe, &amp; qu'on la conduiroit dans
                     une maiſon où tout étant à ſes ordres, elle jugeroit de la violence de l'amour
                     de celui qui lui offroit cette partie de ſa fortune par les ſoins qu'il avoit
-                    pris, afin que tout y fût digne de la recevoir.</p>
-                <p>Toutes les méſures furent ſi bien priſes de part &amp; d'autre, que Julie le
+                    pris, afin que tout y fût digne de la recevoir.
+    </p>
+    <p>
+     Toutes les méſures furent ſi bien priſes de part &amp; d'autre, que Julie le
                     lendemain, ſe trouvant dans la foule au ſortir de la Meſſe, ſe laiſſa entraîner
                     par ces deux domeſtiques qui la porterent, pour ainſi-dire, dans le carroſſe,
                     &amp; la conduiſirent à une petite maiſon, où l'amour du maître avoit épuiſé
                     toutes les reſſources de l'art &amp; du bon goût pour la rendre agréable. Elle
                     ne fut pas plutôt arrivée qu'on la conduiſit dans un appartement, où pluſieurs
-                    domeſtiques vinrent la ſupplier d'agréer leurs ſervices.</p>
-                <p>Le Comte, un inſtant après, vola aux genoux de ſa nouvelle maîtreſſe, &amp; la
+                    domeſtiques vinrent la ſupplier d'agréer leurs ſervices.
+    </p>
+    <p>
+     Le Comte, un inſtant après, vola aux genoux de ſa nouvelle maîtreſſe, &amp; la
                     ſupplia d'accepter cette maiſon comme l'eſſai du tribut qu'il vouloit rendre à
                     ſa beauté. Ces deux amans vêcurent long-tems en bonne intelligence: Julie
                     partageoit ſon tems entre les plaiſirs qu'elle prénoit avec ſon nouvel Amant,
@@ -2917,8 +3262,10 @@
                     mal fondés. Cette déclaration ſignée on le chaſſa. Julie cependant eut la
                     généroſité d'obtenir du Comte ſa parole d'honneur qu'il ne donneroit jamais
                     communication de cette piéce, ſi celui qui l'avoit ſignée, étoit à l'avenir
-                    auſſi ſage qu'il promettoit de l'être.</p>
-                <p>Cet inconvenient ne fit que donner plus de force à l'amour du Comte, &amp; plus
+                    auſſi ſage qu'il promettoit de l'être.
+    </p>
+    <p>
+     Cet inconvenient ne fit que donner plus de force à l'amour du Comte, &amp; plus
                     de reconnoiſſance à Julie. Il ne ceſſoit d'admirer la ſagacité de ſon eſprit,
                     &amp; la ſolidité de ſon jugement: &amp; je vous aſſure, Meſdames, qu'il pouvoit
                     à juſte titre ſe porter juge dans cette partie. Ils vêcurent ainſi pendant
@@ -2927,8 +3274,10 @@
                     qu'il quitte à regret, pour ſe rendre à l'ordre de la ſociété &amp; au bien de
                     l'Etat. Ils ſe voyent encore avec tous les ſentimens d'eſtime qui réſultent d'un
                     amour bien fondé, &amp; auquel on a été obligé de renoncer par des raiſons de
-                    convenance.</p>
-                <p>Julie libre, maîtreſſe d'elle-même, avec un revenu honnête, que le Comte avoit eu
+                    convenance.
+    </p>
+    <p>
+     Julie libre, maîtreſſe d'elle-même, avec un revenu honnête, que le Comte avoit eu
                     le ſoin de lui faire, ſe livra toute entiére aux Sciences; ce n'eſt pas
                     cependant qu'elle ne reçût très-bonne compagnie chez elle, &amp; beaucoup
                     d'adorateurs minaudiers qui ne lui faiſoient aucune impreſſion. Sçavante ſans
@@ -2941,8 +3290,10 @@
                     père qui avoit laiſſé des millions l'avoit vue, en étoit devenu éperdument
                     amoureux, &amp; lui rendit tous ſes foins pendant tout le tems qu'il a vêcu.
                     Sylvie faiſoit les honneurs chez lui; elle rempliſſoit ce rolle à la
-                    ſatisfaction même des femmes les plus délicates.</p>
-                <p>Le Préſident donna un jour une magnifique fête, &amp; ayant rencontré la veille
+                    ſatisfaction même des femmes les plus délicates.
+    </p>
+    <p>
+     Le Préſident donna un jour une magnifique fête, &amp; ayant rencontré la veille
                     Ariſte, qui eſt cet homme aimable que vous avez vu avec Julie, il le détermina à
                     venir en profiter. Cet Ariſte qui, après pluſieurs inſtances accepta, eſt un
                     homme de grande naiſſance, mais qui avoit été auſſi inſenſible juſqu'à trente
@@ -2951,8 +3302,10 @@
                     aux bonnes qu'aux belles actions, exerçant avec diſcernement tous les devoirs de
                     l'humanité, ne trouvant d'autre plaiſir qu'à apprendre, &amp; ſe croyant le plus
                     ignorant de tous les hommes, il paſſoit ſa vie à faire le bien, &amp; à
-                    apprendre la véritable façon de le faire.</p>
-                <p>Il ſe rendit à la maiſon de campagne du Préſident; nous n'en ſommes pas bien
+                    apprendre la véritable façon de le faire.
+    </p>
+    <p>
+     Il ſe rendit à la maiſon de campagne du Préſident; nous n'en ſommes pas bien
                     éloignés. La partie dura pendant huit jours. Julie, que Sylvie avoit invitée s'y
                     trouva; dès le premier jour elle goûta le caractère d'Ariſte, le ſecond elle le
                     diſtingua de tous les autres cavaliers qui étoient en grand nombre: Ariſte de
@@ -2973,14 +3326,18 @@
                     au-devant de ſa timidité naturelle; &amp; comme perſonne n'étoit plus en état
                     qu'elle de manier de la façon la plus éclairée le ſentiment de l'amour, elle
                     ſoulageoit Ariſte, qui, retenu par une fauſſe crainte, ſe contentoit de ſentir,
-                    ſans déclarer ce qu'il ſentoit.</p>
-                <p>Le ſixiéme jour, Ariſte &amp; Sylvie dirent à la compagnie, que les Dames
+                    ſans déclarer ce qu'il ſentoit.
+    </p>
+    <p>
+     Le ſixiéme jour, Ariſte &amp; Sylvie dirent à la compagnie, que les Dames
                     regaloient ce jour-là chacune dans ſon appartement; que par conſéquent il n'y
                     auroit point de grande table. Julie ſaiſit ſoudain l'inſtant d'inviter Ariſte à
                     venir manger la ſoupe chez elle. Vous vous imaginez bien qu'elle ne fut point
                     refuſée; chaque Dame invita qui elle voulut, de ſorte que ce jour-là tout le
-                    monde étoit à ſoi, ou pour mieux dire à ce qu'il déſiroit.</p>
-                <p>Il eſt inutile de vous peindre ici tout l'embarras d'Ariſte; qui en étoit encore
+                    monde étoit à ſoi, ou pour mieux dire à ce qu'il déſiroit.
+    </p>
+    <p>
+     Il eſt inutile de vous peindre ici tout l'embarras d'Ariſte; qui en étoit encore
                     aux éléments. Auprès de l'appartement de Julie, étoit une pièce qu'on appelloit
                     la chambre de volupté: Tous les ornements étoient autant d'emblêmes de ces
                     tendres rapports que la nature a mis dans notre cœur pour ſe perpetuer. Julie
@@ -3004,8 +3361,10 @@
                     qu'elle déſiroit autant que lui-même. Nos deux Amants ſe ſeroient oubliés dans
                     ce lieu, ſi l'on n'étoit venu les avertir que tout le monde ſe raſſembloit pour
                     une comédie qu'on alloit jouer: ils firent tout ce qu'ils purent pour ſe
-                    remettre: mais envain, le Préſident &amp; Sylvie devinerent leur bonheur.</p>
-                <p>Le huitiéme &amp; dernier jour de cette partie, fut terminé par un ſplendide
+                    remettre: mais envain, le Préſident &amp; Sylvie devinerent leur bonheur.
+    </p>
+    <p>
+     Le huitiéme &amp; dernier jour de cette partie, fut terminé par un ſplendide
                     répas, dans lequel le Préſident fit briller ſa magnificence. Il fit ſervir au
                     deſſert un bijou de grand prix à chaque convive: auroiton du s'attendre à la
                     cataſtrophe dont je vais vous faire part avant de nous mettre à table: Comme
@@ -3041,8 +3400,10 @@
                     faire uſage de ſon cœur, qu'en faveur de celle qui lui avoit fait connoître la
                     vraie felicité à laquelle il eſt deſtiné, &amp; il lui a tenu parole juſqu'à
                     préſent, qu'il court même un bruit qu'ils ont allumé le flambeau de l'hymen au
-                    flambeau de l'amour.</p>
-                <p>Cette perſonne, dit Madame Donval, devient encore plus intéreſſante: toute
+                    flambeau de l'amour.
+    </p>
+    <p>
+     Cette perſonne, dit Madame Donval, devient encore plus intéreſſante: toute
                     remplie de l'idée de ſuccès qu'auroit ſon entrepriſe, elle crut devoir laiſſer
                     encore à Dorine &amp; à Clidamon le plaiſir d'être quelques inſtans tête à tête.
                     Clidamon, qui ne ſe méfioit de rien, ſaiſit l'occaſion qui ſembloit s'offrir à
@@ -3095,8 +3456,10 @@
                     pas ainſi de Dorine. Si vous l'aimez, ſi votre tendreſſe eſt extrême, au moins
                     quel n'eſt pas votre bonheur! vous êtes payé du plus juſte &amp; du plus parfait
                     retour. Votre amante, ſenſible à vos ſoins, vous juge digne de ſon cœur, vous en
-                    êtes le maître. Mais peut-il être un bonheur parfait.</p>
-                <p>Pendant que nos convives ne cherchoient qu'à ſe divertir, &amp; que chacun d'eux
+                    êtes le maître. Mais peut-il être un bonheur parfait.
+    </p>
+    <p>
+     Pendant que nos convives ne cherchoient qu'à ſe divertir, &amp; que chacun d'eux
                     faiſoit honneur aux différens mets, il ſe formoit un orage tout prêt à gronder
                     ſur la tête de nos amans. Le Marquis d'Ambuſſieres attendoit avec impatience que
                     Madame Donval jouât le reſte de ſon rôle. Il avoit ſuivi tout le plan qu'elle
@@ -3133,8 +3496,10 @@
                     quelque liqueur capable de la tirer de l'évanouiſſement où la frayeur l'a fait
                     tomber. Tout alloit bien juſques-là. La chaiſe de poſte étoit toute prête, &amp;
                     tout étoit en état pour la fuite. Cet évanouiſſement ſeul lui faiſoit différer
-                    ſon départ.</p>
-                <p>D'un autre côté, lorſque Madame Donval crut le raviſſeur de la Marquiſe aſſez
+                    ſon départ.
+    </p>
+    <p>
+     D'un autre côté, lorſque Madame Donval crut le raviſſeur de la Marquiſe aſſez
                     loin pour être abſolument à l'abri de toutes pourſuites, elle ſe rapproche à pas
                     lents de la maiſon, &amp; jettant des cris perçans, elle appelle tout le monde à
                     ſon ſecours. A ce bruit, chacun ſort de la maiſon &amp; vole à ſon ſecours.
@@ -3226,24 +3591,39 @@
                     remonterent en équipage, &amp; l'on ramena Dorine chez elle. Pour Madame Donval
                     &amp; l'infame Lagarde, on les avoit enfermés ſeparement, &amp; bientôt on les
                     conduiſit à Paris ſous bonne garde où l'on en fit bonne &amp; briéve
-                    juſtice.</p>
-                <p>Telle fut la fin tragique de cette journée qui eût été trop heureuſe ſans les
-                    fâcheux incidens qui la terminèrent.</p>
-                <trailer>FIN.</trailer>
-            </div>
-        </body>
-        <back>
-            <div type="notes">
-                <note xml:id="N01">(*) Ce ſont les plus belles promenades de Montpellier.</note>
-                <note xml:id="N02">(*) Démoſthene avoit un défaut eſſentiel dans la voix; perſonne
+                    juſtice.
+    </p>
+    <p>
+     Telle fut la fin tragique de cette journée qui eût été trop heureuſe ſans les
+                    fâcheux incidens qui la terminèrent.
+    </p>
+    <trailer>
+     FIN.
+    </trailer>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N01">
+     (*) Ce ſont les plus belles promenades de Montpellier.
+    </note>
+    <note xml:id="N02">
+     (*) Démoſthene avoit un défaut eſſentiel dans la voix; perſonne
                     n'ignore qu'il ſcut le faire diſparoître. De nos jours, &amp; ſur un de nos
                     théatres, Riccoboni, que nous regrettons encore, n'avoit-il pas fait évanouir le
-                    ſien?</note>
-                <note xml:id="N03">(*)Monsieur Fréron, dans ſa cinquiéme Lettre ſur quelques Ecrits
-                    de ce temps.</note>
-                <note xml:id="N04">(*) Monſieur de Saint-Evremond.</note>
-                <note xml:id="N05">(*) M. de Boiſſi, dans ſa jolie Comédie de la Frivolité. </note>
-            </div>
-        </back>
-    </text>
+                    ſien?
+    </note>
+    <note xml:id="N03">
+     (*)Monsieur Fréron, dans ſa cinquiéme Lettre ſur quelques Ecrits
+                    de ce temps.
+    </note>
+    <note xml:id="N04">
+     (*) Monſieur de Saint-Evremond.
+    </note>
+    <note xml:id="N05">
+     (*) M. de Boiſſi, dans ſa jolie Comédie de la Frivolité.
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

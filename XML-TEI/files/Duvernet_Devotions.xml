@@ -1,144 +1,229 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Duvernet_Devotions" xml:lang="fr">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:89.58 wikidata:Q98125600">Les dévotions de Mme de Bethzamooth et les Pieuses facéties de M. de Saint-Ognon: MiMoText edition</title>
-        <author ref="viaf:34456162 wikidata:Q94885583">Théophile Imarigeon Duvernet(1734-1796)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>wikisource</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name/>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">16596</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref
-            target="https://fr.wikisource.org/wiki/Les_d%C3%A9votions_de_Mme_de_Bethzamooth_;_La_retraite,_les_tentations_et_les_confessions_de_la_marquise_de_Montcornillon/03"/>
-          <ref
-            target="https://fr.wikisource.org/wiki/Les_d%C3%A9votions_de_Mme_de_Bethzamooth_;_La_retraite,_les_tentations_et_les_confessions_de_la_marquise_de_Montcornillon/04#n1"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la marquise de Montcornillon</title>
-          <author>Théophile Imarigeon Duvernet</author>
-          <pubPlace>Paris</pubPlace>
-          <publisher>Bibliothèque des curieux (éditions Briffaut)</publisher>
-          <date>1913</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1790</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-x">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">heterodiegetic</term>
-          <term type="spelling">modern</term>
-          <term type="data-capture">semi-automatic transcription</term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T0"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-06-02">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la
-          marquise de Montcornillon (1790)</p>
-        <p>Abbé Duvernet</p>
-        <p>Bibliothèque des curieux (éditions Briffaut), Paris, 1913</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>LES DÉVOTIONS DE MADAME DE BETHZAMOOTH ET LES PIEUSES FACÉTIES DE MONSIEUR DE SAINT-OGNON</head>
-        <p>Veut-on rendre une femme raisonnable ? Il faut coucher avec elle. --- Veut-on rendre un homme
+<TEI xml:id="Duvernet_Devotions" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:89.58 wikidata:Q98125600">
+     Les dévotions de Mme de Bethzamooth et les Pieuses facéties de M. de Saint-Ognon: MiMoText edition
+    </title>
+    <author ref="viaf:34456162 wikidata:Q94885583">
+     Théophile Imarigeon Duvernet(1734-1796)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      wikisource
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name/>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     16596
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://fr.wikisource.org/wiki/Les_d%C3%A9votions_de_Mme_de_Bethzamooth_;_La_retraite,_les_tentations_et_les_confessions_de_la_marquise_de_Montcornillon/03"/>
+     <publisher>
+      Wikisource
+     </publisher>
+     <date>
+      2020
+     </date>
+     <ref target="https://fr.wikisource.org/wiki/Les_d%C3%A9votions_de_Mme_de_Bethzamooth_;_La_retraite,_les_tentations_et_les_confessions_de_la_marquise_de_Montcornillon/04#n1"/>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la marquise de Montcornillon
+     </title>
+     <author>
+      Théophile Imarigeon Duvernet
+     </author>
+     <pubPlace>
+      Paris
+     </pubPlace>
+     <publisher>
+      Bibliothèque des curieux (éditions Briffaut)
+     </publisher>
+     <date>
+      1913
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1790
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-x">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      heterodiegetic
+     </term>
+     <term type="spelling">
+      modern
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-06-02">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     Les dévotions de Mme de Bethzamooth ; La retraite, les tentations et les confessions de la
+          marquise de Montcornillon (1790)
+    </p>
+    <p>
+     Abbé Duvernet
+    </p>
+    <p>
+     Bibliothèque des curieux (éditions Briffaut), Paris, 1913
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     LES DÉVOTIONS DE MADAME DE BETHZAMOOTH ET LES PIEUSES FACÉTIES DE MONSIEUR DE SAINT-OGNON
+    </head>
+    <p>
+     Veut-on rendre une femme raisonnable ? Il faut coucher avec elle. --- Veut-on rendre un homme
           heureux et content ? Il faut le faire cocu. --- C'est tout le sujet de l'histoire que nous allons
-          raconter.</p>
-        <p>Mme de Bethzamooth sortait de l'église Saint-Sulpice, fort édifiée d'un sermon qu'avait prêché M.
+          raconter.
+    </p>
+    <p>
+     Mme de Bethzamooth sortait de l'église Saint-Sulpice, fort édifiée d'un sermon qu'avait prêché M.
           l'abbé du Trognon, lequel avait embrassé le métier de prédicateur sur ce que M. du Trognon son père
           et Mme du Trognon sa mère lui avaient dit que la chaire pourrait le mener à un évêché, lui citant
           souvent, en preuve de la parole sainte, Massillon, Fénelon, Fléchier, Soanen et M. l'abbé de
-          Beauvais, jadis évêque de Senez.</p>
-        <p>En entrant dans son carrosse, Mme de Bethzamooth aperçut au milieu de la rue et dans les boues,
+          Beauvais, jadis évêque de Senez.
+    </p>
+    <p>
+     En entrant dans son carrosse, Mme de Bethzamooth aperçut au milieu de la rue et dans les boues,
           exposé au froid et à la neige, M. de Saint-Ognon. C'était un beau jeune homme, d'un visage modeste
           et intéressant ; il était arrêté par un embarras de voitures, si grande était ce jour-là la presse à
-          la foire, à la Comédie-Française et à l'église Saint-Sulpice.</p>
-        <p>Ce n'est pas trop l'usage de ramasser dans la rue une personne qu'on ne connaît pas, mais
+          la foire, à la Comédie-Française et à l'église Saint-Sulpice.
+    </p>
+    <p>
+     Ce n'est pas trop l'usage de ramasser dans la rue une personne qu'on ne connaît pas, mais
           lorsqu'il s'agit d'une bonne œuvre, la dévotion ne regarde pas de si près. D'ailleurs, Mme de
           Bethzamooth crut reconnaître M. de Saint-Ognon : elle le prit pour M. Henri Roch, dont elle avait
           entendu parler comme d'un grand dévot, qu'elle avait vu à l'assemblée des saints et qu'elle désirait
-          connaître particulièrement.</p>
-        <p>--- Je souffre beaucoup, Monsieur, lui dit-elle, de vous voir en danger d'être écrasé par les
+          connaître particulièrement.
+    </p>
+    <p>
+     --- Je souffre beaucoup, Monsieur, lui dit-elle, de vous voir en danger d'être écrasé par les
           voitures. Entrez dans la mienne, et je vous ménerai, à votre choix, ou chez vous, ou à mon hôtel.
           --- Que la volonté de Madame soit faite, répondit M. de Saint-Ognon ; j'irai partout où l'esprit de
           Dieu me conduira, bénissant dans Madame une charité si rare à l'égard d'un homme qui marche à pied
           dans Paris et louant la Providence qui, à son gré, verse la pluie et la neige sur les pécheurs et
-          qui met ses saints et ses saintes à l'abri du mauvais temps<ref target="#N1"/>.</p>
-        <p>Pour parler ainsi, il est bon qu'on sache que M. de Saint-Ognon connut qu'il avait affaire à une
+          qui met ses saints et ses saintes à l'abri du mauvais temps
+     <ref target="#N1"/>
+     .
+    </p>
+    <p>
+     Pour parler ainsi, il est bon qu'on sache que M. de Saint-Ognon connut qu'il avait affaire à une
           dévote. Disons aussi qu'il allait à la Comédie et que Mme de Bethzamooth crut qu'il sortait du
           sermon ; ajoutons encore qu'il était dans cet âge où l'on aime les aventures, autant pour le plaisir
           d'avoir des aventures que pour celui de les raconter dans sa vieillesse. En effet, rien n'égaye nos
-          vieux ans comme le souvenir de ce que pendant la jeunesse on a fait et l'on a vu de singulier.</p>
-        <p>Mme de Bethzamooth, édifiée de cette résignation à la volonté de Dieu et à la sienne, mène M. de
+          vieux ans comme le souvenir de ce que pendant la jeunesse on a fait et l'on a vu de singulier.
+    </p>
+    <p>
+     Mme de Bethzamooth, édifiée de cette résignation à la volonté de Dieu et à la sienne, mène M. de
           Saint-Ognon à son hôtel, se disant en elle-même : « Une bonne œuvre m'a procuré la connaissance d'un
           homme de bien, et cette connaissance est certainement la récompense de ma dévotion ; d'où je conclus
           qu'il y a véritablement un Dieu qui règle tout dans l'univers et surtout dans la paroisse de
-          Saint-Sulpice. »</p>
-        <p>Lorsque Mme de Bethzamooth et M. de Saint-Ognon furent devant un bon feu et tête à tête, elle
+          Saint-Sulpice. »
+    </p>
+    <p>
+     Lorsque Mme de Bethzamooth et M. de Saint-Ognon furent devant un bon feu et tête à tête, elle
           entama la conversation par un reproche qu'elle lui fit de ce qu'il n'allait plus à
-          <hi rend="italic">l'assemblée des saints</hi>
-          <ref target="#N11"/>. M. de Saint-Ognon ignorait quelle était cette assemblée ; un pieux bavardage le tira d'embarras.</p>
-        <p>--- Je n'ai pas, répondit-il, le bonheur d'être dévot et je ne vais que là où je ne suis pas
+     <hi rend="italic">
+      l'assemblée des saints
+     </hi>
+     <ref target="#N11"/>
+     . M. de Saint-Ognon ignorait quelle était cette assemblée ; un pieux bavardage le tira d'embarras.
+    </p>
+    <p>
+     --- Je n'ai pas, répondit-il, le bonheur d'être dévot et je ne vais que là où je ne suis pas
           déplacé. Dans une assemblée de saints, j'y serais comme un profane avec des élus, et Dieu m'en
           punirait. Il n'aime pas, dit l'illustre Bossuet dans ses
-          <hi rend="italic">Élévations</hi>, à voir des boucs avec les anges. Fasse le Ciel qu'au jour du
+     <hi rend="italic">
+      Élévations
+     </hi>
+     , à voir des boucs avec les anges. Fasse le Ciel qu'au jour du
           jugement je sois séparé d'avec les boucs et qu'après le triage général des bons avec les méchants
           j'entre dans la Jérusalem céleste heureux d'y être le dernier de tous et d'y être pendant toute une
           éternité occupé à servir
-          <hi rend="italic">sainte Pétronille</hi>
-          ou
-          <hi rend="italic">sainte Colombe</hi>
-          la cadette Quand on jouit de la présence de Dieu, il importe fort peu d'être assis auprès ou loin du
+     <hi rend="italic">
+      sainte Pétronille
+     </hi>
+     ou
+     <hi rend="italic">
+      sainte Colombe
+     </hi>
+     la cadette Quand on jouit de la présence de Dieu, il importe fort peu d'être assis auprès ou loin du
           trône de l'agneau. Dans le ciel, chaque élu y possède sa dose de félicité, l'un plus grande, l'autre
           plus petite. On n'y désire jamais un plus grand bonheur que celui dont on jouit. Ce pays est bien
-          différent de celui-ci.</p>
-        <p>La modestie de M. de Saint-Ognon et les belles choses qu'il dit reçurent de la part de Mme de
+          différent de celui-ci.
+    </p>
+    <p>
+     La modestie de M. de Saint-Ognon et les belles choses qu'il dit reçurent de la part de Mme de
           Bethzamooth toutes les louanges qu'elles méritaient. Elle fit ensuite venir tous ses gens, hommes et
           femmes. Elle était bien aise de lui donner une preuve de la dévotion avec laquelle tout se réglait
           dans sa maison. Ils furent tous interrogés. Elle voulut savoir dans quelle église ils avaient
@@ -150,96 +235,152 @@
           femmes et la neige qui tombait et le grand froid qui menaçait de geler les abricotiers et les
           pêchers. --- Dieu nous en préserve, Mesdemoiselles, leur dit-elle ; mais si ce malheur arrivait, je
           vous renverrais toutes, ne voulant pas avoir près de moi de mauvais sujets qui, par leurs
-          indévotions, attirent sur les biens de la terre les malédictions du Ciel.</p>
-        <p>Cette charitable exhortation fut terminée par un grand soufflet que la dévotion de Madame
+          indévotions, attirent sur les biens de la terre les malédictions du Ciel.
+    </p>
+    <p>
+     Cette charitable exhortation fut terminée par un grand soufflet que la dévotion de Madame
           appliqua sur la joue rebondie d'une jeune et jolie femme de chambre, en lui reprochant d'être
-          habillée comme une comédienne et d'avoir de ces grands yeux qui mangent les hommes.</p>
-        <p>Après le soufflet et la retraite des domestiques : --- En vérité, dit M. de Saint-Ognon, Madame
+          habillée comme une comédienne et d'avoir de ces grands yeux qui mangent les hommes.
+    </p>
+    <p>
+     Après le soufflet et la retraite des domestiques : --- En vérité, dit M. de Saint-Ognon, Madame
           est le modèle des vraies dévotes ; il faut cela pour tenir le bon ordre ; autrement la maison la
           plus régulière serait bientôt une maison de péché et de scandale. Plût au Ciel que toutes les femmes
           de Paris eussent pour gouverner leur maison une dévotion aussi bien entendue On verrait bien moins
           de désordres dans la société ; Dieu en serait bien mieux servi. Le zèle de Madame est très louable ;
           les parures du sexe, dit
-          <hi rend="italic">saint Augustin</hi>, sont les haillons du diable :
-          <hi rend="italic">pannos diaboli</hi>. Quant au soufflet
-          <ref target="#N12"/>
-          qu'a reçu cette femme de chambre, il est très bien appliqué ; c'est l'esprit de Dieu qui a passé par
+     <hi rend="italic">
+      saint Augustin
+     </hi>
+     , sont les haillons du diable :
+     <hi rend="italic">
+      pannos diaboli
+     </hi>
+     . Quant au soufflet
+     <ref target="#N12"/>
+     qu'a reçu cette femme de chambre, il est très bien appliqué ; c'est l'esprit de Dieu qui a passé par
           la main de Madame pour aller sur la joue de cette petite indévote. Comment s'appelle-t-elle... ? ---
-          <hi rend="italic">Colombine</hi>. N'est-ce pas là un nom de comédie ou de quelque roman ? Je veux
+     <hi rend="italic">
+      Colombine
+     </hi>
+     . N'est-ce pas là un nom de comédie ou de quelque roman ? Je veux
           absolument qu'elle le quitte et qu'elle en prenne un qui soit chrétien. De toutes mes femmes, je
           n'aime que Mlle
-          <hi rend="italic">Daniel</hi>
-          ; c'est un très bon sujet, elle est très dévote. Elle a d'ailleurs un talent admirable pour
-          expliquer les songes d'une manière qui m'est toujours agréable.</p>
-        <p>Le maître d'hôtel interrompit ce colloque en annonçant que le souper était servi. M. de
+     <hi rend="italic">
+      Daniel
+     </hi>
+     ; c'est un très bon sujet, elle est très dévote. Elle a d'ailleurs un talent admirable pour
+          expliquer les songes d'une manière qui m'est toujours agréable.
+    </p>
+    <p>
+     Le maître d'hôtel interrompit ce colloque en annonçant que le souper était servi. M. de
           Saint-Ognon voulut se retirer, prétextant qu'il ne soupait pas. --- Demeurez, je vous en prie, lui
           dit Mme de Bethzamooth ; vous me tiendrez compagnie. Nous parlerons de Dieu et de dévotion. Comme le
-          froid est fort vif, je vais faire entrer la table ici.</p>
-        <p>Les ordres furent aussitôt donnés et, les laquais renvoyés : --- Je les renvoie, dit-elle, afin
+          froid est fort vif, je vais faire entrer la table ici.
+    </p>
+    <p>
+     Les ordres furent aussitôt donnés et, les laquais renvoyés : --- Je les renvoie, dit-elle, afin
           que nous soyons plus libres dans nos saints entretiens. Puisque vous ne soupez pas, vous faites donc
           collation ? Dites ce que vous désirez : voulez-vous des confitures, des oranges de Malte, de la
           gelée de Rouen, des mirabelles de Metz, des pruneaux de Tours, des pâtes d'Auvergne, des marrons de
           Lyon, des pêches à l'eau-de-vie ? Vous préféreriez peut-être les quatre mendiants ? Aimeriez-vous
-          mieux une bigarrade ?</p>
-        <p>--- Je remercie Madame, répond M. de Saint-Ognon ; mais je ne prendrai rien de tout ce que sa
+          mieux une bigarrade ?
+    </p>
+    <p>
+     --- Je remercie Madame, répond M. de Saint-Ognon ; mais je ne prendrai rien de tout ce que sa
           dévotion daigne m'offrir. Quand j'ai bien dîné, je me contente chaque soir de deux ou trois onces
           d'air ; lorsque je suis en appétit, j'en prends jusqu'à quatre onces, et je me trouve très bien de
-          ce régime.</p>
-        <p>Une pareille nourriture fut pour Madame un grand sujet d'édification. Elle voulut savoir combien,
+          ce régime.
+    </p>
+    <p>
+     Une pareille nourriture fut pour Madame un grand sujet d'édification. Elle voulut savoir combien,
           pour une once d'air, il fallait de bouchées. --- Plus ou moins, répond M. de Saint-Ognon ; cela
           dépend de l'endroit où on le prend. L'air du paradis est le meilleur dont on puisse se nourrir ;
           mais il n'est pas fait pour un pécheur comme moi. --- Ce qui m'étonne, lui dit Madame, c'est qu'avec
           un semblable régime vous avez de l'embonpoint et de belles couleurs. --- Les pécheurs, comme les
           pauvres, répondit-il, vivent de ce qu'ils mangent, et les riches en meurent. Mais l'homme qui craint
           Dieu ne vit pas seulement de ce qu'il mange, il s'engraisse encore, dit le grand
-          <hi rend="italic">Nicole</hi>, de jeûnes et d'abstinences.
-          <hi rend="italic">Non in solo pane vivit homo</hi>.</p>
-        <p>Madame mangea un poulet et M. de Saint-Ognon mangea de l'air, c'est-à-dire qu'il mâcha à vide, à
+     <hi rend="italic">
+      Nicole
+     </hi>
+     , de jeûnes et d'abstinences.
+     <hi rend="italic">
+      Non in solo pane vivit homo
+     </hi>
+     .
+    </p>
+    <p>
+     Madame mangea un poulet et M. de Saint-Ognon mangea de l'air, c'est-à-dire qu'il mâcha à vide, à
           peu près comme un membre de l'Académie française, qui prononce son discours de réception
-          <ref target="#N13"/>.</p>
-        <p>Après le souper, Madame mit la conversation sur le sermon de M. l'abbé du Trognon. M. de
+     <ref target="#N13"/>
+     .
+    </p>
+    <p>
+     Après le souper, Madame mit la conversation sur le sermon de M. l'abbé du Trognon. M. de
           Saint-Ognon ne l'avait point entendu. --- Comment l'avez-vous trouvé ? lui demanda-t-elle. --- Comme
           tous les sermons, répondit-il, beaucoup trop court. Je n'en ai jamais entendu de mauvais. Le
           prédicateur qui parle le plus mal dit toujours de fort bonnes choses. Le fidèle qui écoute doit
           avoir égard à ce que le ministre de Dieu annonce, et non à la manière dont il annonce. La parole de
           Dieu est sacrée dans la bouche même des bêtes, témoin l'ânesse de
-          <hi rend="italic">Balaam</hi>
-          et le respect que le prophète son maître eut pour elle lorsqu'il l'entendit parler.</p>
-        <p>« Au sujet des boucs du dernier jugement, j'ai eu l'honneur de citer à Madame l'illustre Bossuet,
+     <hi rend="italic">
+      Balaam
+     </hi>
+     et le respect que le prophète son maître eut pour elle lorsqu'il l'entendit parler.
+    </p>
+    <p>
+     « Au sujet des boucs du dernier jugement, j'ai eu l'honneur de citer à Madame l'illustre Bossuet,
           et je lui citerai encore un sujet des mauvais prédicateurs, le grand Nicole, tome II de ses
-          <hi rend="italic">Essais</hi>, chapitre ier, page 275, in-douze ou in-octavo, le format n'y fait
+     <hi rend="italic">
+      Essais
+     </hi>
+     , chapitre ier, page 275, in-douze ou in-octavo, le format n'y fait
           rien : on ne juge jamais de la bonté des livres ni par la reliure, ni par le format ; imprimés à
           Paris chez Guillaume Després, imprimeur-libraire du roi, rue Saint-Jacques, en l'an 1714, avec
           approbation et privilège. Guillaume Després ne fut pas le seul qui eut le privilège et le bénéfice
           du grand Nicole ; il partagea avec Jean Dessessard, à l'enseigne des trois Vertus, près l'église de
           Saint-Yves. C'est dans cette église que l'on prêche les bons sermons. Madame y va-t-elle quelquefois
-          ?</p>
-        <p>--- Non, répond-elle, ma dévotion ne me mène jamais dans la rue Saint-Jacques pour entendre des
+          ?
+    </p>
+    <p>
+     --- Non, répond-elle, ma dévotion ne me mène jamais dans la rue Saint-Jacques pour entendre des
           sermons. Celui qu'on a prêché à Saint-Sulpice m'a fait grand plaisir. C'est la première fois que
           j'entends prêcher sur le
-          <hi rend="italic">danger des liaisons</hi>. --- Cette matière, reprit M. de Saint-Ognon, est, en
+     <hi rend="italic">
+      danger des liaisons
+     </hi>
+     . --- Cette matière, reprit M. de Saint-Ognon, est, en
           morale, beaucoup plus importante qu'on ne pense.
-          <hi rend="italic">Dis-moi qui tu fréquentes, et je te dirai qui tu es</hi>. Ce n'est pas là une
+     <hi rend="italic">
+      Dis-moi qui tu fréquentes, et je te dirai qui tu es
+     </hi>
+     . Ce n'est pas là une
           sentence dorée, c'est un proverbe tout d'or. Avec les impies, on est impie ; avec les bons
           chrétiens, on est bon chrétien. Heureux l'homme qui fréquente une personne pieuse, une vraie dévote
           À mesure qu'elle parle, le goût des choses saintes entre dans l'âme de celui qui l'entend. Avec elle
           il se remplit de Dieu, il avale la dévotion comme un poisson avale l'eau, comme la fameuse baleine
           avala le prophète Jonas, qui, de son temps, fut le premier prédicateur de Ninive
-          <ref target="#N14"/>, et qui, après son sermon aux habitants de cette ville, se fâcha, comme Madame,
+     <ref target="#N14"/>
+     , et qui, après son sermon aux habitants de cette ville, se fâcha, comme Madame,
             non, à la vérité, contre ses laquais, car il n'avait point de laquais, mais contre Dieu lui-même. Il
             faillit, est-il dit dans l'Écriture sainte, mourir de chagrin, parce que Dieu n'exterminait pas les
             Ninivites. * Afflictus est afflictione magna, et dixit : Melior est mihi mors quam vita*. Si Madame
-            avait une Bible, je lui montrerais que ce que j'avance est très exact.</p>
-        <p>--- Trouve-t-on ce trait d'histoire, demanda Madame, dans la Bible de Sacy ? --- Oui, Madame,
+            avait une Bible, je lui montrerais que ce que j'avance est très exact.
+    </p>
+    <p>
+     --- Trouve-t-on ce trait d'histoire, demanda Madame, dans la Bible de Sacy ? --- Oui, Madame,
           c'est dans cette bible que je vous ferai voir que Jonas se mit grandement en colère, qu'il demeura
           trois jours dans le ventre de la baleine, et M. de Sacy trois ans et demi dans la Bastille
-          <ref target="#N15"/>. --- Ô ciel que me dites-vous ? M. de Sacy à la Bastille ? et la raison
+     <ref target="#N15"/>
+     . --- Ô ciel que me dites-vous ? M. de Sacy à la Bastille ? et la raison
             pourquoi, je vous en prie ? --- Parce que les voies de Dieu et les voies des rois ne se ressemblent
             pas. Jonas fut enfermé par ordre du Seigneur dans le ventre d'un gros poisson parce qu'il ne voulait
             pas instruire les Ninivites, et le savant M. de Sacy fut enfermé à la Bastille par ordre de Louis
             XIV parce qu'il voulait instruire les Parisiens
-          <ref target="#N16"/>.</p>
-        <p>--- Quelque jour, dit Madame, vous me montrerez l'histoire de Jonas, de son sermon et de sa
+     <ref target="#N16"/>
+     .
+    </p>
+    <p>
+     --- Quelque jour, dit Madame, vous me montrerez l'histoire de Jonas, de son sermon et de sa
           colère, car j'espère que ce ne sera pas la dernière fois que je verrai M. Henri Roch. --- Je ne suis
           pas M. Henri Roch, un tel honneur ne m'appartient pas. Les méprises et les erreurs viennent souvent
           de la bonne intention. Et Dieu le permet ainsi pour glorifier les saints et pour humilier les
@@ -250,56 +391,83 @@
           dans le cours de la vie. Tous les jours on prend des fripons pour d'honnêtes gens, des imbéciles
           pour des hommes d'esprit, des bégueules pour des femmes respectables et des pécheurs pour des
           saints. Je suis, Madame, un grand pécheur, et M. Henri Roch est un prédestiné
-          <hi rend="italic">antequam mundus fleret</hi>. Si je lui ressemble, c'est par le visage, comme on
+     <hi rend="italic">
+      antequam mundus fleret
+     </hi>
+     . Si je lui ressemble, c'est par le visage, comme on
           peut ressembler à son cousin issu de germain. Il est d'ailleurs mon parrain. Malheureusement son
-          filleul ne le vaut pas.</p>
-        <p>--- Puisque vous êtes son filleul, je me console de ma méprise, et lorsque vous me ferez
+          filleul ne le vaut pas.
+    </p>
+    <p>
+     --- Puisque vous êtes son filleul, je me console de ma méprise, et lorsque vous me ferez
           l'honneur de venir chez moi, je vous verrai avec le même intérêt et la même dévotion que j'aurais vu
           votre parrain. --- L'honneur que me fait Madame est d'un prix inestimable devant Dieu et
-          <hi rend="italic">ante homines</hi>. Mais je borne tous mes vœux à avoir quelque part dans les
+     <hi rend="italic">
+      ante homines
+     </hi>
+     . Mais je borne tous mes vœux à avoir quelque part dans les
           dévotions de Madame et à savoir son nom, afin qu'en me le rappelant souvent je puisse aussi me
-          rappeler les bontés dont elle m'honore.</p>
-        <p>--- Je ne porte point, répond-elle, le nom de mon mari, qui est le marquis de Vaucluse, ni le nom
+          rappeler les bontés dont elle m'honore.
+    </p>
+    <p>
+     --- Je ne porte point, répond-elle, le nom de mon mari, qui est le marquis de Vaucluse, ni le nom
           de mon père, qui est le comte d'Arnavon, et cela pour certaines raisons qui intéressent
           essentiellement mon salut et ma dévotion : je m'appelle la marquise de Bethzamooth. C'est le nom
           d'une cousine qui a vécu en odeur de sainteté et qui, en mourant, m'a laissé son nom et sa
-          succession.</p>
-        <p>--- Bethzamooth s'écria M. de Saint-Ognon avec enthousiasme, et tout à coup, en se levant de son
+          succession.
+    </p>
+    <p>
+     --- Bethzamooth s'écria M. de Saint-Ognon avec enthousiasme, et tout à coup, en se levant de son
           fauteuil, il se met à se promener dans la chambre, marchant tantôt avec précipitation et tantôt à
           pas comptés, baissant tour à tour, joignant, écartant, levant les mains au ciel et prononçant tantôt
-          haut, tantôt bas : Bethzamooth Bethzamooth</p>
-        <p>« Oh le beau nom, disait-il, oh le nom divin D'où la cousine de Madame tenait-elle un nom si
+          haut, tantôt bas : Bethzamooth Bethzamooth
+    </p>
+    <p>
+     « Oh le beau nom, disait-il, oh le nom divin D'où la cousine de Madame tenait-elle un nom si
           glorieux et si magnifique ? Madame serait-elle de la race de Jacob et de la maison de Lévy ?
           Serait-elle un rejeton de la famille d'Ephraïm ou de la tribu de Zabulon, ou de celle de l'illustre
           Dan, qui, comme un serpent dans le chemin et un céraste dans le sentier, mord le pied du cheval afin
           que celui qui monte tombe à la renverse ?
-          <hi rend="italic">Fiat Dan coluber in via, cerastes in semitis mordens ungulas equi ut cadet ascensor retro</hi>. Ces paroles sont dans la Genèse, chapitre XLIX, v. 17.</p>
-        <p>« En prononçant le magnifique nom de Bethzamooth, il me passe dans l'esprit quelque chose
+     <hi rend="italic">
+      Fiat Dan coluber in via, cerastes in semitis mordens ungulas equi ut cadet ascensor retro
+     </hi>
+     . Ces paroles sont dans la Genèse, chapitre XLIX, v. 17.
+    </p>
+    <p>
+     « En prononçant le magnifique nom de Bethzamooth, il me passe dans l'esprit quelque chose
           d'extraordinaire, et je ne puis m'empêcher d'annoncer que dans peu le sein de Madame portera son
           fruit ; qu'il naîtra d'elle quelque chose de merveilleux, de grand, de saint. Madame sait-elle que
           le nom de Bethzamooth est un nom hébreu ? qu'il est tout au long ; dans l'Écriture sainte ? et qu'en
           langue sacrée ce beau nom signifie
-          <hi rend="italic">l'Élue de la maison du Seigneur ?</hi>
-        </p>
-        <p>--- Ce qui est très vrai, c'est que je ne suis pas l'élue de ma famille, car je suis brouillée
+     <hi rend="italic">
+      l'Élue de la maison du Seigneur ?
+     </hi>
+    </p>
+    <p>
+     --- Ce qui est très vrai, c'est que je ne suis pas l'élue de ma famille, car je suis brouillée
           avec tous mes parents. Je n'en vois aucun. Mon père est un vieux débauché qui ne parle que de filles
           et de spectacles, qui vit comme s'il n'y avait ni paradis, ni enfer ; je ne le reçois plus chez moi.
           Ma porte lui est défendue ainsi qu'à mon frère, qui vaut encore moins que mon père. Ma sœur est une
           femme qui a passé sa vie dans le monde, occupée de visites, de jeux, d'ajustements, de soupers et de
           comédie ; elle ne pense qu'à plaire. Sa conduite est un véritable scandale, et si je la recevais
-          chez moi je serais bientôt sans nulle considération parmi les dévots.</p>
-        <p>« Pour ce qui est de mon mari, j'ai entièrement renoncé à sa société. C'est un jeune homme qui
+          chez moi je serais bientôt sans nulle considération parmi les dévots.
+    </p>
+    <p>
+     « Pour ce qui est de mon mari, j'ai entièrement renoncé à sa société. C'est un jeune homme qui
           n'a rien de solide, il n'a ni mœurs ni dévotion, ne s'entretient que de romans, de bals et
           d'actrices. Quand il n'est point à son régiment, il passe son temps à sa terre, où, au grand
           scandale des gens de bien, les dimanches et les fêtes il fait danser les garçons et les filles du
           village. Son inconduite m'a donné pour lui une aversion étonnante, et lorsque vous m'annoncez qu'il
           naîtra de moi quelque chose de merveilleux, je vous avoue que je ne sais pas comment cela se fera ;
           mais ce ne sera certainement pas avec lui : il n'en pourrait naître qu'un enfant de perdition, un
-          fils semblable au père. Dieu me préserve de ce malheur.</p>
-        <p>--- Vous êtes, Madame, lui répond M. de Saint-Ognon, vous êtes une femme forte ; vous seule valez
+          fils semblable au père. Dieu me préserve de ce malheur.
+    </p>
+    <p>
+     --- Vous êtes, Madame, lui répond M. de Saint-Ognon, vous êtes une femme forte ; vous seule valez
           une armée rangée en bataille. Jahel, la grande et incomparable Jahel, qui tua le général Sisara
           pendant qu'il dormait ; Judith, la dévote Judith
-          <ref target="#N17"/>, qui en fit autant au général Holopherne pendant qu'il cuvait son vin, étaient
+     <ref target="#N17"/>
+     , qui en fit autant au général Holopherne pendant qu'il cuvait son vin, étaient
             moins courageuses que Madame ; il faut certainement plus de force et plus de dévotion pour se
             brouiller avec son père, son frère et sa sœur, pour se refuser aux embrassements d'un mari qui est
             jeune, que pour ficher un clou dans la tête d'un homme qui dort ou pour rompre le cou d'un homme qui
@@ -310,27 +478,46 @@
             nuit, ni sur le lit, ni sur le sopha, ni debout, ni couchés, ni d'aucune manière ; que le corps de
             Madame, qui est le temple du Saint-Esprit, soit entièrement scellé pour lui du sceau de la dévotion.
             Plût au Ciel que toutes les femmes et filles de Paris et de Londres imitassent un si bel exemple ;
-            la génération des hérétiques, des libertins et des bâtards serait bien moins nombreuse.</p>
-        <p>« Je reviens au nom de Madame, car il est tard, au beau nom de Bethzamooth, et je dis, avec
+            la génération des hérétiques, des libertins et des bâtards serait bien moins nombreuse.
+    </p>
+    <p>
+     « Je reviens au nom de Madame, car il est tard, au beau nom de Bethzamooth, et je dis, avec
           l'époux sacré du Cantique des Cantiques :
-          <hi rend="italic">Osculetur me osculo oris sui</hi>. Qu'elle me baise d'un baiser sur la bouche, et
+     <hi rend="italic">
+      Osculetur me osculo oris sui
+     </hi>
+     . Qu'elle me baise d'un baiser sur la bouche, et
           ce que je dis une fois, je le redirai encore une seconde et même une troisième fois :
-          <hi rend="italic">Osculetur me osculo oris sui</hi>. »</p>
-        <p>À chaque fois que M. de Saint-Ognon répétait ces paroles, il donnait un baiser à Madame la
+     <hi rend="italic">
+      Osculetur me osculo oris sui
+     </hi>
+     . »
+    </p>
+    <p>
+     À chaque fois que M. de Saint-Ognon répétait ces paroles, il donnait un baiser à Madame la
           dévote. Il termina ces trois baisers en disant : « D'aujourd'hui en un an, j'aurai l'honneur de
           revoir Madame et j'espère la retrouver toujours digne du magnifique nom de Bethzamooth, toujours
-          digne d'être l'Élue de la maison du Seigneur. »</p>
-        <p>Notre dévote, moins étonnée des trois baisers qu'elle venait de recevoir de M. de Saint-Ognon
+          digne d'être l'Élue de la maison du Seigneur. »
+    </p>
+    <p>
+     Notre dévote, moins étonnée des trois baisers qu'elle venait de recevoir de M. de Saint-Ognon
           qu'affligée d'entendre dire qu'il ne reparaîtrait chez elle que dans un an, lui fit des instances
           pour se rasseoir et pour attendre que les chevaux fussent mis à la voiture. En vain elle lui fait
           observer l'éloignement où il est de chez lui, le mauvais temps qu'il fait et la neige qui tombe. ---
           C'est Dieu, dit-il en roulant les yeux, qui envoie la neige pour engraisser la terre,
-          <hi rend="italic">nix quæ cadit opimat terram</hi>. C'est aussi pour faire mourir les chenilles qui
+     <hi rend="italic">
+      nix quæ cadit opimat terram
+     </hi>
+     . C'est aussi pour faire mourir les chenilles qui
           désolent les campagnes, autant que pour la conversion des pécheurs qui affligent la sainte Église.
-          Il faut vouloir tout ce que Dieu veut ; nous ne sommes en ce monde que pour souffrir.</p>
-        <p>Après ce petit discours d'édification, M. de Saint-Ognon se retire et va passer le reste de la
-          nuit au bal de l'Opéra.</p>
-        <p>Mme de Bethzamooth resta longtemps plongée dans l'ébahissement ; sa tête était entièrement
+          Il faut vouloir tout ce que Dieu veut ; nous ne sommes en ce monde que pour souffrir.
+    </p>
+    <p>
+     Après ce petit discours d'édification, M. de Saint-Ognon se retire et va passer le reste de la
+          nuit au bal de l'Opéra.
+    </p>
+    <p>
+     Mme de Bethzamooth resta longtemps plongée dans l'ébahissement ; sa tête était entièrement
           bouleversée. « Enfin, dit-elle, j'ai donc trouvé un homme de bien qui approuve ma conduite à l'égard
           de ma famille » Elle se coucha en repassant dans son esprit tout ce qu'il lui avait dit sur son nom
           et sur son mari. Elle croyait l'entendre encore. Toute la nuit il fut présent à sa pensée. Elle
@@ -341,23 +528,32 @@
           chrétienne. Comme il se rabaisse et se traite de pécheur Comme il sait son Écriture sainte par cœur,
           et comme il la cite à propos Je ne dois pas négliger cette connaissance. Il faut que je
           m'entretienne encore aujourd'hui avec lui. Il est très propre à nourrir ma dévotion. Ses
-          conversations ressemblent à un beau sermon. Un prédicateur ne dit rien de mieux.</p>
-        <p>Au sortir du lit, Mme de Bethzamooth écrivit ce billet à M. de Saint-Ognon : « J'ai besoin,
+          conversations ressemblent à un beau sermon. Un prédicateur ne dit rien de mieux.
+    </p>
+    <p>
+     Au sortir du lit, Mme de Bethzamooth écrivit ce billet à M. de Saint-Ognon : « J'ai besoin,
           Monsieur, de m'expliquer avec vous sur plusieurs choses que vous me dîtes hier au soir.
           Souvenez-vous que vous vous êtes engagé à me montrer mon nom dans la sainte Bible. Pour une chose
           aussi sérieuse, et qui ne peut que contribuer à augmenter ma dévotion, il me serait trop pénible
-          d'attendre un an. Je serai seule toute la journée. »</p>
-        <p>
-          <hi rend="italic">Réponse :</hi>
-          « Si Madame reste seule aujourd'hui, je l'en félicite, sa dévotion en méditera avec plus de
+          d'attendre un an. Je serai seule toute la journée. »
+    </p>
+    <p>
+     <hi rend="italic">
+      Réponse :
+     </hi>
+     « Si Madame reste seule aujourd'hui, je l'en félicite, sa dévotion en méditera avec plus de
           recueillement les vérités éternelles. Nos pas sont comptés, je n'aurai l'honneur de la voir que
-          lorsqu'il plaira à Dieu, à qui toutes nos démarches sont soumises. »</p>
-        <p>Nouvelle invitation de Mme de Bethzamooth, même réponse de M. de Saint-Ognon. Enfin, il cède à un
+          lorsqu'il plaira à Dieu, à qui toutes nos démarches sont soumises. »
+    </p>
+    <p>
+     Nouvelle invitation de Mme de Bethzamooth, même réponse de M. de Saint-Ognon. Enfin, il cède à un
           troisième message. Dès qu'il fut arrivé, les gens de Madame eurent la liberté de sortir, d'aller à
           leur gré à l'église ou à la promenade, et le suisse eut ordre de ne laisser entrer personne. ---
           Voilà, dit-elle à M. de Saint-Ognon, la Bible de Sacy. Pendant que vous y chercherez mon nom, je
-          vais faire une lecture de piété.</p>
-        <p>M. de Saint-Ognon prend la Bible et s'endort en la feuilletant. Mme de Bethzamooth, qui s'en
+          vais faire une lecture de piété.
+    </p>
+    <p>
+     M. de Saint-Ognon prend la Bible et s'endort en la feuilletant. Mme de Bethzamooth, qui s'en
           aperçoit, se lève, s'approche de lui et le regarde. « Un pécheur, dit-elle, en le contemplant
           dévotement, n'aurait pas un sommeil aussi tranquille. Il ne serait pas non plus aussi beau. Hier au
           soir il m'embrassa trois fois ; si c'eût été un péché, il ne l'eût pas fait ; et je puis bien faire
@@ -365,31 +561,71 @@
           donc trois fois, et en l'honneur de la très sainte Trinité, cette bouche d'où ne sortent que des
           paroles de sagesse et de dévotion et d'où doivent sortir mon instruction et mon salut. Que mon mari
           n'est-il aussi sage et aussi dévot que lui Que je me plairais en sa compagnie nos embrassements
-          seraient selon le cœur de Dieu. »</p>
-        <p>Tout en s'entretenant avec ces pieuses pensées, Mme de Bethzamooth aperçoit un livre dans la
+          seraient selon le cœur de Dieu. »
+    </p>
+    <p>
+     Tout en s'entretenant avec ces pieuses pensées, Mme de Bethzamooth aperçoit un livre dans la
           poche de M. de Saint-Ognon. Ce livre excite sa curiosité, elle le sort doucement, l'ouvre au hasard
-          et lit avec avidité :</p>
-        <p>Ô mes amis vivons en bons chrétiens ;</p>
-        <p>C'est le parti, croyez-moi, qu'il faut prendre :</p>
-        <p>À son devoir il faut enfin se rendre.</p>
-        <p>Dans mon printemps, j'ai hanté les vauriens ;</p>
-        <p>À leurs désirs ils se livraient en proie ;</p>
-        <p>Souvent au bal, jamais dans le saint lieu ;</p>
-        <p>Soupant, couchant chez des filles de joie,</p>
-        <p>Et se moquant des serviteurs de Dieu.</p>
-        <p>Qu'arrive-t-il ? La mort, la mort fatale,</p>
-        <p>Au nez camard, à la tranchante faulx,</p>
-        <p>Vient visiter nos diseurs de bons mots :</p>
-        <p>La fièvre ardente, à la marche inégale,</p>
-        <p>Porte le trouble en leurs petits cerveaux...</p>
-        <p>Que cela est beau ô le bon livre, dit-elle en le baisant les hommes dévots n'en lisent jamais
-          d'autres.</p>
-        <p>Sur un mouvement que fait le bel endormi, elle ferme le livre, le remet dans la poche, il reprend
-          vite sa place.</p>
-        <p>---
-          <hi rend="italic">Spiritus promptus est, caro vero infirma</hi>, dit M. de Saint-Ognon, en s'éveillant :
-          <hi rend="italic">L'esprit est prompt, mais la chair est faible</hi>
-          <ref target="#N2"/>. Que Madame pardonne à l'incivilité d'un pécheur je suis un homme grossier et
+          et lit avec avidité :
+    </p>
+    <p>
+     Ô mes amis vivons en bons chrétiens ;
+    </p>
+    <p>
+     C'est le parti, croyez-moi, qu'il faut prendre :
+    </p>
+    <p>
+     À son devoir il faut enfin se rendre.
+    </p>
+    <p>
+     Dans mon printemps, j'ai hanté les vauriens ;
+    </p>
+    <p>
+     À leurs désirs ils se livraient en proie ;
+    </p>
+    <p>
+     Souvent au bal, jamais dans le saint lieu ;
+    </p>
+    <p>
+     Soupant, couchant chez des filles de joie,
+    </p>
+    <p>
+     Et se moquant des serviteurs de Dieu.
+    </p>
+    <p>
+     Qu'arrive-t-il ? La mort, la mort fatale,
+    </p>
+    <p>
+     Au nez camard, à la tranchante faulx,
+    </p>
+    <p>
+     Vient visiter nos diseurs de bons mots :
+    </p>
+    <p>
+     La fièvre ardente, à la marche inégale,
+    </p>
+    <p>
+     Porte le trouble en leurs petits cerveaux...
+    </p>
+    <p>
+     Que cela est beau ô le bon livre, dit-elle en le baisant les hommes dévots n'en lisent jamais
+          d'autres.
+    </p>
+    <p>
+     Sur un mouvement que fait le bel endormi, elle ferme le livre, le remet dans la poche, il reprend
+          vite sa place.
+    </p>
+    <p>
+     ---
+     <hi rend="italic">
+      Spiritus promptus est, caro vero infirma
+     </hi>
+     , dit M. de Saint-Ognon, en s'éveillant :
+     <hi rend="italic">
+      L'esprit est prompt, mais la chair est faible
+     </hi>
+     <ref target="#N2"/>
+     . Que Madame pardonne à l'incivilité d'un pécheur je suis un homme grossier et
             sans savoir-vivre. --- Il n'y a pas de mal à cela, lui répond Madame ; les apôtres s'endormirent en
             la compagnie de Jésus-Christ. Vous avez peut-être passé la nuit en prières ; mais vous me paraissez
             bien triste ; auriez-vous fait quelque rêve désagréable ? --- Tout au contraire, Madame, je me suis
@@ -398,59 +634,101 @@
             des anges qui montaient et qui descendaient ; et au bas de cette échelle mystérieuse, j'ai vu, si
             j'ose m'exprimer avec la noble simplicité de l'Écriture sainte, des béliers qui montaient sur des
             brebis :
-          <hi rend="italic">et vidit in somnis mures ascendentes in fæminas</hi>
-          <ref target="#N3"/>.</p>
-        <p>--- Que croyez-vous, demande Mme de Bethzamooth, que cela veut dire ? --- Je pense, répond M. de
+     <hi rend="italic">
+      et vidit in somnis mures ascendentes in fæminas
+     </hi>
+     <ref target="#N3"/>
+     .
+    </p>
+    <p>
+     --- Que croyez-vous, demande Mme de Bethzamooth, que cela veut dire ? --- Je pense, répond M. de
           Saint-Ognon, qu'entre Dieu et Madame il y a un commerce admirable de grâces et de dévotions. Les
           anges sont occupés à monter vos prières au ciel pour en composer le parfum qu'on brûle devant le
           trône du Très-Haut :
-          <hi rend="italic">Et ascendit fumus incensorum de orationibus sanctorum coram Deo</hi>
-          <ref target="#N4"/>. À leur retour ils vous apportent la grâce de dévotion. Pour ce qui est des
+     <hi rend="italic">
+      Et ascendit fumus incensorum de orationibus sanctorum coram Deo
+     </hi>
+     <ref target="#N4"/>
+     . À leur retour ils vous apportent la grâce de dévotion. Pour ce qui est des
             béliers qui couvrent des brebis :
-          <hi rend="italic">Dominus tecum</hi>, le Seigneur est avec vous ; vous concevrez dans votre sein ;
-          <hi rend="italic">concipies in utero</hi>, et vous enfanterez un fils : et paries filium.</p>
-        <p>--- Vous m'étonnez beaucoup, reprit Madame, car je ne connais point d'homme, et mon mari, qui est
+     <hi rend="italic">
+      Dominus tecum
+     </hi>
+     , le Seigneur est avec vous ; vous concevrez dans votre sein ;
+     <hi rend="italic">
+      concipies in utero
+     </hi>
+     , et vous enfanterez un fils : et paries filium.
+    </p>
+    <p>
+     --- Vous m'étonnez beaucoup, reprit Madame, car je ne connais point d'homme, et mon mari, qui est
           un pécheur, ne s'approche point de moi. ---
-          <hi rend="italic">Dominus omnipotens</hi>, s'écria M. de Saint-Ognon, Dieu est tout-puissant, et il
+     <hi rend="italic">
+      Dominus omnipotens
+     </hi>
+     , s'écria M. de Saint-Ognon, Dieu est tout-puissant, et il
           choisit qui lui plaît pour échauffer le sein d'une femme dévote qui espère en lui. Je pense pourtant
           que dans peu Madame vivra en paix avec son mari, et cela doit être. Lisez, Madame, et voyez tout au
           long ce qui est écrit dans l'histoire de Jacob, père des douze patriarches et tige de la maison de
-          Bethzamooth.</p>
-        <p>Madame la dévote prend la Bible, parcourt l'histoire de Jacob. --- Je ne vois rien, dit-elle,
+          Bethzamooth.
+    </p>
+    <p>
+     Madame la dévote prend la Bible, parcourt l'histoire de Jacob. --- Je ne vois rien, dit-elle,
           dans toute cette histoire, qu'un homme qui rêve beaucoup, qui couche tour à tour avec les deux sœurs
           et avec les deux servantes. Je vois aussi des moutons qui grimpent sur des brebis pour leur faire
           des agneaux ; mais je ne vois pas que mon mari doive coucher avec moi pour me faire un enfant. Je ne
-          vois pas non plus que mon nom soit dans cette histoire.</p>
-        <p>--- La réflexion de Madame est très juste, reprend M. de Saint-Ognon, et les dames de Paris en
+          vois pas non plus que mon nom soit dans cette histoire.
+    </p>
+    <p>
+     --- La réflexion de Madame est très juste, reprend M. de Saint-Ognon, et les dames de Paris en
           font rarement d'aussi judicieuses ; mais, comme on dit, il faut de l'ordre en tout et le Saint
           Esprit, qui a dicté cette histoire, a dû parler de Jacob et de ses moutons avant de parler de ses
           descendants, au nombre desquels se trouve le prince de Bethzamooth, dont voici le nom au livre
-          second d'Esdras, chapitre VII, verset 8.</p>
-        <p>Une chose aussi honorable qu'édifiante à remarquer, c'est que le prince était un grand dévot.
+          second d'Esdras, chapitre VII, verset 8.
+    </p>
+    <p>
+     Une chose aussi honorable qu'édifiante à remarquer, c'est que le prince était un grand dévot.
           Aussitôt que les juifs eurent la permission de rebâtir leur temple, il fut un des premiers à revenir
           au pays. --- Dites-moi, Je vous prie, demande Madame, où était la principauté du prince de
           Bethzamooth
-          <ref target="#N18"/>. --- C'est là, réplique M. de Saint-Ognon, un point d'histoire fort contesté
+     <ref target="#N18"/>
+     . --- C'est là, réplique M. de Saint-Ognon, un point d'histoire fort contesté
             parmi les savants de la synagogue, ainsi qu'entre deux fameux théologiens de Paris, entre le subtil
-            Tintoin et le bienheureux Briquet<ref target="#N5"/>.</p>
-        <p>« Le premier la met au nord de la mer Tibériade ; pour M. Briquet, il soutient qu'elle était à
+            Tintoin et le bienheureux Briquet
+     <ref target="#N5"/>
+     .
+    </p>
+    <p>
+     « Le premier la met au nord de la mer Tibériade ; pour M. Briquet, il soutient qu'elle était à
           son midi, et moi, malgré le respect que je dois à la théologie, ainsi qu'à ses sacrés et invincibles
           suppôts, j'ai toujours pensé qu'elle était au delà du Jourdain, d'où je conclus que le prince de
           Bethzamooth était de la tribu du fameux Gad, que son père bénit en disant : Gad combattra tout armé
           à la tête d'Israël :
-          <hi rend="italic">Gad accinctus prœliabitur ante eum</hi>
-          <ref target="#N6"/>.</p>
-        <p>--- Dites-moi encore, ajoute Madame, quelle était la mère du Seigneur Gad. Était-elle princesse ?
+     <hi rend="italic">
+      Gad accinctus prœliabitur ante eum
+     </hi>
+     <ref target="#N6"/>
+     .
+    </p>
+    <p>
+     --- Dites-moi encore, ajoute Madame, quelle était la mère du Seigneur Gad. Était-elle princesse ?
           --- Non, Madame, elle n'était point princesse et n'en était pas moins aimable. Madame a dû voir dans
           la Bible qu'elle était une simple servante ; mais une servante qui portait un beau nom, le nom de
           Zelpha ; elle était aussi fort jolie, et même beaucoup plus que sa maîtresse Lia, laquelle était
           chassieuse des yeux,
-          <hi rend="italic">lippis erat oculis</hi>, et d'ailleurs peut-être pis. Que Madame prenne la peine de lire ce que le Saint Esprit en dit.</p>
-        <p>Mme de Bethzamooth, comme toutes les femmes dévotes et comme la plupart de celles qui ne le sont
+     <hi rend="italic">
+      lippis erat oculis
+     </hi>
+     , et d'ailleurs peut-être pis. Que Madame prenne la peine de lire ce que le Saint Esprit en dit.
+    </p>
+    <p>
+     Mme de Bethzamooth, comme toutes les femmes dévotes et comme la plupart de celles qui ne le sont
           pas, avait un peu d'amour-propre ; elle ne mit aucune curiosité à savoir qu'une servante fût à la
           tête de sa généalogie. --- Je lirai cela une autre fois, dit-elle, aujourd'hui j'aimerais mieux que
-          vous me prêtassiez le livre de dévotion que vous avez dans votre poche.</p>
-        <p>--- Tout ce qui est à moi, reprit M. de Saint-Ognon, est au service de Madame ; mes pieds iront
+          vous me prêtassiez le livre de dévotion que vous avez dans votre poche.
+    </p>
+    <p>
+     --- Tout ce qui est à moi, reprit M. de Saint-Ognon, est au service de Madame ; mes pieds iront
           partout où elle dira à son serviteur d'aller ; mes mains obéiront à ses ordres, mes oreilles
           écouteront avec respect ce que sa dévotion m'enseignera de pieux, et mes yeux se plairont toujours à
           contempler la beauté des siens. Elle me fera plaisir toutes les fois qu'elle jugera à propos de
@@ -461,9 +739,15 @@
           dehors, sont décorées d'une fort belle architecture et qui, en dedans, sont fort vilaines. On
           pourrait en citer plusieurs dans Paris. --- Mais enfin, comment s'appelle ce livre ? --- C'est
           l'histoire, puisque Madame veut le savoir, c'est l'histoire édifiante et miraculeuse de la
-          <hi rend="italic">Vierge d'Orléans</hi>. Je dis vierge pour ne pas dire pucelle. Ce mot-là est
+     <hi rend="italic">
+      Vierge d'Orléans
+     </hi>
+     . Je dis vierge pour ne pas dire pucelle. Ce mot-là est
           malsonnant à des oreilles dévotes. Il entraîne avec lui des désirs peu honnêtes. J'ajoute
-          <hi rend="italic">Vierge d'Orléans</hi>, parce qu'elle fut suscitée de Dieu pour chasser les Anglais
+     <hi rend="italic">
+      Vierge d'Orléans
+     </hi>
+     , parce qu'elle fut suscitée de Dieu pour chasser les Anglais
           qui assiégeaient cette ville et qui avaient juré, quand ils en seraient les maîtres, de violer
           toutes les demoiselles et même toutes les religieuses des couvents. --- Cette histoire doit être
           bien jolie Où trouve-t-on à l'acheter ? --- Les bonnes histoires sont rares ; les libraires de Paris
@@ -474,10 +758,12 @@
           pour moi, j'ai toujours pense que c'était Sévillen qui gagnait davantage. Hansi ne vend que des
           romans ; mais Bailly, rue Saint-Honoré, a une fort jolie femme, de fort jolies demoiselles et de
           fort bons livres. --- C'est donc chez lui que je trouverai l'histoire de la
-          <hi rend="italic">Vierge d'Orléans
-          </hi>
-        </p>
-        <p>--- Avant tout, il est bon de dire à Madame que l'ancien garde des sceaux, le fameux Miroménil...
+     <hi rend="italic">
+      Vierge d'Orléans
+     </hi>
+    </p>
+    <p>
+     --- Avant tout, il est bon de dire à Madame que l'ancien garde des sceaux, le fameux Miroménil...
           --- Ah Monsieur, vous me direz tout ce qu'il vous plaira, mais avant tout, faites-moi voir cette
           histoire. --- Je le veux bien ; j'observe seulement qu'elle est écrite en vers. Bossuet et Fénelon
           écrivaient en prose. Corneille et Racine écrivaient en vers. Il en est d'autres qui tout à la fois
@@ -489,14 +775,20 @@
           démons en grand gala pour recevoir un cordelier condamné à brûler éternellement pour avoir attenté à
           la pudeur de la Vierge d'Orléans. --- Il paraît, dit Mme de Bethzamooth, que, pour un cordelier, il
           n'était guère dévot. Dieu fait bien de le damner. Voyons, je vous prie, quelle mine fait en enfer le
-          vilain cordelier.</p>
-        <p>M. de Saint-Ognon est très embarrassé. Il ne savait comment dénouer cette scène. Un contretemps
+          vilain cordelier.
+    </p>
+    <p>
+     M. de Saint-Ognon est très embarrassé. Il ne savait comment dénouer cette scène. Un contretemps
           le sortit d'affaire. Un bruit se fait entendre : c'est le mari de Mme de Bethzamooth qui entre dans
           la chambre. Volontiers, si elle eût osé, elle eût trouvé mauvais qu'avant de paraître chez elle il
-          ne se fût pas fait annoncer.</p>
-        <p>M. de Saint-Ognon ferme son livre et prend congé de Mme de Bethzamooth, qui lui crie : --- Si
-          vous allez à Saint-Sulpice, je me recommande à vos saintes prières.</p>
-        <p>Après son départ, M. le marquis de Vaucluse dit à sa femme : --- Je suis ravi, Madame, de vous
+          ne se fût pas fait annoncer.
+    </p>
+    <p>
+     M. de Saint-Ognon ferme son livre et prend congé de Mme de Bethzamooth, qui lui crie : --- Si
+          vous allez à Saint-Sulpice, je me recommande à vos saintes prières.
+    </p>
+    <p>
+     Après son départ, M. le marquis de Vaucluse dit à sa femme : --- Je suis ravi, Madame, de vous
           trouver en bonne compagnie. Ce monsieur a l'air d'un bon vivant. --- Que dites-vous, Monsieur ? D'un
           bon vivant Vous êtes un vrai original de parler avec une pareille indécence d'un honnête homme. Vous
           ne pensez qu'en mal, vous vivez en débauché, vous ne craignez ni Dieu, ni l'enfer ; vous êtes sans
@@ -511,36 +803,52 @@
           comme un impie, qui ne priez ni le matin, ni le soir, qu'on voit à tous les spectacles et qu'on ne
           voit jamais ni à l'église, ni au sermon. --- Madame prêche si éloquemment, avec un zèle si pur, une
           dévotion si ardente, que, lorsqu'on l'a entendue, on se croit dispensé d'entendre d'autres
-          prédicateurs.</p>
-        <p>Cela dit, M. le marquis de Vaucluse se lève et va à la Comédie-Française. En entrant au foyer, la
+          prédicateurs.
+    </p>
+    <p>
+     Cela dit, M. le marquis de Vaucluse se lève et va à la Comédie-Française. En entrant au foyer, la
           première personne qu'il voit c'est le saint de sa femme. --- Ah ah vous voilà donc, Monsieur le
-          saint ?</p>
-        <p>M. de Saint-Ognon, sans être déconcerté, répond au compliment par un éclat de rire, conte
+          saint ?
+    </p>
+    <p>
+     M. de Saint-Ognon, sans être déconcerté, répond au compliment par un éclat de rire, conte
           gaiement et franchement son aventure avec sa femme, fait part au marquis de tous ses propos et de
           toutes ses singeries. Leur connaissance fut bientôt faite. Le marquis jugea que M. de Saint-Ognon
           était un galant homme et lui recommanda la raison de sa femme. --- L'ouvrage est grand, répondit
-          celui-ci ; mais je ne désespère pas de la voir dans peu venir à la Comédie.</p>
-        <p>--- Je crois au miracle, réplique le marquis, si vous faites cette conversion. C'est le plus
+          celui-ci ; mais je ne désespère pas de la voir dans peu venir à la Comédie.
+    </p>
+    <p>
+     --- Je crois au miracle, réplique le marquis, si vous faites cette conversion. C'est le plus
           grand service que vous puissiez rendre à ma femme, à moi, à son père, à toute sa famille. Avec sa
           dévotion, c'est un démon incarné. Je ne connais rien de plus affreux en ménage que de n'être pas
           heureux avec une femme jeune, jolie, et qui ne manquerait ni d'esprit, ni de jugement, si une
-          maudite dévotion ne lui dérangeait la tête et ne la rendait insociable.</p>
-        <p>Après la comédie, le marquis de Vaucluse rentra chez lui, tout en craignant d'y rentrer.</p>
-        <p>--- Votre conduite, lui dit sa femme en le voyant, me fait bien sentir le prix d'un homme de
+          maudite dévotion ne lui dérangeait la tête et ne la rendait insociable.
+    </p>
+    <p>
+     Après la comédie, le marquis de Vaucluse rentra chez lui, tout en craignant d'y rentrer.
+    </p>
+    <p>
+     --- Votre conduite, lui dit sa femme en le voyant, me fait bien sentir le prix d'un homme de
           Dieu. Votre désœuvrement vous a conduit à la Comédie et la dévotion du jeune homme que vous avez vu
-          ici l'a mené à l'église pour prier pour vous.</p>
-        <p>--- Madame, lui dit son mari, me paraît fort engouée de son homme de bien. Que ne le loge-t-elle
+          ici l'a mené à l'église pour prier pour vous.
+    </p>
+    <p>
+     --- Madame, lui dit son mari, me paraît fort engouée de son homme de bien. Que ne le loge-t-elle
           ici ? --- En voici bien d'une autre s'écria-t-elle. Est-ce que, pour cela, j'ai besoin de votre
           consentement ? Si j'avais un conseil à prendre, ce serait de mon confesseur et non d'un étourdi de
           votre espèce, qui n'approche jamais des sacrements. D'ailleurs, l'hôtel n'est-il pas à moi ?
           Avez-vous quelque chose à me prescrire là-dessus ? Oui, certes, je puis l'y loger, et pas plus tard
-          que demain je lui en ferai la proposition.</p>
-        <p>--- Point de colère, Madame, reprit le mari ; vous êtes maîtresse chez vous. Vous y ferez tout ce
+          que demain je lui en ferai la proposition.
+    </p>
+    <p>
+     --- Point de colère, Madame, reprit le mari ; vous êtes maîtresse chez vous. Vous y ferez tout ce
           que vous jugerez à propos et vous ne serez point contredite ; en attendant que vous ayez fait
           préparer un appartement, logez cet honnête homme dans le mien, car je repars demain pour la
           campagne, où j'ai beaucoup d'ouvriers et où j'espère que, le printemps prochain, le château sera en
-          état de vous recevoir, vous et monsieur votre saint.</p>
-        <p>À ces propositions, Mme de Bethzamooth se tut un moment ; son silence tenait un peu de la
+          état de vous recevoir, vous et monsieur votre saint.
+    </p>
+    <p>
+     À ces propositions, Mme de Bethzamooth se tut un moment ; son silence tenait un peu de la
           rêverie. Elle n'en sortit que pour dire : --- Monsieur, il est tard, j'ai beaucoup de prières à dire
           ; ainsi retirez-vous et convertissez-vous. --- Si Madame le permettait, dit le marquis, nous
           pourrions ce soir prier ensemble. --- Dieu m'en préserve, répond-elle, vos prières corrompraient les
@@ -550,60 +858,89 @@
           certainement son prix, même pour une femme dévote. --- Je le trouverais très mauvais, Monsieur,
           riposte-t-elle, je n'ai besoin ni de vos bonjours, ni de vos bonsoirs ; mais j'ai besoin d'être
           seule, de prier Dieu et de faire mon salut. Ainsi, Monsieur, tout est dit, partez sans autre
-          raisonnement.</p>
-        <p>Le lendemain, Mme de Bethzamooth écrivit à M. de Saint-Ognon de venir dîner avec elle.
+          raisonnement.
+    </p>
+    <p>
+     Le lendemain, Mme de Bethzamooth écrivit à M. de Saint-Ognon de venir dîner avec elle.
           L'après-dîner, croyant braver son mari, elle lui proposa un appartement dans l'hôtel. Le marquis de
           Vaucluse joignit ses instances à celles de sa femme, qui en parut fort étonnée. Et M. de
-          Saint-Ognon, après beaucoup de refus, de simagrées et de roulements d'yeux, accepta l'appartement.</p>
-        <p>Le marquis repartit le même soir pour la campagne, comptant sur l'adresse du saint de sa femme
-          pour la mettre à la raison.</p>
-        <p>--- Dieu soit loué dit Mme de Bethzamooth après le départ de son mari, m'en voilà donc
+          Saint-Ognon, après beaucoup de refus, de simagrées et de roulements d'yeux, accepta l'appartement.
+    </p>
+    <p>
+     Le marquis repartit le même soir pour la campagne, comptant sur l'adresse du saint de sa femme
+          pour la mettre à la raison.
+    </p>
+    <p>
+     --- Dieu soit loué dit Mme de Bethzamooth après le départ de son mari, m'en voilà donc
           débarrassée Je le portais sur les épaules et je craignais quelque sottise de sa part. Des étourdis
           comme lui ne respectent ni vertu, ni dévotion. Hier au soir, j'eus toutes les peines du monde à m'en
           débarrasser et je tremblais qu'il ne voulût encore passer ici la nuit. Pour n'être pas exposée de
           longtemps à cet inconvénient, j'ai résolu d'aller vivre le reste de l'hiver à Fontevrault, auprès
           d'une tante que j'ai dans cette abbaye ; mais je désirerais que vous y vinssiez avec moi ; vous
-          m'entretiendrez dans ma dévotion ; avec vous, je croirai mon salut moins en danger.</p>
-        <p>--- Je ne refuse point, dit M. de Saint-Ognon, de faire avec Madame un si saint voyage ; mais
+          m'entretiendrez dans ma dévotion ; avec vous, je croirai mon salut moins en danger.
+    </p>
+    <p>
+     --- Je ne refuse point, dit M. de Saint-Ognon, de faire avec Madame un si saint voyage ; mais
           avant de l'entreprendre, je dois savoir si Dieu l'agrée, et, pour cela, je dois l'interroger pour
           connaître sa volonté et me recommander au bienheureux Robert d'Abrissel, qui fonda la sainte abbaye
-          de Fontevrault.</p>
-        <p>--- À propos de cette abbaye, dit Madame, est-il vrai que le bienheureux Robert d'Abrissel, pour
+          de Fontevrault.
+    </p>
+    <p>
+     --- À propos de cette abbaye, dit Madame, est-il vrai que le bienheureux Robert d'Abrissel, pour
           éprouver sa vertu, couchait entre deux religieuses ? --- Il est très vrai, répond M. de Saint-Ognon,
           que les voies par lesquelles Dieu agit ne sont pas celles par lesquelles les hommes se conduisent.
           Il condamne souvent ce qu'ils approuvent et il approuve ce qu'ils condamnent. Il est maître, et nul
-          mortel n'est en droit de l'interroger.</p>
-        <p>« L'homicide, par exemple, est un crime affreux, et Moïse, qui tua un Égyptien, n'en fut pas
+          mortel n'est en droit de l'interroger.
+    </p>
+    <p>
+     « L'homicide, par exemple, est un crime affreux, et Moïse, qui tua un Égyptien, n'en fut pas
           moins cher aux yeux de Dieu ; Il n'en fut pas moins choisi, quoiqu'il fût bègue, vieux et valet d'un
-          prêtre madianite, pour être le législateur de son peuple chéri.</p>
-        <p>« Il est défendu d'attenter à la vie des rois ; c'est même le crime le plus abominable, parce que
+          prêtre madianite, pour être le législateur de son peuple chéri.
+    </p>
+    <p>
+     « Il est défendu d'attenter à la vie des rois ; c'est même le crime le plus abominable, parce que
           c'est celui qui trouble le plus la société, et Dieu ne désapprouva pas qu'Aod tuât affreusement le
           roi Eglon
-          <ref target="#N19"/>.</p>
-        <p>« Le mensonge est défendu ; cependant Abraham en fit un ; la jeune et belle Sara, laquelle avait
+     <ref target="#N19"/>
+     .
+    </p>
+    <p>
+     « Le mensonge est défendu ; cependant Abraham en fit un ; la jeune et belle Sara, laquelle avait
           à peu près 80 ans, en fit un autre qui valut à son époux beaucoup d'argent, beaucoup de brebis et
           beaucoup d'ânesses. Isaac mentit aussi ; mais j'ignore ce que lui valut son mensonge. Jacob, à
           l'imitation de son père, de son grand-père et de la belle Sara, madame sa grand-mère, mentit aussi ;
           Laban, beau-père de Jacob, mentit aussi. La pieuse Jakel mentit ; Saab trahit son pays et mentit ;
           l'incomparable Judith mentit ; David mentit ; le pieux roi Jehu mentit ; enfin presque tous les
-          honnêtes gens et les belles femmes de l'Ancien Testament mentirent pour plaire à Dieu.</p>
-        <p>« Le vol est prohibé, et cependant de l'exprès commandement du seigneur Dieu, les Israélites
+          honnêtes gens et les belles femmes de l'Ancien Testament mentirent pour plaire à Dieu.
+    </p>
+    <p>
+     « Le vol est prohibé, et cependant de l'exprès commandement du seigneur Dieu, les Israélites
           volèrent les Égyptiens. Les actions contre l'honnêteté publique sont interdites aux personnes qui
           ont leur bon sens, et le saint roi, David, pour sauter et danser devant l'arche, découvrit sa nudité
           en présence de toutes les servantes de Jérusalem, qui s'en moquèrent, ainsi que de Mme Michol, sa
           femme, laquelle il avait épousée pour cent prépuces de Philistins.
-          <hi rend="italic">Despondit eam centum preputiis philistinorum</hi>. Arracher des prépuces n'est pas
+     <hi rend="italic">
+      Despondit eam centum preputiis philistinorum
+     </hi>
+     . Arracher des prépuces n'est pas
           trop selon les lois de la pudeur, dira-t-on ; cela est vrai, mais nous répondrons que si cette
           action n'est pas honnête, David la rendit généreuse, car au lieu de cent prépuces qu'il avait promis
-          à Saül pour coucher avec sa fille, il lui en porta deux cents.</p>
-        <p>« Coucher avec un homme quand on est veuve et dévote est un très grand péché, et Judith alla
+          à Saül pour coucher avec sa fille, il lui en porta deux cents.
+    </p>
+    <p>
+     « Coucher avec un homme quand on est veuve et dévote est un très grand péché, et Judith alla
           coucher avec Holopherne, l'ennemi de Dieu et des Juifs ; c'était, à la vérité, pour assassiner le
-          général, que Dieu n'aimait pas.</p>
-        <p>« L'inceste est un crime affreux, et les deux filles de Loth, qui étaient vierges, couchèrent
+          général, que Dieu n'aimait pas.
+    </p>
+    <p>
+     « L'inceste est un crime affreux, et les deux filles de Loth, qui étaient vierges, couchèrent
           avec leur père pour avoir de son espèce. Thamar coucha avec son beau-père
-          <ref target="#N20"/>, et de cet heureux inceste est venu notre salut, car il en vint deux enfants,
-            dont l'un est mis au nombre des ancêtres de J.-C.</p>
-        <p>« L'Écriture sainte est remplie de traits qui sont condamnables aux yeux des hommes, et qui ne
+     <ref target="#N20"/>
+     , et de cet heureux inceste est venu notre salut, car il en vint deux enfants,
+            dont l'un est mis au nombre des ancêtres de J.-C.
+    </p>
+    <p>
+     « L'Écriture sainte est remplie de traits qui sont condamnables aux yeux des hommes, et qui ne
           déplurent pas à Dieu. Il en est à peu près de même du bienheureux Robert d'Abrissel. Sans pécher, il
           put faire les saintes épreuves dont vous parlez. Dieu est tout-puissant, il donne la force, comme
           les biens de la terre, à qui il veut. Avec son secours, le plus faible peut résister aux rois et à
@@ -612,11 +949,15 @@
           on ne risque jamais rien ; moi, avec sa grâce, je serais au lit entre une jeune abbesse et une
           novice, toutes deux belles, fraîches, appétissantes, si Dieu était pour moi, je me moquerais de
           Satan et de ses tentations, de la chair et de ses aiguillonnements. Quand on a Dieu pour soi, on est
-          toujours fort.</p>
-        <p>--- J'admire, répliqua Mme Bethzamooth, tant de belles choses que vous m'apprenez ; en
+          toujours fort.
+    </p>
+    <p>
+     --- J'admire, répliqua Mme Bethzamooth, tant de belles choses que vous m'apprenez ; en
           conséquence, je vous demanderai s'il y aurait quelque mérite à faire cette nuit, entre nous, une
-          épreuve comme celle du bienheureux Robert.</p>
-        <p>--- Non, certes, répond avec vivacité M. de Saint-Ognon ; ce serait là une épreuve abominable,
+          épreuve comme celle du bienheureux Robert.
+    </p>
+    <p>
+     --- Non, certes, répond avec vivacité M. de Saint-Ognon ; ce serait là une épreuve abominable,
           qui attirerait sur nous la colère de Dieu, et laquelle épreuve, si nous avions le malheur de la
           manquer, de mourir en cet état, nous plongerait dans le fin fond de l'enfer. L'enfer, dit souvent
           l'abbé Duvernet, n'est pas une demeure qui convienne à tout le monde. Le paradis vous convient,
@@ -626,19 +967,27 @@
           à la gloire de Dieu, de qui viennent les bonnes inspirations, et à la gloire de son saint nom et de
           sa grâce. Le triomphe serait réputé justice, et le mérite d'un semblable essai serait d'autant plus
           glorieux que le danger serait plus grand. À la guerre contre les ennemis de Dieu, on n'acquiert,
-          comme Judas Machabée, un nom illustre qu'en bravant les périls de la mort.</p>
-        <p>--- Je vous crois, dit madame la dévote, aussi redoutable aux ennemis de Dieu que Judas Machabée,
+          comme Judas Machabée, un nom illustre qu'en bravant les périls de la mort.
+    </p>
+    <p>
+     --- Je vous crois, dit madame la dévote, aussi redoutable aux ennemis de Dieu que Judas Machabée,
           et aussi vertueux que le bienheureux Robert. D'après cette bonne opinion que j'ai de votre dévotion,
-          J'imagine que nous pouvons essayer une nuit seulement ce que le bienheureux Robert essaya souvent.</p>
-        <p>--- C'est là, réplique M. de Saint-Ognon, un acte de dévotion extraordinaire. Je pense que l'idée
+          J'imagine que nous pouvons essayer une nuit seulement ce que le bienheureux Robert essaya souvent.
+    </p>
+    <p>
+     --- C'est là, réplique M. de Saint-Ognon, un acte de dévotion extraordinaire. Je pense que l'idée
           en vient de Dieu, puisque Madame le propose, et je me résigne à sa piété, abandonnant entièrement ma
-          volonté à la sienne.</p>
-        <p>Mme de Bethzamooth et M. de Saint-Ognon se recommandèrent à Dieu, au bienheureux Robert, et se
+          volonté à la sienne.
+    </p>
+    <p>
+     Mme de Bethzamooth et M. de Saint-Ognon se recommandèrent à Dieu, au bienheureux Robert, et se
           mirent au lit. --- Pour être plus forts, dit-elle, contre l'esprit tentateur, approchez-vous bien de
           moi, car j'ai entendu dire que des forces rapprochées et bien réunies étaient beaucoup plus grandes.
           --- Madame, reprit M. de Saint-Ognon, avance là une grande maxime de dévotion, vraie pour la science
-          du salut comme pour beaucoup d'autres sciences inutiles au salut.</p>
-        <p>La première demande que fit Mme de Bethzamooth fut pour savoir si les religieuses entre
+          du salut comme pour beaucoup d'autres sciences inutiles au salut.
+    </p>
+    <p>
+     La première demande que fit Mme de Bethzamooth fut pour savoir si les religieuses entre
           lesquelles couchait le bienheureux Robert étaient jolies. --- Oh pour le coup, repart M. de
           Saint-Ognon, c'est là une petite plaisanterie que me fait la dévotion de Madame. Je lui demanderai à
           mon tour s'il y a un grand mérite à ne pas manger des crapauds ? Et y aurait-il eu quelque vertu de
@@ -646,8 +995,10 @@
           front ridé, un visage hideux, un cou jaune et tors, un petit œil éraillé, une bouche mauvaise, des
           dents gâtées, une peau de parchemin, et, comme dit très bien le prophète Osée, des seins flasques et
           vides,
-          <hi rend="italic">ubera arentia ?</hi>
-          Il n'en était pas ainsi ; comme fondateur de l'abbaye de Fontevrault, sa dévotion choisissait dans
+     <hi rend="italic">
+      ubera arentia ?
+     </hi>
+     Il n'en était pas ainsi ; comme fondateur de l'abbaye de Fontevrault, sa dévotion choisissait dans
           le saint bercail ce qu'il y avait de plus régulier pour les traits du visage, ce qu'il y avait de
           plus parfait en pieds, en jambes, en genoux, en cuisses, en taille, en nez, en cou, en bras, en
           bouche et en gorge ; des religieuses professes et novices, converses ou postulantes, qui, comme
@@ -656,86 +1007,130 @@
           animée, dont les yeux fussent aussi grands, aussi purs et aussi brillants que les siens, dont la
           peau fût aussi blanche, aussi douce et aussi unie, dont les chairs fussent aussi fermes, et dont les
           seins fussent aussi bien arrondis, aussi élastiques et aussi bien séparés que ceux de Mme de
-          Bethzamooth, avec laquelle j'ai l'honneur d'être en partie de dévotion.</p>
-        <p>--- Vous êtes bien honnête, lui réplique Madame ; mais tout ce que vous me dites est, de votre
+          Bethzamooth, avec laquelle j'ai l'honneur d'être en partie de dévotion.
+    </p>
+    <p>
+     --- Vous êtes bien honnête, lui réplique Madame ; mais tout ce que vous me dites est, de votre
           part, un simple compliment. Vous ne les avez vus, ni touchés. --- Je ne les ai point vus, repart M.
           de Saint-Ognon, des yeux corporels, cela est vrai ; mais il est d'autres yeux que ceux par lesquels
           nous regardons le soleil, la lune et tous les objets terrestres. Il est en nous, dit le grand
           Nicole, un œil par lequel nous voyons la justice et la beauté, et cet œil est intérieur. Nous avons
           aussi une main intérieure par laquelle nous touchons et nous jugeons de la forme et de la perfection
           des choses, et c'est cette main qui justifie mes paroles, lesquelles sont des paroles de vérité et
-          non des compliments.</p>
-        <p>--- Je vous dirai aussi, Monsieur, et sans compliment, s'il faut en juger par ce que je vois et
+          non des compliments.
+    </p>
+    <p>
+     --- Je vous dirai aussi, Monsieur, et sans compliment, s'il faut en juger par ce que je vois et
           surtout par ce que je sens, que votre tentation me paraît très grande, très forte et très belle. ---
           La force, la grandeur et la beauté, répond M. de Saint-Ognon, viennent de Dieu, et ce n'est pas à un
-          pécheur tel que moi à s'en glorifier.</p>
-        <p>Dans l'admiration où est notre dévote de la vertu de M. de Saint-Ognon elle lui demande comment
+          pécheur tel que moi à s'en glorifier.
+    </p>
+    <p>
+     Dans l'admiration où est notre dévote de la vertu de M. de Saint-Ognon elle lui demande comment
           il peut résister à une si grande tentation. Et il dit : --- C'est Dieu qui soulève à son gré les
-          flots de la mer et qui les apaise quand il lui plaît, et de la manière dont il lui plaît.</p>
-        <p>Après un moment de silence, Mme de Bethzamooth répéta à voix basse, et peut-être avec un peu de
+          flots de la mer et qui les apaise quand il lui plaît, et de la manière dont il lui plaît.
+    </p>
+    <p>
+     Après un moment de silence, Mme de Bethzamooth répéta à voix basse, et peut-être avec un peu de
           dépit : --- Comment peut-il résister à une si grande tentation ? Un supérieur de Saint-Sulpice, un
-          primat des Gaules y succomberait certainement.</p>
-        <p>M. de Saint-Ognon entendit ce propos et fit semblant de ne pas l'entendre. Il n'était ni dévot,
+          primat des Gaules y succomberait certainement.
+    </p>
+    <p>
+     M. de Saint-Ognon entendit ce propos et fit semblant de ne pas l'entendre. Il n'était ni dévot,
           ni imbécile. S'il résistait, on doit croire qu'il avait pour cela de bonnes raisons. Un homme
-          d'esprit en a toujours pour ce qu'il fait.</p>
-        <p>--- J'ai un doute, lui dit Madame la dévote, et je vous prie de l'éclaircir. --- Je n'en ferai
+          d'esprit en a toujours pour ce qu'il fait.
+    </p>
+    <p>
+     --- J'ai un doute, lui dit Madame la dévote, et je vous prie de l'éclaircir. --- Je n'en ferai
           rien, reprit-il ; dans les doutes où il est question de salut, on doit s'adresser à notre mère la
           Sorbonne. C'est elle qui décide même de ce qu'elle n'entend pas, mais toujours à merveille, parce
           que le Saint Esprit préside à ses décisions. Si je m'ingérais à résoudre votre doute, elle
           m'excommunierait dans son
-          <hi rend="italic">prima mensis</hi>. C'est un jour où elle fait trembler et les rois sur leur trône
-          <ref target="#N21"/>, et les évêques sur leurs sièges, et les bons bourgeois qui ne savent pas lire
-            ou qui n'ont lu que des fadaises.</p>
-        <p>--- Mon doute, réplique Madame, n'intéresse pas le salut, c'est seulement un doute de curiosité.
+     <hi rend="italic">
+      prima mensis
+     </hi>
+     . C'est un jour où elle fait trembler et les rois sur leur trône
+     <ref target="#N21"/>
+     , et les évêques sur leurs sièges, et les bons bourgeois qui ne savent pas lire
+            ou qui n'ont lu que des fadaises.
+    </p>
+    <p>
+     --- Mon doute, réplique Madame, n'intéresse pas le salut, c'est seulement un doute de curiosité.
           Le voici : je suppose que Robert d'Arbrissel succomba à la tentation et que la pénitence qu'il en
           fit ne l'empêcha pas d'être mis après sa mort au rang des bienheureux. Que pensez-vous de mon doute
-          ?</p>
-        <p>--- Je ne pense rien, Madame, dit M. de Saint-Ognon, et c'est le sort de beaucoup de personnes
+          ?
+    </p>
+    <p>
+     --- Je ne pense rien, Madame, dit M. de Saint-Ognon, et c'est le sort de beaucoup de personnes
           que je connais, mais je sais que, ni dans les annales de Fontevrault, ni dans les gestes du
           bienheureux Robert, il n'est rien dit de cela. Il est écrit au contraire qu'il passa une partie de
           sa vie à catéchiser des filles de joie, l'autre partie à confesser et à diriger des religieuses, et
           que, malgré la délicatesse et le double emploi, il fut toujours chaste de l'œil, chaste des pieds,
           chaste de la main droite, chaste de la main gauche, chaste de la bouche et de la langue, chaste de
           corps et chaste de pensée, soit qu'il couchât entre la révérendissime mère Cufin et la révérende
-          mère Curose, soit qu'il dormît entre sœur Œillet et sœur Amidon.</p>
-        <p>--- Je vous crois, dit Madame ; mais voici une idée dont je veux vous faire part. Je pense qu'un
+          mère Curose, soit qu'il dormît entre sœur Œillet et sœur Amidon.
+    </p>
+    <p>
+     --- Je vous crois, dit Madame ; mais voici une idée dont je veux vous faire part. Je pense qu'un
           saint est bien moins fortement tente avec deux religieuses qui se surveillent mutuellement, qui
           craignent l'indiscrétion l'une de l'autre, qu'avec une femme seule, et dont il est assuré du secret,
           d'où je conclus que pour vous le danger est beaucoup plus grand que ne le fut jamais celui du
-          bienheureux Robert.</p>
-        <p>--- Cela peut être, s'écrie M. de Saint-Ognon, et la gloire en est à Dieu, qui n'abandonne pas
+          bienheureux Robert.
+    </p>
+    <p>
+     --- Cela peut être, s'écrie M. de Saint-Ognon, et la gloire en est à Dieu, qui n'abandonne pas
           ceux qui espèrent en lui et qui croient en notre sainte mère l'Église catholique, apostolique et
           romaine. Sans la foi, les bonnes œuvres sont mortes ; mon œuvre est très vivante et ma foi très
-          ferme.</p>
-        <p>Après que M. de Saint-Ognon eut fait cette réponse, Mme de Bethzamooth exposa sa vertu à un grand
+          ferme.
+    </p>
+    <p>
+     Après que M. de Saint-Ognon eut fait cette réponse, Mme de Bethzamooth exposa sa vertu à un grand
           danger. --- Je ne me trouve pas bien, dit-elle, à la place où je suis ; en nous mettant au lit, j'ai
           oublié de vous avertir que lorsque mon mari couchait avec moi, je ne dormais que sur le devant. ---
           C'est à Madame à ordonner à son serviteur, réplique M. de Saint-Ognon ; je ne suis ici que pour lui
-          obéir.</p>
-        <p>Tout en parlant, il se met à changer de place ; mais, dans ce dérangement, les quatre jambes se
-          croisent, s'embarrassent et M. de Saint-Ognon chut tout de son long sur Mme de Bethzamooth.</p>
-        <p>Le lecteur pense peut-être que cette chute fut aussi celle de sa vertu ; il le voudrait bien, car
-          il ne veut que le mal, mais cela ne fut pas.</p>
-        <p>M. de Saint-Ognon sortit de ce danger en criant : « À moi, bienheureux Robert À mon secours,
-          <hi rend="italic">Roberte sancte
-          </hi>
-          »</p>
-        <p>Tandis qu'à grands cris il invoquait l'assistance du bienheureux, Madame la dévote de son côté
+          obéir.
+    </p>
+    <p>
+     Tout en parlant, il se met à changer de place ; mais, dans ce dérangement, les quatre jambes se
+          croisent, s'embarrassent et M. de Saint-Ognon chut tout de son long sur Mme de Bethzamooth.
+    </p>
+    <p>
+     Le lecteur pense peut-être que cette chute fut aussi celle de sa vertu ; il le voudrait bien, car
+          il ne veut que le mal, mais cela ne fut pas.
+    </p>
+    <p>
+     M. de Saint-Ognon sortit de ce danger en criant : « À moi, bienheureux Robert À mon secours,
+     <hi rend="italic">
+      Roberte sancte
+     </hi>
+     »
+    </p>
+    <p>
+     Tandis qu'à grands cris il invoquait l'assistance du bienheureux, Madame la dévote de son côté
           criait : --- Miséricorde je me meurs, miséricorde en tombant sur moi, la dureté de votre tentation
-          m'a fait une meurtrissure effroyable. »</p>
-        <p>Au mot de meurtrissure, M. de Saint-Ognon crie à son tour : « Ô pécheur, ô maladroit, ô
+          m'a fait une meurtrissure effroyable. »
+    </p>
+    <p>
+     Au mot de meurtrissure, M. de Saint-Ognon crie à son tour : « Ô pécheur, ô maladroit, ô
           malheureux que je suis Voyons, Madame, voyons cette meurtrissure. Est-elle aux genoux À celui-ci ? À
           celui-là ? À la cuisse droite ? À la gauche ? Est-elle plus haut, est-elle plus bas, est-elle au
           milieu ? En quel endroit ma main trouvera-t-elle cette fatale meurtrissure qui fait mon désespoir ?
-          »</p>
-        <p>Ces cris, ce désespoir de M. de Saint-Ognon, ces recherches attendrirent Mme de Bethzamooth ;
+          »
+    </p>
+    <p>
+     Ces cris, ce désespoir de M. de Saint-Ognon, ces recherches attendrirent Mme de Bethzamooth ;
           elle le rassura et lui dit qu'elle avait eu moins de mal que de peur. « Madame me rend à la vie,
           répondit-il, et je bénis Dieu qu'un si grand malheur n'ait point eu de suite. J'avoue en même temps
           que la frayeur que m'ont causée ma maladresse et cette meurtrissure a fait perdre à ma tentation
           toute sa force. Plus de tentation, plus de mérite. Il ne me reste qu'à remercier Dieu, à souhaiter
           le bonsoir à Madame, et à m'endormir en disant :
-          <hi rend="italic">In manus tuas, Domine, commendo spiritum meum</hi>. »</p>
-        <p>Une pareille sagesse paraîtra sans doute incroyable à beaucoup de personnes ; nos lecteurs en
+     <hi rend="italic">
+      In manus tuas, Domine, commendo spiritum meum
+     </hi>
+     . »
+    </p>
+    <p>
+     Une pareille sagesse paraîtra sans doute incroyable à beaucoup de personnes ; nos lecteurs en
           penseront ce qu'ils voudront, mais nous ne devons dire que ce qui est. Pour amuser des oisifs, nous
           n'irons pas, dans une histoire de dévotion, altérer la vérité par des embellissements mensongers. La
           marquise de Silleri et ceux qui, comme elle, écrivent des romans ennuyeux, peuvent imaginer ce qu'il
@@ -747,29 +1142,55 @@
           l'abbaye de Panthemont, de pensionnaire bien instruite qui ne sache que Loth, étant dans la caverne
           de Segor, dormit sans en rien savoir avec ses deux filles, et que, sans le sentir, il fit un enfant
           à chacune.
-          <hi rend="italic">Ingressa qua filia ; dormivitque cum patre et ille non sentit</hi>. Après que mademoiselle l'aînée eût fait sa nuit, mademoiselle la cadette fit la sienne.
-          <hi rend="italic">Conceperunt ergo duce filliæ de patre Loth ;</hi>
-          elles accouchèrent de Moab et d'Ammon, qui, dans le désert, furent chefs de deux grandes nations.</p>
-        <p>Nous savons aussi que M. de Saint-Ognon, en sortant du lit, se mit à dire pour remercier Dieu : «
-          <hi rend="italic">Te Deum</hi>, victoire,
-          <hi rend="italic">Deo gratias</hi>
-          », et que la dévotion de Mme de Bethzamooth répéta pieusement : «
-          <hi rend="italic">Te Deum</hi>, victoire,
-          <hi rend="italic">Deo gratias</hi>. »</p>
-        <p>Après qu'on eut remercié Dieu par qui on avait triomphé du démon, de ses tentations et des
+     <hi rend="italic">
+      Ingressa qua filia ; dormivitque cum patre et ille non sentit
+     </hi>
+     . Après que mademoiselle l'aînée eût fait sa nuit, mademoiselle la cadette fit la sienne.
+     <hi rend="italic">
+      Conceperunt ergo duce filliæ de patre Loth ;
+     </hi>
+     elles accouchèrent de Moab et d'Ammon, qui, dans le désert, furent chefs de deux grandes nations.
+    </p>
+    <p>
+     Nous savons aussi que M. de Saint-Ognon, en sortant du lit, se mit à dire pour remercier Dieu : «
+     <hi rend="italic">
+      Te Deum
+     </hi>
+     , victoire,
+     <hi rend="italic">
+      Deo gratias
+     </hi>
+     », et que la dévotion de Mme de Bethzamooth répéta pieusement : «
+     <hi rend="italic">
+      Te Deum
+     </hi>
+     , victoire,
+     <hi rend="italic">
+      Deo gratias
+     </hi>
+     . »
+    </p>
+    <p>
+     Après qu'on eut remercié Dieu par qui on avait triomphé du démon, de ses tentations et des
           aiguillons de la chair, on déjeuna ; après le déjeuner on alla à la messe et au sermon.
-          L'après-dîner se passa encore à l'église, à vêpres, au salut et à la bénédiction.</p>
-        <p>Au retour de ces pieuses corvées, on prit la Bible. --- La lecture en est bonne, dit M. de
+          L'après-dîner se passa encore à l'église, à vêpres, au salut et à la bénédiction.
+    </p>
+    <p>
+     Au retour de ces pieuses corvées, on prit la Bible. --- La lecture en est bonne, dit M. de
           Saint-Ognon, quoi qu'en aient pensé les pères jésuites. Il n'y avait de leur part ni raison, ni
           religion, de vouloir interdire la lecture aux fidèles. C'était ôter le pain quotidien aux faibles et
           la bouillie aux enfants. Dieu s'est vengé, il a ruiné de fond en comble leur société comme il ruina
           l'empire des Babyloniens qui voulaient empêcher les Israélites de venir l'adorer dans le temple de
-          Jérusalem. Tout est bon dans ce livre ; on ne risque rien de l'ouvrir au hasard.</p>
-        <p>Ces observations faites, M. de Saint-Ognon se met à lire et Mme de Bethzamooth à faire des
+          Jérusalem. Tout est bon dans ce livre ; on ne risque rien de l'ouvrir au hasard.
+    </p>
+    <p>
+     Ces observations faites, M. de Saint-Ognon se met à lire et Mme de Bethzamooth à faire des
           remarques peu catholiques. Elle jugeait très humainement un livre qui est tout divin. Voici
           quelques-unes de ses réflexions : nous ne les rapportons qu'à cause de leur singularité et pour
-          faire connaître quelle était la tournure d'esprit de notre dévote.</p>
-        <p>Après différents endroits de l'Exode et du Lévitique, elle arrête M. de Saint-Ognon et lui
+          faire connaître quelle était la tournure d'esprit de notre dévote.
+    </p>
+    <p>
+     Après différents endroits de l'Exode et du Lévitique, elle arrête M. de Saint-Ognon et lui
           demande : --- Pourquoi Dieu ordonna-t-il d'immoler une si grande quantité de bœufs, de veaux, de
           béliers, de brebis, d'agneaux et de pigeons ? Dieu se plaisait-il à faire verser le sang des animaux
           ? N'avait-il pas fait un pacte avec eux après le déluge ? N'est-ce pas une contradiction et même une
@@ -780,38 +1201,53 @@
           sacrifice est agréable au Seigneur : la fumée et l'odeur de cet holocauste lui plaisent infiniment.
           » Il me semble entendre mon maître d'hôtel dire au cuisinier : « Servez souvent à Madame des
           laitances à la sauce de poulet ; c'est un plat qu'elle aime beaucoup. Mettez force truffes dans les
-          ragoûts, le parfum lui en est agréable. »</p>
-        <p>--- Dites-moi encore pourquoi Dieu, qu'on représente tenant les rênes de l'univers, prend-il des
+          ragoûts, le parfum lui en est agréable. »
+    </p>
+    <p>
+     --- Dites-moi encore pourquoi Dieu, qu'on représente tenant les rênes de l'univers, prend-il des
           soins si minutieux pour l'habillement de son grand prêtre et de ses lévites, pour la construction de
           son arche, de son autel, de son tabernacle, pour la forme, la grandeur et la couleur des rideaux,
           pour leurs boucles et leurs anneaux ? Si on ne savait pas que c'est Dieu qui parle, on croirait
           entendre une femme de qualité qui, après avoir commandé à son tailleur la livrée de ses domestiques,
-          ordonne ensuite à son tapissier les meubles d'un boudoir ou d'une toilette.</p>
-        <p>« Je demande encore, continua Mme de Bethzamooth, pourquoi Dieu ordonne-t-il qu'on fasse mourir à
+          ordonne ensuite à son tapissier les meubles d'un boudoir ou d'une toilette.
+    </p>
+    <p>
+     « Je demande encore, continua Mme de Bethzamooth, pourquoi Dieu ordonne-t-il qu'on fasse mourir à
           coups de pierres un bœuf qui a tué un homme, tandis qu'il ne fait pas mourir les lions, les hyènes,
           les panthères, les tigres, les ours, les léopards qui les dévorent et les puces qui les tourmentent
-          et qui ne sont bonnes qu'à m'empêcher de dormir ? »</p>
-        <p>M. de Saint-Ognon fronce les sourcils, garde un profond silence sur tant de pourquoi et, d'un ton
+          et qui ne sont bonnes qu'à m'empêcher de dormir ? »
+    </p>
+    <p>
+     M. de Saint-Ognon fronce les sourcils, garde un profond silence sur tant de pourquoi et, d'un ton
           froid et sévère, dit : --- Madame aimera peut-être mieux savoir comment se faisaient les parfums
           qu'on brûlait devant le Saint des saints. Dieu lui-même en donna la recette en disant à Moïse : «
           Prenez des aromates, du stacté, de l'onix et de l'encens le plus pur. Vous ferez avec cela un parfum
-          qui sera digne de m'être offert, en y mêlant une égale quantité de galbanum. »</p>
-        <p>--- Du galbanum s'écrie Mme de Bethzamooth. Fi d'un parfum où il y a du galbanum. C'est un parfum
+          qui sera digne de m'être offert, en y mêlant une égale quantité de galbanum. »
+    </p>
+    <p>
+     --- Du galbanum s'écrie Mme de Bethzamooth. Fi d'un parfum où il y a du galbanum. C'est un parfum
           à empester tout un appartement. Quoique dévote, je me connais en bonnes odeurs. --- Que la dévotion
           de Madame me permette de lui observer que le galbanum dont les Juifs composaient leur parfum n'était
           point de ces galbanums vieux et rances tels qu'on en trouve dans les boutiques de Séguin, de Picard,
           de Liège, de Cadet et autres apothicaires de la rue Saint-Honoré. C'était un galbanum de bonne
           odeur, comme le dit le texte sacré :
-          <hi rend="italic">Galbanum boni odonis</hi>
-          <ref target="#N22"/>.</p>
-        <p>--- J'ignore, réplique Madame, s'il y a du galbanum de bonne odeur, mais je n'aime ni les
+     <hi rend="italic">
+      Galbanum boni odonis
+     </hi>
+     <ref target="#N22"/>
+     .
+    </p>
+    <p>
+     --- J'ignore, réplique Madame, s'il y a du galbanum de bonne odeur, mais je n'aime ni les
           drogues, ni les parfums où il y a du galbanum ; je n'aime pas non plus ni ceux qui vendent du
           galbanum, ni ceux qui en donnent, et il me semble que le père Moïse en donne un peu trop. --- Je ne
           répliquerai rien à Madame. Il en est des odeurs comme des goûts. On ne dispute pas là-dessus. Chacun
           a le sien. Dieu voulait qu'on mît du galbanum dans ses parfums et Madame n'aime pas le galbanum. ---
           Ne parlons plus de cela, dit-elle, et lisez-moi, je vous prie, quelque histoire amusante et surtout
-          qui soit un peu édifiante.</p>
-        <p>M. de Saint-Ognon reprend la Bible et lit l'aventure du prophète Balaam avec son ânesse. ---
+          qui soit un peu édifiante.
+    </p>
+    <p>
+     M. de Saint-Ognon reprend la Bible et lit l'aventure du prophète Balaam avec son ânesse. ---
           Voilà, dit Madame, ce que je ne comprends pas que Dieu envoie un ange dans un chemin fort étroit et
           entre deux murailles pour faire peur à une ânesse, pour la faire rosser et pour la faire ensuite
           parler et argumenter en théologie comme son maître. Je suis une grande ignorante, mais il me semble
@@ -821,28 +1257,40 @@
           s'était pas détournée pour le laisser passer. Je sens bien qu'un ange est au-dessus d'un prophète,
           que sa dignité demande des égards. À tout seigneur tout honneur ; mais encore faut-il voir les
           personnes pour leur rendre ce qu'on leur doit, et Balaam ne voyait pas l'ange : celui-ci avait par
-          conséquent tort de menacer de le tuer.</p>
-        <p>M. de Saint-Ognon ne répond à aucune des réflexions de Mme de Bethzamooth, mais parcourant la
+          conséquent tort de menacer de le tuer.
+    </p>
+    <p>
+     M. de Saint-Ognon ne répond à aucune des réflexions de Mme de Bethzamooth, mais parcourant la
           sainte Bible, il lit un chapitre des rois. C'était celui où le Saint-Esprit parle du vieux David et
-          de la jeune Abisag, qu'on mettait dans son lit pour le réchauffer.</p>
-        <p>À peine eut-il achevé cette lecture que notre dévote reprit la parole et dit : « Voilà, certes,
+          de la jeune Abisag, qu'on mettait dans son lit pour le réchauffer.
+    </p>
+    <p>
+     À peine eut-il achevé cette lecture que notre dévote reprit la parole et dit : « Voilà, certes,
           une histoire qui, quelque édifiante qu'elle soit, me paraît fort singulière. Il est en vérité très
           plaisant de se servir d'une jeune fille pour réchauffer un vieillard. Cela n'est point honnête. Il
           eût été plus simple, ce me semble, d'échauffer le lit de David avec une bassinoire que d'y mettre
-          une fille de quinze ans. »</p>
-        <p>À cette réflexion, M. de Saint-Ognon tourne les yeux vers le ciel, pousse un grand soupir, se
+          une fille de quinze ans. »
+    </p>
+    <p>
+     À cette réflexion, M. de Saint-Ognon tourne les yeux vers le ciel, pousse un grand soupir, se
           lève brusquement et sort avec précipitation. Mme de Bethzamooth court après lui et veut savoir les
-          motifs d'une pareille retraite.</p>
-        <p>--- Je me croyais, dit-il d'une voix à demi étouffée, chez une femme dévote, je m'en faisais
+          motifs d'une pareille retraite.
+    </p>
+    <p>
+     --- Je me croyais, dit-il d'une voix à demi étouffée, chez une femme dévote, je m'en faisais
           honneur et je me trouve chez une philosophe. Ce n'est pas là mon compte. Madame philosophera avec
           qui elle voudra ; mais ce ne sera pas avec moi. Je crains la colère de Dieu et ne puis rester plus
-          longtemps ici.</p>
-        <p>--- Monsieur, lui dit-elle, je demande pardon à Dieu si je l'ai offensé, et à vous si je vous ai
+          longtemps ici.
+    </p>
+    <p>
+     --- Monsieur, lui dit-elle, je demande pardon à Dieu si je l'ai offensé, et à vous si je vous ai
           scandalisé. Je ne sais en quoi je puis avoir péché ; mais, en vérité, je ne suis pas philosophe et
           je serais bien fâchée de ressembler à des gens dont les prédicateurs, M. l'abbé Savatier et Mme de
           Silleri disent tant de mal. Montrez-moi, je vous en conjure, où est la philosophie dans ce que j'ai
-          dit.</p>
-        <p>--- La philosophie de Madame, répond M. de Saint-Ognon, consiste à parler comme les philosophes,
+          dit.
+    </p>
+    <p>
+     --- La philosophie de Madame, répond M. de Saint-Ognon, consiste à parler comme les philosophes,
           à faire comme eux des enfilades de pourquoi sur l'Écriture sainte, qui est le fondement du
           christianisme, à trouver à redire à tout ce que le Saint-Esprit a dicté, à tout ce que les
           patriarches ont fait, à tout ce que Dieu lui-même, par l'organe de Moïse son serviteur, a institué
@@ -851,16 +1299,26 @@
           respectables, qui sont contenues dans la Bible, dont on ne doit jamais parler qu'avec respect et
           vénération ; dans ce livre divin, incomparablement plus beau, dit saint Augustin, qu'aux yeux des
           Grecs ne fut jamais la belle Hélène :
-          <hi rend="italic">Incomparabiliter pulchrior veritas scripturarum Hælena Græcorum</hi>.</p>
-        <p>« Si Madame a jamais rencontré quelques-uns de ces philosophes philosophants, elle les aura vus
+     <hi rend="italic">
+      Incomparabiliter pulchrior veritas scripturarum Hælena Græcorum
+     </hi>
+     .
+    </p>
+    <p>
+     « Si Madame a jamais rencontré quelques-uns de ces philosophes philosophants, elle les aura vus
           se moquer de tout ce que nos sages institutions nous ont enseigné au sortir du berceau, ne vouloir
           croire ni qu'il y eut dans le paradis terrestre un jet d'eau qui arrosait toute la surface de la
           terre
-          <ref target="#N23"/>, ni qu'il y ait dans le ciel un agneau portant sept cornes en tête
-          <ref target="#N24"/>, ainsi que cela est rapporté par saint Jean, ni que le diable ait emporté
+     <ref target="#N23"/>
+     , ni qu'il y ait dans le ciel un agneau portant sept cornes en tête
+     <ref target="#N24"/>
+     , ainsi que cela est rapporté par saint Jean, ni que le diable ait emporté
             Jésus-Christ sur l'aiguille d'un clocher
-          <ref target="#N25"/>, ni qu'un poisson ait mangé un prophète, ni qu'un prophète ait mangé un livre de parchemin.</p>
-        <p>« Madame a encore dû remarquer que les philosophes en veulent surtout aux prophètes. La raison en
+     <ref target="#N25"/>
+     , ni qu'un poisson ait mangé un prophète, ni qu'un prophète ait mangé un livre de parchemin.
+    </p>
+    <p>
+     « Madame a encore dû remarquer que les philosophes en veulent surtout aux prophètes. La raison en
           est simple : c'est que rien ne ressemble moins à ces philosophes qu'un véritable prophète. En
           conséquence ils poussent l'impiété jusqu'à traiter Isaïe d'impudent, parce qu'il couche avec une
           prophétesse et que pendant qu'il la caresse, il prend deux témoins pour qu'ils le voient travailler.
@@ -870,17 +1328,28 @@
           déjeuner avec une tartine de ce qui est dans la garde-robe. Osée, le bon Osée ne leur paraît qu'un
           libertin parce que, conformément aux ordres du Seigneur, après avoir fait des enfants de
           prostitution,
-          <hi rend="italic">filios prostitutionum</hi>, avec une fille prostituée, il va encore s'amuser avec une femme adultère.</p>
-        <p>« Entre nous, Madame, ces philosophes sont de vilaines gens, et comme l'a très bien dit M.
-          Séguier dans de beaux réquisitoires, ils sapent le trône et l'autel.</p>
-        <p>--- Oh Monsieur, reprit Mme de Bethzamooth, je vous assure bien que ce n'est pas mon intention.</p>
-        <p>M. de Saint-Ognon voulait bien l'en croire. La paix se fit et elle rentra dans son appartement,
+     <hi rend="italic">
+      filios prostitutionum
+     </hi>
+     , avec une fille prostituée, il va encore s'amuser avec une femme adultère.
+    </p>
+    <p>
+     « Entre nous, Madame, ces philosophes sont de vilaines gens, et comme l'a très bien dit M.
+          Séguier dans de beaux réquisitoires, ils sapent le trône et l'autel.
+    </p>
+    <p>
+     --- Oh Monsieur, reprit Mme de Bethzamooth, je vous assure bien que ce n'est pas mon intention.
+    </p>
+    <p>
+     M. de Saint-Ognon voulait bien l'en croire. La paix se fit et elle rentra dans son appartement,
           où ses femmes l'attendaient pour la coucher. Lorsqu'elle fut déshabillée, elle fit une nouvelle
           visite à M. de Saint-Ognon, pour s'assurer de nouveau que sa colère était entièrement dissipée et
           pour savoir si on n'avait rien oublié de tout ce qui pouvait lui être nécessaire. Cette attention
           était autrefois celle d'une maîtresse de maison. Quand elle se retira, M. de Saint-Ognon la
-          reconduisit dans sa chambre ; c'était un devoir dont il ne pouvait se dispenser.</p>
-        <p>--- Asseyez-vous un moment, lui dit-elle ; je veux vous faire part d'une idée que la seule
+          reconduisit dans sa chambre ; c'était un devoir dont il ne pouvait se dispenser.
+    </p>
+    <p>
+     --- Asseyez-vous un moment, lui dit-elle ; je veux vous faire part d'une idée que la seule
           dévotion m'inspire. Qui a vaincu une fois peut vaincre encore. Cela n'est-il pas vrai ? Un premier
           triomphe est ordinairement le présage d'un second. Cela n'est-il pas encore vrai ? Les bénédictions
           de Dieu sont toujours en raison des tentatives et des victoires qu'on remporte sur le démon et sur
@@ -888,8 +1357,10 @@
           trésor de bénédictions ? Passons encore une nuit ensemble ; nous résisterons encore ; nous serons
           forts de la force du Seigneur. Vous le savez et c'est vous-même qui me l'avez appris, il n'abandonne
           pas ceux qui se confient en lui et le bienheureux Robert protégera ceux qui imitent ses bons
-          exemples.</p>
-        <p>--- Je ne doute pas, dit M. de Saint-Ognon, que la dévotion n'ait beaucoup de part dans ce que
+          exemples.
+    </p>
+    <p>
+     --- Je ne doute pas, dit M. de Saint-Ognon, que la dévotion n'ait beaucoup de part dans ce que
           Madame désire ; mais n'y a-t-il pas à craindre de tenter Dieu en nous exposant à la tentation ? ---
           Votre crainte, monsieur, est celle d'une âme timorée ; cependant remarquez qu'en tout Dieu regarde
           l'intention, et la nôtre est de faire triompher sa grâce en bravant le démon son ennemi. --- La
@@ -902,58 +1373,84 @@
           enivrèrent leur père pour coucher avec lui ; comme quand la belle Thamar, veuve d'Onan, se déguisa
           pour coucher avec Juda son beau-père qui d'un seul coup lui fit deux enfants ; comme quand la pieuse
           Ruth coucha avec Booz, son parent ; comme saint François d'Assises se fit une femme de neige pour
-          coucher avec elle.</p>
-        <p>--- Ma dévotion, reprit Mme de Bethzamooth, est tout au moins aussi grande que celle de Ruth, de
+          coucher avec elle.
+    </p>
+    <p>
+     --- Ma dévotion, reprit Mme de Bethzamooth, est tout au moins aussi grande que celle de Ruth, de
           Thamar et de saint François. --- Puisqu'il en est ainsi, préparons-nous au combat et au triomphe,
           par la lecture de l'Écriture sainte, mais sans aucune réflexion philosophique ; c'est dans ce livre
           sacré qu'en vingt endroits nous verrons les faibles résister aux forts et aux puissants. Un petit
           David qui, en gardant ses chèvres, se bat contre les ours et les lions, les terrasse, les tue et par
           modestie n'en parle pas ; qui ensuite, en présence de deux armées qui ont peur d'en venir aux mains,
           avec sa fronde et sa pierre, casse la tête au géant Goliath, lequel était bâtard :
-          <hi rend="italic">Vit Spurius erat</hi>, et de plus lequel avait son prépuce, ce qui déplaisait fort à Dieu.</p>
-        <p>--- C'est aussi dans ce livre qu'on voit un Abraham qui n'était qu'un berger et qui, avec trois
+     <hi rend="italic">
+      Vit Spurius erat
+     </hi>
+     , et de plus lequel avait son prépuce, ce qui déplaisait fort à Dieu.
+    </p>
+    <p>
+     --- C'est aussi dans ce livre qu'on voit un Abraham qui n'était qu'un berger et qui, avec trois
           cents valets, met en fuite les nombreuses armées de quatre puissants rois ; un Samgar qui n'était
           pas plus grand que M. le marquis de Vaucluse et lequel avec un seul soc de charrue assomma six cents
           Philistins :
-          <hi rend="italic">Vomere percussit de Philistiim sexcentos viros</hi>
-          <ref target="#N26"/>. Je ne parlerai point de Samson qui en extermina mille avec une mâchoire d'âne.
+     <hi rend="italic">
+      Vomere percussit de Philistiim sexcentos viros
+     </hi>
+     <ref target="#N26"/>
+     . Je ne parlerai point de Samson qui en extermina mille avec une mâchoire d'âne.
             Cette mâchoire était certainement aussi dure et aussi pesante que celle du petit abbé Sabatier de
-            Castres.</p>
-        <p>« Que Madame choisisse celle de ces histoires qui agréera davantage à sa dévotion, afin que pour
-          nous préparer au combat, nous en fassions la lecture.</p>
-        <p>--- Je ne me soucie d'aucune de ces histoires-là. Nous n'avons ni armée à combattre, ni lions, ni
+            Castres.
+    </p>
+    <p>
+     « Que Madame choisisse celle de ces histoires qui agréera davantage à sa dévotion, afin que pour
+          nous préparer au combat, nous en fassions la lecture.
+    </p>
+    <p>
+     --- Je ne me soucie d'aucune de ces histoires-là. Nous n'avons ni armée à combattre, ni lions, ni
           ours, ni géants, ni bâtards à tuer. Nous avons seulement à nous défendre du démon et il est dommage
           que nous n'ayons pas le foie d'un brochet. Nous ferions, comme le jeune Tobie, brûler le foie pour
           chasser le malin de la chambre. Demain je dirai à mon cuisinier de nous faire manger un bon brochet
           et d'en réserver le foie, qui dans l'occasion pourra nous servir. Au reste, au lieu d'histoire,
-          lisons quelque cantique de la Bible.</p>
-        <p>--- Un cantique s'écrie M. de Saint-Ognon. Que Madame fasse attention qu'un cantique est une
+          lisons quelque cantique de la Bible.
+    </p>
+    <p>
+     --- Un cantique s'écrie M. de Saint-Ognon. Que Madame fasse attention qu'un cantique est une
           chanson, et que nous ne devons pas chanter avant la victoire, à moins que ce ne soit le Cantique des
           cantiques, qui est tout mystérieux. Et j'ose dire que pour mettre le démon en fuite, il vaut pour le
           moins autant que le foie d'un brochet. --- Vous avez raison ; lisons ensemble et tâchons d'en
-          retenir quelques traits, afin que nous puissions le répéter avant de nous endormir.</p>
-        <p>Cette lecture se fit avec un grand recueillement, malgré la démangeaison qu'avait Mme de
+          retenir quelques traits, afin que nous puissions le répéter avant de nous endormir.
+    </p>
+    <p>
+     Cette lecture se fit avec un grand recueillement, malgré la démangeaison qu'avait Mme de
           Bethzamooth de faire des réflexions sur le nez, sur la gorge, sur le nombril et autres beautés de
           l'épouse du cantique ; elle ne s'en permit aucune, tant elle craignait de passer pour philosophe ;
-          sa dévotion et sa curiosité se bornèrent à demander ce que voulait dire tout ce galimatias.</p>
-        <p>--- Ce cantique, répond M. de Saint-Ognon, est une allégorie mystérieuse des amours de
+          sa dévotion et sa curiosité se bornèrent à demander ce que voulait dire tout ce galimatias.
+    </p>
+    <p>
+     --- Ce cantique, répond M. de Saint-Ognon, est une allégorie mystérieuse des amours de
           Jésus-Christ pour son Église qui est sans tache, quoique remplie d'obscurités ; c'est aussi le divin
           emblème d'un mariage spirituel. --- Oserai-je demander ce qu'on entend par mariage spirituel ? ---
           C'est celui d'une âme qui en épouse une autre ; par un semblable mariage, deux âmes contractent
           l'obligation d'être inséparablement unies, d'être en communion de peines, de chagrins, de prières,
-          de joies et de plaisirs.</p>
-        <p>--- Il me semble, reprit Madame, que dans ces mariages il n'y a rien dont la dévotion puisse se
+          de joies et de plaisirs.
+    </p>
+    <p>
+     --- Il me semble, reprit Madame, que dans ces mariages il n'y a rien dont la dévotion puisse se
           scandaliser ; ainsi, si votre âme veut épouser la mienne, j'y consens de bon cœur. --- Je sens, dit
           M. de Saint-Ognon, tout le prix de la proposition que me fait la dévotion de Madame ; mais son âme
           est celle d'une sainte ; la mienne est celle d'un pécheur, et je ne la crois digne d'un si grand
           honneur. Cependant, si l'âme de Madame daignait s'abaisser jusqu'à la mienne, je ne négligerais rien
           pour me rendre digne de cet inestimable avantage, n'envisageant dans cette alliance que ma
-          sanctification et un avant-goût des plaisirs et des joies dont s'enivrent les élus dans le ciel.</p>
-        <p>M. de Saint-Ognon et Mme de Bethzamooth furent bientôt d'accord ; ils rédigèrent une petite
+          sanctification et un avant-goût des plaisirs et des joies dont s'enivrent les élus dans le ciel.
+    </p>
+    <p>
+     M. de Saint-Ognon et Mme de Bethzamooth furent bientôt d'accord ; ils rédigèrent une petite
           formule de contrat et d'engagement qui de part et d'autre fut prononcée avec une très grande
           dévotion. Madame dit ensuite : « Je pense que, sans chercher à imiter le bienheureux Robert
-          d'Arbrissel, nous pouvons... passer la nuit ensemble. »</p>
-        <p>--- Nous Madame s'écrie M. de Saint-Ognon, comme effrayé d'un semblable propos. Nous passer la
+          d'Arbrissel, nous pouvons... passer la nuit ensemble. »
+    </p>
+    <p>
+     --- Nous Madame s'écrie M. de Saint-Ognon, comme effrayé d'un semblable propos. Nous passer la
           nuit ensemble Nos corps coucher ensemble Non, en vérité, nous ne le pouvons pas. C'est un crime d'y
           penser. De grâce. Madame, éloignons de nos esprits cette abominable idée. Coucher ensemble ? La
           pudeur en frémit. Nos âmes, à la bonne heure, et monsieur votre mari, quand il serait jaloux comme
@@ -963,138 +1460,216 @@
           nos âmes ne doivent pas plus faire attention qu'à la couleur des habits qui les couvrent. Nos sens
           ne doivent être au lit que comme des laquais qui sont autour de la table, lorsque le maître et la
           maîtresse de la maison mangent un bon dîner, pour regarder, pour servir, pour en avoir la fumée, et
-          c'est assez pour ces drôles qui sont toujours nos ennemis.</p>
-        <p>Telles étaient les saintes dispositions des deux époux spirituels en se mettant au lit. --- Pour
+          c'est assez pour ces drôles qui sont toujours nos ennemis.
+    </p>
+    <p>
+     Telles étaient les saintes dispositions des deux époux spirituels en se mettant au lit. --- Pour
           célébrer les noces de nos âmes, dit Madame, répétons ce que nous avons retenu du Cantique des
           cantiques. C'est l'époux qui parle le premier ; ainsi commencez et je continuerai. Tâchons seulement
-          de suppléer à ce que la mémoire ne nous fournira pas.</p>
-        <p>
-          <hi rend="italic">M. de Saint-Ognon ou l'époux spirituel.</hi>
-        </p>
-        <p>Que ma bien-aimée me baise d'un baiser de sa bouche ravissante Les boutons de roses de ses deux
+          de suppléer à ce que la mémoire ne nous fournira pas.
+    </p>
+    <p>
+     <hi rend="italic">
+      M. de Saint-Ognon ou l'époux spirituel.
+     </hi>
+    </p>
+    <p>
+     Que ma bien-aimée me baise d'un baiser de sa bouche ravissante Les boutons de roses de ses deux
           globes charmants sont plus délicieux à mon âme que les meilleurs muscats de Frontignan. Ma
           bien-aimée est entre les filles de Paris ce qu'est un lis au milieu des fleurs des champs ; ce
           qu'est l'odorante tubéreuse dans les bosquets de Boutin et le majestueux héliotrope dans les
           parterres de Trianon. Je ne puis voir ma bien-aimée sans m'écrier : Elle est toute à moi, et je suis
-          tout à elle.</p>
-        <p>
-          <hi rend="italic">Mme de Bethzamooth ou l'épouse spirituelle.</hi>
-        </p>
-        <p>Que mon bien-aimé passe sa main droite sur ma tête, et qu'il m'embrasse de sa main gauche Il est
+          tout à elle.
+    </p>
+    <p>
+     <hi rend="italic">
+      Mme de Bethzamooth ou l'épouse spirituelle.
+     </hi>
+    </p>
+    <p>
+     Que mon bien-aimé passe sa main droite sur ma tête, et qu'il m'embrasse de sa main gauche Il est
           parmi les princes de l'Europe comme un oranger parmi les bruyères du Hauti, et comme un superbe
           palmier entre les cerisiers de Conflans et de Palaiseau. Je me plairais à reposer à l'ombre de mon
           palmier et dans de doux ravissements à m'écrier : Mon bien-aimé est tout à moi, et je suis toute à
-          lui.</p>
-        <p>
-          <hi rend="italic">L'époux.</hi>
-        </p>
-        <p>Ma bien-aimée est toute belle ; elle n'a ni rides, ni taches. Son visage est agréable à voir. Ses
+          lui.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'époux.
+     </hi>
+    </p>
+    <p>
+     Ma bien-aimée est toute belle ; elle n'a ni rides, ni taches. Son visage est agréable à voir. Ses
           paroles sont douces à entendre ; ses yeux brillent comme ceux de la colombe que caresse sa tendre et
           fidèle compagne. Ses joues sont comme les grenades des serres de Beaujon. J'irai dans les serres de
           ma bien-aimée, et tout en me rassasiant de ses meilleurs fruits, je dirai : Elle est toute à moi, et
-          je suis tout à elle.</p>
-        <p>
-          <hi rend="italic">L'épouse.</hi>
-        </p>
-        <p>Que mon bien-aimé entre dans mes jardins Qu'il en parcoure toutes les allées, qu'il goûte les
+          je suis tout à elle.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'épouse.
+     </hi>
+    </p>
+    <p>
+     Que mon bien-aimé entre dans mes jardins Qu'il en parcoure toutes les allées, qu'il goûte les
           pommes de mes espaliers, et qu'à son choix, cueillant la plus belle fleur de mon parterre, il
-          m'entende lui chanter : Je suis toute à lui, comme il est tout à moi.</p>
-        <p>
-          <hi rend="italic">L'époux.</hi>
-        </p>
-        <p>Ma bien-aimée est pleine de grâce et de beauté Ses celliers sont agréables à parcourir. Je
+          m'entende lui chanter : Je suis toute à lui, comme il est tout à moi.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'époux.
+     </hi>
+    </p>
+    <p>
+     Ma bien-aimée est pleine de grâce et de beauté Ses celliers sont agréables à parcourir. Je
           descendrai dans les celliers de ma bien-aimée, et tout en m'enivrant de ses meilleurs vins, je
-          chanterai : Elle est toute à moi, et je suis tout à elle.</p>
-        <p>
-          <hi rend="italic">L'épouse.</hi>
-        </p>
-        <p>J'ai vu les bergers du Liban, ils sont moins beaux que mon bien-aimé. Sa tête est comme un ils,
-          et sa tige pousse avec force comme les plantes du Carmel<ref target="#N7"/>.
+          chanterai : Elle est toute à moi, et je suis tout à elle.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'épouse.
+     </hi>
+    </p>
+    <p>
+     J'ai vu les bergers du Liban, ils sont moins beaux que mon bien-aimé. Sa tête est comme un ils,
+          et sa tige pousse avec force comme les plantes du Carmel
+     <ref target="#N7"/>
+     .
           La tige de mon bien-aimé serait ma félicité. Si je possédais cette superbe tige, je serais plus
           heureuse que les sept cents maîtresses de Salomon ; dans l'ivresse de mon bonheur, je m'écrierais :
-          Je suis toute à lui, et il est tout à moi.</p>
-        <p>
-          <hi rend="italic">L'époux.</hi>
-        </p>
-        <p>Ma bien-aimée fait les délices de mon cœur. Elle a plus d'éclat que les brebis qui sortent des
+          Je suis toute à lui, et il est tout à moi.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'époux.
+     </hi>
+    </p>
+    <p>
+     Ma bien-aimée fait les délices de mon cœur. Elle a plus d'éclat que les brebis qui sortent des
           lavoirs de Galaad. Je prendrai la toison de ma bien-aimée, et tout en jouant avec cette belle
-          toison, je dirai : Elle est toute à moi, et je suis tout à elle.</p>
-        <p>
-          <hi rend="italic">L'épouse.</hi>
-        </p>
-        <p>Mon bien-aimé brille de plus de majesté que les princesses de Thabor. Je préfère sa houlette à
-          tous les sceptres des rois de Cedar. Il est tout à moi, et je suis toute à lui.</p>
-        <p>
-          <hi rend="italic">L'époux.</hi>
-        </p>
-        <p>Ma bien-aimée répand une odeur plus douce que les vignes de Gelboé qui sont en fleurs. Je
+          toison, je dirai : Elle est toute à moi, et je suis tout à elle.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'épouse.
+     </hi>
+    </p>
+    <p>
+     Mon bien-aimé brille de plus de majesté que les princesses de Thabor. Je préfère sa houlette à
+          tous les sceptres des rois de Cedar. Il est tout à moi, et je suis toute à lui.
+    </p>
+    <p>
+     <hi rend="italic">
+      L'époux.
+     </hi>
+    </p>
+    <p>
+     Ma bien-aimée répand une odeur plus douce que les vignes de Gelboé qui sont en fleurs. Je
           monterai sur les monts de Gelboé. Je visiterai la vigne de ma bien-aimée, et je m'étendrai sur elle
           comme une nuée qui s'étend sur les plaines de Zabulon, et qui, se dissolvant en rosée, produit le
-          vin mystérieux qui fait germer les vierges d'Ephrate<ref target="#N8"/>. Ma bien-aimée est toute à moi, et je suis tout à elle.</p>
-        <p>--- Finissons de chanter, dit Mme Bethzamooth après un moment de silence. Je voudrais bien
+          vin mystérieux qui fait germer les vierges d'Ephrate
+     <ref target="#N8"/>
+     . Ma bien-aimée est toute à moi, et je suis tout à elle.
+    </p>
+    <p>
+     --- Finissons de chanter, dit Mme Bethzamooth après un moment de silence. Je voudrais bien
           maintenant que votre âme s'approchât de la mienne. --- Vous m'étonnez, repartit M. de Saint-Ognon ;
           mon âme est en effet avec la vôtre ; je la sens, je la touche, je l'embrasse, je m'unis étroitement
           à elle, comme l'âme de Jonathas pouvait être unie à celle de David.
-          <hi rend="italic">Anima Jonathæ conglutinata est animæ David</hi>. Mon âme se pâme de joie dans les
+     <hi rend="italic">
+      Anima Jonathæ conglutinata est animæ David
+     </hi>
+     . Mon âme se pâme de joie dans les
           embrassements de la vôtre, laquelle se dissout de plaisir dans les bras de la mienne. Oh oh oh que
           les jouissances des sens sont bien moins délicieuses que celles que les âmes éprouvent dans leurs
-          chastes et ravissantes unions</p>
-        <p>--- Votre âme, réplique Madame, peut sentir tout ce que vous dites. Je vous en crois ; mais je
+          chastes et ravissantes unions
+    </p>
+    <p>
+     --- Votre âme, réplique Madame, peut sentir tout ce que vous dites. Je vous en crois ; mais je
           proteste que la mienne n'en sent rien du tout. Si en ce moment elle éprouve quelque agitation, c'est
           celle d'un songe que j'ai songé la nuit dernière, et je vous prie de me dire si la dévotion peut
-          ajouter foi aux songes.</p>
-        <p>---
-          <hi rend="italic">Non sum propheta</hi>, répond M. de Saint-Ognon,
-          <hi rend="italic">nec filius prophetæ, sed villicans sycomores</hi>
-          <ref target="#N9"/>. Je ne suis, comme dit Amos, ni prophète, ni fils de prophète, mais je me
+          ajouter foi aux songes.
+    </p>
+    <p>
+     ---
+     <hi rend="italic">
+      Non sum propheta
+     </hi>
+     , répond M. de Saint-Ognon,
+     <hi rend="italic">
+      nec filius prophetæ, sed villicans sycomores
+     </hi>
+     <ref target="#N9"/>
+     . Je ne suis, comme dit Amos, ni prophète, ni fils de prophète, mais je me
             nourris de figues sauvages, et je dirai à Madame qu'on a songé dans tous les temps et dans tous les
             pays du monde. L'Écriture sainte est remplie de rêves et de songes. Notre sainte religion elle-même,
             cet édifice, qui malgré les philosophes, malgré l'abbé Raynal et l'Enfer, subsistera éternellement,
             n'est fondée que sur une multitude de songes qu'en gardant les moutons firent autrefois Abraham,
             Isaac et Jacob, ainsi que sur les rêves et les belles visions des prophètes Isaïe, Jérémie, Michée,
-            Nahum et autres grands et petits voyants.</p>
-        <p>« La plupart même des belles institutions de notre sainte Église ne sont dues qu'aux rêves que
+            Nahum et autres grands et petits voyants.
+    </p>
+    <p>
+     « La plupart même des belles institutions de notre sainte Église ne sont dues qu'aux rêves que
           firent autrefois des saints personnages. Les songes et les visions sont les voies par lesquelles
           Dieu se manifeste ordinairement aux hommes, et c'est ce qui en grande partie fait la révélation. Il
           est rare qu'il leur parle bouche à bouche comme à Moïse ; mais il parle quelquefois à ses saints par
           figures, par allégories, par emblèmes ; il leur propose, pendant qu'ils dorment, des énigmes
-          <ref target="#N27"/>
-          afin qu'ils s'amusent à les deviner lorsqu'ils sont éveillés ; et il ne leur en proposa jamais que
+     <ref target="#N27"/>
+     afin qu'ils s'amusent à les deviner lorsqu'ils sont éveillés ; et il ne leur en proposa jamais que
           de très belles et infiniment plus ingénieuses que celles dont Panckoucke, tous les huit jours,
-          embellit le Mercure de France.</p>
-        <p>« Si Madame se souvient encore de la belle énigme que Dieu a proposée à sa dévotion, elle doit
+          embellit le Mercure de France.
+    </p>
+    <p>
+     « Si Madame se souvient encore de la belle énigme que Dieu a proposée à sa dévotion, elle doit
           l'en remercier, car en cela elle ne ressemble pas au roi de Babylone, au grand Nabuchodonosor, qui,
           avant que Dieu l'envoyât paître sur les rives de l'Euphrate, fit un grand rêve
-          <ref target="#N28"/>, l'oublia comme un imbécile, quand il l'eut fait, et comme un barbare insensé
+     <ref target="#N28"/>
+     , l'oublia comme un imbécile, quand il l'eut fait, et comme un barbare insensé
             condamna à mort tous les devins et tous les sages de ses états, parce qu'ils ne pouvaient lui dire
             le songe qu'il avait songé. Ce fut le prophète Daniel qui le lui dit et qui le lui expliqua. Ce sera
             aussi Mlle Daniel, votre femme de chambre, qui expliquera le songe que Madame a songé. On a besoin
             d'intelligence dans les visions ;
-          <hi rend="italic">Intelligentia opus est in visione</hi>
-          <ref target="#N10"/>, et Mlle Daniel est pleine d'intelligence. »</p>
-        <p>Cela dit et sans attendre la réponse, M. de Saint-Ognon se met à sonner à coups redoublés, et
+     <hi rend="italic">
+      Intelligentia opus est in visione
+     </hi>
+     <ref target="#N10"/>
+     , et Mlle Daniel est pleine d'intelligence. »
+    </p>
+    <p>
+     Cela dit et sans attendre la réponse, M. de Saint-Ognon se met à sonner à coups redoublés, et
           Mlle Daniel, croyant que sa maîtresse se trouve mal, accourt avec précipitation. --- N'ouvrez pas
           mes rideaux, lui dit sa maîtresse, parce que je crains la lumière ; mais mettez-vous à genoux au
           pied du lit, et expliquez-moi un songe que j'ai fait. Un bel enfant a paru tout à coup sur mes
           genoux et s'est mis à me caresser. Il a dévoré une tartine de miel. Je l'ai vu successivement
           habillé de noir, de violet, de rouge. Il est allé à Rome, et je l'y ai vu devant une grande église,
-          tenant une truelle à la main, et tout le peuple le bénissait et l'appelait de mon nom.</p>
-        <p>--- Ce songe, dit Mlle Daniel, annonce que Madame aura un enfant. Noir, violet, rouge sont des
+          tenant une truelle à la main, et tout le peuple le bénissait et l'appelait de mon nom.
+    </p>
+    <p>
+     --- Ce songe, dit Mlle Daniel, annonce que Madame aura un enfant. Noir, violet, rouge sont des
           couleurs qui signifient qu'il sera abbé, évêque et cardinal ; s'il est pape, il portera le nom de
           Madame, le nom de Bethzamooth. Dans son enfance, on aura soin de lui faire mander du beurre et du
           miel, afin qu'à bonne heure il sache rejeter le mal et choisir le bien.
-          <hi rend="italic">Butyrum et mel comedet ut sciat reprobare malum et eligere bonum</hi>
-          <ref target="#N29"/>.</p>
-        <p>--- Cela suffit, lui dit sa maîtresse : allez vous recoucher. Vous porterez ce matin un louis
+     <hi rend="italic">
+      Butyrum et mel comedet ut sciat reprobare malum et eligere bonum
+     </hi>
+     <ref target="#N29"/>
+     .
+    </p>
+    <p>
+     --- Cela suffit, lui dit sa maîtresse : allez vous recoucher. Vous porterez ce matin un louis
           d'or à la sacristie de Saint-Sulpice pour dire des messes. Vous en entendrez deux avec dévotion.
           Après cela vous passerez chez mon marchand d'étoffes, et vous choisirez une jolie robe de printemps,
           dont je vous fais présent. --- Je remercie Madame, dit Mlle Daniel, et si elle fait encore un songe,
-          je la prie de m'appeler.</p>
-        <p>--- Vous avez là, dit M. de Saint-Ognon, un vrai trésor ; si cette demoiselle eût été à Babylone,
+          je la prie de m'appeler.
+    </p>
+    <p>
+     --- Vous avez là, dit M. de Saint-Ognon, un vrai trésor ; si cette demoiselle eût été à Babylone,
           elle eût fait une grande fortune. C'est un malheur pour elle d'être venue trop tard. Elle est femme
           de chambre, et avec le talent qu'elle a d'expliquer les songes, le roi Nabuchodonosor en eût
-          peut-être fait une reine de Babylone.</p>
-        <p>--- Je connais, dit Madame, tout le prix de Mlle Daniel ; mais vous, Monsieur, dites-moi ce que
+          peut-être fait une reine de Babylone.
+    </p>
+    <p>
+     --- Je connais, dit Madame, tout le prix de Mlle Daniel ; mais vous, Monsieur, dites-moi ce que
           vous pensez de mon songe. --- Vive Dieu répond l'interrogé, ma parole s'accomplira en entendant
           prononcer le beau nom de Madame, le beau nom de Bethzamooth. Que lui avais-je annoncé ? Qu'il
           naîtrait d'elle quelque chose de grand, de merveilleux, de saint. C'est certainement un pape qui en
@@ -1103,114 +1678,199 @@
           ruinés. Il n'y a pas de temps à perdre, et M. votre mari doit savoir cela. C'est moi qui aurai
           l'honneur de lui en porter la nouvelle. Je partirai aussitôt qu'il fera jour. Pour me préparer à ce
           voyage, je vais me lever, et j'espère le ramener dans la journée, afin que ce soir il commence ce
-          grand ouvrage.</p>
-        <p>Sur un mouvement que fait M. de Saint-Ognon pour sortir du lit, Madame l'arrête. --- Vous n'avez
+          grand ouvrage.
+    </p>
+    <p>
+     Sur un mouvement que fait M. de Saint-Ognon pour sortir du lit, Madame l'arrête. --- Vous n'avez
           encore, lui dit-elle, entendu que la fin de mon songe. En voici le commencement. Je ne sais si mon
           mari sera le père de cet enfant ; mais, ce que j'ose assurer, et ce que je n'ai pu dire à Mlle
           Daniel, c'est que ce même enfant, pour venir sur moi, est je ne sais comment sorti de votre cuisse.
-          Qu'est-ce que cela signifie ?</p>
-        <p>--- Il est sorti de ma cuisse s'écrie M. de Saint-Ognon. Honneur et gloire à Dieu, qui est
+          Qu'est-ce que cela signifie ?
+    </p>
+    <p>
+     --- Il est sorti de ma cuisse s'écrie M. de Saint-Ognon. Honneur et gloire à Dieu, qui est
           tout-puissant Il est sorti de ma cuisse Ceci est autre chose et une chose toute merveilleuse.
-          <hi rend="italic">Intelligentia opus est in visione</hi>, et je vois que c'est à moi qui suis le
+     <hi rend="italic">
+      Intelligentia opus est in visione
+     </hi>
+     , et je vois que c'est à moi qui suis le
           dernier des hommes, que la Providence s'en rapporte pour faire un pape qui sera de la tribu de Gad
           et de l'illustre famille de Bethzamooth. Que Madame n'a-t-elle rêvé et parlé plus tôt Ce grand œuvre
-          serait déjà bien avancé.</p>
-        <p>--- Croyez-vous, lui demanda Madame, sur les sept heures du matin, qu'un pape se fasse en une
+          serait déjà bien avancé.
+    </p>
+    <p>
+     --- Croyez-vous, lui demanda Madame, sur les sept heures du matin, qu'un pape se fasse en une
           seule nuit ? M. de Saint-Ognon répondit : « Ce qui ne se fait pas en une nuit se fait en deux, et si
           deux nuits ne suffisent pas, on en met trois et quatre, jusqu'à ce que les desseins de Dieu soient
           accomplis. Ni Jérusalem, ni Vaugirard, ni le temple de Salomon, ni la chapelle de Saint-Thomas du
-          Louvre ne furent bâtis en un seul jour.</p>
-        <p>«
-          <hi rend="italic">Tantæ molis erat romanum condere gentem</hi>. C'est ainsi que s'exprimait le divin
+          Louvre ne furent bâtis en un seul jour.
+    </p>
+    <p>
+     «
+     <hi rend="italic">
+      Tantæ molis erat romanum condere gentem
+     </hi>
+     . C'est ainsi que s'exprimait le divin
           Virgile en parlant de cette Rome, où brillèrent les Scipions, les Catons et les Pompées, où
           régnèrent les Césars, les Trajans et les Antonins, et où siégera un jour la sainteté du pape
-          Bethzamooth. »</p>
-        <p>--- J'ai conçu, lui dit Madame, quelques jours après ; que dira mon mari ? --- Que dira votre
+          Bethzamooth. »
+    </p>
+    <p>
+     --- J'ai conçu, lui dit Madame, quelques jours après ; que dira mon mari ? --- Que dira votre
           mari ? reprit vivement M. de Saint-Ognon ; eh s'il est un homme juste, Dieu lui enverra un songe, et
           comme Saint-Joseph, son patron, il bénira le Seigneur qui opère en sa femme, et sans lui, de grandes
           choses. Si c'est un pécheur, c'est à la dévotion de Madame à le convertir, afin qu'aux yeux du monde
-          il soit digne d'être le père du pape qu'elle porte dans son sein.</p>
-        <p>--- Qu'il vienne donc, reprit-elle, s'il faut que je le convertisse.</p>
-        <p>M. de Saint-Ognon, sans perdre de temps, écrit au marquis de Vaucluse et lui mande que l'ouvrage
+          il soit digne d'être le père du pape qu'elle porte dans son sein.
+    </p>
+    <p>
+     --- Qu'il vienne donc, reprit-elle, s'il faut que je le convertisse.
+    </p>
+    <p>
+     M. de Saint-Ognon, sans perdre de temps, écrit au marquis de Vaucluse et lui mande que l'ouvrage
           est commencé, et que c'est à lui à venir le perfectionner. Le marquis crut que sa femme avait un
           commencement de raison, et dans l'empressement de jouir d'un miracle, sur lequel il ne comptait pas,
-          il arriva le lendemain.</p>
-        <p>Sa femme, pour ébaucher sa conversion, lui propose d'aller à la messe. --- Je le veux bien,
+          il arriva le lendemain.
+    </p>
+    <p>
+     Sa femme, pour ébaucher sa conversion, lui propose d'aller à la messe. --- Je le veux bien,
           dit-il, si Madame veut venir ce soir à la Comédie-Française. Elle consulta M. de Saint-Ognon pour
           savoir, si étant dévote et portant un pape dans son sein, il convenait d'aller à la comédie. ---
           Allez, Madame, dit-il, allez avec confiance : Dieu connaît ceux qui sont à lui. Je vous le conseille
           aussi à cause de certaines analogies, dont je vous parlerai en temps et lieu, et qui peuvent se
           trouver entre les papes et les comédiens qui les représentent quelquefois. C'est ce que Madame verra
-          ce soir dans la tragédie d'<hi rend="italic">Athalie</hi>. Sa dévotion sera fort édifiée de voir sur la scène française un pape juif de la tribu de Lévy.</p>
-        <p>Madame de Bethzamooth alla donc aux Français. La tragédie d'<hi rend="italic">Athalie</hi>
-          ne lui plut pas. Quoique dévote, elle la trouva de mauvais exemple. --- Il ne convient pas,
+          ce soir dans la tragédie d'
+     <hi rend="italic">
+      Athalie
+     </hi>
+     . Sa dévotion sera fort édifiée de voir sur la scène française un pape juif de la tribu de Lévy.
+    </p>
+    <p>
+     Madame de Bethzamooth alla donc aux Français. La tragédie d'
+     <hi rend="italic">
+      Athalie
+     </hi>
+     ne lui plut pas. Quoique dévote, elle la trouva de mauvais exemple. --- Il ne convient pas,
           disait-elle, que des prêtres conjurent jamais contre leur roi, ni contre leur reine. Les convulsions
           dont le grand prêtre Joad est agité tout le long de la pièce ne lui déplurent pas moins. Ces grands
           défauts lui sautèrent aux yeux. Elle n'en savait pas encore assez pour sentir les beautés de ce
-          chef-d'œuvre dramatique.</p>
-        <p>Le comte d'Arnavon, son père, vint la féliciter sur sa grossesse. --- Demain, lui dit-il, c'est
+          chef-d'œuvre dramatique.
+    </p>
+    <p>
+     Le comte d'Arnavon, son père, vint la féliciter sur sa grossesse. --- Demain, lui dit-il, c'est
           le jour de ma loge à l'Opéra ; on y est fort commodément ; si vous étiez une femme raisonnable, vous
           y viendriez avec moi. --- Je le veux bien, répond-elle, si ce soir mon père veut venir au sermon. Le
-          père accepte le sermon et la fille l'Opéra.</p>
-        <p>On donnait
-          <hi rend="italic">Orphée</hi>. Elle convint n'avoir jamais entendu à Notre-Dame une aussi belle
+          père accepte le sermon et la fille l'Opéra.
+    </p>
+    <p>
+     On donnait
+     <hi rend="italic">
+      Orphée
+     </hi>
+     . Elle convint n'avoir jamais entendu à Notre-Dame une aussi belle
           musique et n'avoir vu dans aucune église de Paris les prêtres officier aussi majestueusement que les
           acteurs de l'Opéra. --- Les maris, ajoute-t-elle, devraient souvent venir voir
-          <hi rend="italic">Orphée</hi>, ils apprendraient à aimer leurs femmes.</p>
-        <p>Le père ayant obtenu l'Opéra et le mari la Comédie, la sœur vint à son tour et obtint aux mêmes
+     <hi rend="italic">
+      Orphée
+     </hi>
+     , ils apprendraient à aimer leurs femmes.
+    </p>
+    <p>
+     Le père ayant obtenu l'Opéra et le mari la Comédie, la sœur vint à son tour et obtint aux mêmes
           conditions l'Opéra-Comique. Ce qu'on accorda à la sœur, on ne crut pas devoir le refuser au frère,
-          et on alla avec lui au théâtre de Nicolet. Il en fut quitte pour des vêpres et un salut.</p>
-        <p>Toutes ces complaisances de la part des parents de Mme de Bethzamooth lui semblaient les
+          et on alla avec lui au théâtre de Nicolet. Il en fut quitte pour des vêpres et un salut.
+    </p>
+    <p>
+     Toutes ces complaisances de la part des parents de Mme de Bethzamooth lui semblaient les
           commencements d'un retour à Dieu, et elle s'en félicitait. --- J'en ferai certainement des dévots,
           et Dieu m'en saura gré, disait-elle de temps en temps à M. de Saint-Ognon qui était son conseiller
-          et qui, sans qu'elle s'en aperçût, faisait mouvoir tous les ressorts de cette comédie domestique.</p>
-        <p>L'histoire ne dit pas que le père, ni le mari, ni le frère, ni la sœur prissent goût pour
+          et qui, sans qu'elle s'en aperçût, faisait mouvoir tous les ressorts de cette comédie domestique.
+    </p>
+    <p>
+     L'histoire ne dit pas que le père, ni le mari, ni le frère, ni la sœur prissent goût pour
           l'église et pour les sermons ; mais en très peu de temps Madame la dévote en prit un très grand pour
-          les spectacles.</p>
-        <p>L'Opéra-Comique ne lui parut bientôt qu'un amusement agréable et honnête. Le Grand-Opéra lui
+          les spectacles.
+    </p>
+    <p>
+     L'Opéra-Comique ne lui parut bientôt qu'un amusement agréable et honnête. Le Grand-Opéra lui
           sembla être le pays de l'enchantement et de l'illusion, du plaisir des yeux et des oreilles. Le
           Théâtre-Français, une école d'instruction et de savoir-vivre, de grands sentiments et de bonnes
-          plaisanteries.</p>
-        <p>Il n'y eut pas jusqu'aux petits théâtres de la foire et des boulevards qui à ses yeux n'eussent
+          plaisanteries.
+    </p>
+    <p>
+     Il n'y eut pas jusqu'aux petits théâtres de la foire et des boulevards qui à ses yeux n'eussent
           une utilité publique. La foule des désœuvrés dont ces spectacles regorgent lui fit sentir la
-          nécessité de les réunir pour les amuser plutôt que de les abandonner à leur désœuvrement.</p>
-        <p>La raison lui vint peu à peu comme après une longue maladie les forces reviennent à un
+          nécessité de les réunir pour les amuser plutôt que de les abandonner à leur désœuvrement.
+    </p>
+    <p>
+     La raison lui vint peu à peu comme après une longue maladie les forces reviennent à un
           convalescent. Dans le monde elle se conduisit avec tant d'honnêteté qu'on oublia jusqu'au travers
           qu'elle avait eu de quitter le nom de son mari, celui de marquise de Vaucluse, pour en prendre un
           ridicule. Au bout de neuf mois elle accoucha d'une fille et s'en consola dans l'espérance d'avoir un
-          garçon de son mari, qui dans son cœur et dans son lit eut bientôt repris tous ses droits.</p>
-        <p>M. de Saint-Ognon vit encore dans la famille, constamment chéri et estimé de tous les parents. Le
+          garçon de son mari, qui dans son cœur et dans son lit eut bientôt repris tous ses droits.
+    </p>
+    <p>
+     M. de Saint-Ognon vit encore dans la famille, constamment chéri et estimé de tous les parents. Le
           marquis de Vaucluse n'en parle jamais sans dire : C'est là le véritable ami de la maison. » Il se
           doute bien des moyens que l'ami de la maison a employés pour rendre sa femme raisonnable, et il s'en
-          console en pensant qu'en ménage il vaut encore mieux être cocu que malheureux.</p>
-        <p>FIN</p>
-      </div>
-    </body>
-    <back>
-      <div type="notes">
-        <note xml:id="N1">Le lecteur doit observer que toutes les fois que M. de Saint-Ognon parle, c'est
-          avec une volubilité extrême, avec le ton d'un homme qui prêche et qui fait des grimaces de dévotion.</note>
-        <note xml:id="N2">Saint Mathieu, chap. XXVI, v. 41.</note>
-        <note xml:id="N3">Genèse, chap. XXXI, v. 10.</note>
-        <note xml:id="N4">Apocalypse, chap. VIII, v. 4.</note>
-        <note xml:id="N5">Tintoin et Briquet sont professeurs en Sorbonne.</note>
-        <note xml:id="N6">Genèse, chap. XLIX, v. 19.</note>
-        <note xml:id="N7">
-          <hi rend="italic">Sicut lilium germinabit et erumpet radix ejus ut Libani</hi>. Osée, ch. xiv, v. 7.</note>
-        <note xml:id="N8">Vinum germinas virgines.</note>
-        <note xml:id="N9">VII, v. 14.</note>
-        <note xml:id="N10">Daniel, chap. X, v. 1.</note>
-        <note xml:id="N11">(1) Page 10. —
-          <hi rend="italic">Assemblée des saints.</hi>
-          — Lorsque, sous Louis XIV, la dévotion fut devenue une mode de cour, les assemblées furent très
+          console en pensant qu'en ménage il vaut encore mieux être cocu que malheureux.
+    </p>
+    <p>
+     FIN
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="notes">
+    <note xml:id="N1">
+     Le lecteur doit observer que toutes les fois que M. de Saint-Ognon parle, c'est
+          avec une volubilité extrême, avec le ton d'un homme qui prêche et qui fait des grimaces de dévotion.
+    </note>
+    <note xml:id="N2">
+     Saint Mathieu, chap. XXVI, v. 41.
+    </note>
+    <note xml:id="N3">
+     Genèse, chap. XXXI, v. 10.
+    </note>
+    <note xml:id="N4">
+     Apocalypse, chap. VIII, v. 4.
+    </note>
+    <note xml:id="N5">
+     Tintoin et Briquet sont professeurs en Sorbonne.
+    </note>
+    <note xml:id="N6">
+     Genèse, chap. XLIX, v. 19.
+    </note>
+    <note xml:id="N7">
+     <hi rend="italic">
+      Sicut lilium germinabit et erumpet radix ejus ut Libani
+     </hi>
+     . Osée, ch. xiv, v. 7.
+    </note>
+    <note xml:id="N8">
+     Vinum germinas virgines.
+    </note>
+    <note xml:id="N9">
+     VII, v. 14.
+    </note>
+    <note xml:id="N10">
+     Daniel, chap. X, v. 1.
+    </note>
+    <note xml:id="N11">
+     (1) Page 10. —
+     <hi rend="italic">
+      Assemblée des saints.
+     </hi>
+     — Lorsque, sous Louis XIV, la dévotion fut devenue une mode de cour, les assemblées furent très
           communes à Paris et à Versailles. La plus connue de toutes se tenait chez le duc de Beauvilliers.
           Mme de Maintenon s'y trouvait souvent ; M. de Fénelon en fut longtemps l'orateur et même l'oracle.
           Mme Guyon, l'amie de Fénelon, y fut admise. C'est là qu'elle expliquait à ses auditeurs son système
           de quiétisme. Elle disait que le Saint Esprit l'obumbrait ; le barnabite Lacombe était le véritable
           obumbrateur. Ce moine, enfermé à Vincennes, avoua avoir passé quinze nuits avec elle. Lorsqu'elle
           fut arrêtée, dans une petite maison, à la Roquette, l'un des faubourgs de Paris, on trouva sur sa
-          table le Cantique des cantiques et les opéras de Quinault, un crucifix et les comédies de Molière.</note>
-        <note xml:id="N12">(2) Page 10. — Quant au soufflet. — Voici l'histoire morale du fameux soufflet
+          table le Cantique des cantiques et les opéras de Quinault, un crucifix et les comédies de Molière.
+    </note>
+    <note xml:id="N12">
+     (2) Page 10. — Quant au soufflet. — Voici l'histoire morale du fameux soufflet
           que reçut le prophète Michée d'un de ses camarades. Josaphat, roi de Jérusalem, alla voir son
           confrère Achab, roi de Samarie. Celui-ci, soit qu'il voulût donner la comédie à son hôte, soit qu'il
           agît sérieusement, fit assembler dans la place publique quatre cents prophètes. Leurs Majestés
@@ -1229,8 +1889,9 @@
           fut pas quitte pour ce soufflet : le roi Achab l'envoya dans sa bastille et ordonna de le mettre à
           un régime très rigoureux : au pain et à l'eau. Voilà ce que c'est que de dire la vérité aux rois. Il
           n'en arrive jamais rien de bon.
-        </note>
-        <note xml:id="N13">(3) Page 16. — Mâcher à vide. — C'est l'expression dont se servait Voltaire en
+    </note>
+    <note xml:id="N13">
+     (3) Page 16. — Mâcher à vide. — C'est l'expression dont se servait Voltaire en
           parlant des discours que prononcent les récipiendaires à l'Académie française. Il est étonnant que
           des gens d'esprit, en présence d'une assemblée d'hommes dont la plupart ont un très grand mérite,
           parlent souvent comme s'ils ne voulaient point être entendus. Chaque phrase de leurs discours de
@@ -1239,16 +1900,18 @@
           premiers. L'amour-propre du récipiendaire est la source de ces amphigouris : pour ne point paraître
           trivial, il évite la clarté, il donne à des idées communes des tournures recherchées et inusitées.
           Il met en phrases ce qui lui manque en génie. Mme de Maintenon appelait cela parler sur des paroles.
-        </note>
-        <note xml:id="N14">(4) Page 17. — Jonas prédicateur. — Le sermon de Jonas aux Ninivites est le
+    </note>
+    <note xml:id="N14">
+     (4) Page 17. — Jonas prédicateur. — Le sermon de Jonas aux Ninivites est le
           meilleur qu'on ait encore fait. Il ne prêcha qu'une fois ; il ne dit que peu de paroles, encore le
           fit-il en courant dans une ville qui avait trois journées de chemin. Ninive erat civitas magna trium
           dierum, c'est-à-dire qui était au moins quatre fois plus étendue que Paris, et tous les Ninivites se
           convertirent. Le roi descendit de son trône et jeûna. Les animaux jeûnèrent aussi et Dieu pardonna à
           tous. Nous n'avons pas d'exemple d'un pareil sermon. Il est une preuve que les plus courts sont les
           meilleurs ; ils sont devenus une denrée trop commune.
-        </note>
-        <note xml:id="N15">(5) Page 17. — M. de Sacy à la Bastille. — Il fut, en effet, privé de sa liberté
+    </note>
+    <note xml:id="N15">
+     (5) Page 17. — M. de Sacy à la Bastille. — Il fut, en effet, privé de sa liberté
           parce qu'on le soupçonna de jansénisme et d'avoir travaillé à la version du Nouveau Testament,
           imprimé à Mons. On tremble toutes les fois qu'on pense qu'il faille si peu de chose pour priver un
           homme de sa liberté, le premier des biens. M. de Sacy fut enterré trois ans à la Bastille, dans la
@@ -1259,8 +1922,9 @@
           tenir mon corps en captivité ; mais il ne saurait enchaîner ma pensée. Il me tient ici parce que
           j'ai dit qu'il était une bête ; j'en sortirai, et je crierai encore en plein Palais-Royal qu'il est
           une bête. »
-        </note>
-        <note xml:id="N16">(6) Page 18, ce renvoi se rapporte à la page 22, ligne 15. — La grande Jahel. —
+    </note>
+    <note xml:id="N16">
+     (6) Page 18, ce renvoi se rapporte à la page 22, ligne 15. — La grande Jahel. —
           Cette juive est devenue célèbre par un mensonge et par un meurtre abominable. Voyant fuir Sisara,
           général de l'armée du roi Jabin : « Entrez chez moi, lui dit-elle, entrez, monseigneur, et ne
           craignez rien. » Sisara, trompé par le propos, entre dans la tente de Jahel. Elle lui fait boire une
@@ -1269,8 +1933,9 @@
           d'hospitalité, chantèrent un duo, ou cantique à deux parties. Nous rapporterions bien ce cantique,
           mais nous craignons la censure de M. de Chab***, qui, après les odes de Pindare, ne trouve rien de
           beau.
-        </note>
-        <note xml:id="N17">(7) Page 22. — La dévote Judith. — Cette veuve juive, ayant jeûné et prié, se
+    </note>
+    <note xml:id="N17">
+     (7) Page 22. — La dévote Judith. — Cette veuve juive, ayant jeûné et prié, se
           lava le corps, frisa ses cheveux, prit sa belle coiffure, ses beaux habits, une chaussure élégante,
           ses bagues, ses bracelets, ses lis d'or et ses pendants d'oreilles. Après cette toilette, elle
           sortit de Béthulie et, à force de mensonges, parvint à coucher avec Holopherne. Quand elle fut au
@@ -1284,13 +1949,16 @@
           Je crois aussi fermement que Dieu était de moitié dans l'assassinat d'Holopherne, car, pour que
           Judith ne manquât pas son coup, il la fit ce jour-là encore plus belle qu'elle n'était. « Dominus in
           illam pulchritudinem ampliavit », dit l'Écriture sainte.
-        </note>
-        <note xml:id="N18">(8) Page 31. — Le prince Bethzamooth. — Il y avait, en effet, au delà du Jourdain
+    </note>
+    <note xml:id="N18">
+     (8) Page 31. — Le prince Bethzamooth. — Il y avait, en effet, au delà du Jourdain
           une bourgade du nom de Bethzamooth. Les tribus de Ruben et de Gad demandèrent ce pays pour eux. Dans
           le dénombrement des enfants d'Esaü, frère aîné de Jacob, on trouve un prince de Bethzamooth. Faisons
           observer que les livres juifs donnent le nom de rois aux chefs de bourgades et celui de princes aux
-          chefs de famille.</note>
-        <note xml:id="N19">(9) Page 42. — Le roi Eglon. — Ce roi est une des plus anciennes victimes que le
+          chefs de famille.
+    </note>
+    <note xml:id="N19">
+     (9) Page 42. — Le roi Eglon. — Ce roi est une des plus anciennes victimes que le
           fanatisme de religion ait immolées. Le récit de cet assassinat a quelque chose de bien édifiant. Les
           Israélites, depuis dix-huit ans assujettis à Eglon, roi de Moab, lui envoyèrent des présents par
           Aod, leur juge. Cet Aod était un maître juge. Il fit faire une épée à deux tranchants, dont la garde
@@ -1305,8 +1973,9 @@
           III. Ce moine jacobin n'était point chargé de présents pour ce roi infortuné, mais il lui portait
           une lettre du président Harlay ; ce qui valait bien le présent que M. le président Aod portait au
           roi Eglon.
-        </note>
-        <note xml:id="N20">(10) Page 43. — Thamar coucha avec son beau-père. — Cette aventure est aussi
+    </note>
+    <note xml:id="N20">
+     (10) Page 43. — Thamar coucha avec son beau-père. — Cette aventure est aussi
           intéressante que celle d'Aod est édifiante, car c'est de l'inceste de cette juive que nous vient
           notre salut. Thamar était veuve des deux aînés de Juda, fils de Jacob. Dieu fit mourir son premier
           mari parce qu'il était un vaurien. Il fit aussi mourir le second parce qu'étant au lit avec sa
@@ -1330,35 +1999,40 @@
           affaire, connaître le visage auquel on a à parler, s'il est plus ou moins joli. À cela nous
           répondrons que l'ivresse des sens et de l'amour obscurcissait sans doute la vue du bon vieillard :
           Dieu le permit ainsi.
-        </note>
-        <note xml:id="N21">(11) Page 50. — Trembler les rois sur leur trône. — Ce mot trembler n'est pas
+    </note>
+    <note xml:id="N21">
+     (11) Page 50. — Trembler les rois sur leur trône. — Ce mot trembler n'est pas
           trop fort. Les rois Henri III et Henri IV furent déclarés incapables de régner par des décrets de
           Sorbonne. L'opinion de cette école, composée de pédants et de séditieux sous ces rois ainsi que sous
           Charles VI et Charles VII, entraîna la révolte du peuple qui, lorsqu'il est ignorant et abruti par
           la superstition, croit toujours entendre la voix de Dieu dans la voix de ses prêtres. Gondi, évêque
           de Paris, fut obligé de s'évader pour avoir refusé de signer un décret de Sorbonne contre Henri IV.
           Tous les meubles du palais de ce prélat devinrent la proie des ligueurs.
-        </note>
-        <note xml:id="N22">(12) Page 58. — Galbanum de bonne odeur. — Nous ignorons, ainsi que Mme de
+    </note>
+    <note xml:id="N22">
+     (12) Page 58. — Galbanum de bonne odeur. — Nous ignorons, ainsi que Mme de
           Bethzamooth, s'il y a du galbanum de bonne odeur. Il nous en vient du Levant de différentes espèces
           ; mais toutes d'une odeur désagréable, telle que celle du castoreum et de l'assa fetida, ou merde du
           diable. Au reste il y avait chez les Juifs un arrêt de mort porté contre ceux qui vendaient ou qui
           composaient, pour leurs plaisirs, un parfum semblable à celui dont Dieu avait donné la recette à
           Moïse, et qu'il voulait qu'on brûlât dans son temple.
-        </note>
-        <note xml:id="N23">(13) Page 62. — La surface de la terre. — C'est dans la Genèse, chap. II, qu'il
+    </note>
+    <note xml:id="N23">
+     (13) Page 62. — La surface de la terre. — C'est dans la Genèse, chap. II, qu'il
           est parlé de cette fontaine. Fons ascendebat de terra irrigans universam superficiem ejus. Les
           incrédules ont beaucoup glosé sur ce jet d'eau ; mais il n'est pas plus merveilleux que les sources
           de quatre fleuves, de l'Euphrate, du Tigre, du Phison et du Ghéon, qui se trouvaient dans le Paradis
           terrestre. Qui croit aux quatre sources doit croire au jet d'eau qui arrosait toute la terre.
-        </note>
-        <note xml:id="N24">(14) Page 62. — Un agneau à sept cornes. — Saint Jean vit cet agneau dans le ciel
+    </note>
+    <note xml:id="N24">
+     (14) Page 62. — Un agneau à sept cornes. — Saint Jean vit cet agneau dans le ciel
           : Vidi agnum stantem quasi occisum, habentem cornua septem. (Apoc., ch. 5). — À un homme qui dit
           j'ai vu, il n'y a rien à répondre. L'incrédulité est confondue. Les philosophes prétendent que Saint
           Jean a fait du Paradis le pays des bêtes à cornes. C'est là une bien mauvaise plaisanterie. Ils n'en
           font jamais d'autres.
-        </note>
-        <note xml:id="N25">(15) Page 62. — Que le diable ait emporté J.-C. — Cette aventure, qui se termina
+    </note>
+    <note xml:id="N25">
+     (15) Page 62. — Que le diable ait emporté J.-C. — Cette aventure, qui se termina
           à la honte du diable, est rapportée dans Saint Mathieu (chap. 4) ; elle fut précédée d'une
           conversation que J.-C. et son ennemi eurent ensemble. C'est ce qu'on appelle la tentation du fils de
           Dieu. Dans cette conversation, c'est à qui des deux interlocuteurs citera mieux l'écriture sainte.
@@ -1373,13 +2047,15 @@
           cette aventure de J.-C. est le conte le plus insipide et le plus maladroit que l'absurdité ait
           jamais fabriqué. Mais il vaut beaucoup mieux se soumettre et croire que de raisonner et de douter.
           C'est par la foi qu'on plaît à Dieu.
-        </note>
-        <note xml:id="N26">(16) Page 66. — Samgar était, ainsi que Samson, juge en Israël. — Avec un soc de
+    </note>
+    <note xml:id="N26">
+     (16) Page 66. — Samgar était, ainsi que Samson, juge en Israël. — Avec un soc de
           charrue il extermina six cents Philistins. Ce soc a quelque chose de moins merveilleux que la
           mâchoire dont se servit Samson pour en assommer mille. Voyez ce qu'en dit l'abbé Sabatier de Castres
           à l'article mâchoire.
-        </note>
-        <note xml:id="N27">(17) Page 76. — Dieu propose des énigmes. — Cela est très vrai, tant pour
+    </note>
+    <note xml:id="N27">
+     (17) Page 76. — Dieu propose des énigmes. — Cela est très vrai, tant pour
           l'ancienne que pour la nouvelle loi. L'énigme la plus agréable et la plus utile dont l'histoire
           ecclésiastique fasse mention, est celle que Dieu proposa à la sœur de Montcornillon de Liége pendant
           qu'elle dormait. Il lui montra d'abord dans un premier songe, le trou à la lune, et, dans un second,
@@ -1392,8 +2068,9 @@
           l'établissement des carmes, les diverses peuplades des religieux de Saint-François, les fêtes du
           rosaire, celles du scapulaire, etc., sont dus aux visions de Sainte Catherine de Sienne, de Sainte
           Thérèse, de Saint François, de Saint Dominique et de Simon Stok.
-        </note>
-        <note xml:id="N28">(18) Page 76. — Songe de Nabuchodonosor. — Le voici : Le roi ordonna de faire
+    </note>
+    <note xml:id="N28">
+     (18) Page 76. — Songe de Nabuchodonosor. — Le voici : Le roi ordonna de faire
           assembler les devins, les mages, les enchanteurs, les sages,… et leur dit : — J'ai eu un songe et je
           ne sais ce que j'ai songé… Si vous ne me le dites, vous périrez tous, et vos maisons seront
           confisquées… Ils répondirent : — Ô grand roi, il n'y a que les dieux qui puissent vous l'apprendre,
@@ -1419,8 +2096,9 @@
           remplis d'esprit et de science ont rejeté comme des tables. Plus je suis bête, et plus j'ai
           espérance d'avoir part au royaume des deux. Beati pauperes spiritu quoniam possidebunt regnum
           cælorum.
-        </note>
-        <note xml:id="N29">(19) Page 78. — Il mangera du beurre et du miel. — Le miel et le beurre ne
+    </note>
+    <note xml:id="N29">
+     (19) Page 78. — Il mangera du beurre et du miel. — Le miel et le beurre ne
           donnent pas toujours un esprit de discernement et de sagesse. Dans ma province, les jeunes gens ne
           déjeunent et ne goûtent ordinairement qu'avec des tartines enduites de beurre ou de miel, et ils
           n'en sont ni plus sages ni plus spirituels. L'un des effets les plus ordinaires de l'usage du beurre
@@ -1432,8 +2110,8 @@
           donner la sagesse, comme du foie de brochet, qui a perdu celle de chasser le Diable. Bon Dieu, que
           les hommes sont sots ! FIN P.-S. — J'étais à la Bastille lorsque j'écrivis ces vérités et ces
           fadaises, et je riais en les écrivant.
-        </note>
-      </div>
-    </back>
-  </text>
+    </note>
+   </div>
+  </back>
+ </text>
 </TEI>

@@ -2,158 +2,303 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Linguet_Voyage" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:55.27 wikidata:0">Voyage au labirinthe du jardin du roi: MiMoText edition</title>
-        <author ref="viaf:7393445 wikidata:Q1505526">Simon-Nicolas Henri Linguet(1736-1794)</author>
-        <respStmt>
-          <resp>data capture</resp>
-          <name>gallica</name>
-        </respStmt>
-        <respStmt>
-          <resp>encoding</resp>
-          <name>Johanna Konstanciak</name>
-        </respStmt>
-        <respStmt>
-          <resp>editor</resp>
-          <name>Julia Röttgermann</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">2493</measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de">Mining and Modeling Text</publisher>
-        <distributor ref="https://github.com/mimotext/roman18">Github</distributor>
-        <date>2022</date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
-          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1416833d/f7.item"/>
-        </bibl>
-        <bibl type="printSource">
-          <title>Voyage au labirinthe du jardin du roi</title>
-          <author>Simon-Nicolas-Henri Linguet</author>
-          <pubPlace>La Haye</pubPlace>
-          <publisher>Les Libraires Associés</publisher>
-          <date>1755</date>
-        </bibl>
-        <bibl type="firstEdition">
-          <date>1755</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form">
-            mixed
-          </term>
-          <term type="spelling">
-            historical
-          </term>
-          <term type="data-capture">
-            semi-automatic transcription
-          </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2022-08-30">Initial ELTeC level 1</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="titlepage">
-        <p>VOYAGE AU LABIRINTHE DU JADRIN DU ROI.</p>
-        <p>A Monſieur ***</p>
-        <p>Le prix eſt de 24 ſols.</p>
-        <p>A LA HAYE, Chez LES LIBRAIRES ASSOCIES.</p>
-        <p>M. DCC. LV.</p>
-      </div>
-    </front>
-    <body>
-      <div type="chapter">
-        <head>PRE'FACE.</head>
-        <head>VOYAGE AU LABIRINTHE DU JARDIN DU ROI.</head>
-        <p>JE veux te regaler, mon cher, du recit d'un Voyage que nous avons fait hier, un de mes amis &amp;
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:55.27 wikidata:0">
+     Voyage au labirinthe du jardin du roi: MiMoText edition
+    </title>
+    <author ref="viaf:7393445 wikidata:Q1505526">
+     Simon-Nicolas Henri Linguet(1736-1794)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      gallica
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     2493
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2022
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k1416833d/f7.item"/>
+     <publisher>
+      Bibliothèque national de France
+     </publisher>
+     <date>
+      2019
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Voyage au labirinthe du jardin du roi
+     </title>
+     <author>
+      Simon-Nicolas-Henri Linguet
+     </author>
+     <pubPlace>
+      La Haye
+     </pubPlace>
+     <publisher>
+      Les Libraires Associés
+     </publisher>
+     <date>
+      1755
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1755
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      mixed
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2022-08-30">
+    Initial ELTeC level 1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>
+     VOYAGE AU LABIRINTHE DU JADRIN DU ROI.
+    </p>
+    <p>
+     A Monſieur ***
+    </p>
+    <p>
+     Le prix eſt de 24 ſols.
+    </p>
+    <p>
+     A LA HAYE, Chez LES LIBRAIRES ASSOCIES.
+    </p>
+    <p>
+     M. DCC. LV.
+    </p>
+   </div>
+  </front>
+  <body>
+   <div type="chapter">
+    <head>
+     PRE'FACE.
+    </head>
+    <head>
+     VOYAGE AU LABIRINTHE DU JARDIN DU ROI.
+    </head>
+    <p>
+     JE veux te regaler, mon cher, du recit d'un Voyage que nous avons fait hier, un de mes amis &amp;
           moi, qui ſurpaſſe de beaucoup le Voyage de Saint Cloud par Terre &amp; par Mer; celui de Cirano dans
           la Lune, celui de Chapelle, &amp; ceux de tant d'autres Voyageurs dont les noms ne ſont pas parvenus
-          juſqu'à moi.</p>
-        <p>Tu vas peut-être te figurer que c'eſt quelque rêverie Poëtique, &amp; que nouveaux Dom Quichottes
+          juſqu'à moi.
+    </p>
+    <p>
+     Tu vas peut-être te figurer que c'eſt quelque rêverie Poëtique, &amp; que nouveaux Dom Quichottes
           nous avons parcouru en idée les eſpaces imaginaires. Point du tout, c'eſt un Voyage réel qui nous a
-          coûté bien des peines, &amp; a été traverſé par bien des obſtacles: tu vas en juger.</p>
-        <p>Hier au ſoir donc, aſſanlis par mille refléxions, pour nous égayer, nous reſolumes d'aller faire
-          un tour au Jardin du Roi, qui, comme tu ſçais, eſt fort voiſin de mon Logis.</p>
-        <p>
-          <quote>
-            <l>Arrivez dans ce lieu champêtre...</l>
-            <l>Ah! que ſi nous étions au tems</l>
-            <l>Où grace à l'aimable Printems</l>
-            <l>La nature ſemble renaître,</l>
-            <l>Je te ferais, mon cher Damon,</l>
-            <l>Une belle deſcription!</l>
-            <l>Que j'aimerais à te décrire</l>
-            <l>Les arbres, les fleurs, les gazons,</l>
-            <l>Des Oiſeaux les tendres chanſons,</l>
-            <l>Le Roſſignol &amp; le Zephire</l>
-            <l>Et l'onde au Criſtal argenté;</l>
-            <l>Mais tu ſçais bien que la froidure</l>
-            <l>Regne encore ſur la nature,</l>
-            <l>Et ma préſence, en verité,</l>
-            <l>Ne produit ni fleurs ni verdure.</l>
-            <l>Peſte ſoit des triſtes hivers,</l>
-            <l>Peſte de la ſaiſon maudite</l>
-            <l>Qui contraire au feu qui m'agite,</l>
-            <l>Te dérobe de ſi beaux vers.</l>
-          </quote>
-        </p>
-        <p>Pour revenir &amp; ſuſpendre cet entouſiaſme qui nous menerait trop loin: arrivés dans ce lieu
+          coûté bien des peines, &amp; a été traverſé par bien des obſtacles: tu vas en juger.
+    </p>
+    <p>
+     Hier au ſoir donc, aſſanlis par mille refléxions, pour nous égayer, nous reſolumes d'aller faire
+          un tour au Jardin du Roi, qui, comme tu ſçais, eſt fort voiſin de mon Logis.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Arrivez dans ce lieu champêtre...
+      </l>
+      <l>
+       Ah! que ſi nous étions au tems
+      </l>
+      <l>
+       Où grace à l'aimable Printems
+      </l>
+      <l>
+       La nature ſemble renaître,
+      </l>
+      <l>
+       Je te ferais, mon cher Damon,
+      </l>
+      <l>
+       Une belle deſcription!
+      </l>
+      <l>
+       Que j'aimerais à te décrire
+      </l>
+      <l>
+       Les arbres, les fleurs, les gazons,
+      </l>
+      <l>
+       Des Oiſeaux les tendres chanſons,
+      </l>
+      <l>
+       Le Roſſignol &amp; le Zephire
+      </l>
+      <l>
+       Et l'onde au Criſtal argenté;
+      </l>
+      <l>
+       Mais tu ſçais bien que la froidure
+      </l>
+      <l>
+       Regne encore ſur la nature,
+      </l>
+      <l>
+       Et ma préſence, en verité,
+      </l>
+      <l>
+       Ne produit ni fleurs ni verdure.
+      </l>
+      <l>
+       Peſte ſoit des triſtes hivers,
+      </l>
+      <l>
+       Peſte de la ſaiſon maudite
+      </l>
+      <l>
+       Qui contraire au feu qui m'agite,
+      </l>
+      <l>
+       Te dérobe de ſi beaux vers.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Pour revenir &amp; ſuſpendre cet entouſiaſme qui nous menerait trop loin: arrivés dans ce lieu
           champêtre, comme je t'ai déja dit, nous nous mimes à parler de choſe &amp; d'autres: Moi léger,
           étourdi, riant aſſez de tout; D... au contraire grave &amp; meſuré, avec ce talent ſingulier que tu
           lui connais pour ramener tout à la refléxion. La ſolitude, dit-on, inſpire des penſées
-          merveilleuſes.</p>
-        <p>
-          <quote>
-            <l>Nous débitions avec un ton</l>
-            <l>Digne des ſages du portique,</l>
-            <l>Une Morale ſocratique;</l>
-            <l>Mais plus froide que la ſaiſon;</l>
-            <l>Paſſant l'univers en revue,</l>
-            <l>Notre ſageſſe morfondue</l>
-            <l>Traitait comme de pauvres fous</l>
-            <l>Tous les humains, excepté nous.</l>
-            <l>Dans l'accès de notre folie,</l>
-            <l>Du monde plaignant les travers,</l>
-            <l>Il nous prenait par fois envie</l>
-            <l>D'aller peupler quelques deſerts.</l>
-            <l>Heureux, diſions-nous, les ſaints hommes,</l>
-            <l>Qui ne vivent qu'avec les ours!</l>
-            <l>Ils paſſent doucement leurs jours,</l>
-            <l>Tandis qu'eſclaves que nous ſommes, ....</l>
-            <l>Le vent de Biſe aſſurement</l>
-            <l>Qui nous ſoufflait dans les oreilles,</l>
-            <l>Nous inſpirait en ce moment</l>
-            <l>Tant d'extravagantes merveilles.</l>
-          </quote>
-        </p>
-        <p>Après avoir bien raiſonné, philoſophé, moraliſé, il vint à mon ami une idée des plus heureuſes.
+          merveilleuſes.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Nous débitions avec un ton
+      </l>
+      <l>
+       Digne des ſages du portique,
+      </l>
+      <l>
+       Une Morale ſocratique;
+      </l>
+      <l>
+       Mais plus froide que la ſaiſon;
+      </l>
+      <l>
+       Paſſant l'univers en revue,
+      </l>
+      <l>
+       Notre ſageſſe morfondue
+      </l>
+      <l>
+       Traitait comme de pauvres fous
+      </l>
+      <l>
+       Tous les humains, excepté nous.
+      </l>
+      <l>
+       Dans l'accès de notre folie,
+      </l>
+      <l>
+       Du monde plaignant les travers,
+      </l>
+      <l>
+       Il nous prenait par fois envie
+      </l>
+      <l>
+       D'aller peupler quelques deſerts.
+      </l>
+      <l>
+       Heureux, diſions-nous, les ſaints hommes,
+      </l>
+      <l>
+       Qui ne vivent qu'avec les ours!
+      </l>
+      <l>
+       Ils paſſent doucement leurs jours,
+      </l>
+      <l>
+       Tandis qu'eſclaves que nous ſommes, ....
+      </l>
+      <l>
+       Le vent de Biſe aſſurement
+      </l>
+      <l>
+       Qui nous ſoufflait dans les oreilles,
+      </l>
+      <l>
+       Nous inſpirait en ce moment
+      </l>
+      <l>
+       Tant d'extravagantes merveilles.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Après avoir bien raiſonné, philoſophé, moraliſé, il vint à mon ami une idée des plus heureuſes.
           Montons, dit-il, au Labirinthe; il y a long-tems que j'ai envie de faire ce Voyage, &amp; .....
           c'eſt fort bien dit, lui repliquai-je, tandis que nos pas s'égareront dans ces détours, ton eſprit
           ſe perdra dans un Labirinthe de refléxions. Montons ſans differer, car nous nous v prenons un peu
@@ -161,202 +306,416 @@
           malheur la porte ordinaire étoit fermée. Ne nous décourageons pas, me dit D... qui eſt préparé à
           tous les évenemens de la vie: il faut retourner ſur nos pas, &amp; tâcher d'entrer par un autre
           endroit: j'admirai la promptitude avec laquelle il avait imaginé cet expédient. Nous primes donc un
-          autre chemin. Qui l'eût prévu que nous trouverions encore tant d'obſtacles?</p>
-        <p>
-          <quote>
-            <l>D'abord il fallait traverſer</l>
-            <l>Des ſables fangeux &amp; mobiles,</l>
-            <l>Où nous ne pouvions quoiqu'agiles</l>
-            <l>Faire un ſeul pas ſans enfoncer.</l>
-          </quote>
-        </p>
-        <p>La raiſon en eſt bien ſimple. Comme il avait gelé la nuit, les rayons du Soleil qui avaient fait
+          autre chemin. Qui l'eût prévu que nous trouverions encore tant d'obſtacles?
+    </p>
+    <p>
+     <quote>
+      <l>
+       D'abord il fallait traverſer
+      </l>
+      <l>
+       Des ſables fangeux &amp; mobiles,
+      </l>
+      <l>
+       Où nous ne pouvions quoiqu'agiles
+      </l>
+      <l>
+       Faire un ſeul pas ſans enfoncer.
+      </l>
+     </quote>
+    </p>
+    <p>
+     La raiſon en eſt bien ſimple. Comme il avait gelé la nuit, les rayons du Soleil qui avaient fait
           tranſpirer la terre, rendaient le paſſage impraticable. Tu vois que je n'avance rien que je ne ſois
           en état de prouver, &amp; que je ne reſſemble pas à ces Voyageurs qui vous débitent à tout propos
-          des fables ſurannées, qu'on aime mieux croire bonnement que de s'en aller informer ſur les lieux.</p>
-        <p>Dans le bourbier juſqu'à mi-jambe, ne pouvant avancer: telle eſt me diſait mon ami,
-          <quote>
-            <l>Qui n'avançait pas davantage,</l>
-            <l>Du monde la ſenſible image.</l>
-            <l>C'eſt un ſable, un terrein mouvant</l>
-            <l>Où l'on enfonce à chaque inſtant:</l>
-            <l>C'eſt un bourbier où l'on s'engage,</l>
-            <l>Où l'on ſe perd de plus en plus,</l>
-            <l>Et qui nous bouche le paſſage</l>
-            <l>
-              Du Labirinthe des vertus.</l>
-          </quote>
-        </p>
-        <p>Tu prends bien ton tems pour moraliſer, lui dis-je, crois-moi ſortons d'ici, &amp; renonçons à
+          des fables ſurannées, qu'on aime mieux croire bonnement que de s'en aller informer ſur les lieux.
+    </p>
+    <p>
+     Dans le bourbier juſqu'à mi-jambe, ne pouvant avancer: telle eſt me diſait mon ami,
+     <quote>
+      <l>
+       Qui n'avançait pas davantage,
+      </l>
+      <l>
+       Du monde la ſenſible image.
+      </l>
+      <l>
+       C'eſt un ſable, un terrein mouvant
+      </l>
+      <l>
+       Où l'on enfonce à chaque inſtant:
+      </l>
+      <l>
+       C'eſt un bourbier où l'on s'engage,
+      </l>
+      <l>
+       Où l'on ſe perd de plus en plus,
+      </l>
+      <l>
+       Et qui nous bouche le paſſage
+      </l>
+      <l>
+       Du Labirinthe des vertus.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Tu prends bien ton tems pour moraliſer, lui dis-je, crois-moi ſortons d'ici, &amp; renonçons à
           notre voyage. Lâche, s'écria-t'il d'un ton pathetique, on voit bien que tu n'es pas encore fait aux
-          grandes entrepriſes, ni aux revers qui les accompagnent.</p>
-        <p>Je l'écoutais en ſilence, me doutant bien que ſon eſprit fécond allait lui ſuggerer quelque
+          grandes entrepriſes, ni aux revers qui les accompagnent.
+    </p>
+    <p>
+     Je l'écoutais en ſilence, me doutant bien que ſon eſprit fécond allait lui ſuggerer quelque
           nouvelle reſſource qui nous tirerait d'embarras: je ne me trompai point. Que l'on eſt heureux
           d'avoir pour compagnon de ſes voyages, un de ces génies prompts &amp; fertiles qui ne ſe rebutent de
           rien! Montons, dit-il, ſur cette Terraſſe (tu connais la Terraſſe qui domine ſur des marais) elle
           nous conduira plus facilement au but de notre voyage. Il s'avance en même tems d'un air intrépide,
           je le ſuis. Il grimpe, je grimpe à ſon exemple. Voilà pourtant, m'écriaije, à la vûe de ces marais,
           voilà les lieux
-          <quote>
-            <l>Qui produiſent tant de légumes,</l>
-            <l>Tant de choux &amp; de champignons,</l>
-            <l>Tant de poireaux &amp; tant d'oignons,</l>
-            <l>Tant de ſimples bons pour les rhumes.</l>
-          </quote>
-        </p>
-        <p>J'allais enfiler une longue Kyrielle, mais un étourdiſſement qui penſa me jetter à la renverſe,
+     <quote>
+      <l>
+       Qui produiſent tant de légumes,
+      </l>
+      <l>
+       Tant de choux &amp; de champignons,
+      </l>
+      <l>
+       Tant de poireaux &amp; tant d'oignons,
+      </l>
+      <l>
+       Tant de ſimples bons pour les rhumes.
+      </l>
+     </quote>
+    </p>
+    <p>
+     J'allais enfiler une longue Kyrielle, mais un étourdiſſement qui penſa me jetter à la renverſe,
           m'arrêta tout d'un coup. Mon ami cependant ne laiſſait pas d'avancer: il marchait gravement ſur la
           périlleuſe Terraſſe, ſans s'embarraſſer ſi je le ſuivais ou non. Nous arrivâmes enfin, &amp; nous
-          deſcendîmes ſains &amp; ſaufs.</p>
-        <p>Pour moi je me croiais au-deſſus de tous les dangers, mais le deſtin nous réſervait à bien
+          deſcendîmes ſains &amp; ſaufs.
+    </p>
+    <p>
+     Pour moi je me croiais au-deſſus de tous les dangers, mais le deſtin nous réſervait à bien
           d'autres traverſes. A peine avions-nous fait deux pas, que d'une cahutte voiſine nous vîmes ſortir
-          <quote>
-            <l>Un frere cadet de Cerbere,</l>
-            <l>Qui plus méchant que ſon aîné,</l>
-            <l>Se mit d'une voix aigre &amp; claire,</l>
-            <l>A japer comme un forcené.</l>
-            <l>Quoiqu'il n'eût une triple gueule,</l>
-            <l>Le drôle avec la ſienne ſeule</l>
-            <l>Faiſait trois fois plus de fracas,</l>
-            <l>Que n'en fait ſon parent là-bas.</l>
-          </quote>
-        </p>
-        <p>Envain, D... avec ſa tranquillité ordinaire, tâchait de lui faire entendre raiſon. Les careſſes
+     <quote>
+      <l>
+       Un frere cadet de Cerbere,
+      </l>
+      <l>
+       Qui plus méchant que ſon aîné,
+      </l>
+      <l>
+       Se mit d'une voix aigre &amp; claire,
+      </l>
+      <l>
+       A japer comme un forcené.
+      </l>
+      <l>
+       Quoiqu'il n'eût une triple gueule,
+      </l>
+      <l>
+       Le drôle avec la ſienne ſeule
+      </l>
+      <l>
+       Faiſait trois fois plus de fracas,
+      </l>
+      <l>
+       Que n'en fait ſon parent là-bas.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Envain, D... avec ſa tranquillité ordinaire, tâchait de lui faire entendre raiſon. Les careſſes
           ne faiſaient que irriter davantage.
-          <quote>
-            <l>Tel autrefois un fier Dragon,</l>
-            <l>Contre l'élite de la Gréce,</l>
-            <l>Contre l'amour &amp; la ſageſſe,</l>
-            <l>Soutint l'honneur de la Toiſon.</l>
-          </quote>
-        </p>
-        <p>Heureuſement j'avais dans ma poche une Parodie nouvelle, dont je lui recitai quelques vers. Il ne
+     <quote>
+      <l>
+       Tel autrefois un fier Dragon,
+      </l>
+      <l>
+       Contre l'élite de la Gréce,
+      </l>
+      <l>
+       Contre l'amour &amp; la ſageſſe,
+      </l>
+      <l>
+       Soutint l'honneur de la Toiſon.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Heureuſement j'avais dans ma poche une Parodie nouvelle, dont je lui recitai quelques vers. Il ne
           put ſe défendre de leur charme ſoporifique.
-          <quote>
-            <l>Et las de réſiſter ſuccombant ſous l'effort,</l>
-            <l>Il ſoupire, s'abat, ferme l'œil &amp; s'endort.</l>
-          </quote>
-        </p>
-        <p>Ce n'était là qu'un premier obſtacle.</p>
-        <p>
-          <quote>
-            <l>Sort auſſi-tôt un monſtre aîlé,</l>
-            <l>Noir, &amp; de blanc entremêlé,</l>
-            <l>Qui babillant comme une femme,</l>
-            <l>Vint encor nous chanter ſa gamme;</l>
-            <l>Il voltigeait autour de nous,</l>
-            <l>Avec ſon bec il faiſait rage,</l>
-            <l>Voulait nous barrer le paſſage,</l>
-            <l>Nous lutinait comme des fous.</l>
-          </quote>
-        </p>
-        <p>Nous étions deſeſperez, &amp; tout prêts pour cette fois à rebrouſſer chemin, quand par bonheur
+     <quote>
+      <l>
+       Et las de réſiſter ſuccombant ſous l'effort,
+      </l>
+      <l>
+       Il ſoupire, s'abat, ferme l'œil &amp; s'endort.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Ce n'était là qu'un premier obſtacle.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Sort auſſi-tôt un monſtre aîlé,
+      </l>
+      <l>
+       Noir, &amp; de blanc entremêlé,
+      </l>
+      <l>
+       Qui babillant comme une femme,
+      </l>
+      <l>
+       Vint encor nous chanter ſa gamme;
+      </l>
+      <l>
+       Il voltigeait autour de nous,
+      </l>
+      <l>
+       Avec ſon bec il faiſait rage,
+      </l>
+      <l>
+       Voulait nous barrer le paſſage,
+      </l>
+      <l>
+       Nous lutinait comme des fous.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Nous étions deſeſperez, &amp; tout prêts pour cette fois à rebrouſſer chemin, quand par bonheur
           il appercut de loin
-          <quote>
-            <l>Un petit Abbé jouvenceau</l>
-            <l>Qui ſe promenait avec grace,</l>
-            <l>Auſſi-tôt nous quittant la place,</l>
-            <l>Il s'échappe, ne fait qu'un ſaut,</l>
-            <l>Et plein d'une nouvelle audace</l>
-            <l>Court le tirer par ſon manteau.</l>
-          </quote>
-        </p>
-        <p>Tu vas prendre tout cela pour du fabuleux, ſans doute, mais je vais bientôt te déſabuſer. Ce
+     <quote>
+      <l>
+       Un petit Abbé jouvenceau
+      </l>
+      <l>
+       Qui ſe promenait avec grace,
+      </l>
+      <l>
+       Auſſi-tôt nous quittant la place,
+      </l>
+      <l>
+       Il s'échappe, ne fait qu'un ſaut,
+      </l>
+      <l>
+       Et plein d'une nouvelle audace
+      </l>
+      <l>
+       Court le tirer par ſon manteau.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Tu vas prendre tout cela pour du fabuleux, ſans doute, mais je vais bientôt te déſabuſer. Ce
           Cerbere que nous avons endormi, c'eſt un petit chien qui gardait la cahute: le monſtre ailé, c'eſt
           une Pie; ainſi tu ne dois pas t'étonner que cet animal qui aime tant à jaſer, nous ait quitté ſi
-          bruſquement pour aller caqueter avec ce jeune Abbé.</p>
-        <p>Quoi qu'il en ſoit, débarraſſé de ces monſtres, nous avancions gayement vers le Labirinthe, en
+          bruſquement pour aller caqueter avec ce jeune Abbé.
+    </p>
+    <p>
+     Quoi qu'il en ſoit, débarraſſé de ces monſtres, nous avancions gayement vers le Labirinthe, en
           remerciant le Ciel de nous avoir délivré de tant de périls, lorſque
-          <quote>
-            <l>Soudain ſe préſente à nos yeux,</l>
-            <l>Que ſon aſpect ſeul intimide,</l>
-            <l>Un mont dont le ſommet rapide,</l>
-            <l>Portait ſa tête dans les Cieux.</l>
-          </quote>
-        </p>
-        <p>Mon ami rappellant ſon courage, s'élance, &amp; bientôt atteint au ſommet. Pour moi je crois
+     <quote>
+      <l>
+       Soudain ſe préſente à nos yeux,
+      </l>
+      <l>
+       Que ſon aſpect ſeul intimide,
+      </l>
+      <l>
+       Un mont dont le ſommet rapide,
+      </l>
+      <l>
+       Portait ſa tête dans les Cieux.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Mon ami rappellant ſon courage, s'élance, &amp; bientôt atteint au ſommet. Pour moi je crois
           qu'un Dieu le pouſſait par derriere, tant il montait avec agilité, malgré les refléxions qui le
-          ſurchargeaient, &amp; dont le poids aurait dû le précipiter.</p>
-        <p>Au bas du mont je le contemplais s'élever, &amp; feſais des efforts pour le ſuivre, comme un
-          Aiglon qui eſſaie ſon vol en regardant ſa mere qui parcourt l'eſpace des Cieux.</p>
-        <p>Cependant à force de gravir des pieds &amp; des mains, j'étais déja preſque au milieu,
-          <quote>
-            <l>Lorſque tout-à-coup quittant priſe,</l>
-            <l>Je tombe, roule avec fracas,</l>
-            <l>Et me retrouve tout en bas;</l>
-            <l>Tu peux juger de ma ſurpriſe.</l>
-            <l>Trois fois dans un tranſport jaloux</l>
-            <l>Je recommençai l'eſcalade,</l>
-            <l>Trois fois après mainte caſcade,</l>
-            <l>J'allai meſurer les cailloux.</l>
-          </quote>
-        </p>
-        <p>D... aſſis tranquillement ſur la cime de la montagne, me voiait rouler du haut en bas ſans la
+          ſurchargeaient, &amp; dont le poids aurait dû le précipiter.
+    </p>
+    <p>
+     Au bas du mont je le contemplais s'élever, &amp; feſais des efforts pour le ſuivre, comme un
+          Aiglon qui eſſaie ſon vol en regardant ſa mere qui parcourt l'eſpace des Cieux.
+    </p>
+    <p>
+     Cependant à force de gravir des pieds &amp; des mains, j'étais déja preſque au milieu,
+     <quote>
+      <l>
+       Lorſque tout-à-coup quittant priſe,
+      </l>
+      <l>
+       Je tombe, roule avec fracas,
+      </l>
+      <l>
+       Et me retrouve tout en bas;
+      </l>
+      <l>
+       Tu peux juger de ma ſurpriſe.
+      </l>
+      <l>
+       Trois fois dans un tranſport jaloux
+      </l>
+      <l>
+       Je recommençai l'eſcalade,
+      </l>
+      <l>
+       Trois fois après mainte caſcade,
+      </l>
+      <l>
+       J'allai meſurer les cailloux.
+      </l>
+     </quote>
+    </p>
+    <p>
+     D... aſſis tranquillement ſur la cime de la montagne, me voiait rouler du haut en bas ſans la
           moindre émotion: il alloit même juſqu'à me débiter des lambeaux de Morale, comme d'une Tribune. Ami,
           diſait-il,
-          <quote>
-            <l>Ami, qu'il eſt doux pour le ſage</l>
-            <l>De pouvoir contempler du port,</l>
-            <l>Des mortels en butte à l'orage</l>
-            <l>Tenter un généreux effort.</l>
-            <l>Avant que d'arriver au terme,</l>
-            <l>On trebuche plus d'une fois,</l>
-            <l>Heureux qui toujours ſtable &amp; ferme,</l>
-            <l>Se ſoutient par ſon propre poids.</l>
-          </quote>
-        </p>
-        <p>J'étais moins en humeur d'écouter de ſi beaux axiomes, que de faire proviſion de pierres pour en
+     <quote>
+      <l>
+       Ami, qu'il eſt doux pour le ſage
+      </l>
+      <l>
+       De pouvoir contempler du port,
+      </l>
+      <l>
+       Des mortels en butte à l'orage
+      </l>
+      <l>
+       Tenter un généreux effort.
+      </l>
+      <l>
+       Avant que d'arriver au terme,
+      </l>
+      <l>
+       On trebuche plus d'une fois,
+      </l>
+      <l>
+       Heureux qui toujours ſtable &amp; ferme,
+      </l>
+      <l>
+       Se ſoutient par ſon propre poids.
+      </l>
+     </quote>
+    </p>
+    <p>
+     J'étais moins en humeur d'écouter de ſi beaux axiomes, que de faire proviſion de pierres pour en
           accabler l'Orateur. Heureuſement pour lui mon dernier effort ne fut pas inutile. Je ſurmontai enfin
           la petite butte qui m'avait arrêté juſqueslà, &amp; mon Compagnon me felicita gravement ſur un
-          ſuccès auſſi glorieux.</p>
-        <p>Après m'être repoſé quel-que tems, nous nous engageâmes dans les routes du Labirinthe, où nous
+          ſuccès auſſi glorieux.
+    </p>
+    <p>
+     Après m'être repoſé quel-que tems, nous nous engageâmes dans les routes du Labirinthe, où nous
           nous égarions à l'envi. Si j'étais Poëte ou menteur, je te dirais que
-          <quote>
-            <l>Nous trouvâmes dans ſes détours</l>
-            <l>De Silvains une maſcarade,</l>
-            <l>Mainte Nimphe, mainte Driade,</l>
-            <l>Qui ſe racontaient leurs amours.</l>
-          </quote>
-        </p>
-        <p>Mais comme je ne ſuis ni l'un ni l'autre, je te dirai tout ſimplement que nous nous amuſions
+     <quote>
+      <l>
+       Nous trouvâmes dans ſes détours
+      </l>
+      <l>
+       De Silvains une maſcarade,
+      </l>
+      <l>
+       Mainte Nimphe, mainte Driade,
+      </l>
+      <l>
+       Qui ſe racontaient leurs amours.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Mais comme je ne ſuis ni l'un ni l'autre, je te dirai tout ſimplement que nous nous amuſions
           beaucoup à courir, à nous perdre, à nous retrouver. Mon ami même commençait à s'égaier: mais je me
           ſouviens qu'une fois il s'arrêta tout hors d'haleine pour me dire avec un ſérieux tout-à-fait
           ſingulier:
-          <quote>
-            <l>C'eſt ainſi, mon cher, qu'on s'égare,</l>
-            <l>En courant après le bonheur.</l>
-            <l>Le ſentier qu'on croit le meilleur</l>
-            <l>Eſt celui qui nous en ſépare:</l>
-            <l>Une ſeule route y conduit;</l>
-            <l>A nos yeux s'en préſentent mille,</l>
-            <l>Nous choiſiſſons la plus facile,</l>
-            <l>L'apparence ainſi nous ſéduit.</l>
-            <l>Ainſi nous errons dans ce monde</l>
-            <l>Entourez d'une nuit profonde</l>
-            <l>Pour ſuivre une ombre qui nous fuit.</l>
-          </quote>
-        </p>
-        <p>Dégagé de ce gros ballot de Morale qui l'appeſantiſſait, il ſe mit à courir plus légerement.</p>
-        <p>De détours en détours nous nous trouvâmes dans une allée qui avait quelque choſe de plus agréable
+     <quote>
+      <l>
+       C'eſt ainſi, mon cher, qu'on s'égare,
+      </l>
+      <l>
+       En courant après le bonheur.
+      </l>
+      <l>
+       Le ſentier qu'on croit le meilleur
+      </l>
+      <l>
+       Eſt celui qui nous en ſépare:
+      </l>
+      <l>
+       Une ſeule route y conduit;
+      </l>
+      <l>
+       A nos yeux s'en préſentent mille,
+      </l>
+      <l>
+       Nous choiſiſſons la plus facile,
+      </l>
+      <l>
+       L'apparence ainſi nous ſéduit.
+      </l>
+      <l>
+       Ainſi nous errons dans ce monde
+      </l>
+      <l>
+       Entourez d'une nuit profonde
+      </l>
+      <l>
+       Pour ſuivre une ombre qui nous fuit.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Dégagé de ce gros ballot de Morale qui l'appeſantiſſait, il ſe mit à courir plus légerement.
+    </p>
+    <p>
+     De détours en détours nous nous trouvâmes dans une allée qui avait quelque choſe de plus agréable
           que les autres. L'air qu'on y reſpirait me ſemblait plus doux. Peut-être que mon imagination remplie
-          alors de fantomes gracieux, lui prêtait des charmes qu'elle n'avait pas.</p>
-        <p>
-          <quote>
-            <l>Plein de ces riantes chimeres</l>
-            <l>Dont quelquefois je me répais,</l>
-            <l>J'errais dans ces lieux ſolitaires;</l>
-            <l>Mes yeux leur trouvaient mille attraits;</l>
-            <l>Déja ma rapide penſée</l>
-            <l>Confondant mille objets divers,</l>
-            <l>Me tranſportait dans l'Eliſée</l>
-            <l>Sous des ombrages toujours verds.</l>
-            <l>J'y voyais dans ma rêverie</l>
-            <l>Des Bouquets de fleurs couronnés</l>
-            <l>Qui parfumaient une prairie,</l>
-            <l>Séjour des Amans fortunés.</l>
-          </quote>
-        </p>
-        <p>J'allais voir encore bien d'autres extravagances, lorſque je vis mon ami qui s'était tenu éloigné
+          alors de fantomes gracieux, lui prêtait des charmes qu'elle n'avait pas.
+    </p>
+    <p>
+     <quote>
+      <l>
+       Plein de ces riantes chimeres
+      </l>
+      <l>
+       Dont quelquefois je me répais,
+      </l>
+      <l>
+       J'errais dans ces lieux ſolitaires;
+      </l>
+      <l>
+       Mes yeux leur trouvaient mille attraits;
+      </l>
+      <l>
+       Déja ma rapide penſée
+      </l>
+      <l>
+       Confondant mille objets divers,
+      </l>
+      <l>
+       Me tranſportait dans l'Eliſée
+      </l>
+      <l>
+       Sous des ombrages toujours verds.
+      </l>
+      <l>
+       J'y voyais dans ma rêverie
+      </l>
+      <l>
+       Des Bouquets de fleurs couronnés
+      </l>
+      <l>
+       Qui parfumaient une prairie,
+      </l>
+      <l>
+       Séjour des Amans fortunés.
+      </l>
+     </quote>
+    </p>
+    <p>
+     J'allais voir encore bien d'autres extravagances, lorſque je vis mon ami qui s'était tenu éloigné
           de moi quelque tems. Il tenait une eſpéce de Livre qu'il parcourait d'un air dédaigneux. Ce Livre,
           c'étaient les Tablettes d'un Auteur jadis tragique, remplies d'Epitalames, de Bouquets, de Romances
           &amp; d'autres fadaiſes ſemblables. Je ſentais bien, m'écriai-je auſſi-tôt, qu'il y avait je ne ſçai
@@ -366,48 +725,104 @@
           veux, me dit-il ſerieuſement, publier que je les ai trouvées, &amp; je ſuis ſûr que l'Auteur ſera
           aſſez indiſcret pour les réclamer. Comme la choſe ne valait pas la peine de nous arrêter, nous
           ſortimes de l'allée, après avoir gravé ces vers ſur l'écorce d'un arbre:
-          <quote>
-            <l>Fuyez ce ſéjour dangéreux,</l>
-            <l>Quelque charme qui vous attire,</l>
-            <l>Jeunes Auteurs qui vous mêlez d'écrire.</l>
-            <l>Un Poëte a laiſſé ſon eſprit dans ces lieux.</l>
-          </quote>
-        </p>
-        <p>Enfin, nous arrivâmes au haut du Labirinthe d'où l'on découvre Paris &amp; les environs. C'eſt
+     <quote>
+      <l>
+       Fuyez ce ſéjour dangéreux,
+      </l>
+      <l>
+       Quelque charme qui vous attire,
+      </l>
+      <l>
+       Jeunes Auteurs qui vous mêlez d'écrire.
+      </l>
+      <l>
+       Un Poëte a laiſſé ſon eſprit dans ces lieux.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Enfin, nous arrivâmes au haut du Labirinthe d'où l'on découvre Paris &amp; les environs. C'eſt
           quelque choſe d'étonnant, mon cher, que la quantité de Maiſons, de Clochers &amp; de Moulins qu'on
           apperçoit de-là. Je trouvais ce ſpectacle fort beau, fort intéreſſant, &amp; j'y emploiais tous mes
           yeux autant qu'ils pouvaient s'étendre, mais D... ſçait tirer profit de tout.
-          <quote>
-            <l>Vois, me dit-il, cette fumée</l>
-            <l>Qui s'éleve par tourbillons</l>
-            <l>De deſſus les toits des maiſons,</l>
-            <l>Et ſçaches ce qui l'a formée;</l>
-            <l>De nos grands ce ſont les projets,</l>
-            <l>Les intrigues de nos Coquettes,</l>
-            <l>L'eſprit de nos petits Collets,</l>
-            <l>De nos M... les amourettes;</l>
-            <l>Ce ſont les vers de nos Auteurs,</l>
-            <l>Les fortunes de nos Actrices,</l>
-            <l>Et pour finir par les Couliſſes,</l>
-            <l>Les airs fendans de nos Acteurs.</l>
-          </quote>
-        </p>
-        <p>Eh! point du tout, lui dis-je en riant, cette fumée ſort des cheminées que tu vois.</p>
-        <p>N'apperçois-tu pas encore dans le Lointain, ajoutatil bruſquement?</p>
-        <p>
-          <quote>
-            <l>Ces Moulins qu'agite le vent</l>
-            <l>Avec une vîteſſe extrême;</l>
-            <l>L'homme, mon cher, tourne de même.</l>
-            <l>Nous ſommes des Moulins à vent,</l>
-            <l>Que l'haleine d'une Maîtreſſe,</l>
-            <l>Que le ſouffle d'un vain déſir</l>
-            <l>Contraint de tournoyer ſans ceſſe,</l>
-            <l>Et voilà d'où naît cette ivreſſe</l>
-            <l>Que nous prenons pour le plaiſir.</l>
-          </quote>
-        </p>
-        <p>Il allait m'en débiter encore bien d'autres, ſi je ne l'avais interrompu. Tout cela eſt fort bon,
+     <quote>
+      <l>
+       Vois, me dit-il, cette fumée
+      </l>
+      <l>
+       Qui s'éleve par tourbillons
+      </l>
+      <l>
+       De deſſus les toits des maiſons,
+      </l>
+      <l>
+       Et ſçaches ce qui l'a formée;
+      </l>
+      <l>
+       De nos grands ce ſont les projets,
+      </l>
+      <l>
+       Les intrigues de nos Coquettes,
+      </l>
+      <l>
+       L'eſprit de nos petits Collets,
+      </l>
+      <l>
+       De nos M... les amourettes;
+      </l>
+      <l>
+       Ce ſont les vers de nos Auteurs,
+      </l>
+      <l>
+       Les fortunes de nos Actrices,
+      </l>
+      <l>
+       Et pour finir par les Couliſſes,
+      </l>
+      <l>
+       Les airs fendans de nos Acteurs.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Eh! point du tout, lui dis-je en riant, cette fumée ſort des cheminées que tu vois.
+    </p>
+    <p>
+     N'apperçois-tu pas encore dans le Lointain, ajoutatil bruſquement?
+    </p>
+    <p>
+     <quote>
+      <l>
+       Ces Moulins qu'agite le vent
+      </l>
+      <l>
+       Avec une vîteſſe extrême;
+      </l>
+      <l>
+       L'homme, mon cher, tourne de même.
+      </l>
+      <l>
+       Nous ſommes des Moulins à vent,
+      </l>
+      <l>
+       Que l'haleine d'une Maîtreſſe,
+      </l>
+      <l>
+       Que le ſouffle d'un vain déſir
+      </l>
+      <l>
+       Contraint de tournoyer ſans ceſſe,
+      </l>
+      <l>
+       Et voilà d'où naît cette ivreſſe
+      </l>
+      <l>
+       Que nous prenons pour le plaiſir.
+      </l>
+     </quote>
+    </p>
+    <p>
+     Il allait m'en débiter encore bien d'autres, ſi je ne l'avais interrompu. Tout cela eſt fort bon,
           lui dis-je, mais je t'avertis que la place n'eſt plus tenable. Il fait un vent qui glace: crois-moi,
           deſcendons, de crainte d'attraper quelque rhume qu'on ne guérit point avec de la Morale.
           Effectivement, il commonca à ſentir que le froid redoublait, &amp; que le manteau de la Philoſophie
@@ -415,8 +830,9 @@
           que nous n'étions montés: nous ne trouvâmes plus ni le Chien, ni la Pie, ni l'Abbé. Il n'y avait que
           deux extravagans comme nous, qui puſſent ſe trouver en hiver à cinq heures &amp; demie du ſoir dans
           le Jardin du Roi. Nous le traverſâmes en jurant de bon cœur contre la fureur des Voyages, &amp; nous
-          regagnâmes chacun notre Logis.</p>
-      </div>
-    </body>
-  </text>
+          regagnâmes chacun notre Logis.
+    </p>
+   </div>
+  </body>
+ </text>
 </TEI>

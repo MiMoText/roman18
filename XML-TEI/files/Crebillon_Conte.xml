@@ -2,76 +2,129 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Crebillon_Conte" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title ref="bgrf:54.13"> Ah quel conte !: MiMoText edition </title>
-        <author ref="viaf:24600044 wikidata:Q733161"> Claude Prosper Jolyot de Crébillon (1707-1777) </author>
-        <respStmt>
-          <resp> data capture </resp>
-          <name> frantext </name>
-        </respStmt>
-        <respStmt>
-          <resp> encoding </resp>
-          <name> Johanna Konstanciak </name>
-        </respStmt>
-        <respStmt>
-          <resp> editor </resp>
-          <name> Julia Röttgermann </name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words"> 135187 </measure>
-      </extent>
-      <publicationStmt>
-        <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
-        <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
-        <date> 2020 </date>
-        <availability>
-          <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource"> <ref target="https://www.frantext.fr/"/> </bibl>
-        <bibl type="printSource">
-          <title>Ah quel conte ! </title>
-          <author>Claude Prosper Jolyot de Crébillon</author>
-          <date>1779</date>
-         </bibl>
-        <bibl type="firstEdition"> <date> 1751 </date> </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="fra"/>
-      </langUsage>
-      <textClass>
-        <keywords>
-          <term type="form"> mixed </term>
-          <term type="spelling"> historical </term>
-          <term type="data-capture"> semi-automatic transcription </term>
-        </keywords>
-      </textClass>
-      <textDesc>
-        <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-        <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
-        <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-        <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-      <change when="2021-01-14"> Initital ELTeC level-1 </change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="group">
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 1 </head>
-          <p> Selon les annales de cet ancien et célebre empire d'Isma, qui, si l'on en croit quelques-uns de nos sçavans, étoit situé dans la grande
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title ref="bgrf:54.13">
+     Ah quel conte !: MiMoText edition
+    </title>
+    <author ref="viaf:24600044 wikidata:Q733161">
+     Claude Prosper Jolyot de Crébillon (1707-1777)
+    </author>
+    <respStmt>
+     <resp>
+      data capture
+     </resp>
+     <name>
+      frantext
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      encoding
+     </resp>
+     <name>
+      Johanna Konstanciak
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      editor
+     </resp>
+     <name>
+      Julia Röttgermann
+     </name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">
+     135187
+    </measure>
+   </extent>
+   <publicationStmt>
+    <publisher ref="https://mimotext.uni-trier.de">
+     Mining and Modeling Text
+    </publisher>
+    <distributor ref="https://github.com/mimotext/roman18">
+     Github
+    </distributor>
+    <date>
+     2020
+    </date>
+    <availability>
+     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="digitalSource">
+     <ref target="https://www.frantext.fr/"/>
+     <publisher>
+      Frantext
+     </publisher>
+     <date>
+      unknown
+     </date>
+    </bibl>
+    <bibl type="printSource">
+     <title>
+      Ah quel conte !
+     </title>
+     <author>
+      Claude Prosper Jolyot de Crébillon
+     </author>
+     <date>
+      1779
+     </date>
+    </bibl>
+    <bibl type="firstEdition">
+     <date>
+      1751
+     </date>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="fra"/>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="form">
+      mixed
+     </term>
+     <term type="spelling">
+      historical
+     </term>
+     <term type="data-capture">
+      semi-automatic transcription
+     </term>
+    </keywords>
+   </textClass>
+   <textDesc>
+    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+    <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
+    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2021-01-14">
+    Initital ELTeC level-1
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 1
+     </head>
+     <p>
+      Selon les annales de cet ancien et célebre empire d'Isma, qui, si l'on en croit quelques-uns de nos sçavans, étoit situé dans la grande
             presqu'isle de Camanfour, il y a dix siecles, et plus,qu'un prince nommé Schézaddin Télaïzé, regnoit sur les vastes et florissantes
             régions qui le composoient. Pour faire en peu de mots son portrait, et donner en même tems une légere idée de sa cour, je dirai à votre
             majesté qu'il possédoit toutes les vertus dont on loue les rois pendant leur vie, sans avoir aucun de ces vices qu'on ne leur trouve
@@ -156,11 +209,15 @@
             encore plus difficile d'empêcher un coeur tendre de se livrer à l'amour, que d'en inspirer à celui qui craint le plus de le connoître.
             Quelque désavantageusement que Taciturne pût peindre les femmes à son maître, de pareils portraits n'auroient pas prévalu sur leurs
             charmes, si Schézaddin eût alors été assez heureux pour en connoître le prix; et si, en attendant ce coup de foudre, sans lequel il ne
-            croyoit pas que l'on fût véritablement frappé, il eût cru, ce qui, dans le fond, eût été vrai, qu'il étoit possible qu'il s'amusât. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 2 </head>
-          <p> Ce prince s'obstinoit toujours à jouer le héros, lorsqu'une des plus puissantes et des plus aimables fées qui gouvernassent alors
+            croyoit pas que l'on fût véritablement frappé, il eût cru, ce qui, dans le fond, eût été vrai, qu'il étoit possible qu'il s'amusât.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 2
+     </head>
+     <p>
+      Ce prince s'obstinoit toujours à jouer le héros, lorsqu'une des plus puissantes et des plus aimables fées qui gouvernassent alors
             l'univers, se rendit incognito dans un château qu'elle possédoit aux environs de Tinzulk. Il y avoit dix ans que cette fée, occupée à
             faire sa tournée dans le monde, avoit quitté le royaume d'Isma dont, depuis un tems immémorial, elle étoit la protectrice; lorsqu'elle
             étoit partie, Schézaddin étoit encore dans l'enfance. Depuis son départ, elle n'avoit pas entendu parler de lui, parce qu'il n'avoit pas
@@ -229,11 +286,15 @@
             faut beaucoup, mais je dis beaucoup, que je fasse de ces villes-là, et de tout leur territoire autant de cas que de l'isle de Sérendib, ou
             de l'isle d'Ebene, où il ne put jamais arriver rien que d'inconcevable, et même d'extraordinaire; et d'où, par conséquent, un conteur bien
             avisé ne doit pas sortir, à moins que, comme Moslem, on ne soit assez heureux pour trouver un pays dont personne n'ait connoissance. Mais,
-            il faut l'avouer, cela est si rare! Si rare qu'un homme raisonnable ne peut guere compter là-dessus. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 3 </head>
-          <p> Aussi-tôt que le prince fut couché, le génie du sommeil, selon les ordres qu'il avoit reçus, s'empara de lui, et amena les songes: et la
+            il faut l'avouer, cela est si rare! Si rare qu'un homme raisonnable ne peut guere compter là-dessus.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 3
+     </head>
+     <p>
+      Aussi-tôt que le prince fut couché, le génie du sommeil, selon les ordres qu'il avoit reçus, s'empara de lui, et amena les songes: et la
             fée, dans laseule intention de l'observer, se plaça à ses côtés, non sans avoir pris la sage précaution de le faire dormir assez
             profondément pour que le trouble de ses sens, à quelque point qu'il allât, ne pût l'éveiller. Bientôt, suivant les desirs de la fée, les
             objets les plus rians et les plus voluptueux s'offrirent à lui. Transporté dans un palais où tout ce qui peut étonner, et charmer les
@@ -308,11 +369,15 @@
             pourtant je ne crois pas qu'on m'accuse de manquer de pénétration; il est cependant réel que j'en suis-là. Eh! Sire, dit le visir, la
             féerie! Il a ma foi raison, dit le sultan, la féerie: cela est lumineux; je n'y avois pas pris garde. Parbleu! J'ose en répondre, on ne me
             verra plus de ces distractions-là, d'autant plus que je commence à m'appercevoir que cette histoire sera un conte, et qu'il me seroit amer
-            d'avoir un jour à me reprocher d'en avoir perdu une parole. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 4 </head>
-          <p> Schézaddin étoit si peu accoutumé à rêver en dormant, qu'il eut toutes les peines du monde à croire qu'un songe eût pu lui offrir des
+            d'avoir un jour à me reprocher d'en avoir perdu une parole.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 4
+     </head>
+     <p>
+      Schézaddin étoit si peu accoutumé à rêver en dormant, qu'il eut toutes les peines du monde à croire qu'un songe eût pu lui offrir des
             objets aussi flatteurs que l'étoient ceux qui venoient de séduire ses sens, et qu'il chercha quelque tems encore cette nymphe avec
             laquelle il avoit eu cet entretien si vif et si suivi. Lorsqu'il fut bien convaincu que ce n'étoit qu'un songe, il ne sçut d'abord s'il
             devoit s'en réjouir, ou s'en affliger; regretter une illusion qui lui avoit procuré de si doux plaisirs, ou se plaindre de se trouver
@@ -450,11 +515,15 @@
             crainte de perdre son amant l'emportasur elles, et l'obligerent, enfin, à lui parler d'un ton, qui, s'il convenoit moins à son amour que
             celui qu'elle avoit employé jusques-là, alloit mieux à sa dignité et à ses projets. Quoiqu'il la trouvât excessivement prude, et qu'il ne
             crût pas du tout l'avoir choquée, les reproches qu'elle lui fit, et l'air de sévérité dont elle s'arma, le rendirent enfin aussi
-            respectueux qu'il avoit montré peu d'envie de l'être. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 5 </head>
-          <p> Que les amans sont bizarres, et qu'ils sçavent peu ce qu'ils veulent! à peine la fée eut-elle forcé Schézaddin au respect, qu'elle
+            respectueux qu'il avoit montré peu d'envie de l'être.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 5
+     </head>
+     <p>
+      Que les amans sont bizarres, et qu'ils sçavent peu ce qu'ils veulent! à peine la fée eut-elle forcé Schézaddin au respect, qu'elle
             craignit qu'il ne fût devenu indifférent. Le moyen, cependant, de le ramener à ces transports qu'à la fois elle craignoit, et desiroit
             tant de lui voir? Un air tendre, des souris, tous ces riens qui encouragent un amant déjà instruit, sans commettre trop la beauté qui veut
             bien se les permettre, n'auroient pas été convenablement interprêtés par un homme qui n'avoit encore aucune expérience de l'amour; et qui,
@@ -567,11 +636,15 @@
             m'a réservé. Mais quel est mon erreur! Ses charmes et sa tendresse ne sont qu'une illusion, et mon amour seul est réel. Une illusion!
             Reprenoit-il, puis-je bien le croire? Quelque vivement que l'objet qui s'est présenté à la premiere fois à mon imagination m'ait frappé,
             il ne s'y est plus offert. Des fantômes qui me poursuivent depuis quelque tems, celui que je quitte n'avoit d'abord fait sur mes sens que
-            l'impression la plus légere. Pourquoi est-il le seul que les songes m'aient ramené? Pourquoi même est-il le seul que je regrette? </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 6 </head>
-          <p> Schézaddin avoit tant de questions à se faire sur ce qui lui arrivoit, et se les épargna si peu, que l'on ne pourroit sans impatienter,
+            l'impression la plus légere. Pourquoi est-il le seul que les songes m'aient ramené? Pourquoi même est-il le seul que je regrette?
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 6
+     </head>
+     <p>
+      Schézaddin avoit tant de questions à se faire sur ce qui lui arrivoit, et se les épargna si peu, que l'on ne pourroit sans impatienter,
             les exposer toutes. Ce qu'il fit de plus sensé, fut enfin de les abandonner, et de tâcher, mais en vain, de se rendormir. à quelque point,
             cependant que sa nouvelle passion l'occupât, et quelque peine qu'il eut à se donner à d'autres affaires, il fallut qu'il se levât pour
             aller au conseil. Que la politique lui parut seche! Et qu'il se trouva à plaindre d'être obligé de se prêter à des raisonnemens de gens
@@ -670,23 +743,35 @@
             mot à mot. Cette vision me venoit un peu mal à propos, et m'alarma pour l'avenir; mais enfin, je me rappellai que je venois de lire les
             annales de mon pere et de mon aïeul; et cela me calma, parce que je me doutai bien que c'étoit plutôt une affaire de mémoire qu'un
             présage: et voilà, comme en toute occasion, il faut toujours, avant que d'agir, peser, comme on dit, le pour et le contre; sur-tout quand
-            on est sultan, parce que cela y fait encore une différence. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 1 CHAPITRE 7 </head>
-          <p> Il y avoit déjà quelques jours que la fée avoit abandonné Schézaddin à lui-même, lorsqu'elle prit enfin le parti de lui faire annoncer
+            on est sultan, parce que cela y fait encore une différence.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 1 CHAPITRE 7
+     </head>
+     <p>
+      Il y avoit déjà quelques jours que la fée avoit abandonné Schézaddin à lui-même, lorsqu'elle prit enfin le parti de lui faire annoncer
             son retour. Ce prince étoit renfermé dans son cabinet avec Taciturne, quand on vint lui dire qu'un envoyé de la fée protectrice demandoit
             à lui parler. Quelque fâché qu'il fût de ce que cette fée revenoit dans ses états, il reçut poliment l'envoyé, qui étoit un de ces génies
             subalternes dont les fées se servoient pour leurs plus importantes commissions. Le génie dit au roi que la fée protectrice qui arrivoit en
             ce moment, avoit une extrême impatience de le voir, et que si elle eût été moins fatiguée, elle seroit venue elle-même lui annoncer son
             retour. Le roi dissimulant son chagrin, répondit le plus obligeamment qu'il put, aux complimens qu'elle lui faisoit, et chargea l'envoyé
             de lui dire qu'il iroit dans la journée se féliciter de ce qu'enfin elle étoit rendue à leurs voeux. Lorsque le génie fut congédié:
-            louéesoit à jamais la bonté du ciel, qui nous ramene enfin la très-auguste <hi rend="italic"> Tout-Ou-Rien </hi> ! S'écria Taciturne. Que
+            louéesoit à jamais la bonté du ciel, qui nous ramene enfin la très-auguste
+      <hi rend="italic">
+       Tout-Ou-Rien
+      </hi>
+      ! S'écria Taciturne. Que
             nous pensons différemment! Lui dit Schézaddin, et que le retour de cette fée me déplaît! Les rois ne seront-ils donc jamais débarrassés de
             ces êtres superbes et capricieux, qui, sous prétexte de les protéger, les tiennent en effet dans la plus servile dépendance? Celle-là,
             répondit Taciturne, ne passe pas, comme beaucoup de ses compagnes, pour être méchante à propos de rien; et de plus, elle est fort jolie.
-            Je l'ai vue autrefois; et comme j'étois alors un peu libertin, et que ces figures tristes que l'on appelle <hi rend="italic"> figures à
-            sentiment </hi> ne m'intéressoient pas, sa physionomie vive, mutine et étourdie me plût beaucoup. Son retour ne doit, au reste, vous
+            Je l'ai vue autrefois; et comme j'étois alors un peu libertin, et que ces figures tristes que l'on appelle
+      <hi rend="italic">
+       figures à
+            sentiment
+      </hi>
+      ne m'intéressoient pas, sa physionomie vive, mutine et étourdie me plût beaucoup. Son retour ne doit, au reste, vous
             causer aucun chagrin; et à moins qu'elle ne cherche à présent la grande considération, et que pour y parvenir elle ne soit devenue prude
             ou dévote (ce qui nécessairement la rendroit plus difficile à vivre et un peu moins bonne) je doute que votre majesté ait à s'en plaindre.
             Après plusieurs propos qui n'instruiroient de rien, et je ne sçais quoi d'aussi peu digne de passer à la postérité, quefit Schézaddin; ce
@@ -799,11 +884,15 @@
             plaira? Donc il a tort. Enfin, l'on n'est pas jeune pour rien; et moi qui vous parle, ajouta-t-il en baissant la voix, n'ai-je pas eu des
             fées tout comme un autre? Je ne vous connoissois pas de ces bonnes fortunes-là! Dit la sultane. Eh oui! Repliqua Schah-Baham, c'est que
             vous verrez qu'il est si sûr de s'en vanter, qu'on va le dire à tout le monde? Brisons là; je laisserai des mémoires qui en apprendront de
-            bonnes. Je ne fais, moi, mes confessions qu'après ma mort. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 2 CHAPITRE 8 </head>
-          <p> Si Schézaddin, tourmenté par ses desirs et rempli des plus agréables idées que puisse donner un amour heureux, travailla vainement à
+            bonnes. Je ne fais, moi, mes confessions qu'après ma mort.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 2 CHAPITRE 8
+     </head>
+     <p>
+      Si Schézaddin, tourmenté par ses desirs et rempli des plus agréables idées que puisse donner un amour heureux, travailla vainement à
             s'endormir, Tout-Ou-Rien, de son côté, ne passa pas une nuit plus tranquille. Contente des sentimens du prince, mais inquiete de
             leurvivacité, elle craignoit qu'il ne la forçât à mettre dans leur affaire plus d'amour que de décence, et qu'il ne lui laissât pas le
             tems de s'arranger avec lui, comme elle l'auroit desiré, et qu'il ne voulût point attendre les deux jours qu'elle croyoit devoir le faire
@@ -958,11 +1047,15 @@
             incertaine. Mais oui-da, repliqua le sultan: ce qu'il vient de dire est assez sensé. Aussi vous avez pu remarquer que mon sentiment étoit,
             non que Tout-Ou-Rien avoit eu tort de céder, mais seulement que si elle l'avoit voulu, elle ne l'auroit pas fait; et je ne pense point
             qu'on me soutienne que cela revient au même. Ce qu'il y a de sûr, c'est que je ne le trouverois pas bon, et je me crois pourtant, dans le
-            commerce, aussi doux que personne, à cela près. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 2 CHAPITRE 9 </head>
-          <p> Quand deux amans se parlent à coeur ouvert pour la premiere fois, ils ont tant de choses à dire, et même à se répéter, qu'il ne leur est
+            commerce, aussi doux que personne, à cela près.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 2 CHAPITRE 9
+     </head>
+     <p>
+      Quand deux amans se parlent à coeur ouvert pour la premiere fois, ils ont tant de choses à dire, et même à se répéter, qu'il ne leur est
             guere possible de compter les momens. Le jour alloit donc faire place à la nuit, que Tout-Ou-Rien, et le prince croyoient n'avoir pas été
             plus d'une heure dans ce délicieux pavillon. Quelque décidée que fût la fée à se rendre, ce ne fut pas aussi peu que votre majesté le
             croit, qu'elle lui disputa la victoire; mais ils étoient seuls; elle étoit tendre; il étoit pressant, trop sûr d'être aimé, pour craindre
@@ -1063,11 +1156,15 @@
             autant de plaisir à imputer à une trop grande facilité de moeurs tout ce qu'elle avoit fait pour lui, qu'il auroit auparavant eu de
             chagrin de croire que ce n'étoit pas l'ouvrage de l'amour. Autant, enfin, que dans les commencemens de sa passion pour elle, il rejettoit
             avec horreur tout ce qui auroit pu l'avillir dans son esprit, autant alors s'exagéroit-il tout ce quipouvoit l'effacer de son coeur, ou le
-            disposer à l'inconstance. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 2 CHAPITRE 10 </head>
-          <p> Le prince, ce jour-là, raisonna beaucoup, et ne décida rien. Désespéré que la fée lui eût fait cette cruelle confidence, se blâmant
+            disposer à l'inconstance.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 2 CHAPITRE 10
+     </head>
+     <p>
+      Le prince, ce jour-là, raisonna beaucoup, et ne décida rien. Désespéré que la fée lui eût fait cette cruelle confidence, se blâmant
             quelquefois de déférer tant à une idée chimérique peut-être, mais dont il tâchoit vainement d'affoiblir le pouvoir; tour-à-tour combattu
             par l'amour, par ses préjugés, par son orgueil, mais s'ennuyant de ne pas voir Tout-Ou-Rien, il la rejoignit bientôt. Le noir chagrin, qui
             loin d'elle l'avoit occupé, se dissipa par sa présence. Quand elle auroit deviné quel avoit été le sujet de la méditation de son amant,
@@ -1165,11 +1262,15 @@
             cela, que je ne l'apprenne par coeur; sur-tout l'art d'ennuyer, qu'il faudra sûrement que je lise plus d'une fois, et que j'étudie
             long-tems avant que je puisse me flatter de le posséder comme un autre. La nature, répondit la sultane, fait quelquefois pour nous plus
             que nous ne le croyons, ou que nous ne voulons paroître le croire; mais je vous conjure d'être persuadé que votre modestie ne me dérobe
-            rien de vos talens. Politesse toute pure, repliqua Schah Baham, on flatte toujours les rois. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 2 CHAPITRE 11 </head>
-          <p> Schézaddin craignant, comme votre majesté, que l'art d'ennuyer ne lui coûtât beaucoup, et ne lui réussit peu,se détermina, malgré sa
+            rien de vos talens. Politesse toute pure, repliqua Schah Baham, on flatte toujours les rois.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 2 CHAPITRE 11
+     </head>
+     <p>
+      Schézaddin craignant, comme votre majesté, que l'art d'ennuyer ne lui coûtât beaucoup, et ne lui réussit peu,se détermina, malgré sa
             franchise, à employer un peu de perfidie pour se débarrasser de la fée; et dès le soir même eut un caprice. Il étoit tel qu'il ne doutoit
             pas qu'elle n'en fût vivement piquée; mais quand on aime, on s'afflige de ces sortes de choses plus qu'on ne s'en offense: non-seulement
             elle le lui pardonna, mais encore elle lui en demanda pardon. La jalousie la plus offensante et le plus durement exprimée, ne lui parut
@@ -1340,11 +1441,15 @@
             chien! Pourquoi faut-il que je souffre de ce que le prince et cette fée ne sçavent pas un mot de ce qu'ils veulent, de ce qu'ils disent,
             ni de ce qu'ils font? Qu'ils se quittent, qu'ils se reprennent, qu'ils se quittent encore, s'ils en ont envie; mais qu'ils finissent; car,
             à parler naturellement, ils m'excedent; en un mot, comme en mille, je veux des contes, où il n'y ait rien de filé; si vous aimez,vous,
-            ceux où l'on file, vous n'avez qu'à vous en faire faire à part. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 1 PARTIE 2 CHAPITRE 12 </head>
-          <p> N'est-il pas vrai, madame, demanda Schézaddin à la fée, que je vous contrains singuliérement, et que je ne vous déplais pas peu
+            ceux où l'on file, vous n'avez qu'à vous en faire faire à part.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 1 PARTIE 2 CHAPITRE 12
+     </head>
+     <p>
+      N'est-il pas vrai, madame, demanda Schézaddin à la fée, que je vous contrains singuliérement, et que je ne vous déplais pas peu
             d'enlever au seigneur Zémy une fonction que vous lui destiniez? Il en a tant, au reste, auprès de vous, ajouta-t-il avec un souris amer,
             que j'ai cru pouvoir lui ôter celle que je remplis, sans lui faire beaucoup de tort. Il est certain, répondit la fée, que si je crois que
             vous lui en faites, j'ai de quoi l'en dédommager; et comme il n'en doute pas, cette certitude doit le rendre tranquille; mais croyez-moi,
@@ -1495,13 +1600,17 @@
             chose qu'un conte, sur-tout quand on y trouve, comme dans celui-ci, une morale épurée, de beaux préceptes, et je ne sçais combien d'autres
             choses encore qui se sentent mieux qu'on ne peut les dire, et qui vous élevent l'esprit, en même tems qu'elles l'amusent.C'est qu'il ne
             faut pas croire, non, qu'il soit donné à tout le monde de réunir l'utile et l'agréable. Cela est bien vrai, dit la sultane; pour le visir,
-            on n'a rien à lui reprocher; s'il conte bien, il endort encore mieux. </p>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 3 CHAPITRE 13 </head>
-          <p> Une ardeur si grande trompa la fée. Plus sûre alors d'être aimée qu'elle ne l'avoit été de ne l'être plus, au lieu de laisser à son
+            on n'a rien à lui reprocher; s'il conte bien, il endort encore mieux.
+     </p>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 3 CHAPITRE 13
+     </head>
+     <p>
+      Une ardeur si grande trompa la fée. Plus sûre alors d'être aimée qu'elle ne l'avoit été de ne l'être plus, au lieu de laisser à son
             amant quelque chose à desirer, elle se livra à tous ses desirs, avec une facilité qui ne pouvoit que les éteindre, et enfin le fatigua de
             son bonheur.à chaque instant elle vouloit être avec lui. Cherchoit-il la solitude? Elle voloit sur ses pas. Tomboit-il dans la rêverie?
             Elle l'impatientoit en cherchant à l'en distraire. à quelque point que l'on aime, il est rare que l'on aime toujours également, et que
@@ -1627,11 +1736,15 @@
             nous annoncent de terribles événemens. Grands, fort singuliers, très-grands! Repliqua-t-il, vous verrez! Eh bien! Ce Taciturne l'avoit
             prévu, pourtant, et certes il falloit, pour avoir si bien lu dans l'avenir, que ce ne fût pas un sot. Je m'en étois aussi, moi, un peu
             douté; et la preuve de cela, c'est que j'ai plus de cent fois été tenté d'avertir le prince, que je croyois qu'il se conduisoit mal; mais
-            après tout, quand je l'aurois fait, cela n'auroit servi à rien. On n'évite pas sa destinée. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 3 CHAPITRE 14 </head>
-          <p> La façon dont la fée venoit de se séparer de Schézaddin, et les menaces dont ses adieux avoient été accompagnés, n'effrayerent point ce
+            après tout, quand je l'aurois fait, cela n'auroit servi à rien. On n'évite pas sa destinée.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 3 CHAPITRE 14
+     </head>
+     <p>
+      La façon dont la fée venoit de se séparer de Schézaddin, et les menaces dont ses adieux avoient été accompagnés, n'effrayerent point ce
             prince, qui, en ce moment, se sentoit si las d'elle, qu'il n'y avoit rien qu'il n'eût préféré au malheur de vivre plus long-temssous son
             empire. Aussi fier de son inconstance que si l'amour de la gloire en eût été le motif, il passa les premiers jours de sa liberté à se
             féliciter de la grandeur d'ame avec laquelle il s'étoit arraché à sa foiblesse. De quels remords n'étoit-il même pas déchiré, quand il se
@@ -1749,15 +1862,23 @@
             Schah Baham, voilà qui est horrible! Je sçais bien qu'il faut qu'un roi ait du courage; du moins on me l'a tant dit, qu'enfin on me l'a
             fait croire: mais dites-moi un peu, je vous prie, s'il y a le sens commun dans ce que fait le roi d'Isma, sur-tout ayant une fée sur les
             bras? Lui sied-t-il d'ailleurs, convient-il à ce qu'il est de s'en aller danser avec toutes sortes de gens qu'il ne connoît pas, et qui,
-            peut être, ne sont que des <hi rend="italic"> especes </hi> , qu'il ne devroit seulement point regarder? Vous auriez, sans doute, lui dit
+            peut être, ne sont que des
+      <hi rend="italic">
+       especes
+      </hi>
+      , qu'il ne devroit seulement point regarder? Vous auriez, sans doute, lui dit
             la sultane, eu moins de folie et plus de dignité? Pourtant, vous êtes curieux; un prince des sources bleues! Un bal politique! Il est bien
             difficile de s'empêcher de sçavoir ce que c'est que tout cela. Oh! Vous seriez entré! Moi! Reprit le sultan, vous ne m'entendez donc
             point! Je vous dis que j'ai la peau de poule de le sçavoir là-dedans.Jugez si j'en aurois fait autant que lui. Je suis curieux, j'en
-            conviens, mais je suis prudent; et cela fait une différence. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 3 CHAPITRE 15 </head>
-          <p> Il seroit difficile d'exprimer la surprise que Schézaddin ressentit, lorsqu'au lieu de fées et de génies qu'il craignoit de trouver dans
+            conviens, mais je suis prudent; et cela fait une différence.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 3 CHAPITRE 15
+     </head>
+     <p>
+      Il seroit difficile d'exprimer la surprise que Schézaddin ressentit, lorsqu'au lieu de fées et de génies qu'il craignoit de trouver dans
             cette salle, il ne vit sur des gradins superbes qu'une prodigieuse quantité d'autruches, de grues, d'oies et de dindons, aussi
             magnifiquement mis en habits de bal, qu'on le puisse être. Douze grandes autruches armées de pied en cap, et qui paroissoient être de
             garde à la porte par laquelle il étoit entré, s'arrêterent à sa vue, et lui rendirent tous les respects qui lui étoient dûs. étonné d'un
@@ -1776,15 +1897,27 @@
             sultane, il y a beaucoup d'hommes qui ne pensent pas plus que des autruches; mais il n'y a point d'autruches qui parlent comme les hommes.
             Je soutiens le contraire, repliqua Schah-Baham, et assez ordinairement je sçais ce que je dis; au reste, qu'elles parlent, ou ne parlent
             pas, c'est la chose du monde qui m'intéresse le moins. Quand il eut plû aux animaux susdits de se taire, continua le visir, on vit entrer
-            une jeune oie, qui avoit un <hi rend="italic"> domino </hi> couleur de rose, et qui étoit menée par un dindon panaché, frisé, et paré avec
+            une jeune oie, qui avoit un
+      <hi rend="italic">
+       domino
+      </hi>
+      couleur de rose, et qui étoit menée par un dindon panaché, frisé, et paré avec
             le dernier soin, et dont la mine étoit fiere, et la démarche audacieuse. Ces augustes personnages étoient entourés d'une cour composée
             comme celle des deux autruches; mais plus vive, plus bruyante et plus folâtre. Cette oie vint de l'air du monde le plus noble, faire
             devant le trône une profonde révérence, que Schézaddin lui rendit avec beaucoup de respect. Elle alla ensuite se placer sur une estrade
             fortélevée, qui étoit à la droite de leurs majestés; et l'arrogant dindon, avec lequel elle étoit venue, s'y perchant auprès d'elle, se
             mit sur le champ à lui parler bas avec un air d'intérêt et de vivacité, qui sembloit annoncer, ou qu'il en étoit amoureux, ou qu'il
-            vouloit le paroître. Il restoit encore une estrade à remplir; et elle le fut bientôt par une grue en <hi rend="italic"> domino </hi> bleu,
+            vouloit le paroître. Il restoit encore une estrade à remplir; et elle le fut bientôt par une grue en
+      <hi rend="italic">
+       domino
+      </hi>
+      bleu,
             de qui la physionomie dédaigneuse, et l'air capable qui étoit répandu dans toute sa personne, disoient assez que ce n'étoit pas la grue de
-            cette cour qui se croyoit le moins de mérite. à l'arrivée de l'oie au <hi rend="italic"> domino </hi> couleur de rose, Schézaddin s'étoit
+            cette cour qui se croyoit le moins de mérite. à l'arrivée de l'oie au
+      <hi rend="italic">
+       domino
+      </hi>
+      couleur de rose, Schézaddin s'étoit
             senti une émotion particuliere que chaque moment augmentoit. Il étoit offensé au dernier point des familiarités que le dindon prenoit avec
             elle; et il fut mille fois tenté d'aller interrompre leur conversation. L'oie cependant ne paroissoit pas s'y livrer avec autant de
             vivacité que le dindon; ses yeux se portoient rarement sur lui, et ne s'y arrêtoient pas; pour en obtenir une réponse, il falloit qu'il la
@@ -1798,8 +1931,11 @@
             pourquoi, lui déplaisoit mortellement, il se mit à examiner les singulieres personnes qui lui donnoient une fête. L'autruche mâle, qui
             étoit à sa droite, avoit deux moustaches d'une longueur prodigieuse; et elle étoit coëffée d'une longue et touffue perruquequarrée, qui
             descendoit jusques à sa chaussure, et lui ensevelissoit tout le visage. Sur cette immense perruque elle portoit un casque ombragé de
-            plumes blanches, et autour duquel regnoit la couronne la plus riche qui fût dans l'univers. Sous un <hi rend="italic"> domino </hi>
-            pourpre, brodé d'or et de perles, elle avoit un habit à la romaine, d'une magnificence qui ne pourroit se décrire. Un rabat du plus beau
+            plumes blanches, et autour duquel regnoit la couronne la plus riche qui fût dans l'univers. Sous un
+      <hi rend="italic">
+       domino
+      </hi>
+      pourpre, brodé d'or et de perles, elle avoit un habit à la romaine, d'une magnificence qui ne pourroit se décrire. Un rabat du plus beau
             point pendoit à son col; et un masque d'arlequin que, sans doute, elle ne portoit que pour la forme, étoit attaché auprès de son
             cimeterre. Après avoir suffisamment détaillé cette autruche, il tourna ses regards vers celle qui étoit à sa gauche. Elle étoit galamment
             vêtue en chauve-souris. Son visage étoit couvert de mouches et de rouge; et il étoit aisé de juger que ce masque, malgré sa métamorphose,
@@ -1824,16 +1960,24 @@
             contrarier. Il vous paroît donc bien extraordinaire que les dindons jouent du violon et de la flûte. Eh! Si vous aviez vu comme moi, des
             pies danser en rond, en prenant du café, qu'auriez-vous dit?J'ai pourtant, moi qui vous parle, lu cela dans un livre, qui étoit une
             histoire que je n'ai jamais révoqué en doute, et à laquelle mon grand-pere même, (c'est tout dire, je crois) n'avoit pas moins de foi qu'à
-            l'alcoran. Ne vous <hi rend="italic"> grippez </hi> donc plus comme vous faites, contre les dindons du visir. D'ailleurs, c'est que j'ai
+            l'alcoran. Ne vous
+      <hi rend="italic">
+       grippez
+      </hi>
+      donc plus comme vous faites, contre les dindons du visir. D'ailleurs, c'est que j'ai
             entendu peu de contes aussi riches que le sien, et que je ne me rappelle pas qu'il y en ait beaucoup où l'or et les pierreries soient
             aussi libéralement employés. D'un seul article, six mille lustres de diamant! Cela est d'une beauté, d'une grandeur, d'une magnificence
             inconcevables. Quant à moi, d'abord que je vois beaucoup de pierreries dans un conte, ne fût-ce que des pierres fausses, il m'intéresse
             infiniment? Je ne connois même que cela qui me touche à un certain point. Ne l'oubliez pas, visir. Un peu de dindons, parce que, quoi que
-            l'on en dise, ils ont leur prix; bien du diamant; et laissez, après cela, dire les critiques. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 3 CHAPITRE 16 </head>
-          <p> Aussi-tôt que tout le monde fut placé, les deux autruches descendirent du trône, et danserent ensemble une courante avec une gravité
+            l'on en dise, ils ont leur prix; bien du diamant; et laissez, après cela, dire les critiques.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 3 CHAPITRE 16
+     </head>
+     <p>
+      Aussi-tôt que tout le monde fut placé, les deux autruches descendirent du trône, et danserent ensemble une courante avec une gravité
             incomparable. Quand ils l'eurent finie, l'autruche qui portoit la perruque, reprit sa place; et l'autre vint faire la révérence à
             Schézaddin. Quelque fol qu'il parût à ce prince de danser avec une autruche, il crut devoir se prêter de bonne grace à ce que l'on
             exigeoit de lui. La seule chose qui le fâchât, c'est qu'il ne sçavoit pas la courante, et qu'il craignoit que cette danse ne fût la seule
@@ -1919,11 +2063,15 @@
             qui remuent sensiblement le coeur. J'aurois pourtant, à ce que je crois, du moins, beaucoup de peine à aimer une oie; mais si jamais j'en
             étois venu là, ah parbleu! Je l'aimeroisbien! Au reste, je ne me cache de rien, moi, je pense sur les grues comme Taciturne; cet oiseau-là
             ne me rit pas autant que l'autre. Il faut voir, cependant peut-être que je m'y ferai; et dans le fond j'en serois bien aise, car ces
-            sortes de répugnances que l'on a, sans sçavoir pourquoi, ne menent à rien, et sont toujours bonnes à combattre. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 3 CHAPITRE 17 </head>
-          <p> Lorsque le bal eut cessé, l'autruche qui venoit d'avoir tant de peur, se tournant vers Schézaddin, lui demanda poliment s'il vouloit
+            sortes de répugnances que l'on a, sans sçavoir pourquoi, ne menent à rien, et sont toujours bonnes à combattre.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 3 CHAPITRE 17
+     </head>
+     <p>
+      Lorsque le bal eut cessé, l'autruche qui venoit d'avoir tant de peur, se tournant vers Schézaddin, lui demanda poliment s'il vouloit
             bien leur faire l'honneur de souper avec eux. Schézaddin, malgré Taciturne, qui le tiroit doucement par la manche, pour l'avertir de
             refuser, répondit à l'autruche qu'il ne demandoit pas mieux. Alors quelques courtisans qui, avec des têtes d'oie, avoient des pieds de
             grue, commencerent la marche. Les poules d'Inde et les oies qui étoient de semaine se rangerent auprès de la reine, et d'autres lui
@@ -2028,11 +2176,15 @@
             le même siecle! Elle m'auroit, à coup sûr, tourné la tête. C'est que c'est de l'esprit, de la délicatesse, du sentiment! C'est ma foi, un
             grand bonheur que l'on en trouve si peu de l'espece de celle-là; il est réel qu'on ne voudroit pas aimer autre chose: moi, du moins; et si
             je ne suis assurément pas l'homme du monde le plus susceptible; mais, malgré cela, une oie ne laisse pourtant pas que de me plaire,
-            sur-tout quand elle a du mérite. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 3 CHAPITRE 18 </head>
-          <p> Pendant la conversation de Schézaddin et de son oie, Taciturne n'étoit pas resté aussi oisif qu'il l'auroit bien desiré. La grue qui, en
+            sur-tout quand elle a du mérite.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 3 CHAPITRE 18
+     </head>
+     <p>
+      Pendant la conversation de Schézaddin et de son oie, Taciturne n'étoit pas resté aussi oisif qu'il l'auroit bien desiré. La grue qui, en
             effet, le trouvoit fort aimable, en sortant du bal, l'avoit fait appeller; et quelque répugnance qu'il eût pour elle, il avoit cru devoir
             obéir: non que par sa figure elle lui en imposât; mais la singularité de ce qu'il voyoit, et la crainte qu'il avoit que tous ces animaux
             ne fussent des fées et des génies qui, pour se divertir ou les tourmenter, ne se fussent ainsi transformés, le tenoient en respect, et ne
@@ -2054,7 +2206,11 @@
             quoiqu'un peu usées peut-être. Eh, qu'importe, reprit la grue, en seroient-elles moins solides? J'aime passionnément l'esprit, je l'avoue,
             et les choses neuves me plaisent assurément autant qu'à personne; mais je veux toujours de la raison; et j'aime beaucoup mieux ne pas
             briller, ne paroître même avoir qu'un esprit très-ordinaire, que de n'en avoir qu'aux dépens de la justesse. Taciturne étoit si excédé de
-            la cruelle <hi rend="italic"> caillette </hi> qui le poursuivoit, et d'adverbes et de questions, que, malgré les terreurs qui
+            la cruelle
+      <hi rend="italic">
+       caillette
+      </hi>
+      qui le poursuivoit, et d'adverbes et de questions, que, malgré les terreurs qui
             l'occupoient, il prit le parti de ne plus répondre. La grue n'en parla que plus, fit l'apologie de son esprit, de ses connoissances, de sa
             modestie; et finit par se plaindre d'être née avec unesensibilité dont toute sa raison ne pouvoit triompher. Ce n'est pas, ajouta-t-elle,
             que j'aie eu bien des passions... en revanche, interrompit il, vous avez dû en inspirer beaucoup? Horriblement, répondit-elle. Oh!
@@ -2109,11 +2265,15 @@
             pourtant! En vérité, cela fait trembler! Mais, continuez, visir; ces réflexions-là m'affligent; et sûrement,je me ferois mal, si je m'y
             arrêtois plus long-tems. Schézaddin, reprit le visir, après avoir fait des complimens au roi autruche sur sa grandeur d'ame et sur le
             bonheur qu'il avoit d'avoir conservé sa gaieté au milieu des infortunes dont il étoit accablé, le pria de vouloir bien lui raconter son
-            histoire, et l'autruche la commença en ces termes. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 19 </head>
-          <p> Ce n'est pas assurément pour me vanter; mais j'ose dire que vous ne trouverez dans aucune histoire des choses qui ressemblent à celles
+            histoire, et l'autruche la commença en ces termes.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 19
+     </head>
+     <p>
+      Ce n'est pas assurément pour me vanter; mais j'ose dire que vous ne trouverez dans aucune histoire des choses qui ressemblent à celles
             dont je vais vous faire le récit; et que j'ai du moins l'avantage, que les malheurs que j'ai éprouvés, ne sont arrivés qu'à moi. Vous
             medirez, peut-être, que ce n'en est pas un bien grand; je pense le contraire. Il n'est point du tout désagréable, à mon avis, quand on est
             malheureux, de l'être d'une façon toute particuliere. La raison que j'ai de le croire, c'est que si l'on ne vous en plaint pas davantage,
@@ -2131,7 +2291,11 @@
             termes brillans et pompeux des pensées assez souvent fausses, presque toujours frivoles, et des images ordinairement usées, sont des
             choses peu dignes d'un esprit raisonnable. Enfin, j'abandonnai un art dont le seul mérite est de peindre les objets connus, et qui ne
             conduit à la découverte d'aucun. L'insurmontable dégoût que j'avois eu pour la prose, s'affoiblit: je fis des livres; et même (mais que
-            ceci, je vous prie, ne nous passe point) je donnai <hi rend="italic"> incognito </hi> au public de petites brochures gaies, et un peu
+            ceci, je vous prie, ne nous passe point) je donnai
+      <hi rend="italic">
+       incognito
+      </hi>
+      au public de petites brochures gaies, et un peu
             galantes. Le goût des doctes commentairessuccéda à ces amusemens. Delà, je me jettai dans l'éloquence; et bientôt; mais sans en être plus
             satisfait, je devins l'orateur le plus brillant de mon siecle. La vérité vint enfin frapper mes yeux. Je sentis tout le néant de ce qui
             jusques alors m'avoit occupé; je rougis d'y avoir employé tant de tems; et cette honte salutaire m'amena aux seules sciences qui méritent
@@ -2196,11 +2360,15 @@
             Vous êtes cause que j'ai pensé me faire géometre, comme si c'étoit... oh! Je n'aime point ces surprises-là! Voyez un peu, je vous prie, le
             beau ridicule que je me serois donné! Si la géométrie vous déplaît, repartit la sultane, faites-vous physicien. Mais oui-dà, dit
             Schah-Baham, physicien, elle a raison? Cela doit être fort beau. Depuis ce qu'on m'a dit de la physique, je ne serai point du tout fâché
-            de la sçavoir. Je vois à présent que je m'étois mépris, et que c'étoit indubitablement cela que je voulois dire. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 20 </head>
-          <p> Mon nom, continua l'autruche, commençoit à se répandre dans l'univers; et mon mérite soutenu par les pensions que je faisois aux
+            de la sçavoir. Je vois à présent que je m'étois mépris, et que c'étoit indubitablement cela que je voulois dire.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 20
+     </head>
+     <p>
+      Mon nom, continua l'autruche, commençoit à se répandre dans l'univers; et mon mérite soutenu par les pensions que je faisois aux
             sçavans, et à tous ceux qui pouvoient répandre marenommée, ne trouvoit plus de contradicteur dans mes états. Vu de plus loin, j'étois
             encore plus grand; mais à quelque excès que l'on me vantât, je n'avois encore rien fait qui justifiât le bruit que je faisois dans le
             monde; et je résolus de le mériter. En discutant la nature de l'air, je crus qu'il agissoit un peu plus sur les corps qu'on ne le croyoit.
@@ -2262,8 +2430,11 @@
             deshabillé mes chats; et que ce calme profond qui regnoit dans les airs, toutes les fois que j'avois besoin de vent, étoit une suite de
             son courroux et un essai de sa vengeance. L'oracle ajouta que, quelque cruel que dûtme paroître cet effet de ressentiment, j'en avois plus
             encore à craindre si je ne songeois pas à l'appaiser. J'avois trop de preuves de la pénétration et de la sincérité de l'oracle qui me
-            parloit, pour révoquer en doute ce qu'il venoit de m'apprendre, et je me hâtai de suivre ses conseils. La fée <hi rend="italic">
-            Thérébentine </hi> qu'il m'avoit nommée, étoit une petite créature, vaine, tracassiere, et méchante, que j'avois d'autant plus à craindre,
+            parloit, pour révoquer en doute ce qu'il venoit de m'apprendre, et je me hâtai de suivre ses conseils. La fée
+      <hi rend="italic">
+       Thérébentine
+      </hi>
+      qu'il m'avoit nommée, étoit une petite créature, vaine, tracassiere, et méchante, que j'avois d'autant plus à craindre,
             qu'avant qu'elle fût devenue prude, elle m'avoit fait de fort indécentes agaceries; que, depuis, elle m'avoit plusieurs fois parlé
             sentiment; et que dans l'un et l'autre cas, je n'avois eu pour elle aucun des égards qu'elle m'avoit demandés. Je n'ignorois pas qu'une
             femme que l'on refuse, haït avec plus de fureur, qu'une femme que l'on quitte; et j'étois très-fâché, que dans les dispositions où elle
@@ -2278,11 +2449,15 @@
             dire, qu'à la place du roi autruche, j'aurois mieux aimé mille fois n'avoir pas imaginé les cerf-volans (et si je vois à présent combien
             cette machine est ingénieuse) que d'avoir eu la moindre chose à démêler avec une fée. Ce n'est point pour faire le prophete, car je ne
             suis point un oracle, moi; mais vous verrez à la longue, comment il s'en tirera! Souvenez-vous seulement de ce que je vousdis. Continuez,
-            visir; voilà véritablement une des plus magnifiques histoires que je crois qu'on puisse entendre. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 21 </head>
-          <p> Aussi-tôt que je me fus tiré d'une si cruelle affaire, continua l'autruche, je conçus le dessein de voyager, moins encore pour
+            visir; voilà véritablement une des plus magnifiques histoires que je crois qu'on puisse entendre.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 21
+     </head>
+     <p>
+      Aussi-tôt que je me fus tiré d'une si cruelle affaire, continua l'autruche, je conçus le dessein de voyager, moins encore pour
             m'instruire, je l'avoue, que pour montrer aux nations ce grand homme qu'elles admiroient. Ma réputation étoit déjà si bien établie, que
             toutes les villes que j'honorois de ma présence me firent des entrées superbes, et que quelques-unes même m'érigerent des statues. Après
             avoir traversé je ne sçais combien de royaumes, j'entrai dans l'empire de Phasgam. Le souverain de ces vastes payes vint de fort loin
@@ -2296,22 +2471,37 @@
             sur ma réputation des choses si flattueuses! Ses yeux, en me regardant, s'arrêtoient si tendrement sur moi, que je ne doutai pas que
             l'estime n'eût fait sur son coeur ce que ses charmes avoient fait sur le mien. Elle m'engagea dès le lendemain à lui développer tous les
             mysteres de la philosophie; et quoique je n'y mêlasse rien de ceux de l'amour, je la fis soupirer plus d'une fois. Un maudit génie, que
-            l'on appelloit <hi rend="italic"> Plus-Vert-Que-Pré </hi> , fameux par sa puissance, et par sa méchanceté, et frere dela fée, de qui je
+            l'on appelloit
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      , fameux par sa puissance, et par sa méchanceté, et frere dela fée, de qui je
             vous ai parlé, étoit depuis trois mois à la cour de Phasgam, lorsque j'y arrivai: et mon malheur voulut qu'il trouvât à la princesse
             autant de charmes que moi. C'étoit assurément le plus dangereux rival que le sort pût jamais me susciter. Il n'étoit pas aimé, mais il
             vouloit l'être; et la froideur avec laquelle ses soins étoient reçus, ne l'empêchoit pas d'en rendre. Il étoit peut-être de ces gens, qui
             sont dans cette idée si fausse, qu'une constance bien opiniâtre surmonte toujours, non-seulement l'indifférence, mais même l'aversion.
             Quels que fussent là-dessus ses sentimens, et avec quelque sincérité que la princesse lui eut parlé, il la suivoit par-tout, lui donnoit
-            des fêtes, et par-tout l'ennuyoit, et du récit et du spectacle de son amour. Que l'on devine aisément son rival! <hi rend="italic">
-            Plus-Vert-Que-Pré </hi> avoit été présent à ma premiere entrevue avec la princesse; et si le trouble qui parut alors dans mes yeux,
+            des fêtes, et par-tout l'ennuyoit, et du récit et du spectacle de son amour. Que l'on devine aisément son rival!
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      avoit été présent à ma premiere entrevue avec la princesse; et si le trouble qui parut alors dans mes yeux,
             l'instruisit des sentimens qu'elle m'inspiroit, l'air sombre et farouche, avec lequel il m'examina, sa sécheresse et sa contrainte avec
             moi, la colere qu'il conçut contre la princesse, et qu'il ne dissimula pas, m'apprirent aussi qu'il aspiroit à lui plaire. Les
             prévenancesqu'elle eut pour moi le jour de mon arrivée, son empressement à me parler, l'exagération de ses éloges, et le peu d'attention
-            qu'elle eut pour <hi rend="italic"> Plus-Vert-Que-Pré </hi> , qui avoit toutes les peines du monde à en obtenir une réponse et un regard,
+            qu'elle eut pour
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      , qui avoit toutes les peines du monde à en obtenir une réponse et un regard,
             plongerent ce cruel génie dans la plus affreuse inquiétude. Quoique malgré la timidité qu'inspire une violente passion, et le peu d'usage
             même que j'avois de l'amour, je crusse, comme toute la cour de Phasgam, que j'avois vivement touché la princesse, je ne pus m'en tenir aux
             conjectures sur une chose si intéressante pour moi, et je me déterminai à lui faire l'aveu de ma tendresse, et à lui confier les craintes
-            que m'inspiroit celle de <hi rend="italic"> Plus-Vert-Que-Pré </hi> . Elle ne me dit pas qu'elle m'aimoit; mais une joie si vive et si
+            que m'inspiroit celle de
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      . Elle ne me dit pas qu'elle m'aimoit; mais une joie si vive et si
             pure anima ses yeux lorsqu'elle me vit à ses genoux! Il y regnoit tant d'amour, elle m'écoutoit avec tant de complaisance lui parler du
             mien, et me marqua tant de haine pour mon rival, qu'en me faisant l'aveu de ses sentimens, elle ne m'en eût pas mieux instruit. Le
             lendemain de ce jour si fortuné l'empereur, la princesse et tous les habitans de Phasgam me prierent avec instance,de leur donner le régal
@@ -2319,7 +2509,11 @@
             pas à leurs desirs. Jamais elle ne se montra avec tant d'avantage; jamais elle n'avoit eu un si grand succès. La princesse sur-tout, que
             ses lumieres éclairoient mieux que personne, sur le mérite du cerf-volant, en fut d'un enchantement qui me flatta mille fois plus que
             toutes les acclamations du peuple. Cher prince! Me dit-elle à l'oreille avec transport, quelle gloire pour moi d'être aimée de vous, et
-            que mon coeur partage bien votre tendresse! Je ne sçais si <hi rend="italic"> Plus-Vert-Que-Pré </hi> que j'avois, malgré moi, pour
+            que mon coeur partage bien votre tendresse! Je ne sçais si
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      que j'avois, malgré moi, pour
             spectateur de la fête physique que je donnois à la princesse, et qui étoit fort près de nous, entendit ce qu'elle me disoit, ou si sa
             rougeur et mon émotion le lui firent deviner; mais il devint tout d'un coup d'une humeur détestable, et me fit mille mauvaises
             plaisanteries sur le cerf-volant. S'il n'eût tourné que moi en ridicule, je lui aurois peut-être répondu avec moins d'aigreur que je ne
@@ -2328,8 +2522,11 @@
             l'autre, et nous poussâmes la querelle aussi loin qu'elle pût aller. J'osai même, dans la chaleur de la dispute, le défier de faire
             quelque chose qui fût comparable à ce cerf-volant, qui lui paroissoit si digne de risée. Quoi! Répondit-il d'un air railleur, des
             cerfs-volans! Seriez-vous curieux d'en voir? Convaincu, par ce que cette admirable machine m'avoit coûté, qu'il ne lui seroit pas si
-            facile d'en faire qu'il le croyoit; je lui dis audacieusement que je serois charmé qu'il m'en montrât. <hi rend="italic">
-            Plus-Vert-Que-Pré, </hi> à ce défi, étendit la main, et dans l'instant, il parut dans les airs une si prodigieuse quantité de
+            facile d'en faire qu'il le croyoit; je lui dis audacieusement que je serois charmé qu'il m'en montrât.
+      <hi rend="italic">
+       Plus-Vert-Que-Pré,
+      </hi>
+      à ce défi, étendit la main, et dans l'instant, il parut dans les airs une si prodigieuse quantité de
             cerfs-volans, que l'air en étoit obscurci. Je fus, je vous l'avoue, confondu de ce spectacle. Ce ne fut pas tout. à ses ordres, le soleil
             disparut; et la nuit, forcée dans sa marche par la puissance du génie, vint lui succéder. Alors le génie, pour achever de m'humilier,
             attacha des étoiles à ses cerfs-volans. C'étoit, comme vous voyez, une assez fâcheuse parodie de mes lanternes. Après, il les fit battre
@@ -2342,18 +2539,27 @@
             des faits que je vous raconte. Je n'ignore pas, au reste, qu'il n'y a pas un astronome de ceux qui ont écrit sur les cometes, qui n'en
             parle fort différemment de moi: et ce qui prouve combien il faut se défier des observations, c'est qu'il y en a quelques-uns dont les
             idées sont assez raisonnables pour que l'on puisse les admettre; quoiqu'assurément, il n'y en ait pas un qui, sur cetarticle, ne se soit
-            bien écarté du vrai. Le roi de Phasgam, qui, comme je l'ai dit, n'étoit pas sçavant, fut si charmé de la fête que <hi rend="italic">
-            Plus-Vert-Que-Pré </hi> venoit de donner, qu'il en oublia la vénération, que d'abord il avoit conçue pour moi, et le combla d'éloges. La
+            bien écarté du vrai. Le roi de Phasgam, qui, comme je l'ai dit, n'étoit pas sçavant, fut si charmé de la fête que
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      venoit de donner, qu'il en oublia la vénération, que d'abord il avoit conçue pour moi, et le combla d'éloges. La
             princesse, qui heureusement avoit trop d'esprit pour ne pas mettre les choses à leur juste valeur, ne pensa pas comme son pere; et loin de
             louer le génie, soutint que je devois l'emporter sur lui; et que ce qui n'étoit que l'ouvrage d'une puissance à laquelle toute la nature
             étoit forcée d'obéir, ne méritoit pas la même estime, que ce qui étoit le fruit du sçavoir et de l'expérience. Cette décision n'étoit que
-            raisonnable; et la princesse, pour la donner, n'avoit eu besoin de consulter ni son amour pour moi, ni son aversion pour <hi rend="italic"
-            > Plus-Vert-Que-Pré </hi> . Toute désintéressée qu'elle devoit paroître, elle ne le satisfit pas, persuadé que la princesse auroit moins
+            raisonnable; et la princesse, pour la donner, n'avoit eu besoin de consulter ni son amour pour moi, ni son aversion pour
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      . Toute désintéressée qu'elle devoit paroître, elle ne le satisfit pas, persuadé que la princesse auroit moins
             rendu justice à la physique, si elle n'eût pas aimé le physicien: après lui avoir fait les plus sanglans reproches, et m'avoir accablé des
             plus terribles menaces, il disparut. Quelque terreur qu'il eût cru m'inspirer, la joie que me donna sa fuite, nepeut se comprendre.
             J'aimois; débarrassé de mon rival; aimé de ce même objet, qu'avec tout son pouvoir il n'avoit pu rendre sensible, la crainte pouvoit-elle
-            un moment trouver place dans mon coeur? Quand, d'ailleurs, j'aurois été moins magnanime, ou moins amoureux, les menaces de <hi
-            rend="italic"> Plus-Vert-Que-Pré </hi> ne pouvoient m'alarmer que jusques à un certain point. J'étois génie comme lui, avec cette
+            un moment trouver place dans mon coeur? Quand, d'ailleurs, j'aurois été moins magnanime, ou moins amoureux, les menaces de
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      ne pouvoient m'alarmer que jusques à un certain point. J'étois génie comme lui, avec cette
             différence pourtant, qu'il étoit un génie du premier ordre; mais quoique ma puissance fût infiniment inférieure à la sienne, s'il pouvoit
             me tourmenter, il ne pouvoit m'anéantir. La crainte de sa vengeance n'ayant point diminué mon amour, je demandai la princesse au roi son
             pere. On fait souvent plus pour les gens que l'on craint que pour ceux qu'on aime. Ce bon prince avoit naturellement du goût pour moi;
@@ -2379,11 +2585,19 @@
             j'ordonnerai que dans le mois, tous mes sujets, de quelquequalité et condition qu'ils soient, aient à croire aux cometes, conformément à
             la maniere ou façon du roi autruche sous telle peine pour les contrevenans qu'il me plaira ordonner; et nous verrons s'il sera si
             difficile de venir à bout des incredules, et de quel droit l'on se donnera les airs de révoquer en doute une chose que je veux croire,
-            moi, qui, je vous demande pardon du peu, n'ai que l'honneur d'être sultan. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 22 </head>
-          <p> Ne sçachant comment m'y prendre pour ôter à <hi rend="italic"> Plus-Vert-Que-Pré </hi> toute envie de me nuire, et desirant beaucoup
+            moi, qui, je vous demande pardon du peu, n'ai que l'honneur d'être sultan.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 22
+     </head>
+     <p>
+      Ne sçachant comment m'y prendre pour ôter à
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      toute envie de me nuire, et desirant beaucoup
             d'être avec lui honnêtement, je crus devoir profiter de la naissance de ma fille, et résolus de le faire son parrein. Persuadé que cette
             politesse de ma part le toucheroit, je lui envoyai des ambassadeurs; mais, ni leur éloquence, ni les magnifiques présens dont ils étoient
             chargés pour lui, ne purent le déterminer à faire ce que je desirois. à peine même put-il assez se contenir pour écouter la moitié de la
@@ -2400,8 +2614,11 @@
             puissance de son art que par les forces de son empire; et je n'étois pas fort en magie. Cependant, quelque certitude que j'eusse que cette
             guerre ne tourneroit pas bien pour moi, je n'en résolus pas moins de la faire. Pendant que je faisois mes préparatifs, le génie, le
             croiriez-vous bien? Le génie eut l'audace de m'envoyer un ambassadeur. Ce ministre arriva dans ma cour aussi familiérement que si son
-            maître et moi eussions été ensemble le mieux du monde. Il m'apportoit des lettres, par lesquelles <hi rend="italic"> Plus-Vert-Que-Pré
-            </hi> m'assuroit qu'il me pardonneroit mon impertinence, et même m'honoreroit de sa protection, si je lui envoyois, sans délai, mon plat à
+            maître et moi eussions été ensemble le mieux du monde. Il m'apportoit des lettres, par lesquelles
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      m'assuroit qu'il me pardonneroit mon impertinence, et même m'honoreroit de sa protection, si je lui envoyois, sans délai, mon plat à
             barbe. Votre plat à barbe! S'écria Schézaddin, le génie avoit là une singuliere prétention! Après tout, il vous en quittoit, à mon avis, à
             bon marché? Oh! Pardonnez-moi, répondit l'autruche, sa demande n'étoit pas tout-à-fait aussi simple qu'elle vous le paroît; il
             n'ignoroitpas, en me demandant mon plat à barbe, qu'il me jettoit dans l'embarras du monde le plus cruel, puisque je ne pouvois le lui
@@ -2459,18 +2676,29 @@
             été, sans m'exposer au mépris de mes contemporains et de la postérité. Il a grande raison, dit Schah-Baham, plus je l'entends, plus je
             l'aime ce prince-là. Il a bien de l'esprit, bien de la grandeur d'ame, et beaucoup d'équité. Voilà comme il faut que pense un roi, quand
             il ne peut pas faire autrement. Je n'ignore pas qu'il est dans une situation cruelle, et qu'il vaudroit infiniment mieux pour lui n'avoir
-            point un plat à barbe si merveilleux, que d'avoir à le défendre contre un ennemi tel que le seigneur <hi rend="italic"> Plus-Vert-Que-Pré
-            </hi> ; mais la raison d'état doit l'emporter toujours; et quand, je suppose, il y auroit au jeu moins encore, il n'en faudroit pas moins
-            être magnanime; car enfin, et malheureusement on n'est pas roi pour rien. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 23 </head>
-          <p> Le bruit de l'injuste demande du génie se répandit cependant dans le royaume, et y causa une consternation universelle. Ce seroit abuser
+            point un plat à barbe si merveilleux, que d'avoir à le défendre contre un ennemi tel que le seigneur
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      ; mais la raison d'état doit l'emporter toujours; et quand, je suppose, il y auroit au jeu moins encore, il n'en faudroit pas moins
+            être magnanime; car enfin, et malheureusement on n'est pas roi pour rien.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 23
+     </head>
+     <p>
+      Le bruit de l'injuste demande du génie se répandit cependant dans le royaume, et y causa une consternation universelle. Ce seroit abuser
             de votre patience que de vous raconter tout ce qui se passa dans ce tems de trouble et de terreur. Il vous est aisé de vous représenter
             les alarmes et les cris d'un peuple épouvanté, et qui tremble pour l'objet de son premier respect. Aussi consterné qu'eux dans le fond,
             mais fidele à ce que mon rang m'imposoit, je cachois soigneusement mes craintes, j'avilissois le génie dans mes discours, j'exagérois mes
             forces; je n'oubliois rien enfin de tout ce qui pouvoit ranimer mes sujets accablés, et leur ôter le sentiment de leur foiblesse. Pendant
-            que je m'occupois d'un soin si légitime, <hi rend="italic"> Plus-Vert-Que-Pré </hi> ne s'endormoit pas, non qu'il fît de grands
+            que je m'occupois d'un soin si légitime,
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      ne s'endormoit pas, non qu'il fît de grands
             préparatifs contre moi; mais il s'avisa de vouloir mettre la justice de son côté. Vous trouverez sans doute, comme moi, que c'étoit porter
             l'impudence à son comble,et qu'après ce qui s'étoit passé à la face de l'univers entre lui et moi, je ne devois pas craindre qu'on me
             donnât le tort. Mais j'étois fait pour les choses rares; et j'éprouvai qu'il n'y a rien qu'avec de l'audace et de l'esprit on ne tourne
@@ -2483,8 +2711,11 @@
             tueroit; et je ne crois pas que vous vouliez ma mort. Non, assurément, sire, répondit le visir; et puisqueles manifestes sont si
             contraires à votre majesté, je ne lui donnerai de celui-ci que les morceaux nécessaires pour bien entendre cette histoire. Ma foi,
             repartit le sultan, il me semble qu'il me seroit encore plus commode de n'y rien entendre du tout, que d'essuyer le moindre fragment du
-            manifeste dont je me défends. Si pourtant vous croyez, en conscience, qu'il faut que j'en passe par-là, prenez que je n'aie rien dit. <hi
-            rend="italic"> Plus-Vert-Que-Pré, </hi> pour justifier la demande qu'il me faisoit du plat à barbe, et pour couvrir l'iniquité de cette
+            manifeste dont je me défends. Si pourtant vous croyez, en conscience, qu'il faut que j'en passe par-là, prenez que je n'aie rien dit.
+      <hi rend="italic">
+       Plus-Vert-Que-Pré,
+      </hi>
+      pour justifier la demande qu'il me faisoit du plat à barbe, et pour couvrir l'iniquité de cette
             prétention, soutenoit que dans les papiers de Salomon, de qui, sans aucun fondement, il se disoit héritier, il avoit trouvé une
             transaction sous-seing-privé, passée entre Salomon et Elmasis, par laquelle ce dernier cédoit le plat à barbe à l'autre pour six cens
             millions de perroquets, dont il avoit besoin pour peupler ses états: que les perroquets avoient été fournis; ce qui se vérifioit aisément,
@@ -2500,7 +2731,11 @@
             le plat à barbe étoit un objet si important, avoit eu entre ses mains une piece telle que ce traité, il n'eût pas forcé Elmasis d'en
             remplir les conditions, que ses successeurs eussent euà cet égard la même négligence, et qu'enfin ce ne fût qu'au bout de tant de siecles
             que l'on s'avisât de renouveller une si grande querelle. Toutes lumineuses qu'étoient ces raisons, et avec quelque soin que je les fisse
-            valoir contre <hi rend="italic"> Plus-Vert-Que-Pré </hi> , elles ne frapperent personne. à peine même daigna-t-on lire mon manifeste. Tous
+            valoir contre
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      , elles ne frapperent personne. à peine même daigna-t-on lire mon manifeste. Tous
             mes alliés, hors la reine des isles de Crystal, et le prince des sources bleues, l'un mon neveu, et l'autre ma cousine, que vous voyez ici
             tous deux, ajouta-t-il en montrant la grue et l'oison, m'abandonnerent; et aidé de leurs seules forces, je me préparai sérieusement à me
             mettre en campagne. Je ne dois pas, au reste, oublier de vous dire que le génie avoit donné parole, que cette guerre se feroit entre nous,
@@ -2516,14 +2751,21 @@
             Schézaddin, je devine assez mal. Voyez toujours, dit l'autruche. Je vous assure, reprit le roi de Tinzulk, que rien ne me seroit plus
             inutile que de le chercher. C'est que, repartit l'autruche, cela seroit bien bon à deviner. Eh! Bien! Seigneur, repliquaSchézaddin après
             quelques instans de silence, j'y ai rêvé, et je n'en suis pas plus avancé pour cela; je n'y vois rien. Qui étoit-ce? Eh! Bien! Seigneur,
-            puisqu'enfin il faut vous le dire, c'étoit une tête à perruque que <hi rend="italic"> Plus-Vert-Que-Pré </hi> envoyoit contre moi. Eh bons
+            puisqu'enfin il faut vous le dire, c'étoit une tête à perruque que
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      envoyoit contre moi. Eh bons
             dieux! Une tête à perruque! S'écria Schézaddin: assurément! Il faut, pour que je croie cette histoire, que ce soit vous qui me la
             racontiez. Tubleu! Dit le sultan, voilà ce qui s'appelle du beau, cela je ne le devinois pas, mais j'ose dire que je l'attendois. Eh!
             Bien! Je ne me suis non plus trompé à cette histoire, que si je l'eusse déjà entendue plus de mille fois. Je veux croire que la sagacité
             que j'ai sur ces sortes de choses vient plutôt de l'habitude que j'ai d'en lire, que de la force de mon génie; mais il est pourtant
             remarquable que j'aie si bien rencontré; non que j'aie, comme j'ai dit, vu bien précisément que c'étoit d'une tête à perruque qu'il seroit
-            question; mais je me suis douté que ce seroit quelque chose d'extraordinaire. Quel homme pourtant que ce <hi rend="italic">
-            Plus-Vert-Que-Pré </hi> ! Vous lui conquérez des provinces, vous croyez que vous allez aussi facilement soumettrele reste de son royaume.
+            question; mais je me suis douté que ce seroit quelque chose d'extraordinaire. Quel homme pourtant que ce
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      ! Vous lui conquérez des provinces, vous croyez que vous allez aussi facilement soumettrele reste de son royaume.
             C'est que, pardonnez-moi, point du tout, une tête à perruque vient vous barrer. Il faut l'avouer; les événemens de cette histoire sont
             grands, inattendus, donnent terriblement à penser; et voilà ce que j'aime; car, pour ces choses frivoles, dont quand, vous les avez lues,
             il ne vous reste rien dans la tête, et qui vous amusent simplement pour vous amuser; on m'en dira ce que l'on voudra, mais je donnerai
@@ -2551,11 +2793,15 @@
             par exemple, où il a pris qu'il est si ordinaire que des têtes à perruque servent de général. Je crois, sans tropme vanter, que j'ai
             autant de lecture que lui; et je puis assurer... enfin, puisque la tête à perruque est la moins probable, comme l'a parfaitement bien
             prouvé le roi autruche, il n'est pas douteux que devant toute personne un peu sensée, elle ne doivent l'emporter de beaucoup sur le plat à
-            barbe; et c'est mal-à-propos qu'il s'avise de soutenir le contraire. Ce Schézaddin-là aime bien à faire le beau parleur. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 24 </head>
-          <p> Aussi-tôt que nous fûmes en présence, le prince des sources bleues et moi, envoyâmes offrir le combat à la tête à perruque. Animée de la
+            barbe; et c'est mal-à-propos qu'il s'avise de soutenir le contraire. Ce Schézaddin-là aime bien à faire le beau parleur.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 24
+     </head>
+     <p>
+      Aussi-tôt que nous fûmes en présence, le prince des sources bleues et moi, envoyâmes offrir le combat à la tête à perruque. Animée de la
             même ardeur que nous, elle l'accepta. Ce fut ce jour terrible, ce jour à jamais mémorable, que je vis pour la premiere fois le général
             ennemi, qui, superbement armé, et montant un cheval d'une beauté admirable, parcouroit ses rangs, et encourageoit ses troupes à bien
             faire. Comme sa tête seule étoit de bois, et que le reste de son corps étoit animé, il n'y avoit personne qui, en le voyant de loin,ne s'y
@@ -2642,11 +2888,15 @@
             sortirent enfin. Des dindons leur présenterent leurs chevaux. Schézaddin, en s'éloignant du palais, se retourna souvent pour voir, le plus
             long-tems qu'il pourroit ces lieux si cher à sa tendresse, ces lieux où il laissoit l'oie la plus aimable qu'il y eût dans l'univers; et
             Taciturne, fort inquiet en lui-même des suites que pourroit avoir cette aventure, suivit son maître, sans avoir le moindre regret de
-            quitter la grue du monde la plus spirituelle. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 2 PARTIE 4 CHAPITRE 25 </head>
-          <p> Schézaddin étoit si étonné de tout ce qu'il venoit d'entendre, et si rempli de son oie, qu'il étoit presque aux portes de Tinzulk, sans
+            quitter la grue du monde la plus spirituelle.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 2 PARTIE 4 CHAPITRE 25
+     </head>
+     <p>
+      Schézaddin étoit si étonné de tout ce qu'il venoit d'entendre, et si rempli de son oie, qu'il étoit presque aux portes de Tinzulk, sans
             avoir rompu le silence. N'es-tu pas confondu, dit-il, enfin, à son favori, de tout ce qui nous arrive? Oui assurément, répondit Taciturne,
             et j'en suis encore plus affligé. Ou je me trompe fort, ou nous avons fait-là de mauvaises connoissances; mais, quand on s'est mis dans le
             cas de déplaire à des fées, on ne doit pas être surpris d'éprouver leur vengeance. Toujours ta Tout-Ou-Rien! Reprit le roi, penses-tu
@@ -2682,7 +2932,10 @@
             à sa destinée, est bien vague, et pour ne rien dire de plus, bien puérile, pour pouvoir se flatter qu'elle justifie votre tendresse. Si tu
             sçavois combien elle a d'esprit! Reprit le roi en soupirant. Bon! De l'esprit! Dit Taciturne; est-ce que la grue que votre majesté
             voudroit que j'aimasse, n'en a pas autant qu'on en puisse avoir? Jamais on n'en eut si singuliérement, si terriblement, ni si énormément.
-            <hi rend="italic"> au vrai, </hi> c'est une personne exécrablement spirituelle. Puisqu'elle a tant d'esprit, lui demanda le roi, pourquoi
+      <hi rend="italic">
+       au vrai,
+      </hi>
+      c'est une personne exécrablement spirituelle. Puisqu'elle a tant d'esprit, lui demanda le roi, pourquoi
             ne l'aimes-tu point? C'est qu'à ce que je crois, repliqua Taciturne, ma destinée ne le veut pas. Schézaddin alloit apprendre à son favori
             à lui faire d'aussi mauvaises plaisanteries, lorsqu'il apperçut des gens de sa suite qui le cherchoient. Il donna du cor; et pendant que
             l'on venoit à lui, il recommanda à Taciturne de garder sur leur aventure le silence le plus profond. On le joignit; bientôt après, il
@@ -2751,13 +3004,17 @@
             l'on me donne toujours des raisonnemens comme celui-là, dit le sultan, et l'on verra si je me plaindrai. Au reste, visir, je voudrois
             bien, puisque je pense sur les cometes comme le roi autruche, et que je me suis si hautement déclaré là-dessus, que Taciturne, ou pensât
             comme moi, ou n'osât pas, du moins, dire qu'il pense différemment. Il semble que cet homme-là ait juré de n'être jamais de mon avis; et je
-            vous dis vrai, cela me choque. </p>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 5 CHAPITRE 26 </head>
-          <p> La nuit commençoit à s'étendre dans les airs, lorsque l'amoureux roi de Tinzulk et son indifférent favori entrerent dans le palais des
+            vous dis vrai, cela me choque.
+     </p>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 5 CHAPITRE 26
+     </head>
+     <p>
+      La nuit commençoit à s'étendre dans les airs, lorsque l'amoureux roi de Tinzulk et son indifférent favori entrerent dans le palais des
             autruches. Taciturne, qui étoit peut-être l'homme de son siecle qui craignoit le plus le bal, ne fut tranquille que, quant au silencequi
             regnoit dans le palais, il put juger qu'on ne s'y préparoit pas à danser. Le roi des terres vertes averti par le bruit des tambours de
             l'arrivée de Schézaddin, alla au devant de lui, et le conduisit chez la reine, où il trouva cette oie divine, dont il étoit si
@@ -2785,8 +3042,11 @@
             les sciences les plus abstraites, faisoit des agaceries, arrangeoit un rendez-vous, critiquoit le plan d'une tragédie, et créoit les
             systêmes. L'amour-propre, l'ignorance et la prévention y dictoient tous les jugemens. Par un principe établi de tous tems dans les bureaux
             d'esprit, mais bien mieux suivi dans celui de la grue que dans aucun autre on ne trouvoit de la raison, des graces,de l'esprit, qu'à ceux
-            qui le composoient, quoique pour en donner une juste idée, on soit obligé de dire qu'on y trouvoit jusques à des <hi rend="italic">
-            persiffleurs </hi> , et qu'ils y étoient à titre de gens de mérite. On étoit dans le fort de la dissertation, lorsque Taciturne arriva. Il
+            qui le composoient, quoique pour en donner une juste idée, on soit obligé de dire qu'on y trouvoit jusques à des
+      <hi rend="italic">
+       persiffleurs
+      </hi>
+      , et qu'ils y étoient à titre de gens de mérite. On étoit dans le fort de la dissertation, lorsque Taciturne arriva. Il
             fut confondu de l'air de satisfaction qui regnoit sur le visage de tous ceux qui composoient cette assemblée. édifié de l'intrépidité avec
             laquelle ils étoient ridicules, charmé du faux de leurs décisions, et étonné du ton précieux, guindé de leurs discours, il se promettoit
             de leur rompre en visiere, et il avoit déjà entrepris une jeune dinde, qui débitoit avec toute l'emphase et toute la présomption
@@ -2846,11 +3106,15 @@
             je suis son maître: je voudrois bien voir qu'il lui donnât la préférence. Mais, repliqua la sultane, il y a de l'injustice dans ce que
             vous dites; la grue qui vient de parler est un personnage enchanté, et, par conséquent, il est impossible qu'une grue ordinaire puisse
             jamais parler comme celle-là. Vous avezraison, reprit le sultan, après avoir rêvé; je n'y pensois pas, rien n'est plus vrai, j'étois
-            injuste, tant il est vrai pourtant que les rois ne sçauroient trop prendre garde à ce qu'ils disent. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 5 CHAPITRE 27 </head>
-          <p> Taciturne que l'esprit de la grue, quelqu'épouvantablement qu'elle en eût, ne séduisoit pas plus que les graces de sa personne, ne fut
+            injuste, tant il est vrai pourtant que les rois ne sçauroient trop prendre garde à ce qu'ils disent.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 5 CHAPITRE 27
+     </head>
+     <p>
+      Taciturne que l'esprit de la grue, quelqu'épouvantablement qu'elle en eût, ne séduisoit pas plus que les graces de sa personne, ne fut
             pas peu embarrassé du tour qu'elle donnoit à cette conversation. Il craignoit, avec quelque raison, que le ton tendre et plaintif qu'elle
             venoit de prendre, ne la conduisît enfin à lui parler sans contrainte sur ses sentimens; et ne sçachant s'il étoit vrai que ce fût son
             intention, comment l'en empêcher, il crut qu'il ne pouvoit mieux l'en distraire qu'en la priant de lui raconter son histoire. Elle la lui
@@ -2902,7 +3166,11 @@
             ne se trouve pas là pourrien, et dont je crois que je serai bien aise de sçavoir le pourquoi. Alors, allons, toutes réflexions faites, je
             la veux. Je me connois bien; je croirois toujours, s'il ne me la disoit pas, que j'aurois perdu le plus beau de son conte; et cela me
             feroit un mal horrible. Au reste, si le conteur m'ennuie, il sçait bien que, de façon ou d'autre, ce n'est pas la premiere fois que cela
-            lui arrive. <hi rend="italic"> histoire de la reine des isles de Crystal. </hi> je suis fille unique d'un roi puissant qui, s'il m'est
+            lui arrive.
+      <hi rend="italic">
+       histoire de la reine des isles de Crystal.
+      </hi>
+      je suis fille unique d'un roi puissant qui, s'il m'est
             permis de le dire, étoit tout à la fois la meilleure et la plus sotte personne qu'il y eût au monde; et qui, malgré cela, ne laissoit pas,
             quand le hasard s'en mêloit, que de regner à peu près comme un autre. Ce grand prince qui n'avoit point d'ambition, et qui haïssoit la
             guerre jusques aux plaisirs qui en sont l'image, ne voulant pourtant pas demeurer absolument oisif, alloit tous les jours bâiller au
@@ -2970,11 +3238,15 @@
             Je ne m'embarrasse pas de cela, reprit le sultan, je me suis mis ici pour qu'on m'amusât; il n'y a qu'à m'amuser, cette grue ne finit pas!
             Je demande d'abord si cela se fait? C'est de la pudeur, des complimens, des portraits, des invectives, sans que l'on ait le moins du monde
             besoin de tout cela, et puis, une histoire qui n'est pas plus nécessaire que le reste; encore suis-je bien sûr que, malgré cette belle
-            apparence de franchise dont elle m'a tant ennuyé, elle va lui mentir comme un chien: car c'est la regle. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 5 CHAPITRE 28 </head>
-          <p> J'étois, continua la reine des isles de Crystal, allé voir la fée qui étoit sur son départ, parce que je me flattois qu'avant que de me
+            apparence de franchise dont elle m'a tant ennuyé, elle va lui mentir comme un chien: car c'est la regle.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 5 CHAPITRE 28
+     </head>
+     <p>
+      J'étois, continua la reine des isles de Crystal, allé voir la fée qui étoit sur son départ, parce que je me flattois qu'avant que de me
             quitter, elle me doueroit de quelque don. Il y avoit pourtant dans cette espérance moins de desirs que de curiosité. Je me croyois trop
             bien à tous égards, pour imaginer que la nature lui eût laissé quelque chose à faire; et ce fut d'un air qui lui peignoit si bien la haute
             idée que j'avois de moi-même,et le peu de besoin que je croyois avoir d'elle, que je la priai de me faire un don, que je réveillai toute
@@ -2999,8 +3271,11 @@
             m'avisai de mettre du rouge. Du rouge! Figurez-vous quel scandale! On ne manqua pas de me faire sur une pareille énormité les remontrances
             les plus séveres. Je trouvai mauvais qu'on eût pris cette liberté. Je bannis d'auprès de moi toutes les femmes qui avoient osé me parler;
             et sous prétexte que celles qui avoient sçu garder sur mes écarts un respectueux silence, imiteroient bientôt celles que je bannissois, je
-            les enveloppai dans leur disgrace. Je lus des romans, pis encore, j'allai à la comédie, à l'opéra; j'inventai les <hi rend="italic">
-            médianoches </hi> ; et bientôt enfin de tout ce qui me rendoit si respectable, je ne retins que la médisance; encore suis-je forcée de
+            les enveloppai dans leur disgrace. Je lus des romans, pis encore, j'allai à la comédie, à l'opéra; j'inventai les
+      <hi rend="italic">
+       médianoches
+      </hi>
+      ; et bientôt enfin de tout ce qui me rendoit si respectable, je ne retins que la médisance; encore suis-je forcée de
             convenir que m'en faisant moins alors un devoir qu'un plaisir, on eut raison de ne me la pas compter pour vertu. Cependant une curiosité
             presque sans bornes vint prendre la place de l'indolence dans laquelle j'avois vécu jusques-là; et si dans ce grand nombre de choses que
             l'on m'avoit laissé ignorer, il me sembla qu'il y en avoit quelques-unes que je pouvois ignorer toujours, je ne portai pas de toutes le
@@ -3092,8 +3367,16 @@
             demandoit presque qui je lui avoit désigné pour successeur. Toute pénétrée de douleur que j'étois de lui inspirer assez peu d'estime, pour
             que, dans un pareil moment, il ne daignât pas se contraindre, une fatale curiosité dont tout mon dépit ne triomphoit pas... cette fatale
             curiosité dont vous étiez si vivement tourmentée, interrompit Taciturne, et la hauteur dont elle l'emportoit sur tout, me feroit penser
-            que votre majesté pourroit bien être un peu parente de cette <hi rend="italic"> Christyaline-La-Curieuse </hi> , qui joue un si beau rôle
-            dans les <hi rend="italic"> facardins </hi> ? Elle étoit, en effet, mon aïeule, répondit la reine. En ce cas, reprit-il, cette curiosité
+            que votre majesté pourroit bien être un peu parente de cette
+      <hi rend="italic">
+       Christyaline-La-Curieuse
+      </hi>
+      , qui joue un si beau rôle
+            dans les
+      <hi rend="italic">
+       facardins
+      </hi>
+      ? Elle étoit, en effet, mon aïeule, répondit la reine. En ce cas, reprit-il, cette curiosité
             étoit chez vous un mal de famille? Oui, un peu, repliqua-t-elle, la reine ma mere en étoit passablement atteinte, et l'on prétend même que
             mon pere s'en est plaint plus d'une fois. Ce n'étoit donc pas, dit-il, à la fée que vous deviez cette passion? Elle l'avoit du moins
             augmentée, répondit la grue, et c'est quelquefois beaucoup, que d'ajouter un peu à la nature. Pourquoi si cela n'étoit pas jusques à elle,
@@ -3121,11 +3404,15 @@
             plus... oh! Sans doute, interrompit la sultane, cela est fort obscur, et bien finement dit pour l'être! Enfin, reprit Schah-Baham, je n'en
             sçais rien; mais il me semble pourtant que si j'avois voulu, je n'aurois pas entendu un mot de tout ce qu'il vient de nous dire, que je
             n'aurois pas trop été dans mon tort, et qu'il y a peut-être bien des gens qui, soit dit sans me vanter, ne l'auroient pas entendu ni aussi
-            bien, ni aussi promptement que moi. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 5 CHAPITRE 29 </head>
-          <p> Ma curiosité, continua la grue, étoit trop vive, et je la voyois trop cruellement trompée, pour que je ne fusse pas dans la plus
+            bien, ni aussi promptement que moi.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 5 CHAPITRE 29
+     </head>
+     <p>
+      Ma curiosité, continua la grue, étoit trop vive, et je la voyois trop cruellement trompée, pour que je ne fusse pas dans la plus
             désagréable des situations. Je me voyois aussi outragée que je croyois alors qu'il fût impossible de l'être; et dans un accident qui, par
             lui-même n'est jamais flatteur, quoi qu'on en dise, que les circonstances rendoient encore plus humiliant pour moi, et qui me
             transportoient de fureur: une bienséance cruelle, non-seulement me condamnoit à ne me plaindre pas, mais vouloit encore que je parusse
@@ -3251,11 +3538,15 @@
             grue a condamné à ce supplice, passe le tems d'une façon bien agréable. Ma foi! Voulez-vous que je vous dise? C'est qu'il faut avoir
             éprouvé les choses pour sçavoir ce qui en est; et que j'ai remarqué, moi, qu'il y en a beaucoup dont ce géometre là parle, sans sçavoir un
             mot de ce qu'il dit. Ce qu'il y a de bon, au reste, c'est que cela n'empêche pas qu'il ne disetoujours, et que son imbécillité me divertit
-            quelquefois, parce que, quand on a l'esprit bien fait, on sçait s'amuser de tout. Même, dit la sultane, de courir après des mouches. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 5 CHAPITRE 30 </head>
-          <p> Quelque persuadée que je fusse, continua la reine des isles de Crystal, que ma vengeance ne pouvoit que certifier un malheur que
+            quelquefois, parce que, quand on a l'esprit bien fait, on sçait s'amuser de tout. Même, dit la sultane, de courir après des mouches.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 5 CHAPITRE 30
+     </head>
+     <p>
+      Quelque persuadée que je fusse, continua la reine des isles de Crystal, que ma vengeance ne pouvoit que certifier un malheur que
             j'aurois voulu pouvoir cacher à toute la terre, je ne pus, cependant, me refuser au plaisir de punir un homme que, malgré toutes ses
             protestations d'innocence, je trouvois avec raison si coupable. Toute curieuse que j'étois, je ne voulus même jamais, comme il me
             proposoit, tenter avec lui une nouvelle épreuve; et quoi que l'on en puisse dire, je suis convaincue que toute autre à ma place auroit
@@ -3323,7 +3614,14 @@
             regretter, et qui, par toutes sortes de raisons, ne pourroient que m'être infinimentdésagréables. Toujours le même malheur, et toujours
             les mêmes excuses; car, en pareil cas, les hommes semblent se les entre-prêter, tant elles se ressemblent toutes. Vous me verriez toujours
             avec la même impatience dans le fond, et à l'extérieur, la même grandeur d'ame; n'ayant jamais à répondre à des gens qui me disoient tous,
-            <hi rend="italic"> mais, cela est bien extraordinaire! </hi> que <hi rend="italic"> mais, oui! Mais, en effet! </hi> et cent autres choses
+      <hi rend="italic">
+       mais, cela est bien extraordinaire!
+      </hi>
+      que
+      <hi rend="italic">
+       mais, oui! Mais, en effet!
+      </hi>
+      et cent autres choses
             aussi misérables, qui me paroîtroient fort plaisantes aujourd'hui, s'il étoit possible que je me rappellasse sans horreur ces exécrables
             instans de ma vie. Quelque excusable que je fusse, puisqu'alors ma volonté ne dépendoit pas de moi-même, ils me couvrent de confusion et
             m'accablent de douleur. Ils doivent en effet, répondit-il en souriant, vous fournir des souvenirs assez peu agréables. Vous me permettez
@@ -3350,7 +3648,11 @@
             et les pathétiques exhortations des deux autres commissaires ne purent rien sur l'obstination des princesses. Ils furent donc forcés de
             revenir vers le roi, très-convaincus qu'elles n'avoient pas été aussi sinceres qu'elles auroient dû l'être, soit qu'en effet ils eussent
             trouvé dans leurs réponses ces tergiversations, qui ne se rencontrent jamais avec la vérité, ou qu'ils s'attachassent à cette maxime
-            vulgaire, qui dit que, <hi rend="italic"> qui veut trop prouver, ne prouve rien </hi> . Le roi, d'après le rapport de messieurs de la
+            vulgaire, qui dit que,
+      <hi rend="italic">
+       qui veut trop prouver, ne prouve rien
+      </hi>
+      . Le roi, d'après le rapport de messieurs de la
             commission, pensa comme eux qu'il n'avoit pas plû aux princesses d'être bien exactement vraies; et prévoyant que quand il les
             interrogeroit lui-même, il n'en seroit pas mieux instruit, il prit le parti de s'informer de ce qu'il vouloit sçavoir, à quelques hommes
             de sa cour qui pouvoient lui en dire des nouvelles. Mais déterminés au silence, par le même motif qui rendoit les princesses si discretes,
@@ -3366,9 +3668,17 @@
             dans la même position que moi, elle ne s'en fût pas comme moi impatientée, et qu'elle n'eût point, par toutes sortes de voies, cherché à
             s'en tirer. à cette présomptionsi raisonnable, il s'en joignoit une autre de la même force; et c'étoit qu'en parlant de la maladie, (car
             le roi ne doutoit pas que cet accident n'en fût une) on n'auroit pas oublié le remede dont cette reine infortunée se seroit servie avec
-            succès. On crut inutile apparemment, dit Taciturne, de lire l'histoire secrete du tems de <hi rend="italic"> Crystaline </hi> ! Oh!
+            succès. On crut inutile apparemment, dit Taciturne, de lire l'histoire secrete du tems de
+      <hi rend="italic">
+       Crystaline
+      </hi>
+      ! Oh!
             Répondit la grue, il faut dire la vérité, celle-là étoit à l'abri du soupçon. Les recherches du roi étant aussi infructueuses que s'il ne
-            les eût faites que dans les mémoires de <hi rend="italic"> Crystaline-La-Curieuse </hi> , il y fit succéder d'autres soins. Les temples
+            les eût faites que dans les mémoires de
+      <hi rend="italic">
+       Crystaline-La-Curieuse
+      </hi>
+      , il y fit succéder d'autres soins. Les temples
             furent ouverts, les oracles consultés; on fit autant de sacrifices que si l'état eût été menacé de la derniere calamité; et tout cela fut
             inutile. Les oracles resterent muets; et les dieux que nos prieres ne fléchirent point, me laisserent toujours mon inépuisable curiosité,
             et l'impuissance de la satisfaire. Ce fut alors seulement que la fureur de la fée et les paroles barbares qu'elle avoit prononcées sur
@@ -3384,7 +3694,11 @@
             m'apprit que je m'étois trop pressée. Je me tins donc quelques jours dans l'inaction; mais par le sort que cette fée avoit jetté sur moi,
             elle m'étoit si pénible que je ne pus jamais y rester. Il y a, dit alors Taciturne, des philosophes qui prétendent que l'habitude agissant
             également sur les peines et sur les plaisirs, si elle ôte à ceux-ci de leur prix, elle rend aussi, par la même raison, moins sensible aux
-            autres; et le proverbe qui dit que <hi rend="italic"> l'habitude est une seconde nature </hi> , semble en effet favoriser cette opinion.
+            autres; et le proverbe qui dit que
+      <hi rend="italic">
+       l'habitude est une seconde nature
+      </hi>
+      , semble en effet favoriser cette opinion.
             Vous avez, repliqua la grue, l'esprit fort orné! Eh bien? Eh bien? Reprit-il, si, par hasard le proverbe et ces gens-là avoient raison,
             chaque jour devoit vous rendre votre destinée moins cruelle. Eh, répondit-elle, si ce n'est que cela, c'est donc une regle qui, comme
             toutes les autres, a ses exceptions. Je ne sçais pas, au reste, si j'eusse agi de moi-même, comment, à la longue, la chose m'auroit paru,
@@ -3418,11 +3732,15 @@
             d'ennui! Et d'ailleurs, quelle impossibilité! Succomber à sa curiosité, que de désagrémens! En vérité! C'étoit et pour vous et pourles
             autres une bien embarrassante situation. Vous raillez, à ce qu'il me semble, lui dit la grue; pensez-vous aussi que la position des
             personnes que j'associois à mes expériences, fût beaucoup plus agréable que la mienne? Je voudrois... mais, non, ajouta-t-elle en se
-            reprenant, car il n'est pas du tout vrai que je voulusse vous y voir. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 6 CHAPITRE 31 </head>
-          <p> Quelque chose qu'il y eût à gagner pour mon amour-propre, que l'on n'ignorât point que je ne devois qu'à la fée les malheurs que j'avois
+            reprenant, car il n'est pas du tout vrai que je voulusse vous y voir.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 6 CHAPITRE 31
+     </head>
+     <p>
+      Quelque chose qu'il y eût à gagner pour mon amour-propre, que l'on n'ignorât point que je ne devois qu'à la fée les malheurs que j'avois
             essuyés, je priai mon pere d'en cacher encore la cause. Il étoit d'autant plus aisé de garder le secret le plus profond là dessus,qu'elle
             l'avoit moins confié aux ambassadeurs, et qu'elle leur avoit seulement répondu qu'elle consulteroit ses livres. Toute pressée que j'étois,
             que l'on apprît par-tout qu'il n'y avoit pas tant de ma faute qu'on me paroissoit vouloir le croire, je l'étois plus encore de me venger
@@ -3458,8 +3776,15 @@
             que l'air plus tendre; leur amour dont, dans les commencemens elles se firent une vertu, ne paroissoit que les en occuper davantage. Je
             sentois, en les voyant, qu'elles avoient la générosité de rassurer des amans que les torts qu'elles pouvoient leur reprocher alarmoient,
             avec quelque raison, sur leur constance. Elles sembloient même leur dire qu'ils n'y songeoient pas d'avoir des peurs si misérables, et
-            qu'il étoit bien étonnant qu'ils pussent croire qu'unefemme qui <hi rend="italic"> pense </hi> : (eh! Quelle est la femme qui croit ne pas
-            <hi rend="italic"> penser </hi> ! ) pût seulement faire à ces sortes de choses la plus légere attention. Ces procédés si admirables de
+            qu'il étoit bien étonnant qu'ils pussent croire qu'unefemme qui
+      <hi rend="italic">
+       pense
+      </hi>
+      : (eh! Quelle est la femme qui croit ne pas
+      <hi rend="italic">
+       penser
+      </hi>
+      ! ) pût seulement faire à ces sortes de choses la plus légere attention. Ces procédés si admirables de
             part et d'autre ne m'étonnerent pas; je les avois prévus; mais je m'étois flattée qu'ils ne seroient pas éternels, et j'avois eu raison.
             En effet, au bout de huit autres jours je vis cette union si tendre s'altérer, et quelques amans être congédiés. Il est vrai qu'on prit
             des prétextes pour rompre. L'un par exemple, étoit devenu si jaloux, qu'il passoit les bornes que l'on a prescrites à cet odieux
@@ -3491,7 +3816,11 @@
             égaler la joie que je ressentois de m'être vengée si bien, que le plaisir de n'y avoir pas été forcée par le plus désagréable des
             accidens. Elle a raison, dit le sultan, aigres, maigres, cela fait tableau; il me semble que j'y suis; là, que je les vois. Voilà un drôle
             de tour pourtant. Je ne sçais si vous êtes comme moi, mais je trouve à la grue une imagination singuliere. Ce n'est ma foi pas d'après
-            celle-là qu'on peut dire: <hi rend="italic"> sot comme une grue </hi> . Oh çà! Madame, ajouta-t-il en s'adressant à la sultane, dites-nous
+            celle-là qu'on peut dire:
+      <hi rend="italic">
+       sot comme une grue
+      </hi>
+      . Oh çà! Madame, ajouta-t-il en s'adressant à la sultane, dites-nous
             un peu, je vous prie, et sans tirer à conséquence, si vous auriez été bien aise d'être de cette courdans des tems si orageux? Je croyois,
             seigneur, répondit-elle d'un air sec, que je vous avois déjà prié de ne me plus faire de questions, ou de ne vous pas offenser si je ne
             répondois pas aux vôtres, lorsqu'elles seroient d'un certain genre. D'un certain genre! Reprit Schah Baham, je voudrois bien sçavoir de
@@ -3502,11 +3831,15 @@
             tout le monde est puni; cela est-il juste? Ne l'est-il pas moins encore que des étrangers qui n'ont rien eu à démêler avec elle, se
             trouvent d'une maniere... je n'aurois donc eu, moi, qu'à arriver dans son pays de Crystal, comme si j'eusse été de ce tems-là, cela se
             seroit fort bien pu, pensez-vous que cette plaisanterie-làm'eût agréé? On fait, parbleu! Et pour moins, de très-sanglantes guerres; et
-            voilà pourtant, comme sans y penser, on expose ses peuples. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 6 CHAPITRE 32 </head>
-          <p> L'interdit que j'avois jetté sur ma cour duroit encore; et, comme vous le croirez plus aisément que personne, ne la rendoit ni gaie, ni
+            voilà pourtant, comme sans y penser, on expose ses peuples.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 6 CHAPITRE 32
+     </head>
+     <p>
+      L'interdit que j'avois jetté sur ma cour duroit encore; et, comme vous le croirez plus aisément que personne, ne la rendoit ni gaie, ni
             brillante, lorsqu'un jeune prince y arriva. Il y étoit, du moins je le présumai, plus attiré encore par le bruit que faisoient mes
             malheurs, que par celui que pouvoient faire mes charmes: car, à vous dire la vérité, les uns m'avoient donné beaucoup plus de célébrité
             que les autres. Ce prince, recommandable par les agrémens de sa figure, l'étoit beaucoup plus encore par les charmes de son esprit. Il
@@ -3592,11 +3925,15 @@
             qu'instructive, je ne sçais combien de choses que je crois qu'il ne tiendroit qu'à moi de n'entendrequ'assez médiocrement. Comme c'est un
             bel esprit, je n'en suis pas étonné; mais il est pourtant vrai de dire que je n'en suis pas pour cela plus content, que l'on me fasse des
             circonlocutions, d'une longueur qui ne finissent pas, et qui me donnent la migraine, à force de chercher ce qu'elles veulent dire; ou que
-            l'on me gâte par-là une histoire, qui, pour être admirable, j'ose le dire, n'a seulement besoin que d'être un peu plus claire. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 6 CHAPITRE 33 </head>
-          <p> Mes amans étoient trop sujets à se faire de fausses joies, pour que celle du prince, et ses transports me donnassent de notre félicité
+            l'on me gâte par-là une histoire, qui, pour être admirable, j'ose le dire, n'a seulement besoin que d'être un peu plus claire.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 6 CHAPITRE 33
+     </head>
+     <p>
+      Mes amans étoient trop sujets à se faire de fausses joies, pour que celle du prince, et ses transports me donnassent de notre félicité
             mutuelle l'idée qu'il en avoit lui-même. Après ce que je sçavois, il m'auroit, en effet, été impossible de me faire des illusions sur mon
             état; et j'avois en conséquence, formé un plan, d'après lequel je me flattois d'échapper, du moins, à ce qu'il avoit de plus humiliant;
             mais, toute pressée que j'étois d'en voir le succès, je crus ne devoir pas céder avec mapromptitude ordinaire, aux desirs de mon amant.
@@ -3673,17 +4010,29 @@
             sentir la chimere de mes espérances; et que je ne voyois que trop, que se défendre si absolument, et dans de certaines circonstances,
             contre un amant qui plaît, étoit un effort dont la nature ne vouloit pas que la vertu pût se vanter: que je... doucement, s'il vous plaît,
             visir, interrompit le sultan: je veux vous dire, avant que vous alliez plus loin, que vous venez de nous débiter là des choses superbes.
-            Il y a, sur-tout, <hi rend="italic"> une vertu qui ne permet pas à une nature, </hi> ou, car cela revient au même, <hi rend="italic"> une
-            nature qui ne veut pas qu'une vertu, </hi> qui m'a enchanté. Vous avez raison de l'être, dit la sultane, cela est d'un précieux! Eh bien!
+            Il y a, sur-tout,
+      <hi rend="italic">
+       une vertu qui ne permet pas à une nature,
+      </hi>
+      ou, car cela revient au même,
+      <hi rend="italic">
+       une
+            nature qui ne veut pas qu'une vertu,
+      </hi>
+      qui m'a enchanté. Vous avez raison de l'être, dit la sultane, cela est d'un précieux! Eh bien!
             Oui, repliqua Schah-Baham, cela est précieux... par sa beauté. Ce n'est pas que d'abord on l'entende bien commodément; mais pourtant, et
             après y avoir, comme de raison, un peu rêvé, l'on trouve que cela fait sentence. Pour moi, j'aime beaucoup la tournure; et j'ai cela de
             commun avec mon chancelier, qui me disoit la derniere fois, que c'étoit les idées qui font valoir les mots; peut-être bien, étoit-ce le
             contraire; mais vous n'en voyez pas moins, que de façon ou d'autre, j'ai retenu sa pensée. Oh ça! Voyons à présent ce qu'il va répondre,
-            lui. C'est que je parie que cela sera curieux. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 6 CHAPITRE 34 </head>
-          <p> Après ce magnifique prologue, continua la grue, je dis au prince, le plus modestement qu'il me fut possible, que je consentois enfin à
+            lui. C'est que je parie que cela sera curieux.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 6 CHAPITRE 34
+     </head>
+     <p>
+      Après ce magnifique prologue, continua la grue, je dis au prince, le plus modestement qu'il me fut possible, que je consentois enfin à
             porter en quelque maniere la peine de ma présomption; mais que, quelque entiere que fût la victoire qu'il remportoit sur mon coeur, je ne
             pouvois encore me résoudre à la marquer par une foiblesse aussi complette que celle qu'il exigeoit de moi; et je lui fis entendre à
             quelles conditions et sous quelles réserves je consentoisà lui accorder plus que je ne lui avois promis. Il auroit dû être content; mais
@@ -3801,7 +4150,11 @@
             de celle-là. Enfin, ajouta-t-il, d'un ton dévot, on peut dire que lesdieux font quelquefois de belles graces! Car j'oserois parier qu'il
             n'y a pas une femme qui, dans la même position que vous, eût eu la même indifférence. Eh bien! Répondit-elle d'un ton d'impatience, ils me
             firent celle-là. C'étoit apparemment, continua-t-il, en faveur de votre ancienne dévotion. Enfin, madame? Enfin, reprit-elle, fort peu de
-            tems après ma délivrance, le roi des terres-vertes fit la guerre à <hi rend="italic"> Plus-Vert-Que-Pré </hi> ; je pris, comme il vous l'a
+            tems après ma délivrance, le roi des terres-vertes fit la guerre à
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      ; je pris, comme il vous l'a
             dit, parti pour lui, je suivis sa fortune; et comme vous voyez, je partage ses malheurs. Je ne dois cependant pas oublier de vous dire que
             désespérée de tout ce que j'avois fait dans ce tems d'ivresse; où j'avois si peu dépendu de moi-même, honteuse au dernier point que le
             souvenir en existât, je priai la fée d'ôter la mémoire de mes égaremens à ceux même qu'elle m'avoit forcés de favoriser; et qu'elle
@@ -3818,7 +4171,11 @@
             j'entendrai ce qu'on me dira. C'est dommage que cettehistoire soit si obscure; car elle est d'ailleurs fort belle et fort instructive. Au
             reste, je suis comme le Taciturne, moi, je crois aussi qu'elle ment un peu. C'est fort bien fait de mentir, mais encore faut-il le faire
             là, sur des choses, et de façon qu'on puisse croire; et celle-là, Dieu me pardonne, n'est non plus faite pour être crue! Enfin, nous
-            verrons peut-être ce qui en est. Mais, visir, pendant que j'y songe, ce <hi rend="italic"> dix-neuvieme monde </hi> , dont il me semble
+            verrons peut-être ce qui en est. Mais, visir, pendant que j'y songe, ce
+      <hi rend="italic">
+       dix-neuvieme monde
+      </hi>
+      , dont il me semble
             que je n'ai jamais entendu parler qu'à vous, n'est-ce pas tout uniment ce que nous appellons l'autre monde? Non, sire, répondit Moslem,
             votre majesté n'ignore pas que les génies et les fées ne meurent point. Ce dix-neuvieme monde est un séjour délicieux où ils se retirent,
             lorsqu'ils sont las de gouverner l'univers, et d'où ils descendent lorsque l'oisiveté où ils s'y tiennent, et les plaisirs dont ils
@@ -3826,11 +4183,15 @@
             monde-ci, qu'on me mît dans celui-là. J'ai toujours peur, quand je songe à ce vilain petit pont si étroit, sur lequel il faudra que je
             passe, que quelque mal-intentionné ne me tirepar ma robe, et ne me fasse tomber dans ce chien de lac de feu qui est dessous: et cette
             idée, tout intrépide que je suis d'ailleurs, m'a bien souvent la nuit fait faire de mauvais songes, et donné le cochemard; et d'ailleurs,
-            c'est que je ne serois pas fâché de faire quelquefois le revenant. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 3 PARTIE 6 CHAPITRE 35 </head>
-          <p> Taciturne trouva le roi son maître aussi satisfait des sentimens de son oie, qu'il étoit lui mécontent de la tendresse de sa grue, et
+            c'est que je ne serois pas fâché de faire quelquefois le revenant.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 3 PARTIE 6 CHAPITRE 35
+     </head>
+     <p>
+      Taciturne trouva le roi son maître aussi satisfait des sentimens de son oie, qu'il étoit lui mécontent de la tendresse de sa grue, et
             scandalisé de son histoire qui, malgré les vertueuses réflexions dont elle avoit tâché de l'orner, lui paroissoit tout-à-fait malhonnête.
             Quoiqu'une matiere assez scabreuse, et sur laquelle il n'est pas aisé de s'exprimer aussi délicatement qu'il le faudroit, quand on en
             traite de pareilles, en fît le fond; il lui sembloit qu'il y avoit des choses qu'elle auroit pu manier plus légérement, et d'autres
@@ -3878,8 +4239,11 @@
             lorsque je voulois retourner en arriere, je trouvois si peu flexibles, m'offrirent dans le mouvement contraire, la plus grande facilité.
             Enfin je descendis: mon premier soin, comme vous le croyez bien, fut de chercher une issue; j'en trouvai une; mais elle étoit grillée; et
             puisqu'il faut trancher le mot, c'étoit dans une ratiere que je me trouvai pris. Je ne sçais si vous pensez là-dessus comme moi; mais
-            cette plaisanterie me paruttout-à-fait mauvaise; et quoiqu'il y ait actuellement plus de quinze siecles que <hi rend="italic">
-            Plus-Vert-Que-Pré </hi> me l'a faite, j'en suis encore, quand je me la rappelle, aussi piqué que le premier jour. Une ratiere! S'écria le
+            cette plaisanterie me paruttout-à-fait mauvaise; et quoiqu'il y ait actuellement plus de quinze siecles que
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      me l'a faite, j'en suis encore, quand je me la rappelle, aussi piqué que le premier jour. Une ratiere! S'écria le
             sultan, qu'un événement si peu attendu avoit rendu stupéfait; une ratiere! Mais comment ces choses-là arrivent-elles? C'est, je l'avoue,
             ce qui me confond, moi. L'on a ma foi bien fait de ne me pas donner cela à deviner; je conviens que je ne m'en serois jamais tiré à mon
             avantage. Pourquoi diantre aussi, va-t-il s'enfourner dans ce trou! J'aurois parié, quand je l'y ai vu, que son ennemi lui gardoit là
@@ -3942,8 +4306,11 @@
             répondit que ce que je lui demandois, ne dépendoit pas d'elle; que la ratiere étant, comme elle-même, de l'invention du génie, il
             voudroit, sans doute, que je lui fusse présenté dedans, et qu'elle ne pouvoit point prendre sur elle de m'en délivrer. Elle ajouta que je
             pouvois remarquer qu'elle étoit spacieuse, et magnifiquement meublée; qu'en ne m'arrêtant pas sur cette idée de ratiere, qui blessoit mon
-            imagination, je m'y trouverois aussi-bien qu'ailleurs; qu'elle ne doutoit pas, qu'après que <hi rend="italic"> Plus-Vert-Que-Pré </hi>
-            m'auroit un peu promené dans son empire, seulement pour amuser ses sujets, il ne me rendît le mien; la liberté, son amitié même; et
+            imagination, je m'y trouverois aussi-bien qu'ailleurs; qu'elle ne doutoit pas, qu'après que
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      m'auroit un peu promené dans son empire, seulement pour amuser ses sujets, il ne me rendît le mien; la liberté, son amitié même; et
             qu'enfin, je n'en fusse quitte pour le plat à barbe que j'avois perdu, et que je n'aurois jamais dû m'obstiner à défendre contre lui. En
             achevant ces paroles, elle se retira, après m'avoir rendu mille graces de l'honneur que je lui avois fait. Aussi-tôt qu'elle fut sortie,
             je sentis qu'on soulevoit ma prison; et je ne doutai pas que la tête à perruque ne me fît porter à son camp. Comme après m'avoir vaincu,
@@ -3953,7 +4320,11 @@
             venoient de tous côtés pour me voir passer, les éclats de rire qu'ils faisoient en me voyant; les insolens et plats ponts-neufs que le
             soldat avoit composés sur ma défaite, et dont, malgré les défenses de la tête à perruque, on m'étourdissoit toute la journée, ne me
             rendissent pas odieuse une prison dans laquelle je ne pouvois échapper ni aux regards des curieux, ni à l'insolence des chansonniers. Nous
-            arrivâmes enfin dans la ville où <hi rend="italic"> Plus-Vert-Que-Pré </hi> tenoit sa cour. Tout y étoit depuis long-tems préparé pour le
+            arrivâmes enfin dans la ville où
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      tenoit sa cour. Tout y étoit depuis long-tems préparé pour le
             triomphe de la tête à perruque. Le jour indiqué pour cette pompe, on vint me prier de changer de ratiere, et l'on me mit dans une autre
             infiniment plus ornée que celle dans laquelle on m'avoit pris, et qui me plût pourtant moins que la premiere, parce que n'étant composée
             que de grillages d'or, j'y étois de tous côtés exposé à la curiosité de lafoule imbécille qu'attiroit un spectacle si surprenant. Je
@@ -3963,7 +4334,11 @@
             roi de Phasgam, sa fille, la mienne, ma cousine, et mon neveu, qui, montés sur des chars superbes, précédoient le plat à barbe et ma
             ratiere. J'étois bien loin d'imaginer qu'ils fussent comme moi dans les fers, et que le génie eût déjà conquis mon royaume. Il s'en
             rendoit cependant le maître, pendant que je m'établissois tranquillement dans le sien; et la tête à perruque n'étoit venue me combattre
-            qu'après avoir vaincu mon beau-pere, et uni mon empire à celui de <hi rend="italic"> Plus-Vert-Que-Pré </hi> . Je conçus aisément que mon
+            qu'après avoir vaincu mon beau-pere, et uni mon empire à celui de
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      . Je conçus aisément que mon
             ennemi ne m'avoit laissé si long-tems ignorer toutes mes pertes, et ne me les faisoit apprendre d'une façon si imprévue, qu'afin que j'en
             fusse accablé dans unjour où j'étois en spectacle à toute la terre; et que la vive douleur dont il se flattoit que je ne pourrois me
             défendre, ajoutât à son triomphe et à mon humiliation. Je sentis mon état plus encore sans doute qu'il ne l'avoit espéré: l'amour et la
@@ -3974,15 +4349,22 @@
             comme je suis, elle me fend le coeur. Le pauvre homme! Il devoit, d'ailleurs avoir si bonne mine dans sa ratiere! Je l'y vois d'ici, moi;
             réellement cela fait pitié. Pourquoi n'y mettoit-on pas plutôt le prince des sources bleues? C'est bien de celui-là qu'on auroit pu dire
             en l'y voyant, que c'étoit bien employé. Assurément! Dit la sultane,ce prince-là vous déplaît cruellement! Oh! Oui, repliqua Schah-Baham,
-            <hi rend="italic"> assurément! Cruellement! </hi> oh! Que vous êtes grue! Ne vous souviendrez-vous jamais que Taciturne a défendu les
+      <hi rend="italic">
+       assurément! Cruellement!
+      </hi>
+      oh! Que vous êtes grue! Ne vous souviendrez-vous jamais que Taciturne a défendu les
             adverbes? Voyez s'il m'en échappe, à moi. Je ne dis mot; mais j'ai cela de bon, je profite de tout; et c'est un grand point, soit qu'on
-            soit roi, ou qu'on soit autre chose. </p>
-        </div>
-      </div>
-      <div type="group">
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 7 CHAPITRE 36 </head>
-          <p> Enfin, continua l'autruche, je parus devant le génie avec une fierté qui, si elle n'étoit pas convenable à ma fortune, étoit du moins
+            soit roi, ou qu'on soit autre chose.
+     </p>
+    </div>
+   </div>
+   <div type="group">
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 7 CHAPITRE 36
+     </head>
+     <p>
+      Enfin, continua l'autruche, je parus devant le génie avec une fierté qui, si elle n'étoit pas convenable à ma fortune, étoit du moins
             digne de mon ame. Ce cruel me regardant avec une maligne joie, me dit en souriant que, s'il n'étoit pas aussi grand physicien quemoi, et
             s'il ne sçavoit pas inventer de nouvelles machines, il pouvoit, du moins, se vanter de sçavoir tirer un grand parti de celles qui étoient
             le plus connues, et peut-être le plus méprisées; et que si je voulois lui rendre justice, je conviendrois que l'usage qu'il avoit fait de
@@ -4019,14 +4401,26 @@
             dures; et c'est en pareil cas qu'il faut se servir de son chancelier, quand on en a un. D'ailleurs, voyez un peu la belle raison!
             Poursuivez. Tout ce que me dit le génie, quelque fâcheux qu'il fut pour moi, m'affligea moins encore que sa présence; etsans me plaindre
             de sa cruauté, sans essayer de le fléchir, ni lui demander du tems pour songer au choix que j'étois forcé de faire, je ne lui répondis que
-            ce seul mot: <hi rend="italic"> autruche </hi> . à peine me fut-il échappé, que je devins tout aussi autruche que vous me voyez; mon
+            ce seul mot:
+      <hi rend="italic">
+       autruche
+      </hi>
+      . à peine me fut-il échappé, que je devins tout aussi autruche que vous me voyez; mon
             neveu, et ma cousine, que l'on n'avoit pas daigné consulter, furent transformés dans le même instant que moi, comme vous les voyez tous
             deux: toute ma cour les suivit; et ils furent tous d'autant plus étonnés de changer de forme, qu'ils n'avoient aucun soupçon de la
-            noirceur que <hi rend="italic"> Plus-Vert-Que-Pré </hi> leur préparoit. Le chagrin qu'ils en conçurent fut d'abord fort vif; mais quand
+            noirceur que
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      leur préparoit. Le chagrin qu'ils en conçurent fut d'abord fort vif; mais quand
             ils virent qu'on ne leur avoit ôté aucune de leurs facultés, et que leur malheur se bornoit à se paroître oie, grue, ou dindon, ils
             commencerent à prendre leur parti; et en moins de huit jours, ils ne furent pas moins accoutumés à leur nouvel état que s'ils fussent nés
             ce qu'ils étoient devenus. Il est vrai aussi de dire que la grandeur d'ame avec laquelle j'étois autruche, ne contribua pas peu à leur
-            faire supporter patiemment leur infortune, et que ma cousine, qui fut <hi rend="italic"> immensement </hi> fâchée d'être grue, ne trouva
+            faire supporter patiemment leur infortune, et que ma cousine, qui fut
+      <hi rend="italic">
+       immensement
+      </hi>
+      fâchée d'être grue, ne trouva
             rien à merépondre, lorsque se plaignant qu'étant reine, on eût osé la faire grue, comme le dernier de ses sujets; je lui demandai
             gravement si je n'avois pas été roi, et si j'en étois moins autruche. Ce qui me fâchoit beaucoup plus que ma métamorphose, c'étoit que la
             reine ne la partageât pas. Une distinction si marquée, ne me faisoit que trop voir à quel point mes soupçons étoient fondés, et qu'il ne
@@ -4039,7 +4433,11 @@
             L'état où je la voyois, rendoit ce qu'elle me disoit, assez plausible; et quoique les relations qu'elle me fit de la façon dont elle avoit
             vécu avec le génie, s'accordassent assez mal avec ce que la tête à perruque m'en avoit dit, il me parut plus raisonnable de croire qu'il
             m'avoit trompé, que de soupçonner la reine de mensonge. D'ailleurs, je l'aimois trop encore pour ne la pas desirer innocente. Que vous
-            dirai-je? J'oubliai que <hi rend="italic"> Plus-Vert-Que-Pré </hi> en avoit été passionnément amoureux, et qu'il n'étoit pas assez délicat
+            dirai-je? J'oubliai que
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      en avoit été passionnément amoureux, et qu'il n'étoit pas assez délicat
             pour n'avoir employé contre elle que les larmes et les empressemens. Aussi peu sûr enfin de l'être, que de ne l'être point, je choisis,
             des deux idées que je pouvois me faire là-dessus, celle qui devoit me tourmenter le moins; et cependant, quand j'y pense bien... mais, à
             tout prendre, je crois qu'il vaut mieux encore que je n'y pense pas. Eh non, visir! Interrompit le sultan, qu'il n'y pense plus, et que
@@ -4082,12 +4480,19 @@
             incroyable ce que j'avois à leur dire. Voilà, seigneur, pourquoi je danse. Ce stratagême m'a été peu utile jusqu'ici; mais un qui m'auroit
             coûté davantage, et qui eût été moins simple, ne m'auroit peut-être pas mieux servi; cependant, je commence à m'ennuyer de donner le bal.
             J'ai encore quelques endroits de l'univers à parcourir, et deux ou trois planetes où je n'ai pas encore dansé; et quand j'aurai épuisé
-            tout cela, je suis déterminé à me tenir en repos, et à rester autruche, tant que cela pourra convenir à <hi rend="italic">
-            Plus-Vert-Que-Pré </hi> . Puisque votre majesté, dit alors Taciturne, a la commodité de danser dans les planetes, quand il lui plait,
+            tout cela, je suis déterminé à me tenir en repos, et à rester autruche, tant que cela pourra convenir à
+      <hi rend="italic">
+       Plus-Vert-Que-Pré
+      </hi>
+      . Puisque votre majesté, dit alors Taciturne, a la commodité de danser dans les planetes, quand il lui plait,
             oserois-je bien lui faire une question sur un fait qui concerne l'astronomie, et qu'elle seule peut m'éclaircir? Vous n'ignorez pas qu'il
             y a de grandes disputes sur la figure de la terre. Les uns la soutiennent plate, les autres quarrée. Il y a des astronomes qui ne la
             veulent que ronde, d'autres l'allongent; moi, je la crois octogone. Vous vous trompez tous, répondit l'autruche; je l'ai crue long-tems
-            octogone comme vous; mais, le vrai est qu'elle est en forme de cône, autrement dit en <hi rend="italic"> chapeau pointu </hi> . Voilà,par
+            octogone comme vous; mais, le vrai est qu'elle est en forme de cône, autrement dit en
+      <hi rend="italic">
+       chapeau pointu
+      </hi>
+      . Voilà,par
             exemple, ce dont aucun de vos astronomes ne se doute, quelque habile qu'il puisse être? Mais, sire, reprit Taciturne, comment, s'il vous
             plait, arrangez-vous le cours du soleil, avec cette forme de chapeau pointu que vous donnez à la terre? Je ne vous dissimulerai pas que
             cela me paroît souffrir quelque difficulté. Pas la moindre, repartit l'autruche, et vous en allez convenir; il regne autour de la terre
@@ -4105,11 +4510,15 @@
             choses, que je veux que vous me donniez le systême du roi, mon ami, sur la figure de la terre. C'est qu'il m'a plû, et que je ne ferai
             qu'un édit pour les cerfs-volants, et le chapeau pointu, qui ne me paroissent pas plus douteux l'un que l'autre, et qu'en conséquence,
             j'entends que l'on croie également. Je suis sûr que je ferai de tout cela le plus beau recueil de physique que l'on ait jamais vu; et je
-            ne serai pas fâché que ce soit à moi que l'on en ait l'obligation. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 7 CHAPITRE 37 </head>
-          <p> Aussi-tôt que le roi autruche se fut retiré, Schézaddin s'approcha de son oie; mais en tremblant. Sa démarche, ses regards, ses soupirs,
+            ne serai pas fâché que ce soit à moi que l'on en ait l'obligation.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 7 CHAPITRE 37
+     </head>
+     <p>
+      Aussi-tôt que le roi autruche se fut retiré, Schézaddin s'approcha de son oie; mais en tremblant. Sa démarche, ses regards, ses soupirs,
             tout marquoit en lui cette tendre émotion, ce trouble si flatteur qui confondent l'ame, et lui font éprouver à la fois ce que l'amour a de
             plus doux et de plus rapides mouvemens. La princesse, avec des yeux qui paroissoient fixés ailleurs, et ne regardoient cependant que lui,
             l'attendoit avec autant d'impatience que de crainte. Ce que Schézaddin lui avoit dit, ne la rassuroit pas sur ses terreurs; et quand elle
@@ -4206,15 +4615,26 @@
             jusques au point de l'épouser, pour la faire disparoître après qu'elle auroit joui du plaisir de l'avoir vu se déshonorer à la face de
             l'univers par une union comme celle qu'il méditoit; ou, ce qui seroit encore plus désagréable, la dépouiller de l'esprit qu'il lui
             trouvoit, dessiller ses yeux, et l'obliger peut-être à ne pouvoir jamais s'en séparer. D'ailleurs, ajouta-t-il, votre majesté peut-elle se
-            flatter que ses sujets le voient d'un oeil tranquille leur donner une pareille reine, et que <hi rend="italic"> Quamobrem </hi> ne vous
+            flatter que ses sujets le voient d'un oeil tranquille leur donner une pareille reine, et que
+      <hi rend="italic">
+       Quamobrem
+      </hi>
+      ne vous
             accable pas de ses harangues, jusques à ce qu'il ait changé votre coeur, ou qu'il vous ait fait périr d'ennui! Si vous ne pouvez pas
             douter que s'il vous avoit surpris au bal pendant que vous dansiez de si bon coeur avec toute la royale ménagerie qui vous le donnoit,
             rien ne l'auroit empêché de vous haranguer dans toutes les regles, pensez vous qu'il vous laisse tranquille, lorsque pourexercer son
             impitoyable éloquence, il aura un aussi beau prétexte que celui de vous enlever à une oie? Vous lui imposerez silence, me direz-vous? Mais
-            l'imposerez-vous au sénat, qui ne se conduisant que par les vues du <hi rend="italic"> grand-raisonneur </hi> , quoiqu'il en fasse tous
+            l'imposerez-vous au sénat, qui ne se conduisant que par les vues du
+      <hi rend="italic">
+       grand-raisonneur
+      </hi>
+      , quoiqu'il en fasse tous
             les ans par ses funestes oraisons mourir d'apoplexie plus de la moitié, l'appuiera de toute son autorité, fomentera les mécontentemens du
-            peuple, et l'excitera sans doute à se soulever? Eh bien! Taciturne, répondit le roi, au hasard d'essuyer les harangues de <hi
-            rend="italic"> Quamobrem </hi> , les remontrances du sénat, le soulevement de mes peuples, et d'avoir, (ce qui ne t'en déplaise, n'est pas
+            peuple, et l'excitera sans doute à se soulever? Eh bien! Taciturne, répondit le roi, au hasard d'essuyer les harangues de
+      <hi rend="italic">
+       Quamobrem
+      </hi>
+      , les remontrances du sénat, le soulevement de mes peuples, et d'avoir, (ce qui ne t'en déplaise, n'est pas
             moins cruel que le reste) tes vieilles maximes à entendre, je persisterai dans la tendresse que j'ai vouée au plus aimable objet qui fût
             jamais, et dans le dessein de le montrer à l'univers, aussi digne d'adoration qu'il l'est de mon coeur. Très-bien cela, dit le sultan;
             mais, parfaitement bien! Voilà ce qui s'appelle de la grandeur d'ame; et d'autant plus que Taciturne n'a pas du tout de tort, et que ses
@@ -4223,11 +4643,15 @@
             ni moins beau, ni moins vrai. à considérer aussi les choses d'un certain côté, l'oie a un mérite si singulier, qu'il s'en faut de très-peu
             qu'il n'en ait, lui, aucun à faire ce qu'il fait, et qu'il n'y a personne qui, à sa place, pût se dispenser d'en faire autant. Vous auriez
             donc épousé cette oie-là? Vous, lui demanda la sultane. Eh mon dieu oui! Répondit-il, encore m'en serois-je tenu très-honoré, je vous
-            assure. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 7 CHAPITRE 38 </head>
-          <p> Les personnes qui aiment sçavent combien impatiemment on attend l'heure d'un rendez-vous, sur-tout quand c'est le premier qu'on obtient;
+            assure.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 7 CHAPITRE 38
+     </head>
+     <p>
+      Les personnes qui aiment sçavent combien impatiemment on attend l'heure d'un rendez-vous, sur-tout quand c'est le premier qu'on obtient;
             celles qui ne le sçavent pas encore, l'apprendront sans doute un jour; et il seroit inutile d'en rappeller la mémoire aux gens qui peuvent
             avoir leurs raisons pour ne vouloir pas s'en souvenir. Sans entrer donc dans le détail des inquiétudes et des impatiencesde Schézaddin, il
             suffira de dire qu'il ne put fermer les yeux de toute la nuit, et qu'il s'ennuya la plus grande partie du jour, quoiqu'il l'employât à
@@ -4245,33 +4669,68 @@
             lettre la plus sotte, à la lettre la mieux écrite, lorsqu'on lui parle dans l'une du pouvoir de ses charmes, et qu'elle n'en trouve pas
             l'éloge dans l'autre. Toujours de la causticité! Dit le roi, c'est une chose singuliere que vous ne puissiez jamais parler bien des
             femmes! Je ne m'étonne pas si elles vous trouvent d'un haïssable caractere. Toutes ces raisons, au reste, bonnes ou mauvaises, ne vous
-            dispenseront pas de m'obéir, et je veux absolument que vous écriviez. Taciturne alors cédant à son maître, commença ainsi sa lettre. <hi
-            rend="italic"> le plus amoureux des rois, à l'oie, du monde, la plus aimable. </hi> rayez, lui dit le roi, le mot d'oie, qui me choque, et
-            mettez, <hi rend="italic"> à la princesse Manzaïde </hi> . Taciturne obéit, et continua ainsi: <hi rend="italic"> sans l'éclat de vos
+            dispenseront pas de m'obéir, et je veux absolument que vous écriviez. Taciturne alors cédant à son maître, commença ainsi sa lettre.
+      <hi rend="italic">
+       le plus amoureux des rois, à l'oie, du monde, la plus aimable.
+      </hi>
+      rayez, lui dit le roi, le mot d'oie, qui me choque, et
+            mettez,
+      <hi rend="italic">
+       à la princesse Manzaïde
+      </hi>
+      . Taciturne obéit, et continua ainsi:
+      <hi rend="italic">
+       sans l'éclat de vos
             beaux yeux, mon coeur libre encore, ne sçauroit pas soupirer; mais je n'ai pu voir vos admirables beautés sans être tenté de leur rendre
-            les armes. Si l'espérance qui ne quitte jamais les amants, ne me soutenoit pas contre mes craintes... </hi> cela est misérable! S'écria
-            Schézaddin; <hi rend="italic"> l'éclat de vos beaux yeux </hi> est d'un plat qui ne se peut imaginer! <hi rend="italic"> pour les
-            admirables beautés, et la tentation que j'ai de leur rendre les armes; </hi> vous pensez bien que je ne laisserai pas cela, non plus que
-            <hi rend="italic"> l'espérance qui ne quitte jamais les amants </hi> . Manzaïde, toute oie que vous la croyez, se moqueroit de moi, si je
+            les armes. Si l'espérance qui ne quitte jamais les amants, ne me soutenoit pas contre mes craintes...
+      </hi>
+      cela est misérable! S'écria
+            Schézaddin;
+      <hi rend="italic">
+       l'éclat de vos beaux yeux
+      </hi>
+      est d'un plat qui ne se peut imaginer!
+      <hi rend="italic">
+       pour les
+            admirables beautés, et la tentation que j'ai de leur rendre les armes;
+      </hi>
+      vous pensez bien que je ne laisserai pas cela, non plus que
+      <hi rend="italic">
+       l'espérance qui ne quitte jamais les amants
+      </hi>
+      . Manzaïde, toute oie que vous la croyez, se moqueroit de moi, si je
             lui envoyois une lettre aussi pitoyable. J'en ai écrit de pareilles à des femmes fort spirituelles, répondit Taciturne, et elles les
             trouvoient fort bien. Vous verrez, dit le roi, que ces femmes si spirituelles,n'avoient pas le sens commun. Cela se pourroit, reprit
             Taciturne; car elles passoient pour avoir bien de l'esprit. Mais, sire, ajouta-t-il, puisque l'amour laisse à votre majesté assez de
             présence et de liberté d'esprit, pour sentir que ma lettre ne vaut rien, pourquoi n'en auroit-elle pas assez pour en faire une meilleure?
             Schézaddin impatienté des propos de Taciturne, dégoûté de son style, et persuadé que s'il ne faisoit pas mieux que lui, au moins, il
-            n'étoit pas possible qu'il fît plus mal, prit la plume, et composa avec bien de la peine, l'élégante lettre qui suit: <hi rend="italic">
-            Schézaddin, à l'adorable Manzaïde. je ne me souviens jamais qu'avec transport des bontés que vous eûtes hier pour moi, divine Manzaïde; et
+            n'étoit pas possible qu'il fît plus mal, prit la plume, et composa avec bien de la peine, l'élégante lettre qui suit:
+      <hi rend="italic">
+       Schézaddin, à l'adorable Manzaïde. je ne me souviens jamais qu'avec transport des bontés que vous eûtes hier pour moi, divine Manzaïde; et
             je ne sçais comment, en étant si pénétré, je puis vous exprimer si mal ma tendresse et ma reconnoissance. Interdit quand je vous vois, je
             puis à peine vous parler. Loin de vous, agité des mêmes mouvemens, je pense mille choses qu'il ne m'est pas possible de vous écrire. Je
-            vous aime, Manzaïde, je vous adore! Je crains de ne vous le dire jamais </hi> assez, je tremble de vous ennuyer en vous <hi rend="italic">
-            le répétant sans cesse, et que l'uniformité de l'expression ne vous dégoûte du sentiment... </hi> aimez-vous le mot d' <hi rend="italic">
-            uniformité </hi> , demanda-t-il à Taciturne en s'interrompant? Je le trouve, moi, aussi bon qu'un autre, répondit le confident. Je crois,
+            vous aime, Manzaïde, je vous adore! Je crains de ne vous le dire jamais
+      </hi>
+      assez, je tremble de vous ennuyer en vous
+      <hi rend="italic">
+       le répétant sans cesse, et que l'uniformité de l'expression ne vous dégoûte du sentiment...
+      </hi>
+      aimez-vous le mot d'
+      <hi rend="italic">
+       uniformité
+      </hi>
+      , demanda-t-il à Taciturne en s'interrompant? Je le trouve, moi, aussi bon qu'un autre, répondit le confident. Je crois,
             cependant, que c'est la premiere fois qu'il se trouve dans une lettre tendre; et si celle-ci étoit dans les cas d'être vue, il se
             trouveroit peut-être des gens à qui il déplairoit. Pour moi, si je l'avois employé, je le laisserois. Laissons-le donc, reprit le roi;
-            aussi bien Manzaïde m'aime assez pour me le passer. <hi rend="italic"> j'ai, cependant, tant de plaisir à vous l'entendre prononcer ce
+            aussi bien Manzaïde m'aime assez pour me le passer.
+      <hi rend="italic">
+       j'ai, cependant, tant de plaisir à vous l'entendre prononcer ce
             mot, que je n'ose encore vous dire qu'en tremblant; seroit-il possible qu'il ne vous fût pas aussi cher qu'à moi-même? Non, vous m'aimez,
             et sans doute, vous m'aimerez toujours. Votre coeur me répond de votre constance, et vous avez dans vos charmes des garants assurés de la
             mienne. p s. Si mes pressentimens ne sont pas faux, je vous verrai aujourd'hui. Ah! Manzaïde! Que depuis l'instant qui m'a privé de votre
-            présence, les heures sont devenues longues! </hi> cela n'est point du tout bon, dit le roi après avoir relu sa lettre, mais point du tout!
+            présence, les heures sont devenues longues!
+      </hi>
+      cela n'est point du tout bon, dit le roi après avoir relu sa lettre, mais point du tout!
             Est-il possible que l'on exprime si mal ce que l'on sent si bien! à ne pas flatter votre majesté, dit Taciturne qui étoit encore plus vain
             que courtisan, ce billet n'est pas merveilleux; mais comme ce sera sûrement le premier que la princesse aura reçu, il lui paroîtra
             admirable, et je suis bien sûr qu'elle vous en fera des complimens. à ces mots il partit pour aller chez le roi autruche; et Schézaddin en
@@ -4282,12 +4741,18 @@
             d'être accusé de faire des vers tous les jours. Quoique Taciturne n'eût pas étélong-tems à son voyage, il trouva à son retour Schézaddin
             dans la plus vive impatience. Sire, dit-il à son maître, sans lui donner le tems de l'interroger, le roi m'a fort bien reçu, et vous rend
             grace de votre souvenir; la reine m'y a paru aussi sensible que vous puissiez le desirer; la grue m'a chargé de vous dire qu'elle vous
-            aime <hi rend="italic"> outrageusement </hi> ... et Manzaïde, interrompit brusquement le roi! Je me suis fait conduire chez elle; elle
+            aime
+      <hi rend="italic">
+       outrageusement
+      </hi>
+      ... et Manzaïde, interrompit brusquement le roi! Je me suis fait conduire chez elle; elle
             étoit au bain, où, sans doute, elle barbottoit avec toutes les graces inséparables de sa personne. J'ai attendu qu'elle en fût sortie,
             enfin, elle est venue en robe ronde, et après avoir lu vingt fois votre billet, plus sans doute pour l'admirer, que pour tâcher de le
             comprendre, elle s'est déterminée à vous écrire. Elle m'a écrit! S'écria le roi. Ah ciel! Oui, sire, reprit Taciturne, et de sa patte
             encore! Vous allez vraisemblablement voir un beau griffonnage. à ces mots, il lui présenta la lettre; le roi l'ouvrit précipitamment, et y
-            lut.La plus infortunée des princesses, au plus aimable des rois. <hi rend="italic"> j'ai reçu avec des transports que je ne chercherai pas
+            lut.La plus infortunée des princesses, au plus aimable des rois.
+      <hi rend="italic">
+       j'ai reçu avec des transports que je ne chercherai pas
             à vous peindre, les précieuses marques que vous m'avez données de votre souvenir et de votre tendresse. Quoi! cher prince! Il est possible
             que vous m'aimiez! oui vous m'aimez, puisque vous me le dîtes: mais quelle confiance ne faut-il pas que vous m'inspiriez pour que je
             puisse ne pas douter de vos sentimens! Quand je songe à la forme cruelle sous laquelle je parois à vos yeux, j'ai peine à comprendre que
@@ -4295,13 +4760,19 @@
             se peut, plus grand encore, c'est de tout devoir à ce que j'aime. Oui, cher prince, je vous aime! Je vous l'ai dit, je vous le répete
             encore; et ne me reprocherois que de ne vous pas assez parler de mon amour. Vous apprendrez de votre confident, à quel point je brûle de
             vous dire à vous-même, ce qu'en cet instant je ne puis que vous écrire, et que je sens avec une vivacité qu'il ne m'est pas possible
-            d'exprimer. en même tems que je voudrois vous peindre la passion que vous m'inspirez, et </hi> que je suis desespérée de le vouloir si
-            vainement, <hi rend="italic"> je me plais à sentir qu'elle est au-dessus de toute expression. Quoi! J'aime! Et il se peut que ce ne soit
+            d'exprimer. en même tems que je voudrois vous peindre la passion que vous m'inspirez, et
+      </hi>
+      que je suis desespérée de le vouloir si
+            vainement,
+      <hi rend="italic">
+       je me plais à sentir qu'elle est au-dessus de toute expression. Quoi! J'aime! Et il se peut que ce ne soit
             pas un ingrat! Et que j'inspire ce que je sens! Que je vous dirois de choses! Si je ne craignois pas, en m'abandonnant aux mouvemens de
             mon amour, de retarder les momens où nous devons nous réunir, et le plaisir que vous sentirez en apprenant que nous pouvons nous voir.
             j'ai chargé Taciturne de mes ordres; et j'ai senti un plaisir nouveau en pensant que je pouvois regarder comme à moi, un homme qui est à
             vous; interrogez-le donc. Pour moi, je ne puis que vous entretenir de ma tendresse. Puissé-je, en vous assurant de son éternité, faire
-            autant pour votre bonheur que vous faites pour le mien, quand vous me jurez que la vôtre ne finira jamais. </hi> il faudroit ne connoître
+            autant pour votre bonheur que vous faites pour le mien, quand vous me jurez que la vôtre ne finira jamais.
+      </hi>
+      il faudroit ne connoître
             ni l'amour, ni les amans, pour douter des transports où fut Schézaddin en recevant cette lettre. Non! S'écria-t-il, après l'avoir relue et
             baisée mille fois, non! La divine Manzaïde peut seule écrire avec tant de graces et de passion! Je conviens, reprit froidement Taciturne,
             qui ne perdoit aucune occasion d'affoiblir l'amour de son maître pour son oie, jesens même qu'il y a dans ce billet, de ce que nous
@@ -4346,14 +4817,21 @@
             qu'ayant eu la même curiosité, j'ai fouillé avec soin dans les annales qui m'ont fourni ce conte, que j'ai lu avec attention toutes les
             pasquinades et les recueils de chansons médisantes qui restent de ce tems-là, et que je n'y ai rien trouvé qui pût justifier les calomnies
             de Taciturne. J'en étois bien sûr, moi, dit Schah-Baham, que c'étoit un mauvais esprit: aussi, je vous réponds bien que si je le tenois il
-            seroit bientôt coffré, et pour long-tems. Enfin, s'il a jamais affaire à Gaznah, qu'il prenne garde à lui, toujours. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 7 CHAPITRE 39 </head>
-          <p> Cette conversation blessoit trop vivement les idées et la passion du roi d'Isma, pour qu'il pût permettre à son favori de la continuer.
+            seroit bientôt coffré, et pour long-tems. Enfin, s'il a jamais affaire à Gaznah, qu'il prenne garde à lui, toujours.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 7 CHAPITRE 39
+     </head>
+     <p>
+      Cette conversation blessoit trop vivement les idées et la passion du roi d'Isma, pour qu'il pût permettre à son favori de la continuer.
             Laissons, lui dit-il d'un air chagrin, un entretien qui m'importune, et dites-moi quels sont les arrangemens que la princesse a pris pour
-            notre rendez vous. Ils sont, répondit Taciturne, les plus simples du monde. Votre majesté partira d'ici le plus <hi rend="italic">
-            incognito </hi> qu'elle pourra, vers la fin du jour, et attendra tranquillement dans l'endroit le plus solitaire de la forêt que la nuit
+            notre rendez vous. Ils sont, répondit Taciturne, les plus simples du monde. Votre majesté partira d'ici le plus
+      <hi rend="italic">
+       incognito
+      </hi>
+      qu'elle pourra, vers la fin du jour, et attendra tranquillement dans l'endroit le plus solitaire de la forêt que la nuit
             arrive; si son impatience amoureuse la lui fait dévancer, elle se rendra sans bruit à une petite porte que Manzaïde a ordonné qu'on me
             montrât, et qui m'a paru très-commode pour l'usage qu'elle en veut faire. La reine des isles de Crystal sera sans doute avec elle, dit
             Schézaddin, et je ne crois pas avoir besoin de vous dire que vous m'obligerez de la traiter assez bien, pour qu'elle ne trouble point, par
@@ -4362,8 +4840,12 @@
             ou que je la désespere, je me flatte toujours de l'occuper assez pour vous débarrasser de sa présence. J'oserai cependant dire à votre
             majesté, que, de quelque façon que la chose tourne, elle m'honore-là d'une assez fâcheuse commission. Il est, je crois, inutile de dire à
             quel point Schézaddin s'impatienta le reste de la journée, et de combien il dévança l'heure que Manzaïde lui avoit marquée. Il est aussi
-            peu nécessaire de répéter les obligeantes invitations qu'il adressa d'abord à la nuit, de <hi rend="italic"> presser l'astre du jour de
-            descendre dans l'onde </hi> , et toutes les imprécations qu'il fit après, et contr'elle et contre le soleil, de ce que tous deux
+            peu nécessaire de répéter les obligeantes invitations qu'il adressa d'abord à la nuit, de
+      <hi rend="italic">
+       presser l'astre du jour de
+            descendre dans l'onde
+      </hi>
+      , et toutes les imprécations qu'il fit après, et contr'elle et contre le soleil, de ce que tous deux
             n'alloient ce jour-là que leur train ordinaire. Il y a bien peu de personnes qui ne sçachent avec quelle impatience on attend les premiers
             rendez-vous, et avec quelle lenteur on se rend aux autres. Quoique l'heure qu'on avoit prescrite ne fût pas encore arrivée, il avoit été
             mille fois à la petite porte, et commençoità croire qu'elle ne s'ouvriroit jamais pour lui, lorsqu'enfin, il y entendit un bruit sourd.
@@ -4439,9 +4921,15 @@
             épaules, se rapprocha de l'oie et de Schézaddin. à son air, l'oie jugea qu'elle n'étoit pas contente, et lui demanda à demi-bas, si
             Taciturne avoit toujours le ridicule d'être indifférent. Ah mon dieu! Répondit la grue d'un air piqué, je n'en sçais rien; mais ce qu'il y
             a de sûr, c'est qu'il a étonnamment peu d'usage du monde. Je m'ennuie mortellement, ajouta-t-elle, de me trouver vis-à-vis d'un homme qui
-            positivement n'entend ni ne voit; et véritablement, c'est que j'en périrai, si vous n'avez pas la complaisance de faire un <hi
-            rend="italic"> médiateur </hi> avec moi. Manzaïde étoit si comblée de joie de se voir seule avec Schézaddin, que la proposition du <hi
-            rend="italic"> médiateur </hi> la fit pâlir. La grue le remarqua; mais en faisant des excuses à la princesse de troubler ses plaisirs,
+            positivement n'entend ni ne voit; et véritablement, c'est que j'en périrai, si vous n'avez pas la complaisance de faire un
+      <hi rend="italic">
+       médiateur
+      </hi>
+      avec moi. Manzaïde étoit si comblée de joie de se voir seule avec Schézaddin, que la proposition du
+      <hi rend="italic">
+       médiateur
+      </hi>
+      la fit pâlir. La grue le remarqua; mais en faisant des excuses à la princesse de troubler ses plaisirs,
             elle lui fit si bien sentir que Taciturne étoit insoutenable, qu'enfin Manzaïde consentit à ce qu'elle lui proposoit, et sonna pour que
             l'on préparât une table auprès de son lit. Le roi d'Isma, qui ne desiroit pas plus de jouer que Manzaïde, n'étoit pas moins piqué contre
             Taciturne, que la gruemême, et en le regardant d'un oeil de courroux, cherchoit en lui-même les moyens de l'obliger à aimer la grue, sans
@@ -4450,12 +4938,20 @@
             n'est pas douteux qu'elle ne lui eût paru fort belle. Schézaddin, à qui sa tendresse pour l'oie ne permettoit point de ne pas trouver la
             grue fort aimable, et qui croyoit, d'ailleurs, en lui disant des galanteries, disposer son impitoyable favori à la traiter avec moins de
             barbarie, l'accabloit des éloges les plus outrés. Vous êtes, aujourd'hui, madame, lui dit-il, coëffée à ravir, et d'un goût charmant! Oui,
-            répondit-elle, c'est à <hi rend="italic"> l'oiseau royal </hi> ; et j'aime tant cette coëffure, que, quoiqu'elle ait passé de mode, je ne
+            répondit-elle, c'est à
+      <hi rend="italic">
+       l'oiseau royal
+      </hi>
+      ; et j'aime tant cette coëffure, que, quoiqu'elle ait passé de mode, je ne
             puis me résoudre à la quitter. Je ne suis pourtant pas infiniment surprise que l'on s'en soit dêgoûté. Bien des gens trouvent qu'elle
             donne un air étranger; et peut-être, si je ne me rendois justice, me trouverois-je moins faite qu'une autre pour la porter. Quand elle ne
             seroitpas agréable, vous l'embelliriez, n'est-il pas vrai, Taciturne, ajouta Schézaddin, en lui faisant signe de répondre favorablement
             pour la grue? Mais, sire, repartit celui-ci, qui craignoit qu'après avoir loué la coëffure, on ne l'obligeât à louer la personne, je suis
-            de l'avis de madame, et je trouve comme elle, que <hi rend="italic"> l'oiseau royal </hi> donne un air fort étrange. Au reste,
+            de l'avis de madame, et je trouve comme elle, que
+      <hi rend="italic">
+       l'oiseau royal
+      </hi>
+      donne un air fort étrange. Au reste,
             continua-t-il, en fronçant le sourcil, je joue en pique, et j'appelle le roi de carreau. à cette réponse si seche, et si peu polie,
             Schézaddin rougit de colere, la grue pensa pleurer de douleur, et Manzaïde resta comme pétrifié. Taciturne seul crut qu'il avoit fort bien
             parlé, ou du moins s'embarrassa peu que l'on ne fût pas content de sa réponse. Il est facile de deviner, sans qu'on soit obligé de le
@@ -4469,17 +4965,43 @@
             bonne compagnie assurément. De toutes les choses dont le prophete permet que je sois affligé en ce monde, celles qui m'incommodent le
             plus, sont le silence, ou ces sottes conversations toutes pleines d'esprit. C'est-à-dire, qu'à table j'aime ce qu'on appelle des rebus, et
             ces drôles de chansons où chacun chante à tue-tête, et autant qu'il lui plaît. Car, pour ces grands airs, pendant lesquels on n'ose rien
-            dire, j'aimerois tout autant un opéra. Ma foi! Je l'ai dit quelque part, on ne se divertit plus. <hi rend="italic"> ah! Madame Anrou!
-            mirdondaine; la queue du mouton, </hi> voilà de l'agréable. La sçavez-vous chanter?Visir, <hi rend="italic"> la queue du mouton </hi> ?
+            dire, j'aimerois tout autant un opéra. Ma foi! Je l'ai dit quelque part, on ne se divertit plus.
+      <hi rend="italic">
+       ah! Madame Anrou!
+            mirdondaine; la queue du mouton,
+      </hi>
+      voilà de l'agréable. La sçavez-vous chanter?Visir,
+      <hi rend="italic">
+       la queue du mouton
+      </hi>
+      ?
             Oui, sire, répondit Moslem, c'est une des plus belles rondes de table que je connoisse, et celle de toutes que je chante le plus
-            volontiers; j'ose même me vanter de la chanter plus comiquement que personne. Je trouve, moi, reprit Schah-Baham, plus de gaieté dans <hi
-            rend="italic"> la queue de mouton </hi> ; mais, à mon gré, il y a plus de morale dans <hi rend="italic"> mirdondaine </hi> . Quoi qu'il en
-            soit, je vous réponds bien que nous les chanterons ce soir tous deux <hi rend="italic"> en chantant </hi> . Voyez la queue! La belle
-            queue! <hi rend="italic"> etc. </hi> </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 7 CHAPITRE 40 </head>
-          <p> aussi-tôt que le souper fut fini, la grue qui vouloit obliger Schézaddin, ou qui, malgré les rigueurs de Taciturne, avoit ses raisons
+            volontiers; j'ose même me vanter de la chanter plus comiquement que personne. Je trouve, moi, reprit Schah-Baham, plus de gaieté dans
+      <hi rend="italic">
+       la queue de mouton
+      </hi>
+      ; mais, à mon gré, il y a plus de morale dans
+      <hi rend="italic">
+       mirdondaine
+      </hi>
+      . Quoi qu'il en
+            soit, je vous réponds bien que nous les chanterons ce soir tous deux
+      <hi rend="italic">
+       en chantant
+      </hi>
+      . Voyez la queue! La belle
+            queue!
+      <hi rend="italic">
+       etc.
+      </hi>
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 7 CHAPITRE 40
+     </head>
+     <p>
+      aussi-tôt que le souper fut fini, la grue qui vouloit obliger Schézaddin, ou qui, malgré les rigueurs de Taciturne, avoit ses raisons
             pour desirer d'être seule avec lui, le tirant doucement par la manche, lui fit signe de la suivre. Cette invitation le fit pâlir. Il
             craignoit qu'elle ne s'en tint pas avec lui au seul récit de ses sentimens; et qu'une grue qui respectoit assez peu les bienséances pour
             lui montrer sa jambe en public, ne poussâten particulier les choses au dernier point. Quoiqu'en cet instant elle eut un air sérieux, et
@@ -4637,11 +5159,15 @@
             reprit la sultane, vous ne passez pas les façons. Eh! Qui en fait faire, si ce n'est la vertu, ou du moins la nécessité d'en montrer? Ah!
             Oui, dit le sultan en se levant, de la conséquence dans les discours! De la dissertation! Du raisonnement! C'est que je m'en vais, moi,
             quand je trouve de tout cela. Quoique d'aucune façon je ne me croie fait pouravoir tort, j'aimerois mieux, vous comprenez bien, convenir
-            que je ne sçais ce que je dis, que d'en dire davantage. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 7 CHAPITRE 41 </head>
-          <p> Les regards de la princesse, le ton même dont elle faisoit des reproches à Schézaddin, marquoient si peu de colere, qu'il ne lui fut
+            que je ne sçais ce que je dis, que d'en dire davantage.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 7 CHAPITRE 41
+     </head>
+     <p>
+      Les regards de la princesse, le ton même dont elle faisoit des reproches à Schézaddin, marquoient si peu de colere, qu'il ne lui fut
             jamais possible de croire qu'elle fût véritablement fâchée. Quand, en pareil cas, on imagine qu'une femme ne se défend qu'à regret, il est
             bien difficile de ne pas penser aussi que l'on peut tout tenter sans lui déplaire: et rien ne mene aussi loin qu'une pareille idée. Une
             femme qui vous la voit s'effraie, en cherchant à vous l'ôter, s'y prend ordinairement de façon qu'elle la justifie. Quoique Manzaïde ne
@@ -4741,11 +5267,15 @@
             comme cela. Très-bien, dit la sultane; vous venez d'approfondir cette matiere avec une sagacité dont vous devez être très-content. Je
             crois même qu'en la traitant plus long-tems, vous risqueriez de gâter ce que vous avez dit. Oh! Répondit Schah-Baham, pardonnez-moi, je ne
             vous ai pas encore dit le quart de ce que j'ai vu là-dessus. Je suis naturellement profond, moi; et il est bien rare que je ne voie pas
-            dans les choses encore plus qu'il n'y a; mais s'il est bon de tout sçavoir, je n'ignore point qu'il n'est pas prudent de tout dire. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 8 CHAPITRE 42 </head>
-          <p> Quelque pressé que fût Schézaddin de témoigner à son favori à quel point il étoit mécontent de sa conduite, l'intérêt de son amour et la
+            dans les choses encore plus qu'il n'y a; mais s'il est bon de tout sçavoir, je n'ignore point qu'il n'est pas prudent de tout dire.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 8 CHAPITRE 42
+     </head>
+     <p>
+      Quelque pressé que fût Schézaddin de témoigner à son favori à quel point il étoit mécontent de sa conduite, l'intérêt de son amour et la
             crainte de compromettre l'honneur de sa princesse, ne lui laisserent que l'idée de lui obéir, en s'éloignant avec toute lapromptitude
             possible du palais du roi des terres-vertes. En vain Taciturne qui se sentoit coupable, lui faisoit de tems en tems de respectueuses
             agaceries pour lui faire rompre un silence qui commençoit à l'alarmer: fidele à son objet, le roi regagnoit la forêt à grands pas, et
@@ -4753,7 +5283,11 @@
             parvinrent enfin au même endroit où l'heureux Schézaddin avoit attendu si peu d'instans, et crut pourtant attendre un siecle que la nuit
             fût arrivée, et où il lui avoit adressé de si belles choses. Taciturne qui, à un regard de fureur que son maître lançoit sur lui, devinoit
             toutes les épithetes dont il alloit en être honoré, prenant la parole pour les prévenir: sire, lui dit-il, si j'avois pu prévoir que votre
-            majesté s'amusât si bien, j'aurois fait mon possible pour que ma grue ne se fût pas si <hi rend="italic"> immensement </hi> ennuyée; et
+            majesté s'amusât si bien, j'aurois fait mon possible pour que ma grue ne se fût pas si
+      <hi rend="italic">
+       immensement
+      </hi>
+      ennuyée; et
             peut-être ne seroit-elle pas entrée si mal à propos? Il me paroît cependant nécessaire que vous sçachiez qu'auprès d'elle, par des
             accidens particuliers, la bonne volonté qu'on pourroit avoir est toujours très-inutile; et je me flatte que quand vous sçaurez cequ'on y
             devient, vous me trouverez plus excusable que je ne vous le parois à présent. Je m'étois cependant déterminée à courir pour votre service,
@@ -4834,7 +5368,11 @@
             forcer à épouser la grue; mais son orgueil fut blessé de la menace; et il résolut de la faire payer cher au roi son maître. Cependant,
             comme il ne vouloit s'exposerà sa colere qu'à un certain point, ou que plutôt il croyoit que pour lui porter des coups plus sûrs, il
             falloit lui cacher la main dont ils partiroient; ce fut secretement qu'il se détermina à la vengeance, et à ne rien oublier pour traverser
-            les vues et les desirs de Schézaddin. Ami depuis long-tems, mais <hi rend="italic"> incognito </hi> , du grand raisonneur, son voisin dans
+            les vues et les desirs de Schézaddin. Ami depuis long-tems, mais
+      <hi rend="italic">
+       incognito
+      </hi>
+      , du grand raisonneur, son voisin dans
             le palais, et pouvant même, par une porte qui n'étoit connue que d'eux, se rendre chez lui, sans être apperçu; aussi-tôt que le roi fut
             rentré, il alla chez Quamobrem, et l'ayant éveillé, il lui raconta sans ménagement les étonnantes amours du roi, et lui découvrit le
             dessein plus extraordinaire encore (si pourtant cela étoit possible) où il étoit de les terminer par un mariage. Tout cela parut si peu
@@ -4896,12 +5434,19 @@
             comme à Taciturne, bien peu naturel qu'après les raisons qu'elle avoit de se défier de la fée, elle n'eût pas cherché à s'assurer, par
             quelques épreuves, de son désenchantement. Pensez-vous, répondit Schah-Baham! Cela seroit bien prudent, à la vérité, mais bien noir
             pourtant de lui en avoir fait mystere; mais quand cela seroit, je n'en approuverois pas plus les manieres de votre Taciturne, pour qui,
-            permettez-moi de vous le dire, elle est toujours un trop bon parti, pour qu'il fasse tant avec elle, ce que nous appellons <hi
-            rend="italic"> le mirliflore </hi> . </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 8 CHAPITRE 43 </head>
-          <p> Pendant que Taciturne, appuyé du crédit et de l'autorité du grand raisonneur, se flattoit de faire avorter les tendres projets de son
+            permettez-moi de vous le dire, elle est toujours un trop bon parti, pour qu'il fasse tant avec elle, ce que nous appellons
+      <hi rend="italic">
+       le mirliflore
+      </hi>
+      .
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 8 CHAPITRE 43
+     </head>
+     <p>
+      Pendant que Taciturne, appuyé du crédit et de l'autorité du grand raisonneur, se flattoit de faire avorter les tendres projets de son
             maître, ou du moins d'en reculer le succès, le princequi craignoit que l'on n'y apportât les plus grands obstacles, avoit envoyé chercher
             son grand visir, pour en conférer avec lui. Quoique ce ministre fût l'homme de son siecle que l'extraordinaire effrayoit le moins, et
             qu'il n'y eût rien que, soit par la force de son éloquence, soit par d'autres moyens moins éclatans, et souvent plus efficaces, il n'eût
@@ -5067,7 +5612,11 @@
             fait. Je voudrois bien que, par hasard, il crût tout cela récréatif. Que je meure si, depuis le combat de Schézaddin et du dindon, qui
             véritablement est un morceau d'un grand goût, j'ai eu un moment de santé? Si c'est pour essayer mon tempérament que Moslem me fait de ces
             galanteries-là, il pourra fort bien me tuer, avant que je m'y accoutume. Voyez un peu la prudence! J'ai crié comme un serpent contre un
-            manifeste; et voilà à présent qu'il lâche sur moi des sénateurs, des <hi rend="italic"> Quamobrem </hi> , et des oraisons! Cela est tout
+            manifeste; et voilà à présent qu'il lâche sur moi des sénateurs, des
+      <hi rend="italic">
+       Quamobrem
+      </hi>
+      , et des oraisons! Cela est tout
             simple, dit la sultane, ne vous a-t-il pas dit que son conte étoit astronomique et politique? Oui, reprit Schah-Baham, ennuyeux par-dessus
             le marché; et voilà ce qu'il s'est bien gardé de me dire. Il n'en sçavoit peut être rien lui-même, répondit la sultane; vous deviez au
             reste vous attendre à ne pas voir un mariage aussi singulier que celui que médite Schézaddin, passer sans contradiction. Eh bien! Après,
@@ -5080,11 +5629,15 @@
             Vous me croyez bien frivole, répondit la sultane, et vous avez de moi une idée bien misérable, si vous ne me croyez pas capable de
             soutenir un moment le ton sérieux. Enfin, repliqua-t-il, je m'entends bien; au surplus, j'attends, sans rien dire, qu'il ait fini son
             conte pour le refaire; et je parie que vous trouverez que ce sera toute autre chose.Le ciel nous en préserve! S'écria la sultane: c'est
-            encore trop que de l'avoir entendu une fois. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 8 CHAPITRE 44 </head>
-          <p> Pendant que les députés étoient chez le roi, Quamobrem, convaincu qu'ils en sortiroient mécontens, et qu'il ne trouveroit jamais une si
+            encore trop que de l'avoir entendu une fois.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 8 CHAPITRE 44
+     </head>
+     <p>
+      Pendant que les députés étoient chez le roi, Quamobrem, convaincu qu'ils en sortiroient mécontens, et qu'il ne trouveroit jamais une si
             belle occasion d'écraser le ministre, et de faire de belles harangues, avoit requis que l'affaire présente fût communiquée à messieurs de
             la chambre des communes, et demanda leurs secours. Quoiqu'une démarche si violente, et que rien ne sembloit justifier, puisque personne ne
             sçavoit encore de quel péril on étoit menacé, parût prématurée aux gens modérés, et fût hautement désapprouvée par les partisans de la
@@ -5260,8 +5813,11 @@
             l'important; et à présent que j'en suis, comme de raison, plus qu'à demi mort, il croit qu'il en sera quitte pour un compliment.
             Poursuivez, pourtant, puisque nous y sommes, mais croyez, et bien fermement, que vous ne m'y rattrapperez plus. Quamobrem, reprit le
             visir, étoit trop piqué au jeu, pour que la défection de son parti le réduisît au silence, et à adhérer à un avis qui lui paroissoit si
-            honteux; et comme il vouloit tâcher de mettre le peuple dans ses intérêts, il publia dès le lendemain une brochure, intitulée: <hi
-            rend="italic"> réflexions critiques et politiques sur les oies, considérées dans l'état du mariage </hi> . Cette mauvaise plaisanterie qui
+            honteux; et comme il vouloit tâcher de mettre le peuple dans ses intérêts, il publia dès le lendemain une brochure, intitulée:
+      <hi rend="italic">
+       réflexions critiques et politiques sur les oies, considérées dans l'état du mariage
+      </hi>
+      . Cette mauvaise plaisanterie qui
             étoit assez ingénieusement tournée, fit rire ceux qui la lurent; mais ne lui ramena pas le sénat; et peut-être que la sorte de succès que
             le grand raisonneur eut en qualité de bel-esprit, le consola des malheurs qu'il essuyoit comme politique. Cette brochure donna à
             Schézaddin un assez grand ridicule; mais ne lui fit pourtant pas autant de tort qu'une espece de romance que Taciturne s'avisa de composer
@@ -5282,72 +5838,195 @@
             impossible par exemple, que cela soit bon à un certain point. C'est ce que je disois à votre majesté, reprit le visir; je suis bien sûr
             qu'elle n'en seroit pas contente. Je n'en doute pas non plus, repliqua Schah-Baham, mais cela ne m'en dégoûte pas davantage; me voilà tout
             disposé à l'ennui, c'est quelque chose pour votre chanson; et comme il n'est pas certain que je sois toujours de même, je vous conseille
-            de saisir ce moment-ci, parce que cela ne tire pas à une certaine conséquence, et que d'ailleurs, je ne suis pas fâché de m'achever. </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 8 CHAPITRE 45 </head>
-          <p> 1er air: <hi rend="italic"> en passant sur le pont-neuf </hi> . écoutez l'histoire d'un événement peu commun, et d'un prince magnanime;
-            long-tems farouche, mais de qui nous vous allons en rime conter le surprenant feu. 2 air: <hi rend="italic"> de la romance de Mysis </hi>
-            . Ce prince insensible, à l'amour, long-tems résista; mais ce dieu terrible à la fin, sur lui l'emporta. Craignez sa vengeance, vous, que
-            jamais il ne dompta; jamais sa puissance par de plus grands coups n'éclata. 3 air: <hi rend="italic"> des feuillantines </hi> . On lui
-            faisoit en tous lieux les doux yeux; mais sauvage, et rigoureux, il traitoit ses amoureuses, comme de <hi rend="italic"> bis </hi>
-            franches coureuses. 4 air: <hi rend="italic"> de la romance de st Louis </hi> . Il les voyoit sécher pour lui, sans compatir du tout à
-            leur ennui; et s'il en fut morte quelqu'une, il eût ri de son infortune. 5 air: <hi rend="italic"> de la romance d'Alexis </hi> . Armé de
+            de saisir ce moment-ci, parce que cela ne tire pas à une certaine conséquence, et que d'ailleurs, je ne suis pas fâché de m'achever.
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 8 CHAPITRE 45
+     </head>
+     <p>
+      1er air:
+      <hi rend="italic">
+       en passant sur le pont-neuf
+      </hi>
+      . écoutez l'histoire d'un événement peu commun, et d'un prince magnanime;
+            long-tems farouche, mais de qui nous vous allons en rime conter le surprenant feu. 2 air:
+      <hi rend="italic">
+       de la romance de Mysis
+      </hi>
+      . Ce prince insensible, à l'amour, long-tems résista; mais ce dieu terrible à la fin, sur lui l'emporta. Craignez sa vengeance, vous, que
+            jamais il ne dompta; jamais sa puissance par de plus grands coups n'éclata. 3 air:
+      <hi rend="italic">
+       des feuillantines
+      </hi>
+      . On lui
+            faisoit en tous lieux les doux yeux; mais sauvage, et rigoureux, il traitoit ses amoureuses, comme de
+      <hi rend="italic">
+       bis
+      </hi>
+      franches coureuses. 4 air:
+      <hi rend="italic">
+       de la romance de st Louis
+      </hi>
+      . Il les voyoit sécher pour lui, sans compatir du tout à
+            leur ennui; et s'il en fut morte quelqu'une, il eût ri de son infortune. 5 air:
+      <hi rend="italic">
+       de la romance d'Alexis
+      </hi>
+      . Armé de
             cette barbarie, ce roi payen, se flattoit de passer sa vie sans aimer rien; mais, c'est en vain qu'on se propose tant de rigueur, quand,
-            malgré nous, l'amour dispose de notre coeur. 6 air: <hi rend="italic"> l'autre nuit, j'apperçus en songe </hi> . Certaine nuit, il vit en
+            malgré nous, l'amour dispose de notre coeur. 6 air:
+      <hi rend="italic">
+       l'autre nuit, j'apperçus en songe
+      </hi>
+      . Certaine nuit, il vit en
             songe, beauté dont les charmes puissants émurent ses tranquilles sens; crut-il que ce fût un mensonge? Non, il s'enflamma ce héros,
             peut-on aimer plus à propos? Ici, dit le visir, Taciturne contoit encore plus longuement que moi l'entrevue de Schézaddin et de la fée,
-            tout ce dont elle avoit été suivie, et continuoit ainsi: 7 air: <hi rend="italic"> de la tulippe </hi> . Comme il croyoit au destin devoir
+            tout ce dont elle avoit été suivie, et continuoit ainsi: 7 air:
+      <hi rend="italic">
+       de la tulippe
+      </hi>
+      . Comme il croyoit au destin devoir
             sa bonne fortune, tous les jours, soir et matin, dans les bras de sa belle brune; en guise de remerciement il lui faisoit ce compliment.
-            <hi rend="italic"> bis. </hi> 8 air: <hi rend="italic"> forlane de l'Europe galante </hi> . Regne à jamais, toi, qui me soumets la belle
+      <hi rend="italic">
+       bis.
+      </hi>
+      8 air:
+      <hi rend="italic">
+       forlane de l'Europe galante
+      </hi>
+      . Regne à jamais, toi, qui me soumets la belle
             après qui je soupirois; ses naissants attraits semblent faits exprès. Pour me mettre en frais de tous les excès. Dieu généreux! Destin,
             qui veux combler mes voeux voluptueux: que je suis heureux que faire de mieux pour rendre envieux les dieux aux cieux? Beaux yeux joyeux;
             et sans être bleux, tendres, langoureux, lançant mille feux, et brûlant tous ceux assez hasardeux pour s'approcher d'eux, et même les
             vieux, les plus goutteux. Qui peut voir enfin, un minois plus fin,un air plus mutin, plus vif, plus lutin, même libertin! Le cheveu
-            châtain, la peau de satin, le tein, la main, le sein, tout en est divin! Chantons donc sans fin, regne à jamais, etc. 9 air: <hi
-            rend="italic"> son altesse me congédie </hi> . Quoique tout cela fût bien tendre, elle se lassa de l'entendre; et desira que son amant
-            sçut qu'il devoit cette maîtresse dont il paroissoit si content, moins au destin qu'à sa tendresse. <hi rend="italic"> landeriri. </hi>
-            que si quelqu'un vouloit sçavoir ce qu'elle lui dit un beau soir, landerirette; en fort peu de vers, le voici, landeriri. 10 air: <hi
-            rend="italic"> amants, votre bonheur </hi> . Sans moi qui t'enflammai du feu qui me dévore, et qui seule animai les jours de ton aurore;
-            cet amant que j'adore, et que j'ai sçu charmer, ignoreroit encore, le doux plaisir d'aimer.11 air: <hi rend="italic"> ô reguingué </hi> .
-            Tout de suite, elle lui conta, <hi rend="italic"> bis </hi> comme s'il n'y eût pas d'mal à ça, ô reguingué, ô lon lan la, son ingénieux
-            stratagême: qu'on est imprudent quand on aime! 12 air: <hi rend="italic"> là haut sur ces montagnes </hi> . De cette confidence il eut le
+            châtain, la peau de satin, le tein, la main, le sein, tout en est divin! Chantons donc sans fin, regne à jamais, etc. 9 air:
+      <hi rend="italic">
+       son altesse me congédie
+      </hi>
+      . Quoique tout cela fût bien tendre, elle se lassa de l'entendre; et desira que son amant
+            sçut qu'il devoit cette maîtresse dont il paroissoit si content, moins au destin qu'à sa tendresse.
+      <hi rend="italic">
+       landeriri.
+      </hi>
+      que si quelqu'un vouloit sçavoir ce qu'elle lui dit un beau soir, landerirette; en fort peu de vers, le voici, landeriri. 10 air:
+      <hi rend="italic">
+       amants, votre bonheur
+      </hi>
+      . Sans moi qui t'enflammai du feu qui me dévore, et qui seule animai les jours de ton aurore;
+            cet amant que j'adore, et que j'ai sçu charmer, ignoreroit encore, le doux plaisir d'aimer.11 air:
+      <hi rend="italic">
+       ô reguingué
+      </hi>
+      .
+            Tout de suite, elle lui conta,
+      <hi rend="italic">
+       bis
+      </hi>
+      comme s'il n'y eût pas d'mal à ça, ô reguingué, ô lon lan la, son ingénieux
+            stratagême: qu'on est imprudent quand on aime! 12 air:
+      <hi rend="italic">
+       là haut sur ces montagnes
+      </hi>
+      . De cette confidence il eut le
             coeur fâché; et par cette imprudence, à son goût arraché, chaque nuit, il perdit de son amour; et l'on sent çà, la nuit, mieux que le
-            jour. 13 air: <hi rend="italic"> m le prévôt des marchands </hi> . à ces transports délicieux qui le rendoient comme les dieux vint
-            succéder l'indifférence, le dégoût, l'ennuyeux loisir. On est bien près de l'inconstance, quand on ne tient plus qu'au desir. 14 air: <hi
-            rend="italic"> des pendus </hi> . Tantôt la belle gémissoit, tantôt elle se courrouçoit, même on dit (comme elle étoit vive) qu'elle alla
-            jusqu'à l'invective: et ce qui pourroit le prouver, c'est le couplet qu'on va trouver.15 air: <hi rend="italic"> les rats </hi> . Dieux!
+            jour. 13 air:
+      <hi rend="italic">
+       m le prévôt des marchands
+      </hi>
+      . à ces transports délicieux qui le rendoient comme les dieux vint
+            succéder l'indifférence, le dégoût, l'ennuyeux loisir. On est bien près de l'inconstance, quand on ne tient plus qu'au desir. 14 air:
+      <hi rend="italic">
+       des pendus
+      </hi>
+      . Tantôt la belle gémissoit, tantôt elle se courrouçoit, même on dit (comme elle étoit vive) qu'elle alla
+            jusqu'à l'invective: et ce qui pourroit le prouver, c'est le couplet qu'on va trouver.15 air:
+      <hi rend="italic">
+       les rats
+      </hi>
+      . Dieux!
             Que ta chimere te fait de tracas! Si j'ai pour te plaire fait les premiers pas, oh! Le beau sujet de colere pour quitter ainsi mes appas!
-            Jean! Ce sont tes rats qui font que tu ne m'aimes guere. Jean! Ce sont tes rats qui font que tu ne m'aimes pas. 16 air: <hi rend="italic">
-            accompagné de plusieurs autres </hi> . Lasse de tâcher vainement de ramener feu son amant, elle voulut en prendre un autre; mais pour le
+            Jean! Ce sont tes rats qui font que tu ne m'aimes guere. Jean! Ce sont tes rats qui font que tu ne m'aimes pas. 16 air:
+      <hi rend="italic">
+       accompagné de plusieurs autres
+      </hi>
+      . Lasse de tâcher vainement de ramener feu son amant, elle voulut en prendre un autre; mais pour le
             faire décemment elle envoya premiérement, le plus grand roi du monde au pautre. Ici, dit le visir, Taciturne racontoit la rupture de la
             fée et de Schézaddin; mais comme cet endroit ne me revient pas dans la mémoire, je vais passer au moment où le roi rencontre la princesse.
-            17 air: <hi rend="italic"> les sauts </hi> . Fiérement il entre dans la danse, comme le bal alloit commencer; un oyson faisant la
-            révérence, vient d'abord le prier à danser: le moyen de refuseroyson venant proposer un saut, deux sauts, trois sauts! 18 air: <hi
-            rend="italic"> v'là c'que c'est que d'aller au bois </hi> . Ce menuet lui fut fatal, v'là c'qu'est c'est que d'entrer au bal! Au milieu de
-            ce bacchanal, quelque sotte bête se jette à la tête, on la ramasse, et l'on fait mal: v'là c'qu'cest que d'entrer au bal! 19 air: <hi
-            rend="italic"> rantanplan, tirelire </hi> . Tout d'abord il soupire, ran tan plan tirelire; et pour cet oyson charmant, plan ran tan plan
+            17 air:
+      <hi rend="italic">
+       les sauts
+      </hi>
+      . Fiérement il entre dans la danse, comme le bal alloit commencer; un oyson faisant la
+            révérence, vient d'abord le prier à danser: le moyen de refuseroyson venant proposer un saut, deux sauts, trois sauts! 18 air:
+      <hi rend="italic">
+       v'là c'que c'est que d'aller au bois
+      </hi>
+      . Ce menuet lui fut fatal, v'là c'qu'est c'est que d'entrer au bal! Au milieu de
+            ce bacchanal, quelque sotte bête se jette à la tête, on la ramasse, et l'on fait mal: v'là c'qu'cest que d'entrer au bal! 19 air:
+      <hi rend="italic">
+       rantanplan, tirelire
+      </hi>
+      . Tout d'abord il soupire, ran tan plan tirelire; et pour cet oyson charmant, plan ran tan plan
             tirelire en plan; et pour cet oyson charmant, il souffre un grand martyre, ran, etc. Et son feu le tourmentant, sans façon, lui va dire.
             Sans façon lui va dire; à cet aveu surprenant l'oyson se mit à rire. L'oyson se mit à rire; tant ça lui paroît plaisant, au nez de notre
             sire.Au nez de notre sire qui n'en est pas moins ardent comme un petit satyre. Comme un petit satyre; et voici le compliment que de sa
-            poche il tire. 20 air: <hi rend="italic"> l'inconnu </hi> . Pour vos beaux yeux, il est vrai que je brûle ne puis-je, hélas! Espérer de
-            retour! Votre scrupule sur mon amour, belle princesse, est de trop en ce jour; je suis trop grand pour craindre un ridicule. 21 air: <hi
-            rend="italic"> Jupin, dès le matin </hi> . L'Oison. Que dira l'univers pour vous, quel revers! Que de propos divers! Des pervers vont sans
+            poche il tire. 20 air:
+      <hi rend="italic">
+       l'inconnu
+      </hi>
+      . Pour vos beaux yeux, il est vrai que je brûle ne puis-je, hélas! Espérer de
+            retour! Votre scrupule sur mon amour, belle princesse, est de trop en ce jour; je suis trop grand pour craindre un ridicule. 21 air:
+      <hi rend="italic">
+       Jupin, dès le matin
+      </hi>
+      . L'Oison. Que dira l'univers pour vous, quel revers! Que de propos divers! Des pervers vont sans
             doute en vers; et sur tous les airs célébrer ce travers. Le Roi. L'univers en dira ce qu'il voudra; tout l'empire criera remontrera;
             quiconque le pourra chansonnera; mon amour, malgré cela, durera. Des traits d'un plat auteur n'ayez pas peur comptez sur mon ardeur, mon
-            petit coeur; et que l'amour ici, devienne notre unique souci. 22 air: <hi rend="italic"> votre coeur, charmante Aurore </hi> . Vos
+            petit coeur; et que l'amour ici, devienne notre unique souci. 22 air:
+      <hi rend="italic">
+       votre coeur, charmante Aurore
+      </hi>
+      . Vos
             transports m'ont rassurée, et je cede à mon vainqueur; au plus doux espoir livrée, oui, j'abandonne mon coeur au plaisir d'être adorée de
-            l'objet de mon ardeur. 23 air: <hi rend="italic"> en passant sur le pont-neuf </hi> . Cependant qu'ils chantoient mal survient un dindon
-            brutal, de la famille royale, et qui, du roi, le rival à l'oyson, avec scandale fit un sabat infernal. 24 air: <hi rend="italic"> c'est
-            dans le fauxbourg st Jacques </hi> . L'Oie. En vérité! Vous me faites pitié de prendre ce ton,pour être jaloux vous êtes encore un
+            l'objet de mon ardeur. 23 air:
+      <hi rend="italic">
+       en passant sur le pont-neuf
+      </hi>
+      . Cependant qu'ils chantoient mal survient un dindon
+            brutal, de la famille royale, et qui, du roi, le rival à l'oyson, avec scandale fit un sabat infernal. 24 air:
+      <hi rend="italic">
+       c'est
+            dans le fauxbourg st Jacques
+      </hi>
+      . L'Oie. En vérité! Vous me faites pitié de prendre ce ton,pour être jaloux vous êtes encore un
             plaisant dindon! Le Dindon. Vous pourriez un peu, la belle, mieux soigner votre jargon; car, entre nous, c'est la pelle qui se moque du
-            fourgon. 25 air: <hi rend="italic"> chantons les dons que fait éclore </hi> . Le Roi. Qu'il cesse un discours qui me blesse, ce dindon est
+            fourgon. 25 air:
+      <hi rend="italic">
+       chantons les dons que fait éclore
+      </hi>
+      . Le Roi. Qu'il cesse un discours qui me blesse, ce dindon est
             bien imprudent! Le Dindon. Monsieur fait ici l'important; mais tout enflé qu'il est de sa noblesse, on peut aussi prendre un ton imposant;
             s'il sçavoit comme il s'adresse, il seroit moins impudent. Le Roi. S'il dit encore un mot, princesse! Je l'embroche dans l'instant, qu'il
-            cesse un discours qui me blesse, etc. 26 air: <hi rend="italic"> de l'homme marin </hi> . Ce propos un peu fanfaron, <hi rend="italic">
-            bis </hi> ne fit point de peur au dindon; <hi rend="italic"> bis </hi> car il étoit fort sur la hanche, et des plus fiers à l'arme
+            cesse un discours qui me blesse, etc. 26 air:
+      <hi rend="italic">
+       de l'homme marin
+      </hi>
+      . Ce propos un peu fanfaron,
+      <hi rend="italic">
+       bis
+      </hi>
+      ne fit point de peur au dindon;
+      <hi rend="italic">
+       bis
+      </hi>
+      car il étoit fort sur la hanche, et des plus fiers à l'arme
             blanche.Ici Taciturne racontoit encore quelque chose des amours de son maître, et terminoit par ce couplet sa misérable romance: 27 air:
-            <hi rend="italic"> de joconde </hi> . Enfin le destin en est pris, il va, sans plus attendre, devenir à nos yeux surpris, d'une autruche
+      <hi rend="italic">
+       de joconde
+      </hi>
+      . Enfin le destin en est pris, il va, sans plus attendre, devenir à nos yeux surpris, d'une autruche
             le gendre; que l'amour trouble la raison c'est chose trop connue; mais pour épouser un oyson, ah! Qu'il faut être grue! Oh! Pour ce
             dernier trait, dit le sultan, il en faut convenir, il est joli; il y a là je ne sçais quoi qui est frappant. Pour le reste de votre
             chanson, visir, dussiez-vous, ce qui m'est à peu près égal, vous en fâcher, je vous dirai naturellement que je me serois bien autant passé
@@ -5377,11 +6056,14 @@
             ne parlez pas comme tout le monde; mais il y a peut-être bien des gens qui, sans le croire, parlent comme vous. Ma foi! Reprit le sultan,
             vanité à part; ils sont bien heureux ces gens-là, et vous m'obligeriez de m'en faire connoître. Mais laissons cela; que le visir sorte de
             son conte, s'il le peut, et que ce que j'en ai dit, ne le décourage pas. Au fond, ce n'est pas ma faute si je suis franc et connoisseur.
-          </p>
-        </div>
-        <div type="chapter">
-          <head> LIVRE 4 PARTIE 8 CHAPITRE 46 </head>
-          <p> Pendant que le ministre, le grand raisonneur et leurs adhérens partageoient la capitale, la remplissoient de leurs clameurs et y
+     </p>
+    </div>
+    <div type="chapter">
+     <head>
+      LIVRE 4 PARTIE 8 CHAPITRE 46
+     </head>
+     <p>
+      Pendant que le ministre, le grand raisonneur et leurs adhérens partageoient la capitale, la remplissoient de leurs clameurs et y
             semoient le troublepar leurs brigues; que les uns tenoient pour les oies, que d'autres s'élevoient contre l'usage, jusques alors inoui
             auquel on vouloit les mettre; Schézaddin impatienté de tous ces débats, mais beaucoup plus ennuyé encore de ne point voir sa princesse, ne
             crut pas pour faire finir une absence qui coûtoit tant à son coeur, devoir attendre qu'ils fussent appaisés. Persuadé, par l'état où
@@ -5412,16 +6094,34 @@
             pas exposée de la part de ses sujets sous une forme si peu propre à l'en faire respecter? Il est vrai qu'il pouvoit en donner le
             signalement; mais étoit-il sûr de la peindre bien ressemblante, et n'avoit-il pas à craindre, en cette occasion, de lui prêter des graces
             qui pouvant n'être pas remarquées par d'autres yeux que les siens, ne la désigneroient à personne? Il lui parut donc que le meilleur moyen
-            qu'il eût pour la sauver de tous les périls qui la menaçoient, étoit de donner un édit, en faveur de toutes les oies du royaume, <hi
-            rend="italic"> portant défense, sous peine de la vie, à toutes personnes, de quelque qualité et condition qu'elles fussent, d'oser,
-            jusques à nouvel ordre, regarder seulement une oie quelconque entre deux yeux, à moins que ce ne fut à bonne intention </hi> . Pendant
+            qu'il eût pour la sauver de tous les périls qui la menaçoient, étoit de donner un édit, en faveur de toutes les oies du royaume,
+      <hi rend="italic">
+       portant défense, sous peine de la vie, à toutes personnes, de quelque qualité et condition qu'elles fussent, d'oser,
+            jusques à nouvel ordre, regarder seulement une oie quelconque entre deux yeux, à moins que ce ne fut à bonne intention
+      </hi>
+      . Pendant
             qu'avec son ministre qu'il avoit envoyé chercher pour ce bel ouvrage, il pesoit scrupuleusement chaque terme, choisissoit ceux qui
             pouvoient prouver combien il avoit à coeur d'être obéi, et tâchoit de n'y omettre aucun des cas qui pouvoient exposer Manzaïde, et
             justifier les contrevenans; Taciturne, à qui la défense d'attenter aux oies, et l'édit donné en conséquence, paroissoit fort plaisans, et
             qui se flattoit que la tendre amante de son maître étoit déjà au croc de quelqu'un de ses sujets, composoit sur cet événement les beaux
-            couplets que votre majesté va entendre: air: <hi rend="italic"> lampons </hi> . Le roi, pour bonnes raisons, <hi rend="italic"> bis </hi>
-            de ses amis les oisons, <hi rend="italic"> bis </hi> veut, quelque appétit qui tienne, qu'en ces lieux chacun s'abstienne. Lampons,
-            lampons, camarades, lampons. Air: <hi rend="italic"> son altesse me congédie </hi> . Voudroit-il nous défendre l'oie, s'il lui restoit
+            couplets que votre majesté va entendre: air:
+      <hi rend="italic">
+       lampons
+      </hi>
+      . Le roi, pour bonnes raisons,
+      <hi rend="italic">
+       bis
+      </hi>
+      de ses amis les oisons,
+      <hi rend="italic">
+       bis
+      </hi>
+      veut, quelque appétit qui tienne, qu'en ces lieux chacun s'abstienne. Lampons,
+            lampons, camarades, lampons. Air:
+      <hi rend="italic">
+       son altesse me congédie
+      </hi>
+      . Voudroit-il nous défendre l'oie, s'il lui restoit
             quelqu'autre voie, pour prévenir un grand malheur; et, vu l'objet de sa tendresse, doit-on s'étonner qu'il ait peur, qu'on ne lui mange sa
             maîtresse? Une défense si nouvelle, quoi qu'en dise un peuple rebelle, n'est pas pour le tyranniser: car s'il défend que l'on en mange, il
             ordonne d'en épouser; et, peut-être, l'on gagne au change. L'édit dressé, et les couplets répandus, Schézaddin et son infidele confident
@@ -5532,9 +6232,10 @@
             incommodé, qu'il lui plaise de le finir; et je trouve cela tout-à-fait agréable. Vous êtes singuliérement revenu sur ce conte-là! Dit la
             sultane, vous le trouviez d'abord si admirable! Que voulez-vous que j'y fasse? Répondit Schah Baham, j'en entends dire du mal à tout le
             monde; et je me conduis, à cet égard, d'après ce que dit un grand philosophe, qu'il vaudroit encore mieux avoir tort avec tout le monde,
-            que d'avoir raison tout seul. </p>
-        </div>
-      </div>
-    </body>
-  </text>
+            que d'avoir raison tout seul.
+     </p>
+    </div>
+   </div>
+  </body>
+ </text>
 </TEI>
