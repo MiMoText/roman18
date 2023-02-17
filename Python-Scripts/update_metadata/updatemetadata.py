@@ -61,46 +61,60 @@ def compare_author(filemetadata, xml_file):
     # find author
     titleStmt = xml_file.find("titleStmt")
     xmlauthor = titleStmt.author
-
     if not re.search(",", filemetadata["au-name"]):
+        ## author wikidata:
         xmlauthorref = xmlauthor["ref"].split(" ")
-        print(xmlauthorref)
+        # in case there are too many whitespaces inbetween viaf and wikidata
+        authorrefidx = [a for a, item in enumerate(xmlauthorref) if re.search("wikidata", item)]
         try:
-            xmlauthorwd = xmlauthorref[1].split(":")[1]
+            xmlauthorwd = xmlauthorref[authorrefidx[0]].split(":")[1]
         except IndexError:
             xmlauthorref = xmlauthor["ref"].split(";")
             xmlauthor["ref"] = xmlauthor["ref"] + " wikidata:0"
             xmlauthorwd = xmlauthorref[1].split(":")[1]
-
-        
         if xmlauthorwd != filemetadata["author_wikidata"]:
             xmlauthor["ref"] = xmlauthorref[0] + " wikidata:"+ str(filemetadata["author_wikidata"])
 
+        try:
+            birth = xmlauthor.string.split("(")[1].split("-")[0]
+            death = re.sub("\)", "", xmlauthor.string.split("(")[1].split("-")[1])
+            name = xmlauthor.string.split("(")[0].strip()
+        except IndexError:
+            birth = "unknown"
+            death = "unknown"
+            name = xmlauthor.string.strip()
+        if name != filemetadata["au-name"] or birth != filemetadata["au-birth"] or death != filemetadata["au-death"]:
+            xmlauthor.string = filemetadata["au-name"].strip() + "(" + filemetadata["au-birth"].strip() + "-" + filemetadata["au-death"].strip() + ")"
 
-    if re.search(",", filemetadata["au-name"]):
-        print(xmlauthor)
-        meta_authors = filemetadata["au-name"].split(",")
+    if re.search(",", filemetadata['au-name']):
+        meta_all_auths = filemetadata['au-name'].split(",")
         meta_births = filemetadata["au-birth"].split(",")
         meta_deaths = filemetadata["au-death"].split(",")
         meta_a_wd = filemetadata["author_wikidata"].split(",")
-        authors = titleStmt.find_all("author")
-        for ind, a in enumerate(authors):
-            print (a.string, meta_authors[ind])
-            try:
-                birth = a.string.split("(")[1].split("-")[0]
-                death = re.sub("\)", "", a.string.split("(")[1].split("-")[1])
-                name = a.string.split("(")[0].strip()
-                print("db found: ", birth, death, name)
-            except IndexError:
+    else:
+        meta_all_auths = [filemetadata['printSource_author']]
+        meta_births = filemetadata["au-birth"]
+        meta_deaths = filemetadata["au-death"]
+        meta_a_wd = filemetadata["author_wikidata"]
+    authors = titleStmt.find_all("author")
+    for ind, a in enumerate(meta_all_auths):
+        try:
+            birth = authors[ind].string.split("(")[1].split("-")[0]
+            death = re.sub("\)", "", authors[ind].string.split("(")[1].split("-")[1])
+            name = authors[ind].string.split("(")[0].strip()
+        except IndexError:
+            if len(authors) == len(meta_all_auths):
                 birth = "unknown"
                 death = "unknown"
-                name = a.string.strip()
-                print("bd not found: ", birth, death, name)
-            if name != meta_authors[ind] or birth != meta_births[ind] or death != meta_deaths[ind]:
-                a.string = meta_authors[ind].strip() + "(" + meta_births[ind].strip() + "-" + meta_deaths[ind].strip() + ")"
+                name = authors[ind].string.strip()
+                if name != a or birth != meta_births[ind] or death != meta_deaths[ind]:
+                    authors[ind].string = a.strip() + "(" + meta_births[ind].strip() + "-" + meta_deaths[ind].strip() + ")"
+            else:
+                new_tag = xml_file.new_tag("author")
+                new_tag.string = a.strip() + "(" + meta_births[ind].strip() + "-" + meta_deaths[ind].strip() + ")"
+                xml_file.titleStmt.insert(4, new_tag)
 
 
-        print(authors)
 
     return xml_file
 
