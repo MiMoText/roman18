@@ -2,147 +2,87 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Montesquieu_Arsace" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:83.42 wikidata:Q19132875">
-     Arsace et Isménie : histoire orientale:
-                    MiMoText edition
-    </title>
-    <author ref="viaf:27069096 wikidata:Q15975">
-     Montesquieu(1689-1755)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      frantext
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     14229
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Œuvres complètes, t. 1., Arsace et Isménie : histoire orientale
-     </title>
-     <ref target="https://www.frantext.fr/"/>
-     <author>
-      baron de La Brède et de Montesquieu
-     </author>
-     <date>
-      unknown
-     </date>
-     <publisher>
-      Frantext
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Arsace et Isménie : histoire orientale
-     </title>
-     <author>
-      Charles-Louis de Secondat
-     </author>
-     <author>
-      baron de La Brède et de Montesquieu
-     </author>
-     <pubPlace>
-      unknown
-     </pubPlace>
-     <publisher>
-      unknown
-     </publisher>
-     <date>
-      1949
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1755
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      heterodiegetic
-     </term>
-     <term type="spelling">
-      historical
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2021-01-06">
-    Initital ELTeC level-1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="chapter">
-    <head>
-     HISTOIRE ORIENTALE
-    </head>
-    <p>
-     Sur la fin du règne d'Artamène, la Bactriane fut agitée par les discordes
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:83.42 wikidata:Q19132875"> Arsace et Isménie : histoire orientale:
+                    MiMoText edition </title>
+                <author ref="viaf:27069096 wikidata:Q15975"> Montesquieu(1689-1755) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> frantext </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 14229 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Œuvres complètes, t. 1., Arsace et Isménie : histoire orientale </title>
+                    <ref target="https://www.frantext.fr/"/>
+                    <author> baron de La Brède et de Montesquieu </author>
+                    <date> unknown </date>
+                    <publisher> Frantext </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Arsace et Isménie : histoire orientale </title>
+                    <author> Charles-Louis de Secondat baron de La Brède et de Montesquieu </author>
+                    <pubPlace> unknown </pubPlace>
+                    <publisher> unknown </publisher>
+                    <date> 1949 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1755 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> heterodiegetic </term>
+                    <term type="spelling"> historical </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-06"> Initital ELTeC level-1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <head> HISTOIRE ORIENTALE </head>
+                <p> Sur la fin du règne d'Artamène, la Bactriane fut agitée par les discordes
                     civiles. Ce prince mourut accablé d'ennuis et laissa son trône à sa fille
                     Isménie. Aspar, premier eunuque du palais, eut la principale direction des
                     affaires. Il désiroit beaucoup le bien de l'état, et il désiroit fort peu le
@@ -223,7 +163,8 @@
                     bornés, ceux du coeur l'étoient encore davantage. Ardasire n'étoit pas plus
                     distinguée de mes autres femmes par son rang que par mon amour. Elle avoit une
                     fierté mêlée de quelque chose de si tendre; ses sentiments étoient si nobles, si
-                    différents de ceux qu'une complaisance éternelle met dans le coeur des femmes d'Asie; elle avoit d'ailleurs tant de beauté, que mes yeux ne virent qu'elle, et
+                    différents de ceux qu'une complaisance éternelle met dans le coeur des femmes
+                    d'Asie; elle avoit d'ailleurs tant de beauté, que mes yeux ne virent qu'elle, et
                     mon coeur ignora les autres. Sa physionomie étoit ravissante; sa taille, son
                     air, ses grâces, le son de sa voix, le charme de ses discours, tout
                     m'enchantoit. Je voulois toujours l'entendre; je ne me lassois jamais de la
@@ -653,260 +594,260 @@
                     Comment exprimer ce bonheur, dont l'excès n'est que pour les vrais amants;
                     lorsque l'amour renaît après lui-même, lorsque tout promet, que tout demande,
                     que tout obéit; lorsqu'on sent qu'on a tout, et que l'on sent que l'on n'a pas
-                    assez; lorsque l'âme semble s'abandonner et se porter au delà de la nature
-                    même? Ardasire, revenue à elle, me dit: mon cher Arsace, l'amour que j'ai eu
-                    pour vous m'a fait faire des choses bien extraordinaires. Mais un amour bien
-                    violent n'a de règle ni de loi. On ne le connoît guère, si l'on ne met ses
-                    caprices au nombre de ses plus grands plaisirs. Au nom des dieux, ne me quitte
-                    plus. Que peut-il te manquer? Tu es heureux si tu m'aimes. Tu es sûr que jamais
-                    mortel n'a été tant aimé. Dis-moi, promets-moi, jure-moi que tu resteras ici. Je
-                    lui fis mille serments; ils ne furent interrompus que par mes embrassements, et
-                    elle les crut. Heureux l'amour, lors même qu' il s'apaise, lorsque après qu'il a
-                    cherché à se faire sentir, il aime à se faire connoître; lorsque, après avoir
-                    joui des beautés, il ne se sent plus touché que par les grâces! Nous vécûmes
-                    dans la Sogdiane dans une félicité que je ne saurois vous exprimer. Je n'avois
-                    resté que quelques mois dans la Margiane; et ce séjour m'avoit déjà guéri de
-                    l'ambition. J'avois eu la faveur du roi; mais je m'aperçus bientôt qu'il ne
-                    pouvoit me pardonner mon courage et sa frayeur. Ma présence le mettoit dans
-                    l'embarras; il ne pouvoit donc pas m'aimer. Ses courtisans s'en aperçurent, et
-                    dès lors ils se donnèrent bien garde de me trop estimer; et, pour que je n'eusse
-                    pas sauvé l'état du péril, tout le monde convenoit à la cour qu'il n'y avoit pas
-                    eu de péril. Ainsi, également dégoûté de l'esclavage et des esclaves, je ne
-                    connus plus d'autre passion que mon amour pour Ardasire, et je m'estimai cent
-                    fois plus heureux de rester dans la seule dépendance que j'aimois, que de
-                    rentrer dans une autre que je ne pouvois que haïr. Il nous parut que le génie
-                    nous avoit suivis. Nous nous retrouvâmes dans la même abondance, et nous vîmes
-                    toujours de nouveaux prodiges. Un pêcheur vint nous vendre un poisson:
-                    onm'apporta une bague fort riche qu'on avoit trouvée dans son gosier. Un jour,
-                    manquant d'argent, j'envoyai vendre quelques pierreries à la ville prochaine: on
-                    m'en apporta le prix, et quelques jours après, je vis sur ma table les
-                    pierreries. Grands dieux! Dis-je en moi-même, il m'est donc impossible de
-                    m'appauvrir! Nous voulûmes tenter le génie, et nous lui demandâmes une somme
-                    immense. Il nous fit bien voir que nos voeux étaient indiscrets. Nous trouvâmes,
-                    quelques jours après, sur la table, la plus petite somme que nous eussions
-                    encore reçue. Nous ne pûmes, en la voyant, nous empêcher de rire. Le génie nous
-                    joue, dit Ardasire. Ah! M'écriai-je, les dieux sont de bons dispensateurs: la
-                    médiocrité qu'ils nous accordent vaut bien mieux que les trésors qu'ils nous
-                    refusent. Nous n'avions aucune des passions tristes. L'aveugle ambition, la soif
-                    d'acquérir, l'envie de dominer, sembloient s'éloigner de nous, et être les
-                    passions d'un autre univers. Ces sortes de biens ne sont faits que pour entrer
-                    dans le vide des âmes que la nature n'a point remplies. Ils n'ont été imaginés
-                    que par ceux qui se sont trouvés incapables de bien sentir les autres. Je vous
-                    ai déjà dit que nous étions adorés de cette petite nation qui formoit notre
-                    maison. Nous nous aimions, Ardasire et moi; et sans doute que l'effet naturel de
-                    l'amour est de rendre heureux ceux qui s'aiment. Mais cette bienveillance
-                    générale que nous trouvons dans tous ceux qui sont autour de nous peut rendre
-                    plus heureux que l'amour même. Il est impossible que ceux qui ont le coeur bien
-                    fait ne se plaisent au milieu de cette bienveillance générale. étrange effet de
-                    la nature! L'homme n'est jamais si peu à lui que lorsqu'il paroît l'être
-                    davantage. Le coeur n'est jamais le coeur que quand il se donne, parce que ses
-                    jouissances sont hors de lui. C'est ce qui fait que ces idées de grandeur, qui
-                    retirent toujours le coeur vers lui-même, trompent ceux qui en sont enivrés;
-                    c'est ce qui fait qu'ils s'étonnent de n'être point heureux au milieu de ce
-                    qu'ils croient être le bonheur; que, ne le trouvant point dans la grandeur, ils
-                    cherchent plus de grandeur encore. S'ils n'y peuventatteindre, ils se croient
-                    plus malheureux; s'ils y atteignent, ils ne trouvent pas encore le bonheur.
-                    C'est l'orgueil qui, à force de nous posséder, nous empêche de nous posséder, et
-                    qui, nous concentrant dans nous-mêmes, y porte toujours la tristesse. Cette
-                    tristesse vient de la solitude du coeur, qui se sent toujours fait pour jouir,
-                    et qui ne jouit pas; qui se sent toujours fait pour les autres, et qui ne les
-                    trouve pas. Ainsi nous aurions goûté des plaisirs que donne la nature toutes les
-                    fois qu'on ne la fuit pas. Nous aurions passé notre vie dans la joie,
-                    l'innocence et la paix. Nous aurions compté nos années par le renouvellement des
-                    fleurs et des fruits; nous aurions perdu nos années dans la rapidité d'une vie
-                    heureuse. J' aurois vu tous les jours Ardasire, et je lui aurois dit que je
-                    l'aimois. La même terre auroit repris son âme et la mienne. Mais tout à coup mon
-                    bonheur s'évanouit, et j'éprouvai le revers du monde le plus affreux. Le prince
-                    du pays étoit un tyran capable de tous les crimes; mais rien ne le rendoit si
-                    odieux que les outrages continuels qu'il faisoit à un sexe sur lequel il n'est
-                    pas seulement permis de lever les yeux. Il apprit, par une esclave sortie du
-                    sérail d'Ardasire, qu'elle étoit la plus belle personne de l'Orient. Il n'en
-                    fallut pas davantage pour le déterminer à me l'enlever. Une nuit, une grosse
-                    troupe de gens armés entoura ma maison, et le matin je reçus un ordre du tyran
-                    de lui envoyer Ardasire. Je vis l'impossibilité de la faire sauver. Ma première
-                    idée fut de lui aller donner la mort dans le sommeil où elle étoit ensevelie. Je
-                    pris mon épée, je courus, j'entrai dans sa chambre, j'ouvris les rideaux; je
-                    reculai d'horreur, et tous mes sens se glacèrent. Une nouvelle rage me saisit:
-                    je voulus aller me jeter au milieu de ces satellites, et immoler tout ce qui se
-                    présenteroit à moi. Mon esprit s'ouvrit pour un dessein plus suivi, et je me
-                    calmai. Je résolus de prendre les habits que j'avais eus il y avoit quelques
-                    mois, de monter, sous le nom d' Ardasire, dans la litière que le tyran lui avoit
-                    destinée, de me faire mener à lui. Outre que je ne voyois point d'autre
-                    ressource, je sentois en moi-même du plaisir à faire une action de courage sous
-                    les mêmes habits avec lesquels l'aveugle amour avoit auparavant avili mon
-                    sexe.J' exécutai tout de sang-froid. J'ordonnai que l'on cachât à Ardasire le
-                    péril que je courois, et que, sitôt que je serois parti, on la fît sauver dans
-                    un autre pays. Je pris avec moi un esclave dont je connoissois le courage, et je
-                    me livrai aux femmes et aux eunuques que le tyran avoit envoyés. Je ne restai
-                    pas deux jours en chemin, et, quand j'arrivai, la nuit étoit déjà avancée. Le
-                    tyran donnoit un festin à ses femmes et à ses courtisans dans une salle de ses
-                    jardins. Il étoit dans cette gaîté stupide que donne la débauche lorsqu'elle a
-                    été portée à l'excès. Il ordonna que l'on me fît venir. J'entrai dans la salle
-                    du festin: il me fit mettre auprès de lui, et je sus cacher ma fureur et le
-                    désordre de mon âme. J'étois comme incertain dans mes souhaits. Je voulois
-                    attirer les regards du tyran, et, quand il les tournoit vers moi, je sentois
-                    redoubler ma rage. Parce qu'il me croit Ardasire, disois-je en moi-même, il ose
-                    m'aimer. Il me sembloit que je voyois multiplier ses outrages, et qu'il avoit
-                    trouvé mille manières d'offenser mon amour. Cependant j'étois prêt à jouir de la
-                    plus affreuse vengeance. Il s'enflammoit, et je le voyois insensiblement
-                    approcher de son malheur. Il sortit de la salle du festin, et me mena dans un
-                    appartement plus reculé de ses jardins, suivi d'un seul eunuque et de mon
-                    esclave. Déjà sa fureur brutale alloit l'éclaircir sur mon sexe. Ce fer,
-                    m'écriai-je, t'apprendra mieux que je suis un homme. Meurs, et qu'on dise aux
-                    enfers que l'époux d'Ardasire a puni tes crimes. Il tomba à mes pieds, et dans
-                    ce moment la porte de l'appartement s'ouvrit; car sitôt que mon esclave avoit
-                    entendu ma voix, il avoit tué l'eunuque qui la gardoit, et s'en étoit saisi.
-                    Nous fuîmes; nous errions dans les jardins; nous rencontrâmes un homme; je le
-                    saisis: je te plongerai, lui dis-je, ce poignard dans le sein, si tu ne me fais
-                    sortir d'ici. C'étoit un jardinier, qui, tout tremblant de peur, me mena à une
-                    porte qu'il ouvrit; je la lui fis refermer, et lui ordonnai de me suivre. Je
-                    jetai mes habits, et pris un manteau d'esclave. Nous errâmes dans les bois, et,
-                    par un bonheur inespéré, lorsque nous étions accablés de lassitude, nous
-                    trouvâmes un marchand qui faisait paître ses chameaux; nous l'obligeâmes de nous
-                    mener hors de ce funeste pays.à mesure que j'évitois tant de dangers, mon coeur
-                    devenoit moins tranquille. Il falloit revoir Ardasire, et tout me faisoit
-                    craindre pour elle. Ses femmes et ses eunuques lui avoient caché l'horreur de
-                    notre situation; mais, ne me voyant plus auprès d'elle, elle me croyoit
-                    coupable; elle s'imaginoit que j'avois manqué à tant de serments que je lui
-                    avois faits. Elle ne pouvoit concevoir cette barbarie de l'avoir fait enlever
-                    sans lui rien dire. L'amour voit tout ce qu'il craint. La vie lui devint
-                    insupportable; elle prit du poison; il ne fit pas son effet violemment.
-                    J'arrivai et je la trouvai mourante. Ardasire, lui dis-je, je vous perds, vous
-                    mourez! Cruelle Ardasire! Hélas! Qu'avois-je fait? ... elle versa quelques
-                    larmes. Arsace, me dit-elle, il n'y a qu'un moment que la mort me sembloit
-                    délicieuse; elle me paroît terrible depuis que je vous vois. Je sens que je
-                    voudrois revivre pour vous, et que mon âme me quitte malgré elle. Conservez mon
-                    souvenir; et, si j' apprends qu'il vous est cher, comptez que je ne serai point
-                    tourmentée chez les ombres. J'ai du moins cette consolation, mon cher Arsace, de
-                    mourir dans vos bras. Elle expira. Il me seroit impossible de dire comment je
-                    n'expirai pas aussi. On m'arracha d'Ardasire, et je crus qu'on me séparoit de
-                    moi-même. Je fixai mes yeux sur elle, et je restai immobile: j'étois devenu
-                    stupide. On m'ôta ce terrible spectacle, et je sentis mon âme reprendre toute
-                    sa sensibilité. On m'entraîna: je tournois les yeux vers ce fatal objet de ma
-                    douleur; j'aurois donné mille vies pour le voir encore un moment. J'entrai en
-                    fureur, je pris mon épée; j'allois me percer le sein; on m'arrêta. Je sortis de
-                    ce palais funeste; je n'y rentrai plus. Mon esprit s'aliéna; je courois dans les
-                    bois; je remplissois l'air de mes cris. Quand je devenois plus tranquille,
-                    toutes les forces de mon âme la fixoient à ma douleur. Il me sembla qu'il ne me
-                    restoit plus rien dans le monde que ma tristesse et le nom d' Ardasire. Ce nom,
-                    je le prononçois d'une voix terrible, et je rentrois dans le silence. Je résolus
-                    de m'ôter la vie et tout à coup j'entrai en fureur. Tu veux mourir, me
-                    disois-je à moi-même, et Ardasire n'est pas vengée! Tu veux mourir, et le fils
-                    du tyran est en Hyrcanie, qui se baigne dans les délices! Il vit, et tu veux
-                    mourir! Je me suis mis en chemin pour l'aller chercher. J'aiappris qu'il vous
-                    avoit déclaré la guerre; j'ai volé à vous. Je suis arrivé trois jours avant la
-                    bataille, et j'ai fait l'action que vous connoissez. J'aurais percé le fils du
-                    tyran; j'ai mieux aimé le faire prisonnier. Je veux qu'il traîne dans la honte
-                    et dans les fers une vie aussi malheureuse que la mienne. J' espère que quelque
-                    jour il apprendra que j'aurai fait mourir le dernier des siens. J'avoue pourtant
-                    que, depuis que je suis vengé, je ne me trouve pas plus heureux; et je sens bien
-                    que l'espoir de la vengeance flatte plus que la vengeance même. Ma rage que j'ai
-                    satisfaite, l'action que vous avez vue, les acclamations du peuple, seigneur,
-                    votre amitié même, ne me rendent point ce que j'ai perdu. La surprise d'Aspar
-                    avoit commencé presque avec le récit qu'il avoit entendu. Sitôt qu'il avoit ouï
-                    le nom d'Arsace, il avoit reconnu le mari de la reine. Des raisons d'état
-                    l'avoient obligé d'envoyer chez les mèdes Isménie, la plus jeune des filles du
-                    dernier roi, et il l'y avoit fait élever en secret sous le nom d'Ardasire. Il
-                    l'avoit mariée à Arsace; il avoit toujours eu des gens affidés dans le sérail
-                    d'Arsace; il étoit le génie qui, par ces mêmes gens, avoit répandu tant de
-                    richesses dans la maison d'Arsace, et qui, par des voies très simples, avoit
-                    fait imaginer tant de prodiges. Il avoit eu de très grandes raisons pour cacher
-                    à Arsace la naissance d'Ardasire. Arsace, qui avoit beaucoup de courage, auroit
-                    pu faire valoir les droits de sa femme sur la Bactriane, et la troubler. Mais
-                    ces raisons ne subsistoient plus, et, quand il entendit le récit d'Arsace, il
-                    eut mille fois envie de l'interrompre; mais il crut qu'il n'étoit pas encore
-                    temps de lui apprendre son sort. Un ministre accoutumé à arrêter ses mouvements
-                    revenoit toujours à la prudence; il pensoit à préparer un grand événement, et
-                    non pas à le hâter. Deux jours après, le bruit se répandit que l'eunuque avoit
-                    mis sur le trône une fausse Isménie. On passa des murmures à la sédition. Le
-                    peuple furieux entoura le palais; il demanda à haute voix la tête d'Aspar.
-                    L'eunuque fit ouvrir une des portes, et, monté sur un éléphant, il s'avança dans
-                    la foule. Bactriens, dit-il, écoutez-moi. Et, comme on murmurait encore:
-                    écoutez-moi, vous dis-je. Si vous pouvez me faire mourir à présent,vous pourrez
-                    dans un moment me faire, mourir tout de même. Voici un papier écrit et scellé de
-                    la main du feu roi: prosternez-vous, adorez-le; je vais le lire. Il le lut: " le
-                    ciel m'a donné deux filles qui se ressemblent au point que tous les yeux peuvent
-                    s'y tromper. Je crains que cela ne donne occasion à de plus grands troubles et à
-                    des guerres plus funestes. Vous donc, Aspar, lumière de l'empire, prenez la plus
-                    jeune des deux; envoyez-la secrètement dans la Médie, et faites-en prendre soin.
-                    Qu'elle y reste sous un nom supposé, tant que le bien de l'état le demandera. "
-                    il porta cet écrit au-dessus de sa tête, et il s'inclina; puis, reprenant la
-                    parole: " Isménie est morte; n'en doutez pas; mais sa soeur, la jeune Isménie,
-                    est sur le trône. Voudriez-vous vous plaindre de ce que, voyant la mort de la
-                    reine approcher, j'ai fait venir sa soeur du fond de l' Asie? Me
-                    reprocheriez-vous d'avoir été assez heureux pour vous la rendre et la placer sur
-                    un trône qui, depuis la mort de la reine sa soeur, lui appartient? Si j'ai tu la
-                    mort de la reine, l'état des affaires ne l'a-t-il pas demandé? Me blâmez-vous
-                    d'avoir fait une action de fidélité avec prudence? Posez donc les armes.
-                    Jusqu'ici vous n'êtes point coupables; dès ce moment vous le seriez. " Aspar
-                    expliqua ensuite comment il avoit confié la jeune Isménie à deux vieux eunuques;
-                    comment on l'avoit transportée en Médie sous un nom supposé; comment il l'avoit
-                    mariée à un grand seigneur du pays; comment il l'avoit fait suivre dans tous les
-                    lieux où la fortune l'avoit conduite; comment la maladie de la reine l' avoit
-                    déterminé à la faire enlever pour être gardée en secret dans le sérail; comment,
-                    après la mort de la reine, il l'avoit placée sur le trône. Comme les flots de la
-                    mer agitée s'apaisent par les zéphyrs, le peuple se calma par les paroles
-                    d'Aspar. On n'entendit plus que des acclamations de joie; tous les temples
-                    retentirent du nom de la jeune Isménie. Aspar inspira à Isménie de voir
-                    l'étranger qui avoit rendu un si grand service à la Bactriane; il lui inspira de
-                    lui donner une audience éclatante. Il fut résolu que les grands et les peuples
-                    seroient assemblés; que là il seroit déclaré général des armées de l'état, et
-                    que la reine luiceindroit l'épée. Les principaux de la nation étoient rangés
-                    autour d'une grande salle, et une foule de peuple en occupoit le milieu et
-                    l'entrée. La reine étoit sur son trône, vêtue d'un habit superbe. Elle avoit la
-                    tête couverte de pierreries; elle avoit, selon l'usage de ces solennités, levé
-                    son voile, et l'on voyoit le visage de la beauté même. Arsace parut, et le
-                    peuple commença ses acclamations. Arsace, les yeux baissés par respect, resta un
-                    moment dans le silence, et, adressant la parole à la reine: madame, lui dit-il
-                    d'une voix basse et entrecoupée, si quelque chose pouvoit rendre à mon âme
-                    quelque tranquillité, et me consoler de mes malheurs... la reine ne le laissa
-                    pas achever; elle crut d'abord reconnoître le visage, elle reconnut encore la
-                    voix d'Arsace. Toute hors d'elle-même, et ne se connoissant plus, elle se
-                    précipita de son trône, et se jeta aux genoux d'Arsace. Mes malheurs ont été
-                    plus grands que les tiens, dit-elle, mon cher Arsace. Hélas! Je croyois ne te
-                    revoir jamais depuis le fatal moment qui nous a séparés. Mes douleurs ont été
-                    mortelles. Et, comme si elle avoit passé tout à coup d'une manière d'aimer à une
-                    autre manière d'aimer, ou qu' elle se trouvât incertaine sur l'impétuosité de
-                    l'action qu'elle venoit de faire, elle se releva tout à coup, et une rougeur
-                    modeste parut sur son visage. Bactriens, dit-elle, c'est aux genoux de mon époux
-                    que vous m'avez vue. C'est ma félicité d'avoir pu faire paroître devant vous mon
-                    amour. J'ai descendu de mon trône, parce que je n'y étois pas avec lui, et
-                    j'atteste les dieux que je n'y remonterai pas sans lui. Je goûte ce plaisir que
-                    la plus belle action de mon règne, c'est par lui qu'elle a été faite, et que
-                    c'est pour moi qu'il l'a faite. Grands, peuples et citoyens, croyez-vous que
-                    celui qui règne sur moi soit digne de régner sur vous? Approuvez-vous mon choix?
-                    élisez-vous Arsace? Dites-le-moi, parlez. à peine les dernières paroles de la
-                    reine furent-elles entendues, tout le palais retentit d'acclamations; on
-                    n'entendit plus que le nom d'Arsace et celui d'Isménie. Pendant tout ce temps,
-                    Arsace étoit comme stupide. Il voulut parler, sa voix s'arrêta; il voulut se
-                    mouvoir,et il resta sans action. Il ne voyoit pas la reine; il ne voyoit pas le
-                    peuple; à peine entendoit-il les acclamations: la joie le troubloit tellement,
-                    que son âme ne put sentir toute sa félicité. Mais, quand Aspar eut fait retirer
-                    le peuple, Arsace pencha la tête sur la main de la reine. Ardasire, vous vivez!
-                    Vous vivez, ma chère Ardasire! Je mourois tous les jours de douleur. Comment les
-                    dieux vous ont-ils rendue à la vie? Elle se hâta de lui raconter comment une de
-                    ses femmes avoit substitué au poison une liqueur enivrante. Elle avoit été trois
-                    jours sans mouvement; on l'avoit rendue à la vie: sa première parole avoit été
-                    le nom d'Arsace; ses yeux ne s'étoient ouverts que pour le voir; elle l' avoit
-                    fait chercher; elle l'avoit cherché elle-même. Aspar l'avoit fait enlever, et,
-                    après la mort de sa soeur, il l'avoit placée sur le trône. Aspar avoit rendu
-                    éclatante l'entrevue d'Arsace et d'Isménie. Il se ressouvenoit de la dernière
-                    sédition. Il croyoit qu'après avoir pris sur lui de mettre Isménie sur le trône,
-                    il n'étoit pas à propos qu'il parût encore avoir contribué à y placer Arsace. Il
-                    avoit pour maxime de ne faire jamais lui-même ce que les autres pouvoient faire,
-                    et d'aimer le bien, de quelque main qu'il pût venir. D'ailleurs, connoissant la
-                    beauté du caractère d'Arsace et d'Isménie, il désiroit de les faire paroître
-                    dans leur jour. Il vouloit leur concilier ce respect que s' attirent toujours
-                    les grandes âmes dans toutes les occasions où elles peuvent se montrer. Il
-                    cherchoit à leur attirer cet amour que l'on porte à ceux qui ont éprouvé de
-                    grands malheurs. Il vouloit faire naître cette admiration que l'on a pour tous
-                    ceux qui sont capables de sentir les belles passions. Enfin il croyoit que rien
-                    n'étoit plus propre à faire perdre à Arsace le titre d'étranger, et à lui faire
-                    trouver celui de bactrien dans tous les coeurs des peuples de la Bactriane.
-                    Arsace jouissoit d'un bonheur qui lui paroissoit inconcevable. Ardasire, qu'il
-                    croyoit morte, lui étoit rendue; Ardasire étoit Isménie; Ardasire étoit reine de
-                    Bactriane; Ardasire l'en avoit fait roi. Il passoit du sentiment de sa grandeur
-                    au sentiment de son amour. Il aimoit ce diadème qui, bien loin d'être un signe
+                    assez; lorsque l'âme semble s'abandonner et se porter au delà de la nature même?
+                    Ardasire, revenue à elle, me dit: mon cher Arsace, l'amour que j'ai eu pour vous
+                    m'a fait faire des choses bien extraordinaires. Mais un amour bien violent n'a
+                    de règle ni de loi. On ne le connoît guère, si l'on ne met ses caprices au
+                    nombre de ses plus grands plaisirs. Au nom des dieux, ne me quitte plus. Que
+                    peut-il te manquer? Tu es heureux si tu m'aimes. Tu es sûr que jamais mortel n'a
+                    été tant aimé. Dis-moi, promets-moi, jure-moi que tu resteras ici. Je lui fis
+                    mille serments; ils ne furent interrompus que par mes embrassements, et elle les
+                    crut. Heureux l'amour, lors même qu' il s'apaise, lorsque après qu'il a cherché
+                    à se faire sentir, il aime à se faire connoître; lorsque, après avoir joui des
+                    beautés, il ne se sent plus touché que par les grâces! Nous vécûmes dans la
+                    Sogdiane dans une félicité que je ne saurois vous exprimer. Je n'avois resté que
+                    quelques mois dans la Margiane; et ce séjour m'avoit déjà guéri de l'ambition.
+                    J'avois eu la faveur du roi; mais je m'aperçus bientôt qu'il ne pouvoit me
+                    pardonner mon courage et sa frayeur. Ma présence le mettoit dans l'embarras; il
+                    ne pouvoit donc pas m'aimer. Ses courtisans s'en aperçurent, et dès lors ils se
+                    donnèrent bien garde de me trop estimer; et, pour que je n'eusse pas sauvé
+                    l'état du péril, tout le monde convenoit à la cour qu'il n'y avoit pas eu de
+                    péril. Ainsi, également dégoûté de l'esclavage et des esclaves, je ne connus
+                    plus d'autre passion que mon amour pour Ardasire, et je m'estimai cent fois plus
+                    heureux de rester dans la seule dépendance que j'aimois, que de rentrer dans une
+                    autre que je ne pouvois que haïr. Il nous parut que le génie nous avoit suivis.
+                    Nous nous retrouvâmes dans la même abondance, et nous vîmes toujours de nouveaux
+                    prodiges. Un pêcheur vint nous vendre un poisson: onm'apporta une bague fort
+                    riche qu'on avoit trouvée dans son gosier. Un jour, manquant d'argent, j'envoyai
+                    vendre quelques pierreries à la ville prochaine: on m'en apporta le prix, et
+                    quelques jours après, je vis sur ma table les pierreries. Grands dieux! Dis-je
+                    en moi-même, il m'est donc impossible de m'appauvrir! Nous voulûmes tenter le
+                    génie, et nous lui demandâmes une somme immense. Il nous fit bien voir que nos
+                    voeux étaient indiscrets. Nous trouvâmes, quelques jours après, sur la table, la
+                    plus petite somme que nous eussions encore reçue. Nous ne pûmes, en la voyant,
+                    nous empêcher de rire. Le génie nous joue, dit Ardasire. Ah! M'écriai-je, les
+                    dieux sont de bons dispensateurs: la médiocrité qu'ils nous accordent vaut bien
+                    mieux que les trésors qu'ils nous refusent. Nous n'avions aucune des passions
+                    tristes. L'aveugle ambition, la soif d'acquérir, l'envie de dominer, sembloient
+                    s'éloigner de nous, et être les passions d'un autre univers. Ces sortes de biens
+                    ne sont faits que pour entrer dans le vide des âmes que la nature n'a point
+                    remplies. Ils n'ont été imaginés que par ceux qui se sont trouvés incapables de
+                    bien sentir les autres. Je vous ai déjà dit que nous étions adorés de cette
+                    petite nation qui formoit notre maison. Nous nous aimions, Ardasire et moi; et
+                    sans doute que l'effet naturel de l'amour est de rendre heureux ceux qui
+                    s'aiment. Mais cette bienveillance générale que nous trouvons dans tous ceux qui
+                    sont autour de nous peut rendre plus heureux que l'amour même. Il est impossible
+                    que ceux qui ont le coeur bien fait ne se plaisent au milieu de cette
+                    bienveillance générale. étrange effet de la nature! L'homme n'est jamais si peu
+                    à lui que lorsqu'il paroît l'être davantage. Le coeur n'est jamais le coeur que
+                    quand il se donne, parce que ses jouissances sont hors de lui. C'est ce qui fait
+                    que ces idées de grandeur, qui retirent toujours le coeur vers lui-même,
+                    trompent ceux qui en sont enivrés; c'est ce qui fait qu'ils s'étonnent de n'être
+                    point heureux au milieu de ce qu'ils croient être le bonheur; que, ne le
+                    trouvant point dans la grandeur, ils cherchent plus de grandeur encore. S'ils
+                    n'y peuventatteindre, ils se croient plus malheureux; s'ils y atteignent, ils ne
+                    trouvent pas encore le bonheur. C'est l'orgueil qui, à force de nous posséder,
+                    nous empêche de nous posséder, et qui, nous concentrant dans nous-mêmes, y porte
+                    toujours la tristesse. Cette tristesse vient de la solitude du coeur, qui se
+                    sent toujours fait pour jouir, et qui ne jouit pas; qui se sent toujours fait
+                    pour les autres, et qui ne les trouve pas. Ainsi nous aurions goûté des plaisirs
+                    que donne la nature toutes les fois qu'on ne la fuit pas. Nous aurions passé
+                    notre vie dans la joie, l'innocence et la paix. Nous aurions compté nos années
+                    par le renouvellement des fleurs et des fruits; nous aurions perdu nos années
+                    dans la rapidité d'une vie heureuse. J' aurois vu tous les jours Ardasire, et je
+                    lui aurois dit que je l'aimois. La même terre auroit repris son âme et la
+                    mienne. Mais tout à coup mon bonheur s'évanouit, et j'éprouvai le revers du
+                    monde le plus affreux. Le prince du pays étoit un tyran capable de tous les
+                    crimes; mais rien ne le rendoit si odieux que les outrages continuels qu'il
+                    faisoit à un sexe sur lequel il n'est pas seulement permis de lever les yeux. Il
+                    apprit, par une esclave sortie du sérail d'Ardasire, qu'elle étoit la plus belle
+                    personne de l'Orient. Il n'en fallut pas davantage pour le déterminer à me
+                    l'enlever. Une nuit, une grosse troupe de gens armés entoura ma maison, et le
+                    matin je reçus un ordre du tyran de lui envoyer Ardasire. Je vis l'impossibilité
+                    de la faire sauver. Ma première idée fut de lui aller donner la mort dans le
+                    sommeil où elle étoit ensevelie. Je pris mon épée, je courus, j'entrai dans sa
+                    chambre, j'ouvris les rideaux; je reculai d'horreur, et tous mes sens se
+                    glacèrent. Une nouvelle rage me saisit: je voulus aller me jeter au milieu de
+                    ces satellites, et immoler tout ce qui se présenteroit à moi. Mon esprit
+                    s'ouvrit pour un dessein plus suivi, et je me calmai. Je résolus de prendre les
+                    habits que j'avais eus il y avoit quelques mois, de monter, sous le nom d'
+                    Ardasire, dans la litière que le tyran lui avoit destinée, de me faire mener à
+                    lui. Outre que je ne voyois point d'autre ressource, je sentois en moi-même du
+                    plaisir à faire une action de courage sous les mêmes habits avec lesquels
+                    l'aveugle amour avoit auparavant avili mon sexe.J' exécutai tout de sang-froid.
+                    J'ordonnai que l'on cachât à Ardasire le péril que je courois, et que, sitôt que
+                    je serois parti, on la fît sauver dans un autre pays. Je pris avec moi un
+                    esclave dont je connoissois le courage, et je me livrai aux femmes et aux
+                    eunuques que le tyran avoit envoyés. Je ne restai pas deux jours en chemin, et,
+                    quand j'arrivai, la nuit étoit déjà avancée. Le tyran donnoit un festin à ses
+                    femmes et à ses courtisans dans une salle de ses jardins. Il étoit dans cette
+                    gaîté stupide que donne la débauche lorsqu'elle a été portée à l'excès. Il
+                    ordonna que l'on me fît venir. J'entrai dans la salle du festin: il me fit
+                    mettre auprès de lui, et je sus cacher ma fureur et le désordre de mon âme.
+                    J'étois comme incertain dans mes souhaits. Je voulois attirer les regards du
+                    tyran, et, quand il les tournoit vers moi, je sentois redoubler ma rage. Parce
+                    qu'il me croit Ardasire, disois-je en moi-même, il ose m'aimer. Il me sembloit
+                    que je voyois multiplier ses outrages, et qu'il avoit trouvé mille manières
+                    d'offenser mon amour. Cependant j'étois prêt à jouir de la plus affreuse
+                    vengeance. Il s'enflammoit, et je le voyois insensiblement approcher de son
+                    malheur. Il sortit de la salle du festin, et me mena dans un appartement plus
+                    reculé de ses jardins, suivi d'un seul eunuque et de mon esclave. Déjà sa fureur
+                    brutale alloit l'éclaircir sur mon sexe. Ce fer, m'écriai-je, t'apprendra mieux
+                    que je suis un homme. Meurs, et qu'on dise aux enfers que l'époux d'Ardasire a
+                    puni tes crimes. Il tomba à mes pieds, et dans ce moment la porte de
+                    l'appartement s'ouvrit; car sitôt que mon esclave avoit entendu ma voix, il
+                    avoit tué l'eunuque qui la gardoit, et s'en étoit saisi. Nous fuîmes; nous
+                    errions dans les jardins; nous rencontrâmes un homme; je le saisis: je te
+                    plongerai, lui dis-je, ce poignard dans le sein, si tu ne me fais sortir d'ici.
+                    C'étoit un jardinier, qui, tout tremblant de peur, me mena à une porte qu'il
+                    ouvrit; je la lui fis refermer, et lui ordonnai de me suivre. Je jetai mes
+                    habits, et pris un manteau d'esclave. Nous errâmes dans les bois, et, par un
+                    bonheur inespéré, lorsque nous étions accablés de lassitude, nous trouvâmes un
+                    marchand qui faisait paître ses chameaux; nous l'obligeâmes de nous mener hors
+                    de ce funeste pays.à mesure que j'évitois tant de dangers, mon coeur devenoit
+                    moins tranquille. Il falloit revoir Ardasire, et tout me faisoit craindre pour
+                    elle. Ses femmes et ses eunuques lui avoient caché l'horreur de notre situation;
+                    mais, ne me voyant plus auprès d'elle, elle me croyoit coupable; elle
+                    s'imaginoit que j'avois manqué à tant de serments que je lui avois faits. Elle
+                    ne pouvoit concevoir cette barbarie de l'avoir fait enlever sans lui rien dire.
+                    L'amour voit tout ce qu'il craint. La vie lui devint insupportable; elle prit du
+                    poison; il ne fit pas son effet violemment. J'arrivai et je la trouvai mourante.
+                    Ardasire, lui dis-je, je vous perds, vous mourez! Cruelle Ardasire! Hélas!
+                    Qu'avois-je fait? ... elle versa quelques larmes. Arsace, me dit-elle, il n'y a
+                    qu'un moment que la mort me sembloit délicieuse; elle me paroît terrible depuis
+                    que je vous vois. Je sens que je voudrois revivre pour vous, et que mon âme me
+                    quitte malgré elle. Conservez mon souvenir; et, si j' apprends qu'il vous est
+                    cher, comptez que je ne serai point tourmentée chez les ombres. J'ai du moins
+                    cette consolation, mon cher Arsace, de mourir dans vos bras. Elle expira. Il me
+                    seroit impossible de dire comment je n'expirai pas aussi. On m'arracha
+                    d'Ardasire, et je crus qu'on me séparoit de moi-même. Je fixai mes yeux sur
+                    elle, et je restai immobile: j'étois devenu stupide. On m'ôta ce terrible
+                    spectacle, et je sentis mon âme reprendre toute sa sensibilité. On m'entraîna:
+                    je tournois les yeux vers ce fatal objet de ma douleur; j'aurois donné mille
+                    vies pour le voir encore un moment. J'entrai en fureur, je pris mon épée;
+                    j'allois me percer le sein; on m'arrêta. Je sortis de ce palais funeste; je n'y
+                    rentrai plus. Mon esprit s'aliéna; je courois dans les bois; je remplissois
+                    l'air de mes cris. Quand je devenois plus tranquille, toutes les forces de mon
+                    âme la fixoient à ma douleur. Il me sembla qu'il ne me restoit plus rien dans le
+                    monde que ma tristesse et le nom d' Ardasire. Ce nom, je le prononçois d'une
+                    voix terrible, et je rentrois dans le silence. Je résolus de m'ôter la vie et
+                    tout à coup j'entrai en fureur. Tu veux mourir, me disois-je à moi-même, et
+                    Ardasire n'est pas vengée! Tu veux mourir, et le fils du tyran est en Hyrcanie,
+                    qui se baigne dans les délices! Il vit, et tu veux mourir! Je me suis mis en
+                    chemin pour l'aller chercher. J'aiappris qu'il vous avoit déclaré la guerre;
+                    j'ai volé à vous. Je suis arrivé trois jours avant la bataille, et j'ai fait
+                    l'action que vous connoissez. J'aurais percé le fils du tyran; j'ai mieux aimé
+                    le faire prisonnier. Je veux qu'il traîne dans la honte et dans les fers une vie
+                    aussi malheureuse que la mienne. J' espère que quelque jour il apprendra que
+                    j'aurai fait mourir le dernier des siens. J'avoue pourtant que, depuis que je
+                    suis vengé, je ne me trouve pas plus heureux; et je sens bien que l'espoir de la
+                    vengeance flatte plus que la vengeance même. Ma rage que j'ai satisfaite,
+                    l'action que vous avez vue, les acclamations du peuple, seigneur, votre amitié
+                    même, ne me rendent point ce que j'ai perdu. La surprise d'Aspar avoit commencé
+                    presque avec le récit qu'il avoit entendu. Sitôt qu'il avoit ouï le nom
+                    d'Arsace, il avoit reconnu le mari de la reine. Des raisons d'état l'avoient
+                    obligé d'envoyer chez les mèdes Isménie, la plus jeune des filles du dernier
+                    roi, et il l'y avoit fait élever en secret sous le nom d'Ardasire. Il l'avoit
+                    mariée à Arsace; il avoit toujours eu des gens affidés dans le sérail d'Arsace;
+                    il étoit le génie qui, par ces mêmes gens, avoit répandu tant de richesses dans
+                    la maison d'Arsace, et qui, par des voies très simples, avoit fait imaginer tant
+                    de prodiges. Il avoit eu de très grandes raisons pour cacher à Arsace la
+                    naissance d'Ardasire. Arsace, qui avoit beaucoup de courage, auroit pu faire
+                    valoir les droits de sa femme sur la Bactriane, et la troubler. Mais ces raisons
+                    ne subsistoient plus, et, quand il entendit le récit d'Arsace, il eut mille fois
+                    envie de l'interrompre; mais il crut qu'il n'étoit pas encore temps de lui
+                    apprendre son sort. Un ministre accoutumé à arrêter ses mouvements revenoit
+                    toujours à la prudence; il pensoit à préparer un grand événement, et non pas à
+                    le hâter. Deux jours après, le bruit se répandit que l'eunuque avoit mis sur le
+                    trône une fausse Isménie. On passa des murmures à la sédition. Le peuple furieux
+                    entoura le palais; il demanda à haute voix la tête d'Aspar. L'eunuque fit ouvrir
+                    une des portes, et, monté sur un éléphant, il s'avança dans la foule. Bactriens,
+                    dit-il, écoutez-moi. Et, comme on murmurait encore: écoutez-moi, vous dis-je. Si
+                    vous pouvez me faire mourir à présent,vous pourrez dans un moment me faire,
+                    mourir tout de même. Voici un papier écrit et scellé de la main du feu roi:
+                    prosternez-vous, adorez-le; je vais le lire. Il le lut: " le ciel m'a donné deux
+                    filles qui se ressemblent au point que tous les yeux peuvent s'y tromper. Je
+                    crains que cela ne donne occasion à de plus grands troubles et à des guerres
+                    plus funestes. Vous donc, Aspar, lumière de l'empire, prenez la plus jeune des
+                    deux; envoyez-la secrètement dans la Médie, et faites-en prendre soin. Qu'elle y
+                    reste sous un nom supposé, tant que le bien de l'état le demandera. " il porta
+                    cet écrit au-dessus de sa tête, et il s'inclina; puis, reprenant la parole: "
+                    Isménie est morte; n'en doutez pas; mais sa soeur, la jeune Isménie, est sur le
+                    trône. Voudriez-vous vous plaindre de ce que, voyant la mort de la reine
+                    approcher, j'ai fait venir sa soeur du fond de l' Asie? Me reprocheriez-vous
+                    d'avoir été assez heureux pour vous la rendre et la placer sur un trône qui,
+                    depuis la mort de la reine sa soeur, lui appartient? Si j'ai tu la mort de la
+                    reine, l'état des affaires ne l'a-t-il pas demandé? Me blâmez-vous d'avoir fait
+                    une action de fidélité avec prudence? Posez donc les armes. Jusqu'ici vous
+                    n'êtes point coupables; dès ce moment vous le seriez. " Aspar expliqua ensuite
+                    comment il avoit confié la jeune Isménie à deux vieux eunuques; comment on
+                    l'avoit transportée en Médie sous un nom supposé; comment il l'avoit mariée à un
+                    grand seigneur du pays; comment il l'avoit fait suivre dans tous les lieux où la
+                    fortune l'avoit conduite; comment la maladie de la reine l' avoit déterminé à la
+                    faire enlever pour être gardée en secret dans le sérail; comment, après la mort
+                    de la reine, il l'avoit placée sur le trône. Comme les flots de la mer agitée
+                    s'apaisent par les zéphyrs, le peuple se calma par les paroles d'Aspar. On
+                    n'entendit plus que des acclamations de joie; tous les temples retentirent du
+                    nom de la jeune Isménie. Aspar inspira à Isménie de voir l'étranger qui avoit
+                    rendu un si grand service à la Bactriane; il lui inspira de lui donner une
+                    audience éclatante. Il fut résolu que les grands et les peuples seroient
+                    assemblés; que là il seroit déclaré général des armées de l'état, et que la
+                    reine luiceindroit l'épée. Les principaux de la nation étoient rangés autour
+                    d'une grande salle, et une foule de peuple en occupoit le milieu et l'entrée. La
+                    reine étoit sur son trône, vêtue d'un habit superbe. Elle avoit la tête couverte
+                    de pierreries; elle avoit, selon l'usage de ces solennités, levé son voile, et
+                    l'on voyoit le visage de la beauté même. Arsace parut, et le peuple commença ses
+                    acclamations. Arsace, les yeux baissés par respect, resta un moment dans le
+                    silence, et, adressant la parole à la reine: madame, lui dit-il d'une voix basse
+                    et entrecoupée, si quelque chose pouvoit rendre à mon âme quelque tranquillité,
+                    et me consoler de mes malheurs... la reine ne le laissa pas achever; elle crut
+                    d'abord reconnoître le visage, elle reconnut encore la voix d'Arsace. Toute hors
+                    d'elle-même, et ne se connoissant plus, elle se précipita de son trône, et se
+                    jeta aux genoux d'Arsace. Mes malheurs ont été plus grands que les tiens,
+                    dit-elle, mon cher Arsace. Hélas! Je croyois ne te revoir jamais depuis le fatal
+                    moment qui nous a séparés. Mes douleurs ont été mortelles. Et, comme si elle
+                    avoit passé tout à coup d'une manière d'aimer à une autre manière d'aimer, ou
+                    qu' elle se trouvât incertaine sur l'impétuosité de l'action qu'elle venoit de
+                    faire, elle se releva tout à coup, et une rougeur modeste parut sur son visage.
+                    Bactriens, dit-elle, c'est aux genoux de mon époux que vous m'avez vue. C'est ma
+                    félicité d'avoir pu faire paroître devant vous mon amour. J'ai descendu de mon
+                    trône, parce que je n'y étois pas avec lui, et j'atteste les dieux que je n'y
+                    remonterai pas sans lui. Je goûte ce plaisir que la plus belle action de mon
+                    règne, c'est par lui qu'elle a été faite, et que c'est pour moi qu'il l'a faite.
+                    Grands, peuples et citoyens, croyez-vous que celui qui règne sur moi soit digne
+                    de régner sur vous? Approuvez-vous mon choix? élisez-vous Arsace? Dites-le-moi,
+                    parlez. à peine les dernières paroles de la reine furent-elles entendues, tout
+                    le palais retentit d'acclamations; on n'entendit plus que le nom d'Arsace et
+                    celui d'Isménie. Pendant tout ce temps, Arsace étoit comme stupide. Il voulut
+                    parler, sa voix s'arrêta; il voulut se mouvoir,et il resta sans action. Il ne
+                    voyoit pas la reine; il ne voyoit pas le peuple; à peine entendoit-il les
+                    acclamations: la joie le troubloit tellement, que son âme ne put sentir toute sa
+                    félicité. Mais, quand Aspar eut fait retirer le peuple, Arsace pencha la tête
+                    sur la main de la reine. Ardasire, vous vivez! Vous vivez, ma chère Ardasire! Je
+                    mourois tous les jours de douleur. Comment les dieux vous ont-ils rendue à la
+                    vie? Elle se hâta de lui raconter comment une de ses femmes avoit substitué au
+                    poison une liqueur enivrante. Elle avoit été trois jours sans mouvement; on
+                    l'avoit rendue à la vie: sa première parole avoit été le nom d'Arsace; ses yeux
+                    ne s'étoient ouverts que pour le voir; elle l' avoit fait chercher; elle l'avoit
+                    cherché elle-même. Aspar l'avoit fait enlever, et, après la mort de sa soeur, il
+                    l'avoit placée sur le trône. Aspar avoit rendu éclatante l'entrevue d'Arsace et
+                    d'Isménie. Il se ressouvenoit de la dernière sédition. Il croyoit qu'après avoir
+                    pris sur lui de mettre Isménie sur le trône, il n'étoit pas à propos qu'il parût
+                    encore avoir contribué à y placer Arsace. Il avoit pour maxime de ne faire
+                    jamais lui-même ce que les autres pouvoient faire, et d'aimer le bien, de
+                    quelque main qu'il pût venir. D'ailleurs, connoissant la beauté du caractère
+                    d'Arsace et d'Isménie, il désiroit de les faire paroître dans leur jour. Il
+                    vouloit leur concilier ce respect que s' attirent toujours les grandes âmes dans
+                    toutes les occasions où elles peuvent se montrer. Il cherchoit à leur attirer
+                    cet amour que l'on porte à ceux qui ont éprouvé de grands malheurs. Il vouloit
+                    faire naître cette admiration que l'on a pour tous ceux qui sont capables de
+                    sentir les belles passions. Enfin il croyoit que rien n'étoit plus propre à
+                    faire perdre à Arsace le titre d'étranger, et à lui faire trouver celui de
+                    bactrien dans tous les coeurs des peuples de la Bactriane. Arsace jouissoit d'un
+                    bonheur qui lui paroissoit inconcevable. Ardasire, qu'il croyoit morte, lui
+                    étoit rendue; Ardasire étoit Isménie; Ardasire étoit reine de Bactriane;
+                    Ardasire l'en avoit fait roi. Il passoit du sentiment de sa grandeur au
+                    sentiment de son amour. Il aimoit ce diadème qui, bien loin d'être un signe
                     d'indépendance, l'avertissoit sans cesse qu'il étoit à elle; ilaimoit ce trône,
                     parce qu'il voyoit la main qui l'y avoit fait monter. Isménie goûtoit, pour la
                     première fois, le plaisir de voir qu'elle étoit une grande reine. Avant
@@ -997,12 +938,8 @@
                     offrir tous les coeurs de l'univers: il ne pouvoit lui apporter un trône, mais
                     des vertus capables de le remplir. Il croyoit que son amour devoit passer à la
                     postérité, et qu'il n'y passeroit jamais mieux qu'avec sa gloire. Il vouloit
-                    qu'on écrivît ces paroles sur son tombeau:
-     <hi rend="italic">
-      Isménie a eu pour
-                        époux un roi chéri des mortels
-     </hi>
-     . Il disoit qu'il aimoit Aspar, son
+                    qu'on écrivît ces paroles sur son tombeau: <hi rend="italic"> Isménie a eu pour
+                        époux un roi chéri des mortels </hi> . Il disoit qu'il aimoit Aspar, son
                     premier ministre, parce qu'il parloit toujours des sujets, plus rarement du roi,
                     et jamais de lui-même. Il a, disoit-il, trois grandes choses: l'esprit juste, le
                     coeur sensible et l'âme sincère. Arsace parloit souvent de l'innocence de son
@@ -1116,9 +1053,8 @@
                     rends grâces au ciel de ce qu'il a voulu que mon règne commençât par des
                     malheurs. L'adversité est notre mère; la prospérité n'est que notre marâtre.
                     Vous me proposez des querelles qui ne sont pas celles des rois. Laissons jouir
-                    le roi et la reine de Bactriane du bonheur de se plaire et de s'aimer.
-    </p>
-   </div>
-  </body>
- </text>
+                    le roi et la reine de Bactriane du bonheur de se plaire et de s'aimer. </p>
+            </div>
+        </body>
+    </text>
 </TEI>
