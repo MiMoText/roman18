@@ -5,7 +5,7 @@ from os.path import join
 from bs4 import BeautifulSoup
 import re
 
-filepath = join("", "..", "..", "XML-TEI" , "files", "*.xml")
+filepath = join("", "..", "..", "XML-TEI" , "files", "Sade_120.xml")
 metadata_path = join("", "xml-tei_full_metadata_update.tsv")
 save_path = join("", "..", "..", "XML-TEI" , "files")
 
@@ -87,12 +87,14 @@ def compare_author(filemetadata, xml_file):
             xmlauthor.string = filemetadata["au-name"].strip() + "(" + filemetadata["au-birth"].strip() + "-" + filemetadata["au-death"].strip() + ")"
 
     if re.search(",", filemetadata['au-name']):
+        print(filemetadata['au-name'])
         meta_all_auths = filemetadata['au-name'].split(",")
         meta_births = filemetadata["au-birth"].split(",")
         meta_deaths = filemetadata["au-death"].split(",")
         meta_a_wd = filemetadata["author_wikidata"].split(",")
+        print(meta_all_auths, meta_births, meta_deaths, meta_a_wd)
     else:
-        meta_all_auths = [filemetadata['printSource_author']]
+        meta_all_auths = [filemetadata['au-name']]
         meta_births = filemetadata["au-birth"]
         meta_deaths = filemetadata["au-death"]
         meta_a_wd = filemetadata["author_wikidata"]
@@ -104,15 +106,17 @@ def compare_author(filemetadata, xml_file):
             name = authors[ind].string.split("(")[0].strip()
         except IndexError:
             if len(authors) == len(meta_all_auths):
-                birth = "unknown"
-                death = "unknown"
+                print(len(authors), len(meta_all_auths))
+                birth = "xxxx"
+                death = "xxxx"
                 name = authors[ind].string.strip()
-                if name != a or birth != meta_births[ind] or death != meta_deaths[ind]:
-                    authors[ind].string = a.strip() + "(" + meta_births[ind].strip() + "-" + meta_deaths[ind].strip() + ")"
             else:
                 new_tag = xml_file.new_tag("author")
                 new_tag.string = a.strip() + "(" + meta_births[ind].strip() + "-" + meta_deaths[ind].strip() + ")"
                 xml_file.titleStmt.insert(4, new_tag)
+            print(name, a, birth, meta_births[ind], death, meta_deaths[ind])
+            if name != a or birth != meta_births[ind] or death != meta_deaths[ind]:
+                    authors[ind].string = a.strip() + "(" + meta_births[ind].strip() + "-" + meta_deaths[ind].strip() + ")"
 
 
 
@@ -126,10 +130,19 @@ def compare_respStmts(filemetadata, xml_file):
 
     for res in respStmts:
         if res.resp.string.strip() == "data capture":
-            if res.resp.next_sibling.next_sibling.string.strip() != filemetadata["resp_datacapture"]:
-                res.resp.next_sibling.next_sibling.string = filemetadata["resp_datacapture"]
+            try:
+                if res.resp.next_sibling.next_sibling.string.strip() != filemetadata["resp_datacapture"]:
+                    res.resp.next_sibling.next_sibling.string = filemetadata["resp_datacapture"]
+            except AttributeError:
+                if res.resp.next_sibling.next_sibling.is_empty_element:
+                    print(res.resp.next_sibling.next_sibling)
+                    del res.resp.next_sibling.next_sibling
+                    new_tag = xml_file.new_tag("name")
+                    new_tag.string = filemetadata["resp_datacapture"]
+                    xml_file.respStmt.next_sibling.next_sibling.insert(2, new_tag)
         
         elif res.resp.string.strip() == "encoding":
+            print(filemetadata["resp_encoding"])
             if re.search(",", filemetadata["resp_encoding"]):
                 all_resps_meta = filemetadata["resp_encoding"].split(",")
             else:
@@ -185,8 +198,8 @@ def compare_digSource(filemetadata, xml_file):
 
     counter = 2
     ## ref targets:
-    if re.search(",", filemetadata['digitalSource_Ref']):
-        meta_all_digrefs = filemetadata['digitalSource_Ref'].split(",")
+    if re.search(",     ", filemetadata['digitalSource_Ref']):
+        meta_all_digrefs = filemetadata['digitalSource_Ref'].split(", ")
     else:
         meta_all_digrefs = [filemetadata['digitalSource_Ref']]
     all_digrefs = digitalSource.find_all("ref")
@@ -254,14 +267,13 @@ def compare_printSource(filemetadata, xml_file):
     
     ## title
     try:
-        if printSource.title.string != filemetadata["printSource_title"]:
+        if printSource.title.string.strip() != filemetadata["printSource_title"]:
             printSource.title.string = str(filemetadata["printSource_title"])
     except AttributeError:
         new_tag = xml_file.new_tag("title")
         new_tag.string = str(filemetadata["printSource_title"])
-        xml_file.bibl.insert(1, new_tag)
+        printSource.insert(1,new_tag)
 
-    
     if re.search(",", filemetadata['printSource_author']):
         meta_all_printauths = filemetadata['printSource_author'].split(",")
     else:
@@ -271,15 +283,14 @@ def compare_printSource(filemetadata, xml_file):
     counter = 2
     for ind, pub in enumerate(meta_all_printauths):
         try:
-            if all_printauths[ind].string != pub:
-                print(all_printauths, pub)
+            if all_printauths[ind].string.strip() != pub:
                 all_printauths[ind].string = pub
-            printSource.insert(counter, all_printauths[ind])
+            #printSource.insert(counter, all_printauths[ind])
             counter += 1
         except IndexError:
             new_tag = xml_file.new_tag("author")
             new_tag.string = str(pub)
-            xml_file.bibl.insert(ind+counter, new_tag)
+            printSource.insert(ind+counter, new_tag)
             counter += 1
 
 
@@ -294,7 +305,6 @@ def compare_printSource(filemetadata, xml_file):
     else:
         meta_all_pubplaces = [filemetadata['printSource_pubPlace']]
     
-
     all_pubplaces = printSource.find_all("pubPlace")
     for ind, pub in enumerate(meta_all_pubplaces):
         try:
@@ -327,9 +337,10 @@ def compare_printSource(filemetadata, xml_file):
             new_tag.string = str(pub)
             printSource.insert(counter+1, new_tag)
             counter += 1
+    return xml_file
 
 
-
+def first_edition(filemetadata, xml_file):
     ## first edition
     firsted = xml_file.find("bibl", {"type": "firstEdition"})
     try:
@@ -339,8 +350,6 @@ def compare_printSource(filemetadata, xml_file):
         unspdate = xml_file.find("bibl", {"type":"unspecified"})
         if unspdate.date.string != filemetadata["firsted-yr"]:
             unspdate.date.string = filemetadata["firsted-yr"]
-
-    
 
     return xml_file
 
@@ -362,12 +371,27 @@ def compare_profileDesc(filemetadata, xml_file):
         form.string = filemetadata["form"]
     
     spelling = xml_file.find("term", {"type": "spelling"})
-    if spelling.string != filemetadata["spelling"]:
-        spelling.string = str(filemetadata["spelling"])
+
+    keywords = xml_file.profileDesc.textClass
+    try:
+        if spelling.string != filemetadata["spelling"]:
+            spelling.string = str(filemetadata["spelling"])
+    except AttributeError:
+        new_tag = xml_file.new_tag("term")
+        new_tag["type"] = "spelling"
+        new_tag.string = str(filemetadata["spelling"])
+        keywords.insert(2, new_tag)
 
     datacap = xml_file.find("term", {"type": "data-capture"})
-    if datacap.string != filemetadata["data-capture"]:
-        datacap.string = str(filemetadata["data-capture"])
+    try:
+        if datacap.string != filemetadata["data-capture"]:
+            datacap.string = str(filemetadata["data-capture"])
+    except AttributeError:
+        new_tag = xml_file.new_tag("term")
+        new_tag["type"] = "data-capture"
+        new_tag.string = str(filemetadata["data-capture"])
+        keywords.insert(3, new_tag)
+    
 
     
 
@@ -392,8 +416,9 @@ def main(metadata_path, filepath, save_path):
                 xml_file = read_xml(file)
                 filemetadata = row.to_dict()
                 #xml_file = compare_title(filemetadata, xml_file)
-                xml_file = compare_author(filemetadata, xml_file)
+                #xml_file = compare_author(filemetadata, xml_file)
                 #xml_file = compare_respStmts(filemetadata, xml_file)
+                xml_file = first_edition(filemetadata, xml_file)
                 #xml_file = compare_extent(filemetadata, xml_file)
                 #xml_file = compare_digSource(filemetadata, xml_file)
                 #xml_file = compare_printSource(filemetadata, xml_file)
