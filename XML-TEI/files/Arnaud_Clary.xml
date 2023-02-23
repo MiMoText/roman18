@@ -2,334 +2,1116 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Arnaud_Clary" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:67.15 wikidata:0">
-     Clary ou le retour à la vertu récompensé: MiMoText edition
-    </title>
-    <author ref="viaf:95165197 wikidata:Q548610">
-     François-Thomas-Marie de Baculard d'Arnaud(1718-1805)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      unknown
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Amelie Probst
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     14367
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/MiMoText/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      LesSacrificesDeLAmour
-     </title>
-     <ref target="https://txtlab.org/2016/01/txtlab450-a-data-set-of-multilingual-novels-for-teaching-and-research/"/>
-     <date>
-      2016
-     </date>
-     <publisher>
-      txtlab
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Épreuves du sentiment
-     </title>
-     <author>
-      François-Thomas-Marie de Baculard d'Arnaud
-     </author>
-     <pubPlace>
-      Paris
-     </pubPlace>
-     <publisher>
-      Le Jay
-     </publisher>
-     <date>
-      1773
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <title>
-      Clary ou le retour à la vertu récompensé
-     </title>
-     <author>
-      François-Thomas-Marie de Baculard d'Arnaud
-     </author>
-     <date>
-      1767
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      mixed
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2020-10-30">
-    Initial ELTeC level-1
-   </change>
-   <change when="2021-12-22">
-    Extracted single novel from collection
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="chapter">
-    <p>
-     Après la vertu, objet immuable de nos hommages, ce qui doit produire le plus cette considération personnelle, le premier et le moins frivole des honneurs, ce qui mérite davantage nos respects, l'estime publique, l'estime de soi-même, c'est le retour à cette même vertu dont si peu d'hommes sur la terre ne s'écartent point. Le repentir véritable, en exerçant notre sensibilité, rend, en quelque sorte, notre morale plus pure, et plus dégagée de ces mouvemens d'orgueil, le partage ordinaire des coeurs qui ont pu demeurer constamment attachés à leurs devoirs. Osons le dire: l'amour-propre est bien près de la vertu, et il est son plus dangereux séducteur. Une ame qui aura été avertie de la faiblesse inséparable de la nature humaine, montrera du courage sans vanité, et sera modeste dans ses avantages; le desir de réparer sa faute lui donnera un essor plus hardi, et l'idée de sa chûte l'empêchera de se trop applaudir de son élévation. D'ailleurs la religion et la vraie sagesse ne s'accordent-elles point pour nous présenter le remords sincère comme un titre d'expiation aux yeux de l'être suprême? Et pourquoi serions-nous plus sévères que la divinité? N'oublions pas que l'indulgence et la compassion sont les principaux attributs de l'homme, que, sans ces deux sentiments, son caractère n'existe plus, qu'en un mot, la vertu séparée de l'humanité n'est qu'un masque adroit de l'orgueil, un simulacre imposteur qui ne fait qu'usurper notre vénération. Rapportons-nous-en à la nature: elle nous mène comme par la main à la bienfaisance; c'est la nature qui nous presse de tenir notre sein toujours ouvert aux pleurs de l'infortune: et quel être plus digne de notre pitié, de toutes les consolations, de toutes les tendresses de l'humanité secourable, qu'une malheureuse créature, qui reconnaissant ses erreurs, revient avec des larmes à cette vertu, le plus doux sentiment de l'ame, et conserve une éternelle douleur de s'en être éloignée. Ces réflexions, qui, au premier coup d'oeil, paraîtront isolées et naître du hasard, sont le fruit de la lecture de deux lettres intéressantes que je me hâte de publier. J'ai pensé qu'elles pourroient répandre de nouvelles lumières sur ce qu'on appelle moeurs , matière importante qui, comme bien d'autres de ce genre, reste encore à discuter. Je desirerois, sans le secours d'une métaphysique abstraite dont les raisonnements froids et privés de vie nous échappent, fixer nos idées par rapport à la vertu, et au rang qu'elle doit occuper dans les esprits courageux qui ont la force de secouer la chaîne pésante du préjugé. Nous perdons notre tems à nous remplir la tête d'une infinité de connaissances frivoles, qui, pour tromper notre ignorance orgueilleuse, ont usurpé le nom imposant de sciences; l'étude de la vérité est peut-être la seule qui soit digne de l'homme, et c'est malheureusement celle qu'il néglige le plus.
-    </p>
-    <p>
-     Voici ces deux morceaux tels qu'ils m'ont été communiqués.
-    </p>
-    <p>
-     Lettre du baronet Borston, au chevalier Digby.
-    </p>
-    <p>
-     Tu es mon ami, chevalier: lis avec attention, apprécie chaque ligne, et décide du bonheur ou du malheur de mes jours, oui, de ma vie entière; songe que c'est mon ame même que je t'envoie, et que c'est à la tienne à la conduire, à l'éclairer, à prononcer, en un mot, sur ma destinée. Chevalier, je suis amoureux comme je ne l'ai jamais été. Te voilà étonné, confondu! Je m'y attendois; je ne suis pas moins surpris que toi de l'événement. Après la triste expérience que j'ai essuyée, connaître encore l'amour, croire à ses plaisirs, à ses douceurs, m'y abandonner sans réserve! C'est là précisément ce que je devois bien me garder de faire, et ce qui m'arrive aujourd'hui. Mais ne t'avise pas de me condamner, avant que d'avoir une instruction bien détaillée sur cette affaire si importante pour ton ami; oh! Je suis assuré de ton approbation; vous autres philosophes, vous ne voyez pas comme ce malheureux vulgaire qui n'a jamais que les yeux de la routine: tu me passeras le mot en faveur de la vérité naïve qu'il présente.
-    </p>
-    <p>
-     Tu sçais, chevalier, que nous aimons le lord Dorset et moi, à nous livrer à des promenades qui sont des espèces de voyages; le lord prétend que cet amusement est aussi avantageux à l'esprit qu'à la santé; il pense qu'on ne sçauroit trop mettre sous ses yeux de nouveaux objets, et que par-là on fait des provisions de connaissances qui contribuent à amasser un fonds de philosophie, l'aliment éternel de tout être qui sçait s'occuper noblement. On diroit que Dorset est entré dans les secrets de la nature; rien ne lui échappe; il raisonnera un jour entier, et avec toutes les recherches du plus sçavant observateur, sur une simple fleur des champs, qu'un ignorant prophane fouleroit aux pieds; et il ramène toujours ses conversations au sentiment; c'est dire qu'il excite et entretient dans l'ame cette douceur, cet attendrissement délicieux qui semble la préparer à recevoir les impressions de l'amour. Ce n'est pas toi qui ignores jusqu'à quel point mon coeur est sensible et prompt à s'enflammer, et combien il a souffert de la passion la plus malheureuse: miss Weymout a été aussi perfide qu'aimable: n'en parlons plus, chevalier, n'en parlons plus; son empire est détruit; j'ai connu une autre souveraine; non, mon ami, toutes les femmes ne sont pas fausses et hypocrites, et je veux te forcer toi-même à être leur panégyriste.
-    </p>
-    <p>
-     Je me promenois donc avec notre philosophe dans une route agréable, bien éloigné de prévoir que ce chemin-là menoit à l'amour; nous nous trouvons insensiblement arrivés près d'une métairie dont l'aspect est enchanteur: deux rangées de pommiers y conduisent; à quelques pas est un vallon émaillé de la plus riante verdure, et arrosé d'un ruisseau qui va se perdre sous un berceau de jeunes tilleuls; plus loin on découvre des vergers, des prairies artificielles, des boulingrins d'une fraicheur ravissante; des troupeaux paissoient sur des côteaux voisins; les rayons du soleil étinceloient et répandoient à grands flots l'or et la pourpre à travers les rameaux de grands arbres qui paraissent orgueilleux de leur antiquité; ils couronnent une montagne dont la situation avantageuse défend ce joli canton des vents du nord; un hameau qui attache les regards par la variété des bâtiments, forme le fond de ce riche paysage.
-    </p>
-    <p>
-     Nous nous sentons, comme malgré nous, entraînés vers la métairie. On nous y reçoit avec cette franchise qui est la politesse du sentiment, cette politesse si touchante, si vraie, et qui n'appartient qu'à ces ames innocentes dont la ville n'a point encore altéré la candeur. Le maître de la ferme est un vieillard que l'âge n'a point courbé sous les infirmités; son abord prévient et intéresse; son front ouvert et paré de longs cheveux blancs, semble annoncer sa bonne nature : il nous fit tout l'accueil que lui permettoit sa respectable pauvreté: on nous offrit du lait, du beurre, des oeufs frais; nous n'hésitames point à profiter de son invitation; Dorset voulut lui donner de l'argent: nous nous apperçumes que cette proposition l'humilioit; une ame qui se sent, qui se plaît dans sa dignité, frémit à la seule idée d'intérêt; je fis présent à une de ses filles d'un anneau d'or de peu de valeur que j'avois au doigt.
-    </p>
-    <p>
-     À peine étions-nous sortis, nous rencontrons auprès d'une fontaine taillée dans le roc, une fille qui gardoit des moutons; elle étoit assise sur un petit tertre couvert de mousse: c'étoit une souveraine sur son thrône. Je crois, chevalier, aux passions rapides, à ces transports impérieux qui semblent décider du coeur, et lui commander pour la vie; je n'ai pas jetté un regard sur Clary, c'est ainsi que s'appelloit la jeune personne, que voilà mes sens troublés, remplis du plaisir de contempler ce charmant objet; tous mes regards y sont attachés. En effet, c'est peut-être la physionomie la plus animée, la plus séduisante, la plus faite pour être adorée; deux grands yeux noirs, une taille élégante, mille graces naturelles, la rose de la jeunesse, l'air sur-tout du sentiment et de la mélancolie qui rend la beauté si touchante et si redoutable, l'amour même; voilà, mon cher, l'angélique créature qui vint m'enlever à cette dangereuse miss Weymout, dont le souvenir me poursuivoit par-tout. Ce qui va bien t'étonner, c'est que Clary lisoit: elle ne nous eut pas plutôt apperçus, qu'elle serra avec précipitation son livre dans sa poche. Je m'approchai le premier de cette aimable personne; elle parla: ma surprise, ou plutôt mon trouble devint plus grand: et ce trouble délicieux, tu en devines bien la cause. Quoique ce qu'elle nous dit ne fût que quelques paroles échappées comme à regret à la politesse, ces paroles restèrent dans mon coeur, et je n'eus pas besoin d'en entendre davantage pour sentir que Clary ennoblissoit l'état obscur où je la trouvois ensevelie. Le lord Dorsetpensa comme moi.
-    </p>
-    <p>
-     Nous ne cessions de répéter son éloge; nous y ajoûtions toujours; nous n'eumes point d'autre conversation durant toute la soirée; la nuit ne servit qu'à fortifier les sentiments que m'avoit inspirés Clary. La réflexion, loin de les détruire, les approfondissoit; j'aimois, et j'aimois déjà avec violence: pouvois-je m'aveugler sur mon penchant? Je me cachai de Dorset. Le lendemain il me trouva rêveur; il m'en demanda la raison; je cherchai des prétextes: hélas! J'éprouvai que l'amour a des secrets pour l'amitié: enfin l'après-dînée, je me sauvai de Dorset, et je courus vite à l'endroit où nous avions rencontré Clary.Elle étoit dans la même situation que celle où nous l'avions vûe la veille, occupée à lire; je fus frappé de nouveaux traits. Belle fille, lui-dis-je, ne soyez point surprise de me revoir: ces paroles prononcées de ce ton qui part du coeur, me parurent l'embarrasser; elle rougit, et elle s'embellit; je continuai: que ma présence ne vous trouble pas; vous faites naître un intérêt qui ramène toujours près de vous; je ne veux point vous parler de votre beauté, vous devez en connaître le pouvoir: mais me seroit-il permis de céder à ma curiosité? Par quel prodige singulier habitez-vous ces lieux? Car vous ne sauriez cacher la vérité, et si j'en crois un sentiment qui ne sçauroit me tromper, il est peu de rangs qui soient dignes de vous. Clary fut déconcertée à cette espèce de compliment.-Mon rang, monsieur... mon rang est celui où vous me voyez; assurément la fortune ne me doit rien. Heureuse si j'avois toujours vécu dans cet azyle ignoré! C'est le séjour de la vertu; et elle ajoûte avec un soupir: il doit être celui du bonheur. À ces mots, les beaux yeux de Clary se couvrirent de quelques larmes qu'elle s'efforçoit cependant de retenir; je n'eus pas de peine à m'en appercevoir: mes regards étoient pénétrants, mon coeur les éclairoit; je m'écrie: vous pleurez, fille charmante! Je n'ose espérer de vous des lumières sur votre sort: mais soyez persuadée que, de quelque façon que vous répondiez à mes sentiments, vous avez intéressé un homme qui vous sera attaché pour la vie. Le ton respectueux et la timidité accompagnèrent ces expressions. Que te dirai-je, chevalier? Nous eumes une conversation qui ne finit qu'avec le jour. C'est dans cet entretien que Clary m'apprit son nom; c'est dans cet entretien que je conçus la passion la plus décidée; le livre que je surpris dans ses mains étoit la divineClarisse, ce chef-d'oeuvre de l'immortel Richardson, qui fera à jamais les délices des coeurs sensibles. Clary cependant, sans se plaindre de l'espèce d'avilissement où elle paraissoit être, ne me donna aucun éclaircissement sur son état véritable, ni sur sa naissance.
-    </p>
-    <p>
-     Je voyois tous les jours la maitresse de mon ame: il ne m'étoit plus possible de me dissimuler son empire, et tous les jours elle m'enchaînoit par de nouveaux noeuds. Tu me renverras aux héros de bergerie de notre vieux Spenser; tu me diras peut-être que j'étois bien fou de traiter aussi dignement l'amour avec une gardeuse de troupeaux. Mon ami, tombe vîte aux pieds de ma divinité; demande-lui pardon de tes blasphêmes: tu n'as pas vû Clary, tu ne l'as pas entendue; va, il n'y a pas de majesté qui mérite plus le respect et la véneration; la beauté est la premiere souveraineté qu'aient connue les hommes.Je me hazardai à découvrir mes sentimens à cette adorable fille. Écoute-la bien; c'est elle qui va parler; ce qu'elle dit se grave trop dans le coeur, pour qu'on ne le retienne pas. Vous avouer, monsieur, que vous méritez ma franchise, c'est aspirer à votre estime, et tout autre sentiment m'est interdit. Il seroit donc inutile de vous dissimuler que je serois touchée de votre tendresse, s'il m'étoit permis de l'être. J'aime à croire que des vûes honnêtes ont produit cette inclination qui me flatte; une ame qui s'annonce comme la vôtre, ne sçauroit trahir la vérité: mais, monsieur... oubliez-moi; il ne m'est pas permis d'être à vous, à personne... non, à personne; laissez-moi, laissez-moi toute entiére à cette douleur qui me suivra jusqu'au tombeau, et il faut qu'elle m'y conduise; j'attends de votre probité, de votre compassion, que vous ne vous obstinerez point à vouloir vous éclairer sur le sort d'une infortunée, que vous humilieriez, poursuivit-elle avec un torrent de larmes, si vous sçaviez tous ses chagrins.-Vous humilier, divine Clary! Dites que vous cherchez à vous refuser à mes
-    </p>
-    <p>
-     respects, à mes hommages. Oui, je vous aime; eh! Quel plaisir je goûte à vous faire cet aveu! Vous m'avez inspiré la tendresse la plus vive, et la plus pure; chaque jour vous prête de nouveaux charmes: parlez: à quel prix puis-je vous posséder? Des chagrins, vous! Ah! Créature céleste, êtes-vous faite pour payer ce tribut à l'humanité? M'ôteriez-vous la douce idée de les réparer? Non, répond Clary avec vivacité, vous ne pouvez, monsieur que les augmenter; ne me forcez pas, je vous en conjure, à vous révéler... monsieur... il m'en coûteroit la vie... encore une fois, au nom de l'humanité, n'entretenez point des sentiments auxquels il m'est absolument défendu de répondre; j'implore de vous cette grace.-Une grace, belle Clary! C'est moi qui vous en demanderois: je vous obéirai... je vous obéirai aveuglément; non, non, je ne vous parlerai jamais de mon amour, dussé-je en mourir!
-    </p>
-    <p>
-     Ces mots furent accompagnés de larmes qui s'échappoient du fond de mon coeur;
-    </p>
-    <p>
-     elle parut sensible à ma situation. Je voyois tous les jours Clary. Soumis à la loi cruelle qu'elle m'avoit imposée, je gardois un profond silence; je me contentois d'attacher mes yeux sur les siens, et de soupirer; souvent je la surprenois dans un trouble qu'elle s'efforçoit de cacher: chaque moment me la montroit plus digne de ma tendresse et de mon estime.Elle a un esprit droit et approfondi, susceptible d'une suite de réflexions, bien inférieur, je l'avoue, à la finesse des sentiments dont elle est remplie; quelle ame! Il n'en est point de plus délicate, de plus noble, plus généreuse, plus bienfaisante: c'est un mélange délicieux, le parfum des qualités les plus exquises. Je n'osois, parce que j'aimois véritablement, et qui aime véritablement, craint de déplaire, je n'osois, dis-je, mettre dans ma confidence les bonnes gens chez qui elle demeuroit. Quelquefois Clary laissoit tomber ses regards sur moi, et ses beaux yeux noirs s'obscurcissoient de larmes.
-    </p>
-    <p>
-     As-tu bien éprouvé, mon ami, tout l'empire que les pleurs donnent à une belle femme? On peut dire qu'alors elle brille dans la majesté de tous les charmes; et quelle douce volupté, quelle ivresse ravissante ce spectacle inspire! Chevalier, pour une ame sensible, c'est peut-être la premiere des jouissances; dans ce plaisir, il n'y a rien que de pur et de délicat; et qui peut approcher de la délicatesse? C'est une fleur suave, que bien peu de gens ont la faculté de respirer.
-    </p>
-    <p>
-     La contrainte à laquelle je m'étois asservi ne tarda pas à déranger ma santé; il falloit, ou parler de mon amour, ou vaincre un penchant trop impérieux. J'eus la force de me taire: mais la victoire que je remportai, fut suivie d'une maladie dangereuse, qui fit appréhender pour mes jours. J'écrivis ma situation à Clary: elle vint avec la fille du fermier, celle à qui j'avois donné cet anneau. Je ne crois pas qu'une divinité descendue des cieux, cause plus de ravissement à un mortel, que ne m'en fit goûter la visite de cette angélique personne.
-    </p>
-    <p>
-     Jamais Clary ne s'étoit fait voir plus belle, plus intéressante, plus forte de ce charme qu'on ne peut exprimer et qui produit l'enthousiasme de l'amour. Elle m'aborda en pleurant; quelles larmes, chevalier! Elles coulèrent dans mon coeur; je ne pus lui dire que ces mots: cruelle et chère amie, c'est votre ouvrage que vous voyez!
-    </p>
-    <p>
-     Votre situation, monsieur, me répond-elle avec attendrissement, me pénétre; je ne vous le dissimule pas: j'achéterois aux dépens de mes jours le bonheur de vous rendre heureux: mais... mais vous allez vous-même prononcer mon arrêt et le vôtre: vous allez juger... si je sçais aimer. À ce mot, elle penche la tête sur ses deux mains, et il lui échappe une abondance de larmes; elle continue: je vais immoler ma vanité, mon secret; oui, je vais me plonger dans l'amertume, dans la honte, dans l'opprobre, me souiller aux yeux de l'homme dont j'eusse le plus recherché l'estime. Que me demandez-vous?-Votre main, Clary; que je passe mes jours à vous adorer, à me remplir de mon bonheur...-votre bonheur! Ah! Monsieur! Il n'est pas en mon pouvoir de faire votre bonheur, ni le mien; suis-je d'un rang? ...-Clary, que me parlez-vous de rang? Quel rang approche de l'amour, de la beauté, de la vertu? Voilà les premiers titres du monde; c'est votre générosité qui m'élèvera jusqu'à vous, si vous daignez...-arrêtez, monsieur, ce langage ne doit pas être dans votre bouche; c'est à moi à m'abbaisser, à me confondre devant tout l'univers; cette attitude est la seule qui me convienne; elle est conforme à mon état; il seroit heureux pour moi que nous ne fussions séparés que par la distance des conditions. Vous parlez de la vertu, monsieur! ... Sçachez tous mes malheurs; sçachez... vous me percez le sein; je me sacrifie, je meurs de douleur; oui, vous apprendrez tout; oui, vous lirez dans ce coeur qui ne peut être à vous... et qui vous aime.
-    </p>
-    <p>
-     Les sanglots la suffoquent; je lui prends les mains.-Vous m'aimez, fille divine!
-    </p>
-    <p>
-     Vous m'aimez! Et c'est moi qui vous causerois ce trouble! Ah! Que plutôt j'expire mille fois! Non, je ne prétends pas vous arracher vos secrets; soyez la maitresse de votre coeur, de votre liberté: Clary, s'il le faut, ne nous voyons jamais; vous me plaindrez du moins; vous ne sçauriez me refuser votre pitié.-Ma pitié! Ah! Respectable Monsieur Borston, pourquoi m'aimez-vous? Pourquoi m'estimez-vous? Je perdrai tous ces sentiments: hélas! Ils ne me sont pas dus. Eh bien, monsieur... je vais vous parler... je vais vous parler...Susanne, dit-elle, en regardant avec une douceur charmante la jeune personne qui l'accompagnoit, daigne m'aimer, mêler ses pleurs aux miens; je n'ai point de secrets pour son amitié. Elle se tourne ensuite de mon côté, et avec un gémissement douloureux: cher monsieur, il faut donc vous satisfaire! Après cet aveu, c'est la derniere fois que je vous vois, que je vous parle, que je vous expose une ame... monsieur... m'offrir votre amour, ce seroit m'offenser; y ajoûter votre main, c'est... c'est un présent que je ne mérite pas, et dont je connais tout le prix. Je ne rougis point de ma naissance; hélas! Ce n'est pas elle qui me cause de la honte! Je dois la vie à de simples laboureurs dans le comté de Devonshire; ils avoient assez de bien pour me donner une éducation au-dessus de mon état, et peut-être cette marque de tendresse de leur part m'a-t-elle été préjudiciable. Notre vanité se fortifie avec nos lumières. Mon pere étoit déjà d'un âge avancé, lorsque je vins au monde; ma mere et lui renaissoient, s'applaudissoient en moi: tout sembloit les assurer que je serois l'appui de leur vieillesse, la consolation de leurs derniers jours. Combien de fois m'ont-ils élevée dans leurs bras, en me serrant contre leur sein, et me disant avec des larmes: ô notre chere fille! Chere enfant de notre amour! Nous te laissons peu de bien, mais notre exemple à suivre, celui d'une famille entière, qui, depuis deux cent ans, a comme nous de pere en fils, labouré ces champs; elle s'est fait honneur de manier la charue: la vertu a toujours été son premier héritage. Clary, n'oublie jamais que cette vertu est préférable à tout, que c'est l'unique richesse qui ne périsse point; apprends à te glorifier de ton indigence; vis et meurs dans ce village, où tu seras ensevelie à nos côtés; garde-toi d'aller àLondres: les habitants de cette ville sont des corrupteurs; ils te perdroient, chère enfant! Fais comme nous; la pauvreté est moins difficile à supporter, quand l'honnêteté l'accompagne; sur-tout que Dieu soit continuellement devant tes yeux.
-    </p>
-    <p>
-     Et je l'ai abandonné ce dieu qui me punit aujourd'hui! J'ai tout oublié, j'ai trahi tout, le devoir, la sagesse, la nature... que vous dirai-je, monsieur? Ces chers auteurs de mes jours, si vertueux, si tendres à mon égard, si respectables... j'ai fait leur deshonneur!
-    </p>
-    <p>
-     À ces dernières paroles, elle fond en larmes, la tête entiérement baissée sur ses genoux.
-    </p>
-    <p>
-     Ah! M'écriai-je, en serrant avec transport ses mains entre les miennes, il n'est pas possible qu'avec de tels sentiments vous ne soyez la plus estimable, la plus adorable des femmes: n'hésitez pas; versez vos pleurs, votre ame dans mon sein, dans le sein de l'ami le plus fidèle, le plus attendri, qui partagera vos peines, qui s'en pénétrera.
-    </p>
-    <p>
-     Elle reprend, en relevant la tête, et me montrant la douleur la plus intéressante: vous le voulez!-Je vous le répéte, chere Clary, c'est mon coeur même qui recevra vos larmes.Les chagrins que l'on confie à l'amitié, en deviennent plus légers; ils s'adoucissent...-les miens, monsieur, ne peuvent qu'augmenter par cet aveu: mais vous le desirez... vous sçaurez tout.
-    </p>
-    <p>
-     J'avois quelque beauté, funeste présent du ciel, quand il nuit à la vertu! Peut-être commençois-je à ne pas ignorer ce frivole avantage: mais j'étois digne de ma famille; je respirois ce charme qui accompagne l'innocence, et dont la perte est irréparable; mon ame étoit une glace pure qui n'avoit encore reçu aucune altération: il est vrai que je laissois échapper une sensibilité qui devoit être la source de mes malheurs et de mes fautes; mon coeur s'ouvroit à toutes les impressions d'attendrissement, lorsque ma cruelle destinée amena dans nos cantons et offrit à mes yeux le plus aimable... le plus détestable des hommes; il joignoit aux graces de la figure tous ces alentours qui sont autant de piéges pour un sexe hélas! Trop faible, l'éclat du rang et de la richesse, le faste de l'extérieur, les agréments du langage: il réunissoit tous les moyens de séduction. Quel ennemi pour un âge sans expérience! Ma vertu et mon éducation me prêtoient des armes; je combattois, quelquefois je subjuguois ces sentiments qui cherchoient à me dominer. Je me redisois sans cesse que je n'étois que la fille d'un fermier, et que je ne devois pas même permettre à mes yeux le moindre regard dont le lord Mévil fût l'objet... le lord Mévil, m'écriai-je! Clary, ce malheureux vous aura causé des chagrins; je l'ai connu comme le fléau de la vertu; il vient enfin de recevoir la punition de son abominable conduite. Comment, interrompt Clary troublée?-Il vient d'être tué en duel dans un voyage d'Allemagne. Il n'est plus, poursuit Clary, en levant les mains au ciel! Elle s'arrête: puisse un heureux repentir lui avoir ouvert les yeux!Que la justice divine se borne à sa mort! Oui, monsieur, continue-t-elle en gémissant, voilà l'auteur de tous mes maux, de mes erreurs, de mon désespoir éternel!
-    </p>
-    <p>
-     Mévil s'introduisit chez mes parens, je ne me rappelle point pour quel sujet, sans doute c'étoit pour ma ruine: il l'avoit méditée dès le premier moment qu'il m'avoit vûe; il revient plusieurs fois à la ferme, saisit l'occasion de m'adresser quelques paroles dont le poison subtil s'insinue dans mon ame comme un feu rapide et dévorant; il m'écrit, et c'est-là l'origine de mes infortunes, ou plutôt de mes coupables égarements; je n'ai pas la force de rejetter cette lettre fatale; elle achève de porter les derniers coups à ma vertu affaiblie: je perds de vûe l'honnêteté, l'exemple de ma famille, la religion, la religion si nécessaire à notre faiblesse; je m'oublie jusqu'à donner un rendez-vous au perfide Mévil. C'est dans cette entrevûe qu'il déploie tous les artifices de son esprit scélérat; il se jette à mes pieds, les inonde de larmes, me jure qu'il sera mon époux; il ajoûte qu'il faut que je le suive à Londres; que c'est-là que nous nous marierons; il m'offre la perspective la plus brillante, les plaisirs, la fortune, la grandeur; il exige enfin de mon amour que mes parents ignorent son projet, et que je m'arrache de leur sein, sans leur confier notre départ. Je l'aimois, j'avois étouffé tous les sentiments de vertu; il me restoit encore ceux de la nature; je ne pouvois la trahir au point de quitter mon pere et ma mere, sans leur apprendre du moins la cause de notre séparation. Mévil s'apperçoit que cette proposition me révolte, que l'amour va être vaincu; il tire son épée avec fureur, veut se donner la mort; je tremble pour ses jours; je l'arrête. Ma coupable tendresse l'emporte; je promets tout. Quels combats, monsieur, quels déchirements j'éprouvai la veille de cet horrible départ! Jamais ma respectable famille ne m'avoit plus attendrie, ne m'avoit plus aimée; je repoussois un torrent de pleurs qui demandoit à s'ouvrir un libre cours; mon coeur étoit enveloppé de la plus mortelle tristesse. Délaisser des parents si dignes d'être adorés, si bienfaisants! Se refuser à la douceur de les consoler, de les soutenir aux bornes de la vie! Abandonner leur vieillesse aux horreurs de la pauvreté! Les trahir! Les outrager! Leur enfoncer le poignard, quand j'étois dans leur sein! Pouvois-je m'y résoudre? Ma chere Clary, me disoit mon pere avec des larmes, sens-tu combien tu es nécessaire à notre bonheur? C'est pour toi seule que je cultive ces champs, que je les arrose de mes dernières sueurs. Ma fille, mes pieds touchent ma fosse; tu me fermeras bientôt les yeux. Ma mere, à ces mots, me serroit contre sa poitrine, en pleurant aussi, et tendoit sa main à mon pere. Je m'écrie, en tombant dans leurs bras: ô mes tendres parents! Sachez... le lord, le perfide lord entre, me surprend prête à tout découvrir; il me jette un regard: je balance entre la nature et l'amour; un trouble affreux me saisit; je perds l'usage des sens; on me conduit à mon lit; et je me trouve le lendemain matin, dans une chaise de poste à côté du lord, et à vingt mille du comté de Devonshire.J'appris depuis que Mévil avoit fait entrer la nuit ses domestiques dans ma chambre, et qu'ils m'avoient transportée évanouie encore à la voiture de leur maître. Quel réveil, monsieur! C'en étoit fait: il n'étoit plus possible de retourner dans le sein paternel. La vertu avoit fui de mes yeux pour toujours; je ne voyois plus que ma passion, que le corrupteur de mon ame, qui se montroit à mes regards, sous des traits bien opposés. Nous arrivons à Londres.
-    </p>
-    <p>
-     Je me bornai à pleurer mes parents, à chérir leur mémoire, et je me livrai enfin à la séduction de mon ravisseur, sur la promesse d'un mariage qu'on éloignoit de jour en jour.
-    </p>
-    <p>
-     La fortune m'accabloit de ses dons. Tous les plaisirs, toutes les illusions les plus flatteuses et les plus caressantes sembloient voler au-devant de mes pas. J'étois entourée d'une foule d'adorateurs, qui nourrissoient cette espèce d'ivresse où le lord cherchoit à me retenir: mais lorsque mes yeux se retiroient de dessus ces prestiges, lorsque je portois mes regards jusques dans mon coeur, quel spectacle s'y élevoit! J'y entendois gémir la nature affligée; je voyois dans ce coeur déchiré l'image de mes infortunés parents, qui pleuroient la perte de leur fille arrachée d'entre leurs bras, leur fille deshonorée, qui me redemandoient à moi-même avec tout l'attendrissement, tout le douloureux du cri paternel; je les voyois expirants; ils me tendoient les mains, ces chers parents, de leur lit de mort! Ah!
-    </p>
-    <p>
-     Monsieur, quelle horrible situation, et que la fortune dédommage peu de la tranquillité de l'innocence! Quelquefois je voulois m'aller jetter aux pieds de ma famille, les embrasser, y mourir; le fracas d'un monde corrompu venoit détruire ces heureux mouvements, et m'étourdir sur la douleur profonde qui me consumoit.
-    </p>
-    <p>
-     Un jour Mévil, avec une société nombreuse, me conduit au spectacle. L'assemblée étoit brillante; on avoit annoncé une piéce nouvelle; j'en ai oublié le titre. Dans une des scènes du drame, paraissoit un vieillard en cheveux blancs, un hoyau à la main, le portrait même de la pauvreté respectable; il disoit à une jeune personne parée et couverte de diamants: "ah! Ma fille, je vous vois des richesses: où sont vos vertus? " Je m'écrie: ah! Mon pere! Et je m'évanouis.
-    </p>
-    <p>
-     On m'a rapporté que ce cri frappa tous les spectateurs. J'ouvre les yeux; je me trouve à l'hôtel du lord, environnée de quelques-uns de ses amis, qui s'efforçoient de me rapeller à la vie; je m'échappe de leurs bras, et je vais tomber, échevelée et mourante, aux pieds de Mévil:-mylord, je viens d'entendre au théâtre mon arrêt et mon devoir.Ayez pitié d'une malheureuse fille dont vous avez égaré les premiers pas. Pour prix de mon amour, je vous demande la réparation de mon honneur; que je puisse revoir mes parents, soutenir leurs regards, me glorifier encore de leur pauvreté! Que j'aille me cacher et expirer avec le nom de votre femme dans leur chaumière, dans cette chaumière, où je retrouverai mon berceau, qui m'a vûe vertueuse, innocente! ... Mévil, ce ne sont ni votre rang, ni vos biens que j'implore de votre générosité, de votre humanité: c'est, je le répète, le nom de votre épouse. Vous n'avez point à rougir de moi, ajoûté-je en lui embrassant les genoux; qu'avec ce nom j'aie la consolation de pleurer un jour, un seul jour dans le sein de mon pere et de ma mere, et ensuite ensevelissez-moi dans quelque demeure obscure; jettez-moi dans un cachot; déchirez mon sein; donnez-moi la mort: je vous bénirai. Songez, mylord, que c'est la promesse de me reconnaître pour votre femme, qui m'a séduite, qui m'a perdue. Voudriez-vous abuser de la faiblesse d'une infortunée qui n'a sur la terre de protecteur que vous?
-    </p>
-    <p>
-     Les amis du perfide Mévil se retirent sans pouvoir me refuser des larmes; il ne reste auprès de lui que ses domestiques. Alors toute la scélératesse du monstre se découvre et m'accable. La fureur étinceloit dans ses yeux.-D'où vous vient cette audace? Est-ce au théâtre que vous avez puisé ces sentiments singuliers? Je ne m'attendois pas à cette déclamation. Avez-vous pu imaginer que Clary devint jamais lady Mévil?
-    </p>
-    <p>
-     Il veut poursuivre. Je me lêve avec précipitation, et courant à un couteau qui étoit sur la cheminée, ceci, lui dis-je, va me délivrer de mes maux. Mévil s'élance, m'arrache le couteau des mains; je tombe sur un siége, accablée du plus profond désespoir.
-    </p>
-    <p>
-     Non, barbare, m'écriai-je, les joues inondées de deux ruisseaux de larmes, vous ne m'empêcherez pas de m'ôter une vie, que vous m'avez rendue odieuse. Vous m'avez ravi l'honneur, ce bien mille fois préférable à l'existence, monstre! Et vous vous opposez à ma fin, à la fin de ma honte, de mes tourments! Cruel... remène-moi dans ces lieux témoins de mon innocence; rends-la-moi cette innocence qui faisoit toute ma richesse; rends-moi à ces parents infortunés, dont hélas! Je suis devenue l'opprobre! Qu'ils reçoivent mon dernier soupir! Que je meure sur le sein paternel! Ils me pardonneront, ils me plaindront du moins... ils n'accuseront que toi, que toi qui m'as trompée... ah! Mylord, avois-je mérité cette punition? Ou, si je suis coupable, étoit-ce à vous à me punir? Il s'approche en me tendant la main.-Lâche, n'ajoûtez-point à vos forfaits la trahison; soyez mon assassin; percez, percez ce coeur... que vous avez égaré... eh quoi! Votre barbarie va jusqu'à me refuser la mort? Il n'y a cependant pour moi d'autre azile que le tombeau, et je ne puis m'y plonger, m'y anéantir! ... Le ciel ne prendra point pitié d'une malheureuse qui n'a d'autre soutien que lui? Les pleurs et les sanglots me coupoient la voix; j'étois ensevelie dans ce qu'on peut appeller la stupidité des douleurs. Mévil se retire avec une espèce de confusion; il parle bas à une fille qui me servoit; cette créature, touchée de mon sort, tente tous les moyens de me consoler; elle me dit que mylord a paru sensible, et qu'elle ne doute pas qu'il ne m'épouse. Le voile étoit déchiré; je ne pouvois plus me faire illusion; l'ame détestable de Mévil s'étoit montrée dans toute son horreur. Betty, c'étoit le nom de cette fille, me conduit, ou plutôt me traîne à mon appartement. Là je m'abandonne à une foule d'idées qui se détruisoient successivement. Il m'est aisé de mourir, me disois-je; l'existence est pour moi un fardeau insupportable... mais n'ai-je pas assez offensé la vertu, la religion?
-    </p>
-    <p>
-     Ai-je besoin de nouveaux crimes? Cesser d'être! Je ne verrois plus mes chers parents! Ah! Qu'ils recueillent mes larmes, ma vie! ... Que leur dernier baiser se fixe sur mes lèvres expirantes. Enfin après un flux et reflux d'agitations contraires, je m'arrête à un projet; je parais plus tranquille. Betty imagine que le sommeil va me surprendre: elle me quitte.Alors je me détermine à exécuter promptement ce dessein, qui faisoit ma seule ressource. Je répète dans le fond de mon coeur: ô mere la plus tendre! Ô pere le plus respectable! Vous daignerez me r'ouvrir vos bras; vous ne me refuserez pas la douceur d'attendre à vos pieds la fin de mes tristes jours: que votre malheureuse Clary meure avec votre bénédiction! Aussi-tôt je reprends mes premiers habits, sur lesquels j'avois souvent versé des larmes en secret. Hélas! Ils me rappelloient mon heureux état d'obscurité; j'étois alors vertueuse! Je laisse à mon scélérat séducteur tous ses dons empoisonnés; je ne garde qu'une petite bague de peu de valeur, présent d'un de mes parents, et dont j'avois résolu de me défaire au sortir de Londres. J'aurois eu horreur de me réserver un seul shelling qui eut appartenu à Mévil. Avec quelle honte et quels mouvements d'indignation je regardai ces robes éclatantes, tous ces diamants dont le perfide avoit paré son crime et mon deshonneur! Il m'avoit semblé que mes nouveaux vêtements m'avoient rendu cette innocence, dont je pleurerai éternellement la perte. J'avois examiné la situation de mon appartement: il étoit au premier étage. Une de mes fenêtres, à l'aide d'un drap découpé, facilita mon évasion. Avant que de quitter cet odieux séjour, j'avois pris la précaution de laisser sur ma table une lettre adressée au lord; elle contenoit, à peu près, ces expressions, que ma douleur n'aura pas de peine à se rappeller.
-    </p>
-    <p>
-     "Ne voulant point me donner la mort, parce que je crains encore ce ciel fatigué de mes offenses, et que j'aspire à exhaler mon dernier souffle dans le sein de ma famille, j'ai pris le seul parti qui me convenoit, celui de vous détester, de céder à mes remords, et de vous fuir pour jamais comme mon assassin, comme le ravisseur de l'unique bien que possédoit une malheureuse fille, et qu'elle ne peut plus recouvrer. Perfide Mévil! Vous m'avez arrachée des bras paternels! Vous vous êtes joué des serments les plus sacrés! Vous m'avez ôté mille fois plus que la vie! Et vous m'avez laissé pour prix de ma faiblesse, l'opprobre, une tache ineffaçable, et qui flétrira jusqu'à ma mémoire! Ma honte me survivra... barbare! Quelle femme aimoit plus la vertu que moi? Et je l'ai outragée, je l'ai souillée cette vertu dont je sens trop la perte irréparable! De quel oeil vont me regarder mes parents, des vieillards qui ont à m'exposer le cours de soixante années d'une vie irréprochable et intacte, lorsque moi, comptant à peine dix-sept ans, je suis devenue l'injure de ma famille, du lieu qui m'a vû naître, lorsque mon deshonneur est au comble! ... Ah! Mylord! Je vais mourir, car il ne m'est plus possible de vivre chargée d'une telle ignominie. C'est des portes du tombeau que les cris de ma douleur, de mon désespoir, retentiront jusqu'à vous, iront vous accuser, vous déchirer, vous punir... peut-être le repentir s'élevera-t-il dans votre ame, et me donnerez-vous des pleurs: mais il ne sera plus temps, mylord, il ne sera plus temps! Souvenez-vous que je ne demandois à porter qu'un seul instant le nom de votre femme; j'eusse du moins expiré avec honneur. Personne sur la terre ne me protège, ne me soutient, n'a daigné vous présenter mon innocence outragée; tout a repoussé mes cris et insulté à mes plaintes. Eh bien! Ce n'est plus la justice humaine que je réclame: c'est la justice divine dans toute sa rigueur; celle-là est incorruptible; elle ne connaît ni les grandeurs, ni les dignités; la chambre haute ne lui en impose point; elle juge les lords, les pairs, et les condamne comme les derniers des coupables. Tremblez, lâche Mévil: je vous abandonne à ses coups. Si le faible est écrasé dans ce monde, il a un défenseur dans le ciel. Dieu se levera, prendra en main ma cause; c'est à ses pieds même que je porte mes larmes; et... je t'y attends, perfide." P s. " Vous trouverez dans mon appartement vos bienfaits corrupteurs. J'ai repris mes premiers vêtements, les seuls qui me conviennent: que n'ai-je, hélas! Pu reprendre avec eux mon premier état d'honnêteté! Je n'emporte que mon coeur, mon coeur brisé par le remords, par une honte éternelle; et j'embrasserai avec joie une misere dont je n'aurai point à rougir." Descendue dans la rue, je marche avec précipitation, appréhendant de ne point m'éloigner assez-tôt d'une fatale demeure. J'étois tremblante, égarée dans les ténébres, détournant sans cesse la tête, dans une agitation inexprimable, ne sçachant trop où j'allois. J'entends du bruit: je redouble de vîtesse; on me poursuit. Comment, me dit un gros homme que je reconnais pour être le chapelain du lord, et qui me saisit par le bras! À cette heure, miss, dans les rues! Et où allez-vous?-Ah! Monsieur Wickman... je vais... sauvez-moi, au nom de Dieu; ne me forcez pas de rentrer dans cette abominable maison; vous ne sçauriez faire une oeuvre plus digne de votre saint ministère; je quitte, j'abandonne mylord et le crime pour jamais: je veux rentrer dans le sein de la vertu, dans le sein de mes parents: c'est à vous de m'appuyer dans mon projet: ne me refusez point, je vous en conjure, votre secours.
-    </p>
-    <p>
-     Ce misérable, qui ne demeuroit pas à l'hôtel, me répond que je pouvois entrer en toute sûreté chez lui, quoique sa femme fût absente, et qu'il n'avoit pas besoin des sentiments de la religion pour me respecter, et m'être de quelque utilité. Il me donne la main, et me conduit dans une salle basse: je m'assieds; et là, en peu de mots, je lui raconte tous mes malheurs. Le croiriez-vous, monsieur? Ce détestable hypocrite dont j'imaginois avoir excité la pitié et le zèle charitable, profite de ces moments de douleur et de trouble, pour me tenir un langage bien opposé à l'esprit de son caractère. J'ouvre les yeux sur ma démarche imprudente; il n'étoit plus temps de la réparer. Le monstre veut user de violence. J'ai recours aux remontrances, aux prières, aux pleurs, aux sanglots; je me jette aux pieds de cet indigne ministre des autels:-quoi! Oublieriez-vous à ce point vos devoirs, la religion, la nature, l'humanité, l'humanité qui vous présente mes larmes? Je me réfugie dans votre sein, comme dans le sein de Dieu même; j'ai regardé votre maison comme un temple, et vous abuseriez de la confiance d'une malheureuse fille qui, après le ciel, implore en vous son ange tutélaire! ... Monsieur Wickman, n'ajoûtez point aux crimes de mylord: je suis assez coupable; soyez mon appui, mon pere.
-    </p>
-    <p>
-     Cet homme impitoyable alloit employer la force. Je m'élance vers la fenêtre; je m'écrie: personne ne viendra-t-il au secours d'une misérable fille? Wickman furieux me jette un mouchoir sur la bouche. On heurte à grands coups à sa porte; il ne l'ouvroit pas; on redouble: elle est enfoncée. Un jeune homme dont l'habillement annonçoit un militaire, entre l'épée à la main; je me précipite aux pieds de l'inconnu:-qui que vous soyez, daignez me défendre contre le plus méchant des hommes. L'étranger s'empresse de me relever, me fait asseoir à ses côtés; je lui apprends sans nul déguisement l'aventure qui m'avoit exposée à la perfidie de Wickman. Respectable fille, me dit-il, confiez-vous à moi; prenez mon bras; je vous prouverai que les personnes de mon état sçavent honorer la vertu, tandis que ce misérable, dégradant son caractère, n'aspiroit qu'à vous outrager; et toi, malheureux, ajoûte-t-il se tournant du côté de Wickman, ta bassesse te sauve de la punition.
-    </p>
-    <p>
-     Je t'aurois déjà arraché la vie, si je ne craignois de me deshonorer. Allons, miss, suivez-moi. Mon vengeur avoit vingt-cinq ou vingt-six ans, la figure intéressante; la noblesse de son ame étoit peinte sur son visage. J'étois saisie de douleur et de crainte; je me livrai à la générosité de l'inconnu, résolue de terminer mon sort, si, comme le chapelain, il avoit la lâcheté d'abuser de ma confiance, et persuadée que l'être suprême me pardonneroit ce dernier crime, en faveur du motif qui me feroit attenter sur mes jours. Me voilà donc dans les rues de Londres, au milieu de la nuit, seule avec un jeune officier, et en quelque sorte à sa discrétion. À peine avois-je la force de me soutenir: il s'apperçut que ma frayeur augmentoit à chaque pas: encore une fois, miss, me dit-il, ne craignez rien; reposez-vous sur ma probité, et croyez que ma jeunesse ne m'empêche point de connaître la pureté du sentiment, et le plaisir de remplir les devoirs de l'honnête homme.
-    </p>
-    <p>
-     À peine mon trouble me permettoit-il de l'entendre. Arrivé à la rue de Norfolk, il s'arrête à une petite porte, et appelle un domestique, qui vient ouvrir. Nous entrons dans un appartement d'une simplicité élégante. Il m'adresse la parole: je n'ai que deux chambres, celle-ci, et une autre qui est au second étage. Vous prendrez ici quelque repos, et nous partirons à cheval, de grand matin. J'irai vous conduire chez ma mere, qui habite à six mille de Londres. Nous sçaurons vous dérober à la poursuite de cet indigne lord, et de là, si vous me le permettez, je vous accompagnerai chez vos parents. Je regardois mon protecteur, et je ne sçavois si, après la cruelle épreuve où je venois d'être exposée, j'ajoûterois foi à des procédés dont l'apparence cependant devoit me rassurer. Il me fit apporter à manger. J'appris qu'il se nommoit sir Brown, qu'il étoit fils unique, et qu'il servoit dans la marine; il passoit sous les fenêtres de l'appartement de ce misérable Wickman, lorsqu'ayant entendu mes cris, il avoit volé à mon secours; je ne lui répondois que par des larmes. Miss, poursuit-il, vous pleurez! Croyez que je ressens vos chagrins: mais vous allez rentrer dans le sein de votre famille; vous oublierez ce détestable Mévil, et vous ferez encore le plaisir et la satisfaction de vos vertueux parents.
-    </p>
-    <p>
-     Il me laisse seule dans cette chambre. Ma défiance renaissoit toujours; j'ai soin de fermer les véroux; j'entasse des chaises et une table derrière la porte; et au lieu de me coucher, après avoir posé la lumière sur la cheminée, je reste dans un fauteuil, la tête appuyée sur les genoux, et accablée de ma situation.
-    </p>
-    <p>
-     Je vous ai déjà dit que si l'officier avoit voulu imiter cet abominable Wickman, j'étois déterminée à me donner la mort. Je me lève, et me jettant à genoux, j'implore le ciel de toute mon ame; ensuite je reprends ma place avec plus d'assurance. Dieu lisoit dans mon coeur; il y voyoit la vérité du repentir, ma confiance en sa protection, et combien n'éclate-t-elle pas dans les plus grands dangers, où l'espérance même nous abandonne! Le sommeil, malgré moi, me saisit au milieu des réflexions les plus lugubres; un songe affreux vint ajoûter à ces noires impressions.
-    </p>
-    <p>
-     J'étois dans un souterrein éclairé d'une lampe funèbre, et j'allois tomber dans une fosse. J'apperçois un vieillard dont les cheveux blancs couvroient le visage; il accourt, en me disant: "ce n'est pas à toi de mourir, c'est à moi que cette fosse est destinée: voilà où ma fille m'a conduit! " Je reconnais mon pere; je veux l'embrasser. "Retire-toi, "poursuit-il, "ou, si tu m'approches, étends ce linceul sur moi." Je me trouve entre les mains un drap mortuaire; il m'échappe un cri; j'entends retentir de la terre jettée sur un cercueil, et une voix sépulchrale qui prononce ces mots: "c'est ici que nous t'attendons."
-    </p>
-    <p>
-     Je me réveille avec horreur; la lumière finissoit. J'entends sir Brown qui m'appelle: ouvrez, miss, il est temps de partir... comment, miss! Vous ne vous êtes pas couchée! Eh quoi! Je vous ai inspiré de la défiance! Je me flattois que vous deviez être plus rassurée. Vous m'offensez, poursuit-il d'un ton attendri! Vous pensez donc que tous les hommes sont aussi détestables que Mévil et Wickman? Croyez, miss, qu'il y a des coeurs sensibles, et ce n'est pas à vous à me soupçonner. Ce sont-là, répliquai-je, mon généreux défenseur, les nouveaux crimes du lord et de son digne domestique: ils m'ont fait juger par eux du reste des hommes, et je vois, avec autant de douleur que de gratitude, que je me suis trompée; je vous en demande un sincère pardon; oui, je crois que vous sentez tout le prix d'une action honnête, et il n'en peut être une qui le soit davantage, que de protéger une infortunée, dont tout le desir est de retourner à la vertu. On nous servit le thé, et nous étant mis en route à la pointe du jour, nous fumes bientôt rendus à la maison de campagne où s'étoit retirée lady Brown.
-    </p>
-    <p>
-     Cette dame qui avoit été belle, conservoit encore cette dignité de physionomie, ce charme si intéressant, qu'on peut appeller la beauté de la vertu, et qui survit aux agréments extérieurs; elle me reçut avec cet air de bonté qui attire et enhardit; son fils lui fit un détail de mes chagrins; je lui avouai ingénuement mes fautes; cette sincérité de ma part la toucha; elle daigna m'embrasser, et ouvrir son sein à mes larmes; je passai plusieurs jours dans cette maison respectable. Les égards dont me combloient lady Brown et son fils, me pénétroient de reconnaissance: mais ils n'empêchoient point que je ne fusse agitée de l'impatience de revoir mon pere et ma mere; ma protectrice s'en apperçut la première; elle me tint ce discours, que je n'oublierai jamais. Je serois fâchée, miss, de vous retenir ici davantage. J'imagine que le lord Mévil, trompé dans ses perquisitions, aura renoncé à l'infâme projet de vous empêcher de retourner auprès de vos parents. Allez donc, ma chere enfant, vous jetter dans leurs bras; rarement le sein d'un pere et d'une mere n'est-il pas l'asyle de la tranquillité et de la vertu. Allez y déposer vos larmes, le remords qui vous rend tous vos droits sur la tendresse paternelle. Hélas! Ne devons-nous pas avoir de l'indulgence pour nos enfants? La nature humaine est si faible! Il est si facile de s'égarer! Après le bonheur de n'avoir point succombé, le repentir est ce qu'il y a de plus estimable. L'imprudence est la source de vos fautes: elle a causé la ruine de la plûpart des jeunes personnes de notre sèxe. Ma chèreClary, poursuit-elle en m'embrassant, soyez bien assurée que la vertu n'est point une chimère; ceux même qui l'outragent, sont forcés de la respecter dans le fond du coeur; la fortune, la grandeur ne peuvent réparer sa perte; encore une fois, il n'est que le repentir qui la rétablisse, peut être, dans toute sa pureté, et vous m'en paraissez pénétrée. Vous avez cédé à la séduction; Mévil est le seul criminel; il a eu la lâcheté d'abuser de votre âge, de votre peu d'expérience: le ciel vous vengera; que votre faute vous inspire une éternelle défiance de vous-même. Sur-tout, ma fille, ne rougissez pas de reprendre les travaux de la campagne; songez que c'est l'état primitif de tous les hommes, et celui, sans doute, qui est le plus innocent et le plus honorable; il ne coûte que de nobles sueurs, et souvent les autres s'achètent au prix de la dégradation de l'ame, et du manège des bassesses. Tant que les premiers humains furent agriculteurs, ils furent sans envie, sans ambition; ils aimèrent la vertu: l'intérêt les attendoit dans les villes. Depuis qu'ils ont retiré leur main de la charrue, ils ont cessé de pratiquer les devoirs de l'homme; ils en ont été punis: ils ne goûtent plus les plaisirs de la nature. Ma fille, ce n'est pas un laboureur qui vous a séduite: c'est un lord, un de nos pairs! Ayez assez de courage pour vouloir servir d'exemple à vos compagnes; qu'elles sçachent que le même sort leur est réservé, si elles n'ont pas la force de se sauver des piéges que leur tendent ces dangereux séducteurs. Vous pleurez! Laissez couler vos larmes; ce spectacle, n'en doutez point, désarmera l'être suprême: comment les hommes n'en seroient-ils pas touchés? Ils vous pardonneront; que dis-je? Ils vous estimeront; je vous le répéte: rien n'attendrit tant que le repentir sincère. Adieu, donnez-nous de vos nouvelles, et rappellez-vous toujours que vous avez en moi et en mon fils des amis qui ne sçauroient changer.
-    </p>
-    <p>
-     Je tombai en pleurant aux genoux de lady Brown, qui s'empressa de me relever, et m'embrassa encore avec toute l'effusion d'une tendre mere. J'allois partir; sir Brown fit retarder de quelques jours mon voyage: je le surprenois souvent les yeux fixés sur moi et couverts de pleurs; il soupiroit; quelquefois il cherchoit l'occasion de me toucher la main, et la sienne étoit tremblante; il vouloit me parler, et il ne pouvoit que balbutier mon nom; enfin, après bien des délais, des prétextes, l'instant de mon départ arrivé, sir Brown est le premier à hâter ce qu'il avoit tant cherché à éloigner; sa mere, pleine d'une délicatesse qui n'est connue que des ames sensibles, dans la crainte de me mortifier en m'offrant quelque secours, avoit eu la complaisance de m'acheter au-dessus de sa valeur cette petite bague que j'étois dans le dessein de vendre. Je quittai avec regret ma bienfaitrice; son fils s'étoit proposé de m'accompagner; je le priai inutilement de s'épargner ce nouvel embarras.
-    </p>
-    <p>
-     Sir Brown parla peu dans la route; une sombre tristesse le dévoroit; il lui échappoit de fréquents soupirs. Nous devions nous séparer à trois mille de mon village; je remarquai qu'à mesure que nous approchions du terme, cette tristesse augmentoit. Il ne cessoit de me demander combien nous avions encore de chemin à faire. Enfin nous arrivons dans le hameau marqué pour notre séparation. Je remercie mon protecteur, remplie de la plus vive reconnaissance. Je laisse au ciel, lui dis-je, le soin de vous récompenser d'une si bonne action, et le ciel seul peut m'acquitter envers vous. Nous allons donc nous quitter, me répond-il!-Il est temps que je vole dans le sein de mon pere et de ma mere, et que j'y épanche des larmes qui ont été trop long-temps retenues.
-    </p>
-    <p>
-     Nous nous disons adieu; il me prend la main; je la sens arrosée de pleurs; il attache sur moi un regard attendrissant, et, au moment qu'il m'alloit parler, il tombe sans connaissance: je pousse un cri; les gens de l'hôtellerie où nous étions, accourent; on le fait revenir à lui; nous restons seuls; je lui témoignois la peine que me causoit cet accident. Miss, me dit-il, daignez vous asseoir et m'écouter. Il continue, en tenant une de mes mains dans les siennes: je voulois m'imposer silence: mais je n'ai pu me vaincre; nous nous voyons, selon les apparences, pour la dernière fois; qu'il me soit permis de m'expliquer.
-    </p>
-    <p>
-     L'humanité seule me fit voler à votre secours; votre situation m'inspira le sentiment le plus vif et le plus pur. Votre douleur, votre sincérité, tout vous embellit à mes yeux.Comment ne vous aurois-je pas respectée? Dès le premier regard, je vous aimai. C'est donc mon amour et non ma générosité qui a cherché à vous être utile; vous voyez par cet aveu, que je ne mérite et que je ne prétends de vous aucun retour. Cette tendresse pour vous s'est toujours augmentée; je m'enivrois du plaisir de vous voir; un mot de votre bouche me ravissoit, quand, par un dernier effort de probité, vous avez pu l'observer, j'ai tout à coup, après plusieurs délais, pressé votre départ, et en voici la raison, miss: ma mere que j'aime tendrement a déterminé mon mariage avec une de mes parentes; si je retirois ma parole, cette mere si chere en seroit inconsolable: je m'immole donc à ses desirs; j'épouse une femme de son choix, quand un heureux hasard m'avoit fait trouver celle que, peut-être, le ciel me destinoit. Oui, chere Clary, j'aurois aspiré à réparer les torts de l'indigne Mévil; j'aurois récompensé en vous la vertu outragée; je vous eusse offert ma main: il n'y faut plus penser; je ne dois m'occuper que du soin d'étouffer cet amour; je ne vous demande pas même de réponse, et je pars dans l'espérance que du moins vous daignerez me plaindre.
-    </p>
-    <p>
-     Il n'a pas achevé ces mots, qu'il se lève avec précipitation, remonte sur son cheval, et disparaît. De pareils procédés, monsieur, ne pouvoient que me toucher. Quel fut mon étonnement, quand je trouvai dans ma poche un diamant, qui me parut être d'un prix considérable! Je n'hésitai pas sur mon devoir; je me fis apporter une plume et de l'encre, et j'écrivis une lettre très-longue au généreux sir Brown. Je le priois de me conserver son amitié, et de reprendre un présent qui m'humilieroit à ses yeux et aux miens. J'ajoûtois que, si les sentiments qui sont indépendants de l'amour, pouvoient le flatter, je prenois plaisir à les lui accorder tous sans réserve. Hélas! Monsieur, me dit cette fille charmante, je n'avois pas encore connu ce que c'étoit qu'aimer; je m'étois trompée sur les premiers mouvements de mon coeur; il n'appartient qu'à la vertu de sentir l'amour véritable. Je finissois ma lettre, poursuit-elle, en sollicitant mon bienfaiteur de répondre à l'empressement de sa mere pour le mariage dont il m'avoit parlé, et je lui répétois qu'une infortunée telle que moi, devoit renoncer pour la vie au sentiment de la tendresse, et n'employer ses jours qu'à pleurer éternellement sa faute. J'eus soin de joindre le diamant à la lettre: une personne de confiance, que m'indiqua le ministre du lieu, fut chargée de remettre ce paquet à sir Brown lui-même. J'approchois du séjour qui m'a vû naître: quelle foule de réflexions m'accabloient! La honte, la joie, la douleur, ce plaisir si doux que l'on goûte à revoir son berceau, toutes ces impressions différentes partageoient mon ame; j'envisageois des vieillards respectables, qui cédoient à mes pleurs, et me r'ouvroient leurs bras; je retournois dans l'asile de la pauvreté et de l'innocence; ces foyers où mon enfance avoit été élevée dans le sein de la vertu, alloient recevoir la malheureuse Clary, bien changée, hélas! De cette Clary que l'on citoit dans le hameau comme un modèle de sagesse! Du moins je pourrois mourir dans le lieu de ma naissance, si je n'y soutenois pas le fardeau de mes peines.
-    </p>
-    <p>
-     Je demande à un inconnu qui sortoit de notre village, des nouvelles de mes parents: j'apprends, ô dieu! Et c'est moi, c'est moi qui en suis cause, qu'ils avoient quitté leur demeure, inconsolables de ma perte, pleurant ma vie, sans doute bien plus cruelle pour eux, que ne l'auroit été ma mort. Ces chers parents! (Et ici, Clary éclate en sanglots,) je ne les ai plus vûs! Je n'ai pu sçavoir où ils s'étoient retirés! Oh! Je ne les verrai plus! Jamais! Jamais! Ils seront expirés de désespoir: ils aimoient trop la vertu, la religion; et je puis vivre encore! Je tâche de calmer cette douleur profonde où Claryretomboit toujours. Pourquoi, lui dis-je, désespérer que votre famille vous soit rendue? La vertu malheureuse est à la fin récompensée... ah! Monsieur, interrompt cette fille estimable, voilà ce qui me perce le coeur! ... Si je n'eusse pas manqué à cette vertu que j'aimois dans le temps même où je l'outrageois, je supporterois mes maux avec résignation, j'attendrois tout du ciel: mais j'ai été coupable, il me punit, et j'éprouve sa colere. Je repris, continue-t-elle, mon chemin, en détournant souvent la tête, et en regardant ce village d'où mes yeux ne pouvoient se détacher; il y avoit des moments où je croyois distinguer notre maison couverte de chaume: que cette image me déchiroit l'ame! Cruel Mévil!
-    </p>
-    <p>
-     Enfin, monsieur, je me traînai jusqu'en ce séjour; j'y suis employée aux plus basses fonctions, et y en a-t-il de basses après l'humiliation et l'opprobre dont j'ai flétri jusqu'au souvenir qui restera de moi? C'est-là le véritable avilissement! Que je sois confondue au rang de la derniere des créatures! Hélas! Puis-je assez expier mes fautes? J'ai, dans mon infortune, une sorte de consolation: je n'ai que dix-huit ans, et j'ai eu la force de ne pas attendre un âge où l'on ne peut se dire qu'on s'est arraché du vice; je vivrai... je mourrai dans les larmes: peut-être que la sincérité et la vivacité de mon repentir me rendront moins criminelle aux yeux du souverain juge que j'ai offensé: car il faut renoncer à recouvrer l'estime des humains, l'estime de moi-même; il n'est que Dieu qui pardonne! Si du moins j'avois la satisfaction de pouvoir embrasser ces chers auteurs de ma vie, de laisser couler mes pleurs sur leurs rides respectables, de soutenir leur vieillesse! ... Mais pourquoi me repaître toujours d'une espérance qui m'abuse? En puis-je douter? Je le redis avec douleur: j'aurai causé leur mort! Oui, j'aurai causé leur mort: ils n'auront pu résister à mon deshonneur! Que dis-je? Eux-mêmes en auront été souillés; je leur ai arraché la vie pour les récompenser de me l'avoir donnée, pour prix de tant de bienfaits! Mon songe, j'en suis certaine, n'est que trop véritable; c'est de leur fille, d'une fille qui leur étoit si chere, qu'ils ont reçu tous ces coups.
-    </p>
-    <p>
-     Ce fidèle récit, monsieur, vous expose mon devoir et le vôtre: je ne puis vous appartenir... je vous aime: c'est un nouveau malheur pour moi. Rétablissez-vous donc: soyez mon ami, mon protecteur; honorez-moi de vos conseils; plaignez-moi: mais abandonnez pour jamais un projet qui ne peut que nuire à tous deux. Laissez-moi, monsieur, pleurer éternellement d'avoir perdu tous les droits dont jouit la vertu malgré toutes les traverses qui l'éprouvent. Je ne puis être à vous; je vous quitte; vous n'avez rien à me répondre... allons, Susanne, retournons à la maison.
-    </p>
-    <p>
-     Je veux retenir Clary: elle ne m'entendoit déjà plus; elle me laisse en proie à une foule de sentiments que j'avois peine à concilier; mon ame étoit bouleversée par des assauts bien opposés; ces idées parasites et vulgaires qu'on emprunte de la société avec tant de préjugés absurdes, me montrèrent d'abord une jeune personne qui, quoiqu'elle n'eût commis qu'une faute, en devoit être punie le reste de ses jours; il falloit la retrancher du nombre de ces femmes qui, à l'abri d'un engagement sacré, peuvent impunément se jetter dans le désordre, sans craindre de se deshonorer. Clary envisagée sous ces traits, étoit coupable, et seroit rejettée du monde. Ensuite j'osois penser par moi-même, me dépouiller de l'esprit étranger, pour ne me servir que du mien propre; et c'étoit alors par mes yeux et non par ceux d'autrui que ne voyois une malheureuse fille, le jouet de la séduction et de la scélératesse, abandonnée à la faiblesse d'un âge aveuglé sur tout ce qui l'environne; je la voyois rendue à la vertu, au moment que ses charmes étoient dans leur éclat. Une beauté de dix-huit ans, qui sçait repousser tout ce qui peut la flatter, qui a la force d'embrasser l'état le plus humiliant, la plus affreuse misère, qui meurt de ses remords: quel tableau, mon ami! Et qu'il se grava profondément dans mon ame! ... J'ai pris mon parti; il n'y a plus à balancer: j'écris ce peu de mots à la souveraine de mon coeur: "tout est décidé. Vous êtes touchée d'un vrai repentir; vous aimez la vertu; vous m'aimez; qui sent tout le prix de l'honneur, l'a recouvré: ma raison même se décide pour vous.C'est vous dire que vous serez ma femme, et je n'en aurai jamais d'autre." Quelle réponse je reçois!
-    </p>
-    <p>
-     "Oui, sans doute, je vous aime, et pour prix de ma tendresse, vous m'arrachez à mon bonheur, au seul qu'il me soit permis de goûter! C'étoit à l'amitié consolante d'essuyer mes larmes, et vous m'enlevez un si doux soulagement! Vous ne me verrez plus: mon devoir est de
-    </p>
-    <p>
-     vous fuir; je quitte la retraite que j'avois choisie, où vous vous êtes offert à mes yeux. C'en est fait; adieu, pour jamais! Quoi, monsieur! J'oserois être votre femme! Moi! Moi, qui ne mérite pas d'être associée au sort du dernier des hommes! Non, mon deshonneur est pour moi; gardez votre honneur dans toute sa pureté. Allez, qui sçait se repentir, sçait mourir, et ce n'est pas dans ce monde-ci qu'il faut que nous soyons unis. Tout ce que je puis vous donner, ce sont mes regrets, mon estime, mon amour, un amour qui n'est pas digne du vôtre, mais un amour qui sçait s'immoler. Ah! Que n'ai-je pour vous que des sentiments de reconnaissance! Soyez persuadé que cette démarche ne m'a été inspirée que par la tendresse; il pourra m'en coûter la vie: mais qu'est-ce que ma vie? Pourquoi ne puis-je vous faire un sacrifice plus éclatant? " Je vole chez les hôtes de Clary: je les trouve dans la désolation; elle étoit disparue, après leur avoir laissé quelques petits présents. Ces bonnes gens se récrioient sur ses excellentes qualités, sur la perte qu'ils avoient faite; ils me répétèrent vingt fois qu'un ange ne pouvoit avoir plus de candeur, plus de bienfaisance; le pere, la mere, les enfants, tout regrettoit ma chere Clary; je me faisois raconter les moindres circonstances qui lui étoient relatives; ils avoient observé qu'elle avoit beaucoup pleuré avant que de les quitter, et prononcé souvent mon nom. Tu imagines, chevalier, l'état horrible où j'étois: mon ame s'élançoit, en quelque sorte, sur tous les chemins où Clary avoit pu passer; je fis des perquisitions: elles furent sans effet; point de village aux environs que je ne parcourusse; tu sens bien que Dorset étoit dans la confidence. Un soir, je m'écarte de la route; j'étois seul, à cheval, accablé de fatigue, et affligé du peu de succès de mes courses; je descends au coin d'un bois; à quelques pas étoit une misérable chaumière, d'où s'échappoit une faible lueur; je ne sçais quel sentiment me pousse à m'en approcher; j'entends une voix qui prononçoit comme avec peine: quoi! Mon pere, ô pere le plus cher! Je vous coûte encore des larmes, et à vous aussi ma tendre mere! Je vous ai offensés, chers parents! J'ai deshonoré votre vieillesse! Il est juste que je meure: hélas! J'aurois souhaité en être l'appui et la consolation: me pardonnez-vous?-Que parles-tu de pardon, ma fille? Embrasse-nous, et espere dans le ciel, qui te rendra la santé; c'est à nous de mourir; nous voudrions seulement te laisser plus heureuse: mais nous ne te laissons que notre misère, nous qui t'aimons tant!-Vous m'aimez, ô tendres parents! Eh! Suis-je digne de votre amour? Je ne mérite que votre commisération; oui, je la mérite; que ne pouvez-vous lire dans mon coeur! Il est inutile de me rappeller à la vie; je meurs de mon repentir, et j'emporte une autre cause de mort, que vous sçaurez un jour: je ne vous demande qu'une grace.-Une grace, notre chère enfant! Ah!
-    </p>
-    <p>
-     Parle, parle, demande tout ce que tu voudras, tout ce qui sera en notre pouvoir; hélas, nous pouvons bien peu!-Faites tenir, je vous prie, cette lettre-ci, après ma mort, à son adresse: on vous dira où demeure le lord Dorset; ce monsieur, s'appelle Borston.
-    </p>
-    <p>
-     Je pousse la porte avec vivacité; j'entre dans la cabane: je vois une femme expirante, dans le lit de la pauvreté même, tenant une lettre à sa main; un vieillard en pleurant lui couvroit le visage de ses cheveux blancs; une autre femme âgée lui serroit les mains dans les siennes; elle fondoit aussi en larmes. Je m'élance; je prends la lettre; je me hâte de te faire part, avant les autres détails, de ce qu'elle contenoit.
-    </p>
-    <p>
-     "Homme respectable et bien différent de vos pareils, je vous adresse mes derniers soupirs; vous recevrez cette lettre, quand je ne serai plus; je puis donc y répandre mon ame, sans craindre de compromettre ma franchise: c'est peut-être le seul plaisir que j'aurai goûté dans la vie. Apprenez, cher Monsieur Borston, que je meurs pour vous; j'ai voulu vous éviter, parce que mon devoir l'exigeoit, parce que je ne pouvois partager votre coeur et votre nom. Ma reconnaissance m'eut fait rejetter sir Brown, s'il avoit été libre de m'offrir sa main: jugez de ce que vous devoit mon amour. Que vous m'avez fait connaître combien de regrets entraîne après soi la perte de l'honneur! J'ai respecté le vôtre; je n'ai pu survivre à la douleur de ne plus jouir de ces entretiens, où mon ame sembloit reprendre sa force, sa pureté, son innocence. Je vous donne, en expirant, la preuve de tendresse la plus vraie: j'ose vous prier comme mon ami, comme mon seul ami, de verser quelques-unes de vos bontés sur mes pauvres parents. C'est ici que j'immole mon amour-propre au plaisir d'emporter au tombeau l'idée que vous serez mon bienfaiteur dans des personnes qui me sont aussi chères. Hélas! J'ai fait leur infortune!
-    </p>
-    <p>
-     Le chagrin que leur a causé, dirai-je ma faute, ah! Disons mon crime, les a mis hors d'état de veiller à la conservation du petit bien qu'ils possédoient; ils ont rougi pour leur fille, ces honnêtes gens, eux qui n'ont jamais eu rien à se reprocher que de m'avoir donné le jour! Ils sont venus habiter la malheureuse cabane où j'expire, y ensevelir leur honorable pauvreté et leur affliction; c'est-là que je les ai retrouvés dans la plus profonde misère, que je suis tombée à leurs pieds; ils ont daigné me r'ouvrir leur sein, partager avec moi le morceau de pain de leur indigence, tout trempé de leurs larmes; j'ai goûté encore la douceur, avant que de mourir, de serrer contre mon coeur ces chers auteurs de ma vie, de prononcer les noms si touchants de pere et de mere! Qu'ils vous rappellent l'infortunée Clary, et croyez que mon ame sera reconnaissante, et sentira tous les bienfaits qu'ils vous devront. Adieu pour jamais, cher Monsieur Borston. Au reste la mort n'est-elle pas un bonheur pour une misérable créature rejettée de la terre et peut-être du ciel, et qui a perdu ce qui pouvoit la rendre estimable aux yeux de l'homme qu'elle eût aimé le plus? " Je m'écrie: ah! Ma chère Clary! Ces bonnes gens demeurent immobiles d'étonnement: Clary ouvre les yeux, et tombe sans connaissance dans mes bras. Je ne puis, mon ami, te rendre ce que j'éprouvai; tu connais tout le charme du sentiment: ton ame n'aura pas de peine à se remplir de ma situation. Je poursuis avec tous les transports de l'amour: oui, ma chère Clary, oui, vous serez ma femme, la maitresse de mon sort: vous êtes déjà l'épouse de mon coeur; c'est à la vertu même que je m'unirai en vous; c'est elle que je récompenserai, que j'adorerai, qui fera tout mon bonheur dans ma divine Clary! Commettre des fautes, c'est le propre de l'humanité: s'élever au-dessus de ses faiblesses par un repentir sincère, c'est mériter l'estime qui est due à l'honnêteté la plus irréprochable. Et vous, dis-je au vieillard et à sa femme qui étoient prosternés à mes pieds, et que je m'empressois de relever, vous me tiendrez lieu de pere et de mere; je serai votre fils, votre second enfant; je disputerai à votre fille le plaisir de vous aimer et de consoler votre vieillesse. Voilà donc, chevalier, où j'en suis! Ma vûe a retiré Clary des portes de la mort; elle s'obstine toujours à refuser ma main, à me représenter l'obscurité de son extraction, la tache d'une première erreur qu'elle dit ineffaçable, la confusion qui la poursuivra jusques dans mes bras; je lui ai fait entendre que mon repos et ma vie même dépendoient de sa résignation à mes volontés; j'ai osé imposer des loix à ma souveraine; nous sommes actuellement chez le lord Dorset, où se prépare la noce. Ces gens estimables descendent de pere en fils d'excellents laboureurs, qui ont toujours été dans leur village des exemples de probité et de vertu. Il est vrai qu'on ne compte point parmi eux de lords qui se soient enfoncés dans la boue de la bassesse, pour corrompre des voix, et pour acheter la députation d'une petite ville; point de parvenus qui, indignes d'une noble roture, ayent brigué les faveurs de la cour aux dépens de leur honneur, et de l'amour que tout digne anglais doit à la patrie; point de prétendus grands à l'ame de valet qui ayent vendu l'état, et cimenté les marches du despotisme. Mon dessein d'ailleurs est de passer mes jours à la campagne. J'ai assez vécu pour les autres: il est temps de vivre pour moi, d'avoir ma raison, d'écouter mon coeur, de lui céder. L'étude de la nature, celle de moi-même me dédommageront aisément de ces sociétés fatigantes qui, ne pouvant supporter le fardeau de leur oisiveté, cherchent à s'en débarrasser sur autrui. La bonhomie et la franche gaieté des veillées rustiques ne valent-elles pas bien ces cercles élégants où l'on n'apprend que l'art de varier l'ennui et le dégoût de l'existence, où la complaisance servile, et la perfidie ténébreuse prennent le nom d'esprit sociable et de politesse? Mon épouse sentira mieux que toute autre l'importance de ses devoirs; d'une faiblesse, naît quelquefois une infinité de vertus; une ame qui a succombé en est plus attentive sur elle-même, et se précautionne davantage contre de nouvelles chûtes. Je suis bien assuré que si Clary devient mere, elle aimera ses enfants, elle sçaura les élever, et qu'elle me sera éternellement attachée: la reconnaissance, cette volupté des ames pures et sans orgueil, se joindra dans son coeur à l'amour. Il y a, je l'avouerai, des moments, où je reprends mes chaînes, où je m'attelle, et je chemine dans l'imbécillité, à côté de ces hommes animaux que l'homme sensé doit mépriser. J'entends d'ici les clameurs de la ville... eh bien, qu'ils crient, qu'ils me frondent; quand je rentre dans moi-même, que j'écoute le sentiment, la vérité, le devoir, et ce sont-là les voix que je dois entendre, puis-je douter que Clary ne soit pas rendue à la vertu? Et pourquoi ne recevroit-elle point sa récompense d'un retour si généreux? Le vrai repentir n'est-il pas la plus éclatante réparation? Et le premier des plaisirs n'est-il point celui d'être juste et bienfaisant? Nous osons nous dire les images deDieu: élevons-nous jusqu'à sa bonté, ou renonçons à une ressemblance si honorable. Parle, chevalier, que faut-il que je fasse?
-    </p>
-    <p>
-     Réponse du chevalier Digby. Ce qu'il faut que tu fasses, mon ami? Peux-tu bien le demander, sage courageux? Épouser vîte Clary; faire ce qu'à ta place feroit un être au-dessus de l'espèce humaine; rendre à cette infortunée tout son honneur, en la couvrant du tien; t'efforcer, en un mot, d'approcher de la divinité, dont nous sommes une faible représentation, en pardonnant, et faisant du bien à son exemple: c'est ainsi que l'homme peut prouver qu'il est son image, et ton respectable modèle n'agiroit pas autrement. Puisque tu es assuré que Clary pleure sincèrement ses fautes, qu'elle ne cherche pas à te tromper, il faut la récompenser d'avoir eu la force de s'arracher au vice, dans un âge où elle pouvoit lui prêter des charmes. Crois-moi: c'est une véritable honnête-femme; son ame n'a jamais été souillée. C'est sur le perfide qui a séduit son innocence, que doit retomber le mépris public: voilà la créature réellement punissable et livrée à l'opprobre et à la damnation éternelle. Tu parles de t'ensevelir avec ta femme et tes nouveaux parents à la campagne: prends-y garde; tu aurois peur! Crois-tu faire une mauvaise action? Tu domptes le préjugé barbare et absurde; tu le foules aux pieds: viens donc l'insulter à Londres, à la face de l'Angleterre; viens déployer ton ame sublime dans toute sa vigueur; ayes la fermeté d'apprendre à ces êtres stupides qui se disent des hommes, parce qu'ils en ont le nom, qu'on sçait s'élever au-dessus d'eux, en s'éloignant de leurs sentiers communs et battus par l'esprit servile d'imitation, et par la féroce ignorance. Sens, mon ami, tout le bien que tu vas faire à l'humanité: d'abord tu paies la vertu par la vertu même, et il n'y a que ce prix qui soit digne d'elle; tu réhabilites dans toute sa noblesse une ame qui se croyoit dégradée à ses propres yeux, parce qu'elle l'étoit aux regards de la multitude qui ne voit point, et qui n'a jamais rien apprécié. Tu fais plus, Borston: tu vas arracher par ce bel exemple, à la contagion du vice, une infinité de charmantes créatures qui verront que la vertu sur la terre a ses douceurs et sa félicité, et qui espéreront trouver des coeurs sages et nobles comme le tien. Goûte bien ton bonheur, mon ami. Il me tarde de vous serrer tous dans mes bras! Et ces bonnes gens! Te pénétres-tu de la joie que tu leur fais ressentir? Tu leur rends leur fille, leur honneur; tu ranimes leur vieillesse; tu semes des fleurs sur leurs dernières traces. Va, Borston, malheur à l'ame blasée qui ne sentira point la dignité de ton procédé, et qui ne partagera pas ta satisfaction! Tu es bien plus mon héros que ces hommes à batailles, ces instruments de meurtre qui ne sont conduits que par une fausse gloire: c'est toi que la véritable gloire couvre de son éclat. Si Londres étoit assez injuste, ou assez imbécille pour te refuser les acclamations qui te sont dûes, eh! Mon ami, il y a de quoi te dédommager: rentre dans ton coeur, il te dira que tu as fait une bonne action, et son suffrage ne doit-il pas te suffire? J'y ajoûte le mien: tu sçais que je l'accorde difficilement. La vertu n'a pas besoin de se transporter hors d'elle-même, pour se procurer un spectacle satisfaisant: sa propre estime est l'unique récompense qu'elle cherche à mériter, et c'est peut-être la seule qui produise une jouissance pure. Borston, quel plaisir est équivalent à la joie intérieure? Je ne suis point surpris que les dévots soient les plus heureux des hommes; ils trouvent en eux une source inépuisable de contentement. Encore une fois, Borston, comment, dans une telle circonstance, agiroit une créature qui seroit supérieure à l'homme? Comme tu agis; et elle ne feroit que son devoir. Il n'y a point de différence entre les obligations de l'homme et de l'ange: c'est ce qui fait l'essence inaltérable de cette vertu qui a été de toute éternité avec Dieu. Je trouve le lord Dorset bien plus qualifié, depuis qu'il t'a approuvé dans ton choix. On a osé lui contester sa noblesse: voilà un titre qu'il peut opposer à ses ennemis, et qui vaut mieux, à mon avis, que tous les antiques parchemins de nos pairs d'Écosse. Eh! Mon ami, soyons hommes, avant que d'être grands seigneurs. Je t'attends; dépêche-toi de venir; cette malheureuse terre a besoin d'exemples: il y a tant de faux sages, tant de singes et si peu d'êtres pensants! C'est toi qui seras le vrai philosophe. Je suis si las, si excédé de lire de l'esprit sur la morale, et de voir si peu de sagesse pratique! Borston, je ne crois ni aux charlatans, ni aux riches enseignes; je délie les outres bouchées par Ulysse, et j'en fais sortir les vents.
-    </p>
-    <p>
-     Que tu vas confondre de maris liés à des femmes qui profanent le titre d'épouse! Voilà celles que doit poursuivre un mépris sans appel. T'embarrasserois-tu des sots discours de nos importants pygmées de la Grande Bretagne? Laisse bourdonner ces insectes luisants, et renvoie-les avec tous leurs ridicules, leurs sens flétris et leur non-sense (Note: non-sense est une expression anglaise qui a beaucoup de force, d'ailleurs du nombre de ces expressions propres à une langue, et qui ne peuvent se transporter dans une autre.Impertinence, absurdité, défaut de jugement, de sens ; c'est à peu près en français, la signification de ce mot très-usité chez nos voisins), à leurs respectables moitiés. Va, Clary sera trop vengée: je t'en donne ma parole. Je brûle de la connaître, de vous embrasser tous deux. Adieu, digne homme, que je suis enchanté de ton action de vigueur! Ce ne sont point-là de ces vertus oisives qui s'enorgueillissent de leur impuissance, comme un faible monarque s'applaudiroit de ne pas faire le mal. La cotterie te salue; nous avons déjà bu une centaine de tost à la santé de ta femme. De tout mon coeur, ton ami, Digby.
-    </p>
-    <p>
-     P s. Le bruit de ton mariage se répand dans Londres. Je remarque que d'abord on est étonné: il y a dans le troupeau des faibles une infinité d'honnêtes-gens dont le jugement est flottant et indécis; ils essayent leur façon de penser; ce sont des aveugles auxquels on fait l'opération de la cataracte, et qui ne s'accoutument que par degrés à exercer leur nouveau sens; ceux-même qui se piquent de posséder la faculté de voir, ont souvent les yeux délicats: leurs regards clignottants ne s'étendent pas loin. D'ailleurs, mon ami, le jour de la raison n'éclaire que peu à peu: en soutenir la lumière est l'ouvrage du temps; viens donc, tu détermineras ces gens à courte vûe. Le lord Hamson prétend qu'il donneroit mille de ces individus, qu'on appelle honnêtes-femmes , pour trouver une Clary. J'imagine que nos mauvais plaisants seront bientôt à bout... et combien tu gagneras à être envisagé d'un coup d'oeil sérieux!
-    </p>
-    <p>
-     À propos de tes partisans, car tu en as déjà quelques-uns qui se battroient pour toi à toute outrance, et qui ne demandent pas mieux que de former une révolution dans les esprits, je ne veux pas fermer ma lettre, sans t'apprendre quelque chose de bien singulier: j'ai lié ici connaissance avec ton sir John Brown qui m'a confirmé tout ce que tu me dis à son sujet; c'est le champion décidé de ta future épouse: il est prêt à entrer en champ clos, et à donner en sa faveur un démenti formel aux trois royaumes; il est intarissable sur ses éloges; j'ai sçu qu'il avoit pensé mourir de douleur après s'être séparé d'elle; il est marié, et ce qui est plus merveilleux, sa femme a pris ses sentiments pour cette fille qu'ils appellent un ange de beauté et de vertu; ils t'attendent avec impatience, et te préparent une fête: crois-tu que je serai le dernier à t'en faire les honneurs?
-    </p>
-   </div>
-  </body>
- </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:67.15 wikidata:0"> Clary ou le retour à la vertu récompensé:
+                    MiMoText edition </title>
+                <author ref="viaf:95165197 wikidata:Q548610"> François-Thomas-Marie de Baculard
+                    d'Arnaud(1718-1805) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> unknown </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Amelie Probst </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 14367 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/MiMoText/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> LesSacrificesDeLAmour </title>
+                    <ref
+                        target="https://txtlab.org/2016/01/txtlab450-a-data-set-of-multilingual-novels-for-teaching-and-research/"/>
+                    <date> 2016 </date>
+                    <publisher> txtlab </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Épreuves du sentiment </title>
+                    <author> François-Thomas-Marie de Baculard d'Arnaud </author>
+                    <pubPlace> Paris </pubPlace>
+                    <publisher> Le Jay </publisher>
+                    <date> 1773 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <title> Clary ou le retour à la vertu récompensé </title>
+                    <author> François-Thomas-Marie de Baculard d'Arnaud </author>
+                    <date> 1767 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> mixed </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-10-30"> Initial ELTeC level-1 </change>
+            <change when="2021-12-22"> Extracted single novel from collection </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <p> Après la vertu, objet immuable de nos hommages, ce qui doit produire le plus
+                    cette considération personnelle, le premier et le moins frivole des honneurs, ce
+                    qui mérite davantage nos respects, l'estime publique, l'estime de soi-même,
+                    c'est le retour à cette même vertu dont si peu d'hommes sur la terre ne
+                    s'écartent point. Le repentir véritable, en exerçant notre sensibilité, rend, en
+                    quelque sorte, notre morale plus pure, et plus dégagée de ces mouvemens
+                    d'orgueil, le partage ordinaire des coeurs qui ont pu demeurer constamment
+                    attachés à leurs devoirs. Osons le dire: l'amour-propre est bien près de la
+                    vertu, et il est son plus dangereux séducteur. Une ame qui aura été avertie de
+                    la faiblesse inséparable de la nature humaine, montrera du courage sans vanité,
+                    et sera modeste dans ses avantages; le desir de réparer sa faute lui donnera un
+                    essor plus hardi, et l'idée de sa chûte l'empêchera de se trop applaudir de son
+                    élévation. D'ailleurs la religion et la vraie sagesse ne s'accordent-elles point
+                    pour nous présenter le remords sincère comme un titre d'expiation aux yeux de
+                    l'être suprême? Et pourquoi serions-nous plus sévères que la divinité?
+                    N'oublions pas que l'indulgence et la compassion sont les principaux attributs
+                    de l'homme, que, sans ces deux sentiments, son caractère n'existe plus, qu'en un
+                    mot, la vertu séparée de l'humanité n'est qu'un masque adroit de l'orgueil, un
+                    simulacre imposteur qui ne fait qu'usurper notre vénération. Rapportons-nous-en
+                    à la nature: elle nous mène comme par la main à la bienfaisance; c'est la nature
+                    qui nous presse de tenir notre sein toujours ouvert aux pleurs de l'infortune:
+                    et quel être plus digne de notre pitié, de toutes les consolations, de toutes
+                    les tendresses de l'humanité secourable, qu'une malheureuse créature, qui
+                    reconnaissant ses erreurs, revient avec des larmes à cette vertu, le plus doux
+                    sentiment de l'ame, et conserve une éternelle douleur de s'en être éloignée. Ces
+                    réflexions, qui, au premier coup d'oeil, paraîtront isolées et naître du hasard,
+                    sont le fruit de la lecture de deux lettres intéressantes que je me hâte de
+                    publier. J'ai pensé qu'elles pourroient répandre de nouvelles lumières sur ce
+                    qu'on appelle moeurs , matière importante qui, comme bien d'autres de ce genre,
+                    reste encore à discuter. Je desirerois, sans le secours d'une métaphysique
+                    abstraite dont les raisonnements froids et privés de vie nous échappent, fixer
+                    nos idées par rapport à la vertu, et au rang qu'elle doit occuper dans les
+                    esprits courageux qui ont la force de secouer la chaîne pésante du préjugé. Nous
+                    perdons notre tems à nous remplir la tête d'une infinité de connaissances
+                    frivoles, qui, pour tromper notre ignorance orgueilleuse, ont usurpé le nom
+                    imposant de sciences; l'étude de la vérité est peut-être la seule qui soit digne
+                    de l'homme, et c'est malheureusement celle qu'il néglige le plus. </p>
+                <p> Voici ces deux morceaux tels qu'ils m'ont été communiqués. </p>
+                <p> Lettre du baronet Borston, au chevalier Digby. </p>
+                <p> Tu es mon ami, chevalier: lis avec attention, apprécie chaque ligne, et décide
+                    du bonheur ou du malheur de mes jours, oui, de ma vie entière; songe que c'est
+                    mon ame même que je t'envoie, et que c'est à la tienne à la conduire, à
+                    l'éclairer, à prononcer, en un mot, sur ma destinée. Chevalier, je suis amoureux
+                    comme je ne l'ai jamais été. Te voilà étonné, confondu! Je m'y attendois; je ne
+                    suis pas moins surpris que toi de l'événement. Après la triste expérience que
+                    j'ai essuyée, connaître encore l'amour, croire à ses plaisirs, à ses douceurs,
+                    m'y abandonner sans réserve! C'est là précisément ce que je devois bien me
+                    garder de faire, et ce qui m'arrive aujourd'hui. Mais ne t'avise pas de me
+                    condamner, avant que d'avoir une instruction bien détaillée sur cette affaire si
+                    importante pour ton ami; oh! Je suis assuré de ton approbation; vous autres
+                    philosophes, vous ne voyez pas comme ce malheureux vulgaire qui n'a jamais que
+                    les yeux de la routine: tu me passeras le mot en faveur de la vérité naïve qu'il
+                    présente. </p>
+                <p> Tu sçais, chevalier, que nous aimons le lord Dorset et moi, à nous livrer à des
+                    promenades qui sont des espèces de voyages; le lord prétend que cet amusement
+                    est aussi avantageux à l'esprit qu'à la santé; il pense qu'on ne sçauroit trop
+                    mettre sous ses yeux de nouveaux objets, et que par-là on fait des provisions de
+                    connaissances qui contribuent à amasser un fonds de philosophie, l'aliment
+                    éternel de tout être qui sçait s'occuper noblement. On diroit que Dorset est
+                    entré dans les secrets de la nature; rien ne lui échappe; il raisonnera un jour
+                    entier, et avec toutes les recherches du plus sçavant observateur, sur une
+                    simple fleur des champs, qu'un ignorant prophane fouleroit aux pieds; et il
+                    ramène toujours ses conversations au sentiment; c'est dire qu'il excite et
+                    entretient dans l'ame cette douceur, cet attendrissement délicieux qui semble la
+                    préparer à recevoir les impressions de l'amour. Ce n'est pas toi qui ignores
+                    jusqu'à quel point mon coeur est sensible et prompt à s'enflammer, et combien il
+                    a souffert de la passion la plus malheureuse: miss Weymout a été aussi perfide
+                    qu'aimable: n'en parlons plus, chevalier, n'en parlons plus; son empire est
+                    détruit; j'ai connu une autre souveraine; non, mon ami, toutes les femmes ne
+                    sont pas fausses et hypocrites, et je veux te forcer toi-même à être leur
+                    panégyriste. </p>
+                <p> Je me promenois donc avec notre philosophe dans une route agréable, bien éloigné
+                    de prévoir que ce chemin-là menoit à l'amour; nous nous trouvons insensiblement
+                    arrivés près d'une métairie dont l'aspect est enchanteur: deux rangées de
+                    pommiers y conduisent; à quelques pas est un vallon émaillé de la plus riante
+                    verdure, et arrosé d'un ruisseau qui va se perdre sous un berceau de jeunes
+                    tilleuls; plus loin on découvre des vergers, des prairies artificielles, des
+                    boulingrins d'une fraicheur ravissante; des troupeaux paissoient sur des côteaux
+                    voisins; les rayons du soleil étinceloient et répandoient à grands flots l'or et
+                    la pourpre à travers les rameaux de grands arbres qui paraissent orgueilleux de
+                    leur antiquité; ils couronnent une montagne dont la situation avantageuse défend
+                    ce joli canton des vents du nord; un hameau qui attache les regards par la
+                    variété des bâtiments, forme le fond de ce riche paysage. </p>
+                <p> Nous nous sentons, comme malgré nous, entraînés vers la métairie. On nous y
+                    reçoit avec cette franchise qui est la politesse du sentiment, cette politesse
+                    si touchante, si vraie, et qui n'appartient qu'à ces ames innocentes dont la
+                    ville n'a point encore altéré la candeur. Le maître de la ferme est un vieillard
+                    que l'âge n'a point courbé sous les infirmités; son abord prévient et intéresse;
+                    son front ouvert et paré de longs cheveux blancs, semble annoncer sa bonne
+                    nature : il nous fit tout l'accueil que lui permettoit sa respectable pauvreté:
+                    on nous offrit du lait, du beurre, des oeufs frais; nous n'hésitames point à
+                    profiter de son invitation; Dorset voulut lui donner de l'argent: nous nous
+                    apperçumes que cette proposition l'humilioit; une ame qui se sent, qui se plaît
+                    dans sa dignité, frémit à la seule idée d'intérêt; je fis présent à une de ses
+                    filles d'un anneau d'or de peu de valeur que j'avois au doigt. </p>
+                <p> À peine étions-nous sortis, nous rencontrons auprès d'une fontaine taillée dans
+                    le roc, une fille qui gardoit des moutons; elle étoit assise sur un petit tertre
+                    couvert de mousse: c'étoit une souveraine sur son thrône. Je crois, chevalier,
+                    aux passions rapides, à ces transports impérieux qui semblent décider du coeur,
+                    et lui commander pour la vie; je n'ai pas jetté un regard sur Clary, c'est ainsi
+                    que s'appelloit la jeune personne, que voilà mes sens troublés, remplis du
+                    plaisir de contempler ce charmant objet; tous mes regards y sont attachés. En
+                    effet, c'est peut-être la physionomie la plus animée, la plus séduisante, la
+                    plus faite pour être adorée; deux grands yeux noirs, une taille élégante, mille
+                    graces naturelles, la rose de la jeunesse, l'air sur-tout du sentiment et de la
+                    mélancolie qui rend la beauté si touchante et si redoutable, l'amour même;
+                    voilà, mon cher, l'angélique créature qui vint m'enlever à cette dangereuse miss
+                    Weymout, dont le souvenir me poursuivoit par-tout. Ce qui va bien t'étonner,
+                    c'est que Clary lisoit: elle ne nous eut pas plutôt apperçus, qu'elle serra avec
+                    précipitation son livre dans sa poche. Je m'approchai le premier de cette
+                    aimable personne; elle parla: ma surprise, ou plutôt mon trouble devint plus
+                    grand: et ce trouble délicieux, tu en devines bien la cause. Quoique ce qu'elle
+                    nous dit ne fût que quelques paroles échappées comme à regret à la politesse,
+                    ces paroles restèrent dans mon coeur, et je n'eus pas besoin d'en entendre
+                    davantage pour sentir que Clary ennoblissoit l'état obscur où je la trouvois
+                    ensevelie. Le lord Dorset pensa comme moi. </p>
+                <p> Nous ne cessions de répéter son éloge; nous y ajoûtions toujours; nous n'eumes
+                    point d'autre conversation durant toute la soirée; la nuit ne servit qu'à
+                    fortifier les sentiments que m'avoit inspirés Clary. La réflexion, loin de les
+                    détruire, les approfondissoit; j'aimois, et j'aimois déjà avec violence:
+                    pouvois-je m'aveugler sur mon penchant? Je me cachai de Dorset. Le lendemain il
+                    me trouva rêveur; il m'en demanda la raison; je cherchai des prétextes: hélas!
+                    J'éprouvai que l'amour a des secrets pour l'amitié: enfin l'après-dînée, je me
+                    sauvai de Dorset, et je courus vite à l'endroit où nous avions rencontré
+                    Clary.Elle étoit dans la même situation que celle où nous l'avions vûe la
+                    veille, occupée à lire; je fus frappé de nouveaux traits. Belle fille,
+                    lui-dis-je, ne soyez point surprise de me revoir: ces paroles prononcées de ce
+                    ton qui part du coeur, me parurent l'embarrasser; elle rougit, et elle
+                    s'embellit; je continuai: que ma présence ne vous trouble pas; vous faites
+                    naître un intérêt qui ramène toujours près de vous; je ne veux point vous parler
+                    de votre beauté, vous devez en connaître le pouvoir: mais me seroit-il permis de
+                    céder à ma curiosité? Par quel prodige singulier habitez-vous ces lieux? Car
+                    vous ne sauriez cacher la vérité, et si j'en crois un sentiment qui ne sçauroit
+                    me tromper, il est peu de rangs qui soient dignes de vous. Clary fut déconcertée
+                    à cette espèce de compliment.-Mon rang, monsieur... mon rang est celui où vous
+                    me voyez; assurément la fortune ne me doit rien. Heureuse si j'avois toujours
+                    vécu dans cet azyle ignoré! C'est le séjour de la vertu; et elle ajoûte avec un
+                    soupir: il doit être celui du bonheur. À ces mots, les beaux yeux de Clary se
+                    couvrirent de quelques larmes qu'elle s'efforçoit cependant de retenir; je n'eus
+                    pas de peine à m'en appercevoir: mes regards étoient pénétrants, mon coeur les
+                    éclairoit; je m'écrie: vous pleurez, fille charmante! Je n'ose espérer de vous
+                    des lumières sur votre sort: mais soyez persuadée que, de quelque façon que vous
+                    répondiez à mes sentiments, vous avez intéressé un homme qui vous sera attaché
+                    pour la vie. Le ton respectueux et la timidité accompagnèrent ces expressions.
+                    Que te dirai-je, chevalier? Nous eumes une conversation qui ne finit qu'avec le
+                    jour. C'est dans cet entretien que Clary m'apprit son nom; c'est dans cet
+                    entretien que je conçus la passion la plus décidée; le livre que je surpris dans
+                    ses mains étoit la divine Clarisse, ce chef-d'oeuvre de l'immortel Richardson,
+                    qui fera à jamais les délices des coeurs sensibles. Clary cependant, sans se
+                    plaindre de l'espèce d'avilissement où elle paraissoit être, ne me donna aucun
+                    éclaircissement sur son état véritable, ni sur sa naissance. </p>
+                <p> Je voyois tous les jours la maitresse de mon ame: il ne m'étoit plus possible de
+                    me dissimuler son empire, et tous les jours elle m'enchaînoit par de nouveaux
+                    noeuds. Tu me renverras aux héros de bergerie de notre vieux Spenser; tu me
+                    diras peut-être que j'étois bien fou de traiter aussi dignement l'amour avec une
+                    gardeuse de troupeaux. Mon ami, tombe vîte aux pieds de ma divinité; demande-lui
+                    pardon de tes blasphêmes: tu n'as pas vû Clary, tu ne l'as pas entendue; va, il
+                    n'y a pas de majesté qui mérite plus le respect et la véneration; la beauté est
+                    la premiere souveraineté qu'aient connue les hommes.Je me hazardai à découvrir
+                    mes sentimens à cette adorable fille. Écoute-la bien; c'est elle qui va parler;
+                    ce qu'elle dit se grave trop dans le coeur, pour qu'on ne le retienne pas. Vous
+                    avouer, monsieur, que vous méritez ma franchise, c'est aspirer à votre estime,
+                    et tout autre sentiment m'est interdit. Il seroit donc inutile de vous
+                    dissimuler que je serois touchée de votre tendresse, s'il m'étoit permis de
+                    l'être. J'aime à croire que des vûes honnêtes ont produit cette inclination qui
+                    me flatte; une ame qui s'annonce comme la vôtre, ne sçauroit trahir la vérité:
+                    mais, monsieur... oubliez-moi; il ne m'est pas permis d'être à vous, à
+                    personne... non, à personne; laissez-moi, laissez-moi toute entiére à cette
+                    douleur qui me suivra jusqu'au tombeau, et il faut qu'elle m'y conduise;
+                    j'attends de votre probité, de votre compassion, que vous ne vous obstinerez
+                    point à vouloir vous éclairer sur le sort d'une infortunée, que vous
+                    humilieriez, poursuivit-elle avec un torrent de larmes, si vous sçaviez tous ses
+                    chagrins.-Vous humilier, divine Clary! Dites que vous cherchez à vous refuser à
+                    mes </p>
+                <p> respects, à mes hommages. Oui, je vous aime; eh! Quel plaisir je goûte à vous
+                    faire cet aveu! Vous m'avez inspiré la tendresse la plus vive, et la plus pure;
+                    chaque jour vous prête de nouveaux charmes: parlez: à quel prix puis-je vous
+                    posséder? Des chagrins, vous! Ah! Créature céleste, êtes-vous faite pour payer
+                    ce tribut à l'humanité? M'ôteriez-vous la douce idée de les réparer? Non, répond
+                    Clary avec vivacité, vous ne pouvez, monsieur que les augmenter; ne me forcez
+                    pas, je vous en conjure, à vous révéler... monsieur... il m'en coûteroit la
+                    vie... encore une fois, au nom de l'humanité, n'entretenez point des sentiments
+                    auxquels il m'est absolument défendu de répondre; j'implore de vous cette
+                    grace.-Une grace, belle Clary! C'est moi qui vous en demanderois: je vous
+                    obéirai... je vous obéirai aveuglément; non, non, je ne vous parlerai jamais de
+                    mon amour, dussé-je en mourir! </p>
+                <p> Ces mots furent accompagnés de larmes qui s'échappoient du fond de mon coeur; </p>
+                <p> elle parut sensible à ma situation. Je voyois tous les jours Clary. Soumis à la
+                    loi cruelle qu'elle m'avoit imposée, je gardois un profond silence; je me
+                    contentois d'attacher mes yeux sur les siens, et de soupirer; souvent je la
+                    surprenois dans un trouble qu'elle s'efforçoit de cacher: chaque moment me la
+                    montroit plus digne de ma tendresse et de mon estime.Elle a un esprit droit et
+                    approfondi, susceptible d'une suite de réflexions, bien inférieur, je l'avoue, à
+                    la finesse des sentiments dont elle est remplie; quelle ame! Il n'en est point
+                    de plus délicate, de plus noble, plus généreuse, plus bienfaisante: c'est un
+                    mélange délicieux, le parfum des qualités les plus exquises. Je n'osois, parce
+                    que j'aimois véritablement, et qui aime véritablement, craint de déplaire, je
+                    n'osois, dis-je, mettre dans ma confidence les bonnes gens chez qui elle
+                    demeuroit. Quelquefois Clary laissoit tomber ses regards sur moi, et ses beaux
+                    yeux noirs s'obscurcissoient de larmes. </p>
+                <p> As-tu bien éprouvé, mon ami, tout l'empire que les pleurs donnent à une belle
+                    femme? On peut dire qu'alors elle brille dans la majesté de tous les charmes; et
+                    quelle douce volupté, quelle ivresse ravissante ce spectacle inspire! Chevalier,
+                    pour une ame sensible, c'est peut-être la premiere des jouissances; dans ce
+                    plaisir, il n'y a rien que de pur et de délicat; et qui peut approcher de la
+                    délicatesse? C'est une fleur suave, que bien peu de gens ont la faculté de
+                    respirer. </p>
+                <p> La contrainte à laquelle je m'étois asservi ne tarda pas à déranger ma santé; il
+                    falloit, ou parler de mon amour, ou vaincre un penchant trop impérieux. J'eus la
+                    force de me taire: mais la victoire que je remportai, fut suivie d'une maladie
+                    dangereuse, qui fit appréhender pour mes jours. J'écrivis ma situation à Clary:
+                    elle vint avec la fille du fermier, celle à qui j'avois donné cet anneau. Je ne
+                    crois pas qu'une divinité descendue des cieux, cause plus de ravissement à un
+                    mortel, que ne m'en fit goûter la visite de cette angélique personne. </p>
+                <p> Jamais Clary ne s'étoit fait voir plus belle, plus intéressante, plus forte de
+                    ce charme qu'on ne peut exprimer et qui produit l'enthousiasme de l'amour. Elle
+                    m'aborda en pleurant; quelles larmes, chevalier! Elles coulèrent dans mon coeur;
+                    je ne pus lui dire que ces mots: cruelle et chère amie, c'est votre ouvrage que
+                    vous voyez! </p>
+                <p> Votre situation, monsieur, me répond-elle avec attendrissement, me pénétre; je
+                    ne vous le dissimule pas: j'achéterois aux dépens de mes jours le bonheur de
+                    vous rendre heureux: mais... mais vous allez vous-même prononcer mon arrêt et le
+                    vôtre: vous allez juger... si je sçais aimer. À ce mot, elle penche la tête sur
+                    ses deux mains, et il lui échappe une abondance de larmes; elle continue: je
+                    vais immoler ma vanité, mon secret; oui, je vais me plonger dans l'amertume,
+                    dans la honte, dans l'opprobre, me souiller aux yeux de l'homme dont j'eusse le
+                    plus recherché l'estime. Que me demandez-vous?-Votre main, Clary; que je passe
+                    mes jours à vous adorer, à me remplir de mon bonheur...-votre bonheur! Ah!
+                    Monsieur! Il n'est pas en mon pouvoir de faire votre bonheur, ni le mien;
+                    suis-je d'un rang? ...-Clary, que me parlez-vous de rang? Quel rang approche de
+                    l'amour, de la beauté, de la vertu? Voilà les premiers titres du monde; c'est
+                    votre générosité qui m'élèvera jusqu'à vous, si vous daignez...-arrêtez,
+                    monsieur, ce langage ne doit pas être dans votre bouche; c'est à moi à
+                    m'abbaisser, à me confondre devant tout l'univers; cette attitude est la seule
+                    qui me convienne; elle est conforme à mon état; il seroit heureux pour moi que
+                    nous ne fussions séparés que par la distance des conditions. Vous parlez de la
+                    vertu, monsieur! ... Sçachez tous mes malheurs; sçachez... vous me percez le
+                    sein; je me sacrifie, je meurs de douleur; oui, vous apprendrez tout; oui, vous
+                    lirez dans ce coeur qui ne peut être à vous... et qui vous aime. </p>
+                <p> Les sanglots la suffoquent; je lui prends les mains.-Vous m'aimez, fille divine! </p>
+                <p> Vous m'aimez! Et c'est moi qui vous causerois ce trouble! Ah! Que plutôt
+                    j'expire mille fois! Non, je ne prétends pas vous arracher vos secrets; soyez la
+                    maitresse de votre coeur, de votre liberté: Clary, s'il le faut, ne nous voyons
+                    jamais; vous me plaindrez du moins; vous ne sçauriez me refuser votre pitié.-Ma
+                    pitié! Ah! Respectable Monsieur Borston, pourquoi m'aimez-vous? Pourquoi
+                    m'estimez-vous? Je perdrai tous ces sentiments: hélas! Ils ne me sont pas dus.
+                    Eh bien, monsieur... je vais vous parler... je vais vous parler...Susanne,
+                    dit-elle, en regardant avec une douceur charmante la jeune personne qui
+                    l'accompagnoit, daigne m'aimer, mêler ses pleurs aux miens; je n'ai point de
+                    secrets pour son amitié. Elle se tourne ensuite de mon côté, et avec un
+                    gémissement douloureux: cher monsieur, il faut donc vous satisfaire! Après cet
+                    aveu, c'est la derniere fois que je vous vois, que je vous parle, que je vous
+                    expose une ame... monsieur... m'offrir votre amour, ce seroit m'offenser; y
+                    ajoûter votre main, c'est... c'est un présent que je ne mérite pas, et dont je
+                    connais tout le prix. Je ne rougis point de ma naissance; hélas! Ce n'est pas
+                    elle qui me cause de la honte! Je dois la vie à de simples laboureurs dans le
+                    comté de Devonshire; ils avoient assez de bien pour me donner une éducation
+                    au-dessus de mon état, et peut-être cette marque de tendresse de leur part
+                    m'a-t-elle été préjudiciable. Notre vanité se fortifie avec nos lumières. Mon
+                    pere étoit déjà d'un âge avancé, lorsque je vins au monde; ma mere et lui
+                    renaissoient, s'applaudissoient en moi: tout sembloit les assurer que je serois
+                    l'appui de leur vieillesse, la consolation de leurs derniers jours. Combien de
+                    fois m'ont-ils élevée dans leurs bras, en me serrant contre leur sein, et me
+                    disant avec des larmes: ô notre chere fille! Chere enfant de notre amour! Nous
+                    te laissons peu de bien, mais notre exemple à suivre, celui d'une famille
+                    entière, qui, depuis deux cent ans, a comme nous de pere en fils, labouré ces
+                    champs; elle s'est fait honneur de manier la charue: la vertu a toujours été son
+                    premier héritage. Clary, n'oublie jamais que cette vertu est préférable à tout,
+                    que c'est l'unique richesse qui ne périsse point; apprends à te glorifier de ton
+                    indigence; vis et meurs dans ce village, où tu seras ensevelie à nos côtés;
+                    garde-toi d'aller à Londres: les habitants de cette ville sont des corrupteurs;
+                    ils te perdroient, chère enfant! Fais comme nous; la pauvreté est moins
+                    difficile à supporter, quand l'honnêteté l'accompagne; sur-tout que Dieu soit
+                    continuellement devant tes yeux. </p>
+                <p> Et je l'ai abandonné ce dieu qui me punit aujourd'hui! J'ai tout oublié, j'ai
+                    trahi tout, le devoir, la sagesse, la nature... que vous dirai-je, monsieur? Ces
+                    chers auteurs de mes jours, si vertueux, si tendres à mon égard, si
+                    respectables... j'ai fait leur deshonneur! </p>
+                <p> À ces dernières paroles, elle fond en larmes, la tête entiérement baissée sur
+                    ses genoux. </p>
+                <p> Ah! M'écriai-je, en serrant avec transport ses mains entre les miennes, il n'est
+                    pas possible qu'avec de tels sentiments vous ne soyez la plus estimable, la plus
+                    adorable des femmes: n'hésitez pas; versez vos pleurs, votre ame dans mon sein,
+                    dans le sein de l'ami le plus fidèle, le plus attendri, qui partagera vos
+                    peines, qui s'en pénétrera. </p>
+                <p> Elle reprend, en relevant la tête, et me montrant la douleur la plus
+                    intéressante: vous le voulez!-Je vous le répéte, chere Clary, c'est mon coeur
+                    même qui recevra vos larmes.Les chagrins que l'on confie à l'amitié, en
+                    deviennent plus légers; ils s'adoucissent...-les miens, monsieur, ne peuvent
+                    qu'augmenter par cet aveu: mais vous le desirez... vous sçaurez tout. </p>
+                <p> J'avois quelque beauté, funeste présent du ciel, quand il nuit à la vertu!
+                    Peut-être commençois-je à ne pas ignorer ce frivole avantage: mais j'étois digne
+                    de ma famille; je respirois ce charme qui accompagne l'innocence, et dont la
+                    perte est irréparable; mon ame étoit une glace pure qui n'avoit encore reçu
+                    aucune altération: il est vrai que je laissois échapper une sensibilité qui
+                    devoit être la source de mes malheurs et de mes fautes; mon coeur s'ouvroit à
+                    toutes les impressions d'attendrissement, lorsque ma cruelle destinée amena dans
+                    nos cantons et offrit à mes yeux le plus aimable... le plus détestable des
+                    hommes; il joignoit aux graces de la figure tous ces alentours qui sont autant
+                    de piéges pour un sexe hélas! Trop faible, l'éclat du rang et de la richesse, le
+                    faste de l'extérieur, les agréments du langage: il réunissoit tous les moyens de
+                    séduction. Quel ennemi pour un âge sans expérience! Ma vertu et mon éducation me
+                    prêtoient des armes; je combattois, quelquefois je subjuguois ces sentiments qui
+                    cherchoient à me dominer. Je me redisois sans cesse que je n'étois que la fille
+                    d'un fermier, et que je ne devois pas même permettre à mes yeux le moindre
+                    regard dont le lord Mévil fût l'objet... le lord Mévil, m'écriai-je! Clary, ce
+                    malheureux vous aura causé des chagrins; je l'ai connu comme le fléau de la
+                    vertu; il vient enfin de recevoir la punition de son abominable conduite.
+                    Comment, interrompt Clary troublée?-Il vient d'être tué en duel dans un voyage
+                    d'Allemagne. Il n'est plus, poursuit Clary, en levant les mains au ciel! Elle
+                    s'arrête: puisse un heureux repentir lui avoir ouvert les yeux!Que la justice
+                    divine se borne à sa mort! Oui, monsieur, continue-t-elle en gémissant, voilà
+                    l'auteur de tous mes maux, de mes erreurs, de mon désespoir éternel! </p>
+                <p> Mévil s'introduisit chez mes parens, je ne me rappelle point pour quel sujet,
+                    sans doute c'étoit pour ma ruine: il l'avoit méditée dès le premier moment qu'il
+                    m'avoit vûe; il revient plusieurs fois à la ferme, saisit l'occasion de
+                    m'adresser quelques paroles dont le poison subtil s'insinue dans mon ame comme
+                    un feu rapide et dévorant; il m'écrit, et c'est-là l'origine de mes infortunes,
+                    ou plutôt de mes coupables égarements; je n'ai pas la force de rejetter cette
+                    lettre fatale; elle achève de porter les derniers coups à ma vertu affaiblie: je
+                    perds de vûe l'honnêteté, l'exemple de ma famille, la religion, la religion si
+                    nécessaire à notre faiblesse; je m'oublie jusqu'à donner un rendez-vous au
+                    perfide Mévil. C'est dans cette entrevûe qu'il déploie tous les artifices de son
+                    esprit scélérat; il se jette à mes pieds, les inonde de larmes, me jure qu'il
+                    sera mon époux; il ajoûte qu'il faut que je le suive à Londres; que c'est-là que
+                    nous nous marierons; il m'offre la perspective la plus brillante, les plaisirs,
+                    la fortune, la grandeur; il exige enfin de mon amour que mes parents ignorent
+                    son projet, et que je m'arrache de leur sein, sans leur confier notre départ. Je
+                    l'aimois, j'avois étouffé tous les sentiments de vertu; il me restoit encore
+                    ceux de la nature; je ne pouvois la trahir au point de quitter mon pere et ma
+                    mere, sans leur apprendre du moins la cause de notre séparation. Mévil
+                    s'apperçoit que cette proposition me révolte, que l'amour va être vaincu; il
+                    tire son épée avec fureur, veut se donner la mort; je tremble pour ses jours; je
+                    l'arrête. Ma coupable tendresse l'emporte; je promets tout. Quels combats,
+                    monsieur, quels déchirements j'éprouvai la veille de cet horrible départ! Jamais
+                    ma respectable famille ne m'avoit plus attendrie, ne m'avoit plus aimée; je
+                    repoussois un torrent de pleurs qui demandoit à s'ouvrir un libre cours; mon
+                    coeur étoit enveloppé de la plus mortelle tristesse. Délaisser des parents si
+                    dignes d'être adorés, si bienfaisants! Se refuser à la douceur de les consoler,
+                    de les soutenir aux bornes de la vie! Abandonner leur vieillesse aux horreurs de
+                    la pauvreté! Les trahir! Les outrager! Leur enfoncer le poignard, quand j'étois
+                    dans leur sein! Pouvois-je m'y résoudre? Ma chere Clary, me disoit mon pere avec
+                    des larmes, sens-tu combien tu es nécessaire à notre bonheur? C'est pour toi
+                    seule que je cultive ces champs, que je les arrose de mes dernières sueurs. Ma
+                    fille, mes pieds touchent ma fosse; tu me fermeras bientôt les yeux. Ma mere, à
+                    ces mots, me serroit contre sa poitrine, en pleurant aussi, et tendoit sa main à
+                    mon pere. Je m'écrie, en tombant dans leurs bras: ô mes tendres parents!
+                    Sachez... le lord, le perfide lord entre, me surprend prête à tout découvrir; il
+                    me jette un regard: je balance entre la nature et l'amour; un trouble affreux me
+                    saisit; je perds l'usage des sens; on me conduit à mon lit; et je me trouve le
+                    lendemain matin, dans une chaise de poste à côté du lord, et à vingt mille du
+                    comté de Devonshire.J'appris depuis que Mévil avoit fait entrer la nuit ses
+                    domestiques dans ma chambre, et qu'ils m'avoient transportée évanouie encore à
+                    la voiture de leur maître. Quel réveil, monsieur! C'en étoit fait: il n'étoit
+                    plus possible de retourner dans le sein paternel. La vertu avoit fui de mes yeux
+                    pour toujours; je ne voyois plus que ma passion, que le corrupteur de mon ame,
+                    qui se montroit à mes regards, sous des traits bien opposés. Nous arrivons à
+                    Londres. </p>
+                <p> Je me bornai à pleurer mes parents, à chérir leur mémoire, et je me livrai enfin
+                    à la séduction de mon ravisseur, sur la promesse d'un mariage qu'on éloignoit de
+                    jour en jour. </p>
+                <p> La fortune m'accabloit de ses dons. Tous les plaisirs, toutes les illusions les
+                    plus flatteuses et les plus caressantes sembloient voler au-devant de mes pas.
+                    J'étois entourée d'une foule d'adorateurs, qui nourrissoient cette espèce
+                    d'ivresse où le lord cherchoit à me retenir: mais lorsque mes yeux se retiroient
+                    de dessus ces prestiges, lorsque je portois mes regards jusques dans mon coeur,
+                    quel spectacle s'y élevoit! J'y entendois gémir la nature affligée; je voyois
+                    dans ce coeur déchiré l'image de mes infortunés parents, qui pleuroient la perte
+                    de leur fille arrachée d'entre leurs bras, leur fille deshonorée, qui me
+                    redemandoient à moi-même avec tout l'attendrissement, tout le douloureux du cri
+                    paternel; je les voyois expirants; ils me tendoient les mains, ces chers
+                    parents, de leur lit de mort! Ah! </p>
+                <p> Monsieur, quelle horrible situation, et que la fortune dédommage peu de la
+                    tranquillité de l'innocence! Quelquefois je voulois m'aller jetter aux pieds de
+                    ma famille, les embrasser, y mourir; le fracas d'un monde corrompu venoit
+                    détruire ces heureux mouvements, et m'étourdir sur la douleur profonde qui me
+                    consumoit. </p>
+                <p> Un jour Mévil, avec une société nombreuse, me conduit au spectacle. L'assemblée
+                    étoit brillante; on avoit annoncé une piéce nouvelle; j'en ai oublié le titre.
+                    Dans une des scènes du drame, paraissoit un vieillard en cheveux blancs, un
+                    hoyau à la main, le portrait même de la pauvreté respectable; il disoit à une
+                    jeune personne parée et couverte de diamants: "ah! Ma fille, je vous vois des
+                    richesses: où sont vos vertus? " Je m'écrie: ah! Mon pere! Et je m'évanouis. </p>
+                <p> On m'a rapporté que ce cri frappa tous les spectateurs. J'ouvre les yeux; je me
+                    trouve à l'hôtel du lord, environnée de quelques-uns de ses amis, qui
+                    s'efforçoient de me rapeller à la vie; je m'échappe de leurs bras, et je vais
+                    tomber, échevelée et mourante, aux pieds de Mévil:-mylord, je viens d'entendre
+                    au théâtre mon arrêt et mon devoir.Ayez pitié d'une malheureuse fille dont vous
+                    avez égaré les premiers pas. Pour prix de mon amour, je vous demande la
+                    réparation de mon honneur; que je puisse revoir mes parents, soutenir leurs
+                    regards, me glorifier encore de leur pauvreté! Que j'aille me cacher et expirer
+                    avec le nom de votre femme dans leur chaumière, dans cette chaumière, où je
+                    retrouverai mon berceau, qui m'a vûe vertueuse, innocente! ... Mévil, ce ne sont
+                    ni votre rang, ni vos biens que j'implore de votre générosité, de votre
+                    humanité: c'est, je le répète, le nom de votre épouse. Vous n'avez point à
+                    rougir de moi, ajoûté-je en lui embrassant les genoux; qu'avec ce nom j'aie la
+                    consolation de pleurer un jour, un seul jour dans le sein de mon pere et de ma
+                    mere, et ensuite ensevelissez-moi dans quelque demeure obscure; jettez-moi dans
+                    un cachot; déchirez mon sein; donnez-moi la mort: je vous bénirai. Songez,
+                    mylord, que c'est la promesse de me reconnaître pour votre femme, qui m'a
+                    séduite, qui m'a perdue. Voudriez-vous abuser de la faiblesse d'une infortunée
+                    qui n'a sur la terre de protecteur que vous? </p>
+                <p> Les amis du perfide Mévil se retirent sans pouvoir me refuser des larmes; il ne
+                    reste auprès de lui que ses domestiques. Alors toute la scélératesse du monstre
+                    se découvre et m'accable. La fureur étinceloit dans ses yeux.-D'où vous vient
+                    cette audace? Est-ce au théâtre que vous avez puisé ces sentiments singuliers?
+                    Je ne m'attendois pas à cette déclamation. Avez-vous pu imaginer que Clary
+                    devint jamais lady Mévil? </p>
+                <p> Il veut poursuivre. Je me lêve avec précipitation, et courant à un couteau qui
+                    étoit sur la cheminée, ceci, lui dis-je, va me délivrer de mes maux. Mévil
+                    s'élance, m'arrache le couteau des mains; je tombe sur un siége, accablée du
+                    plus profond désespoir. </p>
+                <p> Non, barbare, m'écriai-je, les joues inondées de deux ruisseaux de larmes, vous
+                    ne m'empêcherez pas de m'ôter une vie, que vous m'avez rendue odieuse. Vous
+                    m'avez ravi l'honneur, ce bien mille fois préférable à l'existence, monstre! Et
+                    vous vous opposez à ma fin, à la fin de ma honte, de mes tourments! Cruel...
+                    remène-moi dans ces lieux témoins de mon innocence; rends-la-moi cette innocence
+                    qui faisoit toute ma richesse; rends-moi à ces parents infortunés, dont hélas!
+                    Je suis devenue l'opprobre! Qu'ils reçoivent mon dernier soupir! Que je meure
+                    sur le sein paternel! Ils me pardonneront, ils me plaindront du moins... ils
+                    n'accuseront que toi, que toi qui m'as trompée... ah! Mylord, avois-je mérité
+                    cette punition? Ou, si je suis coupable, étoit-ce à vous à me punir? Il
+                    s'approche en me tendant la main.-Lâche, n'ajoûtez-point à vos forfaits la
+                    trahison; soyez mon assassin; percez, percez ce coeur... que vous avez égaré...
+                    eh quoi! Votre barbarie va jusqu'à me refuser la mort? Il n'y a cependant pour
+                    moi d'autre azile que le tombeau, et je ne puis m'y plonger, m'y anéantir! ...
+                    Le ciel ne prendra point pitié d'une malheureuse qui n'a d'autre soutien que
+                    lui? Les pleurs et les sanglots me coupoient la voix; j'étois ensevelie dans ce
+                    qu'on peut appeller la stupidité des douleurs. Mévil se retire avec une espèce
+                    de confusion; il parle bas à une fille qui me servoit; cette créature, touchée
+                    de mon sort, tente tous les moyens de me consoler; elle me dit que mylord a paru
+                    sensible, et qu'elle ne doute pas qu'il ne m'épouse. Le voile étoit déchiré; je
+                    ne pouvois plus me faire illusion; l'ame détestable de Mévil s'étoit montrée
+                    dans toute son horreur. Betty, c'étoit le nom de cette fille, me conduit, ou
+                    plutôt me traîne à mon appartement. Là je m'abandonne à une foule d'idées qui se
+                    détruisoient successivement. Il m'est aisé de mourir, me disois-je; l'existence
+                    est pour moi un fardeau insupportable... mais n'ai-je pas assez offensé la
+                    vertu, la religion? </p>
+                <p> Ai-je besoin de nouveaux crimes? Cesser d'être! Je ne verrois plus mes chers
+                    parents! Ah! Qu'ils recueillent mes larmes, ma vie! ... Que leur dernier baiser
+                    se fixe sur mes lèvres expirantes. Enfin après un flux et reflux d'agitations
+                    contraires, je m'arrête à un projet; je parais plus tranquille. Betty imagine
+                    que le sommeil va me surprendre: elle me quitte.Alors je me détermine à exécuter
+                    promptement ce dessein, qui faisoit ma seule ressource. Je répète dans le fond
+                    de mon coeur: ô mere la plus tendre! Ô pere le plus respectable! Vous daignerez
+                    me r'ouvrir vos bras; vous ne me refuserez pas la douceur d'attendre à vos pieds
+                    la fin de mes tristes jours: que votre malheureuse Clary meure avec votre
+                    bénédiction! Aussi-tôt je reprends mes premiers habits, sur lesquels j'avois
+                    souvent versé des larmes en secret. Hélas! Ils me rappelloient mon heureux état
+                    d'obscurité; j'étois alors vertueuse! Je laisse à mon scélérat séducteur tous
+                    ses dons empoisonnés; je ne garde qu'une petite bague de peu de valeur, présent
+                    d'un de mes parents, et dont j'avois résolu de me défaire au sortir de Londres.
+                    J'aurois eu horreur de me réserver un seul shelling qui eut appartenu à Mévil.
+                    Avec quelle honte et quels mouvements d'indignation je regardai ces robes
+                    éclatantes, tous ces diamants dont le perfide avoit paré son crime et mon
+                    deshonneur! Il m'avoit semblé que mes nouveaux vêtements m'avoient rendu cette
+                    innocence, dont je pleurerai éternellement la perte. J'avois examiné la
+                    situation de mon appartement: il étoit au premier étage. Une de mes fenêtres, à
+                    l'aide d'un drap découpé, facilita mon évasion. Avant que de quitter cet odieux
+                    séjour, j'avois pris la précaution de laisser sur ma table une lettre adressée
+                    au lord; elle contenoit, à peu près, ces expressions, que ma douleur n'aura pas
+                    de peine à se rappeller. </p>
+                <p> "Ne voulant point me donner la mort, parce que je crains encore ce ciel fatigué
+                    de mes offenses, et que j'aspire à exhaler mon dernier souffle dans le sein de
+                    ma famille, j'ai pris le seul parti qui me convenoit, celui de vous détester, de
+                    céder à mes remords, et de vous fuir pour jamais comme mon assassin, comme le
+                    ravisseur de l'unique bien que possédoit une malheureuse fille, et qu'elle ne
+                    peut plus recouvrer. Perfide Mévil! Vous m'avez arrachée des bras paternels!
+                    Vous vous êtes joué des serments les plus sacrés! Vous m'avez ôté mille fois
+                    plus que la vie! Et vous m'avez laissé pour prix de ma faiblesse, l'opprobre,
+                    une tache ineffaçable, et qui flétrira jusqu'à ma mémoire! Ma honte me
+                    survivra... barbare! Quelle femme aimoit plus la vertu que moi? Et je l'ai
+                    outragée, je l'ai souillée cette vertu dont je sens trop la perte irréparable!
+                    De quel oeil vont me regarder mes parents, des vieillards qui ont à m'exposer le
+                    cours de soixante années d'une vie irréprochable et intacte, lorsque moi,
+                    comptant à peine dix-sept ans, je suis devenue l'injure de ma famille, du lieu
+                    qui m'a vû naître, lorsque mon deshonneur est au comble! ... Ah! Mylord! Je vais
+                    mourir, car il ne m'est plus possible de vivre chargée d'une telle ignominie.
+                    C'est des portes du tombeau que les cris de ma douleur, de mon désespoir,
+                    retentiront jusqu'à vous, iront vous accuser, vous déchirer, vous punir...
+                    peut-être le repentir s'élevera-t-il dans votre ame, et me donnerez-vous des
+                    pleurs: mais il ne sera plus temps, mylord, il ne sera plus temps! Souvenez-vous
+                    que je ne demandois à porter qu'un seul instant le nom de votre femme; j'eusse
+                    du moins expiré avec honneur. Personne sur la terre ne me protège, ne me
+                    soutient, n'a daigné vous présenter mon innocence outragée; tout a repoussé mes
+                    cris et insulté à mes plaintes. Eh bien! Ce n'est plus la justice humaine que je
+                    réclame: c'est la justice divine dans toute sa rigueur; celle-là est
+                    incorruptible; elle ne connaît ni les grandeurs, ni les dignités; la chambre
+                    haute ne lui en impose point; elle juge les lords, les pairs, et les condamne
+                    comme les derniers des coupables. Tremblez, lâche Mévil: je vous abandonne à ses
+                    coups. Si le faible est écrasé dans ce monde, il a un défenseur dans le ciel.
+                    Dieu se levera, prendra en main ma cause; c'est à ses pieds même que je porte
+                    mes larmes; et... je t'y attends, perfide." P s. " Vous trouverez dans mon
+                    appartement vos bienfaits corrupteurs. J'ai repris mes premiers vêtements, les
+                    seuls qui me conviennent: que n'ai-je, hélas! Pu reprendre avec eux mon premier
+                    état d'honnêteté! Je n'emporte que mon coeur, mon coeur brisé par le remords,
+                    par une honte éternelle; et j'embrasserai avec joie une misere dont je n'aurai
+                    point à rougir." Descendue dans la rue, je marche avec précipitation,
+                    appréhendant de ne point m'éloigner assez-tôt d'une fatale demeure. J'étois
+                    tremblante, égarée dans les ténébres, détournant sans cesse la tête, dans une
+                    agitation inexprimable, ne sçachant trop où j'allois. J'entends du bruit: je
+                    redouble de vîtesse; on me poursuit. Comment, me dit un gros homme que je
+                    reconnais pour être le chapelain du lord, et qui me saisit par le bras! À cette
+                    heure, miss, dans les rues! Et où allez-vous?-Ah! Monsieur Wickman... je vais...
+                    sauvez-moi, au nom de Dieu; ne me forcez pas de rentrer dans cette abominable
+                    maison; vous ne sçauriez faire une oeuvre plus digne de votre saint ministère;
+                    je quitte, j'abandonne mylord et le crime pour jamais: je veux rentrer dans le
+                    sein de la vertu, dans le sein de mes parents: c'est à vous de m'appuyer dans
+                    mon projet: ne me refusez point, je vous en conjure, votre secours. </p>
+                <p> Ce misérable, qui ne demeuroit pas à l'hôtel, me répond que je pouvois entrer en
+                    toute sûreté chez lui, quoique sa femme fût absente, et qu'il n'avoit pas besoin
+                    des sentiments de la religion pour me respecter, et m'être de quelque utilité.
+                    Il me donne la main, et me conduit dans une salle basse: je m'assieds; et là, en
+                    peu de mots, je lui raconte tous mes malheurs. Le croiriez-vous, monsieur? Ce
+                    détestable hypocrite dont j'imaginois avoir excité la pitié et le zèle
+                    charitable, profite de ces moments de douleur et de trouble, pour me tenir un
+                    langage bien opposé à l'esprit de son caractère. J'ouvre les yeux sur ma
+                    démarche imprudente; il n'étoit plus temps de la réparer. Le monstre veut user
+                    de violence. J'ai recours aux remontrances, aux prières, aux pleurs, aux
+                    sanglots; je me jette aux pieds de cet indigne ministre des autels:-quoi!
+                    Oublieriez-vous à ce point vos devoirs, la religion, la nature, l'humanité,
+                    l'humanité qui vous présente mes larmes? Je me réfugie dans votre sein, comme
+                    dans le sein de Dieu même; j'ai regardé votre maison comme un temple, et vous
+                    abuseriez de la confiance d'une malheureuse fille qui, après le ciel, implore en
+                    vous son ange tutélaire! ... Monsieur Wickman, n'ajoûtez point aux crimes de
+                    mylord: je suis assez coupable; soyez mon appui, mon pere. </p>
+                <p> Cet homme impitoyable alloit employer la force. Je m'élance vers la fenêtre; je
+                    m'écrie: personne ne viendra-t-il au secours d'une misérable fille? Wickman
+                    furieux me jette un mouchoir sur la bouche. On heurte à grands coups à sa porte;
+                    il ne l'ouvroit pas; on redouble: elle est enfoncée. Un jeune homme dont
+                    l'habillement annonçoit un militaire, entre l'épée à la main; je me précipite
+                    aux pieds de l'inconnu:-qui que vous soyez, daignez me défendre contre le plus
+                    méchant des hommes. L'étranger s'empresse de me relever, me fait asseoir à ses
+                    côtés; je lui apprends sans nul déguisement l'aventure qui m'avoit exposée à la
+                    perfidie de Wickman. Respectable fille, me dit-il, confiez-vous à moi; prenez
+                    mon bras; je vous prouverai que les personnes de mon état sçavent honorer la
+                    vertu, tandis que ce misérable, dégradant son caractère, n'aspiroit qu'à vous
+                    outrager; et toi, malheureux, ajoûte-t-il se tournant du côté de Wickman, ta
+                    bassesse te sauve de la punition. </p>
+                <p> Je t'aurois déjà arraché la vie, si je ne craignois de me deshonorer. Allons,
+                    miss, suivez-moi. Mon vengeur avoit vingt-cinq ou vingt-six ans, la figure
+                    intéressante; la noblesse de son ame étoit peinte sur son visage. J'étois saisie
+                    de douleur et de crainte; je me livrai à la générosité de l'inconnu, résolue de
+                    terminer mon sort, si, comme le chapelain, il avoit la lâcheté d'abuser de ma
+                    confiance, et persuadée que l'être suprême me pardonneroit ce dernier crime, en
+                    faveur du motif qui me feroit attenter sur mes jours. Me voilà donc dans les
+                    rues de Londres, au milieu de la nuit, seule avec un jeune officier, et en
+                    quelque sorte à sa discrétion. À peine avois-je la force de me soutenir: il
+                    s'apperçut que ma frayeur augmentoit à chaque pas: encore une fois, miss, me
+                    dit-il, ne craignez rien; reposez-vous sur ma probité, et croyez que ma jeunesse
+                    ne m'empêche point de connaître la pureté du sentiment, et le plaisir de remplir
+                    les devoirs de l'honnête homme. </p>
+                <p> À peine mon trouble me permettoit-il de l'entendre. Arrivé à la rue de Norfolk,
+                    il s'arrête à une petite porte, et appelle un domestique, qui vient ouvrir. Nous
+                    entrons dans un appartement d'une simplicité élégante. Il m'adresse la parole:
+                    je n'ai que deux chambres, celle-ci, et une autre qui est au second étage. Vous
+                    prendrez ici quelque repos, et nous partirons à cheval, de grand matin. J'irai
+                    vous conduire chez ma mere, qui habite à six mille de Londres. Nous sçaurons
+                    vous dérober à la poursuite de cet indigne lord, et de là, si vous me le
+                    permettez, je vous accompagnerai chez vos parents. Je regardois mon protecteur,
+                    et je ne sçavois si, après la cruelle épreuve où je venois d'être exposée,
+                    j'ajoûterois foi à des procédés dont l'apparence cependant devoit me rassurer.
+                    Il me fit apporter à manger. J'appris qu'il se nommoit sir Brown, qu'il étoit
+                    fils unique, et qu'il servoit dans la marine; il passoit sous les fenêtres de
+                    l'appartement de ce misérable Wickman, lorsqu'ayant entendu mes cris, il avoit
+                    volé à mon secours; je ne lui répondois que par des larmes. Miss, poursuit-il,
+                    vous pleurez! Croyez que je ressens vos chagrins: mais vous allez rentrer dans
+                    le sein de votre famille; vous oublierez ce détestable Mévil, et vous ferez
+                    encore le plaisir et la satisfaction de vos vertueux parents. </p>
+                <p> Il me laisse seule dans cette chambre. Ma défiance renaissoit toujours; j'ai
+                    soin de fermer les véroux; j'entasse des chaises et une table derrière la porte;
+                    et au lieu de me coucher, après avoir posé la lumière sur la cheminée, je reste
+                    dans un fauteuil, la tête appuyée sur les genoux, et accablée de ma situation. </p>
+                <p> Je vous ai déjà dit que si l'officier avoit voulu imiter cet abominable Wickman,
+                    j'étois déterminée à me donner la mort. Je me lève, et me jettant à genoux,
+                    j'implore le ciel de toute mon ame; ensuite je reprends ma place avec plus
+                    d'assurance. Dieu lisoit dans mon coeur; il y voyoit la vérité du repentir, ma
+                    confiance en sa protection, et combien n'éclate-t-elle pas dans les plus grands
+                    dangers, où l'espérance même nous abandonne! Le sommeil, malgré moi, me saisit
+                    au milieu des réflexions les plus lugubres; un songe affreux vint ajoûter à ces
+                    noires impressions. </p>
+                <p> J'étois dans un souterrein éclairé d'une lampe funèbre, et j'allois tomber dans
+                    une fosse. J'apperçois un vieillard dont les cheveux blancs couvroient le
+                    visage; il accourt, en me disant: "ce n'est pas à toi de mourir, c'est à moi que
+                    cette fosse est destinée: voilà où ma fille m'a conduit! " Je reconnais mon
+                    pere; je veux l'embrasser. "Retire-toi, "poursuit-il, "ou, si tu m'approches,
+                    étends ce linceul sur moi." Je me trouve entre les mains un drap mortuaire; il
+                    m'échappe un cri; j'entends retentir de la terre jettée sur un cercueil, et une
+                    voix sépulchrale qui prononce ces mots: "c'est ici que nous t'attendons." </p>
+                <p> Je me réveille avec horreur; la lumière finissoit. J'entends sir Brown qui
+                    m'appelle: ouvrez, miss, il est temps de partir... comment, miss! Vous ne vous
+                    êtes pas couchée! Eh quoi! Je vous ai inspiré de la défiance! Je me flattois que
+                    vous deviez être plus rassurée. Vous m'offensez, poursuit-il d'un ton attendri!
+                    Vous pensez donc que tous les hommes sont aussi détestables que Mévil et
+                    Wickman? Croyez, miss, qu'il y a des coeurs sensibles, et ce n'est pas à vous à
+                    me soupçonner. Ce sont-là, répliquai-je, mon généreux défenseur, les nouveaux
+                    crimes du lord et de son digne domestique: ils m'ont fait juger par eux du reste
+                    des hommes, et je vois, avec autant de douleur que de gratitude, que je me suis
+                    trompée; je vous en demande un sincère pardon; oui, je crois que vous sentez
+                    tout le prix d'une action honnête, et il n'en peut être une qui le soit
+                    davantage, que de protéger une infortunée, dont tout le desir est de retourner à
+                    la vertu. On nous servit le thé, et nous étant mis en route à la pointe du jour,
+                    nous fumes bientôt rendus à la maison de campagne où s'étoit retirée lady Brown. </p>
+                <p> Cette dame qui avoit été belle, conservoit encore cette dignité de physionomie,
+                    ce charme si intéressant, qu'on peut appeller la beauté de la vertu, et qui
+                    survit aux agréments extérieurs; elle me reçut avec cet air de bonté qui attire
+                    et enhardit; son fils lui fit un détail de mes chagrins; je lui avouai
+                    ingénuement mes fautes; cette sincérité de ma part la toucha; elle daigna
+                    m'embrasser, et ouvrir son sein à mes larmes; je passai plusieurs jours dans
+                    cette maison respectable. Les égards dont me combloient lady Brown et son fils,
+                    me pénétroient de reconnaissance: mais ils n'empêchoient point que je ne fusse
+                    agitée de l'impatience de revoir mon pere et ma mere; ma protectrice s'en
+                    apperçut la première; elle me tint ce discours, que je n'oublierai jamais. Je
+                    serois fâchée, miss, de vous retenir ici davantage. J'imagine que le lord Mévil,
+                    trompé dans ses perquisitions, aura renoncé à l'infâme projet de vous empêcher
+                    de retourner auprès de vos parents. Allez donc, ma chere enfant, vous jetter
+                    dans leurs bras; rarement le sein d'un pere et d'une mere n'est-il pas l'asyle
+                    de la tranquillité et de la vertu. Allez y déposer vos larmes, le remords qui
+                    vous rend tous vos droits sur la tendresse paternelle. Hélas! Ne devons-nous pas
+                    avoir de l'indulgence pour nos enfants? La nature humaine est si faible! Il est
+                    si facile de s'égarer! Après le bonheur de n'avoir point succombé, le repentir
+                    est ce qu'il y a de plus estimable. L'imprudence est la source de vos fautes:
+                    elle a causé la ruine de la plûpart des jeunes personnes de notre sèxe. Ma
+                    chère Clary, poursuit-elle en m'embrassant, soyez bien assurée que la vertu n'est
+                    point une chimère; ceux même qui l'outragent, sont forcés de la respecter dans
+                    le fond du coeur; la fortune, la grandeur ne peuvent réparer sa perte; encore
+                    une fois, il n'est que le repentir qui la rétablisse, peut être, dans toute sa
+                    pureté, et vous m'en paraissez pénétrée. Vous avez cédé à la séduction; Mévil
+                    est le seul criminel; il a eu la lâcheté d'abuser de votre âge, de votre peu
+                    d'expérience: le ciel vous vengera; que votre faute vous inspire une éternelle
+                    défiance de vous-même. Sur-tout, ma fille, ne rougissez pas de reprendre les
+                    travaux de la campagne; songez que c'est l'état primitif de tous les hommes, et
+                    celui, sans doute, qui est le plus innocent et le plus honorable; il ne coûte
+                    que de nobles sueurs, et souvent les autres s'achètent au prix de la dégradation
+                    de l'ame, et du manège des bassesses. Tant que les premiers humains furent
+                    agriculteurs, ils furent sans envie, sans ambition; ils aimèrent la vertu:
+                    l'intérêt les attendoit dans les villes. Depuis qu'ils ont retiré leur main de
+                    la charrue, ils ont cessé de pratiquer les devoirs de l'homme; ils en ont été
+                    punis: ils ne goûtent plus les plaisirs de la nature. Ma fille, ce n'est pas un
+                    laboureur qui vous a séduite: c'est un lord, un de nos pairs! Ayez assez de
+                    courage pour vouloir servir d'exemple à vos compagnes; qu'elles sçachent que le
+                    même sort leur est réservé, si elles n'ont pas la force de se sauver des piéges
+                    que leur tendent ces dangereux séducteurs. Vous pleurez! Laissez couler vos
+                    larmes; ce spectacle, n'en doutez point, désarmera l'être suprême: comment les
+                    hommes n'en seroient-ils pas touchés? Ils vous pardonneront; que dis-je? Ils
+                    vous estimeront; je vous le répéte: rien n'attendrit tant que le repentir
+                    sincère. Adieu, donnez-nous de vos nouvelles, et rappellez-vous toujours que
+                    vous avez en moi et en mon fils des amis qui ne sçauroient changer. </p>
+                <p> Je tombai en pleurant aux genoux de lady Brown, qui s'empressa de me relever, et
+                    m'embrassa encore avec toute l'effusion d'une tendre mere. J'allois partir; sir
+                    Brown fit retarder de quelques jours mon voyage: je le surprenois souvent les
+                    yeux fixés sur moi et couverts de pleurs; il soupiroit; quelquefois il cherchoit
+                    l'occasion de me toucher la main, et la sienne étoit tremblante; il vouloit me
+                    parler, et il ne pouvoit que balbutier mon nom; enfin, après bien des délais,
+                    des prétextes, l'instant de mon départ arrivé, sir Brown est le premier à hâter
+                    ce qu'il avoit tant cherché à éloigner; sa mere, pleine d'une délicatesse qui
+                    n'est connue que des ames sensibles, dans la crainte de me mortifier en
+                    m'offrant quelque secours, avoit eu la complaisance de m'acheter au-dessus de sa
+                    valeur cette petite bague que j'étois dans le dessein de vendre. Je quittai avec
+                    regret ma bienfaitrice; son fils s'étoit proposé de m'accompagner; je le priai
+                    inutilement de s'épargner ce nouvel embarras. </p>
+                <p> Sir Brown parla peu dans la route; une sombre tristesse le dévoroit; il lui
+                    échappoit de fréquents soupirs. Nous devions nous séparer à trois mille de mon
+                    village; je remarquai qu'à mesure que nous approchions du terme, cette tristesse
+                    augmentoit. Il ne cessoit de me demander combien nous avions encore de chemin à
+                    faire. Enfin nous arrivons dans le hameau marqué pour notre séparation. Je
+                    remercie mon protecteur, remplie de la plus vive reconnaissance. Je laisse au
+                    ciel, lui dis-je, le soin de vous récompenser d'une si bonne action, et le ciel
+                    seul peut m'acquitter envers vous. Nous allons donc nous quitter, me
+                    répond-il!-Il est temps que je vole dans le sein de mon pere et de ma mere, et
+                    que j'y épanche des larmes qui ont été trop long-temps retenues. </p>
+                <p> Nous nous disons adieu; il me prend la main; je la sens arrosée de pleurs; il
+                    attache sur moi un regard attendrissant, et, au moment qu'il m'alloit parler, il
+                    tombe sans connaissance: je pousse un cri; les gens de l'hôtellerie où nous
+                    étions, accourent; on le fait revenir à lui; nous restons seuls; je lui
+                    témoignois la peine que me causoit cet accident. Miss, me dit-il, daignez vous
+                    asseoir et m'écouter. Il continue, en tenant une de mes mains dans les siennes:
+                    je voulois m'imposer silence: mais je n'ai pu me vaincre; nous nous voyons,
+                    selon les apparences, pour la dernière fois; qu'il me soit permis de
+                    m'expliquer. </p>
+                <p> L'humanité seule me fit voler à votre secours; votre situation m'inspira le
+                    sentiment le plus vif et le plus pur. Votre douleur, votre sincérité, tout vous
+                    embellit à mes yeux.Comment ne vous aurois-je pas respectée? Dès le premier
+                    regard, je vous aimai. C'est donc mon amour et non ma générosité qui a cherché à
+                    vous être utile; vous voyez par cet aveu, que je ne mérite et que je ne prétends
+                    de vous aucun retour. Cette tendresse pour vous s'est toujours augmentée; je
+                    m'enivrois du plaisir de vous voir; un mot de votre bouche me ravissoit, quand,
+                    par un dernier effort de probité, vous avez pu l'observer, j'ai tout à coup,
+                    après plusieurs délais, pressé votre départ, et en voici la raison, miss: ma
+                    mere que j'aime tendrement a déterminé mon mariage avec une de mes parentes; si
+                    je retirois ma parole, cette mere si chere en seroit inconsolable: je m'immole
+                    donc à ses desirs; j'épouse une femme de son choix, quand un heureux hasard
+                    m'avoit fait trouver celle que, peut-être, le ciel me destinoit. Oui, chere
+                    Clary, j'aurois aspiré à réparer les torts de l'indigne Mévil; j'aurois
+                    récompensé en vous la vertu outragée; je vous eusse offert ma main: il n'y faut
+                    plus penser; je ne dois m'occuper que du soin d'étouffer cet amour; je ne vous
+                    demande pas même de réponse, et je pars dans l'espérance que du moins vous
+                    daignerez me plaindre. </p>
+                <p> Il n'a pas achevé ces mots, qu'il se lève avec précipitation, remonte sur son
+                    cheval, et disparaît. De pareils procédés, monsieur, ne pouvoient que me
+                    toucher. Quel fut mon étonnement, quand je trouvai dans ma poche un diamant, qui
+                    me parut être d'un prix considérable! Je n'hésitai pas sur mon devoir; je me fis
+                    apporter une plume et de l'encre, et j'écrivis une lettre très-longue au
+                    généreux sir Brown. Je le priois de me conserver son amitié, et de reprendre un
+                    présent qui m'humilieroit à ses yeux et aux miens. J'ajoûtois que, si les
+                    sentiments qui sont indépendants de l'amour, pouvoient le flatter, je prenois
+                    plaisir à les lui accorder tous sans réserve. Hélas! Monsieur, me dit cette
+                    fille charmante, je n'avois pas encore connu ce que c'étoit qu'aimer; je m'étois
+                    trompée sur les premiers mouvements de mon coeur; il n'appartient qu'à la vertu
+                    de sentir l'amour véritable. Je finissois ma lettre, poursuit-elle, en
+                    sollicitant mon bienfaiteur de répondre à l'empressement de sa mere pour le
+                    mariage dont il m'avoit parlé, et je lui répétois qu'une infortunée telle que
+                    moi, devoit renoncer pour la vie au sentiment de la tendresse, et n'employer ses
+                    jours qu'à pleurer éternellement sa faute. J'eus soin de joindre le diamant à la
+                    lettre: une personne de confiance, que m'indiqua le ministre du lieu, fut
+                    chargée de remettre ce paquet à sir Brown lui-même. J'approchois du séjour qui
+                    m'a vû naître: quelle foule de réflexions m'accabloient! La honte, la joie, la
+                    douleur, ce plaisir si doux que l'on goûte à revoir son berceau, toutes ces
+                    impressions différentes partageoient mon ame; j'envisageois des vieillards
+                    respectables, qui cédoient à mes pleurs, et me r'ouvroient leurs bras; je
+                    retournois dans l'asile de la pauvreté et de l'innocence; ces foyers où mon
+                    enfance avoit été élevée dans le sein de la vertu, alloient recevoir la
+                    malheureuse Clary, bien changée, hélas! De cette Clary que l'on citoit dans le
+                    hameau comme un modèle de sagesse! Du moins je pourrois mourir dans le lieu de
+                    ma naissance, si je n'y soutenois pas le fardeau de mes peines. </p>
+                <p> Je demande à un inconnu qui sortoit de notre village, des nouvelles de mes
+                    parents: j'apprends, ô dieu! Et c'est moi, c'est moi qui en suis cause, qu'ils
+                    avoient quitté leur demeure, inconsolables de ma perte, pleurant ma vie, sans
+                    doute bien plus cruelle pour eux, que ne l'auroit été ma mort. Ces chers
+                    parents! (Et ici, Clary éclate en sanglots,) je ne les ai plus vûs! Je n'ai pu
+                    sçavoir où ils s'étoient retirés! Oh! Je ne les verrai plus! Jamais! Jamais! Ils
+                    seront expirés de désespoir: ils aimoient trop la vertu, la religion; et je puis
+                    vivre encore! Je tâche de calmer cette douleur profonde où Claryre tomboit
+                    toujours. Pourquoi, lui dis-je, désespérer que votre famille vous soit rendue?
+                    La vertu malheureuse est à la fin récompensée... ah! Monsieur, interrompt cette
+                    fille estimable, voilà ce qui me perce le coeur! ... Si je n'eusse pas manqué à
+                    cette vertu que j'aimois dans le temps même où je l'outrageois, je supporterois
+                    mes maux avec résignation, j'attendrois tout du ciel: mais j'ai été coupable, il
+                    me punit, et j'éprouve sa colere. Je repris, continue-t-elle, mon chemin, en
+                    détournant souvent la tête, et en regardant ce village d'où mes yeux ne
+                    pouvoient se détacher; il y avoit des moments où je croyois distinguer notre
+                    maison couverte de chaume: que cette image me déchiroit l'ame! Cruel Mévil! </p>
+                <p> Enfin, monsieur, je me traînai jusqu'en ce séjour; j'y suis employée aux plus
+                    basses fonctions, et y en a-t-il de basses après l'humiliation et l'opprobre
+                    dont j'ai flétri jusqu'au souvenir qui restera de moi? C'est-là le véritable
+                    avilissement! Que je sois confondue au rang de la derniere des créatures! Hélas!
+                    Puis-je assez expier mes fautes? J'ai, dans mon infortune, une sorte de
+                    consolation: je n'ai que dix-huit ans, et j'ai eu la force de ne pas attendre un
+                    âge où l'on ne peut se dire qu'on s'est arraché du vice; je vivrai... je mourrai
+                    dans les larmes: peut-être que la sincérité et la vivacité de mon repentir me
+                    rendront moins criminelle aux yeux du souverain juge que j'ai offensé: car il
+                    faut renoncer à recouvrer l'estime des humains, l'estime de moi-même; il n'est
+                    que Dieu qui pardonne! Si du moins j'avois la satisfaction de pouvoir embrasser
+                    ces chers auteurs de ma vie, de laisser couler mes pleurs sur leurs rides
+                    respectables, de soutenir leur vieillesse! ... Mais pourquoi me repaître
+                    toujours d'une espérance qui m'abuse? En puis-je douter? Je le redis avec
+                    douleur: j'aurai causé leur mort! Oui, j'aurai causé leur mort: ils n'auront pu
+                    résister à mon deshonneur! Que dis-je? Eux-mêmes en auront été souillés; je leur
+                    ai arraché la vie pour les récompenser de me l'avoir donnée, pour prix de tant
+                    de bienfaits! Mon songe, j'en suis certaine, n'est que trop véritable; c'est de
+                    leur fille, d'une fille qui leur étoit si chere, qu'ils ont reçu tous ces coups. </p>
+                <p> Ce fidèle récit, monsieur, vous expose mon devoir et le vôtre: je ne puis vous
+                    appartenir... je vous aime: c'est un nouveau malheur pour moi. Rétablissez-vous
+                    donc: soyez mon ami, mon protecteur; honorez-moi de vos conseils; plaignez-moi:
+                    mais abandonnez pour jamais un projet qui ne peut que nuire à tous deux.
+                    Laissez-moi, monsieur, pleurer éternellement d'avoir perdu tous les droits dont
+                    jouit la vertu malgré toutes les traverses qui l'éprouvent. Je ne puis être à
+                    vous; je vous quitte; vous n'avez rien à me répondre... allons, Susanne,
+                    retournons à la maison. </p>
+                <p> Je veux retenir Clary: elle ne m'entendoit déjà plus; elle me laisse en proie à
+                    une foule de sentiments que j'avois peine à concilier; mon ame étoit bouleversée
+                    par des assauts bien opposés; ces idées parasites et vulgaires qu'on emprunte de
+                    la société avec tant de préjugés absurdes, me montrèrent d'abord une jeune
+                    personne qui, quoiqu'elle n'eût commis qu'une faute, en devoit être punie le
+                    reste de ses jours; il falloit la retrancher du nombre de ces femmes qui, à
+                    l'abri d'un engagement sacré, peuvent impunément se jetter dans le désordre,
+                    sans craindre de se deshonorer. Clary envisagée sous ces traits, étoit coupable,
+                    et seroit rejettée du monde. Ensuite j'osois penser par moi-même, me dépouiller
+                    de l'esprit étranger, pour ne me servir que du mien propre; et c'étoit alors par
+                    mes yeux et non par ceux d'autrui que ne voyois une malheureuse fille, le jouet
+                    de la séduction et de la scélératesse, abandonnée à la faiblesse d'un âge
+                    aveuglé sur tout ce qui l'environne; je la voyois rendue à la vertu, au moment
+                    que ses charmes étoient dans leur éclat. Une beauté de dix-huit ans, qui sçait
+                    repousser tout ce qui peut la flatter, qui a la force d'embrasser l'état le plus
+                    humiliant, la plus affreuse misère, qui meurt de ses remords: quel tableau, mon
+                    ami! Et qu'il se grava profondément dans mon ame! ... J'ai pris mon parti; il
+                    n'y a plus à balancer: j'écris ce peu de mots à la souveraine de mon coeur:
+                    "tout est décidé. Vous êtes touchée d'un vrai repentir; vous aimez la vertu;
+                    vous m'aimez; qui sent tout le prix de l'honneur, l'a recouvré: ma raison même
+                    se décide pour vous.C'est vous dire que vous serez ma femme, et je n'en aurai
+                    jamais d'autre." Quelle réponse je reçois! </p>
+                <p> "Oui, sans doute, je vous aime, et pour prix de ma tendresse, vous m'arrachez à
+                    mon bonheur, au seul qu'il me soit permis de goûter! C'étoit à l'amitié
+                    consolante d'essuyer mes larmes, et vous m'enlevez un si doux soulagement! Vous
+                    ne me verrez plus: mon devoir est de </p>
+                <p> vous fuir; je quitte la retraite que j'avois choisie, où vous vous êtes offert à
+                    mes yeux. C'en est fait; adieu, pour jamais! Quoi, monsieur! J'oserois être
+                    votre femme! Moi! Moi, qui ne mérite pas d'être associée au sort du dernier des
+                    hommes! Non, mon deshonneur est pour moi; gardez votre honneur dans toute sa
+                    pureté. Allez, qui sçait se repentir, sçait mourir, et ce n'est pas dans ce
+                    monde-ci qu'il faut que nous soyons unis. Tout ce que je puis vous donner, ce
+                    sont mes regrets, mon estime, mon amour, un amour qui n'est pas digne du vôtre,
+                    mais un amour qui sçait s'immoler. Ah! Que n'ai-je pour vous que des sentiments
+                    de reconnaissance! Soyez persuadé que cette démarche ne m'a été inspirée que par
+                    la tendresse; il pourra m'en coûter la vie: mais qu'est-ce que ma vie? Pourquoi
+                    ne puis-je vous faire un sacrifice plus éclatant? " Je vole chez les hôtes de
+                    Clary: je les trouve dans la désolation; elle étoit disparue, après leur avoir
+                    laissé quelques petits présents. Ces bonnes gens se récrioient sur ses
+                    excellentes qualités, sur la perte qu'ils avoient faite; ils me répétèrent vingt
+                    fois qu'un ange ne pouvoit avoir plus de candeur, plus de bienfaisance; le pere,
+                    la mere, les enfants, tout regrettoit ma chere Clary; je me faisois raconter les
+                    moindres circonstances qui lui étoient relatives; ils avoient observé qu'elle
+                    avoit beaucoup pleuré avant que de les quitter, et prononcé souvent mon nom. Tu
+                    imagines, chevalier, l'état horrible où j'étois: mon ame s'élançoit, en quelque
+                    sorte, sur tous les chemins où Clary avoit pu passer; je fis des perquisitions:
+                    elles furent sans effet; point de village aux environs que je ne parcourusse; tu
+                    sens bien que Dorset étoit dans la confidence. Un soir, je m'écarte de la route;
+                    j'étois seul, à cheval, accablé de fatigue, et affligé du peu de succès de mes
+                    courses; je descends au coin d'un bois; à quelques pas étoit une misérable
+                    chaumière, d'où s'échappoit une faible lueur; je ne sçais quel sentiment me
+                    pousse à m'en approcher; j'entends une voix qui prononçoit comme avec peine:
+                    quoi! Mon pere, ô pere le plus cher! Je vous coûte encore des larmes, et à vous
+                    aussi ma tendre mere! Je vous ai offensés, chers parents! J'ai deshonoré votre
+                    vieillesse! Il est juste que je meure: hélas! J'aurois souhaité en être l'appui
+                    et la consolation: me pardonnez-vous?-Que parles-tu de pardon, ma fille?
+                    Embrasse-nous, et espere dans le ciel, qui te rendra la santé; c'est à nous de
+                    mourir; nous voudrions seulement te laisser plus heureuse: mais nous ne te
+                    laissons que notre misère, nous qui t'aimons tant!-Vous m'aimez, ô tendres
+                    parents! Eh! Suis-je digne de votre amour? Je ne mérite que votre commisération;
+                    oui, je la mérite; que ne pouvez-vous lire dans mon coeur! Il est inutile de me
+                    rappeller à la vie; je meurs de mon repentir, et j'emporte une autre cause de
+                    mort, que vous sçaurez un jour: je ne vous demande qu'une grace.-Une grace,
+                    notre chère enfant! Ah! </p>
+                <p> Parle, parle, demande tout ce que tu voudras, tout ce qui sera en notre pouvoir;
+                    hélas, nous pouvons bien peu!-Faites tenir, je vous prie, cette lettre-ci, après
+                    ma mort, à son adresse: on vous dira où demeure le lord Dorset; ce monsieur,
+                    s'appelle Borston. </p>
+                <p> Je pousse la porte avec vivacité; j'entre dans la cabane: je vois une femme
+                    expirante, dans le lit de la pauvreté même, tenant une lettre à sa main; un
+                    vieillard en pleurant lui couvroit le visage de ses cheveux blancs; une autre
+                    femme âgée lui serroit les mains dans les siennes; elle fondoit aussi en larmes.
+                    Je m'élance; je prends la lettre; je me hâte de te faire part, avant les autres
+                    détails, de ce qu'elle contenoit. </p>
+                <p> "Homme respectable et bien différent de vos pareils, je vous adresse mes
+                    derniers soupirs; vous recevrez cette lettre, quand je ne serai plus; je puis
+                    donc y répandre mon ame, sans craindre de compromettre ma franchise: c'est
+                    peut-être le seul plaisir que j'aurai goûté dans la vie. Apprenez, cher Monsieur
+                    Borston, que je meurs pour vous; j'ai voulu vous éviter, parce que mon devoir
+                    l'exigeoit, parce que je ne pouvois partager votre coeur et votre nom. Ma
+                    reconnaissance m'eut fait rejetter sir Brown, s'il avoit été libre de m'offrir
+                    sa main: jugez de ce que vous devoit mon amour. Que vous m'avez fait connaître
+                    combien de regrets entraîne après soi la perte de l'honneur! J'ai respecté le
+                    vôtre; je n'ai pu survivre à la douleur de ne plus jouir de ces entretiens, où
+                    mon ame sembloit reprendre sa force, sa pureté, son innocence. Je vous donne, en
+                    expirant, la preuve de tendresse la plus vraie: j'ose vous prier comme mon ami,
+                    comme mon seul ami, de verser quelques-unes de vos bontés sur mes pauvres
+                    parents. C'est ici que j'immole mon amour-propre au plaisir d'emporter au
+                    tombeau l'idée que vous serez mon bienfaiteur dans des personnes qui me sont
+                    aussi chères. Hélas! J'ai fait leur infortune! </p>
+                <p> Le chagrin que leur a causé, dirai-je ma faute, ah! Disons mon crime, les a mis
+                    hors d'état de veiller à la conservation du petit bien qu'ils possédoient; ils
+                    ont rougi pour leur fille, ces honnêtes gens, eux qui n'ont jamais eu rien à se
+                    reprocher que de m'avoir donné le jour! Ils sont venus habiter la malheureuse
+                    cabane où j'expire, y ensevelir leur honorable pauvreté et leur affliction;
+                    c'est-là que je les ai retrouvés dans la plus profonde misère, que je suis
+                    tombée à leurs pieds; ils ont daigné me r'ouvrir leur sein, partager avec moi le
+                    morceau de pain de leur indigence, tout trempé de leurs larmes; j'ai goûté
+                    encore la douceur, avant que de mourir, de serrer contre mon coeur ces chers
+                    auteurs de ma vie, de prononcer les noms si touchants de pere et de mere! Qu'ils
+                    vous rappellent l'infortunée Clary, et croyez que mon ame sera reconnaissante,
+                    et sentira tous les bienfaits qu'ils vous devront. Adieu pour jamais, cher
+                    Monsieur Borston. Au reste la mort n'est-elle pas un bonheur pour une misérable
+                    créature rejettée de la terre et peut-être du ciel, et qui a perdu ce qui
+                    pouvoit la rendre estimable aux yeux de l'homme qu'elle eût aimé le plus? " Je
+                    m'écrie: ah! Ma chère Clary! Ces bonnes gens demeurent immobiles d'étonnement:
+                    Clary ouvre les yeux, et tombe sans connaissance dans mes bras. Je ne puis, mon
+                    ami, te rendre ce que j'éprouvai; tu connais tout le charme du sentiment: ton
+                    ame n'aura pas de peine à se remplir de ma situation. Je poursuis avec tous les
+                    transports de l'amour: oui, ma chère Clary, oui, vous serez ma femme, la
+                    maitresse de mon sort: vous êtes déjà l'épouse de mon coeur; c'est à la vertu
+                    même que je m'unirai en vous; c'est elle que je récompenserai, que j'adorerai,
+                    qui fera tout mon bonheur dans ma divine Clary! Commettre des fautes, c'est le
+                    propre de l'humanité: s'élever au-dessus de ses faiblesses par un repentir
+                    sincère, c'est mériter l'estime qui est due à l'honnêteté la plus irréprochable.
+                    Et vous, dis-je au vieillard et à sa femme qui étoient prosternés à mes pieds,
+                    et que je m'empressois de relever, vous me tiendrez lieu de pere et de mere; je
+                    serai votre fils, votre second enfant; je disputerai à votre fille le plaisir de
+                    vous aimer et de consoler votre vieillesse. Voilà donc, chevalier, où j'en suis!
+                    Ma vûe a retiré Clary des portes de la mort; elle s'obstine toujours à refuser
+                    ma main, à me représenter l'obscurité de son extraction, la tache d'une première
+                    erreur qu'elle dit ineffaçable, la confusion qui la poursuivra jusques dans mes
+                    bras; je lui ai fait entendre que mon repos et ma vie même dépendoient de sa
+                    résignation à mes volontés; j'ai osé imposer des loix à ma souveraine; nous
+                    sommes actuellement chez le lord Dorset, où se prépare la noce. Ces gens
+                    estimables descendent de pere en fils d'excellents laboureurs, qui ont toujours
+                    été dans leur village des exemples de probité et de vertu. Il est vrai qu'on ne
+                    compte point parmi eux de lords qui se soient enfoncés dans la boue de la
+                    bassesse, pour corrompre des voix, et pour acheter la députation d'une petite
+                    ville; point de parvenus qui, indignes d'une noble roture, ayent brigué les
+                    faveurs de la cour aux dépens de leur honneur, et de l'amour que tout digne
+                    anglais doit à la patrie; point de prétendus grands à l'ame de valet qui ayent
+                    vendu l'état, et cimenté les marches du despotisme. Mon dessein d'ailleurs est
+                    de passer mes jours à la campagne. J'ai assez vécu pour les autres: il est temps
+                    de vivre pour moi, d'avoir ma raison, d'écouter mon coeur, de lui céder. L'étude
+                    de la nature, celle de moi-même me dédommageront aisément de ces sociétés
+                    fatigantes qui, ne pouvant supporter le fardeau de leur oisiveté, cherchent à
+                    s'en débarrasser sur autrui. La bonhomie et la franche gaieté des veillées
+                    rustiques ne valent-elles pas bien ces cercles élégants où l'on n'apprend que
+                    l'art de varier l'ennui et le dégoût de l'existence, où la complaisance servile,
+                    et la perfidie ténébreuse prennent le nom d'esprit sociable et de politesse? Mon
+                    épouse sentira mieux que toute autre l'importance de ses devoirs; d'une
+                    faiblesse, naît quelquefois une infinité de vertus; une ame qui a succombé en
+                    est plus attentive sur elle-même, et se précautionne davantage contre de
+                    nouvelles chûtes. Je suis bien assuré que si Clary devient mere, elle aimera ses
+                    enfants, elle sçaura les élever, et qu'elle me sera éternellement attachée: la
+                    reconnaissance, cette volupté des ames pures et sans orgueil, se joindra dans
+                    son coeur à l'amour. Il y a, je l'avouerai, des moments, où je reprends mes
+                    chaînes, où je m'attelle, et je chemine dans l'imbécillité, à côté de ces hommes
+                    animaux que l'homme sensé doit mépriser. J'entends d'ici les clameurs de la
+                    ville... eh bien, qu'ils crient, qu'ils me frondent; quand je rentre dans
+                    moi-même, que j'écoute le sentiment, la vérité, le devoir, et ce sont-là les
+                    voix que je dois entendre, puis-je douter que Clary ne soit pas rendue à la
+                    vertu? Et pourquoi ne recevroit-elle point sa récompense d'un retour si
+                    généreux? Le vrai repentir n'est-il pas la plus éclatante réparation? Et le
+                    premier des plaisirs n'est-il point celui d'être juste et bienfaisant? Nous
+                    osons nous dire les images deDieu: élevons-nous jusqu'à sa bonté, ou renonçons à
+                    une ressemblance si honorable. Parle, chevalier, que faut-il que je fasse? </p>
+                <p> Réponse du chevalier Digby. Ce qu'il faut que tu fasses, mon ami? Peux-tu bien
+                    le demander, sage courageux? Épouser vîte Clary; faire ce qu'à ta place feroit
+                    un être au-dessus de l'espèce humaine; rendre à cette infortunée tout son
+                    honneur, en la couvrant du tien; t'efforcer, en un mot, d'approcher de la
+                    divinité, dont nous sommes une faible représentation, en pardonnant, et faisant
+                    du bien à son exemple: c'est ainsi que l'homme peut prouver qu'il est son image,
+                    et ton respectable modèle n'agiroit pas autrement. Puisque tu es assuré que
+                    Clary pleure sincèrement ses fautes, qu'elle ne cherche pas à te tromper, il
+                    faut la récompenser d'avoir eu la force de s'arracher au vice, dans un âge où
+                    elle pouvoit lui prêter des charmes. Crois-moi: c'est une véritable
+                    honnête-femme; son ame n'a jamais été souillée. C'est sur le perfide qui a
+                    séduit son innocence, que doit retomber le mépris public: voilà la créature
+                    réellement punissable et livrée à l'opprobre et à la damnation éternelle. Tu
+                    parles de t'ensevelir avec ta femme et tes nouveaux parents à la campagne:
+                    prends-y garde; tu aurois peur! Crois-tu faire une mauvaise action? Tu domptes
+                    le préjugé barbare et absurde; tu le foules aux pieds: viens donc l'insulter à
+                    Londres, à la face de l'Angleterre; viens déployer ton ame sublime dans toute sa
+                    vigueur; ayes la fermeté d'apprendre à ces êtres stupides qui se disent des
+                    hommes, parce qu'ils en ont le nom, qu'on sçait s'élever au-dessus d'eux, en
+                    s'éloignant de leurs sentiers communs et battus par l'esprit servile
+                    d'imitation, et par la féroce ignorance. Sens, mon ami, tout le bien que tu vas
+                    faire à l'humanité: d'abord tu paies la vertu par la vertu même, et il n'y a que
+                    ce prix qui soit digne d'elle; tu réhabilites dans toute sa noblesse une ame qui
+                    se croyoit dégradée à ses propres yeux, parce qu'elle l'étoit aux regards de la
+                    multitude qui ne voit point, et qui n'a jamais rien apprécié. Tu fais plus,
+                    Borston: tu vas arracher par ce bel exemple, à la contagion du vice, une
+                    infinité de charmantes créatures qui verront que la vertu sur la terre a ses
+                    douceurs et sa félicité, et qui espéreront trouver des coeurs sages et nobles
+                    comme le tien. Goûte bien ton bonheur, mon ami. Il me tarde de vous serrer tous
+                    dans mes bras! Et ces bonnes gens! Te pénétres-tu de la joie que tu leur fais
+                    ressentir? Tu leur rends leur fille, leur honneur; tu ranimes leur vieillesse;
+                    tu semes des fleurs sur leurs dernières traces. Va, Borston, malheur à l'ame
+                    blasée qui ne sentira point la dignité de ton procédé, et qui ne partagera pas
+                    ta satisfaction! Tu es bien plus mon héros que ces hommes à batailles, ces
+                    instruments de meurtre qui ne sont conduits que par une fausse gloire: c'est toi
+                    que la véritable gloire couvre de son éclat. Si Londres étoit assez injuste, ou
+                    assez imbécille pour te refuser les acclamations qui te sont dûes, eh! Mon ami,
+                    il y a de quoi te dédommager: rentre dans ton coeur, il te dira que tu as fait
+                    une bonne action, et son suffrage ne doit-il pas te suffire? J'y ajoûte le mien:
+                    tu sçais que je l'accorde difficilement. La vertu n'a pas besoin de se
+                    transporter hors d'elle-même, pour se procurer un spectacle satisfaisant: sa
+                    propre estime est l'unique récompense qu'elle cherche à mériter, et c'est
+                    peut-être la seule qui produise une jouissance pure. Borston, quel plaisir est
+                    équivalent à la joie intérieure? Je ne suis point surpris que les dévots soient
+                    les plus heureux des hommes; ils trouvent en eux une source inépuisable de
+                    contentement. Encore une fois, Borston, comment, dans une telle circonstance,
+                    agiroit une créature qui seroit supérieure à l'homme? Comme tu agis; et elle ne
+                    feroit que son devoir. Il n'y a point de différence entre les obligations de
+                    l'homme et de l'ange: c'est ce qui fait l'essence inaltérable de cette vertu qui
+                    a été de toute éternité avec Dieu. Je trouve le lord Dorset bien plus qualifié,
+                    depuis qu'il t'a approuvé dans ton choix. On a osé lui contester sa noblesse:
+                    voilà un titre qu'il peut opposer à ses ennemis, et qui vaut mieux, à mon avis,
+                    que tous les antiques parchemins de nos pairs d'Écosse. Eh! Mon ami, soyons
+                    hommes, avant que d'être grands seigneurs. Je t'attends; dépêche-toi de venir;
+                    cette malheureuse terre a besoin d'exemples: il y a tant de faux sages, tant de
+                    singes et si peu d'êtres pensants! C'est toi qui seras le vrai philosophe. Je
+                    suis si las, si excédé de lire de l'esprit sur la morale, et de voir si peu de
+                    sagesse pratique! Borston, je ne crois ni aux charlatans, ni aux riches
+                    enseignes; je délie les outres bouchées par Ulysse, et j'en fais sortir les
+                    vents. </p>
+                <p> Que tu vas confondre de maris liés à des femmes qui profanent le titre d'épouse!
+                    Voilà celles que doit poursuivre un mépris sans appel. T'embarrasserois-tu des
+                    sots discours de nos importants pygmées de la Grande Bretagne? Laisse bourdonner
+                    ces insectes luisants, et renvoie-les avec tous leurs ridicules, leurs sens
+                    flétris et leur non-sense (Note: non-sense est une expression anglaise qui a
+                    beaucoup de force, d'ailleurs du nombre de ces expressions propres à une langue,
+                    et qui ne peuvent se transporter dans une autre.Impertinence, absurdité, défaut
+                    de jugement, de sens ; c'est à peu près en français, la signification de ce mot
+                    très-usité chez nos voisins), à leurs respectables moitiés. Va, Clary sera trop
+                    vengée: je t'en donne ma parole. Je brûle de la connaître, de vous embrasser
+                    tous deux. Adieu, digne homme, que je suis enchanté de ton action de vigueur! Ce
+                    ne sont point-là de ces vertus oisives qui s'enorgueillissent de leur
+                    impuissance, comme un faible monarque s'applaudiroit de ne pas faire le mal. La
+                    cotterie te salue; nous avons déjà bu une centaine de tost à la santé de ta
+                    femme. De tout mon coeur, ton ami, Digby. </p>
+                <p> P s. Le bruit de ton mariage se répand dans Londres. Je remarque que d'abord on
+                    est étonné: il y a dans le troupeau des faibles une infinité d'honnêtes-gens
+                    dont le jugement est flottant et indécis; ils essayent leur façon de penser; ce
+                    sont des aveugles auxquels on fait l'opération de la cataracte, et qui ne
+                    s'accoutument que par degrés à exercer leur nouveau sens; ceux-même qui se
+                    piquent de posséder la faculté de voir, ont souvent les yeux délicats: leurs
+                    regards clignottants ne s'étendent pas loin. D'ailleurs, mon ami, le jour de la
+                    raison n'éclaire que peu à peu: en soutenir la lumière est l'ouvrage du temps;
+                    viens donc, tu détermineras ces gens à courte vûe. Le lord Hamson prétend qu'il
+                    donneroit mille de ces individus, qu'on appelle honnêtes-femmes , pour trouver
+                    une Clary. J'imagine que nos mauvais plaisants seront bientôt à bout... et
+                    combien tu gagneras à être envisagé d'un coup d'oeil sérieux! </p>
+                <p> À propos de tes partisans, car tu en as déjà quelques-uns qui se battroient pour
+                    toi à toute outrance, et qui ne demandent pas mieux que de former une révolution
+                    dans les esprits, je ne veux pas fermer ma lettre, sans t'apprendre quelque
+                    chose de bien singulier: j'ai lié ici connaissance avec ton sir John Brown qui
+                    m'a confirmé tout ce que tu me dis à son sujet; c'est le champion décidé de ta
+                    future épouse: il est prêt à entrer en champ clos, et à donner en sa faveur un
+                    démenti formel aux trois royaumes; il est intarissable sur ses éloges; j'ai sçu
+                    qu'il avoit pensé mourir de douleur après s'être séparé d'elle; il est marié, et
+                    ce qui est plus merveilleux, sa femme a pris ses sentiments pour cette fille
+                    qu'ils appellent un ange de beauté et de vertu; ils t'attendent avec impatience,
+                    et te préparent une fête: crois-tu que je serai le dernier à t'en faire les
+                    honneurs? </p>
+            </div>
+        </body>
+    </text>
 </TEI>
