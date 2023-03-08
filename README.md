@@ -5,17 +5,19 @@ Collection de romans français du dix-huitième siècle (1750-1800) / Collection
 
 ## Introduction
 
-This collection of Eighteenth-Century French Novels contains digital texts of novels created or first published between 1751 and 1800. The collection is created in the context of Mining and Modeling Text, a project which is located at the Trier Center for Digital Humanities (TCDH) at Trier University. Work on the collection is ongoing.
+This collection of Eighteenth-Century French Novels contains digital texts of novels created or first published between 1751 and 1800. The collection is created in the context of [Mining and Modeling Text](https://www.mimotext.uni-trier.de/en), a project which is located at the Trier Center for Digital Humanities ([TCDH](https://tcdh.uni-trier.de/en)) at Trier University. Work on the collection is ongoing.
 
 ## Corpus building
 
-In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model will shortly be available within OCR4all.
+In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as [18th_century_french](https://github.com/Calamari-OCR/calamari_models).
 
 Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and HathiTrust, a second group of novels which are not yet digitally available (or only in low quality) is now being produced.
 
-A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) will hopefully help us reach about 100 volumes by the end of 2020, and hopefully more later on.
+A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) will hopefully help us reach about 200 volumes by the end of 2022.
 
-At the moment, corpus composition depends primarily on pragmatic criteria. We currently collect and plan to provide metadata for the creation of more principled subcorpora. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. Our goal is to use this metadata to balance our corpus of texts.
+At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form. 
+
+![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
 
 ## Formats
 
@@ -33,6 +35,9 @@ In addition, we provide plain text versions of the texts. However, these are bes
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
 * plain:  our corpus of french novels 1751-1800 in plain text is stored here
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
+
+## Funding 
+* Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
 
 ## Licence
 
