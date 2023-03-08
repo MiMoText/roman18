@@ -32,8 +32,8 @@ In addition, we provide plain text versions of the texts. However, these are bes
 
 ## Metadata 
 There is a short and an extensive metadata description for all TEI/XML files: 
-* [Metadata (short version)] (https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv)
-* [Metadata (long version)] (https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv)
+* [Metadata, short version] (https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv)
+* [Metadata, long version] (https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv)
 
 ## Language 
 French
