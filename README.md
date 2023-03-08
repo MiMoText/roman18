@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5040855.svg)](https://doi.org/10.5281/zenodo.5040855)
 
 # roman18
-Collection de romans français du dix-huitième siècle (1750-1800) / Collection of Eighteenth-Century French Novels (1750-1800)
+Collection de romans français du dix-huitième siècle (1751-1800) / Collection of Eighteenth-Century French Novels (1751-1800)
 
 ## Introduction
 
@@ -41,9 +41,6 @@ French
 * plain:  our corpus of french novels 1751-1800 in plain text is stored here
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
 
-## Funding 
-Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
-
 ## Licence
 
 All texts and scripts are in the public domain and can be reused without restrictions. We don’t claim any copyright or other rights on the transcription, markup or metadata. If you use our texts, for example in research or teaching, please reference this collection using the citation suggestion below.
@@ -51,3 +48,9 @@ All texts and scripts are in the public domain and can be reused without restric
 ## Citation suggestion
 
 *Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Anne Klee, Johanna Konstanciak, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.2.0. Trier: TCDH, 2021. URL: https://github.com/mimotext/roman18. DOI: http://doi.org/10.5281/zenodo.5040855.
+
+## Funding 
+
+Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
+
+![logos](https://github.com/MiMoText/balance_novels/blob/main/img/funding.PNG "logos")
