@@ -20,6 +20,10 @@ At the beginning, corpus composition depended primarily on pragmatic criteria. W
 
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
 
+For a more detailed documentation of our balancing strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
+
+![Balancing of the collection](https://github.com/MiMoText/balance_novels/blob/main/img/narrative_form_in_corpus_and_literary_production.png "Narrative form in corpus and in overall literary production")
+
 ## Formats
 
 The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder Archiv/XML4OCR).
