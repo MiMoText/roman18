@@ -9,7 +9,7 @@ This collection of Eighteenth-Century French Novels contains digital texts of no
 
 ## Corpus building
 
-In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as [18th_century_french](https://github.com/Calamari-OCR/calamari_models).
+In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'.
 
 Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and HathiTrust, a second group of novels which are not yet digitally available (or only in low quality) is now being produced.
 
