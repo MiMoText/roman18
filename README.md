@@ -34,6 +34,9 @@ In addition, we provide plain text versions of the texts. However, these are bes
 * plain:  our corpus of french novels 1751-1800 in plain text is stored here
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
 
+## Funding 
+* Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
+
 ## Licence
 
 All texts and scripts are in the public domain and can be reused without restrictions. We don’t claim any copyright or other rights on the transcription, markup or metadata. If you use our texts, for example in research or teaching, please reference this collection using the citation suggestion below.
