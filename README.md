@@ -31,9 +31,9 @@ The master format for all texts is an XML format following the *Guidelines* of t
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
 
 ## Metadata 
-There is a short and an extensive metadata description for all TEI/XML files: 
-* [Metadata, short version] (https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv)
-* [Metadata, long version] (https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv)
+There is a short and an extensive metadata description in TSV for all TEI/XML files: 
+* Metadata, short version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv
+* Metadata, long version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv
 
 ## Language 
 French
