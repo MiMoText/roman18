@@ -31,8 +31,7 @@ In addition, we provide plain text versions of the texts. However, these are bes
 French
 
 ## Structure of the repository
-* Archiv: here we store files which were generated as intermediate.
-* OCR4all_output: this folder is needed for our OCR4all digitization pipeline. The subfolders are used to organize a manual correction pipeline. 
+* Archiv: here we store files which were generated as intermediate for our digitization pipeline with OCR4all. 
 * Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
 * Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
@@ -40,7 +39,7 @@ French
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
 
 ## Funding 
-* Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
+Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
 
 ## Licence
 
