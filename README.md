@@ -20,9 +20,7 @@ At the beginning, corpus composition depended primarily on pragmatic criteria. W
 
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
 
-For a more detailed documentation of our balancing strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
-
-![Balancing of the collection](https://github.com/MiMoText/balance_novels/blob/main/img/narrative_form_in_corpus_and_literary_production.png "Narrative form in corpus and in overall literary production")
+For a more detailed documentation of our sampling strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
 
 ## Formats
 
