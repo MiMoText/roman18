@@ -27,6 +27,9 @@ The master format for all texts is an XML format following the *Guidelines* of t
 
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
 
+## Language 
+French
+
 ## Structure of the repository
 * Archiv: here we store files which were generated as intermediate.
 * OCR4all_output: this folder is needed for our OCR4all digitization pipeline. The subfolders are used to organize a manual correction pipeline. 
