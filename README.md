@@ -57,5 +57,3 @@ All texts and scripts are in the public domain and can be reused without restric
 ## Funding 
 
 Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
-
-![logos](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/mimotext_logo.PNG "logos")
