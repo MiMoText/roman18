@@ -39,4 +39,4 @@ The tsv-File xml-tei_full_metadata.tsv contains metadata on the XML/TEI-files. T
 
 ## Citation suggestion
 
-Collection de romans français du dix-huitième siècle (1751-1800) / Eighteenth-Century French Novels (1751-1800), edited by Julia Röttgermann, with contributions from Julia Dudar, Henning Gebhard, Anne Klee, Johanna Konstanciak, Damir Padieu, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.3.0. Trier: TCDH, 2023. URL: https://github.com/mimotext/roman18. DOI: http://doi.org/10.5281/zenodo.5040855.
+Collection de romans français du dix-huitième siècle (1751-1800) / Eighteenth-Century French Novels (1751-1800), edited by Julia Röttgermann, with contributions from Julia Dudar, Henning Gebhard, Anne Klee, Johanna Konstanciak, Damir Padieu, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.3.0. Trier: TCDH, 2023. URL: https://github.com/mimotext/roman18. DOI: https://doi.org/10.5281/zenodo.7712928.
