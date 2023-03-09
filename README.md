@@ -26,7 +26,7 @@ For a more detailed documentation of our sampling strategy, see our [Jupyter Not
 
 The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder Archiv/XML4OCR).
 
-The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the [COST Action ‘Distant Reading for European Literary History’](https://www.distant-reading.net/).
+The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the [COST Action ‘Distant Reading for European Literary History’](https://www.distant-reading.net/) (level-1 encoding).
 
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
 
@@ -36,10 +36,12 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 * Metadata, long version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv
 
 ## Language 
-French
+
+The main language of all texts is French. 
 
 ## Structure of the repository
-* Archiv: here we store files which were generated as intermediate for our digitization pipeline with OCR4all. 
+
+* Archive: here we store files which were generated as intermediate for our digitization pipeline with OCR4all. 
 * Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
 * Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
@@ -52,7 +54,7 @@ All texts and scripts are in the public domain and can be reused without restric
 
 ## Citation suggestion
 
-*Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Anne Klee, Johanna Konstanciak, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.2.0. Trier: TCDH, 2021. URL: https://github.com/mimotext/roman18. DOI: http://doi.org/10.5281/zenodo.5040855.
+*Collection de romans français du dix-huitième siècle (1751-1800) / Eighteenth-Century French Novels (1751-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Henning Gebhard, Anne Klee, Johanna Konstanciak, Damir Padieu, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v0.3.0. Trier: TCDH, 2023. URL: https://github.com/mimotext/roman18. DOI: http://doi.org/10.5281/zenodo.5040855.
 
 ## Funding 
 
