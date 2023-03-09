@@ -11,9 +11,9 @@ This collection of Eighteenth-Century French Novels contains digital texts of no
 
 In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'.
 
-Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and HathiTrust, a second group of novels which are not yet digitally available (or only in low quality) is now being produced.
+Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and other sources (see metadata for details), a second group of novels which are not yet digitally available (or only in low quality) is now being produced.
 
-A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) will hopefully help us reach about 200 volumes by the end of 2022.
+A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) helped us reach about 200 volumes by the end of 2022.
 
 ## Balancing criteria
 At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form. 
@@ -58,4 +58,4 @@ All texts and scripts are in the public domain and can be reused without restric
 
 Forschungsinitiative des Landes Rheinland-Pfalz 2019-2023
 
-![logos](https://github.com/MiMoText/balance_novels/blob/main/img/funding.PNG "logos")
+![logos](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/mimotext_logo.PNG "logos")
