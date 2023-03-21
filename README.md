@@ -36,12 +36,12 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 * Metadata, long version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv
 
 | Column name | filename|  au-name   |title  |au-gender| firsted-yr| printSource-yr|
-| ------------- | ------------- |------------- |------------- |------------- |------------- |
+| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |
 | Definition  | name of file|name of author |title of the novel | author gender |first year of publication |year of publication of the print source |
 
 
 | Column name | form  |spelling  |data-capture| token count| size |
-| ------------- | ------------- |------------- |------------- |------------- |------------- |
+| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |
 | Definition  | narrative form  |spelling (normalised or historical) | mode of data capture |first year of publication |token count |size category following the scheme of ELTeC  |
 
 ## Language 
