@@ -46,7 +46,7 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 
 |Column name  | bgrf|author_wikidata |title_wikidata |
 | ------------- | ------------- |------------- |------------- |
-|  Definition  | ID in *Bibliographie du genre romanesque français* (Martin / Mylne / Frautschi 1977) | Wikidata identifier of the author  | Wikidata identifier of the novel |
+|  Definition  | ID in *[Bibliographie du genre romanesque français](http://data.mimotext.uni-trier.de/wiki/Item:Q1)* (Martin / Mylne / Frautschi 1977) | Wikidata identifier of the author  | Wikidata identifier of the novel |
 
 
 ## Language 
