@@ -42,7 +42,7 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 
 | Column name | form  |spelling  |data-capture| token count| size |
 | ------------- | ------------- |------------- |------------- |------------- |------------- |
-| Definition  | narrative form  |spelling (normalised or historical) | mode of data capture |first year of publication |token count |size category following the scheme of ELTeC  |
+| Definition  | narrative form  |spelling (normalised or historical) | mode of data capture |token count |[size category](https://distantreading.github.io/Schema/eltec-1.html#TEI.size) following the scheme of ELTeC  |
 
 |Column name  | bgrf|author_wikidata |title_wikidata |
 | ------------- | ------------- |------------- |------------- |
