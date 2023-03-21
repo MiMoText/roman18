@@ -35,9 +35,9 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 * Metadata, short version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv
 * Metadata, long version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv
 
-| Column name | filename|  au-name   |
-| ------------- | ------------- |------------- |
-| Definition  | name of file|name of author |
+| Column name | filename|  au-name   |title  |au-gender|
+| ------------- | ------------- |------------- |------------- |------------- |
+| Definition  | name of file|name of author |title of the novel | author gender |
 
 
 ## Language 
