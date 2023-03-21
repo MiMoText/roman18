@@ -35,6 +35,10 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 * Metadata, short version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv
 * Metadata, long version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv
 
+| Column| filename |au-name | title|au-gender|firsted-yr| printSource-yr|form|spelling | data-capture| token count| size | bgrf|author_wikidata| title_wikidata |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Definition | name of the file | author name  | title of the novel  | author gender | first year of publication |year of publication of the print source  | narrative form | spelling (normalised or historical)  | mode of data capture | token count  | size category following the scheme of ELTeC  | ID in Bibliographie du genre romanesque francais (1977) | Wikidata identifier of author | Wikidata identifier of title
+
 ## Language 
 
 The main language of all texts is French. 
