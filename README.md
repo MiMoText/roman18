@@ -48,6 +48,11 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 | ------------- | ------------- |------------- |------------- |
 |  Definition  | ID in *[Bibliographie du genre romanesque français](http://data.mimotext.uni-trier.de/wiki/Item:Q1)* (Martin / Mylne / Frautschi 1977) | Wikidata identifier of the author  | Wikidata identifier of the novel |
 
+## Narrative forms
+
+The controlled vocabulary of narrative forms consists of six possible values: homodiegetic, autodiegetic, heterodiegetic, epistolary, dialogue novel, mixed. 
+
+![Narrative forms](https://raw.githubusercontent.com/MiMoText/ontology/main/module3_narrative-form/module3_narrative-form.png "Narrative forms")
 
 ## Language 
 
