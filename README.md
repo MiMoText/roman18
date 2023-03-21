@@ -40,6 +40,10 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 | Definition  | name of file|name of author |title of the novel | author gender |first year of publication |
 
 
+| Column name | printSource-yr|form  |spelling  |data-capture| token coun| 
+| ------------- | ------------- |------------- |------------- |------------- |------------- |
+| Definition  | year of publication of the print source  |narrative form  |spelling (normalised or historical) | mode of data capture |first year of publication |token count |
+
 ## Language 
 
 The main language of all texts is French. 
