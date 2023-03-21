@@ -37,7 +37,7 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 
 | Column name | filename|  au-name   |title  |au-gender| firsted-yr| printSource-yr|
 | ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |
-| Definition  | name of file|name of author |title of the novel | author gender |first year of publication |year of publication of the print source |
+| Definition  | name of file|name of author |title of the novel | author [gender](https://distantreading.github.io/Schema/eltec-1.html#TEI.authorGender) |first year of publication |describes a print source edition used as the source of the encoding which is not the first edition |
 
 
 | Column name | form  |spelling  |data-capture| token count| size |
