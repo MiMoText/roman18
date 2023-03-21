@@ -41,7 +41,7 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 
 
 | Column name | form  |spelling  |data-capture| token count| size |
-| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |
+| ------------- | ------------- |------------- |------------- |------------- |------------- |
 | Definition  | narrative form  |spelling (normalised or historical) | mode of data capture |first year of publication |token count |size category following the scheme of ELTeC  |
 
 ## Language 
