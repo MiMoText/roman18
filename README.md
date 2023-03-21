@@ -44,6 +44,11 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 | ------------- | ------------- |------------- |------------- |------------- |------------- |
 | Definition  | narrative form  |spelling (normalised or historical) | mode of data capture |first year of publication |token count |size category following the scheme of ELTeC  |
 
+|Column name  | bgrf|author_wikidata |title_wikidata |
+| ------------- | ------------- |------------- |------------- |
+|  Definition  | ID in *Bibliographie du genre romanesque français* (Martin / Mylne / Frautschi 1977) | Wikidata identifier of the author  | Wikidata identifier of the novel |
+
+
 ## Language 
 
 The main language of all texts is French. 
