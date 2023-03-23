@@ -1,22 +1,24 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7712928.svg)](https://doi.org/10.5281/zenodo.7712928)
 
-# roman-dixhuit
-
-Eighteenth-Century French Novels.
+# roman18
+Collection de romans français du dix-huitième siècle (1751-1800) / Collection of Eighteenth-Century French Novels (1751-1800)
 
 ## Introduction
 
-This repository of Eighteenth-Century French Novels contains digital texts of novels created or first published between 1751 and 1800. The collection is created in the context of Mining and Modeling Text, a project which is located at the Trier Center for Digital Humanities (TCDH) at Trier University. Work on the collection is ongoing until the end of 2023.
+This collection of Eighteenth-Century French Novels contains digital texts of novels created or first published between 1751 and 1800. The collection is created in the context of [Mining and Modeling Text](https://www.mimotext.uni-trier.de/en), a project which is located at the Trier Center for Digital Humanities ([TCDH](https://tcdh.uni-trier.de/en)) at Trier University. Work on the collection is ongoing until end of 2023.
 
 ## Corpus building
 
-In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all. 
+In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'.
 
-Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr), a second group of novels which are not yet digitally available (or only in low quality) is now being produced. 
+Applying this OCR-model to additional scans provided by for instance Gallica (bnf.fr) and other sources (see metadata for details), a second group of novels which are not yet digitally available (or only in low quality) is now being produced.
 
-A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) helped us reach about 200 novels by the end of 2022.
+A third group of texts, based on existing full texts (from Gallica, Google books or Wikisource) helped us reach about 200 volumes by the end of 2022.
 
-At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, Bibliographie du genre romanesque français 1751-1800, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form.
+## Balancing criteria
+At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form. 
+
+![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
 
 For a more detailed documentation of our sampling strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
 

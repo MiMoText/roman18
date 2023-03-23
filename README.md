@@ -35,6 +35,25 @@ There is a short and an extensive metadata description in TSV for all TEI/XML fi
 * Metadata, short version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv
 * Metadata, long version: https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_full_metadata.tsv
 
+| Column name | filename|  au-name   |title  |au-gender| firsted-yr| printSource-yr|
+| ------------- | ------------- |------------- |------------- |------------- |------------- |------------- |
+| Definition  | name of file|name of author |title of the novel | author [gender](https://distantreading.github.io/Schema/eltec-1.html#TEI.authorGender) |first year of publication |describes the year of the print source edition used as the source of the encoding which is not the first edition |
+
+
+| Column name | form  |spelling  |data-capture| token count| size |
+| ------------- | ------------- |------------- |------------- |------------- |------------- |
+| Definition  | narrative form  |spelling (modern or historical) | mode of data capture |[token](https://distantreading.github.io/Schema/eltec-1.html#TEI.teidata.word) count |[size category](https://distantreading.github.io/Schema/eltec-1.html#TEI.size) following the scheme of ELTeC  |
+
+|Column name  | bgrf|author_wikidata |title_wikidata |
+| ------------- | ------------- |------------- |------------- |
+|  Definition  | ID in *[Bibliographie du genre romanesque français](http://data.mimotext.uni-trier.de/wiki/Item:Q1)* (Martin / Mylne / Frautschi 1977) | Wikidata identifier of the author  | Wikidata identifier of the novel |
+
+## Narrative forms
+
+The controlled vocabulary of narrative forms consists of six possible values: homodiegetic, autodiegetic, heterodiegetic, epistolary, dialogue novel, mixed. 
+
+![Narrative forms](https://raw.githubusercontent.com/MiMoText/ontology/main/module3_narrative-form/module3_narrative-form.png "Narrative forms")
+
 ## Language 
 
 The main language of all texts is French. 
