@@ -63,7 +63,7 @@ def main(json_path, per_path, loc_path):
     combined_list = sorted(set(combined_list)) # delete repetitions within the list
     print("len combined without repetitions: ", len(combined_list))
     # save the extended names list
-    with open("names_ext_added_loc_and_per_lists.txt", "w", encoding="utf8") as outfile:
+    with open("names_ext.txt", "w", encoding="utf8") as outfile:
         for l in combined_list:
             outfile.write(f"{l.lower()}\n")
 
