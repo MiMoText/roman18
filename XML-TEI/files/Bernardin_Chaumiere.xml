@@ -2,153 +2,93 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Bernardin_Chaumiere" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:91.43 wikidata:Q42187814">
-     Chaumière Indienne: MiMoText edition
-    </title>
-    <author ref="viaf:59088938 wikidata:Q361976">
-     Jacques Henri Bernardin de Saint-Pierre(1737-1814)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      frantext
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     13551
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      La Chaumière indienne
-     </title>
-     <author>
-      Jacques-Henri Bernardin de Saint-Pierre
-     </author>
-     <ref target="https://www.frantext.fr/"/>
-     <date>
-      unknown
-     </date>
-     <publisher>
-      Frantext
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      La Chaumière indienne
-     </title>
-     <author>
-      Jacques-Henri Bernardin de Saint-Pierre
-     </author>
-     <date>
-      1829
-     </date>
-     <pubPlace>
-      unknown
-     </pubPlace>
-     <publisher>
-      unknown
-     </publisher>
-    </bibl>
-    <bibl type="firstEdition">
-     <title>
-      La chaumière indienne
-     </title>
-     <author>
-      Jacques-Bernardin-Henri de Saint-Pierre
-     </author>
-     <pubPlace>
-      Paris
-     </pubPlace>
-     <publisher>
-      P. Fr. Didot le jeune
-     </publisher>
-     <date>
-      1791
-     </date>
-     <ref target="https://gallica.bnf.fr/ark:/12148/btv1b8613380t/f9.item.r=La%20chaumi%C3%A8re%20indienne%20par%20Jacques-Bernardin-Henri%20de%20Saint-Pierre"/>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      heterodiegetic
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2021-01-05">
-    Initital ELTeC level-1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div>
-    <p>
-     Il y a environ trente ans qu'il se forma à Londres une compagnie de savants
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:91.43 wikidata:Q42187814"> Chaumière Indienne: MiMoText edition </title>
+                <author ref="viaf:59088938 wikidata:Q361976"> Jacques Henri Bernardin de
+                    Saint-Pierre(1737-1814) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> frantext </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 13551 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> La Chaumière indienne </title>
+                    <author> Jacques-Henri Bernardin de Saint-Pierre </author>
+                    <ref target="https://www.frantext.fr/"/>
+                    <date> unknown </date>
+                    <publisher> Frantext </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> La Chaumière indienne </title>
+                    <author> Jacques-Henri Bernardin de Saint-Pierre </author>
+                    <date> 1829 </date>
+                    <pubPlace> unknown </pubPlace>
+                    <publisher> unknown </publisher>
+                </bibl>
+                <bibl type="firstEdition">
+                    <title> La chaumière indienne </title>
+                    <author> Jacques-Bernardin-Henri de Saint-Pierre </author>
+                    <pubPlace> Paris </pubPlace>
+                    <publisher> P. Fr. Didot le jeune </publisher>
+                    <date> 1791 </date>
+                    <ref
+                        target="https://gallica.bnf.fr/ark:/12148/btv1b8613380t/f9.item.r=La%20chaumi%C3%A8re%20indienne%20par%20Jacques-Bernardin-Henri%20de%20Saint-Pierre"
+                    />
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> heterodiegetic </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-05"> Initital ELTeC level-1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <p> Il y a environ trente ans qu'il se forma à Londres une compagnie de savants
                     anglais qui entreprit d'aller chercher, dans diverses parties du monde, des
                     lumières sur toutes les sciences, afin d'éclairer les hommes et de les rendre
                     plus heureux. Elle était défrayée par une compagnie de souscripteurs de la même
@@ -771,11 +711,7 @@
                     Plus loin, les voix perçantes des mollahs,qui annonçaient du haut des airs les
                     heures de la nuit, m'apprirent que j'étais au pied des minarets d'une mosquée.
                     Près de là étaient les factoreries des européens, avec leurs pavillons, et des
-                    gardiens qui criaient sans cesse
-     <hi rend="italic">
-      kuber-dar!
-     </hi>
-     prenez
+                    gardiens qui criaient sans cesse <hi rend="italic"> kuber-dar! </hi> prenez
                     garde à vous! Je côtoyai ensuite un grand bâtiment, que je reconnus pour une
                     prison, au bruit des chaînes et aux gémissements qui en sortaient. J'entendis
                     bientôt les cris de la douleur dans un vaste hôpital, d'où l'on sortait des
@@ -1098,9 +1034,8 @@
                     souvent dans sa pipe; et quand on le questionnait sur ce qu'il avait appris de
                     plus utile dans ses voyages, il répondait: " il faut chercher la vérité avec un
                     coeur simple; on ne la trouve que dans la nature; on ne doit la dire qu'aux gens
-                    de bien. " à quoi il ajoutait: on n'est heureux qu'avec une bonne femme.
-    </p>
-   </div>
-  </body>
- </text>
+                    de bien. " à quoi il ajoutait: on n'est heureux qu'avec une bonne femme. </p>
+            </div>
+        </body>
+    </text>
 </TEI>

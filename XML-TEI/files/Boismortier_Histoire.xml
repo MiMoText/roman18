@@ -2,190 +2,117 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Boismortier_Histoire" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:66.12 wikidata:0">
-     Histoire de Jacques Féru: MiMoText
-                    edition
-    </title>
-    <author ref="viaf:31987204 wikidata:Q3505914">
-     Suzanne Bodin de Boismortier(1722-1799)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      gallica
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     7294
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2023
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Histoire de Jacques Seru et de valeureuse demoiselle Agathe Mignard ; écrite par un ami d'iceux avec des airs notés
-     </title>
-     <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63560161"/>
-     <date>
-      2012
-     </date>
-     <publisher>
-      Bibliothèque national de France
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Histoire de Jacques Feru, et de valeureuse Damoiselle Agathe Mignard;                        Ecrite par un Ami d'iceux.
-     </title>
-     <author>
-      Suzanne Bodin de Boismortier
-     </author>
-     <pubPlace>
-      La Haye
-     </pubPlace>
-     <pubPlace>
-      Paris
-     </pubPlace>
-     <publisher>
-      Cuissart
-     </publisher>
-     <date>
-      1766
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1766
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      homodiegetic
-     </term>
-     <term type="spelling">
-      historical
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2023-01-18">
-    Initial ELTeC level 1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <front>
-   <div type="titlepage">
-    <p>
-     HISTOIRE DE JACQUES FERU, ET DE VALEUREUSE DAMOISELLE AGATHE MIGNARD.
-    </p>
-    <p>
-     Ecrite par un Ami d'iceux.
-    </p>
-    <p>
-     Avec des Airs notés.
-    </p>
-    <p>
-     A LA HAYE, Et ſe trouve à PARIS, Chez CUISSART, Pont-au-Change, à la Harpe.
-    </p>
-    <p>
-     M. DCC. LXVI.
-    </p>
-   </div>
-  </front>
-  <body>
-   <div type="chapter">
-    <head>
-     AVERTISSEMENT.
-    </head>
-    <p>
-     CEs Mémoires ſont tirés d'un Manuſcrit fort ancien, puiſqu'il eſt du quatorziéme
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:66.12 wikidata:0"> Histoire de Jacques Féru: MiMoText edition </title>
+                <author ref="viaf:31987204 wikidata:Q3505914"> Suzanne Bodin de
+                    Boismortier(1722-1799) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> gallica </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 7294 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2023 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Histoire de Jacques Seru et de valeureuse demoiselle Agathe Mignard ;
+                        écrite par un ami d'iceux avec des airs notés </title>
+                    <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k63560161"/>
+                    <date> 2012 </date>
+                    <publisher> Bibliothèque national de France </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Histoire de Jacques Feru, et de valeureuse Damoiselle Agathe Mignard;
+                        Ecrite par un Ami d'iceux. </title>
+                    <author> Suzanne Bodin de Boismortier </author>
+                    <pubPlace> La Haye </pubPlace>
+                    <pubPlace> Paris </pubPlace>
+                    <publisher> Cuissart </publisher>
+                    <date> 1766 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1766 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> homodiegetic </term>
+                    <term type="spelling"> historical </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-01-18"> Initial ELTeC level 1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="titlepage">
+                <p> HISTOIRE DE JACQUES FERU, ET DE VALEUREUSE DAMOISELLE AGATHE MIGNARD. </p>
+                <p> Ecrite par un Ami d'iceux. </p>
+                <p> Avec des Airs notés. </p>
+                <p> A LA HAYE, Et ſe trouve à PARIS, Chez CUISSART, Pont-au-Change, à la Harpe. </p>
+                <p> M. DCC. LXVI. </p>
+            </div>
+        </front>
+        <body>
+            <div type="chapter">
+                <head> AVERTISSEMENT. </head>
+                <p> CEs Mémoires ſont tirés d'un Manuſcrit fort ancien, puiſqu'il eſt du quatorziéme
                     ſiécle. On a même été obligé d'y faire pluſieurs changemens pour le rendre
                     intelligible. L'Hiſtoire de Pierre le Long ſera cauſe qu'on fera ſouvent de
                     pareilles recherches; mais il ſera difficile d'en trouver d'un ſtyle auſſi
                     agréable. Du moins, on aura le mérite de ſervir de luſtre à cet ingénieux
-                    Ouvrage.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     A MADEMOISELLE***
-    </head>
-    <p>
-     VOus m'avez fait lire Pierre le Long; vous avez voulu que j'écrive dans ce genre,
-                    j'ai eſſayé de vous ſatisfaire: daignez donc accepter une plaiſanterie que vous
-                    avez fait naître, &amp; ne doutez plus du pouvoir que vous avez ſur moi. En
-                    rendant ceci public, je ne ſens que l'avantage de publier auſſi les ſentimens
-                    d'eſtime &amp; d'amitié que je vous ai voués, &amp; avec leſquels je ſerai
-                    toujours, MADEMOISELLE, Votre très-humble &amp; très-obéiſſante ſervante,
-                    ***.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     PREFACE.
-    </head>
-    <p>
-     D'Aucuns s'émerveilleront ſans doute que je ſois aſſez oſé pour écrire une
+                    Ouvrage. </p>
+            </div>
+            <div type="chapter">
+                <head> A MADEMOISELLE*** </head>
+                <p> VOus m'avez fait lire Pierre le Long; vous avez voulu que j'écrive dans ce
+                    genre, j'ai eſſayé de vous ſatisfaire: daignez donc accepter une plaiſanterie
+                    que vous avez fait naître, &amp; ne doutez plus du pouvoir que vous avez ſur
+                    moi. En rendant ceci public, je ne ſens que l'avantage de publier auſſi les
+                    ſentimens d'eſtime &amp; d'amitié que je vous ai voués, &amp; avec leſquels je
+                    ſerai toujours, MADEMOISELLE, Votre très-humble &amp; très-obéiſſante ſervante,
+                    ***. </p>
+            </div>
+            <div type="chapter">
+                <head> PREFACE. </head>
+                <p> D'Aucuns s'émerveilleront ſans doute que je ſois aſſez oſé pour écrire une
                     Hiſtoire, puiſqu'en ſuis moi-même tout ébahi; car, à dire vrai ſuis plus adroit
                     à tirer arquebuſade, qu'à toucher une lire; icelle ne rend ſous mes doigts que
                     des ſons diſcordans. Mais pour parler d'un ſien ami, faut-il donc être en
@@ -193,20 +120,13 @@
                     ſeul ſuffit. “ O mon féal! toujours le “mien eſt à toi! bien que tu ſois
                     trépaſſé! &amp; puiſque n'ai plus l'heur de „te voir, je vais me remémorer les
                     “gentils inſtans qu'ai paſſé près de toi, “qui ſont les plus doux de ma vie.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     HISTOIRE DE JACQUES FERU, ET DE VALEUREUSE DAMOISELLE AGATHE MIGNARD.
-    </head>
-    <head>
-     CHAPITRE PREMIER.
-    </head>
-    <head>
-     Comment Ambroiſe Incour s'aviſa de la gentilleſſe de Jacques Féru.
-    </head>
-    <p>
-     OR c'étoit ſous le Régne du bon Roi des Francs, Charles huit, dit le Courtois,
+                </p>
+            </div>
+            <div type="chapter">
+                <head> HISTOIRE DE JACQUES FERU, ET DE VALEUREUSE DAMOISELLE AGATHE MIGNARD. </head>
+                <head> CHAPITRE PREMIER. </head>
+                <head> Comment Ambroiſe Incour s'aviſa de la gentilleſſe de Jacques Féru. </head>
+                <p> OR c'étoit ſous le Régne du bon Roi des Francs, Charles huit, dit le Courtois,
                     que moi Ambroiſe Incour, m'acointai de Jacques Féru; lui, &amp; puis moi,
                     ſervions ſous les ordres de Sire de la Trémoille, qui, par ſa rare vaillantiſe,
                     fut ſurnommé le Chevalier SansReproche, ſurnom qu'en ſon armée un chacun
@@ -220,45 +140,29 @@
                     outre, ils nous exhortent mêmement de nous battre pour paſſer le tems; mais
                     nous, ſans faire ce que requeroient ces forcenés, nous deviſons, tenons propos
                     joyeux; ce qui grandement courrouça nos dueliſtes, leur prenoit fantaiſie de
-                    jetter leur ire ſur nous, quand leur dis:
-    </p>
-    <p>
-     “Braves Compagnons, trève à fâcheries quelconques, votre courage „on connoît.
+                    jetter leur ire ſur nous, quand leur dis: </p>
+                <p> “Braves Compagnons, trève à fâcheries quelconques, votre courage „on connoît.
                     N'en avons-nous pas “donné moult preuves enſemblement? “Donc, faut le réſerver
                     contre les “ennemis de notre Prince. Vous allez “vous entretuer pour une
                     égrillarde qui “peut-être ſe gauſſe de vos débats, “avec un Jouvencel plus à ſa
                     guiſe “que vous. En tout faut imiter les Héros; ſçavez que la conſtance n'eſt le
-                    “partage d'iceux.
-    </p>
-    <p>
-     Après ce colloque, on quitta ſa pertuiſane, puis un chacun s'achemina vers ſon
-                    manoir.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE II.
-    </head>
-    <head>
-     Jacques Féru ſe dolente; ſon féal s'enquête pourquoi.
-    </head>
-    <p>
-     UN jour il advint que vis l'ami Féru dans une très-grande détreſſe: lors lui dis:
-                    „qu'avez donc, l'ami? vous, que “de coutumance, on voit joyeux &amp; “diſpos,
-                    vous voilà tout en déconfort. “Ce peut-il qu'auriez des angoiſes &amp; “que m'en
-                    feriez ſecret, à moi qui ſuis “vôtre? A ce dire, faiſant ſortir profond ſoupir
-                    de ſa potrine: liſez ce qu'écrit la mere à moi, dit mon féal: “puis donnant
-                    miſſive, je lus ce qu'allez voir.
-    </p>
-    <quote>
-     <p>
-      LETTRE
-     </p>
-     <p>
-      De Dame Féru, à Meſſire ſon fils Jacques Féru
-     </p>
-     <p>
-      ON a ſçu vos ébats avec la grande Jeanne. Du depuis un chacun dit, que ne
+                    “partage d'iceux. </p>
+                <p> Après ce colloque, on quitta ſa pertuiſane, puis un chacun s'achemina vers ſon
+                    manoir. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE II. </head>
+                <head> Jacques Féru ſe dolente; ſon féal s'enquête pourquoi. </head>
+                <p> UN jour il advint que vis l'ami Féru dans une très-grande détreſſe: lors lui
+                    dis: „qu'avez donc, l'ami? vous, que “de coutumance, on voit joyeux &amp;
+                    “diſpos, vous voilà tout en déconfort. “Ce peut-il qu'auriez des angoiſes &amp;
+                    “que m'en feriez ſecret, à moi qui ſuis “vôtre? A ce dire, faiſant ſortir
+                    profond ſoupir de ſa potrine: liſez ce qu'écrit la mere à moi, dit mon féal:
+                    “puis donnant miſſive, je lus ce qu'allez voir. </p>
+                <quote>
+                    <p> LETTRE </p>
+                    <p> De Dame Féru, à Meſſire ſon fils Jacques Féru </p>
+                    <p> ON a ſçu vos ébats avec la grande Jeanne. Du depuis un chacun dit, que ne
                         méritez plus d'avoir pour Femme Damoiſelle Agathe: icelle de vous ne ſe
                         plaint aucunement; mais Meſſire ſon pere ſe courrouce, &amp; dit, que ja
                         n'aurez ſa Jouvencelle: à celle fin de prouver ce, voilà qu'il l'accorde aux
@@ -266,27 +170,19 @@
                         Comme ne vous enquétez plus de ladite Damoiſelle, crois bien que déloyale
                         ſeulement pour elle n'avez ſouvenance aucune de ſa courtoiſie. Quoique ſoit,
                         vous avertis toujours pour que vous aviſiez ce que ferez. N'en ſuis ne plus
-                        ne moins votre mere, comme êtes mon cher fils.
-     </p>
-    </quote>
-    <p>
-     “Vous avez donc une mie, dis-je “à Jacques? Las! oui, me répond-il, “&amp; la
+                        ne moins votre mere, comme êtes mon cher fils. </p>
+                </quote>
+                <p> “Vous avez donc une mie, dis-je “à Jacques? Las! oui, me répond-il, “&amp; la
                     perle des mies, tandis que ſuis “deloyal en ſon endroit, le plus deloyal qui fut
                     onc. Ah! ſi vous ſçaviez tous les méfaits de votre ami, “plus ne ſerois votre
                     féal.“ Puis ſe détournant de moi, vis bien que c'étoit pour me cacher qu'il
                     larmoyoit; ce qui étrangement me mut de pitié. Lors le preſſai d'épancher ſon
-                    cœur dans cetui d'un ami. Auſſi fit-il, comme verrez ſi liſez.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE III.
-    </head>
-    <head>
-     Où l'on apprendra la cauſe de la détreſſe de Jacques Féru.
-    </head>
-    <p>
-     MON ami print la parole, &amp; dit: Suis né à Paris, comme ſçavez. Mon pere,
+                    cœur dans cetui d'un ami. Auſſi fit-il, comme verrez ſi liſez. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE III. </head>
+                <head> Où l'on apprendra la cauſe de la détreſſe de Jacques Féru. </head>
+                <p> MON ami print la parole, &amp; dit: Suis né à Paris, comme ſçavez. Mon pere,
                     qu'eſt deffunt, me laiſſa quelques biens, que ſur mer il gagna. Ma mere, qui
                     grandement me chérit, onc ne voulut me laiſſer courre même riſque; ne put
                     m'empêcher pourtant de ſuivre les étendards de Sire de la Trémoille. Or touchois
@@ -312,10 +208,8 @@
                     indigne vous “en êtes „. Tous deux tournent le dos, &amp; s'en vont honnis d'un
                     chacun, tandis qu'Agathe Mignard (ſe nomme ainſi cette loyale Damoiſelle)
                     s'attire l'admiration de tous, d'autant que pas un n'avoit eu le courage d'agir
-                    mêmement.
-    </p>
-    <p>
-     Pour moi, plus ne m'appercevois du ſang qu'avois perdu; cetui qui me reſtoit
+                    mêmement. </p>
+                <p> Pour moi, plus ne m'appercevois du ſang qu'avois perdu; cetui qui me reſtoit
                     prenoit nouvelle vigueur près de la belle Agathe. Tombant à deux genoux aux
                     pieds d'icelle qu'embraſſai fortement:“O Dame incomparable! m'écriai-je, ces
                     jours dont ſuis redevable “votre courtoiſie, ſouffrez que vous conſacre, &amp;
@@ -327,19 +221,13 @@
                     jouvencelle, eſtimant le courage plus que choſe quelconque. Auſſi jadis ſon
                     métier étoit d'en voir. Moi me dépitois contre ma grane débilité, qui me força
                     de quitter une famille à laquelle déſirois déja d'être adjoint. Fallut au plutôt
-                    m'éconduire chez Madame ma mere, puis me coucher.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE IV.
-    </head>
-    <head>
-     Comment Jacques Féru eſt enamouré, &amp; par quel bonne encontre icelui recoit
-                    viſite de ſa Dame.
-    </head>
-    <p>
-     ARrivé que je fus chez ma mere, grandement je m'étendis ſur la généroſité
+                    m'éconduire chez Madame ma mere, puis me coucher. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE IV. </head>
+                <head> Comment Jacques Féru eſt enamouré, &amp; par quel bonne encontre icelui
+                    recoit viſite de ſa Dame. </head>
+                <p> ARrivé que je fus chez ma mere, grandement je m'étendis ſur la généroſité
                     d'Agathe, ne pouvois parler que d'icelle; &amp; quand n'en diſois rien, c'eſt
                     qu'on ne vouloit me laiſſer parler à cauſe de mon mal. Malgré ce, ſa douce image
                     ne me quittoit ne plus ne moins que ma chemiſe; toujours mon penſer me portoit
@@ -348,13 +236,11 @@
                     ſon pied mignon, ſon bras rondelet, ſes blondes treſſes; bref, ſa voix argentine
                     ...... ſi bien que me voulois mal d'être giſant dans un lit, tandis que m'auroit
                     fallu être aux pieds d'icelle, qui ſi gaillardement expoſa tant de charmes pour
-                    moi chétif: mais j'eus pourtant un grand reconfort, comme allez voir.
-    </p>
-    <p>
-     N'eus beſoin de prier beaucoup me mere d'aller chez pere Mignard s'enquêter de ſa
-                    jouvencelle; de ſon chef y fut ſouventes fois Madame ma mere. Pere Mignard, non
-                    moins civil, à ſon tour me fait viſite. Moi tout auſſitôt lui parlai de la Dame
-                    de mes penſées, lui témoignai le deſir qu'avois de ſçavoir nouvelles de ſa
+                    moi chétif: mais j'eus pourtant un grand reconfort, comme allez voir. </p>
+                <p> N'eus beſoin de prier beaucoup me mere d'aller chez pere Mignard s'enquêter de
+                    ſa jouvencelle; de ſon chef y fut ſouventes fois Madame ma mere. Pere Mignard,
+                    non moins civil, à ſon tour me fait viſite. Moi tout auſſitôt lui parlai de la
+                    Dame de mes penſées, lui témoignai le deſir qu'avois de ſçavoir nouvelles de ſa
                     ſanté. Elle eſt guarie, “dit pere Mignard . Moi n'en veux rien croire.“ Oh bien,
                     ajoute icelui, “incrédule que vous êtes, quand la “verrez le croirez-vous? car
                     vois bien “que faudra vous la mener „. Que cette tant douce parole me cauſa
@@ -378,19 +264,13 @@
                     “&amp; veuillez ne veuillez pas, toujours “le ſerai. „Ma belle amie ne dit rien
                     plus, mais ſes yeux craignoient l'encontre des miens: ſes joues rondelettes ſe
                     coloroient; ce que je prins pour bon ſignal. Quoique jeunet encore, ja me
-                    connoiſſois en amoureuſes feintiſes.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE V.
-    </head>
-    <head>
-     Jacques Féru, induit à mal par ſes Compagnons, a de l'oubliance envers ſa
-                    Mie.
-    </head>
-    <p>
-     GUari je fus bientôt, parce que le cœur me diſoit, que point ne déplaiſois à ma
+                    connoiſſois en amoureuſes feintiſes. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE V. </head>
+                <head> Jacques Féru, induit à mal par ſes Compagnons, a de l'oubliance envers ſa
+                    Mie. </head>
+                <p> GUari je fus bientôt, parce que le cœur me diſoit, que point ne déplaiſois à ma
                     mie; mais le cœur nous trompe par fois. Cette douce mie, ſi courtoiſe, ſi
                     pitoyable, ne donnoit nul allegement à mes peines, pour ce que n'avoit de fiance
                     aucune aux maux qu'amour cauſe. Quoiqu'âgée de 17 ans, icelle croyoit que
@@ -400,10 +280,8 @@
                     rude de tous. Voyant que fortement je me dolentois, Damoiſelle Agathe m'éconduit
                     vers ſon Pere; comme ſi les amans onc ſe ſoucient d'iceux; diſoit ma mie, que
                     Fille honnête ne pouvoit engager ſon cœur, sle vouloir de ſes parens, comme ſi
-                    le avoit le tems d'attendre. Oh! que cette honnêteté me cauſa d'angoiſes!
-    </p>
-    <p>
-     Fus trouver un jour Pere Mignard, pour lui donner aſſûrance que n'aurois d'autre
+                    le avoit le tems d'attendre. Oh! que cette honnêteté me cauſa d'angoiſes! </p>
+                <p> Fus trouver un jour Pere Mignard, pour lui donner aſſûrance que n'aurois d'autre
                     femme que ſa gentille Damoiſelle, ſi toutefois il l'adhéroit; ſinon que reſtrois
                     jeune homme tant qu'aurois ſouffle de vie: ce qu'ayant oui Pere Mignard, en eut
                     quelqu'émouvance: plus enclin il étoit à la tendreté que ſa jouvencelle: donc me
@@ -423,10 +301,8 @@
                     auſſi que prenois femme pour avoit dot; ſe trompoit grandement: qu'eſt-ce qu'or
                     &amp; argent, aupres d'une mie? Lors fus conter mes doléances à Madame ma Mere.
                     Ne voilàtil pas qu'auſſi elle dit qu'étois par trop adoleſcent pour me marier,
-                    moi ſçavois bien le contraire.
-    </p>
-    <p>
-     Sur ces entrefaites on parle de batailler. Sire de la Tremoille nous ordonne de
+                    moi ſçavois bien le contraire. </p>
+                <p> Sur ces entrefaites on parle de batailler. Sire de la Tremoille nous ordonne de
                     cheminer vers la Bretagne, comme ſçavez, mon féal. On ne peut que je crois me
                     taxer de couardiſe; mais fus contriſté au poſſible, quand fallut quitter mon
                     amie, n'ayant d'icelle aucune aſſûrance ſi je lui advenois, &amp; ne ſçachant
@@ -457,19 +333,13 @@
                     d'une en tout! Or ſus, pour continuer ma déloyale hiſtoire, faut que ſçachiez,
                     l'ami, que de toutes les Damoiſelles de S. Brieu, une entr'autres, nommée
                     Jeanne, dite Bon-Port, eut plus de gracieuſeté pour moi que pas une, &amp; pour
-                    cetuite raiſon en eus plus auſſi pour icelle.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE VI.
-    </head>
-    <head>
-     Où l'on trouvera la finition du récit de Jacques Féru, &amp; comment icelui
-                    s'aviſe d'envoyer ſon ami vers ſa Dame.
-    </head>
-    <p>
-     VOus dirai donc, pour l'acquit de ma conſcience, mon bon ami, que ladite Jeanne
+                    cetuite raiſon en eus plus auſſi pour icelle. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE VI. </head>
+                <head> Où l'on trouvera la finition du récit de Jacques Féru, &amp; comment icelui
+                    s'aviſe d'envoyer ſon ami vers ſa Dame. </head>
+                <p> VOus dirai donc, pour l'acquit de ma conſcience, mon bon ami, que ladite Jeanne
                     étoit bien advenante, ſa taille étoit haute, ſon poil noir; malgré ce, n'avoit
                     rudeſſe quelconque aucun ne s'en plaignoit, tant grande étoit ſa complaiſance;
                     toutefois ſes mignardiſes n'ôterent pas entierement de mon penſer ma chere
@@ -489,28 +359,20 @@
                     d'un chacun, voire même celle d'Agathe. Oh! que ſens bien maintenant qu'elle
                     ſeule eſt ma mie! ne puis tant ſeulement ſupporter le penſer, qu'autre que
                     Jacques dira qu'elle eſt ſienne .... Las! veuillez donc me conſeiller, mon très
-                    cher, que faire en ce mal encontre?
-    </p>
-    <p>
-     Trouvai l'ami Féru grandement fautif envers la généreuſe Agathe, mais ne le
+                    cher, que faire en ce mal encontre? </p>
+                <p> Trouvai l'ami Féru grandement fautif envers la généreuſe Agathe, mais ne le
                     blâmai aucunement; ſe blamoit aſſez le pauvret, ſon cœur tant étoit navré,
                     qu'aurois bien voulu lui porter allégement. Lui conſeillai d'aller plein de ſa
                     repentance aux pieds de ſa Dame; mais n'oſoit pas, trop honteux il étoit: fut
                     réſolu qu'il écriroit au Pere, &amp; puis à la fille, &amp; que me chargerois
                     des miſſives; à celle fin que puiſſe le défendre. Donc demandai un congé, &amp;
-                    pris mon élan devers Paris.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE VII.
-    </head>
-    <head>
-     Où l'on verra le contenu deſdites miſſives, &amp; comment Ambroiſe Incour ſut
-                    émerveillé des appas de Damoiſelle Agathe.
-    </head>
-    <p>
-     FUs voir mere Féru, dès que je fus arrivé, je ſçus par icelle le déſaroi de mon
+                    pris mon élan devers Paris. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE VII. </head>
+                <head> Où l'on verra le contenu deſdites miſſives, &amp; comment Ambroiſe Incour ſut
+                    émerveillé des appas de Damoiſelle Agathe. </head>
+                <p> FUs voir mere Féru, dès que je fus arrivé, je ſçus par icelle le déſaroi de mon
                     pauvre ami: ſçus auſſi que Pere Mignard ne vouloit onc en ouir parler. Ce donc
                     je m'ébahiſſois grandement à mon dire, on doit pardonner toute faute que
                     mêmement on a pû commettre. Nonobſtant ce, fus chez ledit Pere Mignard, &amp;
@@ -531,133 +393,69 @@
                     courroux de Meſſire votre Pere. Ah! ſi ſçaviez combien de paſſions nous
                     pourchaſſent, ſeriez moins “ſurprinſe du manquement de Jacques. “Quoique ſoit,
                     cetui qui gît là-haut, “pardonne; par ainſi pardonnez donc, “belle Dame, vous
-                    qu'êtes un de ſes “plus beaux ouvrages.
-    </p>
-    <p>
-     Puis la priai de fixer ſes doux regards, ſur ce que lui préſentois: ne vouloit
-                    pas, mais fis ſi bel &amp; ſi bien, qu'icelle lut ce qu'allez lire.
-    </p>
-    <quote>
-     <p>
-      COMPLAINTE DE JACQUES Féru, Le plus contrit des ſerviteurs de belle &amp;
-                        honnête Damoiſelle Agathe Mignard.
-     </p>
-     <l>
-      1. COUPLET.
-     </l>
-     <l>
-      O douce amie! ô ma tant belle!
-     </l>
-     <l>
-      Toi qu'il eſt vrai j'ai pu trahir;
-     </l>
-     <l>
-      Croirois-je qu'une amour nouvelle
-     </l>
-     <l>
-      De mes méfaits va me punir?
-     </l>
-     <l>
-      Onc n'attendrai dans ma détreſſe
-     </l>
-     <l>
-      Que tu rejettes ce lien;
-     </l>
-     <l>
-      Mais pourras-tu, gente Maitreſſe,
-     </l>
-     <l>
-      Moleſter un cœur qui fut tien?
-     </l>
-     <l>
-      2. Las! ſi voyois ma repentance,
-     </l>
-     <l>
-      Et d'ardeur mon cœur ſe mouvoir;
-     </l>
-     <l>
-      Ja le tien par accoutumance
-     </l>
-     <l>
-      Prendroit pitié de mon douloir:
-     </l>
-     <l>
-      Ah! ſi d'une autre jouvencelle,
-     </l>
-     <l>
-      Ton ami fût énamouré;
-     </l>
-     <l>
-      Récomparant Agathe à elle,
-     </l>
-     <l>
-      Son amour plus eſt aſſûré.
-     </l>
-     <l>
-      3. Pardonne donc, tant douce mie
-     </l>
-     <l>
-      A qui ne vit plus que pour toi;
-     </l>
-     <l>
-      N'aurois-tu veillé ſur ma vie
-     </l>
-     <l>
-      Que pour la mettre en deſaroi?
-     </l>
-     <l>
-      S'il faut qu'autre ami te poſſede
-     </l>
-     <l>
-      Et que leurré ſoit mon déſir;
-     </l>
-     <l>
-      Point ne prendrai d'autre remede
-     </l>
-     <l>
-      Voyant ſon heur, que de m'occir.
-     </l>
-    </quote>
-    <p>
-     Tandis que liſoit la jouvencelle, ne pouvois m'empêcher de la regarder: ſes yeux
+                    qu'êtes un de ſes “plus beaux ouvrages. </p>
+                <p> Puis la priai de fixer ſes doux regards, ſur ce que lui préſentois: ne vouloit
+                    pas, mais fis ſi bel &amp; ſi bien, qu'icelle lut ce qu'allez lire. </p>
+                <quote>
+                    <p> COMPLAINTE DE JACQUES Féru, Le plus contrit des ſerviteurs de belle &amp;
+                        honnête Damoiſelle Agathe Mignard. </p>
+                    <l> 1. COUPLET. </l>
+                    <l> O douce amie! ô ma tant belle! </l>
+                    <l> Toi qu'il eſt vrai j'ai pu trahir; </l>
+                    <l> Croirois-je qu'une amour nouvelle </l>
+                    <l> De mes méfaits va me punir? </l>
+                    <l> Onc n'attendrai dans ma détreſſe </l>
+                    <l> Que tu rejettes ce lien; </l>
+                    <l> Mais pourras-tu, gente Maitreſſe, </l>
+                    <l> Moleſter un cœur qui fut tien? </l>
+                    <l> 2. Las! ſi voyois ma repentance, </l>
+                    <l> Et d'ardeur mon cœur ſe mouvoir; </l>
+                    <l> Ja le tien par accoutumance </l>
+                    <l> Prendroit pitié de mon douloir: </l>
+                    <l> Ah! ſi d'une autre jouvencelle, </l>
+                    <l> Ton ami fût énamouré; </l>
+                    <l> Récomparant Agathe à elle, </l>
+                    <l> Son amour plus eſt aſſûré. </l>
+                    <l> 3. Pardonne donc, tant douce mie </l>
+                    <l> A qui ne vit plus que pour toi; </l>
+                    <l> N'aurois-tu veillé ſur ma vie </l>
+                    <l> Que pour la mettre en deſaroi? </l>
+                    <l> S'il faut qu'autre ami te poſſede </l>
+                    <l> Et que leurré ſoit mon déſir; </l>
+                    <l> Point ne prendrai d'autre remede </l>
+                    <l> Voyant ſon heur, que de m'occir. </l>
+                </quote>
+                <p> Tandis que liſoit la jouvencelle, ne pouvois m'empêcher de la regarder: ſes yeux
                     étant baiſſés, me croyois bien en ſûreté. Donc, je vis que quelques larmes
                     couloient dans iceux, que ſon eſtomac ſe mouvoit .... Bref, ne plaignois plus
                     tant l'ami Féru, puiſqu'il cauſoit de l'émoi à ſi gente perſonne: le tançois
                     même tout bas, de l'avoir accuſée de rudeſſe. Larmes plus précieuſes qu'or &amp;
                     diamant; ſi par adventure, vous vous étiez épandues pour Ambroiſe Incour, onc
-                    les plus riches Potentats ne pourroient ſe dire plus chanſeux qu'icelui!
-    </p>
-    <p>
-     Quand la Damoiſelle eut fini de lire:“Se peut, dit icelle, que Jacques “ait de la
-                    repentance, mais du “depuis ſon manquement, mon honoré Pere mêmement ſe trouve
-                    en “droit de manquer; que votre ami “l'appaiſe, après je verrai ce que ferai:
-                    ſçavez, Meſſire, que fille honnête “en tout doit complaire à cetui qui l'a
-                    “engendré: n'irai pas faire choir ſon courroux ſur mon chef, en faveur “dudit
-                    Jacques, qui a demérité mon affection. Il eſt coupable, diſois-je. Puis ne
-                    diſois plus rien, pour ce que ne pouvois plus rien dire: fauſſant ma promeſſe,
-                    ne ceſſois de regarder cette dangereuſe Damoiſelle; diſant à part moi, eſt elle
-                    donc ſi belle? Las! bien mieux auroit valu m'enfuir; quoique ne ſoit le fait
-                    d'un brave Gendarme. Voilà que Pere Mignard arrive, &amp; que la jouvencelle
-                    s'en va, diſant: parlez à Meſſire mon Pere. Moi tout contriſté m'anonce comme
-                    ami de Féru; ce qui rechigna la face du bonhomme, &amp; tout en rechignant lut
-                    ce que lui préſentai, &amp; que voici.
-    </p>
-    <quote>
-     <p>
-      LETTRE
-     </p>
-     <p>
-      De Jacques Féru, naguère dit le Jovial, &amp; qui s'eſt acquis le ſurnom de
+                    les plus riches Potentats ne pourroient ſe dire plus chanſeux qu'icelui! </p>
+                <p> Quand la Damoiſelle eut fini de lire:“Se peut, dit icelle, que Jacques “ait de
+                    la repentance, mais du “depuis ſon manquement, mon honoré Pere mêmement ſe
+                    trouve en “droit de manquer; que votre ami “l'appaiſe, après je verrai ce que
+                    ferai: ſçavez, Meſſire, que fille honnête “en tout doit complaire à cetui qui
+                    l'a “engendré: n'irai pas faire choir ſon courroux ſur mon chef, en faveur
+                    “dudit Jacques, qui a demérité mon affection. Il eſt coupable, diſois-je. Puis
+                    ne diſois plus rien, pour ce que ne pouvois plus rien dire: fauſſant ma
+                    promeſſe, ne ceſſois de regarder cette dangereuſe Damoiſelle; diſant à part moi,
+                    eſt elle donc ſi belle? Las! bien mieux auroit valu m'enfuir; quoique ne ſoit le
+                    fait d'un brave Gendarme. Voilà que Pere Mignard arrive, &amp; que la
+                    jouvencelle s'en va, diſant: parlez à Meſſire mon Pere. Moi tout contriſté
+                    m'anonce comme ami de Féru; ce qui rechigna la face du bonhomme, &amp; tout en
+                    rechignant lut ce que lui préſentai, &amp; que voici. </p>
+                <quote>
+                    <p> LETTRE </p>
+                    <p> De Jacques Féru, naguère dit le Jovial, &amp; qui s'eſt acquis le ſurnom de
                         larmoyant, du depuis qu'il a encouru l'ire de ſon honoré Père, Meſſire
-                        Mignard.
-     </p>
-     <p>
-      Bien que m'ayez retiré ce doux nom, &amp; qu'ayez dit à d'aucuns qui me l'ont
-                        redit, que ne ſerois point votre fils, ſouffrez qu'en mon penſer je croye
-                        encore l'être; &amp; ſongez qu'ayant perdu Pere en bas-âge, il m'étoit bien
-                        conſolant d'en retreuver un dans votre courtoiſie. Donc, mon honoré Pere,
-                        gromelez contre votre fils, châtiez-le, mais appellez le mon fils; ayez
-                        ſouvenance que jeuneſſe eſt fautive. Vous qui fûtes jadis du tant noble
+                        Mignard. </p>
+                    <p> Bien que m'ayez retiré ce doux nom, &amp; qu'ayez dit à d'aucuns qui me
+                        l'ont redit, que ne ſerois point votre fils, ſouffrez qu'en mon penſer je
+                        croye encore l'être; &amp; ſongez qu'ayant perdu Pere en bas-âge, il m'étoit
+                        bien conſolant d'en retreuver un dans votre courtoiſie. Donc, mon honoré
+                        Pere, gromelez contre votre fils, châtiez-le, mais appellez le mon fils;
+                        ayez ſouvenance que jeuneſſe eſt fautive. Vous qui fûtes jadis du tant noble
                         métier des armes, ayez ſouvenance auſſi combien de licence il entraîne: que
                         de méfaits vous ſont conſeillés! que de félons exemples vous ſont donnés.
                         Voire méme par de preux Chevaliers, fidelles à leur Prince, mais deloyaux
@@ -667,11 +465,9 @@
                         toute de même elle faſſe. Ah! ſi lui ordonnez de prendre autre ami, ſi
                         obéiſſante elle eſt, que le fera? Donc faudroit lui dire auſſi que pour
                         derniere grace, demande qu'icelle aſſiſte à mes funérailles; Jacques ne peut
-                        vivre ſans ſa mie, puiſque c'eſt ſon ame.
-     </p>
-    </quote>
-    <p>
-     De ce, Pere Mignard n'eut émouvance aucune; ébloui qu'il étoit par les richeſſes
+                        vivre ſans ſa mie, puiſque c'eſt ſon ame. </p>
+                </quote>
+                <p> De ce, Pere Mignard n'eut émouvance aucune; ébloui qu'il étoit par les richeſſes
                     du Citadin.“ Voilà de “mes Amans du jour, ce dit-il, qui „toujours veulent
                     s'occir, &amp; toujours “ſont pleins de vie. N'en ſera ne plus “ne moins; ne
                     donne point ma jouvencelle à de tels étournaux; ſera en “plus ſûres mains avec
@@ -680,21 +476,15 @@
                     ſuivra les conſeils des pervers, pour fauſſer ſa foi. Quidam de diſcourtoiſe
                     mine vint nous interrompre, à qui Pere Mignard dit: venez çà, mon Gendre. Moi
                     confus de ce qu'on préfere ce viſage à mon ami, je tire ma révérence puis je
-                    m'en vais.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE VIII.
-    </head>
-    <head>
-     Ambroiſe Incour inſtruit l'ami Féru de ſon malencontre. Ledit Ambroiſe eſt
-                    traité déloyal par Agathe. Sçaurez pourquoi quand aurez lu.
-    </head>
-    <p>
-     LOrs, fis ſçavoir à l'ami Féru ce qu'étoit arrivé, mais ne lui dis pas tout, trop
-                    honteux j'étois de ma foibleſſe envers Damoiſelle Agathe. Ledit ami me recrit
-                    longue jeremiade; en ſus, icelui diſoit qu'alloit partir pour Paris, que
+                    m'en vais. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE VIII. </head>
+                <head> Ambroiſe Incour inſtruit l'ami Féru de ſon malencontre. Ledit Ambroiſe eſt
+                    traité déloyal par Agathe. Sçaurez pourquoi quand aurez lu. </head>
+                <p> LOrs, fis ſçavoir à l'ami Féru ce qu'étoit arrivé, mais ne lui dis pas tout,
+                    trop honteux j'étois de ma foibleſſe envers Damoiſelle Agathe. Ledit ami me
+                    recrit longue jeremiade; en ſus, icelui diſoit qu'alloit partir pour Paris, que
                     quartier d'hiver il y feroit. Moi crus bien faire, que de montrer ceci à ſa
                     Dame; donc, je prends l'entour de ſon logis, &amp; la treuve encore ſeulette.
                     Toujours belle, toujours advenante me complaiſois tant à la voir, que cherchois
@@ -709,30 +499,22 @@
                     joignent les geſtes expreſſifs, faut le croire; car Agathe effrayée appelle du
                     ſecours. A dire vrai, elle s'effrayoit trop-tôt; puis me dit que ſuis deloyal
                     envers icelle, deloyal envers mon ami, &amp; mille fois plus déloyal qu'icelui,
-                    qui onc ne fut ſi oſé.
-    </p>
-    <p>
-     Las! lui auroit pardonné plutôt qu'à moi; en cas pareil, faut-être amant aimé
+                    qui onc ne fut ſi oſé. </p>
+                <p> Las! lui auroit pardonné plutôt qu'à moi; en cas pareil, faut-être amant aimé
                     pour être abſout. Qui fut bien confus? c'eſt Ambroiſe. Les yeux fichés en terre,
                     n'oſois me mouver. Ne trouvois rien à dire pour ma défenſe, tant les méfaits
                     nous coupent la parole: la jouvencelle avoit raiſon, me trouvois bien coupable
                     envers Féru. Ah! ſi l'avois vû dans le moment, la foudre, ou bien des revenans,
                     m'auroient cauſé moins de frayeur! toutefois, je reprins mes forces, mais ce fut
                     pour m'éloigner de ce qui me les faiſoit perdre, &amp; promis bien à cette
-                    dangereuſe Dame de ne la voir onc de ma vie.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE IX.
-    </head>
-    <head>
-     Où l'on verra les complaintes d'Ambroiſe ſur ſon forfait, &amp; ce à quoi il
+                    dangereuſe Dame de ne la voir onc de ma vie. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE IX. </head>
+                <head> Où l'on verra les complaintes d'Ambroiſe ſur ſon forfait, &amp; ce à quoi il
                     ſe réſoud, puis les détreſſes d'Agathe; bref, une grande entreprinſe qu'icelle
-                    met à fin.
-    </head>
-    <p>
-     QUand fus ſeul avec moi-même, ne pouvois me conſoler d'avoir été déſireux de la
+                    met à fin. </head>
+                <p> QUand fus ſeul avec moi-même, ne pouvois me conſoler d'avoir été déſireux de la
                     Dame de mon ami: pour m'en châtier fortement, fis vœux en mon penſer de ne plus
                     voir femme aucune; puis donnant l'eſſor à mes angoiſes, je m'écriois: Quel
                     danger as-tu donc encouru, Ambroiſe? Siéges &amp; “Batailles ſont moins
@@ -741,23 +523,19 @@
                     n'entendras parler d'un deloyal: ne l'accable pas de ton ire, eſt aſſez puni
                     d'être privé des doux regards d'Agathe. O amour, illuſoire fantaiſie! faut-il
                     que banniſſiez la ſainte amitié de nos cœurs? ... Non, amitié ſera plus forte.
-                    Mais las! ... fuirai les gentils appas d'Agathe.
-    </p>
-    <p>
-     Quand pere Mignard rentra en ſon logis, fut bientôt imbu de ce qui s'étoit paſſé,
-                    ce qui fort le courrouça contre Féru &amp; puis contre moi, fit ſerment de
-                    rompre avec l'ami, puis fit tout préparer pour les noces de ſa Jouvencelle. Lors
-                    quand ſçus le malencontre qu'avois porté aux amours de mon féal j'eus
+                    Mais las! ... fuirai les gentils appas d'Agathe. </p>
+                <p> Quand pere Mignard rentra en ſon logis, fut bientôt imbu de ce qui s'étoit
+                    paſſé, ce qui fort le courrouça contre Féru &amp; puis contre moi, fit ſerment
+                    de rompre avec l'ami, puis fit tout préparer pour les noces de ſa Jouvencelle.
+                    Lors quand ſçus le malencontre qu'avois porté aux amours de mon féal j'eus
                     redoublement de repentance: de ſuite quittai Paris; mais n'oſois retourner à
                     l'armée, craignois trop de rencontrer cetui, que naguere je recherchois, tout en
                     me contriſtant; tournai mes pas vers la Touraine, &amp; dans une épaiſſe forêt
                     qui s'y treuve, j'aviſai ce que deviendrois. Las! ne pouvois rien réſoudre tant
                     déconforté j'étois. Trouvai dans ladite forêt petite cahute, qui me parut propre
                     à gîter la nuit: bref, fus m'approviſionner à la ville voiſine, &amp; me voilà
-                    Hermite.
-    </p>
-    <p>
-     Pendant ce tems, Damoiſelle Agathe voit à ſon dam, que tout ſe prépare pour ſon
+                    Hermite. </p>
+                <p> Pendant ce tems, Damoiſelle Agathe voit à ſon dam, que tout ſe prépare pour ſon
                     hymen, acoutremens, feſtins, ménétriers, tout eſt en branle, chacun s'éjouit,
                     ſinon icelle. Las! ne ſe ſoucie de mariage, &amp; bien moins encore du marié, en
                     le recomparant à Jacques, le trouvoit bien déplaiſant. Cetui-ci étoit volage,
@@ -775,19 +553,13 @@
                     le grand Saint Georges, de changer mon penſer, ou bien le vôtre; quand ſçaurai
                     votre ire adoucie, vous ferai ſçavoir où git votre Jouvencelle, qui toujours
                     vous obéira, ſi ce n'eſt quand lui commenderez de prendre ami, qu'icelle ne peut
-                    aimer.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE X.
-    </head>
-    <head>
-     Comment Jacques Féru ſe trouve en piteux état, leure qu'il eſt par pere
-                    Mignard, mais la joyeuſe encontre que ledit Jacques fait de ſa mie.
-    </head>
-    <p>
-     PEre Mignard ſe courrouça grandement à l'encontre d'Agathe, &amp; puis à
+                    aimer. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE X. </head>
+                <head> Comment Jacques Féru ſe trouve en piteux état, leure qu'il eſt par pere
+                    Mignard, mais la joyeuſe encontre que ledit Jacques fait de ſa mie. </head>
+                <p> PEre Mignard ſe courrouça grandement à l'encontre d'Agathe, &amp; puis à
                     l'encontre de Jacques Féru, tant il croyoit qu'icelui avoit occaſionné la fuite
                     de ſa Jouvencelle, vit bien pourtant ſon innocence, quand le vit arriver ce même
                     jour-là, tout eſſouflé, demandant ſa mie; mais ledit Pere voulant qu'un chacun
@@ -795,59 +567,27 @@
                     que ſa Dame étoit mariée, &amp; que plus ne s'en enquête. Oh! c'eſt à préſent
                     que ne puis peindre l'extrême angoiſſe de mon féal. M'a dit du depuis, qu'il ſe
                     poignit l'eſtomach, &amp; dit mainte fois ſa coulpe; puis, ſuivant conſeil de
-                    ſon dépit, vouloit s'occir, lors diſoit:
-    </p>
-    <p>
-     <quote>
-      <l>
-       1. Faut mourir, j'ai perdu ma mie,
-      </l>
-      <l>
-       Plus de plaiſirs jamais n'aurai;
-      </l>
-      <l>
-       Tous ils giſoient au cœur de mon amie;
-      </l>
-      <l>
-       Elle me l'ôte, ailleurs n'en chercherai;
-      </l>
-      <l>
-       Faut mourir, j'ai perdu ma mie.
-      </l>
-      <l>
-       2. Adieu, joye &amp; mélancolie,
-      </l>
-      <l>
-       Faut tout quitter, bons &amp; méchans;
-      </l>
-      <l>
-       Adieu ſur-tout, amis de tromperie
-      </l>
-      <l>
-       Qui m'induiſiez à trahir mes ſermens;
-      </l>
-      <l>
-       Faut mourir, &amp;c.
-      </l>
-      <l>
-       3. O! ma Dame, vous ſacrifie
-      </l>
-      <l>
-       Ces jours pour qui prites ſouci;
-      </l>
-      <l>
-       Las! ne pourriez me rendre encore la vie
-      </l>
-      <l>
-       Puiſque je ſçai qu'avez un autre ami,
-      </l>
-      <l>
-       Faut mourir, j'ai perdu ma mie.
-      </l>
-     </quote>
-    </p>
-    <p>
-     Après ce, il ſonge s'il déchargera ſa carabine, ou bien s'il tirera ſa
+                    ſon dépit, vouloit s'occir, lors diſoit: </p>
+                <p>
+                    <quote>
+                        <l> 1. Faut mourir, j'ai perdu ma mie, </l>
+                        <l> Plus de plaiſirs jamais n'aurai; </l>
+                        <l> Tous ils giſoient au cœur de mon amie; </l>
+                        <l> Elle me l'ôte, ailleurs n'en chercherai; </l>
+                        <l> Faut mourir, j'ai perdu ma mie. </l>
+                        <l> 2. Adieu, joye &amp; mélancolie, </l>
+                        <l> Faut tout quitter, bons &amp; méchans; </l>
+                        <l> Adieu ſur-tout, amis de tromperie </l>
+                        <l> Qui m'induiſiez à trahir mes ſermens; </l>
+                        <l> Faut mourir, &amp;c. </l>
+                        <l> 3. O! ma Dame, vous ſacrifie </l>
+                        <l> Ces jours pour qui prites ſouci; </l>
+                        <l> Las! ne pourriez me rendre encore la vie </l>
+                        <l> Puiſque je ſçai qu'avez un autre ami, </l>
+                        <l> Faut mourir, j'ai perdu ma mie. </l>
+                    </quote>
+                </p>
+                <p> Après ce, il ſonge s'il déchargera ſa carabine, ou bien s'il tirera ſa
                     pertuiſanne .... Mais tout-à coup il s'aviſe qu'il eſt Chrétien.“ O malheureux,
                     “ſe dit-il! perds-tu ſouvenance que t'e“baptiſé, ta vie eſt à cetui qui t'en
                     “laiſſe jouiſſance tant que ſon vouloir “le requérera. Ne peux en diſpoſer,
@@ -860,96 +600,38 @@
                     loin, il entend gentille voix féminine qui ſe dolente; auſſi-tôt il hauſſe le
                     col pour mieux ouir, retient ſes ſoupirs, s'approche en tapinois ſur le bout du
                     pied, à celle fin que la Pélerine toujours croye être ſeulette. Ne pouvoit la
-                    voir; mais entendit bien ceci.
-    </p>
-    <quote>
-     <p>
-      ROMANCE.
-     </p>
-     <l>
-      1. DAns tes amours, pourquoi, pauvrette,
-     </l>
-     <l>
-      Choiſir Jouvencel ſi courtois?
-     </l>
-     <l>
-      Par-là tu vois chaque fillette
-     </l>
-     <l>
-      Vouloir faire brêche à ton choix;
-     </l>
-     <l>
-      Jacques peut en voir de plus belles,
-     </l>
-     <l>
-      Mais n'en verra de plus fidelles.
-     </l>
-     <l>
-      2. J'écarte au loin de ma penſée
-     </l>
-     <l>
-      Son image ſouventes fois;
-     </l>
-     <l>
-      Mais quand l'en crois bien effacée
-     </l>
-     <l>
-      Dedans mon cœur je la revois.
-     </l>
-     <l>
-      Jacques, &amp;c.
-     </l>
-     <l>
-      3. Maints ſerviteurs, contre ma guiſe,
-     </l>
-     <l>
-      Voudroient remplacer mon ami;
-     </l>
-     <l>
-      Mais, las! s'il a de la feintiſe,
-     </l>
-     <l>
-      Que ſeront donc autres que lui?
-     </l>
-     <l>
-      Jacques, &amp;c.
-     </l>
-     <l>
-      4. N'ai plus déſir qu'être Moineſſe
-     </l>
-     <l>
-      Depuis que ſçais qu'il m'a quitté;
-     </l>
-     <l>
-      Mieux vaut rougir de ma ſimpleſſe,
-     </l>
-     <l>
-      Qu'imiter ſa déloyauté.
-     </l>
-     <l>
-      Jacques, &amp;c.
-     </l>
-     <l>
-      5. Veuille le Ciel dans ma retraite,
-     </l>
-     <l>
-      Ne m'eſtre propice à demi,
-     </l>
-     <l>
-      Si toutefois il ne rejette
-     </l>
-     <l>
-      Un cœur rempli de ſon ami:
-     </l>
-     <l>
-      Jacques peut en voir de plus belles,
-     </l>
-     <l>
-      Mais n'en verra de plus fidelles.
-     </l>
-    </quote>
-    <p>
-     N'aguere, ne pouvois exprimer la détreſſe de l'ami Féru, &amp; à cette heure, ne
+                    voir; mais entendit bien ceci. </p>
+                <quote>
+                    <p> ROMANCE. </p>
+                    <l> 1. DAns tes amours, pourquoi, pauvrette, </l>
+                    <l> Choiſir Jouvencel ſi courtois? </l>
+                    <l> Par-là tu vois chaque fillette </l>
+                    <l> Vouloir faire brêche à ton choix; </l>
+                    <l> Jacques peut en voir de plus belles, </l>
+                    <l> Mais n'en verra de plus fidelles. </l>
+                    <l> 2. J'écarte au loin de ma penſée </l>
+                    <l> Son image ſouventes fois; </l>
+                    <l> Mais quand l'en crois bien effacée </l>
+                    <l> Dedans mon cœur je la revois. </l>
+                    <l> Jacques, &amp;c. </l>
+                    <l> 3. Maints ſerviteurs, contre ma guiſe, </l>
+                    <l> Voudroient remplacer mon ami; </l>
+                    <l> Mais, las! s'il a de la feintiſe, </l>
+                    <l> Que ſeront donc autres que lui? </l>
+                    <l> Jacques, &amp;c. </l>
+                    <l> 4. N'ai plus déſir qu'être Moineſſe </l>
+                    <l> Depuis que ſçais qu'il m'a quitté; </l>
+                    <l> Mieux vaut rougir de ma ſimpleſſe, </l>
+                    <l> Qu'imiter ſa déloyauté. </l>
+                    <l> Jacques, &amp;c. </l>
+                    <l> 5. Veuille le Ciel dans ma retraite, </l>
+                    <l> Ne m'eſtre propice à demi, </l>
+                    <l> Si toutefois il ne rejette </l>
+                    <l> Un cœur rempli de ſon ami: </l>
+                    <l> Jacques peut en voir de plus belles, </l>
+                    <l> Mais n'en verra de plus fidelles. </l>
+                </quote>
+                <p> N'aguere, ne pouvois exprimer la détreſſe de l'ami Féru, &amp; à cette heure, ne
                     puis rendre ſa joyeuſeté, puis ſeulement la penſer; fortuné qui la ſent: en
                     effet, croyez-vous, Meſſires les Jouvencels, qu'il ſoit ſymphonie quelconque,
                     récomparable à la voix de ſa mie? Car il eſt temps de vous dire que cette tant
@@ -962,18 +644,12 @@
                     quelle eſt ſa ſurpriſe de voir un Jouvenceau! Toutefois Féru ne ſe laiſſe pas
                     leurer par l'accoutrement; croit plutôt ſon cœur, qu'eſt toujours l'oracle des
                     amoureux; ſe laiſſe choir aux genoux de ſa Dame, &amp; ne s'en veut relever,
-                    qu'icelle ne l'ait abſout. Quand cela fut fait, les voilà qui s'aſſoient.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CONCLUSION
-    </head>
-    <head>
-     de ladite Hiſtoire.
-    </head>
-    <p>
-     QUoi! c'eſt vous, Jacques, dit Agathe? Oui, Madame. Où donc allez? J'allois me
+                    qu'icelle ne l'ait abſout. Quand cela fut fait, les voilà qui s'aſſoient. </p>
+            </div>
+            <div type="chapter">
+                <head> CONCLUSION </head>
+                <head> de ladite Hiſtoire. </head>
+                <p> QUoi! c'eſt vous, Jacques, dit Agathe? Oui, Madame. Où donc allez? J'allois me
                     faire Moine, Madame, pour ce que Meſſire votre pere m'a dit qu'aviez choiſi
                     autre ami en face d'Egliſe. Las! non, ne l'ai voulu; &amp; quand même, ne ſuis
                     ſeule au monde; connoiſſez bien d'autres Damoiſelles, plus accortes ſans doute;
@@ -1032,67 +708,36 @@
                     ſi lorſque je “refuſe le mari que m'offrez, j'allois “en prendre un qui n'a
                     l'heur de “vous plaire: nenni dea, ne le ferai “point; ſuis aſſez chanſeuſe
                     d'être en “grace près de vous, ſans déſirer d'autre encontre ſi ce n'eſt la
-                    durée de “votre loyauté.
-    </p>
-    <p>
-     Toutefois par les ſoins de mere Féru, les méfaits de ſon ſien fils furent
+                    durée de “votre loyauté. </p>
+                <p> Toutefois par les ſoins de mere Féru, les méfaits de ſon ſien fils furent
                     oubliés, &amp; d'une voix unanime cetui eut ſa mie: qui fut bien aiſe? Le laiſſe
                     à penſer à l'ami Lecteur. Dans les tranſports de ſa joyeuſeté, l'ami Féru diſoit
-                    &amp; puis ſa mie auſſi, car ne pouvois chanter tout ſeul:
-     <quote>
-      <l>
-       DUO.
-      </l>
-      <l>
-       O amour! de tant d'allégreſſe
-      </l>
-      <l>
-       Ne puis que te ringracier;
-      </l>
-      <l>
-       Si nous cauſas quelque detreſſe,
-      </l>
-      <l>
-       Sçais bien comment nous en payer:
-      </l>
-      <l>
-       Envers toi ne peut être ingrate
-      </l>
-      <l>
-       Une ame où tu viens te loger:
-      </l>
-      <l>
-       Defie au ſort de m'afliger
-      </l>
-      <l>
-       Tant qu'aurai mon Agathe,
-      </l>
-      <l>
-       Si t'aime ton Agathe.
-      </l>
-     </quote>
-    </p>
-    <p>
-     Lors quittai mon hermitage; ne le voulus plutôt, tant me méfiois de moi-même:
+                    &amp; puis ſa mie auſſi, car ne pouvois chanter tout ſeul: <quote>
+                        <l> DUO. </l>
+                        <l> O amour! de tant d'allégreſſe </l>
+                        <l> Ne puis que te ringracier; </l>
+                        <l> Si nous cauſas quelque detreſſe, </l>
+                        <l> Sçais bien comment nous en payer: </l>
+                        <l> Envers toi ne peut être ingrate </l>
+                        <l> Une ame où tu viens te loger: </l>
+                        <l> Defie au ſort de m'afliger </l>
+                        <l> Tant qu'aurai mon Agathe, </l>
+                        <l> Si t'aime ton Agathe. </l>
+                    </quote>
+                </p>
+                <p> Lors quittai mon hermitage; ne le voulus plutôt, tant me méfiois de moi-même:
                     c'eſt le ſur moyen, dit on, de ne point faillir: ſûr j'étois d'avoir révérence
                     pour la femme de mon ami; mais pour ſa mie n'étoit ſi révencieux: pris donc la
                     coutumance de voir ſans crainte cette gentille femme: dans la ſuite m'acointai
                     avec Dames &amp; Damoiſelles qui m'advinrent, &amp; à qui j'advins, ce peut
-                    qu'icelles n'étoient ſi belles qu'Agathe; mais ſuffit que me ſembloient
-                    telles.
-    </p>
-    <p>
-     <quote>
-      <l>
-       C'eſt dans l'opinion
-      </l>
-      <l>
-       Que tout git, ce dit-on.
-      </l>
-     </quote>
-    </p>
-    <p>
-     Et puis, reſſemblois un peu à l'ami Feru; Dame cruelle ceſſoit bien-tôt de me
+                    qu'icelles n'étoient ſi belles qu'Agathe; mais ſuffit que me ſembloient telles. </p>
+                <p>
+                    <quote>
+                        <l> C'eſt dans l'opinion </l>
+                        <l> Que tout git, ce dit-on. </l>
+                    </quote>
+                </p>
+                <p> Et puis, reſſemblois un peu à l'ami Feru; Dame cruelle ceſſoit bien-tôt de me
                     plaire. Mais pour revenir à cetui-ci, changea étrangement, ſe corrigea de ſon
                     humeur volage par autre défaut; il devint jaloux: c'eſt ainſi qu'une paſſion en
                     gourmande une autre. Sa douce amie s'en éjouſſoit, elle prenoit ce mal-encontre
@@ -1100,12 +745,9 @@
                     que le mal n'empira, &amp; vécurent ainſi dans une grande allegreté; fus
                     toujours l'ami d'iceux, juſqu'au dernier ſopir de mon pauvre Feru, qui fut
                     occis, moi à ſes côtés, à la conquête du Milan, ſous LOUIS XII. Mais aime mille
-                    fois mieux finir ſon hiſtoire, que de parler de cet tant piteux trépaſſement.
-    </p>
-    <trailer>
-     FIN.
-    </trailer>
-   </div>
-  </body>
- </text>
+                    fois mieux finir ſon hiſtoire, que de parler de cet tant piteux trépaſſement. </p>
+                <trailer> FIN. </trailer>
+            </div>
+        </body>
+    </text>
 </TEI>

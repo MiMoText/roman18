@@ -2,148 +2,92 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Dorat_Malheurs" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:72.19 wikidata:0">
-     Les Malheurs de l'inconstance ou Lettres de la marquise de
-                    Circé et du comte de Mirbelle: MiMoText edition
-    </title>
-    <author ref="viaf:46760144 wikidata:Q361456">
-     Claude-Joseph Dorat(1734-1780)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      frantext
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Amelie Probst
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     68518
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/MiMoText/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Collection complète des Œuvres, t. 3., Les Malheurs de l'inconstance ou Lettres de la marquise de Circé et du comte de Mirbelle
-     </title>
-     <ref target="https://www.frantext.fr/"/>
-     <date>
-      unknown
-     </date>
-     <publisher>
-      Frantext
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Les Malheurs de l'inconstance ou Lettres de la marquise de Circé et du comte de Mirbelle
-     </title>
-     <author>
-      Claude-Joseph Dorat
-     </author>
-     <pubPlace>
-      Neuchatel
-     </pubPlace>
-     <publisher>
-      unknown
-     </publisher>
-     <date>
-      1775
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1772
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      epistolary
-     </term>
-     <term type="spelling">
-      historical
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2020-12-20">
-    Initial ELTeC level-1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="group">
-    <div type="letter">
-     <head>
-      PARTIE 1
-     </head>
-     <head>
-      Lettre première.
-      <hi rend="italic">
-       de Ladi Sidley, au comte de Mirbelle.
-      </hi>
-     </head>
-     <p>
-      de à une lieue de Paris. Vous me demandiez hier d'où venoit ma tristesse, et
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:72.19 wikidata:0"> Les Malheurs de l'inconstance ou Lettres de la
+                    marquise de Circé et du comte de Mirbelle: MiMoText edition </title>
+                <author ref="viaf:46760144 wikidata:Q361456"> Claude-Joseph Dorat(1734-1780) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> frantext </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Amelie Probst </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 68518 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/MiMoText/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Collection complète des Œuvres, t. 3., Les Malheurs de l'inconstance ou
+                        Lettres de la marquise de Circé et du comte de Mirbelle </title>
+                    <ref target="https://www.frantext.fr/"/>
+                    <date> unknown </date>
+                    <publisher> Frantext </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Les Malheurs de l'inconstance ou Lettres de la marquise de Circé et du
+                        comte de Mirbelle </title>
+                    <author> Claude-Joseph Dorat </author>
+                    <pubPlace> Neuchatel </pubPlace>
+                    <publisher> unknown </publisher>
+                    <date> 1775 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1772 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> epistolary </term>
+                    <term type="spelling"> historical </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-12-20"> Initial ELTeC level-1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="group">
+                <div type="letter">
+                    <head> PARTIE 1 </head>
+                    <head> Lettre première. <hi rend="italic"> de Ladi Sidley, au comte de Mirbelle.
+                        </hi>
+                    </head>
+                    <p> de à une lieue de Paris. Vous me demandiez hier d'où venoit ma tristesse, et
                         si j'avois à me plaindre de vous. Est-ce vous qui m'avez fait cette
                         question? Est-ce à moi que vous deviez la faire? Vous le savez, je suis
                         naturellement sérieuse. L'habitude du malheur, contractée dès ma plus tendre
@@ -197,26 +141,20 @@
                         te faire: j' ai l'orgueil de ne point craindre de rivales. Eh! Quelle femme
                         me ressemble? Adieu: je t'attends, à ton retour de . Je relis Clarice pour
                         la troisieme fois. La malheureuse! ... mais pourquoi donc ton absence
-                        a-t-elle été plus longue cette fois-ci? Je ne puis te quitter. Adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre II.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc , à la marquise de Syrcé.
-      </hi>
-      depuis quinze jours,
-                        madame la marquise, j'ai fait de profondes réflexions. Votre conduite avec
-                        moi, les rigueurs soutenues, dont vous avez payé la passion la plus décidée
-                        et une constance à toute épreuve, auroient pu laisser dans mon coeur quelque
-                        secret dépit, et faire succéder le ressentiment à la surprise. Rien de tout
-                        cela. Vous avez, dans le caractere, je ne sais quoi qui désarme le mien. Ma
-                        résolution est prise; elle est violente, mais stable. Je m'immole à votre
-                        caprice, à votre raison, si vous l' aimez mieux; et, puisque l'amour vous
-                        estantipathique, je consens à me réduire pour vous aux langueurs de
+                        a-t-elle été plus longue cette fois-ci? Je ne puis te quitter. Adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre II. </head>
+                    <p>
+                        <hi rend="italic"> du duc , à la marquise de Syrcé. </hi> depuis quinze
+                        jours, madame la marquise, j'ai fait de profondes réflexions. Votre conduite
+                        avec moi, les rigueurs soutenues, dont vous avez payé la passion la plus
+                        décidée et une constance à toute épreuve, auroient pu laisser dans mon coeur
+                        quelque secret dépit, et faire succéder le ressentiment à la surprise. Rien
+                        de tout cela. Vous avez, dans le caractere, je ne sais quoi qui désarme le
+                        mien. Ma résolution est prise; elle est violente, mais stable. Je m'immole à
+                        votre caprice, à votre raison, si vous l' aimez mieux; et, puisque l'amour
+                        vous estantipathique, je consens à me réduire pour vous aux langueurs de
                         l'amitié. C'est la premiere fois que j'accepte un partage si modeste avec
                         une femme de votre âge et de votre tournure. Le sacrifice est pénible, je le
                         sais; n'importe, je m'y soumets; et ce nouvel hommage doit vous paroître
@@ -263,11 +201,8 @@
                         honoraires. Qu'il seroit digne d'envie le mortel que vous distingueriez!
                         Plus je parcours votre cercle, moins je vois sur qui je pourrois arrêter mes
                         soupçons. Ce n'est sûrement point le grand colonel. Auriez-vous été touchée
-                        par hasard de sa taille chevaleresque, de sa prodigalité bête, de son
-      <hi rend="italic">
-       dégingandage
-      </hi>
-      odieux, de son importance burlesque,
+                        par hasard de sa taille chevaleresque, de sa prodigalité bête, de son <hi
+                            rend="italic"> dégingandage </hi> odieux, de son importance burlesque,
                         et de sa profonde érudition sur l'époque des étiquettes? Pour le petit
                         prince de , il a de la jeunesse, de la fraîcheur, et cette ineptie naïve
                         qui, dans les hommes, dégénere quelquefois en sentiment. Il est doué
@@ -289,18 +224,12 @@
                         graves fonctions d'un ami. Si vous m'honorez d'un mot de réponse, cela me
                         disposera au style de l'amitié, et m'ôtera l'embarras que doit avoir un
                         malheureux qui n'est pas initié dans les mysteres de cet auguste sentiment.
-                        Je suis avec respect, etc.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre III.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise de Syrcé, au duc de .
-      </hi>
-      je vous avoue,
+                        Je suis avec respect, etc. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre III. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise de Syrcé, au duc de . </hi> je vous avoue,
                         monsieur le duc, que votre lettre m'a beaucoup amusée. Mais pourquoi donc
                         n'est-elle pas de votre écriture? Sans votre coureur, j'étois tout-à-fait
                         dépaysée; je n'aurois pu vous reconnoître qu'à la légéreté de votre
@@ -366,16 +295,10 @@
                         ne tombent que sur moi. J'ai la vanité de me croire en fonds pour y
                         répondre.Je n'en pouvois dire autant de votre amour. Ps. Bien des femmes à
                         ma place ne vous auroient point écrit, je le sais: mais que voulez-vous?
-                        C'est une fantaisie, et je ne la crois pas dangereuse. Billet.
-      <hi rend="italic">
-       du duc de , au Sieur Le Blanc.
-      </hi>
-      eh bien, Mons Le
-                        Blanc, que devient l'expédition dont je vous ai chargé? Vos
-      <hi rend="italic">
-       grisons
-      </hi>
-      sont-ils en campagne? Viendrons-nous à bout
+                        C'est une fantaisie, et je ne la crois pas dangereuse. Billet. <hi
+                            rend="italic"> du duc de , au Sieur Le Blanc. </hi> eh bien, Mons Le
+                        Blanc, que devient l'expédition dont je vous ai chargé? Vos <hi
+                            rend="italic"> grisons </hi> sont-ils en campagne? Viendrons-nous à bout
                         de la charmante angloise? Tâchez de vous ménager des intelligences au
                         dehors, au dedans. Apostez vos argus, payez des espions, débauchez les
                         valets. Employez auprès des femmes-de-chambre, cette séduction que vous
@@ -394,18 +317,12 @@
                         vos odieuses lenteurs, je l'aurois eue quinze jours plus tôt. Du zele,
                         monsieur, du zele. Cette aventure-ci peut vous faire un honneur infini.
                         Adieu, Mons Le Blanc. Nous verrons si vous êtes encore sensible à la gloire,
-                        et capable d'émulation.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre IV.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc de , au comte de Mirbelle.
-      </hi>
-      mon petit cousin,
+                        et capable d'émulation. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre IV. </head>
+                    <p>
+                        <hi rend="italic"> du duc de , au comte de Mirbelle. </hi> mon petit cousin,
                         je vous ai cherché hier inutilement dans plus de vingt maisons. Je suis
                         retombé au spectacle; vous n'étiez nulle part. Je n'ai pas apperçu non plus
                         la marquise, et cela me fait croire que vous pourriez bien être tous deux
@@ -433,23 +350,14 @@
                         principes. Je pars demain pour S Hubert. Si vous me faites réponse, donnez
                         ordre à vos gens qu'on me l'apporte de bonne heure: tranquillisez-moi sur
                         les inquiétudes que vous me causez. J'ai rompu avec mon lutin lyrique. Je
-                        l'ai cédé au prince de , qui a gagné ces jours-cideux mille louis au
-      <hi rend="italic">
-       vingt-un
-      </hi>
-      . Je me débarrasse, et leur rends service
-                        à tous deux. Laissez là votre angloise, et fiez-vous à mon amitié.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre V.
-     </head>
-     <p>
-      <hi rend="italic">
-       du Sieur Le Blanc, au duc de .
-      </hi>
-      monseigneur, je
+                        l'ai cédé au prince de , qui a gagné ces jours-cideux mille louis au <hi
+                            rend="italic"> vingt-un </hi> . Je me débarrasse, et leur rends service
+                        à tous deux. Laissez là votre angloise, et fiez-vous à mon amitié. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre V. </head>
+                    <p>
+                        <hi rend="italic"> du Sieur Le Blanc, au duc de . </hi> monseigneur, je
                         n'ose me présenter devant vous. J'ai déjà épuisé toutes les ressources de
                         l'art, sans que vos affaires soient en meilleure posture. Le logis de
                         l'angloise est une espece de fort inaccessible à toutes nos ruses de guerre.
@@ -468,18 +376,12 @@
                         ingrat envers lui; et si Dieu me prête vie, je blanchirai dans une
                         profession qui enrichit celui qui l' exerce, et assure les plaisirs de tant
                         d'honnêtes citoyens. Je suis dans ces sentimens, et avec le plus profond
-                        respect, monseigneur, etc.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre VI.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc de , au vicomte de .
-      </hi>
-      eh bien, mon cher
+                        respect, monseigneur, etc. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre VI. </head>
+                    <p>
+                        <hi rend="italic"> du duc de , au vicomte de . </hi> eh bien, mon cher
                         vicomte, comment vous trouvez-vous du beau ciel de l'Italie? Au milieu des
                         chefs-d' oeuvre dont ce sol précieux est semé, parmi ces monumens antiques
                         qu'un homme aimable voit souvent mieux qu'un lourd voyageur de profession,
@@ -730,23 +632,14 @@
                         avec plus de méthode, et mes mémoires doivent se ressentir nécessairement du
                         séjour où je les écris. Répondez-moi, aimez-moi. Des détails degrace sur vos
                         beautés romaines. On les dit voluptueuses; les nôtres ne le sont guere; mais
-                        elles sont fausses, coquettes et crédules: tout est compensé. Bonjour.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre VII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte de Mirbelle, au duc de .
-      </hi>
-      vous vous trompez
-                        fort, monsieur le duc. Non seulement je n'en suis pas aux
-      <hi rend="italic">
-       préliminaires
-      </hi>
-      , comme vous avez l'air de le croire; mais je vous
+                        elles sont fausses, coquettes et crédules: tout est compensé. Bonjour. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre VII. </head>
+                    <p>
+                        <hi rend="italic"> du comte de Mirbelle, au duc de . </hi> vous vous trompez
+                        fort, monsieur le duc. Non seulement je n'en suis pas aux <hi rend="italic">
+                            préliminaires </hi> , comme vous avez l'air de le croire; mais je vous
                         avoue franchement que je suis découragé, et par les difficultés que je
                         trouve auprès de la marquise, et par les obstacles secrets que mon coeur
                         m'oppose. Je ne suis point encore aguerri contre les dégoûts d'une intrigue
@@ -957,11 +850,7 @@
                         chagrins dont le coeur s'est applaudi, et l'on songe avec une sorte de
                         charme aux larmes ameres qu'ils ont coûté.Pardon, monsieur le duc, pardon
                         mille fois! Quoique vos réflexions vous aient armé contre ce que vous
-                        appellez les
-      <hi rend="italic">
-       foiblesses
-      </hi>
-      du sentiment, il est
+                        appellez les <hi rend="italic"> foiblesses </hi> du sentiment, il est
                         impossible que vous ne soyez pas touché du récit que je viens de vous faire.
                         Je ne me repens pas de ma confiance. D'ailleurs j'avois besoin, j'en
                         conviens, de revenir sur tous les événemens qui peuvent me ramener à ladi.
@@ -995,23 +884,13 @@
                         de la lire. Adieu, monsieur le duc! Madame De Syrcé... n'est que jolie. Mon
                         angloise est belle et sensible. L'une jusqu'ici n'a parlé qu'à mon
                         amour-propre, l'autre a tous ses droits dans mon ame. Je rougirois de
-                        balancer. Ne me
-      <hi rend="italic">
-       persifflez
-      </hi>
-      point trop, je vous
-                        prie, et pardonnez-moi d'être fidele.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre VIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise De Syrcé, à Madame De Lacé.
-      </hi>
-      votre
+                        balancer. Ne me <hi rend="italic"> persifflez </hi> point trop, je vous
+                        prie, et pardonnez-moi d'être fidele. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre VIII. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise De Syrcé, à Madame De Lacé. </hi> votre
                         mari est cruel avec sa jalousie. Apparemment qu'il vous fait celer même pour
                         les femmes. Vous avez dû me trouver bien des fois écrite à votre porte. Mon
                         amie, je voulois causer. Hélas! Presque toujours ce besoin qu'on nous
@@ -1143,18 +1022,12 @@
                         puissiez lire dans mon ame. Mon délire, tout violent qu'il est, n'affoiblira
                         jamais l'éternelle amitié que je vous dois; et si mes pressentimens se
                         réalisent, elle partagera mes derniers soupirs, entre vous et le mortel que
-                        j'aime.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre IX.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte De Mirbelle.
-      </hi>
-      en vérité, mon pauvre
+                        j'aime. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre IX. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte De Mirbelle. </hi> en vérité, mon pauvre
                         comte, vous êtes d'un pathétique auquel on ne s'attend pas.Votre lettre est
                         une tragédie toute entiere. Quoique je ne sois pas fait aux romans lugubres,
                         le vôtre m'a profondément touché; et si par hasard vous aviez encore
@@ -1182,11 +1055,7 @@
                         pour lutter contre Sidley. Une femme frivole, dont tout le monde parle,
                         qu'on cite par-tout, bien venue à la cour, fêtée à la ville, courue de nos
                         jeunes gens les plus à la mode, brillante enfin de tout l'éclat de la
-                        jeunesse, de la réputation des
-      <hi rend="italic">
-       entours
-      </hi>
-      ! Quelle
+                        jeunesse, de la réputation des <hi rend="italic"> entours </hi> ! Quelle
                         horreur! Le moyen de se charger d'une pareille maîtresse! Aussi ne vous
                         pressé-je plus de lui rendre vos hommages. Il faut vous enterrer avec votre
                         angloise, ne voir qu'elle, ne priser qu'elle, filer la pastorale, et
@@ -1222,11 +1091,7 @@
                         tour à tour, les assujettit au plan général qu'on s'est tracé, tourne au
                         profit de l'ambition la mobilité des intrigues,et fixe le sort par la
                         variété des plaisirs. Le commandeur de vous a mieux jugé que moi. L'autre
-                        jour, dans
-      <hi rend="italic">
-       l'oeil de boeuf
-      </hi>
-      , il me soutint que vous
+                        jour, dans <hi rend="italic"> l'oeil de boeuf </hi> , il me soutint que vous
                         ne prendriez jamais un certain essor. Je lui dis que je vous avois
                         presqu'arrangé avec Madame De Syrcé: il voulut parier contre le succès.
                         J'acceptai la gageure; elle est perdue pour moi, et je ne regrette que mon
@@ -1250,18 +1115,12 @@
                         ladi, du creux de sa tombe, vous crie d'être fidele; et les mânes de mylord
                         s'éleveroient contre vous, si vous cessiez de l' être. Adieu, mon cher
                         comte. Je serai toujours fort aise de vous voir, malgré vos lamentables
-                        amours, et la vénération que je serai forcé d' avoir pour vous.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre X.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au duc.
-      </hi>
-      que vous êtes cruel!
+                        amours, et la vénération que je serai forcé d' avoir pour vous. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre X. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au duc. </hi> que vous êtes cruel!
                         Que vous entrez mal dans tous les embarras de ma situation! Le persifflage
                         n'est bon qu'avec ceux qui sont assez tranquilles pour y répondre: il aigrit
                         les coeurs blessés. Permettez-moi de vous le dire, le ton que vous prenez
@@ -1337,18 +1196,12 @@
                         vos égards, les miens, et que son noble désintéressement met au-dessus des
                         protecteurs. Pardonnez la chaleur de mes expressions au mouvement d'un coeur
                         que vous avez affligé, en cherchant à dégrader ce qu'il aime. Malheur au
-                        lâche qui ne sent pas l'outrage qu'on fait à son ami!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XI.
-     </head>
-     <p>
-      <hi rend="italic">
-       du chevalier De Gérac, au comte De Mirbelle.
-      </hi>
-      j'ai
+                        lâche qui ne sent pas l'outrage qu'on fait à son ami! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XI. </head>
+                    <p>
+                        <hi rend="italic"> du chevalier De Gérac, au comte De Mirbelle. </hi> j'ai
                         été désespéré, mon cher colonel, de ne m'être pas trouvé chez moi quand vous
                         y avez passé. J'étois occupé de visites fort ennuyeuses. à mon retour on m'a
                         remis votre lettre; je l'ai lue avec le plus vif intérêt. Vous voilà donc ce
@@ -1371,11 +1224,7 @@
                         de punir ce qu'ils conseillent? Quand nos maîtresses nous trompent et se
                         dégradent, l'opprobre en est à nous. Elles devinent, et leur inconstance
                         n'est que le pressentiment de notre perfidie. J'ai toujours détesté nos
-                        soi-disans
-      <hi rend="italic">
-       hommes à bonnes fortunes
-      </hi>
-      . L'aspect d'un
+                        soi-disans <hi rend="italic"> hommes à bonnes fortunes </hi> . L'aspect d'un
                         seul me rappelle malgré moi l'image de vingt infortunées. Sous l'aménité des
                         dehors, ces êtres-là cachent une ame féroce. Ils ressemblent aux conquérans:
                         comme eux, ils se repaissent de pleurs, et verseroient le sang comme eux,
@@ -1461,18 +1310,12 @@
                         la gloire, et il attend les occasions. Adieu, monsieur le comte: encore une
                         fois, songez à vous; parlez un peu moins de Madame De Syrcé, soyez fidele à
                         votre angloise, et faitessi bien que je ne sois jamais obligé de la
-                        défendre.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du vicomte de , au duc.
-      </hi>
-      cela vous plaît à dire, mon
+                        défendre. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XII. </head>
+                    <p>
+                        <hi rend="italic"> du vicomte de , au duc. </hi> cela vous plaît à dire, mon
                         cher duc: mais quand on s'ennuie, on n'a la force de rien. Avec ses
                         indulgences et ses cérémonies éternelles, Rome est bien le plus maussade
                         séjour que je connoisse. Mon oncle, qui est très-chaud politique, est encore
@@ -1527,109 +1370,77 @@
                         quand je la vis entrer chez moi, dans le déshabillé le plus commode, le sein
                         découvert, les cheveux flottans jusqu'à la ceinture, et que, se jetant sur
                         une espece de canapé, elle me dit, avec uneingénuité tout-à-fait touchante,
-      <foreign xml:lang="it">
-       eccomi; il mio marito è fuori di casa
-      </forein>
-      ! Vous
-                        jugez, mon cher duc, que je mis autant de célérité dans l'action, qu'elle
-                        avoit mis de naïveté dans le propos. Jamais je n'avois rencontré une femme
-                        plus déliée, plus ardente, plus vive dans le tête-à-tête. Nous entendîmes
-                        quelque bruit, et j'eus bien de la peine à m'arracher de ses bras. Ce qui me
-                        charma, ce fut la promptitude avec laquelle elle reprit son air de langueur
-                        et de calme; l'italien le plus intelligent en eût été la dupe. Vivent les
-                        femmes pour ces changemens de décoration! Elles ont des visages qui se
-                        montent ou se démontent à volonté, et c'est pour cela sur-tout que je les
-                        respecte. Je me rendois compte de mon bonheur; je me recueillois dans mon
-                        ivresse, et ne pouvois concevoir ce phénomene. Notre paisible amateur qui
-                        étoit revenu arrangeoit ses tableaux, cherchoit leurs vrais jours, et les
-                        disposoit à plaisir sous les yeux de ma napolitaine, qui, dans ce moment,
-                        ressembloit à une vierge du Guide, par son air d'innocence. Il part pour un
-                        second voyage; vîte elle se remet en course, m'arrive une seconde fois, et
-                        l'invitant
-      <hi rend="italic">
-       eccomi
-      </hi>
-      n'est point oublié. Je n'eus
-                        garde de me plaindre de la récidive, et me conduisis de maniere à en être
-                        quitte, au moins pour la journée. Point du tout, le mari fit un troisieme
-                        voyage, et l'on me fit une troisieme visite. Je commençai à sortir de mon
-                        enchantement. Je souhaitois de la modération dans mon aimablemaîtresse, et
-                        je la priai de me faire grace des
-      <hi rend="italic">
-       eccomi
-      </hi>
-      , dût son
-                        mari s'absenter encore. Elle eut de la peine de comprendre le sens de mon
-                        discours, et tomba dans une rêverie qui ne m'inquiéta pas autrement. J'étois
-                        sûr de n'avoir manqué à aucun des procédés convenables: enfin, elle me
-                        quitta pour aller faire cent caresses à son mari, qui se félicita vingt fois
-                        devant moi d'avoir une femme aussi fidelle. Eh bien, mon cher duc, que
-                        dites-vous de cette bonne fortune? Depuis la chaleur des premieres
-                        apparitions, les
-      <hi rend="italic">
-       eccomi
-      </hi>
-      ont été rares, parce que
-                        les absences du mari sont peu fréquentes; mais de tems en tems ils
-                        recommencent, et je me résigne. à présent je suis fait aux allures de la
-                        femme; ce n'est plus que la confiance du mari qui m'amuse. Je trouve plus de
-                        plaisir à tromper l'un, qu'à jouir de tous les charmes de l'autre. Vous
-                        voyez que je n'ai point oublié vos principes, et que j'étends, autant qu'il
-                        est en moi, la gloire du nom françois. Je suis édifié de tout ce que vous me
-                        dites. La vengeance que vous exercez contre Madame De Syrcé est d'un genre
-                        neuf et saillant. C'est un trait qui manque au caractere de lovelace, dont
-                        on ne dit point assez de bien, et qui m'a toujours vivement intéressé. Quant
-                        à l'angloise, je sens comme vous qu'il est essentiel de l'avoir, à quelque
-                        prix que ce soit. Si l'on n'y mettoit la main, les fauxbourgs de Paris se
-                        peupleroient de femmes vertueuses, et la contagion gagneroitbientôt le
-                        centre de la ville. Qu'est-ce donc que le comte De Mirbelle? Il faut bien
-                        qu'il ait quelques dispositions à la scélératesse aimable, puisque vous le
-                        choisissez pour vengeur; et si j'étois à sa place, il me semble que je
-                        punirois cruellement Madame De Syrcé. D'après le portrait que vous m'en
-                        faites, elle mérite les traitemens les plus rigoureux. Que je vous envie!
-                        Vous êtes au courant des vrais plaisirs; pour moi je suis tristement exilé
-                        dans la terre sainte, et au milieu d'une autre Palestine, où je n'ai pas
-                        même la ressource de tuer des sarrazins. Vous ne vous attendiez pas à ce
-                        trait d'érudition. C'est mon oncle qui m'en avise; il me parle toujours du
-                        voyage
-      <hi rend="italic">
-       d'outremer
-      </hi>
-      , du roi Artus, et des beaux
-                        massacres qui se faisoient alors pour le bonheur du monde. Le bon homme est
-                        toujours le même. Le matin il se brouille dans ses calculs diplomatiques; il
-                        dîne le plus long-tems qu'il peut; après son dîner, suivi d'un léger
-                        assoupissement, il joue gravement aux échecs; il perd toujours, et toujours
-                        il soutient que ce n'est pas faute de combinaisons. Le jeu fini, et la
-                        digestion faite, il songe à son salut, et va visiter les églises. Malheur à
-                        moi, s'il me rencontre lorsqu'il est dans ces erventes dispositions! L'autre
-                        jour il vouloit que j'assistasse à son sommeil de l'après-dînée. Il prétend
-                        qu'il lui échappe alors des choses très-utiles au gouvernement, dont il me
-                        conseilloit de faire des notes qu'on pourroit intituler:
-      <hi rend="italic">
-       rêves politiques d'un gentilhomme
-      </hi>
-      françois
-      <hi rend="italic">
-       . Ce
-                            livre seroit d'un grand usage,
-      </hi>
-      dit-il, pour tous les rêveurs qui
-                        culbutent l'administration. Mais voilà que, sans m' en douter, je radote
-                        presqu'aussi bien que mon oncle; et vous avez autre chose à faire que de
-                        lire mes folies. Adieu, monsieur le duc... je brûle de me ranger sous vos
-                        drapeaux.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte De Mirbelle.
-      </hi>
-      en mille ans je
+                            <foreign xml:lang="it"> eccomi; il mio marito è fuori di casa </foreign>
+                        ! Vous jugez, mon cher duc, que je mis autant de célérité dans l'action,
+                        qu'elle avoit mis de naïveté dans le propos. Jamais je n'avois rencontré une
+                        femme plus déliée, plus ardente, plus vive dans le tête-à-tête. Nous
+                        entendîmes quelque bruit, et j'eus bien de la peine à m'arracher de ses
+                        bras. Ce qui me charma, ce fut la promptitude avec laquelle elle reprit son
+                        air de langueur et de calme; l'italien le plus intelligent en eût été la
+                        dupe. Vivent les femmes pour ces changemens de décoration! Elles ont des
+                        visages qui se montent ou se démontent à volonté, et c'est pour cela
+                        sur-tout que je les respecte. Je me rendois compte de mon bonheur; je me
+                        recueillois dans mon ivresse, et ne pouvois concevoir ce phénomene. Notre
+                        paisible amateur qui étoit revenu arrangeoit ses tableaux, cherchoit leurs
+                        vrais jours, et les disposoit à plaisir sous les yeux de ma napolitaine,
+                        qui, dans ce moment, ressembloit à une vierge du Guide, par son air
+                        d'innocence. Il part pour un second voyage; vîte elle se remet en course,
+                        m'arrive une seconde fois, et l'invitant <hi rend="italic"> eccomi </hi>
+                        n'est point oublié. Je n'eus garde de me plaindre de la récidive, et me
+                        conduisis de maniere à en être quitte, au moins pour la journée. Point du
+                        tout, le mari fit un troisieme voyage, et l'on me fit une troisieme visite.
+                        Je commençai à sortir de mon enchantement. Je souhaitois de la modération
+                        dans mon aimablemaîtresse, et je la priai de me faire grace des <hi
+                            rend="italic"> eccomi </hi> , dût son mari s'absenter encore. Elle eut
+                        de la peine de comprendre le sens de mon discours, et tomba dans une rêverie
+                        qui ne m'inquiéta pas autrement. J'étois sûr de n'avoir manqué à aucun des
+                        procédés convenables: enfin, elle me quitta pour aller faire cent caresses à
+                        son mari, qui se félicita vingt fois devant moi d'avoir une femme aussi
+                        fidelle. Eh bien, mon cher duc, que dites-vous de cette bonne fortune?
+                        Depuis la chaleur des premieres apparitions, les <hi rend="italic"> eccomi
+                        </hi> ont été rares, parce que les absences du mari sont peu fréquentes;
+                        mais de tems en tems ils recommencent, et je me résigne. à présent je suis
+                        fait aux allures de la femme; ce n'est plus que la confiance du mari qui
+                        m'amuse. Je trouve plus de plaisir à tromper l'un, qu'à jouir de tous les
+                        charmes de l'autre. Vous voyez que je n'ai point oublié vos principes, et
+                        que j'étends, autant qu'il est en moi, la gloire du nom françois. Je suis
+                        édifié de tout ce que vous me dites. La vengeance que vous exercez contre
+                        Madame De Syrcé est d'un genre neuf et saillant. C'est un trait qui manque
+                        au caractere de lovelace, dont on ne dit point assez de bien, et qui m'a
+                        toujours vivement intéressé. Quant à l'angloise, je sens comme vous qu'il
+                        est essentiel de l'avoir, à quelque prix que ce soit. Si l'on n'y mettoit la
+                        main, les fauxbourgs de Paris se peupleroient de femmes vertueuses, et la
+                        contagion gagneroitbientôt le centre de la ville. Qu'est-ce donc que le
+                        comte De Mirbelle? Il faut bien qu'il ait quelques dispositions à la
+                        scélératesse aimable, puisque vous le choisissez pour vengeur; et si j'étois
+                        à sa place, il me semble que je punirois cruellement Madame De Syrcé.
+                        D'après le portrait que vous m'en faites, elle mérite les traitemens les
+                        plus rigoureux. Que je vous envie! Vous êtes au courant des vrais plaisirs;
+                        pour moi je suis tristement exilé dans la terre sainte, et au milieu d'une
+                        autre Palestine, où je n'ai pas même la ressource de tuer des sarrazins.
+                        Vous ne vous attendiez pas à ce trait d'érudition. C'est mon oncle qui m'en
+                        avise; il me parle toujours du voyage <hi rend="italic"> d'outremer </hi> ,
+                        du roi Artus, et des beaux massacres qui se faisoient alors pour le bonheur
+                        du monde. Le bon homme est toujours le même. Le matin il se brouille dans
+                        ses calculs diplomatiques; il dîne le plus long-tems qu'il peut; après son
+                        dîner, suivi d'un léger assoupissement, il joue gravement aux échecs; il
+                        perd toujours, et toujours il soutient que ce n'est pas faute de
+                        combinaisons. Le jeu fini, et la digestion faite, il songe à son salut, et
+                        va visiter les églises. Malheur à moi, s'il me rencontre lorsqu'il est dans
+                        ces erventes dispositions! L'autre jour il vouloit que j'assistasse à son
+                        sommeil de l'après-dînée. Il prétend qu'il lui échappe alors des choses
+                        très-utiles au gouvernement, dont il me conseilloit de faire des notes qu'on
+                        pourroit intituler: <hi rend="italic"> rêves politiques d'un gentilhomme
+                        </hi> françois <hi rend="italic"> . Ce livre seroit d'un grand usage, </hi>
+                        dit-il, pour tous les rêveurs qui culbutent l'administration. Mais voilà
+                        que, sans m' en douter, je radote presqu'aussi bien que mon oncle; et vous
+                        avez autre chose à faire que de lire mes folies. Adieu, monsieur le duc...
+                        je brûle de me ranger sous vos drapeaux. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XIII. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte De Mirbelle. </hi> en mille ans je
                         n'aurois pas deviné, mon cher comte, le degré d'intérêt que vous prenez au
                         chevalier De Gérac. Il falloit, pour m'ouvrir les yeux, toute la chaleur de
                         votre apologie. Je vous demande sincérement pardon de la sortie indiscrete
@@ -1637,11 +1448,7 @@
                         réparation. Vous avez raison, cet homme là peut devenir un excellent
                         citoyen: mais, comme vous dites vous-même, je ne crois pas qu'il vise à un
                         certain point au titre de courtisan. Au reste, nous sommes dans le siecle
-                        des prodiges. Laissons là votre
-      <hi rend="italic">
-       pilade
-      </hi>
-      , et parlons
+                        des prodiges. Laissons là votre <hi rend="italic"> pilade </hi> , et parlons
                         d'autre chose. Vous verrez par ma lettre, que je ne suis pas si entêté de
                         mon opinion que je vous l'ai paru. Autant je vous invitois à poursuivre
                         laconquête de Madame De Syrcé, autant je vous presse aujourd'hui de n'en
@@ -1667,23 +1474,14 @@
                         quivous reste à faire, c'est de ne plus voir Madame De Syrcé, de l'oublier,
                         et de la punir par un silence noble, de l'indécence de ses emportemens. Il
                         est vrai qu'elle est jolie, autant qu'il soit possible de l'être; mais cela
-                        ne suffit pas, il faut être honnête, et ne point accuser un homme de
-      <hi rend="italic">
-       gaucherie
-      </hi>
-      , quand on n'en a pas la certitude.
-                        Adieu, monsieur le comte.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XIV.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      j'ai
+                        ne suffit pas, il faut être honnête, et ne point accuser un homme de <hi
+                            rend="italic"> gaucherie </hi> , quand on n'en a pas la certitude.
+                        Adieu, monsieur le comte. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XIV. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> j'ai
                         passé chez vous ce matin, mon cher chevalier. Où étiez-vous donc? Mon dieu,
                         que vous êtes matinal! J'avois besoin de vous trouver; vous m'auriez vu dans
                         une belle colere! Je vous défie de deviner ce qui m' arrive. Madame De
@@ -1727,27 +1525,18 @@
                         je me trompois moi-même, toutes mes illusions s'évanouissent. Adieu! Je me
                         contredis, je déraisonne. Venez me voir, ou écrivez-moi. Je ne conçois point
                         la conduite de Madame De Syrcé, elle est vraiment étrange! ... hélas! Quelle
-                        sera la mienne?
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XV.
-     </head>
-     <p>
-      <hi rend="italic">
-       du chevalier De Gérac, au comte De Mirbelle.
-      </hi>
-      y
+                        sera la mienne? </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XV. </head>
+                    <p>
+                        <hi rend="italic"> du chevalier De Gérac, au comte De Mirbelle. </hi> y
                         songez-vous? Quoi, les propos d'une femme frivole, ou du moins que l'on
                         croit telle, vous tournent la tête, excitent votre ressentiment, et piquent
                         votre sensibilité! D'abord, est-ilbien sûr qu'elle les ait tenus? Ne les
                         a-t-on point altérés en les rapportant? Et puis, vous croyez-vous à l'abri,
-                        mon cher comte, de ces petites mortifications? Les femmes ont leur
-      <hi rend="italic">
-       franc-parler
-      </hi>
-      , elles disent ce qu'elles veulent,
+                        mon cher comte, de ces petites mortifications? Les femmes ont leur <hi
+                            rend="italic"> franc-parler </hi> , elles disent ce qu'elles veulent,
                         c'est à nous d'apprécier ce qu'elles disent. Il ne tiendroit qu'à moi,
                         d'après votre lettre, de croire que vous adorez la marquise; mais j'aime
                         bien mieux ne rien attribuer à l'émotion d'un coeur malade, et mettre tout
@@ -1774,18 +1563,12 @@
                         parce que je connois le fond de votre caractere. Ami du bien, si votre
                         facilité vous en écarte, l'attrait vous y reporte à la moindre image qu'on
                         vous en présente, et voilà mon rôle, à moi; qu'il m'est doux de m'en
-                        acquitter!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XVI.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      je ne
+                        acquitter! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XVI. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> je ne
                         conçois pas Madame De Syrcé. Cette femme est désespérante; elle excite en
                         moi des especes de fureurs... et je ferois bien, je crois, d'en perdre
                         absolument le souvenir. Oh! Oui, ce seroit le plus sûr; mais il faut que je
@@ -1806,16 +1589,8 @@
                         heure éternelle, Madame De Syrcé descend, accompagnée de toutes les graces,
                         et mise avec la plus grande élégance. Elle me fait des excuses pleines de
                         trouble, ou plutôt d'embarras, m'adresse quelques mots avec inquiétude, se
-                        leve un instant après, me dit qu'il est
-      <hi rend="italic">
-       horrible
-      </hi>
-      de
-                        m'avoir fait attendre, qu'il est
-      <hi rend="italic">
-       affreux
-      </hi>
-      de me
+                        leve un instant après, me dit qu'il est <hi rend="italic"> horrible </hi> de
+                        m'avoir fait attendre, qu'il est <hi rend="italic"> affreux </hi> de me
                         quitter, me salue froidement, et s'échappe. Dites, à ma place seriez-vous
                         tranquille? Je ne l'avois jamais vue si belle; son image ne m'a point quitté
                         depuis ce moment. Je voulois l'oublier, j'en avois pris la résolution... le
@@ -1840,19 +1615,13 @@
                         dans la matinée, je resterai pour vous attendre, ou bien écrivez-moi.
                         Sur-tout plus de conseils; le tems en est passé. Je suivrai ma fantaisie.
                         Cet écart me préservera d'un plus grand; j'ai besoin d'être coupable à demi,
-                        pour ne pas le devenir tout-à-fait... l'étrange femme que Madame De
-                        Syrcé!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XVII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du chevalier De Gérac, au comte De Mirbelle.
-      </hi>
-      plus
+                        pour ne pas le devenir tout-à-fait... l'étrange femme que Madame De Syrcé!
+                    </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XVII. </head>
+                    <p>
+                        <hi rend="italic"> du chevalier De Gérac, au comte De Mirbelle. </hi> plus
                         de conseils, dites-vous. Eh! Mon cher comte, vous n'en eûtes jamais plus de
                         besoin. Avec quelle facilité votre tête s'allume! Car, ne vous y trompez
                         pas, c'est elle seule qui agit, et c'est sur votre coeur qu'en tombera la
@@ -1942,18 +1711,12 @@
                         un grand objet? Leurs forces doublent par l'union; si l'un des deux a une
                         foiblesse, le courage de l'autre en triomphe, ou son ame l'ensevelit. Adieu.
                         Je vous écris de la campagne, où l'on m' a renvoyé votre lettre; j'y suis
-                        encore pour deux jours: j'irai vous chercher en arrivant.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XVIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte De Mirbelle.
-      </hi>
-      j'étois hier si
+                        encore pour deux jours: j'irai vous chercher en arrivant. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XVIII. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte De Mirbelle. </hi> j'étois hier si
                         pressé de partir quand vous êtes venu chez moi, que je n'ai pu raisonner
                         comme je le voulois, sur tous les articles devotre confidence; mais j'y ai
                         réfléchi, et le zele a plus de force, quand il est aidé par la méditation.
@@ -2049,18 +1812,13 @@
                         le monde; mais ils réussissent quelquefois. Il faut réserver ceux qui sont
                         moins communs pour les grandes occasions. Pourquoi livrer une bataille,
                         quand il ne faut qu'une escarmouche? Adieu, comte. De la méthode et du
-                        sang-froid, s'il vous plaît.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XIX.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      j'étois hier chez moi, mon cher chevalier,quand vous y êtes venu. J' ai
+                        sang-froid, s'il vous plaît. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XIX. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi>
+                        j'étois hier chez moi, mon cher chevalier,quand vous y êtes venu. J' ai
                         craint de vous voir, je vous ai fui... ah, mon coeur est donc coupable! Je
                         me suis dit, au sujet de Sidley, mille fois plus que vous ne m'en dites, et
                         mon désespoir est de tenir encore à elle, quoique je sois entraîné vers une
@@ -2091,18 +1849,12 @@
                         ménagez la mienne, que dis-je! Je n'ai de véritable attachement que pour
                         Sidley. Quel charme a donc la marquise pour m'en distraire? Je ne m'explique
                         rien; je suis mécontent de tout... je suis bien malheureux. ô Sidley! ...
-                        que vous avez une dangereuse rivale!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XX.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte De Mirbelle.
-      </hi>
-      voilà vraiment une
+                        que vous avez une dangereuse rivale! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XX. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte De Mirbelle. </hi> voilà vraiment une
                         jolie conduite! On ne peut vous perdre un instant de vue, que vous ne vous
                         égariez. êtes-vous fou avec votre déclaration? Il y a de quoi vous perdre,
                         ouvous reculer pour des siecles. Il faut tout hasarder avec les femmes; mais
@@ -2132,11 +1884,8 @@
                         n'a pas l'une, il est juste qu'elle serve au moins à faire avoir l'autre.
                         Madame De Thémines balance la marquise pour la figure; et elle a de plus une
                         réputation de sagesse, qui dans ce moment aura son utilité. C'est un de ces
-                        êtres factices et guindés qui ont la manie des
-      <hi rend="italic">
-       décences
-      </hi>
-      , et jouissent voluptueusement du petit orgueil de paroître
+                        êtres factices et guindés qui ont la manie des <hi rend="italic"> décences
+                        </hi> , et jouissent voluptueusement du petit orgueil de paroître
                         insensibles. On voudroit bien qu'elle fût coquette: elle le sait, en est
                         vaine, joue le désintéressement; voilà sa coquetterie. Une telle femme
                         attire les respects, et se forme bien vîte une cour: vous serez de la
@@ -2144,18 +1893,12 @@
                         aimable: nous ferons événement, et Madame De Syrcé n'y sera pour rien. Nous
                         la rendrons furieuse, rapportez-vous-en à moi: j'ai passé ma vie à
                         courroucer des amours-propres de femmes. Il faut corriger celle-ci, n'est-ce
-                        pas? Et lui apprendre à ne pas répondre.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXI.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      il m'a écrit, il m'a
+                        pas? Et lui apprendre à ne pas répondre. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXI. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> il m'a écrit, il m'a
                         fait l'aveu de ses sentimens; et j'éprouvois, en lisant sa lettre, une joie
                         mêlée de terreur. L'amour le plus délicat ne peut jouir de rien, que
                         l'honnêteté n'ait tout à craindre. Jusqu'ici j'ai combattu mon penchant.
@@ -2213,19 +1956,13 @@
                         répondu à la lettre du comte. Peut-être aussi est-ce le traiter avec trop de
                         rigueur. Une réponse n' engage à rien; c'est une honnêteté. Si mon
                         silencel'afflige! Qu'en pensez-vous? Que dois-je faire? Non, je ne vous
-                        demande rien; ne me répondez pas sur cet article. Adieu, je vous
-                        embrasse.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise De Syrcé, à Madame De Lacé.
-      </hi>
-      quelle
+                        demande rien; ne me répondez pas sur cet article. Adieu, je vous embrasse.
+                    </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXII. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise De Syrcé, à Madame De Lacé. </hi> quelle
                         nuit! Je n'en puis plus; j'ai encore tout ce tumulte-là dans la tête, et mon
                         coeur n'a jamais été plus agité. Accablée de fatigue, je ne puis me résoudre
                         à me coucher; il faut que je vous écrive. Je ne vous dirai point si le bal
@@ -2285,11 +2022,7 @@
                         fait couler. Ps. J'ai reçu vos deux dernieres lettres; je les aime bien,
                         elles vous peignent. Votre mari ne veut donc pas même que vous m'écriviez?
                         Ah! Je le vois; notre sort à nous autres femmes est d'être malheureuses.
-                        Billet.
-      <hi rend="italic">
-       du comte, au duc.
-      </hi>
-      ah! Mon cher duc,
+                        Billet. <hi rend="italic"> du comte, au duc. </hi> ah! Mon cher duc,
                         qu'est-ce donc que vous m'avez fait faire? Madame De Syrcé ne me le
                         pardonnera jamais. Qu'elle étoit belle cette nuit! Quelle dignité sans
                         orgueil! Que de graces sans affectation! Madame De Thémines est bien: mais
@@ -2300,18 +2033,12 @@
                         qui le retînt ailleurs, mon coeur étoit à elle. L'événement du bal m'aura
                         nui sans doute; j'en tremble. J'ai écrit à Sidley; je lui demande la
                         permission de vous présenter; elle ne m'a point encore répondu. Je vais me
-                        reposer, si pourtant le repos est compatible avec tout ce qui m'agite.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Ladi Sidley, au comte De Mirbelle.
-      </hi>
-      j'ai reçu
+                        reposer, si pourtant le repos est compatible avec tout ce qui m'agite. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXIII. </head>
+                    <p>
+                        <hi rend="italic"> de Ladi Sidley, au comte De Mirbelle. </hi> j'ai reçu
                         hier une lettre de vous; mais qu'est-ce qu'une lettre pour me dédommager de
                         votre absence? C'est vous que je veux, que je desire, que j'attends...
                         combien de siecles écoulés depuis que tu n'es venu enchanter mon asyle! Je
@@ -2356,11 +2083,8 @@
                         que ne puis-je passer ma vie à tes pieds, dans tes bras, ou à tes côtés,
                         oubliée du monde entier, m' oubliant moi-même, et ne sentant le prix de
                         l'existence, qu'en la prodiguant pour toi! Aime ton angloise: aime-la
-                        jusqu'à ton dernier soupir: tu ne la remplaceras jamais.Billet.
-      <hi rend="italic">
-       du duc, au comte.
-      </hi>
-      vous n'y entendez rien. Je ne
+                        jusqu'à ton dernier soupir: tu ne la remplaceras jamais.Billet. <hi
+                            rend="italic"> du duc, au comte. </hi> vous n'y entendez rien. Je ne
                         prétends pas non plus que Madame De Syrcé vous pardonne; je veux qu'elle
                         soit furieuse, jalouse, désespérée, et que vous profitiez de son dépit, pour
                         placer votre amour. Apprenez donc à tourmenter une femme, à lui troubler la
@@ -2369,11 +2093,8 @@
                         rare, et la coquetterie universelle, les femmes ne cedent que quand elles
                         ont des furies dans la tête... ces furies-là sont à mes ordres. Soyez sûr
                         que la marquise aura dormi fort légérement. La Thémines d'un côté, vous de
-                        l' autre, aurez les honneurs de l'insomnie. Elle vous croira du
-      <hi rend="italic">
-       dernier bien
-      </hi>
-      avec cette prude dont j'ai fait une
+                        l' autre, aurez les honneurs de l'insomnie. Elle vous croira du <hi
+                            rend="italic"> dernier bien </hi> avec cette prude dont j'ai fait une
                         coquette; et pour peu qu'on ait d'ame, on s'en vengera en nous prenant.
                         L'autre a brillé cette nuit, on en parlera demain; voila de ces horreurs
                         qu'on n'oublie point! Gardez-vous d'écrire; vous perdriez tout le fruit de
@@ -2383,18 +2104,12 @@
                         Pressez votre angloise; il est de toute nécessité que je sois là, afin de
                         conjurer l'orage, et de vous ménager la douce tranquillité dont vous avez
                         besoin pour être infidele sans contradiction. Cela m'ennuiera un peu; mais,
-                        encore un coup, je m' exécute.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXIV.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      je n'ai point répondu à
+                        encore un coup, je m' exécute. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXIV. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> je n'ai point répondu à
                         votre lettre, monsieur le comte, parce que je n'avois rien du tout à y
                         répondre; mais j'apprends que Madame De Thémines trouve vos visites chez moi
                         beaucoup trop fréquentes, et je me détermine enfin à rompre le silence pour
@@ -2428,18 +2143,12 @@
                         puis, quelque plaisir que mon amour-propre y trouvât, je vous dispense de
                         cette justification; elle vous mettroit dans la nécessité d'être faux une
                         seconde fois, et je ne veux point m'exposer au chagrin de perdre pour vous
-                        toute estime. Adieu, monsieur.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXV.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      les bruits du bal
+                        toute estime. Adieu, monsieur. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXV. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> les bruits du bal
                         viennent de m'être confirmés. Un homme que j'ai vu hier, m'a dit toutes les
                         particularités de cette intrigue. Il n'est que trop vrai, le comte adore
                         Madame De Thémines: mais ce qui va vous paroître incroyable, cette femme est
@@ -2469,18 +2178,12 @@
                         voudrois qu'elle ne fût pas partie... j'aurois mieux fait de ne pas écrire.
                         C'est une démarche impardonnable: s'il alloit l'interpréter à mon
                         désavantage! Je suis une insensée; je m'abhorre... que je suis à plaindre!
-                        Et Madame De Thémines est jalouse! ... et j'excite l'envie!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXVI.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      qu'ai-je lu! Est-ce vous,
+                        Et Madame De Thémines est jalouse! ... et j'excite l'envie! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXVI. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> qu'ai-je lu! Est-ce vous,
                         madame, est-ce bien vous qui l'avez écrite cette lettre qui contient mon
                         sort, qui le rend horrible, et dans laquelle vous prononcez mon arrêt sur
                         des apparences que vous n'auriez pas dû si cruellement interpréter! Vous
@@ -2520,18 +2223,12 @@
                         dirai, je vous répéterai cent fois à quel point je vous suis asservi. Non,
                         non, croyez-en le serment de l'amour, non, Madame De Thémines n'eut jamais
                         de droits sur mon ame; et il me suffit de vous connoître, pour assurer
-                        qu'elle n'en aura jamais.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXVII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      que l'univers entier
+                        qu'elle n'en aura jamais. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXVII. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> que l'univers entier
                         soit aux pieds de Madame De Thémines: le seul objet qui m' interesse n'y est
                         point, il n'y sera jamais... il n'est point coupable. Que nous étions
                         injustes! C'étoit avec une sorte d'acharnement que vous l'accusiez. Plus
@@ -2577,18 +2274,12 @@
                         Il seroit affreux de lui laisser une opinion si fausse. Il croit que je le
                         déteste! ... il le croit! Ah, dieu! Il ne lira jamais dans mon coeur; je
                         l'espere du moins: ... mais il n'est point de loi qui puisse me contraindre
-                        à lui marquer de la haine.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXVIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      il faut bien, monsieur,
+                        à lui marquer de la haine. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXVIII. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> il faut bien, monsieur,
                         que je vous réponde. J'ai à me justifier d'un tort, c' est-à-dire à
                         repousser un mensonge. On pourroit être plus modeste, mais il est difficile
                         d'être plus franche. Non, assurément, il n'est pas vrai que dans un cercle
@@ -2614,18 +2305,12 @@
                         persisterez à me mettre au rang de vos ennemis, vous penserez que ma haine
                         est implacable, vous direz beaucoup de mal de moi... eh bien, monsieur, je
                         veux vous donner une preuve d'estime, et le style de vos lettres m'apprendra
-                        si vous la méritez.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXIX.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, au chevalier.
-      </hi>
-      vos lettres me
+                        si vous la méritez. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXIX. </head>
+                    <p>
+                        <hi rend="italic"> du comte, au chevalier. </hi> vos lettres me
                         contrarioient, mon cher chevalier, votre silence m'afflige. C'en est fait,
                         me voilà engagé: j'ai écrit, on m'a répondu: mais hélas! Avec des remords,
                         de quoi jouit-on? Les miens sont horribles. J'aspire à un bonheur que je
@@ -2646,29 +2331,20 @@
                         dis-je! Je m'exagere mes torts; qui ne les a pas eus? Vous-même dans ma
                         position vous feriez comme moi. Nous sommes trop séveres, le plaisir est le
                         dieu de mon âge, c'est à lui qu'il faut sacrifier, la froide raison n'est
-                        point la vertu. Billet.
-      <hi rend="italic">
-       du chevalier, au comte.
-      </hi>
-      vous pleurez, vous rougissez, votre ame est triste, et vos résolutions sont
+                        point la vertu. Billet. <hi rend="italic"> du chevalier, au comte. </hi>
+                        vous pleurez, vous rougissez, votre ame est triste, et vos résolutions sont
                         les mêmes! àquoi servent donc ces avertissemens secrets d'une ame délicate?
                         Si ce frein est inutile, quel est celui qu'il vous faut? Mais la saison des
                         conseils est passée; voici celle de l'amitié: elle doit consoler les coeurs
                         qu'elle n'a pu guérir. Je donnerois bien des jours de ma vie pour vous
                         épargner les jours affreux qui vous attendent. Un écart d'un moment a fait
                         quelquefois couler des larmes que le tems n'a pu tarir. Puissé-je me
-                        tromper! Puissiez-vous être heureux!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXX.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte.
-      </hi>
-      eh bien, me suis-je abusé? Le bal
+                        tromper! Puissiez-vous être heureux! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXX. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte. </hi> eh bien, me suis-je abusé? Le bal
                         a-t-il manqué son effet? J'étois sûr qu'on vous écriroit. Tout est applani,
                         vous voilà aux prises; c'est à vous à mener cela lestement, et à ne pas vous
                         ennuyer tous deux par l'éternité des premieres façons. De grace, n'allez
@@ -2687,18 +2363,12 @@
                         donnerai seulement le secret de ces silences savamment indiscrets qui
                         déshonorent vingt femmes, en nous laissant le mérite des procédés. Votre
                         angloise ne veut donc pas de moi? C'est une barbare que cette femme-là! ...
-                        adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXI.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      de quoi vous
+                        adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXI. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> de quoi vous
                         plaignez-vous? Je permets que vous m'écriviez, j'ai enfin promis de vous
                         répondre; c'est peut-être plus que je ne dois, et sûrement tout ce que je
                         peux vous accorder: mais vous êtes injuste; vous l'êtes beaucoup, et
@@ -2716,18 +2386,12 @@
                         serai chez moi ce soir? Mon dieu! Oui; j'ai un mal de tête affreux, je ne
                         sortirai pas. D'ailleurs j'ai à vous gronder, je ne suis point contente de
                         vos lettres: quoiqu'elles soient charmantes, je leur en veux... ah, que vous
-                        êtes déjà loin de ce que vous m'aviez promis!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      quelle visite vous m'avez
+                        êtes déjà loin de ce que vous m'aviez promis! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXII. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> quelle visite vous m'avez
                         faite hier! Quelle légéreté! Quels propos! Non, monsieur, n' espérez pas que
                         je les oublie. Vous osez dire que vous m'aimez! Ah! Si j'avois eu de la
                         disposition à le croire (et vous savez le contraire), il ne m'en resteroit
@@ -2750,18 +2414,12 @@
                         que j'attendois de vous. J'avois donc tort! Adieu, monsieur. Combien de
                         remercîmens je vous devrois, si j'avois eu besoin d'être affermie contre
                         votre singulier amour! Heureusement je n'en étois pas là: je dis
-                        heureusement, parce que cela met des bornes à ma reconnoissance.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      n'accablez point un
+                        heureusement, parce que cela met des bornes à ma reconnoissance. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXIII. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> n'accablez point un
                         malheureux, dont le sort est plus horrible que vous ne pensez. Il vous a
                         déplu, son supplice est dans son coeur. Ah! Madame, si vous aviez pu y lire
                         dans l'instant même de l'entretien d'hier, de cet entretien qui vous a
@@ -2793,11 +2451,8 @@
                         n'êtes pas tout-à-fait insensible. Ne craignez pas, ne craignez jamais que
                         je vous parle de mon amour; j'aurai le courage de souffrir, de me taire, de
                         me soumettre à vous comme à ces intelligences célestes qu'on adore par la
-                        pensée... au nom de cet effort, ne me refusez pas.Billet.
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      j'ai répondu à votre derniere lettre,
+                        pensée... au nom de cet effort, ne me refusez pas.Billet. <hi rend="italic">
+                            de la marquise, au comte. </hi> j'ai répondu à votre derniere lettre,
                         j'ai cru à votre repentir, et vous avez du chagrin! Ah! N'en ayez point;
                         n'en ayez jamais. Je suis bien loin d'être insensible à ceux de mes amis.
                         Vous prétendez que je ne leur passe rien; mais ne leur doit-on pas la
@@ -2809,12 +2464,8 @@
                         pouvoir de la détruire. Je vous en conjure, n'ayez... que de l'amitié pour
                         moi; je sentirois vivement la douleur de vous causer la moindre peine. Je
                         n'ai pourtant pas été hier au spectacle, d'après vos sollicitations! Ce
-                        procédé est-il assez beau? Billet.
-      <hi rend="italic">
-       du comte, au chevalier
-                            de Gérac.
-      </hi>
-      j'ai été hier au soir chez Madame De Syrcé, malgré tout
+                        procédé est-il assez beau? Billet. <hi rend="italic"> du comte, au chevalier
+                            de Gérac. </hi> j'ai été hier au soir chez Madame De Syrcé, malgré tout
                         ce que vous m'aviez dit le matin; mais notre conversation, la plus vive que
                         nous ayons eue depuis cette malheureuse intrigue, étoit toute entiere sur
                         mon coeur. J'étois d'un sombre... dont on s'est apperçu, que l'on me
@@ -2826,18 +2477,12 @@
                         Mon ame, toute courageuse qu'elle est, est effrayée de l'effort qu'elle
                         s'impose... n'importe, il faut être homme, savoir souffrir, épargner des
                         larmes à Sidley; il faut enfin être honnête, et contenter son ami. Je vais
-                        essayer le combat, je pleure d'avance le triomphe... adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXIV.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      voila huit jours que ne
+                        essayer le combat, je pleure d'avance le triomphe... adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXIV. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> voila huit jours que ne
                         l'ai vu, je suis d'un abattement, d'une tristesse inexprimable; tout
                         m'importune et m'afflige, je sors pour le chercher, je reste pour
                         l'attendre; je lui écris à chaque instant, je brûle aussi-tôt ce que je
@@ -2865,18 +2510,12 @@
                         larmes, mes foiblesses, tous les secrets d'un coeur... qu'on ne connoît pas.
                         Adieu; écrivez moi, vos lettres sont tendres, elles me consolent; me
                         guériront-elles? Ah! Jamais... je ne les aimerois pas tant, si elles
-                        pouvoient m' arracher... hélas! à mon malheur.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXV.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, au chevalier.
-      </hi>
-      sachez ce que j'ai fait,
+                        pouvoient m' arracher... hélas! à mon malheur. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXV. </head>
+                    <p>
+                        <hi rend="italic"> du comte, au chevalier. </hi> sachez ce que j'ai fait,
                         applaudissez-moi de l'intention, de l'effort, et mettez le reste sur le
                         compte de la fatalité: la mienne est d'être infidele... en pleurant l'objet,
                         le vertueux objet que je sacrifie. Je vous ai instruit de l'aveu que j'ai
@@ -2927,11 +2566,7 @@
                         c'est le plus ardent de mes voeux. Que ma situation est horrible! C'en est
                         fait, il faut subir mon sort. Puissé-je en être seul la victime! Adieu: si
                         vous blâmez ma conduite, ma franchise au moins a des droits à votre
-                        amitié.Billet.
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      la chaleur
+                        amitié.Billet. <hi rend="italic"> de la marquise, au comte. </hi> la chaleur
                         des expressions n'en prouve pas toujours la vérité. Non, monsieur, non, je
                         ne crois rien de ce que vous me dites. Mais pourquoi vous justifier? Vous ne
                         me devez ni regrets ni excuses; votre conduite m'a paru toute naturelle;
@@ -2944,10 +2579,7 @@
                         n'auriez pas eu beaucoup d'égard à la mienne. Soyez de meilleure foi avec
                         les autres femmes. Il faut bien connoître le coeur qu'on attaque; sans cette
                         précaution, on est plus qu'indiscret, on risque d'être cruel. Autre billet.
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      je ne sais pourquoi
+                            <hi rend="italic"> de la marquise, au comte. </hi> je ne sais pourquoi
                         votre lettre de ce matin m'a plus convaincue que celle d'hier; elle estmoins
                         emportée, et me paroît plus vraie. Je suis lasse de vous parler de Madame De
                         Thémines. Décidément, ce n'est donc point elle qui vous éloigne de vos amis?
@@ -2955,18 +2587,12 @@
                         servira-t-il? Vous me demandez de vous recevoir, vous me le demandez avec
                         tant d'instance... eh bien, monsieur le comte, je serai visible à sept
                         heures: vous aurez le tems de faire toutes vos visites... car je vous crois
-                        fort occupé.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXVI.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      toutes mes lettres,
+                        fort occupé. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXVI. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> toutes mes lettres,
                         dites-vous, n'ont jamais que quatre lignes; consolez-vous, celle-ci en aura
                         quelques-unes de plus. Je ne vous ai point répondu ce matin, et tôt ou tard
                         il faut répondre. J'avois mille embarras; je n'avois pas assez de tems pour
@@ -2995,11 +2621,7 @@
                         mauvais singe du duc De; il tranche, prononce, décide, dit du bien de lui,
                         persiffle les autres. Vous croyez peut-être qu'il a une ame! Une ame! Lui!
                         Comme il parle des femmes! Je l'entendois vous raconter qu'être infidele,
-                        c'étoitune chose
-      <hi rend="italic">
-       délicieuse
-      </hi>
-      . En effet, montrer la
+                        c'étoitune chose <hi rend="italic"> délicieuse </hi> . En effet, montrer la
                         sécurité de l'innocence à celle que l'on vient de trahir, porter la perfidie
                         au sein de l'amour, désespérer le coeur qui est à soi, ce plaisir horrible
                         doit avoir des charmes pour lui. Et vous, pendant que d'un ton d'oracle il
@@ -3016,27 +2638,18 @@
                         suspendue. Il faut les fuir... adieu, monsieur le comte. Ps. Je suis
                         effrayée de la longueur de ma lettre, et sur-tout des méchancetés que j'ai
                         dites. Savez-vous que vous avez des connoissances qui me donnent une idée
-                        médiocre de votre sensibilité?
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXVII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte.
-      </hi>
-      le voyage a été plus long qu'on
+                        médiocre de votre sensibilité? </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXVII. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte. </hi> le voyage a été plus long qu'on
                         ne l'imaginoit; mais enfin me voilà, et mon premier soin est de m'informer
                         de vos progrès, ou plutôt de votre triomphe. Qu'est-ce donc que cela veut
                         dire? Pas la moindre rumeur! Paris est-il devenu muet? J' ai été par-tout,
                         et par-tout un silence morne! Est-ce que votre aventure n'est pas encore
-                        terminée? Comment n'a-t-elle point transpiré? J'ai donné
-      <hi rend="italic">
-       l'éveille
-      </hi>
-      , j'ai mis sur les voies, et, très-heureusement pour
+                        terminée? Comment n'a-t-elle point transpiré? J'ai donné <hi rend="italic">
+                            l'éveille </hi> , j'ai mis sur les voies, et, très-heureusement pour
                         vous, je suis arrivé à tems pour les indiscrétions. Par hasard,
                         fileriez-vous le sentiment? J'en meurs de peur. Oh! Oui, Madame De Syrcé a
                         saisi le foible de votre caractere; elle vous aura fait accroire tout ce
@@ -3049,17 +2662,9 @@
                         excepté vous. Je la ménageois, j'étois circonspect; mais votre danger
                         m'intéresse, et son manege merévolte. Songez donc à l'importance de tout
                         ceci; votre réputation doit vous être plus chere que la sienne, et
-                        j'immolerois vingt
-      <hi rend="italic">
-       honneurs
-      </hi>
-      de femmes, pour sauver
+                        j'immolerois vingt <hi rend="italic"> honneurs </hi> de femmes, pour sauver
                         celui d'un honnête homme. Je deviens pressant, parce que vous êtes
-                        compromis, cruellement
-      <hi rend="italic">
-       vexé
-      </hi>
-      , et prêt à devenir la
+                        compromis, cruellement <hi rend="italic"> vexé </hi> , et prêt à devenir la
                         fable d'un monde qui ne pardonne pas... votre angloise persiste donc à
                         m'exclure? J'en suis vraiment affecté, toujours pour vous; mais je me
                         console de ne la pas connoître, par le plaisir de vous voir infidele.
@@ -3067,18 +2672,12 @@
                         n'oubliez pas de m'apprendre votre bonheur. Il est essentiel que je sois
                         instruit, je veux l'être à la minute. En cas que je fusse absent,
                         dépêchez-moi un courier. Quand il s'agit d'ébruiter la foiblesse d' une
-                        femme, on ne sauroit faire trop de diligence.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXVIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      vous savez que ma mere
+                        femme, on ne sauroit faire trop de diligence. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXVIII. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> vous savez que ma mere
                         est partie pour ses terres. C'est la premiere fois que je ne l' accompagne
                         pas; j'ai résisté à ses instances, j'ai prétexté des affaires; elle a
                         consenti, parce qu'elle est bonne, et ne s'est point doutée de mes
@@ -3104,18 +2703,12 @@
                         solitude, je trouverai peut-être des armes contre l'amour. Je compte partir
                         après-demain, et je tremble de le dire à M De Mirbelle; je ferai ensorte
                         qu'il n'en soupçonnerien. Il tomberoit à mes pieds; j'entendrois ses
-                        soupirs, je verrois ses pleurs... et je ne partirois pas.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XXXIX.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      ô ciel! Je vous ai vue
+                        soupirs, je verrois ses pleurs... et je ne partirois pas. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XXXIX. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> ô ciel! Je vous ai vue
                         hier; votre départ étoit résolu, et vous ne m'en avez rien dit! Quel réveil!
                         Que vous ai-je fait, madame? Pourquoi me fuir? Vous avez besoin, dites-vous,
                         du calme de la campagne, et vous comptez pour rien l' agitation où vous me
@@ -3145,18 +2738,12 @@
                         rien. Quand revenez-vous? Dans quelle circonstance vous m'abandonnez! ...
                         votre absence peut-être... par pitié ne la prolongez pas; et pour m'accorder
                         ce que je vous demande, oubliez un moment que c'est moi qui vous en prie.
-                        Adieu, cruelle.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XL.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      qu'ai-je fait!
+                        Adieu, cruelle. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XL. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> qu'ai-je fait!
                         Qu'est-ce que l'absence de quelques jours contre une impression chere et
                         vainement combattue? Est-ce qu'on fuit son amant? On le trouve par-tout, et
                         son image est aussi dangereuse que sa présence. Mon amie, je lis ses
@@ -3179,18 +2766,12 @@
                         les recommence dix fois, j'en suis toujours mécontente. La crainte de me
                         trahir, celle de l'affliger, tout me désespere, tout jusqu'à l'excès de son
                         amour; et je me sens bien foible, hélas! Quand je pense que peut-être il est
-                        malheureux.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XLI.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Madame De Syrcé, au comte De Mirbelle.
-      </hi>
-      je ne
+                        malheureux. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XLI. </head>
+                    <p>
+                        <hi rend="italic"> de Madame De Syrcé, au comte De Mirbelle. </hi> je ne
                         m'arrêterai point, monsieur, sur les motifs de mon départ; je ne sens pas la
                         nécessité de vous en instruire. Je vous répete ce que je vous ai déjà dit;
                         j'avois un desir de repos qui me tourmentoit depuis quelques jours... chacun
@@ -3237,18 +2818,12 @@
                         j'avois du plaisir à l'entendre... quand une de mes femmes vint m'éveiller.
                         Adieu mon silphe, et vraiment je le regrette. Ps. Vous me demandez le tems
                         de mon retour à Paris. Je ne le sais pas moi-même... j'attends que vous ayez
-                        de la raison.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XLII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      il
+                        de la raison. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XLII. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> il
                         m'est venu l'idée la plus singuliere, la plus hardie. Je veux l' exécuter.
                         Je ne puis vivre sans voir la marquise: ma démarche est indiscrete; l'excès
                         de mon trouble la justifie. Il est impossible que Madame De Syrcé soit ce
@@ -3257,18 +2832,12 @@
                         déplaire... je vais tout risquer. Vous connoissez mon coeur; il est foible
                         et ardent, emporté dans ses goûts, bouillant dans ses desirs. Il faut que je
                         me satisfasse, quitte après à me repentir, à pleurer mon erreur, et à me
-                        rendre aux remontrances d'un ami. Je pars.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre XLIII.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      ne
+                        rendre aux remontrances d'un ami. Je pars. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre XLIII. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> ne
                         m'en dites jamais de mal... je l'adore, je l'idolâtre; mon enthousiasme
                         survit à un bonheur dont je n'avois point d'idée. Où suis-je! Comment vous
                         peindre mon trouble, mes transports! Partagez le délire, l'ivresse,
@@ -3339,23 +2908,15 @@
                         objets, je croyois encore la voir. Je ne vous recommande point le secret; je
                         ne me confierai qu'à vous, à vous seul dans l'univers. Ah! Mon bonheur est
                         trop vif, trop bien senti, pour que j'aie besoin du froid plaisir de m'en
-                        vanter. Adieu.
-     </p>
-    </div>
-   </div>
-   <div type="group">
-    <div type="letter">
-     <head>
-      PARTIE 2
-     </head>
-     <head>
-      Lettre premiere.
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-     </head>
-     <p>
-      ce n'est plus un mortel qui vous écrit. Vous m'avez créé une ame nouvelle...
+                        vanter. Adieu. </p>
+                </div>
+            </div>
+            <div type="group">
+                <div type="letter">
+                    <head> PARTIE 2 </head>
+                    <head> Lettre premiere. <hi rend="italic"> du comte, à la marquise. </hi>
+                    </head>
+                    <p> ce n'est plus un mortel qui vous écrit. Vous m'avez créé une ame nouvelle...
                         vous m'avez transmis la vôtre. Je franchis l'intervalle qui me sépare de
                         vous... je vous vois, vous parle, vous entends; je vous presse dans mes
                         bras; je meurs sur votre sein; tous mes sens frémissent; tous mes souvenirs
@@ -3388,18 +2949,12 @@
                         me retracer votre image. Ps. Je dépêche un courier vers vous; demain dans la
                         matinée vous recevrez ma lettre. Ne pouvant charmer près de vous les heures
                         solitaires de la nuit, je veux m'emparer au moins des premiers instans du
-                        réveil.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre ii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      malheureuse! Où suis-je!
+                        réveil. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre ii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> malheureuse! Où suis-je!
                         Comment pourrai-je échapper aux reproches de mon coeur? Ils sont affreux. De
                         quel droit avez-vous forcé l'asyle où je m'étois sauvée? Je vous fuyois;
                         c'étoit assez m'expliquer, c'étoit assez vous dire combien je tenois encore
@@ -3461,18 +3016,12 @@
                         me suis point couchée. Je suis d'un accablement! ... que je suis loin de
                         vous! Je viens de relire votre lettre... je vais la relire encore, elle
                         m'attendrit... me console; mais hélas! Votre ivresse est-elle vraiment de
-                        l'amour?
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre iii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      quelle lettre! Elle
+                        l'amour? </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre iii. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> quelle lettre! Elle
                         prolonge mon ravissement, elle ajoute à mon délire, et vous pleurez! ...
                         vous pleurez! C'est moi qui fais couler vos larmes! Ah! Je tombe à vos
                         pieds, et j'y implore mon pardon, sans cesser d'adorer mon crime... je
@@ -3508,18 +3057,12 @@
                         votre chagrin... revenez, je vous en conjure; n'évitez point mes yeux, ils
                         ne vous offriront que le plus tendre amour... je suis plus agité que vous...
                         mon ame est oppressée, elle attend la vôtre; je ne respire point dans votre
-                        absence.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre iv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      il est donc vrai, vous
+                        absence. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre iv. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> il est donc vrai, vous
                         aviez des préventions contre moi, et peut-être hélas! N'aviez-vous point
                         d'amour? Qu'ai-je dit! ... malheureuse! Quoi, je me serois donnée à un
                         parjure dont je ne serois pas aimée! ... non, il n'est pas possible, non, je
@@ -3556,26 +3099,16 @@
                         pour vous arracher de mon coeur seroient inutiles, je n'en ferai point...
                         mais comment souhaiter votre présence? Je vous reprocherois mes torts, j'en
                         aurois de nouveaux... ah! Je vous aime trop pour m'exposer au danger, à la
-                        honte... au bonheur de vous revoir.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre v.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc, au comte.
-      </hi>
-      heureusement je suis
+                        honte... au bonheur de vous revoir. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre v. </head>
+                    <p>
+                        <hi rend="italic"> du duc, au comte. </hi> heureusement je suis
                         désintéressé; le plaisir d'avoir bien fait est le prix le plus doux pour une
                         ame délicate, et l'ingratitude ne refroidit point ma générosité. Il y a des
                         siecles que tout est conclu entre la marquise et vous. Grace à moi, vous
-                        voilà en
-      <hi rend="italic">
-       pleine béatitude
-      </hi>
-      : vous devez même voir
+                        voilà en <hi rend="italic"> pleine béatitude </hi> : vous devez même voir
                         déjà se former de loin les orages de la rupture,et je n'entends parler de
                         rien! Vous ne me voyez point, ne m'instruisez point, je suis obligé de
                         deviner tout; et quand vous êtes abymé dans le calme de la jouissance, il
@@ -3596,18 +3129,11 @@
                         duchesse De , qui doit naturellement vous écheoir après la marquise, est
                         présentement aux eaux; ainsi je vous conseille de garder l'une, jusqu'à ce
                         que l'autre soit de retour; à moins que vous ne preniez en attendant, une
-                        fille de spectacle: ce qui seroit d'un
-      <hi rend="italic">
-       délicieux
-      </hi>
-      scandale, et causeroit un déchaînementqu' il est quelquefois bon d'exciter.
+                        fille de spectacle: ce qui seroit d'un <hi rend="italic"> délicieux </hi>
+                        scandale, et causeroit un déchaînementqu' il est quelquefois bon d'exciter.
                         Nous en raisonnerons à notre premiere entrevue. Adieu, monsieur le comte;
                         vous voilà dans une position brillante, et vous seriez impardonnable de n'en
-                        pas profiter. Billet.
-      <hi rend="italic">
-       du comte, au duc.
-      </hi>
-      vous m'avez
+                        pas profiter. Billet. <hi rend="italic"> du comte, au duc. </hi> vous m'avez
                         trompé plus cruellement que vous ne pouvez le croire, et que je n'ose vous
                         le dire. Madame De Syrcé est loin de ressembler au portrait que vous m'en
                         avez fait. Malgré vos préventions et vos efforts, elle a trouvé le secret
@@ -3619,18 +3145,12 @@
                         faire attention, et de respecter désormais une femme dont je me déclare le
                         défenseur. J'ai été à la veille de manquer à tout, et j'ai d' autant plus de
                         zele, que j'ai plus à réparer. Adieu, monsieur le duc: encore une fois...
-                        vous m'avez trompé.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre vi.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc De , à Ladi Sidley.
-      </hi>
-      c'est de tous les hommes
+                        vous m'avez trompé. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre vi. </head>
+                    <p>
+                        <hi rend="italic"> du duc De , à Ladi Sidley. </hi> c'est de tous les hommes
                         le plus dissipé, le plus frivole en apparence, qui met à vos pieds, madame,
                         cette légéreté qui a fait long-tems ses plaisirs, son orgueil et ses succès.
                         Plus mon coeur fut indépendant, plus il est flatteur peut-être de le fixer.
@@ -3665,11 +3185,7 @@
                         rebuterez-vous pas les soins de l' amitié. J'ai quelques entours; daignez en
                         disposer. Mes ressources dans tous les genres vous sont offertes, et toutes
                         sont ennoblies par la délicatesse des intentions. Je suis avec respect, le
-                        duc De .Billet.
-      <hi rend="italic">
-       de Ladi Sidley, au duc.
-      </hi>
-      à travers
+                        duc De .Billet. <hi rend="italic"> de Ladi Sidley, au duc. </hi> à travers
                         le pompeux arrangement de vos phrases, j'ai entrevu la fausseté de votre
                         coeur, et votre signature m'a convaincue de tout ce que je soupçonnois. De
                         quel droit, monsieur le duc, risquez-vous près de moi une tentative
@@ -3680,18 +3196,12 @@
                         je vais avoir à les oublier. Ne craignez point que je me vante d'un
                         triomphe, quand je n'ai qu'à rougir de votre audace. Je tairai ce qu'il
                         faudra taire; et si je parle au comte De Mirbelle, ce ne sera que pour le
-                        garantir de votre amitié, non pour m'enorgueillir de votre amour.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre vii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      bien, cruelle, très-bien!
+                        garantir de votre amitié, non pour m'enorgueillir de votre amour. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre vii. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> bien, cruelle, très-bien!
                         Je ne puis qu'applaudir à votre conduite, à votre obstination, à votre
                         barbarie. Voici la quatrieme lettre queje vous écris pour presser votre
                         retour; elle aura l'effet des autres. Et vous aimez! Vous aimez! Vous! Ah!
@@ -3715,11 +3225,8 @@
                         étranglé si elle avoit pu. Je parie qu'elle n'est point encore revenue de
                         mon escapade, et vous avez dû la trouver le soir deux fois plus
                         asthmatiquequ'à son ordinaire. Voilà pourtant, madame, à quoi vous
-                        m'exposez. Que faisiez-vous donc dans votre
-      <hi rend="italic">
-       délicieuse
-      </hi>
-      retraite, pendant que tout le monde en étoit dehors? Je ne vous
+                        m'exposez. Que faisiez-vous donc dans votre <hi rend="italic"> délicieuse
+                        </hi> retraite, pendant que tout le monde en étoit dehors? Je ne vous
                         conçois pas: quelle tranquillité! Quelle indifférence! Vous êtes donc bien
                         sûre de mon coeur! Que dis-je! Peut-être ne vous souciez-vous point qu'il
                         vous échappe. Si vous saviez cependant, si vous sçaviez! ... quelles sont
@@ -3739,18 +3246,12 @@
                         si vous résistez à mes prieres... je ne menace point, je pleure... revenez,
                         revenez, ô mon adorable maîtresse! Je tombe à vosgenoux pour vous en prier:
                         tous mes emportemens ne sont plus que de l'amour... je vous attends, je vous
-                        aime, plus qu'on n'a jamais aimé.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre viii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du duc De , au vicomte De .
-      </hi>
-      voyageant dans
+                        aime, plus qu'on n'a jamais aimé. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre viii. </head>
+                    <p>
+                        <hi rend="italic"> du duc De , au vicomte De . </hi> voyageant dans
                         l'Italie. Je boude l'univers, et je me suis arraché de Paris pour venir
                         respirer ici. M est une ville charmante; le commandant de la province, chez
                         qui je suis, est un homme aimable, c'est lui qui m'a formé; il pleure de
@@ -3778,11 +3279,8 @@
                         foiblesses; le moyen qu'il soit cru, et que je ne le sois pas? On rit de ses
                         fables, on dévore mes récits. Mais concevez-vous qu'il s'avise d'être
                         délicat à son âge! Dans le monde qu'il voit! Dans le siecle où il vit! à
-                        portée des bons conseils! ... Mirbelle étoit
-      <hi rend="italic">
-       lancé
-      </hi>
-      ; cette aventure le portoit aux nues; il pouvoit couler à fond Madame De
+                        portée des bons conseils! ... Mirbelle étoit <hi rend="italic"> lancé </hi>
+                        ; cette aventure le portoit aux nues; il pouvoit couler à fond Madame De
                         Syrcé aussi facilement que j'en avois eu le projet. Tout étoit disposé pour
                         cela; il en avoit les honneurs, et les autres femmes lui en auroient su le
                         meilleur gré; aujourd'hui ce n'est plus qu'un homme comme cent mille autres,
@@ -3861,19 +3359,13 @@
                         donc votre Italie, et revenez parmi nous. Je ne puis suffire à la foule de
                         mes occupations; j'ai besoin d'un second un peu délié, c'est vous que je
                         choisis. J'ai pour l'hiver prochain des idées toutes neuves; et en vous
-                        cédant le quart de mes affaires, vous aurez encore un très-joli
-                        département.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre ix.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      craignez mon amour, mon
+                        cédant le quart de mes affaires, vous aurez encore un très-joli département.
+                    </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre ix. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> craignez mon amour, mon
                         désespoir... craignez-en la violence. Il faut que je meure, ou que je vous
                         voie. Je suis capable de tout; je vous suivrai au bout de l'univers; j'ai
                         desdroits sur vous, je les réclame: ils sont au fond de votre coeur; ils ne
@@ -3905,18 +3397,12 @@
                         maître des mouvemens de mon coeur. Que je suis agité! Que vous me rendez
                         malheureux! Cruelle, quel moment vous avez choisi pour notre séparation! ...
                         je n'en puis plus... et j'exige... oui, oui, j'exige votre retour, s'il est
-                        vrai que je sois aimé.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre x.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      eh bien, oui, je reste
+                        vrai que je sois aimé. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre x. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> eh bien, oui, je reste
                         ici, et (vous ne vous y êtes pas trompé) c'est pour le prince De , c'est
                         pour le voir à chaque instant; oui, monsieur, c'est pour lui que je reste.
                         Vous devinez tout; votre sagacité m'enchante, elle m' éclaire, et je vous en
@@ -3957,36 +3443,22 @@
                         compromettre; vous respecterez ma volonté, et c'est par mon pouvoir sur vous
                         que je jugerai de votre amour. Ma gloire est aujourd'hui votre depôt; et si
                         vous étiez capable... avez-vous donc besoin de m'effrayer pour m'asservir?
-                        Barbare! Moi,
-      <hi rend="italic">
-       le témoin! Une autre la victime!
-      </hi>
-      une
+                        Barbare! Moi, <hi rend="italic"> le témoin! Une autre la victime! </hi> une
                         autre; si vos jours étoient en danger! ... une autre que moi! ...
                         j'expirerois à vos yeux; j'expirerois couverte d'infamie, et je vous
                         haïrois... de m'avoir fait trembler pour vous. Je veux, je dois vous fuir;
                         le pourrai-je, hélas! Je ne promets rien, j'ignore ce que je ferai. Mais mon
                         absence vous afflige... eh bien, sans le prince De , je partirois demain:
                         c'est lui, luiseul qui m'arrête, et je suis ici pour des siecles... adieu.
-                        Billet.
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      j'arrive dans le
+                        Billet. <hi rend="italic"> de la marquise, au comte. </hi> j'arrive dans le
                         moment. Venez, mon cher comte, venez; je crains votre présence, mais je la
                         desire encore plus que je ne la redoute. Je vous attends; je tremble... et
-                        cependant je suis heureuse.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xi.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      que ne peut un amant
+                        cependant je suis heureuse. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xi. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> que ne peut un amant
                         aimé! Depuis huit jours que je suis près de vous je ne me reconnois plus.
                         Mes torts disparoissent à mes yeux; l'ivresse leur succede. Je ne vois plus
                         le déshonneur; vous êtes entre lui et moi; je suis toute à l' amour: j'aime
@@ -4046,18 +3518,12 @@
                         demain? Vous redoutez un refus! Ah! Cruel, vous vous défiez de votre coeur,
                         puisque vous doutez de tout votre pouvoir sur le mien. J' accepte... eh!
                         Quand je le voudrois, pourrois-je, cher amant, m'opposer à un voeu que vous
-                        avez formé?
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      cette femme qui nous a
+                        avez formé? </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> cette femme qui nous a
                         reconnus, qui nous a salués à cette promenade fatale, dans cet asyle écarté
                         où nous croyions être seuls au monde; ô mon ami, que dira-t-elle? Que
                         va-t-elle penser? ... ce cruel public! Il ne pardonne pas un sentiment vrai
@@ -4087,18 +3553,12 @@
                         vous. ô vous qui m'êtes devenu plus cher que ma vertu même, vous sans qui je
                         l'aurois conservée, vous pouvez me rendre plus que vous ne m'avez ravi.
                         Votre amour est tout à mes yeux; qu'il soit égal au mien, je n'aurai rien à
-                        regretter.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xiii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Madame De Sancerre, à la marquise sa fille.
-      </hi>
-      je
+                        regretter. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xiii. </head>
+                    <p>
+                        <hi rend="italic"> de Madame De Sancerre, à la marquise sa fille. </hi> je
                         m'en veux de ne vous avoir pas encore écrit: mais vous savez que quand
                         j'arrive ici, j'ai mes deux mille tours à faire, des comptes éternels à
                         régler; c'est à ne pas finir. J'ai trouvé tout dans le meilleur état; je
@@ -4128,11 +3588,8 @@
                         prédicateurs de Paris parlent pour briller; celui-ci n'ouvre la bouche que
                         pour être utile: les vôtres ne sont que des orateurs; le mien est un apôtre.
                         à propos, Ombert mon fermier m'est venu voir: il m'a amené sa fille, cette
-                        petite Claudineque vous appelliez votre
-      <hi rend="italic">
-       bonne amie
-      </hi>
-      : elle étoit parée, et n'en avoit pas besoin. Figurez-vous une taille un peu
+                        petite Claudineque vous appelliez votre <hi rend="italic"> bonne amie </hi>
+                        : elle étoit parée, et n'en avoit pas besoin. Figurez-vous une taille un peu
                         forte, mais bien prise, des yeux brillans du feu de la santé, des joues
                         fortement colorées, et des levres qui font envie. Elle a un amoureux qui
                         feroit d'elle un portrait plus détaillé; mais moi, j'aime mieux la doter que
@@ -4246,18 +3703,12 @@
                         nous seuls le soin de former l'ame de nos enfans. Adieu: lis ma lettre un
                         peu attentivement; songe que tu n'as point de meilleure amie que moi; je ne
                         puis être inspirée que par le desir de te voir aussi heureuse que tu mérites
-                        de l'être.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xiv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      vous connoissez ma
+                        de l'être. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xiv. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> vous connoissez ma
                         foiblesse, mon repentir, mes regrets, et mon amour plus fort qu'eux; vous
                         avez vu quel fardeau pesoit sur mon ame, quel amour l'enivre, quelles
                         terreurs la remplissent, sur-tout ma fatale résolution d'aimer jusqu'au
@@ -4300,18 +3751,12 @@
                         de sa douleur... que dis-je! Pourquoi l'affligerois-je? Le sentiment est le
                         seul bienfait que nous ayons reçu des cieux: non, mon amie, non, le mien ne
                         merend point indigne de la mere qu'ils m'ont donnée. Ps. Je vous attends ce
-                        soir; le comte est à; sans vous je serois seule dans l' univers.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Ladi Sidley, au comte.
-      </hi>
-      une lettre anonyme! ... ô
+                        soir; le comte est à; sans vous je serois seule dans l' univers. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xv. </head>
+                    <p>
+                        <hi rend="italic"> de Ladi Sidley, au comte. </hi> une lettre anonyme! ... ô
                         ciel! Qu'ai-je lu! Vous me trahissez, vous! ... une autre femme vous enleve
                         à moi! Et je trouve des forces pour écrire! ... non, c'est un piege qu'on
                         tend à mon amour, un outrage qu'on fait au vôtre. Mon coeur n'est point
@@ -4357,18 +3802,12 @@
                         dans le moment de l'orgueil et du silence! Je veux que tout vienne de vous:
                         c'est, parce que l'amour est libre, qu'il est le plus flatteur des
                         sentimens; il seroit le plus vil de tous, s'il n'avoit que la froideur du
-                        bienfait.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xvi.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, au chevalier De Gérac.
-      </hi>
-      lorsque, malgré
+                        bienfait. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xvi. </head>
+                    <p>
+                        <hi rend="italic"> du comte, au chevalier De Gérac. </hi> lorsque, malgré
                         vos conseils, mes remords, malgré tout, je me suis livré à l'ascendant
                         funeste que vous avez combattu, j'étois loin de prévoir les tourmens de ma
                         situation. Que les retours de l'honnêteté sont cruels, quand le coeur
@@ -4436,18 +3875,12 @@
                         plus éclatans; mais il n'est point de malheurs plus sensibles. Que j'envie
                         votre sort, votre heureuse tranquillité! Est-ce que vous partez bientôt? Ah!
                         Demeurez: je prends cela sur moi; le régiment peut se passer de vous; mais
-                        moi, mais moi, puis-je me passer d'un ami?
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xvii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      eh bien, désespérez-moi,
+                        moi, mais moi, puis-je me passer d'un ami? </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xvii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> eh bien, désespérez-moi,
                         oubliez ce que vous m'aviez promis. Voulez-vous que je renonce à tout?
                         Voulez-vous ma vie? Prenez-la, elle est à vous; mais, si vous n'avez pas
                         résolu de me faire mourir mille fois, moins d'aigreur et plus d'indulgence.
@@ -4488,18 +3921,12 @@
                         votre bel esprit; vous parliez d'un air distrait, et vous ne parliez pas à
                         ma fantaisie. Qu'avez-vous donc? Osez me le dire; moi, je n'ose le demander.
                         Pardonnez-moi ma mortelle dissertation; venez me voir de bonne heure. Adieu:
-                        aimez votre maîtresse, votre amie; elle ne vit que pour vous.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xviii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      des torts trop sentis
+                        aimez votre maîtresse, votre amie; elle ne vit que pour vous. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xviii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> des torts trop sentis
                         pour n'être pas réels, mon coeur vous les a pardonnés. J'étois à votre
                         arrivée dans l'accablement le plus profond, et vous avez suspendu ma
                         douleur; un charme inconcevable en adoucissoit l'amertume, et moname en
@@ -4545,18 +3972,12 @@
                         ames à l'ennui d'elles-mêmes,et ne perdez rien de la dignité de la vôtre.
                         Les femmes sont une portion de la société; que la bassesse et l'orgueil à la
                         fois se fassent gloire de les abuser; voyez d'en haut l'inhumanité de cet
-                        usage, et ne descendez pas jusqu'à lui.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xix.
-     </head>
-     <p>
-      <hi rend="italic">
-       du chevalier, au comte.
-      </hi>
-      dès que j'ai vu, mon cher
+                        usage, et ne descendez pas jusqu'à lui. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xix. </head>
+                    <p>
+                        <hi rend="italic"> du chevalier, au comte. </hi> dès que j'ai vu, mon cher
                         comte, l'inutilité de mes conseils, je me suis tû: et que vous aurois-je
                         dit? Est-ce que la passion écoute? Combien j'ai souffert en secret des
                         peines que vous vous prépariez! Les maux de votre situation étoient sentis
@@ -4616,17 +4037,11 @@
                         tranquille: c'est la vengeance de la supériorité. L'arme de la haine est à
                         tout le monde: pourquoi haïr, quand on peut se venger mieux, et souffrir
                         moins? Vous appréciez le duc, il est puni. Je ne craignois pour vous que son
-      <hi rend="italic">
-       masque
-      </hi>
-      ; il tombe... le misérable est sans
+                            <hi rend="italic"> masque </hi> ; il tombe... le misérable est sans
                         défense. Adieu, mon cher comte. Puisse la voix de l'amitié parvenir jusqu'à
                         votre coeur, et y réveiller tous les sentimens qui sont dignes de lui! Je
-                        vous embrasse. Billet.
-      <hi rend="italic">
-       du comte, au chevalier.
-      </hi>
-      d'après ce que vous m'avez dit, j'ai voulu écrire à Sidley... je n'ai pu m'y
+                        vous embrasse. Billet. <hi rend="italic"> du comte, au chevalier. </hi>
+                        d'après ce que vous m'avez dit, j'ai voulu écrire à Sidley... je n'ai pu m'y
                         résoudre... ma main trembloit, mes larmes ont coulé, et j'ai laissé tomber
                         la plume. Je suis à la fois foible et perfide; je rougis de l'un, l'autre me
                         fait frémir, et ma honte, et mes frémissemens, et tout ce que je souffre ne
@@ -4635,18 +4050,12 @@
                         de mon humeur; je ne lui écris plus, je ne veux plus lui écrire, je tâcherai
                         de la voir moins... vains projets! Je ne sais ce que je veux, ce que je
                         ferai, ce queje deviendrai... hélas! Je prévois tous les malheurs, et je les
-                        aurai tous mérités.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xx.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      j'ai toujours le besoin
+                        aurai tous mérités. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xx. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> j'ai toujours le besoin
                         de vous écrire, et vous ne l'avez pas, vous! D'où vient donc cela? Ah! Le
                         bonheur est dans l'excès du sentiment... les amans raisonnables ne sont que
                         des amis. Je vous adore, et je vous fuirois au bout du monde, si vous ne me
@@ -4689,17 +4098,12 @@
                         pas que nous soupons ensemble: je détesterois le monde sans vous; je ne suis
                         bien qu'où vous êtes. La voilà trouvée la chimere de mon imagination; je
                         n'ai plus de desirs vagues, d'inquiétudes secretes, vous avez tout fixé.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxi.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      je hais et l'amour et le
+                    </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxi. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> je hais et l'amour et le
                         jour où il est entré dans mon coeur, et moi plus que tout le reste.
                         Pourquoi, quand vous cherchiez à me plaire, ne vous montriez-vous pas à moi
                         tel que vous êtes? J'aurois moins de reproches à vous faire: c'est à votre
@@ -4721,19 +4125,13 @@
                         accusée d'injustice que de fausseté. Lisez, répondez, dites que j'ai tort,
                         sur-tout persuadez-le moi bien; mon bonheur dépend de cette opinion. Oui,
                         oui, prouvez-moi que je me trompe: l'un de nous deux est coupable; mon coeur
-                        me dit que ce n'est pas moi; et puisque je pleure, c'est vous qui
-                        l'êtes.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      je rentre, et ne vous
+                        me dit que ce n'est pas moi; et puisque je pleure, c'est vous qui l'êtes.
+                    </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> je rentre, et ne vous
                         trouve pas! Votre nom n'est pas même écrit sur ma liste. Je suis à
                         moitiémorte, je voudrois l'être tout-à-fait. Vous, monsieur, soyez heureux,
                         soyez-le toujours, vous pour qui j'aurois donné mille fois ma vie... la
@@ -4758,11 +4156,8 @@
                         Dieu! Si vous étiez encore ce que je vous ai cru toujours! Hélas! Non; je
                         n'ose, je ne puis l'espérer. Vous n'avez point ces épanchemens doux, dont la
                         source est dans l'ame, qui survivent au desir et divinisent le bonheur. Ces
-                        soupirs d'un amant enivré de son amour, ce
-      <hi rend="italic">
-       je vous aime
-      </hi>
-      , qu'il est si charmant de dire et d'entendre; le recueillement du
+                        soupirs d'un amant enivré de son amour, ce <hi rend="italic"> je vous aime
+                        </hi> , qu'il est si charmant de dire et d'entendre; le recueillement du
                         silence, son expression, lorsqu'on se regarde et qu'on s'adore; vous n'avez
                         rien de tout cela, et votre contrainte arrête en moi ce que vous y
                         trouveriez, si vous pouviez, si vous saviez aimer. Que ce soit votre faute
@@ -4786,18 +4181,12 @@
                         mes sacrifices, et malgré mes terreurs... que vous ne connoissez pas toutes,
                         souvenez-vous quelquefois de la passion la plus tendre, et dont les suites
                         funestes... adieu, adieu; demain je vous en dirai un éternel... on me trouve
-                        de la fievre... ah! Tant mieux.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxiii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      ouvrez-moi les bras de
+                        de la fievre... ah! Tant mieux. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxiii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> ouvrez-moi les bras de
                         l'amitié, que je me cache dans son sein; je n'ose lever les yeux sur moi, je
                         n'ose envisager la lumiere du jour, et je rougis d'avance de l'horrible
                         secret qui va m'échapper. Hélas! Mon amie, en vain je m'abusois, je
@@ -4869,29 +4258,19 @@
                         tendrement, et tout, jusqu'à son affection, ajoute à mon supplice. Je frémis
                         chaque fois qu'elle me regarde; je n'ai pas osé l'instruire, et c'est encore
                         une consolation dont je me prive; il n'en est pas pour moi: le ciel est
-                        juste... billet.
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      ah,
+                        juste... billet. <hi rend="italic"> de la marquise, à son amie. </hi> ah,
                         que viens-je de lire! ... tous mes sens sont émus: mon amie, ma tendre amie,
                         votre lettre est un bienfait; elle est trempée de vos larmes; je l'ai
                         couverte des miennes. Tous les coeurs ne me sont donc pas fermés... un rayon
                         de joie peut donc luire au fond de l'ame la plus infortunée! J'irai vous
                         voir... oui, oui, je vous verrai... vous aurez pitié de moi, et malgré toute
                         l'horreur de mon sort, je serai heureuse dans vos bras. Que je vous
-                        remercie! Que je vous aime!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxiv.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      vous avez la fievre,
+                        remercie! Que je vous aime! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxiv. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> vous avez la fievre,
                         dites-vous? Ah, qu'elle s'attache à moi! ... c'est moi, moi seul qu'elle
                         doit consumer. Votre agitation, votre douleur est mon crime; je le déteste,
                         je le pleure; les jours que je ne vous ai point vus, je les ai passés dans
@@ -4917,26 +4296,17 @@
                         à plaindre. Encore une fois, ne me pressez pas d'expliquer ce mystere;
                         contentez-vous, ô la plus charmante des femmes, de régner seule et pour
                         toujours sur un coeur qui, tout criminel qu'il est, n'en est peut-être que
-                        plus digne de vous. Billet.
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      votre lettre m'a fait fondre en larmes. Dieu! Quel est donc ce mystere
+                        plus digne de vous. Billet. <hi rend="italic"> de la marquise, au comte.
+                        </hi> votre lettre m'a fait fondre en larmes. Dieu! Quel est donc ce mystere
                         que vous me cachez, sur lequel vous ne voulez pas que je vous interroge?
                         Cruel! Vous me glacez d'effroi! Je ne sais que penser... qu'ai-je encore à
                         craindre! Dites-moi, dites-moi tout; je le mérite: je meurs d'inquiétude.
-                        J'attends votre réponse, elle va décider mon sort... il est horrible...
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      lettre xxv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      qu'elle est tendre,
+                        J'attends votre réponse, elle va décider mon sort... il est horrible... </p>
+                </div>
+                <div type="letter">
+                    <head> lettre xxv. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> qu'elle est tendre,
                         qu'elle est consolante la lettre que vous venez de m'écrire! Je l' ai baisée
                         mille fois. Cependant vous ne me dites point ce que je vous demandois hier
                         avec tant d'instance, et ce que vous vous obstinez à me taire. Qu'est-ce
@@ -4968,18 +4338,12 @@
                         voilà les seuls plaisirs dignes de vous: le moindre partage désespere et tue
                         l'amour. Adieu. Mais ce secret, cet inquiétant secret! Je me fie à votre
                         promesse, et j'en attends l'exécution. Hélas! Tous les miens ne vous sont
-                        pas encore révélés... adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxvi.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à son amie.
-      </hi>
-      il n'est point
+                        pas encore révélés... adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxvi. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à son amie. </hi> il n'est point
                         coupable; non, mon amie, il ne l'est point, je ne suis plus à plaindre...et
                         vous avez pu le haïr, le mépriser! Lui! Ah dieu! ... c'est moi, hélas! C'est
                         moi seule qu'il faut priver de votre estime; je n'y ai plus de droits, mon
@@ -5010,18 +4374,12 @@
                         la défaite, l'abandon de soi, l'oubli du reste, et fait une jouissance
                         encore des périls, des peines, de la honte et des larmes! Oui, oui, sous le
                         poids de l'infortune, sous le poids plus accablant du crime, je connois le
-                        bonheur... je suis aimée.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxvii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      eh bien, reprenons-la
+                        bonheur... je suis aimée. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxvii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> eh bien, reprenons-la
                         donc cette agitation de l'amour, qui fait le malheur, l' inquiétude, et le
                         charme de la vie; reprenons et son trouble, et son désordre, et ses
                         foiblesses, et ses alarmes, et même ses injustices. Ne vous plaignez point
@@ -5062,18 +4420,12 @@
                         me faites sentir qu'il y a une douceur extrême à soumettre sa volonté à
                         celle de ce qu'on aime que les plus grands sacrifices sont les plus
                         délicieuses jouissances, et que la liberté que j'adorai, ne vaut pas la
-                        chaîne que j'adore. Adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxviii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Madame De Sancerre, à la marquise.
-      </hi>
-      ma chere
+                        chaîne que j'adore. Adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxviii. </head>
+                    <p>
+                        <hi rend="italic"> de Madame De Sancerre, à la marquise. </hi> ma chere
                         enfant, c'est avant-hier que j'ai marié la fille de mon fermier. C' est
                         moi-même qui l'ai parée; elle étoit jolie comme l'amour, et belle comme
                         l'innocence. La noce s'est faite dans mon château. Imagine-toi tout le
@@ -5143,18 +4495,12 @@
                         ta folie, que je ne crains ta tristesse. Je t'embrasse bien tendrement. Mon
                         dieu, que j'aurois de joie du retour de M De Syrcé! Il n'est qu'étourdi;
                         j'en augure des merveilles; il changera sûrement; et alors, n'est-ce pas? Il
-                        faudra bien lui pardonner.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxix.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, au chevalier.
-      </hi>
-      dois-je remercier le sort?
+                        faudra bien lui pardonner. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxix. </head>
+                    <p>
+                        <hi rend="italic"> du comte, au chevalier. </hi> dois-je remercier le sort?
                         Dois-je l'accuser? Dans ce moment peut-être la malheureuse Sidley est
                         instruite de tout, sans que j'aie osé rompre le silence. Voici, mon cher
                         chevalier, sur quoi je fonde... dirai-je mon espoir, ou ma crainte? Il y a
@@ -5174,18 +4520,13 @@
                         déterminé à révéler tout à Madame De Syrcé. Eh quoi, mon ami, c'est dans ce
                         moment que vous m'allez quitter! Votre pere est malade, et vous rappelle. Je
                         ne sais, mais votre départ est pour moi le présage de quelque grand malheur.
-                        Adieu, mon ami.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxx.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Fani, jeune personne au service de Sidley, au comte.
-      </hi>
-      monsieur le comte, je vous écris en fondant en larmes; ma maîtresse,
+                        Adieu, mon ami. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxx. </head>
+                    <p>
+                        <hi rend="italic"> de Fani, jeune personne au service de Sidley, au comte.
+                        </hi> monsieur le comte, je vous écris en fondant en larmes; ma maîtresse,
                         ma chere maîtresse, cette femme adorable, pour qui je donnerois ma vie, pour
                         qui je la donnerois avec joie, eh bien, depuis quelques jours elle est
                         tombée dans une mélancolie si profonde, qu'elle ne me parle plus et
@@ -5210,19 +4551,13 @@
                         avec bonté, me prit la main, et me pria de me retirer. Ah! Monsieur le
                         comte, qu'avez-vous fait? Quelle femme vous affligez! Venez tomber à ses
                         genoux, venez essuyer ses pleurs, venez rendre la vie au coeur que vous
-                        désespérez; consolez ladi, ou je vous croirai le plus barbare des
-                        hommes.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxi.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      c'est trop me taire: c'est
+                        désespérez; consolez ladi, ou je vous croirai le plus barbare des hommes.
+                    </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxi. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à la marquise. </hi> c'est trop me taire: c'est
                         trop dévorer mes remords, mes inquiétudes, mes alarmes, sur-tout les vôtres.
                         Connoissez mon crime, ou plutôt mon malheur: sachez tout. Je vous adore; je
                         vous aime plus que je ne vous ai jamais aimée. Je vous adore, et je vous
@@ -5290,18 +4625,12 @@
                         souffert pour vous. Sidley est instruite... elle ne m'a point écrit; je ne
                         la verrai point. Je vous aime avec excès, mon sacrifice en est la preuve; ne
                         le rejetez point, soyez généreuse à votre tour; plaignez-moi, aimez-moi, et
-                        que le souvenir de mes torts s'éteigne dans l'ivresse de notre amour!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      que m'avez-vous dit! Vous
+                        que le souvenir de mes torts s'éteigne dans l'ivresse de notre amour! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> que m'avez-vous dit! Vous
                         avez porté la mort dans mon coeur. à peine suis-je revenue du long
                         évanouissement qui a suivi la lecture de votre lettre, de cette lettre
                         fatale, où mon arrêt est écrit de votre main! J'estime votre franchise, mais
@@ -5341,27 +4670,18 @@
                         honte; plus d'illusion consolante, plus de motifs de courage; le mien
                         succombe, je voudrois parler et je n'ose... l'affreuse vérité rentre au fond
                         de mon coeur... pour n'en jamais sortir... ah! Ma situation exciteroit la
-                        pitié même de ma rivale. Billet.
-      <hi rend="italic">
-       du comte, à la marquise.
-      </hi>
-      qu'annoncent le mystere, le trouble de votre style, et ces
+                        pitié même de ma rivale. Billet. <hi rend="italic"> du comte, à la marquise.
+                        </hi> qu'annoncent le mystere, le trouble de votre style, et ces
                         réticences... que je n'oseinterpréter? J'irai tomber à vos genoux, je vous
                         arracherai un secret qui semble peser à votre coeur... je ne croyois pas
                         qu'il me fût possible d'être plus à plaindre: dieu! Si je l'étois davantage!
                         ... tout ce que j'imagine m'effraie; je cours m'éclaircir. Puissé-je n' être
-                        pas encore plus criminel!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxiii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Ladi Sidley, à Fani.
-      </hi>
-      quand tu recevras ma
+                        pas encore plus criminel! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxiii. </head>
+                    <p>
+                        <hi rend="italic"> de Ladi Sidley, à Fani. </hi> quand tu recevras ma
                         lettre, je serai déjà loin du lieu que j'habitois. ô toi, qui m'as rendu les
                         services d'une amie, toi qui connois mon coeur, toi qui m'aimois et que je
                         regrette, j'ai craint de te l'ouvrir, ce coeur cruellement blessé, ce coeur
@@ -5406,18 +4726,12 @@
                         recommande. Adieu. Brûle ma lettre, anéantis le gage d'un amour qui me
                         déshonore. Tu remettras au comte, ou aux gens qui viendront de sa part,
                         celle que je laisse pour lui... le malheureux! Il n'a plus d' amie... mais
-                        sa victime ne lui échappera point, j'aurai la force de vivre.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxiv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Ladi Sidley, au comte De Mirbelle.
-      </hi>
-      ce n'est pas
+                        sa victime ne lui échappera point, j'aurai la force de vivre. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxiv. </head>
+                    <p>
+                        <hi rend="italic"> de Ladi Sidley, au comte De Mirbelle. </hi> ce n'est pas
                         l'instant des reproches, c'est celui du courage. J'ai lu la preuve de ta
                         perfidie, que le hasard ou ton adresse a fait tomber entremes mains. Tu m'as
                         trompée... tu ne me verras plus. Une barriere éternelle s'éleve entre nous,
@@ -5429,18 +4743,12 @@
                         j'attente à mes jours. Si tu avois perdu la vie avant mon estime, je
                         t'aurois suivi; mais tu es vil à mes yeux, tu ne m'es plus rien, et je
                         vivrai, non pour la haine (l' objet de mon mépris ne peut la mériter), mais
-                        pour effacer à mes propres yeux la honte de t'avoir aimé.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Ladi Sidley, au comte De Mirbelle.
-      </hi>
-      avant que
+                        pour effacer à mes propres yeux la honte de t'avoir aimé. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxv. </head>
+                    <p>
+                        <hi rend="italic"> de Ladi Sidley, au comte De Mirbelle. </hi> avant que
                         Sudmer s'éloigne, que l'univers me quitte, et que je retombe sur moi dans
                         cette solitude, je ne sais quel mouvement involontaire me force à t'écrire.
                         Ce n'est point la haine, c'est encore moins l'amour: qu'est-ce donc? Le
@@ -5472,18 +4780,12 @@
                         lui et ma fidelle Fani... tous deux m'ont aimée. Quelle solitude! Quelles
                         ténebres! Sudmer embrasse mes genoux... il me quitte: il part; les portes se
                         referment sur moi. Ne me plains pas, barbare! Je me jette dans le sein d'un
-                        dieu... je ne suis point ta victime.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxvi.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      mes
+                        dieu... je ne suis point ta victime. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxvi. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> mes
                         malheurs sont au comble, la vie m'est à charge, et pour surcroît de maux, je
                         ne puis me soulager par des larmes; elles s'amassent sur mon coeur,
                         l'oppressent, et n'en sortent pas. C'en est fait! ... Sidley, l'infortunée!
@@ -5504,28 +4806,18 @@
                         source jusqu'au fond de ton infame coeur. Le misérable! Et je le croyois mon
                         ami! Excusez le désordre de mes sens. Vous me quittez donc! Vous me quittez!
                         Vous partez demain! ... que deviendrai-je? ... je vous embrasse... soyez
-                        heureux. Billet.
-      <hi rend="italic">
-       du chevalier De Gérac, au comte De
-                            Mirbelle.
-      </hi>
-      oui, je pars, et je pars malheureux; je vous plains, je
+                        heureux. Billet. <hi rend="italic"> du chevalier De Gérac, au comte De
+                            Mirbelle. </hi> oui, je pars, et je pars malheureux; je vous plains, je
                         pleure vos deux victimes, et vous plus qu'elles encore... vous êtes
                         coupable. La maladie d'un pere adoré pouvoit seule, dans ce moment, me faire
                         quitter mon ami. écrivez-moi; j'implore ma part de toutes vosinfortunes; et
                         si tout vous abandonne, comptez sur un coeur que rien ne vous enlevera
-                        jamais.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxvii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, à Madame De Syrcé.
-      </hi>
-      après mon
+                        jamais. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxvii. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, à Madame De Syrcé. </hi> après mon
                         crime, après l'aveu terrible que vous m'avez fait, quoi, vous me pardonnez!
                         Vous souffrez que je pleure dans votre sein; vous plaignez les malheurs
                         d'une femme qui a causé une partie des vôtres! Et c'est ainsi que vous savez
@@ -5564,18 +4856,12 @@
                         préjugé tient au sol; les forfaits sont forfaits par-tout; et il vaut mieux
                         rougir, que de s'épargner la honte par un crime. Adieu, ma vie, mon ame, mon
                         tout! Tâchons d'en imposer à l'univers, et puissé-je, hélas, être le seul
-                        puni!
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxviii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Madame De Sancerre, à Madame De Syrcé.
-      </hi>
-      ma chere
+                        puni! </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxviii. </head>
+                    <p>
+                        <hi rend="italic"> de Madame De Sancerre, à Madame De Syrcé. </hi> ma chere
                         fille, unique objet de mes plus tendres affections; on me mande de Paris que
                         vous changez tous les jours, que vos traits s'alterent; la tristesse de vos
                         lettres me confirme ce qu'on m'écrit. Je pars: je vais vous porter mes
@@ -5583,19 +4869,12 @@
                         Syrcé m'accompagnera peut-être: il est, comme moi, très-inquiet de votre
                         santé, et me charge de vous communiquer ses inquiétudes: s'il peut
                         s'absenter quelques jours, et interrompre ses occupations, vous le reverrez
-                        avec moi. Adieu, mon enfant. Je suis impatiente de t'embrasser.Billet.
-      <hi rend="italic">
-       de Madame De Syrcé, au comte De Mirbelle.
-      </hi>
-      venez me
+                        avec moi. Adieu, mon enfant. Je suis impatiente de t'embrasser.Billet. <hi
+                            rend="italic"> de Madame De Syrcé, au comte De Mirbelle. </hi> venez me
                         voir; je suis perdue: j'ai reçu une lettre de ma mere, et sa lettre est la
                         mort; elle revient, M De Syrcé l' accompagne: je ne vous en dis pas
-                        davantage. Je suis pénétrée de terreur. Adieu. Billet.
-      <hi rend="italic">
-       de
-                            Madame De Syrcé, au comte De Mirbelle.
-      </hi>
-      il est deux heures après
+                        davantage. Je suis pénétrée de terreur. Adieu. Billet. <hi rend="italic"> de
+                            Madame De Syrcé, au comte De Mirbelle. </hi> il est deux heures après
                         minuit; elle est arrivée à dix... mon ami, je respire; M De Syrcé n'est
                         point avec elle, ses occupations l'ont retenu. Ma mere m'a accablée de
                         caresses, et ce sont autant de coups de poignard qu'elle me donne. J'en suis
@@ -5603,18 +4882,12 @@
                         criminelle. Que je crains ses regards! Je crains tout; mais si vous m'aimez,
                         je supporterai tout. Ne venez point demain, je vous instruirai des événemens
                         de ma journée. Adieu. Je suis profondément triste... que demain sera long!
-                        Je ne vous verrai pas.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xxxix.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise De Syrcé, au comte De Mirbelle.
-      </hi>
-      ayez
+                        Je ne vous verrai pas. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xxxix. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise De Syrcé, au comte De Mirbelle. </hi> ayez
                         pitié de moi; ne m'accusez pas; je vous ai trahi, je me suis trahie
                         moi-même, je suis la plus malheureuse des femmes; je vous écris en
                         sanglottant, et je ne sais si j'aurai la force de vous raconter une scene à
@@ -5670,18 +4943,12 @@
                         tenir ma plume... mes lumieres sont éteintes; me voilà dans les ténebres. Je
                         n'ose sonner mes femmes; je ne sais quelles images funebres se présentent à
                         moi; tout mon corps brûle et frissonne; je souleve à peine ma tête
-                        appesantie, je ne puis plus former une idée; je me meurs... adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xl.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, à la marquise.
-      </hi>
-      hélas! Hélas!
+                        appesantie, je ne puis plus former une idée; je me meurs... adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xl. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, à la marquise. </hi> hélas! Hélas!
                         Qu'avez-vous dit? Votre indiscrétion me désespere; elle fait trois
                         malheureux. Il falloit m'en croire, il falloit vous reposer de tout sur moi.
                         Jamais, non, jamais vous ne deviez souffrir un tiers, quel qu'il fût, entre
@@ -5737,18 +5004,12 @@
                         Désobéissez, ou je ne réponds pas de la violence de mon désespoir. Adieu! Je
                         ne me connois plus... daignez seconder mon courage, et je suis prêt à tout
                         entreprendrepour vous arracher au mépris d'un monde qui ne mérite pas de
-                        vous posséder.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xli.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, à Madame De Syrcé.
-      </hi>
-      le voilà
+                        vous posséder. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xli. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, à Madame De Syrcé. </hi> le voilà
                         donc arrivé le malheur que j'ai craint, que j'avois prévu! Votre porte m'est
                         fermée; j'y passe à tous les instans; toujours les mêmes ordres. Les gens
                         sont consternés... j'ai entrevu Sophie, elle étoit en pleurs; elle parloit
@@ -5756,19 +5017,13 @@
                         j'erre autour de votre maison; dès le matin j' épie ceux qui en sortent, et
                         je cherche sur leurs visages les cruels indices de ce que j'appréhende. Ce
                         supplice est horrible; ayez pitié de votre amant, il meurt d'inquiétude, de
-                        douleur et d'effroi...
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      lettre xlii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, à Sophie, l'une des femmes de la
-                            marquise.
-      </hi>
-      elle est mourante, et je ne puis la voir! Elle est
+                        douleur et d'effroi... </p>
+                </div>
+                <div type="letter">
+                    <head> lettre xlii. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, à Sophie, l'une des femmes de la
+                            marquise. </hi> elle est mourante, et je ne puis la voir! Elle est
                         mourante, et je vis... ma Sophie, ma Sophie, au nom de l'humanité, du
                         malheur, de tout ce qui est sacré, tâchez de m'introduire chez elle. Dans
                         son transport, vous dites qu'elle m'a nommé. Peut-être ma présence! ... n'en
@@ -5782,18 +5037,12 @@
                         ne quitterai point les environs de l'hôtel; j'y serai à toutes les heures du
                         jour et de la nuit: si vous pouvez me ménager une entrevue, faites-moi des
                         signes à travers les croisées de l'appartement. J'y attacherai mes regards:
-                        ne m'oubliez pas, respectez mon désespoir.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xliii.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      revenue à moi, je peux
+                        ne m'oubliez pas, respectez mon désespoir. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xliii. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> revenue à moi, je peux
                         donc vous écrire! Il me reste un souffle, il est à vous. Ne vous alarmez
                         point. Au nom de l'amour le plus tendre, ayez du courage. Je crois que je
                         suis mieux: pardonnez-moi si je ne vous ai point vu... ce sont les ordres de
@@ -5805,18 +5054,12 @@
                         m'aimez, si vous m'en aimez mieux, je me trouve heureuse... je suis charmée
                         et fatiguée d'écrire; il me seroit douloureux de quitter un univers que vous
                         habitez. La mort seule peut me soustraire à la honte... et vous m'attachez à
-                        la vie! ...
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      lettre xliv.
-     </head>
-     <p>
-      <hi rend="italic">
-       du chevalier De Gérac, à la marquise.
-      </hi>
-      votre lettre,
+                        la vie! ... </p>
+                </div>
+                <div type="letter">
+                    <head> lettre xliv. </head>
+                    <p>
+                        <hi rend="italic"> du chevalier De Gérac, à la marquise. </hi> votre lettre,
                         madame, m'a pénétré d'admiration et de douleur; et l'effet étonnant qu'elle
                         a produit sur moi, me prouve que je ne suis pas indigne de la confiance dont
                         vous m'honorez. Combien votre ame est sublime! Combien votre conduite
@@ -5838,29 +5081,19 @@
                         c'est avec la certitude de n'être jamais dans la triste nécessité de les
                         remplir. Il m'eût été bien doux de vous assurer, dans une circonstance moins
                         douloureuse, de mon profond respect, et, daignez me le permettre, de mon
-                        attachement. Billet.
-      <hi rend="italic">
-       du chevalier, au comte.
-      </hi>
-      ah!
+                        attachement. Billet. <hi rend="italic"> du chevalier, au comte. </hi> ah!
                         Rassurez-moi, mon cher comte. Donnez-moi de vos nouvelles; donnez-m' en de
                         Madame De Syrcé. Lui seroit-il arrivé de nouveaux malheurs? L'état de mon
                         pere, celui où je vous ai laissé, et le regret de ne pas être auprès de
                         vous, et la raison qui m'en éloigne, tout m'accable. Votre silence
                         m'effraie, votre position m'attendrit. Vous souffrez, je suis loin de vous;
                         un mot, un seul mot. Je crains tout, j'ai besoin de consolation, j'en ai
-                        besoin, vous êtes malheureux.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xlv.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, au comte.
-      </hi>
-      je voudrois pouvoir vous
+                        besoin, vous êtes malheureux. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xlv. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, au comte. </hi> je voudrois pouvoir vous
                         cacher mon état. Il n'est plus tems, il faut se soumettre, il faut nous
                         séparer. Vivez, je vous en conjure; c'est du sein de la mort que je trouve
                         des forces pour vous l'ordonner. Vivez, si je vous fus chere. Je ne puis
@@ -5884,18 +5117,12 @@
                         quitté dix fois ma lettre... je ne saurois écrire, ni m'arracher à vous...
                         ne vous reprochez rien; c'est du fond de mon coeur que je vous pardonne.
                         Adieu, adieu... que disparue de l'univers, je vive dans votre mémoire!
-                        N'oubliez jamais que mes derniers soupirs ont encore été pour vous.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xlvi.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, à Madame De Sancerre.
-      </hi>
-      par la hardiesse de
+                        N'oubliez jamais que mes derniers soupirs ont encore été pour vous. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xlvi. </head>
+                    <p>
+                        <hi rend="italic"> du comte, à Madame De Sancerre. </hi> par la hardiesse de
                         ma démarche, vous jugerez, madame, de l'excès de mon trouble. Le désespoir
                         ne connoît aucun frein; il doit intéresser par sa violence même; et si les
                         infortunés ont quelques droits sur votre ame, vous m' écouterez avec bonté;
@@ -5939,18 +5166,12 @@
                         ne puis m'offrir à ses yeux, me prosterner devant elle, serrer sa main
                         défaillante, lui montrer le malheureux qui doit la suivre! ... mes esprits
                         s'égarent, je ne sens plus, ne vois plus... vous seule! ... la force me
-                        manque... j'attends votre réponse ou la mort.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xlvii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, à Madame De Syrcé.
-      </hi>
-      votre
+                        manque... j'attends votre réponse ou la mort. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xlvii. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, à Madame De Syrcé. </hi> votre
                         arrêt est prononcé! Qu'ai-je lu! Qui vous l'a dit? Gardez-vous de le croire.
                         Non, il ne l'est pas; n'écoutez point des barbares qui vous trompent;
                         n'ajoutez foi qu'à l'amant qui vous rassure. Vous, me quitter! Vous! Je ne
@@ -5995,12 +5216,8 @@
                         je tremble... quel état! ... je me meurs! Je t'adore! ... tu vivras; oui, tu
                         vivras... et ton amant, ton amant fidele! ... je te quitte malgré moi...
                         adieu... il faut que je te voie; il le faut! ... les barbares! Ils ne me
-                        priveront pas plus long-tems de ta présence. Billet.
-      <hi rend="italic">
-       du
-                            comte, à Sophie.
-      </hi>
-      ô ma Sophie, je me trouverai à l'heure indiquée à
+                        priveront pas plus long-tems de ta présence. Billet. <hi rend="italic"> du
+                            comte, à Sophie. </hi> ô ma Sophie, je me trouverai à l'heure indiquée à
                         la porte de l'hôtel; je serai déguisé, les gens ne pourront me reconnoître.
                         Ma Sophie! ... tous les coeurs sont féroces. Madame De Sancerre... ah, dieu!
                         ... ma Sophie, je te dois tout; tu as remis ma lettre. Ta maîtresse en a lu
@@ -6012,18 +5229,12 @@
                         vais errer jusqu'à l'heure du fatal rendez-vous. Quel jour, quel jour
                         funebre! S'il m'enleve ce que j'aime, puisse-t-il être le dernier pour toute
                         la nature! Adieu; je te remercie, et dans ces instans où mon ame n'est
-                        ouverte qu'à la douleur, j'ai encore la force de sentir ton bienfait.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xlviii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      quelle
+                        ouverte qu'à la douleur, j'ai encore la force de sentir ton bienfait. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xlviii. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> quelle
                         scene! Quelle scene à la fois attendrissante et affreuse! Je n' aurois
                         jamais pu vous en faire le récit. J'étois stupide, sans connoissance, sans
                         mouvement; mes yeux fixes et mornes ne distinguoient plus les objets. Mon
@@ -6069,18 +5280,12 @@
                         seul instant l'idée de percer le coeur du perfide qui m'a perdu. Je suis
                         plus calme dans ce moment; on a une lueur d'espérance... aimez-moi,
                         plaignez-moi; je suis le plus coupable des hommes; mais il n'en est point de
-                        plus puni.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre xlix.
-     </head>
-     <p>
-      <hi rend="italic">
-       de Madame De Sancerre, au marquis De Syrcé.
-      </hi>
-      ne
+                        plus puni. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre xlix. </head>
+                    <p>
+                        <hi rend="italic"> de Madame De Sancerre, au marquis De Syrcé. </hi> ne
                         partez point, je vous en conjure, ne partez point. Hélas! Que viendriez-vous
                         faire? Il n'y a plus d'espoir. En vain j'ai compté sur sa jeunesse, sur son
                         courage, il faut se résoudre à la plus horrible séparation. Voici le
@@ -6098,18 +5303,12 @@
                         retenir mes pleurs, ils inondent mon papier. Madame De Lacé entre; cette
                         digne amie!Elle ne quitte point ma chere fille. Tout le monde l' aime: et il
                         faudroit la perdre! ... je me meurs... je vous écrirai demain... demain! ô
-                        ciel! ... je n'en puis plus... adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre l.
-     </head>
-     <p>
-      <hi rend="italic">
-       de la marquise, à M. De Syrcé.
-      </hi>
-      je vais paroître
+                        ciel! ... je n'en puis plus... adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre l. </head>
+                    <p>
+                        <hi rend="italic"> de la marquise, à M. De Syrcé. </hi> je vais paroître
                         devant un juge que je ne puis croire inexorable. Avant de lui rendre compte,
                         je vous dois la vérité. Je n'aurois pu soutenir votre présence: je ne mérite
                         plus vos regrets; je ne veux pas les emporter. Je ne vous parle point des
@@ -6122,18 +5321,12 @@
                         heureux. L'instant redoutable s'apprête... le tombeau s'ouvre pour me
                         recevoir... j'y vais descendre... il faut tout quitter, et pour jamais!
                         Consolez la mere la plus tendre... que vos enfans vous soient chers: ne me
-                        pleurez point... je meurs coupable.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre li.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte De Mirbelle, au chevalier De Gérac.
-      </hi>
-      où
+                        pleurez point... je meurs coupable. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre li. </head>
+                    <p>
+                        <hi rend="italic"> du comte De Mirbelle, au chevalier De Gérac. </hi> où
                         suis-je! Que vois-je! ... un cercueil! ... j'ai peine à retenir mes cris...
                         est-il vrai? Laissez-moi me plonger, me cacher dans le sein de l'amitié...
                         j'ai tout perdu; et dans la solitude immense où je me trouve, déchiré de
@@ -6202,24 +5395,14 @@
                         chambre que je vous écris, les yeux rouges de larmes, me détestant moi-même,
                         abhorrant la lumiere... ah! Bientôt... adieu, le plus vertueux des hommes;
                         dans l'univers je ne puis plus regretter que mon pere et vous... mon heure
-                        est venue... adieu.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre lii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du chevalier De Gérac, au comte De Mirbelle.
-      </hi>
-      mon
+                        est venue... adieu. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre lii. </head>
+                    <p>
+                        <hi rend="italic"> du chevalier De Gérac, au comte De Mirbelle. </hi> mon
                         pere est à l'extrêmité... je ne puis le quitter, je ne puis voler à vous.
-                        Que m'avez vous écrit?
-      <hi rend="italic">
-       votre heure est venue,
-      </hi>
-      je
+                        Que m'avez vous écrit? <hi rend="italic"> votre heure est venue, </hi> je
                         frissonne... je dépêche un courier, j'espere qu'il arrivera assez tôt, et
                         que vous serez sensible au désespoir, aux craintes, aux instances de
                         l'amitié. La douleur ne rend point barbare. Hélas! Mes larmes coulent, et je
@@ -6234,18 +5417,12 @@
                         pour les jours de mon pere; hélas! S'il m'est ravi, me laisserez-vous seul
                         au monde? Je n'en puis dire davantage... les momens me sont chers... un
                         seul... je ne respire point... je frémis... adieu: gardez-vous... adieu,
-                        cruel ami.
-     </p>
-    </div>
-    <div type="letter">
-     <head>
-      Lettre liii.
-     </head>
-     <p>
-      <hi rend="italic">
-       du comte, au chevalier.
-      </hi>
-      pour comble de malheur, je
+                        cruel ami. </p>
+                </div>
+                <div type="letter">
+                    <head> Lettre liii. </head>
+                    <p>
+                        <hi rend="italic"> du comte, au chevalier. </hi> pour comble de malheur, je
                         vis encore. à peine j'avois écrit ma lettre, à peine je l'avois remise à mon
                         valet-de-chambre, que mon pere parut à mes yeux; son aspect me terrassa. Mes
                         gens, effrayés de mon désespoir, l'en avoient averti. Il étoit pâle,
@@ -6289,16 +5466,12 @@
                         l'honoroient: l'une est morte... l' autre s'est ensevelie dans un cloître.
                         Elle est aux carmélites de . Je suis obligé de fuir, de m'arracher du sein
                         d'un pere, et je reste seul dans la nature... pour avoir écouté les conseils
-      <hi rend="italic">
-       d'un homme frivole
-      </hi>
-      ! Puisse au moins mon
+                            <hi rend="italic"> d'un homme frivole </hi> ! Puisse au moins mon
                         exemple effrayer tous ceux qui se font un jeu de l'inconstance et de la
                         perfidie! Qu'ils me contemplent, ils frémiront, et peut-être ils seront
-                        corrigés.
-     </p>
-    </div>
-   </div>
-  </body>
- </text>
+                        corrigés. </p>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

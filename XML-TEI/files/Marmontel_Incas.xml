@@ -2,142 +2,87 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Marmontel_Incas" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:77.50 wikidata:Q106889862">
-     Les Incas ou la destruction de l'empire
-                    du Pérou: MiMoText edition
-    </title>
-    <author ref="viaf:7393886 wikidata:Q379923">
-     Jean-François Marmontel(1723-1799)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      frantext
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     109918
-    </measure>
-    <measure unit="vols">
-     2
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Les Incas ou la Destruction de l'Empire du Pérou
-     </title>
-     <ref target="https://www.frantext.fr/"/>
-     <date>
-      unknown
-     </date>
-     <publisher>
-      Frantext
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Les Incas ou la destruction de l'empire du Pérou
-     </title>
-     <author>
-      Jean-François Marmontel
-     </author>
-     <pubPlace>
-      unknown
-     </pubPlace>
-     <publisher>
-      unknown
-     </publisher>
-     <date>
-      1777
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1777
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      heterodiegetic
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2021-01-06">
-    Initital ELTeC level-1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="group">
-    <div type="chapter">
-     <head>
-      PRÉFACE
-     </head>
-     <p>
-      Toutes les nations ont eu leurs brigands et leurs fanatiques, leurs temps de
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:77.50 wikidata:Q106889862"> Les Incas ou la destruction de l'empire
+                    du Pérou: MiMoText edition </title>
+                <author ref="viaf:7393886 wikidata:Q379923"> Jean-François Marmontel(1723-1799) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> frantext </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 109918 </measure>
+                <measure unit="vols"> 2 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Les Incas ou la Destruction de l'Empire du Pérou </title>
+                    <ref target="https://www.frantext.fr/"/>
+                    <date> unknown </date>
+                    <publisher> Frantext </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Les Incas ou la destruction de l'empire du Pérou </title>
+                    <author> Jean-François Marmontel </author>
+                    <pubPlace> unknown </pubPlace>
+                    <publisher> unknown </publisher>
+                    <date> 1777 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1777 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> heterodiegetic </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="long" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-06"> Initital ELTeC level-1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="group">
+                <div type="chapter">
+                    <head> PRÉFACE </head>
+                    <p> Toutes les nations ont eu leurs brigands et leurs fanatiques, leurs temps de
                         barbarie, leurs accès de fureur. Les plus estimables sont celles qui s'en
                         accusent. Les espagnols ont eu cette fierté, digne de leur caractere. Jamais
                         l'histoire n'a rien tracé de plus touchant, de plus terrible, que les
@@ -242,15 +187,8 @@
                         avoient cessé. Le nouveau tyran écrivit à Isabelle, calomnia les indiens,
                         leur fit un crime de s'enfuir à l'approche des espagnols, et d'aimer mieux
                         être vagabonds que de vivre avec des chrétiens, pour se faire enseigner leur
-                        loi;
-      <hi rend="italic">
-       comme s'ils eussent été obligés de deviner,
-      </hi>
-      observe Las-Casas,
-      <hi rend="italic">
-       qu'il y avoit une loi nouvelle
-      </hi>
-      .
+                        loi; <hi rend="italic"> comme s'ils eussent été obligés de deviner, </hi>
+                        observe Las-Casas, <hi rend="italic"> qu'il y avoit une loi nouvelle </hi> .
                         La reine donna dans le piege. Elle ne savoit pas qu'en s'éloignant des
                         espagnols, les indiens fuyoient de cruels oppresseurs; elle ne savoit pas
                         que, pour aller chercher et servir ces maîtres barbares, il falloit que les
@@ -319,12 +257,8 @@
                         il traça une ligne d'un pôle à l'autre, et de sa pleine autorité, il
                         partagea le nouveau monde entre deux couronnes exclusivement. Il réservoit
                         au Portugal tout l'orient de la ligne tracée, donnoit tout l'occident à
-                        l'Espagne, et autorisoit ses rois à subjuguer,
-      <hi rend="italic">
-       avec
-                            l'aide de la divine clémence,
-      </hi>
-      et amener à la foi chrétienne les
+                        l'Espagne, et autorisoit ses rois à subjuguer, <hi rend="italic"> avec
+                            l'aide de la divine clémence, </hi> et amener à la foi chrétienne les
                         habitants de toutes les isles et terre ferme qui seroient de ce côté-là. La
                         bulle est de l'année 1493, la premiere du pontificat d'Alexandre VI. Or on
                         va voir quel fut le systême élevé sur cette base, et que de tous les crimes
@@ -333,16 +267,8 @@
                         sommer de se rendre. Dans cette formule, approuvée, et vraisemblablement
                         dictée par des docteurs en théologie, il étoit dit que Dieu avoit donné le
                         gouvernement et la souveraineté du monde à un homme appellé Pierre; qu'à lui
-                        seul avoit été attribué le nom de
-      <hi rend="italic">
-       pape
-      </hi>
-      ,qui
-                        signifie
-      <hi rend="italic">
-       grand et admirable
-      </hi>
-      , parce qu'il est pere
+                        seul avoit été attribué le nom de <hi rend="italic"> pape </hi> ,qui
+                        signifie <hi rend="italic"> grand et admirable </hi> , parce qu'il est pere
                         et gardien de tous les hommes; que ceux qui vivoient en ce temps-là lui
                         obéissoient, et l'avoient reconnu pour le maître du monde; qu'au même titre,
                         l'un de ses successeurs avoit fait donation aux rois de Castille de ces
@@ -353,11 +279,8 @@
                         cette formule, vous vous en trouverez bien, comme presque tous les habitants
                         des autres isles s'en sont bien trouvés... mais, au contraire, si vous ne le
                         faites pas, ou si, par malice, vous apportez du retardement à le faire, je
-                        vous déclare et vous assure
-      <hi rend="italic">
-       qu'avec l'aide de Dieu
-      </hi>
-      , je vous ferai la guerre à toute outrance; que je vous attaquerai de toutes
+                        vous déclare et vous assure <hi rend="italic"> qu'avec l'aide de Dieu </hi>
+                        , je vous ferai la guerre à toute outrance; que je vous attaquerai de toutes
                         parts et de toutes mes forces; que je vous assujettirai sous le joug de
                         l'obéissance de l' église et du roi. Je prendrai vos femmes et vos enfants,
                         je les rendrai esclaves, je les vendrai ou les employerai suivant la volonté
@@ -379,7 +302,8 @@
                         et c'est le petit nombre; la cause des passions a pour elle tous les hommes
                         qu'elle intéresse ou qu'elle peut intéresser, d'autant plus ardents à saisir
                         l'opinion favorable au désordre, qu'elle les sauve de la honte, leur assure
-                        l'impunité et les délivre du remords. C'est cette opinion, combinée avec l'orgueil et l'avarice, qui, dans l'ame des castillans, ferma, pour ainsi
+                        l'impunité et les délivre du remords. C'est cette opinion, combinée avec
+                        l'orgueil et l'avarice, qui, dans l'ame des castillans, ferma, pour ainsi
                         dire, tout accès à l'humanité; en sorte que les indiens ne furent à leurs
                         yeux qu'une espece de bêtes brutes, condamnées par la nature à obéir et à
                         souffrir; qu'une race impie et rebelle, qui, par ses erreurs et ses crimes,
@@ -420,11 +344,8 @@
                         serois indigne de défendre une si belle cause, si j'étois jaloux du succès
                         qu'elle auroit eu avant moi et sans moi. Je sais que l'esprit dominant de
                         l'Europe n'a jamais été si modéré; mais je répete ici ce que j'ai déja dit,
-      <hi rend="italic">
-       qu'il faut prendre le temps où les eaux sont basses
-                            pour travailler aux digues
-      </hi>
-      . Le but de cet ouvrage est donc, et je
+                            <hi rend="italic"> qu'il faut prendre le temps où les eaux sont basses
+                            pour travailler aux digues </hi> . Le but de cet ouvrage est donc, et je
                         l'annonce sans détour, de contribuer, si je le puis, à faire détester de
                         plus en plus ce fanatisme destructeur; d'empêcher, autant qu'il est en moi,
                         qu'on ne le confonde jamais avec une religion compatissante et charitable,
@@ -442,9 +363,10 @@
                         semblant de s'y être mépris. Quant à la forme de cet ouvrage, considéré
                         comme une production littéraire, je ne sais, je l'avoue, comment le définir.
                         Il y a trop de vérité pour un roman, et pas assez pour une histoire. Je n'ai
-                        certainement pas eu la prétention de faire un poëme. Dans mon plan, l'action principale n'occupe que très-peu d'espace: tout s'y rapporte, mais de
-                        loin. C'est donc moins le tissu d'une fable, que le fil d'un simple récit,
-                        dont tout le fond est historique, et auquel j'ai entremêlé quelques fictions
+                        certainement pas eu la prétention de faire un poëme. Dans mon plan, l'action
+                        principale n'occupe que très-peu d'espace: tout s'y rapporte, mais de loin.
+                        C'est donc moins le tissu d'une fable, que le fil d'un simple récit, dont
+                        tout le fond est historique, et auquel j'ai entremêlé quelques fictions
                         compatibles avec la vérité des faits. Je n'écris point pour le petit nombre;
                         être utile à la multitude est le but que je me propose. C'est mon excuse
                         auprès de ceux qui me reprocheroient d' avoir trop insisté sur des vérités
@@ -468,15 +390,11 @@
                         bien pu me le permettre; mais, lorsqu'on pense à faire plaindre le foible
                         opprimé par le fort, quel intérêt peut-on avoir de dissimuler sa foiblesse?
                         J'ai dit quel est l'objet de mon ouvrage; et l'on sent bien que pour le
-                        remplir, je n'avois besoin que d'opposer des colombes à des vautours.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 1
-     </head>
-     <p>
-      L'empire du Mexique étoit détruit, celui du Pérou florissoit encore; mais,
+                        remplir, je n'avois besoin que d'opposer des colombes à des vautours. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 1 </head>
+                    <p> L'empire du Mexique étoit détruit, celui du Pérou florissoit encore; mais,
                         en mourant, l'un de ses monarques l'avoit partagé entre ses deux fils. Cusco
                         avoit son roi, Quito avoit le sien. Le fier Huascar, roi de Cusco, avoit été
                         cruellement blessé d'un partage qui lui enlevoit la plus belle de ses
@@ -492,11 +410,8 @@
                         soleil une si favorable et si douce influence; aucun peuple aussi ne lui
                         rend un hommage plus solemnel. Le roi, les incas et le peuple, sur le
                         vestibule du temple où son image est adorée, attendent son lever dans un
-                        religieux silence. Déja l'étoile de Vénus, que les indiens nomment
-      <hi rend="italic">
-       l'astre à la brillante chevelure
-      </hi>
-      , et qu'ils
+                        religieux silence. Déja l'étoile de Vénus, que les indiens nomment <hi
+                            rend="italic"> l'astre à la brillante chevelure </hi> , et qu'ils
                         réverent comme le favori du soleil, donne le signal du matin. à peine ses
                         feux argentés étincellent sur l'horizon, un doux frémissement se fait
                         entendre autour du temple. Bientôt l'azur du ciel pâlit vers l'orient; des
@@ -517,11 +432,7 @@
                         Potose. Choeur des incas. Ame de l'univers, toi, qui du haut des cieux ne
                         cesses de verser au sein de la nature, dans un océan de lumiere, la chaleur,
                         et la vie, et la fécondité; soleil, reçois les voeux de tes enfants et d'un
-                        peuple heureux qui t' adore. Le pontife
-      <hi rend="italic">
-       seul
-      </hi>
-      . ô
+                        peuple heureux qui t' adore. Le pontife <hi rend="italic"> seul </hi> . ô
                         roi, dont le trône sublime brille d'un éclat immortel, avec quelle imposante
                         majesté tu domines dans le vaste empire des airs! Quand tu parois dans ta
                         splendeur, et que tu agites sur ta tête ton diadême étincelant, tu es
@@ -537,11 +448,7 @@
                         dut être la joie de la nature, lorsque tu l' éclairas pour la premiere fois!
                         Elle s'en souvient; et jamais elle ne te revoit sans ce tressaillement
                         qu'éprouve une fille tendre au retour d'un pere adoré, dont l'absence l'a
-                        fait languir. Le pontife
-      <hi rend="italic">
-       seul
-      </hi>
-      . Ame de l'univers!
+                        fait languir. Le pontife <hi rend="italic"> seul </hi> . Ame de l'univers!
                         Sans toi le vaste océan n'étoit qu'une masse immobile et glacée, la terre
                         qu'un stérile amas de sable et de limon, l'air qu'un espace ténébreux. Tu
                         pénétras les éléments de ta chaleur vive et féconde; l'air devint fluide et
@@ -558,15 +465,11 @@
                         accomplis la loi d'un être invisible et suprême, fais passer nos voeux
                         jusqu'à lui: il doit se plaire à être adoré dans sa plus éclatante image. Le
                         peuple. Ame de l'univers, pere de Manco, pere de nos rois, ô soleil, protege
-                        ton peuple, et fais prospérer tes enfants.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 2
-     </head>
-     <p>
-      Le premier des incas, fondateur de Cusco, avoit institué, en l'honneur du
+                        ton peuple, et fais prospérer tes enfants. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 2 </head>
+                    <p> Le premier des incas, fondateur de Cusco, avoit institué, en l'honneur du
                         soleil, quatre fêtes, qui répondoient aux quatre saisons de l' année; mais
                         elles rappelloient à l'homme des objets plus intéressants, la naissance, le
                         mariage, la paternité, et la mort. La fête qu'on célébroit alors étoit celle
@@ -593,12 +496,8 @@
                         lui son heureuse influence, et de communiquer à ce qui l'environne sa
                         bienfaisante activité; de voyager dans son empire, car la terre fleurit sous
                         les pas d'un bon roi; d'être accessible et populaire, afin que, sous son
-                        regne, l'homme injuste ne dise pas:
-      <hi rend="italic">
-       que m'importent les
-                            cris du foible?
-      </hi>
-      de ne point détourner la vue à l'approche des
+                        regne, l'homme injuste ne dise pas: <hi rend="italic"> que m'importent les
+                            cris du foible? </hi> de ne point détourner la vue à l'approche des
                         malheureux; car s'il est affligé d'en voir, il se reprochera d'en faire: et
                         celui-là craint d'être bon, qui ne veut pas être attendri. Elle lui
                         recommande un amour généreux, un saint respect pour la vérité, guide et
@@ -641,8 +540,9 @@
                         lui son champ; ses enfants jouissoient du droit des orphelins, sa femme de
                         celui des veuves; et s'il mouroit dans les combats, l'état lui-même prenoit
                         pour eux les soins d'un pere et d'un époux. Le peuple cultivoit d'abord le
-                        domaine du soleil, puis l'héritage de la veuve, de l'orphelin et de l'infirme; après cela, chacun vaquoit à la culture de son champ. Les terres de
-                        l'inca terminoient les travaux: le peuple s'y rendoit en foule,et c'étoit
+                        domaine du soleil, puis l'héritage de la veuve, de l'orphelin et de
+                        l'infirme; après cela, chacun vaquoit à la culture de son champ. Les terres
+                        de l'inca terminoient les travaux: le peuple s'y rendoit en foule,et c'étoit
                         pour lui une fête. Paré comme aux jours solemnels, il remplissoit l'air de
                         ses chants. La tâche des travaux publics étoit distribuée avec une équité
                         qui la rendoit légere. Aucun n'en étoit dispensé; tous y apportoient le même
@@ -700,25 +600,17 @@
                         aussi inviolable que la majesté même, vont observer dans les provinces les
                         dépositaires des loix, voir si le peuple n'est point foulé; et au foible à
                         qui lepuissant a fait injure ou violence, à l'indigent qu'on abandonne, à
-                        l'homme affligé qui gémit, ils demandent:
-      <hi rend="italic">
-       quel est le
-                            sujet de ta plainte? Qui cause ta peine et tes pleurs?
-      </hi>
-      ils
+                        l'homme affligé qui gémit, ils demandent: <hi rend="italic"> quel est le
+                            sujet de ta plainte? Qui cause ta peine et tes pleurs? </hi> ils
                         s'avancent donc, et ils jurent, à la face du soleil, d'être équitables comme
                         lui. L'inca les embrasse, et leur dit: " tuteurs du peuple, c'est à vous que
                         son bonheur est confié. Soleil, ajoute-t-il, reçois le serment des tuteurs
                         du peuple. Punis-moi, si je cesse de protéger en eux la droiture et la
-                        vigilance; punis-moi, si je leur pardonne la foiblesse ou l'iniquité. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 3
-     </head>
-     <p>
-      un nouveau spectacle succede: c'est l'élite de la jeunesse; des choeurs de
+                        vigilance; punis-moi, si je leur pardonne la foiblesse ou l'iniquité. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 3 </head>
+                    <p> un nouveau spectacle succede: c'est l'élite de la jeunesse; des choeurs de
                         filles et de garçons, tous d'une beauté singuliere, tenant dans leurs mains
                         des guirlandes, dont ils viennent orner les colonnes sacrées, en dansant à
                         l'entour, et chantant les louanges du soleil et de ses enfants. Leur robe,
@@ -808,15 +700,11 @@
                         courage et de la vertu. Son pere, qui en fait ses délices, s'applaudit de le
                         voir croître et s'élever sous ses yeux: jeune encore lui-même, il espere
                         laisser un sage sur le trône. Hélas! Son espérance est vaine; les pleurs de
-                        son vertueux fils n' arroseront point son tombeau.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 4
-     </head>
-     <p>
-      Au festin succedent les jeux. C'est là que les jeunes incas, destinés à
+                        son vertueux fils n' arroseront point son tombeau. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 4 </head>
+                    <p> Au festin succedent les jeux. C'est là que les jeunes incas, destinés à
                         donner l'exemple du courage et de la constance, s'exercent dans l' art des
                         combats. Ils commencent, au son des conques, par la fleche et le javelot; et
                         le vainqueur, dès qu'il est proclamé, voit le héros qui lui a donné le jour
@@ -830,7 +718,8 @@
                         serrer de nouveau des noeuds de leurs bras vigoureux; tour-à-tour immobiles,
                         tour-à-tour chancelants, tomber, se rouler, se débattre, et arroser l'herbe
                         flétrie des ruisseaux de sueur dont ils sont inondés. Le combat, long-temps
-                        incertain, fait flotter l'ame de leurs parents, entre la crainte et l'espérance. La victoire enfin se déclare; mais les vieillards, en décernant
+                        incertain, fait flotter l'ame de leurs parents, entre la crainte et
+                        l'espérance. La victoire enfin se déclare; mais les vieillards, en décernant
                         le prix du combat aux vainqueurs, ne dédaignent pas de donner auxvaincus
                         quelques louanges consolantes: car ils savent que la louange est, dans les
                         ames généreuses, le germe et l'aliment de l'émulation. Dans le nombre de
@@ -866,11 +755,7 @@
                         lutte, de la fleche et du javelot. Zoraï s'avance à leur tête, tenant en
                         main la lance où flotte suspendu le trophée de sa victoire, et avec eux il
                         se présente devant le cercle des vieillards. Ceux-ci les jugent, et les
-                        proclament dignes du nom
-      <hi rend="italic">
-       d'incas
-      </hi>
-      , de vrais fils du
+                        proclament dignes du nom <hi rend="italic"> d'incas </hi> , de vrais fils du
                         soleil. Alors leurs meres et leurs soeurs viennent, d' un air tendre et
                         modeste, attacher à leurs piedsagiles, au-lieu de la tresse d'écorce qui
                         fait les sandales du peuple, une natte de laine plus légere et plus douce,
@@ -907,15 +792,11 @@
                         faits à la nature! Ce qui lui ressemble le plus sur la terre, c'est un bon
                         roi. " à ces mots il se leve, et marche, accompagné de sa famille et de son
                         peuple, pour aller avec le pontife, sur le vestibule du temple, observer le
-                        front du soleil, à son couchant, et en recueillir les oracles.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 5
-     </head>
-     <p>
-      Le peuple et la cour elle-même se tiennent en silence au delà du parvis. Le
+                        front du soleil, à son couchant, et en recueillir les oracles. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 5 </head>
+                    <p> Le peuple et la cour elle-même se tiennent en silence au delà du parvis. Le
                         roi seul monte les degrés du vestibule où l'attend le grand-prêtre, qui ne
                         doit révéler qu'à lui les secrets du sombre avenir. Le ciel étoit serein,
                         l'air calme et sans vapeurs; et l'on eût pris dans ce moment l'horizon du
@@ -1004,15 +885,11 @@
                         soupir; mais je te dois l'effort d'en retracer l'affreuse image. écoute-moi,
                         généreux prince; et puisse l'exemple de ma patrie t'apprendre à garantir ces
                         bords du fléau qui l'a ravagée! " à ces mots, le silence regne dans
-                        l'assemblée des incas; et le cacique reprend ainsi:
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 6
-     </head>
-     <p>
-      enfants du soleil, vous savez la route qu'il suit tous les ans. Il est à
+                        l'assemblée des incas; et le cacique reprend ainsi: </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 6 </head>
+                    <p> enfants du soleil, vous savez la route qu'il suit tous les ans. Il est à
                         présent sur vos têtes; il y a trois lunes qu'il se levoit de même sur le
                         pays où je suis né. Ce pays s'appelle Mexique. Il avoit pour roi Montezume,
                         dont nous sommes les neveux. Montezume avoit des vertus, un coeur droit,
@@ -1049,7 +926,8 @@
                         être immolés à nos dieux, terminoient ce nombreux cortege.Nous arrivons au
                         camp des espagnols (car c'est ainsi que ces brigands se nomment; ) et quel
                         est notre étonnement, en voyant que cinq cents hommes épouvantoient des
-                        nations! Oui, je l'avoue à notre honte, ils n'étoient que cinq cents, ce n'étoient que des hommes; et des millions d'hommes trembloient. Nous parûmes
+                        nations! Oui, je l'avoue à notre honte, ils n'étoient que cinq cents, ce
+                        n'étoient que des hommes; et des millions d'hommes trembloient. Nous parûmes
                         devant leur chef... ah! Le perfide! Sous quel air majestueux et tranquille
                         il sut déguiser sa noirceur! Pilpatoé, en l'abordant, le salue, et lui parle
                         ainsi: " le monarque du Mexique, le puissant Montezume, nous envoie te
@@ -1153,15 +1031,11 @@
                         exige qu'il m'entende; que, sans lui faire injure, il ne peut refuser de me
                         recevoir dans sa cour; et que je serois trop indigne de ce titre
                         d'ambassadeur, dont je suis revêtu, si je m'en retournois chargé de ses
-                        mépris, sans en avoir tiré vengeance. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 7
-     </head>
-     <p>
-      la réponse de Montezume ne se fit pas longtemps attendre. Il crut, par de
+                        mépris, sans en avoir tiré vengeance. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 7 </head>
+                    <p> la réponse de Montezume ne se fit pas longtemps attendre. Il crut, par de
                         nouveaux présents, adoucir le refus qu'il faisoit à Cortès de le laisser
                         pénétrer plus avant. Mais Cortès reçut les présents, et persista dans sa
                         demande. Il avoit su quelle étoit la haine des caciques pour Montezume; il
@@ -1265,15 +1139,11 @@
                         parle ainsi: " tant que j'aurois eu le moyen de m'éloigner de ce rivage,
                         Montezume auroit pu douter si je persisterois dans ma résolution. Mexicains,
                         dites-lui ce que vous avez vu; et qu'il se prépare à me recevoir en ami, ou
-                        en ennemi. " ce fut avec cette arrogance qu'il nous renvoya consternés.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 8
-     </head>
-     <p>
-      Montezume attendoit notre retour avec impatience. Il assembla ses ministres
+                        en ennemi. " ce fut avec cette arrogance qu'il nous renvoya consternés. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 8 </head>
+                    <p> Montezume attendoit notre retour avec impatience. Il assembla ses ministres
                         et ses prêtres pour nous entendre. La présence des prêtres nous fit
                         dissimuler l'humiliation et l'opprobre dont le dieu de Cortès avoit couvert
                         nos dieux; tout le reste fut exposé dans un récit fidele et simple, et
@@ -1432,15 +1302,11 @@
                         le libérateur? Sous lui le trouble et le tumulte font place à l'ordre et au
                         conseil. à la tête du peuple, il force l'ennemi à se retirer dans l'enceinte
                         du palais qui lui sert d'asyle, le réduit à ne plus paroître, et l'assiege
-                        de toutes parts. Alors on nous annonce le retour de Cortès.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 9
-     </head>
-     <p>
-      Cet heureux brigand, délivré d'un rival qui venoit lui disputer sa proie,
+                        de toutes parts. Alors on nous annonce le retour de Cortès. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 9 </head>
+                    <p> Cet heureux brigand, délivré d'un rival qui venoit lui disputer sa proie,
                         avoit tiré de nouvelles forces du parti opposé au sien. Plus fier que
                         jamais, il arrive, il s'avance; un silence morne l'étonne en entrant dans
                         nos murs. Il pénetre avec défiance jusqu'aux portes de son palais, et s'y
@@ -1462,7 +1328,8 @@
                         atteindre au haut des murailles; le trouble, l'effroi, l'épouvante regnoient
                         au dedans, la fureur au dehors. C'en étoit fait, si le soleil, en nous
                         dérobant sa lumiere, n'eût pas terminé le combat. La nuit, des fleches
-                        enflammées embraserent les toits de ce palais funeste; l'horreur de l'incendie en écarta le sommeil; et tandis qu'au milieu des siens, Cortès
+                        enflammées embraserent les toits de ce palais funeste; l'horreur de
+                        l'incendie en écarta le sommeil; et tandis qu'au milieu des siens, Cortès
                         travailloit à l'éteindre, nous prîmes un peu de repos. Mais l'aurore du jour
                         suivant nous vit les armes à la main. L'ennemi sort; la ville entiere
                         devient un champ de bataille. Notre sang l'inonda; mais nous vîmes aussi, et
@@ -1561,15 +1428,11 @@
                         expira. Ce souvenir cruel et tendre émut si vivement le héros mexicain, que
                         sa voix en fut étouffée; et les incas, les yeux attachés sur un fils si
                         vertueux et si sensible, attendirent en silence que son coeur se fût
-                        soulagé.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 10
-     </head>
-     <p>
-      Pour succéder à mon vertueux pere, reprit Orozimbo, le choix des caciques
+                        soulagé. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 10 </head>
+                    <p> Pour succéder à mon vertueux pere, reprit Orozimbo, le choix des caciques
                         tomba sur le jeune Guatimozin, son neveu, mon ami, le plus vaillant des
                         hommes. Hélas! Il se montra bien digne de ce choix; mais le sort trahit son
                         courage. Cortès revint au bord du lac avec des forces redoutables. à mille
@@ -1717,48 +1580,40 @@
                         un châtiment soudain leur impose silence; et s'ils succombent sous l'excès
                         du travail et de la misere, un bras impitoyable acheve de leur arracher le
                         dernier soupir. " cruels! Disent ces innocents, que vous avons-nous fait?
-                        Notre vie n'est employée qu'à vous servir; pourquoi nous l'arracher? épargnez du moins nos enfants et nos femmes. " les monstres sont
-                        sourds à ces plaintes.
-      <hi rend="italic">
-       de l'or, de l'or,
-      </hi>
-      c'est leur
-                        cri de rage: on ne peut les en assouvir. Un peuple en vain se hâte
-                        d'apporter à leurs pieds le peu qu'il a de ce métal funeste. Ce n'est jamais
-                        assez; et tandis qu'à genoux, les mains au ciel, les yeux en pleurs, il
-                        proteste qu'il n'en a plus, on l'enchaîne, on le livre à d'horribles
-                        tourments, pour l'obliger à découvrir ce qu'il peut en avoir encore. Leur
-                        avarice a inventé des tortures inconcevables et des supplices inouis.
-                        Ingénieuse à compliquer et à prolonger les douleurs, elle donne à la mort
-                        mille formes horribles, que la mort ne connoissoit pas. Mais ce qui révolte
-                        le plus de leur atrocité, c'est sa froideur tranquille. La nature est muette
-                        dans ces coeurs endurcis. Autour des bûchers, où la flamme dévore une
-                        famille entiere, au milieu d'un hameau dont les toits embrasés fondent sur
-                        les femmes enceintes, sur les foibles vieillards, sur les enfants à la
-                        mamelle, au pied des échafauds où un feu lent consume le fils et la mere,
-                        déchirés avant de mourir; on les voit, ces hommes féroces, on les voit,
-                        riants et moqueurs, se réjouir et insulter aux victimes de leur furie. Inca,
-                        ne nous reproche point d'avoir vu tant de maux, sans mourir de douleur,
-                        ajouta le cacique, en versant des ruisseaux de larmes, et d'une voix
-                        entrecoupée par les sanglots qui l'étouffoient: si nous supportons nos
-                        malheurs, sinous vivons, si nous fuyons notre déplorable patrie, c'est pour
-                        lui chercher des vengeurs. " ah! Vous en méritez sans doute, lui dit l'inca,
-                        en l'embrassant. Je sens vos maux, je les partage. Si je ne puis les
-                        réparer, j'espere au moins les adoucir. Demeurez parmi nous, illustres
-                        malheureux, et que ma cour soit votre asyle. Hélas! Si j'en crois des
-                        présages qui commencent à s'avérer, le temps approche où j'aurai besoin de
-                        votre expérience et de votre courage.-ah! S'écrierent les caciques, la vie
-                        est l'unique bien que le destin nous laisse: généreux prince, elle est à
-                        toi, et tu peux en être prodigue: sans toi, le désespoir en eût déja tranché
-                        le cours. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 11
-     </head>
-     <p>
-      tandis que la paix, la justice, l'humanité regnoient encore dans ces régions
+                        Notre vie n'est employée qu'à vous servir; pourquoi nous l'arracher?
+                        épargnez du moins nos enfants et nos femmes. " les monstres sont sourds à
+                        ces plaintes. <hi rend="italic"> de l'or, de l'or, </hi> c'est leur cri de
+                        rage: on ne peut les en assouvir. Un peuple en vain se hâte d'apporter à
+                        leurs pieds le peu qu'il a de ce métal funeste. Ce n'est jamais assez; et
+                        tandis qu'à genoux, les mains au ciel, les yeux en pleurs, il proteste qu'il
+                        n'en a plus, on l'enchaîne, on le livre à d'horribles tourments, pour
+                        l'obliger à découvrir ce qu'il peut en avoir encore. Leur avarice a inventé
+                        des tortures inconcevables et des supplices inouis. Ingénieuse à compliquer
+                        et à prolonger les douleurs, elle donne à la mort mille formes horribles,
+                        que la mort ne connoissoit pas. Mais ce qui révolte le plus de leur
+                        atrocité, c'est sa froideur tranquille. La nature est muette dans ces coeurs
+                        endurcis. Autour des bûchers, où la flamme dévore une famille entiere, au
+                        milieu d'un hameau dont les toits embrasés fondent sur les femmes enceintes,
+                        sur les foibles vieillards, sur les enfants à la mamelle, au pied des
+                        échafauds où un feu lent consume le fils et la mere, déchirés avant de
+                        mourir; on les voit, ces hommes féroces, on les voit, riants et moqueurs, se
+                        réjouir et insulter aux victimes de leur furie. Inca, ne nous reproche point
+                        d'avoir vu tant de maux, sans mourir de douleur, ajouta le cacique, en
+                        versant des ruisseaux de larmes, et d'une voix entrecoupée par les sanglots
+                        qui l'étouffoient: si nous supportons nos malheurs, sinous vivons, si nous
+                        fuyons notre déplorable patrie, c'est pour lui chercher des vengeurs. " ah!
+                        Vous en méritez sans doute, lui dit l'inca, en l'embrassant. Je sens vos
+                        maux, je les partage. Si je ne puis les réparer, j'espere au moins les
+                        adoucir. Demeurez parmi nous, illustres malheureux, et que ma cour soit
+                        votre asyle. Hélas! Si j'en crois des présages qui commencent à s'avérer, le
+                        temps approche où j'aurai besoin de votre expérience et de votre
+                        courage.-ah! S'écrierent les caciques, la vie est l'unique bien que le
+                        destin nous laisse: généreux prince, elle est à toi, et tu peux en être
+                        prodigue: sans toi, le désespoir en eût déja tranché le cours. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 11 </head>
+                    <p> tandis que la paix, la justice, l'humanité regnoient encore dans ces régions
                         fortunées, sous les loix des fils du soleil; la tyrannie des castillans
                         s'étendoit comme un incendie: la ruine et la solitude en marquoient par-tout
                         les progrès. Le nord de l'Amérique étoit dévasté; le midi commençoit à
@@ -1839,10 +1694,10 @@
                         offensés, vous vous plaindriez de mon zele.-venez, lui dit Alonzo; et ne
                         pensons qu'au bien que votre présence peut faire. Qui sait les crimes et les
                         maux que vous épargnerez au monde? Et quel reproche ne vous feriez-vous pas,
-                        de n'avoir eu qu'à vous montrer, pour sauver des millions d'hommes, et de
-                        ne l'avoir pas voulu?-c' en est assez, lui dit Las-Casas. Je ne vous
-                        laisserai pas croire que j'aie renoncé, par foiblesse, à l' espérance d'être
-                        utile à ces infortunés. Je vous suivrai. Fasse le ciel que Pizarre daigne
+                        de n'avoir eu qu'à vous montrer, pour sauver des millions d'hommes, et de ne
+                        l'avoir pas voulu?-c' en est assez, lui dit Las-Casas. Je ne vous laisserai
+                        pas croire que j'aie renoncé, par foiblesse, à l' espérance d'être utile à
+                        ces infortunés. Je vous suivrai. Fasse le ciel que Pizarre daigne
                         m'entendre! " ils partent ensemble; et bientôt le vaisseau qui les a reçus,
                         aborde au rivage de l'isthme. On y débarque à l'embouchure du fleuve Des
                         Lézards; et pour le remonter, on s'élance sur des canots. Chacun de ces
@@ -1923,11 +1778,8 @@
                         l'humble et pieux solitaire qu'il voit à côté d'Alonzo. " est-ce encore là,
                         demande-t-il, un messager de la foi, que son zele engage à nous suivre? " au
                         nom de Las-Casas, au nom de ce héros de la religion et de l'humanité, que
-                        l'Espagne avoit honoré du nom de
-      <hi rend="italic">
-       protecteur de l'Inde
-      </hi>
-      , Pizarre est saisi de respect, et se prosternant devant lui, croit
+                        l'Espagne avoit honoré du nom de <hi rend="italic"> protecteur de l'Inde
+                        </hi> , Pizarre est saisi de respect, et se prosternant devant lui, croit
                         adorer la vertu même. " est-ce vous, lui dit-il, vénérable et pieux mortel,
                         est-ce vous qui venez bénir et partager nos travaux? Quel présage pour moi
                         de la faveur du ciel, et du succès de mon entreprise! " " vaillant et
@@ -1935,15 +1787,11 @@
                         faveur du ciel est dans le coeur de l'homme juste. Méritez-la par vos
                         vertus; et n'enviez point aux méchants des succès dont le ciel s'irrite. La
                         gloire d'être humain, sensible et bienfaisant, sera pure, et d'autant plus
-                        belle, que vous aurez peu de rivaux. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 12
-     </head>
-     <p>
-      le vaisseau, pour mettre à la voile, attendoit un vent favorable. On fit des
+                        belle, que vous aurez peu de rivaux. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 12 </head>
+                    <p> le vaisseau, pour mettre à la voile, attendoit un vent favorable. On fit des
                         voeux pour l'obtenir. Le plus auguste de nos mysteres fut célébré sur la
                         poupe, par ce même Fernand De Luques, intéressé avec Almagre dans les
                         risques de l'entreprise, et comme lui associé dans le partage du butin... ô
@@ -2036,11 +1884,8 @@
                         et ce décret n'a pu s'étendre au-delà des termes précis où lui-même il l'a
                         renfermé: l'ordre accompli, la loi qu'il avoit suspendue, a repris son cours
                         éternel. Dieu parloit aux israélites; mais dieu ne vous a point parlé.
-                        Tenez-vous-en donc à la loi qu'il a donnée à tous les hommes:
-      <hi rend="italic">
-       aimez-moi, aimez vos semblables:
-      </hi>
-      voilà sa loi,
+                        Tenez-vous-en donc à la loi qu'il a donnée à tous les hommes: <hi
+                            rend="italic"> aimez-moi, aimez vos semblables: </hi> voilà sa loi,
                         Fernand. Sont-ce là vos tortures? Et vos chaînes? Et vos bûchers? " les
                         indiens, sans doute, ont exercé entre eux des cruautés bien condamnables;
                         mais, fussent-ils plus inhumains, est-ce à vous de les imiter? Leur malheur,
@@ -2155,25 +2000,14 @@
                         nom de chrétiens, ou nous interdire à jamais le droit de faire des esclaves.
                         Cet avilissement honteux, où le plus fort tient le plus foible, est
                         outrageant pour la nature, révoltant pour l'humanité, mais abominable
-                        sur-tout aux yeux de la religion.
-      <hi rend="italic">
-       mon frere, tu es mon
-                            esclave,
-      </hi>
-      est une absurdité dans la bouche d'un homme, un parjure
+                        sur-tout aux yeux de la religion. <hi rend="italic"> mon frere, tu es mon
+                            esclave, </hi> est une absurdité dans la bouche d'un homme, un parjure
                         et un blasphême dans la bouche d'un chrétien. " et de quel titre s'autorise
-                        la fureur d'opprimer?
-      <hi rend="italic">
-       conquérants pour la foi!
-      </hi>
-      la
+                        la fureur d'opprimer? <hi rend="italic"> conquérants pour la foi! </hi> la
                         foi ne nous demande que des coeurs librement soumis. Qu'a-t-elle de commun
                         avec notre avarice, nos rapines, nos brigandages? Le dieu que nous servons
-                        est-il affamé d'or?
-      <hi rend="italic">
-       un pontife a partagé l'Inde!
-      </hi>
-      mais l'Inde est-elle à lui? Mais avoit-il lui-même le droit qu'on s'arroge
+                        est-il affamé d'or? <hi rend="italic"> un pontife a partagé l'Inde! </hi>
+                        mais l'Inde est-elle à lui? Mais avoit-il lui-même le droit qu'on s'arroge
                         en son nom? Il a pu confier ce monde à qui prendroit soin de l'instruire,
                         mais non pas le livrer en proie à qui voudroit le ravager. Le titre de sa
                         concession est fait pour un peuple d'apôtres, non pour un peuple de
@@ -2224,15 +2058,11 @@
                         l'avoit retenu. " mon ami, lui dit-il, je reste, je vous obéis à mon tour;
                         mais j'observerai Pizarre; j' éprouverai dans peu s'il tient ce qu'il vous a
                         promis; et si j'ai le malheur d'être avec des brigands, soyez bien assuré
-                        que je n'y serai pas long-temps. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 13
-     </head>
-     <p>
-      Barthelemi fut remené jusqu'au fleuve des lézards. Il monte une barque
+                        que je n'y serai pas long-temps. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 13 </head>
+                    <p> Barthelemi fut remené jusqu'au fleuve des lézards. Il monte une barque
                         indienne; et la rapidité du fleuve l'éloigne bientôt de Crucès. Libre et
                         seul avec ses sauvages, il leur parloit; il jouissoit de leurs caresses
                         naïves; il tâchoit de les consoler. L'un d'eux lui dit: " notre bon pere, tu
@@ -2349,15 +2179,11 @@
                         soit point jaloux; c'étoit le culte de la crainte, et non pas celui de
                         l'amour.-allons, allons, dit Las-Casas, renverser cette horrible idole. " et
                         les indiens, animés du zele qu'il leur inspiroit, couroient au temple sur
-                        ses pas.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 14
-     </head>
-     <p>
-      D'une grotte profonde, voisine de ce temple, Barthelemi crut entendre sortir
+                        ses pas. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 14 </head>
+                    <p> D'une grotte profonde, voisine de ce temple, Barthelemi crut entendre sortir
                         des gémissements. " qu'est-ce, demanda-t-il?-passons, dit le cacique.
                         épargne à tes amis la honte de te montrer des malheureux. " sans vouloir
                         insister, Barthelemi s'avance jusqu'à ce temple abominable, où l'on voyoit
@@ -2489,15 +2315,11 @@
                         freres? N'es-tu pas mon égal? " il dit; et lui tendant la main, il le
                         délivra de ses chaînes. Barthelemi, témoin de ce spectacle, avoit le coeur
                         saisi de joie et d'attendrissement. " Davila, dit-il au jeune homme, voilà,
-                        voilà de vrais chrétiens! "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 15
-     </head>
-     <p>
-      Gonsalve fut, dès ce moment, parmi les indiens, comme dans sa patrie, et
+                        voilà de vrais chrétiens! " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 15 </head>
+                    <p> Gonsalve fut, dès ce moment, parmi les indiens, comme dans sa patrie, et
                         comme au sein de sa famille. On le gardoit, mais sans contrainte; et la
                         seule liberté qu'il n'eût pas, étoit celle de s'échapper. Las-Casas le
                         voyoit sans cesse. Il eût voulu lui faire aimer la vie heureuse et simple de
@@ -2536,7 +2358,8 @@
                         frere; va, je ne l' oublierai jamais: je ne suis ingrat ni perfide. Il y va
                         de ta vie et du salut de tes amis, que ton asyle soit inconnu; il le sera
                         par mon silence. J'en atteste mon dieu, ce dieu qui est devenu le tien. " "
-                        oui, je te crois sensible et bon, dit le cacique; mais tu es foible; et l'homme foible est toujours à la veille d'être méchant. Comment braverois-tu
+                        oui, je te crois sensible et bon, dit le cacique; mais tu es foible; et
+                        l'homme foible est toujours à la veille d'être méchant. Comment braverois-tu
                         l'autorité d'un pere? Tu n'as pas su braver la mort.-la mort m'a causé de
                         l'effroi, je l'avoue, dit le jeune homme en se levant avec fierté; mais si,
                         pour éviter la mort, tu m'avois proposé un crime, tu aurois vu lequel des
@@ -2599,15 +2422,11 @@
                         présent; et ton coeur lui a juré d'être fidele aux indiens. " Gonsalve
                         retourne à Panama; et Las-Casas descend le fleuve jusqu'à la côte orientale,
                         où un navire le reçoit, et va le porter au rivage que baigne l'Ozama, en
-                        épanchant son onde dans le sein du vaste océan.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 16
-     </head>
-     <p>
-      Dom Pedre Davila pleuroit l'héritier de son nom, avec les larmes de
+                        épanchant son onde dans le sein du vaste océan. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 16 </head>
+                    <p> Dom Pedre Davila pleuroit l'héritier de son nom, avec les larmes de
                         l'orgueil, de la rage et du désespoir. En le voyant, il se livra à tous les
                         transports de la joie. " le ciel, lui dit-il, ô mon fils, le ciel te rend
                         aux voeux d'un pere. Mais tous ces braves castillans qui t' accompagnoient,
@@ -2657,7 +2476,8 @@
                         de son fils, peut-il leur pardonner jamais? " " non, il n'a rien perdu de
                         ses droits sur mon coeur, reprit Gonsalve: mon respect, mon amour pour lui
                         sont les mêmes. Qu'il daigne ne me demander rien que d'innocent et de juste,
-                        il est bien sûr d'être obéi. Mais que veut-il de moi? Et pourquoi s'obstiner à me rendre ingrat et perfide? S'il veut poursuivre encorece peuple
+                        il est bien sûr d'être obéi. Mais que veut-il de moi? Et pourquoi s'obstiner
+                        à me rendre ingrat et perfide? S'il veut poursuivre encorece peuple
                         malheureux, ce n'est pas à moi d'éclairer ses recherches impitoyables; et
                         s'il consent à l'épargner, il n'a pas besoin de savoir en quels lieux il
                         respire en paix. Pour prix du salut de son fils, les sauvages ne lui
@@ -2745,15 +2565,11 @@
                         Sollicitez votre départ, et attendez ici que le roi y consente. " Gonsalve,
                         après avoir épanché sa douleur au sein du pieux solitaire, sentit son
                         courage renaître, et il resta auprès de son ami, en attendant que le
-                        monarque lui eût permis de quitter ces bords.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 17
-     </head>
-     <p>
-      Cependant Pizarre avoit mis à la voile; et déja loin du rivage de l'isthme,
+                        monarque lui eût permis de quitter ces bords. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 17 </head>
+                    <p> Cependant Pizarre avoit mis à la voile; et déja loin du rivage de l'isthme,
                         il s'avançoit vers l'équateur. à travers les écueils d'une mer inconnue
                         encore, sa course étoit pénible et lente; la disette le menaçoit; et il
                         fallut bientôt risquer l'abord de ces côtes sauvages; mais il trouva
@@ -2909,14 +2725,11 @@
                         fut qu'au lever du jour, et au bruit du signal que fit donner Pizarre,
                         qu'ils se rallierent à lui. Mais on s'apperçut que la vengeance du ciel
                         avoit choisi sa victime. Moralés, perdu dans les bois, ne reparut jamais.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 18
-     </head>
-     <p>
-      Pizarre, au milieu de ses compagnons découragés, marquoit encore de la
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 18 </head>
+                    <p> Pizarre, au milieu de ses compagnons découragés, marquoit encore de la
                         constance, et cachoit, sous un front serein, les noirs chagrins qui lui
                         rongeoient le coeur. Mais se voyant réduits au choix de périr par la faim,
                         ou par les fleches des sauvages, ils remontent sur leur navire, et, à force
@@ -3098,26 +2911,16 @@
                         puis, rappellant son courage: " nous y reviendrons, reprit-il; et je ne veux
                         m'en éloigner qu' après avoir marqué moi-même le rivage où nous descendrons.
                         " avant de quitter la Gorgone, il voulut y laisser un monument de sa gloire.
-                        Il écrivit sur unrocher, au bas duquel les flots se brisent:
-      <hi rend="italic">
-       ici treize hommes
-      </hi>
-      (et ils étoient nommés)
-      <hi rend="italic">
-       abandonnés de la nature entiere, ont éprouvé qu'il n'est
+                        Il écrivit sur unrocher, au bas duquel les flots se brisent: <hi
+                            rend="italic"> ici treize hommes </hi> (et ils étoient nommés) <hi
+                            rend="italic"> abandonnés de la nature entiere, ont éprouvé qu'il n'est
                             point de maux que le courage ne surmonte. Que celui qui veut tout oser,
-                            apprenne donc à tout souffrir.
-      </hi>
-      alors, montant sur le navire qu'on
-                        leur amenoit, ils s'avancent jusqu'au rivage de Tumbès.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 19
-     </head>
-     <p>
-      Là, tout ce qui s'offre à leurs yeux, annonce un peuple industrieux et
+                            apprenne donc à tout souffrir. </hi> alors, montant sur le navire qu'on
+                        leur amenoit, ils s'avancent jusqu'au rivage de Tumbès. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 19 </head>
+                    <p> Là, tout ce qui s'offre à leurs yeux, annonce un peuple industrieux et
                         riche. Pizarre fait dire à ce peuple, qu'il recherche son amitié; et
                         bien-tôt il le voit en foule se rassembler sur le rivage. Il voit son navire
                         entouré de radeaux chargés de présents: ce sont des grains, des fruits et
@@ -3141,119 +2944,115 @@
                         étoient loin de soupçonner que ce fût une perfidie. " que faites-vous, lui
                         demande Alonzo?-j' examine, répond Candie, par où l'on peut les
                         attaquer.-les attaquer? Quoi! Dans le moment même qu'ils vous comblent de
-                        biens, qu'ils se livrent à vous sans crainte et sur la foi de l'hospitalité, vous méditez le noir projet de les surprendre dans leurs murs?
-                        êtes-vous assez lâche? ...-et vous, reprit Candie, êtes-vous assez insensé
-                        pour croire qu'on passe les mers, et qu'on vienne d'un monde à l'autre pour
-                        s'attendrir, comme des enfants, sur l'imbécillité d' un peuple de sauvages?
-                        On feroit de belles conquêtes avec vos timides vertus.-peut-être, dit
-                        Alonzo. Mais est-ce bien Pizarre qui fait lever le plan de ces murs?-c' est
-                        lui-même.-j' en doute encore.-vous m'insultez.-je l'estime trop pour vous
-                        croire. " et à ces mots, l'impétueux jeune homme arrache des mains de Candie
-                        le dessin qu'il avoit tracé. Tout-à-coup, se lançant l'un à l'autre un
-                        regardde colere, ils écartent la foule; et l'épée étincelle comme un éclair
-                        dans leurs vaillantes mains. Les sauvages, persuadés que ce combat n'étoit
-                        qu'un jeu, applaudissoient d'abord, avec les regards de la joie et les
-                        signes naïfs de l'admiration, à l'adresse dont l'un et l'autre paroient les
-                        coups les plus rapides. Mais lorsqu'ils virent le sang couler, ils jetterent
-                        des cris perçants de douleur et d'effroi; et leur roi, se précipitant
-                        lui-même entre les deux épées, s'écrie: " arrête! Arrête! C'est mon hôte,
-                        c'est mon ami, c'est le sang de ton frere que tu fais couler. " on
-                        s'empresse, on les retient, on les désarme, on les mene sur le vaisseau.
-                        Pizarre, instruit de leur querelle, les reprit tous les deux; mais,
-                        quelqu'égalité qu'il affectât dans ses reproches, Alonzo crut s'appercevoir
-                        que Candie étoit approuvé. Un noir chagrin s'empara de son ame. Il se
-                        rappella les conseils du vertueux Barthelemi; il se retraça le supplice du
-                        vieillard indien qu'on avoit fait brûler, la guerre injuste et meurtriere
-                        qu'on avoit livrée à ces peuples, l'avidité impatiente de ses compagnons à
-                        la vue de l'or. Enfin, l'exemple du passé ne lui fit voir dans l'avenir que
-                        le meurtre et que le ravage; et dès-lors il se repentit de s'être engagé si
-                        avant. Comme il étoit chéri des indiens, c'étoit lui que Pizarre chargeoit
-                        le plus souvent d'aller pourvoir aux besoins du navire. Un jour qu'il
-                        étoitdescendu, il fut accueilli par ce peuple avec une amitié si naïve et si
-                        tendre, qu'il ne put retenir ses pleurs. " dans quelques mois peut-être,
-                        disoit-il en lui-même, les fertiles bords de ce fleuve, ces champs couverts
-                        de moissons, ces vallons peuplés de troupeaux, seront tous ravagés; les
-                        mains qui les cultivent seront chargées de chaînes; et de ces indiens si
-                        doux et si paisibles, des milliers seront égorgés, et le reste, réduit au
-                        plus dur esclavage, périra misérablement dans les travaux des mines d'or.
-                        Peuple innocent et malheureux! Non, je ne puis t'abandonner; je me sens
-                        attaché à toi, comme par un charme invincible. Je ne trahis point ma patrie,
-                        en me déclarant l'ennemi des brigands qui la déshonorent, et en cherchant
-                        moi-même à lui gagner les coeurs. " telle fut sa résolution; et il écrivit à
-                        Pizarre: " j'aime les indiens; je reste parmi eux, parce qu'ils sont bons et
-                        justes. Adieu. Vous trouverez en moi un médiateur, un ami, si vous respectez
-                        avec eux les droits de la nature; un ennemi, si, par la force, le brigandage
-                        et la rapine, vous violez ces droits sacrés. " Pizarre, affligé de la perte
-                        d'Alonzo, le fit presser de revenir. On le trouva au milieu des sauvages,
-                        éclairant leur raison, et jouissant de leurs caresses. " racontez à Pizarre
-                        ce que vous avez vu, dit-il à ceux qui venoient le chercher, et que mon
-                        exemple lui apprenne, que le plus sûrmoyen de captiver ces peuples, c'est
-                        d'être juste et bienfaisant. " l'un des regrets de Pizarre, en quittant ces
-                        bords, fut d'y laisser ce vaillant jeune homme. Mais celui-ci n'avoit jamais
-                        été plus heureux que dans ce moment. Se voyant au milieu d'un peuple
-                        naturellement simple et doux, il jouissoit du calme des passions; il
-                        respiroit l'air pur de l'innocence; il prenoit plaisir à l'entendre célébrer
-                        les vertus des incas, enfants du soleil, et mettre au rang de leurs
-                        bienfaits l'heureuse révolution qui s'étoit faite dans ses moeurs, lorsque,
-                        par la raison, plus que par la force des armes, les incas l' avoient obligé
-                        de suivre leur culte et leurs loix. Alonzo, à son tour, leur donnoit une
-                        idée de nos moeurs et de nos usages, des progrès de nos connoissances, et
-                        des prodiges de nos arts. Ce merveilleux les étonnoit. Le cacique lui
-                        demanda ce qui l'avoit engagé à se séparer de ses amis, et à demeurer sur
-                        ces bords. " ceux avec qui je suis venu, lui répondit Alonzo, m'ont dit:
-                        allons faire du bien aux habitants du nouveau monde; aussi-tôt je les ai
-                        suivis. J'ai vu qu'ils ne pensoient qu'à vous faire du mal; et je les ai
-                        abandonnés. " il lui raconta le sujet de sa querelle avec Candie. L'indien
-                        en fut pénétré de reconnoissance pour lui. Il le regardoit avec une
-                        admiration douce et tendre; et il disoit tout bas: " il en est digne, il en
-                        est plus digne que moi. " l'heure du sommeil approchoit; le cacique prit
-                        congé d'Alonzo; mais, en s'en allant, il retournoit vers lui les yeux, et
-                        levoit les mains vers le ciel. Le lendemain il vient le trouver dès
-                        l'aurore. " éveille-toi, roi de Tumbès, lui dit-il, en lui présentant son
-                        diadême et ses armes, éveille-toi; reçois de ma main la couronne. J'y ai
-                        bien pensé: je te la dois. J'ai ton courage et ta bonté, mais je n'ai pas
-                        tes lumieres. Prends ma place, regne sur nous. Je serai ton premier sujet.
-                        L'inca l' approuvera lui-même. " Alonzo, confondu de voir dans un sauvage
-                        cet exemple inoui de modestie et de magnanimité, sentit ce que l'orgueil
-                        ignore, que la véritable grandeur et la simplicité se touchent, et qu'il est
-                        rare qu'un coeur droit ne soit pas un coeur élevé. Il rendit graces au
-                        cacique, et lui dit: " tu es juste et bon: tu dois être aimé de ton peuple.
-                        Laissons-lui son roi. D'autres soins doivent occuper ton ami. " bientôt
-                        après, il vit venir les plus heureuses meres, celles qui pouvoient
-                        s'applaudir d'avoir les filles les plus belles, et qui, les menant par la
-                        main, les lui présentoient à l'envi. " daigne agréer, lui disoient-elles,
-                        cette jeune et douce compagne. Elle excelle à filer la laine; elle en fait
-                        les plus beaux tissus. Elle est sensible; elle t'aimera. Tous les matins, à
-                        son réveil, elle soupire après un époux; et du moment qu'elle t'a vu, tu es
-                        l'époux que son coeur desire. Tous mes enfants ont été beaux; les siens le
-                        serontencore plus: car tu seras leur pere; et jamais nos campagnes n'ont
-                        rien vu de si beau que toi. " Molina se fût livré sans peine aux charmes de
-                        la beauté, de l'innocence et de l'amour. Mais, se donner une compagne,
-                        c'étoit lui-même s'engager; et ses desseins demandoient un coeur libre. Il
-                        avoit appris du cacique qu'au delà des montagnes, deux incas, deux fils du
-                        soleil, se partageoient un vaste empire; et dès-lors il avoit formé la
-                        résolution de se rendre à leur cour. " l'inca, roi de Cusco, lui disoit le
-                        cacique, est superbe, inflexible; il se fait redouter. Celui de Quito, bien
-                        plus doux, se fait adorer de ses peuples. Je suis du nombre des caciques que
-                        son pere a mis sous ses loix. " Alonzo, pour se rendre à la cour de Quito,
-                        demanda deux fideles guides. Le cacique auroit bien voulu le retenir encore.
-                        " quoi! Sitôt, tu veux nous quitter, lui disoit-il! Et dans quel lieu
-                        seras-tu plus aimé, plus révéré que parmi nous?-je vais pourvoir à ton
-                        salut, lui répondit Alonzo, et engager l'inca à prendre avec moi ta défense:
-                        car vos ennemis vont dans peu revenir sur ces bords. Mais ne t'allarme
-                        point. Je viendrai moi-même, à la tête des indiens, te secourir. " ce zele
-                        attendrit le cacique; et les larmes de l'amitié accompagnerent ses adieux.
-                        Lui-même il choisit les deux guides que son ami lui demandoit; et avec eux
-                        Alonzo, traversant les vallées, suivit la rive du Dolé, qui prend sa source
-                        vers le nord.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 20
-     </head>
-     <p>
-      Après une marche pénible, ils approchoient de l'équateur, et alloient passer
+                        biens, qu'ils se livrent à vous sans crainte et sur la foi de l'hospitalité,
+                        vous méditez le noir projet de les surprendre dans leurs murs? êtes-vous
+                        assez lâche? ...-et vous, reprit Candie, êtes-vous assez insensé pour croire
+                        qu'on passe les mers, et qu'on vienne d'un monde à l'autre pour s'attendrir,
+                        comme des enfants, sur l'imbécillité d' un peuple de sauvages? On feroit de
+                        belles conquêtes avec vos timides vertus.-peut-être, dit Alonzo. Mais est-ce
+                        bien Pizarre qui fait lever le plan de ces murs?-c' est lui-même.-j' en
+                        doute encore.-vous m'insultez.-je l'estime trop pour vous croire. " et à ces
+                        mots, l'impétueux jeune homme arrache des mains de Candie le dessin qu'il
+                        avoit tracé. Tout-à-coup, se lançant l'un à l'autre un regardde colere, ils
+                        écartent la foule; et l'épée étincelle comme un éclair dans leurs vaillantes
+                        mains. Les sauvages, persuadés que ce combat n'étoit qu'un jeu,
+                        applaudissoient d'abord, avec les regards de la joie et les signes naïfs de
+                        l'admiration, à l'adresse dont l'un et l'autre paroient les coups les plus
+                        rapides. Mais lorsqu'ils virent le sang couler, ils jetterent des cris
+                        perçants de douleur et d'effroi; et leur roi, se précipitant lui-même entre
+                        les deux épées, s'écrie: " arrête! Arrête! C'est mon hôte, c'est mon ami,
+                        c'est le sang de ton frere que tu fais couler. " on s'empresse, on les
+                        retient, on les désarme, on les mene sur le vaisseau. Pizarre, instruit de
+                        leur querelle, les reprit tous les deux; mais, quelqu'égalité qu'il affectât
+                        dans ses reproches, Alonzo crut s'appercevoir que Candie étoit approuvé. Un
+                        noir chagrin s'empara de son ame. Il se rappella les conseils du vertueux
+                        Barthelemi; il se retraça le supplice du vieillard indien qu'on avoit fait
+                        brûler, la guerre injuste et meurtriere qu'on avoit livrée à ces peuples,
+                        l'avidité impatiente de ses compagnons à la vue de l'or. Enfin, l'exemple du
+                        passé ne lui fit voir dans l'avenir que le meurtre et que le ravage; et
+                        dès-lors il se repentit de s'être engagé si avant. Comme il étoit chéri des
+                        indiens, c'étoit lui que Pizarre chargeoit le plus souvent d'aller pourvoir
+                        aux besoins du navire. Un jour qu'il étoitdescendu, il fut accueilli par ce
+                        peuple avec une amitié si naïve et si tendre, qu'il ne put retenir ses
+                        pleurs. " dans quelques mois peut-être, disoit-il en lui-même, les fertiles
+                        bords de ce fleuve, ces champs couverts de moissons, ces vallons peuplés de
+                        troupeaux, seront tous ravagés; les mains qui les cultivent seront chargées
+                        de chaînes; et de ces indiens si doux et si paisibles, des milliers seront
+                        égorgés, et le reste, réduit au plus dur esclavage, périra misérablement
+                        dans les travaux des mines d'or. Peuple innocent et malheureux! Non, je ne
+                        puis t'abandonner; je me sens attaché à toi, comme par un charme invincible.
+                        Je ne trahis point ma patrie, en me déclarant l'ennemi des brigands qui la
+                        déshonorent, et en cherchant moi-même à lui gagner les coeurs. " telle fut
+                        sa résolution; et il écrivit à Pizarre: " j'aime les indiens; je reste parmi
+                        eux, parce qu'ils sont bons et justes. Adieu. Vous trouverez en moi un
+                        médiateur, un ami, si vous respectez avec eux les droits de la nature; un
+                        ennemi, si, par la force, le brigandage et la rapine, vous violez ces droits
+                        sacrés. " Pizarre, affligé de la perte d'Alonzo, le fit presser de revenir.
+                        On le trouva au milieu des sauvages, éclairant leur raison, et jouissant de
+                        leurs caresses. " racontez à Pizarre ce que vous avez vu, dit-il à ceux qui
+                        venoient le chercher, et que mon exemple lui apprenne, que le plus sûrmoyen
+                        de captiver ces peuples, c'est d'être juste et bienfaisant. " l'un des
+                        regrets de Pizarre, en quittant ces bords, fut d'y laisser ce vaillant jeune
+                        homme. Mais celui-ci n'avoit jamais été plus heureux que dans ce moment. Se
+                        voyant au milieu d'un peuple naturellement simple et doux, il jouissoit du
+                        calme des passions; il respiroit l'air pur de l'innocence; il prenoit
+                        plaisir à l'entendre célébrer les vertus des incas, enfants du soleil, et
+                        mettre au rang de leurs bienfaits l'heureuse révolution qui s'étoit faite
+                        dans ses moeurs, lorsque, par la raison, plus que par la force des armes,
+                        les incas l' avoient obligé de suivre leur culte et leurs loix. Alonzo, à
+                        son tour, leur donnoit une idée de nos moeurs et de nos usages, des progrès
+                        de nos connoissances, et des prodiges de nos arts. Ce merveilleux les
+                        étonnoit. Le cacique lui demanda ce qui l'avoit engagé à se séparer de ses
+                        amis, et à demeurer sur ces bords. " ceux avec qui je suis venu, lui
+                        répondit Alonzo, m'ont dit: allons faire du bien aux habitants du nouveau
+                        monde; aussi-tôt je les ai suivis. J'ai vu qu'ils ne pensoient qu'à vous
+                        faire du mal; et je les ai abandonnés. " il lui raconta le sujet de sa
+                        querelle avec Candie. L'indien en fut pénétré de reconnoissance pour lui. Il
+                        le regardoit avec une admiration douce et tendre; et il disoit tout bas: "
+                        il en est digne, il en est plus digne que moi. " l'heure du sommeil
+                        approchoit; le cacique prit congé d'Alonzo; mais, en s'en allant, il
+                        retournoit vers lui les yeux, et levoit les mains vers le ciel. Le lendemain
+                        il vient le trouver dès l'aurore. " éveille-toi, roi de Tumbès, lui dit-il,
+                        en lui présentant son diadême et ses armes, éveille-toi; reçois de ma main
+                        la couronne. J'y ai bien pensé: je te la dois. J'ai ton courage et ta bonté,
+                        mais je n'ai pas tes lumieres. Prends ma place, regne sur nous. Je serai ton
+                        premier sujet. L'inca l' approuvera lui-même. " Alonzo, confondu de voir
+                        dans un sauvage cet exemple inoui de modestie et de magnanimité, sentit ce
+                        que l'orgueil ignore, que la véritable grandeur et la simplicité se
+                        touchent, et qu'il est rare qu'un coeur droit ne soit pas un coeur élevé. Il
+                        rendit graces au cacique, et lui dit: " tu es juste et bon: tu dois être
+                        aimé de ton peuple. Laissons-lui son roi. D'autres soins doivent occuper ton
+                        ami. " bientôt après, il vit venir les plus heureuses meres, celles qui
+                        pouvoient s'applaudir d'avoir les filles les plus belles, et qui, les menant
+                        par la main, les lui présentoient à l'envi. " daigne agréer, lui
+                        disoient-elles, cette jeune et douce compagne. Elle excelle à filer la
+                        laine; elle en fait les plus beaux tissus. Elle est sensible; elle t'aimera.
+                        Tous les matins, à son réveil, elle soupire après un époux; et du moment
+                        qu'elle t'a vu, tu es l'époux que son coeur desire. Tous mes enfants ont été
+                        beaux; les siens le serontencore plus: car tu seras leur pere; et jamais nos
+                        campagnes n'ont rien vu de si beau que toi. " Molina se fût livré sans peine
+                        aux charmes de la beauté, de l'innocence et de l'amour. Mais, se donner une
+                        compagne, c'étoit lui-même s'engager; et ses desseins demandoient un coeur
+                        libre. Il avoit appris du cacique qu'au delà des montagnes, deux incas, deux
+                        fils du soleil, se partageoient un vaste empire; et dès-lors il avoit formé
+                        la résolution de se rendre à leur cour. " l'inca, roi de Cusco, lui disoit
+                        le cacique, est superbe, inflexible; il se fait redouter. Celui de Quito,
+                        bien plus doux, se fait adorer de ses peuples. Je suis du nombre des
+                        caciques que son pere a mis sous ses loix. " Alonzo, pour se rendre à la
+                        cour de Quito, demanda deux fideles guides. Le cacique auroit bien voulu le
+                        retenir encore. " quoi! Sitôt, tu veux nous quitter, lui disoit-il! Et dans
+                        quel lieu seras-tu plus aimé, plus révéré que parmi nous?-je vais pourvoir à
+                        ton salut, lui répondit Alonzo, et engager l'inca à prendre avec moi ta
+                        défense: car vos ennemis vont dans peu revenir sur ces bords. Mais ne
+                        t'allarme point. Je viendrai moi-même, à la tête des indiens, te secourir. "
+                        ce zele attendrit le cacique; et les larmes de l'amitié accompagnerent ses
+                        adieux. Lui-même il choisit les deux guides que son ami lui demandoit; et
+                        avec eux Alonzo, traversant les vallées, suivit la rive du Dolé, qui prend
+                        sa source vers le nord. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 20 </head>
+                    <p> Après une marche pénible, ils approchoient de l'équateur, et alloient passer
                         un torrent qui se jette dans l'émeraude, lorsqu'Alonzo vit ses deux guides
                         interdits et troublés, se parler l'un à l'autre avec des mouvements
                         d'effroi. Il leur en demande la cause. " regarde, lui dit l'un d'eux, au
@@ -3453,15 +3252,11 @@
                         assouvis; ils s'endorment. N'attends pas qu'ils s'éveillent et que la faim
                         les presse. Nous les connoissons. Fuis; tu serois dévoré. " cet avis
                         salutaire pressa le départ d'Alonzo. Il se mit en chemin avec son nouveau
-                        guide, non sans avoir baisé cent fois les mains qui l'avoient délivré.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 21
-     </head>
-     <p>
-      En arrivant au bord de l'émeraude, il fut surpris de voir à l'autre rive un
+                        guide, non sans avoir baisé cent fois les mains qui l'avoient délivré. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 21 </head>
+                    <p> En arrivant au bord de l'émeraude, il fut surpris de voir à l'autre rive un
                         peuple nombreux s'embarquer, avec ses femmes et ses enfants, sur une flotte
                         de canots. Il ordonne à son guide de passer à la nage, et de demander à ce
                         peuple s'il descend vers Atacamès, ou s'il remonte l'émeraude, et s'il veut
@@ -3578,14 +3373,11 @@
                         ses nouveaux sujets. Un hameau s'éleva pour eux dans une fertile vallée; et
                         Molina et le cacique, reçus, logés dans le palais des enfants du soleil,
                         partagerent la confiance et la faveur du monarque avec les héros mexicains.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 22
-     </head>
-     <p>
-      Pizarre, de retour sur l'isthme, n'y avoit trouvé que des coeurs glacés, et
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 22 </head>
+                    <p> Pizarre, de retour sur l'isthme, n'y avoit trouvé que des coeurs glacés, et
                         rebutés par ses malheurs. Il vit bien, que, pour imposer silence à l'envie,
                         et pour inspirer son courage à des esprits intimidés, sa voix seule seroit
                         trop foible; il prit la résolution de se rendre lui-même à la cour
@@ -3779,15 +3571,11 @@
                         mexicains; et les traits douloureux du repentir étoient empreints sur leur
                         visage. L'un d'eux, faisant un dernier effort, se traîne aux pieds de
                         Télasco, et d'une voix entrecoupée par les sanglots de l'agonie: "
-                        pardonne-moi, mon frere, lui dit-il; " et à ces mots il expira.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 23
-     </head>
-     <p>
-      Cependant le rivage approche. On voit des forêts verdoyantes s'élever au
+                        pardonne-moi, mon frere, lui dit-il; " et à ces mots il expira. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 23 </head>
+                    <p> Cependant le rivage approche. On voit des forêts verdoyantes s'élever au
                         dessus des eaux: c'étoient les isles, qui depuis sont devenues célebres sous
                         le nom de Mendoce. On aborde, et on voit sortir d'un canal qui sépare ces
                         isles fortunées, une multitude de barques qui environnent le vaisseau. Ces
@@ -3835,13 +3623,10 @@
                         tous les biens, la facilité d'en jouir, ne laissoit jamais au desir le temps
                         de s'irriter dans leurs ames. S'envier, se haïr entre eux, vouloir se nuire
                         l'un à l'autre, auroit passé pour un délire. Le méchant parmi eux étoit un
-                        insensé, et le coupable un furieux. De tous les maux dont se plaint l'humanité dépravée, le seul qui fût connu de ce peuple, étoit la douleur. La
-                        mort même n'en étoit pas un; ils l'appelloient
-      <hi rend="italic">
-       le long
-                            sommeil
-      </hi>
-      . L'égalité, l'aisance, l'impossibilité d'être envieux,
+                        insensé, et le coupable un furieux. De tous les maux dont se plaint
+                        l'humanité dépravée, le seul qui fût connu de ce peuple, étoit la douleur.
+                        La mort même n'en étoit pas un; ils l'appelloient <hi rend="italic"> le long
+                            sommeil </hi> . L'égalité, l'aisance, l'impossibilité d'être envieux,
                         jaloux, avare, de concevoir rien au-delà de sa félicité présente, devoient
                         rendre ce peuplefacile à gouverner. Les vieillards, réunis, formoient le
                         conseil de la république; et comme l'âge distinguoit seul les rangs entre
@@ -3895,15 +3680,11 @@
                         nous a montré l'art de creuser les canots, et de fendre l'onde à la rame.
                         Cet autre imagina de transplanter les arbres, et il forma ce beau portique,
                         dont le hameau est ombragé. Enfin tous se sont signalés par quelque bienfait
-                        rare; et nous honorons les images qui nous représentent leurs traits. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 24
-     </head>
-     <p>
-      des malheureux, à peine échappés aux dangers les plus effroyables, ayant
+                        rare; et nous honorons les images qui nous représentent leurs traits. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 24 </head>
+                    <p> des malheureux, à peine échappés aux dangers les plus effroyables, ayant
                         trouvé dans cette isle enchantée le repos, l'abondance, l'égalité, la paix,
                         devoient être peu disposés à la quitter, pour traverser les mers, où les
                         mêmes horreurs les attendoient peut-être encore. Un nouveau charme vint
@@ -4052,15 +3833,11 @@
                         les castillans, de leur côté, regrettoient cette isle charmante. Tous les
                         yeux y étoient attachés; tous les coeurs gémissoient de la voir s'éloigner.
                         Enfin elle échappe à leur vue; et les soucis d'un long et pénible voyage
-                        viennent se mêler aux regrets d'avoir quitté ce beau séjour.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 25
-     </head>
-     <p>
-      Bientôt l'inconstance des vents se fit sentir, et tint la flotte dans de
+                        viennent se mêler aux regrets d'avoir quitté ce beau séjour. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 25 </head>
+                    <p> Bientôt l'inconstance des vents se fit sentir, et tint la flotte dans de
                         continuelles allarmes; mais ils ne firent que décliner alternativement vers
                         l'un ou l'autre pôle; et l'art du pilote ne s'exerça qu'à diriger sa course
                         vers l'aurore, sans s'écarter de l' équateur. Le trajet fut long, mais
@@ -4098,11 +3875,8 @@
                         prolonge en colonne; et cettecolonne fluide, dont la base touche à la mer,
                         forme une pompe, où l'onde émue, cédant au poids de l'air qui la presse à
                         l'entour, monte jusqu'au nuage, et va lui servir d' aliment. Molina reconnut
-                        ce prodige, si redouté des matelots, qui lui ont donné le nom de
-      <hi rend="italic">
-       trombe
-      </hi>
-      ; et, à la vue du danger qui menaçoit les
+                        ce prodige, si redouté des matelots, qui lui ont donné le nom de <hi
+                            rend="italic"> trombe </hi> ; et, à la vue du danger qui menaçoit les
                         castillans, il oublia leurs crimes, les maux qu'ils avoient faits, les maux
                         qu'ils alloient faire encore; il se souvint seulement que leur patrie étoit
                         la sienne; et son coeur fut saisi de crainte et de compassion. Gomès eut
@@ -4191,17 +3965,13 @@
                         leur procuroit. Une profonde mélancolie s'est emparée de son ame. Puissant,
                         aimé, révéré de son peuple, il fait des heureux et il ne l'est point. La
                         fortune, envieuse de ses propres dons, a mêlé l'amertume des chagrins
-                        domestiques aux douceurs apparentes de la prospérité.
-     </p>
-    </div>
-   </div>
-   <div type="group">
-    <div type="chapter">
-     <head>
-      CHAPITRE 26
-     </head>
-     <p>
-      La confiance d'Ataliba autorisoit Alonzo à chercher dans son ame le secret
+                        domestiques aux douceurs apparentes de la prospérité. </p>
+                </div>
+            </div>
+            <div type="group">
+                <div type="chapter">
+                    <head> CHAPITRE 26 </head>
+                    <p> La confiance d'Ataliba autorisoit Alonzo à chercher dans son ame le secret
                         de cette tristesse, dont il le voyoit consumé. " inca, lui dit-il,
                         j'appréhende que le danger qui te menace, et dont j'ai voulu t'avertir, ne
                         t'ait frappé trop vivement. " " tu me soulages, lui dit l'inca, en
@@ -4337,15 +4107,11 @@
                         élevé, affermi par lui-même; il faut m'en arracher sanglant. " Alonzo sentit
                         l'importance et les difficultés d'une telle entremise; mais il voulut bien
                         s'en charger; et tout fut préparé dans peu, pour donner à son ambassade une
-                        splendeur qui répondît à la majesté des deux rois.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 27
-     </head>
-     <p>
-      Avant le départ d'Alonzo, l'inca, pour entreprendre l'ouvrage de la paix
+                        splendeur qui répondît à la majesté des deux rois. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 27 </head>
+                    <p> Avant le départ d'Alonzo, l'inca, pour entreprendre l'ouvrage de la paix
                         sous de favorables auspices, fit un sacrifice au soleil. Les mexicains y
                         assisterent; et Alonzo lui-même, sans y participer, crut pouvoir en être
                         témoin. Les vierges du soleil, admises dans son temple, servoient le pontife
@@ -4403,11 +4169,8 @@
                         mon ame: éperdue, insensée, je ne commande plus à ma raison ni à mes sens. "
                         à ces mots, prosternée, et n'osant plus voir la lumiere du Dieu qu'elle
                         croyoit trahir, elle se couvroit le visage de son voile, arrosé de larmes.
-                        Mais bientôt l'image d'Alonzo, et cette pensée accablante:
-      <hi rend="italic">
-       je ne le verrai plus,
-      </hi>
-      venant s'offrir encore, faisoient éclater
+                        Mais bientôt l'image d'Alonzo, et cette pensée accablante: <hi rend="italic"
+                            > je ne le verrai plus, </hi> venant s'offrir encore, faisoient éclater
                         sa douleur. " ô mon pere! Qu'avez-vous fait? Que vous avois-je fait
                         moi-même? Pourquoi me séparer de vous? Pourquoi m'ensevelir vivante? Hélas!
                         J'avois pour vous une vénération si tendre! Je vous aurois servi avec tant
@@ -4458,15 +4221,11 @@
                         à la cour de l'inca! Je m'annonce comme un héros; je finis par être un
                         perfide, un foible et lâche ravisseur. " ainsi sa vertu combattoit; elle
                         auroit triomphé sans doute. Mais un événement terrible la fit céder aux
-                        mouvements de la crainte et de la pitié.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 28
-     </head>
-     <p>
-      Heureux les peuples qui cultivent les vallées et les collines que la mer
+                        mouvements de la crainte et de la pitié. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 28 </head>
+                    <p> Heureux les peuples qui cultivent les vallées et les collines que la mer
                         forma dans son sein, des sables que roulent ses flots, et des dépouilles de
                         la terre! Le pasteur y conduit ses troupeaux sans allarmes; le laboureur y
                         seme et y moissonne en paix. Mais malheur aux peuples voisins de ces
@@ -4580,11 +4339,7 @@
                         de sa faveur. Nous voilà seuls, libres, cachés, et n'ayant pour témoin que
                         la nuit, qui jamais n'a trahi les tendres amants. Mais ces instants si
                         précieux s'écoulent; n'en perdons plus aucun; et, si je te suis cher,
-                        dis-moi:
-      <hi rend="italic">
-       sois heureux
-      </hi>
-      .-sois heureux, dit-elle; "
+                        dis-moi: <hi rend="italic"> sois heureux </hi> .-sois heureux, dit-elle; "
                         et dès ce moment un nuage se répandit sur l'avenir. à leurs yeux tout s'est
                         embelli. La sérénité de la nuit, la solitude, le silence ont pour eux un
                         charme nouveau. " ah! Le délicieux séjour! Disoit Cora. Pourquoi chercher un
@@ -4664,15 +4419,11 @@
                         moments de sa vie, et déteste l'amour qui l'a rendu heureux. Cependant il
                         fallut partir. Mais, en s'éloignant de Quito, il sentit son ame, attirée par
                         une force irrésistible, se détacher de lui, s'élancer vers les murs où son
-                        amante gémissoit.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 29
-     </head>
-     <p>
-      Une route immense, applanie d'une extrêmité de l'empire à l'autre, à travers
+                        amante gémissoit. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 29 </head>
+                    <p> Une route immense, applanie d'une extrêmité de l'empire à l'autre, à travers
                         les hautes montagnes, les abymes et les torrents, monument prodigieux de la
                         grandeur des incas; et sur cette route les arcenaux distribués par
                         intervalles, les hospices sans cesse ouverts aux voyageurs, les forteresses
@@ -4796,15 +4547,11 @@
                         d'apparence qu'Ataliba subît cette condition, Alonzo ne crut pas devoirla
                         rejetter sans l'en instruire; et, en attendant sa réponse, il eut le temps
                         de voir tout ce qui décoroit, et au dedans et au dehors, cette florissante
-                        cité.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 30
-     </head>
-     <p>
-      Le temple du soleil, le palais du monarque, ceux des incas, celui des
+                        cité. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 30 </head>
+                    <p> Le temple du soleil, le palais du monarque, ceux des incas, celui des
                         vierges, la forteresse à triple enceinte qui dominoit la ville et qui la
                         protégeoit; les canaux, qui, du haut des montagnes voisines, y répandoient
                         en abondance les eaux vives et salutaires; l'étendue et la magnificence des
@@ -4947,15 +4694,11 @@
                         l'espérance, qui l'encourage, et le soutient dans ses malheurs. Tout cequi
                         peut n'être qu'un jeu, qu'un accident de la nature, ne se doit jamais
                         expliquer comme un signe prodigieux, à moins qu'il ne soit à propos d'en
-                        intimider le vulgaire. Ce n'est pas ici le moment. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 31
-     </head>
-     <p>
-      Huascar, loin de laisser paroître le trouble élevé dans son ame, se montra,
+                        intimider le vulgaire. Ce n'est pas ici le moment. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 31 </head>
+                    <p> Huascar, loin de laisser paroître le trouble élevé dans son ame, se montra,
                         aux yeux d'Alonzo, plus ferme et plus résolu que jamais. Il le mena le
                         lendemain dans ces jardins éblouissants, où l'on voyoit imités en or, et
                         avec assez d'industrie, les plantes, les fleurs, et les fruits qui naissent
@@ -5061,15 +4804,11 @@
                         malheureux peuple, et ta postérité, vous aurez péri dans ces mines, épuisées
                         par vos travaux, sans avoir enrichi l'Europe. Hélas! Peut-être même en
                         aurez-vous accru la misere avec les besoins, et les malheurs avec les
-                        crimes. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 32
-     </head>
-     <p>
-      Alonzo, de retour à la ville du Soleil, y reçut la réponse d'Ataliba; elle
+                        crimes. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 32 </head>
+                    <p> Alonzo, de retour à la ville du Soleil, y reçut la réponse d'Ataliba; elle
                         étoit conçue en ces mots: " si le roi de Cusco a oublié la volonté de son
                         pere, celui de Quito s'en souvient. Il desire d'être l'ami et l'allié de son
                         frere; mais il ne sera jamais au nombre de ses vassaux. " le jeune
@@ -5078,11 +4817,7 @@
                         où étoient les tombeaux des rois: " explique-moi, lui dit-il, inca, par quel
                         privilege ton pere est le seul, entre tous ces rois, qui regarde en face
                         l'image du soleil?-c' est comme son enfant chéri, lui répondit l'inca, qu'il
-                        a seul cette gloire.-
-      <hi rend="italic">
-       son enfant chéri!
-      </hi>
-      n'est-ce
+                        a seul cette gloire.- <hi rend="italic"> son enfant chéri! </hi> n'est-ce
                         pas la complaisance et le mensonge qui l'ont décoré de ce titre?-tout son
                         peuple le lui a donné, et tout un peuple n'est point flatteur.-crois-moi,
                         fais cesser, dit Alonzo, cette injuste distinction: tu sais bien qu'il n'en
@@ -5167,21 +4902,18 @@
                         regret désavoue et condamne. " l'inca voulut insister sur les maux
                         qu'entraînoit la guerre civile. " non, non, dit-elle; allez souscrire à
                         cette paix déshonorante que l'usurpateur vous impose; et s'il le faut, pour
-                        le fléchir, mettez votre sceptre à ses pieds. ô malheureux enfant! S'écria-t-elle enfin, en embrassant le jeune prince, que je te plains! Et qui
-                        m'eût dit qu'un jour tu aurois à rougir de ton pere? " à ces mots elle
+                        le fléchir, mettez votre sceptre à ses pieds. ô malheureux enfant!
+                        S'écria-t-elle enfin, en embrassant le jeune prince, que je te plains! Et
+                        qui m'eût dit qu'un jour tu aurois à rougir de ton pere? " à ces mots elle
                         s'éloigna. L'inca, mortellement blessé de ces reproches, sortit, et fit dire
                         à l'instant à l'ambassadeur de Quito, que la guerre étoit déclarée, et qu'il
                         se hâtât de partir. Alonzo lui fit demander qu'il voulût bien le voir
                         encore; mais ses instances furent vaines; et le soir même il fut remené
-                        au-delà de l'Abancaï.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 33
-     </head>
-     <p>
-      Ataliba fut consterné, quand il apprit le mauvais succès de l'entremise
+                        au-delà de l'Abancaï. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 33 </head>
+                    <p> Ataliba fut consterné, quand il apprit le mauvais succès de l'entremise
                         d'Alonzo. Il s'enferme seul avec lui; et après l'avoir entendu: " roi
                         superbe, s'écria-t-il, rien ne peut donc te fléchir; tu veux ou ma honte, ou
                         ma perte! Le ciel est plus juste que toi, et il punira ton orgueil. " à ces
@@ -5307,15 +5039,11 @@
                         le vaillant Orozimbo, les sauvages, les mexicains applaudirent tous avec
                         joie, résolus de verser leur sang pour la défense de l'inca. Ayant donc
                         laissé avec eux trois mille hommes d'élite dans les murs de Cannare, il fit
-                        avancer son armée vers les champs de Tumibamba.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 34
-     </head>
-     <p>
-      Cependant le roi de Cusco se hâtoit d'assembler ses troupes; et tous les
+                        avancer son armée vers les champs de Tumibamba. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 34 </head>
+                    <p> Cependant le roi de Cusco se hâtoit d'assembler ses troupes; et tous les
                         peuples d'alentour quittoient leurs champs, voloient aux armes, et se
                         rendoient auprès de lui. Des bords de ce lac célebre où Manco descendit, les
                         peuples d'Assilo, d'Avancani, d'Uma, d'Urco, de Cayavir, de Mullama,
@@ -5432,7 +5160,8 @@
                         où son ame étoit abymée, il entend un bruit souterrein. Il écoute; ce bruit
                         approche. Il sent frémir la terre sous ses pas. Il recule; il la voit
                         s'écrouler. à l'instant s'éleve, comme d'un tombeau, un homme, qui, sans lui
-                        parler, lui fait le geste du silence, et l'ayant saisi par la main, l'entraîne dans l'abyme qui vient de s'ouvrir devant lui. Ataliba, sans
+                        parler, lui fait le geste du silence, et l'ayant saisi par la main,
+                        l'entraîne dans l'abyme qui vient de s'ouvrir devant lui. Ataliba, sans
                         résistance, se livre à son guide; il le suit, et, à l'issue de la caverne,
                         il se voit entouré de soldats qui lui disent: " venez, prince; vous êtes
                         libre. Venez; vos peuples vous attendent. Rendez-leur la vie et l'espoir.-je
@@ -5472,15 +5201,11 @@
                         modestie, et fiere avec douceur, étoit l'image de la vertu dans l'ingénue
                         adolescence, le roi laissa échapper quelques larmes; et fixant sur Palmore
                         et sur les caciques un regard qui leur exprimoit toute l'émotion de son
-                        coeur paternel, il leur remit son fils, et détourna les yeux.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 35
-     </head>
-     <p>
-      Tandis qu'Ataliba, pour retourner à Cannare, traversoit les champs de Loxa,
+                        coeur paternel, il leur remit son fils, et détourna les yeux. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 35 </head>
+                    <p> Tandis qu'Ataliba, pour retourner à Cannare, traversoit les champs de Loxa,
                         la révolte des cannarins venoit d'éclater. Tout un peuple environnoit la
                         citadelle, et menaçoit de couper les canaux des fontaines qui l'abreuvoient.
                         L'extrêmité étoit pressante. Pour forcer ce peuple aguerri à lever le siege,
@@ -5668,15 +5393,11 @@
                         peine la fiere Ocello, la belle et touchante Idali, avec cet enfant précieux
                         que sa naissance avoit destiné à l'empire, eurent le temps de s'échapper; et
                         les généraux d'Ataliba, après des efforts inouis pour faire cesser le
-                        ravage, rallierent enfin leurs troupes sur le bord de l'Apurimac.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 36
-     </head>
-     <p>
-      C'est là que frémissoit Huascar, sous une garde inexorable. Palmore et
+                        ravage, rallierent enfin leurs troupes sur le bord de l'Apurimac. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 36 </head>
+                    <p> C'est là que frémissoit Huascar, sous une garde inexorable. Palmore et
                         Corambé, en entrant dans sa tente, se prosternent, selon l'usage, et, par
                         des paroles de paix, tâchent de l'adoucir. Il souleve à peine sa tête; et
                         d'un oeil indigné regardant ses vainqueurs: " traîtres, dit-il, rompez mes
@@ -5814,15 +5535,11 @@
                         ces murs, captif, il est vrai, mais n'ayant qu'à vouloir, pour cesser de
                         l'être. Le jour même que, sur l'autel du soleil notre pere, tu consentiras,
                         avec moi, à nous jurer une alliance et une paix inviolable, ton trône, ton
-                        empire, tout te sera rendu. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 37
-     </head>
-     <p>
-      la citadelle de Cannare fut la prison du roi captif. Le vainqueur y laissa
+                        empire, tout te sera rendu. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 37 </head>
+                    <p> la citadelle de Cannare fut la prison du roi captif. Le vainqueur y laissa
                         une garde fidelle sous le sévere Corambé. Il envoya Palmore gouverner en son
                         nom les états de Cusco; et lui, rendant, sur son passage, aux vallons de
                         Riobamba, de Muliambo, d'Iliniça, les laboureurs qu' il en avoit tirés, il
@@ -5840,10 +5557,11 @@
                         le ciel, tout annonce une mere, et une mere au désespoir.Du plus loin que
                         l'inca la voit, il descend de son siege, il va au-devant d'elle, et la
                         recevant dans ses bras: " ma bien aimée, lui dit-il, le soleil notre pere a
-                        rappellé ton fils: il dispose de ses enfants. Heureux celui que l'innocence, la vertu, la gloire, l'amour accompagnent jusqu'au tombeau! Il a
-                        fait la moisson; il quitte le champ de la vie. Ton fils a peu vécu pour
-                        nous, mais assez pour lui-même: il emporte avec lui ce que les ans donnent à
-                        peine, et ce qu'un instant peut ravir, les regrets et l' amour du monde.
+                        rappellé ton fils: il dispose de ses enfants. Heureux celui que l'innocence,
+                        la vertu, la gloire, l'amour accompagnent jusqu'au tombeau! Il a fait la
+                        moisson; il quitte le champ de la vie. Ton fils a peu vécu pour nous, mais
+                        assez pour lui-même: il emporte avec lui ce que les ans donnent à peine, et
+                        ce qu'un instant peut ravir, les regrets et l' amour du monde.
                         Affligeons-nous de lui survivre: l'homme à plaindre est celui qui pleure, et
                         non pas celui qui est pleuré. Mais, par un excès de douleur, n'accusons pas
                         la destinée; ne reprochons pas au soleil d'avoir repris un de ses dons. "
@@ -5896,15 +5614,11 @@
                         suspendue jusqu'au jour qu'il avoit marqué pour les funérailles de son fils.
                         C'étoit la fête du soleil, lorsque, repassant l'équateur, il rentre dans
                         notre hémisphere, et revient donner le printemps et l'été aux climats du
-                        nord. C'étoit aussi la fête de la paternité.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 38
-     </head>
-     <p>
-      Après les cantiques, les voeux et les offrandes accoutumées, le monarque,
+                        nord. C'étoit aussi la fête de la paternité. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 38 </head>
+                    <p> Après les cantiques, les voeux et les offrandes accoutumées, le monarque,
                         assis sur son trône, au milieu d'un parvis immense, ayant à ses pieds les
                         caciques, et les vieillards juges des moeurs, voit s'avancer les peres de
                         famille, qui menent, chacun devant soi, leurs enfants parvenus à l'âge de
@@ -6047,15 +5761,11 @@
                         tendre? ... " à ces mots, on vient dire au roi que le grand-prêtre du soleil
                         demande à lui parler. Alonzo se retire, et va, s'il est possible, chercher,
                         dans le sommeil, un soulagement à ses peines, et aux pressentiments
-                        terribles dont il venoit d'être frappé.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 39
-     </head>
-     <p>
-      Pour une ame abandonnée à l'orage des passions, l'incertitude est le plus
+                        terribles dont il venoit d'être frappé. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 39 </head>
+                    <p> Pour une ame abandonnée à l'orage des passions, l'incertitude est le plus
                         grand des maux. Battu sans cesse par les vagues de l'espérance et de la
                         crainte, le courage n'a point de prise; la résolution même d'être malheureux
                         n'a point de terme où se fixer. Telle fut, pour l'ame d'Alonzo, cette longue
@@ -6137,15 +5847,11 @@
                         plus doux, le plus humain de l'univers, crioit vengeance au nom d'un dieu
                         dont il adoroit la clémence. Il ne se rassura que lorsqu'il eut appris que
                         le pontife avoit dénoncé la criminelle au tribunal suprême; que déja l'on
-                        creusoit la tombe, et que l'on dressoit le bûcher.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 40
-     </head>
-     <p>
-      Ce jour-là le soleil se couvrit de tristes nuages; et ce deuil sombre de la
+                        creusoit la tombe, et que l'on dressoit le bûcher. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 40 </head>
+                    <p> Ce jour-là le soleil se couvrit de tristes nuages; et ce deuil sombre de la
                         nature ajoutoit encore à l'effroi dont tous les coeurs étoient frappés. Le
                         roi parut, selon l'usage, sous le portique du palais. Une multitude
                         tremblante environnoit le trône; et à travers les flots de ce peuple
@@ -6324,15 +6030,11 @@
                         celui de ma patrie, quel est le plus digne du dieu que l'univers doit
                         adorer. J'espere que bientôt nous n'aurons plus qu'un même autel; et ce sera
                         au pied de cet autel, sous les yeux de l'être suprême, que la religion
-                        sanctifiera les voeux de la nature et de l'amour. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 41
-     </head>
-     <p>
-      la superstition, qui par toute la terre va traînant ses chaînes sacrées,
+                        sanctifiera les voeux de la nature et de l'amour. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 41 </head>
+                    <p> la superstition, qui par toute la terre va traînant ses chaînes sacrées,
                         dont elle charge les nations, frémit de rage, en voyant abolir la seule loi
                         qu'elle eût dictée aux adorateurs du soleil. Mais pour s'en consoler, elle
                         jetta les yeux sur l'Europe, où elle dominoit; sur l' Espagne, où elle avoit
@@ -6464,8 +6166,9 @@
                         qu'un tourbillon de feu l'enveloppoit vivant, et que ses cris déchiroient
                         tous les coeurs; un maure, à peu près du même âge, mais plus ferme et plus
                         courageux, fut condamné comme blasphémateur, pour avoir murmuré contre le
-                        fanatisme et son tribunal odieux. On lui prononça sa sentence, en l'exhortant à déclarer, devant Dieu et devant les hommes, qui pouvoit l'avoir
-                        soulevé contre les vengeurs de la foi. " peuple, s'écria-t-il avec
+                        fanatisme et son tribunal odieux. On lui prononça sa sentence, en
+                        l'exhortant à déclarer, devant Dieu et devant les hommes, qui pouvoit
+                        l'avoir soulevé contre les vengeurs de la foi. " peuple, s'écria-t-il avec
                         indignation, savez-vous qui l'on veut que j'accuse? Mon pere. On me l'a
                         nommé dans les fers, ce complice dont on s'efforce de me rendre le délateur.
                         C'est lui qu'on veut que je traîne au supplice. On m'a promis d'user envers
@@ -6511,15 +6214,11 @@
                         l'Inde les dieux qu'adorent les sauvages, et qu'ils abreuvent de leur sang?
                         " il vit la foule s'écouler, pensive et consternée; il imita le peuple; et
                         de retour chez lui, il y trouva l'un de ses freres, Gonzale, qui venoit
-                        d'arriver à Séville, impatient de le revoir.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 42
-     </head>
-     <p>
-      Après les premiers monuments de la tendresse et de la joie, Pizarre, ayant
+                        d'arriver à Séville, impatient de le revoir. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 42 </head>
+                    <p> Après les premiers monuments de la tendresse et de la joie, Pizarre, ayant
                         bien observé qu'aucun témoin ne pût entendre leur entretien, ni le troubler,
                         commença par faire à Gonzale le récit de ses aventures. Il lui expose
                         ensuite l'objet de son voyage; et finit par lui demander quelle étrange
@@ -6546,11 +6245,8 @@
                         affranchi de toutes les loix protectrices de l' innocence, et consacré par
                         un pontife qui lui confioit tous ses droits, ce tyran des esprits les
                         remplit d'une sainte horreur. C'est ici, dans Séville même, que fut célébré
-                        le premier de ces sacrifices barbares, que l'on appelle
-      <hi rend="italic">
-       actes de foi
-      </hi>
-      . Ce jour exécrable coûta vingt mille sujets à
+                        le premier de ces sacrifices barbares, que l'on appelle <hi rend="italic">
+                            actes de foi </hi> . Ce jour exécrable coûta vingt mille sujets à
                         l'Espagne: ils s'enfuirent épouvantés; et l'Afrique fut leur refuge. Dans la
                         Castille et dans Léon de nouveaux bûchers s'allumerent; et on y jetta dans
                         les flammes des milliers de malheureux. Le même fléau s'étendit dans
@@ -6597,7 +6293,8 @@
                         rentré dans ses droits; la régence de Ximenès l'a tiré de l'oppression: il
                         est armé, discipliné, ligué pour sa propre défense; la force est du côté des
                         loix; et le peuple, qu'elles protegent, les protege à son tour contre les
-                        attentats des grands, leurs ennemis communs. Ainsi le faste de la cour, n'ayant plus au-dedans les ressources du brigandage, a rendu les grands plus
+                        attentats des grands, leurs ennemis communs. Ainsi le faste de la cour,
+                        n'ayant plus au-dedans les ressources du brigandage, a rendu les grands plus
                         avides des richesses du dehors; et l'espérance de partager les dépouilles du
                         nouveau monde, en fait de zélés partisans au premier qui promet d'en payer
                         le tribut à leur orgueilleuse avarice. Tout est vénal sous ce nouveau regne;
@@ -6670,14 +6367,15 @@
                         l'avarice elle-même s'empresser, à l'appât du gain, de lui équiper une
                         flotte, et risquer, en tremblant, les frais d'une entreprise dont elle
                         attendoit des trésors. Pizarre, sans croire en imposer à ceux qui se fioient
-                        à lui, leur prodigua les espérances, se ménagea l'appui des grands, s'attira la faveur du peuple, fit un choix de bons matelots et de soldats
-                        déterminés, et, parmi les plus braves, prit vingt hommes d'élite pour
-                        commander sous lui. Ses freres furent de ce nombre. Le jeune Gonsalve Davila
-                        ne fut point oublié: Charles daigna recommander à Pizarre de l' emmener avec
-                        lui, en passant à l'isle espagnole. Ainsi, tout secondant ses voeux,
-                        Pizarre, dans le même temple et sur le même autel où Magellan avoit fait le
-                        serment d'obéissance et de fidélité à la couronne de Castille, Pizarre, dans
-                        les mains de Charles, prononça le même serment. " guerrier, lui dit le jeune
+                        à lui, leur prodigua les espérances, se ménagea l'appui des grands, s'attira
+                        la faveur du peuple, fit un choix de bons matelots et de soldats déterminés,
+                        et, parmi les plus braves, prit vingt hommes d'élite pour commander sous
+                        lui. Ses freres furent de ce nombre. Le jeune Gonsalve Davila ne fut point
+                        oublié: Charles daigna recommander à Pizarre de l' emmener avec lui, en
+                        passant à l'isle espagnole. Ainsi, tout secondant ses voeux, Pizarre, dans
+                        le même temple et sur le même autel où Magellan avoit fait le serment
+                        d'obéissance et de fidélité à la couronne de Castille, Pizarre, dans les
+                        mains de Charles, prononça le même serment. " guerrier, lui dit le jeune
                         prince, ici l'on confond tous les droits; chacun, selon ses intérêts ou ses
                         opinions, fait pencher la balance entre les indiens et nous. Fatigué de tous
                         ces débats, je te recommande deux choses:" l'une, de faire à ton pays tout
@@ -6690,15 +6388,11 @@
                         que lui et les vents. Il arrive; les vents l'invitent à partir; il
                         s'embarque, il fait lever l'ancre, et part aux acclamations de tout un
                         peuple, qui l'exhorte à revenir, chargé des richesses de l'Amérique, déposer
-                        les dépouilles des temples du soleil au pied des autels du vrai dieu.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 43
-     </head>
-     <p>
-      En abordant à l'isle espagnole, Pizarre apprit que Las-Casas, attaqué d'une
+                        les dépouilles des temples du soleil au pied des autels du vrai dieu. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 43 </head>
+                    <p> En abordant à l'isle espagnole, Pizarre apprit que Las-Casas, attaqué d'une
                         maladie que l'on croyoit mortelle, languissoit au bord du tombeau. Il l'alla
                         voir. Gonzalve Davila étoit auprès de lui, et le servoit avec ce zele tendre
                         qu'un fils auroit eu pour son pere. Le solitaire, en revoyant Pizarre, se
@@ -6863,15 +6557,11 @@
                         encore demain: j'écrirai à mon cher Alonzo; je vous chargerai de ma lettre;
                         et si Pizarre peut savoir où ce bon jeune homme respire, il la lui fera
                         parvenir. " en écrivant cette lettre fatale, qui lui eût dit qu'il alloit
-                        signer la ruine des indiens!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 44
-     </head>
-     <p>
-      Impatient de se rendre sur l'isthme, Pizarre, au premier souffle d'un vent
+                        signer la ruine des indiens! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 44 </head>
+                    <p> Impatient de se rendre sur l'isthme, Pizarre, au premier souffle d'un vent
                         favorable, mit à la voile, et partit de l'isle espagnole. Son arrivée à
                         Panama rendit l'espérance et la joie à ses amis. On s'empressa de lui armer
                         une flotte; et dès qu'elle fut équipée, il s'embarqua, avec la résolution
@@ -6883,72 +6573,73 @@
                         manglier font un tissu impénétrable; des torrents, des fleuves rapides, un
                         air embrasé, les horreurs d'une solitude profonde, tout ce que la nature a
                         de plus effrayant s'oppose à son passage, et ne peut arrêter ses pas. Il
-                        marche sous un ciel de feu, il foule une terre brûlante. Ses compagnons, qu'il encourage au nom de la gloire et de l'or, s'enfoncent avec lui dans ces
-                        bois, où jamais les serpents venimeux, dont ils étoient jonchés, n' avoient
-                        vu les traces de l'homme. Il s'élance dans les torrents; il enseigne à ses
-                        compagnons à les traverserà la nage; et ceux que le danger rebute, ou que
-                        les forces abandonnent, il les anime, il les soutient, il les dispute aux
-                        flots qui les entraînent; et luttant d'une main, les soulevant de l'autre,
-                        il les amene au bord. Intrépide et infatigable, il s'avance, il découvre
-                        enfin des champs cultivés, des cabanes, des hameaux peuplés d'indiens; et la
-                        terreur qu'il y répand fait bientôt passer à Quito la nouvelle de son
-                        retour. Mais le cruel état des choses, dans le royaume des incas, n'avoit
-                        pas permis de veiller à la défense des vallées. Huascar étoit captif dans
-                        les murs de Cannare; mais l'un de ses freres, Mango, refugié dans les
-                        détroits des montagnes de l'orient, avec les restes de sa famille et les
-                        débris de son armée, méditoit le hardi dessein de rentrer dans Cusco et d'en
-                        chasser Palmore. Il voyoit même tous les jours son camp se grossir de
-                        nouveaux transfuges, qu' effrayoit la domination de l'usurpateur de l'empire
-                        et de l'oppresseur de leur roi. Tels, lorsqu'un vaste incendie se répand
-                        dans une forêt, les animaux qui l'habitoient, chassés de leur retraite par
-                        la rapidité des flammes, que pousse un vent impétueux, se retirent, en
-                        mugissant, sur des rochers inaccessibles, et de-là, fixant un oeil morne sur
-                        la forêt que le feu dévore, ils semblent murmurer entre eux leur épouvante
-                        et leur douleur. Bientôt l'intrépide Mango descend, à la têtedes siens, des
-                        montagnes de l'orient. La renommée, qui le précede, a semé le bruit de sa
-                        marche. Le courage, dans tous les coeurs, se ranime avec l'espérance; dans
-                        Cusco le peuple commence à s'émouvoir; et le bruit sourd et menaçant de la
-                        révolte s'y fait entendre. Au signal d'un soulévement et à l'approche d'une
-                        armée, Palmore abandonne la ville. Il fait pourvoir abondamment la citadelle
-                        qui la domine, et s'y enferme avec les siens. Mango trouve la ville ouverte;
-                        il y entre comme en triomphe; et fier d'une nombreuse armée, qu'il fait
-                        camper autour des murs, il envoie à la citadelle sommer Palmore de se
-                        rendre. Celui-ci répond que la paix ou la mort le désarmera. On le presse,
-                        on lui fait entendre que tout l'empire est soulevé, qu'Ataliba est perdu
-                        sans ressource, et que lui-même il n'a d'espoir qu'en la clémence de Mango.
-                        " je ne sais point ce qui se passe hors des remparts que je défends, répond
-                        ce généreux guerrier. Ataliba est homme; il peut éprouver des revers. Mais,
-                        puisqu'il lui reste avec moi deux mille sujets fideles, il n'a pas tout
-                        perdu. S'il n'étoit plus lui-même, peut-être alors prendrois-je conseil de
-                        la nécessité; mais tant qu'il est vivant, je ne dépends que de lui seul; et
-                        je laisse Mango exercer sa clémence sur des malheureux, s'il en est d'assez
-                        lâches pour l'implorer. " cependant, comme il s'apperçut que quelques-unsdes
-                        siens étoient troublés de ces menaces: " quand il seroit vrai, leur dit-il,
-                        qu'Ataliba fût malheureux, lui en serions-nous moins fideles?
-                        Ressemblerions-nous aux oiseaux, qui s'envolent d'un arbre, dès qu'il est
-                        ébranlé par quelque tourbillon rapide? L'arbre est courbé; il se relevera:
-                        laissons passer l'orage. " alors, choisissant parmi eux un messager
-                        intelligent et sûr: " cherche Ataliba, lui dit-il, apprends-lui que la
-                        forteresse de Cusco est à nous encore; que c'est moi qui la garde; et que
-                        j'ai avec moi deux mille hommes déterminés à verser pour lui tout leur sang.
-                        Voilà, dit-il, en se tournant vers ses soldats qui l'écoutoient, voilà comme
-                        il faut que l'on parle à ses amis dans le malheur; et le meilleur ami d'un
-                        bon peuple, c'est un bon roi. " sur les premiers avis qu'on avoit reçus du
-                        soulévement de Cusco, le roi de Quito s'avançoit au secours de Palmore; et
-                        Alonzo avoit voulu le suivre, malgré les larmes de Cora. Ils avoient passé
-                        les plaines de Loxa, vu les sources de l'Amazone, et du haut des monts qui
-                        dominent le fleuve Abancaï, ils découvroient les campagnes que ce beau
-                        fleuve arrose, quand le messager de Palmore vint au devant d'Ataliba,
-                        l'avertit que Mango venoit à lui; que Palmore, avec deux mille hommes,
-                        gardoit encore la citadelle; et que le chef et les soldats lui étoient
-                        dévoués. Molina l'entendit, et dans le moment même ilprit sa résolution. "
-                        laisse-moi, dit-il à l'inca, te choisir, non loin de ce fleuve, un camp
-                        facile à retrancher, où ton armée se repose; et profitons de l' avantage que
-                        le sort nous a ménagé. " il fit donc avancer l'armée sur le côteau qui
-                        dominoit la plaine, lui traça lui-même son camp; et vers la nuit, il appella
-                        le messager de Palmore, l'instruisit, et le renvoya. Mango passe l'Abancaï,
-                        s'avance, et voyant l'ennemi retranché dans son camp, l'insulte, et
-                        l'appelle au combat. Ataliba, vivement offensé, s'indignoit de ne pas
+                        marche sous un ciel de feu, il foule une terre brûlante. Ses compagnons,
+                        qu'il encourage au nom de la gloire et de l'or, s'enfoncent avec lui dans
+                        ces bois, où jamais les serpents venimeux, dont ils étoient jonchés, n'
+                        avoient vu les traces de l'homme. Il s'élance dans les torrents; il enseigne
+                        à ses compagnons à les traverserà la nage; et ceux que le danger rebute, ou
+                        que les forces abandonnent, il les anime, il les soutient, il les dispute
+                        aux flots qui les entraînent; et luttant d'une main, les soulevant de
+                        l'autre, il les amene au bord. Intrépide et infatigable, il s'avance, il
+                        découvre enfin des champs cultivés, des cabanes, des hameaux peuplés
+                        d'indiens; et la terreur qu'il y répand fait bientôt passer à Quito la
+                        nouvelle de son retour. Mais le cruel état des choses, dans le royaume des
+                        incas, n'avoit pas permis de veiller à la défense des vallées. Huascar étoit
+                        captif dans les murs de Cannare; mais l'un de ses freres, Mango, refugié
+                        dans les détroits des montagnes de l'orient, avec les restes de sa famille
+                        et les débris de son armée, méditoit le hardi dessein de rentrer dans Cusco
+                        et d'en chasser Palmore. Il voyoit même tous les jours son camp se grossir
+                        de nouveaux transfuges, qu' effrayoit la domination de l'usurpateur de
+                        l'empire et de l'oppresseur de leur roi. Tels, lorsqu'un vaste incendie se
+                        répand dans une forêt, les animaux qui l'habitoient, chassés de leur
+                        retraite par la rapidité des flammes, que pousse un vent impétueux, se
+                        retirent, en mugissant, sur des rochers inaccessibles, et de-là, fixant un
+                        oeil morne sur la forêt que le feu dévore, ils semblent murmurer entre eux
+                        leur épouvante et leur douleur. Bientôt l'intrépide Mango descend, à la
+                        têtedes siens, des montagnes de l'orient. La renommée, qui le précede, a
+                        semé le bruit de sa marche. Le courage, dans tous les coeurs, se ranime avec
+                        l'espérance; dans Cusco le peuple commence à s'émouvoir; et le bruit sourd
+                        et menaçant de la révolte s'y fait entendre. Au signal d'un soulévement et à
+                        l'approche d'une armée, Palmore abandonne la ville. Il fait pourvoir
+                        abondamment la citadelle qui la domine, et s'y enferme avec les siens. Mango
+                        trouve la ville ouverte; il y entre comme en triomphe; et fier d'une
+                        nombreuse armée, qu'il fait camper autour des murs, il envoie à la citadelle
+                        sommer Palmore de se rendre. Celui-ci répond que la paix ou la mort le
+                        désarmera. On le presse, on lui fait entendre que tout l'empire est soulevé,
+                        qu'Ataliba est perdu sans ressource, et que lui-même il n'a d'espoir qu'en
+                        la clémence de Mango. " je ne sais point ce qui se passe hors des remparts
+                        que je défends, répond ce généreux guerrier. Ataliba est homme; il peut
+                        éprouver des revers. Mais, puisqu'il lui reste avec moi deux mille sujets
+                        fideles, il n'a pas tout perdu. S'il n'étoit plus lui-même, peut-être alors
+                        prendrois-je conseil de la nécessité; mais tant qu'il est vivant, je ne
+                        dépends que de lui seul; et je laisse Mango exercer sa clémence sur des
+                        malheureux, s'il en est d'assez lâches pour l'implorer. " cependant, comme
+                        il s'apperçut que quelques-unsdes siens étoient troublés de ces menaces: "
+                        quand il seroit vrai, leur dit-il, qu'Ataliba fût malheureux, lui en
+                        serions-nous moins fideles? Ressemblerions-nous aux oiseaux, qui s'envolent
+                        d'un arbre, dès qu'il est ébranlé par quelque tourbillon rapide? L'arbre est
+                        courbé; il se relevera: laissons passer l'orage. " alors, choisissant parmi
+                        eux un messager intelligent et sûr: " cherche Ataliba, lui dit-il,
+                        apprends-lui que la forteresse de Cusco est à nous encore; que c'est moi qui
+                        la garde; et que j'ai avec moi deux mille hommes déterminés à verser pour
+                        lui tout leur sang. Voilà, dit-il, en se tournant vers ses soldats qui
+                        l'écoutoient, voilà comme il faut que l'on parle à ses amis dans le malheur;
+                        et le meilleur ami d'un bon peuple, c'est un bon roi. " sur les premiers
+                        avis qu'on avoit reçus du soulévement de Cusco, le roi de Quito s'avançoit
+                        au secours de Palmore; et Alonzo avoit voulu le suivre, malgré les larmes de
+                        Cora. Ils avoient passé les plaines de Loxa, vu les sources de l'Amazone, et
+                        du haut des monts qui dominent le fleuve Abancaï, ils découvroient les
+                        campagnes que ce beau fleuve arrose, quand le messager de Palmore vint au
+                        devant d'Ataliba, l'avertit que Mango venoit à lui; que Palmore, avec deux
+                        mille hommes, gardoit encore la citadelle; et que le chef et les soldats lui
+                        étoient dévoués. Molina l'entendit, et dans le moment même ilprit sa
+                        résolution. " laisse-moi, dit-il à l'inca, te choisir, non loin de ce
+                        fleuve, un camp facile à retrancher, où ton armée se repose; et profitons de
+                        l' avantage que le sort nous a ménagé. " il fit donc avancer l'armée sur le
+                        côteau qui dominoit la plaine, lui traça lui-même son camp; et vers la nuit,
+                        il appella le messager de Palmore, l'instruisit, et le renvoya. Mango passe
+                        l'Abancaï, s'avance, et voyant l'ennemi retranché dans son camp, l'insulte,
+                        et l'appelle au combat. Ataliba, vivement offensé, s'indignoit de ne pas
                         sortir; il se croyoit couvert de honte, et s'en plaignoit à son ami. " ne
                         vois-tu pas, lui dit Alonzo, que ces défis et ces menaces n'annoncent dans
                         tes ennemis qu'imprudence et légéreté? Laisse venir le jour que j'ai marqué
@@ -6982,15 +6673,11 @@
                         larmes, étoit pour lui le terme de la prospérité, et comme le dernier
                         sourire, le sourire cruel et traître de la fortune qui l'abandonnoit. Ce
                         même jour, ce jour funeste vit arriver Pizarre sur la rive du fleuve qui
-                        baigne les champs de Tumbès.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 45
-     </head>
-     <p>
-      Vers l'embouchure de ce fleuve, est une isle sauvage, où Pizarre avoit
+                        baigne les champs de Tumbès. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 45 </head>
+                    <p> Vers l'embouchure de ce fleuve, est une isle sauvage, où Pizarre avoit
                         résolu de se ménager un refuge. Il y passa sur des canots; car il avoit
                         devancé sa flotte. Mais cette isle étoit la demeure d'un peuple indomptable
                         et féroce. Pizarre, dédaignant de perdre, à reduire ce peuple, un temps qui
@@ -7122,7 +6809,8 @@
                         fragile, il ne peut ni parer, ni porter des coups assurés. Orozimbo, l'ayant
                         saisi au bras dont il tenoit le glaive, le désarme et l'entraîne à lui. Il
                         se débat; mais il est terrassé. Son vainqueur lui laisse la vie; et le
-                        soldat qui prend sa place, reçoit pour lui le coup mortel. Alvare, dans l'instant qu'il s'attache au bord du mur, pour le franchir, sent tomber sur
+                        soldat qui prend sa place, reçoit pour lui le coup mortel. Alvare, dans
+                        l'instant qu'il s'attache au bord du mur, pour le franchir, sent tomber sur
                         son casque la hache meurtriere; et le coup, en glissant, le blesse au bras
                         qui lui servoit d'appui. Il est précipité sanglant; et ses soldats, voyant
                         sur leur tête la massue levée pour les frapper, n'osent s' exposer après lui
@@ -7150,12 +6838,12 @@
                         ciel, comme pour indiquer le crime et le vengeur. Le guerrier attendri lui
                         donne tous les soins de l'humanité; il étanche le sang de sa blessure; et
                         l'aidant à se soulever et à se soutenir, il veut le mener au camp. Le
-                        vieillard, frissonnant d'horreur, le conjuroit, en lui baisant les mains,
-                        de prendre une route opposée. " non, disoit-il; c'est de ce côté-là qu'ils
-                        sont allés.-qui donc? Lui demanda Pizarre.-les meurtriers, dit levieillard.
-                        Ils étoient vêtus comme toi; ils te ressembloient... non, pardonne, je ne
-                        veux pas te faire injure: tu es aussi bon qu'ils sont méchants. Ils venoient
-                        du fort, ils alloient vers le rivage de la mer; et moi, je traversois la
+                        vieillard, frissonnant d'horreur, le conjuroit, en lui baisant les mains, de
+                        prendre une route opposée. " non, disoit-il; c'est de ce côté-là qu'ils sont
+                        allés.-qui donc? Lui demanda Pizarre.-les meurtriers, dit levieillard. Ils
+                        étoient vêtus comme toi; ils te ressembloient... non, pardonne, je ne veux
+                        pas te faire injure: tu es aussi bon qu'ils sont méchants. Ils venoient du
+                        fort, ils alloient vers le rivage de la mer; et moi, je traversois la
                         plaine; je ne leur faisois aucun mal. L'un d'eux m'a regardé d'un oeil
                         menaçant et farouche. Je tremblois; je l'ai salué pour l'adoucir; et lui,
                         tirant son glaive, il me l'a plongé dans le flanc. " " ah! Les barbares!
@@ -7216,15 +6904,11 @@
                         vieillard dans les bras de son fils expirant! Les voir se déchirer, les voir
                         se dévorer entre eux, dans les accès de la douleur, de la rage et du
                         désespoir! Je ne m'y résoudrai jamais; je vous en avertis. Jusques-là, je
-                        ferai tout ce que la guerre autorise. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 46
-     </head>
-     <p>
-      ce que Pizarre avoit prévu ne tarda point à arriver. Le trésor des moissons
+                        ferai tout ce que la guerre autorise. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 46 </head>
+                    <p> ce que Pizarre avoit prévu ne tarda point à arriver. Le trésor des moissons
                         étoit déposé dans les villages; la disette fut dans les murs. Il falloit,
                         pour faciliter les secours du dehors, attaquer et forcer les lignes.
                         Orozimbo voulut commander ces sorties; et ni sa soeur ni son ami ne
@@ -7302,8 +6986,9 @@
                         soins qui pouvoient adoucir le sort d'une captive, il les auroit pour elle;
                         mais qu'un devoir encore plus saint que la reconnoissance lui défendoit de
                         la lui rendre, à moins que renonçant lui-même à une résistance inutilement
-                        obstinée, il ne le reçût dans le fort. Dès que les héros mexicains s'étoient apperçus de l'absence d'Amazili, ils en avoient poussé des cris de
-                        douleur et de rage. Ils la cherchoient des yeux; ils l' appelloient; ils
+                        obstinée, il ne le reçût dans le fort. Dès que les héros mexicains s'étoient
+                        apperçus de l'absence d'Amazili, ils en avoient poussé des cris de douleur
+                        et de rage. Ils la cherchoient des yeux; ils l' appelloient; ils
                         parcouroient toute l'enceinte du rempart qui les séparoit d'elle, prêts à
                         s'en élancer, à travers mille morts, s'ils avoient entendu ses cris. L'un
                         d'eux, et c'étoit son amant, osa même sortir du fort, et la chercher dans la
@@ -7440,15 +7125,11 @@
                         Mango. Pizarre en profite avec joie: il se rembarque avec les siens; et les
                         mexicains, désolés de voir les castillans se dérober à leur vengeance,
                         reprennent tristement le chemin des hautes montagnes, par les champs de
-                        Tumibamba.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 47
-     </head>
-     <p>
-      Ataliba, qui, depuis sa victoire, avoit appris l'arrivée des espagnols,
+                        Tumibamba. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 47 </head>
+                    <p> Ataliba, qui, depuis sa victoire, avoit appris l'arrivée des espagnols,
                         laissoit reposer son armée sur les bords du fleuve Zamore; et alors, le
                         soleil, au tropique du nord, ayant atteint cette limite qu'une loi éternelle
                         a marquée à sa course, et que jamais il ne franchit, ce fut dans une vaste
@@ -7532,14 +7213,11 @@
                         enveloppez, ils seront, au milieu de vous, comme les feuilles agitées par le
                         tourbillon des tempêtes. Voilà, poursuivit-il, en leur montrant Alonzo,
                         celui qui sait comment on peut les vaincre; c'est à lui de vous commander. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 48
-     </head>
-     <p>
-      ainsi parloit Ataliba; et il inspiroit son courage. Mais sur la fin du jour
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 48 </head>
+                    <p> ainsi parloit Ataliba; et il inspiroit son courage. Mais sur la fin du jour
                         il voit arriver dans son camp les guerriers mexicains, qui lui racontent
                         leur disgrace. Ils lui apprennent que Mango, réduit au désespoir, suppose,
                         et fait répandre parmi les indiens, un oracle du roi son pere, lequel, en
@@ -7589,7 +7267,8 @@
                         sainte amitié. Je suis mourant. Je n'ai vécu que pour gémir. Dieu a permis
                         que, dans le court espace de ma vie, j'aie vu sous mes yeux tous les crimes
                         et tous les malheurs rassemblés. Quel regret puis-je avoir au monde? " " je
-                        vous ai confié mes craintes sur l'entreprise de Pizarre. Elles viennent d'être calmées parles vertus de ce héros. Oui, mon ami, le ciel a touché sa
+                        vous ai confié mes craintes sur l'entreprise de Pizarre. Elles viennent
+                        d'être calmées parles vertus de ce héros. Oui, mon ami, le ciel a touché sa
                         grande ame. Pizarre pense comme nous. Il sent qu'il est plus beau d' être le
                         protecteur et le pere des indiens, que leur vainqueur et leur tyran.
                         Unissez-vous à lui, pour lui concilier leur estime et leur bienveillance: "
@@ -7680,15 +7359,11 @@
                         préside à cette conférence, et forme, entre Pizarre et toi, les noeuds d'une
                         solide paix. Si je suis trompé dans mes voeux, si je le suis dans mon
                         attente, je verserai pour toi mon sang. C'est tout ce que je puis. Je n' ai
-                        rien donné au hazard; je ne me reprocherai rien. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 49
-     </head>
-     <p>
-      la nuit vint; elle suspendit ce flux et ce reflux de craintes et
+                        rien donné au hazard; je ne me reprocherai rien. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 49 </head>
+                    <p> la nuit vint; elle suspendit ce flux et ce reflux de craintes et
                         d'espérances qu'une incertitude pénible et des pressentiments confus
                         faisoient naître dans les esprits. Mais ces mouvements, appaisés par le
                         sommeil, se renouvellerent, lorsqu'aux premiers rayons du jour, on vit de
@@ -7868,29 +7543,26 @@
                         désespéré se tourne, tend son arc, et choisit d'un oeil étincelant le chef
                         de la troupe ennemie. C'étoit Gonsalve Davila. La fleche part; et le jeune
                         homme tombe mortellement blessé. On environne le cacique, on le saisit, et
-                        on le traîne aux pieds de Davila, pour le déchirer devant lui. Gonsalve entr'ouvre un oeil mourant, et reconnoît celui qui l'a tenu en son pouvoir, celui
-                        qui lui a laissé la vie, et lui a rendu la liberté. " est-ce toi, généreux
-                        Capana, lui dit-il, en lui tendant ses bras tremblants? Est-ce de ta main
-                        que je meurs? Tu m'avois fait grace une fois; je respirois par ta clémence;
-                        j'étois libre par ta bonté. J'en ai fait un cruel usage! Le ciel est juste:
-                        il t'a choisi pour m'arracher tes propres dons. Castillans, écoutez-moi, et
-                        redoutez, à mon exemple, la main du dieu qui m'a frappé. Je dois tout à cet
-                        indien; laissez-moi m'acquitter. Qu' il vive, et qu'il soit libre avec les
-                        siens. Viens, mon frere, mon bienfaiteur, mon meurtrier et mon ami, viens,
-                        qu'en expirant je t' embrasse. Je devois apprendre de toi la justice et
-                        l'humanité. " ces mots furent bientôt suivis de son dernier soupir; et
-                        Capana et ses sauvages allerent chercher, au-delà des montagnes de l'orient,
-                        chez les moxes, libres encore, ou chez les féroces antis, qui s'abreuvoient
-                        du sang des hommes, un asyle contre la rage d'un peuple encore plus
-                        inhumain.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 50
-     </head>
-     <p>
-      Les espagnols, fatigués de meurtre, et chargés des riches dépouilles qu'ils
+                        on le traîne aux pieds de Davila, pour le déchirer devant lui. Gonsalve
+                        entr'ouvre un oeil mourant, et reconnoît celui qui l'a tenu en son pouvoir,
+                        celui qui lui a laissé la vie, et lui a rendu la liberté. " est-ce toi,
+                        généreux Capana, lui dit-il, en lui tendant ses bras tremblants? Est-ce de
+                        ta main que je meurs? Tu m'avois fait grace une fois; je respirois par ta
+                        clémence; j'étois libre par ta bonté. J'en ai fait un cruel usage! Le ciel
+                        est juste: il t'a choisi pour m'arracher tes propres dons. Castillans,
+                        écoutez-moi, et redoutez, à mon exemple, la main du dieu qui m'a frappé. Je
+                        dois tout à cet indien; laissez-moi m'acquitter. Qu' il vive, et qu'il soit
+                        libre avec les siens. Viens, mon frere, mon bienfaiteur, mon meurtrier et
+                        mon ami, viens, qu'en expirant je t' embrasse. Je devois apprendre de toi la
+                        justice et l'humanité. " ces mots furent bientôt suivis de son dernier
+                        soupir; et Capana et ses sauvages allerent chercher, au-delà des montagnes
+                        de l'orient, chez les moxes, libres encore, ou chez les féroces antis, qui
+                        s'abreuvoient du sang des hommes, un asyle contre la rage d'un peuple encore
+                        plus inhumain. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 50 </head>
+                    <p> Les espagnols, fatigués de meurtre, et chargés des riches dépouilles qu'ils
                         avoient enlevées du camp des indiens, s'étoient presque tous rassemblés dans
                         les murs de Cassamalca. Les uns, c'étoit le petit nombre, retirés en
                         silence, honteux et consternés, se reprochoient le sang qu'ils venoient de
@@ -7927,7 +7599,8 @@
                         encore à l' arrivée de Pizarre. Rangés sur son passage, ses soldats ne lui
                         marquent ni crainte ni confusion; ils le regardent d'un oeil fixe, prêts à
                         se révolter s'il lui échappe un mot de colere et d'emportement. Plus loin,
-                        Valverde, environné de séditieux fanatiques, lui montre encore plus d'assurance; et d'un front où l'audace est peinte, soutient ses regards
+                        Valverde, environné de séditieux fanatiques, lui montre encore plus
+                        d'assurance; et d'un front où l'audace est peinte, soutient ses regards
                         menaçants. Pizarre traverse la foule, en gardant un morne silence. Il
                         demande où est Ataliba. On le conduit à sa prison; et là, autour de ce
                         malheureux prince, il voit un petit nombre de ses castillans, qui, les yeux
@@ -8088,15 +7761,11 @@
                         dont on se plaignoit; mais que cette ville avoit seule de quoi acquitter sa
                         promesse. On y envoya deux castillans, pour savoir s'il en imposoit; et ce
                         fut dans cet interval qu'une révolution funeste acheva de précipiter les
-                        indiens dans le malheur, et les castillans dans le crime.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 51
-     </head>
-     <p>
-      Almagre, avec de nouvelles forces, venoit de Panama au secours de Pizarre.
+                        indiens dans le malheur, et les castillans dans le crime. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 51 </head>
+                    <p> Almagre, avec de nouvelles forces, venoit de Panama au secours de Pizarre.
                         En débarquant, il avoit appris le désastre des indiens; et tels qu'on voit
                         les restes d'une meute affamée, au son du cor qui leur annonce que le cerf
                         est aux abois, oublier la fatigue et redoubler leur course, haletants de
@@ -8279,10 +7948,11 @@
                         inutilement, à le gagner par des largesses.Il fit peser l'or et l'argent
                         qu'on avoit entassés, il les distribua; son armée en fut enrichie. La part
                         qu'il avoit réservée à l'empereur, fut envoyée au port, où Fernand devoit
-                        s'embarquer; et Fernand, pressé de s'y rendre, vint, la tristesse dans l'ame, prendre congé d'Ataliba. Il avoit conçu pour l'inca cette amitié noble
-                        et tendre que la vertu, dans le malheur, inspire aux ames généreuses: doux
-                        appui que le ciel ménage quelquefois à l'homme juste qu'on opprime, pour
-                        l'aider à porter le poids de l'accablante adversité. " je viens te dire
+                        s'embarquer; et Fernand, pressé de s'y rendre, vint, la tristesse dans
+                        l'ame, prendre congé d'Ataliba. Il avoit conçu pour l'inca cette amitié
+                        noble et tendre que la vertu, dans le malheur, inspire aux ames généreuses:
+                        doux appui que le ciel ménage quelquefois à l'homme juste qu'on opprime,
+                        pour l'aider à porter le poids de l'accablante adversité. " je viens te dire
                         adieu; l'on m'envoie en Espagne: mon devoir m'éloigne de toi, lui dit-il;
                         mais j'emporte avec moi l'espérance de te servir, de te revoir, libre,
                         justifié, rétabli sur le trône, et d'y embrasser un héros que j'ai respecté
@@ -8293,15 +7963,11 @@
                         ajouta-t-il, cet homme arrogant et superbe, qui paroît engraissé de sang;
                         (c' étoit Alfonce De Requelme) et cet autre qui d'un oeil morne nous
                         observe; (c' étoit Almagre) ils n'attendentque votre absence pour me faire
-                        périr. Nous ne nous verrons plus. Adieu, pour la derniere fois. "
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 52
-     </head>
-     <p>
-      après de si tristes adieux, Fernand se rendit à Rimac. Il y trouva
+                        périr. Nous ne nous verrons plus. Adieu, pour la derniere fois. " </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 52 </head>
+                    <p> après de si tristes adieux, Fernand se rendit à Rimac. Il y trouva
                         l'implacable Valverde, qui, sous les dehors d'une humilité volontaire,
                         déguisoit sa honte et sa rage. Il parut aux yeux de Fernand. " trop de zele
                         a pu m'égarer, lui dit-il; je dois expier tous les maux dont je suis la
@@ -8378,48 +8044,44 @@
                         plaines funebres, l'ombre errante de son époux. " où est-il mort? En quel
                         lieu repose mon cher Alonzo, disoit-elle? En quel lieu s'est fait le carnage
                         de ceux qui gardoient notre roi? " un indien lui répondit: " vous y touchez.
-                        C'est là, dans ce lieu même, qu'étoit le trône de l'inca; c'est là qu'autour de lui tous ses amis sont morts; c'est là qu'ils sont ensevelis.
-                        Alonzo étoit à leur tête; et cette petite éminence que vous voyez, c' est
-                        son tombeau. " à ces mots, qui percent le coeur de la tendre épouse
-                        d'Alonzo, un cri déchirant part du fond de ses entrailles. Elle se
-                        précipite, elle tombe égarée sur cette terre humide encore, que l'herbe
-                        n'avoit pas couverte; elle l'embrasse avec l'amour dont elle eût embrassé le
-                        corps de son époux; elle résiste au soin qu'on prend de l'arracher de ce
-                        tombeau: et lorsqu'on veut lui faire violence, il semble, à ses cris
-                        douloureux, qu'on va lui déchirer le coeur. Enfin l'excès de la douleur
-                        rompant les noeuds dont la nature retenoit encore dans ses flancs le fruit
-                        d'un malheureux amour, elle expire en devenant mere. Mais cet accès de
-                        désespoir n'a pas été mortel pour elle seule; et l'enfant qu'elle a mis au
-                        monde en est frappé. Il s'éteint, sans ouvrir les yeux à la lumiere, sans
-                        avoir senti ses malheurs. La constance d'Ataliba avoit, jusques-là, dédaigné
-                        d'adoucir ses persécuteurs; mais cette ame,que l'infortune avoit élevée,
-                        affermie, et dont la tranquille fierté défioit les revers, s'abattit
-                        tout-à-coup, lorsque, dans sa prison, il vit ses femmes, ses enfants,
-                        chargés de chaînes comme lui, se jetter dans ses bras, tomber en foule à ses
-                        genoux. Il se trouble; ses yeux se remplissent de larmes; il reçoit dans son
-                        sein, avec une douleur profonde, ses épouses et ses enfants; il les presse
-                        contre son coeur; il mêle ses soupirs à leurs plaintes; il oublie que sa
-                        foiblesse a pour témoins ses ennemis; ou plutôt il ne rougit point de se
-                        montrer époux et pere. Pizarre, observant dans les yeux de ses compagnons
-                        attendris la même compassion qu'il éprouvoit lui-même, s'en applaudit, et
-                        d'autant plus, qu'il voyoit aussi tomber l'orgueil d'Ataliba; mais, pour
-                        donner à son courage le temps de s'amollir encore, il ordonna qu'on le
-                        laissât seul avec ses femmes et ses enfants. Ce fut alors que la nature
-                        abandonnée à elle-même, donna un libre cours à tous les mouvements de la
-                        douleur et de l'amour. Baigné d'un déluge de larmes, Ataliba voit ses
-                        enfants l'environner, baiser ses chaînes, demander quel mal ils ont fait?
-                        Quel est le crime de leurs meres? Et si c'est pour mourir ensemble qu'on les
-                        a réunis? Tendre époux et bon pere, il jette un regard languissant sur sa
-                        famille désolée; et son coeur oppressé de douleur, de pitié, de crainte, ne
-                        répond que par des sanglots.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 53
-     </head>
-     <p>
-      Le jour fatal arrive, et le conseil est assemblé. Il étoit formé des plus
+                        C'est là, dans ce lieu même, qu'étoit le trône de l'inca; c'est là qu'autour
+                        de lui tous ses amis sont morts; c'est là qu'ils sont ensevelis. Alonzo
+                        étoit à leur tête; et cette petite éminence que vous voyez, c' est son
+                        tombeau. " à ces mots, qui percent le coeur de la tendre épouse d'Alonzo, un
+                        cri déchirant part du fond de ses entrailles. Elle se précipite, elle tombe
+                        égarée sur cette terre humide encore, que l'herbe n'avoit pas couverte; elle
+                        l'embrasse avec l'amour dont elle eût embrassé le corps de son époux; elle
+                        résiste au soin qu'on prend de l'arracher de ce tombeau: et lorsqu'on veut
+                        lui faire violence, il semble, à ses cris douloureux, qu'on va lui déchirer
+                        le coeur. Enfin l'excès de la douleur rompant les noeuds dont la nature
+                        retenoit encore dans ses flancs le fruit d'un malheureux amour, elle expire
+                        en devenant mere. Mais cet accès de désespoir n'a pas été mortel pour elle
+                        seule; et l'enfant qu'elle a mis au monde en est frappé. Il s'éteint, sans
+                        ouvrir les yeux à la lumiere, sans avoir senti ses malheurs. La constance
+                        d'Ataliba avoit, jusques-là, dédaigné d'adoucir ses persécuteurs; mais cette
+                        ame,que l'infortune avoit élevée, affermie, et dont la tranquille fierté
+                        défioit les revers, s'abattit tout-à-coup, lorsque, dans sa prison, il vit
+                        ses femmes, ses enfants, chargés de chaînes comme lui, se jetter dans ses
+                        bras, tomber en foule à ses genoux. Il se trouble; ses yeux se remplissent
+                        de larmes; il reçoit dans son sein, avec une douleur profonde, ses épouses
+                        et ses enfants; il les presse contre son coeur; il mêle ses soupirs à leurs
+                        plaintes; il oublie que sa foiblesse a pour témoins ses ennemis; ou plutôt
+                        il ne rougit point de se montrer époux et pere. Pizarre, observant dans les
+                        yeux de ses compagnons attendris la même compassion qu'il éprouvoit
+                        lui-même, s'en applaudit, et d'autant plus, qu'il voyoit aussi tomber
+                        l'orgueil d'Ataliba; mais, pour donner à son courage le temps de s'amollir
+                        encore, il ordonna qu'on le laissât seul avec ses femmes et ses enfants. Ce
+                        fut alors que la nature abandonnée à elle-même, donna un libre cours à tous
+                        les mouvements de la douleur et de l'amour. Baigné d'un déluge de larmes,
+                        Ataliba voit ses enfants l'environner, baiser ses chaînes, demander quel mal
+                        ils ont fait? Quel est le crime de leurs meres? Et si c'est pour mourir
+                        ensemble qu'on les a réunis? Tendre époux et bon pere, il jette un regard
+                        languissant sur sa famille désolée; et son coeur oppressé de douleur, de
+                        pitié, de crainte, ne répond que par des sanglots. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 53 </head>
+                    <p> Le jour fatal arrive, et le conseil est assemblé. Il étoit formé des plus
                         anciens et des plus élevés en grade parmi les guerriers castillans. Pizarre
                         y présidoit; mais Almagre et Requelme étoient assis à ses côtés. Un silence
                         terrible regnoit dans l'assemblée. On fait paroître Ataliba; on l'interroge;
@@ -8487,12 +8149,8 @@
                         au milieu d'une nuit obscure, dans les murs de Cassamalca. C'étoit l'heure
                         où Almagre, avec ses partisans, formoit ses complots ténébreux. Le fourbe
                         paroît à leur vue. " amis, dit-il, reconnoissez la fidélité des promesses de
-                        celui qui a dit au juste:
-      <hi rend="italic">
-       tu fouleras aux pieds l'aspic
-                            et le lion
-      </hi>
-      . Vous m'avez vu chargé de chaînes, proscrit, envoyé
+                        celui qui a dit au juste: <hi rend="italic"> tu fouleras aux pieds l'aspic
+                            et le lion </hi> . Vous m'avez vu chargé de chaînes, proscrit, envoyé
                         sur la flotte, pour être abandonné dans quelque isle déserte, où je serois
                         la proie des animaux voraces; me voilà au milieu de vous. Dieu a rompu les
                         pieges du méchant; il s'est joué des conseils de l'impie; il a tendu la main
@@ -8587,9 +8245,9 @@
                         qu'elle avoit vus désoler ses rivages; et le fanatisme, entouré de massacres
                         et de débris, assis sur des monceaux de morts, promenant ses regards sur de
                         vastes ruines, s'applaudit, et loua le ciel d'avoir couronné ses travaux.
-     </p>
-    </div>
-   </div>
-  </body>
- </text>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

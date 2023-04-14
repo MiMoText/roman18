@@ -2,136 +2,83 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Voltaire_Micromegas" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:52.43 wikidata:Q1785978">
-     Micromégas: MiMoText edition
-    </title>
-    <author ref="viaf:36925746 wikidata:Q9068">
-     Voltaire(1694-1778)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      frantext
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     7110
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Micromégas
-     </title>
-     <publisher>
-      Frantext
-     </publisher>
-     <date>
-      unknown
-     </date>
-     <ref target="https://www.frantext.fr/"/>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Micromégas
-     </title>
-     <author>
-      François-Marie Arouet Voltaire
-     </author>
-     <pubPlace>
-      Princeton
-     </pubPlace>
-     <publisher>
-      Univ. Press
-     </publisher>
-     <date>
-      1950
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1752
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      heterodiegetic
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2021-01-06">
-    Initital ELTeC level-1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="chapter">
-    <head>
-     CHAPITRE 1
-    </head>
-    <p>
-     <hi rend="italic">
-      voyage d'un habitant du monde de l'étoile Sirius dans le
-                        globe de Saturne.
-     </hi>
-     dans ces planétes qui tournent autour de l' étoile
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:52.43 wikidata:Q1785978"> Micromégas: MiMoText edition </title>
+                <author ref="viaf:36925746 wikidata:Q9068"> Voltaire(1694-1778) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> frantext </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 7110 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Micromégas </title>
+                    <publisher> Frantext </publisher>
+                    <date> unknown </date>
+                    <ref target="https://www.frantext.fr/"/>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Micromégas </title>
+                    <author> François-Marie Arouet Voltaire </author>
+                    <pubPlace> Princeton </pubPlace>
+                    <publisher> Univ. Press </publisher>
+                    <date> 1950 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1752 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> heterodiegetic </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-06"> Initital ELTeC level-1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <head> CHAPITRE 1 </head>
+                <p>
+                    <hi rend="italic"> voyage d'un habitant du monde de l'étoile Sirius dans le
+                        globe de Saturne. </hi> dans ces planétes qui tournent autour de l' étoile
                     nommée Sirius, il y avoit un jeune homme de beaucoup d'esprit que j'ai eu
                     l'honneur de connaitre dans le dernier voyage qu'il fit sur notre petite
                     fourmiliére. Il s'appelloit Micromégas, nom qui convient fort à tous les grands.
@@ -174,11 +121,8 @@
                     médiocrement afligé d'être banni d'une cour qui n' étoit rempli que de
                     tracasseries et de petitesses, il fit une chanson fort plaisante contre le
                     muphti dont celui-ci ne s'embarrassa guères, et il se mit à voyager de planéte
-                    en planéte pour achever de se former l'
-     <hi rend="italic">
-      esprit et le coeur
-     </hi>
-     , comme l'on dit. Ceux qui ne voyagent qu'en chaise de poste ou en
+                    en planéte pour achever de se former l' <hi rend="italic"> esprit et le coeur
+                    </hi> , comme l'on dit. Ceux qui ne voyagent qu'en chaise de poste ou en
                     berline, seront sans doute étonnés des équipages de là-haut; car nous autres sur
                     notre petit tas de boüe, nous ne concevons rien au-delà de nos usages. Nôtre
                     voyageur connaissait merveilleusement les loix de la gravitation, et toutes les
@@ -205,18 +149,13 @@
                     qui n'avoit à la vérité rien inventé, mais qui rendait un fort bon compte des
                     inventions des autres, et qui faisoit passablement de petits vers et de grands
                     calculs. Je rapporterai ici pour la satisfaction des lecteurs une conversation
-                    singuliére que Micromégas eut un jour avec monsieur le sécretaire.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE 2
-    </head>
-    <p>
-     <hi rend="italic">
-      conversation de Micromégas avec l'habitant de Saturne.
-     </hi>
-     après que son excellence se fut couchée, et que le sécrétaire se fut approché de
+                    singuliére que Micromégas eut un jour avec monsieur le sécretaire. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE 2 </head>
+                <p>
+                    <hi rend="italic"> conversation de Micromégas avec l'habitant de Saturne. </hi>
+                    après que son excellence se fut couchée, et que le sécrétaire se fut approché de
                     son visage: il faut avouer, dit Micromégas, que la nature est bien variée. Oui,
                     dit le saturnien, la nature est comme un parterre dont les fleurs... ah! Dit
                     l'autre, laissez-là votre par-terre. Elle est, reprit le sécrétaire, comme une
@@ -244,12 +183,9 @@
                     Combien de tems vivez-vous, dit le sirien? Ah, bien peu, repliqua le petit homme
                     de Saturne. C'est tout comme chez nous, dit le sirien, nous nous plaignons
                     toujours du peu. Il faut que ce soit une loi universelle de lanature. Hélas!
-                    Nous ne vivons, dit le saturnien que cinq cens grandes revolutions du soleil
-     <hi rend="italic">
-      cela revient à quinze mille ans ou environ à compter à notre
-                        maniere.
-     </hi>
-     . Vous voyez bien que c'est mourir presque au moment où l'on
+                    Nous ne vivons, dit le saturnien que cinq cens grandes revolutions du soleil <hi
+                        rend="italic"> cela revient à quinze mille ans ou environ à compter à notre
+                        maniere. </hi> . Vous voyez bien que c'est mourir presque au moment où l'on
                     est né, notre existence est un point, notre durée un instant, notre globe un
                     atôme. à peine a-t-on commencé à s'instruire un peu, que la mort arrive avant
                     que l' on ait de l'expérience; pour moi je n'ose faire aucuns projets; je me
@@ -291,18 +227,12 @@
                     prodigieusement le philosophe de Saturne. Enfin après s'être communiquél' un et
                     l'autre ce qu'ils sçavoient, et même ce qu'ils ne sçavoient pas, après avoir
                     raisonné pendant une révolution du soleil, ils résolurent de faire ensemble un
-                    petit voyage philosophique.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE 3
-    </head>
-    <p>
-     <hi rend="italic">
-      voyage des deux habitans de l'autre monde.
-     </hi>
-     nos deux
+                    petit voyage philosophique. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE 3 </head>
+                <p>
+                    <hi rend="italic"> voyage des deux habitans de l'autre monde. </hi> nos deux
                     philosophes étoient prêts à s'embarquer pour l'atmosphére de Saturne, avec une
                     fort jolie provision d' instrumens de mathématiques, lorsque la maîtresse du
                     saturnien qui en eut des nouvelles vint en larmes faire ses remontrances,
@@ -347,18 +277,12 @@
                     une seconde fois, ils résolurent de débarquer, ils passerent sur la queue de la
                     cométe, et trouvant une aurore boréale qui étoit toute prête, ils se mirent
                     dedans, et arriverent à terre sur le bord septentrional de la mer Baltique, le 5
-                    juillet 1737. Nouveau stile.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE 4
-    </head>
-    <p>
-     <hi rend="italic">
-      ce qui leur arrive sur le globe de la terre.
-     </hi>
-     après
+                    juillet 1737. Nouveau stile. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE 4 </head>
+                <p>
+                    <hi rend="italic"> ce qui leur arrive sur le globe de la terre. </hi> après
                     s'être reposé quelque tems, ils voulurent reconnaitre le petit pays où ils
                     étoient, ils allerent d'abord du nord au sud, les pas ordinaires du sirien et de
                     ses gensétoient d'environ trente mille pieds de roi: le nain de Saturne, dont la
@@ -429,15 +353,11 @@
                     Bosnie, et qu'ils eurent bien de la peine à se sauver; mais on ne sçait jamais
                     en ce monde le dessous des cartes; je vais raconter ingénuement comme la chose
                     se passa, sans y rien mettre du mien, ce qui n'est pas un petit effort pour un
-                    historien.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE 5
-    </head>
-    <p>
-     Micromégas étendit la main tout doucement vers l'endroit d'où l'objet
+                    historien. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE 5 </head>
+                <p> Micromégas étendit la main tout doucement vers l'endroit d'où l'objet
                     paroissoit, et avançant deux doigts et les retirant par la crainte de se
                     tromper, puis les ouvrant et les serrant, il saisit fort adroitement le vaisseau
                     qui portoit ces messieurs, et le mit encore sur son ongle sans le trop presser
@@ -477,24 +397,15 @@
                     fardeaux, qui se baissent, qui se relevent? En parlant ainsi les mains leur
                     trembloient par le plaisir de voir des objets si nouveaux, et par la crainte de
                     les perdre. Le saturnien passant d'un excès de défiance à un excès de crédulité
-                    crût appercevoir qu'ils travailloient à la propagation. Ah, disoit-il,
-     <hi rend="italic">
-      j'ai pris la nature sur le fait;
-     </hi>
-     mais il se trompoit
+                    crût appercevoir qu'ils travailloient à la propagation. Ah, disoit-il, <hi
+                        rend="italic"> j'ai pris la nature sur le fait; </hi> mais il se trompoit
                     sur les apparences, ce qui n'arrive que trop, soit qu'on se serve ou non du
-                    microscope.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE 6
-    </head>
-    <p>
-     <hi rend="italic">
-      ce qui leur arriva avec les hommes.
-     </hi>
-     Micromégas bien
+                    microscope. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE 6 </head>
+                <p>
+                    <hi rend="italic"> ce qui leur arriva avec les hommes. </hi> Micromégas bien
                     meilleur observateur que son nain, vit clairement que les atômes se parloient et
                     il le fit remarquer à son compagnon, qui honteux de s'être mépris sur l'article
                     de la génération, ne voulut pas croire que de pareilles espéces pussent se
@@ -574,18 +485,12 @@
                     abeilles sont pour l'homme, ce que le sirien luimême étoit pour ces animaux si
                     vastes dont il parloit, et ce que ces grands animaux sont pour d'autres
                     substances devant lesquelles ils ne paraissent que comme des atomes. Peu après
-                    la conversation devint intéressante, et Micromégas parla ainsi.
-    </p>
-   </div>
-   <div type="chapter">
-    <head>
-     CHAPITRE 7
-    </head>
-    <p>
-     <hi rend="italic">
-      conversation de ces deux êtres avec des hommes.
-     </hi>
-     ô
+                    la conversation devint intéressante, et Micromégas parla ainsi. </p>
+            </div>
+            <div type="chapter">
+                <head> CHAPITRE 7 </head>
+                <p>
+                    <hi rend="italic"> conversation de ces deux êtres avec des hommes. </hi> ô
                     atomes intelligens! Dans qui l'être éternel semble s'être plû à manifester son
                     adresse et sa puissance; vous devez sans doute gouter des joies bien pures sur
                     votre globe; car ayant si peu de matiére, et paraissant tout esprit, vous devez
@@ -692,9 +597,8 @@
                     apprendroit des choses admirables et qui leur montreroit le bon des choses.
                     Effectivement il leur donna ce livre avant son départ: on le porta à Paris à
                     l'académie des sciences; mais quand le vieux sécretaire l'eut ouvert il ne vit
-                    rien qu'un livre tout blanc. Ah! Dit-il, je m'en étois bien douté.
-    </p>
-   </div>
-  </body>
- </text>
+                    rien qu'un livre tout blanc. Ah! Dit-il, je m'en étois bien douté. </p>
+            </div>
+        </body>
+    </text>
 </TEI>

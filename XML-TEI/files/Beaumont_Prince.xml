@@ -2,471 +2,427 @@
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Beaumont_Prince" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:56.19 wikidata:Q106165259">
-     Le Prince Chéri: MiMoText edition
-    </title>
-    <author ref="viaf:31999252 wikidata:Q466788">
-     Jeanne-Marie Leprince de Beaumont(1711-1776)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      Wikisource contributors
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Henning Gebhard
-     </name>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     4674
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2022
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Contes moraux pour l’instruction de la jeunesse: Le Prince Chéri
-     </title>
-     <ref target="https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/Le_Prince_Ch%C3%A9ri"/>
-     <date>
-      2021
-     </date>
-     <publisher>
-      Wikisource
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Contes moraux pour l'instruction de la jeunesse
-     </title>
-     <author>
-      Jeanne Marie Leprince de Beaumont
-     </author>
-     <pubPlace>
-      Paris
-     </pubPlace>
-     <publisher>
-      Barba
-     </publisher>
-     <date>
-      1806
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <title>
-      Magasin des enfans
-     </title>
-     <date>
-      1756
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-x">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      heterodiegetic
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2022-07-01">
-    Initial ELTeC level 1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <front>
-   <div type="titlepage">
-    <p>
-     Le Prince Chéri
-    </p>
-    <p>
-     Jeanne Marie Leprince de Beaumont
-    </p>
-    <p>
-     Barba, Paris , 1806
-    </p>
-   </div>
-  </front>
-  <body>
-   <div type="chapter">
-    <head>
-     LE PRINCE CHÉRI.
-    </head>
-    <head>
-     CONTE.
-    </head>
-    <p>
-     Il y avait une fois un roi qui était si honnête homme, que ses sujets l'appelaient le
-     <hi rend="italic">
-      roi bon
-     </hi>
-     . Un jour qu'il était à la chasse, un petit lapin blanc, que les
-          chiens allaient tuer, se jeta dans ses bras. Le roi caressa ce petit lapin, et dit : Puisqu'il s'est
-          mis sous ma protection, je ne veux pas qu'on lui fasse du mal. Il porta ce petit lapin dans son
-          palais, et il lui fit donner une jolie petite maison, et de bonnes herbes à manger. La nuit, quand
-          il fut seul dans sa chambre, il vit paraître une belle dame ; elle n'avait point d'habits d'or, et
-          d'argent ; mais sa robe était blanche comme la neige : et, au lieu de coiffure, elle avait une
-          couronne de roses blanches sur sa tête. Le bon roi fut bien étonné de voir cette dame ; car sa porte
-          était fermée, et il ne savait pas comment elle était entrée. Elle lui dit : Je suis la fée
-     <hi rend="italic">
-      Candide
-     </hi>
-     ; je passais dans le bois pendant que vous chassiez, et j'ai voulu savoir si vous étiez bon, comme
-          tout le monde le dit. Pour cela, j'ai pris la figure d'un petit lapin, et je me suis sauvée dans vos
-          bras ; car je sais que ceux qui ont de la pitié pour les bêtes, en ont encore plus pour les hommes ;
-          et, si vous m'aviez refusé votre secours, j'aurais cru que vous étiez méchant. Je viens vous
-          remercier du bien que vous m'avez fait, et vous assurer que je serai toujours de vos amies. Vous
-          n'avez qu'à me demander tout ce que vous voudrez, je vous promets de vous l'accorder.
-    </p>
-    <p>
-     Madame, dit le bon roi, puisque vous êtes une fée, vous devez savoir tout ce que je souhaite. Je
-          n'ai qu'un fils, que j'aime beaucoup, et pour cela, on l'a nommé le prince
-     <hi rend="italic">
-      Chéri
-     </hi>
-     ; si vous avez quelque bonté pour moi, devenez la bonne amie de mon fils. De bon cœur, lui dit la
-          fée ; je puis rendre votre fils le plus beau prince du monde, ou le plus riche, ou le plus puissant
-          ; choisissez ce que vous voudrez pour lui. Je ne désire rien de tout cela pour mon fils, répondit le
-          bon roi ; mais je vous serai bien obligé, si vous voulez le rendre le meilleur de tous les princes.
-          Que lui servirait-il d'être beau, riche, d'avoir tous les royaumes du monde, s'il était méchant ?
-          Vous savez bien qu'il serait malheureux, et qu'il n'y a que la vertu qui puisse le rendre content.
-          Vous avez raison, lui dit Candide ; mais il n'est pas en mon pouvoir de rendre le prince Chéri
-          honnête homme malgré lui : il faut qu'il travaille lui-même à devenir vertueux. Tout ce que je puis
-          vous promettre, c'est de lui donner de bons conseils, de le reprendre de ses fautes, et de le punir,
-          s'il ne veut pas se corriger et se punir lui-même.
-    </p>
-    <p>
-     Le bon roi fut fort content de cette promesse, et il mourut peu de temps après. Le prince Chéri
-          pleura beaucoup son père, car il l'aimait de tout son cœur, et il aurait donné tous ses royaumes,
-          son or, et son argent pour le sauver ; mais cela n'était pas possible.
-    </p>
-    <p>
-     Deux jours après la mort du bon roi, Chéri étant couché, Candide lui apparut. J'ai promis à votre
-          père, lui dit-elle, d'être de vos amies, et pour tenir ma parole, je viens vous faire un présent. En
-          même tems elle mit au doigt de Chéri une petite bague d'or, et lui dit : gardez bien cette bague,
-          elle est plus précieuse que les diamans ; toutes les fois que vous ferez une mauvaise action, elle
-          vous piquera le doigt mais si, malgré sa piqûre, vous continuez cette mauvaise action, vous perdrez
-          mon amitié, et je deviendrai votre ennemie. En finissant ces paroles, Candide disparut, et laissa
-          Chéri fort étonné. Il fut quelque tems si sage, que la bague ne le piquait point du tout, et cela le
-          rendait si content, qu'on ajouta au nom de Chéri qu'il portait, celui d'
-     <hi rend="italic">
-      Heureux
-     </hi>
-     .Quelque tems après, il fut à la chasse, et il ne prit rien, ce qui le mit de mauvaise humeur : illui sembla alors que sa bague lui pressait un peu le doigt ; mais comme elle ne le piquait pas, iln'y fit pas beaucoup attention. En rentrant dans sa chambre, sa petite chienne Bibi vint à lui ensautant pour le caresser, il lui dit : retire-toi ; je ne suis plus d'humeur de recevoir tescaresses. La pauvre petite chienne, qui ne l'entendait pas, le tirait par son habit pour l'obliger àla regarder au moins. Cela impatienta Chéri, qui lui donna un grand coup de pied. Dans le moment labague le piqua, comme si c'eût été une épingle : il fut bien étonné, et s'assit tout honteux dans uncoin de sa chambre. Il disait en lui-même : je crois que la fée se moque de moi ; quel grand malai-je fait pour donner un coup de pied à un animal qui m'importune ? À quoi me sert d'être maîtred'un grand empire, puisque je n'ai pas la liberté de battre mon chien ?
-    </p>
-    <p>
-     Je ne me moque pas de vous, dit une voix, qui répondait à la pensée de Chéri, vous avez fait
-          trois fautes, au lieu d'une. Vous avez été de mauvaise humeur, parce que vous n'aimez pas à être
-          contredit, et que vous croyez que les bêtes et les hommes sont faits pour obéir. Vous vous êtes mis
-          en colère, ce qui est fort mal ; et puis, vous avez été cruel à un pauvre animal qui ne méritait pas
-          d'être maltraité. Je sais que vous êtes beaucoup au-dessus d'un chien ; mais si c'était une chose
-          raisonnable et permise, que les grands pussent maltraiter tout ce qui est au-dessous d'eux, je
-          pourrais à ce moment vous battre, vous tuer, puisqu'une fée est plus qu'un homme. L'avantage d'être
-          maître d'un grand empire, ne consiste pas à pouvoir faire le mal qu'on veut, mais tout le bien qu'on
-          peut. Chéri avoua sa faute, et promit de se corriger mais il ne tint pas sa parole. Il avait été
-          élevé par une sotte nourrice qui l'avait gâté, quand il était petit. S'il voulait avoir une chose,
-          il n'avait qu'à pleurer, se dépiter, frapper du pied ; cette femme lui donnait tout ce qu'il
-          demandait, et cela l'avait rendu opiniâtre. Elle lui disait aussi, depuis le matin jusqu'au soir,
-          qu'il serait roi un jour, et que les rois étaient fort heureux, parce que tous les hommes devaient
-          leur obéir, les respecter, et qu'on ne pouvait pas les empêcher de faire ce qu'ils voulaient. Quand
-          Chéri avait été grand garçon, et raisonnable, il avait bien connu, qu'il n'y avait rien de si vilain
-          que d'être fier, orgueilleux, opiniâtre. Il avait fait quelques efforts pour se corriger ; mais il
-          avait pris la mauvaise habitude de tous ces défauts ; et une mauvaise habitude est bien difficile à
-          détruire. Ce n'est pas qu'il eût naturellement le cœur méchant. Il pleurait de dépit quand il avait
-          fait une faute, et il disait : je suis bien malheureux d'avoir à combattre tous les jours contre ma
-          colère et mon orgueil : si on m'avait corrigé quand j'étais jeune, je n'aurais pas tant de peine
-          aujourd'hui. Sa bague le piquait bien souvent, quelquefois il s'arrêtait tout court ; d'autres fois,
-          il continuait, et ce qu'il y avait de singulier, c'est qu'elle ne le piquait qu'un peu pour une
-          légère faute ; mais quand il était méchant, le sang sortait de son doigt. À la fin cela
-          l'impatienta, et voulant être mauvais tout à son aise, il jeta sa bague. Il se crut le plus heureux
-          de tous les hommes, quand il se fut débarrassé de ses piqûres. Il s'abandonna à toutes les sottises
-          qui lui venaient à l'esprit, en sorte qu'il devint très méchant, et que personne ne pouvait plus le
-          souffrir.
-    </p>
-    <p>
-     Un jour que Chéri était à la promenade, il vit une fille qui était si belle, qu'il résolut de
-          l'épouser. Elle se nommait
-     <hi rend="italic">
-      Zélie
-     </hi>
-     , et elle était aussi sage que belle. Chéri crut que Zélie se croirait
-          fort heureuse de devenir une grande reine ; mais, cette fille lui dit avec beaucoup de liberté :
-          Sire, je ne suis qu'une bergère, je n'ai point de fortune ; mais, malgré cela, je ne vous épouserai
-          jamais. Est-ce que je vous déplais ? lui demanda Chéri, un peu ému. Non, mon prince, lui répondit
-          Zélie. Je vous trouve tel que vous êtes, c'est-à-dire, fort beau, mais que me serviraient votre
-          beauté, vos richesses, les beaux habits, les carrosses magnifiques que vous me donneriez, si les
-          mauvaises actions, que je vous verrais chaque jour, me forçaient à vous mépriser et à vous haïr.
-          Chéri se mit fort en colère contre Zélie, et commanda à ses officiers de la conduire de force dans
-          son palais. Il fut occupé toute la journée du mépris que cette fille lui avait montré ; mais comme
-          il l'aimait, il ne pouvait se résoudre à la maltraiter. Parmi les favoris de Chéri, il y avait son
-          frère de lait, auquel il avait donné toute sa confiance. Cet homme, qui avait les inclinations aussi
-          basses que sa naissance, flattait les passions de son maître, et lui donnait de fort mauvais
-          conseils. Comme il vit Chéri fort triste, il lui demanda le sujet de son chagrin : le prince lui
-          ayant répondu qu'il ne pouvait souffrir le mépris de Zélie, et qu'il était résolu de se corriger de
-          ses défauts, puisqu'il fallait être vertueux pour lui plaire, ce méchant homme lui dit : Vous êtes
-          bien bon, de vouloir vous gêner pour une petite fille, si j'étais à votre place, ajouta-t-il, je la
-          forcerais bien à m'obéir. Souvenez-vous que vous êtes roi, et qu'il serait honteux de vous soumettre
-          aux volontés d'une bergère, qui serait trop heureuse d'être reçue parmi vos esclaves. Faites-la
-          jeûner au pain et à l'eau ; mettez-la dans une prison, et si elle continue à ne vouloir pas vous
-          épouser, faites-la mourir dans les tourmens, pour apprendre aux autres à céder à vos volontés. Vous
-          serez déshonoré si l'on sait qu'une simple fille vous résiste ; et tous vos sujets oublieront qu'ils
-          ne sont au monde que pour vous servir. Mais, dit Chéri, ne serai-je pas déshonoré, si je fais mourir
-          une innocente ? Car, enfin, Zélie n'est coupable d'aucun crime. On n'est point innocent, quand on
-          refuse d'exécuter vos volontés, reprit le confident : mais je suppose que vous commettiez une
-          injustice, il vaut bien mieux qu'on vous en accuse, que d'apprendre qu'il est quelquefois permis de
-          vous manquer de respect, et de vous contredire. Le courtisan prenait Chéri par son faible ; et la
-          crainte de voir diminuer son autorité, fit tant d'impression sur le roi, qu'il étouffa le bon
-          mouvement qui lui avait donné envie de se corriger. Il résolut d'aller le soir même dans la chambre
-          de la bergère, et de la maltraiter, si elle continuait à refuser de l'épouser. Le frère de lait de
-          Chéri, qui craignait encore quelque bon mouvement, rassembla trois jeunes seigneurs, aussi méchans
-          que lui, pour faire la débauche avec le roi, ils soupèrent ensemble, et ils eurent soin d'achever de
-          troubler la raison de ce pauvre prince, en le faisant boire beaucoup. Pendant le souper ils
-          excitèrent sa colère contre Zélie, et lui firent tant de honte de la faiblesse qu'il avait eue pour
-          elle, qu'il se leva comme un furieux, en jurant qu'il allait la faire obéir, ou qu'il la ferait
-          vendre le lendemain comme une esclave.
-    </p>
-    <p>
-     Chéri étant entré dans la chambre où était cette fille, fut bien surpris de ne la pas trouver ;
-          car il avait la clef dans sa poche. Il était dans une colère épouvantable, et jurait de se venger
-          sur tous ceux qu'il soupçonnerait d'avoir aidé Zélie à s'échapper. Ses confidents, l'entendant
-          parler ainsi, résolurent de profiter de sa colère, pour perdre un seigneur, qui avait été gouverneur
-          de Chéri. Cet honnête homme avait pris quelquefois la liberté d'avertir le roi de ses défauts, car
-          il l'aimait, comme si c'eût été son fils. D'abord Chéri le remerciait ; ensuite il s'impatienta
-          d'être contredit, et puis il pensa que c'était par esprit de contradiction que son gouverneur lui
-          trouvait des défauts, pendant que tout le monde lui donnait des louanges. Il lui commanda donc de se
-          retirer de la cour ; mais, malgré cet ordre, il disait de tems en tems que c'était un honnête homme,
-          qu'il ne l'aimait plus ; mais qu'il l'estimait, malgré lui-même. Les confidens craignaient toujours,
-          qu'il ne prit fantaisie au roi de rappeler son gouverneur, et ils crurent avoir trouvé une occasion
-          favorable pour se débarrasser de lui. Ils firent entendre au roi, que
-     <hi rend="italic">
-      Suliman
-     </hi>
-     (c'était le nom de ce digne homme) s'était vanté de rentre la liberté à Zélie. Trois hommes
-          corrompus par des présens dirent qu'ils avaient ouï tenir ce discours à Suliman ; et le prince,
-          transporté de colère, commanda à son frère de lait, d'envoyer des soldats pour lui amener son
-          gouverneur, enchaîné comme un criminel. Après avoir donné ces ordres, Chéri se retira dans sa
-          chambre : mais, à peine fut-il entré, que la terre trembla ; il fit un grand coup de tonnerre, et
-          Candide parut à ses yeux. J'avais promis à votre père, lui dit-elle, d'un ton sévère, de vous donner
-          des conseils, et de vous punir, si vous refusiez de les suivre : vous les avez méprisés, ces
-          conseils ; vous n'avez conservé que la figure d'homme, et vos crimes vous ont changé en un monstre,
-          l'horreur du ciel et de la terre. Il est tems que j'achève de satisfaire ma promesse, en vous
-          punissant. Je vous condamne à devenir semblable aux bêtes, dont vous avez pris les inclinations.
-          Vous vous êtes rendu semblable au lion, par la colère ; au loup, par la gourmandise ; au serpent, en
-          déchirant celui qui avait été votre second père ; au taureau, par votre brutalité. Portez dans votre
-          nouvelle figure, le caractère de tous ces animaux. À peine la fée avait-elle achevé ces paroles, que
-          Chéri se vit avec horreur tel qu'elle l'avait souhaité. Il avait la tête d'un lion, les cornes d'un
-          taureau, les pieds d'un loup, et la queue d'une vipère. En même temps, il se trouva dans une grande
-          forêt, sur le bord d'une fontaine, où il vit son horrible figure, et il entendit une voix qui lui
-          dit : Regarde attentivement l'état où tu t'es réduit par tes crimes. Ton âme est devenue mille fois
-          plus affreuse que ton corps. Chéri reconnut la voix de Candide, et dans sa fureur, il se retourna,
-          pour s'élancer sur elle, et la dévorer, s'il eût été possible ; mais il ne vit personne, et la même
-          voix lui dit : Je me moque de ta faiblesse et de ta rage. Je vais confondre ton orgueil, en te
-          mettant sous la puissance de tes propres sujets.
-    </p>
-    <p>
-     Chéri crut qu'en s'éloignant de cette fontaine, il trouverait du remède à ses maux, puisqu'il
-          n'aurait point devant ses yeux sa laideur et sa difformité : il s'avançait donc dans le bois, mais à
-          peine y eut-il fait quelques pas, qu'il tomba dans un trou, qu'on avait fait pour prendre les ours :
-          en même tems, des chasseurs qui étaient cachés sur des arbres, descendirent, et l'ayant enchaîné, le
-          conduisirent dans la ville capitale de son royaume. Pendant le chemin, au lieu de reconnaître qu'il
-          s'était attiré ce châtiment par sa faute, il maudissait la fée, il mordait ses chaînes, et
-          s'abandonnait à la rage. Lorsqu'il approcha de la ville, où on le conduisait, il vit de grandes
-          réjouissances, et les chasseurs ayant demandé ce qui était arrivé de nouveau, on leur dit que le
-          prince Chéri, qui ne se plaisait qu'à tourmenter son peuple, avait été écrasé dans sa chambre par un
-          coup de tonnerre, car on le croyait ainsi. Les dieux, ajouta-t-on, n'ont pu supporter l'excès de ses
-          méchancetés, ils en ont délivré la terre. Quatre seigneurs, complices de ses crimes, croyaient en
-          profiter et partager son empire entr'eux ; mais, le peuple, qui savait que c'étaient leurs mauvais
-          conseils qui avaient gâté le roi, les a mis en pièces, et a été offrir la couronne à Suliman que le
-          méchant Chéri voulait faire mourir. Ce digne Seigneur vient d'être couronné, et nous célébrons ce
-          jour comme celui de la délivrance du royaume ; car il est vertueux, et va ramener parmi nous la paix
-          et l'abondance. Chéri soupirait de rage en écoutant ce discours ; mais ce fut bien pis, lorsqu'il
-          arriva dans la grande place, qui était devant son palais. Il vit Suliman sur un trône superbe, et
-          tout le peuple qui lui souhaitait une longue vie, pour réparer tous les maux qu'avait faits son
-          prédécesseur. Suliman fit signe de la main pour demander silence, et il dit au peuple : « J'ai
-          accepté la couronne que vous m'avez offerte, mais c'est pour la conserver au prince Chéri : il n'est
-          point mort, comme vous le croyez, une fée me l'a révélé ; et peut-être qu'un jour vous le reverrez
-          vertueux, comme il était dans ses premières années. Hélas continua-t-il, en versant des larmes, les
-          flatteurs l'avaient séduit. Je connaissais son cœur ; il était fait pour la vertu, et, sans les
-          discours empoisonnés de ceux qui l'approchaient, il eût été votre père à tous. Détestez ses vices ;
-          mais plaignez-le, et prions tous ensemble les dieux qu'ils nous le rendent : pour moi, je
-          m'estimerais trop heureux d'arroser ce trône de mon sang, si je pouvais l'y voir remonter avec des
-          dispositions propres à le lui faire remplir dignement. »
-    </p>
-    <p>
-     Les paroles de Suliman allèrent jusqu'au cœur de Chéri. Il connut alors, combien l'attachement et
-          la fidélité de cet homme avaient été sincères, et se reprocha ses crimes pour la première fois. À
-          peine eut-il écouté ce bon mouvement, qu'il sentit calmer la rage dont il était animé : il réfléchit
-          sur tous les crimes de sa vie, et trouva qu'il n'était pas puni aussi rigoureusement qu'il l'avait
-          mérité. Il cessa donc de se débattre dans la cage de fer, où il était enchaîné, et devint doux comme
-          un mouton. On le conduisit dans une grande maison
-     <ref target="#N1"/>
-     où l'on gardait tous les monstres et les bêtes féroces, et on l'attacha avec les autres.
-    </p>
-    <p>
-     Chéri, alors, prit la résolution de commencer à réparer ses fautes, en se montrant bien obéissant
-          à l'homme qui le gardait. Cet homme était un brutal, et quoique le monstre fût fort doux, quand il
-          était de mauvaise humeur, il le battait sans crime, ni raison. Un jour que cet homme s'était
-          endormi, un tigre, qui avait rompu sa chaîne, se jeta sur lui pour le dévorer. D'abord Chéri sentit
-          un mouvement de joie, de voir qu'il allait être délivré de son persécuteur ; mais aussitôt il
-          condamna ce mouvement, et souhaita d'être libre. Je rendrais, dit-il, le bien pour le mal, en
-          sauvant la vie de ce malheureux. À peine eut-il formé ce souhait, qu'il vit sa cage de fer ouverte :
-          il s'élança aux côtés de cet homme, qui s'était réveillé, et qui se défendait contre le tigre. Le
-          gardien se crut perdu, lorsqu'il vit le monstre, mais sa crainte fut bientôt changée en joie : ce
-          monstre bienfaisant se jeta sur le tigre ; l'étrangla, et se coucha ensuite aux pieds de celui qu'il
-          venait de sauver. Cet homme, pénétré de reconnaissance, voulut se baisser pour caresser le monstre,
-          qui lui avait rendu un si grand service mais il entendit une voix qui disait :
-     <hi rend="italic">
-      Une bonne action ne demeure point sans récompense
-     </hi>
-     , et en même temps il ne vit
-          plus qu'un joli chien à ses pieds. Chéri, charmé de sa métamorphose, fit mille caresses à son
-          gardien, qui le prit entre ses bras, et le porta au roi, auquel il raconta cette merveille. La reine
-          voulut avoir le chien, et Chéri se fût trouvé heureux dans sa nouvelle condition, s'il eût pu
-          oublier qu'il était homme et roi. La reine l'accablait de caresses : mais dans la peur qu'elle
-          avait, qu'il ne devînt plus grand qu'il n'était, elle consulta ses médecins, qui lui dirent qu'il ne
-          fallait le nourrir que de pain, et ne lui en donner qu'une certaine quantité. Le pauvre Chéri
-          mourait de faim la moitié de la journée ; mais il fallait prendre patience.
-    </p>
-    <p>
-     Un jour, qu'on venait de lui donner son petit pain pour déjeuner, il lui prit fantaisie d'aller
-          le manger dans le jardin du palais ; il le prit dans sa gueule, et marcha vers un canal qu'il
-          connaissait, et qui était un peu éloigné ; mais il ne trouva plus ce canal, et vit à la place une
-          grande maison, dont les dehors brillaient d'or et de pierreries. Il y voyait entrer une grande
-          quantité d'hommes et de femmes, magnifiquement habillés ; on chantait, on dansait dans cette maison
-          ; on y faisait bonne chère ; mais tous ceux qui en sortaient, étaient pâles, maigres, couverts de
-          plaies, et presque tous nus, car leurs habits étaient déchirés par lambeaux. Quelques-uns tombaient
-          morts en sortant, sans avoir la force de se traîner plus loin ; d'autres s'éloignaient avec beaucoup
-          de peine ; d'autres restaient couchés contre terre, mourant de faim ; ils demandaient un morceau de
-          pain à ceux qui entraient dans cette maison ; mais ils ne les regardaient pas seulement. Chéri
-          s'approcha d'une jeune fille, qui tâchait d'arracher des herbes pour les manger : touché de
-          compassion, le prince dit en lui-même, j'ai bon appétit ; mais je ne mourrai pas de faim jusqu'au
-          tems de mon dîner ; si je sacrifiais mon déjeuner à cette pauvre créature, peut-être lui
-          sauverais-je la vie. Il résolut de suivre ce bon mouvement, et mit son pain dans la main de cette
-          fille, qui le porta à sa bouche avec avidité. Elle parut bientôt entièrement remise, et Chéri, ravi
-          de joie de l'avoir secourue si à-propos, pensait à retourner au palais, lorsqu'il entendit de grands
-          cris ; c'était Zélie entre les mains de quatre hommes, qui l'entraînaient vers cette belle maison,
-          où ils la forcèrent d'entrer. Chéri regretta alors sa figure de monstre, qui lui aurait donné les
-          moyens de secourir Zélie ; mais, faible chien, il ne put qu'aboyer contre ses ravisseurs, et
-          s'efforça de les suivre. On le chassa à coups de pied, et il résolut de ne point quitter ce lieu,
-          pour savoir ce que deviendrait Zélie. Il se reprochait les malheurs de cette belle fille. Hélas
-          disait-il en lui-même, je suis irrité contre ceux qui l'enlèvent ; n'ai-je pas commis le même crime
-          ? Et si la justice des dieux n'avait prévenu mon attentat, ne l'aurais-je pas traitée avec autant
-          d'indignité ?
-    </p>
-    <p>
-     Les réflexions de
-     <hi rend="italic">
-      Zizi
-     </hi>
-     furent interrompues par un bruit qui se faisait au-dessus de sa tête. Il vit qu'on ouvrait une
-          fenêtre, et sa joie fut extrême, lorsqu'il aperçut Zélie, qui jetait par cette fenêtre un plat plein
-          de viandes si bien apprêtées, qu'elles donnaient appétit à voir. On referma la fenêtre aussitôt, et
-          Chéri, qui n'avait pas mangé de toute la journée, crut qu'il devait profiter de l'occasion. Il
-          allait donc manger de ces viandes, lorsque la jeune fille, à laquelle il avait donné son pain, jeta
-          un cri, et l'ayant pris dans ses bras : « pauvre petit animal, lui dit-elle, ne touche point à ces
-          viandes, cette maison est le palais de la Volupté, tout ce qui en sort est empoisonné. » En même
-          tems, Chéri entendit une voix qui disait : « tu vois qu'une bonne action ne demeure point sans
-          récompense » ; et aussitôt il fut changé en un beau petit pigeon blanc. Il se souvint que cette
-          couleur était celle de Candide, et commença à espérer qu'elle pourrait enfin lui rendre ses bonnes
-          grâces. Il voulut d'abord s'approcher de Zélie, et s'étant élevé en l'air, il vola tout autour de la
-          maison, et vit avec joie qu'il y avait une fenêtre ouverte ; mais il eut beau parcourir toute la
-          maison, il n'y trouva point Zélie, et désespéré de sa perte, il résolut de ne point s'arrêter, qu'il
-          ne l'eût rencontrée. Il vola pendant plusieurs jours, et étant entré dans un désert, il vit une
-          caverne, de laquelle il s'approcha ; quelle fut sa joie Zélie y était assise à côté d'un vénérable
-          hermite, et prenait avec lui un frugal repas. Chéri, transporté, vola sur l'épaule de cette
-          charmante bergère, et exprimait, par ses caresses, le plaisir qu'il avait de la voir. Zélie, charmée
-          de la douceur de ce petit animal, le flattait doucement avec la main ; et, quoiqu'elle crût qu'il ne
-          pouvait l'entendre, elle lui dit qu'elle acceptait le don qu'il lui faisait de lui-même, et qu'elle
-          l'aimerait toujours. Qu'avez-vous fait, Zélie ? lui dit l'hermite, vous venez d'engager votre foi.
-          Oui, charmante bergère, lui dit Chéri, qui reprit à ce moment sa forme naturelle, la fin de ma
-          métamorphose était attachée au consentement que vous donneriez à notre union. Vous m'avez promis de
-          m'aimer toujours, confirmez mon bonheur, ou je vais conjurer la fée Candide, ma protectrice, de me
-          rendre la figure, sous laquelle j'ai eu le bonheur de vous plaire. Vous n'avez point à craindre son
-          inconstance, lui dit Candide, qui, quittant la forme de l'hermite, sous laquelle elle s'était
-          cachée, parut à leurs yeux telle qu'elle était en effet. Zélie vous aima aussitôt qu'elle vous vit ;
-          mais vos vices la contraignirent à vous cacher le penchant que vous lui aviez inspiré. Le changement
-          de votre cœur lui donne la liberté de se livrer à toute sa tendresse. Vous allez vivre heureux,
-          puisque votre union sera fondée sur la vertu.
-    </p>
-    <p>
-     Chéri et Zélie s'étaient jetés aux pieds de Candide. Le prince ne pouvait se lasser de la
-          remercier de ses bontés, et Zélie, enchantée d'apprendre que le prince détestait les égaremens, lui
-          confirmait l'aveu de sa tendresse. Levez-vous, mes enfans, leur dit la fée, je vais vous transporter
-          dans votre palais, pour rendre à Chéri une couronne, de laquelle ses vices l'avaient rendu indigne.
-          À peine eut-elle cessé de parler, qu'ils se trouvèrent dans la chambre de Suliman, qui charmé de
-          revoir son cher maître, devenu vertueux, lui abandonna le trône et resta le plus fidèle de ses
-          sujets. Chéri régna long-tems avec Zélie, et on dit qu'il s'appliqua tellement à ses devoirs, que la
-          bague qu'il avait reprise, ne le piqua pas une seule fois jusqu'au sang.
-    </p>
-   </div>
-  </body>
-  <back>
-   <div type="notes">
-    <note xml:id="N1">
-     Ménagerie.
-    </note>
-   </div>
-  </back>
- </text>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:56.19 wikidata:Q106165259"> Le Prince Chéri: MiMoText edition </title>
+                <author ref="viaf:31999252 wikidata:Q466788"> Jeanne-Marie Leprince de
+                    Beaumont(1711-1776) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> Wikisource contributors </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Henning Gebhard </name>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 4674 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2022 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Contes moraux pour l’instruction de la jeunesse: Le Prince Chéri </title>
+                    <ref
+                        target="https://fr.wikisource.org/wiki/Contes_moraux_pour_l%E2%80%99instruction_de_la_jeunesse/Le_Prince_Ch%C3%A9ri"/>
+                    <date> 2021 </date>
+                    <publisher> Wikisource </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Contes moraux pour l'instruction de la jeunesse </title>
+                    <author> Jeanne Marie Leprince de Beaumont </author>
+                    <pubPlace> Paris </pubPlace>
+                    <publisher> Barba </publisher>
+                    <date> 1806 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <title> Magasin des enfans </title>
+                    <date> 1756 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-x">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> heterodiegetic </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="F" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-01"> Initial ELTeC level 1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="titlepage">
+                <p> Le Prince Chéri </p>
+                <p> Jeanne Marie Leprince de Beaumont </p>
+                <p> Barba, Paris , 1806 </p>
+            </div>
+        </front>
+        <body>
+            <div type="chapter">
+                <head> LE PRINCE CHÉRI. </head>
+                <head> CONTE. </head>
+                <p> Il y avait une fois un roi qui était si honnête homme, que ses sujets
+                    l'appelaient le <hi rend="italic"> roi bon </hi> . Un jour qu'il était à la
+                    chasse, un petit lapin blanc, que les chiens allaient tuer, se jeta dans ses
+                    bras. Le roi caressa ce petit lapin, et dit : Puisqu'il s'est mis sous ma
+                    protection, je ne veux pas qu'on lui fasse du mal. Il porta ce petit lapin dans
+                    son palais, et il lui fit donner une jolie petite maison, et de bonnes herbes à
+                    manger. La nuit, quand il fut seul dans sa chambre, il vit paraître une belle
+                    dame ; elle n'avait point d'habits d'or, et d'argent ; mais sa robe était
+                    blanche comme la neige : et, au lieu de coiffure, elle avait une couronne de
+                    roses blanches sur sa tête. Le bon roi fut bien étonné de voir cette dame ; car
+                    sa porte était fermée, et il ne savait pas comment elle était entrée. Elle lui
+                    dit : Je suis la fée <hi rend="italic"> Candide </hi> ; je passais dans le bois
+                    pendant que vous chassiez, et j'ai voulu savoir si vous étiez bon, comme tout le
+                    monde le dit. Pour cela, j'ai pris la figure d'un petit lapin, et je me suis
+                    sauvée dans vos bras ; car je sais que ceux qui ont de la pitié pour les bêtes,
+                    en ont encore plus pour les hommes ; et, si vous m'aviez refusé votre secours,
+                    j'aurais cru que vous étiez méchant. Je viens vous remercier du bien que vous
+                    m'avez fait, et vous assurer que je serai toujours de vos amies. Vous n'avez
+                    qu'à me demander tout ce que vous voudrez, je vous promets de vous l'accorder. </p>
+                <p> Madame, dit le bon roi, puisque vous êtes une fée, vous devez savoir tout ce que
+                    je souhaite. Je n'ai qu'un fils, que j'aime beaucoup, et pour cela, on l'a nommé
+                    le prince <hi rend="italic"> Chéri </hi> ; si vous avez quelque bonté pour moi,
+                    devenez la bonne amie de mon fils. De bon cœur, lui dit la fée ; je puis rendre
+                    votre fils le plus beau prince du monde, ou le plus riche, ou le plus puissant ;
+                    choisissez ce que vous voudrez pour lui. Je ne désire rien de tout cela pour mon
+                    fils, répondit le bon roi ; mais je vous serai bien obligé, si vous voulez le
+                    rendre le meilleur de tous les princes. Que lui servirait-il d'être beau, riche,
+                    d'avoir tous les royaumes du monde, s'il était méchant ? Vous savez bien qu'il
+                    serait malheureux, et qu'il n'y a que la vertu qui puisse le rendre content.
+                    Vous avez raison, lui dit Candide ; mais il n'est pas en mon pouvoir de rendre
+                    le prince Chéri honnête homme malgré lui : il faut qu'il travaille lui-même à
+                    devenir vertueux. Tout ce que je puis vous promettre, c'est de lui donner de
+                    bons conseils, de le reprendre de ses fautes, et de le punir, s'il ne veut pas
+                    se corriger et se punir lui-même. </p>
+                <p> Le bon roi fut fort content de cette promesse, et il mourut peu de temps après.
+                    Le prince Chéri pleura beaucoup son père, car il l'aimait de tout son cœur, et
+                    il aurait donné tous ses royaumes, son or, et son argent pour le sauver ; mais
+                    cela n'était pas possible. </p>
+                <p> Deux jours après la mort du bon roi, Chéri étant couché, Candide lui apparut.
+                    J'ai promis à votre père, lui dit-elle, d'être de vos amies, et pour tenir ma
+                    parole, je viens vous faire un présent. En même tems elle mit au doigt de Chéri
+                    une petite bague d'or, et lui dit : gardez bien cette bague, elle est plus
+                    précieuse que les diamans ; toutes les fois que vous ferez une mauvaise action,
+                    elle vous piquera le doigt mais si, malgré sa piqûre, vous continuez cette
+                    mauvaise action, vous perdrez mon amitié, et je deviendrai votre ennemie. En
+                    finissant ces paroles, Candide disparut, et laissa Chéri fort étonné. Il fut
+                    quelque tems si sage, que la bague ne le piquait point du tout, et cela le
+                    rendait si content, qu'on ajouta au nom de Chéri qu'il portait, celui d' <hi
+                        rend="italic"> Heureux </hi> .Quelque tems après, il fut à la chasse, et il
+                    ne prit rien, ce qui le mit de mauvaise humeur : illui sembla alors que sa bague
+                    lui pressait un peu le doigt ; mais comme elle ne le piquait pas, iln'y fit pas
+                    beaucoup attention. En rentrant dans sa chambre, sa petite chienne Bibi vint à
+                    lui ensautant pour le caresser, il lui dit : retire-toi ; je ne suis plus
+                    d'humeur de recevoir tescaresses. La pauvre petite chienne, qui ne l'entendait
+                    pas, le tirait par son habit pour l'obliger àla regarder au moins. Cela
+                    impatienta Chéri, qui lui donna un grand coup de pied. Dans le moment labague le
+                    piqua, comme si c'eût été une épingle : il fut bien étonné, et s'assit tout
+                    honteux dans uncoin de sa chambre. Il disait en lui-même : je crois que la fée
+                    se moque de moi ; quel grand malai-je fait pour donner un coup de pied à un
+                    animal qui m'importune ? À quoi me sert d'être maîtred'un grand empire, puisque
+                    je n'ai pas la liberté de battre mon chien ? </p>
+                <p> Je ne me moque pas de vous, dit une voix, qui répondait à la pensée de Chéri,
+                    vous avez fait trois fautes, au lieu d'une. Vous avez été de mauvaise humeur,
+                    parce que vous n'aimez pas à être contredit, et que vous croyez que les bêtes et
+                    les hommes sont faits pour obéir. Vous vous êtes mis en colère, ce qui est fort
+                    mal ; et puis, vous avez été cruel à un pauvre animal qui ne méritait pas d'être
+                    maltraité. Je sais que vous êtes beaucoup au-dessus d'un chien ; mais si c'était
+                    une chose raisonnable et permise, que les grands pussent maltraiter tout ce qui
+                    est au-dessous d'eux, je pourrais à ce moment vous battre, vous tuer, puisqu'une
+                    fée est plus qu'un homme. L'avantage d'être maître d'un grand empire, ne
+                    consiste pas à pouvoir faire le mal qu'on veut, mais tout le bien qu'on peut.
+                    Chéri avoua sa faute, et promit de se corriger mais il ne tint pas sa parole. Il
+                    avait été élevé par une sotte nourrice qui l'avait gâté, quand il était petit.
+                    S'il voulait avoir une chose, il n'avait qu'à pleurer, se dépiter, frapper du
+                    pied ; cette femme lui donnait tout ce qu'il demandait, et cela l'avait rendu
+                    opiniâtre. Elle lui disait aussi, depuis le matin jusqu'au soir, qu'il serait
+                    roi un jour, et que les rois étaient fort heureux, parce que tous les hommes
+                    devaient leur obéir, les respecter, et qu'on ne pouvait pas les empêcher de
+                    faire ce qu'ils voulaient. Quand Chéri avait été grand garçon, et raisonnable,
+                    il avait bien connu, qu'il n'y avait rien de si vilain que d'être fier,
+                    orgueilleux, opiniâtre. Il avait fait quelques efforts pour se corriger ; mais
+                    il avait pris la mauvaise habitude de tous ces défauts ; et une mauvaise
+                    habitude est bien difficile à détruire. Ce n'est pas qu'il eût naturellement le
+                    cœur méchant. Il pleurait de dépit quand il avait fait une faute, et il disait :
+                    je suis bien malheureux d'avoir à combattre tous les jours contre ma colère et
+                    mon orgueil : si on m'avait corrigé quand j'étais jeune, je n'aurais pas tant de
+                    peine aujourd'hui. Sa bague le piquait bien souvent, quelquefois il s'arrêtait
+                    tout court ; d'autres fois, il continuait, et ce qu'il y avait de singulier,
+                    c'est qu'elle ne le piquait qu'un peu pour une légère faute ; mais quand il
+                    était méchant, le sang sortait de son doigt. À la fin cela l'impatienta, et
+                    voulant être mauvais tout à son aise, il jeta sa bague. Il se crut le plus
+                    heureux de tous les hommes, quand il se fut débarrassé de ses piqûres. Il
+                    s'abandonna à toutes les sottises qui lui venaient à l'esprit, en sorte qu'il
+                    devint très méchant, et que personne ne pouvait plus le souffrir. </p>
+                <p> Un jour que Chéri était à la promenade, il vit une fille qui était si belle,
+                    qu'il résolut de l'épouser. Elle se nommait <hi rend="italic"> Zélie </hi> , et
+                    elle était aussi sage que belle. Chéri crut que Zélie se croirait fort heureuse
+                    de devenir une grande reine ; mais, cette fille lui dit avec beaucoup de liberté
+                    : Sire, je ne suis qu'une bergère, je n'ai point de fortune ; mais, malgré cela,
+                    je ne vous épouserai jamais. Est-ce que je vous déplais ? lui demanda Chéri, un
+                    peu ému. Non, mon prince, lui répondit Zélie. Je vous trouve tel que vous êtes,
+                    c'est-à-dire, fort beau, mais que me serviraient votre beauté, vos richesses,
+                    les beaux habits, les carrosses magnifiques que vous me donneriez, si les
+                    mauvaises actions, que je vous verrais chaque jour, me forçaient à vous mépriser
+                    et à vous haïr. Chéri se mit fort en colère contre Zélie, et commanda à ses
+                    officiers de la conduire de force dans son palais. Il fut occupé toute la
+                    journée du mépris que cette fille lui avait montré ; mais comme il l'aimait, il
+                    ne pouvait se résoudre à la maltraiter. Parmi les favoris de Chéri, il y avait
+                    son frère de lait, auquel il avait donné toute sa confiance. Cet homme, qui
+                    avait les inclinations aussi basses que sa naissance, flattait les passions de
+                    son maître, et lui donnait de fort mauvais conseils. Comme il vit Chéri fort
+                    triste, il lui demanda le sujet de son chagrin : le prince lui ayant répondu
+                    qu'il ne pouvait souffrir le mépris de Zélie, et qu'il était résolu de se
+                    corriger de ses défauts, puisqu'il fallait être vertueux pour lui plaire, ce
+                    méchant homme lui dit : Vous êtes bien bon, de vouloir vous gêner pour une
+                    petite fille, si j'étais à votre place, ajouta-t-il, je la forcerais bien à
+                    m'obéir. Souvenez-vous que vous êtes roi, et qu'il serait honteux de vous
+                    soumettre aux volontés d'une bergère, qui serait trop heureuse d'être reçue
+                    parmi vos esclaves. Faites-la jeûner au pain et à l'eau ; mettez-la dans une
+                    prison, et si elle continue à ne vouloir pas vous épouser, faites-la mourir dans
+                    les tourmens, pour apprendre aux autres à céder à vos volontés. Vous serez
+                    déshonoré si l'on sait qu'une simple fille vous résiste ; et tous vos sujets
+                    oublieront qu'ils ne sont au monde que pour vous servir. Mais, dit Chéri, ne
+                    serai-je pas déshonoré, si je fais mourir une innocente ? Car, enfin, Zélie
+                    n'est coupable d'aucun crime. On n'est point innocent, quand on refuse
+                    d'exécuter vos volontés, reprit le confident : mais je suppose que vous
+                    commettiez une injustice, il vaut bien mieux qu'on vous en accuse, que
+                    d'apprendre qu'il est quelquefois permis de vous manquer de respect, et de vous
+                    contredire. Le courtisan prenait Chéri par son faible ; et la crainte de voir
+                    diminuer son autorité, fit tant d'impression sur le roi, qu'il étouffa le bon
+                    mouvement qui lui avait donné envie de se corriger. Il résolut d'aller le soir
+                    même dans la chambre de la bergère, et de la maltraiter, si elle continuait à
+                    refuser de l'épouser. Le frère de lait de Chéri, qui craignait encore quelque
+                    bon mouvement, rassembla trois jeunes seigneurs, aussi méchans que lui, pour
+                    faire la débauche avec le roi, ils soupèrent ensemble, et ils eurent soin
+                    d'achever de troubler la raison de ce pauvre prince, en le faisant boire
+                    beaucoup. Pendant le souper ils excitèrent sa colère contre Zélie, et lui firent
+                    tant de honte de la faiblesse qu'il avait eue pour elle, qu'il se leva comme un
+                    furieux, en jurant qu'il allait la faire obéir, ou qu'il la ferait vendre le
+                    lendemain comme une esclave. </p>
+                <p> Chéri étant entré dans la chambre où était cette fille, fut bien surpris de ne
+                    la pas trouver ; car il avait la clef dans sa poche. Il était dans une colère
+                    épouvantable, et jurait de se venger sur tous ceux qu'il soupçonnerait d'avoir
+                    aidé Zélie à s'échapper. Ses confidents, l'entendant parler ainsi, résolurent de
+                    profiter de sa colère, pour perdre un seigneur, qui avait été gouverneur de
+                    Chéri. Cet honnête homme avait pris quelquefois la liberté d'avertir le roi de
+                    ses défauts, car il l'aimait, comme si c'eût été son fils. D'abord Chéri le
+                    remerciait ; ensuite il s'impatienta d'être contredit, et puis il pensa que
+                    c'était par esprit de contradiction que son gouverneur lui trouvait des défauts,
+                    pendant que tout le monde lui donnait des louanges. Il lui commanda donc de se
+                    retirer de la cour ; mais, malgré cet ordre, il disait de tems en tems que
+                    c'était un honnête homme, qu'il ne l'aimait plus ; mais qu'il l'estimait, malgré
+                    lui-même. Les confidens craignaient toujours, qu'il ne prit fantaisie au roi de
+                    rappeler son gouverneur, et ils crurent avoir trouvé une occasion favorable pour
+                    se débarrasser de lui. Ils firent entendre au roi, que <hi rend="italic">
+                        Suliman </hi> (c'était le nom de ce digne homme) s'était vanté de rentre la
+                    liberté à Zélie. Trois hommes corrompus par des présens dirent qu'ils avaient
+                    ouï tenir ce discours à Suliman ; et le prince, transporté de colère, commanda à
+                    son frère de lait, d'envoyer des soldats pour lui amener son gouverneur,
+                    enchaîné comme un criminel. Après avoir donné ces ordres, Chéri se retira dans
+                    sa chambre : mais, à peine fut-il entré, que la terre trembla ; il fit un grand
+                    coup de tonnerre, et Candide parut à ses yeux. J'avais promis à votre père, lui
+                    dit-elle, d'un ton sévère, de vous donner des conseils, et de vous punir, si
+                    vous refusiez de les suivre : vous les avez méprisés, ces conseils ; vous n'avez
+                    conservé que la figure d'homme, et vos crimes vous ont changé en un monstre,
+                    l'horreur du ciel et de la terre. Il est tems que j'achève de satisfaire ma
+                    promesse, en vous punissant. Je vous condamne à devenir semblable aux bêtes,
+                    dont vous avez pris les inclinations. Vous vous êtes rendu semblable au lion,
+                    par la colère ; au loup, par la gourmandise ; au serpent, en déchirant celui qui
+                    avait été votre second père ; au taureau, par votre brutalité. Portez dans votre
+                    nouvelle figure, le caractère de tous ces animaux. À peine la fée avait-elle
+                    achevé ces paroles, que Chéri se vit avec horreur tel qu'elle l'avait souhaité.
+                    Il avait la tête d'un lion, les cornes d'un taureau, les pieds d'un loup, et la
+                    queue d'une vipère. En même temps, il se trouva dans une grande forêt, sur le
+                    bord d'une fontaine, où il vit son horrible figure, et il entendit une voix qui
+                    lui dit : Regarde attentivement l'état où tu t'es réduit par tes crimes. Ton âme
+                    est devenue mille fois plus affreuse que ton corps. Chéri reconnut la voix de
+                    Candide, et dans sa fureur, il se retourna, pour s'élancer sur elle, et la
+                    dévorer, s'il eût été possible ; mais il ne vit personne, et la même voix lui
+                    dit : Je me moque de ta faiblesse et de ta rage. Je vais confondre ton orgueil,
+                    en te mettant sous la puissance de tes propres sujets. </p>
+                <p> Chéri crut qu'en s'éloignant de cette fontaine, il trouverait du remède à ses
+                    maux, puisqu'il n'aurait point devant ses yeux sa laideur et sa difformité : il
+                    s'avançait donc dans le bois, mais à peine y eut-il fait quelques pas, qu'il
+                    tomba dans un trou, qu'on avait fait pour prendre les ours : en même tems, des
+                    chasseurs qui étaient cachés sur des arbres, descendirent, et l'ayant enchaîné,
+                    le conduisirent dans la ville capitale de son royaume. Pendant le chemin, au
+                    lieu de reconnaître qu'il s'était attiré ce châtiment par sa faute, il
+                    maudissait la fée, il mordait ses chaînes, et s'abandonnait à la rage. Lorsqu'il
+                    approcha de la ville, où on le conduisait, il vit de grandes réjouissances, et
+                    les chasseurs ayant demandé ce qui était arrivé de nouveau, on leur dit que le
+                    prince Chéri, qui ne se plaisait qu'à tourmenter son peuple, avait été écrasé
+                    dans sa chambre par un coup de tonnerre, car on le croyait ainsi. Les dieux,
+                    ajouta-t-on, n'ont pu supporter l'excès de ses méchancetés, ils en ont délivré
+                    la terre. Quatre seigneurs, complices de ses crimes, croyaient en profiter et
+                    partager son empire entr'eux ; mais, le peuple, qui savait que c'étaient leurs
+                    mauvais conseils qui avaient gâté le roi, les a mis en pièces, et a été offrir
+                    la couronne à Suliman que le méchant Chéri voulait faire mourir. Ce digne
+                    Seigneur vient d'être couronné, et nous célébrons ce jour comme celui de la
+                    délivrance du royaume ; car il est vertueux, et va ramener parmi nous la paix et
+                    l'abondance. Chéri soupirait de rage en écoutant ce discours ; mais ce fut bien
+                    pis, lorsqu'il arriva dans la grande place, qui était devant son palais. Il vit
+                    Suliman sur un trône superbe, et tout le peuple qui lui souhaitait une longue
+                    vie, pour réparer tous les maux qu'avait faits son prédécesseur. Suliman fit
+                    signe de la main pour demander silence, et il dit au peuple : « J'ai accepté la
+                    couronne que vous m'avez offerte, mais c'est pour la conserver au prince Chéri :
+                    il n'est point mort, comme vous le croyez, une fée me l'a révélé ; et peut-être
+                    qu'un jour vous le reverrez vertueux, comme il était dans ses premières années.
+                    Hélas continua-t-il, en versant des larmes, les flatteurs l'avaient séduit. Je
+                    connaissais son cœur ; il était fait pour la vertu, et, sans les discours
+                    empoisonnés de ceux qui l'approchaient, il eût été votre père à tous. Détestez
+                    ses vices ; mais plaignez-le, et prions tous ensemble les dieux qu'ils nous le
+                    rendent : pour moi, je m'estimerais trop heureux d'arroser ce trône de mon sang,
+                    si je pouvais l'y voir remonter avec des dispositions propres à le lui faire
+                    remplir dignement. » </p>
+                <p> Les paroles de Suliman allèrent jusqu'au cœur de Chéri. Il connut alors, combien
+                    l'attachement et la fidélité de cet homme avaient été sincères, et se reprocha
+                    ses crimes pour la première fois. À peine eut-il écouté ce bon mouvement, qu'il
+                    sentit calmer la rage dont il était animé : il réfléchit sur tous les crimes de
+                    sa vie, et trouva qu'il n'était pas puni aussi rigoureusement qu'il l'avait
+                    mérité. Il cessa donc de se débattre dans la cage de fer, où il était enchaîné,
+                    et devint doux comme un mouton. On le conduisit dans une grande maison <ref
+                        target="#N1"/> où l'on gardait tous les monstres et les bêtes féroces, et on
+                    l'attacha avec les autres. </p>
+                <p> Chéri, alors, prit la résolution de commencer à réparer ses fautes, en se
+                    montrant bien obéissant à l'homme qui le gardait. Cet homme était un brutal, et
+                    quoique le monstre fût fort doux, quand il était de mauvaise humeur, il le
+                    battait sans crime, ni raison. Un jour que cet homme s'était endormi, un tigre,
+                    qui avait rompu sa chaîne, se jeta sur lui pour le dévorer. D'abord Chéri sentit
+                    un mouvement de joie, de voir qu'il allait être délivré de son persécuteur ;
+                    mais aussitôt il condamna ce mouvement, et souhaita d'être libre. Je rendrais,
+                    dit-il, le bien pour le mal, en sauvant la vie de ce malheureux. À peine eut-il
+                    formé ce souhait, qu'il vit sa cage de fer ouverte : il s'élança aux côtés de
+                    cet homme, qui s'était réveillé, et qui se défendait contre le tigre. Le gardien
+                    se crut perdu, lorsqu'il vit le monstre, mais sa crainte fut bientôt changée en
+                    joie : ce monstre bienfaisant se jeta sur le tigre ; l'étrangla, et se coucha
+                    ensuite aux pieds de celui qu'il venait de sauver. Cet homme, pénétré de
+                    reconnaissance, voulut se baisser pour caresser le monstre, qui lui avait rendu
+                    un si grand service mais il entendit une voix qui disait : <hi rend="italic">
+                        Une bonne action ne demeure point sans récompense </hi> , et en même temps
+                    il ne vit plus qu'un joli chien à ses pieds. Chéri, charmé de sa métamorphose,
+                    fit mille caresses à son gardien, qui le prit entre ses bras, et le porta au
+                    roi, auquel il raconta cette merveille. La reine voulut avoir le chien, et Chéri
+                    se fût trouvé heureux dans sa nouvelle condition, s'il eût pu oublier qu'il
+                    était homme et roi. La reine l'accablait de caresses : mais dans la peur qu'elle
+                    avait, qu'il ne devînt plus grand qu'il n'était, elle consulta ses médecins, qui
+                    lui dirent qu'il ne fallait le nourrir que de pain, et ne lui en donner qu'une
+                    certaine quantité. Le pauvre Chéri mourait de faim la moitié de la journée ;
+                    mais il fallait prendre patience. </p>
+                <p> Un jour, qu'on venait de lui donner son petit pain pour déjeuner, il lui prit
+                    fantaisie d'aller le manger dans le jardin du palais ; il le prit dans sa
+                    gueule, et marcha vers un canal qu'il connaissait, et qui était un peu éloigné ;
+                    mais il ne trouva plus ce canal, et vit à la place une grande maison, dont les
+                    dehors brillaient d'or et de pierreries. Il y voyait entrer une grande quantité
+                    d'hommes et de femmes, magnifiquement habillés ; on chantait, on dansait dans
+                    cette maison ; on y faisait bonne chère ; mais tous ceux qui en sortaient,
+                    étaient pâles, maigres, couverts de plaies, et presque tous nus, car leurs
+                    habits étaient déchirés par lambeaux. Quelques-uns tombaient morts en sortant,
+                    sans avoir la force de se traîner plus loin ; d'autres s'éloignaient avec
+                    beaucoup de peine ; d'autres restaient couchés contre terre, mourant de faim ;
+                    ils demandaient un morceau de pain à ceux qui entraient dans cette maison ; mais
+                    ils ne les regardaient pas seulement. Chéri s'approcha d'une jeune fille, qui
+                    tâchait d'arracher des herbes pour les manger : touché de compassion, le prince
+                    dit en lui-même, j'ai bon appétit ; mais je ne mourrai pas de faim jusqu'au tems
+                    de mon dîner ; si je sacrifiais mon déjeuner à cette pauvre créature, peut-être
+                    lui sauverais-je la vie. Il résolut de suivre ce bon mouvement, et mit son pain
+                    dans la main de cette fille, qui le porta à sa bouche avec avidité. Elle parut
+                    bientôt entièrement remise, et Chéri, ravi de joie de l'avoir secourue si
+                    à-propos, pensait à retourner au palais, lorsqu'il entendit de grands cris ;
+                    c'était Zélie entre les mains de quatre hommes, qui l'entraînaient vers cette
+                    belle maison, où ils la forcèrent d'entrer. Chéri regretta alors sa figure de
+                    monstre, qui lui aurait donné les moyens de secourir Zélie ; mais, faible chien,
+                    il ne put qu'aboyer contre ses ravisseurs, et s'efforça de les suivre. On le
+                    chassa à coups de pied, et il résolut de ne point quitter ce lieu, pour savoir
+                    ce que deviendrait Zélie. Il se reprochait les malheurs de cette belle fille.
+                    Hélas disait-il en lui-même, je suis irrité contre ceux qui l'enlèvent ; n'ai-je
+                    pas commis le même crime ? Et si la justice des dieux n'avait prévenu mon
+                    attentat, ne l'aurais-je pas traitée avec autant d'indignité ? </p>
+                <p> Les réflexions de <hi rend="italic"> Zizi </hi> furent interrompues par un bruit
+                    qui se faisait au-dessus de sa tête. Il vit qu'on ouvrait une fenêtre, et sa
+                    joie fut extrême, lorsqu'il aperçut Zélie, qui jetait par cette fenêtre un plat
+                    plein de viandes si bien apprêtées, qu'elles donnaient appétit à voir. On
+                    referma la fenêtre aussitôt, et Chéri, qui n'avait pas mangé de toute la
+                    journée, crut qu'il devait profiter de l'occasion. Il allait donc manger de ces
+                    viandes, lorsque la jeune fille, à laquelle il avait donné son pain, jeta un
+                    cri, et l'ayant pris dans ses bras : « pauvre petit animal, lui dit-elle, ne
+                    touche point à ces viandes, cette maison est le palais de la Volupté, tout ce
+                    qui en sort est empoisonné. » En même tems, Chéri entendit une voix qui disait :
+                    « tu vois qu'une bonne action ne demeure point sans récompense » ; et aussitôt
+                    il fut changé en un beau petit pigeon blanc. Il se souvint que cette couleur
+                    était celle de Candide, et commença à espérer qu'elle pourrait enfin lui rendre
+                    ses bonnes grâces. Il voulut d'abord s'approcher de Zélie, et s'étant élevé en
+                    l'air, il vola tout autour de la maison, et vit avec joie qu'il y avait une
+                    fenêtre ouverte ; mais il eut beau parcourir toute la maison, il n'y trouva
+                    point Zélie, et désespéré de sa perte, il résolut de ne point s'arrêter, qu'il
+                    ne l'eût rencontrée. Il vola pendant plusieurs jours, et étant entré dans un
+                    désert, il vit une caverne, de laquelle il s'approcha ; quelle fut sa joie Zélie
+                    y était assise à côté d'un vénérable hermite, et prenait avec lui un frugal
+                    repas. Chéri, transporté, vola sur l'épaule de cette charmante bergère, et
+                    exprimait, par ses caresses, le plaisir qu'il avait de la voir. Zélie, charmée
+                    de la douceur de ce petit animal, le flattait doucement avec la main ; et,
+                    quoiqu'elle crût qu'il ne pouvait l'entendre, elle lui dit qu'elle acceptait le
+                    don qu'il lui faisait de lui-même, et qu'elle l'aimerait toujours. Qu'avez-vous
+                    fait, Zélie ? lui dit l'hermite, vous venez d'engager votre foi. Oui, charmante
+                    bergère, lui dit Chéri, qui reprit à ce moment sa forme naturelle, la fin de ma
+                    métamorphose était attachée au consentement que vous donneriez à notre union.
+                    Vous m'avez promis de m'aimer toujours, confirmez mon bonheur, ou je vais
+                    conjurer la fée Candide, ma protectrice, de me rendre la figure, sous laquelle
+                    j'ai eu le bonheur de vous plaire. Vous n'avez point à craindre son inconstance,
+                    lui dit Candide, qui, quittant la forme de l'hermite, sous laquelle elle s'était
+                    cachée, parut à leurs yeux telle qu'elle était en effet. Zélie vous aima
+                    aussitôt qu'elle vous vit ; mais vos vices la contraignirent à vous cacher le
+                    penchant que vous lui aviez inspiré. Le changement de votre cœur lui donne la
+                    liberté de se livrer à toute sa tendresse. Vous allez vivre heureux, puisque
+                    votre union sera fondée sur la vertu. </p>
+                <p> Chéri et Zélie s'étaient jetés aux pieds de Candide. Le prince ne pouvait se
+                    lasser de la remercier de ses bontés, et Zélie, enchantée d'apprendre que le
+                    prince détestait les égaremens, lui confirmait l'aveu de sa tendresse.
+                    Levez-vous, mes enfans, leur dit la fée, je vais vous transporter dans votre
+                    palais, pour rendre à Chéri une couronne, de laquelle ses vices l'avaient rendu
+                    indigne. À peine eut-elle cessé de parler, qu'ils se trouvèrent dans la chambre
+                    de Suliman, qui charmé de revoir son cher maître, devenu vertueux, lui abandonna
+                    le trône et resta le plus fidèle de ses sujets. Chéri régna long-tems avec
+                    Zélie, et on dit qu'il s'appliqua tellement à ses devoirs, que la bague qu'il
+                    avait reprise, ne le piqua pas une seule fois jusqu'au sang. </p>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="N1"> Ménagerie. </note>
+            </div>
+        </back>
+    </text>
 </TEI>

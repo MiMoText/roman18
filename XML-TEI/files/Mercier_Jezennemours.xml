@@ -2,145 +2,88 @@
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../Schemas/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Mercier_Jezennemours" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:76.36 wikidata:0">
-     Jezennemours: MiMoText edition
-    </title>
-    <author ref="viaf:36921956 wikidata:Q709670">
-     Louis-Sébastien Mercier(1740-1814)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      frantext
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     78873
-    </measure>
-    <measure unit="vols">
-     2
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2020
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Jezennemours : roman dramatique
-     </title>
-     <ref target="https://www.frantext.fr/"/>
-     <date>
-      unknown
-     </date>
-     <publisher>
-      Frantext
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Jezennemours : roman dramatique
-     </title>
-     <author>
-      Louis-Sébastien Mercier
-     </author>
-     <pubPlace>
-      unknown
-     </pubPlace>
-     <publisher>
-      unknown
-     </publisher>
-     <date>
-      1776
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1776
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-1">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      mixed
-     </term>
-     <term type="spelling">
-      historical
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2021-01-25">
-    Initital ELTeC level-1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="group">
-    <div type="chapter">
-     <head>
-      CHAPITRE 1
-     </head>
-     <p>
-      <hi rend="italic">
-       grave et trop long entretien entre deux personnages bien
-                            différens de caractere.
-      </hi>
-      la nuit avoit entiérement déployé ses
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:76.36 wikidata:0"> Jezennemours: MiMoText edition </title>
+                <author ref="viaf:36921956 wikidata:Q709670"> Louis-Sébastien Mercier(1740-1814) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> frantext </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 78873 </measure>
+                <measure unit="vols"> 2 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2020 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Jezennemours : roman dramatique </title>
+                    <ref target="https://www.frantext.fr/"/>
+                    <date> unknown </date>
+                    <publisher> Frantext </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Jezennemours : roman dramatique </title>
+                    <author> Louis-Sébastien Mercier </author>
+                    <pubPlace> unknown </pubPlace>
+                    <publisher> unknown </publisher>
+                    <date> 1776 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1776 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> mixed </term>
+                    <term type="spelling"> historical </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="medium" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-01-25"> Initital ELTeC level-1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="group">
+                <div type="chapter">
+                    <head> CHAPITRE 1 </head>
+                    <p>
+                        <hi rend="italic"> grave et trop long entretien entre deux personnages bien
+                            différens de caractere. </hi> la nuit avoit entiérement déployé ses
                         voiles. Plusieurs flambeaux, artistement distribués, éclairoient la superbe
                         maison de Monval; et les feux multipliés de cinq lustres de crystal,
                         suspendus et mariés ensemble, rendoient son salon plus lumineux qu'en plein
@@ -210,11 +153,8 @@
                         agréables les uns que les autres.-tu t'estimes ainsi fort heureux?-j' espere
                         le devenir un jour; et sans cette espérance qui m'anime et me console, je ne
                         regarderois point mon existence présente comme un bien.-tu m'as l'air
-                        d'avoir rencontré sous une de ces charmilles, le secret des
-      <hi rend="italic">
-       choses intellectuelles
-      </hi>
-      ; n'est-ce point-là
+                        d'avoir rencontré sous une de ces charmilles, le secret des <hi
+                            rend="italic"> choses intellectuelles </hi> ; n'est-ce point-là
                         l'expression dont tu te sers? Et puisque tu le sais, ce secret, fais m'en
                         part de grace.-je ne vous entends point.-je serai plus intelligible, mon
                         pauvre Jezennemours. Il est tems enfin de nous expliquer ensemble; car je
@@ -377,47 +317,45 @@
                         principes sur lesquels vous fondez toute votre conduite; elle vous donne la
                         boussole des bonnes-moeurs, nourrit en vous cette vertu qui honore
                         l'humanité, met un frein au desordre qu'entraînent les desirs; sans doute
-                        elle éleve, elle perfectionne votre ame, elle lui découvre de grandes et d'importantes vérités!-que de grandsmots vuides de sens! Ecoute, Jezennemours,
-                        j'ai trop longtems prêté l'oreille à tes déraisonnemens; un fromage glacé
-                        m'appelle. Ton esprit subtil et faux, bâtit un édifice où il se plaît à
-                        habiter seul. Tu t'enfonces dans des rêves fantastiques qui t'abusent et te
-                        dérobent le véritable état de ce monde. C'est ainsi qu'un aveugle né se
-                        représente un jardin, d'après les prestiges de son imagination. Je te
-                        plains, Jezennemours; ta figure et tes talens te destinoient à tous les
-                        plaisirs qu'un jeune-homme peut goûter; mais ta façon de penser te rendra
-                        ridicule; je t'en avertis. Dans ce monde, que tu connois aussi peu que tu en
-                        es connu, tu ressembles à un habitant de la lune qui auroit fait un grand
-                        saut sur notre globe. Voyageur dans les espaces imaginaires, étranger aux
-                        usages les plus communs; comment peut-on converser avec un homme qui voit
-                        des esprits; qui, dans la conversation, les fait descendre à chaque mot; qui
-                        refléchit au clair de la lune, tandis que l'on boit le champagne; qui
-                        s'extasie sur les beautés d'un autre monde, tandis qu'il oublie celui où il
-                        est, et où il pourroit jouir? Crois-moi, Jezennemours, tu as lu ton Platon,
-                        et moi j'ai lu dans le livre du monde; tu as étudié le grec, moi j'ai l'expérience de la société. Celle-ci en sait plus que toutes les langues et
-                        les volumes antiques. La philosophie est bonne pour amuser quelques instans;
-                        mais sa pratique est folle; ses sectateurs eux-mêmes n'en font, dit-on,
-                        qu'un jeu; et hors du cabinet, ils redeviennent fort sensuels. Au milieu de
-                        tous les désordres de ton imagination, j'ai néanmoins reconnu en toi un
-                        esprit assez juste; tu ne tarderas pas à nous suivre, à être des nôtres, à
-                        abjurer cette fantaisie méditative, fille de la solitude. Je teréponds que
-                        dans peu de tems, tu te livreras à des plaisirs plus réels; tu sentiras que
-                        la faim ne se rassasie point de repas imaginaires. Le tems saura te
-                        convaincre, et tu verras qu'il n'y a rien de plus solide que la volupté,
-                        qu'elle est nécessaire à l'homme... mais voici le tems du sommeil; je me
-                        sens tomber mollement dans ses bras; les douces fumées de la table
-                        brouillent un peu mes idées. Tes rêves m'y ont disposé... adieu... à demain;
-                        ne manque point de venir me trouver à mon réveil.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 2
-     </head>
-     <p>
-      <hi rend="italic">
-       tentatives inutiles; ou-bien elle en sera pour ses frais.
-      </hi>
-      un lecteur qui connoît les hommes, ne doutera pas que de pareils
+                        elle éleve, elle perfectionne votre ame, elle lui découvre de grandes et
+                        d'importantes vérités!-que de grandsmots vuides de sens! Ecoute,
+                        Jezennemours, j'ai trop longtems prêté l'oreille à tes déraisonnemens; un
+                        fromage glacé m'appelle. Ton esprit subtil et faux, bâtit un édifice où il
+                        se plaît à habiter seul. Tu t'enfonces dans des rêves fantastiques qui
+                        t'abusent et te dérobent le véritable état de ce monde. C'est ainsi qu'un
+                        aveugle né se représente un jardin, d'après les prestiges de son
+                        imagination. Je te plains, Jezennemours; ta figure et tes talens te
+                        destinoient à tous les plaisirs qu'un jeune-homme peut goûter; mais ta façon
+                        de penser te rendra ridicule; je t'en avertis. Dans ce monde, que tu connois
+                        aussi peu que tu en es connu, tu ressembles à un habitant de la lune qui
+                        auroit fait un grand saut sur notre globe. Voyageur dans les espaces
+                        imaginaires, étranger aux usages les plus communs; comment peut-on converser
+                        avec un homme qui voit des esprits; qui, dans la conversation, les fait
+                        descendre à chaque mot; qui refléchit au clair de la lune, tandis que l'on
+                        boit le champagne; qui s'extasie sur les beautés d'un autre monde, tandis
+                        qu'il oublie celui où il est, et où il pourroit jouir? Crois-moi,
+                        Jezennemours, tu as lu ton Platon, et moi j'ai lu dans le livre du monde; tu
+                        as étudié le grec, moi j'ai l'expérience de la société. Celle-ci en sait
+                        plus que toutes les langues et les volumes antiques. La philosophie est
+                        bonne pour amuser quelques instans; mais sa pratique est folle; ses
+                        sectateurs eux-mêmes n'en font, dit-on, qu'un jeu; et hors du cabinet, ils
+                        redeviennent fort sensuels. Au milieu de tous les désordres de ton
+                        imagination, j'ai néanmoins reconnu en toi un esprit assez juste; tu ne
+                        tarderas pas à nous suivre, à être des nôtres, à abjurer cette fantaisie
+                        méditative, fille de la solitude. Je teréponds que dans peu de tems, tu te
+                        livreras à des plaisirs plus réels; tu sentiras que la faim ne se rassasie
+                        point de repas imaginaires. Le tems saura te convaincre, et tu verras qu'il
+                        n'y a rien de plus solide que la volupté, qu'elle est nécessaire à
+                        l'homme... mais voici le tems du sommeil; je me sens tomber mollement dans
+                        ses bras; les douces fumées de la table brouillent un peu mes idées. Tes
+                        rêves m'y ont disposé... adieu... à demain; ne manque point de venir me
+                        trouver à mon réveil. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 2 </head>
+                    <p>
+                        <hi rend="italic"> tentatives inutiles; ou-bien elle en sera pour ses frais.
+                        </hi> un lecteur qui connoît les hommes, ne doutera pas que de pareils
                         discours ne fussent capables de faire une impression profonde sur l'ame d'un
                         jeune-homme. Jezennemours étoit dans cet âge où l'on cherche la vérité de
                         bonne foi, où l'on pese les différentes objections, où le jugement n'est pas
@@ -510,18 +448,13 @@
                         original; aussi-bien cela me servira de passe-tems. Je ferai de plus une
                         expérience sur ce qu'on appelle un philosophe; s'il résiste aux derniers
                         piéges que je lui tendrai, alors je croirai à la sagesse... mais, nous
-                        verrons.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 3
-     </head>
-     <p>
-      <hi rend="italic">
-       nouveau personnage qui va paroître sur la scène.
-      </hi>
-      Monval raisonnoit assez pour comprendre que l'air libertin de celle qu'il
+                        verrons. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 3 </head>
+                    <p>
+                        <hi rend="italic"> nouveau personnage qui va paroître sur la scène. </hi>
+                        Monval raisonnoit assez pour comprendre que l'air libertin de celle qu'il
                         avoit choisie, avoit effarouché le sage Jezennemours. Il n'avoit pas été
                         séduit, il avoit été revolté. Résolu de le livrer à quelque femme qui portât
                         au moins le masque de la vertu, il alla trouver une de ces beautés qui n'ont
@@ -583,18 +516,12 @@
                         entreprise. Elle n'avoit pas besoin de tous ces conseils; les femmes en
                         savent plus sur ce chapitre que tous les hommes les plus expérimentés n'en
                         peuvent dire et imaginer. Après s'être égayés par nombre de propos, ils se
-                        quitterent.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 4
-     </head>
-     <p>
-      <hi rend="italic">
-       travaux d'un bon jeune-homme.
-      </hi>
-      une telle proposition
+                        quitterent. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 4 </head>
+                    <p>
+                        <hi rend="italic"> travaux d'un bon jeune-homme. </hi> une telle proposition
                         avoit déplu souverainement à Florimonde; mais le premier devoir de son état
                         étoit de savoir feindre et dissimuler. Elle gémissoit souvent des
                         complaisances que lui imposoit sa situation et sa fortune. C' étoit à regret
@@ -612,12 +539,8 @@
                         le trouva qui arrivoit. Curieux avec cette familiarité, ou plutôt cette
                         licence polie qu'attrapent si bien les favoris de la fortune, il prit une
                         des feuilles volantes qui étoient sur la table; il apperçut en gros
-                        caracteres:
-      <hi rend="italic">
-       moyens de simplifier l'impôt pour le
-                            soulagement du peuple
-      </hi>
-      . Jezennemours s'imaginoit bonnement qu'il
+                        caracteres: <hi rend="italic"> moyens de simplifier l'impôt pour le
+                            soulagement du peuple </hi> . Jezennemours s'imaginoit bonnement qu'il
                         étoit de son devoir de s'occuper de pareilles recherches dans la maison d'un
                         fermier-général. Tout ce qu'il avoit entendu à table lui faisoit croirequ'on
                         desiroit sincérement sur cet objet un plan simple et nettement conçu, et il
@@ -666,18 +589,12 @@
                         remercieras bientôt de t'avoir mené chez elle. Sa bouche ne s'ouvre que pour
                         exprimer ou embellir un sentiment. Je ne veux point retarder le plaisir que
                         je te destine; et dès-ce-soir, comme j'y suis invité, je te présenterai, et
-                        nous y souperons ensemble.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 5
-     </head>
-     <p>
-      <hi rend="italic">
-       entrevue et ses suites.
-      </hi>
-      le docile Jezennemours, qui
+                        nous y souperons ensemble. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 5 </head>
+                    <p>
+                        <hi rend="italic"> entrevue et ses suites. </hi> le docile Jezennemours, qui
                         ne prévoyoit et ne soupçonnoit jamais un piége, écouta ce discours avec une
                         sorte d'indifférence, et suivit Monval dans la maison où il le conduisit. Il
                         étoit entré avec lui dans cinquante maisons où il n'avoit rien entendu que
@@ -720,37 +637,31 @@
                         C'est la seule que je puisse compter après ma chere Susanne; elle a même
                         quelque chose de son esprit, de ses graces, de sa douceur; mais elle n'a
                         point son coeur tendre. Non, aucune femme ne sauroit posséder un coeur
-                        semblable. Que sa maison, où brille l'honnêteté, est différente de celle
-                        que j'habite! Que nepuis-je toujours vivre dans une société aussi bien
-                        choisie! Là, on n'entend point ces propos orgueilleux qui insultent à
-                        l'humanité; on n'y discute point ces systèmes vains et desespérans, qui,
-                        cruellement artificieux, révoltent la raison et froissent le coeur: un léger
-                        badinage y est permis, il aide à la réflexion, il la pare de fleurs, et
-                        l'esprit s'y trouve plus à son aise. Quelques jours après, Monval lui
-                        proposa de venir souper dans la même maison. Il ne se fit point prier.
-                        Enhardi par le nouvel accueil qu'on lui fit, excité par la présence et le
-                        sourire de l'aimable Florimonde, il s'échauffa dans la conversation; car son
-                        ame étoit toujours calme et tranquille, ou livrée à une certaine chaleur.
-                        Monval le poussoit malignement, et l'engageoit dans la dispute; il y mit un
-                        feu encore plus éloquent, plus impétueux que la premiere fois. Il débita,
-                        dans cette secondevisite, les principes dont il étoit pénétré, avec cette
-                        vérité que donne une conviction intime. Florimonde, affable et complaisante,
-                        favorisoit son essor, et donnoit un regard d'approbation à chaque trait qui
-                        la flattoit. Admis dès ce moment, et même caressé, Jezennemours passa peu de
+                        semblable. Que sa maison, où brille l'honnêteté, est différente de celle que
+                        j'habite! Que nepuis-je toujours vivre dans une société aussi bien choisie!
+                        Là, on n'entend point ces propos orgueilleux qui insultent à l'humanité; on
+                        n'y discute point ces systèmes vains et desespérans, qui, cruellement
+                        artificieux, révoltent la raison et froissent le coeur: un léger badinage y
+                        est permis, il aide à la réflexion, il la pare de fleurs, et l'esprit s'y
+                        trouve plus à son aise. Quelques jours après, Monval lui proposa de venir
+                        souper dans la même maison. Il ne se fit point prier. Enhardi par le nouvel
+                        accueil qu'on lui fit, excité par la présence et le sourire de l'aimable
+                        Florimonde, il s'échauffa dans la conversation; car son ame étoit toujours
+                        calme et tranquille, ou livrée à une certaine chaleur. Monval le poussoit
+                        malignement, et l'engageoit dans la dispute; il y mit un feu encore plus
+                        éloquent, plus impétueux que la premiere fois. Il débita, dans cette
+                        secondevisite, les principes dont il étoit pénétré, avec cette vérité que
+                        donne une conviction intime. Florimonde, affable et complaisante, favorisoit
+                        son essor, et donnoit un regard d'approbation à chaque trait qui la
+                        flattoit. Admis dès ce moment, et même caressé, Jezennemours passa peu de
                         jours sans y retourner, et la liberté dont il y jouissoit développoit
                         insensiblement cette gaieté naturelle, que ses tristes infortunes avoient si
-                        longtems étouffée.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 6
-     </head>
-     <p>
-      <hi rend="italic">
-       proposition acceptée.
-      </hi>
-      un matin, qu'il employoit,
+                        longtems étouffée. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 6 </head>
+                    <p>
+                        <hi rend="italic"> proposition acceptée. </hi> un matin, qu'il employoit,
                         selon sa coutume, à lire et à écrire; car il mélangeoit volontiers ces deux
                         agréables occupations; Monval vint frapper à son cabinet, et de maniere à se
                         faire ouvrir: il s'assit en entrant; et sans préparation préliminaire, il
@@ -839,18 +750,12 @@
                         jeune-philosophe: il se représentoit déja dessous l'ombre de ces arbres
                         mollement agités, égaré dans ces agréables prairies, se promenant au bord de
                         ces cascades, un livre en main, philosophant, politiquant à son aise, et en
-                        état de mêler un peu de pratique aux charmes de la théorie!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 7
-     </head>
-     <p>
-      <hi rend="italic">
-       ah! Le bel intendant!
-      </hi>
-      l'opulent Monval
+                        état de mêler un peu de pratique aux charmes de la théorie! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 7 </head>
+                    <p>
+                        <hi rend="italic"> ah! Le bel intendant! </hi> l'opulent Monval
                         s'applaudissoit de voir une partie de ses projets accomplis. Cette maison de
                         campagne, quoique riante et superbe, étoit une de ses chetives demeures. Il
                         l'avoit presque abandonnée depuis qu'il étoit devenu seigneur
@@ -925,18 +830,12 @@
                         Jezennemours, de son côté, condamnant ses desirs secrets, les jugeoit un
                         outrage fait à une aussi chaste beauté; il regardoit sa passion comme un
                         crime commencé, un véritable attentat à la pudeur, et un infidélité
-                        coupable.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 8
-     </head>
-     <p>
-      <hi rend="italic">
-       détails économiques.
-      </hi>
-      il faut savoir que
+                        coupable. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 8 </head>
+                    <p>
+                        <hi rend="italic"> détails économiques. </hi> il faut savoir que
                         Jezennemours avoit déja aimé et aimoit encore; mais celle qu'il aimoit étoit
                         absente; il avoit perdu les traces de son adorable amante, ilignoroit
                         jusqu'au lieu qu'elle habitoit, dans la cruelle et douloureuse incertitude
@@ -985,18 +884,12 @@
                         foible: arrêtez, dit-elle, à Jezennemours: et elle repoussa le baiser de feu
                         qu'il imprimoit sur ses mains. Elle marcha d'un pas plus précipité, et
                         reprenant un calme apparent, elle retourna par le chemin le plus court
-                        s'enfermer chez elle, et ne reparut point tout le reste du jour.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 9
-     </head>
-     <p>
-      <hi rend="italic">
-       grands remords.
-      </hi>
-      notre jeune-sage, mais qui
+                        s'enfermer chez elle, et ne reparut point tout le reste du jour. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 9 </head>
+                    <p>
+                        <hi rend="italic"> grands remords. </hi> notre jeune-sage, mais qui
                         commençoit à cesser de l'être, revint à lui et rougit de l'audace qu' il
                         avoit eue; il se jugeoit coupable. Quoi! Disoit-il, moi séduire la vertu
                         timide qui se confie à la mienne! Outrager une femme respectable qui me
@@ -1014,7 +907,8 @@
                         lendemain il n'osa reparoître devant elle; mais Florimonde qui le jugeoit,
                         paroissant oublier ce qui s'étoit passé, le traita avec tant de menagement,
                         que Jezennemours estima qu'on lui accordoit sa grace, à condition qu'il
-                        s'imposeroit une retenue inviolable. Cependant son amour contraint s'exprimoit dans les moindres choses avec une adresse inimitable, adresse si
+                        s'imposeroit une retenue inviolable. Cependant son amour contraint
+                        s'exprimoit dans les moindres choses avec une adresse inimitable, adresse si
                         touchante, qu'elle paroissoit plutôt l'ouvrage de l'instinct que celui de la
                         réflexion. Sa vigilance étoit active etcontinuelle, ses soins remplis de
                         délicatesse; à-peine se faisoient-ils remarquer, loin de se faire valoir, il
@@ -1030,18 +924,12 @@
                         timide, il ne concevoit pas comment il avoit pu gagner un coeur qu'il avoit
                         jugé si fier et si rigide, et qui sembloit fermé à toutefoiblesse. Cette
                         découverte, tout en ravissant son ame, étonnoit sa raison. Oh! Le bon
-                        jeune-homme!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 10
-     </head>
-     <p>
-      <hi rend="italic">
-       guérison de l'amour platonique.
-      </hi>
-      Jezennemours
+                        jeune-homme! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 10 </head>
+                    <p>
+                        <hi rend="italic"> guérison de l'amour platonique. </hi> Jezennemours
                         n'avoit pas encore triomphé; non qu'il fût livré à une inexpérience
                         enfantine, mais parce-qu' il avoit fait une divinité de sa Florimonde, et
                         qu'il continuoit à lui offrir un encens pur, comme seul digne d'être offert
@@ -1071,12 +959,8 @@
                         pouvoit déja la lire dans les regards de son amant. Un soir que lasse de
                         milles jeux folâtres, elle avoit témoigné quelque lassitude, elle s'esquiva
                         soudain après avoir fait de ces folies aimables, où le fond du caractere et
-                        de l'esprit paroît à découvert et semble dire,
-      <hi rend="italic">
-       me voilà
-                            tel que je suis;
-      </hi>
-      Jezennemours qui avoit dansé (d' assez bonne
+                        de l'esprit paroît à découvert et semble dire, <hi rend="italic"> me voilà
+                            tel que je suis; </hi> Jezennemours qui avoit dansé (d' assez bonne
                         grace pour un philosophe) ne la voyoit plus et la cherchoit avec
                         beaucoupd'ardeur, lorsque furetant dans tous les lieux, il entra dans un
                         petit sallon écarté. Il la trouva paroissant endormie. La chaleur de l'air
@@ -1097,11 +981,7 @@
                         et quelques mots inarticulés, apprirent à Jezennemours dans quel songe son
                         amante étoit anéantie... ô trop cher Jezennemours! ... aimons-nous... je me
                         donne à toi... en ce moment Jezennemours la presse entre ses bras avec
-                        transport et répete:
-      <hi rend="italic">
-       aimons-nous
-      </hi>
-      . Florimonde se
+                        transport et répete: <hi rend="italic"> aimons-nous </hi> . Florimonde se
                         réveille, ses yeux humides rencontrent ceux de son amant... quand elle
                         auroit voulu être cruelle, ce regard suppliant de l'amour auroit desarmé
                         toute sa rigueur; elle ne put qu'être sensible, elle lui tendit les bras,
@@ -1111,7 +991,8 @@
                         fut aussi tendre, aussi transporté qu'elle; si quelque chose égale la
                         passion d'une femme vraiment éprise; tous-deux partagerent la même ivresse,
                         et reconnurent combien la sagesse prête de charmes à l'amour! Que d'autres
-                        pinceaux ayent l'orgueil présomptueux de vouloir peindre les scènes de l'amoureuse volupté; l'homme qui saura sentir jugera les langues trop
+                        pinceaux ayent l'orgueil présomptueux de vouloir peindre les scènes de
+                        l'amoureuse volupté; l'homme qui saura sentir jugera les langues trop
                         imparfaites pour atteindre à ce tableau: souvent il a été commencé, il ne
                         sera jamais fini; et quels traits en effet peuvent rendre les accens de
                         l'amour, lorsque la bouche se taît, et que le coeur enflâmé, se créant un
@@ -1126,19 +1007,13 @@
                         foiblesses, jamais tendresse ne fut plus légitime. Cependant il faut
                         l'avouer; l'amour de Florimonde étoit plus abandonné, plus entier, plus
                         absolu: mais si elle surpassoit son amant en amour, elle voulut toujours,
-                        pour faire la balance égale, qu'il la surpassât en plaisirs.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 11
-     </head>
-     <p>
-      <hi rend="italic">
-       craintes réelles; réflexions que les femmes pourront lire
-                            deux fois.
-      </hi>
-      Florimonde avoit promis à Monval de l'informer de la
+                        pour faire la balance égale, qu'il la surpassât en plaisirs. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 11 </head>
+                    <p>
+                        <hi rend="italic"> craintes réelles; réflexions que les femmes pourront lire
+                            deux fois. </hi> Florimonde avoit promis à Monval de l'informer de la
                         victoire, à l'instant que sa conquête seroit assurée; et Monval devoit se
                         faire un divertissement de venir narguer le sage Jezennemours, soupirant
                         dans une retraite champêtre, aux pieds d'une de ses maitresses délaissées.
@@ -1172,89 +1047,73 @@
                         à ces confidences qui embrassent l'histoire de sa vie, et ordinairement elle
                         fait bien; car quelle femme n'a pas été la victime des circonstancesbisarres
                         qui promenent dès l'enfance ce sexe adorable et passif? Peut-il répondre de
-                        tous les piéges qui lui ont été dressés dès l'âge simple de l'inexpérience, et rendre compte de tous les pas que la superbe audace des
-                        hommes lui a fait faire? Ne sont-ils pas des espèces de tyrans qui joignent
-                        à l'adresse perfide, la brutale insensibilité des remords, et l'oubli ne
-                        doit-il pas ensevelir et l'attentat du vainqueur et les gémissemens de la
-                        victime? Il est donc des vérités tristes, inutiles, affligeantes pour
-                        l'amant qui les entendroit; et celles-là, il faut les cacher avec soin:
-                        jamais le prix de l'aveu n'efface le soupçon qui vient flétrir l'imagination
-                        du nouveau possesseur. Il se promenoit dans un palais orné de roses, et vous
-                        en effacez les couleurs radieuses: il est toujours plus heureux par ce qu'il
-                        croit, que par ce qu'il pourroit savoir: le passé est passé; le présent seul
-                        appartient à l'amour.Plus Florimonde aimoit, plus elle craignoit que le
-                        bandeau ne tombât des yeux qu'elle avoit enchantés. Elle auroit voulu le
-                        ravir au jour; et nouvelle Armide, le transporter dans quelque lieu désert,
-                        où nul mortel ne pût le voir, et lui révéler ce qu'elle avoit tant d'intérêt
-                        à cacher. Elle pâlissoit quelquefois de frayeur, dès qu'elle entendoit le
-                        bruit d'un équipage, dans la crainte que Monval n'arrivât, et ne vînt
-                        dénouer tristement le noeud où elle attachoit sa félicité. Tout ce que
-                        l'adresse et l'amour peuvent imaginer pour tromper Monval, elle le mit en
-                        usage: elle écrivit que Jezennemours étoit plus philosophe que jamais, qu'il
-                        s' adonnoit tout entier à l'agriculture, qu'il
-      <hi rend="italic">
-       bravoit
-                            les passions terrestres
-      </hi>
-      , qu'il ne vivoit qu'avec
-      <hi rend="italic">
-       Platon
-      </hi>
-      et les
-      <hi rend="italic">
-       ephémérides du
-                            citoyen
-      </hi>
-      ; que les jours où il n'alloit pas visiter les fermes
-                        voisines, il s'enfermoit pour lire et écrire.Elle assaisonnoit ces détails
-                        d'une gaieté qui lui pesoit, et gémissoit du rôle faux que la méchanceté des
-                        hommes lui avoit imposé dès sa jeunesse; rôle insupportable pour elle, et
-                        qu'elle comptoit bien abjurer à la premiere occasion. C'étoit ainsi qu'elle
-                        reculoit le terrible moment où Monval devoit arriver avec l'insolence d'un
-                        protecteur et la causticité d'un railleur opulent: cependant elle
-                        s'éclairoit avec Jezennemours; elle élevoit son ame; car une femme ne pense
-                        fortement qu'avec un amant favorisé, et c' est dans ses leçons qu'elle
-                        voyoit encore plus distinctement combien étoit profond l'abîme où elle étoit
-                        descendue. L'amour qui, comme le travail, a l'heureux avantage de faire
-                        passer les mois comme des minutes et d'interdire à l'ennui, toujours si
-                        redoutable à la campagne, les moindres approches,l' amour leur faisoit
-                        oublier que l'automne alloit succéder à la saison où l'on moissonne; Monval
-                        ne devoit pas tarder à venir les surprendre; il se seroit furieusement
-                        impatienté de tant de délais; il auroit rompu en visiere avec Florimonde, ou
-                        bien il seroit accouru l'accabler de propos ironiques, si le sort qui
-                        favorise les amans ne l'eût promené chez l'etranger, pendant plus de six
-                        mois; tems précieux qu'ils mirent à profit, et dont Florimonde ne prévoyoit
-                        la fin qu'avec une amertume secrette, qui ne laissoit pas que de corrompre
-                        les instans de son bonheur. Jezennemours avoit suivi une volupté séduisante,
-                        il avoit oublié la voix de la sagesse, et s'étoit laissé entraîner dans un
-                        chemin de fleurs. Son âge, la sensibilité naturelle de son coeur, la
-                        campagne, l'habitude de se voir, les regards d'une femme noble et touchante,
-                        toutl'avoit rendu infidele; mais une jouissance prolongée lui révéla ce
-                        qu'étoit son amour; il vit que c'étoit sa Suzanne, sa premiere amante, qui
-                        s'étoit pour ainsi dire métamorphosée en Florimonde; et le souvenir de cette
-                        belle Suzanne se ralluma avec d'autant plus de feu dans son ame, que c'étoit
-                        elle qu'il demandoit, qu'il cherchoit, en possédant le nouvel objet de ses
-                        desirs. Dans les bras de Florimonde, il songeoit à celle qu'il ne voyoit
-                        plus et qui le dominoit impérieusement; il auroit dédaigné les plaisirs
-                        qu'il goûtoit, s'il n'en avoit honoré l'image de celle qui étoit absente: il
-                        aimoit Florimonde; mais comme ayant quelque ressemblance éloignée avec celle
-                        qu'il adoroit. Ces caprices de l'imagination sont indomptables; ils
-                        accompagnent toujours ces passions secondaires qui nous assiégent dans la
-                        jeunesse. On aime plusieurs femmes, mais peut-être quel'on n'en idolâtre
-                        jamais qu'une. Florimonde enivrée de son bonheur, et répandant sur tous les
-                        objets la vivacité de ses feux, ne s'appercevoit point du secret de
-                        Jezennemours qu'il déguisoit avec le même soin qu'elle lui deroboit le sien.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 12
-     </head>
-     <p>
-      <hi rend="italic">
-       songe qui conduira à quelque chose.
-      </hi>
-      une nuit qu'il
+                        tous les piéges qui lui ont été dressés dès l'âge simple de l'inexpérience,
+                        et rendre compte de tous les pas que la superbe audace des hommes lui a fait
+                        faire? Ne sont-ils pas des espèces de tyrans qui joignent à l'adresse
+                        perfide, la brutale insensibilité des remords, et l'oubli ne doit-il pas
+                        ensevelir et l'attentat du vainqueur et les gémissemens de la victime? Il
+                        est donc des vérités tristes, inutiles, affligeantes pour l'amant qui les
+                        entendroit; et celles-là, il faut les cacher avec soin: jamais le prix de
+                        l'aveu n'efface le soupçon qui vient flétrir l'imagination du nouveau
+                        possesseur. Il se promenoit dans un palais orné de roses, et vous en effacez
+                        les couleurs radieuses: il est toujours plus heureux par ce qu'il croit, que
+                        par ce qu'il pourroit savoir: le passé est passé; le présent seul appartient
+                        à l'amour.Plus Florimonde aimoit, plus elle craignoit que le bandeau ne
+                        tombât des yeux qu'elle avoit enchantés. Elle auroit voulu le ravir au jour;
+                        et nouvelle Armide, le transporter dans quelque lieu désert, où nul mortel
+                        ne pût le voir, et lui révéler ce qu'elle avoit tant d'intérêt à cacher.
+                        Elle pâlissoit quelquefois de frayeur, dès qu'elle entendoit le bruit d'un
+                        équipage, dans la crainte que Monval n'arrivât, et ne vînt dénouer
+                        tristement le noeud où elle attachoit sa félicité. Tout ce que l'adresse et
+                        l'amour peuvent imaginer pour tromper Monval, elle le mit en usage: elle
+                        écrivit que Jezennemours étoit plus philosophe que jamais, qu'il s' adonnoit
+                        tout entier à l'agriculture, qu'il <hi rend="italic"> bravoit les passions
+                            terrestres </hi> , qu'il ne vivoit qu'avec <hi rend="italic"> Platon
+                        </hi> et les <hi rend="italic"> ephémérides du citoyen </hi> ; que les jours
+                        où il n'alloit pas visiter les fermes voisines, il s'enfermoit pour lire et
+                        écrire.Elle assaisonnoit ces détails d'une gaieté qui lui pesoit, et
+                        gémissoit du rôle faux que la méchanceté des hommes lui avoit imposé dès sa
+                        jeunesse; rôle insupportable pour elle, et qu'elle comptoit bien abjurer à
+                        la premiere occasion. C'étoit ainsi qu'elle reculoit le terrible moment où
+                        Monval devoit arriver avec l'insolence d'un protecteur et la causticité d'un
+                        railleur opulent: cependant elle s'éclairoit avec Jezennemours; elle élevoit
+                        son ame; car une femme ne pense fortement qu'avec un amant favorisé, et c'
+                        est dans ses leçons qu'elle voyoit encore plus distinctement combien étoit
+                        profond l'abîme où elle étoit descendue. L'amour qui, comme le travail, a
+                        l'heureux avantage de faire passer les mois comme des minutes et d'interdire
+                        à l'ennui, toujours si redoutable à la campagne, les moindres approches,l'
+                        amour leur faisoit oublier que l'automne alloit succéder à la saison où l'on
+                        moissonne; Monval ne devoit pas tarder à venir les surprendre; il se seroit
+                        furieusement impatienté de tant de délais; il auroit rompu en visiere avec
+                        Florimonde, ou bien il seroit accouru l'accabler de propos ironiques, si le
+                        sort qui favorise les amans ne l'eût promené chez l'etranger, pendant plus
+                        de six mois; tems précieux qu'ils mirent à profit, et dont Florimonde ne
+                        prévoyoit la fin qu'avec une amertume secrette, qui ne laissoit pas que de
+                        corrompre les instans de son bonheur. Jezennemours avoit suivi une volupté
+                        séduisante, il avoit oublié la voix de la sagesse, et s'étoit laissé
+                        entraîner dans un chemin de fleurs. Son âge, la sensibilité naturelle de son
+                        coeur, la campagne, l'habitude de se voir, les regards d'une femme noble et
+                        touchante, toutl'avoit rendu infidele; mais une jouissance prolongée lui
+                        révéla ce qu'étoit son amour; il vit que c'étoit sa Suzanne, sa premiere
+                        amante, qui s'étoit pour ainsi dire métamorphosée en Florimonde; et le
+                        souvenir de cette belle Suzanne se ralluma avec d'autant plus de feu dans
+                        son ame, que c'étoit elle qu'il demandoit, qu'il cherchoit, en possédant le
+                        nouvel objet de ses desirs. Dans les bras de Florimonde, il songeoit à celle
+                        qu'il ne voyoit plus et qui le dominoit impérieusement; il auroit dédaigné
+                        les plaisirs qu'il goûtoit, s'il n'en avoit honoré l'image de celle qui
+                        étoit absente: il aimoit Florimonde; mais comme ayant quelque ressemblance
+                        éloignée avec celle qu'il adoroit. Ces caprices de l'imagination sont
+                        indomptables; ils accompagnent toujours ces passions secondaires qui nous
+                        assiégent dans la jeunesse. On aime plusieurs femmes, mais peut-être quel'on
+                        n'en idolâtre jamais qu'une. Florimonde enivrée de son bonheur, et répandant
+                        sur tous les objets la vivacité de ses feux, ne s'appercevoit point du
+                        secret de Jezennemours qu'il déguisoit avec le même soin qu'elle lui
+                        deroboit le sien. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 12 </head>
+                    <p>
+                        <hi rend="italic"> songe qui conduira à quelque chose. </hi> une nuit qu'il
                         dormoit à côté d'elle, ou si vous l'aimez mieux dans ses bras et sur son
                         sein, Florimonde éveillée et muette, comtemploit son amant, comme on dit que
                         jadis Diane contemploit son Endimion. Elle eut été jalouse des rayons de la
@@ -1276,13 +1135,9 @@
                         hauteur en hauteur, et serpentant sur une montagne élevée, va se perdre dans
                         les cieux; sa Suzanne s'enfonce dans cette route étroite et brillante; elle
                         tourne encore la tête vers lui et semble l'appeler; les derniers sons desa
-                        voix lointaine semblent lui crier:
-      <hi rend="italic">
-       ami, voici le chemin
+                        voix lointaine semblent lui crier: <hi rend="italic"> ami, voici le chemin
                             de la vertu, la route du bonheur: c'est là-haut que je t'attends;
-                            suis-moi.
-      </hi>
-      elle disparoît à ses yeux, tandis que les vagues du
+                            suis-moi. </hi> elle disparoît à ses yeux, tandis que les vagues du
                         fleuve, contre lesquelles il lutte vainement, l'entraînent d'un côté opposé
                         et bouillonnent d'écume autour de lui, comme pour l'engloutir. Il se
                         réveille, la pâleur sur le front et le desespoir dans l'ame; il pousse un
@@ -1304,19 +1159,13 @@
                         respecter celle qui s'étoit livrée à sa tendresse. Il avoit des remords
                         d'avoir trahi involontairement une femme, à qui il avoit pu dire, je vous
                         aime; tandis qu'un autre amour extrême, invincible, quoique malheureux, eût
-                        toujours regné dans le fond de son ame.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 13
-     </head>
-     <p>
-      <hi rend="italic">
-       inquiétudes; curiosité; orages du coeur humain; conduite
-                            exemplaire d'une amante.
-      </hi>
-      Florimonde, quoiqu'étrangement émue, et
+                        toujours regné dans le fond de son ame. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 13 </head>
+                    <p>
+                        <hi rend="italic"> inquiétudes; curiosité; orages du coeur humain; conduite
+                            exemplaire d'une amante. </hi> Florimonde, quoiqu'étrangement émue, et
                         allarmée à l'excés, déguisoit jusqu'à l'apparence du couroux, et n'opposoit
                         qu'un trouble touchant, une tendresse absolue et délicate à l'air sombre de
                         Jezennemours. Elle avoit l'expérience du coeur de l'homme; elle aimoit, et
@@ -1363,11 +1212,12 @@
                         toutes cruelles qu'elles sont, ne me paroissent ni injustes, ni
                         outrageantes... ah! Dès-longtems je me suis jugée indigne de vous et par ce
                         peu de charmes que je possede, et par la supériorité de votre ame sur la
-                        mienne; mais si vous pouviez ne voir que ma tendresse, peut-être qu'à l'examen je l'emporterois sur toute autre. Vous m'offrez de l'amitié; c'est un
-                        bien foible dédommagement, Jezennemours! Mais je l'accepte avec transport,
-                        avec joie, avec reconnoissance, et je me sens capable de tout vous
-                        sacrifier, excepté ce dernier sentiment, dont vous voulez m' assurer. J'en
-                        suis, et j'en serai dans tous les tems trop excessivement jalouse pour
+                        mienne; mais si vous pouviez ne voir que ma tendresse, peut-être qu'à
+                        l'examen je l'emporterois sur toute autre. Vous m'offrez de l'amitié; c'est
+                        un bien foible dédommagement, Jezennemours! Mais je l'accepte avec
+                        transport, avec joie, avec reconnoissance, et je me sens capable de tout
+                        vous sacrifier, excepté ce dernier sentiment, dont vous voulez m' assurer.
+                        J'en suis, et j'en serai dans tous les tems trop excessivement jalouse pour
                         pouvoir y renoncer. Allez, cher Jezennemours, allez, mon amour ne vous
                         tourmentera plus, je le renfermerai en moi-même; je paroîtrai paisible, dût
                         l'effort me coûterla vie: mais, non, j'aurai du moins la satisfaction de me
@@ -1403,19 +1253,13 @@
                         ordinaire, ne sachant point dissimuler les mouvemens de son ame, commença ce
                         récit trop fidele de l'histoire de sa vie, qu'il sema de ces réflexions que
                         lui inspiroit un sentiment vif et présent; et j' espere qu'on les lui
-                        pardonnera à l'exemple de l'indulgente Florimonde.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 14
-     </head>
-     <p>
-      <hi rend="italic">
-       enfance. Premiere éducation; comme elle peut devenir
-                            fatale.
-      </hi>
-      assis à côté de l'objet qu'il auroit voulu ou tout aimer,
+                        pardonnera à l'exemple de l'indulgente Florimonde. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 14 </head>
+                    <p>
+                        <hi rend="italic"> enfance. Premiere éducation; comme elle peut devenir
+                            fatale. </hi> assis à côté de l'objet qu'il auroit voulu ou tout aimer,
                         ou tout haïr, Jezennemours se recueillit un instant, comme le pieux Enée,
                         avant que de parler; hésitant d'abord un peu de blesser, par une narration
                         trop sincere, celle qui l'écoutoit. Florimonde, les yeux baissés, attendoit
@@ -1497,18 +1341,12 @@
                         fait présent. Ces tableaux noirs, inventés par les ennemis de l'espece
                         humaine, tourmentent et effrayent, sur-tout ces imaginations passives, qui
                         n'osent plus repousser cet assemblage d'etres infernaux, qui n'ont
-                        d'existence que dans l'ame du fourbe, qui a pris soin de les créer.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 15
-     </head>
-     <p>
-      <hi rend="italic">
-       le curé aux gros yeux.
-      </hi>
-      un des premiers persécuteurs
+                        d'existence que dans l'ame du fourbe, qui a pris soin de les créer. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 15 </head>
+                    <p>
+                        <hi rend="italic"> le curé aux gros yeux. </hi> un des premiers persécuteurs
                         de ma raison naissante, fut un curé de village, qui, s'étant emparé de moi,
                         s'enrouoit tous les jours à m'expliquer ce qu'il disoit incompréhensible. Il
                         me semble encore le voir tournant ses deux gros yeux de taureau,
@@ -1530,11 +1368,8 @@
                         voir tremblant, n'en demandoit pas davantage, et s'applaudissoit (en
                         admirant une mémoire assez heureuse, qu'il surchargeoit à son gré), de
                         l'excellente éducation qu'il me donnoit. Je lui ai l'obligation de m'avoir
-                        apprisà lire; mais ce fut dans le
-      <hi rend="italic">
-       pédagogue chrétien
-      </hi>
-      . J'ai bien profité de cet avantage dans la suite; mais en même-tems,
+                        apprisà lire; mais ce fut dans le <hi rend="italic"> pédagogue chrétien
+                        </hi> . J'ai bien profité de cet avantage dans la suite; mais en même-tems,
                         ce livre meubla ma pauvre tête de tous les revenans nocturnes qu'on disoit
                         environner le cimetiére: je les appercevois la nuit en cercle au pied de mon
                         lit; et plus je les pryois de s'éloigner, à l'aide de grands signes de
@@ -1545,18 +1380,12 @@
                         tombeau qui devoit tout-à-coup s'ouvrir pour me laisser tomber dans les
                         flâmes de l'enfer: on m'avoit tant de fois offert l'image de ce gouffre
                         enflâmé, que je préférois les dures corrections du jour aux transes
-                        affreuses de la nuit.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 16
-     </head>
-     <p>
-      <hi rend="italic">
-       le parrain.
-      </hi>
-      j'avois dix ans, et je savois par coeur
+                        affreuses de la nuit. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 16 </head>
+                    <p>
+                        <hi rend="italic"> le parrain. </hi> j'avois dix ans, et je savois par coeur
                         le catéchisme, les evangiles de l'année, et le rudiment: j' aurois dit les
                         mots à rebours, tant on avoit fait faire des tours de force aux fibres
                         élastiques de mon cerveau. Un jour, (et je ne l'oublierai jamais), le
@@ -1606,18 +1435,12 @@
                         sur ce que j'avois vu de plus laid dans le monde; et ce visage hideux, que
                         j'avois formé avant de m'endormir, vint me parler en songe, et le tonnerre
                         de ses paroles répondoit à sa figure. Je m'éveillai trempé d'une sueur
-                        froide.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 17
-     </head>
-     <p>
-      <hi rend="italic">
-       diversion. Beau livre pour un coeur neuf.
-      </hi>
-      mais le
+                        froide. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 17 </head>
+                    <p>
+                        <hi rend="italic"> diversion. Beau livre pour un coeur neuf. </hi> mais le
                         cornet rustique sonne mon départ. Je m'habille, combattu par la joie de
                         quitter le presbytere, et par la crainte de rencontrer pis encore; je monte
                         en croupe derriere le gros pasteur, qui me recommandoit chemin faisant, de
@@ -1669,7 +1492,8 @@
                         moquer de celui-ci comme on faisoit du curé? L'idée qu'il égorgeroit des
                         huguenots, sans l'attente où il étoit de leur conversion, me disoit que
                         sûrement on ne se jouoit point à lui. Ces simples habitations semées dans la
-                        campagne, et dont mon inexpérience n'étoit pas encore à portée de sentir l'utilité et la valeur réelle, perdirent toute leur beauté à la vue de ces
+                        campagne, et dont mon inexpérience n'étoit pas encore à portée de sentir
+                        l'utilité et la valeur réelle, perdirent toute leur beauté à la vue de ces
                         remparts, de ces tours élevées, de ces édifices serrés les uns contre les
                         autres, et de cette pépiniere d'hommesagissans, qui, toujours en mouvement,
                         circuloient chacun de leur côté dans des attitudes variées, et sous des
@@ -1689,14 +1513,15 @@
                         habits, et une belle épée au côté. Quand je comparois ces officiers à ces
                         capucins, qui me faisoient toujours peur chez mon curé, qui se faisoient un
                         jeu d' embarrasser mon visage dans l'épaisseur de leur barbe, je trouvois
-                        entr'eux une différence qui me faisoit faire mille réflexions. Je n'imaginai rien de plus beau au monde, que la ville de Strasbourg, où j'étois
-                        entré, et la garnison qui s'y trouvoit. D'autres villes plus grandes me
-                        l'ont fait paroître bien petite; et l'étude, dans la suite, m'a montré ces
-                        fameuses cités comme des points imperceptibles sur le grain de sable qu'on
-                        nomme la terre. Où étoit alorsmon village? Que devint-il, hélas! Sur la
-                        premiere carte géographique que j'appris à connoître; je cherchai avec une
-                        curiosité avide, cet endroit où j'avois commencé à marcher, et je ne le
-                        trouvai seulement pas; il fallut recourir à des cartes plus détaillées, et
+                        entr'eux une différence qui me faisoit faire mille réflexions. Je n'imaginai
+                        rien de plus beau au monde, que la ville de Strasbourg, où j'étois entré, et
+                        la garnison qui s'y trouvoit. D'autres villes plus grandes me l'ont fait
+                        paroître bien petite; et l'étude, dans la suite, m'a montré ces fameuses
+                        cités comme des points imperceptibles sur le grain de sable qu'on nomme la
+                        terre. Où étoit alorsmon village? Que devint-il, hélas! Sur la premiere
+                        carte géographique que j'appris à connoître; je cherchai avec une curiosité
+                        avide, cet endroit où j'avois commencé à marcher, et je ne le trouvai
+                        seulement pas; il fallut recourir à des cartes plus détaillées, et
                         j'apperçus en rougissant, l'humble figure que faisoit dans l'univers la
                         petite marque qui désignoit le lieu de ma naissance. Quelle étoit donc mon
                         insigne erreur, lorsque je m'imaginois que mon curé étoit le plus important
@@ -1708,18 +1533,12 @@
                         tous les joursmes yeux du spectacle des soldats et de celui des boutiques,
                         j' entendrai ce fortuné tambour qui plaît tant à mon oreille; et qui
                         empêcheroit que je ne devinsse un jour aussi libre que ces officiers dorés
-                        qui courent la ville toujours rians et occupés de leurs plaisirs?
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 18
-     </head>
-     <p>
-      <hi rend="italic">
-       le collége des jésuites.
-      </hi>
-      ainsi je faisois mon plan
+                        qui courent la ville toujours rians et occupés de leurs plaisirs? </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 18 </head>
+                    <p>
+                        <hi rend="italic"> le collége des jésuites. </hi> ainsi je faisois mon plan
                         de vie et j'étendois mes réflexions joyeuses, lorsque mon curé me fit
                         tout-à-coup passer par une porte garnie de saints en pierre, lesquels
                         étoient tous noirs, et m'offrit subitement aux regards du jésuite parrain et
@@ -1791,28 +1610,18 @@
                         de l'esprit du révérend-pere, charmé de ma nouvelle demeure, qui sembloit
                         spatieuse, et sur-tout du départ du curé, qui remontoit à cheval, je me
                         plaisois à répéter à tout venant que je voulois être jésuite, et vivre à
-                        Strasbourg.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 19
-     </head>
-     <p>
-      <hi rend="italic">
-       en voici bien d'un autre?
-      </hi>
-      mon parrain (que
+                        Strasbourg. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 19 </head>
+                    <p>
+                        <hi rend="italic"> en voici bien d'un autre? </hi> mon parrain (que
                         j'appellerai desormais le pere de la hogue) me laissa huit jours tranquille
                         et livré à moi-même.Que ce court espace de tems me parut délicieux! Je
                         sortois, je me promenois, je parcourois toute la ville, et commençois à me
                         faire une idée du bonheur en croyant mener toujours une vie aussi libre. Je
                         ne m'imposai d'autre tâche que la lecture que j' aimois déja beaucoup, et
-                        une
-      <hi rend="italic">
-       vie des saints
-      </hi>
-      qui tomba par hazard sous ma
+                        une <hi rend="italic"> vie des saints </hi> qui tomba par hazard sous ma
                         main, me parut un chef-d' oeuvre d'intérêt, de style et d'éloquence. Ces
                         martyrs, qui aimoient mieux mourir que de renoncer à leurs sentimens,
                         étoient les plus grands des hommes à mes yeux; et quand je lisois la
@@ -1910,18 +1719,12 @@
                         docile d'esprit et de coeur, et préparez-vous dès aujourd'hui à me faire un
                         aveu général, afin que jugeant des plaies de votre ame, je puisse y
                         appliquer le remede nécessaire et commencer ainsi le grand et important
-                        ouvrage de votre association à notre ordre.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 20
-     </head>
-     <p>
-      <hi rend="italic">
-       suite du précédent.
-      </hi>
-      après ce discours, mon parrain
+                        ouvrage de votre association à notre ordre. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 20 </head>
+                    <p>
+                        <hi rend="italic"> suite du précédent. </hi> après ce discours, mon parrain
                         me laissa seul et dans un trouble extraordinaire: mon curé m' avoit bien
                         fait peur de l'enfer, mais jamais il n'étoit entré dans des détails aussi
                         effrayans; de sorte qu'ayant perdu de vue ses deux gros yeux louches, je me
@@ -1986,8 +1789,9 @@
                         je devois goûter un avant-goût de la béatitude céleste, fut un jour
                         tumultueux, où mon ame entiere fut bouleversée. Préparé que j'étois,
                         confessé, absous, jugé sans tâche à la face du ciel et devant les hommes,
-                        j'avouai le soir en pleurant à mon parrain, qu'il me seroit impossible d'aller plus loin, et qu'une créature aussi vile, aussi basse que moi,n' étoit
-                        point faite pour communiquer avec la divinité, parce qu'elle devoit
+                        j'avouai le soir en pleurant à mon parrain, qu'il me seroit impossible
+                        d'aller plus loin, et qu'une créature aussi vile, aussi basse que moi,n'
+                        étoit point faite pour communiquer avec la divinité, parce qu'elle devoit
                         nécessairement réduire en poudre tout ce qui étoit indigne de l'approcher.
                         Il vit que c'étoit une terreur violente qui s'étoit emparée de mon ame, et
                         qu'en voulant perfectionner son ouvrage, il l'avoit peut-être poussé trop
@@ -2028,18 +1832,12 @@
                         incompréhensible mystere. Je fus ce que vouloit mon parrain; simple, soumis,
                         et disposé à ne plus écouter les secrettes inspirations de l'ennemi de mon
                         salut, et je pus me livrer conséquemment au calme de cette foi, qui repose
-                        l'ame et tranquillise l'esprit.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 21
-     </head>
-     <p>
-      <hi rend="italic">
-       suite du précédent.
-      </hi>
-      ce jour passé, on diminua de
+                        l'ame et tranquillise l'esprit. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 21 </head>
+                    <p>
+                        <hi rend="italic"> suite du précédent. </hi> ce jour passé, on diminua de
                         beaucoup mon esclavage; on me livra à des études différentes: les auteurs
                         profânes succéderent aux livres mystiques, et mon parrain me parla moins de
                         dogmes, interprétant mon silence comme une soumission absolue. Malgré le
@@ -2055,15 +1853,8 @@
                         j'étois seul, au contraire, tous les objets que je contemplois entroient
                         avec moi dans une conversation muette et délicieuse, plus agréable mille
                         fois qu'un babillage importun et frivole. Comme la nature étoit poétique à
-                        mes yeux, en lisant
-      <hi rend="italic">
-       l'enéide
-      </hi>
-      et les
-      <hi rend="italic">
-       métamorphoses d'Ovide
-      </hi>
-      ! Rien qui ne me parût beau,
+                        mes yeux, en lisant <hi rend="italic"> l'enéide </hi> et les <hi
+                            rend="italic"> métamorphoses d'Ovide </hi> ! Rien qui ne me parût beau,
                         neuf, ravissant, digne d'admiration. Je m'enfonçois des heures entieres dans
                         le dédale immense de mes réflexions. Elles ne tarissoient pas à l'aspect de
                         ce ciel, de ces campagnes verdoyantes, de ces êtres animés, de cette
@@ -2110,18 +1901,12 @@
                         et de joie; je les entendois rire gaiement entr'eux, et j'avois peine à
                         concevoir comment des hommes qui risquoient, d'une heure à l'autre, de se
                         voir en proie à des tourmens sans fin, pouvoient, sans aucun noir
-                        pressentiment, chanter, boire et rire de tout leur coeur.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 22
-     </head>
-     <p>
-      <hi rend="italic">
-       la jeune luthérienne de Strasbourg.
-      </hi>
-      en poursuivant
+                        pressentiment, chanter, boire et rire de tout leur coeur. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 22 </head>
+                    <p>
+                        <hi rend="italic"> la jeune luthérienne de Strasbourg. </hi> en poursuivant
                         les réflexions où je tombois chaque fois que je creusois les mêmes idées, je
                         rencontrois souvent de ces jeunes luthériennes à la taille svelte et légere,
                         que leur démarche auroit fait prendre pour ces déesses si célébres chez les
@@ -2181,18 +1966,12 @@
                         pouvois suivre aucun argument; je les brouillois dans ma tête, aussi peu
                         attaché à l'un qu'à l'autre. L'amour triomphoit de la métaphysique la plus
                         élevée, et prenoit un éclat plus brillant des ténèbres arides où l'on
-                        vouloit faire descendre mon esprit.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 23
-     </head>
-     <p>
-      <hi rend="italic">
-       l'amour et la théologie.
-      </hi>
-      irrésolu, désespéré,
+                        vouloit faire descendre mon esprit. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 23 </head>
+                    <p>
+                        <hi rend="italic"> l'amour et la théologie. </hi> irrésolu, désespéré,
                         arrêté, captivé dès le premier essor de mon amour; forcé d'attacher mon
                         attention sur des matieres séches, tandis que mon imagination s'envoloit
                         vers un seul objet, je ne savois quel parti prendre. La jeune beauté dont je
@@ -2251,18 +2030,12 @@
                         genoux devant l'autel des catholiques, et pourquoi elle étoit opposée à une
                         religion si ancienne et si répandue? Elle est née pour être heureuse, me
                         disois-je, je veux qu'elle le soit, et vivre assuré de son bonheur dans
-                        l'autre monde, comme dans celui-ci.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 24
-     </head>
-     <p>
-      <hi rend="italic">
-       vous en souvient-il?
-      </hi>
-      excité par un si noble intérêt
+                        l'autre monde, comme dans celui-ci. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 24 </head>
+                    <p>
+                        <hi rend="italic"> vous en souvient-il? </hi> excité par un si noble intérêt
                         et qui n'admettoit rien de terrestre, par un intérêt qu'on pouvoit avouer
                         hautement, je ne balançai plus de lui adresser la parole; je la rencontrai
                         sur le soir le jour tombant; elle venoit de reconduire une bonne-amie et
@@ -2311,18 +2084,13 @@
                         étoffe dans le lointain me paroissoit la couleur de la sienne; mais quand la
                         figure approchoit, ce n'étoit plus Suzanne; alors c'étoit presque un monstre
                         à mes yeux; car mon attente trop vive, trop impétueuse enlaidissoit toutes
-                        les femmes qui passoient.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 25
-     </head>
-     <p>
-      <hi rend="italic">
-       que l'amour, quand il est pur, est doux et profond!
-      </hi>
-      Suzanne avoit remarqué en moi (à ce qu'elle m'a dit depuis) un caractere
+                        les femmes qui passoient. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 25 </head>
+                    <p>
+                        <hi rend="italic"> que l'amour, quand il est pur, est doux et profond! </hi>
+                        Suzanne avoit remarqué en moi (à ce qu'elle m'a dit depuis) un caractere
                         honnête. La porte refermée m'attira toute sa confiance. à-peine eût elle
                         reconduit, comme la veille, l'amie qui venoit la visiter tous les soirs, que
                         je me hâtai d'approcher. Je la devançaivers cette même petite porte, et me
@@ -2469,18 +2237,12 @@
                         suivit tristement; et quand je ne la vis plus, cette scène, qui m'avoit
                         touché si vivement, me parut un véritable songe: j'étois dans l'état d'un
                         homme qui se réveille et qui porte sur tous les objets qui l'environnent un
-                        oeil desabusé, distrait et confus.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 26
-     </head>
-     <p>
-      <hi rend="italic">
-       le colporteur.
-      </hi>
-      je rentrai le coeur opprimé d'un
+                        oeil desabusé, distrait et confus. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 26 </head>
+                    <p>
+                        <hi rend="italic"> le colporteur. </hi> je rentrai le coeur opprimé d'un
                         poids douloureux, sentant autour de moi un vuide inconnu, un vuide immense.
                         Dans un avenir obscur, je saisissois néanmoins quelque lueur d'espérance et
                         de bonheur; je l'adorois plus que jamais, et je goûtois le plaisir si doux
@@ -2494,8 +2256,9 @@
                         Il faut que tu sois nécessaire... elle le veut, elle l'exige... lui
                         désobéir, c'est manquer à l'amour... en creusant mes réflexions, elles me
                         conduisirent, d' après mon caractère et mon amour, à une mélancolie sombre:
-                        je me mis en tête que l'infortune qui m'avoit toujours poursuivi, vouloit m'arracher encore à Suzanne, et qu'elle ne seroit jamais rien pour moi. Je la
-                        vis cédant à son pere et déja dans les bras d'un époux brutal. Je passai
+                        je me mis en tête que l'infortune qui m'avoit toujours poursuivi, vouloit
+                        m'arracher encore à Suzanne, et qu'elle ne seroit jamais rien pour moi. Je
+                        la vis cédant à son pere et déja dans les bras d'un époux brutal. Je passai
                         plusieurs jours renfermé tristement, et dans un chagrin que je prenois soin
                         d'augmenter. Je m'ôtai jusqu'au plaisir de considérer un petit jardin qui
                         bornoit ma vue, parce que ce n'étoit pas celui-là où j'avois conversé avec
@@ -2520,34 +2283,22 @@
                         achetai quatre. Le papier étoit mauvais, l'impression affreuse; c'étoit des
                         contrefactions. Cependant le peu de mots que j'avois palpés à travers les
                         feuilles non coupées, me rendirent ces brochures plus piquantes que les gros
-                        livres que je feuilletois ordinairement. Le nom de
-      <hi rend="italic">
-       Voltaire
-      </hi>
-      que j'avois entendu souvent prononcer, toujours escorté
+                        livres que je feuilletois ordinairement. Le nom de <hi rend="italic">
+                            Voltaire </hi> que j'avois entendu souvent prononcer, toujours escorté
                         d'épithètes diaboliques, m'excita à juger quel ecrivain ce pouvoit être, et
                         quels étoient enfin les principes affreux et épouvantables,dont, selon mon
                         parrain, il parsemoit ses livres. Son nom étoit justement écrit en grosses
-                        lettres au frontispice d'une brochure qui avoit pour titre,
-      <hi rend="italic">
-       la henriade
-      </hi>
-      . J'avois entendu parler de Henri IV,
+                        lettres au frontispice d'une brochure qui avoit pour titre, <hi
+                            rend="italic"> la henriade </hi> . J'avois entendu parler de Henri IV,
                         comme d'un roi de France qui avoit été assassiné par un nommé Ravaillac.
                         Voilà à-peu-près tout ce que je savois de lui. J' allai m'asseoir à l'écart
                         sous un arbre; je tirai un petit couteau de ma poche, et je me mis à couper
-                        la brochure à mesure que je lisois.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 27
-     </head>
-     <p>
-      <hi rend="italic">
-       bénissons l'imprimerie.
-      </hi>
-      qui m'eût vu lire m'auroit
+                        la brochure à mesure que je lisois. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 27 </head>
+                    <p>
+                        <hi rend="italic"> bénissons l'imprimerie. </hi> qui m'eût vu lire m'auroit
                         comparé à un homme, qui, après avoir été longtems tourmenté de la soif, se
                         désaltere enfin au bord d'une onde pure. Quel langage nouveau, quand on
                         quitteMolina, Escobar, Sanchez et autres théologiens! Quel style, quelle
@@ -2562,25 +2313,12 @@
                         attentat aussi exécrable en tout sens, et je me promis alors d'ajouter
                         quelques vers à ce chant, tant j' étois ému et soulevé d'horreur. On peut en
                         juger, puisque je voulois dans ce moment être poëte après Voltaire.La
-                        seconde brochure que j' ouvris, étoit la tragédie de Mahomet, ou le
-      <hi rend="italic">
-       fanatisme
-      </hi>
-      ; la troisieme, les
-      <hi rend="italic">
-       mondes de Fontenelle
-      </hi>
-      , et la quatrieme la
-      <hi rend="italic">
-       loi
-                            naturelle
-      </hi>
-      , encore de M De Voltaire. Le juif m'avoit assuré que
-                        tous ces livres étoient bons, et qu'ils se vendoient par tout
-      <hi rend="italic">
-       comme des petits pâtés
-      </hi>
-      . J'avois trop peu de tems
+                        seconde brochure que j' ouvris, étoit la tragédie de Mahomet, ou le <hi
+                            rend="italic"> fanatisme </hi> ; la troisieme, les <hi rend="italic">
+                            mondes de Fontenelle </hi> , et la quatrieme la <hi rend="italic"> loi
+                            naturelle </hi> , encore de M De Voltaire. Le juif m'avoit assuré que
+                        tous ces livres étoient bons, et qu'ils se vendoient par tout <hi
+                            rend="italic"> comme des petits pâtés </hi> . J'avois trop peu de tems
                         pour parcourir ces livres; je les mis en poche, et le soir je les enfermai
                         avec soin dans ma cassette, les cachant dessous mon linge; et la nuit
                         rallumant ma lampe éteinte avec une précaution extraordinaire, je me jetai
@@ -2631,18 +2369,12 @@
                         répétant ces vers admirables, en songeant aux disputes futiles et
                         sanguinaires qui agitent la vie passagère de tant de mortels fanatiques. Je
                         crois voir des forçats dans un cachot funeste, pouvant se secourir, l'un sur
-                        l'autre acharnés, se battre avec les fers dont ils sont enchaînés.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 28
-     </head>
-     <p>
-      <hi rend="italic">
-       la petite porte.
-      </hi>
-      ayant adopté des idées convenables
+                        l'autre acharnés, se battre avec les fers dont ils sont enchaînés. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 28 </head>
+                    <p>
+                        <hi rend="italic"> la petite porte. </hi> ayant adopté des idées convenables
                         à la dignité d'un être pensant, je reportai à Voltaire un tribut d'estime et
                         d'admiration, comme en dédommagement de toutes les grosses injures qu'on lui
                         avoit adressées avec tant de prodigalité, et même avec l'accent et le cri de
@@ -2708,18 +2440,12 @@
                         pouvois de loin fléchir le genou devant elle, et dans cette attitude deviner
                         quelle sorte d'impression regne dans son coeur! Mais non j' étois seul et
                         tout étoit sourd et muet autour de moi; tandis que brûlant de mes feux,
-                        j'aurois voulu donner à tous les objets l'ame, la vie et le langage.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 29
-     </head>
-     <p>
-      <hi rend="italic">
-       on s'y attend.
-      </hi>
-      j'étois presque tombé anéanti de
+                        j'aurois voulu donner à tous les objets l'ame, la vie et le langage. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 29 </head>
+                    <p>
+                        <hi rend="italic"> on s'y attend. </hi> j'étois presque tombé anéanti de
                         douleur sur un gazon, et pressant la terre à-demi humide, je lui demandois
                         un tombeau, si mon amante ne devoit plus paroître à mes regards; j'étois à
                         moitié plongé dans un sommeil inquiet, lugubre et fatiguant, lorsque le
@@ -2793,18 +2519,12 @@
                         exemple qui vous décidera: vous connoissez votre coeur, montrez-le-moi tel
                         qu'il est, je vous le demande au nom de la vérité; faites-moi l'aveu le plus
                         sincere, mais aussi le plus ferme, et sur vos desseins, et sur le plan de
-                        vie que vous vous proposez: parlez et je répondrai ensuite.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 30
-     </head>
-     <p>
-      <hi rend="italic">
-       promesses, sermens mutuels.
-      </hi>
-      jugez, chere
+                        vie que vous vous proposez: parlez et je répondrai ensuite. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 30 </head>
+                    <p>
+                        <hi rend="italic"> promesses, sermens mutuels. </hi> jugez, chere
                         Florimonde, dans quelle agitation j'étois plongé. Eh! Que pouvoit dire,
                         promettre, affirmer, prononcer, l'amant éperdu de Suzanne, si ce n'étoit de
                         lui engager mille fois une foi éternelle! Je la lui jurai avec toute la
@@ -2893,18 +2613,12 @@
                         sans inquiétude les premiers rayons de l'aurore, je ne fis que rêver et
                         penser à Suzanne. Le jour ne vint que trop-tôt dissiper le charme profond et
                         délectable dont j'étois environné, et me chasser du jardin, du lieu de
-                        délices, du paradis terrestre.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 31
-     </head>
-     <p>
-      <hi rend="italic">
-       la tragédie de Mahomet.
-      </hi>
-      je m'évadai subtilement et
+                        délices, du paradis terrestre. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 31 </head>
+                    <p>
+                        <hi rend="italic"> la tragédie de Mahomet. </hi> je m'évadai subtilement et
                         avec toutes les précautions possibles; personne ne me vit; je rôdai autour
                         de mon collége et j'épiai le moment où la porte s'ouvroit. Dès-que je vis le
                         passage entrouvert, je me glissai furtivement, et je gagnai ma chambre à
@@ -2956,18 +2670,14 @@
                         l'univers les fumées infernales qui ont tourné tant de têtes. Fatales
                         erreurs! Qui sont entrées par l'entremise du diable et des vers, dans le
                         cerveau d'une jeunesse ardente à lire et à répéter. Est-il donc permis de
-                        raisonner avant l'âge de mâturité? Et s'il vous faut des livres, n'en
-                        a-t-on pas faits avant lui, et après, de plus beaux que les siens? Si vous
-                        avez la rage de la littérature, lisez, lisez les
-      <hi rend="italic">
-       feuilles
-                            de Fréron
-      </hi>
-      ! Voilà un ecrivain plein d'une solide éloquence. Il
-                        défend la religion comme le goût, et le goût comme la religion. Il vous
-                        auroit prouvé que ce Voltairen'est qu'un ecrivain médiocre; et que ce n'est
-                        que par prestiges qu'il se fait applaudir au théâtre et dans le monde. Il
-                        vous auroit fait toucher au doigt et à l'oeil, le vuide de ses phrases
+                        raisonner avant l'âge de mâturité? Et s'il vous faut des livres, n'en a-t-on
+                        pas faits avant lui, et après, de plus beaux que les siens? Si vous avez la
+                        rage de la littérature, lisez, lisez les <hi rend="italic"> feuilles de
+                            Fréron </hi> ! Voilà un ecrivain plein d'une solide éloquence. Il défend
+                        la religion comme le goût, et le goût comme la religion. Il vous auroit
+                        prouvé que ce Voltairen'est qu'un ecrivain médiocre; et que ce n'est que par
+                        prestiges qu'il se fait applaudir au théâtre et dans le monde. Il vous
+                        auroit fait toucher au doigt et à l'oeil, le vuide de ses phrases
                         brillantes. Avec ses feuilles, vous auriez eu le vrai préservatif contre
                         l'esprit du siécle; vous vous seriez muni d'un contrepoison puissant, et
                         vous n'auriez pas corrompu votre coeur à l'appât des idées nouvelles.
@@ -3002,19 +2712,9 @@
                         la tête de l'ouvrage. En voici d'autres dans ma poche, que ce même pape,
                         plein de raison, a sans douteoublié d'approuver aussi; car ils sont du même
                         style, et respirent le même esprit. Mon parrain pâlit, et portant avidement
-                        la main sur ma poche, il en fit sortir
-      <hi rend="italic">
-       la henriade
-      </hi>
-      , la
-      <hi rend="italic">
-       loi naturelle
-      </hi>
-      et
-      <hi rend="italic">
-       les mondes
-      </hi>
-      . Il les mit en pieces, malgré les cris que je jetois pour l'en
+                        la main sur ma poche, il en fit sortir <hi rend="italic"> la henriade </hi>
+                        , la <hi rend="italic"> loi naturelle </hi> et <hi rend="italic"> les mondes
+                        </hi> . Il les mit en pieces, malgré les cris que je jetois pour l'en
                         empêcher. J'étois furieux de voir que l'on maltraitât aussi cruellement des
                         ouvrages aussi lumineux; et de plus, je croyois que ces exemplaires étoient
                         uniques au monde. Dans la suite, j'ai admiré l'imprimerie, qui, propageant
@@ -3041,17 +2741,12 @@
                         dois remplir ta vocation. Songe que le troisieme jour écoulé, il ne sera
                         plus tems de revenir; je te traiterai comme un ennemi, et je déployerai sur
                         ta tête tous les effets du juste châtiment réservé pour punir les rébelles.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 32
-     </head>
-     <p>
-      <hi rend="italic">
-       emprisonnement.
-      </hi>
-      je demeurai glacé d'effroi. Mon
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 32 </head>
+                    <p>
+                        <hi rend="italic"> emprisonnement. </hi> je demeurai glacé d'effroi. Mon
                         parrain s'éloigna en me jetant des regards foudroyans; et après avoir
                         ramassé jusqu'aux feuilles volantes des livres qu'il avoit déchirés, il en
                         emporta tousles débris, pour les faire passer, disoit-il, par les flâmes.
@@ -3101,18 +2796,12 @@
                         de mon être, il étoit l'auguste témoin sous l'oeil duquel j'allois marcher;
                         je pouvois tout braver en ne l'offensant pas: que pouvoient me faire les
                         hommesdans leur tyrannie, lorsque je pouvois me dire à moi-même n'avoir
-                        point blessé la justice et la loi suprême de celui qui peut tout?
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 33
-     </head>
-     <p>
-      <hi rend="italic">
-       nouveau style.
-      </hi>
-      je n'étois pas encore levé, quand je
+                        point blessé la justice et la loi suprême de celui qui peut tout? </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 33 </head>
+                    <p>
+                        <hi rend="italic"> nouveau style. </hi> je n'étois pas encore levé, quand je
                         vis entrer dans ma cellule le pere Monabridor, accompagné des cordons bleus
                         de l'ordre. Ils s'assirent autour de mon lit en forme de sénat; leur visage
                         étoit sévere, et leurs yeux baissés. En silence, ils sembloient préparer
@@ -3262,12 +2951,12 @@
                         à fond l'histoire de la ville; et toutes les anecdotes les plus plaisantes,
                         alimentent notre curiosité: j'en fais recueil, et le soir je ris tout à mon
                         aise des folies du jour. Il faut savoir arranger doucement toutes ses
-                        petites fantaisies: voilà tout l' art. Eh! Tu les auras! Dans le monde, comme
-                        dans un couvent, chacun fait sa grimace... tiens, voilà la mienne. Alors les
-                        peaux de son maigre visage se riderent, et je le revis sous cette figure
-                        grave et sévère qui annonçoit la mortification: puis, tout-à-coup, faisant
-                        un grand éclat de rire, ses traits se métamorphoserent subitement, et
-                        prirent un tour si original, si comique, que, malgré l'indignation que me
+                        petites fantaisies: voilà tout l' art. Eh! Tu les auras! Dans le monde,
+                        comme dans un couvent, chacun fait sa grimace... tiens, voilà la mienne.
+                        Alors les peaux de son maigre visage se riderent, et je le revis sous cette
+                        figure grave et sévère qui annonçoit la mortification: puis, tout-à-coup,
+                        faisant un grand éclat de rire, ses traits se métamorphoserent subitement,
+                        et prirent un tour si original, si comique, que, malgré l'indignation que me
                         causoit son discours, je ne pus m'empêcher de rire de ce singulier
                         contraste. Allons, allons, plus d'enfance, s'écria-t-il, sois un homme; sois
                         des nôtres: je suis chargé de t'instruire, parce que nous avons bien senti
@@ -3305,18 +2994,12 @@
                         pour qu'on ne sévît point contre moi, parce que la poire étoit mûre, et que
                         si on ne la cueilloit pas, elle alloit tomber d'elle-même. Ce fut l'image
                         dont il se servit dans sa narration, entremêlant le tout de mille réflexions
-                        facétieuses et badines.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 34
-     </head>
-     <p>
-      <hi rend="italic">
-       les bonnes jambes.
-      </hi>
-      nous sortîmes ensemble comme une
+                        facétieuses et badines. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 34 </head>
+                    <p>
+                        <hi rend="italic"> les bonnes jambes. </hi> nous sortîmes ensemble comme une
                         paire d'amis; il me parloit toujours sur le même ton de confiance et
                         d'ouverture; mais j'étois distrait; car voyant les rues si larges, je
                         pensois à Suzanne et projetois ma délivrance entiere. Il avoit repris sa
@@ -3382,18 +3065,12 @@
                         porte, et coucha hors de la ville; et moi, content d'être libre, satisfait
                         d'être rentré dans le séjour qu'habitoit mon amante; soupirant après sa vue,
                         ne desirant qu'elle, je me sentois une valeur si héroïque, que je me serois
-                        battu jusqu'à la mort contre un régiment qui auroit voulu m'arrêter.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 35
-     </head>
-     <p>
-      <hi rend="italic">
-       projet indiscret de deux amans.
-      </hi>
-      après ce coup
+                        battu jusqu'à la mort contre un régiment qui auroit voulu m'arrêter. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 35 </head>
+                    <p>
+                        <hi rend="italic"> projet indiscret de deux amans. </hi> après ce coup
                         hardi, je me déclarai absolument libre et maître de moi-même, bien résolu de
                         ne jamais approcher d'aucun collége, maudissant ces prisons où j'avois gémi,
                         le coeur froissé entre la servitude et la tyrannie. Que j'étois heureux de
@@ -3479,18 +3156,12 @@
                         je serai sévère. Je sais tous les discours qui vont suivre ma fuite. La
                         calomnie aura beau jeu. Tout déposera contre moi; mais j'aime mieux endurer
                         publiquement les reproches les plus injurieux, que d'en mériter un seul dans
-                        le secret de mon coeur.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 36
-     </head>
-     <p>
-      <hi rend="italic">
-       nouvel habit.
-      </hi>
-      nous arrêtâmes sur le champ notre
+                        le secret de mon coeur. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 36 </head>
+                    <p>
+                        <hi rend="italic"> nouvel habit. </hi> nous arrêtâmes sur le champ notre
                         départ. Il fut fixé pas plus tard qu'à la pointe du jour. Nous ne pouvions
                         sortir de la ville qu'aux premiers rayonsde l'aurore. Aurore trop lente pour
                         mes voeux impatiens, combien de fois je t'appelai! Et combien je craignis
@@ -3505,17 +3176,14 @@
                         défroque que jamais personne n'avoit réclamée; elle se hâta donc de l'aller
                         chercher à bas bruit; elle revint quelque tems après, portant avec grace un
                         petit paquet qui contenoit l'habitde voyage; elle le jeta à mes pieds, en me
-                        disant:
-      <hi rend="italic">
-       mon amant ne sera donc plus un abbé!
-      </hi>
-      qu'elle étoit charmante alors! Je fis mille folies autour d'elle, et mon
+                        disant: <hi rend="italic"> mon amant ne sera donc plus un abbé! </hi>
+                        qu'elle étoit charmante alors! Je fis mille folies autour d'elle, et mon
                         ivresse s' exprima par les plus innocentes caresses. Ce furent les mains de
                         Suzanne qui m'aiderent à dépouiller ce vêtement lugubre qui interdit
                         l'amour. Elle voulut toutefois garder mon rabat comme le drapeau de sa
-                        conquête, et jamais l'amour, au siécle de l'âge d'or, ne parla d'une
-                        maniere plus naïve et plus touchante. C'étoit une flâme pure et céleste qui
-                        nous consumoit, et qui ne laissoit pas approcher la profâne et grossiere
+                        conquête, et jamais l'amour, au siécle de l'âge d'or, ne parla d'une maniere
+                        plus naïve et plus touchante. C'étoit une flâme pure et céleste qui nous
+                        consumoit, et qui ne laissoit pas approcher la profâne et grossiere
                         étincelle du desir. Ses mains m'aiderent à revêtir cet autre habit, qui ne
                         défendoit pas d'aimer, et sous lequel je parus à ses yeux un homme nouveau.
                         Je fus étonné moi-même de la métamorphose. Je sentis que je pouvois lever la
@@ -3529,18 +3197,12 @@
                         chose pour les ranger subitement au même uniforme: nos habits font nos
                         préjugés; mais le sage porte sa robe sans mot dire à personne, tandis que
                         l'insensé la montre avec emphase, et veut faire baiser la sienne à tout le
-                        monde.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 37
-     </head>
-     <p>
-      <hi rend="italic">
-       départ qui sera suivi de regrets.
-      </hi>
-      le point du jour
+                        monde. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 37 </head>
+                    <p>
+                        <hi rend="italic"> départ qui sera suivi de regrets. </hi> le point du jour
                         nous vint annoncer l'instant du départ. Je donnai le bras à Suzanne. Comme
                         elle étoit tremblante malgré son courage! Elle fondit en larmes en jetant un
                         dernier regard sur la maison où son pere étoit encore plongé dans le
@@ -3625,20 +3287,14 @@
                         craintes, disant que les ennemis étoient bien loin et qu'il avoit fait cent
                         fois le même chemin sans encombre. Nous nous confiâmes à la providence; et
                         la distance s'accourcissant à chaque minute, nous crûmes déja toucher le but
-                        de nos espérances, et l'asyle du repos et du bonheur.
-     </p>
-    </div>
-   </div>
-   <div type="group">
-    <div type="chapter">
-     <head>
-      CHAPITRE 38
-     </head>
-     <p>
-      <hi rend="italic">
-       désastre épouvantable.
-      </hi>
-      le deuxième jour de marche,
+                        de nos espérances, et l'asyle du repos et du bonheur. </p>
+                </div>
+            </div>
+            <div type="group">
+                <div type="chapter">
+                    <head> CHAPITRE 38 </head>
+                    <p>
+                        <hi rend="italic"> désastre épouvantable. </hi> le deuxième jour de marche,
                         nous descendions sur une pente rapide dans un étroit vallon, et nous vîmes
                         sur le chemin une voiture sans chevaux, dont le bagage avoit été pillé.
                         Plusieurs hommes dépouillés étoient étendus épars dans la poussière; des
@@ -3733,18 +3389,12 @@
                         continuité de mon supplice le rendit si douloureux, que je jetai
                         involontairement les clameurs les plus aiguës; elles se mêlerent au cri des
                         élémens, et percerent longuement dans les intervalles de ce silence
-                        terrible, où le tonnerre se taisoit.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 39
-     </head>
-     <p>
-      <hi rend="italic">
-       l'opulent bienfaiteur.
-      </hi>
-      c'est dans ce déplorable
+                        terrible, où le tonnerre se taisoit. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 39 </head>
+                    <p>
+                        <hi rend="italic"> l'opulent bienfaiteur. </hi> c'est dans ce déplorable
                         état, et prêt à succomber, que j'entendis le bruit d'une chaise de poste, et
                         le trot rapide de plusieurs cavaliers qui s'avançoient de mon côté à bride
                         abatue. J'étois sur le bord du chemin. Ils m' apperçurent à la lueur des
@@ -3853,25 +3503,15 @@
                         commande point à la pensée; l'homme peut tout sacrifier, excepté ce
                         sentiment qui fait l'essence de notre ame. Je l'ai combattu, j'ai renversé
                         ses fausses opinions, mais sans ce zèle âcre qui dégénere en fureur et en
-                        fiel; il appeloit
-      <hi rend="italic">
-       philosophie
-      </hi>
-      des systêmes aussi
+                        fiel; il appeloit <hi rend="italic"> philosophie </hi> des systêmes aussi
                         absurdes que pernicieux; je n'ai eu besoin que de mon coeur pour le réfuter.
                         Je n'ai touché à l'évidence que par sentiment; mais, j'ose le croire encore
-                        plus sûr que la raison même.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 40
-     </head>
-     <p>
-      <hi rend="italic">
-       scène, peut-être unique.
-      </hi>
-      j'étois trop profondément
+                        plus sûr que la raison même. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 40 </head>
+                    <p>
+                        <hi rend="italic"> scène, peut-être unique. </hi> j'étois trop profondément
                         pénétré de la perte de Suzanne pour ne pas rêver incessamment à elle. Je
                         résolus de demander de ses nouvelles à tout le canton, et de parcourir
                         sur-tout les environs du lieu où elle avoit été enlevée; d' interroger tous
@@ -3885,9 +3525,10 @@
                         ordre de ne me point quitter; et après m'avoir représenté vainement les
                         dangers et l'inutilité de mes courses, il m'assigna pour rendez-vous la
                         ville de Francfort. Je pars avec mes deux compagnons, comblé des dons et des
-                        soins attentifs de mon généreux protecteur. Je parcours les villages, j'entre dans toutes les cabannes, demandant une jeune-beauté, que des houzards
-                        ont ravie: on m'écoute, on me plaint; mais on ne put me rien dire de
-                        positif. J'arrive enfin à l'endroit fatal, où des monstres m'ont arraché
+                        soins attentifs de mon généreux protecteur. Je parcours les villages,
+                        j'entre dans toutes les cabannes, demandant une jeune-beauté, que des
+                        houzards ont ravie: on m'écoute, on me plaint; mais on ne put me rien dire
+                        de positif. J'arrive enfin à l'endroit fatal, où des monstres m'ont arraché
                         plus que la vie; mon oeil le reconnoît sans peine; je frissonne, je pleure,
                         je trouble par mes cris le silence de la forêt; je revois l'arbre, où
                         Suzanne m'a pressé dans ses bras du poids de son corps adorable. Il me
@@ -3958,18 +3599,12 @@
                         auprès de ce qu'il avoit vu; que du côté de la Westphalie, deux régimens
                         avoient saccagé dix lieues couronnées des plus belles moissons; et que dans
                         cette triste enceinte, tout ce qui restoit d'hommes, s'étoit trouvé réduit à
-                        brouter l'herbe comme de vils animaux.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 41
-     </head>
-     <p>
-      <hi rend="italic">
-       raisonnement financier.
-      </hi>
-      je soupirois, tandis qu'il
+                        brouter l'herbe comme de vils animaux. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 41 </head>
+                    <p>
+                        <hi rend="italic"> raisonnement financier. </hi> je soupirois, tandis qu'il
                         me détailloit ces désastres, qui en avoient enfanté mille autres
                         particuliers. Il étoit presque insensible à ces calamités, et repétoit
                         toujours: ce monde est livré aux ouragans et aux fureurs de la guerre, qui,
@@ -3977,11 +3612,7 @@
                         des événemens; et tout en disant cela, il jetoit quelques écus à ces
                         malheureux, qui, pressés de l'aiguillon de la faim, égaloient le pas de ses
                         chevaux, et se montroient en foule à sa portiere. Ces gens-là, disoit-il,
-                        pourroient crier après nous,
-      <hi rend="italic">
-       au voleur
-      </hi>
-      . Car comme
+                        pourroient crier après nous, <hi rend="italic"> au voleur </hi> . Car comme
                         je suis intéressé dans les fourrages (où se font les meilleurs tours de
                         passe-passe), probablement il me reviendra quelque chose de ce qu'on leur a
                         enlevé; aufond, c'est une restitution que cette aumône. Mais si je n'avois
@@ -4032,17 +3663,12 @@
                         attaché à ses idées; mais qui laissoit aux autres les leurs; il répétoit
                         toujours: tu sentiras un jour par toi-même la vérité de ce que je te dis. Et
                         ma bouche et mon coeur lui répondoient fortement: non, non; jamais, jamais!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 42
-     </head>
-     <p>
-      <hi rend="italic">
-       Paris.
-      </hi>
-      enfin j'arrivai avec lui dans cette capitale
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 42 </head>
+                    <p>
+                        <hi rend="italic"> Paris. </hi> enfin j'arrivai avec lui dans cette capitale
                         immense et tumultueuse, qu'il m'avoit annoncée comme le séjour de la
                         liberté, de l'opulence, de la volupté et de la joie. Le premier coup-d' oeil
                         ne me plut point. Je ne sais si ce fut un effet de la teinte mélancolique
@@ -4102,7 +3728,8 @@
                         foibles et de petits moyens, des paroles à la place de l'action, tout
                         annonce le champ étroit où les poëtes ont choisi leurs personnages. Ils
                         n'ont jamais que six pieds carrés pour se promener et pour agir. Un théâtre
-                        plus intéressant m'occupa: ce fut celui du monde, théâtre varié, et dont l'autre n'est pas même l'ombre. Il me faudroit un jour entier pour vous
+                        plus intéressant m'occupa: ce fut celui du monde, théâtre varié, et dont
+                        l'autre n'est pas même l'ombre. Il me faudroit un jour entier pour vous
                         exposer le jugement que j'ai porté de ces hommes rayonnans de dorure, et de
                         l'ame ordinairement logée sous cette superficie brillante. L'habitude en
                         général, a affaissé toutes les ames; elles sont petites, mesquines,
@@ -4113,18 +3740,12 @@
                         trouvée, vous qui m'avez sauvé de leurs piéges: vous, dont la sagesse, la
                         candeur, la vertu! ... Florimonde qui souffroit intérieurement de ces
                         éloges, et qui rougissoit de les entendre, embrassa Jezennemours, et lui
-                        ferma la bouche avec un doux baiser. Il continua ainsi:
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 43
-     </head>
-     <p>
-      <hi rend="italic">
-       fin du récit. la vraie franchise de l'ame.
-      </hi>
-      Monval
+                        ferma la bouche avec un doux baiser. Il continua ainsi: </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 43 </head>
+                    <p>
+                        <hi rend="italic"> fin du récit. la vraie franchise de l'ame. </hi> Monval
                         ne manqua point de me donner le titre de secrétaire, parce que j' avois
                         exigé de lui un emploi, voulant tenir ma subsistance plutôt de mon travail
                         que de sa pure libéralité; mais il me laissoit toujours oisif, etquand je
@@ -4228,8 +3849,9 @@
                         Florimonde; mais il ne s'en attendoit pas moins aux reproches d'une femme
                         jalouse: il ne trouva en elle qu'un exemple étonnant de douceur et de
                         tendresse. Confus de tant de générosité, il ne s'en estimoit que plus
-                        coupable. Il conçut pour elle un respect nouveau, et qui tenoit de l'admiration: quelquefois il la serroit dans ses bras, sans oser expliquer sa
-                        pensée; et c'étoit elle qui lui parloit de Suzanne, des moyens de la
+                        coupable. Il conçut pour elle un respect nouveau, et qui tenoit de
+                        l'admiration: quelquefois il la serroit dans ses bras, sans oser expliquer
+                        sa pensée; et c'étoit elle qui lui parloit de Suzanne, des moyens de la
                         retrouver, qui lui portoit cette espérance, qui, toute illusoirequ'elle est,
                         aime tant à germer dans les coeurs infortunés: elle s'oublioit elle-même
                         pour reposer et fixer l'ame de Jezennemours, sur cette image qu'il adoroit.
@@ -4237,18 +3859,12 @@
                         coeur de Jezennemours, qu'il se sentit pénétré de la plus vive affection; et
                         tous les témoignages d'une amitié profonde et sincere, furent prodigués à
                         Florimonde; et ces témoignages, par leur vivacité, égaloient presque ceux de
-                        l'amour.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 44
-     </head>
-     <p>
-      <hi rend="italic">
-       contretems fatal.
-      </hi>
-      sur ces entrefaites, Monval se
+                        l'amour. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 44 </head>
+                    <p>
+                        <hi rend="italic"> contretems fatal. </hi> sur ces entrefaites, Monval se
                         trouvoit de retour d'un assez long voyage: il se transportoit de Paris à
                         Londres, à Amsterdam, à Venise, à Turin, à Vienne, tout aussi facilement
                         qu'unbourgeois de Paris se transporte le dimanche à St Cloud, à Sceaux ou à
@@ -4286,18 +3902,12 @@
                         folie. On y entendit raisonner le bruit des instrumens et le désordre de la
                         danse. Le tranquille et chaste écho des forêts, répéta les chants des
                         beautés dissolues, et leslibertines orgies d'une troupe d'extravagans qui
-                        s'étourdissoient pour avoir du plaisir.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 45
-     </head>
-     <p>
-      <hi rend="italic">
-       allarmes. Grand souper bien perfide.
-      </hi>
-      Florimonde,
+                        s'étourdissoient pour avoir du plaisir. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 45 </head>
+                    <p>
+                        <hi rend="italic"> allarmes. Grand souper bien perfide. </hi> Florimonde,
                         dans le plus grand embarras, présageant tout ce qu'elle avoit à craindre, et
                         voulant cacher ce qu'elle ne vouloit pas que Jezennemours sçût, ne savoit
                         quel parti prendre; elle ne quittoit pas Jezennemours d' un instant, lui
@@ -4313,7 +3923,8 @@
                         empire dans ces parties badines, où il étoit reçu de se livrer à des
                         amusemens folâtres. Elle ajoutoit que de fortes raisons l'obligeoient à
                         ménager Monval; qu'il étoit méchant et dangereux, dès qu'on contrarioit ses
-                        desseins; que quelques jours seroient bientôt passés, et que le moyen d'anéantir le scandale, étoit de ne pas paroître l'appercevoir; que
+                        desseins; que quelques jours seroient bientôt passés, et que le moyen
+                        d'anéantir le scandale, étoit de ne pas paroître l'appercevoir; que
                         malheureusement les moeurs du siécle lui imposoient silence, et qu'enfin, ce
                         seroit pour la derniere fois qu'elle se prêteroit à une fête qu'elle n'avoit
                         su ni prévoir, ni éviter.Prêtez-vous un peu, ajouta-t-elle, mon cher
@@ -4360,11 +3971,7 @@
                         composées dans l'univers, sans excepter celles du gentil Anacréon, coururent
                         à la ronde. Quoique la compagnie eût les yeux fixés sur Jezennemours, il
                         étoit loin de se croire le principal acteur de la fête; il ignoroit que
-                        c'étoit son
-      <hi rend="italic">
-       hymen
-      </hi>
-      que ces apôtres du libertinage
+                        c'étoit son <hi rend="italic"> hymen </hi> que ces apôtres du libertinage
                         célébroient au gré de leurs principes, et que ce repas splendide étoit le
                         brillant festin des noces. Florimonde, elle-même, quoiqueconnoissant Monval,
                         ne soupçonnoit pas ce tour perfide. Le bon jeune-homme suivoit avec
@@ -4374,18 +3981,12 @@
                         les yeux étoient fixés sur lui, et c'étoit un nouveau plaisir pour les
                         assistans de le voir, entraîné par l'exemple, étourdi par les liqueurs,
                         s'abandonner à ce tumulte où les sens s'enflâment et maîtrisent le
-                        philosophe malgré toutes les leçons du lycée et du portique.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 46
-     </head>
-     <p>
-      <hi rend="italic">
-       tout se découvre.
-      </hi>
-      il falloit vingt-quatre heures au
+                        philosophe malgré toutes les leçons du lycée et du portique. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 46 </head>
+                    <p>
+                        <hi rend="italic"> tout se découvre. </hi> il falloit vingt-quatre heures au
                         moins pour abaisser les fumées de ce festin. Au réveil de sa raison,
                         Jezennemourscrut avoir fait un songe importun; il ne pouvoit ajouter foi à
                         l'image que sa mémoire lui présentoit; il se revoyoit encore panché sur le
@@ -4399,21 +4000,10 @@
                         regard? Il se promenoit, étonné de son indiscrétion, abattu par le chagrin
                         qui versoit dans son ame un remord intérieur, lorsqu'un des compagnons de
                         Monval, qu'il n'avoit jamais pu souffrir à causede la grossiéreté de ses
-                        moeurs, vint à passer, et lui frappant sur l'épaule:
-      <hi rend="italic">
-       bon
-                            jour, l'ami,
-      </hi>
-      dit-il en le regardant en face d'un air satyrique:
-      <hi rend="italic">
-       bon jour, l'homme sage;
-      </hi>
-      parbleu, je suis bien
-                        charmé que vous soyez enfin
-      <hi rend="italic">
-       des nôtres
-      </hi>
-      . Le rusé
+                        moeurs, vint à passer, et lui frappant sur l'épaule: <hi rend="italic"> bon
+                            jour, l'ami, </hi> dit-il en le regardant en face d'un air satyrique:
+                            <hi rend="italic"> bon jour, l'homme sage; </hi> parbleu, je suis bien
+                        charmé que vous soyez enfin <hi rend="italic"> des nôtres </hi> . Le rusé
                         philosophe! Oh! Je savois bien qu'on en feroit quelque chose. Après cette
                         apostrophe, il continua son chemin en faisant d'assez longs éclats de rire.
                         Des nôtres! Moi des siens! Se peut-il, prononçoit Jezennemours, pressant son
@@ -4556,8 +4146,8 @@
                         Florimonde. Jezennemours jete la lettre par terre, lève les mains au ciel,
                         pousse un long soupir, son oeil s' enflâme et s'éteint; puis tout-à-coup
                         regardant Monval avec indignation, il dit avec une fureur concentrée: si je
-                        ne respectois en vous l'homme qui m'a sauvé la vie; si la voix qui défend
-                        la colere la plus juste ne me retenoit, j'aurois cent poignards que je les
+                        ne respectois en vous l'homme qui m'a sauvé la vie; si la voix qui défend la
+                        colere la plus juste ne me retenoit, j'aurois cent poignards que je les
                         enfoncerois tous dans votre coeur: mais le mien que vous avez déchiré sans
                         pitié, tout trahi qu'il est demeurera pur dans son infortune, et sera loin
                         de se permettre la vengeance. Je me contenterai de fuir un corrupteur,qui,
@@ -4572,18 +4162,12 @@
                         oh! Que c'est bien rendu! Quel acteur! Quel acteur! ... mais quel dommage,
                         je suis seul! Attends, attends de grace un moment, et je reviens tout de
                         suite avec un auditoire... c'est de l'or, messieurs; c'est de l'or tout pur
-                        que ce bon Jezennemours.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 47
-     </head>
-     <p>
-      <hi rend="italic">
-       le garde-chasse.
-      </hi>
-      Jezennemours n'attendit point les
+                        que ce bon Jezennemours. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 47 </head>
+                    <p>
+                        <hi rend="italic"> le garde-chasse. </hi> Jezennemours n'attendit point les
                         risées de la compagnie; il se sentoit trop ému, trop disposé à la fureur
                         pour endurer paisiblement cette scène; il prit le parti de fuir, et cette
                         résolution courageuse, fut le premier mouvement de son ame, et le seul qu'il
@@ -4699,18 +4283,12 @@
                         il respiroit un air plus pur. Enfin, las et fatigué d'une marche suivie
                         pendant plusieurs jours, il prit le parti de s'arrêter dans la premiere
                         bourgade, et d'offrir au premierhomme qu'il rencontreroit, ce qu'il sauroit
-                        faire, pour prix de son logement et de sa nourriture.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 48
-     </head>
-     <p>
-      <hi rend="italic">
-       la milice.
-      </hi>
-      à peine Jezennemours étoit-il entré dans
+                        faire, pour prix de son logement et de sa nourriture. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 48 </head>
+                    <p>
+                        <hi rend="italic"> la milice. </hi> à peine Jezennemours étoit-il entré dans
                         cette bourgade, qu'un spectacle bien nouveau frappa sa vue; on tiroit la
                         milice. De quel côté qu'il arrêtât ses yeux, il vit des meres désolées et
                         fondantes en larmes, qui serroient dans leurs bras leurs enfans, comme s'ils
@@ -4734,11 +4312,8 @@
                         volontairement. Le soir, comme il se reposoit dans une auberge des fatigues
                         de sa marche, un bon humain vint lui dire à l'oreille qu'une conspiration
                         étoit formée contre sa liberté, et que l'on concertoit de l'enrôler de
-                        force, ou bien qu'on le dénonceroit comme un
-      <hi rend="italic">
-       fuyard
-      </hi>
-      , et que, comme tel, on le conduiroit en prison, jusqu'à ce qu'il acceptât
+                        force, ou bien qu'on le dénonceroit comme un <hi rend="italic"> fuyard </hi>
+                        , et que, comme tel, on le conduiroit en prison, jusqu'à ce qu'il acceptât
                         de bonne grace la cocarde et le fusil. Avez-vous, ajouta l'homme généreux,
                         avez-vous un passeport signé? Non, reprit Jezennemours, je ne crois pas en
                         avoir besoin; je n'ai jamais songé à me munir d'un papier avant que de me
@@ -4752,18 +4327,12 @@
                         lieues, il courut par mille sentiers qu'il ne connoissoit point, et ne
                         laissa pas que de faire un chemin considérable, rêvant toujours à quel
                         emploi il pourroit se livrer pour gagner un pain dont il étoit prêt à
-                        manquer.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 49
-     </head>
-     <p>
-      <hi rend="italic">
-       la Suisse et le vieillard.
-      </hi>
-      il étoit sur les
+                        manquer. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 49 </head>
+                    <p>
+                        <hi rend="italic"> la Suisse et le vieillard. </hi> il étoit sur les
                         frontières de la Franche-Comté, et refléchissant qu'en France il y avoit des
                         jésuites, des financiers, des filles d'opéra, des enrôleurs, il passa en peu
                         de tems sur le territoire des suisses: il s'assit au pied d'un chêne sur le
@@ -4807,18 +4376,12 @@
                         remarqué que celui qu'il observoit alloit s'éveiller; mais un sentiment
                         inconnu et qu'il ne put dompter, le retint à quelques pas, d'où sans être
                         vu, il pouvoit appercevoir à-travers le feuillage celui qu'il aimoit déja à
-                        contempler.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 50
-     </head>
-     <p>
-      <hi rend="italic">
-       soliloque.
-      </hi>
-      Jezennemours en ouvrant les yeux, se
+                        contempler. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 50 </head>
+                    <p>
+                        <hi rend="italic"> soliloque. </hi> Jezennemours en ouvrant les yeux, se
                         rappelle sa situation; il pousse un profond soupir, regarde autour de lui et
                         se leve avec précipitation; il fait quelques pas, et s'arrêtant, se met à
                         admirer tout ce qui l'environne. Cette nature si fraîche, si brillante et si
@@ -4882,18 +4445,12 @@
                         trompé. Celle en qui je croyois trouver tout le bonheur de ma vie a disparu.
                         Après ce coup affreux auquel je dois me soumettre, je recevrai avec
                         résignation tous ceux que ta main voudra m'infliger. Tu sais, grand dieu! Tu
-                        sais ce que tu dois faire de nous!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 51
-     </head>
-     <p>
-      <hi rend="italic">
-       effets de la sympathie.
-      </hi>
-      c'est ainsi que
+                        sais ce que tu dois faire de nous! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 51 </head>
+                    <p>
+                        <hi rend="italic"> effets de la sympathie. </hi> c'est ainsi que
                         Jezennemours rempli de la plus forte confiance, et de la plus ferme
                         résolution se mit en devoir de gagner sa vie. Il cherchoit la premiere
                         maison où il pourroit exercer son courage. à-peine eut-il fait quelques pas,
@@ -4944,19 +4501,19 @@
                         son ame vigoureuse avoit acquis une trempe plus forte encore. Il avoit suivi
                         le théâtre de la guerre dans tous les lieux où elle s'étoit établie; couvert
                         de blessures, et après avoir vu tous les régimens se renouveller, pour ainsi
-                        dire, autour de lui, il étoit arrivé à l'âge de soixante-dix ans. Une
-                        petite croix et une petite pension, furent la récompense de ses longs et
-                        pénibles travaux. La croix lui fut donnée; mais on ne lui paya point ses
-                        quartiers. Il sollicita longtems; et las de solliciter, et d'aller de bureau
-                        en bureau, un placet à la main, exposer son infortune à des commis, qui
-                        semblent dédaigner la plume qu'ils touchent, il prit le parti d' aller se
-                        mettreà la table d'une vieille soeur qui lui restoit, riche héritiere de
-                        plusieurs époux qu'elle avoit enterrés. Cette soeur avare avoit été pendant
-                        toute sa vie fort habile à faire prospérer les biens qu'elle avoit reçus.
-                        Malgré l'amitié qu'elle disoit porter à son frere, et qu'il étoit impossible
-                        de lui refuser, elle vouloit ne lui rien donner qu'après sa mort: c'étoit-là
-                        le moment qu'elle avoit marqué pour sa générosité, et elle vouloit qu'on lui
-                        en sçût gré d'avance. Sa mort survint quelque-temps après l'arrivée de son
+                        dire, autour de lui, il étoit arrivé à l'âge de soixante-dix ans. Une petite
+                        croix et une petite pension, furent la récompense de ses longs et pénibles
+                        travaux. La croix lui fut donnée; mais on ne lui paya point ses quartiers.
+                        Il sollicita longtems; et las de solliciter, et d'aller de bureau en bureau,
+                        un placet à la main, exposer son infortune à des commis, qui semblent
+                        dédaigner la plume qu'ils touchent, il prit le parti d' aller se mettreà la
+                        table d'une vieille soeur qui lui restoit, riche héritiere de plusieurs
+                        époux qu'elle avoit enterrés. Cette soeur avare avoit été pendant toute sa
+                        vie fort habile à faire prospérer les biens qu'elle avoit reçus. Malgré
+                        l'amitié qu'elle disoit porter à son frere, et qu'il étoit impossible de lui
+                        refuser, elle vouloit ne lui rien donner qu'après sa mort: c'étoit-là le
+                        moment qu'elle avoit marqué pour sa générosité, et elle vouloit qu'on lui en
+                        sçût gré d'avance. Sa mort survint quelque-temps après l'arrivée de son
                         frere. Comme elle ne laissa aucun enfant, il se trouva que le vieil officier
                         devint tout-à-coup fort riche. Il fit voir qu'il étoit digne du bien qu'il
                         possédoit, par le bon usage qu'il en fit. Ses revenus appartenoient aux
@@ -4964,17 +4521,12 @@
                         qui leur étoient partagés selon le degré de besoinqui les pressoient. Le
                         fond de ses biens demeuroit intact; il le conservoit pour son fils, qui
                         deviendra bientôt un personnage dans cette importante et véridique histoire.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 52
-     </head>
-     <p>
-      <hi rend="italic">
-       le travail des mains.
-      </hi>
-      Jezennemours, après avoir
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 52 </head>
+                    <p>
+                        <hi rend="italic"> le travail des mains. </hi> Jezennemours, après avoir
                         déjeûné, prit une bêche en main, et jura qu'il n'accepteroit pas d'autre
                         emploi que celui qui consisteroit dans le travail des mains. Voilà des
                         terres, disoit-il, qui demandent à être défrichées, et ce n'est pas une
@@ -5016,22 +4568,13 @@
                         ordres du vieillard, qui quelquefois l' accompagnoit. Il régloit les
                         comptes, faisoit regner une balance égale; et par une intelligence qui lui
                         étoit propre, il excelloit dans l'art degouverner les travaux champêtres, et
-                        il auroit pu ajouter quelques articles à l'excellent livre intitulé,
-      <hi rend="italic">
-       la maison rustique
-      </hi>
-      .
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 53
-     </head>
-     <p>
-      <hi rend="italic">
-       la confidence de l'amitié.
-      </hi>
-      son heureux caractere
+                        il auroit pu ajouter quelques articles à l'excellent livre intitulé, <hi
+                            rend="italic"> la maison rustique </hi> . </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 53 </head>
+                    <p>
+                        <hi rend="italic"> la confidence de l'amitié. </hi> son heureux caractere
                         lui avoit fait, dès le premier abord, un intime ami dans la personne du fils
                         de M De Chaterbaune, jeune-homme doué de sensibilité, et riche en vertus,
                         qui avoit marché sur les traces de son pere dans les dernieres guerres
@@ -5105,18 +4648,12 @@
                         rares rouloient dans ses yeux, lorsque M De Chaterbaune entra tout-à-coup...
                         de la joie, de la joie, mes chers enfans! Quand ma fille est absente, je
                         permets qu'on soit un peu sombre; mais elle arrive; je viens vous
-                        l'annoncer, et il ne doit plus y avoir ici que de la gaîté.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 54
-     </head>
-     <p>
-      <hi rend="italic">
-       quel titre lui donner?
-      </hi>
-      le tableau que le discours
+                        l'annoncer, et il ne doit plus y avoir ici que de la gaîté. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 54 </head>
+                    <p>
+                        <hi rend="italic"> quel titre lui donner? </hi> le tableau que le discours
                         du vieillard occasionna, mériteroit d'autres pinceaux que les miens. Il est
                         plus fait pour la toile, que pour être tracé sur le papier. L'époux oubliant
                         ses chagrins, vole au-devant de sa chere épouse pour l'embrasser.
@@ -5169,18 +4706,12 @@
                         m'a ôté; vous, qui m'avez appelé votre ami: allez, je saurai l'être encore!
                         ... commandez à votre ame; j'ordonnerai à la mienne... prêtez-vous à mes
                         desseins... quelques jours encore, et nous serons peut-être tous trois moins
-                        infortunés!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 55
-     </head>
-     <p>
-      <hi rend="italic">
-       où l'on apprendra ce qu'on ne savoit pas.
-      </hi>
-      Susanne
+                        infortunés! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 55 </head>
+                    <p>
+                        <hi rend="italic"> où l'on apprendra ce qu'on ne savoit pas. </hi> Susanne
                         s'étoit sauvée avec précipitation dans la chambre prochaine. Elle n'avoit pu
                         soutenir l'aspect de Jezennemours, qu'elle s'accusoit, hélas! D'avoir
                         cruellement trahi. Sa présence seule lui avoit tenu lieu des plus terribles
@@ -5228,17 +4759,12 @@
                         lumiere, s'il doit en être privé! Ons'empressoit autour d'elle; on recevoit
                         tous les indices; mais loin de pouvoir dire de quel côté il falloit tourner
                         ses pas, l'infortunée ignoroit elle-même où elle étoit, et d'où elle venoit.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 56
-     </head>
-     <p>
-      <hi rend="italic">
-       la belle, à la suite d'un régiment.
-      </hi>
-      la générosité
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 56 </head>
+                    <p>
+                        <hi rend="italic"> la belle, à la suite d'un régiment. </hi> la générosité
                         de ses libérateurs ne put s'épuiser qu'en souhaits inutiles; le cours de la
                         guerre ne se dérange point à la voix d'une tendre amante. Bientôt il fallut
                         suivre une route toute opposée à ses desirs. Le fils de M De Chaterbaune
@@ -5265,18 +4791,12 @@
                         vérité, ce ton que l'on n'imite pas, y respiroit avec cette naïveté qui
                         saisit, M De Chaterbaune s'étoit décidé à lui servir de pere, et à la
                         conduire d'abord en France, ensuite en Suisse chez sa parente, dès que
-                        l'occasion seroit favorable.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 57
-     </head>
-     <p>
-      <hi rend="italic">
-       il est court, et ce n'est pas sans raison.
-      </hi>
-      Monsieur
+                        l'occasion seroit favorable. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 57 </head>
+                    <p>
+                        <hi rend="italic"> il est court, et ce n'est pas sans raison. </hi> Monsieur
                         De Chaterbaune avoit beaucoup d'ennemis, non pas de ceux à qui il livroit
                         des combats journaliers avec tant de courage et de succès, mais de ces
                         envieux qui ne sont pas rares à trouver parmi les gens de guerre, et dans un
@@ -5341,17 +4861,12 @@
                         lui-même une victoire cruelle, il fuyoit dans la solitude; là, il se disoit
                         ce que la raison raconte en vain à la douleur; là, sa blessure devenoit plus
                         profonde et s'irritoit par les soins mêmes qu'il prenoit pour la fermer.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 58
-     </head>
-     <p>
-      <hi rend="italic">
-       le consolateur.
-      </hi>
-      un jour ce brave vieillard le
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 58 </head>
+                    <p>
+                        <hi rend="italic"> le consolateur. </hi> un jour ce brave vieillard le
                         surprit accablé dans un morne silence, et la tête douloureusement appuyée
                         sur un vieux chêne.-mon enfant, lui dit-il, en le retirant de cette
                         attitude, et s'appuyant sur son épaule, mon enfant, tes peines sont les
@@ -5420,11 +4935,12 @@
                         il étoit environné, le vieillard continua avec une émotion mêlée de crainte,
                         de volupté et de douleur... mon cher ami! Le ciel a peut-être encore des
                         vues sur moi; il a guidé ici tes pas pour diminuer le poids de mes miseres.
-                        Ton ame est bienfaisante, elle aura pitié dela lenteur de mon âge, qui m'ôte l'heureux pouvoir de me transporter où je voudrois; j'attends de toi le
-                        plus grand des services, il ne faut pour me le rendre que te prêter à un
-                        desir curieux; il est peut-être mal fondé, mais il me domine à un point que
-                        je ne puis exprimer. Je vais feindre aujourd'hui de vouloir me rendre demain
-                        avec toi dans une de mes fermes, et au lieu d'y aller, tu me conduiras chez
+                        Ton ame est bienfaisante, elle aura pitié dela lenteur de mon âge, qui m'ôte
+                        l'heureux pouvoir de me transporter où je voudrois; j'attends de toi le plus
+                        grand des services, il ne faut pour me le rendre que te prêter à un desir
+                        curieux; il est peut-être mal fondé, mais il me domine à un point que je ne
+                        puis exprimer. Je vais feindre aujourd'hui de vouloir me rendre demain avec
+                        toi dans une de mes fermes, et au lieu d'y aller, tu me conduiras chez
                         Florimonde; il faut que je voie cette fille, il faut que je la voie. Il
                         seroit inutile de vouloir m'en détourner; un pressentiment confus... tout ce
                         que tu pourrois faire, ne m'empêcheroit point d'aller la reconnoître, seul
@@ -5440,18 +4956,12 @@
                         volonté de son bienfaiteur; il ne suivoit plus que l' idée, qui étoit venue
                         le flatter. Jezennemours fut tenté un moment d'employer les prieres du fils
                         pour arrêter le pere; mais songeant que ce seroit trahir la confiance d'un
-                        homme qui lui avoit demandé le secret, il s'arrêta.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 59
-     </head>
-     <p>
-      <hi rend="italic">
-       départ. Nouvelle course.
-      </hi>
-      Suzanne n'osoit demander à
+                        homme qui lui avoit demandé le secret, il s'arrêta. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 59 </head>
+                    <p>
+                        <hi rend="italic"> départ. Nouvelle course. </hi> Suzanne n'osoit demander à
                         M De Chaterbaune la cause de l'agitation répandue sur son visage, et le but
                         de ce départ précipité qui lui sembloit avoir quelque chose
                         d'extraordinaire. Ce vénérable vieillard, domptant les mouvemens de son
@@ -5491,24 +5001,15 @@
                         il alloit reporter la vue sur ces hommes corrupteurs et corrompus, pour
                         lesquels il se sentoit une si forte antipathie. De quel oeil les aborder;
                         comment se contenir en leur présence; quel maintien devoit-il conserver, en
-                        donnant le bras à M De Chaterbaune?
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 60
-     </head>
-     <p>
-      <hi rend="italic">
-       tableau touchant.
-      </hi>
-      lorsqu'ils furent arrivés, les
-                        valets attroupés à la porte sourioient l'un à l'autre en se disant:
-      <hi rend="italic">
-       oui, c'est lui; c'est ce beau sage, qui a délogé un beau
-                            matin sans tambour ni trompette
-      </hi>
-      . Jezennemours s' informa de
+                        donnant le bras à M De Chaterbaune? </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 60 </head>
+                    <p>
+                        <hi rend="italic"> tableau touchant. </hi> lorsqu'ils furent arrivés, les
+                        valets attroupés à la porte sourioient l'un à l'autre en se disant: <hi
+                            rend="italic"> oui, c'est lui; c'est ce beau sage, qui a délogé un beau
+                            matin sans tambour ni trompette </hi> . Jezennemours s' informa de
                         Florimonde; et comme on lui dit qu'elle occupoit un appartement chez Monval,
                         il s'y fit conduire sur le champ. On annonça un vieil officier conduit par
                         un jeune-homme; ils furent introduits. Avant de peindre la scène suivante,
@@ -5521,75 +5022,71 @@
                         séduction d'une vie aisée la retenoit dans les piéges tissus pour elle au
                         sortir de l'enfance; elle soupiroit, elle pleuroit en secret, elle
                         regrettoit Jezennemours; elle se trouvoit vile devant lui, elle s'accusoit
-                        elle-même; mais sans pouvoir maîtriser l'ascendant de ce luxe qui l'environnoit. Ceux qui ont connu le charme impérieux qui l'accompagne, seront
-                        plus disposés à la plaindre, qu'à la mépriser: la vertu qui a toujours vécu
-                        dans l'ombre et dans la médiocrité pourra déployer un juste courroux; il
-                        sera légitime, mais il se sentira de l'ignorance où se trouve quelquefois la
-                        vertu; il est si difficile de renoncer à l'habitude des besoins satisfaits,
-                        lorsqu'on a bu dans la coupe des voluptés!Florimonde venoit de se lever.
-                        Quelle scène plus frappante! Jezennemours, qui paroît tout-à-coup devant
-                        elle! Elle recule de surprise; mais ce n'étoit point lui qui étoit le
-                        personnage le plus intéressant; ce vénérable vieillard qui reste debout,
-                        immobile devant elle, qui la fixe, qui tient les bras ouverts, qui garde un
-                        silence foiblement interrompu par les sanglots qui s'accumulent dans sa
-                        bouche, elle est toute à ce vieillard, elle cherche à reconnoître dans ses
-                        traits quelques traits connus; elle s'inquiette, se trouble, n'ose envisager
-                        ce front qu' environnent des cheveux blancs; elle pâlit des mouvemens de son
-                        visage, lorsque tout-à-coup elle entend des accens si familiers et si chers
-                        à l' oreille de son enfance, prononcés lamentablement, Cécile? Cécile!
-                        Méconnois-tu ton pere? Elle ne fit qu'un cri en se précipitant aux genoux
-                        tremblans du vieillard qu'elle vient de reconnoître.à-peine a-t-il la force
-                        de porter ses mains sur les épaules de sa fille; ses jambes fléchissent, on
-                        lui pousse un siége, il s'y laisse tomber; mais c'étoit hélas! Pour ne s'en
-                        relever jamais; oui il expiroit les yeux tournés sur sa fille; il ne put que
-                        lui serrer foiblement la main. Jezennemours appelle des secours, tandis que
-                        Florimonde hors d'elle-même crioit à son pere, pardonnez, pardonnez-moi;
-                        tandis que frappée elle-même des tourmens de la mort en voyant mourir ce
-                        vieillard, elle faisoit succéder les cris les plus aigus du desespoir au
-                        silence plus effrayant du remords et de la douleur; douleur inutile,
-                        impuissant secours, le vieillard accablé sentoit les foibles ressorts de sa
-                        vie se rompre sous l'excès du sentiment qui avoit saisi son ame; il n'avoit
-                        plus qu'un souffle à exhaler, et ce souffle murmuroit d'une voix paternelle,
-                        Cécile, ma chere Cécile!Monval averti de l'arrivée imprévue de Jezennemours,
-                        entra tout-à-coup avec son visage accoutumé. Quel spectacle! Ce vieillard
-                        aux cheveux blanchis agonisant dans un fauteuil, attachant son dernier
-                        regard sur Florimonde, qui prosternée à ses pieds paroissoit mourir aussi.
-                        Monval entend celle qu'il s'est plu à plonger dans la séduction la plus
-                        dangereuse, il l'entend crier d'une voix étouffée, mon pere, mon pere! Il la
-                        voit presser de sa bouche ses joues pâles et ses froides mains qui
-                        commençoient à se roidir dans les siennes. Jezennemours immobile
-                        contemplateur de cette terrible scène, comme environné de la foudre d'un
-                        dieu vengeur, se voiloit le visage; mais il s'enflâma d'un noble courroux à
-                        la vue de Monval: avancez, avancez, lui cria-t-il d'un ton de voix élevé,
-                        venez jouir d'un moment que vous avez préparé; voyez le visage de
-                        cemalheureux pere; là sont tracées la honte et la douleur dont il expire; il
-                        meurt plus chagrin de retrouver sa fille entre les mains d'un homme tel que
-                        vous, que s'il avoit dû ne la revoir jamais. Barbare! Osez continuer vos
-                        projets infâmes, osez l'arracher d'auprès de ce corps glacé, pour la porter
-                        au-milieu de ces plaisirs criminels, parmi lesquels vous vous flattez
-                        d'étourdir vos remords. Ils se font jour dans votre coeur malgré vous, ils
-                        vous accusent, ils vous reprochent votre conduite passée. Monval, Monval! Il
-                        est dans ce moment plus d'une voix qui s'éleve contre toi, contre ces faux
-                        principes que tu as adoptés aveuglément, et ce n'est pas là le premier pere
-                        dans le sein du quel tu as porté l'amertume et la mort! Malheur à toi,
-                        malheur à qui comme toi a mené une vie coupable, a cherché ses plaisirs dans
-                        la perte de l'innocence, a séduitla vertu; il n'a fait que troubler la
-                        société et déchirer des coeurs paisibles qui se confioient dans la sagesse
-                        qu'ils avoient inspirée à leurs enfans. Tel est le fruit du mépris des plus
-                        saintes loix. Je les ai blessées moi-même, mais c'est vous, qui avez ourdi
-                        le piége où je suis tombé. Si les remords me poursuivent aujourd'hui, jugez
-                        de ceux qui vous sont destinés!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 61
-     </head>
-     <p>
-      <hi rend="italic">
-       funérailles interrompues.
-      </hi>
-      en achevant ces mots,
+                        elle-même; mais sans pouvoir maîtriser l'ascendant de ce luxe qui
+                        l'environnoit. Ceux qui ont connu le charme impérieux qui l'accompagne,
+                        seront plus disposés à la plaindre, qu'à la mépriser: la vertu qui a
+                        toujours vécu dans l'ombre et dans la médiocrité pourra déployer un juste
+                        courroux; il sera légitime, mais il se sentira de l'ignorance où se trouve
+                        quelquefois la vertu; il est si difficile de renoncer à l'habitude des
+                        besoins satisfaits, lorsqu'on a bu dans la coupe des voluptés!Florimonde
+                        venoit de se lever. Quelle scène plus frappante! Jezennemours, qui paroît
+                        tout-à-coup devant elle! Elle recule de surprise; mais ce n'étoit point lui
+                        qui étoit le personnage le plus intéressant; ce vénérable vieillard qui
+                        reste debout, immobile devant elle, qui la fixe, qui tient les bras ouverts,
+                        qui garde un silence foiblement interrompu par les sanglots qui s'accumulent
+                        dans sa bouche, elle est toute à ce vieillard, elle cherche à reconnoître
+                        dans ses traits quelques traits connus; elle s'inquiette, se trouble, n'ose
+                        envisager ce front qu' environnent des cheveux blancs; elle pâlit des
+                        mouvemens de son visage, lorsque tout-à-coup elle entend des accens si
+                        familiers et si chers à l' oreille de son enfance, prononcés lamentablement,
+                        Cécile? Cécile! Méconnois-tu ton pere? Elle ne fit qu'un cri en se
+                        précipitant aux genoux tremblans du vieillard qu'elle vient de
+                        reconnoître.à-peine a-t-il la force de porter ses mains sur les épaules de
+                        sa fille; ses jambes fléchissent, on lui pousse un siége, il s'y laisse
+                        tomber; mais c'étoit hélas! Pour ne s'en relever jamais; oui il expiroit les
+                        yeux tournés sur sa fille; il ne put que lui serrer foiblement la main.
+                        Jezennemours appelle des secours, tandis que Florimonde hors d'elle-même
+                        crioit à son pere, pardonnez, pardonnez-moi; tandis que frappée elle-même
+                        des tourmens de la mort en voyant mourir ce vieillard, elle faisoit succéder
+                        les cris les plus aigus du desespoir au silence plus effrayant du remords et
+                        de la douleur; douleur inutile, impuissant secours, le vieillard accablé
+                        sentoit les foibles ressorts de sa vie se rompre sous l'excès du sentiment
+                        qui avoit saisi son ame; il n'avoit plus qu'un souffle à exhaler, et ce
+                        souffle murmuroit d'une voix paternelle, Cécile, ma chere Cécile!Monval
+                        averti de l'arrivée imprévue de Jezennemours, entra tout-à-coup avec son
+                        visage accoutumé. Quel spectacle! Ce vieillard aux cheveux blanchis
+                        agonisant dans un fauteuil, attachant son dernier regard sur Florimonde, qui
+                        prosternée à ses pieds paroissoit mourir aussi. Monval entend celle qu'il
+                        s'est plu à plonger dans la séduction la plus dangereuse, il l'entend crier
+                        d'une voix étouffée, mon pere, mon pere! Il la voit presser de sa bouche ses
+                        joues pâles et ses froides mains qui commençoient à se roidir dans les
+                        siennes. Jezennemours immobile contemplateur de cette terrible scène, comme
+                        environné de la foudre d'un dieu vengeur, se voiloit le visage; mais il
+                        s'enflâma d'un noble courroux à la vue de Monval: avancez, avancez, lui
+                        cria-t-il d'un ton de voix élevé, venez jouir d'un moment que vous avez
+                        préparé; voyez le visage de cemalheureux pere; là sont tracées la honte et
+                        la douleur dont il expire; il meurt plus chagrin de retrouver sa fille entre
+                        les mains d'un homme tel que vous, que s'il avoit dû ne la revoir jamais.
+                        Barbare! Osez continuer vos projets infâmes, osez l'arracher d'auprès de ce
+                        corps glacé, pour la porter au-milieu de ces plaisirs criminels, parmi
+                        lesquels vous vous flattez d'étourdir vos remords. Ils se font jour dans
+                        votre coeur malgré vous, ils vous accusent, ils vous reprochent votre
+                        conduite passée. Monval, Monval! Il est dans ce moment plus d'une voix qui
+                        s'éleve contre toi, contre ces faux principes que tu as adoptés aveuglément,
+                        et ce n'est pas là le premier pere dans le sein du quel tu as porté
+                        l'amertume et la mort! Malheur à toi, malheur à qui comme toi a mené une vie
+                        coupable, a cherché ses plaisirs dans la perte de l'innocence, a séduitla
+                        vertu; il n'a fait que troubler la société et déchirer des coeurs paisibles
+                        qui se confioient dans la sagesse qu'ils avoient inspirée à leurs enfans.
+                        Tel est le fruit du mépris des plus saintes loix. Je les ai blessées
+                        moi-même, mais c'est vous, qui avez ourdi le piége où je suis tombé. Si les
+                        remords me poursuivent aujourd'hui, jugez de ceux qui vous sont destinés!
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 61 </head>
+                    <p>
+                        <hi rend="italic"> funérailles interrompues. </hi> en achevant ces mots,
                         Jezennemours tourna le dos à Monval, qui avoit la tête baissée, et qui ne
                         répondoit rien; il n'osoit ni contempler ce spectacle, ni le fuir.
                         Jezennemours prit les deux mains de Florimonde, anéantie aux pieds du
@@ -5604,11 +5101,8 @@
                         corps de son pere; elle accusoit le ciel de lui avoir refusé la mort en
                         même-tems. Par intervalle, elle l'appeloit à grands cris, et ne répondoit à
                         personne. Monval, malgré ses principes, son orgueil et son insensibilité, ne
-                        parut jamais si troublé; la pâleur de ce mort lui disoit,
-      <hi rend="italic">
-       tu mourras;
-      </hi>
-      il lisoit sur ce visage immobile et glacé, la liste de
+                        parut jamais si troublé; la pâleur de ce mort lui disoit, <hi rend="italic">
+                            tu mourras; </hi> il lisoit sur ce visage immobile et glacé, la liste de
                         ses attentats; muet et concentré en lui-même, on l'eût dit pétrifié, tant
                         son attitude étoit froide et gênée. Jezennemours se mit en devoir d'enlever
                         Florimonde de chez lui, et de faire transporter ailleurs le corps de son
@@ -5649,18 +5143,12 @@
                         la séduction qui vous a dérobée à votre mere dans l'âge de l'innocence; il
                         sait que vos remords ont toujours accompagné l'oubli de vos devoirs; mais si
                         le coeur est foible; quand il est né honnête, il a toujours des droits à la
-                        vertu.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 62
-     </head>
-     <p>
-      <hi rend="italic">
-       résolution subite.
-      </hi>
-      à quelques jours de là,
+                        vertu. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 62 </head>
+                    <p>
+                        <hi rend="italic"> résolution subite. </hi> à quelques jours de là,
                         Jezennemours lui fit un récit de tout ce qui s'étoit passé entre lui et M De
                         Chaterbaune: comment sa Suzanne se trouvoit mariée à son frere; il se décida
                         à partir sur le champ pour aller la retrouver. Florimonde troublée de tant
@@ -5713,18 +5201,12 @@
                         c'est elle qui soutient et console quand tout nous abandonne: le reste est
                         un vain songe. Allez, et si l'amitié vous parle encore pour moi, ne vous
                         souvenez d'une infortunée, que pour offrir au ciel les prieres qu'elle
-                        attend de votre pitié!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 63
-     </head>
-     <p>
-      <hi rend="italic">
-       soins lugubres.
-      </hi>
-      Florimonde remit à Jezennemours ses
+                        attend de votre pitié! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 63 </head>
+                    <p>
+                        <hi rend="italic"> soins lugubres. </hi> Florimonde remit à Jezennemours ses
                         diamans, ses bijoux, pour les donner à son frere, comme fait un mourant qui
                         distribue à ses parens et amis ce qu'il a de plus précieux. Elle ne retint
                         qu'une mince dot pour demeurer dans le couvent, ou plutôt pour s'ensevelir
@@ -5804,17 +5286,12 @@
                         viennent la resserrer. Il falut les regards expirans d'un pere qui rappeloit
                         sa fille à lui, pour lui faire jeter les yeux sur elle-même, pour la porter
                         d'une maniere brusque et soudaine hors de ce tourbillon cher et dangereux.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 64
-     </head>
-     <p>
-      <hi rend="italic">
-       epoux jeune et malheureux.
-      </hi>
-      le jeune Chaterbaune que
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 64 </head>
+                    <p>
+                        <hi rend="italic"> epoux jeune et malheureux. </hi> le jeune Chaterbaune que
                         son pere avoit toujours contenu dans un silence absolu au sujet de sa mere,
                         rouvrit les yeux à la lecture de cette lettre, et comprit enfin la cause de
                         ces soupirs qu'il s'efforçoit vainement d'étouffer en sa présence; il ne lui
@@ -5860,18 +5337,12 @@
                         de leur ame. Jezennemours évitant tout entretien particulier avec Suzanne,
                         formoit le projet de la fuir pour jamais, projetterrible, sacrifice
                         douloureux, mais que les loix, la vertu, et le repos de son ami lui
-                        imposoient également.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 65
-     </head>
-     <p>
-      <hi rend="italic">
-       entretien.
-      </hi>
-      le jeune Chaterbaune de son côté
+                        imposoient également. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 65 </head>
+                    <p>
+                        <hi rend="italic"> entretien. </hi> le jeune Chaterbaune de son côté
                         annonçoit qu'il vouloit aller voir sa soeur, et pressoit Jezennemours de ne
                         point abandonner son épouse, parce qu'il lui seroit trop cruel de la laisser
                         seule, et que d'ailleurs le ciel les ayant réunis, ne leur commandoit pas
@@ -5984,18 +5455,12 @@
                         deux mains et les baisant avec douceur et tendresse, il la força de revenir
                         auprès de Jezennemours, qui tout troublé fuyoit de soncôté à grands pas,
                         non, d'une surprise imprévue, car assuré d'après son coeur il ne craignoit
-                        point le regard d'un ami, ni celui d'un époux.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 66
-     </head>
-     <p>
-      <hi rend="italic">
-       résolution courageuse.
-      </hi>
-      Monsieur De Chaterbaune
+                        point le regard d'un ami, ni celui d'un époux. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 66 </head>
+                    <p>
+                        <hi rend="italic"> résolution courageuse. </hi> Monsieur De Chaterbaune
                         allant à notre amant infortuné, lui dit: vous êtes l'auteur de mes peines;
                         vous devriez me détester, et malgré cela, j'ose vouloir que nous soyons
                         amis. Et prenant un ton plus animé; ce seroit à toi, Jezennemours, de me
@@ -6041,18 +5506,12 @@
                         pour la forcer à rester. Une épouse, un ami sincere et digne de ces noms
                         glorieux firent tout ce qu'ils purent pour l'arrêter; mais comme il avoit
                         ses desseins, il trompa leur vigilance,et à la faveur des ténébres de la
-                        nuit, il disposa son départ sans bruit et s'évada.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 67
-     </head>
-     <p>
-      <hi rend="italic">
-       générosité rare.
-      </hi>
-      restés seuls après une séparation
+                        nuit, il disposa son départ sans bruit et s'évada. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 67 </head>
+                    <p>
+                        <hi rend="italic"> générosité rare. </hi> restés seuls après une séparation
                         si longue et si cruelle, les premiers momens qu'ils passerent ensemble
                         eurent leur douceur et leur amertume; ils les comparoient à ces jours où ils
                         voyageoient, et où l'espérance élevant ses nuages dorés leur cachoit les
@@ -6122,18 +5581,12 @@
                         loin de lui, ils deviendroient un crime. Quoi! Je serois l'épouse la plus
                         indigne du plus généreux des hommes! Tu m'entends, je n'ai pas besoin de
                         t'en dire davantage; et malheur à toi, si ce que je sens n'avoit pas déja
-                        pénétré ton coeur, et s'il balançoit un seul moment.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 68
-     </head>
-     <p>
-      <hi rend="italic">
-       courage égal.
-      </hi>
-      Jezennemours, sans proférer un seul
+                        pénétré ton coeur, et s'il balançoit un seul moment. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 68 </head>
+                    <p>
+                        <hi rend="italic"> courage égal. </hi> Jezennemours, sans proférer un seul
                         mot, serra fortement la main de Suzanne, et sur-le-champ fit tout préparer
                         pour son départ: il ne parla point, il agit, et tous ses mouvemens avoient
                         quelque chose d'élevé et de grand; il ressembloit à un jeune guerrier que la
@@ -6176,18 +5629,12 @@
                         et Suzanne en rompant tout-à-coupde si chers liens, l'avoit frappé des plus
                         terribles coups: mais faisant un effort à l'exemple de son ami et de sa
                         maîtresse, il revint à lui, et ne s'occupa plus qu'à trouver sa consolation
-                        dans ses peines mêmes.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 69
-     </head>
-     <p>
-      <hi rend="italic">
-       l'océan.
-      </hi>
-      en attendant le moment du départ retardé,
+                        dans ses peines mêmes. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 69 </head>
+                    <p>
+                        <hi rend="italic"> l'océan. </hi> en attendant le moment du départ retardé,
                         Jezennemours s'efforça de calmer ses chagrins par la contemplation des
                         nouveautés qui s'offroient à sa vue. Qu'un homme qui voit pour la premiere
                         fois cette vaste plaine de la mer est saisi de respect et d'étonnement,
@@ -6283,17 +5730,12 @@
                         l'équipage, comme pour laisser à ces infortunés le tems de boire les
                         horreurs du trépas; il disparoît en entier ne laissant plus voir sur la
                         surface des eaux que la banderolle flottante qui couronnoit son gros mât.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 70
-     </head>
-     <p>
-      <hi rend="italic">
-       l'avare.
-      </hi>
-      des trois armateurs qui étoient venus
+                    </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 70 </head>
+                    <p>
+                        <hi rend="italic"> l'avare. </hi> des trois armateurs qui étoient venus
                         secourir le vaisseau marchand sur lequel s'étoit trouvé Jezennemours, il
                         n'en restoit que deux, l'autre avoit coulé à fonds. Que devint Jezennemours,
                         lorsqu'il apprit que ces vaisseaux étoient partis dans le même tems que son
@@ -6341,13 +5783,10 @@
                         baigné de pleurs, il oublia sa propre infortune pour s'intéresser à un homme
                         qui sembloit plus à plaindre que lui: il s'approcha, et lui tendant la main
                         avec cette noblesse énergique que l'art n'imite point, et qu'il ne peut
-                        rendre,
-      <hi rend="italic">
-       et toi aussi tu es malheureux! Eh-bien! Tu
-                            deviens mon frere et mon ami
-      </hi>
-      . Il le consola du mieux qu'il put.
-                        Il le flatta par les paroles les plus capables de gagner sa confiance. Qu'êtes-vous, répondit-il, en détournant la tête; qu'êtes-vous pour oser
+                        rendre, <hi rend="italic"> et toi aussi tu es malheureux! Eh-bien! Tu
+                            deviens mon frere et mon ami </hi> . Il le consola du mieux qu'il put.
+                        Il le flatta par les paroles les plus capables de gagner sa confiance.
+                        Qu'êtes-vous, répondit-il, en détournant la tête; qu'êtes-vous pour oser
                         m'offrir des secours? Sans doute vous êtes pauvre, puisque vous avez le
                         courage de me parler; et si vous êtes riche, je n'ai qu'à dire un mot pour
                         vous faire prendre la fuite... je suis un homme ruiné... vous restez encore!
@@ -6403,9 +5842,10 @@
                         l'avoir perdu lorsqu' il le revit reparoissant sur l'onde, tenant une espece
                         de débris qui le soutenoit: le vent le chassoit sur les bords; un flux aussi
                         rapide qu' inespéré, le jeta sur un banc de sable éloigné du roc d'où il
-                        s'étoit précipité. Voler à lui de rocher en rocher, descendre à perte d'haleine, arriver près de ce malheureux, le soulever, lui faire vomir l'onde
-                        amère, tout cela fut pour Jezennemours l'affaire d'un instant; son courage
-                        et son humanité lui inspirerent une activité prompte qui en relevoit
+                        s'étoit précipité. Voler à lui de rocher en rocher, descendre à perte
+                        d'haleine, arriver près de ce malheureux, le soulever, lui faire vomir
+                        l'onde amère, tout cela fut pour Jezennemours l'affaire d'un instant; son
+                        courage et son humanité lui inspirerent une activité prompte qui en relevoit
                         l'éclat. Il déchira les vêtemens qui l'étouffoient par leur compression
                         humide. Il l'agita en tout sens pour le faire revenir; et voyant que ces
                         moyens ne réussissoient pas, et qu'il n'avoit plus qu' un souffle de vie, il
@@ -6481,18 +5921,12 @@
                         beaucoup de peine à reprendre ses sens; frappé de la mort de cet homme qui
                         s'étoit replongé dansl'abîme par excès de cupidité. Ce ne fut qu'avec peine
                         qu'il sortit d'entre les rochers traînant son coffre après lui pour aller
-                        regagner son habitation.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 71
-     </head>
-     <p>
-      <hi rend="italic">
-       belle reconnoissance.
-      </hi>
-      débarqué sur cette rive
+                        regagner son habitation. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 71 </head>
+                    <p>
+                        <hi rend="italic"> belle reconnoissance. </hi> débarqué sur cette rive
                         étrangere, et ayant perdu le fruit de toutes ses informations, comment se
                         résoudre à annoncer à Suzanne qu'il n'a point rencontré son époux, et que
                         Chaterbaune est peut-être au rang des morts. Il se souvenoit trop bien de
@@ -6539,11 +5973,7 @@
                         te tourmenter... Jezennemours ayant reculé trois fois,et s'étant approché
                         quatre, n'en pouvoit croire ses yeux. Est-il possible! Le pere De La Hogue!
                         Vous, mon parrain, dans ces lieux! Sous ces habits? Eh vous n'êtes donc
-                        plus... il alloit prononcer le nom de
-      <hi rend="italic">
-       jésuite
-      </hi>
-      ,
+                        plus... il alloit prononcer le nom de <hi rend="italic"> jésuite </hi> ,
                         lorsque le parrain lui mit la main sur la bouche, en lui disant, paix!
                         Suis-moi seulement, tu sauras tout. Va, je ne suis plus le même homme, et
                         j'ai bien des choses à te dire; suis-moi. Le marché fut bientôt conclu pour
@@ -6666,18 +6096,13 @@
                         sur des fondemens inébranlables, pouvoit, malgré ses nombreux adhérens et
                         ses protecteurs, être renversée,et ne pas faire la moindre résistance, après
                         avoir déployé tant de jactance, d'audace et d'orgueil... oh! ... et il
-                        s'arrêta.
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 72
-     </head>
-     <p>
-      <hi rend="italic">
-       il est trop court, mais ce n'est point notre faute.
-      </hi>
-      mon pere, poursuivoit Jezennemours, vous voyez ma situation; je suis encore
+                        s'arrêta. </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 72 </head>
+                    <p>
+                        <hi rend="italic"> il est trop court, mais ce n'est point notre faute. </hi>
+                        mon pere, poursuivoit Jezennemours, vous voyez ma situation; je suis encore
                         à la recherche de cet ami généreux; je ne dois retourner en France qu'après
                         l'avoir trouvé; je mourrai plutôt ici: je ne me présenterai point aux yeux
                         de Suzanne que pour lui rendre son epoux; telle est sa volonté, et telle est
@@ -6741,18 +6166,13 @@
                         d'un bois, fait pour distraire tout autre que lui, l'image de Suzanne; il la
                         voyoit redemandant son époux. Le pere ne pouvoit plus se séparer du fils, et
                         le fils sensible, trembloit de quitter un moment son pere. Oh! Quel heureux
-                        changement il s'étoit fait en eux!
-     </p>
-    </div>
-    <div type="chapter">
-     <head>
-      CHAPITRE 73
-     </head>
-     <p>
-      <hi rend="italic">
-       il faut finir, de peur d'ennuyer plus long-tems.
-      </hi>
-      trois mois s'écoulerent, et Jezennemours avoit osé écrire en Europe que,
+                        changement il s'étoit fait en eux! </p>
+                </div>
+                <div type="chapter">
+                    <head> CHAPITRE 73 </head>
+                    <p>
+                        <hi rend="italic"> il faut finir, de peur d'ennuyer plus long-tems. </hi>
+                        trois mois s'écoulerent, et Jezennemours avoit osé écrire en Europe que,
                         malgré toutes ses recherches, il n'avoit pu rencontrer celui qu'il
                         cherchoit; il ajoutoit qu'il ne quitteroit point le nouveau-monde sans
                         savoir où respiroit son ami; il faisoit un détail circonstancié de ses
@@ -6769,10 +6189,11 @@
                         ils s'informerent aux negres qui il étoit. Ceux-ci leur firent entendre que
                         c'étoit un françois, établi depuis neuf mois environ, et qui gémissoit sans
                         cesse, n' ayant pas eu un seul jour tranquille. On entendit faire quelque
-                        mouvement, on crut qu'il s'éveilloit; mais on s'apperçut qu'il étoit dans l'agitation d'un rêve pénible. Jezennemours prête une oreille attentive à des
-                        accens à-demi articulés; il souleve le voile, il voit et reconnoît son ami,
-                        le malheureux Chaterbaune; il se précipite au bord de son lit, prend sa main
-                        en silence et la presse sur son coeur. M Chaterbaune sort de son
+                        mouvement, on crut qu'il s'éveilloit; mais on s'apperçut qu'il étoit dans
+                        l'agitation d'un rêve pénible. Jezennemours prête une oreille attentive à
+                        des accens à-demi articulés; il souleve le voile, il voit et reconnoît son
+                        ami, le malheureux Chaterbaune; il se précipite au bord de son lit, prend sa
+                        main en silence et la presse sur son coeur. M Chaterbaune sort de son
                         accablement, fixe son regard sur lui... je ne me trompe point, dit-il!
                         L'amitié te conduit donc ici du bout de l'univers: mais que viens-tu faire?
                         ... je viens, conduit par l'ordre de Suzanne, reprit Jezennemours; elle te
@@ -6846,10 +6267,9 @@
                         comme l'auteur de sa mort. Elle ne vouloit écouter ni la voix qui lui
                         parloit du fond de la tombe, ni son coeur; mais le tems qui amene, non
                         l'entiere consolation, mais l'oubli des plus vives douleurs, le tems qui
-                        change les plus fermes résolutions, la rendit l'épouse de Jezennemours.
-     </p>
-    </div>
-   </div>
-  </body>
- </text>
+                        change les plus fermes résolutions, la rendit l'épouse de Jezennemours. </p>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

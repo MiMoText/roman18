@@ -2,190 +2,122 @@
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Duclos_Memoires" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:51.22 wikidata:0">
-     Mémoires pour servir à l'histoire des mœurs du
-                    XVIII. siècle: MiMoText edition
-    </title>
-    <author ref="viaf:66731528 wikidata:Q982034">
-     Charles Pinot Duclos(1704-1772)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      Hub18thcFrench
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Henning Gebhard
-     </name>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     37842
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2022
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Mémoires pour servir à l'histoire des moeurs du XVIII siècle
-     </title>
-     <ref target="https://intertextual-hub.uchicago.edu/philologic/hub18thcfrench/navigate/314/"/>
-     <date>
-      unknown
-     </date>
-     <publisher>
-      The Intertextual Hub
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Mémoires pour servir à l'histoire des mœurs du XVIII. siècle
-     </title>
-     <author>
-      Charles Pinot Duclos
-     </author>
-     <pubPlace>
-      unknown
-     </pubPlace>
-     <publisher>
-      unknown
-     </publisher>
-     <date>
-      1751
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1751
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-x">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      autodiegetic
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2022-05-17">
-    Initial ELTeC level 1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <body>
-   <div type="chapter">
-    <head>
-     AVERTISSEMENT
-    </head>
-    <p>
-     L'amour, la galanterie et même le libertinage ont de tous temps fait un article
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:51.22 wikidata:0"> Mémoires pour servir à l'histoire des mœurs du
+                    XVIII. siècle: MiMoText edition </title>
+                <author ref="viaf:66731528 wikidata:Q982034"> Charles Pinot Duclos(1704-1772) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> Hub18thcFrench </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Henning Gebhard </name>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 37842 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2022 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Mémoires pour servir à l'histoire des moeurs du XVIII siècle </title>
+                    <ref
+                        target="https://intertextual-hub.uchicago.edu/philologic/hub18thcfrench/navigate/314/"/>
+                    <date> unknown </date>
+                    <publisher> The Intertextual Hub </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Mémoires pour servir à l'histoire des mœurs du XVIII. siècle </title>
+                    <author> Charles Pinot Duclos </author>
+                    <pubPlace> unknown </pubPlace>
+                    <publisher> unknown </publisher>
+                    <date> 1751 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1751 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-x">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> autodiegetic </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-05-17"> Initial ELTeC level 1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="chapter">
+                <head> AVERTISSEMENT </head>
+                <p> L'amour, la galanterie et même le libertinage ont de tous temps fait un article
                     si considérable dans la vie de la plûpart des hommes, et surtout des gens du
                     monde, que l'on ne connoîtroit qu'imparfaitement les moeurs d'une nation, si
-                    l'on négligeoit un objet si important.
-    </p>
-    <p>
-     Des mémoires qui me sont tombés entre les mains, m'ont paru propres à donner sur
+                    l'on négligeoit un objet si important. </p>
+                <p> Des mémoires qui me sont tombés entre les mains, m'ont paru propres à donner sur
                     cette matière une idée des moeurs actuelles. Parmi celles qu'on a peintes, on en
                     trouvera quelques-unes de peu régulières ; mais il me semble que l'aspect sous
                     lequel elles sont présentées est aussi favorable à la morale, que ces moeurs y
                     sont contraires. J'ai cru que l'ouvrage pouvoit être utile, c'est l'unique
-                    raison qui m'engage à le donner au public.
-    </p>
-   </div>
-   <div type="group">
-    <div type="chapter">
-     <head>
-      PREMIÈRE PARTIE
-     </head>
-     <p>
-      J'ai quelquefois réfléchi sur la façon dont j'ai passé ma jeunesse, et j'ai
+                    raison qui m'engage à le donner au public. </p>
+            </div>
+            <div type="group">
+                <div type="chapter">
+                    <head> PREMIÈRE PARTIE </head>
+                    <p> J'ai quelquefois réfléchi sur la façon dont j'ai passé ma jeunesse, et j'ai
                         senti combien avec une conduite différente de celle que j'ai eue, je me
                         serois épargné de ridicules, et procuré de plaisirs, si je n'avois jamais
                         fait que ce qui me plaisoit réellement : j'aurois non-seulement été regardé
                         comme plus sage ; mais j'aurois encore été plus heureux que je ne l'ai été;
                         enfin j'aurois eu plus de plaisirs et fait moins de sottises. Je crois
                         devoir aujourd'hui beaucoup à mon expérience ; mais je n'ai rien dû à
-                        l'éducation, et si j'en avois eu une bonne, j'aurois pû y répondre.
-     </p>
-     <p>
-      Une naissance illustre, une fortune considérable, un rang distingué, une
+                        l'éducation, et si j'en avois eu une bonne, j'aurois pû y répondre. </p>
+                    <p> Une naissance illustre, une fortune considérable, un rang distingué, une
                         figure aimable, et peut-être de l'esprit, voilà la source de mes travers. Il
                         me semble que de tels avantages pouvoient produire autre chose, si l'on
-                        m'eût enseigné le devoir et l'art d'en tirer parti.
-     </p>
-     <p>
-      Mon père croyoit apparemment qu'un fils n'est qu'un héritier, car il ne
+                        m'eût enseigné le devoir et l'art d'en tirer parti. </p>
+                    <p> Mon père croyoit apparemment qu'un fils n'est qu'un héritier, car il ne
                         s'occupa nullement de mon éducation, il s'en reposa uniquement sur l'usage.
                         On me donna un de ces gouverneurs qu'on va pour ainsi dire prendre à un
                         bureau d'adresse, et qui n'étoit auprès de moi qu'un domestique de plus. Il
                         lui fut simplement ordonné de me suivre, et je lui défendis de me donner des
                         conseils. Il prit son parti là-dessus, et attendit tranquillement le tems où
                         on le renvoya avec une recompense qu'il n'eût sans-doute pas obtenue, s'il
-                        se fût mis en devoir de la mériter.
-     </p>
-     <p>
-      Personne avant moi n'étoit entré si jeune dans le monde. Les jeunes gens
+                        se fût mis en devoir de la mériter. </p>
+                    <p> Personne avant moi n'étoit entré si jeune dans le monde. Les jeunes gens
                         occupés de leurs exercices vivoient entre eux, et ne commençoient à paroître
                         que pour rendre des devoirs. Ils étoient obligés d'avoir un maintien décent,
                         et d'écouter jusqu'à ce qu'ils eussent perdu leur ton pour en prendre un
@@ -193,22 +125,16 @@
                         famille, ce qui pouvoit y entrétenir l'union. Il n'y avoit pas alors à Paris
                         ces maisons ouvertes dont le nombre s'est tellement multiplié, qu'on a plus
                         d'obligation à ceux qui y viennent, qu'à ceux qui font la dépense de les
-                        tenir ; de sorte qu'il n'y a point aujourd'hui
-      <hi rend="italic">
-       d'espèce
-      </hi>
-      qui écartée d'une maison ne puisse être bonne compagnie
-                        dans quelqu'autre. Comme ce sont principalement les erreurs de ma jeunesse
-                        que je veux me rappeller, il ne sera pas étonnant que l'amour y ait eu
-                        beaucoup de part. L'amour a toujours été très-rare, du moins celui qui
-                        merite le nom de sentiment, cependant je suis persuadé qu'il l'étoit moins
-                        autrefois qu'aujourd'hui. Les hommes ont toujours eu les mêmes passions;
-                        mais celles qui nous sont les plus naturelles prennent suivant les lieux et
-                        le temps différentes manières d'être qui influent sur la nature même de ces
-                        passions.
-     </p>
-     <p>
-      Cette fougue des sens qui nous emporte dans la première jeunesse, et qui se
+                        tenir ; de sorte qu'il n'y a point aujourd'hui <hi rend="italic"> d'espèce
+                        </hi> qui écartée d'une maison ne puisse être bonne compagnie dans
+                        quelqu'autre. Comme ce sont principalement les erreurs de ma jeunesse que je
+                        veux me rappeller, il ne sera pas étonnant que l'amour y ait eu beaucoup de
+                        part. L'amour a toujours été très-rare, du moins celui qui merite le nom de
+                        sentiment, cependant je suis persuadé qu'il l'étoit moins autrefois
+                        qu'aujourd'hui. Les hommes ont toujours eu les mêmes passions; mais celles
+                        qui nous sont les plus naturelles prennent suivant les lieux et le temps
+                        différentes manières d'être qui influent sur la nature même de ces passions. </p>
+                    <p> Cette fougue des sens qui nous emporte dans la première jeunesse, et qui se
                         calme et se dissipe enfin dans un âge plus ou moins avancé, est commune à
                         tous les hommes et les porte vers le même but; mais ce desir ardent est
                         rarement uni à celui de plaire, au lieu qu'il faisoit une partie essentielle
@@ -227,15 +153,11 @@
                         amans un état préférable à celui d'avoir une espérance amusée et soutenue,
                         des desirs animés et flattés, et de parvenir par une gradation délicieuse au
                         terme du bonheur en éguisant les plaisirs des sens par les illusions de
-                        l'amour propre.
-     </p>
-     <p>
-      L'amour se traitoit encore ainsi dans le siécle passé, j'en ai vu les
+                        l'amour propre. </p>
+                    <p> L'amour se traitoit encore ainsi dans le siécle passé, j'en ai vu les
                         traces, mais je ne suis entré dans le monde que dans le temps de la
-                        révolution.
-     </p>
-     <p>
-      Les principes de la fatuité en France sont aussi anciens que la monarchie ;
+                        révolution. </p>
+                    <p> Les principes de la fatuité en France sont aussi anciens que la monarchie ;
                         mais jusqu'à nos jours elle n'avoit jamais été une science perfectionnée,
                         comme nous la voyons, et j'arrivai avec des dispositions si heureuses : j'ai
                         ouvert des routes si nouvelles, que je pourrois être compté parmi les
@@ -243,10 +165,8 @@
                         jour acquérir dans cette carriere ; j'ignorois encore mon talent dans ma
                         première jeunesse, j'avois même une modestie et une espèce de pudeur qui dès
                         ce temps-là auroient fait honneur à une femme, et qu'on ne trouveroit pas
-                        toujours aujourd'hui dans une fille qui sort du couvent.
-     </p>
-     <p>
-      Avec de si étranges qualités, ma phisionomie avoit toute la naïveté de mon
+                        toujours aujourd'hui dans une fille qui sort du couvent. </p>
+                    <p> Avec de si étranges qualités, ma phisionomie avoit toute la naïveté de mon
                         ame; l'ame seule fait la phisionomie, la nature ne donne que les traits. Le
                         goût que je sentis bientôt pour les femmes devint en peu de temps si vif,
                         que je n'étois pas en état de choisir un objet déterminé; elles faisoient
@@ -267,10 +187,8 @@
                         qui ne pouvant se flatter de leur en inspirer, et encore moins de la
                         constance, se réduisent modestement à faire ensuite en leur faveur un rolle
                         plus complaisant, pour être encore admises dans la société, et tenir au
-                        monde par quelqu'endroit.
-     </p>
-     <p>
-      Celle à qui je m'attachai étoit très-différente, et nous nous trouvâmes
+                        monde par quelqu'endroit. </p>
+                    <p> Celle à qui je m'attachai étoit très-différente, et nous nous trouvâmes
                         engagés l'un et l'autre, sans qu'elle y eût songé, ni que j'eusse osé
                         l'esperer. J'avois alors dix-huit ans, et elle en avoit environ vingt-cinq ;
                         belle et bien faite, elle avoit l'esprit sage et le coeur tendre ; mais son
@@ -279,21 +197,15 @@
                         consequence personne ne songeoit à elle. D'ailleurs peu repandue, elle ne
                         vivoit guères que dans son domestique, avec un mari d'un âge assez avancé
                         qui remplaçoit les agrémens qu'il n'avoit plus par mille attentions pour
-                        elle, et pour qui elle avoit de l'amitié et du respect.
-     </p>
-     <p>
-      Avec le peu de confiance que j'avois alors, on jugera aisément que je ne
+                        elle, et pour qui elle avoit de l'amitié et du respect. </p>
+                    <p> Avec le peu de confiance que j'avois alors, on jugera aisément que je ne
                         m'avisai pas d'attaquer une femme que les plus entreprenans laissoient
-                        tranquille, des circonstances particulieres formerent notre liaison.
-     </p>
-     <p>
-      Je venois d'avoir un régiment, et comme mon pere vivoit depuis quelque temps
+                        tranquille, des circonstances particulieres formerent notre liaison. </p>
+                    <p> Je venois d'avoir un régiment, et comme mon pere vivoit depuis quelque temps
                         dans ses terres, il avoit prié le cote De Canaples dont nous étions parens,
                         et qui avoit beaucoup de considération dans le service, de veiller sur ma
-                        conduite, et de me donner des conseils.
-     </p>
-     <p>
-      Le comte s'y croyoit d'autant plus obligé que je devois à sa recommandation
+                        conduite, et de me donner des conseils. </p>
+                    <p> Le comte s'y croyoit d'autant plus obligé que je devois à sa recommandation
                         le régiment qu'on m'avoit donné par préférence à d'anciens officiers qui en
                         étoient plus dignes que moi par leurs services. Il avoit pour maxime qu'il
                         n'y avoit rien de plus contraire au bon ordre, que de mettre des enfans à la
@@ -314,10 +226,8 @@
                         sur mon coeur ; mais il contribuoit encore à la graver plus profondement ;
                         le respect contraint l'amour, il peut le cacher, mais il ne l'eteint jamais,
                         souvent il le rend plus vif. L'amour est comme les liqueurs spiritueuses,
-                        moins elles s'exhalent, plus elles acquierent de force.
-     </p>
-     <p>
-      J'avois si peu d'expérience que je ne soupçonnois pas l'état de mon ame, je
+                        moins elles s'exhalent, plus elles acquierent de force. </p>
+                    <p> J'avois si peu d'expérience que je ne soupçonnois pas l'état de mon ame, je
                         sentois seulement qu'aussitôt que je n'étois plus auprès d'elle, j'éprouvois
                         une inquiétude plus vive que douloureuse, je n'allois point la revoir sans
                         une émotion qui m'emportoit hors de moi-même. Les premiers désirs ne se
@@ -337,10 +247,8 @@
                         ou nous nous trouvions, sans nous en douter ni l'un ni l'autre. Nous
                         ressentions l'amour le plus vif, nous en goutions les plaisirs, peut-être
                         les plus délicieux, surement les plus rares, sans en avoir jamais prononcé
-                        le nom.
-     </p>
-     <p>
-      Un jour que nous étions la comtesse et moi dans un de ces épanchemens qui
+                        le nom. </p>
+                    <p> Un jour que nous étions la comtesse et moi dans un de ces épanchemens qui
                         faisoient notre bonheur, je me sentis pénétré d'un transport inconnu, et si
                         nouveau pour moi, que par une vivacité de sentiment plutôt que de réflexion,
                         j'embrassai la comtesse, ce qui ne m'étoit pas encore arrivé; je la tins
@@ -348,10 +256,8 @@
                         siens. Nous nous regardâmes ensuite sans nous rien dire, et ce qu'il y eut
                         de singulier ce fut moi qui rougis ; mais elle le remarqua, et dans
                         l'instant la rougeur lui couvrit le front, elle baissa les yeux, soupira et
-                        tomba dans une rêverie profonde.
-     </p>
-     <p>
-      Nous ne proferions pas une parole, et qu'aurions-nous pu dire dans la
+                        tomba dans une rêverie profonde. </p>
+                    <p> Nous ne proferions pas une parole, et qu'aurions-nous pu dire dans la
                         confusion d'idées et de sentimens où nous étions tous deux. Notre action et
                         le trouble qui venoit de la suivre produisirent tout-à-coup un trait de
                         lumiere qui éclaira notre esprit sur l'état de notre coeur. Nous le
@@ -375,16 +281,12 @@
                         violent : je l'ai sans doute ressenti dès le moment que je vous ai vüe, mais
                         ce n'est que d'aujourd'hui que je le reconnois. Pensez-vous, reprit la
                         comtesse, à ce que vous me dites? Vous avez de l'amour pour moi! Eh que
-                        prétendez-vous?
-     </p>
-     <p>
-      Vous aimer lui dis-je. C'en est trop, dit-elle, je ne puis ni ne dois en
+                        prétendez-vous? </p>
+                    <p> Vous aimer lui dis-je. C'en est trop, dit-elle, je ne puis ni ne dois en
                         entendre davantage, retirez-vous, je vous prie, et ne me forcez pas à me
                         repentir des bontés innocentes que j'ai eues pour vous, et qu'un mot de plus
-                        de votre part rendroit criminelles.
-     </p>
-     <p>
-      J'étois si embarrassé de l'aveu involontaire que je venois de faire, que je
+                        de votre part rendroit criminelles. </p>
+                    <p> J'étois si embarrassé de l'aveu involontaire que je venois de faire, que je
                         n'eus pas la force de repliquer ; mais je n'aurois pas eu celle de la
                         quitter, si elle n'eût appellé ses femmes à qui elle donna des ordres
                         propres à les arrêter auprès d'elle. Je n'osai soutenir la présence d'aucun
@@ -396,10 +298,8 @@
                         la comtesse m'avoit fait voir ; mais l'aveu que j'avois osé lui faire
                         portoit dans mon coeur une consolation secrette. Une passion cachée est un
                         poids accablant, dont l'aveu nous soulage : il part de l'espérance, ou la
-                        fait naître.
-     </p>
-     <p>
-      Si la comtesse eût reçu mon aveu avec une hauteur froide, ou une
+                        fait naître. </p>
+                    <p> Si la comtesse eût reçu mon aveu avec une hauteur froide, ou une
                         plaisanterie méprisante, je n'aurois jamais osé reparoître devant elle ;
                         mais la crainte qu'elle m'avoit marquée diminuoit un peu la mienne. Je
                         commençai à soupçonner que je n'étois pas absolument sans mérite, et comme
@@ -444,10 +344,8 @@
                         m'aidiez vous-même à y rentrer. Il n'y a que votre absence qui puisse me
                         rendre ma tranquillité, vous devez joindre votre régiment dans un mois, je
                         veux que vous partiez dès à présent, votre empressement paroîtra naturel, et
-                        personne n'en soupçonnera le véritable motif.
-     </p>
-     <p>
-      Quoi madame, lui dis-je, ne m'avez-vous appris le plus grand bonheur, où je
+                        personne n'en soupçonnera le véritable motif. </p>
+                    <p> Quoi madame, lui dis-je, ne m'avez-vous appris le plus grand bonheur, où je
                         pusse aspirer, que pour me rendre au même instant le plus malheureux des
                         hommes? Non je ne puis vous obéir. Il le faut cependant, reprit-elle, vous
                         m'aimez, puisque vous me le dites, et je le crois : votre ame est
@@ -461,10 +359,8 @@
                         pourquoi, dis-je, madame voulez-vous que votre devoir soit blessé d'une
                         passion pure? Pourquoi seriez-vous criminelle de la ressentir? Sommes-nous
                         maîtres des mouvemens de notre coeur. Vous êtes persuadée, dites-vous, de la
-                        pureté de mon ame, vous devez l'être aussi, que je ne veux pas vous tromper.
-     </p>
-     <p>
-      Il est inutile, reprit la comtesse, d'entrer dans une telle discussion ;
+                        pureté de mon ame, vous devez l'être aussi, que je ne veux pas vous tromper. </p>
+                    <p> Il est inutile, reprit la comtesse, d'entrer dans une telle discussion ;
                         soit raison, soit préjugé, je ne veux point d'examen dans une matière où
                         nous sommes trop intéressés vous et moi pour en être juges. On n'examine
                         guère le principe de ses devoirs que par le desir de s'en affranchir, ou
@@ -484,10 +380,8 @@
                         sentimens, adoptez-les, et cherchez à m'y affermir : pour y mieux réussir,
                         séparons-nous. J'ai dit tout ce que je me croyois obligée de vous dire, une
                         conversation plus longue ne pourroit être que dangereuse, elle commenceroit
-                        à être criminelle en cessant d'être nécessaire.
-     </p>
-     <p>
-      Tant que Madame De Canaples avoit parlé, j'étois resté dans un étonnement
+                        à être criminelle en cessant d'être nécessaire. </p>
+                    <p> Tant que Madame De Canaples avoit parlé, j'étois resté dans un étonnement
                         qui m'avoit empêché de l'interrompre ; mais à peine eut-elle fini,
                         qu'effrayé du parti qu'elle vouloit me faire prendre, dans le moment où
                         j'avois crû mon bonheur assuré, je me jettai à ses pieds et je tâchai de la
@@ -504,10 +398,8 @@
                         serois peut-être la moins à plaindre, et que je pourrois être consolée des
                         suites de mon action par le principe de cette action même. Tâchons plutôt
                         l'un et l'autre de retrouver notre repos ; partez, et que le premier effet
-                        de notre amour soit un effort pour la vertu.
-     </p>
-     <p>
-      L'empire que le respect d'un amant délicat donne à une femme vertueuse va
+                        de notre amour soit un effort pour la vertu. </p>
+                    <p> L'empire que le respect d'un amant délicat donne à une femme vertueuse va
                         jusqu'à lui soumettre les transports de l'amour ; je n'osai pas lui
                         résister, et je me retirai le coeur pénétré de douleur. Incertain si je
                         devois obéïr ou non à la comtesse, et me flatant qu'elle prendroit des
@@ -536,20 +428,16 @@
                         succomber à la crainte, de la crainte au désir de s'arracher à l'occasion,
                         de ce désir à la résolution et plus loin encore de la résolution au courage
                         qu'il faut pour l'exécuter. Madame De Canaples est la seule femme que j'aye
-                        connue capable de franchir et de confondre tous ces degrés.
-     </p>
-     <p>
-      Quelque désir que j'eusse de prendre un congé particulier, je ne pus la
+                        connue capable de franchir et de confondre tous ces degrés. </p>
+                    <p> Quelque désir que j'eusse de prendre un congé particulier, je ne pus la
                         trouver seule, et elle fut assez maîtresse d'elle-même, pour que je ne
                         tirasse aucun avantage de nos adieux. Ma premiere avanture ne dut pas, comme
                         on voit, m'apprendre à mépriser les femmes ; mais elle m'apprit à m'estimer,
                         et c'est une science très-facile. J'ai eu autant que qui que ce soit ce
                         qu'on appelle des bonnes fortunes ; et il n'y en a eu aucune qui ait pu me
                         flater aussi sensiblement que l'impression que j'avois faite sur le coeur de
-                        Madame De Canaples .
-     </p>
-     <p>
-      Depuis que l'ivresse des passions est dissipée j'ai quelque fois réflechi
+                        Madame De Canaples . </p>
+                    <p> Depuis que l'ivresse des passions est dissipée j'ai quelque fois réflechi
                         sur l'espèce de conquêtes qui nourrit la vanité des hommes, et j'ai remarqué
                         que la plûpart des femmes qui font le sujet de leur triomphe ont le coeur
                         froid, les sens assez tranquilles et la tête déreglée. Ce n'est pas la
@@ -558,10 +446,8 @@
                         devient successivement l'objet, le complice et la victime d'un caprice. Un
                         amant leur plaît sans autre raison que de s'être présenté le premier, et il
                         est bientôt quité pour un second quin pour un second qui n'a d'autre mérite
-                        que d'être venu le dernier.
-     </p>
-     <p>
-      J'étois parti le coeur plein d'amour et penetré de douleur ; mais à peine
+                        que d'être venu le dernier. </p>
+                    <p> J'étois parti le coeur plein d'amour et penetré de douleur ; mais à peine
                         fus-je à l'armée que les devoirs nécessaires m'occuperent assez pour faire
                         diversion à mes sentimens, et la dissipation acheva de me rendre ma gaieté.
                         Je me trouvai en peu de jours l'ami intime d'une multitude de gens de mon
@@ -581,10 +467,8 @@
                         mal-adroitement tiré faute d'expérience, ceux qui auroient le plus douté de
                         la vérité de mes propos n'auroient osé le faire paroître, dans la crainte de
                         me laisser soupçonner que les leurs pussent être douteux. Je ne connois rien
-                        qui serve si bien la fatuité que la fatuité même.
-     </p>
-     <p>
-      Aussitôt que l'armée fut séparée, je revins à la cour, et ma premiere visite
+                        qui serve si bien la fatuité que la fatuité même. </p>
+                    <p> Aussitôt que l'armée fut séparée, je revins à la cour, et ma premiere visite
                         fut à Madame De Canaples . Les leçons que j'avois reçues, les histoires de
                         femmes que j'avois apprises et que je croyois aussi fermement que si j'en
                         avois été témoin, les réflexions que j'avois faites en consequence ; tout
@@ -610,10 +494,8 @@
                         point aimé, ou ne pouvoit aimer que foiblement, puisqu'elle ne m'en avoit
                         pas donné les preuves que tant d'autres me prodiguoient. J'étois fort
                         éloigné de penser qu'il y eût entre les femmes d'autre distinction que celle
-                        de la figure, ou de la jeunesse.
-     </p>
-     <p>
-      Je crois avoir dit que le jour que je pris congé de Madame De Canaples ,
+                        de la figure, ou de la jeunesse. </p>
+                    <p> Je crois avoir dit que le jour que je pris congé de Madame De Canaples ,
                         j'avois trouvé chez elle une femme que je ne connoissois pas. Je la connus
                         bientôt dans le monde et j'appris d'elle-même le motif de sa visite. C'étoit
                         la marquise De Retel , sa figure étoit piquante et l'on ne pouvoit guere
@@ -628,10 +510,8 @@
                         étonné d'un pareil début, et je répondis sur Madame De Canaples avec tout le
                         respect que je lui devois. J'avois encore de la vertu, et il faut qu'il y
                         ait déja longtemps qu'on l'ait abandonnée, avant que de parler la langue du
-                        vice.
-     </p>
-     <p>
-      Sur la décence de ma réponse, c'est toujours fort bien fait, reprit la
+                        vice. </p>
+                    <p> Sur la décence de ma réponse, c'est toujours fort bien fait, reprit la
                         marquise, de parler avec ménagement d'une femme avec qui l'on a vécu ;
                         d'ailleurs, cela est encore de votre âge : la comtesse est d'un caractère à
                         vous en sçavoir gré, si cela lui revenoit, d'autres ne s'en embarrasseroient
@@ -660,36 +540,28 @@
                         moins par pénétration d'esprit que par la corruption de leur coeur qu'elles
                         devinnent quelquefois juste. Elles ne peuvent pas avoir d'autres idées, et
                         de quel droit croiroient-elles à la vertu, elles n'en ont aucun principe, et
-                        jugent d'après leur conduite et les exemples de leurs pareilles.
-     </p>
-     <p>
-      La conversation que j'eus ce jour-là avec Madame De Retel , ou plutôt
+                        jugent d'après leur conduite et les exemples de leurs pareilles. </p>
+                    <p> La conversation que j'eus ce jour-là avec Madame De Retel , ou plutôt
                         qu'elle eut avec moi, fut très-étendue. Ses idées me parurent d'abord si
                         bisarres que je n'en fus frappé qu'en extraordinaire ; mais en peu de temps
                         elle me mit en état de concevoir ses principes. Elle n'attendit pas que je
                         lui demandasse la permission d'aller la voir, elle me l'ordonna, et j'y
                         allai dès le jour suivant. Je la trouvai seule, et comme si elle eût craint
                         de perdre le temps qu'elle destinoit à mon éducation, elle entra aussi-tôt
-                        en matiere.
-     </p>
-     <p>
-      J'ai dit qu'elle avoit de l'esprit, je dois ajouter qu'elle avoit beaucoup
+                        en matiere. </p>
+                    <p> J'ai dit qu'elle avoit de l'esprit, je dois ajouter qu'elle avoit beaucoup
                         réflechi. Je ne voudrois pas décider si toutes ses idées étoient bien
                         justes; mais elles me parurent assez systematiques. C'est pour mettre le
                         lecteur en état d'en juger, que je vais rapporter en une seule conversation
                         ce que Madame De Retel m'a dit en différentes occasions, et à mesure qu'elle
-                        me croyoit en état de gouter ses principes.
-     </p>
-     <p>
-      Avouez, me dit-elle, que le monde où vous vous trouvez aujourd'hui et pour
+                        me croyoit en état de gouter ses principes. </p>
+                    <p> Avouez, me dit-elle, que le monde où vous vous trouvez aujourd'hui et pour
                         lequel vous êtes fait vaut mieux que le triste tête à tête de Madame De
                         Canaples . Je vous avouerai, lui dis-je, madame, une chose bien différente,
                         c'est que je ne cherchois mon bonheur qu'auprès d'elle, et que si je ne
                         craignois pas de troubler le sien, je serois encore inconnu à ce monde pour
-                        lequel vous me croyez si propre.
-     </p>
-     <p>
-      Mais cela est trop plaisant, s'écria la marquise, songez-vous à ce que le
+                        lequel vous me croyez si propre. </p>
+                    <p> Mais cela est trop plaisant, s'écria la marquise, songez-vous à ce que le
                         peu de mots que vous venez de me dire renferme d'incroyable, de prodigieux;
                         car enfin si je vous entends bien, ou que vous entendiez vous-même la force
                         de ce que vous dites, il faut que vous soyez amoureux ; mais je dis
@@ -714,10 +586,8 @@
                         passions ne sont pas plus violentes que quand leurs objets sont plus
                         importans ; souvent elles sont moins vives, et s'il y en a quelqu'une qui
                         devienne plus forte qu'elle ne l'étoit d'abord, c'est ordinairement par
-                        l'extinction des autres qui partageoient l'ame avec elle.
-     </p>
-     <p>
-      L'amour se fait sentir à un certain âge, mais est-il autre chose qu'une
+                        l'extinction des autres qui partageoient l'ame avec elle. </p>
+                    <p> L'amour se fait sentir à un certain âge, mais est-il autre chose qu'une
                         portion du goût général que les hommes ont pour les plaisirs ; l'âge où il
                         triomphe est celui où les autres passions manquent d'occasions de s'exercer,
                         dans l'âge où l'on est insensible à l'avarice, parce qu'on n'a rien ; à
@@ -746,10 +616,8 @@
                         la chasse, l'étude même et mille autres choses pareilles peuvent devenir
                         chacune la passion unique de quelqu'un, et fermer son coeur à toutes les
                         autres. Il en est ainsi de l'amour qui n'est pas la premiere passion et
-                        rarement l'unique.
-     </p>
-     <p>
-      Ces grands et rares sacrifices de coeur ne se voient guère que de la part
+                        rarement l'unique. </p>
+                    <p> Ces grands et rares sacrifices de coeur ne se voient guère que de la part
                         des femmes; presque tous les bons procédés leur appartiennent en amour, et
                         souvent en amitié, sur-tout quand elle a succédé à l'amour. Ne croyez pas
                         que ce que je vous dis à l'avantage de mon sexe, soit l'effet d'un intérêt
@@ -764,10 +632,8 @@
                         plûpart des femmes du monde passent leur vie à être successivement flattées,
                         gâtées, séduites, abandonnées et livrées enfin à elles-mêmes, ayant pour
                         unique ressource une dévotion de pratique, et pleine d'ennui; quand elle est
-                        sans vertu, sans ferveur ou sans intrigue.
-     </p>
-     <p>
-      L'amour est, dit-on, l'affaire de ceux qui n'en ont point ; le desoeuvrement
+                        sans vertu, sans ferveur ou sans intrigue. </p>
+                    <p> L'amour est, dit-on, l'affaire de ceux qui n'en ont point ; le desoeuvrement
                         est donc la source des égaremens où l'amour jette les femmes. Cette passion
                         se fait peu remarquer dans les femmes du peuple aussi occupées que les
                         hommes par des travaux pénibles ; quoiqu'il y en ait beaucoup de plongées
@@ -791,10 +657,8 @@
                         auprès de vous ; mais indépendamment de mon expérience particuliere, je
                         n'entends parler d'autres choses que de liaisons formées par l'amour, et
                         qu'une longue suite d'années a rendues respectables, sans les avoir
-                        affoiblies.
-     </p>
-     <p>
-      Je connois, reprit la marquise, et j'ai examiné avec attention ces liaisons
+                        affoiblies. </p>
+                    <p> Je connois, reprit la marquise, et j'ai examiné avec attention ces liaisons
                         dont on vous parle. Il y en a quelques-unes dignes des éloges qu'on leur
                         donne. Ce sont celles que l'amour a pu commencer ; mais que l'amitié a
                         consacrées, et je sçais qu'il y en a qui n'ont cessé d'être orageuses que
@@ -806,17 +670,13 @@
                         l'amour, ces amans se sont heureusement trouvés dignes d'être amis ; et
                         c'est de ce moment qu'ils vivent heureux, avec une confiance plus entiere
                         qu'ils ne l'auroient peut-être, s'ils n'avoient pas été amans, et avec plus
-                        de douceur et de tranquillité que s'ils l'étoient encore.
-     </p>
-     <p>
-      Un état si rare et si délicieux seroit le charme d'un âge avancé, et
+                        de douceur et de tranquillité que s'ils l'étoient encore. </p>
+                    <p> Un état si rare et si délicieux seroit le charme d'un âge avancé, et
                         empêcheroit de regretter la jeunesse. La réflexion qui détruit ou affoiblit
                         les autres plaisirs, parce qu'ils consistent dans une espéce d'ivresse,
                         augmente et affermit celui-ci. En jouissant d'un bonheur, c'est le doubler
-                        que de le reconnoître.
-     </p>
-     <p>
-      À l'égard de ces vieilles liaisons que le public a la bonté de respecter
+                        que de le reconnoître. </p>
+                    <p> À l'égard de ces vieilles liaisons que le public a la bonté de respecter
                         faute d'en connoître l'intérieur, qu'y verroit-on si on les examinoit? Des
                         gens qui continuent de vivre ensemble, parce qu'ils y ont long-temps vécu,
                         la force de l'habitude, l'incapacité de vivre seuls, la difficulté de former
@@ -836,20 +696,16 @@
                         ne rougit point de s'affranchir d'un esclavage reconnu, mais on a honte de
                         se démentir sur un engagement dont on a fait gloire. Les vieilles liaisons
                         exigent, pour être heureuses, plus de qualités estimables qu'on ne
-                        l'imagine.
-     </p>
-     <p>
-      L'amour tient lieu de tout aux amans, son objet lui suffit ; mais l'objet
+                        l'imagine. </p>
+                    <p> L'amour tient lieu de tout aux amans, son objet lui suffit ; mais l'objet
                         s'use, l'amour s'éteint, et il n'y a point alors d'esprits assez féconds
                         pour remplacer l'illusion et devenir une ressource contre la langueur d'une
                         vie retirée et d'un tête à tête continuel. Si ces sortes d'esprits se
                         trouvoient, il faudroit encore que les deux amans l'eussent l'un et l'autre
                         au même degré, sans quoi la stérilité de l'un étoufferoit la fertilité de
                         l'autre. Il n'y a que l'esprit qui serve à la longue d'aliment à l'esprit,
-                        il ne produit pas long-tems seul.
-     </p>
-     <p>
-      Le tête à tête tel que je le suppose ne se soutient que par l'amitié,
+                        il ne produit pas long-tems seul. </p>
+                    <p> Le tête à tête tel que je le suppose ne se soutient que par l'amitié,
                         beaucoup d'estime réciproque, et une confiance entiere qui fait qu'on jouit
                         de la présence l'un de l'autre, même sans se rien dire, et en s'occupant
                         différemment. On devroit dire aux amans qui se déclarent publiquement,
@@ -877,10 +733,8 @@
                         principes. Les choses qu'elle me disoit étoient si nouvelles pour moi, que
                         pour dissiper mes scrupules et pour éclaircir mes idées, je lui proposai mes
                         doutes. Je vous avoue, lui dis-je, madame, que je ne sçais plus que penser
-                        de l'amour : en quoi le faites-vous donc consister?
-     </p>
-     <p>
-      Il n'y a rien de plus facile, reprit la marquise; aimer c'est de l'amitié;
+                        de l'amour : en quoi le faites-vous donc consister? </p>
+                    <p> Il n'y a rien de plus facile, reprit la marquise; aimer c'est de l'amitié;
                         désirer la jouissance d'un objet, c'est de l'amour ; désirer cet objet
                         exclusivement à tout autre, c'est passion. Le premier sentiment est toujours
                         un bien, le second n'est qu'un appetit du plaisir, et le troisiéme étant le
@@ -888,16 +742,12 @@
                         l'amitié et l'amour qui est passion, c'est de se porter vers un objet
                         déterminé, quoique ce soit par des motifs différens. Il y a même des amitiés
                         qui deviennent de véritables passions, et ce ne sont ni les plus sûres, ni
-                        les plus heureuses.
-     </p>
-     <p>
-      L'amour au contraire, tel qu'il est communément, se porte vaguement vers
+                        les plus heureuses. </p>
+                    <p> L'amour au contraire, tel qu'il est communément, se porte vaguement vers
                         plusieurs objets, et peut toujours en remplacer un par un autre. Vous direz
                         qu'un tel amour n'est pas fort délicat ; non, mais il est heureux, et le
-                        bonheur fait la gloire de l'amour.
-     </p>
-     <p>
-      La délicatesse fait honneur en amitié, parce qu'elle suppose un sentiment
+                        bonheur fait la gloire de l'amour. </p>
+                    <p> La délicatesse fait honneur en amitié, parce qu'elle suppose un sentiment
                         éclairé, aussi flateur pour celui qui le ressent que pour celui qui
                         l'inspire. Cette délicatesse est toujours active et porte aux attentions
                         pour l'objet aimé; on craint de lui manquer. En amour elle est ordinairement
@@ -911,15 +761,11 @@
                         principe dont il part, et malheureusement elles ne sont que trop ingenieuses
                         à s'en former. Cette délicatesse si vantée et si peu connue, n'est donc
                         qu'un deréglement d'imagination. Il semble qu'elle n'aiguise l'esprit que
-                        pour le rendre plus faux.
-     </p>
-     <p>
-      Cependant comme si l'on avoit entrepris d'empoisonner tous les plaisirs, on
+                        pour le rendre plus faux. </p>
+                    <p> Cependant comme si l'on avoit entrepris d'empoisonner tous les plaisirs, on
                         ne s'est pas contenté d'introduire la délicatesse en amour, on y a fait
-                        encore entrer la jalousie.
-     </p>
-     <p>
-      Comment, m'écriai-je, la jalousie n'est-elle pas un attribut de l'amour? Non
+                        encore entrer la jalousie. </p>
+                    <p> Comment, m'écriai-je, la jalousie n'est-elle pas un attribut de l'amour? Non
                         sans doute, reprit la marquise, la jalousie est un préjugé d'éducation,
                         fortifié par l'habitude. Si elle étoit naturelle aux amans, ils seroient
                         par-tout également jaloux ; or il y a des peuples qui le sont beaucoup moins
@@ -935,10 +781,8 @@
                         jaloux, mais il n'y auroit que ceux qui le seroient par caractère ; parce
                         que la jalousie, c'est-à-dire l'envie en est un, comme l'ambition,
                         l'avarice, la paresse, la misantropie et plusieurs autres sortes de
-                        caractères.
-     </p>
-     <p>
-      La jalousie est si peu un sentiment naturel, qu'elle se soumet au préjugé
+                        caractères. </p>
+                    <p> La jalousie est si peu un sentiment naturel, qu'elle se soumet au préjugé
                         jusque dans la conduite. Tel homme qui seroit jaloux d'un rival jusqu'à la
                         frénesie, ne s'avise guére de l'être d'un mari. Un jaloux est intérieurement
                         si persuadé de son injustice, qu'il y en a peu qui ne se cachent de l'être.
@@ -953,39 +797,29 @@
                         sa vanité est blessée de ne pas laisser une femme dans les regrets ; la
                         jalousie ou plutôt l'envie le ramene pour être tyran, sans être heureux.
                         Voilà les hommes, leur amour ne vit que d'amour-propre ; il n'y a que des
-                        jaloux d'orgueil.
-     </p>
-     <p>
-      Quoique les raisonnemens de la marquise ne fussent peut-être pas trop bons,
+                        jaloux d'orgueil. </p>
+                    <p> Quoique les raisonnemens de la marquise ne fussent peut-être pas trop bons,
                         je ne me sentois pas en état d'y répondre ; mais je crus qu'il n'y avoit
-                        rien de mieux, que de lui en faire l'application à elle-même.
-     </p>
-     <p>
-      Comment, lui dis-je, madame, si j'avois entrepris de vous plaire, et que
+                        rien de mieux, que de lui en faire l'application à elle-même. </p>
+                    <p> Comment, lui dis-je, madame, si j'avois entrepris de vous plaire, et que
                         j'eusse le bonheur d'y réussir, trouveriez-vous bon que je vous manquasse de
-                        fidélité.
-     </p>
-     <p>
-      Pourquoi non, dit la marquise, l'infidélité est un grand mot souvent mal
+                        fidélité. </p>
+                    <p> Pourquoi non, dit la marquise, l'infidélité est un grand mot souvent mal
                         appliqué. En amitié, c'est un crime ; mais si jamais nous nous trouvions
                         simplement du goût l'un pour l'autre, je ne prétendrois pas être l'unique
                         l'objet de vos attentions. Une telle prétention seroit à la fois une
                         tyrannie insupportable pour vous, et une folie cruelle pour moi-même.
                         Jouissons toujours d'un bien, comme s'il ne devoit jamais finir ; et
-                        sçachons le perdre, comme n'y ayant aucun droit.
-     </p>
-     <p>
-      Croyez-vous que je n'aye jamais eu occasion de m'attacher aussi follement
+                        sçachons le perdre, comme n'y ayant aucun droit. </p>
+                    <p> Croyez-vous que je n'aye jamais eu occasion de m'attacher aussi follement
                         que beaucoup d'autres. Peut-être dois-je une partie de ma philosophie à ma
                         propre expérience ; mais j'ai réflechi de bonne-heure sur ce sujet, et je me
                         suis fait un plan de vie en conséquence de mes réflexions. J'ai songé à
                         nourrir mon esprit de connoissances plus agréables que pénibles, et capables
                         du moins d'empêcher la solitude ou la vieillesse de m'effrayer; à défendre
                         mon coeur de toute passion tyrannique, et à goûter les plaisirs que les
-                        moeurs egrantes me permettent.
-     </p>
-     <p>
-      Ce n'est pas que je les approuve ces moeurs ; si elles devenoient plus
+                        moeurs egrantes me permettent. </p>
+                    <p> Ce n'est pas que je les approuve ces moeurs ; si elles devenoient plus
                         regulieres, il y auroit à gagner pour tout le monde. Si cela n'est pas, que
                         les hommes ne s'en prennent qu'à eux-mêmes ; qu'ils cessent de crier au
                         déreglement, ou de croire qu'il y ait une morale différente pour les deux
@@ -1012,10 +846,8 @@
                         celle des femmes. J'ai des amis et je suis digne d'en avoir, parce que je
                         suis incapable de leur manquer. Je respecte assez l'amitié, pour y être plus
                         difficile qu'en amour; et le plus grand honneur que je pourrois faire à un
-                        amant qui cesseroit de me plaire, ce seroit de le garder pour ami.
-     </p>
-     <p>
-      Si je trouvois de la bisarerie dans les idées de la marquise, je lui
+                        amant qui cesseroit de me plaire, ce seroit de le garder pour ami. </p>
+                    <p> Si je trouvois de la bisarerie dans les idées de la marquise, je lui
                         trouvois aussi des sentimens qui me plaisoient, et insensiblement je m'y
                         attachai. Pendant quelque temps elle ne parut occupée que de moi ; mais je
                         m'apperçus bientôt que si elle m'avoit donné des préservatifs contre la
@@ -1023,10 +855,8 @@
                         d'être satisfaite de ma conduite ; j'avois si bien adopté son systême que
                         nous n'eûmes rien à nous reprocher, et sans nous quitter formellement nous
                         nous trouvâmes libres. Je me livrai à tous les goûts passagers. Enfin
-                        j'étois sensible par caractère, je devins fat par principes.
-     </p>
-     <p>
-      Les premiers succès m'avoient donné de la vanité, mais leur multiplicité
+                        j'étois sensible par caractère, je devins fat par principes. </p>
+                    <p> Les premiers succès m'avoient donné de la vanité, mais leur multiplicité
                         m'en guérit ; je ne m'arrêterai pas à faire des portraits détaillés des
                         femmes à la mode : c'est un caractère et un manege uniformes; qui en a eu
                         une, les a toutes vûes. Le nombre ne peut servir qu'à grossir la liste de
@@ -1034,17 +864,10 @@
                         elles font toutes les avances, comme si ce n'étoit rien; la fantaisie
                         est-elle passée, elles s'en défendent, comme si c'étoit quelque chose. Il
                         n'y a point alors de manoeuvres plattes et usées qu'elles n'employent. Elles
-                        commencent par insinuer qu'un homme avec qui on croit qu'elles ont vécu,
-      <hi rend="italic">
-       s'en est donné l'air,
-      </hi>
-      <hi rend="italic">
-       ce seroit le dernier qu'elles choisiroient, elles
-      </hi>
-      <hi rend="italic">
-       ne conçoivent pas qu'on puisse l'avoir
-      </hi>
-      . Elles
+                        commencent par insinuer qu'un homme avec qui on croit qu'elles ont vécu, <hi
+                            rend="italic"> s'en est donné l'air, </hi>
+                        <hi rend="italic"> ce seroit le dernier qu'elles choisiroient, elles </hi>
+                        <hi rend="italic"> ne conçoivent pas qu'on puisse l'avoir </hi> . Elles
                         passent par degrés aux propos les plus outrageans, si toutefois elles
                         peuvent outrager. Elles supposent qu'on ne croira pas qu'elles osassent
                         parler ainsi d'un homme dont elles auroient quelque chose à craindre ; elles
@@ -1057,10 +880,8 @@
                         cache de les avoir qui est obligé de les avoir eues. J'avois donc trop de
                         rivaux aussi heureux que moi, pour que je pusse me flatter de jouer un rôle
                         distingué; ainsi je songeai à me tirer de pair par des conquêtes plus
-                        brillantes, et j'eus le bonheur d'y réussir.
-     </p>
-     <p>
-      La femme à qui j'eus l'adresse de plaire étoit extrêmement sensible, fort
+                        brillantes, et j'eus le bonheur d'y réussir. </p>
+                    <p> La femme à qui j'eus l'adresse de plaire étoit extrêmement sensible, fort
                         portée à l'amour ; mais très-jalouse de sa réputation. Elle ne se rendit
                         qu'à l'estime que j'eus l'art de lui inspirer. Il y eut même de ma part un
                         procédé de vanité qui tourna à mon avantage. Madame De Clerval m'avoit fait
@@ -1081,10 +902,8 @@
                         discrétion. Je saisis ce moment pour la confirmer dans son opinion ; j'y
                         employai une éloquence, une vivacité, enfin toutes les exagerations qui
                         acheverent de la séduire, et qui seules auroient dû la détromper, si elle
-                        avoit eu plus de connoissance du caractère des hommes.
-     </p>
-     <p>
-      L'aveu qu'elle m'avoit fait est ce qui coûte le plus à une ame honnête, et
+                        avoit eu plus de connoissance du caractère des hommes. </p>
+                    <p> L'aveu qu'elle m'avoit fait est ce qui coûte le plus à une ame honnête, et
                         quand les femmes de ce caractère ont à céder, les suites d'un tel aveu sont
                         plus rapides avec elles qu'avec les autres. Madame De Clerval se fia donc à
                         mes sermens. Ce n'est pas que de temps en temps elle n'éprouvât des remords
@@ -1108,10 +927,8 @@
                         les perdent à force de mériter d'en avoir. Il est sûr que l'amour ne peut
                         jamais procurer à une femme estimable autant de bonheur qu'il lui en fait
                         perdre ; ainsi un honnête homme ne doit pas la rendre la victime d'un goût
-                        leger et passager.
-     </p>
-     <p>
-      Ma seconde réflexion est sur les différentes sortes de perfidies. Il y en a
+                        leger et passager. </p>
+                    <p> Ma seconde réflexion est sur les différentes sortes de perfidies. Il y en a
                         une qui consiste à noircir par une horrible calomnie la vertu d'une femme
                         dont on a quelquefois essuyé des mépris, et je crois cette noirceur fort
                         rare. Il y en a une autre assez commune, c'est de trahir par indiscrétion et
@@ -1142,10 +959,8 @@
                         étoient le premier acte de son indiscrétion. On apprennoit du moins qu'il
                         savoit un secret, on étoit bientôt sur la voie, et on le découvroit à la
                         fin, sans qu'on fût en droit de lui faire des reproches, ou qu'on pût les
-                        lui faire sentir.
-     </p>
-     <p>
-      Comme il étoit plus intéressé qu'un autre à m'examiner, il ne tarda pas à
+                        lui faire sentir. </p>
+                    <p> Comme il étoit plus intéressé qu'un autre à m'examiner, il ne tarda pas à
                         soupçonner ce que je dissimulois assez mal, et les soupçons de ceux qui ont
                         droit d'être jaloux deviennent bientôt des certitudes. Il étoit
                         naturellement franc, et me dit qu'il avoit eu des vües sur Madame De
@@ -1189,10 +1004,8 @@
                         devoir le prendre sérieusement, et je me comportai de façon qu'il y mit
                         bientôt autant de vivacité que j'en affectois. Les choses en vinrent au
                         point que nous mîmes l'épée à la main, et je l'avois déja blessé lorsqu'on
-                        nous sépara.
-     </p>
-     <p>
-      Les propos de Derville auroient pû ne pas parvenir jusqu'à Madame De Clerval
+                        nous sépara. </p>
+                    <p> Les propos de Derville auroient pû ne pas parvenir jusqu'à Madame De Clerval
                         , et ne pas faire un grand effet dans le public ; mais notre combat fit un
                         éclat prodigieux, et en apprit le sujet à tout le monde. Il n'y avoit pas
                         une heure que l'affaire s'étoit passée, que Madame De Clerval en étoit déja
@@ -1223,10 +1036,8 @@
                         qu'une femme honnête ait ce pouvoir-là sur elle, que le public finit par la
                         justifier. Les femmes les plus raisonnables et les plus sensibles sur la
                         réputation, font des plaintes, des reproches et pardonnent à la fin. La plus
-                        forte preuve d'indifférence pour un homme est de cesser de le voir.
-     </p>
-     <p>
-      En effet les plus experts en cette matiére ont toujours douté que j'aye été
+                        forte preuve d'indifférence pour un homme est de cesser de le voir. </p>
+                    <p> En effet les plus experts en cette matiére ont toujours douté que j'aye été
                         bien avec Madame De Clerval , et depuis elle auroit pû avoir dix amans, sans
                         qu'on l'eût seulement soupçonnée. Derville qui n'avoit été que légerement
                         blessé, s'étant rétabli, et ayant appris que Madame De Clerval n'avoit mis
@@ -1234,20 +1045,16 @@
                         voir, sentit le tort qu'il avoit eu, vint m'en faire excuse, et devint si
                         sincérement mon ami, que si j'avois eu besoin de cent indiscrétions il n'en
                         eût pas fait une en ma faveur, tant il étoit naïvement persuadé que j'avois
-                        sujet de me plaindre de lui.
-     </p>
-     <p>
-      J'eus bien des motifs de consolation. Je fus d'abord aussi célébre que je
+                        sujet de me plaindre de lui. </p>
+                    <p> J'eus bien des motifs de consolation. Je fus d'abord aussi célébre que je
                         pouvois l'être; quoiqu'il fût déja gotique de se battre pour une femme, la
                         plûpart d'entre elles m'en savoient gré, et s'il s'en trouvoit quelques-unes
                         qui me taxoient d'étourderie, cela ne me faisoit aucun tort. Pour un homme
                         qui veut se distinguer dans la carriere où j'entrois, il est assez
                         indifférent qu'on en parle bien ou mal, il suffit qu'on en parle beaucoup.
                         Je me vis recherché par des femmes qui peu de temps auparavant ignoroient
-                        jusqu'à mon nom. Parmi celles-là il y en eut une dont la conquête me tenta.
-     </p>
-     <p>
-      Elle étoit distinguée entre celles que l'on connoît sous le titre
+                        jusqu'à mon nom. Parmi celles-là il y en eut une dont la conquête me tenta. </p>
+                    <p> Elle étoit distinguée entre celles que l'on connoît sous le titre
                         d'intriguantes. Elles sont en assez grand nombre, sans cependant former un
                         corps ; car quoiqu'elles se connoissent toutes, ce n'est que pour être en
                         garde les unes contre les autres, et s'éviter de peur de se trouver en
@@ -1300,10 +1107,8 @@
                         une faute de conduite et une maladresse: suivant les circonstances elles
                         peuvent aller jusqu'à servir hautement ceux qu'elles détestent en secret, en
                         attendant une occasion sure de se venger; car la haine tient mieux dans leur
-                        ame, que l'amour dans celle des autres femmes.
-     </p>
-     <p>
-      Le genre de vie que j'avois embrassé, mes liaisons de plaisir, l'espèce de
+                        ame, que l'amour dans celle des autres femmes. </p>
+                    <p> Le genre de vie que j'avois embrassé, mes liaisons de plaisir, l'espèce de
                         femmes à qui j'étois livré, tout cela avoit si peu de rapport avec la maison
                         et le caractère de Madame De Canaples , que lorsque je lui faisois des
                         visites de devoir, je me trouvois étranger chez elle. J'y allois quelquefois
@@ -1324,16 +1129,12 @@
                         ailleurs. Ce n'est pas la seule fois que j'ai reconnu que l'insolence et la
                         timidité ne sont pas incompatibles dans le même caractère. J'allois enfin
                         chez Me De Canaples avec des projets de vanité, j'y étois avec contrainte,
-                        et j'en sortois humilié.
-     </p>
-     <p>
-      Quelque penchant que je sentisse toujours pour elle, je ne me sentois pas en
+                        et j'en sortois humilié. </p>
+                    <p> Quelque penchant que je sentisse toujours pour elle, je ne me sentois pas en
                         état de lui immoler continuellement mon amour propre, je cessai presque d'y
                         aller, et je pris le parti de préferer à la femme que je respectois le plus
-                        celles que j'estimois le moins, mais qui m'estimoient davantage.
-     </p>
-     <p>
-      Si mon aventure avec la S Fal ne fut pas fort délicieuse, elle ne laissa pas
+                        celles que j'estimois le moins, mais qui m'estimoient davantage. </p>
+                    <p> Si mon aventure avec la S Fal ne fut pas fort délicieuse, elle ne laissa pas
                         de me donner une sorte de considération. La plûpart des femmes ne doutent
                         pas que je n'eusse un mérite supérieur pour en avoir traité si cavaliérement
                         une qui étoit en possession de se faire redouter. Dès que cette opinion fut
@@ -1345,11 +1146,7 @@
                         que, si j'avois eu l'impertinence naïve de faire de telles propositions, il
                         ne se fût trouvé des femmes assez naïvement viles pour les accepter. Ceci
                         n'est point une exagération, les experts en cette matière me rendront
-                        justice. Je devins en peu de temps ivre
-      <hi rend="italic">
-       d'airs
-      </hi>
-      et
+                        justice. Je devins en peu de temps ivre <hi rend="italic"> d'airs </hi> et
                         d'extravagance. Il n'y avoit point de sotise que je ne regardasse comme
                         faisant partie de mes devoirs, et je les remplissois dans toute leur
                         étendue. Je hazardois tout ce qu'un homme sensé a soin de s'interdire, tout
@@ -1364,10 +1161,8 @@
                         de probité en amour, la discrétion étoit inséparable et faisoit partie du
                         bonheur ; elle étoit un devoir si essentiel et si commun, qu'elle ne
                         méritoit pas d'éloge, l'indiscrétion eût été un crime deshonorant. Ce
-                        temps-là est passé.
-     </p>
-     <p>
-      La premiere marque de l'affoiblissement du bonheur, ainsi que de la vertu,
+                        temps-là est passé. </p>
+                    <p> La premiere marque de l'affoiblissement du bonheur, ainsi que de la vertu,
                         c'est lorsque l'on commence à en faire gloire. La vanité vint donc s'unir à
                         l'amour, et par conséquent le corrompre. La vanité donna naissance à
                         l'indiscrétion, et celles qui en furent les premieres victimes se livrerent
@@ -1376,18 +1171,12 @@
                         que les motifs de honte disparurent, et les ames les plus timides se
                         rassurerent. Enfin, les choses en sont venues par dégrés au point qu'on voit
                         des femmes prévenir l'indiscrétion par l'éclat qu'elles font elles-mêmes, et
-                        mettre par leur indifférence sur les propos du public la fatuité en défaut.
-     </p>
-     <p>
-      On ne pourra plus se faire un honneur de divulguer ce qui ne sera ni caché
+                        mettre par leur indifférence sur les propos du public la fatuité en défaut. </p>
+                    <p> On ne pourra plus se faire un honneur de divulguer ce qui ne sera ni caché
                         ni secret ; et je ne doute point qu'on ne voie bien-tôt la fatuité périr
                         comme les grands empires par l'excès de son étendue. Il n'y a point de
                         travers qui ne puisse être honneur, et qui ne tombe ensuite dans le mépris.
-                        Tel a été le sort des
-      <hi rend="italic">
-       petits maîtres
-      </hi>
-      . On ne donna
+                        Tel a été le sort des <hi rend="italic"> petits maîtres </hi> . On ne donna
                         d'abord ce titre qu'à des jeunes gens d'une haute naissance, d'un rang
                         élevé, d'une figure aimable, d'une imagination brillante, d'une valeur fine,
                         et remplis de graces et de travers. Distingués par des actions d'éclat,
@@ -1402,18 +1191,10 @@
                         dignes de le soutenir, de sorte qu'aujourd'hui il est rélegué dans des
                         classes subalternes ou dans les provinces ; on le donne par abus ou par
                         dérision à des plats sujets qui ne sont pas faits pour des ridicules de
-                        cette distinction.
-     </p>
-     <p>
-      Il n'y a pas jusqu'au vice qui ne puisse dégénerer. Ce qu'on appelloit
-                        autrefois un
-      <hi rend="italic">
-       homme à bonnes
-      </hi>
-      <hi rend="italic">
-       fortunes
-      </hi>
-      ne pouvoit l'être que par les graces de la
+                        cette distinction. </p>
+                    <p> Il n'y a pas jusqu'au vice qui ne puisse dégénerer. Ce qu'on appelloit
+                        autrefois un <hi rend="italic"> homme à bonnes </hi>
+                        <hi rend="italic"> fortunes </hi> ne pouvoit l'être que par les graces de la
                         figure et de l'esprit. Avant que d'oser s'annoncer sur ce ton-là, il étoit
                         averti de son mérite, par les prévenances dont il étoit l'objet, et qu'on
                         lui marquoit d'une façon peu équivoque. Trop recherché pour être constant,
@@ -1437,14 +1218,10 @@
                         parce qu'on a résolu de l'être, et l'on continue de l'être parce qu'on l'a
                         été. On commence ce rôle-là sans figure, on le soutient sans jeunesse ; cela
                         devient un droit acquis. On n'auroit pas cru que la prescription pût
-                        trouver-là sa place.
-     </p>
-     <p>
-      Il y a même sur cet article un contraste assez bisarre entre le sort des
-                        hommes et celui des femmes.
-     </p>
-     <p>
-      Un homme à la mode conserve sa célebrité et confirme quelquefois ses droits
+                        trouver-là sa place. </p>
+                    <p> Il y a même sur cet article un contraste assez bisarre entre le sort des
+                        hommes et celui des femmes. </p>
+                    <p> Un homme à la mode conserve sa célebrité et confirme quelquefois ses droits
                         dans un âge où il devroit les perdre. Après avoir cessé de plaire, il est
                         encore long-temps capable de séduire. Il semble au contraire que la
                         célebrité d'une femme double son âge. On s'ennuie de certaines beautés,
@@ -1452,16 +1229,12 @@
                         beaucoup parlé. Il s'en trouve parmi celles-là qui s'attireroient une
                         attention marquée, si elles ne faisoient que de paroître, sans être plus
                         jeunes qu'elles ne le sont. Le public traite assez les femmes comme les
-                        spectacles qui sont courus ou desertés.
-     </p>
-     <p>
-      Si plusieurs réussissent sans avoir les qualités propres à ce qu'ils
+                        spectacles qui sont courus ou desertés. </p>
+                    <p> Si plusieurs réussissent sans avoir les qualités propres à ce qu'ils
                         entreprennent, on en voit d'autres nés avec les plus grands avantages,
                         excepté le caractère avantageux, rester dans l'obscurité, par excès de
-                        modestie.
-     </p>
-     <p>
-      Les intrigues s'engagent ou se denouent par convenance et non par choix. La
+                        modestie. </p>
+                    <p> Les intrigues s'engagent ou se denouent par convenance et non par choix. La
                         société dans laquelle on vit en décide, à peu près comme on résout un
                         mariage dans une famille, de sorte qu'on voit des intrigues de convenance
                         comme des mariages de raison. Il n'est pas même sans exemple qu'on emploie
@@ -1472,10 +1245,8 @@
                         siécle, pour ne pas m'appercevoir moi-même que ma vanité perdoit à suivre
                         trop longtemps les ridicules que j'avois mis à la mode. Je crus devoir
                         chercher les plaisirs dans quelque société aussi brillante et plus honnête
-                        que celles où je vivois habituellement.
-     </p>
-     <p>
-      J'avois entendu faire beaucoup d'éloges de celle de Madame De Saintré .
+                        que celles où je vivois habituellement. </p>
+                    <p> J'avois entendu faire beaucoup d'éloges de celle de Madame De Saintré .
                         C'étoit une jeune veuve qui par son rang, sa fortune et son goût rassembloit
                         chez elle l'élite de la meilleure compagnie. Je m'y fis présenter par un de
                         mes parens qui y étoit admis, et je sus depuis que ce n'avoit pas été sans
@@ -1501,10 +1272,8 @@
                         qu'elle y est aussi ennuyée que déplacée. Si cela n'étoit pas, quelle
                         ressource auroit-on contre certains importuns privilegiés à qui leur rang
                         ouvre toutes les portes, si leur propre ennui n'étoit pas un préservatif
-                        contre leur importunité.
-     </p>
-     <p>
-      Madame De Saintré étoit plus faite que personne pour être l'ame de la
+                        contre leur importunité. </p>
+                    <p> Madame De Saintré étoit plus faite que personne pour être l'ame de la
                         compagnie qu'elle rassembloit. Indépendamment des charmes de la figure qui
                         font toujours une illusion agréable, elle avoit l'esprit étendu, juste, fin,
                         naturel et facile. Je ne parlerai point de son caractère, sa conduite le
@@ -1523,16 +1292,12 @@
                         où l'amour propre ne donne pas de confiance. Il ne s'agissoit donc pas ici
                         de suivre mon plan ordinaire ; pour peu que j'eusse marqué d'espérance,
                         Madame De Saintré l'eût régardée comme un outrage, et m'eût mis hors d'état
-                        d'en jamais former.
-     </p>
-     <p>
-      Un amant qui a des préventions à vaincre, doit les détruire par dégrés, se
+                        d'en jamais former. </p>
+                    <p> Un amant qui a des préventions à vaincre, doit les détruire par dégrés, se
                         conduire avec prudence, et ne pas compter sur un simple goût qu'on lui
                         marque; dans une telle circonstance on n'a rien à prétendre, si l'on ne
-                        vient jusqu'à inspirer une vraie passion.
-     </p>
-     <p>
-      Je le sentis, et sans oser encore me flatter du succès, je suivis la seule
+                        vient jusqu'à inspirer une vraie passion. </p>
+                    <p> Je le sentis, et sans oser encore me flatter du succès, je suivis la seule
                         route que l'esprit m'indiquoit. Je m'attachai à plaire à Madame De Saintré ,
                         et surtout à lui paroître estimable ; on commence à le devenir par le seul
                         désir de le paroître. Je n'oubliai rien pour lui persuader que mes travers
@@ -1540,10 +1305,8 @@
                         avoit suffi pour m'en corriger. J'étois d'autant plus persuasif, que j'étois
                         persuadé moi-même; j'intéressai son coeur en intéressant son amour propre.
                         C'est l'appas le plus sûr pour les gens d'esprit qui sont sensibles, sans
-                        quoi ils ne seroient jamais dupes.
-     </p>
-     <p>
-      Je m'apperçus bientôt de l'impression que je faisois dans son coeur, et que
+                        quoi ils ne seroient jamais dupes. </p>
+                    <p> Je m'apperçus bientôt de l'impression que je faisois dans son coeur, et que
                         de jour en jour elle devenoit plus profonde. Madame De Saintré commençoit à
                         être plus serieuse avec moi qu'elle ne l'avoit été. Je jugeai que son ame
                         n'étoit pas tranquille, et qu'elle éprouvoit des combats intérieurs : j'en
@@ -1558,10 +1321,8 @@
                         de la jalousie à l'admiration. Une continuité de succès variés oblige à
                         penser que les honneurs ne se multiplient que pour ceux qui les méritent. Je
                         m'en apperçus, et je compris que je n'avois jamais eu autant de raison
-                        d'être satisfait de moi, que j'en avois alors.
-     </p>
-     <p>
-      Si l'admiration dont nous sommes l'objet nous emporte hors de nous-mêmes,
+                        d'être satisfait de moi, que j'en avois alors. </p>
+                    <p> Si l'admiration dont nous sommes l'objet nous emporte hors de nous-mêmes,
                         elle nous y ramene quelquefois ; nous cherchons par une secrete complaisance
                         à nous examiner, pour jouir en détail des perfections dont l'assemblage peut
                         en éblouissant nos admirateurs, les empêcher de connoître notre mérite dans
@@ -1574,10 +1335,8 @@
                         j'y repuisois la confiance. J'ai senti plus d'une fois que si nous ne
                         jugions que d'après nous-mêmes, nous nous rendrions une justice assez
                         exacte, et que nous nous estimons plus par l'opinion d'autrui que par notre
-                        propre sentiment.
-     </p>
-     <p>
-      Ce qui peut nourrir notre présomption excessive, est l'espèce de cour
+                        propre sentiment. </p>
+                    <p> Ce qui peut nourrir notre présomption excessive, est l'espèce de cour
                         soumise que nous font ceux dont la naissance égale souvent la nôtre ; mais
                         qui sont réduits à nous la faire connoître, parce que leurs peres ne se sont
                         pas avisés de venir à la cour, et que la fortune les a tenus depuis
@@ -1586,10 +1345,8 @@
                         aucune de leurs prétentions ; mais les regardant comme des hommes qui ne
                         tiennent à rien, nous nous contentons de les écarter avec une politesse
                         froide qui les réduit à s'humilier eux-mêmes, pour se raprocher de nous,
-                        sans avoir le droit de s'en plaindre.
-     </p>
-     <p>
-      Ces espèces d'inferieurs, ces petits cousins de province ne sont pas les
+                        sans avoir le droit de s'en plaindre. </p>
+                    <p> Ces espèces d'inferieurs, ces petits cousins de province ne sont pas les
                         seuls à nous gâter ; ce qu'on appelle communement de vieux seigneurs y
                         contribuent encore. Ils laissent quelquefois échaper contre nous l'humeur
                         d'une fausse misantropie ; mais ces accès sont courts ; une longue habitude
@@ -1603,18 +1360,14 @@
                         pourroit partir de la raison, parce qu'ils ne sont ni citoyens, ni sages. Ce
                         sont des hommes blasés sur les plaisirs qui à un certain âge se livrent à
                         l'ambition, ou plutôt à l'intrigue. Ils veulent achever par leurs soins une
-                        fortune qu'ils trouvent presque faite, sans qu'ils y eussent jamais songé.
-     </p>
-     <p>
-      Il n'y a plus que deux caractères dans les gens du monde, la frivolité et
+                        fortune qu'ils trouvent presque faite, sans qu'ils y eussent jamais songé. </p>
+                    <p> Il n'y a plus que deux caractères dans les gens du monde, la frivolité et
                         l'intrigue. La naissance et le rang décident de la carriere où nous entrons,
                         et de la facilité que nous trouvons à la parcourir ; de façon que tous les
                         gens de notre espèce arrivent ordinairement à des termes à peu près pareils,
                         à moins qu'ils ne se soient jettés eux-mêmes dans un avilissement qui les
-                        met au dessous de tout.
-     </p>
-     <p>
-      Ce n'est pas même assez que de s'être avili, pour être écarté des routes de
+                        met au dessous de tout. </p>
+                    <p> Ce n'est pas même assez que de s'être avili, pour être écarté des routes de
                         la fortune, il faut encore être malheureux, sans quoi la guerre, l'intrigue,
                         l'hypocrisie, le pedantisme et mille circonstances fornissent les moyens de
                         se réhabiliter à la cour. On y a presque toujours le choix de sa réputation
@@ -1640,10 +1393,8 @@
                         après moi le bonheur de ses jours, j'entrepris de la déranger. C'étoit à un
                         homme du bel air qu'un si beau projet étoit réservé, et j'aurois eu la
                         gloire de diviser une société honnête, si je n'avois pas trouvé dans la
-                        marquise une femme d'un caractère plus ferme que je ne l'aurois soupçonné.
-     </p>
-     <p>
-      Parmi ceux qui lui faisoient une cour assidue, le chevalier De Nisarre étoit
+                        marquise une femme d'un caractère plus ferme que je ne l'aurois soupçonné. </p>
+                    <p> Parmi ceux qui lui faisoient une cour assidue, le chevalier De Nisarre étoit
                         celui avec qui elle paroissoit avoir le plus de familiarité. Il est à propos
                         que je le fasse connoître. C'étoit un homme d'environ cinquante ans qui
                         après avoir servi avec distinction moins par ambition que par devoir avoit
@@ -1676,10 +1427,8 @@
                         empire tirannique sur la marquise, amuser ma vanité, et faire l'épreuve de
                         sa complaisance. Les hommes gâtés aiment les sacrifices, et j'en exigeai :
                         je témoignai froidement à la marquise que les assiduités du chevalier
-                        m'étoient quelquefois importunes.
-     </p>
-     <p>
-      Vous n'êtes pas jaloux? Me dit-elle. Non assûrement, répondis-je, j'ai su
+                        m'étoient quelquefois importunes. </p>
+                    <p> Vous n'êtes pas jaloux? Me dit-elle. Non assûrement, répondis-je, j'ai su
                         jusqu'à présent me préserver d'un pareil ridicule. C'est donc un caprice?
                         Reprit-elle. Un caprice? Madame, mais caprice est fort bon, je ne croyois
                         pas avoir des caprices, j'avoue que je ne le croyois pas. Mais comment,
@@ -1704,20 +1453,16 @@
                         madame, lui dis-je, d'insister plus longtemps là dessus, nous pensons trop
                         différemment, mes idées sont sans doute trop délicates, romanesques même ;
                         mais enfin soit raison ou caprice, je suis piqué de votre résistance,
-                        peut-être la réflexion vous rendra-t-elle plus complaisante.
-     </p>
-     <p>
-      Je n'attendis pas la réponse de la marquise, et je sortis bien persuadé que
+                        peut-être la réflexion vous rendra-t-elle plus complaisante. </p>
+                    <p> Je n'attendis pas la réponse de la marquise, et je sortis bien persuadé que
                         je recevrois bientôt de sa part un billet soumis qui me procureroit la
                         satisfaction de me laisser fléchir avec dignité. Le lendemain je fus
                         d'autant plus surpris de ne point entendre parler de la marquise, que j'en
                         recevois régulierement un billet tous les jours pour quelque arrangement de
                         souper, de spectacle ou de promenade, et très-souvent sans sujet. Les amans
                         n'ont pas toujours quelque chose à se dire, mais ils ont toujours à se
-                        parler.
-     </p>
-     <p>
-      Trois jours s'étant passés, sans qu'on me donnât le moindre signe de vie, je
+                        parler. </p>
+                    <p> Trois jours s'étant passés, sans qu'on me donnât le moindre signe de vie, je
                         devins inquiet, je ne doutai point que la marquise ne fût malade, et que mes
                         rigueurs ne fussent capables de la faire perir de désespoir. Enfin soit
                         générosité, soit curiosité simple d'éclaircir les motifs d'un silence si
@@ -1736,15 +1481,11 @@
                         flattée que l'espèce d'incartade que vous me fîtes il y a trois jours
                         n'étoit qu'un caprice passager, un accès d'humeur dont je ne vous aurois
                         peut-être pas reparlé; mais comme je ne puis plus douter que ce ne soit un
-                        dessein formé, ou un vice de caractère, je veux en prevenir les suites.
-     </p>
-     <p>
-      Je vous ai aimé, et je vous aime peut-être encore ; mais l'amour n'a pas sur
+                        dessein formé, ou un vice de caractère, je veux en prevenir les suites. </p>
+                    <p> Je vous ai aimé, et je vous aime peut-être encore ; mais l'amour n'a pas sur
                         moi tous les droits qu'il a sur les autres femmes qui n'ont communement dans
-                        la tête que ce qui reflue du coeur. Je veux vous faire connoître mon ame.
-     </p>
-     <p>
-      Je n'ai jamais confondu l'amitié avec l'amour. L'amitié est un sentiment
+                        la tête que ce qui reflue du coeur. Je veux vous faire connoître mon ame. </p>
+                    <p> Je n'ai jamais confondu l'amitié avec l'amour. L'amitié est un sentiment
                         éclairé qui peut commencer par l'inclination ; mais qui doit être confirmé
                         par l'estime, et qui par conséquent suppose un choix libre, du moins jusques
                         à un certain point. L'amour est un transport aveugle, une espèce de maladie,
@@ -1770,20 +1511,16 @@
                         venez de faire ; pour moi qui ne sais pas tant subtiliser sur l'amour, je
                         vous déclare que je ne vivrai jamais avec une femme dont je n'aurai pas
                         toute la confiance, et qui me preférera un ami ; ainsi voyez si vous voulez
-                        me perdre.
-     </p>
-     <p>
-      La facilité, me répondit la marquise, avec laquelle vous prenez un parti
+                        me perdre. </p>
+                    <p> La facilité, me répondit la marquise, avec laquelle vous prenez un parti
                         suffiroit pour décider celui qui me convient ; mais avant de répondre,
                         souffrez que je vous présente la différence des procédés du chevalier et des
                         vôtres. Le chevalier a pour moi un sentiment tendre qui se trouve
                         naturellement entre deux amis de différent sexe, et qui sans être
                         précisement de l'amour, et encore moins de la passion, échauffe le coeur,
                         inspire les attentions, anime les devoirs de l'amitié, et la rend le charme
-                        de la vie.
-     </p>
-     <p>
-      Ce n'est pas qu'il m'ait fait l'aveu de la disposition de son coeur, il la
+                        de la vie. </p>
+                    <p> Ce n'est pas qu'il m'ait fait l'aveu de la disposition de son coeur, il la
                         sent et l'ignore. Croyant avoir passé l'âge d'aimer, et trop modeste pour se
                         croire en droit d'inspirer de l'amour, il céde à un sentiment qui n'est
                         jamais plus délicieux, que lorsqu'on l'éprouve, sans le reconnoître. Une
@@ -1828,10 +1565,8 @@
                         que je réduis intérieurement à leur juste valeur. Cependant les choses sont
                         bien comme elles sont, et loin de vouloir trop donner à l'amitié, je crois
                         que la décence la plus sévere est la sauvegarde du plaisir, et sur-tout de
-                        la constance en amour.
-     </p>
-     <p>
-      Vous m'avez conseillé de faire des réflexions, et de plus vous m'en avez
+                        la constance en amour. </p>
+                    <p> Vous m'avez conseillé de faire des réflexions, et de plus vous m'en avez
                         fourni le sujet. Je les ai faites, et en conséquence je suis très-déterminée
                         à n'avoir que des amis ; je crois en mériter, et quand une femme est digne
                         de l'amitié, elle ne doit pas se perdre par l'amour. Je vois par expérience
@@ -1883,10 +1618,8 @@
                         raisonne. Il n'y a que la haine qui puisse porter si loin la cruauté; songez
                         qu'elle peut être funeste à vous-même. Vous craignez peu l'éclat, ou vous
                         comptez beaucoup sur moi, vous me rendez sans doute justice ; mais on n'est
-                        pas toujours maître de ses transports, et la passion peut égarer la probité.
-     </p>
-     <p>
-      À ce mot, la marquise me regardant avec une indignation froide. Je vous
+                        pas toujours maître de ses transports, et la passion peut égarer la probité. </p>
+                    <p> À ce mot, la marquise me regardant avec une indignation froide. Je vous
                         entens, dit-elle, et je ne veux pas vous laisser la moindre ressource de
                         fausseté. Si je ne vous inspire pas des sentimens de probité, je vous
                         réduirai du moins à toute la franchise que peut avoir la scéleratesse. Vous
@@ -1917,17 +1650,13 @@
                         conduisit avec tant de précaution, que sans qu'il parût rien d'affecté, je
                         ne pus jamais la retrouver seule, que lorsqu'elle me vit bien convaincu de
                         l'impossibilité de reprendre mes anciens priviléges. Jour, j'écrivis à la
-                        marquise la lettre la plus
-     </p>
-    </div>
-   </div>
-   <div type="group">
-    <div type="chapter">
-     <head>
-      DEUXIÈME PARTIE
-     </head>
-     <p>
-      J'eus d'autant plus de soin de voir assiduement Madame De Saintré , que je
+                        marquise la lettre la plus </p>
+                </div>
+            </div>
+            <div type="group">
+                <div type="chapter">
+                    <head> DEUXIÈME PARTIE </head>
+                    <p> J'eus d'autant plus de soin de voir assiduement Madame De Saintré , que je
                         ne voulois pas qu'on soupçonnât ma disgrace, et, pour sauver mon honneur, je
                         résolus d'en imposer au public par une inconstance apparente. Peut-être
                         aurois-je pu mieux choisir que je ne fis ; mais j'étois pressé de paroître
@@ -1936,10 +1665,8 @@
                         de l'attention par la figure et les graces, et par les avantages de la
                         naissance et du rang. Elle étoit du petit nombre de celles qu'on cite,
                         lorsque pour prouver qu'une promenade a été belle, un spectacle orné et une
-                        fête brillante, on ajoute, madame une telle y étoit.
-     </p>
-     <p>
-      À l'égard de la réputation, je dois avouer aussi que la comtesse étoit de
+                        fête brillante, on ajoute, madame une telle y étoit. </p>
+                    <p> À l'égard de la réputation, je dois avouer aussi que la comtesse étoit de
                         ces femmes dont on exagere le déréglement, quoique la satyre pût se
                         renfermer dans les bornes de la vérité, sans presque y rien perdre; de ces
                         femmes dont l'amant est souvent embarrassé, et quelquefois obligé de dire à
@@ -1955,16 +1682,12 @@
                         avoit dédaigné de très-aimables, on ne peut pas être par tout. Enfin le goût
                         que je pris pour la comtesse m'empêcha d'entendre ce qui s'en disoit, ou ne
                         me permit pas d'y faire attention, et si l'on est étonné de mon aveuglement,
-                        on le sera encore plus de la maniere dont il cessa.
-     </p>
-     <p>
-      Sans m'arrêter ici sur les préludes de notre liaison, il suffit de dire
+                        on le sera encore plus de la maniere dont il cessa. </p>
+                    <p> Sans m'arrêter ici sur les préludes de notre liaison, il suffit de dire
                         qu'elle fut flattée de mon hommage, et qu'elle me donna une préférence si
                         marquée, que mes rivaux les plus présomptueux furent obligés de renoncer à
-                        leurs prétentions, ou du moins de les suspendre.
-     </p>
-     <p>
-      Mon triomphe étoit si public que l'indiscrétion de ma part eût été une
+                        leurs prétentions, ou du moins de les suspendre. </p>
+                    <p> Mon triomphe étoit si public que l'indiscrétion de ma part eût été une
                         sotise et la discretion un ridicule ; un extérieur indifférent sur ma gloire
                         étoit le seul maintien convenable, et je le gardois avec beaucoup de
                         dignité. Heureuse situation d'un homme à la mode de n'être obligé ni au
@@ -1976,19 +1699,13 @@
                         sur moi. Que cette curiosité publique dit de choses à celui qui en est
                         l'objet! Que je goutois de plaisirs en considérant que j'occupois toutes les
                         têtes, et que j'étois la matiere de tous les discours. L'yvresse de l'amour
-                        n'est pas comparable à celle
-      <hi rend="italic">
-       des airs
-      </hi>
-      . Si j'avois pu
-                        me voir de sang froid, je me serois trouvé bien fou, bien fat et bien sot.
-                        Je n'étois alors inquiet que d'une chose dont on n'a pas coutume de faire
-                        grand compte ; c'étoit du mari. Outre qu'il avoit pour moi une amitié
+                        n'est pas comparable à celle <hi rend="italic"> des airs </hi> . Si j'avois
+                        pu me voir de sang froid, je me serois trouvé bien fou, bien fat et bien
+                        sot. Je n'étois alors inquiet que d'une chose dont on n'a pas coutume de
+                        faire grand compte ; c'étoit du mari. Outre qu'il avoit pour moi une amitié
                         singulière, il jouissoit d'une très-grande considération, et l'on n'outrage
-                        pas sans scrupule ceux qu'on estime.
-     </p>
-     <p>
-      Le comte De Vergi étoit un homme d'une probité rare, d'un sens droit et de
+                        pas sans scrupule ceux qu'on estime. </p>
+                    <p> Le comte De Vergi étoit un homme d'une probité rare, d'un sens droit et de
                         beaucoup d'esprit; son caractere étoit franc, un peu dur et assez caustique
                         ; estimant peu de gens et en aimant encore moins ; il avoit une espèce de
                         compassion pour les sots, ne se contraignoit nullement avec les fripons, et
@@ -2000,17 +1717,13 @@
                         peu à la vertu des femmes fût si grossiérement la dupe de la sienne ; je ne
                         pouvois attribuer un tel aveuglement qu'à cette grace particuliére qui fait
                         que les maris ne sont presque jamais instruits de ce qui les regarde; c'est
-                        peut-être le seul égard dont le public soit capable.
-     </p>
-     <p>
-      Cependant mon estime pour lui et son amitié pour moi me faisoient toujours
+                        peut-être le seul égard dont le public soit capable. </p>
+                    <p> Cependant mon estime pour lui et son amitié pour moi me faisoient toujours
                         craindre qu'il ne vînt enfin à ouvrir les yeux, parce qu'il auroit pu
                         regarder comme une trahison de ma part ce qui n'auroit été qu'un affront
                         tout ordinaire venant d'un homme qui n'auroit pas été aussi intimement lié
-                        avec lui que je l'étois.
-     </p>
-     <p>
-      Ainsi quoique je traitasse quelquefois sa femme assez cavalierement, je me
+                        avec lui que je l'étois. </p>
+                    <p> Ainsi quoique je traitasse quelquefois sa femme assez cavalierement, je me
                         tenois avec elle devant lui dans une réserve respectueuse, pour elle qui ne
                         s'observoit pas tant ni devant lui ni devant le public, elle donna un jour
                         une de ces scenes d'éclat qui scandalisent jusqu'à la cour. Il est beaucoup
@@ -2019,10 +1732,8 @@
                         celles qui franchissent toutes les bornes que les femmes simplement galantes
                         n'oseroient passer. Il n'y en a jamais à la fois que trois ou quatre qui
                         soient comme les plenipotentiaires du vice pour protester contre la vertu et
-                        les bienséances, et la comtesse étoit du nombre.
-     </p>
-     <p>
-      Je fus si outré et si confus du scandale qu'elle avoit donné, que j'allai
+                        les bienséances, et la comtesse étoit du nombre. </p>
+                    <p> Je fus si outré et si confus du scandale qu'elle avoit donné, que j'allai
                         pour lui en faire des reproches. Je ne la trouvai point, et par un
                         contretemps fâcheux dans l'agitation où j'étois, je rencontrai Vergi qui
                         remarqua mon trouble et m'en demanda le sujet. Je ne crois pas avoir jamais
@@ -2039,10 +1750,8 @@
                         que c'est une consolation de voir nos amis s'intéresser... vous pouvez
                         compter, reprit Vergi , que personne ne prend plus d'intérêt que moi à ce
                         qui vous regarde; mais ma foi, mon ami, il faut savoir prendre son parti, et
-                        n'estimer les choses que ce qu'elles valent.
-     </p>
-     <p>
-      J'avois cru d'abord être au fait, mais n'y comprennant plus rien,
+                        n'estimer les choses que ce qu'elles valent. </p>
+                    <p> J'avois cru d'abord être au fait, mais n'y comprennant plus rien,
                         qu'entendez-vous, lui dis-je, par ce qui me regarde? Eh parbleu sans doute,
                         reprit-il, n'êtes-vous pas l'amant de ma femme, et dans ce cas-là qui diable
                         voulez-vous qui soit blessé de sa conduite, sera-ce moi? Ma foi, dis-je, mon
@@ -2083,11 +1792,8 @@
                         connoissons point parmi nous cette qualification burlesque qu'on donne dans
                         la bourgeoisie à un mari trompé par sa femme. En effet à qui peut-on
                         appliquer ce titre qu'à un homme qui étant amoureux de sa femme, et s'en
-                        croyant aimé, en est trahi. Nous ne sommes point dans ce cas-là
-      <hi rend="italic">
-       nous autres
-      </hi>
-      , ou s'il s'en trouve quelqu'un, c'est
+                        croyant aimé, en est trahi. Nous ne sommes point dans ce cas-là <hi
+                            rend="italic"> nous autres </hi> , ou s'il s'en trouve quelqu'un, c'est
                         une exception rare: remarquez même qu'il n'y a que la premiere infidelité
                         d'une femme qui donne un pareil ridicule à son mari ; pour peu que les amans
                         se multiplient, ou que la chose fasse éclat, il est bientôt detrompé, prend
@@ -2127,25 +1833,19 @@
                         faute de caractere ; ayant enfin tous les inconvéniens de l'esprit sans
                         agrémens, et de la sotise sans tranquillité. Je n'ose me flatter d'une telle
                         reforme chez moi: mais quoiqu'il en arrive, je n'en serai pas moins de vos
-                        amis.
-     </p>
-     <p>
-      Je fus si touché de la confiance de Vergi , j'entrai si fort dans ses
+                        amis. </p>
+                    <p> Je fus si touché de la confiance de Vergi , j'entrai si fort dans ses
                         sentimens, que de ce moment-là, je me pris pour lui de l'amitié la plus
                         vive, et sa femme me devint aussi indifférente que si elle eût été la
                         mienne. Je rompis sans cela avec elle, et je n'aurois pas cru qu'elle s'en
                         fût apperçue, sans quelques plaisanteries qu'elle m'en fit. Vergi qui
                         remarqua notre rupture en badina avec moi, et me dit que si je m'avisois de
                         devenir délicat, je perdrois bien des plaisirs, à moins que la raison ne
-                        devînt à la mode.
-     </p>
-     <p>
-      Je ne crois pas, lui dis-je, que la mode étende jamais son empire
+                        devînt à la mode. </p>
+                    <p> Je ne crois pas, lui dis-je, que la mode étende jamais son empire
                         jusques-là; je n'y compte pas non plus, reprit-il, mais cela peut arriver,
-                        tout est de son ressort en France .
-     </p>
-     <p>
-      Comme je ne veux pas vous tenir des propos d'humeur, et que je vois tout
+                        tout est de son ressort en France . </p>
+                    <p> Comme je ne veux pas vous tenir des propos d'humeur, et que je vois tout
                         avec assez d'indifférence, je ne vous dirai point qu'il n'y a jamais eu de
                         siécle aussi corrompu que celui-ci. Sur le fonds des vices un siécle n'en
                         doit guere à un autre; peut-être même faudroit-il, pour être juste,
@@ -2173,10 +1873,8 @@
                         de la dépravation, au dégoût du désordre, à l'avilissement des moeurs ;
                         c'est au vice enfin qu'il appartient de détruire les plaisirs et de décrier
                         l'amour. On réclamera la vertu jusqu'à un certain point pour l'intérêt du
-                        plaisir. Croyez qu'il arrivera du changement, et peut-être en bien.
-     </p>
-     <p>
-      Il n'y a rien, par exemple, qui soit aujourd'hui si décrié que l'amour
+                        plaisir. Croyez qu'il arrivera du changement, et peut-être en bien. </p>
+                    <p> Il n'y a rien, par exemple, qui soit aujourd'hui si décrié que l'amour
                         conjugal, ce préjugé est trop violent, il ne peut pas durer, et voici de
                         quelle façon la revolution peut se faire. Un homme d'un rang distingué, cité
                         pour l'agrément, l'esprit et les graces, avec une pointe de fatuité; j'exige
@@ -2200,10 +1898,8 @@
                         qui seront réellement amoureux seront charmés d'avoir des autorités pour ne
                         se plus contraindre, on n'entendra peut-être parler que d'époux unis, le bon
                         air s'en mêlera, et il pourroit arriver telle circonstance qui mettroit la
-                        vertu à la mode.
-     </p>
-     <p>
-      L'horoscope que Vergi tiroit du siécle me paroissoit fort hasardé, cependant
+                        vertu à la mode. </p>
+                    <p> L'horoscope que Vergi tiroit du siécle me paroissoit fort hasardé, cependant
                         j'en ai déja vu quelques exemples, et cela pourroit bien gagner. Mon
                         avanture avec Madame De Saintré avoit déja humilié ma fatuité, les
                         réflexions que Vergi me fit faire m'en guérirent totalement. Je commençai à
@@ -2231,10 +1927,8 @@
                         conséquence de ces réflexions je résolus de ne pas m'exposer à partager
                         quelque jour un sort que je trouvois si avilissant, ni à devenir un vieil
                         agréable, dont les disgraces en amour sont méprisables et les succès des
-                        ridicules.
-     </p>
-     <p>
-      J'étois précisément alors dans une position à pouvoir sortir avec honneur de
+                        ridicules. </p>
+                    <p> J'étois précisément alors dans une position à pouvoir sortir avec honneur de
                         la vie dissipée. Ceux qui n'ont jamais scandalisé le public en sont moins
                         considérés que ceux qui savent se retirer à propos du scandale. Rien ne m'en
                         imposoit encore la nécessité, et ce fut sans doute ce qui me détermina à
@@ -2275,15 +1969,11 @@
                         fantaisies souvent de part et d'autre, sans délicatesse et même sans
                         dissimulation. Quelques-unes avoient voulu me faire croire qu'elles avoient
                         de l'amour pour moi, et celles-là n'avoient jamais que les mêmes preuves à
-                        donner, jusqu'à ce que tout fût assez prouvé pour nous quitter.
-     </p>
-     <p>
-      D'autres plus précieuses avoient tâché de me persuader que leur complaisance
+                        donner, jusqu'à ce que tout fût assez prouvé pour nous quitter. </p>
+                    <p> D'autres plus précieuses avoient tâché de me persuader que leur complaisance
                         pour mes empressemens ne partoit que de la force de leur amitié pour moi. Le
-                        nom de l'amitié sert également à la vraie et à la fausse pudeur.
-     </p>
-     <p>
-      Après la rupture il ne me restoit guère d'autre soupçon que les unes et les
+                        nom de l'amitié sert également à la vraie et à la fausse pudeur. </p>
+                    <p> Après la rupture il ne me restoit guère d'autre soupçon que les unes et les
                         autres avoient pu m'aimer, que les horreurs qu'elles disoient de moi, comme
                         si elles avoient été capables de dépit. Je trouvois ce procedé
                         souverainement injuste, j'ai souvent pris la liberté de leur représenter que
@@ -2307,10 +1997,8 @@
                         moi-même. Je n'ai voulu parler que de celles avec qui mes liaisons ont eu
                         quelque chose de singulier, et je ne dois pas en oublier une pour qui
                         j'avois beaucoup de goût ; mais dont le commerce étoit trop orageux, pour
-                        qu'il fût supportable.
-     </p>
-     <p>
-      Une figure piquante, le caractère impetueux, le coeur droit, l'esprit vif,
+                        qu'il fût supportable. </p>
+                    <p> Une figure piquante, le caractère impetueux, le coeur droit, l'esprit vif,
                         et l'imagination bouillante ; c'étoit Madame De Remicourt . Il n'étoit pas
                         aisé de juger si ses sentimens venoient de ses idées, ou si elle pensoit
                         d'après ses sentimens. Ce ne fut point entre nous une liaison qui naît
@@ -2342,10 +2030,8 @@
                         mon égard étoit une espèce de culte, une sorte de dévotion fanatique et
                         d'entousiasme ; il entroit dans ses attentions pour moi des délicatesses,
                         des recherches, des scrupules, de la superstition. Cela étoit toujours
-                        flatteur, quelquefois incommode, mais cela devient tyrannique.
-     </p>
-     <p>
-      Apparemment que sa ferveur se relâcha, car elle commença à trouver que la
+                        flatteur, quelquefois incommode, mais cela devient tyrannique. </p>
+                    <p> Apparemment que sa ferveur se relâcha, car elle commença à trouver que la
                         mienne n'y répondoit pas. Cependant soit par reconnoissance, soit que
                         j'eusse adopté ses idées, je n'avois jamais eu d'attentions aussi
                         recherchées que j'en avois alors. Cela ne suffisoit pas encore, et notre
@@ -2361,10 +2047,8 @@
                         jurames une séparation éternelle avec autant de solemnité, de protestations
                         et de sermens que nous en avions employés autrefois, pour nous jurer un
                         amour immortel. Madame De Remicourt me rendit mes lettres, et je sortis pour
-                        lui renvoyer les siennes.
-     </p>
-     <p>
-      Je ne m'étois jamais trouvé si content. Je me sentois soulagé, delivré d'un
+                        lui renvoyer les siennes. </p>
+                    <p> Je ne m'étois jamais trouvé si content. Je me sentois soulagé, delivré d'un
                         poids accablant, et je respirois comme un homme qui sort d'esclavage. Je
                         rentrai chez moi, je pris les lettres ; mais avant que de les envoyer je
                         voulus les relire en commençant par la premiere. Je n'allai pas loin sans me
@@ -2386,20 +2070,16 @@
                         été tenté de renouer. J'aurois vû que si les premieres étoient pleines de
                         transports, les dernieres annonçoient la froideur. Ce n'étoit plus qu'un
                         tissu de galanteries d'usage qu'on emploie pour couvrir le refroidissement,
-                        et qui en font la preuve.
-     </p>
-     <p>
-      Madame De Remicourt est la seule femme pour qui j'aye conservé un intérêt de
+                        et qui en font la preuve. </p>
+                    <p> Madame De Remicourt est la seule femme pour qui j'aye conservé un intérêt de
                         compassion. Elle étoit de cet état où l'on se regarde comme femme de
                         condition ; mais qu'à la cour on ne prend jamais que pour de la bourgeoisie.
                         Je l'ai revûe dans la suite, et même avec amitié; elle m'a assuré que depuis
                         notre rupture elle avoit eu la conduite la plus réguliére, sans avoir pû
                         effacer dans les sociétés de son état l'impression qu'on y avoit de sa vie
                         passée, qu'on ne lui faisoit plus le même accueil, qu'on cherchoit même à
-                        l'écarter, et que sa vie étoit fort triste.
-     </p>
-     <p>
-      Qu'il y a de femmes d'un rang mitoyen qui se perdent sans ressource, pour
+                        l'écarter, et que sa vie étoit fort triste. </p>
+                    <p> Qu'il y a de femmes d'un rang mitoyen qui se perdent sans ressource, pour
                         avoir le travers plûtôt que le plaisir de partager les folies du grand
                         monde. Après avoir paru sur les listes des gens à la mode, il ne reste pas à
                         une bourgeoise les moyens de se réhabiliter, comme si elle n'étoit pas
@@ -2422,10 +2102,8 @@
                         travers ; il faut tourner à la raison par dégrés. Pour cet effet je pris le
                         parti de m'occuper sérieusement de ma fortune, de m'appliquer au service, et
                         de sortir ainsi du tourbillon qui m'emportoit vers tous les objets, excepté
-                        ceux qui auroient dû me fixer.
-     </p>
-     <p>
-      J'avois remarqué plus d'une fois que le service est en France la profession
+                        ceux qui auroient dû me fixer. </p>
+                    <p> J'avois remarqué plus d'une fois que le service est en France la profession
                         la plus honorée, la plus suivie et la moins perfectionnée. Elle sera
                         toujours celle de la noblesse, parce qu'elle en est l'origine, que les
                         fondateurs de la monarchie étoient des conquérans, et que la constitution de
@@ -2433,10 +2111,8 @@
                         application, et presque jamais comme un objet d'étude. La plûpart de ceux
                         qui s'y livrent avec le plus d'ardeur ne soupçonnent pas que la guerre exige
                         autre chose que du courage, et croient que d'avoir vieilli, c'est avoir de
-                        l'expérience.
-     </p>
-     <p>
-      Les subalternes roulent de garnison en garnison où l'oisiveté fait leur
+                        l'expérience. </p>
+                    <p> Les subalternes roulent de garnison en garnison où l'oisiveté fait leur
                         existence. Ils savent le détail du régiment où ils servent, et n'ont jamais
                         pensé qu'il y eût un art de la guerre. Ceux que leur naissance place dans un
                         rang plus élevé, n'en ont pas plus d'idée, et remplacent l'oisiveté par les
@@ -2444,23 +2120,17 @@
                         souvent inutile et quelquefois funeste, s'il ne s'élevoit de temps en temps
                         des génies heureux qui naissent avec le talent et acquiérent l'art
                         d'employer tant de bras et de courage pour la défense et la gloire de
-                        l'état.
-     </p>
-     <p>
-      Je ne prétens pas que cette négligence de s'instruire soit un vice
+                        l'état. </p>
+                    <p> Je ne prétens pas que cette négligence de s'instruire soit un vice
                         universel. Il faut même avouer qu'il y a déja quelque temps que les choses
                         commencent à changer. On voit des officiers de différens grades observer,
                         refléchir et se former une théorie. Peut-être l'émulation deviendra-t-elle
                         générale, et alors il sera aussi honteux d'ignorer les principes de sa
-                        profession, qu'il a fallu d'abord de courage pour chercher à s'en instruire.
-     </p>
-     <p>
-      Un grand homme a dit que la guerre étoit un art pour les hommes ordinaires
+                        profession, qu'il a fallu d'abord de courage pour chercher à s'en instruire. </p>
+                    <p> Un grand homme a dit que la guerre étoit un art pour les hommes ordinaires
                         et une science pour les hommes supérieurs ; il y en a encore beaucoup pour
-                        qui ce n'est qu'un métier.
-     </p>
-     <p>
-      Ces réflexions me vinrent d'autant plus à propos, qu'on étoit près d'entrer
+                        qui ce n'est qu'un métier. </p>
+                    <p> Ces réflexions me vinrent d'autant plus à propos, qu'on étoit près d'entrer
                         en campagne. Je joignis mon regiment plûtôt qu'à l'ordinaire. On sait qu'il
                         n'y a pas un colonel qui ne soit sincérement persuadé que son régiment est
                         le mieux composé de l'armée, celui où l'éxercice se fait le mieux, où la
@@ -2480,15 +2150,11 @@
                         à la ville, et partout insuportables aux gens sensés. J'avois trop de part
                         au dérangement qui me blessoit, pour être en droit de le reprendre avec
                         hauteur. Je résolus donc de détruire le mal comme je l'avois fait naître,
-                        c'est-à-dire, par mon exemple.
-     </p>
-     <p>
-      Après avoir donné les premiers jours au plaisir de me retrouver avec mes
+                        c'est-à-dire, par mon exemple. </p>
+                    <p> Après avoir donné les premiers jours au plaisir de me retrouver avec mes
                         camarades, je m'appliquai à gagner leur confiance sur nos devoirs, comme je
-                        l'avois eue sur les plaisirs.
-     </p>
-     <p>
-      Je leur dis que je désirois fort qu'il y eût dorénavant plus d'application
+                        l'avois eue sur les plaisirs. </p>
+                    <p> Je leur dis que je désirois fort qu'il y eût dorénavant plus d'application
                         au service qu'il n'y en avoit, que je le demandois d'amitié, et que c'étoit
                         la plus grande marque qu'ils pussent me donner de la leur. Ils me
                         répondirent d'une manière assez satisfaisante ; mais ils crurent apparemment
@@ -2498,26 +2164,20 @@
                         parlai avec dureté, et m'adressant à un des principaux officiers, je le
                         traitai publiquement avec une hauteur outrageante. Je crus que l'éxemple
                         seroit d'autant plus frappant que c'étoit de tout le corps l'homme le plus
-                        estimé.
-     </p>
-     <p>
-      Ce fut sans doute ce qui m'engagea à m'adresser à lui de préférence, pour
+                        estimé. </p>
+                    <p> Ce fut sans doute ce qui m'engagea à m'adresser à lui de préférence, pour
                         faire plus d'impression sur les autres. J'aurois dû faire attention que cet
                         officier d'une naissance obscure n'étoit parvenu que par une sagesse égale à
                         sa valeur, que je lui avois même rendu des services, et que s'ils imposent
                         des devoirs d'obligation à ceux qui les reçoivent, ils en exigent de
                         délicatesse de ceux qui les rendent. J'avois épuisé les airs, je commençois
-                        à avoir des sentimens, mais j'ignorois encore les égards.
-     </p>
-     <p>
-      Je ne tardai pas à faire ces réflexions, et à me reprocher ma vivacité.
+                        à avoir des sentimens, mais j'ignorois encore les égards. </p>
+                    <p> Je ne tardai pas à faire ces réflexions, et à me reprocher ma vivacité.
                         J'aurois fait à cet officier une excuse publique, si je n'avois pas craint
                         de donner atteinte dans cette circonstance au projet que j'avois de rétablir
                         la subordination. Je résolus donc de réparer à force de distinctions la
-                        mortification que j'avois pu causer à un homme estimable.
-     </p>
-     <p>
-      J'étois dans ces dispositions, lorsque le lendemain matin il vint chez moi.
+                        mortification que j'avois pu causer à un homme estimable. </p>
+                    <p> J'étois dans ces dispositions, lorsque le lendemain matin il vint chez moi.
                         Vous n'ignorez pas sans doute, me dit-il, ce qui m'amene ; ne croyez pas
                         cependant que je fasse une telle démarche sans répugnance. Je vous ai des
                         obligations, je vous sacrifirois ma vie, mais je ne dois pas vous sacrifier
@@ -2525,10 +2185,8 @@
                         moi ; plus d'égalité me rendroit peut-être moins sensible; quelques-uns de
                         mes camarades pourroient trouver des dédommagemens dans leur naissance et
                         leur fortune ; pour moi qui sans naissance et sans biens n'ai d'éxistence
-                        que dans l'honneur, il ne m'est pas permis d'y être insensible.
-     </p>
-     <p>
-      Mon premier mouvement fut d'être revolté, que le moindre subalterne fût en
+                        que dans l'honneur, il ne m'est pas permis d'y être insensible. </p>
+                    <p> Mon premier mouvement fut d'être revolté, que le moindre subalterne fût en
                         droit de demander raison à son supérieur d'une offense, quelle qu'elle fût,
                         dont le service eût pu être l'occasion. La subordination n'est sans doute
                         pas parmi nous telle qu'elle devroit être, et je fus sur le point de le
@@ -2539,20 +2197,16 @@
                         champ, nous sortimes ensemble, et nous fumes nous battre dans un lieu
                         écarté. Le combat ne fut pas long, je fus dangereusement blessé, et je
                         tombai. Il courut à l'instant me chercher les secours dont j'avois besoin,
-                        et me fit transporter chez moi.
-     </p>
-     <p>
-      Je ne doutois pas qu'il ne prît aussitôt la fuite, mon premier soin fut de
+                        et me fit transporter chez moi. </p>
+                    <p> Je ne doutois pas qu'il ne prît aussitôt la fuite, mon premier soin fut de
                         lui faire signe de s'approcher. Il le fit avec toutes les marques du
                         désespoir, je lui dis à l'oreille que je lui défendois de s'éloigner, de
                         fournir par sa retraite des preuves contre lui, et qu'il pouvoit compter sur
                         ma discrétion. Il resta donc auprès de moi, son obéissance coûtoit à ses
                         remords, il en paroissoit déchiré, et l'excès de sa douleur auroit suffi
                         pour découvrir la vérité, qui d'ailleurs ne fut ignorée de personne. Ce sont
-                        de ces occasions où l'on ne dit rien, parce qu'on sait tout.
-     </p>
-     <p>
-      Je fus plusieurs jours dans le plus grand danger, et il n'étoit pas encore
+                        de ces occasions où l'on ne dit rien, parce qu'on sait tout. </p>
+                    <p> Je fus plusieurs jours dans le plus grand danger, et il n'étoit pas encore
                         cessé, lorsque je vis arriver le comte De Canaples . Je fus également touché
                         et confus de son attention par les raisons que je dirai. Il étoit avec
                         Madame De Canaples dans une de ses terres qui n'étoit qu'à quelques lieues
@@ -2570,10 +2224,8 @@
                         de paroïtre devant une femme avec qui j 4 avois de ces torts qui blessent le
                         sentiment! Et qu 4 elle devoit sentir d 4 autant plus vivement! Qu 4 elle
                         avoit trop de hauteur pour me les reprocher! Et qu 4 elle s 42 toit fait un
-                        devoir d 4 en oublier les motifs.
-     </p>
-     <p>
-      En effet, depuis que je m'étois livré au torrent de la dissipation, la
+                        devoir d 4 en oublier les motifs. </p>
+                    <p> En effet, depuis que je m'étois livré au torrent de la dissipation, la
                         maison du comte De Canaples étoit celle où je paroissois le moins: je n'y
                         allois plus que par devoir, et quand on ne fait que ces sortes de visites,
                         on n'en fait pas même autant que le devoir l'éxige. Je ne doutois point que
@@ -2600,17 +2252,13 @@
                         d'homme à la mode que je jouois depuis quelques années avec le scandale le
                         plus brillant ; mais je ne voulois pas renoncer aux plaisirs. Je pensois au
                         contraire qu'un attachement honnête étoit ce qui convenoit mieux au nouveau
-                        plan de vie que je projettois.
-     </p>
-     <p>
-      Plein de ces idées je résolus de m'expliquer et de renouer avec Madame De
+                        plan de vie que je projettois. </p>
+                    <p> Plein de ces idées je résolus de m'expliquer et de renouer avec Madame De
                         Canaples ; car je n'y voyois seulement pas la moindre difficulté. Je me
                         croyois si sûr de son coeur, j'étois si persuadé de la satisfaction que lui
                         causeroit mon retour, que je crus devoir par générosité lui demander pardon
-                        de mes crimes, pour ménager du moins son amour propre.
-     </p>
-     <p>
-      L'image que je me formois de la vie délicieuse que j'allois mener, me rendit
+                        de mes crimes, pour ménager du moins son amour propre. </p>
+                    <p> L'image que je me formois de la vie délicieuse que j'allois mener, me rendit
                         en peu de temps la santé; et comme il ne m'étoit pas difficile de trouver
                         l'occasion d'entretenir Madame De Canaples , je lui dis un jour que j'étois
                         bien honteux d'avoir si peu senti le bonheur de lui plaire, et d'avoir pr 2
@@ -2620,29 +2268,21 @@
                         Canaples me regarder avec une hauteur imposante, que je n'eus pas la force
                         de poursuivre. Elle ne m'en laissa pas même la liberté; car elle me quitta
                         sur le champ, et pour toute réponse laissa tomber sur moi un regard fier et
-                        méprisant.
-     </p>
-     <p>
-      Qu'on se figure un homme avantageux, gâté, convaincu de son mérite, et qui
+                        méprisant. </p>
+                    <p> Qu'on se figure un homme avantageux, gâté, convaincu de son mérite, et qui
                         se voit humilié par celle à qui il croyoit aller faire grace. Je fus étourdi
                         de l'accueil ; cependant ce ne fut pas ma vanité qui souffrit le plus ; je
                         ressentis plus de douleur que de honte, parce que j'avois autant d'amour que
-                        de respect pour Madame De Canaples .
-     </p>
-     <p>
-      Aussi-tôt que je fus revenu à moi, je fis beaucoup de réflexions sur le
+                        de respect pour Madame De Canaples . </p>
+                    <p> Aussi-tôt que je fus revenu à moi, je fis beaucoup de réflexions sur le
                         mauvais succès de ma démarche ; je tâchai de pénétrer si je devois
                         absolument renoncer à tout espoir, et je restai dans l'indécision, sans
-                        pouvoir prendre de parti.
-     </p>
-     <p>
-      Dès ce moment Madame De Canaples ne me mit plus à portée de la trouver seule
+                        pouvoir prendre de parti. </p>
+                    <p> Dès ce moment Madame De Canaples ne me mit plus à portée de la trouver seule
                         ; au lieu de me traiter avec amitié devant le monde comme auparavant, elle
                         se bornoit à la politesse, et je voyois qu'il n'y avoit que la prudence qui
-                        l'empêchât d'aller jusqu'au dédain.
-     </p>
-     <p>
-      Je compris que je devois renoncer à mes prétentions ; mais comme je ne
+                        l'empêchât d'aller jusqu'au dédain. </p>
+                    <p> Je compris que je devois renoncer à mes prétentions ; mais comme je ne
                         voulois renoncer ni à son amitié ni à son estime, je ne cherchai plus qu'à
                         lui marquer le repentir de lui avoir déplu. Je me flattois de le lui prouver
                         par ma conduite ; mais comme je devois bientôt partir avec le comte De
@@ -2670,10 +2310,8 @@
                         pas le moindre reproche à me faire. Je ne vous en ferai donc point, reprit
                         Madame De Canaples , puisque vous reconnoissez votre faute, je l'oublie dès
                         ce moment, n'en parlons plus, et soyez sûr qu'à ce prix vous n'aurez point
-                        de meilleure amie que moi.
-     </p>
-     <p>
-      La douceur de sa réponse m'ayant rassûré, me permettez-vous, lui dis-je,
+                        de meilleure amie que moi. </p>
+                    <p> La douceur de sa réponse m'ayant rassûré, me permettez-vous, lui dis-je,
                         madame, de vous demander par quelle raison vous avez eu avec moi deux
                         procédés si différens sur le même sujet? Lorsque j'osai, il y a quelques
                         années, vous déclarer l'impression que vous aviez faite sur mon coeur, vous
@@ -2705,10 +2343,8 @@
                         mes yeux. Pourriez-vous sans rougir oublier ce que vous devez à moi, à
                         Monsieur De Canaples , à ses bontés, à sa confiance, je dirai plus, à
                         l'erreur où il est à votre égard, ce qui vous rendroit plus coupable, que si
-                        vous lui étiez suspect.
-     </p>
-     <p>
-      Quoique le discours, ou du moins le dessein de Madame De Canaples ne tendît
+                        vous lui étiez suspect. </p>
+                    <p> Quoique le discours, ou du moins le dessein de Madame De Canaples ne tendît
                         pas à m'inspirer de l'espoir, peut-être s'en glissa-t-il dans mon coeur ;
                         car je cherchai à prolonger cette conversation ; c'étoit au moins parler de
                         ma passion, et fut-elle sans retour, c'est déja une faveur que d'en occuper
@@ -2725,10 +2361,8 @@
                         pouvoit être le fruit de ma perseverance. La maniere dont j'étois obligé de
                         vivre avec Madame De Canaples étoit pour moi une contrainte assez dure ;
                         cependant je la quittai avec un regret infini, lorsqu'il fallut partir avec
-                        Monsieur De Canaples .
-     </p>
-     <p>
-      Je servis presque toute la campagne sous ses ordres, et comme il n'aimoit
+                        Monsieur De Canaples . </p>
+                    <p> Je servis presque toute la campagne sous ses ordres, et comme il n'aimoit
                         pas à écrire, il me chargeoit de répondre pour lui à toutes les lettres
                         qu'il recevoit de sa femme. Je m'acquittois de cette commission avec un
                         plaisir vif, mais avec autant de simplicité qu'un sécrétaire l'auroit pu
@@ -2745,10 +2379,8 @@
                         donc qu'elle ne gardoit le silence à mon égard que dans la crainte d'en
                         parler avec trop d'intérêt, je vis enfin ce qu'elle vouloit me cacher, et ce
                         fut par les précautions mêmes qu'elle prennoit pour me le cacher ; les
-                        précautions des ames honnêtes sont presque toujours des indiscrétions.
-     </p>
-     <p>
-      Je me gardai bien de lui faire les reproches dont Monsieur De Canaples
+                        précautions des ames honnêtes sont presque toujours des indiscrétions. </p>
+                    <p> Je me gardai bien de lui faire les reproches dont Monsieur De Canaples
                         m'avoit chargé; mais lorsque je lui présentai la réponse que j'avois faite,
                         il me demanda si j'avois eu soin de dire à sa femme ce qu'elle méritoit. Je
                         crois qu'ouï, lui dis-je. J'en suis bien aise, reprit-il, voyons un peu, et
@@ -2767,10 +2399,8 @@
                         veille d'une action, et nous avions jugé à propos de n'en rien marquer à
                         Madame De Canaples , pour lui épargner des inquiétudes. Il y eut en effet le
                         lendemain une affaire fort vive où Monsieur De Canaples et moi fumes
-                        blessés.
-     </p>
-     <p>
-      Madame De Canaples apprit bientôt avec le public la nouvelle de la bataille,
+                        blessés. </p>
+                    <p> Madame De Canaples apprit bientôt avec le public la nouvelle de la bataille,
                         et son mari étant un officier trop considérable pour n'être pas nommé dans
                         les nouvelles générales, elle sut qu'il étoit blessé: ne recevant point
                         alors de lettre particuliere qui calmassent ses craintes, elle partit et
@@ -2788,10 +2418,8 @@
                         de Monsieur De Canaples . Je ne sentis alors que la perte de mon ami, je ne
                         vis dans Madame De Canaples qu'une femme à qui la mémoire de son mari devoit
                         être chere. Il sembloit que l'amour que j'avois pour elle fût suspendu dans
-                        mon coeur, pour le laisser tout entier à l'amitié.
-     </p>
-     <p>
-      Madame De Canaples ne m'avoit fait qu'une visite en arrivant, après avoir vu
+                        mon coeur, pour le laisser tout entier à l'amitié. </p>
+                    <p> Madame De Canaples ne m'avoit fait qu'une visite en arrivant, après avoir vu
                         son mari ; et depuis ce moment jusqu'à celui de sa mort, elle ne l'avoit pas
                         quitté; mais un objet si affligeant ne lui permettant pas de demeurer
                         ensuite dans son appartement, elle passa dans le mien. Nous pleurames
@@ -2799,10 +2427,8 @@
                         consoler. Elle me fit part des derniers sentimens de Monsieur De Canaples ,
                         me témoigna qu'elle étoit fâchée que sa situation et la décence ne lui
                         permissent pas de me donner elle-même les soins dont je pouvois avoir
-                        besoin, et partit le jour-même pour retourner dans ses terres.
-     </p>
-     <p>
-      À peine étoit-elle partie qu'on me remit le testament de Monsieur De
+                        besoin, et partit le jour-même pour retourner dans ses terres. </p>
+                    <p> À peine étoit-elle partie qu'on me remit le testament de Monsieur De
                         Canaples qui n'ayant que des parens éloignés donnoit à sa femme généralement
                         tous ses biens. Je lui écrivis à l'instant pour l'en instruire, et lui
                         mandai qu'aussitôt que je serois en état de partir, j'irois lui rendre
@@ -2819,10 +2445,8 @@
                         présenter sans présomption, et il n'y en eut aucun à qui elle n'interdît
                         toute espérance, desorte qu'on la regarda bientôt comme une femme qui étoit
                         déterminée à jouïr tranquillement de son opulence et de l'indépendance de
-                        son état de veuve, et je le crus comme les autres.
-     </p>
-     <p>
-      Je n'en avois jamais été aussi amoureux que je l'étois alors, parce que je
+                        son état de veuve, et je le crus comme les autres. </p>
+                    <p> Je n'en avois jamais été aussi amoureux que je l'étois alors, parce que je
                         ne l'avois jamais si bien connue, et j'osois moins lui en parler
                         qu'auparavant. Le rang et l'état de ceux qu'elle avoit refusés n'étoient pas
                         propres à me donner des espérances, et il y auroit encore eu plus de
@@ -2869,10 +2493,8 @@
                         consulter trop peu le vôtre. Les bontés que vous venez de me marquer
                         m'inspirent la confiance dont j'avois besoin; dispensez-moi de les accepter,
                         madame, ou mettez-y le comble en m'accordant votre main ; je ne dois les
-                        recevoir qu'à ce prix.
-     </p>
-     <p>
-      Avez-vous dû penser, reprit Madame De Canaples , qu'une augmentation dans ma
+                        recevoir qu'à ce prix. </p>
+                    <p> Avez-vous dû penser, reprit Madame De Canaples , qu'une augmentation dans ma
                         fortune m'eût rendu plus considérable à mes yeux que je ne l'étois
                         auparavant, et que si je vous eusse dans un temps jugé digne de mon choix,
                         j'eusse pu dans un autre penser différemment, sans autre raison que le
@@ -2896,10 +2518,8 @@
                         qu'il me soit permis de vous rapeller que vous avez daigné m'avouer
                         autrefois que votre coeur m'étoit favorable. Si votre devoir me fut
                         contraire, il ne l'est plus, rendez-moi le plus heureux des hommes en
-                        unissant mon sort au vôtre.
-     </p>
-     <p>
-      Comme je n'ai point à rougir de mes sentimens pour vous, répondit-elle, je
+                        unissant mon sort au vôtre. </p>
+                    <p> Comme je n'ai point à rougir de mes sentimens pour vous, répondit-elle, je
                         ne chercherai point à les dissimuler. Vous êtes le seul pour qui j'aye eu
                         ceux que je n'aurois dû qu'à Monsieur De Canaples , et que j'aurois eus pour
                         lui, si l'estime et les efforts les faisoient naître. Le peu de liaison
@@ -2928,10 +2548,8 @@
                         beaucoup, me feroient regarder comme une femme peu sensée qui n'auroit pû
                         résister à la foiblesse d'acheter la complaisance d'un jeune homme au hazard
                         d'en essuyer un jour les mépris. J'aime mieux que vous deviez tout à mon
-                        amitié.
-     </p>
-     <p>
-      Quoi, madame, repris-je, vous dont l'ame et les vertus ont si peu de rapport
+                        amitié. </p>
+                    <p> Quoi, madame, repris-je, vous dont l'ame et les vertus ont si peu de rapport
                         avec les idées du vulgaire, ne céderez-vous à son opinion, que lorsqu'elle
                         est contraire à mon bonheur? Elle n'est que trop fondée sur l'expérience,
                         repliqua Madame De Canaples , j'aurois d'ailleurs tout à craindre de la
@@ -2999,24 +2617,18 @@
                         être une ressource et un moyen de fortune pour un homme, n'est qu'un malheur
                         de plus pour une fille de qualité que sa naissance met au-dessus des secours
                         d'une certaine nature et au-dessous d'un établissement convenable, et qui
-                        souvent n'a pas même le choix des partis dont elle auroit à rougir.
-     </p>
-     <p>
-      Madame De Canaples ajoûtoit que ce qu'elle avoit connu du caractère de
+                        souvent n'a pas même le choix des partis dont elle auroit à rougir. </p>
+                    <p> Madame De Canaples ajoûtoit que ce qu'elle avoit connu du caractère de
                         Mademoiselle De Foix , depuis qu'elle l'avoit avec elle, la faisoit
                         s'applaudir du parti qu'elle avoit pris, et qu'elle étoit persuadée que j'y
-                        donnerois mon approbation.
-     </p>
-     <p>
-      L'action de Madame De Canaples étoit très-louable ; mais comme elle n'avoit
+                        donnerois mon approbation. </p>
+                    <p> L'action de Madame De Canaples étoit très-louable ; mais comme elle n'avoit
                         pas besoin de mon aveu, je trouvai que la politesse qu'elle me faisoit à ce
                         sujet, étoit une sorte d'engagement de sa part, une façon adroite et
                         obligeante de me faire connoître qu'elle regardoit nos intérêts comme les
                         mêmes. J'arrivai donc avec la certitude du bonheur que je désirois si
-                        ardemment.
-     </p>
-     <p>
-      Ce fut avec le plaisir le plus sensible que je me trouvai auprès de Madame
+                        ardemment. </p>
+                    <p> Ce fut avec le plaisir le plus sensible que je me trouvai auprès de Madame
                         De Canaples , et j'eus encore celui de voir que sa satisfaction égaloit la
                         mienne. Après avoir donné les premiers momens aux épanchemens dont le coeur
                         a tant de besoin quand il a souffert une longue absence, Madame De Canaples
@@ -3037,16 +2649,12 @@
                         penchant. Je compris qu'elle cederoit bientôt à mon empressement, et que je
                         n'avois plus que peu de temps à attendre. Au lieu d'insister davantage, je
                         lui fis une espèce de remerciment, comme si elle eût consenti à ce que je
-                        venois de lui proposer.
-     </p>
-     <p>
-      Je passai un mois avec elle, n'ayant que Mademoiselle De Foix en tiers, qui
+                        venois de lui proposer. </p>
+                    <p> Je passai un mois avec elle, n'ayant que Mademoiselle De Foix en tiers, qui
                         en coupant quelquefois le tête à tête y mettoit plus d'agrément que
                         d'importunité. Nous prenions chaque jour Madame De Canaples et moi une
-                        estime plus forte pour elle, à mesure que nous la connoissions davantage.
-     </p>
-     <p>
-      Cette estime devint insensiblement de ma part, et sans que je m'en
+                        estime plus forte pour elle, à mesure que nous la connoissions davantage. </p>
+                    <p> Cette estime devint insensiblement de ma part, et sans que je m'en
                         apperçûsse plus tendre que je n'aurois dû l'avoir. Je n'avois d'abord eu
                         pour Mademoiselle De Foix que les égards dûs à sa naissance et le respect dû
                         à son infortune ; mais un sentiment plus vif mit bientôt dans mes attentions
@@ -3073,10 +2681,8 @@
                         sorte d'injustice à trahir les sentimens que j'avois pu lui inspirer.
                         Insensiblement je me trouvai plus malheureux que coupable. On se juge avec
                         tant d'indulgence, quand on est justifié par son coeur, et qu'on n'est
-                        accusé que par la raison.
-     </p>
-     <p>
-      Il n'y avoit qu'un parti qui pût être digne de Madame De Canaples et de moi
+                        accusé que par la raison. </p>
+                    <p> Il n'y avoit qu'un parti qui pût être digne de Madame De Canaples et de moi
                         ; c'étoit de lui faire un aveu sincère de l'état de mon coeur, et de la
                         prier de prononcer sur mon sort. Ce parti que l'honneur me prescrivoit,
                         qu'il étoit humiliant pour moi! Il falloit donc avouer à une femme
@@ -3086,18 +2692,14 @@
                         que la dissipation n'avoit point alterée, que le temps auroit dû fortifier,
                         puisqu'il ne l'avoit pas éteinte, que cette passion ne s'évanoüissoit que
                         lorsqu'elle devenoit un devoir. Quelle opinion, Madame De Canaples
-                        alloit-elle prendre de mon caractère!
-     </p>
-     <p>
-      Je voyois la nécessité d'un tel aveu, et je frémissois de le faire.
+                        alloit-elle prendre de mon caractère! </p>
+                    <p> Je voyois la nécessité d'un tel aveu, et je frémissois de le faire.
                         Cependant plus je le retardois, plus il devenoit indispensable, et en le
                         différant davantage, j'allois en perdre le mérite. La contrainte qui
                         augmentoit de jour en jour entre Madame De Canaples et moi commençoit à se
                         faire remarquer par Mademoiselle De Foix , et lui donnoit à elle-même une
-                        sorte d'embarras.
-     </p>
-     <p>
-      Cet aveu si nécessaire n'étoit pas la seule chose qui m'inquiétoit. Quel
+                        sorte d'embarras. </p>
+                    <p> Cet aveu si nécessaire n'étoit pas la seule chose qui m'inquiétoit. Quel
                         seroit le fruit de ma démarche? Pouvois-je me flatter que Mademoiselle De
                         Foix prendroit pour moi les sentimens qu'elle m'inspiroit, et quand elle y
                         auroit eu du penchant, ma legereté ne suffisoit-elle pas pour l'empêcher d'y
@@ -3126,10 +2728,8 @@
                         pour vous le respect le plus inviolable, et mon dessein n'est assurement
                         pas... monsieur, reprit-elle, en m'interrompant, j'approuve les sentimens
                         que vous avez pour Mademoiselle De Foix , et je désire fort qu'elle y
-                        réponde, voilà tout ce que je vous permets de croire.
-     </p>
-     <p>
-      Elle me quitta en finissant ces mots, et me laissa dans la plus pénible des
+                        réponde, voilà tout ce que je vous permets de croire. </p>
+                    <p> Elle me quitta en finissant ces mots, et me laissa dans la plus pénible des
                         situations. Je voyois que je l'avois perdue sans retour, sans prévoir ce que
                         je devois attendre de Mademoiselle De Foix . Madame De Canaples ne parut
                         point du reste de la journée, le soir elle nous fit dire qu'elle étoit
@@ -3140,20 +2740,16 @@
                         procédés qu'elle en avoit éprouvés, je ne pus m'empêcher de l'interrompre.
                         Madame De Canaples , lui dis-je, mademoiselle, est capable des sentimens les
                         plus généreux ; mais permettez-moi de vous dire que vous ne pouvez pas être
-                        regardée comme en étant la preuve.
-     </p>
-     <p>
-      Si elle mérite d'ailleurs tous les éloges possibles, on ne peut que lui
+                        regardée comme en étant la preuve. </p>
+                    <p> Si elle mérite d'ailleurs tous les éloges possibles, on ne peut que lui
                         envier le bonheur de vous avoir obligée. J'ignore, reprit Mademoiselle De
                         Foix , si j'aurois trouvé en quelqu'autre la même bienveillance ; mais il
                         est heureux pour moi de l'avoir éprouvée de la seule personne qui, par
                         l'honneur que j'ai de lui appartenir, fut en droit de me faire accepter ses
                         services. J'avois déja reconnu que Mademoiselle De Foix avoit de la noblesse
                         dans le caractère, je remarquai que sa situation y mettoit de la fierté;
-                        l'indigence releve encore ceux qu'elle ne sauroit avilir.
-     </p>
-     <p>
-      Soit qu'elle fût embarassée d'une conversation sur un sujet toujours un peu
+                        l'indigence releve encore ceux qu'elle ne sauroit avilir. </p>
+                    <p> Soit qu'elle fût embarassée d'une conversation sur un sujet toujours un peu
                         humiliant pour la reconnoissance la plus courageuse ; soit qu'elle jugeât
                         qu'un tête à tête avec moi n'étoit pas assez décent pour elle, elle me
                         quitta sous prétexte d'aller s'informer des nouvelles de Madame De Canaples
@@ -3192,26 +2788,20 @@
                         j'acceptois les sermens que vous m'offrez, le repentir ne tarderoit pas à
                         les suivre, l'honneur ou la honte vous les feroit garder quelque temps, dans
                         peu je vous serois à charge, vous finiriez par vous retracter avec éclat, et
-                        mon injustice vous justifieroit.
-     </p>
-     <p>
-      Ah madame, m'écriai-je, devez-vous penser qu'après tout ce que je vous dois
+                        mon injustice vous justifieroit. </p>
+                    <p> Ah madame, m'écriai-je, devez-vous penser qu'après tout ce que je vous dois
                         je pusse jamais cesser d'avoir pour vous l'attachement le plus vif. Qui moi
                         je deviendrois un ingrat! Quand vous m'auriez, répliqua-t'elle, les
                         obligations que vous prétendez m'avoir, je sais jusqu'où doit s'étendre la
                         chaîne de la reconnoissance. Un bienfaicteur injuste est bien plus à
                         craindre qu'un ingrat. L'ingratitude doit exciter plus de mépris que de
                         douleur, la plus cruelle situation pour une ame haute est d'avoir à se
-                        plaindre de ceux à qui l'on doit, et vous seriez dans ce cas-là à mon égard.
-     </p>
-     <p>
-      J'écoutois Madame De Canaples avec un étonnement qui me mettoit hors d'état
+                        plaindre de ceux à qui l'on doit, et vous seriez dans ce cas-là à mon égard. </p>
+                    <p> J'écoutois Madame De Canaples avec un étonnement qui me mettoit hors d'état
                         de lui répondre. Elle m'en épargna l'embarras ; elle sortit de son
                         appartement, et je la suivis dans le salon où nous trouvâmes Mademoiselle De
-                        Foix .
-     </p>
-     <p>
-      Les différentes réflexions dont nous avions tous trois l'esprit occupé
+                        Foix . </p>
+                    <p> Les différentes réflexions dont nous avions tous trois l'esprit occupé
                         mettoient nécessairement de la contrainte entre nous. Nous n'avions plus
                         cette confiance qui naît d'un état tranquille. Quelque liberté d'esprit que
                         Madame De Canaples tâchât de faire paroître, j'y démêlois un fonds de
@@ -3229,10 +2819,8 @@
                         ayez daigné ne les pas rejetter? Il est vrai, répondit Mademoiselle De Foix
                         en rougissant, que j'ai assuré Madame De Canaples qu'elle étoit la maîtresse
                         absolue de mon sort ; et qu'elle pourroit toujours compter, quels que
-                        fussent ses desseins, sur une obéïssance aveugle de ma part.
-     </p>
-     <p>
-      Je ne devrois donc rien, repris-je, qu'à votre soumission pour elle, et je
+                        fussent ses desseins, sur une obéïssance aveugle de ma part. </p>
+                    <p> Je ne devrois donc rien, repris-je, qu'à votre soumission pour elle, et je
                         lui devrois toute ma reconnoissance. Il me semble, répondit-elle, que
                         respectant Madame De Canaples comme vous faites et comme elle le mérite,
                         vous devez approuver que je ne me conduise que par ses conseils. D'ailleurs
@@ -3244,10 +2832,8 @@
                         s'intéresseroit-elle à mon sort. Je ne sais que penser, et je n'en suis que
                         plus inquiete. Vous qui êtes son ami, vous ne l'ignorez peut-être pas,
                         daignez m'en instruire. On doit pardonner la curiosité qui ne part que du
-                        sentiment.
-     </p>
-     <p>
-      La question de Mademoiselle De Foix me causa une émotion dont elle auroit pu
+                        sentiment. </p>
+                    <p> La question de Mademoiselle De Foix me causa une émotion dont elle auroit pu
                         s'appercevoir. J'en fus d'autant plus interdit que je n'étois pas en état
                         d'y répondre. Je n'aurois jamais osé avouer mes torts avec Madame De
                         Canaples . Le respect que je lui devois me faisoit un devoir de la
@@ -3258,18 +2844,14 @@
                         rendis compte de ce que j'avois dit à Mademoiselle De Foix et de ce qu'elle
                         m'avoit répondu, sans dissimuler l'inquiétude qu'elle m'avoit fait paroître.
                         Madame De Canaples me dit qu'elle la convaincroit bientôt de la sincérité
-                        avec laquelle elle s'intéressoit à son sort.
-     </p>
-     <p>
-      Dès cet instant je crus remarquer dans Madame De Canaples plus de sérénité,
+                        avec laquelle elle s'intéressoit à son sort. </p>
+                    <p> Dès cet instant je crus remarquer dans Madame De Canaples plus de sérénité,
                         ce qui me procura aussi un peu plus de calme. Je passai quelque temps sans
                         oser hazarder le moindre propos qui eut rapport à la situation où je me
                         trouvois, me bornant à rendre des soins à Mademoiselle De Foix , et des
                         devoirs à Madame De Canaples , et me remettant de tout au temps et à la
-                        fortune.
-     </p>
-     <p>
-      Enfin Madame De Canaples me dit qu'ayant reconnu que Mademoiselle De Foix
+                        fortune. </p>
+                    <p> Enfin Madame De Canaples me dit qu'ayant reconnu que Mademoiselle De Foix
                         avoit du penchant pour moi, elle la regardoit comme le parti qui me
                         convenoit le mieux, et qu'elle vouloit contribuer à notre union ; que pour
                         cet effet elle assuroit ses biens à Mademoiselle De Foix , et me remettoit
@@ -3296,10 +2878,8 @@
                         en ce moment la plus forte preuve de confiance dont je sois capable et dont
                         vous puissiez être digne. Votre reconnoissance n'y doit répondre que par le
                         silence, et j'ose dire par le respect et par une soumission parfaite à mes
-                        volontés.
-     </p>
-     <p>
-      Je n'aurois pu, quand je l'aurois osé, exprimer à Madame De Canaples par des
+                        volontés. </p>
+                    <p> Je n'aurois pu, quand je l'aurois osé, exprimer à Madame De Canaples par des
                         paroles les sentimens dont j'étois pénétré; ceux d'amour, de reconnoissance
                         et de respect étoient au dessous d'elle, il ne m'étoit plus permis de sentir
                         que la vénération la plus profonde, et je ne l'exprimois que par mon
@@ -3312,13 +2892,10 @@
                         notre felicité, c'est de la lui devoir, et de trouver en elle une
                         bienfaictrice, une mere, une amie, un guide et un modele pour la vertu. La
                         situation tranquille et heureuse dont je jouis me prouve à chaque instant
-                        qu'il n'y a de vrai bonheur que dans l'union du plaisir et du devoir.
-     </p>
-     <p>
-      Qu'il n'y a de vrai bonheur que dans l'union du
-     </p>
-    </div>
-   </div>
-  </body>
- </text>
+                        qu'il n'y a de vrai bonheur que dans l'union du plaisir et du devoir. </p>
+                    <p> Qu'il n'y a de vrai bonheur que dans l'union du </p>
+                </div>
+            </div>
+        </body>
+    </text>
 </TEI>

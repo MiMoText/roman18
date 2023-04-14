@@ -4,202 +4,116 @@
 <?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-x.rng" type="application/xml"
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="Voltaire_Consoles" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader>
-  <fileDesc>
-   <titleStmt>
-    <title ref="bgrf:56.32 wikidata:Q3231998">
-     Les deux consolés: MiMoText
-                    edition
-    </title>
-    <author ref="viaf:36925746 wikidata:Q9068">
-     Voltaire(1694-1778)
-    </author>
-    <respStmt>
-     <resp>
-      data capture
-     </resp>
-     <name>
-      Wikisource contributors
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      encoding
-     </resp>
-     <name>
-      Henning Gebhard
-     </name>
-     <name>
-      Johanna Konstanciak
-     </name>
-    </respStmt>
-    <respStmt>
-     <resp>
-      editor
-     </resp>
-     <name>
-      Julia Röttgermann
-     </name>
-    </respStmt>
-   </titleStmt>
-   <extent>
-    <measure unit="words">
-     601
-    </measure>
-    <measure unit="vols">
-     1
-    </measure>
-   </extent>
-   <publicationStmt>
-    <publisher ref="https://mimotext.uni-trier.de">
-     Mining and Modeling Text
-    </publisher>
-    <distributor ref="https://github.com/mimotext/roman18">
-     Github
-    </distributor>
-    <date>
-     2022
-    </date>
-    <availability>
-     <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
-    </availability>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
-     <title>
-      Les Deux Consolés
-     </title>
-     <ref target="https://fr.wikisource.org/wiki/Les_Deux_Consol%C3%A9s"/>
-     <date>
-      2022
-     </date>
-     <publisher>
-      Wikisource
-     </publisher>
-    </bibl>
-    <bibl type="printSource">
-     <title>
-      Les Deux Consolés
-     </title>
-     <author>
-      Voltaire
-     </author>
-     <pubPlace>
-      Paris
-     </pubPlace>
-     <publisher>
-      Garnier
-     </publisher>
-     <date>
-      1877
-     </date>
-    </bibl>
-    <bibl type="firstEdition">
-     <date>
-      1756
-     </date>
-    </bibl>
-   </sourceDesc>
-  </fileDesc>
-  <encodingDesc n="eltec-x">
-   <p/>
-  </encodingDesc>
-  <profileDesc>
-   <langUsage>
-    <language ident="fra"/>
-   </langUsage>
-   <textClass>
-    <keywords>
-     <term type="form">
-      heterodiegetic
-     </term>
-     <term type="spelling">
-      modern
-     </term>
-     <term type="data-capture">
-      semi-automatic transcription
-     </term>
-    </keywords>
-   </textClass>
-   <textDesc>
-    <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
-    <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
-    <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
-    <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
-   </textDesc>
-  </profileDesc>
-  <revisionDesc>
-   <change when="2022-04-29">
-    Initial ELTeC level 1
-   </change>
-  </revisionDesc>
- </teiHeader>
- <text>
-  <front>
-   <div type="titlepage">
-    <p>
-     Les Deux Consolés
-    </p>
-    <p>
-     Voltaire
-    </p>
-    <p>
-     Garnier, Paris, 1877
-    </p>
-    <p>
-     Exporté de Wikisource le 15 mars 2022
-    </p>
-    <p>
-     LES
-    </p>
-    <p>
-     DEUX CONSOLÉS
-    </p>
-    <p>
-     (1756)
-    </p>
-   </div>
-  </front>
-  <body>
-   <div type="chapter">
-    <p>
-     Le grand philosophe Citophile disait un jour à une femme désolée, et qui avait
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title ref="bgrf:56.32 wikidata:Q3231998"> Les deux consolés: MiMoText edition </title>
+                <author ref="viaf:36925746 wikidata:Q9068"> Voltaire(1694-1778) </author>
+                <respStmt>
+                    <resp> data capture </resp>
+                    <name> Wikisource contributors </name>
+                </respStmt>
+                <respStmt>
+                    <resp> encoding </resp>
+                    <name> Henning Gebhard </name>
+                    <name> Johanna Konstanciak </name>
+                </respStmt>
+                <respStmt>
+                    <resp> editor </resp>
+                    <name> Julia Röttgermann </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words"> 601 </measure>
+                <measure unit="vols"> 1 </measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://mimotext.uni-trier.de"> Mining and Modeling Text </publisher>
+                <distributor ref="https://github.com/mimotext/roman18"> Github </distributor>
+                <date> 2022 </date>
+                <availability>
+                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title> Les Deux Consolés </title>
+                    <ref target="https://fr.wikisource.org/wiki/Les_Deux_Consol%C3%A9s"/>
+                    <date> 2022 </date>
+                    <publisher> Wikisource </publisher>
+                </bibl>
+                <bibl type="printSource">
+                    <title> Les Deux Consolés </title>
+                    <author> Voltaire </author>
+                    <pubPlace> Paris </pubPlace>
+                    <publisher> Garnier </publisher>
+                    <date> 1877 </date>
+                </bibl>
+                <bibl type="firstEdition">
+                    <date> 1756 </date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-x">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term type="form"> heterodiegetic </term>
+                    <term type="spelling"> modern </term>
+                    <term type="data-capture"> semi-automatic transcription </term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <authorGender key="M" xmlns="http://distantreading.net/eltec/ns"/>
+                <size key="short" xmlns="http://distantreading.net/eltec/ns"/>
+                <reprintCount key="unspecified" xmlns="http://distantreading.net/eltec/ns"/>
+                <timeSlot key="T0" xmlns="http://distantreading.net/eltec/ns"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-04-29"> Initial ELTeC level 1 </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="titlepage">
+                <p> Les Deux Consolés </p>
+                <p> Voltaire </p>
+                <p> Garnier, Paris, 1877 </p>
+                <p> Exporté de Wikisource le 15 mars 2022 </p>
+                <p> LES </p>
+                <p> DEUX CONSOLÉS </p>
+                <p> (1756) </p>
+            </div>
+        </front>
+        <body>
+            <div type="chapter">
+                <p> Le grand philosophe Citophile disait un jour à une femme désolée, et qui avait
                     juste sujet de l'être : « Madame, la reine d'Angleterre, fille du grand Henri
                     IV, a été aussi malheureuse que vous : on la chassa de ses royaumes ; elle fut
                     près de périr sur l'Océan par les tempêtes ; elle vit mourir son royal époux sur
-                    l'échafaud.
-    </p>
-    <p>
-     --- J'en suis fâchée pour elle, dit la dame ; » et elle se mit à pleurer ses
-                    propres infortunes.
-    </p>
-    <p>
-     « Mais, dit Citophile, souvenez-vous de Marie Stuart : elle aimait fort
+                    l'échafaud. </p>
+                <p> --- J'en suis fâchée pour elle, dit la dame ; » et elle se mit à pleurer ses
+                    propres infortunes. </p>
+                <p> « Mais, dit Citophile, souvenez-vous de Marie Stuart : elle aimait fort
                     honnêtement un brave musicien qui avait une très-belle basse-taille. Son mari
                     tua son musicien à ses yeux ; et ensuite sa bonne amie et sa bonne parente, la
                     reine Élisabeth, qui se disait pucelle, lui fit couper le cou sur un échafaud
-                    tendu de noir, après l'avoir tenue en prison dix-huit années.
-    </p>
-    <p>
-     --- Cela est fort cruel, répondit la dame ; » et elle se replongea dans sa
-                    mélancolie.
-    </p>
-    <p>
-     « Vous avez peut-être entendu parler, dit le consolateur, de la belle Jeanne de
-                    Naples, qui fut prise et étranglée ?
-    </p>
-    <p>
-     --- Je m'en souviens confusément, » dit l'affligée.
-    </p>
-    <p>
-     « Il faut que je vous conte, ajouta l'autre, l'aventure d'une souveraine qui fut
-                    détrônée de mon temps après souper, et qui est morte dans une île déserte.
-    </p>
-    <p>
-     --- Je sais toute cette histoire, » répondit la dame.
-    </p>
-    <p>
-     « Eh bien donc, je vais vous apprendre ce qui est arrivé à une autre grande
+                    tendu de noir, après l'avoir tenue en prison dix-huit années. </p>
+                <p> --- Cela est fort cruel, répondit la dame ; » et elle se replongea dans sa
+                    mélancolie. </p>
+                <p> « Vous avez peut-être entendu parler, dit le consolateur, de la belle Jeanne de
+                    Naples, qui fut prise et étranglée ? </p>
+                <p> --- Je m'en souviens confusément, » dit l'affligée. </p>
+                <p> « Il faut que je vous conte, ajouta l'autre, l'aventure d'une souveraine qui fut
+                    détrônée de mon temps après souper, et qui est morte dans une île déserte. </p>
+                <p> --- Je sais toute cette histoire, » répondit la dame. </p>
+                <p> « Eh bien donc, je vais vous apprendre ce qui est arrivé à une autre grande
                     princesse à qui j'ai montré la philosophie. Elle avait un amant, comme en ont
                     toutes les grandes et belles princesses. Son père entra dans sa chambre, et
                     surprit l'amant, qui avait le visage tout en feu et l'œil étincelant comme une
@@ -212,37 +126,23 @@
                     taille admirable. L'amant fut condamné à la mort pour avoir cassé la tête à un
                     très-grand prince. Vous pouvez juger de l'état où était la princesse quand on
                     menait pendre l'amant. Je l'ai vue longtemps lorsqu'elle était en prison ; elle
-                    ne me parlait jamais que de ses malheurs.
-    </p>
-    <p>
-     --- Pourquoi ne voulez-vous donc pas que je songe aux miens ? lui dit la
-                    dame.
-    </p>
-    <p>
-     --- C'est, dit le philosophe, parce qu'il n'y faut pas songer, et que, tant de
+                    ne me parlait jamais que de ses malheurs. </p>
+                <p> --- Pourquoi ne voulez-vous donc pas que je songe aux miens ? lui dit la dame. </p>
+                <p> --- C'est, dit le philosophe, parce qu'il n'y faut pas songer, et que, tant de
                     grandes dames ayant été si infortunées, il vous sied mal de vous désespérer.
-                    Songez à Hécube, songez à Niobé.
-    </p>
-    <p>
-     --- Ah  dit la dame, si j'avais vécu de leur temps, ou de celui de tant de belles
-                    princesses, et si pour les consoler vous leur aviez conté mes malheurs,
-                    pensez-vous qu'elles vous eussent écouté ? »
-    </p>
-    <p>
-     Le lendemain, le philosophe perdit son fils unique, et fut sur le point d'en
+                    Songez à Hécube, songez à Niobé. </p>
+                <p> --- Ah  dit la dame, si j'avais vécu de leur temps, ou de celui de tant de
+                    belles princesses, et si pour les consoler vous leur aviez conté mes malheurs,
+                    pensez-vous qu'elles vous eussent écouté ? » </p>
+                <p> Le lendemain, le philosophe perdit son fils unique, et fut sur le point d'en
                     mourir de douleur. La dame fit dresser une liste de tous les rois qui avaient
                     perdu leurs enfants, et la porta au philosophe ; il la lut, la trouva fort
                     exacte, et n'en pleura pas moins. Trois mois après il se revirent, et furent
                     étonnés de se retrouver d'une humeur très-gaie. Ils firent ériger une belle
-                    statue au Temps, avec cette inscription :
-    </p>
-    <p>
-     À CELUI QUI CONSOLE.
-    </p>
-    <trailer>
-     FIN DES DEUX CONSOLÉS.
-    </trailer>
-   </div>
-  </body>
- </text>
+                    statue au Temps, avec cette inscription : </p>
+                <p> À CELUI QUI CONSOLE. </p>
+                <trailer> FIN DES DEUX CONSOLÉS. </trailer>
+            </div>
+        </body>
+    </text>
 </TEI>
