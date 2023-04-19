@@ -22,13 +22,14 @@ At the beginning, corpus composition depended primarily on pragmatic criteria. W
 
 For a more detailed documentation of our sampling strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
 
-## Formats
+## Formats: XML, plaintext (original or normalized)
 
 The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder Archiv/XML4OCR).
 
 The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the [COST Action ‘Distant Reading for European Literary History’](https://www.distant-reading.net/) (level-1 encoding).
 
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
+The folder "files" contains the files with a basic normalization of historical spellings. The folder "files_non_modernized" contains the plaintext without normalization. Please note that some sources contain already modernized text from the beginning. All details on print and digital sources can be found in the teiHeader of the XMl-files. 
 
 ## Metadata 
 There is a short and an extensive metadata description in TSV for all TEI/XML files: 
