@@ -66,6 +66,7 @@ The main language of all texts is French.
 * Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
 * plain:  our corpus of french novels 1751-1800 in plain text is stored here
+* plain/files_non_modernized: our corpus of french novels 1751-1800 is stored here in a normalized plain text version
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
 
 ## Licence
