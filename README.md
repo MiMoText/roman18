@@ -27,6 +27,13 @@ For a more detailed documentation of our sampling strategy, see our [Jupyter Not
 The texts are provided in several different formats. For the texts from the first group, the original double keying files are available. In addition, a cleaned-up XML version closely reflecting the original documents’ layout is available (folder Archiv/XML4OCR).
 
 The master format for all texts is an XML format following the *Guidelines* of the Text Encoding Initiative (folder XML-TEI). The files are encoded in accordance with a relatively restrictive schema developed in the [COST Action ‘Distant Reading for European Literary History’](https://www.distant-reading.net/) (level-1 encoding).
+For pragmatic reasons, we have decided to deviate from this scheme in some cases and still generate valid documents. The following tags are affected:
+- "timeSlot": As our corpus does not fit into the given ELTeC time-period, we use the metadatum "timeSlot" with key=T0.
+- <pb/>: For digital source where page breaks were provided, we adopted those. For texts, which came from the OCR-pipeline, we omitted the pagebreaks.
+- <gap/>: As for Table of contents or graphics we did not use the <gap>-Tag.
+- <milestone/>: We did not use this tag for mid-chapter structural markings.
+- Font change: We have marked non-French text passages with the tag <foreign>, in other places we have marked font changes, especially from digital sources where could re-use tags, with the tag <hi>.
+As for the foreign text-passages we automatically detected the different languages, see https://github.com/MiMoText/roman18/tree/master/Python-Scripts/lang_dec and manually corrected the output before inserting the tags in the XML-files.
 
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
 The folder "files" contains the files with a basic normalization of historical spellings. The folder "files_non_modernized" contains the plaintext without normalization. Please note that some sources contain already modernized text from the beginning. All details on print and digital sources can be found in the teiHeader of the XML-files. 
