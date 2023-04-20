@@ -1,0 +1,2 @@
+Here you can find the OCR4all Model used for the OCR-pipeline within MiMoText. 
+Caution: The Model was trained for an earlier OCR4all version (OCR4all ver: 0.4.0 and LAREX ver:0.4.0) and cannot be applied for newer versions at the moment.
