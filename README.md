@@ -9,7 +9,7 @@ This collection of Eighteenth-Century French Novels contains 200 digital texts o
 
 ## Corpus building
 
-In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'.
+In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'. As it was trained on OCR4all version 0.4.0, LAREX version 0.4.0, it is not compatible with the newest version of OCR4all. 
 
 Applying this OCR-model to additional scans provided by for instance by Gallica (bnf.fr) and other sources (see metadata for details), a second group of novels which are not yet digitally available (or only in low quality) was produced.
 
@@ -36,7 +36,8 @@ For pragmatic reasons, we have decided to deviate from this scheme in some cases
 As for the foreign text-passages we automatically detected the different languages, see https://github.com/MiMoText/roman18/tree/master/Python-Scripts/lang_dec and manually corrected the output before inserting the tags in the XML-files.
 
 In addition, we provide plain text versions of the texts. However, these are best generated depending on individual needs using the scripts “tei2txt.py” & "tei2txt_run.py"(in the Scripts folder). 
-The folder "files" contains the files with a basic normalization of historical spellings. The folder "files_non_modernized" contains the plaintext without normalization. Please note that some sources contain already modernized text from the beginning. All details on print and digital sources can be found in the teiHeader of the XML-files. 
+
+The folder "plain" contains the files (within folder "files") with a basic normalization of historical spellings. The folder "files_non_modernized" contains the plaintext without normalization. Please note that some sources contain already modernized text from the beginning. All details on print and digital sources can be found in the teiHeader of the XML-files. 
 
 ## Metadata 
 There is a short and an extensive metadata description in TSV for all TEI/XML files: 
@@ -72,7 +73,7 @@ The main language of all texts is French.
 * Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
 * Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
-* plain:  our corpus of french novels 1751-1800 in plain text is stored here
+* plain/files:  our corpus of french novels 1751-1800 in plain text is stored here
 * plain/files_non_modernized: our corpus of french novels 1751-1800 is stored here in a normalized plain text version
 * roman18_ext: this folder contains further novels in XML/TEI which were sorted out and not included in the final MiMoText corpus
 
