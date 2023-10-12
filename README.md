@@ -20,10 +20,10 @@ At the beginning, corpus composition depended primarily on pragmatic criteria. W
 
 # Year of first publication
 The year of first publication according to BGRF data. We compared the overall novel publication with the corpus data and added novels per year according to the known historical publication proportions. 
-![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
+![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/pubyear-decade.png "First edition year in corpus and in overall literary production")
 
 # Gender balance
-Concercing gender, we used statements from Wikidata as well as a python script filtering for gender specific titles (Abbé, Marquis etc.). For the rest of names not having a Wikidata match, nor a title, we used the gender guesser python package. 
+Concerning gender, we used statements from Wikidata as well as a python script filtering for gender specific titles (Abbé, Marquis etc.). For the rest of names not having a Wikidata match, nor a title, we used the gender guesser python package. 
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/gender_proportion_without_unknown.png "Gender balance in corpus and in overall literary production")
 
 # Narrative form 
