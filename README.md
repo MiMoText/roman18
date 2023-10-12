@@ -17,8 +17,14 @@ A third group of texts, based on existing full texts (from Wikisource and other 
 
 ## Balancing criteria
 At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form in approaching the historical distribution of these parameters in our full text metadata. 
-
+# Year of first publication
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
+
+# Gender balance
+![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/GitHub\balance_novels\img\gender_proportion_without_unknown.png "Gender balance in corpus and in overall literary production")
+
+# Narrative form 
+![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/narrative_forms_decade.png "Narrative form in corpus and in overall literary production")
 
 For a more detailed documentation of our sampling and balancing strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
 
