@@ -17,13 +17,17 @@ A third group of texts, based on existing full texts (from Wikisource and other 
 
 ## Balancing criteria
 At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form in approaching the historical distribution of these parameters in our full text metadata. 
+
 # Year of first publication
+The year of first publication according to BGRF data. We compared the overall novel publication with the corpus data and added novels per year according to the known historical publication proportions. 
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/corpus_vs_literary_production.png "First edition year in corpus and in overall literary production")
 
 # Gender balance
-![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/GitHub\balance_novels\img\gender_proportion_without_unknown.png "Gender balance in corpus and in overall literary production")
+Concercing gender, we used statements from Wikidata as well as a python script filtering for gender specific titles (Abbé, Marquis etc.). For the rest of names not having a Wikidata match, nor a title, we used the gender guesser python package. 
+![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/gender_proportion_without_unknown.png "Gender balance in corpus and in overall literary production")
 
 # Narrative form 
+Information on narrative form was extracted from the BGRF data(Mylne et al., 1977) as well as human evaluation for the full texts.  
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/narrative_forms_decade.png "Narrative form in corpus and in overall literary production")
 
 For a more detailed documentation of our sampling and balancing strategy, see our [Jupyter Notebook](https://github.com/MiMoText/balance_novels/blob/main/balance_analysis_newStructure.ipynb).
