@@ -8,7 +8,7 @@ This collection of Eighteenth-Century French Novels contains 200 digital texts o
 
 In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'. As it was trained on OCR4all version 0.4.0, LAREX version 0.4.0, it is not compatible with the newest version of OCR4all. 
 
-Applying this OCR-model to additional scans provided by for instance by Gallica (bnf.fr) and other sources (see metadata for details), a second group of novels which are not yet digitally available (or only in low quality) was produced.
+Applying this OCR-model to additional scans provided by for instance by Gallica (bnf.fr) and other sources (see metadata for details), a second group of novels which are not yet available in full text (or only in low quality) was produced.
 
 A third group of texts, based on existing full texts (from Wikisource and other sources) helped us reach 200 volumes. 
 
