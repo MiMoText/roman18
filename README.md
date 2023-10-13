@@ -18,7 +18,7 @@ At the beginning, corpus composition depended primarily on pragmatic criteria. W
 BGRF = abreviation for *Bibliographie du genre romanesque français 1751-1800*, a source of bibliographic metadata we mined for extracting publication years, narrative form, authors and more.  
 
 ### Year of first publication per decades
-The year of first publication according to BGRF data. We compared the overall novel publication with the corpus data and added novels per year according to the known historical publication proportions. Shown here a simplified overview per decade.
+The year of first publication according to BGRF data. We compared the overall novel publication with the corpus data and added novels per year according to the known historical publication proportions. Shown here is an overview per decade.
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/pubyear-decade.png "First edition year in corpus and in overall literary production")
 
 ### Gender balance
