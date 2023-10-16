@@ -26,6 +26,7 @@ path = "../../XML-TEI/files"
 xpaths = {"xmlid": "//tei:TEI/@xml:id",
           "title": "//tei:titleStmt/tei:title/text()",
           "author_wikidata": "//tei:titleStmt/tei:author/@ref",
+          "author_MiMoText-ID":"//tei:titleStmt/tei:author/@ref",
           "printSource-yr": "//tei:bibl[@type='printSource']/tei:date/text()",
           "firsted-yr": "//tei:bibl[@type='firstEdition']/tei:date/text()",
           "form": "//tei:textClass/tei:keywords/tei:term[@type='form']/text()",
@@ -33,6 +34,7 @@ xpaths = {"xmlid": "//tei:TEI/@xml:id",
           "data-capture": "//tei:textClass/tei:keywords/tei:term[@type='data-capture']/text()",
           "bgrf": "//tei:titleStmt/tei:title/@ref",
           "title_wikidata": "//tei:titleStmt/tei:title/@ref",
+          "title_MiMoText-ID": "//tei:titleStmt/tei:title/@ref",
           "token_count": "//tei:extent/tei:measure/text()",
           "vols_count": "//tei:extent/tei:measure[@unit='vols']/text()",
           "lang": "/tei:TEI/@xml:lang",
@@ -54,7 +56,7 @@ xpaths = {"xmlid": "//tei:TEI/@xml:id",
           }
 
 ordering = ["filename", "au-name", "au-birth", "au-death", "title", "au-gender", "firsted-yr", "printSource-yr", "form", "spelling",
-            "data-capture", "token count", "vols_count", "size", "bgrf", "author_wikidata", "title_wikidata", "lang",
+            "data-capture", "token count", "vols_count", "size", "bgrf", "author_wikidata", "author_MiMoText-ID", "title_wikidata", "title_MiMoText-ID","lang",
             "publisher", "distributor", "distribution_date", "copyright_status", "digitalSource_Title",
             "digitalSource_Ref",
             "digitalSource_Publisher", "digitalSource_Date", "printSource_title", "printSource_author",
@@ -104,12 +106,23 @@ def get_metadatum(xml, xpath, key):
             metadatum = [w.split(" ")[1] for w in metadatum]
             metadatum = [re.sub("wikidata:", "", w) for w in metadatum]
             metadatum = ", ".join(m.strip() for m in metadatum)
-                
             if metadatum == "":
                 metadatum = "NA"
         except IndexError:
             metadatum = "NA"
-
+    
+    
+    if key == "author_MiMoText-ID":
+        try:          
+            metadatum = [w.split(" ")[2] for w in metadatum]
+            metadatum = [re.sub("MiMoText-ID:", "", w) for w in metadatum]
+            metadatum = ", ".join(m.strip() for m in metadatum)
+            if metadatum == "":
+                metadatum = "NA"
+        except IndexError:
+            metadatum = "NA"
+    
+    
     if key == "bgrf":
         metadatum = [m.split(" ")[0] for m in metadatum]
         metadatum = [re.sub("bgrf:", "", m) for m in metadatum]
@@ -120,6 +133,13 @@ def get_metadatum(xml, xpath, key):
             metadatum = [m.split(" ")[1] for m in metadatum]
             #print(metadatum)
             metadatum = [re.sub("wikidata:", "", m) for m in metadatum]
+            metadatum = ", ".join(m.strip() for m in metadatum)
+        except IndexError:
+            metadatum = "NA"
+    if key == "title_MiMoText-ID":
+        try:
+            metadatum = [m.split(" ")[2] for m in metadatum]
+            metadatum = [re.sub("MiMoText-ID:", "", m) for m in metadatum]
             metadatum = ", ".join(m.strip() for m in metadatum)
         except IndexError:
             metadatum = "NA"
@@ -367,6 +387,7 @@ def main(path, xpaths, ordering, sorting):
     metadatafile = join("..", "..", "XML-TEI", "xml-tei_full_metadata.tsv")
     allmetadata = []
     counter = 0
+
     for teiFile in glob.glob(teiFolder):
         filename, ext = basename(teiFile).split(".")
         print(filename)
@@ -386,8 +407,8 @@ def main(path, xpaths, ordering, sorting):
                 metadatum = get_metadatum(xml, xpath, key)
                 keys.append(key)
                 metadata.append(metadatum)
-                #print(metadata)
             allmetadata.append(dict(zip(keys, metadata)))
+
         #except:
         #    print("ERROR!!!", filename)
     print("FILES:", counter)
