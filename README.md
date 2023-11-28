@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7712928.svg)](https://doi.org/10.5281/zenodo.7712928)
+[![DOI](https://zenodo.org/badge/218758383.svg)](https://zenodo.org/doi/10.5281/zenodo.4061903)
 
 # Collection de romans français du dix-huitième siècle (1751-1800) / Collection of Eighteenth-Century French Novels (1751-1800)
 
