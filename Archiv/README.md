@@ -1,1 +1,0 @@
-Here we store files which were generated as intermediate.
