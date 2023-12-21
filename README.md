@@ -78,7 +78,6 @@ The main language of all texts is French.
 
 ## Structure of the repository
 
-* Archive: here we store files which were generated as intermediate for our digitization pipeline with OCR4all. 
 * Python-Scripts: the scripts folder contains python scripts needed for corpus creation 
 * Schemas: current versions of the ELTeC schema in RELAX NG are available from this repository
 * XML-TEI: our corpus of french novels 1751-1800 in XML/TEI and metadata are stored here
@@ -92,11 +91,10 @@ All texts and scripts are in the public domain and can be reused without restric
 
 ## Citation suggestion
 
-*Collection de romans français du dix-huitième siècle (1751-1800) / Eighteenth-Century French Novels (1751-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Henning Gebhard, Anne Klee, Johanna Konstanciak, Damir Padieu, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v.1.2.0. Trier: TCDH, 2023. URL: https://github.com/mimotext/roman18. DOI: https://doi.org/10.5281/zenodo.4061903.
+*Collection de romans français du dix-huitième siècle (1751-1800) / Eighteenth-Century French Novels (1751-1800)*, edited by Julia Röttgermann, with contributions from Julia Dudar, Henning Gebhard, Anne Klee, Johanna Konstanciak, Damir Padieu, Amelie Probst, Sarah Rebecca Ondraszek and Christof Schöch. Release v.1.2.1. Trier: TCDH, 2023. URL: https://github.com/mimotext/roman18. DOI: https://doi.org/10.5281/zenodo.4061903.
 
 ## Related resources
-* [
-MiMoTextBase - a knowledge graph on Eighteenth Century French Novels](https://data.mimotext.uni-trier.de/wiki/Main_Page)
+* [MiMoTextBase - a knowledge graph on Eighteenth Century French Novels](https://data.mimotext.uni-trier.de/wiki/Main_Page)
 * [MiMoText SPARQL endpoint](https://query.mimotext.uni-trier.de/)
 * [MiMoTextBase Tutorial: How to query the graph and an introduction to SPARQL](https://mimotext.github.io/MiMoTextBase_Tutorial/)
 * [Our controlled vocabularies ](https://github.com/MiMoText/vocabularies)
