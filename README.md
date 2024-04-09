@@ -6,11 +6,11 @@ This collection of Eighteenth-Century French Novels contains 200 digital texts o
 
 ## Corpus building
 
-In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french'. As it was trained on OCR4all version 0.4.0, LAREX version 0.4.0, it is not compatible with the newest version of OCR4all. 
+In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french', but is specifically tailored to version 0.4.0 of OCR4all and to version 0.4.0 of LAREX.  Consequently, it is not compatible with the latest OCR4all version.
 
-Applying this OCR-model to additional scans provided by for instance by Gallica (bnf.fr) and other sources (see metadata for details), a second group of novels which are not yet available in full text (or only in low quality) was produced.
+By applying this OCR model to additional scans obtained from sources such as Gallica (bnf.fr) and others (refer to metadata for specifics), a second batch of novels, previously unavailable in full text or only available in poor quality, was generated.
 
-A third group of texts, based on existing full texts (from Wikisource and other sources) helped us reach 200 volumes. 
+A third set of texts, sourced from existing full texts (e.g., Wikisource and other repositories), contributed to reaching a total of 200 volumes.
 
 ## Balancing criteria
 At the beginning, corpus composition depended primarily on pragmatic criteria. We then proceeded and used additional metadata on the literary production to balance the corpus of full texts. A bibliography documenting the overall production of novels in the period is Angus Martin, Vivienne G. Mylne and Richard Frautschi, *Bibliographie du genre romanesque français 1751-1800*, 1977. We used this metadata to balance our corpus of texts regarding the parameters gender, year of first publication and narrative form in approaching the historical distribution of these parameters in our full text metadata. 
@@ -22,7 +22,7 @@ The year of first publication according to BGRF data. We compared the overall no
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/pubyear-decade.png "First edition year in corpus and in overall literary production")
 
 ### Gender balance
-Concerning gender, we used statements from Wikidata as well as a python script filtering for gender specific titles (Abbé, Marquis etc.). In cases where names lacked a Wikidata match or a specific title, we employed the gender guesser Python package to make gender predictions.
+Concerning gender, we used statements from Wikidata as well as a python script filtering for gender specific titles. Additionally, we employed the gender guesser Python package to make gender predictions.
 ![Balancing of the collection](https://raw.githubusercontent.com/MiMoText/balance_novels/main/img/gender_proportion_without_unknown.png "Gender balance in corpus and in overall literary production")
 
 ### Narrative form 
