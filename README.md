@@ -4,6 +4,9 @@
 
 This collection of Eighteenth-Century French Novels contains 200 digital texts of novels created or first published between 1751 and 1800. The collection is created in the context of [Mining and Modeling Text](https://www.mimotext.uni-trier.de/en) (2019-2023), a project which is located at the Trier Center for Digital Humanities ([TCDH](https://tcdh.uni-trier.de/en)) at Trier University. 
 
+## Data paper 
+Röttgermann, J. (2024). The Collection of Eighteenth Century French Novels 1751–1800. Journal of Open Humanities Data, 10: 31, pp. 1–5. DOI: https://doi.org/10.5334/johd.201   
+
 ## Corpus building
 
 In the first step, about 40 novels have been carefully created by double keying. Using this first group of novels, an OCR-model has been trained in cooperation with Christian Reul (University of Würzburg), who is one of the developers of OCR4all. The result is an OCR model for French prints of the late 18th century. This model is available within OCR4all as '18th_century_french', but is specifically tailored to version 0.4.0 of OCR4all and to version 0.4.0 of LAREX.  Consequently, it is not compatible with the latest OCR4all version.
